@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/panel1">
+        <item
+            android:id="@+id/menu_uvod"
+            android:title="Dnešný deň" />
+        <item
+            android:id="@+id/menu_omse"
+            android:title="Špeciálne omše" />
+        <item
+            android:id="@+id/menu_kalendar"
+            android:title="Kalendár" />
+        <item
+            android:id="@+id/menu_odpovede"
+            android:title="Odpovede v cudzích jazykoch" />
+    </group>
+
+    <group android:id="@+id/panel2">
+        <item
+            android:id="@+id/menu_font"
+            android:title="Typ písma" />
+        <item
+            android:id="@+id/menu_fullscreen"
+            android:title="Celá obrazovka"
+            app:actionLayout="@layout/switch_item" />
+        <item
+            android:id="@+id/menu_rezim"
+            android:title="Nočný režim"
+            app:actionLayout="@layout/switch_item" />
+        <item
+            android:id="@+id/menu_pismo"
+            android:title="Tučné písmo"
+            app:actionLayout="@layout/switch_item" />
+        <item
+            android:id="@+id/menu_zvoncek"
+            android:title="Zvončeky"
+            app:actionLayout="@layout/switch_item" />
+        <item
+            android:id="@+id/menu_tiche_modlitby"
+            android:title="Tiché modlitby kňaza"
+            app:actionLayout="@layout/switch_item" />
+        <item
+            android:id="@+id/velkost"
+            android:title="Veľkosť"
+            app:actionLayout="@layout/zoom" />
+    </group>
+    <group android:id="@+id/panel3">
+        <item
+            android:id="@+id/menu_info"
+            android:title="O aplikacii" />
+    </group>
+
+</menu>

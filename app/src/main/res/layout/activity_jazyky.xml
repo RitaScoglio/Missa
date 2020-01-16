@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:keepScreenOn="true"
+    tools:context=".Jazyky"
+    tools:openDrawer="start">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/primary"
+                    app:popupTheme="@style/PopupOverlay"
+                    app:theme="@style/Toolbar" >
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/toolbar_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textSize="20sp"
+                        android:textColor="@color/background"/>
+
+                </android.support.v7.widget.Toolbar>
+
+            </LinearLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:id="@+id/nadpis1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_1"
+                            android:layout_marginEnd="6dp"
+                            android:layout_marginRight="6dp"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis1_1" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_2"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis1_2" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_3"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis1_3" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_4"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis1_4" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_5"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis1_5" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_6"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis1_6" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_7"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis1_7" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_8"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis1_8" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_9"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis1_9" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_10"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis1_10" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_11"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis1_11" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_12"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis1_12" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_13"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis1_13" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno1_14"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis1_14" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/nadpis2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/vypis2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/nadpis3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno3_1"
+                            android:layout_marginEnd="6dp"
+                            android:layout_marginRight="6dp"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis3_1" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno3_2"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis3_2" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/nadpis4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno4_1"
+                            android:layout_marginEnd="6dp"
+                            android:layout_marginRight="6dp"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis4_1" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno4_2"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis4_2" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno4_3"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis4_3" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno4_4"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis4_4" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/nadpis5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno5_1"
+                            android:layout_marginEnd="6dp"
+                            android:layout_marginRight="6dp"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis5_1"
+                            tools:ignore="TooManyViews" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno5_2"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis5_2" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/nadpis6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/vypis6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/nadpis7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno7_1"
+                            android:layout_marginEnd="6dp"
+                            android:layout_marginRight="6dp"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis7_1" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno7_2"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis7_2" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno7_3"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis7_3" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno7_4"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis7_4" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno7_5"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis7_5" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno7_6"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis7_6" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/nadpis8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno8_1"
+                            android:layout_marginEnd="6dp"
+                            android:layout_marginRight="6dp"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis8_1" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno8_2"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis8_2" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno8_3"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis8_3" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno8_4"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis8_4" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno8_5"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis8_5" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno8_6"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis8_6" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno8_7"
+                            android:text="@string/vsetci" />
+
+                        <TextView android:id="@+id/vypis8_7" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/nadpis9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno9_1"
+                            android:layout_marginEnd="6dp"
+                            android:layout_marginRight="6dp"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis9_1" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno9_2"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis9_2" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno9_3"
+                            android:text="@string/alebo" />
+
+                        <TextView android:id="@+id/vypis9_3" />
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/bonusm9_1"
+                            android:text="@string/knaz"
+                            android:textSize="0dp"/>
+
+                        <TextView android:id="@+id/bonusv9_1"
+                            android:textSize="0dp"/>
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno9_4"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis9_4" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno9_5"
+                            android:text="@string/alebo" />
+
+                        <TextView android:id="@+id/vypis9_5" />
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/bonusm9_2"
+                            android:text="@string/knaz"
+                            android:textSize="0dp"/>
+
+                        <TextView android:id="@+id/bonusv9_2"
+                            android:textSize="0dp"/>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno9_6"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis9_6" />
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/bonusm9_3"
+                            android:text="@string/alebo"
+                            android:textSize="0dp"/>
+
+                        <TextView android:id="@+id/bonusv9_3"
+                            android:textSize="0dp"/>
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/bonusm9_4"
+                            android:text="@string/knaz"
+                            android:textSize="0dp"/>
+
+                        <TextView android:id="@+id/bonusv9_4"
+                            android:textSize="0dp"/>
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/bonusm9_5"
+                            android:text="@string/lud"
+                            android:textSize="0dp"/>
+
+                        <TextView android:id="@+id/bonusv9_5"
+                            android:textSize="0dp"/>
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/nadpis10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno10_1"
+                            android:layout_marginEnd="6dp"
+                            android:layout_marginRight="6dp"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis10_1" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno10_2"
+                            android:text="@string/vsetci" />
+
+                        <TextView android:id="@+id/vypis10_2" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno10_3"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis10_3" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno10_4"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis10_4" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno10_5"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis10_5" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno10_6"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis10_6" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno10_7"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis10_7" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno10_8"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis10_8" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno10_9"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis10_9" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/nadpis11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/bonus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="0dp"/>
+
+                <TextView
+                    android:id="@+id/vypis11_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno11_2"
+                            android:layout_marginEnd="6dp"
+                            android:layout_marginRight="6dp"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis11_2" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno11_3"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis11_3" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno11_4"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis11_4" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno11_5"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis11_5" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/nadpis12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno12_1"
+                            android:layout_marginEnd="6dp"
+                            android:layout_marginRight="6dp"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis12_1" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno12_2"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis12_2" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno12_3"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis12_3" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno12_4"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis12_4" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno12_5"
+                            android:text="@string/knaz" />
+
+                        <TextView android:id="@+id/vypis12_5" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:id="@+id/meno12_6"
+                            android:text="@string/lud" />
+
+                        <TextView android:id="@+id/vypis12_6" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.design.widget.CoordinatorLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/menu_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/menu_header"
+        app:itemTextAppearance="@style/App"
+        app:menu="@menu/missa_menu" />
+</android.support.v4.widget.DrawerLayout>

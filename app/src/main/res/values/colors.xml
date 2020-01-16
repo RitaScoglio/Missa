@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#80242b</color>
+    <color name="primary_dark">#712026</color>
+    <color name="color_accent">#b71c1c</color>
+    <color name="background">#f5ebd2</color>
+    <color name="menu_background">#4D4D41</color>
+    <color name="primary_light">#D20607</color>
+
+    <color name="black">#000000</color>
+</resources>
+
+<!-- pri zmene farieb menit aj v adapteroch (vyskakovacie okna) -->
+

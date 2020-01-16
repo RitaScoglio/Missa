@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="listPreferredItemHeightSmall">40dp</item><!--medzery medzi menu item -->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SerifTheme" parent="AppTheme.NoActionBar">
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="SansSerifTheme" parent="AppTheme.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="App" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PismoToolbar" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/background</item>
+        <item name="android:textColorSecondary">@color/background</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Toolbar" parent="PismoToolbar" />
+
+    <style name="TitleDark">
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TitleLight">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

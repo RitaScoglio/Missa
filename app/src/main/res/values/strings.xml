@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Missa</string>
+    <string name="open">Otvoriť</string>
+    <string name="cancel">Zavrieť</string>
+    <string name="kalendar_den"></string>
+    <string name="kalendar_vypis"></string>
+    <string name="misal"></string>
+    <string name="zvoncek">Zvonček</string>
+    <string name="knaz">Kňaz:</string>
+    <string name="lud">Ľud:</string>
+    <string name="vsetci">Všetci:</string>
+    <string name="alebo">Alebo:</string>
+    <string name="show_buttons">Show buttons</string>
+</resources>
