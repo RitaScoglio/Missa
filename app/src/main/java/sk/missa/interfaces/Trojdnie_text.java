@@ -17,7 +17,7 @@ package sk.missa.interfaces;
   P - prefacia
   O - obrad prijimanie
   C - specialne komentare
-* */
+*/
 
 import sk.missa.R;
 

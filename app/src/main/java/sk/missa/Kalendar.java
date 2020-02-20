@@ -280,7 +280,7 @@ public class Kalendar extends Main {
         if (mm == 0) {
             mm = 11;
             rok--;
-        } else if(mm == 10){
+        //} else if(mm == 10){
             //obmedzenie kalendara
         } else {
             mm--;
@@ -295,7 +295,7 @@ public class Kalendar extends Main {
         if (mm == 11) {
             mm = 0;
             rok++;
-        } else if(mm == 4){
+        //} else if(mm == 4){
                         //obmedzenie kalendara
         } else {
             linear_kalendar.startAnimation(slideInRight);

@@ -12,7 +12,7 @@ package sk.missa.interfaces;
  * {ID sviatku (podľa interface Svatci), liturgický rok (A, B, C), "", súradnice, text},
  *
  * Keďže sú žalmy a alelujové verše v adventnom a vianočnom období viazané na deň, nachádzajú sa uložené v mesiaci, ktorému prislúchajú a s dňom ako ID
- * */
+ */
 
 public interface Zalmy_svatci {
     String[][] zalmPohyb = {

@@ -2,7 +2,7 @@ package sk.missa.interfaces;
 
 /*
 * text pre úpravy v omšovom poriadku (trieda Upravy_Misal)
-* */
+*/
 
 public interface Upravy_misal {
     String[] omsa_upravy = {

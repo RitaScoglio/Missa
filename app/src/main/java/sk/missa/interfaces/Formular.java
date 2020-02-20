@@ -47,7 +47,7 @@ VLASTNE FORMULARE
 01 - Pondelok po zoslaní DS
 02 - NAJSVÄTEJŠIEHO SRDCA JEŽIŠOVHO
 03 - VOTÍVNA OMŠA O NAJSVÄTEJŠOM SRDCI JEŽIŠOVOM
-    */
+   */
 
 public interface Formular {
 

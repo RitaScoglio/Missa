@@ -7,7 +7,7 @@ package sk.missa.interfaces;
  * čítanie, ktoré obsahuje alebo: {týždeň v\u00A0cezročnom období + deň v\u00A0týždni (1-pondelok, 2-utorok..., 6-sobota), deň v\u00A0týždni (1-pondelok, 2-utorok..., 6-sobota, "", súradnice, citát, text, "Alebo:", súradnice, citát, text...},
  *
  * Keďže sú čitania v\u00A0adventnom a vianočnom období viazané na\u00A0deň, nachádzajú sa v\u00A0Citania_svatci uložené v\u00A0mesiaci, ktorému prislúchajú a s\u00A0dňom ako ID
- * */
+ */
 
 public interface Citania_advent {
     String[][] adventCitanie1 = {

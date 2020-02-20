@@ -9,7 +9,7 @@ package sk.missa.interfaces;
  * Alelujové verše v cezročnom období uložené v dvojrozmernom poli: cezrokAleluja
  * nedeľa: {týždeň v cezročnom období, liturgický rok (A/B/C), "", súradnice, text},
  * deň v týždni: {týždeň v cezročnom období, deň v týždni (1-pondelok, 2-utorok..., 6-sobota), "", súradnice, text},
- * */
+ */
 
 
 public interface Zalmy_cezrok {

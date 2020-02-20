@@ -5,7 +5,7 @@ package sk.missa.interfaces;
 * nedeľa: {týždeň v\u00A0cezročnom období, liturgický rok (A/B/C), "", súradnice, citát, text},
 * deň v\u00A0týždni: {týždeň v\u00A0cezročnom období, deň v\u00A0týždni (1-pondelok, 2-utorok..., 6-sobota), cyklus (1/2), súradnice, citát, text},
 * čítanie, ktoré obsahuje alebo: {týždeň v\u00A0cezročnom období, deň v\u00A0týždni (1-pondelok, 2-utorok..., 6-sobota, cyklus (1/2), súradnice, citát, text, "Alebo:", súradnice, citát, text...},
-* */
+*/
 
 public interface Citania_cezrok {
     String[][] cezrokCitanie1 = {

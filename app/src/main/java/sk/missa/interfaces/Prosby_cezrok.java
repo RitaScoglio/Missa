@@ -4,7 +4,7 @@ package sk.missa.interfaces;
  * Prosby v cezročnom období uložené v dvojrozmernom poli - cezrokProsby
  * nedeľa: {týždeň v cezročnom období, liturgický rok (A/B/C), názov spoločnej časti, úvodná výzva, odpoveď ľudu, úmysly, záverečná modlitba},
  * deň v týždni: {týždeň v cezročnom období, deň v týždni (1-pondelok, 2-utorok..., 6-sobota), názov spoločnej časti, úvodná výzva, odpoveď ľudu, úmysly, záverečná modlitba},
- * */
+ */
 
 public interface Prosby_cezrok {
     String[][] cezrokProsby = {

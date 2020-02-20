@@ -718,7 +718,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             prveCitanie();
         }
         //ak je na výber viac čítaní
-        if (index != -1 && citanie[index].length > 6) {
+        if (index != -1 && citanie[index].length > 6 && !(ID.equals("02g") && m == 1 && dvt == 0)) {
             aleboCitanie(citanie, index, 1);
         }
     }
@@ -882,7 +882,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void druheCitanie() {
         druhe_citanie = null;
         //zisti ci je druhe citanie v dany den
-        if ((ID.contains("k") || ID.contains("n") || menoSvatca.equals("POPOLCOVÁ STREDA") || nedela) && !slavenie.equals("Oktáva")) {
+        if ((ID.contains("k") || ID.contains("n") || menoSvatca.equals("POPOLCOVÁ STREDA") ||
+                nedela || (ID.equals("02g") && m == 1 && dvt == 0)) && !slavenie.equals("Oktáva")) {
             druhe_citanie = "Druhé čítanie";
             int index = 0;
             if (C)
@@ -1401,9 +1402,11 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         kredo = null;
         if (ID.equals("26g") && m == 11)
             kredo = "<font color='#B71C1C'>Pri slávnostných omšiach môže byť aj Krédo (otvoriť)</font>";
-        else if (ID.equals("10gkp") && dvt != 0) {
+        else if (ID.equals("10gkp") && dvt != 0)
             kredo = null;
-        } else if (ID.contains("k") || nedela || slavenie.equals("Oktáva") || menoSvatca.equals("POPOLCOVÁ STREDA")) {
+        else if (ID.equals("02g") && m == 1 && dvt == 0)
+            kredo = "<font color='#B71C1C'>Krédo (otvoriť)</font>";
+        else if (ID.contains("k") || nedela || slavenie.equals("Oktáva") || menoSvatca.equals("POPOLCOVÁ STREDA")) {
             if (menoSvatca.equals("POPOLCOVÁ STREDA"))
                 kredo = "<font color='#B71C1C'>Požehnanie popola a značenie popolom</font>";
             else

@@ -8,7 +8,7 @@ package sk.missa.interfaces;
  * Alelujové verše v pôstnom období uložené v dvojrozmernom poli: postAleluja
  * nedeľa: {týždeň v pôstnom období+deň (napr. 2 týždeň v pondelok - 21), liturgický rok (A/B/C), "", súradnice, text},
  * deň v týždni: {týždeň v pôstnom období+deň, deň v týždni (1-pondelok, 2-utorok..., 6-sobota), "", súradnice, text},
- * */
+ */
 
 public interface Zalmy_post {
     String[][] postZalm = {

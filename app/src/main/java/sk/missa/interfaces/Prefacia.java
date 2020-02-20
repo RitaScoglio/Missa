@@ -2,7 +2,6 @@ package sk.missa.interfaces;
 
 /*
 v dvojrozmerných poliach (prefacia1, prefacia2...) sa nachádzajú ID sviatkov, pri ktorých sa nachádzajú priradené ID prefácií podľa vzoru nižšie
-
 prefacie - {ID prefácie, názov prefácie, nadpis, text},
 
 001 - prefacia v kode

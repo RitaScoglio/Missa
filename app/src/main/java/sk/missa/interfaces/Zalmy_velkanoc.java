@@ -8,7 +8,7 @@ package sk.missa.interfaces;
  * Alelujové verše vo veľkonočnom období uložené v dvojrozmernom poli: velkanocAleluja
  * nedeľa: {týždeň vo veľkonočnom období+deň (napr. 2 týždeň v pondelok - 21), liturgický rok (A/B/C), "", súradnice, text},
  * deň v týždni: {týždeň vo veľkonočnom období+deň, deň v týždni (1-pondelok, 2-utorok..., 6-sobota), "", súradnice, text},
- * */
+ */
 
 public interface Zalmy_velkanoc {
     String[][] velkanocZalm = {

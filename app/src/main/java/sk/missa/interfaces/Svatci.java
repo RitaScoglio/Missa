@@ -48,7 +48,7 @@ public interface Svatci {
     Pôstne      p
     Veľkonočné  n
     => posledne pismeno v ID symbolizuje obdobie, v ktorom sa daný deň nachádza, toto písmeno sa prideľuje k sviatku vo funkciach v triede Main a následne sa odstráňuje pri zisťovaní obdobia vo funkcii v triede Misal
-     */
+    */
     String[] mesiac = {"január", "február", "marec", "apríl", "máj", "jún", "júl", "august", "september", "október", "november", "december"};
     String[] dni = {"Nedeľa", "Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok", "Sobota"};
     String[] VNdni = {"Nedeľa", "Veľkonočný pondelok", "Veľkonočný utorok", "Veľkonočná streda", "Veľkonočný štvrtok", "Veľkonočný piatok", "Veľkonočná sobota"};

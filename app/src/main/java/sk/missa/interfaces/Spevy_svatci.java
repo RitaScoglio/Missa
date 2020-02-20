@@ -7,7 +7,7 @@ package sk.missa.interfaces;
  * {ID sviatku (podľa interface Svatci), cirkevný rok (A/B/C), úvodný spev - text, úvodný spev - súradnice, spev po prijímaní - text, spev po prijímaní - súradnice},
  *
  * Keďže sú spevy v adventnom a vianočnom období viazané na deň, nachádzajú sa uložené v mesiaci, ktorému prislúchajú a s dňom ako ID
- * */
+ */
 
 public interface Spevy_svatci {
     String[][] spevPohyb = {

@@ -1,5 +1,11 @@
 package sk.missa.interfaces;
 
+/*
+ * Prosby v adventnom období uložené v dvojrozmernom poli - adventProsby
+ * nedeľa: {týždeň v adventnom období+deň (napr. 2 týždeň v pondelok - 21), liturgický rok (A/B/C), názov spoločnej časti, úvodná výzva, odpoveď ľudu, úmysly, záverečná modlitba},
+ * deň v týždni: {týždeň v adventnom období+deň, deň v týždni (1-pondelok, 2-utorok..., 6-sobota), názov spoločnej časti, úvodná výzva, odpoveď ľudu, úmysly, záverečná modlitba},
+ */
+
 public interface Prosby_advent {
     String[][] adventProsby = {
             {"10", "A", "Bratia a sestry, dnes, keď začíname nový cirkevný rok, prosme nebeského Otca, aby nás urobil schopnými počúvať jeho slovo a uskutočňovať ho v našom živote.",

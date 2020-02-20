@@ -5,7 +5,7 @@ package sk.missa.interfaces;
  * nedeľa: {týždeň vo\u00A0veľkonočnom období+deň, liturgický rok (A/B/C), "", súradnice, citát, text},
  * deň v\u00A0týždni: {týždeň vo\u00A0veľkonočnom období+deň (napr. 2 týždeň v\u00A0pondelok - 21), deň v\u00A0týždni (1-pondelok, 2-utorok..., 6-sobota), "", súradnice, citát, text},
  * čítanie, ktoré obsahuje alebo: {týždeň vo\u00A0veľkonočnom období+deň, deň v\u00A0týždni (1-pondelok, 2-utorok..., 6-sobota, "", súradnice, citát, text, "Alebo:", súradnice, citát, text...},
- * */
+ */
 
 
 public interface Citania_velkanoc {

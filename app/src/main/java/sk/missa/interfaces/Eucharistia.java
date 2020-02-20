@@ -5,7 +5,7 @@ package sk.missa.interfaces;
 * Eucharistické modlitby: eucharistia1, eucharistia2, eucharistia3, eucharistia4
 * Eucharistické modliby v omšiach za zmierenie: eucharistiaZmierenie1, eucharistiaZmierenie2
 * dvojrozmerné polia sú rozdelené na tri časti podľa slov premenenia a v nich sa striedajú úseky menšieho a normálneho textu
-* */
+*/
 
 public interface Eucharistia {
     String[][] vsuvkaEM = {

@@ -8,7 +8,7 @@ package sk.missa.interfaces;
  * adventné obdobie: {týždeň v adventnom období+deň (napr. 2 týždeň v pondelok - 21), úvodný spev - text, úvodný spev - súradnice, spev po prijímaní - text, spev po prijímaní - súradnice},
  *
  * Keďže sú spevy v adventnom a vianočnom období viazané na deň, nachádzajú sa v Spevy_svatci uložené v mesiaci, ktorému prislúchajú a s dňom ako ID
- * */
+ */
 
 public interface Spevy_obdobia {
     String[][] cezrokSpev = {

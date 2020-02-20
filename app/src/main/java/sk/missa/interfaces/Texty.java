@@ -16,7 +16,9 @@ package sk.missa.interfaces;
  * procesia - eucharistická procesia na slávnosť Najsvätejšieho Kristovho Tela a Krvi
  * slavnostne_pozehnanie - slávnostné požehnania rozdelené podľa období a významných sviatkov
  * ticheModlitby - tiché modlitby kňaza
- * */
+ * prid_Duchu_svaty_tvorivy
+ * teba_Boze_chvalime
+ */
 
 public interface Texty {
     String uvodnyPozdrav = "<font color='#B71C1C'>Kňaz:</font> <b>Milosť nášho Pána Ježiša Krista a láska Boha Otca i spoločenstvo Ducha Svätého nech je s vami všetkými.</b><br>" +

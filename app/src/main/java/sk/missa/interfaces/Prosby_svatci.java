@@ -5,7 +5,7 @@ package sk.missa.interfaces;
  * {ID sviatku (podľa mesiacov v interface Svatci), názov spoločnej časti, úvodná výzva, odpoveď ľudu, úmysly, záverečná modlitba},
  * Čítania pre pohyblivé sviatky: prosbyPohyb
  * {ID sviatku (podľa interface Svatci), cirkevný rok (A/B/C), názov spoločnej časti, úvodná výzva, odpoveď ľudu, úmysly, záverečná modlitba},
- * */
+ */
 
 
 public interface Prosby_svatci {

@@ -4,7 +4,7 @@ package sk.missa.interfaces;
  * Prosby v pôstnom období uložené v dvojrozmernom poli - postProsby
  * nedeľa: {týždeň v pôstnom období+deň (napr. 2 týždeň v pondelok - 21), liturgický rok (A/B/C), názov spoločnej časti, úvodná výzva, odpoveď ľudu, úmysly, záverečná modlitba},
  * deň v týždni: {týždeň v pôstnom období+deň, deň v týždni (1-pondelok, 2-utorok..., 6-sobota), názov spoločnej časti, úvodná výzva, odpoveď ľudu, úmysly, záverečná modlitba},
- * */
+ */
 
 public interface Prosby_post {
     String[][] postProsby = {

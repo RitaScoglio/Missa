@@ -7,7 +7,7 @@ package sk.missa.interfaces;
  * čítanie, ktoré obsahuje alebo: {ID sviatku (podľa mesiacov v\u00A0interface Svatci), "", "", súradnice, citát, text, "Alebo:", súradnice, citát, text...},
  *
  * Keďže sú čitania v\u00A0adventnom a vianočnom období viazané na\u00A0deň, nachádzajú sa uložené v\u00A0mesiaci, ktorému prislúchajú a s\u00A0dňom ako ID
- * */
+ */
 
 
 public interface Citania_svatci {
@@ -1531,7 +1531,15 @@ public interface Citania_svatci {
                             "Počuli sme Božie slovo."},
     };
 
-    String[][] citanie2_2 = {};
+    String[][] citanie2_2 = {
+            //iba ak je v nedelu
+            {"02g", "", "", "Hebr 2, 14-18",
+            "Vo všetkom sa musel pripodobniť bratom, aby sa stal milosrdným",
+            "Čítanie z Listu Hebrejom<br>" +
+                    "Pretože deti majú účasť na\u00A0krvi a tele, aj Ježiš mal podobne spoluúčasť na\u00A0nich, aby smrťou zničil toho, ktorý vládol smrťou, čiže diabla, a vyslobodil tých, ktorých celý život zotročoval strach pred\u00A0smrťou.<br>" +
+                    "Veď sa neujíma anjelov, ale ujíma sa Abrahámovho potomstva. Preto sa vo\u00A0všetkom musel pripodobniť bratom, aby sa stal milosrdným a verným veľkňazom pred\u00A0Bohom a odčinil hriechy ľudu. A pretože sám prešiel skúškou utrpenia, môže pomáhať tým, ktorí sú skúšaní.<br>" +
+                    "Počuli sme Božie slovo."}
+    };
 
     String[][] citanie2_3 = {};
 

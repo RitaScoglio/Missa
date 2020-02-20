@@ -3,7 +3,7 @@ package sk.missa.interfaces;
 /*
 * nadpis_view, vypis_view, meno_view - ID k views z activity_jazyky, do ktorých sa v triede Jazyky vkladá uložený text
 * každý jazyk má pole pre nadpisy a dvorozmerné pole pre text v cudzom jazyku, vo väčšine prípadov so slovenským prekladom
-* */
+*/
 
 import sk.missa.R;
 

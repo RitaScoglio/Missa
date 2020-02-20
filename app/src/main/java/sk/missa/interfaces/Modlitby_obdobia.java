@@ -8,7 +8,7 @@ package sk.missa.interfaces;
 * adventné obdobie: {týždeň v adventnom období+deň (napr. 2 týždeň v pondelok - 21), modlitba dňa, modlitba nad obetnými darmi, modlitba po prijímaní},
 *
 * Keďže sú modlitby v adventnom a vianočnom období viazané na deň, nachádzajú sa v Modlitby_svatci uložené v mesiaci, ktorému prislúchajú a s dňom ako ID
-* */
+*/
 
 public interface Modlitby_obdobia {
     String[][] cezrokModlitby = {

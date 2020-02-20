@@ -10,7 +10,7 @@ package sk.missa.interfaces;
  * deň v týždni: {týždeň v adventnom období + deň v týždni (1-pondelok, 2-utorok..., 6-sobota), deň v týždni (1-pondelok, 2-utorok..., 6-sobota), "", súradnice, text},
  *
  * Keďže sú žalmy a alelujové verše v adventnom a vianočnom období viazané na deň, nachádzajú sa v Zalmy_svatci uložené v mesiaci, ktorému prislúchajú a s dňom ako ID
- * */
+ */
 
 public interface Zalmy_advent {
 

@@ -7,7 +7,7 @@ package sk.missa.interfaces;
  * {ID sviatku (podľa interface Svatci), cirkevný rok (A/B/C) , modlitba dňa, modlitba nad obetnými darmi, modlitba po prijímaní},
  *
  * Keďže sú modlitby v adventnom a vianočnom období viazané na deň, nachádzajú sa uložené v mesiaci, ktorému prislúchajú a s dňom ako ID
- * */
+ */
 
 public interface Modlitby_svatci {
     String[][] modlitbaPohyb = {
