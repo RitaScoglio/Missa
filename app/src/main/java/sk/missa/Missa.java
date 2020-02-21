@@ -4,7 +4,7 @@ public class Missa {
 
     private String sekcia, nadpis, suradnice, citat, text, citat_prosby, text_prosby, text_center, text_small;
     private boolean zvonec, vypisHtml, italic;
-    private int otvor, medzera, indexAlebo;
+    private int otvor, medzera, indexAlebo, index;
 
     //rôzne možnosti výpisu textu v misáli
     //citania, modlitby, spevy
@@ -46,6 +46,14 @@ public class Missa {
     Missa(String text, boolean vypisHtml, int otvor){
         this.text = text;
         this.vypisHtml = vypisHtml;
+        this.otvor = otvor;
+    }
+
+    //vyskakovacie okna - Trojdnie
+    Missa(String nadpis, String suradnice, int index, int otvor){
+        this.nadpis = nadpis;
+        this.suradnice = suradnice;
+        this.index = index;
         this.otvor = otvor;
     }
 

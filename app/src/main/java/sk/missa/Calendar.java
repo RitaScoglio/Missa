@@ -1,6 +1,6 @@
 package sk.missa;
 
-public class Word {
+public class Calendar {
 
     private String konDen;
     private String menoSvatca;
@@ -12,11 +12,11 @@ public class Word {
     private String obdobie;
 
     //den v kalendari
-    Word(String konDen) {
+    Calendar(String konDen) {
         this.konDen = konDen;
     }
     //jednotlive dni v kalendari
-    Word(String menoSvatca, String slavenie, String farba, int day, int tyzden, String ID, String obdobie) {
+    Calendar(String menoSvatca, String slavenie, String farba, int day, int tyzden, String ID, String obdobie) {
         this.menoSvatca = menoSvatca;
         this.slavenie = slavenie;
         this.farba = farba;

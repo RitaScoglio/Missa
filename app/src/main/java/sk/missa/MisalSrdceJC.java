@@ -11,8 +11,6 @@ import android.widget.CompoundButton;
 
 import com.google.gson.Gson;
 
-import java.util.Calendar;
-
 public class MisalSrdceJC extends Misal {
 
     static int pozicia_prosby = 0;
@@ -219,7 +217,7 @@ public class MisalSrdceJC extends Misal {
         if (ID == null)
             getPremenne();
         dnes.set(rok, m, den);
-        dvt = (dnes.get(Calendar.DAY_OF_WEEK) - 1);
+        dvt = (dnes.get(java.util.Calendar.DAY_OF_WEEK) - 1);
 
         ziskajObdobie();
         ziskajFormular();
@@ -264,7 +262,7 @@ public class MisalSrdceJC extends Misal {
     private void setPremenne() {
         settings = getApplicationContext().getSharedPreferences("MySviatok", 0);
         SharedPreferences.Editor editor = settings.edit();
-        Word w = new Word(menoSvatca, slavenie, "", den, tyzden, ID, obdobie);
+        Calendar w = new Calendar(menoSvatca, slavenie, "", den, tyzden, ID, obdobie);
         Gson gson = new Gson();
         String json = gson.toJson(w);
         editor.putString("special-omsa", json).apply();

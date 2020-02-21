@@ -12,9 +12,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class WordAdapter extends ArrayAdapter<Word> {
+public class CalendarAdapter extends ArrayAdapter<Calendar> {
 
-    WordAdapter(Context context, ArrayList<Word> words) {
+    CalendarAdapter(Context context, ArrayList<Calendar> words) {
         super(context, 0, words);
     }
 
@@ -28,7 +28,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
                     R.layout.word_list, parent, false);
         }
 
-        Word currentWord = getItem(position);
+        Calendar currentWord = getItem(position);
 
         TextView konDen = listItemView.findViewById(R.id.den);
         assert currentWord != null;

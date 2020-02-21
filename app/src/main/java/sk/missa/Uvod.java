@@ -24,7 +24,6 @@ import com.google.gson.Gson;
 import org.joda.time.DateTime;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 
 
 public class Uvod extends Main {
@@ -283,10 +282,10 @@ public class Uvod extends Main {
     }
 
     private void slavenieDen(String[][] month) {
-        final ArrayList<Word> words = new ArrayList<>();
+        final ArrayList<Calendar> words = new ArrayList<>();
 
         mD = new DateTime(rok, m + 1, den, 12, 0, 0);
-        dvt = (dnes.get(Calendar.DAY_OF_WEEK) - 1);
+        dvt = (dnes.get(java.util.Calendar.DAY_OF_WEEK) - 1);
 
         //post
         if ((mD.isEqual(mP) || mD.isAfter(mP)) && mD.isBefore(mVN))
@@ -306,19 +305,19 @@ public class Uvod extends Main {
         adapter(words);
     }
 
-    private void adapter(final ArrayList<Word> words) {
-        Word w = words.get(0);
+    private void adapter(final ArrayList<Calendar> words) {
+        Calendar w = words.get(0);
         ulozSpecial(w);
         uvodLayout = true;
-        words.add(new Word(null));
-        //words.add(new Word(null));
-        WordAdapter adapter = new WordAdapter(this, words);
+        words.add(new Calendar(null));
+        //words.add(new Calendar(null));
+        CalendarAdapter adapter = new CalendarAdapter(this, words);
         ListView listView = findViewById(R.id.den_sviatky);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                Word word = words.get(position);
+                Calendar word = words.get(position);
                 if (word.getMenoSvatca() != null){
                     ID = word.getID();
                     den = word.getDay();
@@ -357,7 +356,7 @@ public class Uvod extends Main {
     }
 
     //ulozenie specialnej omse
-    private void ulozSpecial(Word w){
+    private void ulozSpecial(Calendar w){
         settings = getApplicationContext().getSharedPreferences("MySviatok", 0);
         SharedPreferences.Editor editor = settings.edit();
         String pom = w.getSlavenie();

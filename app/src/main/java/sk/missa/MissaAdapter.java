@@ -20,7 +20,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import static sk.missa.Main.nahrad;
 import static sk.missa.Main.pismo;
 import static sk.missa.Main.rezim;
 import static sk.missa.Main.sizeN;
@@ -32,6 +31,14 @@ import static sk.missa.Main.typeItalic;
 import static sk.missa.Main.typeNormal;
 
 public class MissaAdapter extends ArrayAdapter<Missa> {
+
+    private String nahrad(String text) {
+        if (rezim) {
+            text = text.replace("000000", "F5EBD2");
+            return text.replace("B71C1C", "D20607");
+        } else
+            return text.replace("B71C1C", "80242B"); //predtym - 9C0E0F
+    }
 
     MissaAdapter(Context context, ArrayList<Missa> missas) {
         super(context, 0, missas);
@@ -58,6 +65,10 @@ public class MissaAdapter extends ArrayAdapter<Missa> {
             sekcia.setGravity(Gravity.CENTER);
             sekcia.setTextColor(Color.BLACK);
             sekcia.setTextSize(sizeN);
+        } else if (currentMissa.getOtvor() == -2) {
+                sekcia.setGravity(Gravity.CENTER);
+                sekcia.setTextColor(Color.BLACK);
+                sekcia.setTextSize(sizeO);
         } else {
             sekcia.setTextColor(getContext().getResources().getColor(R.color.primary));
             sekcia.setGravity(Gravity.START);
@@ -85,12 +96,15 @@ public class MissaAdapter extends ArrayAdapter<Missa> {
 
 //maly text
         TextView text_small = listItemView.findViewById(R.id.text_small);
-        text_small.setText(currentMissa.getText_small());
         text_small.setTextSize((float) (sizeO * 0.75));
         if(currentMissa.getItalic())
             text_small.setTypeface(typeItalic);
         else
             text_small.setTypeface(typeNormal);
+        if (currentMissa.getVypisHtml() && currentMissa.getText_small() != null)
+            text_small.setText(Html.fromHtml(nahrad(currentMissa.getText_small())));
+        else
+            text_small.setText(currentMissa.getText_small());
 
         //text v strede
         TextView text_center = listItemView.findViewById(R.id.text_center);

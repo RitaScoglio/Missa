@@ -141,7 +141,7 @@ public interface Eucharistia {
                     "Smrť tvoju, Pane, zvestujeme<br>" +
                     "a tvoje zmŕtvychvstanie vyznávame,<br>" +
                     "kým neprídeš v sláve.",
-            "______________\n"+
+            "______________<br>"+
             "Druhá formula:",
                     "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.<br>" +
                     "Pane, keď jeme tento chlieb<br>" +
@@ -153,7 +153,7 @@ public interface Eucharistia {
                     "Spasiteľ sveta, zachráň nás,<br>" +
                     "veď ty si nás vykúpil<br>" +
                     "svojím krížom a zmŕtvychvstaním.",
-            "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\n"+
+            "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>"+
             "Potom kňaz s rozopätými rukami hovorí:",
             "<font color='#B71C1C'>Vš</font> Preto, Otče, my, tvoji služobníci<br>" +
                     "aj tvoj svätý ľud,<br>" +

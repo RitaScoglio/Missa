@@ -1,49 +1,34 @@
 package sk.missa.interfaces;
 
 /*
-* view - zoznam view na výpis textu
-* lection - zoznam view na napis a suradnice (v pripade citani a pod.)
-* vsuvkyEM - vsuvky do eucharistických modlitieb na Zelený štvrtok (ZŠ) a Bielu sobotu (BS)
+* vsuvkyTrojdnieEM - vsuvky do eucharistických modlitieb na Zelený štvrtok (ZŠ) a Bielu sobotu (BS)
 * evanjeliumSobota - evanjelium na Bielu sobotu (A, B, C)
 * sobota - texty na Bielu sobotu
 * piatok - texty na Veľký piatok
 * stvrtok - texty na Zelený štvrtok
 * Skratky pre texty (kvôli rôznemu spôsobu výpisu):
-  N - nadpisy
+  S - nadpis
+  N - podnadpisy
   K - komentare
   V - vyskakovacie okna
   E - citania, evanjelia, zalmy
-  A - epistola a evanjelium sobota
+  A - komentare okolo evanjelia na bielu sobotu
   P - prefacia
   O - obrad prijimanie
-  C - specialne komentare
 */
 
-import sk.missa.R;
-
 public interface Trojdnie_text {
-    Integer[] view = {
-            R.id.nadpis, R.id.text1, R.id.text2, R.id.text3, R.id.text4, R.id.text5, R.id.text6,
-            R.id.text7, R.id.text8, R.id.text9, R.id.text10, R.id.text11, R.id.text12, R.id.text13,
-            R.id.text14, R.id.text15, R.id.text16, R.id.text17, R.id.text18, R.id.text19, R.id.text20,
-            R.id.text21, R.id.text22, R.id.text23, R.id.text24, R.id.text25, R.id.prefacia, R.id.obrady,
-            R.id.text26, R.id.text27, R.id.text28
-    };
 
-    Integer[] lection = {
-            R.id.n0, R.id.s0, R.id.n1, R.id.s1, R.id.n2, R.id.s2, R.id.n3, R.id.s3, R.id.n4, R.id.s4, R.id.n5, R.id.s5
-    };
-
-    String[][] vsuvkyEM = {
-            {"ZŠ", "<br><font color='#B71C1C'>2.k</font> V spoločenstve s celou Cirkvou<br>" +
+    String[][] vsuvkyTrojdnieEM = {
+            {"ZŠ", "<font color='#B71C1C'>2.k</font> V spoločenstve s celou Cirkvou<br>" +
                     "v presvätý deň,<br>" +
                     "keď sa náš Pán Ježiš Kristus<br>" +
                     "vydal za nás na smrť,<br>" +
                     "s úctou si spomíname<br>" +
                     "najmä na preblahoslavenú Máriu, vždy Pannu,<br>" +
                     "Rodičku Ježiša Krista,<br>" +
-                    "Boha a nášho Pána,<br>",
-                    "<br><font color='#B71C1C'>H1</font> Bože, milostivo prijmi túto obetu,<br>" +
+                    "Boha a nášho Pána,",
+                    "<font color='#B71C1C'>HI</font> Bože, milostivo prijmi túto obetu,<br>" +
                             "ktorú ti predkladáme my, tvoji služobníci,<br>" +
                             "i celá tvoj a rodina<br>" +
                             "na pamiatku dňa, keď náš Pán Ježiš Kristus<br>" +
@@ -52,66 +37,66 @@ public interface Trojdnie_text {
                             "svojho tela a krvi.<br>" +
                             "Spravuj naše dni vo svojom pokoji,<br>" +
                             "zachráň nás od večného zatratenia<br>" +
-                            "a pripočítaj k zástupu svojich vyvolených.<br>",
-                    "<br>On večer pred svojím umučením<br>" +
+                            "a pripočítaj k zástupu svojich vyvolených.",
+                    "On večer pred svojím umučením<br>" +
                             "za spasenie nás i všetkých ľudí,<br>" +
-                            "čiže dnes.<br>"},
-            {"BS", "<br><font color='#B71C1C'>2.k</font> V spoločenstve s celou Cirkvou<br>" +
+                            "čiže dnes."},
+            {"BS", "<font color='#B71C1C'>2.k</font> V spoločenstve s celou Cirkvou<br>" +
             "v presvätú noc,<br>"+
             "keď náš Pán Ježiš Kristus<br>"+
             "vstal z mŕtvych,<br>"+
             "s úctou si spomíname<br>"+
             "najmä na preblahoslavenú Máriu, vždy Pannu,<br>"+
                     "Rodičku Ježiša Krista,<br>" +
-                    "Boha a nášho Pána,<br>",
-                    "<br><font color='#B71C1C'>H1</font> Bože, milostivo prijmi túto obetu,<br>" +
+                    "Boha a nášho Pána,",
+                    "<font color='#B71C1C'>HI</font> Bože, milostivo prijmi túto obetu,<br>" +
             "ktorú ti predkladáme <br>" +
             "my, tvoji služobníci,<br>" +
             "i celá tvoja rodina.<br>" +
             "Prinášame ti ju za tých,<br>" +
                             "ktorých si znovuzrodil z vody<br>" +
                             "a z Ducha Svätého<br>" +
-                            "a udelil si im odpustenie všetkých hriechov<br>",},
+                            "a udelil si im odpustenie všetkých hriechov",},
     };
 
-    String[] evanjeliumSobota = {
-            "Mt 28, 1-10", "Vstal z mŕtvych a ide pred vami do Galiley\n",
+    String[][] evanjeliumSobota = {
+            {"Mt 28, 1-10", "Vstal z mŕtvych a ide pred vami do Galiley\n",
             "<font color='#B71C1C'>†</font> Čítanie zo svätého Evanjelia podľa Matúša"+
                     "Keď sa pominula sobota, na úsvite prvého dňa v týždni prišla Mária Magdaléna a iná Mária pozrieť hrob. Vtom nastalo veľké zemetrasenie, lebo z neba zostúpil Pánov anjel, pristúpil, odvalil kameň a sadol si naň. Jeho zjav bol ako blesk a jeho odev biely ako sneh. Strážnici strnuli od strachu z neho a ostali ako mŕtvi.<br>"+
                     "Anjel sa prihovoril ženám: „Vy sa nebojte! Viem, že hľadáte Ježiša, ktorý bol ukrižovaný. Niet ho tu, lebo vstal, ako povedal. Poďte, pozrite si miesto, kde ležal. A rýchlo choďte povedať jeho učeníkom: ‚Vstal z mŕtvych a ide pred vami do Galiley. Tam ho uvidíte.‘ Hľa, povedal som vám to.“<br>"+
                     "Rýchlo vyšli z hrobu a so strachom i s veľkou radosťou bežali to oznámiť jeho učeníkom.<br>"+
                     "A hľa, Ježiš im išiel v ústrety a oslovil ich: „Pozdravujem vás!“ Ony pristúpili, objali mu nohy a klaňali sa mu. Tu im Ježiš povedal: „Nebojte sa! Choďte, oznámte mojim bratom, aby šli do Galiley; tam ma uvidia.“<br>"+
-                    "Počuli sme slovo Pánovo.<br>",
-            "Mk 16, 1-8", "Ukrižovaný Ježiš Nazaretský vstal z mŕtvych\n",
+                    "Počuli sme slovo Pánovo.<br>"},
+            {"Mk 16, 1-8", "Ukrižovaný Ježiš Nazaretský vstal z mŕtvych\n",
             "<font color='#B71C1C'>†</font> Čítanie zo svätého Evanjelia podľa Marka"+
                     "Keď sa pominula sobota, Mária Magdaléna a Mária Jakubova i Salome nakúpili voňavé oleje a išli ho pomazať. V prvý deň týždňa, skoro ráno, po východe slnka, prišli k hrobu a hovorili si: „Kto nám odvalí kameň od vchodu do hrobu?“<br>"+
                     "Ale keď sa pozreli, videli, že kameň je odvalený; bol totiž veľmi veľký.<br>"+
                     "Keď vošli do hrobu, na pravej strane videli sedieť mladíka oblečeného do bieleho rúcha a stŕpli.<br>"+
                     "On sa im prihovoril: „Neľakajte sa! Hľadáte Ježiša Nazaretského, ktorý bol ukrižovaný. Vstal z mŕtvych. Niet ho tu. Hľa, miesto, kde ho uložili. Ale choďte a povedzte jeho učeníkom a Petrovi: ‚Ide pred vami do Galiley. Tam ho uvidíte, ako vám povedal.‘“<br>"+
                     "Vyšli a utekali od hrobu, lebo sa ich zmocnila hrôza a strach. A nepovedali nikomu nič, lebo sa báli.<br>"+
-                    "Počuli sme slovo Pánovo.<br>",
-            "Lk 24, 1-12", "Prečo hľadáte živého medzi mŕtvymi?\n",
+                    "Počuli sme slovo Pánovo.<br>"},
+            {"Lk 24, 1-12", "Prečo hľadáte živého medzi mŕtvymi?\n",
             "<font color='#B71C1C'>†</font> Čítanie zo svätého Evanjelia podľa Lukáša"+
                     "V prvý deň týždňa zavčas ráno prišli k hrobu ženy a priniesli voňavé oleje, čo si pripravili. Kameň našli od hrobu odvalený, vošli dnu, ale telo Pána Ježiša nenašli.<br>"+
                     "Ako nad tým rozpačito uvažovali, zastali pri nich dvaja mužovia v žiarivom odeve. Zmocnil sa ich strach i sklonili tvár k zemi. Ale oni sa im prihovorili: „Prečo hľadáte živého medzi mŕtvymi? Niet ho tu. Vstal z mŕtvych. Spomeňte si, ako vám povedal, keď bol ešte v Galilei: ‚Syna človeka musia vydať do rúk hriešnych ľudí a ukrižovať, ale on tretieho dňa vstane z mŕtvych.‘“ Tu sa rozpamätali na jeho slová, vrátili sa od hrobu a toto všetko zvestovali Jedenástim i všetkým ostatným. Bola to Mária Magdaléna, Jana a Mária Jakubova. A s nimi aj iné to rozprávali apoštolom.<br>"+
                     "Ale im sa zdali tieto slová ako blúznenie a neverili im.<br>"+
                     "No Peter vstal a bežal k hrobu. Keď sa nahol dnu, videl tam len plachty. I vrátil sa domov a čudoval sa, čo sa stalo.<br>"+
-                    "Počuli sme slovo Pánovo.<br>"
+                    "Počuli sme slovo Pánovo.<br>"}
     };
 
     String[][] sobota = {
-            {"N", "BIELA SOBOTA\nalebo\nVEĽKÁ SOBOTA"},
-            {"K", "1. Podľa pradávnej tradície táto noc je očakávaním Pána (Ex 12, 42). Preto podľa napomenutia evanjelia (Lk 12, 35n) veriaci s horiacimi sviecami v rukách sa majú podobať ľudom očakávajúcim návrat svojho Pána. Ked príde a nájde ich bedliť, dá im miesto pri svojom stole.\n", "",
-                    "2. Veľkonočná vigília sa slávi takto: Po krátkom obrade svetla (prvá časť vigílie) svätá Cirkev rozjíma o divoch, ktoré Pán konal od začiatku pre svoj ľud, a prejavuje dôveru v Pánovo slovo a v jeho prísľub (druhá časť vigílie - liturgia slova); keď nastáva deň zmŕtvychvstania, celá Cirkev spolu s tými, čo sa znovuzrodili v krste (tretia časť vigílie), je pozvaná na sviatostnú hostinu, ktorú svojmu ľudu pripravil Pán svojou smrťou a zmŕtvychvstaním (štvrtá časť vigílie).\n", "",
-                    "3. Celá slávnosť Veľkonočnej vigílie sa koná v noci. Nemá sa začať pred súmrakom a má sa skončiť pred svitaním nedeľného rána.\n", "",
-                    "4. Omša vigílie, aj keď sa slávi pred polnocou, je omšou Veľkonočnej nedele. Veriaci, ktorí prijali Oltárnu sviatosť cez svätú omšu v noci, môžu ju znova prijať v druhej veľkonočnej omši vo dne.\n", "",
-                    "5. Kňazi, ktorí celebrovali alebo koncelebrovali svätú omšu v noci, môžu celebrovať alebo koncelebrovať druhú veľkonočnú omšu.\n", "",
-                    "6. Na slávenie veľkonočnej vigílie kňaz a prisluhujúci si oblečú biele omšové rúcho.\n", "",
+            {"S", "BIELA SOBOTA\nalebo\nVEĽKÁ SOBOTA"},
+            {"K", "1. Podľa pradávnej tradície táto noc je očakávaním Pána (Ex 12, 42). Preto podľa napomenutia evanjelia (Lk 12, 35n) veriaci s horiacimi sviecami v rukách sa majú podobať ľudom očakávajúcim návrat svojho Pána. Ked príde a nájde ich bedliť, dá im miesto pri svojom stole.\n", null,
+                    "2. Veľkonočná vigília sa slávi takto: Po krátkom obrade svetla (prvá časť vigílie) svätá Cirkev rozjíma o divoch, ktoré Pán konal od začiatku pre svoj ľud, a prejavuje dôveru v Pánovo slovo a v jeho prísľub (druhá časť vigílie - liturgia slova); keď nastáva deň zmŕtvychvstania, celá Cirkev spolu s tými, čo sa znovuzrodili v krste (tretia časť vigílie), je pozvaná na sviatostnú hostinu, ktorú svojmu ľudu pripravil Pán svojou smrťou a zmŕtvychvstaním (štvrtá časť vigílie).\n", null,
+                    "3. Celá slávnosť Veľkonočnej vigílie sa koná v noci. Nemá sa začať pred súmrakom a má sa skončiť pred svitaním nedeľného rána.\n", null,
+                    "4. Omša vigílie, aj keď sa slávi pred polnocou, je omšou Veľkonočnej nedele. Veriaci, ktorí prijali Oltárnu sviatosť cez svätú omšu v noci, môžu ju znova prijať v druhej veľkonočnej omši vo dne.\n", null,
+                    "5. Kňazi, ktorí celebrovali alebo koncelebrovali svätú omšu v noci, môžu celebrovať alebo koncelebrovať druhú veľkonočnú omšu.\n", null,
+                    "6. Na slávenie veľkonočnej vigílie kňaz a prisluhujúci si oblečú biele omšové rúcho.\n", null,
                     "Ak je možné, je treba na vhodnom mieste mimo kostola pripraviť z dreva vatru na požehnanie nového ohňa; plameň by mal byť taký, aby naozaj rozptýlili tmu a osvietil noc. Pretože ide o pravdivosť znaku, veľkonočnú sviecu treba pripraviť z vosku, každý rok novú, jedinú, dosť veľkú, nikdy nie umelú, lebo iba tak bude môcť naznačiť, že Kristus je svetlo sveta.\n" +
                             "Pre všetkých účastníkov vigílie treba pripraviť sviece.\n"},
-            {"N", "<b>I. časť: Slávnostný začiatok vigílie: Obrad svetla</b><br>"},
-            {"K", "", "<font color='#B71C1C'><b>Požehnanie ohňa a príprava veľkonočnej sviece</b></font><br>",
-                    "7. V kostole sa zhasia svetlá. Na vhodnom mieste mimo kostola sa pripraví oheň. Keď sa tam už zhromaždili veriaci, príde kňaz s prisluhujúcimi; jeden z nich nesie veľkonočnú sviecu (paškál). Keď nemožno posvätiť oheň mimo kostola, obrad sa koná, ako je uvedené pod č. 13.\n", "",
+            {"N", "I. časť: Slávnostný začiatok vigílie: Obrad svetla"},
+            {"K", null, "<font color='#B71C1C'><b>Požehnanie ohňa a príprava veľkonočnej sviece</b></font><br>",
+                    "7. V kostole sa zhasia svetlá. Na vhodnom mieste mimo kostola sa pripraví oheň. Keď sa tam už zhromaždili veriaci, príde kňaz s prisluhujúcimi; jeden z nich nesie veľkonočnú sviecu (paškál). Keď nemožno posvätiť oheň mimo kostola, obrad sa koná, ako je uvedené pod č. 13.\n", null,
                     "8. Kňaz pozdraví zhromaždený ľud zvyčajným spôsobom a krátko ho poučí o veľkonočnej vigílii týmito alebo podobnými slovami:\n",
                     "Bratia a sestry, v túto presvätú noc náš Pán Ježiš " +
                             "Kristus vstal z mŕtvych. Preto Cirkev po celom svete" +
@@ -134,7 +119,7 @@ public interface Trojdnie_text {
                             "Skrze Krista, nášho Pána.<br>" +
                             "večného svetla.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Amen.<br>",
-                    "Od posväteného ohňa sa zapáli veľkonočná svieca.\n", "",
+                    "Od posväteného ohňa sa zapáli veľkonočná svieca.\n", null,
                     "10. Ak je pre veriacich užitočnejšie zvýrazniť dôstojnosť a význam veľkonočnej sviece nejakými symbolmi, možno to urobiť takto:\n" +
                             "Po požehnaní nového ohňa akolyta alebo jeden z prisluhujúcich prinesie pred celebranta veľkonočnú sviecu. Celebrant vryje do sviece kríž; nad kríž napíše grécke písmeno alfa, pod kríž písmeno omega a medzi ramená kríža vpíše štyri číslice bežného roku. Pritom hovorí:\n",
                     "<br>",
@@ -163,7 +148,7 @@ public interface Trojdnie_text {
                     "12. Kňaz od po sväteného ohňa zapáli veľkonočnú sviecu a hovorí:\n",
                     "Svetlo Krista, ktorý slávne vstal z mŕtvych,<br>" +
                             "nech zaženie tmu z našich sŕdc a myslí.<br>",
-                    "Tieto symbolické úkony možno použiť všetky alebo len niektoré, podľa miestnych okolností. Biskupská konferencia môže stanoviť iný spôsob, lepšie vyhovujúci mentalite veriacich.\n", "",
+                    "Tieto symbolické úkony možno použiť všetky alebo len niektoré, podľa miestnych okolností. Biskupská konferencia môže stanoviť iný spôsob, lepšie vyhovujúci mentalite veriacich.\n", null,
                     "13. Ak sa pre prípadné ťažkosti nežehná oheň vonku, obrad požehnania ohňa sa prispôsobí okolnostiam. Keď sa ľud zhromaždí v kostole, kňaz a prisluhujúci s veľkonočnou sviecou prídu k bráne kostola. Ak je možné, ľud sa obráti tvárou ku kňazovi.\n" +
                             "Nasleduje pozdrav a poučenie (pozri č. 8). Potom sa žehná oheň (pozri č. 9) a prípadne sa pripraví a zažne veľkonočná svieca (pozri č. 10-12).\n",
                     "<br><font color='#B71C1C'><b>Sprievod</b></font><br>",
@@ -171,12 +156,12 @@ public interface Trojdnie_text {
                     "Kristus, svetlo sveta.<br>",
                     "Všetci odpovedajú:\n",
                     "Bohu vďaka.<br>",
-                    "Všetci vojdú do kostola. Na čele ide diakon (kňaz) s veľkonočnou sviecou. Ak sa používa kadidlo, posluhujúci s dymiacou kadidelnicou kráča pred diakonom (kňazom).\n", "",
+                    "Všetci vojdú do kostola. Na čele ide diakon (kňaz) s veľkonočnou sviecou. Ak sa používa kadidlo, posluhujúci s dymiacou kadidelnicou kráča pred diakonom (kňazom).\n", null,
                     "15. Pri vchode do kostola diakon (kňaz) zastane, pozdvihne sviecu a znova spieva:\n",
                     "Kristus, svetlo sveta.<br>",
                     "Všetci odpovedajú:\n",
                     "Bohu vďaka.<br>",
-                    "Potom si zapália sviečky od veľkonočnej sviece a sprievod pokračuje.\n", "",
+                    "Potom si zapália sviečky od veľkonočnej sviece a sprievod pokračuje.\n", null,
                     "16. Diakon (kňaz) pred oltárom zastane, obráti sa k ľudu a tretí raz spieva:\n",
                     "Kristus, svetlo sveta.<br>",
                     "Všetci odpovedajú:\n",
@@ -193,7 +178,7 @@ public interface Trojdnie_text {
                     "až do konca úvodu a v dlhšom i kratšom znení chválospevu vynechá pozdravenie ",
                     "Pán s vami. ",
                     "Chválospev možno spievať aj v skrátenom znení. Biskupské konferencie môžu vložiť do chválospevu niekoľko zvolaní pre ľud."},
-            {"V", "<font color='#B71C1C'>KRATŠÍ VEĽKONOČNÝ CHVÁLOSPEV</font>", "Zaplesaj, nebeský chór anjelov,<br>" +
+            {"V", "KRATŠÍ VEĽKONOČNÝ CHVÁLOSPEV", null, "Zaplesaj, nebeský chór anjelov,<br>" +
                     "zaplesajte, oslávení v nebi,<br>" +
                     "nech zahlaholí chválospev<br>" +
                     "na oslavu víťazného Krista.<br>" +
@@ -288,7 +273,7 @@ public interface Trojdnie_text {
                     "osvecuje ľudstvo veľkonočným svetlom<br>" +
                     "a s tebou žije a kraľuje na veky vekov.<br>" +
                     "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
-            {"V", "<font color='#B71C1C'>DLHŠÍ VEĽKONOČNÝ CHVÁLOSPEV</font>", "Zaplesaj, nebeský chór anjelov,<br>" +
+            {"V", "DLHŠÍ VEĽKONOČNÝ CHVÁLOSPEV", null, "Zaplesaj, nebeský chór anjelov,<br>" +
                     "zaplesajte, oslávení v nebi,<br>" +
                     "nech zahlaholí chválospev<br>" +
                     "na oslavu víťazného Krista.<br>" +
@@ -423,9 +408,9 @@ public interface Trojdnie_text {
                     "osvecuje ľudstvo veľkonočným svetlom<br>" +
                     "a s tebou žije a kraľuje na veky vekov.<br>" +
                     "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
-            {"N", "<br><b>II. časť - Liturgia slova</b><br>"},
-            {"K", "20. Na túto vigíliu, najdôležitejšiu zo všetkých vigílií, je určených deväť čítaní, a to sedem zo Starého zákona a dve (epištola a evanjelium) z Nového zákona.\n", "",
-                    "21. Ak to vyžadujú pastoračné dôvody, možno vynechať niektoré čítania zo Starého zákona. Treba však vždy pamätať na to, že čítanie Božieho slova je podstatnou zložkou tejto vigílie. Majú sa čítať aspoň tri čítania zo Starého zákona, v krajnom prípade najmenej dve. Nikdy sa však nesmie vynechať čítanie z Druhej knihy Mojžišovej (14, 15 – 15, 1, tretie čítanie).\n", "",
+            {"N", "II. časť - Liturgia slova"},
+            {"K", "20. Na túto vigíliu, najdôležitejšiu zo všetkých vigílií, je určených deväť čítaní, a to sedem zo Starého zákona a dve (epištola a evanjelium) z Nového zákona.\n", null,
+                    "21. Ak to vyžadujú pastoračné dôvody, možno vynechať niektoré čítania zo Starého zákona. Treba však vždy pamätať na to, že čítanie Božieho slova je podstatnou zložkou tejto vigílie. Majú sa čítať aspoň tri čítania zo Starého zákona, v krajnom prípade najmenej dve. Nikdy sa však nesmie vynechať čítanie z Druhej knihy Mojžišovej (14, 15 – 15, 1, tretie čítanie).\n", null,
                     "22. Všetci odložia sviece a sadnú si. Pred čítaním kňaz povzbudí ľud týmito alebo podobnými slovami:\n",
                     "Drahí bratia a sestry,<br>" +
                             "po slávnostnom úvode veľkonočnej vigílie teraz pozorne počúvajme Božie slovo.<br>" +
@@ -433,7 +418,7 @@ public interface Trojdnie_text {
                     "23. Nasledujú čítania. Lektor príde k ambóne a prečíta prvé čítanie. Žalmista čiže predspevák recituje alebo spieva medzispev a ľud mu odpovedá. Potom všetci vstanú. \n" +
                             "Kňaz povie Modlime sa a všetci sa chvíľu potichu modlia. Napokon sa kňaz nahlas modli príslušnú modlitbu.\n" +
                             "Namiesto medzispevu sa môže vsunúť chvíľa tichého rozjímania. V tomto prípade po výzve Modlime sa kňaz hneď prednesie príslušnú modlitbu.\n"},
-            {"V", "<font color='#B71C1C'>PRVÉ ČÍTANIE Gn 1, 1 – 2, 2 alebo Gn 1, 1. 26-31a</font>",
+            {"V", "PRVÉ ČÍTANIE", "Gn 1, 1 – 2, 2 alebo Gn 1, 1. 26-31a",
                     "<font color='#B71C1C'>PRVÉ ČÍTANIE</font><br>",
                     "<i>Boh videl všetko, čo urobil, a bolo to veľmi dobré\n",
                     "Čítanie z Knihy Genezis  <font color='#B71C1C'>Gn 1, 1 – 2, 2</font><br>" +
@@ -499,7 +484,7 @@ public interface Trojdnie_text {
                             "on je naša pomoc a ochrana.<br>" +
                             "Tvoje milosrdenstvo, Pane, nech je nad nami, <font color='#B71C1C'>*</font><br>" +
                             "ako dúfame v teba. <font color='#B71C1C'>R.</font><br>"},
-            {"K", "", "<br>Modlime sa.<br>" +
+            {"K", null, "<br>Modlime sa.<br>" +
                     "Všemohúci a večný Bože,<br>" +
                     "ty si obdivuhodný vo všetkom, čo konáš; <font color='#B71C1C'>*</font><br>" +
                     "daj, aby tvoj vykúpený ľud poznal,<br>" +
@@ -520,7 +505,7 @@ public interface Trojdnie_text {
                             "a zaslúžili si vojsť do večnej radosti.<br>" +
                             "Skrze Krista, nášho Pána.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
-            {"V", "<font color='#B71C1C'>DRUHÉ ČÍTANIE Gn 22, 1-18 alebo Gn 22, 1-2. 9a. 10-13. 15-18</font>",
+            {"V", "DRUHÉ ČÍTANIE", "Gn 22, 1-18 alebo Gn 22, 1-2. 9a. 10-13. 15-18",
                     "<font color='#B71C1C'>DRUHÉ ČÍTANIE</font><br>",
                     "<i>Obeta nášho praotca Abraháma\n",
                     "Čítanie z Knihy Genezis <font color='#B71C1C'>Gn 22, 1-18</font><br>" +
@@ -567,7 +552,7 @@ public interface Trojdnie_text {
                             "Ukážeš mi cestu života. <font color='#B71C1C'>†</font><br>" +
                             "U teba je plnosť radosti, <font color='#B71C1C'>*</font><br>" +
                             "po tvojej pravici večná slasť. <font color='#B71C1C'>R.</font><br>"},
-            {"K", "", "<br>Modlime sa.<br>" +
+            {"K", null, "<br>Modlime sa.<br>" +
                     "Bože, Otče všetkých veriacich, <font color='#B71C1C'>*</font><br>" +
                     "po celej zemi rozmnožuješ synov svojho prisľúbenia,<br>" +
                     "keď ľudí prijímaš za svoje deti<br>" +
@@ -577,7 +562,7 @@ public interface Trojdnie_text {
                     "daj, aby všetci ľudia ochotne prijali milosť,<br>" +
                     "ktorou ich povolávaš do svojej Cirkvi.<br>" +
                     "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
-            {"V", "<font color='#B71C1C'>TRETIE ČÍTANIE Ex 14,15 – 15, 1</font>",
+            {"V", "TRETIE ČÍTANIE", "Ex 14,15 – 15, 1",
                     "<font color='#B71C1C'>TRETIE ČÍTANIE</font><br>",
                     "<i>Izraeliti šli stredom mora po suchu",
                     "Čítanie z Knihy Exodus <font color='#B71C1C'>Ex 14,15 – 15, 1</font><br>"+
@@ -610,7 +595,7 @@ public interface Trojdnie_text {
                     "v svojom bezpečnom príbytku, ktorý si ty, Pane, urobil;<br>"+
                     "vo svätyni, ktorej základy kládli tvoje ruky, Pane. <font color='#B71C1C'>*</font><br>"+
                     "Pán bude kraľovať naveky a navždy. <font color='#B71C1C'>R.</font><br>"},
-            {"K", "", "<br>Modlime sa.<br>"+
+            {"K", null, "<br>Modlime sa.<br>"+
                     "Všemohúci Bože, tvoje dávne veľké činy<br>"+
                     "sa obnovujú aj za našich čias; <font color='#B71C1C'>*</font><br>"+
                     "veď čo si v minulosti svojou mocou<br>"+
@@ -637,7 +622,7 @@ public interface Trojdnie_text {
                     "a krstom sa znovuzrodili z Ducha Svätého.<br>"+
                     "Skrze Krista, nášho Pána. <br>"+
                     "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
-            {"V", "<font color='#B71C1C'>ŠTVRTÉ ČITANIE Iz 54, 5-14</font>",
+            {"V", "ŠTVRTÉ ČITANIE", "Iz 54, 5-14",
                     "<font color='#B71C1C'>ŠTVRTÉ ČITANIE</font><br>",
                     "<i>Večným milosrdenstvom som sa nad tebou zmiloval, tvoj vykupiteľ, Pán",
                     "Čítanie z Knihy proroka Izaiáša <font color='#B71C1C'>Iz 54, 5-14</font><br>"+
@@ -664,7 +649,7 @@ public interface Trojdnie_text {
                     "Pane, buď mi na pomoci.<br>"+
                     "Môj nárek si obrátil na tanec; <font color='#B71C1C'>*</font><br>"+
                     "Pane, Bože môj, naveky ťa chcem velebiť. <font color='#B71C1C'>R.</font><br>"},
-            {"K", "", "<br>Modlime sa.<br>"+
+            {"K", null, "<br>Modlime sa.<br>"+
                     "Všemohúci a večný Bože,<br>"+
                     "na slávu svojho mena zveľaďuj potomstvo,<br>"+
                     "ktoré si sľúbil praotcom za ich vieru, <font color='#B71C1C'>*</font><br>"+
@@ -675,7 +660,7 @@ public interface Trojdnie_text {
                     "Skrze Krista, nášho Pána.<br>"+
                     "<font color='#B71C1C'>Ľ.: </font>Amen.<br><br>",
             "Tu možno použiť aj inú z modlitieb predpísaných po čítaniach, ktoré sa prípadne vynechajú.\n"},
-            {"V", "<font color='#B71C1C'>PIATE ČÍTANIE Iz 55, 1-11</font>",
+            {"V", "PIATE ČÍTANIE", "Iz 55, 1-11",
                     "<font color='#B71C1C'>PIATE ČÍTANIE</font><br>",
                     "<i>Poďte k vodám: počúvajte a budete žiť",
                     "Čítanie z Knihy proroka Izaiáša <font color='#B71C1C'>Iz 55, 1-11</font><br>"+
@@ -700,7 +685,7 @@ public interface Trojdnie_text {
                     "nech je to známe po celej zemi.<br>"+
                     "Plesaj a jasaj, obyvateľka Siona, <font color='#B71C1C'>*</font><br>"+
                     "lebo veľký uprostred teba je Svätý Izraela.\\“ <font color='#B71C1C'>R.</font><br>"},
-            {"K", "", "<br>Modlime sa.<br>"+
+            {"K", null, "<br>Modlime sa.<br>"+
                     "Všemohúci a večný Bože, jediná nádej sveta, <font color='#B71C1C'>*</font><br>"+
                     "ty si už ústami prorokov zvestoval udalosti spásy,<br>"+
                     "ktoré sa odohrávajú za našich čias; <font color='#B71C1C'> —</font><br>"+
@@ -709,7 +694,7 @@ public interface Trojdnie_text {
                     "môžeme rásť v láske a v každej čnosti.<br>"+
                     "Skrze Krista, nášho Pána.<br>"+
                     "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
-            {"V", "<font color='#B71C1C'>ŠIESTE ČÍTANIE Bar 3, 9-15. 32 – 4, 4</font>",
+            {"V", "ŠIESTE ČÍTANIE", "Bar 3, 9-15. 32 – 4, 4",
                     "<font color='#B71C1C'>ŠIESTE ČÍTANIE</font><br>",
                     "<i>Choď za Pánovou žiarou",
                     "Čítanie z Knihy proroka Barucha <font color='#B71C1C'>Bar 3, 9-15. 32 – 4, 4</font><br>"+
@@ -739,7 +724,7 @@ public interface Trojdnie_text {
                     "než veľký drahokam,<br>"+
                     "sladšie sú než med, <font color='#B71C1C'>*</font><br>"+
                     "než medové kvapky z plástu. <font color='#B71C1C'>R.</font><br>"},
-            {"K", "", "<br>Modlime sa.<br>"+
+            {"K", null, "<br>Modlime sa.<br>"+
                     "Milosrdný Otče, <font color='#B71C1C'>*</font><br>"+
                     "ty neprestajne zveľaďuješ svoju Cirkev<br>"+
                     "a povolávaš do nej ľudí zo všetkých národov; <font color='#B71C1C'>—</font><br>"+
@@ -747,7 +732,7 @@ public interface Trojdnie_text {
                     "ktorým krstnou vodou dávaš nový život.<br>"+
                     "Skrze Krista, nášho Pána. <br>"+
                     "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
-            {"V", "<font color='#B71C1C'>SIEDME ČÍTANIE Ez 36, 16-17a. 18-28</font>",
+            {"V", "SIEDME ČÍTANIE", "Ez 36, 16-17a. 18-28",
                     "<font color='#B71C1C'>SIEDME ČÍTANIE</font><br>",
                     "<i>Vylejem na vás čistú vodu a dám vám nové srdce",
                     "Čítanie z Knihy proroka Ezechiela <font color='#B71C1C'>Ez 36, 16-17a. 18-28</font><br>"+
@@ -808,7 +793,7 @@ public interface Trojdnie_text {
                     "ani žertvu neprijmeš odo mňa.<br>"+
                     "Obetou Bohu milou je duch skrúšený; <font color='#B71C1C'>*</font><br>"+
                     "Bože, ty nepohŕdaš srdcom skrúšeným a poníženým. <font color='#B71C1C'>R.</font><br>"},
-            {"A", "<br>Modlime sa.<br>" +
+            {"K", null, "<br>Modlime sa.<br>" +
                     "Bože, nekonečná sila a nehynúce svetlo,<br>" +
                     "láskavo zhliadni na svoju Cirkev,<br>" +
                     "ktorá je sviatosťou spásy, <font color='#B71C1C'>*</font><br>" +
@@ -820,8 +805,8 @@ public interface Trojdnie_text {
                     "a všetko privádzaš do stavu pôvodnej dokonalosti<br>" +
                     "skrze pôvodcu všetkého, Ježiša Krista,<br>" +
                     "ktorý s tebou žije a kraľuje na veky vekov.<br>" +
-                    "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
-                    "<font color='#B71C1C'>Alebo:</font><br>" +
+                    "<font color='#B71C1C'>Ľ.:</font> Amen."},
+            {"K","Alebo:",
                     "Modlime sa.<br>" +
                     "Večný Bože, Písmom Starého a Nového zákona<br>" +
                     "uvádzaš nás do veľkonočného tajomstva; <font color='#B71C1C'>*</font><br>" +
@@ -829,9 +814,9 @@ public interface Trojdnie_text {
                     "aby dary, ktoré nám dnes dávaš,<br>" +
                     "posilňovali v nás nádej na dary budúce.<br>" +
                     "Skrze Krista, nášho Pána.<br>" +
-                    "<font color='#B71C1C'>Ľ.:</font> Amen.<br>",
-                    "31. Po poslednom čítaní zo Starého zákona s príslušným medzispevom a modlitbou zažnú sa na oltári sviece a kňaz začne oslavnú pieseň ", "Sláva Bohu na výsostiach. ", "Všetci pokračujú. Ak je zvykom, zvonia pritom zvony.\n", "",
-                    "32. Keď sa skončí oslavná pieseň, kňaz prednesie zvyčajným spôsobom modlitbu:\n",
+                    "<font color='#B71C1C'>Ľ.:</font> Amen."},
+            {"K", "31. Po poslednom čítaní zo Starého zákona s príslušným medzispevom a modlitbou zažnú sa na oltári sviece a kňaz začne oslavnú pieseň <font color='000000'><i>Sláva Bohu na výsostiach.</i></font> Všetci pokračujú. Ak je zvykom, zvonia pritom zvony.<br>" +
+                    "32. Keď sa skončí oslavná pieseň, kňaz prednesie zvyčajným spôsobom modlitbu:",
                     "Modlime sa.<br>" +
                             "Nekonečný Bože, ty ožiaruješ túto presvätú noc<br>" +
                             "jasom a velebou Kristovho zmŕtvychvstania; <font color='#B71C1C'>*</font><br>" +
@@ -840,16 +825,15 @@ public interface Trojdnie_text {
                             "aby sme ti vždy verne slúžili.<br>" +
                             "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
                             "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                            "v jednote s Duchom Svätým po všetky veky vekov.<br><br>"+
-                            "<font color='#B71C1C'>EPIŠTOLA Rim 6, 3-11</font><br>",
+                            "v jednote s Duchom Svätým po všetky veky vekov."},
+            {"E", "EPIŠTOLA", "Rim 6, 3-11",
                     "Kristus vzkriesený z mŕtvych už neumiera\n",
                     "Čítanie z Listu svätého apoštola Pavla Rimanom<br>" +
                             "Bratia, všetci, čo sme boli pokrstení v Kristovi Ježišovi, v jeho smrť sme boli pokrstení. Krstom sme teda s ním boli pochovaní v smrť, aby sme tak, ako bol Kristus vzkriesený z mŕtvych Otcovou slávou, aj my žili novým životom. Lebo ak sme s ním zrástli a stali sa mu podobnými v smrti, tak mu budeme podobní aj v zmŕtvychvstaní. Veď vieme, že náš starý človek bol s ním ukrižovaný, aby bolo hriešne telo zničené, aby sme už neotročili hriechu. Lebo kto zomrel, je ospravedlnený od hriechu.<br>" +
                             "Ale ak sme zomreli s Kristom, veríme, že s ním budeme aj žiť. Veď vieme, že Kristus vzkriesený z mŕtvych už neumiera, smrť nad ním už nepanuje. Lebo keď zomrel, zomrel raz navždy hriechu, ale keď žije, žije Bohu. Tak zmýšľajte o sebe aj vy: že ste mŕtvi hriechu a žijete Bohu v Kristovi Ježišovi.<br>" +
-                            "Počuli sme Božie slovo.<br>",
-                    "34. Po čítaní epištoly všetci vstanú. Kňaz zaspieva slávnostné ", "aleluja ", "a všetci po ňom opakujú. Potom žalmista alebo predspevák prednesie žalm a ľud odpovedá ", "Aleluja. ", "Ak treba, sám žalmista môže zaintonovať (namiesto kňaza) slávnostné ", "aleluja.\n", "",
-                    "<br>" +
-                            "<font color='#B71C1C'>RESPONZÓRIOVÝ ŽALM Ž 118, 1-2. 16ab+17. 22-23<br>" +
+                            "Počuli sme Božie slovo."},
+            {"K", "34. Po čítaní epištoly všetci vstanú. Kňaz zaspieva slávnostné <font color='000000'><i>aleluja</i></font> a všetci po ňom opakujú. Potom žalmista alebo predspevák prednesie žalm a ľud odpovedá <font color='000000'><i>Aleluja.</i></font> Ak treba, sám žalmista môže zaintonovať (namiesto kňaza) slávnostné <font color='000000'><i>aleluja.</i></font>"},
+            {"E", "RESPONZÓRIOVÝ ŽALM", "Ž 118, 1-2. 16ab+17. 22-23", null,
                             "R.:</font> Aleluja.<br><br>" +
                             "Oslavujte Pána, lebo je dobrý, <font color='#B71C1C'>*</font><br>" +
                             "lebo jeho milosrdenstvo trvá naveky.<br>" +
@@ -862,25 +846,22 @@ public interface Trojdnie_text {
                             "Kameň, čo stavitelia zavrhli, <font color='#B71C1C'>*</font><br>" +
                             "stal sa kameňom uholným.<br>" +
                             "To sa stalo na pokyn Pána; <font color='#B71C1C'>*</font><br>" +
-                            "vec v našich očiach obdivuhodná. <font color='#B71C1C'>R.</font><br>" +
-                            "<br>", "", "a",
-                    "35. Na evanjelium sa neprinášajú sviece, ale iba kadidlo (ak sa používa).\n", "",
-                    "a",
-                    "a",
-                    "36. Hneď po evanjeliu je homília. Po nej nasleduje liturgia krstu.\n"},
-            {"N", "<b>III. časť: Liturgia krstu</b><br>"},
-            {"K", "37. Kňaz s prisluhujúcimi ide ku krstiteľnici, ak je veriacim na dohľad. Ak nie, nádobu s vodou treba umiestniť v presbytériu. Ak sa má vysluhovať krst, zavolajú sa katechumeni. Pred zhromaždenie veriacich ich privedú krstní rodičia. Ak ide o malé deti, prinesú ich rodičia alebo krstní rodičia.\n", "",
-                    "38. Potom sa kňaz prihovorí prítomným týmito alebo podobnými slovami:\n" +
-                            "________________\n" +
-                            "Ak bude krst:\n",
-                    "Drahí bratia a sestry, všetci sprevádzajme svojou modlitbou našich bratov <font color='#B71C1C'>(</font>sestry<font color='#B71C1C'>)</font>, ktorí<font color='#B71C1C'>(</font>é<font color='#B71C1C'>)</font> idú s radostnou nádejou k prameňu znovuzrodenia. Všemohúci Boh Otec nech ich ochraňuje a nech je im milostivý.<br>",
-                    "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\n" +
-                            "Ak nebude krst, ale sa iba svätí krstná voda:\n",
-                    "Drahí bratia a sestry, pokorne vzývajme všemohúceho Boha Otca, aby zoslal svoju milosť na túto vodu a tých, čo sa z nej znovuzrodia, prijal v Kristovi za svoje deti.<br>",
-                    "39. Potom dvaja speváci spievajú litánie. Všetci stoja (pretože je už veľkonočné obdobie) a odpovedajú. Ak treba ísť ku krstiteľnici v dlhšom sprievode, litánie sa spievajú počas procesie. V tomto prípade sa krstenci zavolajú dopredu ešte pred procesiou.\n" +
-                            "Na čele sprievodu sa nesie veľkonočná svieca, za ňou idú katechumeni s krstnými rodičmi a kňaz s prisluhujúcimi. Príhovor (pozri č. 38) je až pred svätením vody.\n", "",
-                    "40. Ak sa nevysluhuje krst a nesvätí sa krstná voda, litánie sa vynechajú a hneď nasleduje obrad posvätenia vody (pozri č. 45).\n", "",
-                    "41. Do litánií možno vsunúť aj mená iných svätých, najmä meno patróna kostola alebo obce a mená patrónov krstencov.\n",
+                            "vec v našich očiach obdivuhodná. <font color='#B71C1C'>R.</font>"},
+            {"A", "35. Na evanjelium sa neprinášajú sviece, ale iba kadidlo (ak sa používa).<br>",
+                    "36. Hneď po evanjeliu je homília. Po nej nasleduje liturgia krstu.<br>"},
+            {"N", "III. časť: Liturgia krstu"},
+            {"K", "37. Kňaz s prisluhujúcimi ide ku krstiteľnici, ak je veriacim na dohľad. Ak nie, nádobu s vodou treba umiestniť v presbytériu. Ak sa má vysluhovať krst, zavolajú sa katechumeni. Pred zhromaždenie veriacich ich privedú krstní rodičia. Ak ide o malé deti, prinesú ich rodičia alebo krstní rodičia.<br>"+
+                    "38. Potom sa kňaz prihovorí prítomným týmito alebo podobnými slovami:<br>" +
+                            "________________<br>" +
+                            "Ak bude krst:<br>"+
+                    "Drahí bratia a sestry, všetci sprevádzajme svojou modlitbou našich bratov <font color='#B71C1C'>(</font>sestry<font color='#B71C1C'>)</font>, ktorí<font color='#B71C1C'>(</font>é<font color='#B71C1C'>)</font> idú s radostnou nádejou k prameňu znovuzrodenia. Všemohúci Boh Otec nech ich ochraňuje a nech je im milostivý.<br>"+
+                    "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>" +
+                            "Ak nebude krst, ale sa iba svätí krstná voda:<br>"+
+                    "Drahí bratia a sestry, pokorne vzývajme všemohúceho Boha Otca, aby zoslal svoju milosť na túto vodu a tých, čo sa z nej znovuzrodia, prijal v Kristovi za svoje deti.<br>"+
+                    "39. Potom dvaja speváci spievajú litánie. Všetci stoja (pretože je už veľkonočné obdobie) a odpovedajú. Ak treba ísť ku krstiteľnici v dlhšom sprievode, litánie sa spievajú počas procesie. V tomto prípade sa krstenci zavolajú dopredu ešte pred procesiou.<br>" +
+                            "Na čele sprievodu sa nesie veľkonočná svieca, za ňou idú katechumeni s krstnými rodičmi a kňaz s prisluhujúcimi. Príhovor (pozri č. 38) je až pred svätením vody.<br>"+
+                    "40. Ak sa nevysluhuje krst a nesvätí sa krstná voda, litánie sa vynechajú a hneď nasleduje obrad posvätenia vody (pozri č. 45).<br>" +
+                    "41. Do litánií možno vsunúť aj mená iných svätých, najmä meno patróna kostola alebo obce a mená patrónov krstencov.<br>"+
                     "Pane, zmiluj za. Pane, <i>zmiluj za.</i><br>" +
                             "Kriste, zmiluj sa. <i>Kriste, zmiluj sa.</i><br>" +
                             "Pane, zmiluj sa. <i>Pane, zmiluj za.</i><br>" +
@@ -991,9 +972,9 @@ public interface Trojdnie_text {
                     "43. Kňaz vytiahne veľkonočnú sviecu z vody. Ľud pritom zvolá:\n",
                     "Oslavujte Pána, pramene,<br>" +
                             "chváľte a zvelebujte ho naveky!<br>",
-                    "Možno použiť aj iné zvolanie.\n", "",
+                    "Možno použiť aj iné zvolanie.\n", null,
                     "44. Katechumeni sa po jednom osvedčia, že sa zriekajú zlého ducha, vyznajú vieru a potom prijmú krst. Ak je prítomný biskup alebo kňaz, ktorý má právomoc birmovať, hneď po krste vysluhuje dospelým novopokrsteným aj sviatosť birmovania.\n" +
-                            "________________\n", "",
+                            "________________\n", null,
                     "45. Ak sa nevysluhuje krst a nesvätí sa ani krstná voda, kňaz požehná vodu touto formulou:\n",
                     "Bratia a sestry,<br>" +
                             "prosme pokorne Pána Boha, nech posvätí túto vodu,<br>" +
@@ -1069,8 +1050,8 @@ public interface Trojdnie_text {
                             "krstom v nej sme povolaní k nevine, aleluja.\n" +
                             "Zmiluj sa nad nami, Bože, v nekonečnej milosti,\n" +
                             "tvoje zľutovanie môže zotrieť naše nečnosti.\n",
-                    "Môže sa spievať aj iná pieseň pripomínajúca krst.\n", "",
-                    "48. Medzitým sa novopokrstení vrátia na svoje miesta medzi veriacich. Ak sa krstná voda nesvätila v krstiteľnici, prisluhujúci dôstojne prenesú nádobu s krstnou vodou ku krstiteľnici. Ak sa nesvätila krstná voda, svätenú vodu odnesú na zvyčajné miesto.\n", "",
+                    "Môže sa spievať aj iná pieseň pripomínajúca krst.\n", null,
+                    "48. Medzitým sa novopokrstení vrátia na svoje miesta medzi veriacich. Ak sa krstná voda nesvätila v krstiteľnici, prisluhujúci dôstojne prenesú nádobu s krstnou vodou ku krstiteľnici. Ak sa nesvätila krstná voda, svätenú vodu odnesú na zvyčajné miesto.\n", null,
                     "49. Keď kňaz pokropil ľud, vráti sa k sedadlu. Vynechá sa ", "vyznanie viery ", "a hneď nasleduje modlitba veriacich, na ktorej sa po prvý raz zúčastnia aj novopokrstení.\n",
                     "<br><font color='#B71C1C'><b>Spoločná modlitba veriacich</b></font><br>" +
                             "Bratia a sestry, v túto svätú noc slávime vzkriesenie nášho Pána. S radosťou a veľkou dôverou prednesme svoje prosby.<br>" +
@@ -1088,8 +1069,8 @@ public interface Trojdnie_text {
                             "daj, nech si ceníme svoje znovuzrodenie v krste<br>" +
                             "a všade ohlasujeme veľkonočnú radosť.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov.<br>"},
-            {"N", "<b>IV. časť: Liturgia Eucharistie</b><br>"},
-            {"K", "50. Kňaz pristúpi k oltáru a zvyčajným spôsobom začne liturgiu Eucharistie.\n", "",
+            {"N", "IV. časť: Liturgia Eucharistie"},
+            {"K", "50. Kňaz pristúpi k oltáru a zvyčajným spôsobom začne liturgiu Eucharistie.\n", null,
                     "51. Odporúča sa, aby chlieb a víno priniesli k oltáru novo pokrstení.\n",
                     "<br>" +
                             "<font color='#B71C1C'>NAD OBETNÝMI DARMI</font><br>" +
@@ -1100,7 +1081,7 @@ public interface Trojdnie_text {
                             "v obete pravého veľkonočného Baránka,<br>" +
                             "zaistila večnú spásu.<br>" +
                             "Skrze Krista, nášho Pána.<br>"},
-            {"P", "O veľkonočnom tajomstve\n",
+            {"P", "O veľkonočnom tajomstve",
                     "<font color='#B71C1C'>K.:</font> Pán s vami.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br>" +
                             "<font color='#B71C1C'>K.:</font> Hore srdcia.<br>" +
@@ -1130,7 +1111,7 @@ public interface Trojdnie_text {
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
                             "Hosana na výsostiach!"},
             {"O"},
-            {"K", "", "<font color='#B71C1C'>SPEV NA PRIJÍMANIE (Porov. 1 Kor 5, 7-8)</font><br>"+
+            {"K", null, "<font color='#B71C1C'>SPEV NA PRIJÍMANIE (Porov. 1 Kor 5, 7-8)</font><br>"+
                     "Náš veľkonočný baránok Kristus bol obetovaný;<br>"+
                     "preto slávme túto veľkonočnú hostinu s úprimnou radosťou.<br>"+
                     "<br>"+
@@ -1142,11 +1123,11 @@ public interface Trojdnie_text {
                     "a v láske nám zjednoť srdcia i mysle.<br>"+
                     "Skrze Krista, nášho Pána.<br><br>",
             "55. Ak po omši veľkonočnej vigílie nasleduje sprievod Vzkriesenia, vynechá sa požehnanie a prepustenie ľudí.\n" +
-                    "________________\n", "",
+                    "________________\n", null,
                     "56. Nasleduje prepustenie ľudu. Kňaz sa obráti k ľudu a s rozopätými rukami povie:\n",
                     "<font color='#B71C1C'>K.:</font> Pán s vami.<br>" +
                     "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br>",
-                    "Diakon (alebo ak ho niet, sám kňaz) sa obráti na veriacich týmito alebo podobnými slovami: ", "Prijmite slávnostné požehnanie. ", "Potom kňaz vystrie ruky nad ľud a povie (spieva) formulu požehnania. Všetci odpovedia: ", "Amen.\n", "",
+                    "Diakon (alebo ak ho niet, sám kňaz) sa obráti na veriacich týmito alebo podobnými slovami: ", "Prijmite slávnostné požehnanie. ", "Potom kňaz vystrie ruky nad ľud a povie (spieva) formulu požehnania. Všetci odpovedia: ", "Amen.\n", null,
                     "<font color='#B71C1C'>K.:</font> Pri dnešnej veľkonočnej slávnosti nech vás žehná všemohúci Boh a chráni od nebezpečenstva hriechu.<br>" +
                     "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
                     "<font color='#B71C1C'>K.:</font> Boh, ktorý vás zmŕtvychvstaním svojho Syna pripravuje na večný život, nech vás naplní duchovnými darmi.<br>" +
@@ -1159,8 +1140,8 @@ public interface Trojdnie_text {
             "Iďte v mene Božom, aleluja, aleluja.<br>" +
                     "<font color='#B71C1C'>Ľ.:</font> Bohu vďaka, aleluja, aleluja.<br><br>",
             "Ak po omši Veľkonočnej vigílie nasleduje sprievod Vzkriesenia, vynechá sa prepustenie ľudu.\n"},
-            {"V", "<font color='#B71C1C'>Procesia po Veľkonočnej vigílii</font>", "57. Po prijímaní celebrant (alebo diakon, ak je) vloží hostiu do monštrancie.\n", "",
-                    "58. Hneď po modlitbe po prijímaní celebrant si vezme biely pluviál (alebo môže zostať aj v ornáte), zíde pred oltár, kľakne si (chrbtom k ľudu) a incenzuje sviatosť.\n", "",
+            {"V", "Procesia po Veľkonočnej vigílii", null, "57. Po prijímaní celebrant (alebo diakon, ak je) vloží hostiu do monštrancie.\n", null,
+                    "58. Hneď po modlitbe po prijímaní celebrant si vezme biely pluviál (alebo môže zostať aj v ornáte), zíde pred oltár, kľakne si (chrbtom k ľudu) a incenzuje sviatosť.\n", null,
                     "59. Potom vstane, obráti sa tvárou k veriacim a povie takto alebo podobne:\n",
                     "Drahí bratia a sestry, v tejto Veľkonočnej vigílii sme oslávili Kristovo veľkonočné tajomstvo: Kristus vstal z mŕtvych, premohol smrť a hriech a priniesol nám nový život. Kristus nás vykúpil svojím krížom a zmŕtvychvstaním. Raduje sa celá Cirkev, ozdobená žiarou Pánovej slávy, a aj tento chrám zaznel jasavým spevom. Nech aj okolo tohto chrámu a v celej našej farnosti zaznie chválospev na oslavu víťazného Pána.<br>",
                     "60. Celebrant sa obráti k oltáru a zaintonuje on alebo spevák:\n",
@@ -1174,9 +1155,9 @@ public interface Trojdnie_text {
                             "<font color='#B71C1C'>Ľ.:</font> Nebojte sa. Aleluja.<br>",
                     "62. Tieto slová celebrant i zbor opakujú ešte dvakrát, a to vždy vyšším hlasom. Namiesto kňaza môže intonovať spevák. Potom kňaz alebo spevák zaspieva:\n",
                     "Pán Ježiš Kristus vstal z mŕtvych.<br>",
-                    "Všetci v piesni (JKS 192) pokračujú.\n", "",
-                    "63.Sprievod ide cez kostol a okolo kostola podľa miestnych okolností. Pred Sviatosťou idú turiferi, ktorí striedavo incenzujú. Najsvätejšiu sviatosť. Na čele procesie sa nesie kríž a socha Zmŕtvychvstalého. Ostatní veriaci s a usporiadajú podlá miestnych zvyklostí. Zvonia zvony.\n", "",
-                    "64. Pri návrate speváci intonujú chválospev ", "Teba, Bože, chválime. ", "Ľud pokračuje. Keď celebrant príde k oltáru, položí monštranciu na oltár.\n", "",
+                    "Všetci v piesni (JKS 192) pokračujú.\n", null,
+                    "63.Sprievod ide cez kostol a okolo kostola podľa miestnych okolností. Pred Sviatosťou idú turiferi, ktorí striedavo incenzujú. Najsvätejšiu sviatosť. Na čele procesie sa nesie kríž a socha Zmŕtvychvstalého. Ostatní veriaci s a usporiadajú podlá miestnych zvyklostí. Zvonia zvony.\n", null,
+                    "64. Pri návrate speváci intonujú chválospev ", "Teba, Bože, chválime. ", "Ľud pokračuje. Keď celebrant príde k oltáru, položí monštranciu na oltár.\n", null,
                     "65. Po skončení chválospevu kňaz alebo spevák intonuje ", "Tantum ergo - Ctime túto Sviatosť slávnu.\n",
                     "66. Ak sa nemôže konať procesia, kňaz po intonácii ", "Pán Ježiš Kristus vstal z mŕtvych ", "položí Sviatosť na oltár, stane si pred oltár (chrbtom k ľudu) a pripojí sa k spevu. Nasleduje ", "Tantum ergo.\n",
                     "67. Pri druhej strofe eucharistického hymnu kňaz incenzuje Sviatosť a po skončení hymnu povie:\n",
@@ -1195,9 +1176,9 @@ public interface Trojdnie_text {
                             "účinky tvojho vykupiteľského diela.<br>"+
                             "Lebo ty žiješ a kraľuješ na veky vekov.<br>"+
                             "<font color='#B71C1C'>Ľ.:</font> Amen.<br>",
-                    "68. Kňaz prijme náplecné vélum, vezme do rúk monštranciu a požehná ľud, pričom nič nehovorí.\n", "",
+                    "68. Kňaz prijme náplecné vélum, vezme do rúk monštranciu a požehná ľud, pričom nič nehovorí.\n", null,
                     "69. Potom uloží Sviatosť do svätostánku, pokľakne a svätostánok uzavrie. Ľud môže zatiaľ predniesť vhodnú aklamáciu, napr.: ", "Christus vincit.\n",
-                    "70. Na zakončenie sa zaspieva veľkonočná mariánska antifóna ", "Raduj sa, nebies Kráľovná.\n", "",
+                    "70. Na zakončenie sa zaspieva veľkonočná mariánska antifóna ", "Raduj sa, nebies Kráľovná.\n", null,
                     "Raduj sa, nebies Kráľovná, aleluja, aleluja.<br>"+
                             "Lebo koho si nosila, aleluja, aleluja.<br>"+
                             "Z mŕtvych vstal, jak predpovedal, aleluja, aleluja.<br>"+
@@ -1215,11 +1196,11 @@ public interface Trojdnie_text {
     };
 
     String[][] piatok = {
-            {"N", "VEĽKÝ PIATOK\nSLÁVENIE UTRPENIA A SMRTI PÁNA"},
-            {"K", "Podľa pradávnej tradície Cirkev v tento a v nasledujúci deň neslávi eucharistickú obetu."},
-            {"K", "Oltár má byť úplne obnažený, bez kríža, svietnikov a plachiet."},
-            {"K", "V popoludňajších hodinách okolo tretej (z pastoračných dôvodov to môže byť aj neskoršie) slávi sa liturgia umučenia Pána. Má tri časti: liturgiu slova, poklonu svätému krížu a sväté prijímanie. V tento deň sa veriacim podáva Oltárna sviatosť výlučne v rámci tejto liturgie; ale chorým, ktorí sa nemôžu na nej zúčastniť, možno sväté prijímanie zaniesť kedykoľvek."},
-            {"K", "Kňaz a prisluhujúci sa oblečú ako na omšu do rúcha červenej farby; prídu k oltáru, poklonia sa, ľahnú si dolu tvárou alebo, ak je to vhodnejšie, kľaknú si, a zotrvajú chvíľu v tichej modlitbe.\n" +
+            {"S", "VEĽKÝ PIATOK\nSLÁVENIE UTRPENIA A SMRTI PÁNA"},
+            {"K", "Podľa pradávnej tradície Cirkev v tento a v nasledujúci deň neslávi eucharistickú obetu." +
+            "Oltár má byť úplne obnažený, bez kríža, svietnikov a plachiet."+
+             "V popoludňajších hodinách okolo tretej (z pastoračných dôvodov to môže byť aj neskoršie) slávi sa liturgia umučenia Pána. Má tri časti: liturgiu slova, poklonu svätému krížu a sväté prijímanie. V tento deň sa veriacim podáva Oltárna sviatosť výlučne v rámci tejto liturgie; ale chorým, ktorí sa nemôžu na nej zúčastniť, možno sväté prijímanie zaniesť kedykoľvek."+
+            "Kňaz a prisluhujúci sa oblečú ako na omšu do rúcha červenej farby; prídu k oltáru, poklonia sa, ľahnú si dolu tvárou alebo, ak je to vhodnejšie, kľaknú si, a zotrvajú chvíľu v tichej modlitbe.\n" +
                     "Potom kňaz a prisluhujúci odídu k sedadlám. Kňaz sa obráti k ľudu a so zopätými rukami sa modlí jednu z týchto modlitieb:\n",
                     "<br>" +
                             "<font color='#B71C1C'>MODLITBA</font>"},
@@ -1244,7 +1225,7 @@ public interface Trojdnie_text {
                             "žili ako ľudia vykúpení.<br>" +
                             "Skrze Krista, nášho Pána.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
-            {"N", "<b>l. časť: Liturgia slova</b><br>"},
+            {"N", "l. časť: Liturgia slova"},
             {"E", "PRVÉ ČÍTANIE", "Iz 52, 13 – 53, 12",
                     "On bol prebodnutý pre naše neprávosti\n" +
                             "Štvrtý spev Pánovho sluhu\n",
@@ -1259,7 +1240,7 @@ public interface Trojdnie_text {
                             "Boh hovorí:<br>" +
                             "Môj spravodlivý služobník ospravedlní mnohých a sám ponesie ich viny. Preto mu dám ako podiel zástupy a s mocnými sa bude deliť o korisť, pretože vydal na smrť svoj život a započítali ho medzi zločincov; a on niesol hriech mnohých a prosí za hriešnikov.<br>" +
                             "Počuli sme Božie slovo.<br>"},
-            {"E", "RESPONZÓRIOVÝ ŽALM", "Ž 31, 2+6. 12-13. 15-16. 17+25", "",
+            {"E", "RESPONZÓRIOVÝ ŽALM", "Ž 31, 2+6. 12-13. 15-16. 17+25", null,
                     "R.:</font> Otče, do tvojich rúk porúčam svojho ducha.<br><br>" +
                     "Pane, v teba dúfam, nech nie som zahanbený naveky; <font color='#B71C1C'>*</font><br>" +
                     "vysloboď ma, veď si spravodlivý.<br>" +
@@ -1286,14 +1267,14 @@ public interface Trojdnie_text {
                             "Bratia, keďže máme vznešeného veľkňaza, ktorý prenikol nebesia, Ježiša, Božieho Syna, držme sa svojho vyznania. Veď nemáme veľkňaza, ktorý by nemohol cítiť s našimi slabosťami; veď bol podobne skúšaný vo všetkom okrem hriechu. Pristupujme teda s dôverou k trónu milosti, aby sme dosiahli milosrdenstvo a našli milosť a pomoc v pravom čase.<br>" +
                             "Kristus v dňoch svojho pozemského života so silným výkrikom a so slzami prednášal prosby a modlitby tomu, ktorý ho mohol zachrániť od smrti; a bol vyslyšaný pre svoju bohabojnosť. A hoci bol Synom, z toho, čo vytrpel, naučil sa poslušnosti; a keď dosiahol dokonalosť, stal sa pôvodcom večnej spásy pre všetkých, ktorí ho poslúchajú.<br>" +
                             "Počuli sme Božie slovo.<br>"},
-            {"E", "VERŠ PRED EVANJELIOM", "Flp 2, 8-9", "",
+            {"E", "VERŠ PRED EVANJELIOM", "Flp 2, 8-9", null,
                     "<font color='#B71C1C'>R.</font> Sláva ti a chvála, Ježišu Kriste.<br>" +
                     "Kristus sa stal pre nás poslušným až na smrť,<br>" +
                     "až na smrť na kríži.<br>" +
                     "Preto ho Boh nad všetko povýšil<br>" +
                     "a dal mu meno, ktoré je nad každé iné meno.<br>" +
                     "<font color='#B71C1C'>R.</font> Sláva ti a chvála, Ježišu Kriste.<br>"},
-            {"E", "EVANJELIUM", "Jn 18, 1 – 19, 42", "",
+            {"E", "EVANJELIUM", "Jn 18, 1 – 19, 42", null,
                     "<font color='#B71C1C'>Značky pri dialogickom čítaní: E - evanjelista, + - Kristove slová, S - slová ostatných osôb.</font><br>"+
              "Umučenie nášho Pána Ježiša Krista podľa Jána<br>",
                     "Ježiša chytili a zviazali\n",
@@ -1367,24 +1348,19 @@ public interface Trojdnie_text {
                     "<font color='#B71C1C'>E</font> Potom Ježiš vo vedomí, že je už všetko dokonané, povedal, aby sa splnilo Písmo: <font color='#B71C1C'>+</font> „Žíznim.“<br>"+
                             "<font color='#B71C1C'>E</font> Bola tam nádoba plná octu. Nastokli teda na yzop špongiu naplnenú octom a podali mu ju k ústam. Keď Ježiš okúsil ocot, povedal: <font color='#B71C1C'>+</font> „Je dokonané.“ <font color='#B71C1C'>E</font> Naklonil hlavu a odovzdal ducha."},
             {"K", "Pokľakne sa a chvíľku je ticho."},
-            {"E", "", "", "Hneď vyšla krv a voda\n",
+            {"E", null, null, "Hneď vyšla krv a voda\n",
                     "<font color='#B71C1C'>E</font> Keďže bol Prípravný deň, Židia požiadali Piláta, aby ukrižovaným polámali nohy a sňali ich, aby nezostali telá na kríži cez sobotu, lebo v tú sobotu bol veľký sviatok. Prišli teda vojaci a polámali kosti prvému aj druhému, čo boli s ním ukrižovaní. No keď prišli k Ježišovi a videli, že je už mŕtvy, kosti mu nepolámali, ale jeden z vojakov mu kopijou prebodol bok a hneď vyšla krv a voda.<br>"+
                     "<font color='#B71C1C'>E</font> A ten, ktorý to videl, vydal o tom svedectvo a jeho svedectvo je pravdivé. On vie, že hovorí pravdu, aby ste aj vy uverili. Toto sa stalo, aby sa splnilo Písmo: „Kosť mu nebude zlomená.“ A na inom mieste Písmo hovorí: „Uvidia, koho prebodli.“<br>"+
                     "Ježišovo telo zavinuli do plátna s voňavými olejmi<br>"+
                     "<font color='#B71C1C'>E</font> Potom Jozef z Arimatey, ktorý bol Ježišovým učeníkom, ale tajným, lebo sa bál Židov, poprosil Piláta, aby mu dovolil sňať Ježišovo telo. A Pilát dovolil. Išiel teda a sňal jeho telo.<br>"+
                     "<font color='#B71C1C'>E</font> Prišiel aj Nikodém, ten, čo bol kedysi u neho v noci. Priniesol asi sto libier zmesi myrhy s aloou. Vzali Ježišovo telo a zavinuli ho do plátna s voňavými olejmi, ako je u Židov zvykom pochovávať. V tých miestach, kde bol ukrižovaný, bola záhrada a v záhrade nový hrob, v ktorom ešte nik neležal. Tam teda uložili Ježiša, lebo bol židovský Prípravný deň a hrob bol blízko.<br>"+
                     "Počuli sme slovo Pánovo.<br>"},
-            {"N", "<b>Slávnostná modlitba veriacich</b>"},
-            {"C", "Poslednou časťou liturgie slova je modlitba veriacich. Kňaz pri sedadle alebo ambóne, prípadne pri oltári, povie so zopätými rukami úvodnú výzvu, ktorou oznámi úmysel. Potom všetci zotrvajú chvíľu v tichej modlitbe. Nato sa kňaz modlí nahlas s rozopätými rukami. Veriaci počas modlitby stoja alebo kľačia.\n" +
-                    "Biskupská konferencia môže stanoviť, aby sa medzi úvodnou výzvou a hlasnou modlitbou kňaza zachovala tradičná výzva diakona: ",
-                    "Kľaknime si - Vstaňte",
-                    ", alebo môže zaviesť primeranú aklamáciu ľudu. Na výzvu ",
-                    "Kľaknime si ",
-                    "všetci si kľaknú a ticho sa modlia. Na výzvu ",
-                    "Vstaňte",
-                    "vstanú.\nKeď to vážny verejný záujem vyžaduje, miestny ordinár môže dovoliť alebo určiť, aby sa pridala aj iná modlitba na osobitný úmysel.\n" +
+            {"N", "Slávnostná modlitba veriacich"},
+            {"K", "Poslednou časťou liturgie slova je modlitba veriacich. Kňaz pri sedadle alebo ambóne, prípadne pri oltári, povie so zopätými rukami úvodnú výzvu, ktorou oznámi úmysel. Potom všetci zotrvajú chvíľu v tichej modlitbe. Nato sa kňaz modlí nahlas s rozopätými rukami. Veriaci počas modlitby stoja alebo kľačia.<br>" +
+                    "Biskupská konferencia môže stanoviť, aby sa medzi úvodnou výzvou a hlasnou modlitbou kňaza zachovala tradičná výzva diakona: <font color='#000000'>Kľaknime si - Vstaňte</font>, alebo môže zaviesť primeranú aklamáciu ľudu. Na výzvu <font color='#000000'>Kľaknime si</font> všetci si kľaknú a ticho sa modlia. Na výzvu <font color='#000000'>Vstaňte</font> vstanú.<br>" +
+                    "Keď to vážny verejný záujem vyžaduje, miestny ordinár môže dovoliť alebo určiť, aby sa pridala aj iná modlitba na osobitný úmysel.<br>" +
                     "Spomedzi modlitieb uvedených v misáli môže si kňaz vybrať tie, ktoré lepšie vyhovujú miestnym okolnostiam. Ale aj v tomto prípade sa má zachovať poradie úmyslov, stanovené pre spoločnú modlitbu veriacich."},
-            {"K", "", "<br>" +
+            {"K", null, "<br>" +
                             "I. <font color='#B71C1C'>ZA SVÄTÚ CIRKEV</font><br>" +
                             "Modlime sa, milovaní bratia a sestry,<br>" +
                             "za svätú Božiu Cirkev: nech jej náš Boh a Pán<br>" +
@@ -1545,7 +1521,7 @@ public interface Trojdnie_text {
                             "a poteš ich v každej núdzi svojou láskavou pomocou.<br>" +
                             "Skrze Krista, nášho Pána.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
-            {"N", "<b>II. časť: Poklona svätému krížu</b><br>"},
+            {"N", "II. časť: Poklona svätému krížu"},
             {"K", "Po modlitbách veriacich nasleduje slávnostná poklona svätému krížu. Z dvoch spôsobov tejto poklony, ktoré sa uvádzajú, treba zvoliť ten, ktorý je vhodnejší z pastoračného hľadiska.\n",
                     "<br>" +
                     "<font color='#B71C1C'><b>Prvý spôsob: OBRAD SO ZAHALENÝM KRÍŽOM</b></font><br>",
@@ -1553,11 +1529,9 @@ public interface Trojdnie_text {
                     "Hľa, drevo kríža. Na ktorom zomrel Spasiteľ sveta.<br>",
                     "V speve mu pomáhajú prisluhujúci, prípadne spevácky zbor. Všetci odpovedajú:\n",
                     "Poďte, pokloňme sa."},
-            {"C", "Keď dospievajú, všetci si kľaknú a chvíľu zotrvajú v tichej adorácii. Kňaz pritom stojí a drží zdvihnutý kríž. Potom odhalí pravé rameno kríža, znova pozdvihne kríž a spieva druhý raz ",
-                    "Hľa, drevo kríža.\n",
-                    "Pokračuje sa ako po prvýkrát.\n" +
-                    "Napokon odhalí celý kríž, pozdvihne ho a tretí raz spieva: ",
-                    "Hľa, drevo kríža.\n",
+            {"K", "Keď dospievajú, všetci si kľaknú a chvíľu zotrvajú v tichej adorácii. Kňaz pritom stojí a drží zdvihnutý kríž. Potom odhalí pravé rameno kríža, znova pozdvihne kríž a spieva druhý raz <font color='#000000'>Hľa, drevo kríža.</font><br>"+
+                    "Pokračuje sa ako po prvýkrát.<br>" +
+                    "Napokon odhalí celý kríž, pozdvihne ho a tretí raz spieva: <font color='#000000'>Hľa, drevo kríža.</font><br>"+
                     "Pokračuje sa ako po prvý raz."},
             {"K", "Potom v sprievode dvoch prisluhujúcich so zažatými sviecami odnesie kríž ku vchodu do presbytéria alebo na iné vhodné miesto. Tam ho položí alebo odovzdá prisluhujúcim, aby ho držali. Po oboch stranách kríža sa postavia sviece. Nasleduje vlastná poklona krížu (pozri Poklona svätému krížu).\n",
                     "<br>" +
@@ -1570,12 +1544,11 @@ public interface Trojdnie_text {
                     "Potom sa kríž so sviecami položí ku vchodu do presbytéria.\n",
                     "<br>" +
                     "<font color='#B71C1C'><b>Poklona svätému krížu</b></font><br>"},
-            {"C", "Krížu sa príde pokloniť najprv kňaz, potom klérus a veriaci. Keď prechádzajú pred krížom, vzdajú mu úctu jednoduchým pokľaknutím alebo iným vhodným spôsobom podľa miestneho zvyku, napríklad pobozkaním. Medzitým sa spieva antifóna: ",
-                    "Pane, vzdávame úctu tvojmu krížu,\n",
-                    "impropériá alebo iný vhodný spev. Tí, čo sa už poklonili krížu, si sadnú.\n" +
-                    "Na poklonu sa vystaví iba jeden kríž. Keď sa pre veľké množstvo veriacich nemôžu všetci jednotlivo pokloniť krížu, postupuje sa takto: Keď sa už istá časť veriacich poklonila krížu, kňaz ho vezme, stane si do stredu pred oltárom a niekoľkými slovami vyzve prítomných, aby sa spoločne poklonili krížu. Potom drží chvíľu kríž vysoko vyzdvihnutý a veriaci zatiaľ zotrvajú v tichej adorácii.\n" +
-                    "Po poklone sa kríž odnesie na miesto, ktoré je preň pripravené. Zažaté sviece sa postavia vedľa oltára alebo ku krížu.\n"},
-            {"V", "<font color='#B71C1C'>Spevy pri poklone svätému krížu</font>",
+            {"K", "Krížu sa príde pokloniť najprv kňaz, potom klérus a veriaci. Keď prechádzajú pred krížom, vzdajú mu úctu jednoduchým pokľaknutím alebo iným vhodným spôsobom podľa miestneho zvyku, napríklad pobozkaním. Medzitým sa spieva antifóna: <font color='#000000'>Pane, vzdávame úctu tvojmu krížu,</font><br>"+
+                    "impropériá alebo iný vhodný spev. Tí, čo sa už poklonili krížu, si sadnú.<br>" +
+                    "Na poklonu sa vystaví iba jeden kríž. Keď sa pre veľké množstvo veriacich nemôžu všetci jednotlivo pokloniť krížu, postupuje sa takto: Keď sa už istá časť veriacich poklonila krížu, kňaz ho vezme, stane si do stredu pred oltárom a niekoľkými slovami vyzve prítomných, aby sa spoločne poklonili krížu. Potom drží chvíľu kríž vysoko vyzdvihnutý a veriaci zatiaľ zotrvajú v tichej adorácii.<br>" +
+                    "Po poklone sa kríž odnesie na miesto, ktoré je preň pripravené. Zažaté sviece sa postavia vedľa oltára alebo ku krížu."},
+            {"V", "Spevy pri poklone svätému krížu", null,
                     "<font color='#B71C1C'><b>ANTIFÓNA</b><br>"+
                             "1. a 2. zbor: </font> Pane, vzdávame úctu tvojmu krížu,<br>"+
                             "velebíme a oslavujeme tvoje zmŕtvychvstanie,<br>"+
@@ -1773,7 +1746,7 @@ public interface Trojdnie_text {
                             "Tebe, Otče, s Duchom Svätým, nech je sláva naveky<br>"+
                             "skrze Krista, ktorý telom nie je nám už ďaleký<br>"+
                             "a chce krížom zmeniť v radosť ľudský bôľ a náreky. Amen.<br><br>"},
-            {"N", "<b>III. časť: Sväté prijímanie</b><br>"},
+            {"N", "III. časť: Sväté prijímanie"},
             {"K", "Oltár sa prikryje plachtou, rozprestrie sa naň korporál a pripraví sa kniha. Potom diakon alebo (ak niet diakona) sám kňaz prenesie na oltár Najsvätejšiu sviatosť najkratšou cestou z miesta, kde bola uschovaná. Dvaja prisluhujúci sprevádzajú Oltárnu sviatosť so zažatými sviecami, ktoré potom postavia vedľa oltára alebo na oltár. Ostatní pritom mlčky stoja.\n" +
                     "Diakon položí nádobku s Najsvätejšou sviatosťou na korporál a odkryje ju. Potom príde kňaz, pokľakne, vystúpi k oltáru a so zopätými rukami nahlas hovorí:\n",
             "Na príkaz nášho Spasiteľa<br>" +
@@ -1844,7 +1817,7 @@ public interface Trojdnie_text {
                     "Všetci v tichosti odídu.\n" +
                     "Vo vhodnej chvíli sa obnaží oltár.\n" +
                     "Tí, čo sa zúčastnili na popoludňajších obradoch, nerecitujú vešpery.\n"},
-            {"N", "<b>Sprievod do Božieho hrobu</b><br>"},
+            {"N", "Sprievod do Božieho hrobu"},
             {"K", "Po prijímaní v liturgii Utrpenia a smrti Pána celebrant (alebo diakon, ak je) vloží hostiu do monštrancie, monštranciu zahalí bielym priesvitným závojom a nechá ju na oltári.\n" +
                     "Po modlitbe po prijímaní (modlitba nad ľudom sa vynechá) celebrant zostúpi pred oltár (chrbtom k veriacim), vloží do kadidelnice tymian, kľakne si a incenzuje Najsvätejšiu sviatosť. Potom prijme náplecné vélum, vezme do rúk monštranciu a nesie ju do Božieho hrobu. Pred ním ide turifer, ktorý incenzuje Sviatosť, celebranta sprevádzajú štyria akolyti so zapálenými sviecami. Počas procesie sa spieva (alebo recituje):\n",
                     "<i>AVE, VERUM COPRUS</i><br>"+
@@ -1858,9 +1831,7 @@ public interface Trojdnie_text {
                             "sviatosť spásy premilá.<br>"+
                             "Ježiš drahý, dobrotivý,<br>"+
                             "Syn Márie milostivý!"},
-            {"C", "Možno spievať aj inú primeranú pieseň, napr. ",
-        "„Vitaj, milý Jezu Kriste“",
-                    "(JKS 295)."},
+            {"K", "Možno spievať aj inú primeranú pieseň, napr. <font color='#000000'>„Vitaj, milý Jezu Kriste“</font> (JKS 295)."},
             {"K", "Po príchode k Božiemu hrobu celebrant vystaví monštranciu na oltár alebo na trón (na korporáli), kľakne si, incenzuje Sviatosť a zotrvá v tichej modlitbe. Potom prednesie túto modlitbu:\n",
                     "Pane Ježišu Kriste,<br>"+
                             "ty si naše zmŕtvychvstanie a život,<br>"+
@@ -1879,18 +1850,18 @@ public interface Trojdnie_text {
     };
 
     String[][] stvrtok = {
-            {"N", "VEČERNÁ OMŠA NA PAMIATKU PÁNOVEJ VEČERE"},
+            {"S", "VEČERNÁ OMŠA NA PAMIATKU PÁNOVEJ VEČERE"},
             {"K", "Podľa pradávnej cirkevnej tradície nie je dovolené v tento deň sláviť svätú omšu bez účasti ľudu. Vo večerných hodinách, v čase, ktorý najlepšie vyhovuje veriacim, slávi sa svätá omša na pamiatku Poslednej večere za účasti celej farnosti. Všetci kňazi a prisluhujúci sa zúčastnia na slávení Eucharistie, každý podľa hodnosti v duchovnej službe.\n" +
                     "Kňazi, ktorí už slúžili svätú omšu pri svätení olejov alebo inú omšu pre veriacich, môžu koncelebrovať večernú omšu.\n" +
                     "Ak to vyžadujú pastoračné dôvody, miestny ordinár môže dovoliť aj inú večernú omšu, nielen vo farskom kostole, ale aj v iných kostoloch a verejných alebo poloverejných kaplnkách. Vo veľmi naliehavých prípadoch môže dovoliť svätú omšu aj v ranných hodinách pre veriacich, ktorí sa nemôžu zúčastniť na večernej omši. Treba dbať, aby táto omša nebola iba pre záujem jednotlivcov a na úkor hlavnej večernej omše.\n" +
                     "Sväté prijímanie možno podávať iba cez omšu, ale chorým ho možno zaniesť v ktorúkoľvek hodinu.\n"},
-            {"N", "<b>Úvodné obrady a Liturgia slova</b><br>"},
+            {"N", "Úvodné obrady a Liturgia slova"},
             {"K", "Svätostánok má byť prázdny. V tejto omši sa má konsekrovať dostatočné množstvo hostií na prijímanie kňazov, diakonov a veriacich aj na zajtrajší deň.\n"},
-            {"E", "ÚVODNÝ SPEV", "Porov. Gal 6, 14", "",
+            {"E", "ÚVODNÝ SPEV", "Porov. Gal 6, 14", null,
                             "Hľadajme slávu v kríži nášho Pána Ježiša Krista.<br>"+
                             "On je naša spása, náš život, naše vzkriesenie;<br>"+
                             "on nás oslobodil a spasil.<br>"},
-            {"V", "<font color='#B71C1C'>OSLAVNÁ PIESEŇ</font>",
+            {"V", "OSLAVNÁ PIESEŇ", null,
                     "Sláva Bohu na výsostiach<br>" +
                             "a na zemi pokoj ľuďom dobrej vôle.<br>" +
                             "Chválime ťa, velebíme ťa,<br>" +
@@ -1922,9 +1893,9 @@ public interface Trojdnie_text {
                             "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>"+
                             "ktorý je Boh a s tebou žije a kraľuje<br>"+
                             "v jednote s Duchom Svätým po všetky veky vekov.<br>"},
-            {"N", "<b>Bohoslužba liturgie</b>"},
+            {"N", "Bohoslužba liturgie"},
             {"E", "PRVÉ ČÍTANIE", "Ex 12, 1-8. 11-14",
-                    "Predpisy o veľkonočnej večeri\n",
+                    "Predpisy o veľkonočnej večeri",
                     "Čítanie z Kniha Exodus<br>"+
                     "Pán povedal Mojžišovi a Áronovi v Egypte: „Tento mesiac bude pre vás začiatočným mesiacom, prvým mesiacom v roku.<br>"+
                     "Celej izraelskej pospolitosti povedzte: V desiaty deň tohoto mesiaca nech si každý zaobstará baránka pre svoju rodinu, baránka pre každý dom. Ak je rodina menšia a nevládala by zjesť baránka, nech sa spojí so susedom, čo býva jeho domu najbližšie, podľa počtu osôb, koľko stačí na zjedenie baránka.<br>"+
@@ -1934,8 +1905,8 @@ public interface Trojdnie_text {
                     "V tú noc prejdem egyptskou krajinou a usmrtím všetko prvorodené v Egypte; človekom počnúc až po dobytok. A nad všetkými bohmi Egypta vykonám súd. Ja som Pán. Krv na vašich domoch bude znamením, že v nich bývate. Uvidím krv a obídem vás; nezastihne vás nijaká pohroma, keď budem biť Egypt.<br>"+
                     "Tento deň bude pre vás pamätný a budete ho sláviť ako sviatok Pána; z pokolenia na pokolenie ho budete sláviť po všetky veky.“<br>"+
                     "Počuli sme Božie slovo.<br>"},
-            {"E", "RESPONZORIOVÝ ŽALM", "Ž 116, 12-13. 15+16bc. 17-18", "",
-                    "R.:</font> Tento kalich dobrorečenia je účasťou na Kristovej krvi.<br><br>"+
+            {"E", "RESPONZORIOVÝ ŽALM", "Ž 116, 12-13. 15+16bc. 17-18", null,
+                    "<font color='#B71C1C'>R.:</font> Tento kalich dobrorečenia je účasťou na Kristovej krvi.<br><br>"+
                     "Čím sa odvďačím Pánovi <font color='#B71C1C'>*</font><br>"+
                     "za všetko, čo mi dal?<br>"+
                     "Vezmem kalich spásy <font color='#B71C1C'>*</font><br>"+
@@ -1949,18 +1920,18 @@ public interface Trojdnie_text {
                     "Splním svoje sľuby Pánovi <font color='#B71C1C'>*</font><br>"+
                     "pred všetkým jeho ľudom. <font color='#B71C1C'>R.</font><br>"},
             {"E", "DRUHÉ ČÍTANIE", "1 Kor 11, 23-26",
-                    "Vždy, keď budete jesť tento chlieb a piť tento kalich, zvestujete Pánovu smrť\n",
+                    "Vždy, keď budete jesť tento chlieb a piť tento kalich, zvestujete Pánovu smrť",
                     "Čítanie z Prvého listu svätého apoštola Pavla Korinťanom<br>"+
                     "Bratia, ja som od Pána prijal, čo som vám aj odovzdal, že Pán Ježiš v tú noc, keď bol zradený, vzal chlieb, vzdával vďaky, lámal ho a povedal: „Toto je moje telo, ktoré je pre vás; toto robte na moju pamiatku.“<br>"+
                     "Podobne po večeri vzal kalich a hovoril: „Tento kalich je nová zmluva v mojej krvi. Toto robte, kedykoľvek ho budete piť, na moju pamiatku.“<br>"+
                     "A tak vždy, keď budete jesť tento chlieb a piť tento kalich, zvestujete Pánovu smrť, kým nepríde.<br>"+
                     "Počuli sme Božie slovo.<br>"},
-            {"E", "VERŠ PRED EVANJELIOM", "Jn 13, 34", "",
+            {"E", "VERŠ PRED EVANJELIOM", "Jn 13, 34", null,
                     "<font color='#B71C1C'>R.</font> Chvála ti a česť, Pane Ježišu.<br>"+
                     "Nové prikázanie vám dávam, hovorí Pán; aby ste sa milovali navzájom, ako som ja miloval vás.<br>"+
                     "<font color='#B71C1C'>R.</font> Chvála ti a česť, Pane Ježišu.<br>"},
             {"E", "EVANJELIUM", "Jn 13, 1-15",
-                    "Miloval ich do krajnosti\n",
+                    "Miloval ich do krajnosti",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého Evanjelia podľa Jána<br>"+
                     "Bolo pred veľkonočnými sviatkami. Ježiš vedel, že nadišla jeho hodina odísť z tohoto sveta k Otcovi. A pretože miloval svojich, čo boli na svete, miloval ich do krajnosti.<br>"+
                     "Pri večeri, keď už diabol vnukol Judášovi, synovi Šimona Iškariotského, aby ho zradil, Ježiš vo vedomí, že mu Otec dal do rúk všetko a že od Boha vyšiel a k Bohu odchádza, vstal od stola, zobliekol si odev, vzal plátennú zásteru a prepásal sa. Potom nalial vody do umývadla a začal umývať učeníkom nohy a utierať zásterou, ktorou bol prepásaný.<br>"+
@@ -1972,12 +1943,12 @@ public interface Trojdnie_text {
                     "Keď im umyl nohy a obliekol si odev, znova si sadol k stolu a povedal im: „Chápete, čo som vám urobil? Vy ma oslovujete: ‚Učiteľ‘ a: ‚Pane‘ a dobre hovoríte, lebo to som.<br>"+
                     "Keď som teda ja, Pán a Učiteľ, umyl nohy vám, aj vy si máte jeden druhému nohy umývať. Dal som vám príklad, aby ste aj vy robili, ako som ja urobil vám.<br>"+
                     "Počuli sme slovo Pánovo."},
-            {"", ""},
-            {"N", "<b>Umývanie nôh</b>"},
+            {"", null},
+            {"N", "Umývanie nôh"},
             {"K", "V homílii treba vysvetliť hlavné tajomstvá, ktoré sa pripomínajú v tejto omši: ustanovenie Oltárnej sviatosti, ustanovenie kňazstva a Pánov príkaz lásky. Ak je to z pastoračných dôvodov vhodné, môže sa konať obrad umývania nôh.\n"+
-             "Prisluhujúci privedú vybraných mužov (alebo chlapcov) k sedadlám, pripraveným na vhodnom mieste. Kňaz (ak treba, odloží ornát) príde ku každému, naleje mu vody na nohy a utrie ich. Prisluhujúci mu pritom pomáhajú."},
-            {"K", "Medzitým sa spievajú niektoré z uvedených antifón alebo iné vhodné piesne."},
-            {"V", "<font color='#B71C1C'>Antifóny</font>",
+             "Prisluhujúci privedú vybraných mužov (alebo chlapcov) k sedadlám, pripraveným na vhodnom mieste. Kňaz (ak treba, odloží ornát) príde ku každému, naleje mu vody na nohy a utrie ich. Prisluhujúci mu pritom pomáhajú.\n" +
+                    "Medzitým sa spievajú niektoré z uvedených antifón alebo iné vhodné piesne."},
+            {"V", "Antifóny", null,
                     "<font color='#B71C1C'>PRVÁ ANTIFÓNA<br>"+
                             "(Porov. Jn 13, 4.5.15)</font><br>"+
                             "Pán Ježiš vstal od večere, nalial vody do umývadla<br>"+
@@ -2016,12 +1987,11 @@ public interface Trojdnie_text {
                             "Najväčšia z nich je láska.<br>"+
                             "<font color='#B71C1C'>V.:</font> Teraz ešte ostávajú viera, nádej, láska, všetky tri, ale najväčšia z nich je láska.<br>"+
                             "- Nech zostanú vo vás tieto tri čnosti ...<br>"},
-            {"C","Hneď po umývaní nôh, alebo ak sa tento obrad nekoná, hneď po homílii nasleduje modlitba veriacich.\n",
-                    "Vyznanie viery ",
-                    "sa v tejto omši vynechá."},
-            {"", ""},
-            {"N", "<b>Spoločná modlitba veriacich</b>"},
-            {"K", "", "Bratia a sestry, náš Spasiteľ pri Poslednej večeri ustanovil eucharistickú obetu svojho tela a krvi, aby ňou až do konca sveta sprítomňoval obetu kríža. V duchu sa spojme so všetkými bratmi a sestrami po celom svete a nábožne sa modlime. <br>"+
+            {"K","Hneď po umývaní nôh, alebo ak sa tento obrad nekoná, hneď po homílii nasleduje modlitba veriacich.<br>" +
+                    "<font color='#000000'>Vyznanie viery</font> sa v tejto omši vynechá."},
+            {"", null},
+            {"N", "Spoločná modlitba veriacich"},
+            {"K", null, "Bratia a sestry, náš Spasiteľ pri Poslednej večeri ustanovil eucharistickú obetu svojho tela a krvi, aby ňou až do konca sveta sprítomňoval obetu kríža. V duchu sa spojme so všetkými bratmi a sestrami po celom svete a nábožne sa modlime. <br>"+
                     "<i>(Volajme: Obdaruj svoju Cirkev jednotou a pokojom.)</i><br>"+
                     "<br>"+
                     "<font color='#B71C1C'>1.</font> Ježišu, zachovaj Svätého Otca <font color='#B71C1C'>M.</font> v zdraví a sile ducha pre dobro Cirkvi.<br>"+
@@ -2038,9 +2008,9 @@ public interface Trojdnie_text {
                     "uskutočňovať príkaz lásky,<br>"+
                     "ktorý si nám zanechal.<br>"+
                     "Lebo ty žiješ a kraľuješ na veky vekov.<br>"},
-            {"N", "<b>Liturgia Eucharistie</b>"},
+            {"N", "Liturgia Eucharistie"},
             {"K", "Liturgia Eucharistie sa môže začať obetnou procesiou, v ktorej veriaci prinesú kňazovi okrem obetných darov aj dary pre chudobných. Medzitým sa spieva uvedený spev alebo iná vhodná pieseň."},
-            {"V", "<font color='#B71C1C'>Antifóny</font>",
+            {"V", "Antifóny", null,
                     "<font color='#B71C1C'>ANTIFÓNA:</font> Kde je láska opravdivá, tam Boh prebýva.<br>"+
                     "<font color='#B71C1C'>V.:</font> Láska Kristova nás zhromažďuje k stolu.<br>"+
                     "V ňom sa všetci tešme, radujme sa spolu.<br>"+
@@ -2056,14 +2026,14 @@ public interface Trojdnie_text {
                     "obdivovať krásu tvojho obličaja.<br>"+
                     "Ty, náš nesmierny zdroj čistej blaženosti,<br>"+
                     "ktorá klíči v čase, zreje vo večnosti. Amen.<br>"},
-            {"K", "", "<br><font color='#B71C1C'>NAD OBETNÝMI DARMI</font><br>"+
+            {"K", null, "<font color='#B71C1C'>NAD OBETNÝMI DARMI</font><br>"+
                     "Prosíme ťa, láskavý Otče, <font color='#B71C1C'>*</font><br>"+
                     "pomôž nám nábožne sláviť eucharistické tajomstvo, <font color='#B71C1C'>—</font><br>"+
                     "lebo vždy, keď slávime<br>"+
                     "pamiatku Kristovej obety,<br>"+
                     "uskutočňuje sa v nás dielo vykúpenia.<br>"+
                     "Skrze Krista, nášho Pána.<br>"},
-            {"P", "O Kristovej obete a sviatosti\n",
+            {"P", "O Kristovej obete a sviatosti",
                     "<font color='#B71C1C'>K.:</font> Pán s vami.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br>" +
                             "<font color='#B71C1C'>K.:</font> Hore srdcia.<br>" +
@@ -2095,7 +2065,7 @@ public interface Trojdnie_text {
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
                             "Hosana na výsostiach!"},
             {"O"},
-            {"K", "", "<font color='#B71C1C'>SPEV NA PRIJÍMANIE (Porov. 1 Kor 11, 24.25)</font><br>"+
+            {"K", null, "<font color='#B71C1C'>SPEV NA PRIJÍMANIE (Porov. 1 Kor 11, 24.25)</font><br>"+
                     "Pán Ježiš hovorí: Toto je moje telo, ktoré sa obetuje za vás;<br>"+
                     "tento kalich je nová zmluva, uzavretá mojou krvou.<br>"+
                     "Kedykoľvek budete prijímať, robte to na moju pamiatku.<br>",
@@ -2107,19 +2077,13 @@ public interface Trojdnie_text {
                     "oblažuj nás aj vo večnosti<br>"+
                     "na jeho nebeskej hostine.<br>"+
                     "O to ťa prosíme skrze Krista, nášho Pána.<br>"},
-            {"N", "<b>Prenesenie Najsvätejšej sviatosti</b>"},
-            {"C", "Po tejto modlitbe kňaz, stojac pred oltárom, vloží do kadidelnice temian a kľačiačky trikrát okiadza Oltárnu sviatosť. Potom si vezme vélum, zoberie nádobku s hostiami a zakryje ju koncami véla.\n" +
-                    "Nasleduje sprievod na čele s krížom. Kňaz nesie Oltárnu sviatosť, sprevádzajú ho prisluhujúci so sviecami a kadidlom. Najsvätejšiu sviatosť odnesie cez kostol do niektorej primerane ozdobenej kaplnky a tam ju uschová. Medzitým sa spieva hymnus ",
-                    "<i>Sviatosť tela tajomného",
-                    " (1. až 4. sloha) ",
-    "<i>– Pange Lingua ",
-                    "alebo iná eucharistická pieseň.\n" +
-                    "Keď sa príde na miesto, kde má byť uschovaná Oltárna sviatosť, kňaz vloží nádobku s hostiami do ozdobenej schránky, nasype do kadidelnice temian a kľačiačky okiadza Oltárnu sviatosť. Pritom sa ",
-                    "<i>spieva Tantum ergo - Ctíme túto sviatosť slávnu. ",
-                    "Potom kňaz zatvorí úschovnú schránku alebo svätostánok.\n" +
-                    "Po krátkej tichej poklone kňaz a prisluhujúci vstanú, pokľaknú na jedno koleno a vrátia sa do sakristie.\n" +
-                    "Nasleduje obnaženie oltárov. Ak je to možné, odnesú sa z kostola aj kríže. Tie, čo zostanú v kostole, by sa mali zahaliť.\n" +
-                    "Tí, čo sa zúčastnili na večernej omši, nerecitujú vešpery.\n" +
+            {"N", "Prenesenie Najsvätejšej sviatosti"},
+            {"K", "Po tejto modlitbe kňaz, stojac pred oltárom, vloží do kadidelnice temian a kľačiačky trikrát okiadza Oltárnu sviatosť. Potom si vezme vélum, zoberie nádobku s hostiami a zakryje ju koncami véla.<br>" +
+                    "Nasleduje sprievod na čele s krížom. Kňaz nesie Oltárnu sviatosť, sprevádzajú ho prisluhujúci so sviecami a kadidlom. Najsvätejšiu sviatosť odnesie cez kostol do niektorej primerane ozdobenej kaplnky a tam ju uschová. Medzitým sa spieva hymnus <font color='#000000'><i>Sviatosť tela tajomného</i></font> (1. až 4. sloha) <font color='#000000'><i>– Pange Lingua</i></font> alebo iná eucharistická pieseň.<br>" +
+                    "Keď sa príde na miesto, kde má byť uschovaná Oltárna sviatosť, kňaz vloží nádobku s hostiami do ozdobenej schránky, nasype do kadidelnice temian a kľačiačky okiadza Oltárnu sviatosť. Pritom sa <font color='#000000'><i>spieva Tantum ergo - Ctíme túto sviatosť slávnu.</i></font> Potom kňaz zatvorí úschovnú schránku alebo svätostánok.<br>" +
+                    "Po krátkej tichej poklone kňaz a prisluhujúci vstanú, pokľaknú na jedno koleno a vrátia sa do sakristie.<br>" +
+                    "Nasleduje obnaženie oltárov. Ak je to možné, odnesú sa z kostola aj kríže. Tie, čo zostanú v kostole, by sa mali zahaliť.<br>" +
+                    "Tí, čo sa zúčastnili na večernej omši, nerecitujú vešpery.<br>" +
                     "Veriacich treba upozorniť, aby v noci - podľa miestnych zvyklostí a možnosti - venovali nejaký čas poklone Oltárnej sviatosti. Poklona po polnoci však už nemá mať slávnostný ráz."},
     };
 }

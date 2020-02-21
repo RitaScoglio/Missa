@@ -1,9 +1,5 @@
 package sk.missa;
 
-/*
-* táto trieda sa bude meniť a celé trojdnie a ešte bude upravovať
-* */
-
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -25,6 +21,7 @@ import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -37,16 +34,10 @@ import sk.missa.interfaces.Texty;
 import sk.missa.interfaces.Trojdnie_text;
 import sk.missa.interfaces.Eucharistia;
 
-public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty {
+public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty {
 
-    TextView txt;
-    Typeface typeface, typeface2;
-    ImageView zvoncek_1;
-    ImageView zvoncek_2;
-    TextView euch1, euch2, euch3;
     List<String> eucharistiaArray = new ArrayList<>();
     List<String> prefaciaArray = new ArrayList<>();
-    int lec;
 
    /* @Override
     protected void onResume() {
@@ -83,6 +74,7 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
+            //akcie po výbere položky z menu
             case android.R.id.home:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
@@ -125,27 +117,32 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
             case R.id.menu_rezim:
                 switch_rezim.setChecked(!switch_rezim.isChecked());
                 rezim = switch_rezim.isChecked();
+                nast_farbu = true;
                 menuRezim();
                 putRezim();
-                nastavFarbu();
+                pozicia_listview = listView.getFirstVisiblePosition();
                 vypis();
                 return true;
             case R.id.menu_pismo:
                 switch_pismo.setChecked(!switch_pismo.isChecked());
                 pismo = switch_pismo.isChecked();
                 putPismo();
-                nastavPismo();
+                pozicia_listview = listView.getFirstVisiblePosition();
+                vypis();
                 return true;
             case R.id.menu_zvoncek:
                 switch_zvoncek.setChecked(!switch_zvoncek.isChecked());
                 zvoncek = switch_zvoncek.isChecked();
                 putZvoncek();
-                zvonceky();
+                pozicia_listview = listView.getFirstVisiblePosition();
+                vypis();
                 return true;
             case R.id.menu_tiche_modlitby:
                 switch_tiche_modlitby.setChecked(!switch_tiche_modlitby.isChecked());
                 tiche_modlitby = switch_tiche_modlitby.isChecked();
                 putTicheModlitby();
+                pozicia_listview = listView.getFirstVisiblePosition();
+                vypis();
                 return true;
             case R.id.menu_info:
                 drawer = findViewById(R.id.drawer_layout);
@@ -161,12 +158,15 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
         super.onCreate(savedInstanceState);
         getThemeStyle();
         setTheme(themeStyle);
-        setContentView(R.layout.activity_trojdnie);
+        setContentView(R.layout.activity_misal);
 
         setToolbar();
         setFullscreen();
         menuRezim();
 
+        pozicia_listview = 0;
+
+        //nastavenia v menu po stlačení switch tlačidla alebo obrazku pre priblíženie/oddialenie
         switch_fullscreen.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -180,7 +180,8 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 pismo = isChecked;
                 putPismo();
-                nastavPismo();
+                pozicia_listview = listView.getFirstVisiblePosition();
+                vypis();
             }
         });
         switch_rezim.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -189,7 +190,8 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
                 rezim = isChecked;
                 menuRezim();
                 putRezim();
-                nastavFarbu();
+                nast_farbu = true;
+                pozicia_listview = listView.getFirstVisiblePosition();
                 vypis();
             }
         });
@@ -198,7 +200,8 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 zvoncek = isChecked;
                 putZvoncek();
-                zvonceky();
+                pozicia_listview = listView.getFirstVisiblePosition();
+                vypis();
             }
         });
         switch_tiche_modlitby.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -206,6 +209,8 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 tiche_modlitby = isChecked;
                 putTicheModlitby();
+                pozicia_listview = listView.getFirstVisiblePosition();
+                vypis();
             }
         });
         image_zoomIn.setOnClickListener(new View.OnClickListener() {
@@ -213,7 +218,8 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
             public void onClick(View v) {
                 zoomIn();
                 putVelkost();
-                setSize();
+                pozicia_listview = listView.getFirstVisiblePosition();
+                vypis();
             }
         });
         image_zoomOut.setOnClickListener(new View.OnClickListener() {
@@ -221,7 +227,8 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
             public void onClick(View v) {
                 zoomOut();
                 putVelkost();
-                setSize();
+                pozicia_listview = listView.getFirstVisiblePosition();
+                vypis();
             }
         });
 
@@ -243,54 +250,7 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
             eucharistiaArray.add("2. eucharistická modlitba");
             eucharistiaArray.add("3. eucharistická modlitba");
         }
-        zvoncek_1 = findViewById(R.id.zvoncek_1);
-        zvoncek_2 = findViewById(R.id.zvoncek_2);
-        euch1 = findViewById(R.id.eucharistia1);
-        euch2 = findViewById(R.id.eucharistia2);
-        euch3 = findViewById(R.id.eucharistia3);
-        setSize();
-        nastavFarbu();
-        nastavPismo();
         vypis();
-        vypisEucharistia();
-    }
-
-    private void zvonceky() {
-        if (zvoncek && !ID.equals("3dni5")) {
-            zvoncek_1.setBackgroundResource(R.drawable.bell);
-            zvoncek_2.setBackgroundResource(R.drawable.bell);
-            zvoncek_1.getLayoutParams().height = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, sizeZ, getResources().getDisplayMetrics());
-            zvoncek_1.getLayoutParams().width = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, sizeZ, getResources().getDisplayMetrics());
-            zvoncek_2.getLayoutParams().height = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, sizeZ, getResources().getDisplayMetrics());
-            zvoncek_2.getLayoutParams().width = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, sizeZ, getResources().getDisplayMetrics());
-            zvoncek_1.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    MediaPlayer mMediaPlayer = MediaPlayer.create(Trojdnie.this, R.raw.zvoncek);
-                    mMediaPlayer.start();
-                }
-            });
-            zvoncek_2.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    MediaPlayer mMediaPlayer = MediaPlayer.create(Trojdnie.this, R.raw.zvoncek);
-                    mMediaPlayer.start();
-                }
-            });
-        } else {
-            zvoncek_1.setBackgroundResource(0);
-            zvoncek_2.setBackgroundResource(0);
-            zvoncek_1.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                }
-            });
-            zvoncek_2.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                }
-            });
-        }
     }
 
     private void getPremenne() {
@@ -319,11 +279,14 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
         editor.putInt("rok", rok).apply();
     }
 
-    private void vypis() {
-        if (ID.equals("3dni4"))
-            lec = 0;
-        else if (ID.equals("3dni5"))
-            lec = 1;
+    @Override
+    public void vypis(){
+        if (rezim)
+            drawer.setBackgroundColor(Color.BLACK);
+        else
+            drawer.setBackgroundColor(getResources().getColor(R.color.background));
+        final ArrayList<Missa> missas = new ArrayList<>();
+
         String[][] obrad = {};
         switch (ID) {
             case "3dni4":
@@ -338,542 +301,152 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
             default:
                 break;
         }
-        for (int i = 0; i < view.length; i++) {
-            txt = findViewById(view[i]);
-            txt.setText("");
+        for (int i = 0; i < obrad.length; i++) {
             switch (obrad[i][0]) {
-                case "N": //nadpisy
-                    vypisNadpis(obrad, i);
+                case "S": //nadpis
+                    missas.add(new Missa(obrad[i][1], null, null, null, null, false, -1));
+                    break;
+                case "N": //podnadpisy
+                    missas.add(new Missa(obrad[i][1], null, null, null, null, false, -2));
                     break;
                 case "K": //komentare
-                    vypisKomentar(obrad, i);
+                    if(obrad[i].length > 2)
+                        missas.add(new Missa(obrad[i][1], obrad[i][2], true));
+                    else
+                        missas.add(new Missa(obrad[i][1], null, true));
                     break;
                 case "V": //vyskakovacie okna
-                    vypisVyskakovacie(obrad, i);
+                    missas.add(new Missa(obrad[i][1], obrad[i][2], i, 1));
                     break;
                 case "E": //citania, evanjelia, zalmy
-                    vypisEvanjelium(obrad, i);
+                    missas.add(new Missa(null, obrad[i][1], obrad[i][2], obrad[i][3], obrad[i][4], true, 0));
                     break;
-                case "A": //epistola a evanjelium sobota
-                    vypisA(obrad, i);
+                case "A": //komentare a evajelium na bielu sobotu
+                    int j = 0;
+                    if (cirkevRok == 2) {
+                        j++;
+                    }
+                    if (cirkevRok == 0) {
+                        j += 2;
+                    }
+                    missas.add(new Missa(null, "EVANJELIUM", evanjeliumSobota[j][0], null, null, false, 0));
+                    missas.add(new Missa(obrad[i][1], null, true));
+                    missas.add(new Missa(null, null, null, evanjeliumSobota[j][1], evanjeliumSobota[j][2], true, 0));
+                    missas.add(new Missa(obrad[i][2], null, true));
                     break;
                 case "P": //prefacia
-                    vypisPrefacia(obrad, i);
+                    missas.add(new Missa("PREFÁCIA", obrad[i][1], obrad[i][2], true));
+                    modlitbaEucharistia(missas);
                     break;
                 case "O": //obrad prijimanie
-                    vypisObradPrijimania();
-                    break;
-                case "C": //specialne komentare
-                    vypisC(obrad, i);
+                    obradPrijimania(missas);
                     break;
                 case "":
-                    txt.setText(obrad[i][1]);
+                    missas.add(new Missa(2)); //medzera velka
                     break;
                 default:
                     break;
             }
         }
-    }
 
-    private void vypisC(String[][] obrad, int i) {
-        for (int j = 1; j < obrad[i].length; j++) {
-            if (!obrad[i][j].equals("")) {
-                SpannableString s = new SpannableString(obrad[i][j]);
-                s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                if (j % 2 == 0) {
-                    if (obrad[i][j].substring(0, 3).equals("<i>")) {
-                        s = new SpannableString(obrad[i][j].substring(3));
-                        s.setSpan(new StyleSpan(typeface2.getStyle()), 0, s.length(), 0);
-                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                    }
-                } else {
-                    s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
-                }
-                txt.append(s);
-            }
-
-        }
-    }
-
-    private void vypisObradPrijimania() {
-        txt.setText(Html.fromHtml(nahrad("<br><font color='#B71C1C'><b>obrad prijímania</b></font><br>").toUpperCase()));
-        obradPrijimania(modlitba_pana_text);
-        obradPrijimania(obrad_pokoja_text);
-        lamanieChleba();
-    }
-
-    private void lamanieChleba() {
-        /*SpannableString s = new SpannableString("Lámanie chleba\n");
-        s.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER), 0, s.length(), 0);
-        s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
-        txt.append(s);
-        for (int i = 0; i < Texty.lamanie_chleba_text.length; i++) {
-            for (int j = 0; j < Texty.lamanie_chleba_text[i].length; i++) {
-                s = new SpannableString(Texty.lamanie_chleba_text[i][j]);
-                if (i % 2 == 1) {
-                    s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                    s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
-                }
-                txt.append(s);
-            }
-            if (i == Texty.lamanie_chleba_text.length - 1)
-                txt.append("\n");
-        }*/
-    }
-
-    private void obradPrijimania(String[] obrad) {
-        SpannableString s = new SpannableString(obrad[0] + "\n");
-        s.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER), 0, s.length(), 0);
-        s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
-        txt.append(s);
-        for (int i = 1; i < obrad.length; i++) {
-            s = new SpannableString(obrad[i]);
-            if (i % 2 == 1) {
-                s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
-            } else {
-                if (i == 6 && ID.equals("3dni6")) {
-                    s = new SpannableString("\nVoláme sa Božími deťmi a nimi aj sme; preto sa modlime s veľkou dôverou:\n");
-                    s.setSpan(new ForegroundColorSpan(farba_b), 0, s.length(), 0);
-                    i = i + 2;
-                } else if (i == 6 && ID.equals("3dni4")) {
-                    s = new SpannableString("\nAk chceme volať Boha naším Otcom, musíme si navzájom odpustiť; buďme ako jedna rodina a spoločne sa modlime:\n");
-                    s.setSpan(new ForegroundColorSpan(farba_b), 0, s.length(), 0);
-                    i = i + 2;
-                } else
-                    s.setSpan(new ForegroundColorSpan(farba_b), 0, s.length(), 0);
-            }
-            txt.append(s);
-            if (i == obrad.length - 1)
-                txt.append("\n");
-        }
-    }
-
-    private void vypisPrefacia(String[][] obrad, int i) {
-        txt.append(Html.fromHtml(nahrad("<font color='#B71C1C'><b>prefácia</b></font><br>").toUpperCase()));
-        SpannableString s = new SpannableString(obrad[i][1]);
-        s.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER), 0, s.length(), 0);
-        s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
-        txt.append(s);
-        txt.append(Html.fromHtml(nahrad(obrad[i][2])));
-    }
-
-    private void vypisEucharistia() {
-        if (pozicia_eucharistia == 0) {
-            modlitbaEucharistia(eucharistia1);
-        }
-        if (pozicia_eucharistia == 1) {
-            modlitbaEucharistia(eucharistia2);
-        }
-        if (pozicia_eucharistia == 2) {
-            modlitbaEucharistia(eucharistia3);
-        }
-    }
-
-    private void modlitbaEucharistia(String[][] eucharistia) {
-        TextView txt = null;
-        for (int i = 0; i < eucharistia.length; i++) {
-            switch (i) {
-                case 0:
-                    txt = euch1;
-                    break;
-                case 1:
-                    txt = euch2;
-                    break;
-                case 2:
-                    txt = euch3;
-                    break;
-                default:
-                    break;
-            }
-            txt.setText("");
-            if (i == 0) {
-                txt.setText(Html.fromHtml(nahrad("<br><font color='#B71C1C'><b>eucharistická modlitba</b></font><br>").toUpperCase()));
-            }
-            for (int j = 0; j < eucharistia[i].length; j++) {
-                SpannableString s = new SpannableString(eucharistia[i][j]);
-                if (j % 2 == 0) {
-                    s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                    s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
-                    txt.append(s);
-                } else {
-                    if (eucharistia[i][j].length() > 6) {
-                        if (eucharistia[i][j].substring(0, 7).equals("VSUVKA2")) {
-                            if (ID.equals("3dni4"))
-                                txt.append(Html.fromHtml(nahrad(vsuvkyEM[0][2])));
-                            else if (ID.equals("3dni6"))
-                                txt.append(Html.fromHtml(nahrad(vsuvkyEM[1][2])));
-                        } else if (eucharistia[i][j].substring(0, 6).equals("VSUVKA")) {
-                            if (ID.equals("3dni4"))
-                                txt.append(Html.fromHtml(nahrad(vsuvkyEM[0][1])));
-                            else if (ID.equals("3dni6"))
-                                txt.append(Html.fromHtml(nahrad(vsuvkyEM[1][1])));
-                        } else if (eucharistia[i][j].contains("On večer")) {
-                            if (ID.equals("3dni4")) {
-                                txt.append(Html.fromHtml(nahrad(vsuvkyEM[0][3])));
-                            } else
-                                txt.append(Html.fromHtml(nahrad(eucharistia[i][j])));
-                        } else if (eucharistia[i][j].contains("VEZMITE")) {
-                            s.setSpan(new ForegroundColorSpan(farba_b), 0, s.length(), 0);
-                            s.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER), 0, s.length(), 0);
-                            txt.append(s);
-                        } else if (eucharistia[i][j].contains("Spomienka")) {
-                            s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
-                            s.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER), 0, s.length(), 0);
-                            txt.append(s);
-                        } else
-                            txt.append(Html.fromHtml(nahrad(eucharistia[i][j])));
-                    } else
-                        txt.append(Html.fromHtml(nahrad(eucharistia[i][j])));
-                }
-            }
-        }
-    }
-
-
-    private void vypisA(String[][] obrad, int i) {
-        if (rok % 3 == 2)
-            index = 3;
-        else if (rok % 3 == 0)
-            index = 6;
-        else
-            index = 0;
-        for (int j = 1; j < obrad[i].length; j++) {
-            if (!obrad[i][j].equals("")) {
-                if (j % 2 == 1) {
-                    if (j == 3 || j == 11 || j == 13 || j == 15) {
-                        SpannableString s = new SpannableString(obrad[i][j]);
-                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                        s.setSpan(new ForegroundColorSpan(farba_b), 0, s.length(), 0);
-                        txt.append(s);
-                    } else if (j == 19) {
-                        txt.append(Html.fromHtml(nahrad("<font color='#B71C1C'>EVANJELIUM " + evanjeliumSobota[index] + "<font color='#B71C1C'><br>")));
-                    } else if (j == 23)
-                        txt.append(Html.fromHtml(nahrad(evanjeliumSobota[index + 2])));
-                    else
-                        txt.append(Html.fromHtml(nahrad(obrad[i][j])));
-                } else {
-                    SpannableString s;
-                    if (j == 8) {
-                        s = new SpannableString(obrad[i][j]);
-                        s.setSpan(new StyleSpan(typeface2.getStyle()), 0, s.length(), 0);
-                        s.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER), 0, s.length(), 0);
-                    } else if (j == 22) {
-                        s = new SpannableString(evanjeliumSobota[index + 1]);
-                        s.setSpan(new StyleSpan(typeface2.getStyle()), 0, s.length(), 0);
-                        s.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER), 0, s.length(), 0);
-                    } else if (obrad[i][j].charAt(2) == '.') {
-                        s = new SpannableString(obrad[i][j]);
-                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                        s.setSpan(new ForegroundColorSpan(farba_r), 3, s.length(), 0);
-                    } else {
-                        s = new SpannableString(obrad[i][j]);
-                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                        s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
-                    }
-                    txt.append(s);
-                }
-            }
-        }
-    }
-
-    private void vypisEvanjelium(String[][] obrad, int i) {
-        if (!obrad[i][1].equals("")) {
-            TextView t1 = findViewById(lection[lec * 2]);
-            t1.setText(obrad[i][1]);
-            TextView t2 = findViewById(lection[lec * 2 + 1]);
-            t2.setText(obrad[i][2]);
-            lec++;
-        }
-        for (int j = 3; j < obrad[i].length; j++) {
-            if (j % 2 == 1 && !obrad[i][j].equals("")) {
-                SpannableString s = new SpannableString(obrad[i][j]);
-                s.setSpan(new StyleSpan(typeface2.getStyle()), 0, s.length(), 0);
-                s.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER), 0, s.length(), 0);
-                txt.append(s);
-            } else {
-                txt.append(Html.fromHtml(nahrad(obrad[i][j])));
-            }
-        }
-    }
-
-    private void vypisVyskakovacie(final String[][] obrad, final int i) {
-        if (obrad[i][1].contains("KRATŠÍ"))
-            txt.setText(Html.fromHtml(nahrad(obrad[i][1] + " <font color='#B71C1C'>(otvoriť)</font><br>")));
-        else
-            txt.setText(Html.fromHtml(nahrad(obrad[i][1] + " <font color='#B71C1C'>(otvoriť)</font>")));
-        txt.setOnClickListener(new View.OnClickListener() {
+        MissaAdapter adapter = new MissaAdapter(this, missas);
+        listView = findViewById(R.id.vypis_misal);
+        listView.setAdapter(adapter);
+        listView.setSelection(pozicia_listview);
+        final long[] firstClick = new long[1];
+        final long[] secondClick = new long[1];
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onClick(View view) {
-                alertBuilder(obrad, i);
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                double_click++;
+                if (double_click == 2) {
+                    secondClick[0] = System.currentTimeMillis();
+                    float dif = (float) (secondClick[0] - firstClick[0]) / 1000;
+                    // merac casu, ak rozdiel mensi ako 1s, tak double click = 0
+                    if (dif < 1) {
+                        double_click = 0;
+                        fullscreen = !fullscreen;
+                        putFullscreen();
+                        setFullscreen();
+                    } else {
+                        firstClick[0] = secondClick[0];
+                        double_click = 1;
+                    }
+                } else {
+                    firstClick[0] = System.currentTimeMillis();
+                }
             }
         });
+
     }
 
-    private void alertBuilder(String[][] obrad, int i) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle(Html.fromHtml(nahrad(obrad[i][1])))
-                .setMessage(Html.fromHtml(nahrad(obrad[i][2])))
-                .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                    }
-                });
-        AlertDialog dialog = builder.create();
-        dialog.show();
-        TextView text = dialog.findViewById(android.R.id.message);
-        assert text != null;
-        text.setTextSize(sizeO);
-        if (rezim) {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
-            text.setTextColor(farba_b);
-        } else {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-            text.setTextColor(farba_b);
-        }
-        if (obrad[i].length > 3) {
-            text.setText("");
-            if (ID.equals("3dni6") && i == obrad.length - 1) {
-                for (int j = 2; j < obrad[i].length; j++) {
-                    if (!obrad[i][j].equals("")) {
-                        if (j % 2 == 1) {
-                            text.append(Html.fromHtml(nahrad(obrad[i][j])));
-                        } else {
-                            SpannableString s = new SpannableString(obrad[i][j]);
-                            if (obrad[i][j].charAt(2) == '.') {
-                                switch (obrad[i][j].substring(0, 3)) {
-                                    case "64.":
-                                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                        s.setSpan(new ForegroundColorSpan(farba_r), 3, s.length(), 0);
-                                        text.append(s);
-                                        j++;
-                                        s = new SpannableString(obrad[i][j]);
-                                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                        s.setSpan(new ForegroundColorSpan(farba_b), 0, s.length(), 0);
-                                        break;
-                                    case "65.":
-                                    case "69.":
-                                    case "70.":
-                                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                        s.setSpan(new ForegroundColorSpan(farba_r), 3, s.length(), 0);
-                                        text.append(s);
-                                        j++;
-                                        s = new SpannableString(obrad[i][j]);
-                                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                        s.setSpan(new ForegroundColorSpan(farba_b), 0, s.length(), 0);
-                                        s.setSpan(new StyleSpan(typeface2.getStyle()), 0, s.length(), 0);
-                                        break;
-                                    case "66.":
-                                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                        s.setSpan(new ForegroundColorSpan(farba_r), 3, s.length(), 0);
-                                        text.append(s);
-                                        j++;
-                                        s = new SpannableString(obrad[i][j]);
-                                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                        s.setSpan(new ForegroundColorSpan(farba_b), 0, s.length(), 0);
-                                        s.setSpan(new StyleSpan(typeface2.getStyle()), 0, s.length(), 0);
-                                        text.append(s);
-                                        j++;
-                                        s = new SpannableString(obrad[i][j]);
-                                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                        s.setSpan(new ForegroundColorSpan(farba_r), 3, s.length(), 0);
-                                        text.append(s);
-                                        j++;
-                                        s = new SpannableString(obrad[i][j]);
-                                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                        s.setSpan(new ForegroundColorSpan(farba_b), 0, s.length(), 0);
-                                        s.setSpan(new StyleSpan(typeface2.getStyle()), 0, s.length(), 0);
-                                        break;
-                                    default:
-                                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                        s.setSpan(new ForegroundColorSpan(farba_r), 3, s.length(), 0);
-                                        break;
-                                }
-                            } else {
-                                s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
-                            }
-                            text.append(s);
-                        }
-                    }
-                }
-            } else {
-                for (int j = 2; j < obrad[i].length; j++) {
-                    switch (obrad[i][j].substring(0, 3)) {
-                        case "<i>": {
-                            SpannableString s = new SpannableString(obrad[i][j].substring(3));
-                            s.setSpan(new StyleSpan(typeface2.getStyle()), 0, s.length(), 0);
-                            s.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER), 0, s.length(), 0);
-                            text.append(s);
-                            break;
-                        }
-                        case "<c>": {
-                            SpannableString s = new SpannableString(obrad[i][j].substring(3));
-                            s.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER), 0, s.length(), 0);
-                            s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
-                            text.append(s);
-                            break;
-                        }
-                        default:
-                            text.append(Html.fromHtml(nahrad(obrad[i][j])));
-                            break;
-                    }
-                }
-            }
+    @Override
+    public void modlitbaEucharistia(ArrayList<Missa> missas) {
+        switch (eucharistiaArray.get(pozicia_eucharistia)) {
+            case "1. eucharistická modlitba":
+                modlitbaEucharistiaVypis(eucharistia1, missas);
+                break;
+            case "2. eucharistická modlitba":
+                modlitbaEucharistiaVypis(eucharistia2, missas);
+                break;
+            case "3. eucharistická modlitba":
+                modlitbaEucharistiaVypis(eucharistia3, missas);
+                break;
         }
     }
 
-    private void vypisNadpis(String[][] obrad, int i) {
-        if (i != 0) {
-            txt.setText(Html.fromHtml(obrad[i][1]));
-            txt.setGravity(Gravity.CENTER);
-        } else
-            txt.setText(obrad[i][1]);
-    }
+    //vypis eucharistickej modlitby
+    @Override
+    public void modlitbaEucharistiaVypis(String[][] eucharistia, ArrayList<Missa> missas) {
+        missas.add(new Missa("Eucharistická modlitba".toUpperCase(), null, null, false));
+        for (int i = 0; i < eucharistia.length; i++) {
+            for (int j = 0; j < eucharistia[i].length; j = j + 2) {
 
-    private void vypisKomentar(String[][] obrad, int i) {
-        for (int j = 1; j < obrad[i].length; j++) {
-            if (!obrad[i][j].equals("")) {
-                if (j % 2 == 0) {
-                    txt.append(Html.fromHtml(nahrad(obrad[i][j])));
-                } else {
-                    SpannableString s = new SpannableString(obrad[i][j]);
-                    if (ID.equals("3dni6")) {
-                        if (obrad[i][j].charAt(1) == '.') {
-                            s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                            s.setSpan(new ForegroundColorSpan(farba_r), 2, s.length(), 0);
-                        } else if (obrad[i][j].charAt(2) == '.') {
-                            switch (obrad[i][j].substring(0, 3)) {
-                                case "47.":
-                                case "49.":
-                                    s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                    s.setSpan(new ForegroundColorSpan(farba_r), 3, s.length(), 0);
-                                    txt.append(s);
-                                    j++;
-                                    s = new SpannableString(obrad[i][j]);
-                                    s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                    s.setSpan(new ForegroundColorSpan(farba_b), 0, s.length(), 0);
-                                    break;
-                                case "17.":
-                                case "56.":
-                                    s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                    s.setSpan(new ForegroundColorSpan(farba_r), 3, s.length(), 0);
-                                    txt.append(s);
-                                    j++;
-                                    txt.append(Html.fromHtml(nahrad(obrad[i][j])));
-                                    for (int a = 0; a < 2; a++) {
-                                        j++;
-                                        s = new SpannableString(obrad[i][j]);
-                                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                        s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
-                                        txt.append(s);
-                                        j++;
-                                        s = new SpannableString(obrad[i][j]);
-                                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                        s.setSpan(new ForegroundColorSpan(farba_b), 0, s.length(), 0);
-                                        if (a == 0)
-                                            txt.append(s);
-                                    }
-                                    break;
-                                default:
-                                    s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                                    s.setSpan(new ForegroundColorSpan(farba_r), 3, s.length(), 0);
+                if (j == 0 && eucharistia[i][j] != null) {
+                    if (eucharistia[i][j].contains("Spomienka")) {
+                        if (eucharistia[i][j + 1].length() > 6) {
+                            if (eucharistia[i][j + 1].substring(0, 6).equals("VSUVKA")) {
+                                if (ID.equals("3dni4"))
+                                    missas.add(new Missa(null, eucharistia[i][j], vsuvkyTrojdnieEM[0][1], true));
 
-                                    break;
-                            }
+                                else
+                                    missas.add(new Missa(null, eucharistia[i][j], vsuvkyTrojdnieEM[1][1], true));
+                            } else
+                                missas.add(new Missa(null, eucharistia[i][j], eucharistia[i][j + 1], true));
+                        } else
+                            missas.add(new Missa(null, eucharistia[i][j], eucharistia[i][j + 1], true));
+                    } else if (eucharistia[i][j].contains("VEZMITE")) {
+                        missas.add(new Missa(null, eucharistia[i][j], null, false));
+                        missas.add(new Missa(true));
+                    } else
+                        missas.add(new Missa(eucharistia[i][j], eucharistia[i][j + 1], true));
+                } else if (eucharistia[i][j + 1].length() > 6) {
+                    if (eucharistia[i][j + 1].substring(0, 7).equals("VSUVKA2")) {
+                        if (ID.equals("3dni4")) {
+                            missas.add(new Missa(eucharistia[i][j], vsuvkyTrojdnieEM[0][2], true));
                         } else {
-                            s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                            s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
+                            missas.add(new Missa(eucharistia[i][j], vsuvkyTrojdnieEM[1][2], true));
+                        }
+                    } else if (eucharistia[i][j+1].substring(0, 8).equals("On večer")){
+                        if (ID.equals("3dni4")) {
+                            missas.add(new Missa(eucharistia[i][j], vsuvkyTrojdnieEM[0][3], true));
+                        } else {
+                            missas.add(new Missa(eucharistia[i][j], eucharistia[i][j + 1], true));
                         }
                     } else {
-                        s.setSpan(new RelativeSizeSpan(0.75f), 0, s.length(), 0);
-                        s.setSpan(new ForegroundColorSpan(farba_r), 0, s.length(), 0);
+                        missas.add(new Missa(eucharistia[i][j], eucharistia[i][j + 1], true));
                     }
-                    txt.append(s);
-                }
+                } else
+                    missas.add(new Missa(eucharistia[i][j], eucharistia[i][j + 1], true));
             }
         }
     }
 
-    private void nastavPismo() {
-        if (pismo) {
-            typeface = typeBold;
-            typeface2 = typeBoldItalic;
-        } else {
-            typeface = typeNormal;
-            typeface2 = typeItalic;
-        }
-        for (int i = 1; i < view.length; i++) {
-            txt = findViewById(view[i]);
-            txt.setTypeface(typeface);
-        }
-        if (!ID.equals("3dni5")) {
-            euch1.setTypeface(typeface);
-            euch2.setTypeface(typeface);
-            euch3.setTypeface(typeface);
-        }
-        if (!ID.equals("3dni6"))
-            for (Integer aLection : lection) {
-                txt = findViewById(aLection);
-                txt.setTypeface(typeface);
-            }
-    }
-
-    private void nastavFarbu() {
-        if (rezim) {
-            drawer.setBackgroundColor(Color.BLACK);
-            farba_b = getResources().getColor(R.color.background);
-            farba_r = getResources().getColor(R.color.primary_light);
-        } else {
-            drawer.setBackgroundColor(getResources().getColor(R.color.background));
-            farba_b = Color.BLACK;
-            farba_r = getResources().getColor(R.color.primary);
-
-        }
-        for (Integer aView : view) {
-            txt = findViewById(aView);
-            txt.setTextColor(farba_b);
-        }
-        if (!ID.equals("3dni5")) {
-            euch1.setTextColor(farba_b);
-            euch2.setTextColor(farba_b);
-            euch3.setTextColor(farba_b);
-        }
-        if (!ID.equals("3dni6"))
-            for (Integer aLection : lection) {
-                txt = findViewById(aLection);
-                txt.setTextColor(farba_r);
-            }
-    }
-
-    private void setSize() {
-        txt = findViewById(view[0]);
-        txt.setTextSize(sizeN);
-        for (int i = 1; i < view.length; i++) {
-            txt = findViewById(view[i]);
-            txt.setTextSize(sizeO);
-        }
-        if (!ID.equals("3dni5")) {
-            euch1.setTextSize(sizeO);
-            euch2.setTextSize(sizeO);
-            euch3.setTextSize(sizeO);
-        }
-        if (!ID.equals("3dni6"))
-            for (Integer aLection : lection) {
-                txt = findViewById(aLection);
-                txt.setTextSize(sizeO);
-            }
-        if (zvoncek) {
-            zvoncek_1.getLayoutParams().height = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, sizeZ, getResources().getDisplayMetrics());
-            zvoncek_1.getLayoutParams().width = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, sizeZ, getResources().getDisplayMetrics());
-            zvoncek_2.getLayoutParams().height = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, sizeZ, getResources().getDisplayMetrics());
-            zvoncek_2.getLayoutParams().width = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, sizeZ, getResources().getDisplayMetrics());
-        }
-    }
-
+    @Override
     public void formular(View view) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle(Html.fromHtml("<font color='#9C0E0F'><b>Formulár</b></font>"));
-        final CharSequence[] form = {"Vlastný formulár"};
+        builder.setTitle(Html.fromHtml("<font color='#80242B'><b>Formulár</b></font>"));
+        final CharSequence[] form = formArray.toArray(new CharSequence[formArray.size()]);
         builder.setSingleChoiceItems(form, pozicia_formular, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int i) {
             }
@@ -892,10 +465,12 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
         dialog.show();
     }
 
+    //výber, nastavenie a výpis EM podľa výberu
+    @Override
     public void eucharistickaModlitba(View view) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle(Html.fromHtml("<font color='#9C0E0F'><b>Eucharistická modlitba</b></font>"));
-        CharSequence[] eucharistia = eucharistiaArray.toArray(new CharSequence[0]);
+        builder.setTitle(Html.fromHtml("<font color='#80242B'><b>Eucharistická modlitba</b></font>"));
+        CharSequence[] eucharistia = eucharistiaArray.toArray(new CharSequence[eucharistiaArray.size()]);
         builder.setSingleChoiceItems(eucharistia, pozicia_eucharistia, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int i) {
             }
@@ -905,8 +480,10 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
                 int predtym = pozicia_eucharistia;
                 ListView lw = ((AlertDialog) dialogInterface).getListView();
                 pozicia_eucharistia = lw.getCheckedItemPosition();
-                if (predtym != pozicia_eucharistia)
-                    vypisEucharistia();
+                if (predtym != pozicia_eucharistia) {
+                    pozicia_listview = listView.getFirstVisiblePosition();
+                    vypis();
+                }
             }
         });
         builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
@@ -918,10 +495,12 @@ public class Trojdnie extends Main implements Trojdnie_text, Eucharistia, Texty 
         dialog.show();
     }
 
+    //výber, nastavenie a výpis prefácie podľa výberu
+    @Override
     public void prefacia(View view) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle(Html.fromHtml("<font color='#9C0E0F'><b>Prefácia</b></font>"));
-        final CharSequence[] pref = prefaciaArray.toArray(new CharSequence[0]);
+        builder.setTitle(Html.fromHtml("<font color='#80242B'><b>Prefácia</b></font>"));
+        final CharSequence[] pref = prefaciaArray.toArray(new CharSequence[prefaciaArray.size()]);
         builder.setSingleChoiceItems(pref, pozicia_prefacia, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int i) {
             }

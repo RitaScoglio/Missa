@@ -3,7 +3,6 @@ package sk.missa;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.view.GravityCompat;
@@ -11,14 +10,12 @@ import android.support.v7.app.AlertDialog;
 import android.text.Html;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.CompoundButton;
 import android.widget.ListView;
 
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 
 public class MisalZosnuly extends Misal {
@@ -227,7 +224,7 @@ public class MisalZosnuly extends Misal {
         if (ID == null)
             getPremenne();
         dnes.set(rok, m, den);
-        dvt = (dnes.get(Calendar.DAY_OF_WEEK) - 1);
+        dvt = (dnes.get(java.util.Calendar.DAY_OF_WEEK) - 1);
 
         ziskajObdobie();
         ziskajFormular();
@@ -272,7 +269,7 @@ public class MisalZosnuly extends Misal {
     private void setPremenne() {
         settings = getApplicationContext().getSharedPreferences("MySviatok", 0);
         SharedPreferences.Editor editor = settings.edit();
-        Word w = new Word(menoSvatca, slavenie, "", den, tyzden, ID, obdobie);
+        Calendar w = new Calendar(menoSvatca, slavenie, "", den, tyzden, ID, obdobie);
         Gson gson = new Gson();
         String json = gson.toJson(w);
         editor.putString("special-omsa", json).apply();
