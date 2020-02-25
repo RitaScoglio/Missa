@@ -7,8 +7,11 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.view.GravityCompat;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
@@ -16,6 +19,7 @@ import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.joda.time.DateTime;
 
@@ -425,8 +429,18 @@ public class Kalendar extends Main {
                     pozicia_eucharistia = 1;
                     m = mm;
                     if (ID.contains("3dni")) {
-                        Intent misal = new Intent(Kalendar.this, Trojdnie.class);
-                        startActivity(misal);
+                        LayoutInflater inflater = getLayoutInflater();
+                        View layout = inflater.inflate(R.layout.toast_layout,
+                                (ViewGroup) findViewById(R.id.toast));
+                        TextView txt = layout.findViewById(R.id.text);
+                        txt.setText("Pripravuje sa.");
+                        Toast toast = new Toast(getApplicationContext());
+                        toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
+                        toast.setDuration(Toast.LENGTH_LONG);
+                        toast.setView(layout);
+                        toast.show();
+                        /*Intent misal = new Intent(Kalendar.this, Trojdnie.class);
+                        startActivity(misal);*/
                     } else {
                         menoSvatca = word.getMenoSvatca();
                         slavenie = word.getSlavenie();

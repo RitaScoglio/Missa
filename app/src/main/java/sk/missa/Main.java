@@ -629,7 +629,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             if (0 < days && days < 4) //tyzden po Popolcovej strede
                 words.add(new Calendar((dni[dvt] + " po Popolcovej strede"), "Féria", "(fialová)", day, post, Integer.toString(post) + dvt, "p"));
             else
-                words.add(new Calendar((dni[dvt] + " po " + post + ". Pôstnej nedeli"), "Féria", "(fialová)", day, post, Integer.toString(post) + dvt, "p"));
+                words.add(new Calendar((dni[dvt] + " po " + post + ". pôstnej nedeli"), "Féria", "(fialová)", day, post, Integer.toString(post) + dvt, "p"));
 
             if (index != -1) {
                 do {

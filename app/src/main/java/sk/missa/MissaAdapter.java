@@ -34,8 +34,7 @@ public class MissaAdapter extends ArrayAdapter<Missa> {
 
     private String nahrad(String text) {
         if (rezim) {
-            text = text.replace("000000", "F5EBD2");
-            return text.replace("B71C1C", "D20607");
+            return text.replace("B71C1C", "D20607").replace("000000", "F5EBD2");
         } else
             return text.replace("B71C1C", "80242B"); //predtym - 9C0E0F
     }

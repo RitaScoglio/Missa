@@ -311,15 +311,22 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                     break;
                 case "K": //komentare
                     if(obrad[i].length > 2)
-                        missas.add(new Missa(obrad[i][1], obrad[i][2], true));
+                        for(int j = 1; j <obrad[i].length; j += 2){
+                            missas.add(new Missa(obrad[i][j], obrad[i][j+1], true));
+                        }
                     else
                         missas.add(new Missa(obrad[i][1], null, true));
                     break;
                 case "V": //vyskakovacie okna
                     missas.add(new Missa(obrad[i][1], obrad[i][2], i, 1));
                     break;
-                case "E": //citania, evanjelia, zalmy
-                    missas.add(new Missa(null, obrad[i][1], obrad[i][2], obrad[i][3], obrad[i][4], true, 0));
+                case "E": //citania, evanjelia, zalmy, spevy
+                    missas.add(new Missa(null, obrad[i][1], obrad[i][2], obrad[i][3], obrad[i][4], true, -2));
+                    if(obrad[i].length > 5){ //pasie
+                        for (int j = 5; j < obrad[i].length; j += 2) {
+                            missas.add(new Missa(null, null, null, obrad[i][j], obrad[i][j+1], true, -2));
+                        }
+                    }
                     break;
                 case "A": //komentare a evajelium na bielu sobotu
                     int j = 0;

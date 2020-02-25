@@ -35,7 +35,7 @@ public class Missa {
         this.vypisHtml = vypisHtml;
     }
 
-    //tiche modlitby
+    //tiche modlitby v EM
     Missa(String text_small, String text, boolean vypisHtml){
         this.text_small = text_small;
         this.text = text;
