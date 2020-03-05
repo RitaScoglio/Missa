@@ -429,7 +429,7 @@ public class Kalendar extends Main {
                     pozicia_eucharistia = 1;
                     m = mm;
                     if (ID.contains("3dni")) {
-                        LayoutInflater inflater = getLayoutInflater();
+                        /*LayoutInflater inflater = getLayoutInflater();
                         View layout = inflater.inflate(R.layout.toast_layout,
                                 (ViewGroup) findViewById(R.id.toast));
                         TextView txt = layout.findViewById(R.id.text);
@@ -438,9 +438,9 @@ public class Kalendar extends Main {
                         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
                         toast.setDuration(Toast.LENGTH_LONG);
                         toast.setView(layout);
-                        toast.show();
-                        /*Intent misal = new Intent(Kalendar.this, Trojdnie.class);
-                        startActivity(misal);*/
+                        toast.show();*/
+                        Intent misal = new Intent(Kalendar.this, Trojdnie.class);
+                        startActivity(misal);
                     } else {
                         menoSvatca = word.getMenoSvatca();
                         slavenie = word.getSlavenie();

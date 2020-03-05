@@ -1,5 +1,6 @@
 package sk.missa;
 
+import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -17,11 +18,14 @@ import android.text.style.AlignmentSpan;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -280,7 +284,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
     }
 
     @Override
-    public void vypis(){
+    public void vypis() {
         if (rezim)
             drawer.setBackgroundColor(Color.BLACK);
         else
@@ -310,21 +314,24 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                     missas.add(new Missa(obrad[i][1], null, null, null, null, false, -2));
                     break;
                 case "K": //komentare
-                    if(obrad[i].length > 2)
-                        for(int j = 1; j <obrad[i].length; j += 2){
-                            missas.add(new Missa(obrad[i][j], obrad[i][j+1], true));
+                    if (obrad[i].length > 2)
+                        for (int j = 1; j < obrad[i].length; j += 2) {
+                            missas.add(new Missa(obrad[i][j], obrad[i][j + 1], true));
                         }
                     else
                         missas.add(new Missa(obrad[i][1], null, true));
                     break;
                 case "V": //vyskakovacie okna
-                    missas.add(new Missa(obrad[i][1], obrad[i][2], i, 1));
+                    if(obrad[i][2] == null)
+                        missas.add(new Missa("<font color='#B71C1C'>" + obrad[i][1] + "</font>", null, null, true, i, 1));
+                    else
+                        missas.add(new Missa(null, obrad[i][1], obrad[i][2], false, i, 1));
                     break;
-                case "E": //citania, evanjelia, zalmy, spevy
-                    missas.add(new Missa(null, obrad[i][1], obrad[i][2], obrad[i][3], obrad[i][4], true, -2));
-                    if(obrad[i].length > 5){ //pasie
+                case "E": //citania, evanjelia - -2, zalmy, spevy - 0 (otvor)
+                    missas.add(new Missa(null, obrad[i][1], obrad[i][2], obrad[i][3], obrad[i][4], true, 0));
+                    if (obrad[i].length > 5) { //pasie
                         for (int j = 5; j < obrad[i].length; j += 2) {
-                            missas.add(new Missa(null, null, null, obrad[i][j], obrad[i][j+1], true, -2));
+                            missas.add(new Missa(null, null, null, obrad[i][j], obrad[i][j + 1], true, -2));
                         }
                     }
                     break;
@@ -382,9 +389,65 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 } else {
                     firstClick[0] = System.currentTimeMillis();
                 }
+                Missa missa = missas.get(position);
+                if (missa.getOtvor() == 1) {
+                    String[][] obrad = {};
+                    switch (ID) {
+                        case "3dni4":
+                            obrad = stvrtok;
+                            break;
+                        case "3dni5":
+                            obrad = piatok;
+                            break;
+                        case "3dni6":
+                            obrad = sobota;
+                            break;
+                        default:
+                            break;
+                    }
+                    final Dialog dialog = new Dialog(Trojdnie.this);
+                    dialog.setContentView(R.layout.custom_dialog);
+                    ListView dialogListview = dialog.findViewById(R.id.vypis_misal);
+                    TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
+                    Button dialogButton = dialog.findViewById(R.id.dialog_button);
+                    final ArrayList<Missa> dg = new ArrayList<>();
+
+                    if (rezim) {
+                        dialog.getWindow().setBackgroundDrawableResource(R.color.black);
+                        dialogTextView.setTextColor(getResources().getColor(R.color.background));
+                    } else {
+                        dialog.getWindow().setBackgroundDrawableResource(R.color.background);
+                        dialogTextView.setTextColor(getResources().getColor(R.color.primary));
+                    }
+                    dialogButton.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            dialog.dismiss();
+                        }
+                    });
+
+                    int index = missa.getIndex();
+                    if (missa.getText() != null)
+                        dialogTextView.setText(obrad[index][1]);
+                    else
+                        dialogTextView.setText(obrad[index][1]);
+                    if (obrad[index][1].startsWith("Procesia")){
+                        for (int j = 3; j < obrad[index].length; j += 2) {
+                            dg.add(new Missa(obrad[index][j], obrad[index][j + 1], true));
+                        }
+                    } else {
+                        for (int i = 3; i < obrad[index].length; i += 4) {
+                            dg.add(new Missa(null, obrad[index][i], obrad[index][i + 1], obrad[index][i + 2], obrad[index][i + 3], true, 0));
+                        }
+                    }
+                    dg.add(new Missa(2));
+                    dg.add(new Missa(2));
+                    MissaAdapter ada = new MissaAdapter(Trojdnie.this, dg);
+                    dialogListview.setAdapter(ada);
+                    dialog.show();
+                }
             }
         });
-
     }
 
     @Override

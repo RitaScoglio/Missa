@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:keepScreenOn="true"
-    tools:context=".Misal"
     tools:openDrawer="start">
 
     <RelativeLayout
@@ -34,24 +33,24 @@
                     android:layout_height="?attr/actionBarSize"
                     android:background="@color/primary"
                     app:popupTheme="@style/PopupOverlay"
-                    app:theme="@style/Toolbar" >
+                    app:theme="@style/Toolbar">
 
                     <android.support.v7.widget.AppCompatTextView
                         android:id="@+id/toolbar_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/app_name"
-                        android:textSize="20sp"
-                        android:textColor="@color/background"/>
+                        android:textColor="@color/background"
+                        android:textSize="20sp" />
 
                 </android.support.v7.widget.Toolbar>
 
 
-             <LinearLayout
-                    android:layout_below="@+id/toolbar"
+                <LinearLayout
                     android:id="@+id/buttons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/toolbar"
                     android:orientation="horizontal">
 
                     <Button
@@ -86,12 +85,12 @@
 
                     <ImageButton
                         android:id="@+id/less"
-                        android:onClick="less"
-                        android:scaleType="fitCenter"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:background="@color/primary"
-                        android:src="@drawable/expand_less"/>
+                        android:onClick="less"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/expand_less" />
 
                 </LinearLayout>
 
@@ -100,31 +99,31 @@
         </android.support.design.widget.AppBarLayout>
 
         <ImageButton
-            android:layout_below="@+id/appbar"
             android:id="@+id/more"
-            android:onClick="more"
-            android:scaleType="fitCenter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="gone"
+            android:layout_below="@+id/appbar"
             android:layout_alignParentEnd="true"
-            android:background="@color/primary"
-            android:src="@drawable/expand_more"
             android:layout_alignParentRight="true"
-            android:contentDescription="@string/show_buttons" />
+            android:background="@color/primary"
+            android:contentDescription="@string/show_buttons"
+            android:onClick="more"
+            android:scaleType="fitCenter"
+            android:src="@drawable/expand_more"
+            android:visibility="gone" />
 
-            <ListView
-                android:id="@+id/vypis_misal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:clipToPadding="false"
-                android:divider="@color/background"
-                android:paddingBottom="16dp"
-                android:dividerHeight="0dp"
-                android:orientation="vertical"
-                android:scrollbars="none"
-                android:listSelector="@android:color/transparent"
-                android:layout_below="@+id/appbar" />
+        <ListView
+            android:id="@+id/vypis_misal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/appbar"
+            android:clipToPadding="false"
+            android:divider="@color/background"
+            android:dividerHeight="0dp"
+            android:listSelector="@android:color/transparent"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:scrollbars="none" />
 
     </RelativeLayout>
 

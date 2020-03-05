@@ -50,9 +50,11 @@ public class Missa {
     }
 
     //vyskakovacie okna - Trojdnie
-    Missa(String nadpis, String suradnice, int index, int otvor){
+    Missa(String text, String nadpis, String suradnice, boolean vypisHtml, int index, int otvor){
+        this.text = text;
         this.nadpis = nadpis;
         this.suradnice = suradnice;
+        this.vypisHtml = vypisHtml;
         this.index = index;
         this.otvor = otvor;
     }
@@ -132,6 +134,10 @@ public class Missa {
 
     int getIndexAlebo() {
         return this.indexAlebo;
+    }
+
+    int getIndex() {
+        return this.index;
     }
 
     boolean getZvonec() {

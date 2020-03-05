@@ -282,7 +282,6 @@ public interface Citania_post {
                             "Mojžiš povedal ľudu: \"A teraz, Izrael, počúvaj prikázania a ustanovenia, ktoré vás učím, a zachovávajte ich, aby ste žili a vošli do\u00A0krajiny, ktorú vám chce dať Pán, Boh vašich otcov, do\u00A0vlastníctva.<br>" +
                             "Hľa, učil som vás príkazy a ustanovenia, ako mi nariadil Pán, môj Boh, aby ste ich plnili v\u00A0krajine, ktorú dostanete do\u00A0vlastníctva.<br>" +
                             "Strážte ich a uskutočňujte! Lebo len tak budete múdri a rozumní v\u00A0očiach národov. Budú počuť o\u00A0všetkých týchto prikázaniach a povedia: ‚Skutočne múdry a rozumný je tento veľký národ.'<br>" +
-                            "Strážte ich a uskutočňujte! Lebo len tak budete múdri a rozumní v\u00A0očiach národov. Budú počuť o\u00A0všetkých týchto prikázaniach a povedia: ‚Skutočne múdry a rozumný je tento veľký národ.'<br>" +
                             "Veď ktorý národ je taký veľký a má bohov tak blízko, ako je nám blízko Pán, náš Boh, kedykoľvek ho vzývame?! A kde je národ taký slávny, ktorý by mal také spravodlivé prikázania a ustanovenia, ako sú všetky tieto zákony, ktoré vám ja dnes predkladám?!<br>" +
                             "Len dávaj veľký pozor na\u00A0seba a na\u00A0svoju dušu a nezabudni na\u00A0veci, ktoré si videl na\u00A0vlastné oči, nech nevymiznú z\u00A0tvojho srdca cez\u00A0celý tvoj život, ale pouč o\u00A0nich svojich synov a svojich vnukov.\"<br>" +
                             "Počuli sme Božie slovo."},
@@ -391,7 +390,7 @@ public interface Citania_post {
             {"50", "A", "", "Ez 37, 12b-14",
                     "Vložím do\u00A0vás svojho ducha a ožijete",
                     "Čítanie z Knihy proroka Ezechiela<br>" +
-                            " \"Toto hovorí Pán, Boh: Ľud môj, ja otvorím vaše hroby, vyvediem vás z\u00A0vašich hrobov a vovediem vás do\u00A0krajiny Izraela. A spoznáte, že ja som Pán, keď otvorím vaše hroby a vyvediem vás z\u00A0vašich hrobov, ľud môj.<br>" +
+                            "\"Toto hovorí Pán, Boh: Ľud môj, ja otvorím vaše hroby, vyvediem vás z\u00A0vašich hrobov a vovediem vás do\u00A0krajiny Izraela. A spoznáte, že ja som Pán, keď otvorím vaše hroby a vyvediem vás z\u00A0vašich hrobov, ľud môj.<br>" +
                             "Vložím do\u00A0vás svojho ducha a ožijete. Usadím vás na\u00A0vlastnej pôde a spoznáte, že ja som Pán. Povedal som a splním,\" hovorí Pán, Boh.<br>" +
                             "Počuli sme Božie slovo."},
             {"50", "B", "", "Jer 31, 31-34",
@@ -645,7 +644,6 @@ public interface Citania_post {
                     "Kristus nás pripodobní svojmu oslávenému telu",
                     "Čítanie z Listu svätého apoštola Pavla Filipanom<br>" +
                             "Bratia, spoločne ma napodobňujte a všímajte si tých, čo žijú podľa vzoru, aký máte v\u00A0nás! Lebo mnohí, o\u00A0ktorých som vám často hovoril a teraz aj s\u00A0plačom hovorím, žijú ako nepriatelia Kristovho kríža. Ich koniec je záhuba, ich bohom je brucho a hanba je slávou tých, čo zmýšľajú pozemsky.<br>" +
-                            "Bratia, spoločne ma napodobňujte a všímajte si tých, čo žijú podľa vzoru, aký máte v\u00A0nás! Lebo mnohí, o\u00A0ktorých som vám často hovoril a teraz aj s\u00A0plačom hovorím, žijú ako nepriatelia Kristovho kríža. Ich koniec je záhuba, ich bohom je brucho a hanba je slávou tých, čo zmýšľajú pozemsky.<br>" +
                             "Veď naša vlasť je v\u00A0nebi. Odtiaľ očakávame aj Spasiteľa Pána Ježiša Krista. On mocou, ktorou si môže podmaniť všetko, pretvorí naše úbohé telo, aby sa stalo podobným jeho oslávenému telu.<br>" +
                             "A preto, bratia moji milovaní a vytúžení, moja radosť a moja koruna, takto pevne stojte v\u00A0Pánovi, milovaní!<br>" +
                             "Počuli sme Božie slovo.",
@@ -773,8 +771,6 @@ public interface Citania_post {
                             "Tu pristúpil pokušiteľ a povedal mu: \"Ak si Boží Syn, povedz, nech sa z\u00A0týchto kameňov stanú chleby.\"<br>" +
                             "On odvetil: \"Napísané je: ‚Nielen z\u00A0chleba žije človek, ale z\u00A0každého slova, ktoré vychádza z\u00A0Božích úst.'\"<br>" +
                             "Potom ho diabol vzal do\u00A0svätého mesta, postavil ho na\u00A0vrchol chrámu a vravel mu: \"Ak si Boží Syn, vrhni sa dolu, veď je napísané: ‚Svojim anjelom dá príkaz o\u00A0tebe a vezmú ťa na\u00A0ruky, aby si si neuderil nohu o\u00A0kameň.'\"<br>" +
-                            "Potom ho diabol vzal do\u00A0svätého mesta, postavil ho na\u00A0vrchol chrámu a vravel mu: \"Ak si Boží Syn, vrhni sa dolu, veď je napísané: ‚Svojim anjelom dá príkaz o\u00A0tebe a vezmú ťa na\u00A0ruky, aby si si neuderil nohu o\u00A0kameň.'\"<br>" +
-                            "Potom ho diabol vzal do\u00A0svätého mesta, postavil ho na\u00A0vrchol chrámu a vravel mu: \"Ak si Boží Syn, vrhni sa dolu, veď je napísané: ‚Svojim anjelom dá príkaz o\u00A0tebe a vezmú ťa na\u00A0ruky, aby si si neuderil nohu o\u00A0kameň.'\"<br>" +
                             "Ježiš mu povedal: \"Ale je aj napísané: ‚Nebudeš pokúšať Pána, svojho Boha.'\"<br>" +
                             "A zasa ho diabol vzal na\u00A0veľmi vysoký vrch, ukázal mu všetky kráľovstvá sveta a ich slávu a vravel mu: \"Toto všetko ti dám, ak padneš predo\u00A0mnou a budeš sa mi klaňať.\" Vtedy mu Ježiš povedal: \"Odíď, satan, lebo je napísané: ‚Pánovi, svojmu Bohu, sa budeš klaňať a jedine jemu budeš slúžiť.'\"<br>" +
                             "Tu ho diabol opustil a prišli anjeli a posluhovali mu.<br>" +
@@ -792,8 +788,6 @@ public interface Citania_post {
                             "Ježiš mu odvetil: \"Napísané je: ‚Nielen z\u00A0chleba žije človek.'\"<br>" +
                             "Potom ho diabol vyzdvihol, v\u00A0jedinom okamihu mu ukázal všetky kráľovstvá sveta a vravel mu: \"Dám ti všetku ich moc a slávu, lebo som ju dostal a dám ju, komu chcem. Ak sa mi teda budeš klaňať, všetka bude tvoja.\"<br>" +
                             "Ježiš mu povedal: \"Je napísané: ‚Pánovi, svojmu Bohu, sa budeš klaňať a jedine jemu budeš slúžiť.'\"<br>" +
-                            "Potom ho zaviedol do\u00A0Jeruzalema, postavil ho na\u00A0vrchol chrámu a povedal mu: \"Ak si Boží Syn, vrhni sa stadeto dolu, veď je napísané: ‚Svojim anjelom dá príkaz o\u00A0tebe, aby ťa chránili,' a ‚vezmú ťa na\u00A0ruky, aby si si neuderil nohu o\u00A0kameň.'\"<br>" +
-                            "Potom ho zaviedol do\u00A0Jeruzalema, postavil ho na\u00A0vrchol chrámu a povedal mu: \"Ak si Boží Syn, vrhni sa stadeto dolu, veď je napísané: ‚Svojim anjelom dá príkaz o\u00A0tebe, aby ťa chránili,' a ‚vezmú ťa na\u00A0ruky, aby si si neuderil nohu o\u00A0kameň.'\"<br>" +
                             "Potom ho zaviedol do\u00A0Jeruzalema, postavil ho na\u00A0vrchol chrámu a povedal mu: \"Ak si Boží Syn, vrhni sa stadeto dolu, veď je napísané: ‚Svojim anjelom dá príkaz o\u00A0tebe, aby ťa chránili,' a ‚vezmú ťa na\u00A0ruky, aby si si neuderil nohu o\u00A0kameň.'\"<br>" +
                             "Ježiš mu odvetil: \"Je povedané: ‚Nebudeš pokúšať Pána, svojho Boha.'\"<br>" +
                             "Keď diabol skončil všetko pokúšanie, na\u00A0čas od\u00A0neho odišiel.<br>" +
@@ -828,8 +822,6 @@ public interface Citania_post {
                     "Každý, kto prosí, dostane",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Ježiš povedal svojim učeníkom: \"Proste a dostanete! Hľadajte a nájdete! Klopte a otvoria vám! Lebo každý, kto prosí, dostane, a kto hľadá, nájde, a kto klope, tomu otvoria. Alebo je medzi vami človek, čo by podal synovi kameň, keď ho prosí o\u00A0chlieb? Alebo keby pýtal rybu, čo by mu dal hada?<br>" +
-                            "Ježiš povedal svojim učeníkom: \"Proste a dostanete! Hľadajte a nájdete! Klopte a otvoria vám! Lebo každý, kto prosí, dostane, a kto hľadá, nájde, a kto klope, tomu otvoria. Alebo je medzi vami človek, čo by podal synovi kameň, keď ho prosí o\u00A0chlieb? Alebo keby pýtal rybu, čo by mu dal hada?<br>" +
-                            "Keď teda vy, hoci ste zlí, viete dávať dobré dary svojim deťom; o\u00A0čo skôr dá váš Otec, ktorý je na\u00A0nebesiach, dobré veci tým, čo ho prosia.<br>" +
                             "Keď teda vy, hoci ste zlí, viete dávať dobré dary svojim deťom; o\u00A0čo skôr dá váš Otec, ktorý je na\u00A0nebesiach, dobré veci tým, čo ho prosia.<br>" +
                             "Všetko, čo chcete, aby ľudia robili vám, robte aj vy im. Lebo to je Zákon i Proroci.\"<br>" +
                             "Počuli sme slovo Pánovo."},
@@ -860,23 +852,19 @@ public interface Citania_post {
                             "Keď to učeníci počuli, padli na\u00A0tvár a veľmi sa báli.<br>" +
                             "No pristúpil k\u00A0nim Ježiš, dotkol sa ich a povedal im: \"Vstaňte a nebojte sa!\" A keď zdvihli oči, nevideli nikoho, iba Ježiša.<br>" +
                             "Keď zostupovali z\u00A0vrchu, Ježiš im prikázal: \"Nikomu nehovorte o\u00A0tomto videní, kým Syn človeka nevstane z\u00A0mŕtvych.\"<br>" +
-                            "Keď zostupovali z\u00A0vrchu, Ježiš im prikázal: \"Nikomu nehovorte o\u00A0tomto videní, kým Syn človeka nevstane z\u00A0mŕtvych.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"20", "B", "", "Mk 9, 2-10",
                     "Toto je môj milovaný Syn",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Marka<br>" +
                             "Ježiš vzal so\u00A0sebou Petra, Jakuba a Jána a len ich vyviedol na\u00A0vysoký vrch do\u00A0samoty. Tam sa pred\u00A0nimi premenil. Jeho odev zažiaril a bol taký biely, že by ho nijaký bielič na\u00A0svete tak nevybielil. A zjavil sa im Eliáš s\u00A0Mojžišom a rozprávali sa s\u00A0Ježišom.<br>" +
                             "Vtedy Peter povedal Ježišovi: \"Rabbi, dobre je nám tu. Urobme tri stánky: jeden tebe, jeden Mojžišovi a jeden Eliášovi.\" Lebo nevedel, čo povedať; takí boli preľaknutí. Tu sa utvoril oblak a zahalil ich. A z\u00A0oblaku zaznel hlas: \"Toto je môj milovaný Syn, počúvajte ho.\" A sotva sa rozhliadli, nevideli pri\u00A0sebe nikoho, iba Ježiša. Keď zostupovali z\u00A0vrchu, prikázal im, aby o\u00A0tom, čo videli, nehovorili nikomu, kým Syn človeka nevstane z\u00A0mŕtvych. Oni si toto slovo zapamätali a jeden druhého sa vypytovali, čo znamená \"vstať z\u00A0mŕtvych\".<br>" +
-                            "Vtedy Peter povedal Ježišovi: \"Rabbi, dobre je nám tu. Urobme tri stánky: jeden tebe, jeden Mojžišovi a jeden Eliášovi.\" Lebo nevedel, čo povedať; takí boli preľaknutí. Tu sa utvoril oblak a zahalil ich. A z\u00A0oblaku zaznel hlas: \"Toto je môj milovaný Syn, počúvajte ho.\" A sotva sa rozhliadli, nevideli pri\u00A0sebe nikoho, iba Ježiša. Keď zostupovali z\u00A0vrchu, prikázal im, aby o\u00A0tom, čo videli, nehovorili nikomu, kým Syn človeka nevstane z\u00A0mŕtvych. Oni si toto slovo zapamätali a jeden druhého sa vypytovali, čo znamená \"vstať z\u00A0mŕtvych\".<br>" +
                             "Počuli sme slovo Pánovo."},
             {"20", "C", "", "Lk 9, 28b-36",
                     "Ako sa modlil, zmenil sa vzhľad jeho tváre",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "Ježiš vzal so\u00A0sebou Petra, Jána a Jakuba a vystúpil na\u00A0vrch modliť sa. Ako sa modlil, zmenil sa vzhľad jeho tváre a jeho odev zažiaril belobou. A hľa, rozprávali sa s\u00A0ním dvaja mužovia – boli to Mojžiš a Eliáš. Zjavili sa v\u00A0sláve a hovorili o\u00A0jeho odchode, ktorý sa mal uskutočniť v\u00A0Jeruzaleme. Petra a tých, čo boli s\u00A0ním, premohol spánok. A keď sa prebudili, videli jeho slávu a tých dvoch mužov, čo s\u00A0ním stáli.<br>" +
-                            "Ježiš vzal so\u00A0sebou Petra, Jána a Jakuba a vystúpil na\u00A0vrch modliť sa. Ako sa modlil, zmenil sa vzhľad jeho tváre a jeho odev zažiaril belobou. A hľa, rozprávali sa s\u00A0ním dvaja mužovia – boli to Mojžiš a Eliáš. Zjavili sa v\u00A0sláve a hovorili o\u00A0jeho odchode, ktorý sa mal uskutočniť v\u00A0Jeruzaleme. Petra a tých, čo boli s\u00A0ním, premohol spánok. A keď sa prebudili, videli jeho slávu a tých dvoch mužov, čo s\u00A0ním stáli.<br>" +
                             "Keď od\u00A0neho odchádzali, povedal Peter Ježišovi: \"Učiteľ, dobre je nám tu. Urobme tri stánky: jeden tebe, jeden Mojžišovi a jeden Eliášovi.\" Nevedel, čo hovorí. Kým toto hovoril, utvoril sa oblak a zahalil ich. Keď vstúpili do\u00A0oblaku, zmocnil sa ich strach.<br>" +
                             "A z\u00A0oblaku zaznel hlas: \"Toto je môj vyvolený Syn, počúvajte ho!\" A kým hlas doznel, ostal Ježiš sám.<br>" +
-                            "Oni zmĺkli a v\u00A0tých dňoch nehovorili nikomu o\u00A0tom, čo videli.<br>" +
                             "Oni zmĺkli a v\u00A0tých dňoch nehovorili nikomu o\u00A0tom, čo videli.<br>" +
                             "Počuli sme slovo Pánovo."},
             {"21", "1", "", "Lk 6, 36-38",
@@ -897,7 +885,6 @@ public interface Citania_post {
                     "Odsúdia ho na\u00A0smrť",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Keď Ježiš vystupoval do\u00A0Jeruzalema, vzal si osve dvanástich učeníkov a cestou im hovoril: \"Hľa, vystupujeme do\u00A0Jeruzalema a Syn človeka bude vydaný veľkňazom a zákonníkom. Odsúdia ho na\u00A0smrť a vydajú pohanom, aby ho vysmiali, zbičovali a ukrižovali, ale on tretieho dňa vstane z\u00A0mŕtvych.\"<br>" +
-                            "Vtedy k\u00A0nemu pristúpila matka Zebedejových synov so\u00A0svojimi synmi, poklonila sa a o\u00A0čosi ho prosila.<br>" +
                             "Vtedy k\u00A0nemu pristúpila matka Zebedejových synov so\u00A0svojimi synmi, poklonila sa a o\u00A0čosi ho prosila.<br>" +
                             "On sa jej opýtal: \"Čo chceš?\"<br>" +
                             "Vravela mu: \"Povedz, aby títo moji dvaja synovia sedeli v\u00A0tvojom kráľovstve jeden po\u00A0tvojej pravici a druhý po\u00A0ľavici.\"<br>" +
@@ -930,7 +917,6 @@ public interface Citania_post {
                             "Odpovedali mu: \"Zlých bez\u00A0milosti zahubí a vinicu prenajme iným vinohradníkom, ktorí mu budú načas odovzdávať úrodu.\"<br>" +
                             "Ježiš im povedal: \"Nikdy ste nečítali v\u00A0Písme: ‚Kameň, čo stavitelia zavrhli, stal sa kameňom uholným. To sa stalo na\u00A0pokyn Pána; vec v\u00A0našich očiach obdivuhodná'?<br>" +
                             "Preto vám hovorím: Vám sa Božie kráľovstvo vezme a dá sa národu, ktorý bude prinášať úrodu.\"<br>" +
-                            "Keď veľkňazi a farizeji počuli tieto jeho podobenstvá, vybadali, že hovorí o\u00A0nich. A chceli ho zajať, len sa báli zástupov, lebo ony ho pokladali za\u00A0proroka.<br>" +
                             "Keď veľkňazi a farizeji počuli tieto jeho podobenstvá, vybadali, že hovorí o\u00A0nich. A chceli ho zajať, len sa báli zástupov, lebo ony ho pokladali za\u00A0proroka.<br>" +
                             "Počuli sme slovo Pánovo."},
             {"26", "6", "", "Lk 15, 1-3. 11-32",
@@ -996,14 +982,11 @@ public interface Citania_post {
                             "Ježiš im odpovedal: \"Zborte tento chrám a za\u00A0tri dni ho postavím.\"<br>" +
                             "Židia povedali: \"Štyridsaťšesť rokov stavali tento chrám a ty ho postavíš za\u00A0tri dni?\"<br>" +
                             "Ale on hovoril o\u00A0chráme svojho tela. Keď potom vstal z\u00A0mŕtvych, jeho učeníci si spomenuli, že toto hovoril, a uverili Písmu i slovu, ktoré povedal Ježiš.<br>" +
-                            "Ale on hovoril o\u00A0chráme svojho tela. Keď potom vstal z\u00A0mŕtvych, jeho učeníci si spomenuli, že toto hovoril, a uverili Písmu i slovu, ktoré povedal Ježiš.<br>" +
-                            "Keď bol cez\u00A0veľkonočné sviatky v\u00A0Jeruzaleme, mnohí uverili v\u00A0jeho meno, lebo videli znamenia, ktoré robil. Ale Ježiš sa im nezdôveril; on poznal každého a nepotreboval, aby mu niekto vydával svedectvo o\u00A0človekovi. Sám totiž vedel, čo je v\u00A0človeku.<br>" +
                             "Keď bol cez\u00A0veľkonočné sviatky v\u00A0Jeruzaleme, mnohí uverili v\u00A0jeho meno, lebo videli znamenia, ktoré robil. Ale Ježiš sa im nezdôveril; on poznal každého a nepotreboval, aby mu niekto vydával svedectvo o\u00A0človekovi. Sám totiž vedel, čo je v\u00A0človeku.<br>" +
                             "Počuli sme slovo Pánovo."},
             {"30", "C", "", "Lk 13, 1-9",
                     "Ak nebudete robiť pokánie, všetci zahyniete podobne",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
-                            "Niektorí z\u00A0tých, čo tam boli v\u00A0tom čase, rozprávali Ježišovi o\u00A0Galilejčanoch, ktorých krv Pilát zmiešal s\u00A0krvou ich obetí. On im povedal: \"Myslíte si, že títo Galilejčania boli väčší hriešnici ako ostatní Galilejčania, keď tak trpeli? Nie, hovorím vám, ale ak nebudete robiť pokánie, všetci podobne zahyniete. Alebo si myslíte, že tí osemnásti, čo na\u00A0nich padla veža v\u00A0Siloe a zabila ich, boli väčší vinníci ako ostatní obyvatelia Jeruzalema? Nie, hovorím vám, ale ak nebudete robiť pokánie, všetci zahyniete podobne.\"<br>" +
                             "Niektorí z\u00A0tých, čo tam boli v\u00A0tom čase, rozprávali Ježišovi o\u00A0Galilejčanoch, ktorých krv Pilát zmiešal s\u00A0krvou ich obetí. On im povedal: \"Myslíte si, že títo Galilejčania boli väčší hriešnici ako ostatní Galilejčania, keď tak trpeli? Nie, hovorím vám, ale ak nebudete robiť pokánie, všetci podobne zahyniete. Alebo si myslíte, že tí osemnásti, čo na\u00A0nich padla veža v\u00A0Siloe a zabila ich, boli väčší vinníci ako ostatní obyvatelia Jeruzalema? Nie, hovorím vám, ale ak nebudete robiť pokánie, všetci zahyniete podobne.\"<br>" +
                             "A povedal toto podobenstvo: \"Ktosi mal vo\u00A0vinici zasadený figovník a prišiel hľadať na\u00A0ňom ovocie, ale nenašiel. Preto povedal vinohradníkovi: ‚Pozri, už tri roky chodím hľadať ovocie na\u00A0tomto figovníku, a nič nenachádzam. Vytni ho! Načo ešte aj zem vyčerpáva?'<br>" +
                             "On mu odvetil: ‚Pane, nechaj ho ešte tento rok. Okopem ho a pohnojím. Možno nabudúce prinesie ovocie. Ak nie, potom ho vytneš.'\"<br>" +
@@ -1079,7 +1062,6 @@ public interface Citania_post {
                             "Niektorí farizeji hovorili: \"Ten človek nie je od\u00A0Boha, lebo nezachováva sobotu.\"<br>" +
                             "Iní vraveli: \"Ako môže hriešny človek robiť takéto znamenia?\" A rozštiepili sa.<br>" +
                             "Znova sa teda pýtali slepého: \"Čo hovoríš o\u00A0ňom ty? Veď tebe otvoril oči!?\"<br>" +
-                            "Znova sa teda pýtali slepého: \"Čo hovoríš o\u00A0ňom ty? Veď tebe otvoril oči!?\"<br>" +
                             "On odpovedal: \"Je prorok.\"<br>" +
                             "Židia však neverili, že bol slepý a teraz vidí, kým si nezavolali jeho rodičov. Opýtali sa ich: \"Je to váš syn? A hovoríte, že sa narodil slepý? Ako to, že teraz vidí?\"<br>" +
                             "Rodičia odpovedali: \"Vieme, že je to náš syn a že sa narodil slepý. Ale ako to, že teraz vidí, to nevieme, ani nevieme, kto mu otvoril oči. Jeho sa spýtajte. Má svoje roky, nech hovorí sám za\u00A0seba.\" Jeho rodičia hovorili tak preto, že sa báli Židov. Židia sa už totiž uzniesli, že každý, kto by ho uznal za\u00A0Mesiáša, má byť vylúčený zo\u00A0synagógy. Preto jeho rodičia povedali: \"Má svoje roky, jeho sa spýtajte.\"<br>" +
@@ -1087,7 +1069,6 @@ public interface Citania_post {
                             "On odvetil: \"Či je hriešnik, neviem. Ale jedno viem: že som bol slepý a teraz vidím.\"<br>" +
                             "Spýtali sa ho teda: \"Čo urobil s\u00A0tebou? Ako ti otvoril oči?\"<br>" +
                             "Odpovedal im: \"Už som vám povedal, a nepočuli ste. Prečo to chcete počuť znova? Chcete sa aj vy stať jeho učeníkmi?\"<br>" +
-                            "Vynadali mu a povedali: \"Ty si jeho učeník, my sme Mojžišovi učeníci. My vieme, že Mojžišovi hovoril Boh, a o\u00A0tomto nevieme ani to, odkiaľ je.\"<br>" +
                             "Vynadali mu a povedali: \"Ty si jeho učeník, my sme Mojžišovi učeníci. My vieme, že Mojžišovi hovoril Boh, a o\u00A0tomto nevieme ani to, odkiaľ je.\"<br>" +
                             "Ten človek im odpovedal: \"Práve to je čudné, že vy neviete, odkiaľ je, a mne otvoril oči. Vieme, že hriešnikov Boh nevyslyší; ale vyslyší toho, kto si Boha ctí a plní jeho vôľu. Od\u00A0vekov nebolo počuť, že by bol niekto otvoril oči slepému od\u00A0narodenia. Keby on nebol od\u00A0Boha, nemohol by nič také urobiť.\"<br>" +
                             "Povedali mu: \"Celý si sa v\u00A0hriechoch narodil a nás poúčaš?!\" A vyhnali ho von.<br>" +
@@ -1110,7 +1091,6 @@ public interface Citania_post {
                             "On vravel: \"Ja som to.\"<br>" +
                             "Zaviedli ho, toho, čo bol predtým slepý, k\u00A0farizejom. Ale v\u00A0ten deň, keď Ježiš urobil blato a otvoril mu oči, bola práve sobota. Preto sa ho aj farizeji pýtali, ako to, že vidí. On im povedal: \"Priložil mi na\u00A0oči blato, umyl som sa a vidím.\"<br>" +
                             "Niektorí farizeji hovorili: \"Ten človek nie je od\u00A0Boha, lebo nezachováva sobotu.\" Iní vraveli: \"Ako môže hriešny človek robiť takéto znamenia?\" A rozštiepili sa.<br>" +
-                            "Znova sa teda pýtali slepého: \"Čo hovoríš o\u00A0ňom ty? Veď tebe otvoril oči!?\" On odpovedal: \"Je prorok.\"<br>" +
                             "Znova sa teda pýtali slepého: \"Čo hovoríš o\u00A0ňom ty? Veď tebe otvoril oči!?\" On odpovedal: \"Je prorok.\"<br>" +
                             "Povedali mu: \"Celý si sa v\u00A0hriechoch narodil a nás poúčaš?!\" A vyhnali ho von.<br>" +
                             "Ježiš sa dopočul, že ho vyhnali, vyhľadal ho a povedal mu: \"Ty veríš v\u00A0Syna človeka?\"<br>" +
@@ -1149,7 +1129,6 @@ public interface Citania_post {
                             "Kráľovský úradník mu hovoril: \"Pane, poď, kým mi dieťa neumrie!\"<br>" +
                             "Ježiš mu povedal: \"Choď, tvoj syn žije!\" On uveril Ježišovmu slovu a šiel.<br>" +
                             "Ešte bol na\u00A0ceste, keď mu prišli sluhovia naproti a hovorili že jeho dieťa žije. Pýtal sa ich, koľko hodín bolo, keď sa mu uľavilo. Povedali mu: \"Včera o\u00A0jednej popoludní mu prestala horúčka.\" Tu otec poznal, že to bolo práve v\u00A0tú hodinu, keď mu Ježiš povedal: \"Tvoj syn žije.\" A uveril on i celý jeho dom.<br>" +
-                            "Ešte bol na\u00A0ceste, keď mu prišli sluhovia naproti a hovorili že jeho dieťa žije. Pýtal sa ich, koľko hodín bolo, keď sa mu uľavilo. Povedali mu: \"Včera o\u00A0jednej popoludní mu prestala horúčka.\" Tu otec poznal, že to bolo práve v\u00A0tú hodinu, keď mu Ježiš povedal: \"Tvoj syn žije.\" A uveril on i celý jeho dom.<br>" +
                             "Toto bolo už druhé znamenie, ktoré urobil Ježiš, keď prišiel z\u00A0Judey do\u00A0Galiley.<br>" +
                             "Počuli sme slovo Pánovo."},
             {"42", "2", "", "Jn 5, 1-3. 5-16",
@@ -1175,7 +1154,6 @@ public interface Citania_post {
                             "Lebo ako Otec kriesi mŕtvych a oživuje, tak aj Syn oživuje, koho chce.<br>" +
                             "A Otec nikoho ani nesúdi, ale všetok súd odovzdal Synovi, aby si všetci ctili Syna tak, ako si ctia Otca. Kto si nectí Syna, nectí si ani Otca, ktorý ho poslal.<br>" +
                             "Veru, veru, hovorím vám: Kto počúva moje slovo a verí tomu, ktorý ma poslal, má večný život a nepôjde na\u00A0súd, ale prešiel zo\u00A0smrti do\u00A0života.<br>" +
-                            "Veru, veru, hovorím vám: Prichádza hodina, ba už je tu, keď mŕtvi počujú hlas Božieho Syna a tí, čo ho počujú, budú žiť. Lebo ako Otec má život sám v\u00A0sebe, tak dal aj Synovi, aby mal život sám v\u00A0sebe. A dal mu aj moc súdiť, pretože je Synom človeka.<br>" +
                             "Nedivte sa tomu, lebo prichádza hodina, keď všetci v\u00A0hroboch počujú jeho hlas a vyjdú: tí, čo robili dobre, budú vzkriesení pre\u00A0život a tí, čo páchali zlo, budú vzkriesení na\u00A0odsúdenie.<br>" +
                             "Ja nemôžem nič robiť sám od\u00A0seba. Súdim, ako počujem. A môj súd je spravodlivý, lebo nehľadám svoju vôľu, ale vôľu toho, ktorý ma poslal.\"<br>" +
                             "Počuli sme slovo Pánovo."},
@@ -1183,19 +1161,12 @@ public interface Citania_post {
                     "Iný na\u00A0vás žaluje: Mojžiš, do\u00A0ktorého skladáte svoju nádej",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
                             "Ježiš povedal Židom: \"Ak vydávam svedectvo o\u00A0sebe len ja sám, moje svedectvo nie je pravdivé. Ale je niekto iný, čo svedčí o\u00A0mne, a ja viem, že svedectvo, ktoré vydáva o\u00A0mne, je pravdivé.<br>" +
-                            "Ježiš povedal Židom: \"Ak vydávam svedectvo o\u00A0sebe len ja sám, moje svedectvo nie je pravdivé. Ale je niekto iný, čo svedčí o\u00A0mne, a ja viem, že svedectvo, ktoré vydáva o\u00A0mne, je pravdivé.<br>" +
-                            "Ježiš povedal Židom: \"Ak vydávam svedectvo o\u00A0sebe len ja sám, moje svedectvo nie je pravdivé. Ale je niekto iný, čo svedčí o\u00A0mne, a ja viem, že svedectvo, ktoré vydáva o\u00A0mne, je pravdivé.<br>" +
-                            "Ježiš povedal Židom: \"Ak vydávam svedectvo o\u00A0sebe len ja sám, moje svedectvo nie je pravdivé. Ale je niekto iný, čo svedčí o\u00A0mne, a ja viem, že svedectvo, ktoré vydáva o\u00A0mne, je pravdivé.<br>" +
-                            "Vy ste poslali k\u00A0Jánovi a on vydal svedectvo pravde. Lenže ja neprijímam svedectvo od\u00A0človeka, ale toto hovorím preto, aby ste vy boli spasení. On bol lampa, ktorá horí a svieti, a vy ste sa chceli chvíľu veseliť v\u00A0jeho svetle.<br>" + "Ja mám väčšie svedectvo, ako je Jánovo: skutky, ktoré mi dal vykonať Otec. Tieto skutky, ktoré konám, svedčia o\u00A0mne, že ma poslal Otec. A sám Otec, ktorý ma poslal, vydal o\u00A0mne svedectvo.<br>" +
-                            "Vy ste poslali k\u00A0Jánovi a on vydal svedectvo pravde. Lenže ja neprijímam svedectvo od\u00A0človeka, ale toto hovorím preto, aby ste vy boli spasení. On bol lampa, ktorá horí a svieti, a vy ste sa chceli chvíľu veseliť v\u00A0jeho svetle.<br>" + "Ja mám väčšie svedectvo, ako je Jánovo: skutky, ktoré mi dal vykonať Otec. Tieto skutky, ktoré konám, svedčia o\u00A0mne, že ma poslal Otec. A sám Otec, ktorý ma poslal, vydal o\u00A0mne svedectvo.<br>" +
                             "Vy ste poslali k\u00A0Jánovi a on vydal svedectvo pravde. Lenže ja neprijímam svedectvo od\u00A0človeka, ale toto hovorím preto, aby ste vy boli spasení. On bol lampa, ktorá horí a svieti, a vy ste sa chceli chvíľu veseliť v\u00A0jeho svetle.<br>" + "Ja mám väčšie svedectvo, ako je Jánovo: skutky, ktoré mi dal vykonať Otec. Tieto skutky, ktoré konám, svedčia o\u00A0mne, že ma poslal Otec. A sám Otec, ktorý ma poslal, vydal o\u00A0mne svedectvo.<br>" +
                             "Vy ste nikdy nepočuli jeho hlas, ani jeho tvár ste nevideli a jeho slovo neostáva vo\u00A0vás, lebo neveríte tomu, ktorého on poslal.<br>" +
-                            "Skúmate Písma, lebo si myslíte, že v\u00A0nich máte večný život, a práve ony svedčia o\u00A0mne. Lenže vy nechcete prísť ku\u00A0mne, aby ste mali život.<br>" +
                             "Skúmate Písma, lebo si myslíte, že v\u00A0nich máte večný život, a práve ony svedčia o\u00A0mne. Lenže vy nechcete prísť ku\u00A0mne, aby ste mali život.<br>" +
                             "Slávu od\u00A0ľudí neprijímam. Ale vás poznám, že nemáte v\u00A0sebe Božiu lásku.<br>" +
                             "Ja som prišiel v\u00A0mene môjho Otca, a neprijímate ma. Keby prišiel niekto iný v\u00A0svojom vlastnom mene, toho by ste prijali.<br>" +
                             "Ako môžete veriť vy, ktorí sa navzájom oslavujete, a nehľadáte slávu, ktorú dáva len Boh?!<br>" +
-                            "Nemyslite si, že ja budem na\u00A0vás u\u00A0Otca žalovať. Iný na\u00A0vás žaluje: Mojžiš, do\u00A0ktorého skladáte svoju nádej. Lenže keby ste verili Mojžišovi, verili by ste aj mne, lebo on o\u00A0mne písal. Ale ak neveríte tomu, čo on napísal, ako uveríte mojim slovám?!\"<br>" +
                             "Nemyslite si, že ja budem na\u00A0vás u\u00A0Otca žalovať. Iný na\u00A0vás žaluje: Mojžiš, do\u00A0ktorého skladáte svoju nádej. Lenže keby ste verili Mojžišovi, verili by ste aj mne, lebo on o\u00A0mne písal. Ale ak neveríte tomu, čo on napísal, ako uveríte mojim slovám?!\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"45", "5", "", "Jn 7, 1-2. 10. 25-30",
@@ -1204,7 +1175,6 @@ public interface Citania_post {
                             "Ježiš chodil po\u00A0Galilei; nechcel ísť do\u00A0Judey, lebo Židia ho chceli zabiť.<br>" +
                             "Boli však blízko židovské sviatky Stánkov.<br>" +
                             "Ale keď jeho bratia odišli na\u00A0sviatky, išiel aj on, no nie verejne, lež akoby potajomky.<br>" +
-                            "Tu niektorí Jeruzalemčania hovorili: \"Nie je to ten, čo ho chcú zabiť? Pozrite, hovorí verejne a nič mu nevravia. Vari sa už aj poprední muži presvedčili, že on je Mesiáš? Lenže o\u00A0tomto vieme, odkiaľ je, ale keď príde Mesiáš, nik nebude vedieť, odkiaľ je.\"<br>" +
                             "Tu niektorí Jeruzalemčania hovorili: \"Nie je to ten, čo ho chcú zabiť? Pozrite, hovorí verejne a nič mu nevravia. Vari sa už aj poprední muži presvedčili, že on je Mesiáš? Lenže o\u00A0tomto vieme, odkiaľ je, ale keď príde Mesiáš, nik nebude vedieť, odkiaľ je.\"<br>" +
                             "A Ježiš učil v\u00A0chráme a zvolal: \"Aj ma poznáte, aj odkiaľ som, viete. A neprišiel som sám od\u00A0seba, ale pravdivý je ten, ktorý ma poslal a vy ho nepoznáte. Ja ho poznám, lebo som od\u00A0neho a on ma poslal.\"<br>" +
                             "Preto ho chceli chytiť, ale nik nepoložil naň ruky, lebo ešte neprišla jeho hodina.<br>" +
@@ -1229,12 +1199,9 @@ public interface Citania_post {
                             "Ježiš odpovedal: \"Nemá deň dvanásť hodín? Kto chodí vo\u00A0dne, nepotkne sa, lebo vidí svetlo tohoto sveta. Ale kto chodí v\u00A0noci, potkne sa, lebo v\u00A0ňom nieto svetla.\"<br>" +
                             "Toto povedal a dodal: \"Náš priateľ Lazár spí, ale idem ho zobudiť.\"<br>" +
                             "Učeníci mu povedali: \"Pane, ak spí, ozdravie.\" Ježiš však hovoril o\u00A0jeho smrti, a oni si mysleli, že hovorí o\u00A0spánku.<br>" +
-                            "Učeníci mu povedali: \"Pane, ak spí, ozdravie.\" Ježiš však hovoril o\u00A0jeho smrti, a oni si mysleli, že hovorí o\u00A0spánku.<br>" +
-                            "Učeníci mu povedali: \"Pane, ak spí, ozdravie.\" Ježiš však hovoril o\u00A0jeho smrti, a oni si mysleli, že hovorí o\u00A0spánku.<br>" +
                             "Vtedy im Ježiš povedal otvorene: \"Lazár zomrel. A kvôli vám sa radujem, že som tam nebol, aby ste uverili. Poďme k\u00A0nemu!\"<br>" +
                             "Tomáš, nazývaný Didymus, povedal ostatným učeníkom: \"Poďme aj my a umrime s\u00A0ním.\"<br>" +
                             "Keď ta Ježiš prišiel, dozvedel sa, že Lazár je už štyri dni v\u00A0hrobe. Betánia bola pri\u00A0Jeruzaleme, vzdialená asi pätnásť stadií, a tak prišlo k\u00A0Marte a Márii veľa Židov potešiť ich v\u00A0žiali za\u00A0bratom.<br>" +
-                            "Keď Marta počula, že prichádza Ježiš, išla mu naproti. Mária zostala doma. Marta povedala Ježišovi: \"Pane, keby si bol býval tu, môj brat by nebol umrel. Ale aj teraz viem, že o\u00A0čokoľvek poprosíš Boha, Boh ti to dá.\"<br>" +
                             "Keď Marta počula, že prichádza Ježiš, išla mu naproti. Mária zostala doma. Marta povedala Ježišovi: \"Pane, keby si bol býval tu, môj brat by nebol umrel. Ale aj teraz viem, že o\u00A0čokoľvek poprosíš Boha, Boh ti to dá.\"<br>" +
                             "Ježiš jej povedal: \"Tvoj brat vstane z\u00A0mŕtvych.\"<br>" +
                             "Marta mu vravela: \"Viem, že vstane v\u00A0posledný deň pri\u00A0vzkriesení.\"<br>" +
@@ -1263,7 +1230,6 @@ public interface Citania_post {
                             "Keď to Ježiš počul, povedal: \"Táto choroba nie je na\u00A0smrť, ale na\u00A0Božiu slávu, aby ňou bol oslávený Boží Syn.\"<br>" +
                             "Ježiš mal rád Martu i jej sestru a Lazára. Keď teda počul, že je chorý, zostal ešte dva dni na\u00A0mieste, kde bol. Až potom povedal učeníkom: \"Poďme znova do\u00A0Judey.\"<br>" +
                             "Keď ta Ježiš prišiel, dozvedel sa, že Lazár je už štyri dni v\u00A0hrobe.<br>" +
-                            "Keď Marta počula, že prichádza Ježiš, išla mu naproti. Mária zostala doma. Marta povedala Ježišovi: \"Pane, keby si bol býval tu, môj brat by nebol umrel. Ale aj teraz viem, že o\u00A0čokoľvek poprosíš Boha, Boh ti to dá.\"<br>" +
                             "Keď Marta počula, že prichádza Ježiš, išla mu naproti. Mária zostala doma. Marta povedala Ježišovi: \"Pane, keby si bol býval tu, môj brat by nebol umrel. Ale aj teraz viem, že o\u00A0čokoľvek poprosíš Boha, Boh ti to dá.\"<br>" +
                             "Ježiš jej povedal: \"Tvoj brat vstane z\u00A0mŕtvych.\"<br>" +
                             "Marta mu vravela: \"Viem, že vstane v\u00A0posledný deň pri\u00A0vzkriesení.\"<br>" +
@@ -1320,12 +1286,8 @@ public interface Citania_post {
                             "Ja som svetlo sveta<br>" +
                             "Ježiš povedal farizejom: \"Ja som svetlo sveta. Kto mňa nasleduje, nebude chodiť vo\u00A0tmách, ale bude mať svetlo života.\"<br>" +
                             "Farizeji mu povedali: \"Vydávaš svedectvo o\u00A0sebe len ty sám, tvoje svedectvo nie je pravdivé.\"<br>" +
-                            "Farizeji mu povedali: \"Vydávaš svedectvo o\u00A0sebe len ty sám, tvoje svedectvo nie je pravdivé.\"<br>" +
-                            "Ježiš im odpovedal: \"Hoci vydávam svedectvo o\u00A0sebe iba ja sám, moje svedectvo je pravdivé, lebo viem, odkiaľ som prišiel a kam idem. Vy však neviete, odkiaľ prichádzam, ani kam idem.<br>" +
                             "Ježiš im odpovedal: \"Hoci vydávam svedectvo o\u00A0sebe iba ja sám, moje svedectvo je pravdivé, lebo viem, odkiaľ som prišiel a kam idem. Vy však neviete, odkiaľ prichádzam, ani kam idem.<br>" +
                             "Vy súdite podľa tela, ja nesúdim nikoho. A ak aj súdim, môj súd je pravdivý, lebo nie som sám, ale ja a Otec, ktorý ma poslal. A vo\u00A0vašom zákone je napísané, že svedectvo dvoch ľudí je pravdivé.<br>" +
-                            "Ja sám vydávam svedectvo o\u00A0sebe a vydáva o\u00A0mne svedectvo aj Otec, ktorý ma poslal.\"<br>" +
-                            "Ja sám vydávam svedectvo o\u00A0sebe a vydáva o\u00A0mne svedectvo aj Otec, ktorý ma poslal.\"<br>" +
                             "Ja sám vydávam svedectvo o\u00A0sebe a vydáva o\u00A0mne svedectvo aj Otec, ktorý ma poslal.\"<br>" +
                             "Opýtali sa ho: \"Kdeže je tvoj Otec?!\"<br>" +
                             "Ježiš odpovedal: \"Nepoznáte ani mňa ani môjho Otca. Keby ste poznali mňa, poznali by ste aj môjho Otca.\"<br>" +
@@ -1338,9 +1300,6 @@ public interface Citania_post {
                             "Židia si hovorili: \"Vari sám seba zabije, že vraví: ‚Kam ja idem, tam vy prísť nemôžete?'\"<br>" +
                             "On im povedal: \"Vy ste zdola, ja som zhora. Vy ste z\u00A0tohto sveta, ja nie som z\u00A0tohto sveta. Preto som vám povedal, že zomriete vo\u00A0svojich hriechoch. Lebo ak neuveríte, že Ja Som, zomriete vo\u00A0svojich hriechoch.\"<br>" +
                             "Pýtali sa ho teda: \"Kto si ty?\"<br>" +
-                            "Ježiš im odpovedal: \"Od počiatku to, čo vám hovorím. Mám o\u00A0vás veľa čo povedať a súdiť. Ale ten, ktorý ma poslal, je pravdivý, a ja hovorím svetu to, čo som počul od\u00A0neho.\" Nerozumeli, že im hovorí o\u00A0Otcovi.<br>" +
-                            "Ježiš im odpovedal: \"Od počiatku to, čo vám hovorím. Mám o\u00A0vás veľa čo povedať a súdiť. Ale ten, ktorý ma poslal, je pravdivý, a ja hovorím svetu to, čo som počul od\u00A0neho.\" Nerozumeli, že im hovorí o\u00A0Otcovi.<br>" +
-                            "Ježiš im odpovedal: \"Od počiatku to, čo vám hovorím. Mám o\u00A0vás veľa čo povedať a súdiť. Ale ten, ktorý ma poslal, je pravdivý, a ja hovorím svetu to, čo som počul od\u00A0neho.\" Nerozumeli, že im hovorí o\u00A0Otcovi.<br>" +
                             "Ježiš im teda povedal: \"Keď vyzdvihnete Syna človeka, poznáte, že Ja Som a že nič nerobím sám od\u00A0seba, ale hovorím tak, ako ma naučil Otec. A ten ktorý ma poslal, je so\u00A0mnou. Nenechal ma samého, lebo ja vždy robím, čo sa páči jemu.\"<br>" +
                             "Keď to hovoril, mnohí uverili v\u00A0neho.<br>" +
                             "Počuli sme slovo Pánovo."},
@@ -1352,7 +1311,6 @@ public interface Citania_post {
                             "Ježiš im povedal: \"Veru, veru, hovorím vám: Každý, kto pácha hriech, je otrok. A otrok neostáva v\u00A0dome navždy; navždy ostáva syn. Až keď vás Syn vyslobodí, budete naozaj slobodní.<br>" +
                             "Viem, že ste Abrahámovo potomstvo; a chcete ma zabiť, lebo sa moje slovo vo\u00A0vás neujíma.<br>" +
                             "Ja hovorím o\u00A0tom, čo som videl u\u00A0Otca. Aj vy robíte to, čo ste počuli od\u00A0otca.\"<br>" +
-                            "Ja hovorím o\u00A0tom, čo som videl u\u00A0Otca. Aj vy robíte to, čo ste počuli od\u00A0otca.\"<br>" +
                             "Odpovedali mu: \"Naším otcom je Abrahám.\"<br>" +
                             "Ježiš im povedal: \"Keby ste boli Abrahámovými deťmi, robili by ste skutky Abrahámove. No vy ma chcete zabiť – človeka, ktorý vám povedal pravdu, čo som počul od\u00A0Boha. To Abrahám nerobil. Vy robíte skutky svojho otca.\"<br>" +
                             "Povedali mu: \"My sme sa nenarodili zo\u00A0smilstva; máme len jedného otca, Boha.\"<br>" +
@@ -1363,7 +1321,6 @@ public interface Citania_post {
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
                             "Ježiš povedal Židom: \"Veru, veru, hovorím vám: Kto zachová moje slovo, neuvidí smrť naveky.\"<br>" +
                             "Židia mu povedali: \"Teraz už vieme, že si posadnutý zlým duchom. Abrahám zomrel aj proroci, a ty hovoríš: ‚Kto zachová moje slovo, neokúsi smrť naveky.' Si azda väčší ako náš otec Abrahám, ktorý zomrel? Aj proroci pomreli. Kýmže sa robíš?\"<br>" +
-                            "Ježiš odpovedal: \"Ak sa oslavujem ja sám, moja sláva nestojí za\u00A0nič. Ale oslavuje ma môj Otec, o\u00A0ktorom vy hovoríte: ‚On je náš Boh,' a nepoznáte ho. Ale ja ho poznám. A keby som povedal: Nepoznám ho, bol by som luhár ako vy. Ale ja ho poznám a jeho slovo zachovávam. Váš otec Abrahám zaplesal, že uvidí môj deň; i videl a zaradoval sa.\"<br>" +
                             "Ježiš odpovedal: \"Ak sa oslavujem ja sám, moja sláva nestojí za\u00A0nič. Ale oslavuje ma môj Otec, o\u00A0ktorom vy hovoríte: ‚On je náš Boh,' a nepoznáte ho. Ale ja ho poznám. A keby som povedal: Nepoznám ho, bol by som luhár ako vy. Ale ja ho poznám a jeho slovo zachovávam. Váš otec Abrahám zaplesal, že uvidí môj deň; i videl a zaradoval sa.\"<br>" +
                             "Židia mu vraveli: \"Ešte nemáš ani päťdesiat rokov a videl si Abraháma?\"<br>" +
                             "Ježiš im povedal: \"Veru, veru, hovorím vám: Prv ako bol Abrahám, Ja Som.\"<br>" +
@@ -1377,7 +1334,6 @@ public interface Citania_post {
                             "Ježiš im vravel: \"A nie je napísané vo\u00A0vašom zákone: ‚Ja som povedal: Ste bohmi?' Nuž ak nazval bohmi tých, ktorým bolo dané Božie slovo – a Písmo nemožno zrušiť! –, prečo vy hovoríte tomu, ktorého Otec posvätil a poslal na\u00A0svet: ‚Rúhaš sa' za\u00A0to že som povedal: Som Boží Syn?!<br>" +
                             "Ak nekonám skutky môjho Otca, neverte mi. Ale ak ich konám, keď už nechcete veriť mne, verte tým skutkom, aby ste poznali a vedeli, že vo\u00A0mne je Otec a ja v\u00A0Otcovi!\" Preto ho zasa chceli chytiť, ale on sa im vymkol z\u00A0rúk.<br>" +
                             "Znova odišiel za\u00A0Jordán, na\u00A0miesto, kde Ján predtým krstil, a tam zostal.<br>" +
-                            "Mnohí prichádzali za\u00A0ním a hovorili si: \"Ján síce neurobil nijaké znamenie, ale všetko, čo Ján povedal o\u00A0tomto, je pravda.\" A mnohí tam uverili v\u00A0neho.<br>" +
                             "Mnohí prichádzali za\u00A0ním a hovorili si: \"Ján síce neurobil nijaké znamenie, ale všetko, čo Ján povedal o\u00A0tomto, je pravda.\" A mnohí tam uverili v\u00A0neho.<br>" +
                             "Počuli sme slovo Pánovo."},
             {"56", "6", "", "Jn 11, 45-56",
@@ -1435,7 +1391,6 @@ public interface Citania_post {
                             "<font color='#B71C1C'>E</font> V\u00A0tú hodinu povedal Ježiš zástupom: <font color='#B71C1C'>+</font> \"Vyšli ste s\u00A0mečmi a kyjmi ako na\u00A0zločinca, aby ste ma zajali. Deň čo deň som sedával a učil v\u00A0chráme, a nezajali ste ma.\"<br>" +
                             "<font color='#B71C1C'>E</font> Toto všetko sa stalo, aby sa splnili písma Prorokov. Vtedy ho všetci učeníci opustili a rozutekali sa.",
                     "Uvidíte Syna človeka sedieť po\u00A0pravici Moci",
-                    "<font color='#B71C1C'>E</font> Tí, čo Ježiša zajali, odviedli ho k\u00A0veľkňazovi Kajfášovi, kde sa zhromaždili zákonníci a starší. Peter šiel zďaleka za\u00A0ním až do\u00A0veľkňazovho dvora. Vošiel dnu a sadol si k\u00A0sluhom: chcel vidieť, ako sa to skončí. Veľkňazi a celá veľrada zháňali krivé svedectvo proti Ježišovi, aby ho mohli odsúdiť na\u00A0smrť. Ale nenašli, hoci vystúpilo mnoho falošných svedkov. Napokon prišli dvaja a hovorili: <font color='#B71C1C'>S</font> \"Tento povedal: ‚Môžem zboriť Boží chrám a o\u00A0tri dni ho postaviť.'\"<br>" +
                     "<font color='#B71C1C'>E</font> Tí, čo Ježiša zajali, odviedli ho k\u00A0veľkňazovi Kajfášovi, kde sa zhromaždili zákonníci a starší. Peter šiel zďaleka za\u00A0ním až do\u00A0veľkňazovho dvora. Vošiel dnu a sadol si k\u00A0sluhom: chcel vidieť, ako sa to skončí. Veľkňazi a celá veľrada zháňali krivé svedectvo proti Ježišovi, aby ho mohli odsúdiť na\u00A0smrť. Ale nenašli, hoci vystúpilo mnoho falošných svedkov. Napokon prišli dvaja a hovorili: <font color='#B71C1C'>S</font> \"Tento povedal: ‚Môžem zboriť Boží chrám a o\u00A0tri dni ho postaviť.'\"<br>" +
                             "Tu vstal veľkňaz a spýtal sa ho: <font color='#B71C1C'>S</font> \"Nič neodpovieš? Čo to títo svedčia proti tebe?!\" <font color='#B71C1C'>E</font> Ale Ježiš mlčal.<br>" +
                             "<font color='#B71C1C'>E</font> Veľkňaz mu povedal: <font color='#B71C1C'>S</font> \"Zaprisahám ťa na\u00A0živého Boha, aby si nám povedal, či si Mesiáš, Boží Syn.\"<br>" +
@@ -1555,7 +1510,6 @@ public interface Citania_post {
                     "Vopred pomazala moje telo na\u00A0pohreb",
                     "<font color='#B71C1C'>E</font> Keď bol v\u00A0Betánii v\u00A0dome Šimona Malomocného a sedel pri\u00A0stole, prišla žena s\u00A0alabastrovou nádobou pravého vzácneho nardového oleja. Nádobu rozbila a olej mu vyliala na\u00A0hlavu. Niektorí sa hnevali a hovorili si: <font color='#B71C1C'>S</font> \"Načo takto mrhať voňavý olej?! Veď sa mohol tento olej predať za\u00A0viac ako tristo denárov a tie rozdať chudobným.\" <font color='#B71C1C'>E</font> A osopovali sa na\u00A0ňu.<br>" +
                             "<font color='#B71C1C'>E</font> Ale Ježiš povedal: <font color='#B71C1C'>+</font> \"Nechajte ju! Prečo ju trápite? Urobila mi dobrý skutok. Veď chudobných máte vždy medzi sebou, a keď budete chcieť, môžete im robiť dobre. Ale mňa nemáte vždy. Urobila, čo mohla. Vopred pomazala moje telo na\u00A0pohreb. Veru, hovorím vám: Kdekoľvek na\u00A0svete sa bude ohlasovať evanjelium, bude sa na\u00A0jej pamiatku hovoriť aj o\u00A0tom, čo urobila.\"",
-                            "<font color='#B71C1C'>E</font> Ale Ježiš povedal: <font color='#B71C1C'>+</font> \"Nechajte ju! Prečo ju trápite? Urobila mi dobrý skutok. Veď chudobných máte vždy medzi sebou, a keď budete chcieť, môžete im robiť dobre. Ale mňa nemáte vždy. Urobila, čo mohla. Vopred pomazala moje telo na\u00A0pohreb. Veru, hovorím vám: Kdekoľvek na\u00A0svete sa bude ohlasovať evanjelium, bude sa na\u00A0jej pamiatku hovoriť aj o\u00A0tom, čo urobila.\"",
                     "Judášovi Iškariotskému sľúbili peniaze",
                     "<font color='#B71C1C'>E</font> Judáš Iškariotský, jeden z\u00A0Dvanástich, odišiel k\u00A0veľkňazom, aby im ho zradil. Tí sa potešili, keď to počuli, a sľúbili, že mu dajú peniaze. A on hľadal spôsob, ako ho príhodne vydať.",
                     "Kde je pre\u00A0mňa miestnosť, v\u00A0ktorej by som mohol jesť so\u00A0svojimi učeníkmi veľkonočného baránka?",
@@ -1565,7 +1519,6 @@ public interface Citania_post {
                     "Jeden z\u00A0vás ma zradí",
                     "<font color='#B71C1C'>E</font> Keď sa zvečerilo, prišiel s\u00A0Dvanástimi. A keď boli pri\u00A0stole a jedli, Ježiš povedal: <font color='#B71C1C'>+</font> \"Veru, hovorím vám: Jeden z\u00A0vás ma zradí, ten, čo je so\u00A0mnou.\"<br>" +
                             "<font color='#B71C1C'>E</font> Zosmutneli a začali sa ho jeden po\u00A0druhom vypytovať: <font color='#B71C1C'>S</font> \"Azda ja?\"<br>" +
-                            "<font color='#B71C1C'>E</font> On im odpovedal: <font color='#B71C1C'>+</font> \"Jeden z\u00A0Dvanástich, čo so\u00A0mnou namáča v\u00A0mise. Syn človeka síce ide, ako je o\u00A0ňom napísané, ale beda človekovi, ktorý zrádza Syna človeka! Pre\u00A0toho človeka by bolo lepšie, keby sa nebol narodil.\"",
                             "<font color='#B71C1C'>E</font> On im odpovedal: <font color='#B71C1C'>+</font> \"Jeden z\u00A0Dvanástich, čo so\u00A0mnou namáča v\u00A0mise. Syn človeka síce ide, ako je o\u00A0ňom napísané, ale beda človekovi, ktorý zrádza Syna človeka! Pre\u00A0toho človeka by bolo lepšie, keby sa nebol narodil.\"",
                     "Toto je moje telo. Toto je moja krv novej zmluvy",
                     "<font color='#B71C1C'>E</font> Keď jedli, vzal chlieb a dobrorečil, lámal ho a dával im, hovoriac: <font color='#B71C1C'>+</font> \"Vezmite, toto je moje telo!\"<br>" +
@@ -1600,12 +1553,10 @@ public interface Citania_post {
                             "<font color='#B71C1C'>E</font> A oni všetci vyniesli nad\u00A0ním súd, že je hoden smrti.<br>" +
                             "<font color='#B71C1C'>E</font> Niektorí začali naňho pľuť, zakrývali mu tvár, bili ho päsťami a hovorili mu:<font color='#B71C1C'>S</font> \"Prorokuj!\" <font color='#B71C1C'>E</font> Aj sluhovia ho bili po\u00A0tvári.",
                     "Nepoznám toho človeka, o\u00A0ktorom hovoríte",
-                    "Nepoznám toho človeka, o\u00A0ktorom hovoríte",
                     "<font color='#B71C1C'>E</font> Keď bol Peter dolu na\u00A0nádvorí, prišla jedna z\u00A0veľkňazových slúžok. Len čo zbadala Petra, ako sa zohrieva, pozrela sa naňho a povedala: <font color='#B71C1C'>S</font> \"Aj ty si bol s\u00A0tým Nazaretčanom, Ježišom.\"<br>" +
                             "<font color='#B71C1C'>E</font> Ale on zaprel: <font color='#B71C1C'>S</font> \"Ani neviem, ani nerozumiem, čo hovoríš.\" <font color='#B71C1C'>E</font> Vyšiel von pred\u00A0nádvorie a zaspieval kohút.<br>" +
                             "<font color='#B71C1C'>E</font> Keď ho tam videla slúžka, znova začala vravieť okolostojacim: <font color='#B71C1C'>S</font> \"Tento je z\u00A0nich.\" <font color='#B71C1C'>E</font> Ale on opäť zapieral.<br>" +
                             "<font color='#B71C1C'>E</font> O\u00A0chvíľku tí, čo tam stáli, znova hovorili Petrovi: <font color='#B71C1C'>S</font> \"Veru si z\u00A0nich, veď si aj Galilejčan.\"<br>" +
-                            "<font color='#B71C1C'>E</font> On sa však začal zaklínať a prisahať: <font color='#B71C1C'>S</font> \"Nepoznám toho človeka, o\u00A0ktorom hovoríte.\" <font color='#B71C1C'>E</font> Vtom kohút zaspieval druhý raz.<br>" +
                             "<font color='#B71C1C'>E</font> On sa však začal zaklínať a prisahať: <font color='#B71C1C'>S</font> \"Nepoznám toho človeka, o\u00A0ktorom hovoríte.\" <font color='#B71C1C'>E</font> Vtom kohút zaspieval druhý raz.<br>" +
                             "<font color='#B71C1C'>E</font> Vtedy sa Peter rozpamätal na\u00A0slovo, ktoré mu bol povedal Ježiš: \"Skôr ako dva razy kohút zaspieva, tri razy ma zaprieš.\" I rozplakal sa.",
                     "Chcete, aby som vám prepustil židovského kráľa?",
@@ -1627,7 +1578,6 @@ public interface Citania_post {
                     "Priviedli ho na\u00A0miesto Golgota a ukrižovali ho",
                     "<font color='#B71C1C'>E</font> Tu prinútili istého Šimona z\u00A0Cyrény, Alexandrovho a Rúfovho otca, ktorý sa tade vracal z\u00A0poľa, aby mu niesol kríž. Tak ho priviedli na\u00A0miesto Golgota, čo v\u00A0preklade znamená Lebka.<br>" +
                             "<font color='#B71C1C'>E</font> Dávali mu víno zmiešané s\u00A0myrhou, ale on ho neprijal. Potom ho ukrižovali a rozdelili si jeho šaty hodili o\u00A0ne lós, kto si má čo vziať. Keď ho ukrižovali, bolo deväť hodín.<br>" +
-                            "<font color='#B71C1C'>E</font> Dávali mu víno zmiešané s\u00A0myrhou, ale on ho neprijal. Potom ho ukrižovali a rozdelili si jeho šaty hodili o\u00A0ne lós, kto si má čo vziať. Keď ho ukrižovali, bolo deväť hodín.<br>" +
                             "<font color='#B71C1C'>E</font> Jeho vinu označili nápisom: \"Židovský kráľ.\"<br>" +
                             "<font color='#B71C1C'>E</font> Vedno s\u00A0ním ukrižovali aj dvoch zločincov: jedného napravo od\u00A0neho, druhého naľavo.",
                     "Iných zachraňoval, sám seba nemôže zachrániť",
@@ -1644,7 +1594,6 @@ public interface Citania_post {
                             "<font color='#B71C1C'>E</font> Keď stotník, čo stál naproti nemu, videl, ako vykríkol a skonal, povedal: <font color='#B71C1C'>S</font> \"Tento človek bol naozaj Boží Syn.\"<br>" +
                             "<font color='#B71C1C'>E</font> Zobďaleč sa pozerali aj ženy. Medzi nimi Mária Magdaléna, Mária, matka Jakuba Mladšieho a Jozesa, i Salome, ktoré ho sprevádzali a posluhovali mu, keď bol v\u00A0Galilei. Aj mnohé iné, čo s\u00A0ním prišli do\u00A0Jeruzalema.",
                     "Jozef ku\u00A0vchodu do\u00A0hrobu privalil kameň",
-                    "<font color='#B71C1C'>E</font> Keď sa už zvečerilo, pretože bol Prípravný deň, čiže deň pred\u00A0sobotou, prišiel Jozef z\u00A0Arimatey, významný člen rady, ktorý tiež očakával Božie kráľovstvo, smelo vošiel k\u00A0Pilátovi a poprosil o\u00A0Ježišovo telo. Pilát sa zadivil, že už zomrel. Zavolal si stotníka a opýtal sa ho, či je už mŕtvy. Keď mu to stotník potvrdil, daroval telo Jozefovi. On kúpil plátno a keď ho sňal, zavinul ho do\u00A0plátna a uložil do\u00A0hrobu vytesaného do\u00A0skaly. A ku\u00A0vchodu do\u00A0hrobu privalil kameň.<br>" +
                     "<font color='#B71C1C'>E</font> Keď sa už zvečerilo, pretože bol Prípravný deň, čiže deň pred\u00A0sobotou, prišiel Jozef z\u00A0Arimatey, významný člen rady, ktorý tiež očakával Božie kráľovstvo, smelo vošiel k\u00A0Pilátovi a poprosil o\u00A0Ježišovo telo. Pilát sa zadivil, že už zomrel. Zavolal si stotníka a opýtal sa ho, či je už mŕtvy. Keď mu to stotník potvrdil, daroval telo Jozefovi. On kúpil plátno a keď ho sňal, zavinul ho do\u00A0plátna a uložil do\u00A0hrobu vytesaného do\u00A0skaly. A ku\u00A0vchodu do\u00A0hrobu privalil kameň.<br>" +
                             "<font color='#B71C1C'>E</font> Mária Magdaléna a Mária Jozesova sa pozerali, kde ho uložili.<br>" +
                             "Počuli sme slovo Pánovo.<br><br>" +
@@ -1669,7 +1618,6 @@ public interface Citania_post {
                             "<font color='#B71C1C'>E</font> Bili ho trstinou po\u00A0hlave, pľuli naňho, kľakali pred\u00A0ním a klaňali sa mu. Keď sa mu naposmievali, vyzliekli ho z\u00A0purpuru a obliekli mu jeho šaty. Potom ho vyviedli, aby ho ukrižovali.",
                     "Priviedli ho na\u00A0miesto Golgota a ukrižovali ho",
                     "<font color='#B71C1C'>E</font> Tu prinútili istého Šimona z\u00A0Cyrény, Alexandrovho a Rúfovho otca, ktorý sa tade vracal z\u00A0poľa, aby mu niesol kríž. Tak ho priviedli na\u00A0miesto Golgota, čo v\u00A0preklade znamená Lebka.<br>" +
-                            "<font color='#B71C1C'>E</font> Dávali mu víno zmiešané s\u00A0myrhou, ale on ho neprijal. Potom ho ukrižovali a rozdelili si jeho šaty hodili o\u00A0ne lós, kto si má čo vziať. Keď ho ukrižovali, bolo deväť hodín.<br>" +
                             "<font color='#B71C1C'>E</font> Dávali mu víno zmiešané s\u00A0myrhou, ale on ho neprijal. Potom ho ukrižovali a rozdelili si jeho šaty hodili o\u00A0ne lós, kto si má čo vziať. Keď ho ukrižovali, bolo deväť hodín.<br>" +
                             "<font color='#B71C1C'>E</font> Jeho vinu označili nápisom: \"Židovský kráľ.\"<br>" +
                             "<font color='#B71C1C'>E</font> Vedno s\u00A0ním ukrižovali aj dvoch zločincov: jedného napravo od\u00A0neho, druhého naľavo.",
@@ -1743,14 +1691,12 @@ public interface Citania_post {
                             "<font color='#B71C1C'>E</font> Oni povedali: <font color='#B71C1C'>S</font> \"Načo ešte potrebujeme svedectvo? Veď sme to sami počuli z\u00A0jeho úst!\"",
                     "Ja nenachádzam nijakú vinu na\u00A0tomto človekovi",
                     "<font color='#B71C1C'>E</font> Tu celé zhromaždenie vstalo, odviedli ho k\u00A0Pilátovi a začali naňho žalovať: <font color='#B71C1C'>S</font> \"Tohoto sme pristihli, ako rozvracia náš národ, zakazuje platiť dane cisárovi a tvrdí o\u00A0sebe, že je Mesiáš, kráľ.\"<br>" +
-                    "<font color='#B71C1C'>E</font> Tu celé zhromaždenie vstalo, odviedli ho k\u00A0Pilátovi a začali naňho žalovať: <font color='#B71C1C'>S</font> \"Tohoto sme pristihli, ako rozvracia náš národ, zakazuje platiť dane cisárovi a tvrdí o\u00A0sebe, že je Mesiáš, kráľ.\"<br>" +
                             "<font color='#B71C1C'>E</font> Pilát sa ho spýtal: <font color='#B71C1C'>S</font> \"Si židovský kráľ?\"<br>" +
                             "<font color='#B71C1C'>E</font> On odpovedal: <font color='#B71C1C'>S</font> \"Sám to hovoríš.\"<br>" +
                             "<font color='#B71C1C'>E</font> Pilát povedal veľkňazom a zástupom:<font color='#B71C1C'>S</font> \"Ja nenachádzam nijakú vinu na\u00A0tomto človekovi.\"<br>" +
                             "<font color='#B71C1C'>E</font> Ale oni naliehali:<font color='#B71C1C'>S</font> \"Poburuje ľud a učí po\u00A0celej Judei; počnúc od\u00A0Galiley až sem.\"<br>" +
                             "<font color='#B71C1C'>E</font> Len čo to Pilát počul, opýtal sa, či je ten človek Galilejčan. A keď sa dozvedel, že podlieha Herodesovej právomoci, poslal ho k\u00A0Herodesovi, lebo aj on bol v\u00A0tých dňoch v\u00A0Jeruzaleme.",
                     "Herodes so\u00A0svojimi vojakmi ním opovrhol",
-                    "<font color='#B71C1C'>E</font> Keď Herodes uvidel Ježiša, veľmi sa zaradoval. Už dávno ho túžil vidieť, lebo o\u00A0ňom počul, a dúfal, že ho uvidí urobiť nejaký zázrak. Mnoho sa ho vypytoval, ale on mu na\u00A0nič neodpovedal.<br>" +
                     "<font color='#B71C1C'>E</font> Keď Herodes uvidel Ježiša, veľmi sa zaradoval. Už dávno ho túžil vidieť, lebo o\u00A0ňom počul, a dúfal, že ho uvidí urobiť nejaký zázrak. Mnoho sa ho vypytoval, ale on mu na\u00A0nič neodpovedal.<br>" +
                             "<font color='#B71C1C'>E</font> Stáli tam aj veľkňazi a zákonníci a nástojčivo naň žalovali. Ale Herodes so\u00A0svojimi vojakmi ním opovrhol, urobil si z\u00A0neho posmech, dal ho obliecť do\u00A0bielych šiat a poslal ho nazad k\u00A0Pilátovi. V\u00A0ten deň sa Herodes a Pilát spriatelili, lebo predtým žili v\u00A0nepriateľstve.",
                     "Pilát vydal Ježiša ich zvoli",
@@ -1782,13 +1728,11 @@ public interface Citania_post {
                             "<font color='#B71C1C'>E</font> Všetci jeho známi stáli obďaleč i ženy, ktoré ho sprevádzali z\u00A0Galiley, a dívali sa na\u00A0to.",
                     "Jozef uložil Ježišovo telo do\u00A0vytesaného hrobu",
                     "<font color='#B71C1C'>E</font> Tu istý muž menom Jozef, člen rady, dobrý a spravodlivý človek z\u00A0judejského mesta Arimatey, ktorý nesúhlasil s\u00A0ich rozhodnutím ani činmi a očakával Božie kráľovstvo, zašiel k\u00A0Pilátovi a poprosil o\u00A0Ježišovo telo. Keď ho sňal, zavinul ho do\u00A0plátna a uložil do\u00A0vytesaného hrobu, v\u00A0ktorom ešte nik neležal. Bol Prípravný deň a už sa začínala sobota.<br>" +
-                    "<font color='#B71C1C'>E</font> Tu istý muž menom Jozef, člen rady, dobrý a spravodlivý človek z\u00A0judejského mesta Arimatey, ktorý nesúhlasil s\u00A0ich rozhodnutím ani činmi a očakával Božie kráľovstvo, zašiel k\u00A0Pilátovi a poprosil o\u00A0Ježišovo telo. Keď ho sňal, zavinul ho do\u00A0plátna a uložil do\u00A0vytesaného hrobu, v\u00A0ktorom ešte nik neležal. Bol Prípravný deň a už sa začínala sobota.<br>" +
                             "<font color='#B71C1C'>E</font> Odprevádzali ho ženy, ktoré s\u00A0ním prišli z\u00A0Galiley. Pozreli si hrob aj to, ako uložili jeho telo. Potom sa vrátili domov a pripravili si voňavé oleje a masti. Ale v\u00A0sobotu zachovali podľa prikázania pokoj.<br>" +
                             "Počuli sme slovo Pánovo.<br><br>" +
                             "<font color='#B71C1C'>Alebo kratšie: Lk 23, 1-49</font><br>" +
                             "Umučenie nášho Pána Ježiša Krista podľa Lukáša",
                     "Ja nenachádzam nijakú vinu na\u00A0tomto človekovi",
-                    "<font color='#B71C1C'>E</font> Tu celé zhromaždenie vstalo, odviedli ho k\u00A0Pilátovi a začali naňho žalovať: <font color='#B71C1C'>S</font> \"Tohoto sme pristihli, ako rozvracia náš národ, zakazuje platiť dane cisárovi a tvrdí o\u00A0sebe, že je Mesiáš, kráľ.\"<br>" +
                     "<font color='#B71C1C'>E</font> Tu celé zhromaždenie vstalo, odviedli ho k\u00A0Pilátovi a začali naňho žalovať: <font color='#B71C1C'>S</font> \"Tohoto sme pristihli, ako rozvracia náš národ, zakazuje platiť dane cisárovi a tvrdí o\u00A0sebe, že je Mesiáš, kráľ.\"<br>" +
                             "<font color='#B71C1C'>E</font> Pilát sa ho spýtal: <font color='#B71C1C'>S</font> \"Si židovský kráľ?\"<br>" +
                             "<font color='#B71C1C'>E</font> On odpovedal: <font color='#B71C1C'>+</font> \"Sám to hovoríš.\"<br>" +
@@ -1796,7 +1740,6 @@ public interface Citania_post {
                             "<font color='#B71C1C'>E</font> Ale oni naliehali: <font color='#B71C1C'>S</font> \"Poburuje ľud a učí po\u00A0celej Judei; počnúc od\u00A0Galiley až sem.\"<br>" +
                             "<font color='#B71C1C'>E</font> Len čo to Pilát počul, opýtal sa, či je ten človek Galilejčan. A keď sa dozvedel, že podlieha Herodesovej právomoci, poslal ho k\u00A0Herodesovi, lebo aj on bol v\u00A0tých dňoch v\u00A0Jeruzaleme.",
                     "Herodes so\u00A0svojimi vojakmi ním opovrhol",
-                    "<font color='#B71C1C'>E</font> Keď Herodes uvidel Ježiša, veľmi sa zaradoval. Už dávno ho túžil vidieť, lebo o\u00A0ňom počul, a dúfal, že ho uvidí urobiť nejaký zázrak. Mnoho sa ho vypytoval, ale on mu na\u00A0nič neodpovedal.<br>" +
                     "<font color='#B71C1C'>E</font> Keď Herodes uvidel Ježiša, veľmi sa zaradoval. Už dávno ho túžil vidieť, lebo o\u00A0ňom počul, a dúfal, že ho uvidí urobiť nejaký zázrak. Mnoho sa ho vypytoval, ale on mu na\u00A0nič neodpovedal.<br>" +
                             "<font color='#B71C1C'>E</font> Stáli tam aj veľkňazi a zákonníci a nástojčivo naň žalovali. Ale Herodes so\u00A0svojimi vojakmi ním opovrhol, urobil si z\u00A0neho posmech, dal ho obliecť do\u00A0bielych šiat a poslal ho nazad k\u00A0Pilátovi. V\u00A0ten deň sa Herodes a Pilát spriatelili, lebo predtým žili v\u00A0nepriateľstve.",
                     "Pilát vydal Ježiša ich zvoli",
@@ -1833,7 +1776,6 @@ public interface Citania_post {
                             "Šesť dní pred\u00A0Veľkou nocou prišiel Ježiš do\u00A0Betánie, kde býval Lazár, ktorého vzkriesil z\u00A0mŕtvych. Pripravili mu tam hostinu. Marta obsluhovala a Lazár bol jedným z\u00A0tých, čo s\u00A0ním stolovali.<br>" +
                             "Mária vzala libru pravého vzácneho nardového oleja, pomazala ním Ježišove nohy a poutierala mu ich svojimi vlasmi; a dom sa naplnil vôňou oleja.<br>" +
                             "Tu jeden z\u00A0jeho učeníkov, Judáš Iškariotský, ktorý ho mal zradiť, povedal: \"Prečo nepredali tento olej za\u00A0tristo denárov a nerozdali ich chudobným?\" Lenže to nepovedal preto, že mu šlo o\u00A0chudobných, ale že bol zlodej. Mal mešec a nosil to, čo doň vkladali.<br>" +
-                            "Tu jeden z\u00A0jeho učeníkov, Judáš Iškariotský, ktorý ho mal zradiť, povedal: \"Prečo nepredali tento olej za\u00A0tristo denárov a nerozdali ich chudobným?\" Lenže to nepovedal preto, že mu šlo o\u00A0chudobných, ale že bol zlodej. Mal mešec a nosil to, čo doň vkladali.<br>" +
                             "Ježiš povedal: \"Nechaj ju, nech to zachová na\u00A0deň môjho pohrebu! Veď chudobných máte vždy medzi sebou, ale mňa nemáte vždy.\"<br>" +
                             "Veľké množstvo Židov sa dozvedelo, že je tam, a prišli nielen kvôli Ježišovi, ale aby videli aj Lazára, ktorého vzkriesil z\u00A0mŕtvych. A veľkňazi sa rozhodli, že zabijú aj Lazára, lebo preň mnohí Židia odchádzali a uverili v\u00A0Ježiša.<br>" +
                             "Počuli sme slovo Pánovo."},
@@ -1842,8 +1784,6 @@ public interface Citania_post {
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
                             "Keď Ježiš sedel za\u00A0stolom so\u00A0svojimi učeníkmi, zachvel sa v\u00A0duchu a vyhlásil: \"Veru, veru, hovorím vám: Jeden z\u00A0vás ma zradí.\"<br>" +
                             "Učeníci sa pozerali jeden na\u00A0druhého v\u00A0rozpakoch, o\u00A0kom to hovorí.<br>" +
-                            "Učeníci sa pozerali jeden na\u00A0druhého v\u00A0rozpakoch, o\u00A0kom to hovorí.<br>" +
-                            "Jeden z\u00A0jeho učeníkov, ten, ktorého Ježiš miloval, bol celkom pri\u00A0Ježišovej hrudi. Jemu dal Šimon Peter znak, aby sa opýtal: \"Kto je to, o\u00A0kom hovorí?\" On sa naklonil k\u00A0Ježišovej hrudi a spýtal sa: \"Pane, kto je to?\"<br>" +
                             "Jeden z\u00A0jeho učeníkov, ten, ktorého Ježiš miloval, bol celkom pri\u00A0Ježišovej hrudi. Jemu dal Šimon Peter znak, aby sa opýtal: \"Kto je to, o\u00A0kom hovorí?\" On sa naklonil k\u00A0Ježišovej hrudi a spýtal sa: \"Pane, kto je to?\"<br>" +
                             "Ježiš odpovedal: \"Ten, komu podám namočenú smidku.\" Namočil smidku chleba a dal ju Judášovi, synovi Šimona Iškariotského. A hneď po\u00A0tejto smidke vošiel do\u00A0neho satan.<br>" +
                             "Ježiš mu povedal: \"Čo chceš urobiť, urob čo najskôr.\" Ale nik zo\u00A0stolujúcich nerozumel, prečo mu to povedal. Judáš mal mešec, preto si niektorí mysleli, že mu Ježiš povedal: \"Nakúp, čo budeme potrebovať na\u00A0sviatky,\" alebo aby dal niečo chudobným. On vzal smidku a hneď vyšiel von. A bola noc.<br>" +
@@ -1861,7 +1801,6 @@ public interface Citania_post {
                             "On povedal: \"Choďte do\u00A0mesta k\u00A0istému človekovi a povedzte mu: Učiteľ odkazuje: Môj čas je blízko, u\u00A0teba budem jesť so\u00A0svojimi učeníkmi veľkonočného baránka.\" Učeníci urobili, ako im Ježiš rozkázal, a pripravili veľkonočného baránka.<br>" +
                             "Keď sa zvečerilo, zasadol s\u00A0Dvanástimi za\u00A0stôl. A keď jedli, povedal: \"Veru, hovorím vám: Jeden z\u00A0vás ma zradí.\"<br>" +
                             "Veľmi osmutneli a začali sa ho jeden po\u00A0druhom vypytovať: \"Som to ja, Pane?\"<br>" +
-                            "On odpovedal: \"Kto so\u00A0mnou namáča ruku v\u00A0mise, ten ma zradí. Syn človeka síce ide, ako je o\u00A0ňom napísané, ale beda človekovi, ktorý zrádza Syna človeka! Pre\u00A0toho človeka by bolo lepšie, keby sa nebol narodil.\"<br>" +
                             "On odpovedal: \"Kto so\u00A0mnou namáča ruku v\u00A0mise, ten ma zradí. Syn človeka síce ide, ako je o\u00A0ňom napísané, ale beda človekovi, ktorý zrádza Syna človeka! Pre\u00A0toho človeka by bolo lepšie, keby sa nebol narodil.\"<br>" +
                             "Aj jeho zradca Judáš sa opýtal: \"Som to azda ja, Rabbi?\"<br>" +
                             "Odpovedal mu: \"Sám si to povedal.\"<br>" +

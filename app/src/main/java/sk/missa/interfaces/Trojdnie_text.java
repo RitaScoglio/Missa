@@ -86,18 +86,18 @@ public interface Trojdnie_text {
 
     String[][] sobota = {
             {"S", "BIELA SOBOTA\nalebo\nVEĽKÁ SOBOTA"},
-            {"K", "1. Podľa pradávnej tradície táto noc je očakávaním Pána (Ex 12, 42). Preto podľa napomenutia evanjelia (Lk 12, 35n) veriaci s horiacimi sviecami v rukách sa majú podobať ľudom očakávajúcim návrat svojho Pána. Ked príde a nájde ich bedliť, dá im miesto pri svojom stole.<br>" +
-                    "2. Veľkonočná vigília sa slávi takto: Po krátkom obrade svetla (prvá časť vigílie) svätá Cirkev rozjíma o divoch, ktoré Pán konal od začiatku pre svoj ľud, a prejavuje dôveru v Pánovo slovo a v jeho prísľub (druhá časť vigílie - liturgia slova); keď nastáva deň zmŕtvychvstania, celá Cirkev spolu s tými, čo sa znovuzrodili v krste (tretia časť vigílie), je pozvaná na sviatostnú hostinu, ktorú svojmu ľudu pripravil Pán svojou smrťou a zmŕtvychvstaním (štvrtá časť vigílie).<br>" +
-                    "3. Celá slávnosť Veľkonočnej vigílie sa koná v noci. Nemá sa začať pred súmrakom a má sa skončiť pred svitaním nedeľného rána.<br>" +
-                    "4. Omša vigílie, aj keď sa slávi pred polnocou, je omšou Veľkonočnej nedele. Veriaci, ktorí prijali Oltárnu sviatosť cez svätú omšu v noci, môžu ju znova prijať v druhej veľkonočnej omši vo dne.<br>" +
-                    "5. Kňazi, ktorí celebrovali alebo koncelebrovali svätú omšu v noci, môžu celebrovať alebo koncelebrovať druhú veľkonočnú omšu<br>" +
-                    "6. Na slávenie veľkonočnej vigílie kňaz a prisluhujúci si oblečú biele omšové rúcho.<br>" +
+            {"K", "<font color='#000000'>1.</font> Podľa pradávnej tradície táto noc je očakávaním Pána (Ex 12, 42). Preto podľa napomenutia evanjelia (Lk 12, 35n) veriaci s horiacimi sviecami v rukách sa majú podobať ľudom očakávajúcim návrat svojho Pána. Ked príde a nájde ich bedliť, dá im miesto pri svojom stole.<br>" +
+                    "<font color='#000000'>2.</font> Veľkonočná vigília sa slávi takto: Po krátkom obrade svetla (prvá časť vigílie) svätá Cirkev rozjíma o divoch, ktoré Pán konal od začiatku pre svoj ľud, a prejavuje dôveru v Pánovo slovo a v jeho prísľub (druhá časť vigílie - liturgia slova); keď nastáva deň zmŕtvychvstania, celá Cirkev spolu s tými, čo sa znovuzrodili v krste (tretia časť vigílie), je pozvaná na sviatostnú hostinu, ktorú svojmu ľudu pripravil Pán svojou smrťou a zmŕtvychvstaním (štvrtá časť vigílie).<br>" +
+                    "<font color='#000000'>3.</font> Celá slávnosť Veľkonočnej vigílie sa koná v noci. Nemá sa začať pred súmrakom a má sa skončiť pred svitaním nedeľného rána.<br>" +
+                    "<font color='#000000'>4.</font> Omša vigílie, aj keď sa slávi pred polnocou, je omšou Veľkonočnej nedele. Veriaci, ktorí prijali Oltárnu sviatosť cez svätú omšu v noci, môžu ju znova prijať v druhej veľkonočnej omši vo dne.<br>" +
+                    "<font color='#000000'>5.</font> Kňazi, ktorí celebrovali alebo koncelebrovali svätú omšu v noci, môžu celebrovať alebo koncelebrovať druhú veľkonočnú omšu<br>" +
+                    "<font color='#000000'>6.</font> Na slávenie veľkonočnej vigílie kňaz a prisluhujúci si oblečú biele omšové rúcho.<br>" +
                     "Ak je možné, je treba na vhodnom mieste mimo kostola pripraviť z dreva vatru na požehnanie nového ohňa; plameň by mal byť taký, aby naozaj rozptýlili tmu a osvietil noc. Pretože ide o pravdivosť znaku, veľkonočnú sviecu treba pripraviť z vosku, každý rok novú, jedinú, dosť veľkú, nikdy nie umelú, lebo iba tak bude môcť naznačiť, že Kristus je svetlo sveta.<br>" +
                     "Pre všetkých účastníkov vigílie treba pripraviť sviece."},
             {"N", "I. časť: Slávnostný začiatok vigílie: Obrad svetla"},
             {"N", "Požehnanie ohňa a príprava veľkonočnej sviece",},
-            {"K", "7. V kostole sa zhasia svetlá. Na vhodnom mieste mimo kostola sa pripraví oheň. Keď sa tam už zhromaždili veriaci, príde kňaz s prisluhujúcimi; jeden z nich nesie veľkonočnú sviecu (paškál). Keď nemožno posvätiť oheň mimo kostola, obrad sa koná, ako je uvedené pod č. 13.<br>" +
-                    "8. Kňaz pozdraví zhromaždený ľud zvyčajným spôsobom a krátko ho poučí o veľkonočnej vigílii týmito alebo podobnými slovami:",
+            {"K", "<font color='#000000'>7.</font> V kostole sa zhasia svetlá. Na vhodnom mieste mimo kostola sa pripraví oheň. Keď sa tam už zhromaždili veriaci, príde kňaz s prisluhujúcimi; jeden z nich nesie veľkonočnú sviecu (paškál). Keď nemožno posvätiť oheň mimo kostola, obrad sa koná, ako je uvedené pod č. 13.<br>" +
+                    "<font color='#000000'>8.</font> Kňaz pozdraví zhromaždený ľud zvyčajným spôsobom a krátko ho poučí o veľkonočnej vigílii týmito alebo podobnými slovami:",
                     "Bratia a sestry, v túto presvätú noc náš Pán Ježiš " +
                             "Kristus vstal z mŕtvych. Preto Cirkev po celom svete " +
                             "zvoláva svojich synov a dcéry a zhromažďuje ich, " +
@@ -106,7 +106,7 @@ public interface Trojdnie_text {
                             "počúvať Božie slovo a oslávime veľkonočné tajomstvo" +
                             "v nádeji, že budeme mať podiel na Kristovom víťazstve " +
                             "nad smrťou a na jeho živote v Bohu.",
-                    "9. Potom požehná oheň.",
+                    "<font color='#000000'>9.</font> Potom požehná oheň.",
                     "Modlime sa.<br>" +
                             "Všemohúci a večný Bože,<br>" +
                             "skrze svojho Syna ožiaril si nás<br>" +
@@ -120,7 +120,7 @@ public interface Trojdnie_text {
                             "večného svetla.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Amen.<br>",
                     "Od posväteného ohňa sa zapáli veľkonočná svieca.<br>" +
-                            "10. Ak je pre veriacich užitočnejšie zvýrazniť dôstojnosť a význam veľkonočnej sviece nejakými symbolmi, možno to urobiť takto:<br>" +
+                            "<font color='#000000'>10.</font> Ak je pre veriacich užitočnejšie zvýrazniť dôstojnosť a význam veľkonočnej sviece nejakými symbolmi, možno to urobiť takto:<br>" +
                             "Po požehnaní nového ohňa akolyta alebo jeden z prisluhujúcich prinesie pred celebranta veľkonočnú sviecu. Celebrant vryje do sviece kríž; nad kríž napíše grécke písmeno alfa, pod kríž písmeno omega a medzi ramená kríža vpíše štyri číslice bežného roku. Pritom hovorí:<br>" +
                             "(celebrant vrýva zvislú čiaru kríža)",
                     "Kristus je ten istý včera i dnes.",
@@ -138,36 +138,36 @@ public interface Trojdnie_text {
                     "Jemu patrí sláva i moc",
                     "(do spodného pravého uhla kríža vrýva štvrtú číslicu letopočtu)",
                     "po všetky veky vekov. Amen",
-                    "11. Keď už vryl do sviece kríž a ostatné znaky, môže do nej vsadiť v podobe kríža päť hrudiek tymianu v naznačenom poradí. Pritom hovorí:",
+                    "<font color='#000000'>11.</font> Keď už vryl do sviece kríž a ostatné znaky, môže do nej vsadiť v podobe kríža päť hrudiek tymianu v naznačenom poradí. Pritom hovorí:",
                     "<font color='#B71C1C'>1</font> - Pre svoje sväté<br>" +
                             "<font color='#B71C1C'>2</font> - a oslávené rany<br>" +
                             "<font color='#B71C1C'>3</font> - nech nás ochraňuje<br>" +
                             "<font color='#B71C1C'>4</font> - a zachováva<br>" +
                             "<font color='#B71C1C'>5</font> - Kristus, náš Pán. Amen.",
-                    "12. Kňaz od po sväteného ohňa zapáli veľkonočnú sviecu a hovorí:",
+                    "<font color='#000000'>12.</font> Kňaz od po sväteného ohňa zapáli veľkonočnú sviecu a hovorí:",
                     "Svetlo Krista, ktorý slávne vstal z mŕtvych,<br>" +
                             "nech zaženie tmu z našich sŕdc a myslí.",
                     "Tieto symbolické úkony možno použiť všetky alebo len niektoré, podľa miestnych okolností. Biskupská konferencia môže stanoviť iný spôsob, lepšie vyhovujúci mentalite veriacich.<br>" +
-                            "13. Ak sa pre prípadné ťažkosti nežehná oheň vonku, obrad požehnania ohňa sa prispôsobí okolnostiam. Keď sa ľud zhromaždí v kostole, kňaz a prisluhujúci s veľkonočnou sviecou prídu k bráne kostola. Ak je možné, ľud sa obráti tvárou ku kňazovi.<br>" +
+                            "<font color='#000000'>13.</font> Ak sa pre prípadné ťažkosti nežehná oheň vonku, obrad požehnania ohňa sa prispôsobí okolnostiam. Keď sa ľud zhromaždí v kostole, kňaz a prisluhujúci s veľkonočnou sviecou prídu k bráne kostola. Ak je možné, ľud sa obráti tvárou ku kňazovi.<br>" +
                             "Nasleduje pozdrav a poučenie (pozri č. 8). Potom sa žehná oheň (pozri č. 9) a prípadne sa pripraví a zažne veľkonočná svieca (pozri č. 10-12).", null},
             {"N", "Sprievod"},
-            {"K", "14. Diakon alebo (ak nieto diakona) kňaz vezme veľkonočnú sviecu, drží ju pozdvihnutú a spieva:",
+            {"K", "<font color='#000000'>14.</font> Diakon alebo (ak nieto diakona) kňaz vezme veľkonočnú sviecu, drží ju pozdvihnutú a spieva:",
                     "Kristus, svetlo sveta.",
                     "Všetci odpovedajú:",
                     "Bohu vďaka.",
                     "Všetci vojdú do kostola. Na čele ide diakon (kňaz) s veľkonočnou sviecou. Ak sa používa kadidlo, posluhujúci s dymiacou kadidelnicou kráča pred diakonom (kňazom).<br>" +
-                            "15. Pri vchode do kostola diakon (kňaz) zastane, pozdvihne sviecu a znova spieva:",
+                            "<font color='#000000'>15.</font> Pri vchode do kostola diakon (kňaz) zastane, pozdvihne sviecu a znova spieva:",
                     "Kristus, svetlo sveta.",
                     "Všetci odpovedajú:",
                     "Bohu vďaka.",
                     "Potom si zapália sviečky od veľkonočnej sviece a sprievod pokračuje.<br>" +
-                            "16. Diakon (kňaz) pred oltárom zastane, obráti sa k ľudu a tretí raz spieva:",
+                            "<font color='#000000'>16.</font> Diakon (kňaz) pred oltárom zastane, obráti sa k ľudu a tretí raz spieva:",
                     "Kristus, svetlo sveta.",
                     "Všetci odpovedajú:",
                     "Bohu vďaka.",
                     "V kostole sa zažnú všetky svetlá (okrem sviec na oltári).", null},
             {"N", "Veľkonočný chválospev"},
-            {"K", "17. Po príchode k oltáru kňaz ide k sedadlu. Diakon (alebo sám kňaz) postaví veľkonočnú sviecu na svietnik, pripravený uprostred presbytéria alebo vedľa ambóny. Ak sa používa kadidelnica, vloží do nej temian ako na evanjelium vo svätej omši. Potom požiada kňaza o požehnanie. Kňaz mu ho dá polohlasne týmito slovami:",
+            {"K", "<font color='#000000'>17.</font> Po príchode k oltáru kňaz ide k sedadlu. Diakon (alebo sám kňaz) postaví veľkonočnú sviecu na svietnik, pripravený uprostred presbytéria alebo vedľa ambóny. Ak sa používa kadidelnica, vloží do nej temian ako na evanjelium vo svätej omši. Potom požiada kňaza o požehnanie. Kňaz mu ho dá polohlasne týmito slovami:",
                     "Pán nech je v tvojom srdci i na tvojich perách,<br>" +
                             "aby si dôstojne predniesol veľkonočný chválospev<br>" +
                             "v mene Otca i Syna <font color='#B71C1C'>+</font> i Ducha Svätého.<br>" +
@@ -175,7 +175,8 @@ public interface Trojdnie_text {
                     "Toto požehnanie sa vynechá, ak chválospev prednesie niekto iný ako diakon. Diakon alebo (ak nieto diakona) kňaz môže incenzovať knihu i sviecu a potom na ambone alebo pri stojane prednesie veľkonočný chválospev. Všetci zatiaľ stoja a držia v rukách zažaté sviece. Podľa potreby chválospev môže spievať aj spevák, ktorý nie je diakonom. V dlhšom znení chválospevu však vynechá stať " +
                             "<font color='#000000'>Prosím vás teda, bratia a sestry</font> až do konca úvodu a v dlhšom i kratšom znení chválospevu vynechá pozdravenie " +
                             "<font color='#000000'>Pán s vami.</font> Chválospev možno spievať aj v skrátenom znení. Biskupské konferencie môžu vložiť do chválospevu niekoľko zvolaní pre ľud.", null},
-            {"V", "KRATŠÍ VEĽKONOČNÝ CHVÁLOSPEV", null, "Zaplesaj, nebeský chór anjelov,<br>" +
+            {"V", "KRATŠÍ VEĽKONOČNÝ CHVÁLOSPEV", null, null, null, null,
+                    "Zaplesaj, nebeský chór anjelov,<br>" +
                     "zaplesajte, oslávení v nebi,<br>" +
                     "nech zahlaholí chválospev<br>" +
                     "na oslavu víťazného Krista.<br>" +
@@ -270,7 +271,8 @@ public interface Trojdnie_text {
                     "osvecuje ľudstvo veľkonočným svetlom<br>" +
                     "a s tebou žije a kraľuje na veky vekov.<br>" +
                     "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
-            {"V", "DLHŠÍ VEĽKONOČNÝ CHVÁLOSPEV", null, "Zaplesaj, nebeský chór anjelov,<br>" +
+            {"V", "DLHŠÍ VEĽKONOČNÝ CHVÁLOSPEV", null, null, null, null,
+                    "Zaplesaj, nebeský chór anjelov,<br>" +
                     "zaplesajte, oslávení v nebi,<br>" +
                     "nech zahlaholí chválospev<br>" +
                     "na oslavu víťazného Krista.<br>" +
@@ -406,19 +408,19 @@ public interface Trojdnie_text {
                     "a s tebou žije a kraľuje na veky vekov.<br>" +
                     "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
             {"N", "II. časť - Liturgia slova"},
-            {"K", "20. Na túto vigíliu, najdôležitejšiu zo všetkých vigílií, je určených deväť čítaní, a to sedem zo Starého zákona a dve (epištola a evanjelium) z Nového zákona.<br>" +
-                    "21. Ak to vyžadujú pastoračné dôvody, možno vynechať niektoré čítania zo Starého zákona. Treba však vždy pamätať na to, že čítanie Božieho slova je podstatnou zložkou tejto vigílie. Majú sa čítať aspoň tri čítania zo Starého zákona, v krajnom prípade najmenej dve. Nikdy sa však nesmie vynechať čítanie z Druhej knihy Mojžišovej (14, 15 – 15, 1, tretie čítanie).<br>" +
-                    "22. Všetci odložia sviece a sadnú si. Pred čítaním kňaz povzbudí ľud týmito alebo podobnými slovami:",
+            {"K", "<font color='#000000'>20.</font> Na túto vigíliu, najdôležitejšiu zo všetkých vigílií, je určených deväť čítaní, a to sedem zo Starého zákona a dve (epištola a evanjelium) z Nového zákona.<br>" +
+                    "<font color='#000000'>21.</font> Ak to vyžadujú pastoračné dôvody, možno vynechať niektoré čítania zo Starého zákona. Treba však vždy pamätať na to, že čítanie Božieho slova je podstatnou zložkou tejto vigílie. Majú sa čítať aspoň tri čítania zo Starého zákona, v krajnom prípade najmenej dve. Nikdy sa však nesmie vynechať čítanie z Druhej knihy Mojžišovej (14, 15 – 15, 1, tretie čítanie).<br>" +
+                    "<font color='#000000'>22.</font> Všetci odložia sviece a sadnú si. Pred čítaním kňaz povzbudí ľud týmito alebo podobnými slovami:",
                     "Drahí bratia a sestry,<br>" +
                             "po slávnostnom úvode veľkonočnej vigílie teraz pozorne počúvajme Božie slovo.<br>" +
                             "Uvažujme, ako Boh ochraňoval svoj ľud v minulosti a ako napokon poslal svojho Syna ako Vykupiteľa. Modlime sa, aby Boh dovŕšil v nás dielo vykúpenia, ktoré Kristus uskutočnil svojou smrťou a zmŕtvychvstaním.",
-                    "23. Nasledujú čítania. Lektor príde k ambóne a prečíta prvé čítanie. Žalmista čiže predspevák recituje alebo spieva medzispev a ľud mu odpovedá. Potom všetci vstanú.<br>" +
+                    "<font color='#000000'>23.</font> Nasledujú čítania. Lektor príde k ambóne a prečíta prvé čítanie. Žalmista čiže predspevák recituje alebo spieva medzispev a ľud mu odpovedá. Potom všetci vstanú.<br>" +
                             "Kňaz povie Modlime sa a všetci sa chvíľu potichu modlia. Napokon sa kňaz nahlas modli príslušnú modlitbu.<br>" +
                             "Namiesto medzispevu sa môže vsunúť chvíľa tichého rozjímania. V tomto prípade po výzve Modlime sa kňaz hneď prednesie príslušnú modlitbu.", null},
             {"V", "PRVÉ ČÍTANIE", "Gn 1, 1 – 2, 2 alebo Gn 1, 1. 26-31a",
-                    "<font color='#B71C1C'>PRVÉ ČÍTANIE</font><br>",
-                    "<i>Boh videl všetko, čo urobil, a bolo to veľmi dobré\n",
-                    "Čítanie z Knihy Genezis  <font color='#B71C1C'>Gn 1, 1 – 2, 2</font><br>" +
+                    "PRVÉ ČÍTANIE", "Gn 1, 1 – 2, 2",
+                    "Boh videl všetko, čo urobil, a bolo to veľmi dobré",
+                    "Čítanie z Knihy Genezis<br>" +
                             "Na počiatku stvoril Boh nebo a zem. Ale zem bola pustá a prázdna, tma bola nad priepasťou a duch Boží sa vznášal nad vodami.<br>" +
                             "Boh povedal: „Buď svetlo!“ A bolo svetlo. Boh videl, že svetlo je dobré, a oddelil svetlo od tmy. Svetlo nazval Dňom a tmu Nocou. A nastal večer a ráno, prvý deň.<br>" +
                             "Boh povedal: „Nech je obloha uprostred vôd a nech oddeľuje vody od vôd.“ Boh urobil oblohu a oddelil vody pod oblohou od vôd nad oblohou. A tak sa stalo. A Boh nazval oblohu Nebom. A nastal večer a ráno, druhý deň.<br>" +
@@ -430,16 +432,15 @@ public interface Trojdnie_text {
                             "Potom Boh povedal: „Urobme človeka na náš obraz, na našu podobu. Nech vládnu nad morskými rybami a nad nebeským vtáctvom, nad zverinou i nad celou zemou; nad všetkými plazmi, čo sa hýbu po zemi.“ A stvoril Boh človeka na svoj obraz; na Boží obraz ho stvoril, muža a ženu ich stvoril. Boh ich požehnal a povedal im: „Vzrastajte a množte sa. Naplňte zem a podmaňte si ju. Panujte nad morskými rybami, nad nebeským vtáctvom a nad všetkou zverou, čo sa hýbe na zemi.“<br>" +
                             "Potom Boh povedal: „Hľa, dávam vám všetky semenné rastliny na zemi a všetky stromy s ich ovocím, v ktorom je semeno, aby vám boli za pokrm. A všetkým živočíchom zeme, všetkému nebeskému vtáctvu i všetkému, čo sa hýbe na zemi a má v sebe život, dávam za pokrm všetky zelené rastliny.“ A tak sa stalo. A Boh videl všetko, čo urobil; a bolo to veľmi dobré. A nastal večer a ráno, šiesty deň.<br>" +
                             "Takto boli dokončené nebo a zem i všetka ich nádhera. Siedmeho dňa Boh ukončil dielo, ktoré konal, a v siedmy deň si odpočinul po všetkých dielach, čo vytvoril.<br>" +
-                            "Počuli sme Božie slovo.<br>" +
-                            "<font color='#B71C1C'>Alebo kratšie:</font><br>",
-                    "<i>Na počiatku stvoril Boh nebo a zem.\n",
-                    "Čítanie z Knihy Genezis <font color='#B71C1C'>Gn 1, 1. 26-31a</font><br>" +
+                            "Počuli sme Božie slovo.",
+                            "Alebo kratšie:", "Gn 1, 1. 26-31a",
+                    "Na počiatku stvoril Boh nebo a zem.",
+                    "Čítanie z Knihy Genezis<br>" +
                             "Potom Boh povedal: „Urobme človeka na náš obraz, na našu podobu. Nech vládnu nad morskými rybami a nad nebeským vtáctvom, nad zverinou i nad celou zemou; nad všetkými plazmi, čo sa hýbu po zemi.“ A stvoril Boh človeka na svoj obraz; na Boží obraz ho stvoril, muža a ženu ich stvoril.<br>" +
                             "Boh ich požehnal a povedal im: „Vzrastajte a množte sa. Naplňte zem a podmaňte si ju. Panujte nad morskými rybami, nad nebeským vtáctvom a nad všetkou zverou, čo sa hýbe na zemi.“ Potom Boh povedal: „Hľa, dávam vám všetky semenné rastliny na zemi a všetky stromy s ich ovocím, v ktorom je semeno, aby vám boli za pokrm. A všetkým živočíchom zeme, všetkému nebeskému vtáctvu i všetkému, čo sa hýbe na zemi a má v sebe život, dávam za pokrm všetky zelené rastliny.“ A tak sa stalo. A Boh videl všetko, čo urobil; a bolo to veľmi dobré.<br>" +
-                            "Počuli sme Božie slovo.<br>" +
-                            "<br>" +
-                            "<font color='#B71C1C'>RESPONZÓRIOVÝ ŽALM Ž 104, 1-2a. 5-6. 10+12. 13-14b. 24+35c<br>" +
-                            "R.:</font> Pane, zošli svojho Ducha a obnov tvárnosť zeme.<br>" +
+                            "Počuli sme Božie slovo.",
+                            "RESPONZÓRIOVÝ ŽALM", "Ž 104, 1-2a. 5-6. 10+12. 13-14b. 24+35c", null,
+                            "<font color='#B71C1C'>R.:</font> Pane, zošli svojho Ducha a obnov tvárnosť zeme.<br>" +
                             "<br>" +
                             "Dobroreč, duša moja, Pánovi; <font color='#B71C1C'>*</font><br>" +
                             "Pane, Bože môj, ty si nesmierne veľký.<br>" +
@@ -460,10 +461,10 @@ public interface Trojdnie_text {
                             "Aké mnohoraké sú tvoje diela, Pane! <font color='#B71C1C'>*</font><br>" +
                             "Všetko si múdro urobil.<br>" +
                             "Zem je plná tvojho stvorenstva. <font color='#B71C1C'>*</font><br>" +
-                            "Dobroreč, duša moja, Pánovi. <font color='#B71C1C'>R.</font><br><br>" +
-                            "<font color='#B71C1C'>Alebo kratšie:<br>" +
-                            "RESPONZÓRIOVÝ ŽALM Ž 33, 4-5. 6-7. 12-13. 20+22<br>" +
-                            "R.:</font> Milosti Pánovej plná je zem.<br>" +
+                            "Dobroreč, duša moja, Pánovi. <font color='#B71C1C'>R.<br>" +
+                            "Alebo kratšie:</font>",
+                            "RESPONZÓRIOVÝ ŽALM", "Ž 33, 4-5. 6-7. 12-13. 20+22", null,
+                            "<font color='#B71C1C'>R.:</font> Milosti Pánovej plná je zem.<br>" +
                             "<br>" +
                             "Pánovo slovo je pravdivé <font color='#B71C1C'>*</font><br>" +
                             "a verné všetko jeho konanie.<br>" +
@@ -480,7 +481,7 @@ public interface Trojdnie_text {
                             "Naša duša očakáva Pána, <font color='#B71C1C'>*</font><br>" +
                             "on je naša pomoc a ochrana.<br>" +
                             "Tvoje milosrdenstvo, Pane, nech je nad nami, <font color='#B71C1C'>*</font><br>" +
-                            "ako dúfame v teba. <font color='#B71C1C'>R.</font><br>"},
+                            "ako dúfame v teba. <font color='#B71C1C'>R.</font>"},
             {"K", null, "Modlime sa.<br>" +
                     "Všemohúci a večný Bože,<br>" +
                     "ty si obdivuhodný vo všetkom, čo konáš; <font color='#B71C1C'>*</font><br>" +
@@ -503,9 +504,9 @@ public interface Trojdnie_text {
                             "Skrze Krista, nášho Pána.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Amen."},
             {"V", "DRUHÉ ČÍTANIE", "Gn 22, 1-18 alebo Gn 22, 1-2. 9a. 10-13. 15-18",
-                    "<font color='#B71C1C'>DRUHÉ ČÍTANIE</font><br>",
-                    "<i>Obeta nášho praotca Abraháma\n",
-                    "Čítanie z Knihy Genezis <font color='#B71C1C'>Gn 22, 1-18</font><br>" +
+                    "DRUHÉ ČÍTANIE", "Gn 22, 1-18",
+                    "Obeta nášho praotca Abraháma",
+                    "Čítanie z Knihy Genezis<br>" +
                             "Boh skúšal Abraháma a povedal mu: „Abrahám!“<br>" +
                             "On odpovedal: „Tu som.“<br>" +
                             "Boh hovoril: „Vezmi svojho jediného syna Izáka, ktorého miluješ, choď do krajiny Moria a obetuj ho tam ako zápalnú obetu na vrchu, ktorý ti ukážem.“<br>" +
@@ -520,10 +521,10 @@ public interface Trojdnie_text {
                             "Anjel mu povedal: „Nevzťahuj svoju ruku na chlapca a neublíž mu! Teraz viem, že sa bojíš Boha, veď si mi neodoprel svojho jediného syna.“<br>" +
                             "Abrahám zdvihol oči a uzrel barana zachyteného rohami v kroví. Vzal ho a obetoval namiesto svojho syna ako zápalnú obetu. A toto miesto nazval: „Pán sa stará;“ a tak sa až podnes hovorí: „Na vrchu Pán sa stará.“<br>" +
                             "Anjel Pána znova zavolal z neba na Abraháma: „Na seba samého prisahám – taký je výrok Pána –: Pretože si toto urobil a neodoprel si mi svojho jediného syna, požehnám ťa a rozmnožím tvoje potomstvo ako hviezdy na nebi a ako piesok na brehu mora a tvoje potomstvo sa zmocní brán svojich nepriateľov. A pretože si poslúchol môj hlas, v tvojom potomstve budú požehnané všetky národy zeme.“<br>" +
-                            "Počuli sme Božie slovo.<br>" +
-                            "<font color='#B71C1C'>Alebo kratšie:</font><br>",
-                    "<i>Obeta nášho praotca Abraháma\n",
-                    "Čítanie z Knihy Genezis <font color='#B71C1C'>Gn 22, 1-2. 9a. 10-13. 15-18</font><br>" +
+                            "Počuli sme Božie slovo.",
+                            "Alebo kratšie:", "Gn 22, 1-2. 9a. 10-13. 15-18",
+                    "Obeta nášho praotca Abraháma",
+                    "Čítanie z Knihy Genezis<br>" +
                             "Boh skúšal Abraháma a povedal mu: „Abrahám!“<br>" +
                             "On odpovedal: „Tu som.“<br>" +
                             "Boh hovoril: „Vezmi svojho jediného syna Izáka, ktorého miluješ, choď do krajiny Moria a obetuj ho tam ako zápalnú obetu na vrchu, ktorý ti ukážem.“<br>" +
@@ -533,10 +534,9 @@ public interface Trojdnie_text {
                             "Anjel mu povedal: „Nevzťahuj svoju ruku na chlapca a neublíž mu! Teraz viem, že sa bojíš Boha, veď si mi neodoprel svojho jediného syna.“<br>" +
                             "Abrahám zdvihol oči a uzrel barana zachyteného rohami v kroví. Vzal ho a obetoval namiesto svojho syna ako zápalnú obetu.<br>" +
                             "Anjel Pána znova zavolal z neba na Abraháma: „Na seba samého prisahám – taký je výrok Pána –: Pretože si toto urobil a neodoprel si mi svojho jediného syna, požehnám ťa a rozmnožím tvoje potomstvo ako hviezdy na nebi a ako piesok na brehu mora a tvoje potomstvo sa zmocní brán svojich nepriateľov. A pretože si poslúchol môj hlas, v tvojom potomstve budú požehnané všetky národy zeme.“<br>" +
-                            "Počuli sme Božie slovo.<br>" +
-                            "<br>" +
-                            "<font color='#B71C1C'>RESPONZÓRIOVÝ ŽALM Ž 16, 5+8. 9-10. 11</font><br>" +
-                            "R.:</font> Ochráň ma, Bože, k tebe sa utiekam.<br><br>" +
+                            "Počuli sme Božie slovo.",
+                            "RESPONZÓRIOVÝ ŽALM", "Ž 16, 5+8. 9-10. 11", null,
+                            "<font color='#B71C1C'>R.:</font> Ochráň ma, Bože, k tebe sa utiekam.<br><br>" +
                             "Ty, Pane, si môj podiel na dedičstve a na kalichu, <font color='#B71C1C'>*</font><br>" +
                             "v tvojich rukách je môj osud.<br>" +
                             "Pána mám vždy pred očami; <font color='#B71C1C'>*</font><br>" +
@@ -560,19 +560,18 @@ public interface Trojdnie_text {
                     "ktorou ich povolávaš do svojej Cirkvi.<br>" +
                     "<font color='#B71C1C'>Ľ.:</font> Amen."},
             {"V", "TRETIE ČÍTANIE", "Ex 14,15 – 15, 1",
-                    "<font color='#B71C1C'>TRETIE ČÍTANIE</font><br>",
-                    "<i>Izraeliti šli stredom mora po suchu",
-                    "Čítanie z Knihy Exodus <font color='#B71C1C'>Ex 14,15 – 15, 1</font><br>" +
-                            "Pán povedal Mojžišovi: \\“Čo voláš ku mne? Povedz Izraelitom, aby sa pohli. Ty zdvihni svoju palicu a vystri ruku nad more a rozdeľ ho, aby Izraeliti mohli prejsť stredom mora ako po súši.<br>" +
-                            "Ja zatvrdím srdce Egypťanov a budú sa hnať za nimi; a na faraónovi, na celom jeho vojsku, na jeho vozoch a jazde ukážem svoju slávu. Egypťania spoznajú, že ja som Pán, keď ukážem svoju slávu na faraónovi i na jeho vozoch a jazde.\\“<br>" +
+                    "TRETIE ČÍTANIE", "Ex 14,15 – 15, 1",
+                    "Izraeliti šli stredom mora po suchu",
+                    "Čítanie z Knihy Exodus<br>" +
+                            "Pán povedal Mojžišovi: “Čo voláš ku mne? Povedz Izraelitom, aby sa pohli. Ty zdvihni svoju palicu a vystri ruku nad more a rozdeľ ho, aby Izraeliti mohli prejsť stredom mora ako po súši.<br>" +
+                            "Ja zatvrdím srdce Egypťanov a budú sa hnať za nimi; a na faraónovi, na celom jeho vojsku, na jeho vozoch a jazde ukážem svoju slávu. Egypťania spoznajú, že ja som Pán, keď ukážem svoju slávu na faraónovi i na jeho vozoch a jazde.“<br>" +
                             "Tu sa Boží anjel, čo šiel pred izraelským táborom, zdvihol a išiel za ním. A s ním aj oblačný stĺp zmenil svoje doterajšie miesto – prešiel spredu zaň. Postavil sa medzi egyptský tábor a izraelský tábor. Oblak bol pre jedných temný, druhým osvetľoval noc, a tak sa celú noc nemohli jedni k druhým priblížiť.<br>" +
                             "Mojžiš vystrel ruku nad more a Pán ho celú noc prudkým horúcim vetrom rozháňal a vysúšal. Voda sa rozdelila a Izraeliti šli stredom mora po suchu, kým voda bola ako múr po ich pravici a ľavici. Egypťania ich prenasledovali. Všetky faraónove kone, vozy a jazdci sa pustili za nimi doprostred mora.<br>" +
-                            "Ale v čase rannej stráže sa Pán pozrel z ohnivého a oblačného stĺpa na Egypťanov a ich vojsko uviedol do zmätku. Hamoval kolesá na ich vozoch, takže mohli len ťažko napredovať. Preto Egypťania hovorili: \\“Utekajme pred Izraelitmi, lebo Pán za nich bojuje proti nám.\\“<br>" +
-                            "A Pán povedal Mojžišovi: \\“Vystri ruku nad more, aby sa vody vrátili na Egypťanov, na ich vozy a na ich jazdcov.\\“ Mojžiš vystrel ruku nad more a ono sa nad ránom vrátilo na svoje pôvodné miesto. Vody sa valili oproti utekajúcim Egypťanom a Pán ich prikryl vlnami uprostred mora. Vody sa vrátili a pokryli vozy i jazdcov celého faraónovho vojska, ktoré sa pustilo za Izraelitmi do mora. Ani jeden z nich neostal. No Izraeliti prešli stredom mora po suchu a voda bola ako múr po ich pravici a ľavici.<br>" +
+                            "Ale v čase rannej stráže sa Pán pozrel z ohnivého a oblačného stĺpa na Egypťanov a ich vojsko uviedol do zmätku. Hamoval kolesá na ich vozoch, takže mohli len ťažko napredovať. Preto Egypťania hovorili: “Utekajme pred Izraelitmi, lebo Pán za nich bojuje proti nám.“<br>" +
+                            "A Pán povedal Mojžišovi: “Vystri ruku nad more, aby sa vody vrátili na Egypťanov, na ich vozy a na ich jazdcov.“ Mojžiš vystrel ruku nad more a ono sa nad ránom vrátilo na svoje pôvodné miesto. Vody sa valili oproti utekajúcim Egypťanom a Pán ich prikryl vlnami uprostred mora. Vody sa vrátili a pokryli vozy i jazdcov celého faraónovho vojska, ktoré sa pustilo za Izraelitmi do mora. Ani jeden z nich neostal. No Izraeliti prešli stredom mora po suchu a voda bola ako múr po ich pravici a ľavici.<br>" +
                             "Takto Pán v ten deň vyslobodil Izrael z rúk Egypťanov. Videli mŕtvych Egypťanov na morskom brehu i mocnú ruku, ktorú Pán zdvihol proti nim. Ľud sa bál a uverili Pánovi i jeho služobníkovi Mojžišovi.<br>" +
-                            "Vtedy Mojžiš a synovia Izraela zaspievali Pánovi túto pieseň:<br>" +
-                            "<br>" +
-                            "<font color='#B71C1C'>RESPONZÓRIOVÝ ŽALM Ex 15, 1b-2. 3-4. 5-6. 17-18</font><br>" +
+                            "Vtedy Mojžiš a synovia Izraela zaspievali Pánovi túto pieseň:",
+                            "RESPONZÓRIOVÝ ŽALM", "Ex 15, 1b-2. 3-4. 5-6. 17-18", null,
                             "<font color='#B71C1C'>R.:</font> Spievajme Pánovi, lebo sa preslávil.<br><br>" +
                             "Spievajme Pánovi, lebo sa preslávil: <font color='#B71C1C'>*</font><br>" +
                             "koňa i jazdca zmietol do mora.<br>" +
@@ -620,17 +619,16 @@ public interface Trojdnie_text {
                             "Skrze Krista, nášho Pána. <br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Amen."},
             {"V", "ŠTVRTÉ ČITANIE", "Iz 54, 5-14",
-                    "<font color='#B71C1C'>ŠTVRTÉ ČITANIE</font><br>",
-                    "<i>Večným milosrdenstvom som sa nad tebou zmiloval, tvoj vykupiteľ, Pán",
-                    "Čítanie z Knihy proroka Izaiáša <font color='#B71C1C'>Iz 54, 5-14</font><br>" +
-                            "Tvoj Stvoriteľ je tvojím ženíchom, \\“Pán zástupov\\“ je jeho meno. Svätý Izraela je tvoj vykupiteľ, \\“Bohom celej zeme\\“ sa nazýva.<br>" +
+                    "ŠTVRTÉ ČITANIE", "Iz 54, 5-14",
+                    "Večným milosrdenstvom som sa nad tebou zmiloval, tvoj vykupiteľ, Pán",
+                    "Čítanie z Knihy proroka Izaiáša<br>" +
+                            "Tvoj Stvoriteľ je tvojím ženíchom, “Pán zástupov“ je jeho meno. Svätý Izraela je tvoj vykupiteľ, “Bohom celej zeme“ sa nazýva.<br>" +
                             "Pán ťa povolal ako ženu opustenú a duchom sklesnutú, ako odvrhnutú ženu svojej mladosti, hovorí tvoj Boh. Na chvíľu krátku som ťa opustil, no s veľkou láskou si ťa pritiahnem. V návale hnevu skryl som nakrátko svoju tvár pred tebou, no večným milosrdenstvom som sa nad tebou zmiloval, hovorí tvoj vykupiteľ, Pán.<br>" +
                             "Je mi ako za dní Noema: keď som prisahal, že Noemove vody viac nezaplavia zem. Aj teraz prisahám, že sa už nebudem hnevať na teba, ani ťa viac karhať nebudem. Vrchy sa pohnú a kopce sa budú triasť, no moje milosrdenstvo neodstúpi od teba, moja zmluva pokoja sa neotrasie, hovorí Pán, ktorý sa zmilúva nad tebou.<br>" +
                             "Úbohá, vetrom zmietaná, bez akejkoľvek potechy, hľa, ja položím tvoje kamene na malachit a tvoje základy na zafíry, cimburie urobím z rubínu, tvoje brány budú z krištáľu a múry zo vzácnych kameňov.<br>" +
                             "Všetci tvoji synovia budú učeníkmi Pána a veľký pokoj budú požívať tvoji synovia. Základy budeš mať na spravodlivosti. Budeš ďaleko od utláčania, preto sa nemusíš báť, ďaleko od strachu, lebo sa k tebe nepriblíži.<br>" +
-                            "Počuli sme Božie slovo.<br>" +
-                            "<br>" +
-                            "<font color='#B71C1C'>RESPONZÓRIOVÝ ŽALM Ž 30, 2+4. 5-6. 11-12a+13b</font><br>" +
+                            "Počuli sme Božie slovo.",
+                            "RESPONZÓRIOVÝ ŽALM", "Ž 30, 2+4. 5-6. 11-12a+13b", null,
                             "<font color='#B71C1C'>R.:</font> Budem ťa, Pane, oslavovať, že si ma vyslobodil.<br><br>" +
                             "Budem ťa, Pane, oslavovať, že si ma vyslobodil <font color='#B71C1C'>*</font><br>" +
                             "a že si nedovolil, aby sa moji nepriatelia radovali nado mnou.<br>" +
@@ -658,30 +656,29 @@ public interface Trojdnie_text {
                     "<font color='#B71C1C'>Ľ.: </font>Amen.",
                     "Tu možno použiť aj inú z modlitieb predpísaných po čítaniach, ktoré sa prípadne vynechajú.", null},
             {"V", "PIATE ČÍTANIE", "Iz 55, 1-11",
-                    "<font color='#B71C1C'>PIATE ČÍTANIE</font><br>",
-                    "<i>Poďte k vodám: počúvajte a budete žiť",
-                    "Čítanie z Knihy proroka Izaiáša <font color='#B71C1C'>Iz 55, 1-11</font><br>" +
-                            "Toto hovorí Pán: \\“Poďte k vodám, všetci, čo ste smädní, nech príde aj ten, čo nemá peniaze. Kupujte chlieb a jedzte. Poďte, kupujte bez striebra, víno a mlieko bez platenia.<br>" +
+                    "PIATE ČÍTANIE", "Iz 55, 1-11",
+                    "Poďte k vodám: počúvajte a budete žiť",
+                    "Čítanie z Knihy proroka Izaiáša<br>" +
+                            "Toto hovorí Pán: “Poďte k vodám, všetci, čo ste smädní, nech príde aj ten, čo nemá peniaze. Kupujte chlieb a jedzte. Poďte, kupujte bez striebra, víno a mlieko bez platenia.<br>" +
                             "Prečo platíte striebrom za to, čo nie je chlieb, a driete za to, čo nesýti? Počúvajte mňa a budete jesť dobroty a budete sa kochať v jedlách vyberaných. Napnite svoj sluch a poďte ku mne, počúvajte a budete žiť. Uzavriem s vami večnú zmluvu, verný láske, ktorou som miloval Dávida. Hľa, ustanovil som ho za svedka pre ľudí, za knieža a vládcu národov. Budeš volať národ, ktorý nepoznáš; národy, ktoré ťa nepoznali, pribehnú k tebe kvôli Pánovi, tvojmu Bohu, a kvôli Svätému Izraela, lebo ťa oslávil.<br>" +
                             "Hľadajte Pána, kým ho možno nájsť, volajte ho, kým je nablízku. Nech zanechá bezbožný svoju cestu a zločinec svoje zámery, nech sa vráti k Pánovi a on sa nad ním zmiluje, k nášmu Bohu, lebo on veľkodušne odpúšťa. Lebo moje myšlienky nie sú vaše myšlienky a vaše cesty nie sú mojimi cestami, hovorí Pán. Lebo ako vysoko je nebo nad zemou, tak vysoko sú moje cesty nad vašimi cestami a moje myšlienky nad vašimi myšlienkami.<br>" +
-                            "A ako z neba padá dážď a sneh a nevracia sa späť, lež napojí zem a zúrodní ju, aby z nej klíčilo, aby obdarovala rozsievača semenom a dala chlieb hladnému, tak bude so slovom, ktoré vychádza z mojich úst: nevráti sa ku mne naprázdno, ale vykoná všetko, čo chcem, a vydarí sa jeho poslanie.\\“<br>" +
-                            "Počuli sme Božie slovo.<br>" +
-                            "<br>" +
-                            "<font color='#B71C1C'>RESPONZÓRIOVÝ ŽALM Iz 12, 2-3. 4b-d. 5-6</font><br>" +
+                            "A ako z neba padá dážď a sneh a nevracia sa späť, lež napojí zem a zúrodní ju, aby z nej klíčilo, aby obdarovala rozsievača semenom a dala chlieb hladnému, tak bude so slovom, ktoré vychádza z mojich úst: nevráti sa ku mne naprázdno, ale vykoná všetko, čo chcem, a vydarí sa jeho poslanie.“<br>" +
+                            "Počuli sme Božie slovo.",
+                            "RESPONZÓRIOVÝ ŽALM", "Iz 12, 2-3. 4b-d. 5-6", null,
                             "<font color='#B71C1C'>R.:</font> Čerpajme vodu s radosťou z prameňov spásy.<br><br>" +
-                            "\\“Hľa, Boh je moja spása; <font color='#B71C1C'>*</font><br>" +
+                            "“Hľa, Boh je moja spása; <font color='#B71C1C'>*</font><br>" +
                             "dúfam a nebojím sa,<br>" +
                             "lebo moja sila a chvála je Pán, <font color='#B71C1C'>*</font><br>" +
-                            "on sa mi stal záchrancom.\\“<br>" +
+                            "on sa mi stal záchrancom.“<br>" +
                             "Budete čerpať vodu s radosťou <font color='#B71C1C'>*</font><br>" +
                             "z prameňov spásy. <font color='#B71C1C'>R.</font><br>" +
-                            "\\“Oslavujte Pána a vzývajte jeho meno, <font color='#B71C1C'>†</font><br>" +
+                            "“Oslavujte Pána a vzývajte jeho meno, <font color='#B71C1C'>†</font><br>" +
                             "ohlasujte medzi národmi jeho zázraky, <font color='#B71C1C'>*</font><br>" +
                             "pamätajte, že jeho meno je vznešené. <font color='#B71C1C'>R.</font><br>" +
                             "Spievajte Pánovi, lebo urobil veľké veci; <font color='#B71C1C'>*</font><br>" +
                             "nech je to známe po celej zemi.<br>" +
                             "Plesaj a jasaj, obyvateľka Siona, <font color='#B71C1C'>*</font><br>" +
-                            "lebo veľký uprostred teba je Svätý Izraela.\\“ <font color='#B71C1C'>R.</font><br>"},
+                            "lebo veľký uprostred teba je Svätý Izraela.“ <font color='#B71C1C'>R.</font><br>"},
             {"K", null, "Modlime sa.<br>" +
                     "Všemohúci a večný Bože, jediná nádej sveta, <font color='#B71C1C'>*</font><br>" +
                     "ty si už ústami prorokov zvestoval udalosti spásy,<br>" +
@@ -692,18 +689,17 @@ public interface Trojdnie_text {
                     "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľ.:</font> Amen."},
             {"V", "ŠIESTE ČÍTANIE", "Bar 3, 9-15. 32 – 4, 4",
-                    "<font color='#B71C1C'>ŠIESTE ČÍTANIE</font><br>",
-                    "<i>Choď za Pánovou žiarou",
-                    "Čítanie z Knihy proroka Barucha <font color='#B71C1C'>Bar 3, 9-15. 32 – 4, 4</font><br>" +
+                    "ŠIESTE ČÍTANIE", "Bar 3, 9-15. 32 – 4, 4",
+                    "Choď za Pánovou žiarou",
+                    "Čítanie z Knihy proroka Barucha<br>" +
                             "Počúvaj, Izrael, príkazy života, napnite sluch, aby ste sa naučili byť rozumnými. Čo je, Izrael? Čo je, že si v nepriateľskej krajine? Zostarel si v cudzej krajine, poškvrnil si sa mŕtvolami, pripočítaný si k tým, čo sú v podsvetí. Opustil si prameň múdrosti. Keby si bol kráčal po Božej ceste, bol by si býval v pokoji naveky. Nauč sa, kde je rozumnosť, kde je sila, kde je rozum, aby si vedel, aj kde je dlhý vek a život, kde je svetlo očí a pokoj. Kto našiel jej miesto? A kto vošiel do jej pokladníc?<br>" +
-                            "Ale ten, ktorý vie všetko, pozná ju, vynašiel ju svojou rozumnosťou. Ten, ktorý založil zem na večný čas a naplnil ju štvornohými zvieratami. Ten, ktorý vysiela svetlo a ono ide, zavolal ho a ono ho s chvením poslúchlo. I hviezdy zažiarili na svojich strážach a potešili sa. Zavolal ich a povedali: \\“Tu sme!\\“ a veselo svietia tomu, ktorý ich vytvoril.<br>" +
+                            "Ale ten, ktorý vie všetko, pozná ju, vynašiel ju svojou rozumnosťou. Ten, ktorý založil zem na večný čas a naplnil ju štvornohými zvieratami. Ten, ktorý vysiela svetlo a ono ide, zavolal ho a ono ho s chvením poslúchlo. I hviezdy zažiarili na svojich strážach a potešili sa. Zavolal ich a povedali: “Tu sme!“ a veselo svietia tomu, ktorý ich vytvoril.<br>" +
                             "Toto je náš Boh a iného nemožno k nemu prirovnať. On našiel každú cestu k múdrosti a dal ju svojmu služobníkovi Jakubovi a svojmu miláčikovi Izraelovi. Potom sa zjavila na zemi a žila s ľuďmi.<br>" +
                             "Ona je knihou Božích prikázaní a zákonom, ktorý zostáva naveky. Všetci, ktorí sa jej držia, budú žiť, tí však, čo ju opúšťajú, zomrú.<br>" +
                             "Obráť sa, Jakub, a chop sa jej, choď za žiarou v jej svetle. Nedávaj svoju slávu inému a svoje hodnosti cudziemu národu.<br>" +
                             "Blahoslavení sme, Izrael, lebo my vieme, čo sa páči Bohu.<br>" +
-                            "Počuli sme Božie slovo.<br>" +
-                            "<br>" +
-                            "<font color='#B71C1C'>RESPONZÓRIOVÝ ŽALM Ž 19, 8. 9. 10. 11</font><br>" +
+                            "Počuli sme Božie slovo.",
+                            "RESPONZÓRIOVÝ ŽALM", "Ž 19, 8. 9. 10. 11", null,
                             "<font color='#B71C1C'>R.:</font> Pane, ty máš slová večného života.<br><br>" +
                             "Zákon Pánov je dokonalý, <font color='#B71C1C'>*</font><br>" +
                             "osviežuje dušu.<br>" +
@@ -730,20 +726,19 @@ public interface Trojdnie_text {
                     "Skrze Krista, nášho Pána. <br>" +
                     "<font color='#B71C1C'>Ľ.:</font> Amen."},
             {"V", "SIEDME ČÍTANIE", "Ez 36, 16-17a. 18-28",
-                    "<font color='#B71C1C'>SIEDME ČÍTANIE</font><br>",
-                    "<i>Vylejem na vás čistú vodu a dám vám nové srdce",
-                    "Čítanie z Knihy proroka Ezechiela <font color='#B71C1C'>Ez 36, 16-17a. 18-28</font><br>" +
-                            "Pán prehovoril ku mne takto: \\“Syn človeka, Izraelov dom býval na svojej pôde a poškvrnil ju svojím správaním a svojimi skutkami. Preto som na nich vylial svoj hnev: pre krv, ktorú vylievali po zemi, a poškvrnili ju svojimi modlami. Roztrúsil som ich medzi národy a rozptýlení sú po krajinách. Podľa ich správania a podľa ich skutkov som ich odsúdil.<br>" +
+                    "SIEDME ČÍTANIE", "Ez 36, 16-17a. 18-28",
+                    "Vylejem na vás čistú vodu a dám vám nové srdce",
+                    "Čítanie z Knihy proroka Ezechiela<br>" +
+                            "Pán prehovoril ku mne takto: “Syn človeka, Izraelov dom býval na svojej pôde a poškvrnil ju svojím správaním a svojimi skutkami. Preto som na nich vylial svoj hnev: pre krv, ktorú vylievali po zemi, a poškvrnili ju svojimi modlami. Roztrúsil som ich medzi národy a rozptýlení sú po krajinách. Podľa ich správania a podľa ich skutkov som ich odsúdil.<br>" +
                             "Išli medzi národy a všade, kam sa dostali, zhanobili moje sväté meno, lebo sa o nich vravelo: ‚Toto je Pánov ľud a musel vyjsť zo svojej krajiny.'<br>" +
                             "A mne záleží na mojom svätom mene, ktoré zhanobil dom Izraela medzi národmi, ku ktorým prišli.<br>" +
                             "Preto povedz Izraelovmu domu: Toto hovorí Pán, Boh: Nie kvôli vám budem konať, dom Izraela, ale z úcty k svojmu svätému menu, ktoré ste hanobili medzi národmi, ku ktorým ste prišli.<br>" +
                             "Posvätím svoje veľké meno, zneuctené medzi národmi, ktoré ste uprostred nich hanobili. A národy spoznajú, že ja som Pán, keď na vás pred ich očami ukážem, že som svätý, – hovorí Pán, Boh.<br>" +
                             "Vezmem vás spomedzi národov, zhromaždím vás zo všetkých krajín a zavediem vás do vlastnej krajiny. Potom na vás vylejem čistú vodu a budete očistení od všetkej špiny. Od všetkých vašich modiel vás očistím.<br>" +
                             "Dám vám nové srdce a vložím do vás nového ducha. Odstránim z vášho tela srdce kamenné a dám vám srdce z mäsa. Vložím do vás svojho ducha a spôsobím, že budete kráčať podľa mojich príkazov, že budete zachovávať a plniť moje výroky.<br>" +
-                            "Budete bývať v krajine, ktorú som dal vašim otcom, budete mojím ľudom a ja budem vaším Bohom.\\“<br>" +
-                            "Počuli sme Božie slovo.<br>" +
-                            "<br>" +
-                            "<font color='#B71C1C'>RESPONZÓRIOVÝ ŽALM Ž 42, 3. 5b-e; 43, 3. 4</font><br>" +
+                            "Budete bývať v krajine, ktorú som dal vašim otcom, budete mojím ľudom a ja budem vaším Bohom.“<br>" +
+                            "Počuli sme Božie slovo.",
+                            "RESPONZÓRIOVÝ ŽALM", "Ž 42, 3. 5b-e; 43, 3. 4", null,
                             "<font color='#B71C1C'>R.:</font> Ako jeleň dychtí za vodou z prameňa, tak moja duša, Bože, túži za tebou.<br><br>" +
                             "Po Bohu žízni moja duša, po Bohu živom; <font color='#B71C1C'>*</font><br>" +
                             "kedyže už prídem k nemu a uzriem Božiu tvár? <font color='#B71C1C'>R.</font><br>" +
@@ -757,26 +752,26 @@ public interface Trojdnie_text {
                             "I pristúpim k Božiemu oltáru, <font color='#B71C1C'>†</font><br>" +
                             "k Bohu, ktorý ma napĺňa radosťou i plesaním, <font color='#B71C1C'>*</font><br>" +
                             "a citarou ťa, Bože, môj Bože, zvelebím. <font color='#B71C1C'>R.</font><br>" +
-                            "<font color='#B71C1C'>______________<br>" +
-                            "Keď sa slávi krst:<br>" +
-                            "RESPONZÓRIOVÝ ŽALM Iz 12, 2-3. 4b-d. 5-6.</font><br>" +
+                            "<font color='#B71C1C'>______________<br>"+
+                            "Keď sa slávi krst:</font>",
+                            "RESPONZÓRIOVÝ ŽALM", "Iz 12, 2-3. 4b-d. 5-6.", null,
                             "<font color='#B71C1C'>R.:</font> Čerpajme vodu s radosťou z prameňov spásy.<br><br>" +
-                            "\\“Hľa, Boh je moja spása; <font color='#B71C1C'>*</font><br>" +
+                            "“Hľa, Boh je moja spása; <font color='#B71C1C'>*</font><br>" +
                             "dúfam a nebojím sa,<br>" +
                             "lebo moja sila a chvála je Pán, <font color='#B71C1C'>*</font><br>" +
-                            "on sa mi stal záchrancom.\\“<br>" +
+                            "on sa mi stal záchrancom.“<br>" +
                             "Budete čerpať vodu s radosťou <font color='#B71C1C'>*</font><br>" +
                             "z prameňov spásy. <font color='#B71C1C'>R.</font><br>" +
-                            "\\“Oslavujte Pána a vzývajte jeho meno, <font color='#B71C1C'>†</font><br>" +
+                            "“Oslavujte Pána a vzývajte jeho meno, <font color='#B71C1C'>†</font><br>" +
                             "ohlasujte medzi národmi jeho zázraky, <font color='#B71C1C'>*</font><br>" +
                             "pamätajte, že jeho meno je vznešené. <font color='#B71C1C'>R.</font><br>" +
                             "Spievajte Pánovi, lebo urobil veľké veci; <font color='#B71C1C'>*</font><br>" +
                             "nech je to známe po celej zemi.<br>" +
                             "Plesaj a jasaj, obyvateľka Siona, <font color='#B71C1C'>*</font><br>" +
-                            "lebo veľký uprostred teba je Svätý Izraela.\\“ <font color='#B71C1C'>R.</font><br>" +
-                            "<font color='#B71C1C'>‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>" +
-                            "Alebo:<br>" +
-                            "RESPONZÓRIOVÝ ŽALM Ž 51, 12-13. 14-15. 18-19</font><br>" +
+                            "lebo veľký uprostred teba je Svätý Izraela.“ <font color='#B71C1C'>R.</font><br>" +
+                            "<font color='#B71C1C'>‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>"+
+                            "Alebo:</font>",
+                            "RESPONZÓRIOVÝ ŽALM", "Ž 51, 12-13. 14-15. 18-19", null,
                             "<font color='#B71C1C'>R.:</font> Bože, stvor vo mne srdce čisté.<br><br>" +
                             "Bože, stvor vo mne srdce čisté <font color='#B71C1C'>*</font><br>" +
                             "a v mojom vnútri obnov ducha pevného.<br>" +
@@ -812,8 +807,8 @@ public interface Trojdnie_text {
                             "posilňovali v nás nádej na dary budúce.<br>" +
                             "Skrze Krista, nášho Pána.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Amen.",
-                    "31. Po poslednom čítaní zo Starého zákona s príslušným medzispevom a modlitbou zažnú sa na oltári sviece a kňaz začne oslavnú pieseň <font color='000000'><i>Sláva Bohu na výsostiach.</i></font> Všetci pokračujú. Ak je zvykom, zvonia pritom zvony.<br>" +
-                            "32. Keď sa skončí oslavná pieseň, kňaz prednesie zvyčajným spôsobom modlitbu:",
+                    "<font color='#000000'>31.</font> Po poslednom čítaní zo Starého zákona s príslušným medzispevom a modlitbou zažnú sa na oltári sviece a kňaz začne oslavnú pieseň <font color='000000'><i>Sláva Bohu na výsostiach.</i></font> Všetci pokračujú. Ak je zvykom, zvonia pritom zvony.<br>" +
+                            "<font color='#000000'>32.</font> Keď sa skončí oslavná pieseň, kňaz prednesie zvyčajným spôsobom modlitbu:",
                     "Modlime sa.<br>" +
                             "Nekonečný Bože, ty ožiaruješ túto presvätú noc<br>" +
                             "jasom a velebou Kristovho zmŕtvychvstania; <font color='#B71C1C'>*</font><br>" +
@@ -829,7 +824,7 @@ public interface Trojdnie_text {
                             "Bratia, všetci, čo sme boli pokrstení v Kristovi Ježišovi, v jeho smrť sme boli pokrstení. Krstom sme teda s ním boli pochovaní v smrť, aby sme tak, ako bol Kristus vzkriesený z mŕtvych Otcovou slávou, aj my žili novým životom. Lebo ak sme s ním zrástli a stali sa mu podobnými v smrti, tak mu budeme podobní aj v zmŕtvychvstaní. Veď vieme, že náš starý človek bol s ním ukrižovaný, aby bolo hriešne telo zničené, aby sme už neotročili hriechu. Lebo kto zomrel, je ospravedlnený od hriechu.<br>" +
                             "Ale ak sme zomreli s Kristom, veríme, že s ním budeme aj žiť. Veď vieme, že Kristus vzkriesený z mŕtvych už neumiera, smrť nad ním už nepanuje. Lebo keď zomrel, zomrel raz navždy hriechu, ale keď žije, žije Bohu. Tak zmýšľajte o sebe aj vy: že ste mŕtvi hriechu a žijete Bohu v Kristovi Ježišovi.<br>" +
                             "Počuli sme Božie slovo."},
-            {"K", "34. Po čítaní epištoly všetci vstanú. Kňaz zaspieva slávnostné <font color='000000'><i>aleluja</i></font> a všetci po ňom opakujú. Potom žalmista alebo predspevák prednesie žalm a ľud odpovedá <font color='000000'><i>Aleluja.</i></font> Ak treba, sám žalmista môže zaintonovať (namiesto kňaza) slávnostné <font color='000000'><i>aleluja.</i></font>"},
+            {"K", "<font color='#000000'>34.</font> Po čítaní epištoly všetci vstanú. Kňaz zaspieva slávnostné <font color='000000'><i>aleluja</i></font> a všetci po ňom opakujú. Potom žalmista alebo predspevák prednesie žalm a ľud odpovedá <font color='000000'><i>Aleluja.</i></font> Ak treba, sám žalmista môže zaintonovať (namiesto kňaza) slávnostné <font color='000000'><i>aleluja.</i></font>"},
             {"E", "RESPONZÓRIOVÝ ŽALM", "Ž 118, 1-2. 16ab+17. 22-23", null,
                     "<font color='#B71C1C'>R.:</font> Aleluja.<br><br>" +
                             "Oslavujte Pána, lebo je dobrý, <font color='#B71C1C'>*</font><br>" +
@@ -844,21 +839,21 @@ public interface Trojdnie_text {
                             "stal sa kameňom uholným.<br>" +
                             "To sa stalo na pokyn Pána; <font color='#B71C1C'>*</font><br>" +
                             "vec v našich očiach obdivuhodná. <font color='#B71C1C'>R.</font>"},
-            {"A", "35. Na evanjelium sa neprinášajú sviece, ale iba kadidlo (ak sa používa).",
-                    "36. Hneď po evanjeliu je homília. Po nej nasleduje liturgia krstu."},
+            {"A", "<font color='#000000'>35.</font> Na evanjelium sa neprinášajú sviece, ale iba kadidlo (ak sa používa).",
+                    "<font color='#000000'>36.</font> Hneď po evanjeliu je homília. Po nej nasleduje liturgia krstu."},
             {"N", "III. časť: Liturgia krstu"},
-            {"K", "37. Kňaz s prisluhujúcimi ide ku krstiteľnici, ak je veriacim na dohľad. Ak nie, nádobu s vodou treba umiestniť v presbytériu. Ak sa má vysluhovať krst, zavolajú sa katechumeni. Pred zhromaždenie veriacich ich privedú krstní rodičia. Ak ide o malé deti, prinesú ich rodičia alebo krstní rodičia.<br>" +
-                    "38. Potom sa kňaz prihovorí prítomným týmito alebo podobnými slovami:<br>" +
+            {"K", "<font color='#000000'>37.</font> Kňaz s prisluhujúcimi ide ku krstiteľnici, ak je veriacim na dohľad. Ak nie, nádobu s vodou treba umiestniť v presbytériu. Ak sa má vysluhovať krst, zavolajú sa katechumeni. Pred zhromaždenie veriacich ich privedú krstní rodičia. Ak ide o malé deti, prinesú ich rodičia alebo krstní rodičia.<br>" +
+                    "<font color='#000000'>38.</font> Potom sa kňaz prihovorí prítomným týmito alebo podobnými slovami:<br>" +
                     "________________<br>" +
                     "Ak bude krst:<br>" +
                     "Drahí bratia a sestry, všetci sprevádzajme svojou modlitbou našich bratov <font color='#B71C1C'>(</font>sestry<font color='#B71C1C'>)</font>, ktorí<font color='#B71C1C'>(</font>é<font color='#B71C1C'>)</font> idú s radostnou nádejou k prameňu znovuzrodenia. Všemohúci Boh Otec nech ich ochraňuje a nech je im milostivý.<br>" +
                     "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>" +
                     "Ak nebude krst, ale sa iba svätí krstná voda:<br>" +
                     "Drahí bratia a sestry, pokorne vzývajme všemohúceho Boha Otca, aby zoslal svoju milosť na túto vodu a tých, čo sa z nej znovuzrodia, prijal v Kristovi za svoje deti.<br>" +
-                    "39. Potom dvaja speváci spievajú litánie. Všetci stoja (pretože je už veľkonočné obdobie) a odpovedajú. Ak treba ísť ku krstiteľnici v dlhšom sprievode, litánie sa spievajú počas procesie. V tomto prípade sa krstenci zavolajú dopredu ešte pred procesiou.<br>" +
+                    "<font color='#000000'>39.</font> Potom dvaja speváci spievajú litánie. Všetci stoja (pretože je už veľkonočné obdobie) a odpovedajú. Ak treba ísť ku krstiteľnici v dlhšom sprievode, litánie sa spievajú počas procesie. V tomto prípade sa krstenci zavolajú dopredu ešte pred procesiou.<br>" +
                     "Na čele sprievodu sa nesie veľkonočná svieca, za ňou idú katechumeni s krstnými rodičmi a kňaz s prisluhujúcimi. Príhovor (pozri č. 38) je až pred svätením vody.<br>" +
-                    "40. Ak sa nevysluhuje krst a nesvätí sa krstná voda, litánie sa vynechajú a hneď nasleduje obrad posvätenia vody (pozri č. 45).<br>" +
-                    "41. Do litánií možno vsunúť aj mená iných svätých, najmä meno patróna kostola alebo obce a mená patrónov krstencov.",
+                    "<font color='#000000'>40.</font> Ak sa nevysluhuje krst a nesvätí sa krstná voda, litánie sa vynechajú a hneď nasleduje obrad posvätenia vody (pozri č. 45).<br>" +
+                    "<font color='#000000'>41.</font> Do litánií možno vsunúť aj mená iných svätých, najmä meno patróna kostola alebo obce a mená patrónov krstencov.",
                     "Pane, zmiluj za. Pane, <i>zmiluj za.</i><br>" +
                             "Kriste, zmiluj sa. <i>Kriste, zmiluj sa.</i><br>" +
                             "Pane, zmiluj sa. <i>Pane, zmiluj za.</i><br>" +
@@ -920,7 +915,7 @@ public interface Trojdnie_text {
                             "<font color='#B71C1C'>Ľ.:</font> Amen.",
                     "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾", null},
             {"N", "Svätenie krstnej vody"},
-            {"K", "42. Potom kňaz svätí krstnú vodu. So zopätými rukami sa modlí:",
+            {"K", "<font color='#000000'>42.</font> Potom kňaz svätí krstnú vodu. So zopätými rukami sa modlí:",
                     "Bože,<br>" +
                             "tvoja neviditeľná moc zázračne účinkuje<br>" +
                             "prostredníctvom sviatostných znakov.<br>" +
@@ -966,13 +961,13 @@ public interface Trojdnie_text {
                             "povstali s ním aj k životu.<br>" +
                             "Skrze Krista, nášho Pána.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Amen.",
-                    "43. Kňaz vytiahne veľkonočnú sviecu z vody. Ľud pritom zvolá:",
+                    "<font color='#000000'>43.</font> Kňaz vytiahne veľkonočnú sviecu z vody. Ľud pritom zvolá:",
                     "Oslavujte Pána, pramene,<br>" +
                             "chváľte a zvelebujte ho naveky!",
                     "Možno použiť aj iné zvolanie.<br>" +
-                            "44. Katechumeni sa po jednom osvedčia, že sa zriekajú zlého ducha, vyznajú vieru a potom prijmú krst. Ak je prítomný biskup alebo kňaz, ktorý má právomoc birmovať, hneď po krste vysluhuje dospelým novopokrsteným aj sviatosť birmovania.<br>" +
+                            "<font color='#000000'>44.</font> Katechumeni sa po jednom osvedčia, že sa zriekajú zlého ducha, vyznajú vieru a potom prijmú krst. Ak je prítomný biskup alebo kňaz, ktorý má právomoc birmovať, hneď po krste vysluhuje dospelým novopokrsteným aj sviatosť birmovania.<br>" +
                             "________________<br>" +
-                            "45. Ak sa nevysluhuje krst a nesvätí sa ani krstná voda, kňaz požehná vodu touto formulou:",
+                            "<font color='#000000'>45.</font> Ak sa nevysluhuje krst a nesvätí sa ani krstná voda, kňaz požehná vodu touto formulou:",
                     "Bratia a sestry,<br>" +
                             "prosme pokorne Pána Boha, nech posvätí túto vodu,<br>" +
                             "aby sme ňou mohli byť pokropení<br>" +
@@ -1006,7 +1001,7 @@ public interface Trojdnie_text {
                             "Skrze Krista, nášho Pána.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Amen."},
             {"N", "Obnovenie krstných sľubov"},
-            {"K", "46. Po krstných (a birmovných) obradoch, alebo, ak sa tieto sviatosti nevysluhovali, po svätení vody, všetci vstanú a so zažatými sviecami v rukách obnovia krstné sľuby . Kňaz sa im prihovorí týmito alebo podobnými slovami:",
+            {"K", "<font color='#000000'>46.</font> Po krstných (a birmovných) obradoch, alebo, ak sa tieto sviatosti nevysluhovali, po svätení vody, všetci vstanú a so zažatými sviecami v rukách obnovia krstné sľuby . Kňaz sa im prihovorí týmito alebo podobnými slovami:",
                     "Drahí bratia a sestry,<br>" +
                             "všetci máme účasť na veľkonočnom tajomstve,<br>" +
                             "lebo v krste sme boli pochovaní s Kristom,<br>" +
@@ -1042,14 +1037,14 @@ public interface Trojdnie_text {
                     "Kňaz zakľúči:",
                     "Všemohúci Boh, Otec nášho Pána Ježiša Krista, ktorý nás znovuzrodil z vody a z Ducha Svätého a odpustil nám hriechy, nech nás svojou milosťou zachová pre večný život v Kristu Ježišovi, našom Pánovi.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Amen.",
-                    "47. Kňaz pokropí ľud svätenou vodou. Všetci spievajú (nápev v JKS, č. 484):<br>" +
+                    "<font color='#000000'>47.</font> Kňaz pokropí ľud svätenou vodou. Všetci spievajú (nápev v JKS, č. 484):<br>" +
                             "<font color='#000000'>Tiekla voda z pravej strany svätyne, aleluja,<br>" +
                             "krstom v nej sme povolaní k nevine, aleluja.<br>" +
                             "Zmiluj sa nad nami, Bože, v nekonečnej milosti,<br>" +
                             "tvoje zľutovanie môže zotrieť naše nečnosti.<br>" +
                             "Môže sa spievať aj iná pieseň pripomínajúca krst.</font><br>" +
-                            "48. Medzitým sa novopokrstení vrátia na svoje miesta medzi veriacich. Ak sa krstná voda nesvätila v krstiteľnici, prisluhujúci dôstojne prenesú nádobu s krstnou vodou ku krstiteľnici. Ak sa nesvätila krstná voda, svätenú vodu odnesú na zvyčajné miesto.<br>" +
-                            "49. Keď kňaz pokropil ľud, vráti sa k sedadlu. Vynechá sa <font color='#000000'>vyznanie viery</font> a hneď nasleduje modlitba veriacich, na ktorej sa po prvý raz zúčastnia aj novopokrstení.", null},
+                            "<font color='#000000'>48.</font> Medzitým sa novopokrstení vrátia na svoje miesta medzi veriacich. Ak sa krstná voda nesvätila v krstiteľnici, prisluhujúci dôstojne prenesú nádobu s krstnou vodou ku krstiteľnici. Ak sa nesvätila krstná voda, svätenú vodu odnesú na zvyčajné miesto.<br>" +
+                            "<font color='#000000'>49.</font> Keď kňaz pokropil ľud, vráti sa k sedadlu. Vynechá sa <font color='#000000'>vyznanie viery</font> a hneď nasleduje modlitba veriacich, na ktorej sa po prvý raz zúčastnia aj novopokrstení.", null},
             {"E", "SPOLOČNÁ MODLITBA VERIACICH", null, null,
                     "Bratia a sestry, v túto svätú noc slávime vzkriesenie nášho Pána. S radosťou a veľkou dôverou prednesme svoje prosby.<br>" +
                     "<i>(Volajme: Víťazný Baránok, vyslyš nás.)</i><br>" +
@@ -1067,8 +1062,8 @@ public interface Trojdnie_text {
                     "a všade ohlasujeme veľkonočnú radosť.<br>" +
                     "Lebo ty žiješ a kraľuješ na veky vekov.<br>"},
             {"N", "IV. časť: Liturgia Eucharistie"},
-            {"K", "50. Kňaz pristúpi k oltáru a zvyčajným spôsobom začne liturgiu Eucharistie.<br>" +
-                    "51. Odporúča sa, aby chlieb a víno priniesli k oltáru novo pokrstení.",
+            {"K", "<font color='#000000'>50.</font> Kňaz pristúpi k oltáru a zvyčajným spôsobom začne liturgiu Eucharistie.<br>" +
+                    "<font color='#000000'>51.</font> Odporúča sa, aby chlieb a víno priniesli k oltáru novo pokrstení.",
                     "<font color='#B71C1C'>NAD OBETNÝMI DARMI</font><br>" +
                             "Prosíme ťa, Bože, <font color='#B71C1C'>*</font><br>" +
                             "prijmi modlitby a obetné dary svojho ľudu <font color='#B71C1C'>—</font><br>" +
@@ -1118,9 +1113,9 @@ public interface Trojdnie_text {
                             "naplň nás všetkých svojím Duchom<br>" +
                             "a v láske nám zjednoť srdcia i mysle.<br>" +
                             "Skrze Krista, nášho Pána."},
-            {"K", "55. Ak po omši veľkonočnej vigílie nasleduje sprievod Vzkriesenia, vynechá sa požehnanie a prepustenie ľudí.<br>" +
+            {"K", "<font color='#000000'>55.</font> Ak po omši veľkonočnej vigílie nasleduje sprievod Vzkriesenia, vynechá sa požehnanie a prepustenie ľudí.<br>" +
                     "________________<br>" +
-                    "56. Nasleduje prepustenie ľudu. Kňaz sa obráti k ľudu a s rozopätými rukami povie:",
+                    "<font color='#000000'>56.</font> Nasleduje prepustenie ľudu. Kňaz sa obráti k ľudu a s rozopätými rukami povie:",
                     "<font color='#B71C1C'>K.:</font> Pán s vami.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br>",
                     "Diakon (alebo ak ho niet, sám kňaz) sa obráti na veriacich týmito alebo podobnými slovami: ", "Prijmite slávnostné požehnanie. ", "Potom kňaz vystrie ruky nad ľud a povie (spieva) formulu požehnania. Všetci odpovedia: ", "Amen.\n", null,
@@ -1136,31 +1131,31 @@ public interface Trojdnie_text {
                     "Iďte v mene Božom, aleluja, aleluja.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Bohu vďaka, aleluja, aleluja.",
                     "Ak po omši Veľkonočnej vigílie nasleduje sprievod Vzkriesenia, vynechá sa prepustenie ľudu.", null},
-            {"V", "Procesia po Veľkonočnej vigílii", null, "57. Po prijímaní celebrant (alebo diakon, ak je) vloží hostiu do monštrancie.\n", null,
-                    "58. Hneď po modlitbe po prijímaní celebrant si vezme biely pluviál (alebo môže zostať aj v ornáte), zíde pred oltár, kľakne si (chrbtom k ľudu) a incenzuje sviatosť.\n", null,
-                    "59. Potom vstane, obráti sa tvárou k veriacim a povie takto alebo podobne:\n",
-                    "Drahí bratia a sestry, v tejto Veľkonočnej vigílii sme oslávili Kristovo veľkonočné tajomstvo: Kristus vstal z mŕtvych, premohol smrť a hriech a priniesol nám nový život. Kristus nás vykúpil svojím krížom a zmŕtvychvstaním. Raduje sa celá Cirkev, ozdobená žiarou Pánovej slávy, a aj tento chrám zaznel jasavým spevom. Nech aj okolo tohto chrámu a v celej našej farnosti zaznie chválospev na oslavu víťazného Pána.<br>",
-                    "60. Celebrant sa obráti k oltáru a zaintonuje on alebo spevák:\n",
-                    "Vstal som z mŕtvych.<br>",
-                    "Zbor alebo aj veriaci pokračujú:\n",
+            {"V", "Procesia po Veľkonočnej vigílii", null, "<font color='#000000'>57.</font> Po prijímaní celebrant (alebo diakon, ak je) vloží hostiu do monštrancie.<br>"+
+                    "<font color='#000000'>58.</font> Hneď po modlitbe po prijímaní celebrant si vezme biely pluviál (alebo môže zostať aj v ornáte), zíde pred oltár, kľakne si (chrbtom k ľudu) a incenzuje sviatosť.<br>"+
+                    "<font color='#000000'>59.</font> Potom vstane, obráti sa tvárou k veriacim a povie takto alebo podobne:",
+                    "Drahí bratia a sestry, v tejto Veľkonočnej vigílii sme oslávili Kristovo veľkonočné tajomstvo: Kristus vstal z mŕtvych, premohol smrť a hriech a priniesol nám nový život. Kristus nás vykúpil svojím krížom a zmŕtvychvstaním. Raduje sa celá Cirkev, ozdobená žiarou Pánovej slávy, a aj tento chrám zaznel jasavým spevom. Nech aj okolo tohto chrámu a v celej našej farnosti zaznie chválospev na oslavu víťazného Pána.",
+                    "<font color='#000000'>60.</font> Celebrant sa obráti k oltáru a zaintonuje on alebo spevák:",
+                    "Vstal som z mŕtvych.",
+                    "Zbor alebo aj veriaci pokračujú:",
                     "A som, Otče, stále s tebou. Aleluja.<br>" +
                             "Kladieš na mňa svoju ruku. Aleluja.<br>" +
-                            "Obdivuhodná je tvoja múdrosť. Aleluja, aleluja, aleluja.<br>",
-                    "61. Celebrant príjme vélum, vezme do rúk monštranciu a povie:\n",
+                            "Obdivuhodná je tvoja múdrosť. Aleluja, aleluja, aleluja.",
+                    "<font color='#000000'>61.</font> Celebrant príjme vélum, vezme do rúk monštranciu a povie:",
                     "<font color='#B71C1C'>K.:</font> Pokoj vám, ja som to. Aleluja.<br>" +
-                            "<font color='#B71C1C'>Ľ.:</font> Nebojte sa. Aleluja.<br>",
-                    "62. Tieto slová celebrant i zbor opakujú ešte dvakrát, a to vždy vyšším hlasom. Namiesto kňaza môže intonovať spevák. Potom kňaz alebo spevák zaspieva:\n",
-                    "Pán Ježiš Kristus vstal z mŕtvych.<br>",
-                    "Všetci v piesni (JKS 192) pokračujú.\n", null,
-                    "63.Sprievod ide cez kostol a okolo kostola podľa miestnych okolností. Pred Sviatosťou idú turiferi, ktorí striedavo incenzujú. Najsvätejšiu sviatosť. Na čele procesie sa nesie kríž a socha Zmŕtvychvstalého. Ostatní veriaci s a usporiadajú podlá miestnych zvyklostí. Zvonia zvony.\n", null,
-                    "64. Pri návrate speváci intonujú chválospev ", "Teba, Bože, chválime. ", "Ľud pokračuje. Keď celebrant príde k oltáru, položí monštranciu na oltár.\n", null,
-                    "65. Po skončení chválospevu kňaz alebo spevák intonuje ", "Tantum ergo - Ctime túto Sviatosť slávnu.\n",
-                    "66. Ak sa nemôže konať procesia, kňaz po intonácii ", "Pán Ježiš Kristus vstal z mŕtvych ", "položí Sviatosť na oltár, stane si pred oltár (chrbtom k ľudu) a pripojí sa k spevu. Nasleduje ", "Tantum ergo.\n",
-                    "67. Pri druhej strofe eucharistického hymnu kňaz incenzuje Sviatosť a po skončení hymnu povie:\n",
+                            "<font color='#B71C1C'>Ľ.:</font> Nebojte sa. Aleluja.",
+                    "<font color='#000000'>62.</font> Tieto slová celebrant i zbor opakujú ešte dvakrát, a to vždy vyšším hlasom. Namiesto kňaza môže intonovať spevák. Potom kňaz alebo spevák zaspieva:",
+                    "Pán Ježiš Kristus vstal z mŕtvych.",
+                    "Všetci v piesni (JKS 192) pokračujú.<br>"+
+                    "<font color='#000000'>63.</font> Sprievod ide cez kostol a okolo kostola podľa miestnych okolností. Pred Sviatosťou idú turiferi, ktorí striedavo incenzujú. Najsvätejšiu sviatosť. Na čele procesie sa nesie kríž a socha Zmŕtvychvstalého. Ostatní veriaci s a usporiadajú podlá miestnych zvyklostí. Zvonia zvony.<br>"+
+                    "<font color='#000000'>64.</font> Pri návrate speváci intonujú chválospev ", "Teba, Bože, chválime. ", "Ľud pokračuje. Keď celebrant príde k oltáru, položí monštranciu na oltár.<br>"+
+                    "<font color='#000000'>65.</font> Po skončení chválospevu kňaz alebo spevák intonuje <font color='#000000'>Tantum ergo - Ctime túto Sviatosť slávnu.</font><br>"+
+                    "<font color='#000000'>66.</font> Ak sa nemôže konať procesia, kňaz po intonácii <font color='#000000'>Pán Ježiš Kristus vstal z mŕtvych</font> položí Sviatosť na oltár, stane si pred oltár (chrbtom k ľudu) a pripojí sa k spevu. Nasleduje <font color='#000000'>Tantum ergo.</font><br>"+
+                    "<font color='#000000'>67.</font> Pri druhej strofe eucharistického hymnu kňaz incenzuje Sviatosť a po skončení hymnu povie:",
                     "<font color='#B71C1C'>K.:</font> Nebo a zem sa tešia. Aleluja.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Z tvojho zmŕtvychvstania, Kriste. Aleluja.<br>" +
-                            "<font color='#B71C1C'>K.:</font> Modlime sa.<br>",
-                    "Chvíľa ticha:\n",
+                            "<font color='#B71C1C'>K.:</font> Modlime sa.",
+                    "Chvíľa ticha:",
                     "Pane Ježišu,<br>" +
                             "vo vznešenej Oltárnej sviatosti<br>" +
                             "zanechal si nám pamiatku<br>" +
@@ -1171,10 +1166,10 @@ public interface Trojdnie_text {
                             "aby sme vždy pociťovali<br>" +
                             "účinky tvojho vykupiteľského diela.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov.<br>" +
-                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>",
-                    "68. Kňaz prijme náplecné vélum, vezme do rúk monštranciu a požehná ľud, pričom nič nehovorí.\n", null,
-                    "69. Potom uloží Sviatosť do svätostánku, pokľakne a svätostánok uzavrie. Ľud môže zatiaľ predniesť vhodnú aklamáciu, napr.: ", "Christus vincit.\n",
-                    "70. Na zakončenie sa zaspieva veľkonočná mariánska antifóna ", "Raduj sa, nebies Kráľovná.\n", null,
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.",
+                    "<font color='#000000'>68.</font> Kňaz prijme náplecné vélum, vezme do rúk monštranciu a požehná ľud, pričom nič nehovorí.<br>"+
+                    "<font color='#000000'>69.</font> Potom uloží Sviatosť do svätostánku, pokľakne a svätostánok uzavrie. Ľud môže zatiaľ predniesť vhodnú aklamáciu, napr.: <font color='#000000'>Christus vincit.</font><br>"+
+                    "<font color='#000000'>70.</font> Na zakončenie sa zaspieva veľkonočná mariánska antifóna <font color='#000000'>Raduj sa, nebies Kráľovná.</font>",
                     "Raduj sa, nebies Kráľovná, aleluja, aleluja.<br>" +
                             "Lebo koho si nosila, aleluja, aleluja.<br>" +
                             "Z mŕtvych vstal, jak predpovedal, aleluja, aleluja.<br>" +
@@ -1188,7 +1183,7 @@ public interface Trojdnie_text {
                             "daj, aby sme na príhovor jeho Rodičky Panny Márie<br>" +
                             "dosiahli radosti večného života.<br>" +
                             "Skrze Krista, nášho Pána.<br>" +
-                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
+                            "<font color='#B71C1C'>Ľ.:</font> Amen."},
     };
 
     String[][] piatok = {
@@ -1544,20 +1539,20 @@ public interface Trojdnie_text {
                     "Na poklonu sa vystaví iba jeden kríž. Keď sa pre veľké množstvo veriacich nemôžu všetci jednotlivo pokloniť krížu, postupuje sa takto: Keď sa už istá časť veriacich poklonila krížu, kňaz ho vezme, stane si do stredu pred oltárom a niekoľkými slovami vyzve prítomných, aby sa spoločne poklonili krížu. Potom drží chvíľu kríž vysoko vyzdvihnutý a veriaci zatiaľ zotrvajú v tichej adorácii.<br>" +
                     "Po poklone sa kríž odnesie na miesto, ktoré je preň pripravené. Zažaté sviece sa postavia vedľa oltára alebo ku krížu.", null},
             {"V", "Spevy pri poklone svätému krížu", null,
-                    "<font color='#B71C1C'><b>ANTIFÓNA</b><br>" +
+                    "ANTIFÓNA", null, null,
                             "1. a 2. zbor: </font> Pane, vzdávame úctu tvojmu krížu,<br>" +
                             "velebíme a oslavujeme tvoje zmŕtvychvstanie,<br>" +
-                            "lebo drevo kríža prinieslo radosť celému svetu.<br><br>" +
-                            "<font color='#B71C1C'><b>ŽALM (67, 2)</b><br>" +
+                            "lebo drevo kríža prinieslo radosť celému svetu.<br>",
+                            "ŽALM", "(Ž 67, 2)", null,
                             "1. zbor: </font> Bože, buď nám milostivý a žehnaj nás;<br>" +
                             "a tvoja tvár nech žiari nad nami.<br>" +
-                            "Zmiluj sa nad nami.<br><br>" +
-                            "<font color='#B71C1C'><b>ANTIFÓNA</b><br>" +
+                            "Zmiluj sa nad nami.<br>",
+                            "ANTIFÓNA", null, null,
                             "1 . a 2. zbor: </font>Pane, vzdávame úctu tvojmu krížu,<br>" +
                             "velebíme a oslavujeme tvoje zmŕtvychvstanie,<br>" +
-                            "lebo drevo kríža prinieslo radosť celému svetu.<br><br>" +
-                            "<font color='#B71C1C'><b>IMPROPÉRIA</b></font><br><br>",
-                    "<c>Prvý Pánov žalospev\n\n",
+                            "lebo drevo kríža prinieslo radosť celému svetu.<br>",
+                            "IMPROPÉRIA", null,
+                    "Prvý Pánov žalospev",
                     "<font color='#B71C1C'>1. a 2.: </font> Ó ľud môj, čo som ti urobil?<br>" +
                             "Alebo čím som ťa zarmútil?<br>" +
                             "Odpovedz mi!<br>" +
@@ -1585,9 +1580,8 @@ public interface Trojdnie_text {
                             "ale ty si mi priniesol iba trpkosti,<br>" +
                             "lebo octom si mi hasil smäd<br>" +
                             "a kopijou si prebodol srdce svojho Spasiteľa.<br>" +
-                            "<font color='#B71C1C'>1. a 2.: </font>Hágios o Theós ...<br>" +
-                            "<br>",
-                    "<c>Druhý Pánov žalospev\n\n",
+                            "<font color='#B71C1C'>1. a 2.: </font>Hágios o Theós ...",
+                    null, null, "Druhý Pánov žalospev",
                     "<font color='#B71C1C'>1. </font>Pre teba som tvrdo stíhal Egypt<br>" +
                             "a pobil jeho prvorodených,<br>" +
                             "a ty si ma zbičoval a hnal na smrť.<br>" +
@@ -1647,17 +1641,15 @@ public interface Trojdnie_text {
                             "pre teba som skrvavený.<br>" +
                             "Ja Boh stal som sa ti bratom,<br>" +
                             "tys' ma na smrť vydal katom.<br>" +
-                            "<font color='#B71C1C'>Môžu sa spievať aj piesne z JKS, č. 129, 131 alebo 166.</font><br><br>" +
-                            "<br>",
-                    "<c>HYMNUS\n",
-                    "<font color='#B71C1C'><b>ANTIFÓNA (spieva 1. a 2. zbor)</b></font><br>" +
+                            "<font color='#B71C1C'>Môžu sa spievať aj piesne z JKS, č. 129, 131 alebo 166.</font>",
+                    null, null, "HYMNUS", null,
+                    "ANTIFÓNA (spieva 1. a 2. zbor)", null, null,
                             "Útulný kríž, najkrajší strom,<br>" +
                             "ty skvost medzi stromami,<br>" +
                             "všetkým sadom taký konár,<br>" +
                             "kvet a plod je neznámy!<br>" +
-                            "Milé drevo s milou ťarchou milo stojíš pred nami.<br>" +
-                            "<br>" +
-                            "<font color='#B71C1C'><b>HYMNUS (spieva 1. zbor)</b></font><br>" +
+                            "Milé drevo s milou ťarchou milo stojíš pred nami.",
+                            "HYMNUS (spieva 1. zbor)", null, null,
                             "Ospevujme veľký súboj, šírme slávne odkazy<br>" +
                             "trámov kríža, ktorý zdolal strojcu večnej nákazy!<br>" +
                             "Obeť na ňom zmiera za svet, a tou smrťou víťazí.<br>" +
@@ -1740,7 +1732,7 @@ public interface Trojdnie_text {
                             "1. a z. zbor: </font><br>" +
                             "Tebe, Otče, s Duchom Svätým, nech je sláva naveky<br>" +
                             "skrze Krista, ktorý telom nie je nám už ďaleký<br>" +
-                            "a chce krížom zmeniť v radosť ľudský bôľ a náreky. Amen.<br><br>"},
+                            "a chce krížom zmeniť v radosť ľudský bôľ a náreky. Amen."},
             {"N", "III. časť: Sväté prijímanie"},
             {"K", "Oltár sa prikryje plachtou, rozprestrie sa naň korporál a pripraví sa kniha. Potom diakon alebo (ak niet diakona) sám kňaz prenesie na oltár Najsvätejšiu sviatosť najkratšou cestou z miesta, kde bola uschovaná. Dvaja prisluhujúci sprevádzajú Oltárnu sviatosť so zažatými sviecami, ktoré potom postavia vedľa oltára alebo na oltár. Ostatní pritom mlčky stoja.<br>" +
                     "Diakon položí nádobku s Najsvätejšou sviatosťou na korporál a odkryje ju. Potom príde kňaz, pokľakne, vystúpi k oltáru a so zopätými rukami nahlas hovorí:",
@@ -1856,7 +1848,7 @@ public interface Trojdnie_text {
                     "Hľadajme slávu v kríži nášho Pána Ježiša Krista.<br>" +
                             "On je naša spása, náš život, naše vzkriesenie;<br>" +
                             "on nás oslobodil a spasil.<br>"},
-            {"V", "OSLAVNÁ PIESEŇ", null,
+            {"V", "OSLAVNÁ PIESEŇ", null, null, null, null,
                     "Sláva Bohu na výsostiach<br>" +
                             "a na zemi pokoj ľuďom dobrej vôle.<br>" +
                             "Chválime ťa, velebíme ťa,<br>" +
@@ -1944,40 +1936,29 @@ public interface Trojdnie_text {
                     "Prisluhujúci privedú vybraných mužov (alebo chlapcov) k sedadlám, pripraveným na vhodnom mieste. Kňaz (ak treba, odloží ornát) príde ku každému, naleje mu vody na nohy a utrie ich. Prisluhujúci mu pritom pomáhajú.<br>" +
                     "Medzitým sa spievajú niektoré z uvedených antifón alebo iné vhodné piesne."},
             {"V", "Antifóny", null,
-                    "<font color='#B71C1C'>PRVÁ ANTIFÓNA<br>" +
-                            "(Porov. Jn 13, 4.5.15)</font><br>" +
+                    "PRVÁ ANTIFÓNA", "(Porov. Jn 13, 4.5.15)", null,
                             "Pán Ježiš vstal od večere, nalial vody do umývadla<br>" +
-                            "a začal učeníkom umývať nohy, aby im dal príklad.<br>" +
-                            "<br>" +
-                            "<font color='#B71C1C'>DRUHÁ ANTIFÓNA<br>" +
-                            "(Porov. Jn 13, 6.7.8)</font><br>" +
+                            "a začal učeníkom umývať nohy, aby im dal príklad.<br>",
+                            "DRUHÁ ANTIFÓNA", "(Porov. Jn 13, 6.7.8)", null,
                             "Pane, ty mi chceš umývať nohy?<br>" +
                             "Ježiš mu odpovedal: Ak ti neumyjem nohy, nebudeš mať<br>" +
                             "so mnou podiel.<br>" +
                             "<font color='#B71C1C'>V.:</font> Pristúpil teda k Simonovi Petrovi a Peter mu povedal:<br>" +
                             "- Pane, ty mi chceš umývať nohy?...<br>" +
                             "<font color='#B71C1C'>V.:</font> Čo ja robím, to teraz nechápeš. Pochopíš to neskôr.<br>" +
-                            "- Pane, ty mi chceš umývať nohy?...<br>" +
-                            "<br>" +
-                            "<font color='#B71C1C'>TRETIA ANTIFÓNA<br>" +
-                            "(Porov. Jn 13, 14)</font><br>" +
+                            "- Pane, ty mi chceš umývať nohy?...<br>",
+                    "TRETIA ANTIFÓNA", "(Porov. Jn 13, 14)", null,
                             "Keď som vám teda ja, Pán a Učiteľ, umyl nohy,<br>" +
-                            "o koľko skôr vy máte jeden druhému umývať nohy!<br>" +
-                            "<br>" +
-                            "<font color='#B71C1C'>ŠTVRTÁ ANTIFÓNA<br>" +
-                            "(Jn 13, 35)</font><br>" +
+                            "o koľko skôr vy máte jeden druhému umývať nohy!<br>",
+                            "ŠTVRTÁ ANTIFÓNA", "(Jn 13, 35)", null,
                             "Podľa toho poznajú všetci, že ste moji učeníci,<br>" +
                             "ak sa budete navzájom milovať.<br>" +
                             "<font color='#B71C1C'>V.:</font> Ježiš povedal svojim učeníkom:<br>" +
-                            "- Podľa toho poznajú všetci...<br>" +
-                            "<br>" +
-                            "<font color='#B71C1C'>PIATA ANTIFÓNA<br>" +
-                            "(Jn 13, 34)</font><br>" +
+                            "- Podľa toho poznajú všetci...<br>",
+                            "PIATA ANTIFÓNA", "(Jn 13, 34", null,
                             "Pán Ježiš hovorí: Nové prikázanie vám dávam,<br>" +
-                            "aby ste sa navzájom milovali, ako som ja miloval vás.<br>" +
-                            "<br>" +
-                            "<font color='#B71C1C'>ŠIESTA ANTIFÓNA<br>" +
-                            "(Porov. 1 Kor 13, 13)</font><br>" +
+                            "aby ste sa navzájom milovali, ako som ja miloval vás.<br>",
+                            "ŠIESTA ANTIFÓNA", "(Porov. 1 Kor 13, 13)", null,
                             "Nech zostanú vo vás tieto tri čnosti: viera, nádej a láska.<br>" +
                             "Najväčšia z nich je láska.<br>" +
                             "<font color='#B71C1C'>V.:</font> Teraz ešte ostávajú viera, nádej, láska, všetky tri, ale najväčšia z nich je láska.<br>" +
@@ -2005,7 +1986,7 @@ public interface Trojdnie_text {
                     "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"N", "Liturgia Eucharistie"},
             {"K", "Liturgia Eucharistie sa môže začať obetnou procesiou, v ktorej veriaci prinesú kňazovi okrem obetných darov aj dary pre chudobných. Medzitým sa spieva uvedený spev alebo iná vhodná pieseň."},
-            {"V", "Antifóny", null,
+            {"V", "Antifóny", null, null, null, null,
                     "<font color='#B71C1C'>ANTIFÓNA:</font> Kde je láska opravdivá, tam Boh prebýva.<br>" +
                             "<font color='#B71C1C'>V.:</font> Láska Kristova nás zhromažďuje k stolu.<br>" +
                             "V ňom sa všetci tešme, radujme sa spolu.<br>" +
