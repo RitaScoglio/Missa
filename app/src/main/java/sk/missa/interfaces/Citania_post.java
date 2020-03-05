@@ -1850,7 +1850,6 @@ public interface Citania_post {
                             "Niektorí farizeji hovorili: \"Ten človek nie je od\u00A0Boha, lebo nezachováva sobotu.\"<br>" +
                             "Iní vraveli: \"Ako môže hriešny človek robiť takéto znamenia?\" A rozštiepili sa.<br>" +
                             "Znova sa teda pýtali slepého: \"Čo hovoríš o\u00A0ňom ty? Veď tebe otvoril oči!?\"<br>" +
-                            "Znova sa teda pýtali slepého: \"Čo hovoríš o\u00A0ňom ty? Veď tebe otvoril oči!?\"<br>" +
                             "On odpovedal: \"Je prorok.\"<br>" +
                             "Židia však neverili, že bol slepý a teraz vidí, kým si nezavolali jeho rodičov. Opýtali sa ich: \"Je to váš syn? A hovoríte, že sa narodil slepý? Ako to, že teraz vidí?\"<br>" +
                             "Rodičia odpovedali: \"Vieme, že je to náš syn a že sa narodil slepý. Ale ako to, že teraz vidí, to nevieme, ani nevieme, kto mu otvoril oči. Jeho sa spýtajte. Má svoje roky, nech hovorí sám za\u00A0seba.\" Jeho rodičia hovorili tak preto, že sa báli Židov. Židia sa už totiž uzniesli, že každý, kto by ho uznal za\u00A0Mesiáša, má byť vylúčený zo\u00A0synagógy. Preto jeho rodičia povedali: \"Má svoje roky, jeho sa spýtajte.\"<br>" +
@@ -1858,7 +1857,6 @@ public interface Citania_post {
                             "On odvetil: \"Či je hriešnik, neviem. Ale jedno viem: že som bol slepý a teraz vidím.\"<br>" +
                             "Spýtali sa ho teda: \"Čo urobil s\u00A0tebou? Ako ti otvoril oči?\"<br>" +
                             "Odpovedal im: \"Už som vám povedal, a nepočuli ste. Prečo to chcete počuť znova? Chcete sa aj vy stať jeho učeníkmi?\"<br>" +
-                            "Vynadali mu a povedali: \"Ty si jeho učeník, my sme Mojžišovi učeníci. My vieme, že Mojžišovi hovoril Boh, a o\u00A0tomto nevieme ani to, odkiaľ je.\"<br>" +
                             "Vynadali mu a povedali: \"Ty si jeho učeník, my sme Mojžišovi učeníci. My vieme, že Mojžišovi hovoril Boh, a o\u00A0tomto nevieme ani to, odkiaľ je.\"<br>" +
                             "Ten človek im odpovedal: \"Práve to je čudné, že vy neviete, odkiaľ je, a mne otvoril oči. Vieme, že hriešnikov Boh nevyslyší; ale vyslyší toho, kto si Boha ctí a plní jeho vôľu. Od\u00A0vekov nebolo počuť, že by bol niekto otvoril oči slepému od\u00A0narodenia. Keby on nebol od\u00A0Boha, nemohol by nič také urobiť.\"<br>" +
                             "Povedali mu: \"Celý si sa v\u00A0hriechoch narodil a nás poúčaš?!\" A vyhnali ho von.<br>" +
@@ -1882,12 +1880,9 @@ public interface Citania_post {
                             "Ježiš odpovedal: \"Nemá deň dvanásť hodín? Kto chodí vo\u00A0dne, nepotkne sa, lebo vidí svetlo tohoto sveta. Ale kto chodí v\u00A0noci, potkne sa, lebo v\u00A0ňom nieto svetla.\"<br>" +
                             "Toto povedal a dodal: \"Náš priateľ Lazár spí, ale idem ho zobudiť.\"<br>" +
                             "Učeníci mu povedali: \"Pane, ak spí, ozdravie.\" Ježiš však hovoril o\u00A0jeho smrti, a oni si mysleli, že hovorí o\u00A0spánku.<br>" +
-                            "Učeníci mu povedali: \"Pane, ak spí, ozdravie.\" Ježiš však hovoril o\u00A0jeho smrti, a oni si mysleli, že hovorí o\u00A0spánku.<br>" +
-                            "Učeníci mu povedali: \"Pane, ak spí, ozdravie.\" Ježiš však hovoril o\u00A0jeho smrti, a oni si mysleli, že hovorí o\u00A0spánku.<br>" +
                             "Vtedy im Ježiš povedal otvorene: \"Lazár zomrel. A kvôli vám sa radujem, že som tam nebol, aby ste uverili. Poďme k\u00A0nemu!\"<br>" +
                             "Tomáš, nazývaný Didymus, povedal ostatným učeníkom: \"Poďme aj my a umrime s\u00A0ním.\"<br>" +
                             "Keď ta Ježiš prišiel, dozvedel sa, že Lazár je už štyri dni v\u00A0hrobe. Betánia bola pri\u00A0Jeruzaleme, vzdialená asi pätnásť stadií, a tak prišlo k\u00A0Marte a Márii veľa Židov potešiť ich v\u00A0žiali za\u00A0bratom.<br>" +
-                            "Keď Marta počula, že prichádza Ježiš, išla mu naproti. Mária zostala doma. Marta povedala Ježišovi: \"Pane, keby si bol býval tu, môj brat by nebol umrel. Ale aj teraz viem, že o\u00A0čokoľvek poprosíš Boha, Boh ti to dá.\"<br>" +
                             "Keď Marta počula, že prichádza Ježiš, išla mu naproti. Mária zostala doma. Marta povedala Ježišovi: \"Pane, keby si bol býval tu, môj brat by nebol umrel. Ale aj teraz viem, že o\u00A0čokoľvek poprosíš Boha, Boh ti to dá.\"<br>" +
                             "Ježiš jej povedal: \"Tvoj brat vstane z\u00A0mŕtvych.\"<br>" +
                             "Marta mu vravela: \"Viem, že vstane v\u00A0posledný deň pri\u00A0vzkriesení.\"<br>" +

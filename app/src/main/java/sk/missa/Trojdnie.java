@@ -311,7 +311,14 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                     missas.add(new Missa(obrad[i][1], null, null, null, null, false, -1));
                     break;
                 case "N": //podnadpisy
+                    missas.add(new Missa(1)); //medzera mala
                     missas.add(new Missa(obrad[i][1], null, null, null, null, false, -2));
+                    missas.add(new Missa(1)); //medzera mala
+                    break;
+                case "C": //podnadpisy - bez bold
+                    missas.add(new Missa(1)); //medzera mala
+                    missas.add(new Missa(null, obrad[i][1], null,false));
+                    missas.add(new Missa(1)); //medzera mala
                     break;
                 case "K": //komentare
                     if (obrad[i].length > 2)
@@ -323,7 +330,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                     break;
                 case "V": //vyskakovacie okna
                     if(obrad[i][2] == null)
-                        missas.add(new Missa("<font color='#B71C1C'>" + obrad[i][1] + "</font>", null, null, true, i, 1));
+                        missas.add(new Missa("<font color='#B71C1C'><b>" + obrad[i][1] + "</b></font>", null, null, true, i, 1));
                     else
                         missas.add(new Missa(null, obrad[i][1], obrad[i][2], false, i, 1));
                     break;
@@ -350,6 +357,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                     break;
                 case "P": //prefacia
                     missas.add(new Missa("PREFÁCIA", obrad[i][1], obrad[i][2], true));
+                    missas.add(new Missa(2)); //medzera velka
                     modlitbaEucharistia(missas);
                     break;
                 case "O": //obrad prijimanie
@@ -435,6 +443,13 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                         for (int j = 3; j < obrad[index].length; j += 2) {
                             dg.add(new Missa(obrad[index][j], obrad[index][j + 1], true));
                         }
+                    } else if (obrad[index][1].startsWith("Spevy")){
+                        dg.add(new Missa(null, obrad[index][3], true)); //text
+                        dg.add(new Missa(null, obrad[index][4], obrad[index][5], obrad[index][6], obrad[index][7], true, 0));
+                        dg.add(new Missa(null, obrad[index][8], true)); //text
+                        dg.add(new Missa(null, obrad[index][9], obrad[index][10],true)); //zalospev
+                        dg.add(new Missa(null, obrad[index][11], obrad[index][12],true)); //zalospev
+                        dg.add(new Missa(null, obrad[index][13], obrad[index][14],true)); //hymnus
                     } else {
                         for (int i = 3; i < obrad[index].length; i += 4) {
                             dg.add(new Missa(null, obrad[index][i], obrad[index][i + 1], obrad[index][i + 2], obrad[index][i + 3], true, 0));
