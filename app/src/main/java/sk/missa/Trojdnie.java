@@ -330,7 +330,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                     break;
                 case "V": //vyskakovacie okna
                     if(obrad[i][2] == null)
-                        missas.add(new Missa("<font color='#B71C1C'><b>" + obrad[i][1] + "</b></font>", null, null, true, i, 1));
+                        missas.add(new Missa("<font color='#B71C1C'><b>" + obrad[i][1] + " (otvoriť)</b></font>", null, null, true, i, 1));
                     else
                         missas.add(new Missa(null, obrad[i][1], obrad[i][2], false, i, 1));
                     break;

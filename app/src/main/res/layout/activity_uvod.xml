@@ -17,7 +17,7 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
+            android:layout_height="42dp"
             android:background="@color/primary"
             app:popupTheme="@style/PopupOverlay"
             app:theme="@style/Toolbar" >
@@ -89,7 +89,7 @@
     <android.support.design.widget.NavigationView
         android:id="@+id/menu_view"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/menu_header"
