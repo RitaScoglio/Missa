@@ -43,7 +43,7 @@ public class Kalendar extends Main {
 
     @Override
     protected void onPause() {
-        setPremenne();
+        setAll();
         /*if(!zIntent)
             unsetZvuk();*/
         super.onPause();
@@ -142,14 +142,7 @@ public class Kalendar extends Main {
     }
 
     @SuppressLint("ClickableViewAccessibility")
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        //nastaví písmo v celej aplikácií - pätkové alebo bezpätkové
-        getThemeStyle();
-        setTheme(themeStyle);
-        //nastaví layout
-        setContentView(R.layout.activity_kalendar);
+    private void setAll(){
 
         //nastaví toolbar, fullscreen a režim v menu
         setToolbar();
@@ -253,6 +246,17 @@ public class Kalendar extends Main {
         vypisDatumKalendar(mm, rok);
         //vypíše sviatky v mesiaci
         sviatokMesiac();
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        //nastaví písmo v celej aplikácií - pätkové alebo bezpätkové
+        getThemeStyle();
+        setTheme(themeStyle);
+        //nastaví layout
+        setContentView(R.layout.activity_kalendar);
+        setAll();
     }
 
     private void getPremenne() {

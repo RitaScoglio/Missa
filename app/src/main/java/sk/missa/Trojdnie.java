@@ -70,6 +70,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 zIntent = true;
                 Intent uvod = new Intent(this, Uvod.class);
                 startActivity(uvod);
+                finish();
             }
         }
         super.onResume();
@@ -89,6 +90,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 zIntent = true;
                 Intent uvod = new Intent(this, Uvod.class);
                 startActivity(uvod);
+                finish();
                 return true;
             case R.id.menu_omse:
                 drawer = findViewById(R.id.drawer_layout);
@@ -101,6 +103,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 zIntent = true;
                 Intent kalendar = new Intent(this, Kalendar.class);
                 startActivity(kalendar);
+                finish();
                 return true;
             case R.id.menu_odpovede:
                 drawer = findViewById(R.id.drawer_layout);

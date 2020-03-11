@@ -48,10 +48,7 @@ public class Uvod extends Main {
 
     @Override
     protected void onResume() {
-        if (!zIntent) {
-            nastavDatum();
-            sviatokDen();
-        }
+        setAll();
         super.onResume();
     }
 
@@ -131,14 +128,7 @@ public class Uvod extends Main {
         return true;
     }
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        //nastaví písmo v celej aplikácií - pätkové alebo bezpätkové
-        getThemeStyle();
-        setTheme(themeStyle);
-        //nastaví layout
-        setContentView(R.layout.activity_uvod);
+    private void setAll() {
 
         //nastaví premenné, toolbar, fullscreen a režim v menu
         setSetting();
@@ -210,6 +200,19 @@ public class Uvod extends Main {
         upravyMisal = findViewById(R.id.upravyMisal);
         nastavDatum();
         sviatokDen();
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        //nastaví písmo v celej aplikácií - pätkové alebo bezpätkové
+        getThemeStyle();
+        setTheme(themeStyle);
+
+        //nastaví layout
+        setContentView(R.layout.activity_uvod);
+
+        setAll();
     }
 
     @SuppressLint("SetTextI18n")

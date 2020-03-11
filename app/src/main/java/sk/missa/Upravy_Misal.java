@@ -34,6 +34,7 @@ public class Upravy_Misal extends Main implements Upravy_misal {
                 zIntent = true;
                 Intent uvod = new Intent(this, Uvod.class);
                 startActivity(uvod);
+                finish();
                 return true;
             case R.id.menu_omse:
                 drawer = findViewById(R.id.drawer_layout);
@@ -46,6 +47,7 @@ public class Upravy_Misal extends Main implements Upravy_misal {
                 zIntent = true;
                 Intent kalendar = new Intent(this, Kalendar.class);
                 startActivity(kalendar);
+                finish();
                 return true;
             case R.id.menu_odpovede:
                 drawer = findViewById(R.id.drawer_layout);

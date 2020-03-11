@@ -53,7 +53,8 @@ public class Jazyky extends Main implements Language {
                 rok != settings.getInt("rokOpen", 0)){
             zIntent = true;
         Intent uvod = new Intent(this, Uvod.class);
-        startActivity(uvod);}}
+        startActivity(uvod);
+        finish();}}
             super.onResume();
     }
 
@@ -71,6 +72,7 @@ public class Jazyky extends Main implements Language {
                 zIntent = true;
                 Intent uvod = new Intent(this, Uvod.class);
                 startActivity(uvod);
+                finish();
                 return true;
             case R.id.menu_omse:
                 drawer = findViewById(R.id.drawer_layout);
@@ -83,6 +85,7 @@ public class Jazyky extends Main implements Language {
                 zIntent = true;
                 Intent kalendar = new Intent(this, Kalendar.class);
                 startActivity(kalendar);
+                finish();
                 return true;
             case R.id.menu_odpovede:
                 drawer = findViewById(R.id.drawer_layout);

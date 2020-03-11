@@ -114,6 +114,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                         zIntent = true;
                         Intent misal = new Intent(context, MisalZmierenie.class);
                         startActivity(misal);
+                        finish();
                     } else {
                         LayoutInflater inflater = getLayoutInflater();
                         View layout = inflater.inflate(R.layout.toast_layout,
@@ -130,18 +131,21 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                     zIntent = true;
                     Intent intent = new Intent(context, MisalZosnuly.class);
                     startActivity(intent);
+                    finish();
                 } else if (omsa == 2){
                     //Omša o najsätejšom Srdci Ježišovom
                     getSpecial();
                     zIntent = true;
                     Intent intent = new Intent(context, MisalSrdceJC.class);
                     startActivity(intent);
+                    finish();
                 } else {
                     //Spoločné omše preblahoslavenej Panny Márie
                     getSpecial();
                     zIntent = true;
                     Intent intent = new Intent(context, MisalPM.class);
                     startActivity(intent);
+                    finish();
                 }
             }
         });
@@ -161,6 +165,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                         zIntent = true;
                         Intent jazyky = new Intent(context, Jazyky.class);
                         startActivity(jazyky);
+                        finish();
                     }
                 });
         AlertDialog dialog = builder.create();
