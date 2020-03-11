@@ -1299,5 +1299,204 @@ public interface Texty {
             "a v teba, Ducha obidvoch,\n" +
             "daj veriť vždy, vo všetkých dňoch. Amen.";
 
+    String[] kvetna_nedela = {"Spomienka na Pánov vstup do Jeruzalema",
+            //antifona - 1, 2, 3
+            "ANTIFÓNA", "(Porov. Mt 21, 9)",
+            "Hosanna Synovi Dávidovmu!\n"+
+            "Požehnaný, ktorý prichádza v mene Pánovom: Král Izraela.\n"+
+            "Hosanna na výsostiach!",
+            //komentar - 4
+            "Potom kňaz pozdraví ľud zvyčajným spôsobom. Krátkym príhovorom povzbudí veriacich, aby sa aktívne a povedome zúčastnili na slávnosti tohto dňa. Môže sa im prihovoriť napríklad takto:",
+            //text - 5
+            "Drahí bratia a sestry, od začiatku pôstneho obdobia sme sa duchovne očisťovali pokáním a skutkami kresťanskej lásky. Dnes sa schádzame, aby sme spolu s celou Cirkvou začali sláviť veľkonočné tajomstvo Ježiša Krista. Kristus Pán toto tajomstvo uskutočnil svojou smrťou a zmŕtvychvstaním; preto prišiel do svojho mesta Jeruzalema.\n"+
+            "S vierou a nábožnosťou oslávme teda spomienku na jeho spásonosný vstup do Jeruzalema.\n"+
+            "Sprevádzajme Pána, aby sme mali účasť na jeho slávnom zmŕtvychvstaní a večnom živote, ktorý dosiahneme, keď s pomocou jeho milosti budeme spolu s ním trpieť.",
+            //komentar - 6
+            "Po príhovore sa kňaz modlí so zopätými rukami niektorú z týchto modlitieb:",
+            //text(html) - 7
+            "Modlime sa.<br>"+
+                    "Všemohúci a večný Bože,<br>"+
+                    "posväť <font color='#B71C1C'>†</font> tieto ratolesti svojím požehnaním, <font color='#B71C1C'>*</font><br>"+
+                    "aby sme skrze Krista Kráľa,<br>"+
+                    "ktorého s plesaním sprevádzame, <font color='#B71C1C'>–</font><br>"+
+                    "mohli vojsť do večného Jeruzalema.<br>"+
+                    "Lebo on žije a kraľuje na veky vekov.<br>"+
+                    "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"+
+                    "<font color='#B71C1C'>Alebo:</font><br>"+
+                    "Modlime sa.<br>"+
+                    "Bože, posilni vieru tých, čo dúfajú v teba, <font color='#B71C1C'>*</font><br>"+
+                    "a láskavo vypočuj modlitby prosiacich, <font color='#B71C1C'>–</font><br>"+
+                    "aby sme ti v Kristovi,<br>"+
+                    "ktorému dnes ako víťazovi mávame ratolesťami,<br>"+
+                    "prinášali ovocie dobrých skutkov.<br>"+
+                    "Lebo on žije a kraľuje na veky vekov.<br>"+
+                    "<font color='#B71C1C'>Ľ.:</font> Amen.",
+            //komentar - 8
+            "Mlčky pokropí ratolesti svätenou vodou.\n"+
+            "Potom sa číta stať o Pánovom vstupe do Jeruzalema z jedného zo štyroch Evanjelií. Číta ju diakon, alebo (ak nieto diakona) sám kňaz zvyčajným spôsobom.",
+            //V ROKU A - 9, 10
+            "Mt 21, 1-11", "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>"+
+            "Keď sa priblížili k Jeruzalemu a došli do Betfage pri Olivovej hore, Ježiš poslal dvoch učeníkov a povedal im: „Choďte do dedinky oproti vám a hneď nájdete priviazanú oslicu a pri nej osliatko. Odviažte ich a priveďte mi ich. A keby vám niekto niečo vravel, povedzte: ‚Pán ich potrebuje.‘ A hneď ich prepustí.“<br>"+
+            "Toto sa stalo, aby sa splnilo slovo proroka: „Povedzte dcére sionskej: Hľa, tvoj Kráľ prichádza k tebe, ponížený, sediaci na oslici a na osliatku, mláďati ťažného zvieraťa.“<br>"+
+            "Učeníci šli a urobili, ako im Ježiš rozkázal. Priviedli oslicu a osliatko, pokládli na ne svoje plášte a on si na ne sadol. Mnohí zo zástupu prestierali na cestu svoje plášte, iní stínali ratolesti zo stromov a stlali ich po ceste. A zástupy, čo šli pred ním, i tie, čo šli za ním, vyvolávali:<br>"+
+            "„Hosanna Synovi Dávidovmu! Požehnaný, ktorý prichádza v mene Pánovom. Hosanna na výsostiach!“<br>"+
+            "Keď Ježiš vošiel do Jeruzalema, rozvírilo sa celé mesto; vypytovali sa: „Kto je to?“ A ľudia hovorili: „Je to Ježiš, prorok z galilejského Nazareta.“<br>"+
+            "Počuli sme slovo Pánovo.",
+            //V ROKU B - 11, 12, 13, 14, 15
+            "Mk 11, 1-10", "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Marka<br>"+
+            "Keď sa blížili k Jeruzalemu, Betfage a Betánii pri Olivovej hore, poslal Ježiš dvoch svojich učeníkov a povedal im: „Choďte do dedinky oproti vám a len čo do nej vojdete, nájdete priviazané osliatko, na ktorom doteraz človek nesedel. Odviažte ho a priveďte. A keby vám niekto vravel: ‚Čo to robíte?‘, povedzte: ‚Pán ho potrebuje a hneď ho zasa vráti.‘“<br>"+
+            "I odišli a vonku na rázcestí našli osliatko, priviazané o dvere, a odviazali ho. Niektorí z tých, čo tam stáli, im vraveli: „Čo robíte, prečo odväzujete osliatko?“ Oni im povedali, ako im kázal Ježiš, a povolili im to.<br>"+
+            "Osliatko priviedli k Ježišovi, položili naň svoje plášte a on naň vysadol. Mnohí prestierali na cestu svoje plášte, iní zasa zelené ratolesti, narezané na poliach. A tí, čo išli pred ním, i tí, čo išli za ním, volali:<br>"+
+            "„Hosanna! Požehnaný, ktorý prichádza v mene Pánovom. Požehnané kráľovstvo nášho otca Dávida, ktoré sa približuje. Hosanna na výsostiach!“ <br>"+
+            "Počuli sme slovo Pánovo.",
+            "Alebo:", "Jn 12, 12-16",
+            "<font color='#B71C1C'>†</font> Čítanie zo svätého Evanjelia podľa Jána <br>"+
+                    "Keď sa veľké zástupy, ktoré prišli na sviatky, dopočuli, že Ježiš prichádza do Jeruzalema, nabrali palmových ratolestí, vyšli mu naproti a volali: „Hosanna! Požehnaný, ktorý prichádza v mene Pánovom, požehnaný Kráľ Izraela!“<br>"+
+                    "Ježiš si našiel osliatko a vysadol naň, ako je napísané: „Neboj sa, dcéra sionská, hľa, tvoj kráľ prichádza, sediaci na mláďati oslice.“<br>"+
+                    "Jeho učeníci tomu ešte nerozumeli, ale keď bol Ježiš oslávený, rozpomenuli sa, že to bolo o ňom napísané a že mu to urobili.<br>"+
+                    "Počuli sme slovo Pánovo.",
+            //V ROKU C - 16, 17
+            "Lk 19, 28-40", "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>"+
+            "Ježiš pokračoval v ceste do Jeruzalema. Keď sa priblížil k Betfage a Betánii, pri hore, ktorá sa volá Olivová, poslal dvoch učeníkov so slovami: „Choďte do dedinky naproti a len čo do nej vojdete, nájdete priviazané osliatko, na ktorom človek ešte nesedel. Odviažte ho a priveďte! A keby sa vás niekto opýtal: ‚Prečo ho odväzujete?‘, povedzte mu: ‚Pán ho potrebuje.‘“<br>"+
+            "Poslovia odišli a našli, ako im povedal. Keď odväzovali osliatko, povedali im jeho majitelia: „Prečo odväzujete osliatko?“ Oni povedali: „Pán ho potrebuje.“ Potom osliatko priviedli k Ježišovi, hodili naň svoje plášte a posadili naň Ježiša. A ako išiel, na cestu mu prestierali svoje plášte. Keď sa už blížil k úbočiu Olivovej hory, začal sa celý zástup učeníkov radovať a mocným hlasom chváliť Boha za všetky divy, ktoré videl, a volal:<br>"+
+            "„Požehnaný kráľ, ktorý prichádza v mene Pánovom. Pokoj na nebi a sláva na výsostiach!“<br>"+
+            "Tu mu zo zástupu povedali niektorí farizeji: „Učiteľ, napomeň svojich učeníkov!“ On im odvetil: „Hovorím vám, ak budú títo mlčať, kamene budú kričať.“<br>"+
+            "Počuli sme slovo Pánovo.",
+            //komentar - 18
+            "Po evanjeliu, ak je to vhodné, môže byť krátka homília.\n"+
+            "Potom kňaz alebo iný schopný prisluhujúci dá pokyn k procesií týmito alebo podobnými slovami:",
+            //text - 19
+            "Bratia a sestry, ako kedysi zástupy v Jeruzaleme,\n"+
+            "tak aj my dnes volajme Ježišovi na slávu.\n"+
+            "Poďme v pokoji!",
+            //komentar - 20
+            "Procesia sa pohne ku kostolu, v ktorom sa bude sláviť svätá omša, v tomto poriadku: popredu ide turiferár s dymiacou kadidelnicou (ak sa mieni používať). Za ním ide prisluhujúci s ozdobeným krížom, po jeho bokoch dvaja prisluhujúci so zažatými sviecami. Potom kráča kňaz s asistenciou. Za nimi idú veriaci s ratolesťami v rukách.\n"+
+            "Pri procesií zbor a ľud spieva nasledujúcu antifónu, opakujúc ju po jednotlivých veršoch 23. žalmu, alebo inú vhodnú pieseň (u nás to môže byť napr. JKS, č. 182. alebo 183).",
+            //text(html) - 21
+            "<br><font color='#B71C1C'>ANTIFÓNA</font><br>"+
+                    "Jeruzalemské deti s olivovými ratolesťami v rukách <br>"+
+                    "išli v ústrety Ježišovi a nadšene volali: Hosanna na výsostiach!<br>"+
+                    "<br>"+
+                    "<font color='#B71C1C'>ŽALM 23</font><br>"+
+                    "Pánova je zem i všetko, čo ju napĺňa,<br>"+
+                    "okruh zeme aj tí, čo bývajú na ňom.<br>"+
+                    "Veď on sám položil jeho základy na moriach,<br>"+
+                    "a upevnil ho na vodách.<br>"+
+                    "<br>"+
+                    "Kto smie vystúpiť na vrch Pánov?<br>"+
+                    "Kto smie stáť na jeho mieste posvätnom?<br>"+
+                    "Ten, čo má ruky nevinné a srdce čisté,<br>"+
+                    "čo neberie jeho meno nadarmo<br>"+
+                    "a neprisahá falošne.<br>"+
+                    "<br>"+
+                    "Taký dosiahne požehnanie od Pána<br>"+
+                    "a odmenu od Boha, svojho spasiteľa.<br>"+
+                    "To je pokolenie tých, čo ho hľadajú,<br>"+
+                    "čo hľadajú tvár Boha Jakubovho.<br>"+
+                    "<br>"+
+                    "Zdvihnite, brány, svoje hlavice,<br>"+
+                    "a vyvýšte sa, brány prastaré,<br>"+
+                    "lebo má vstúpiť kráľ slávy.<br>"+
+                    "Kto je ten kráľ slávy?<br>"+
+                    "Pán silný a mocný, Pán mocný v boji.<br>"+
+                    "<br>"+
+                    "Zdvihnite, brány, svoje hlavice<br>"+
+                    "a vyvýšte sa, brány prastaré,<br>"+
+                    "lebo má vstúpiť kráľ slávy.<br>"+
+                    "Kto je ten kráľ slávy?<br>"+
+                    "Pán zástupov, to je ten kráľ slávy.<br>"+
+                    "<br>"+
+                    "<font color='#B71C1C'>ANTIFÓNA 2</font><br>"+
+                    "Jeruzalemské deti prestierali na cestu rúcha a nadšene volali:<br>"+
+                    "Hosanna Synovi Dávidovmu!<br>"+
+                    "Požehnaný, ktorý prichádza v mene Pánovom.",
+            //komentar - 22
+            "(Táto antifóna sa môže opakovať po jednotlivých veršoch žalmu 46.)",
+            //text(html) - 23
+            "<br><font color='#B71C1C'>ŽALM 46</font><br>"+
+                    "Tlieskajte rukami, všetky národy,<br>"+
+                    "jasajte Bohu hlasom radostným.<br>"+
+                    "Lebo Pán je Najvyšší a hrozný,<br>"+
+                    "nad celou zemou veľký kráľ.<br>"+
+                    "<br>"+
+                    "Podmaňuje nám národy<br>"+
+                    "a pohanov nám kladie pod nohy.<br>"+
+                    "On pre nás vybral dedičstvo,<br>"+
+                    "slávu Jakuba, ktorého má rád.<br>"+
+                    "<br>"+
+                    "Za jasotu vystupuje Boh,<br>"+
+                    "Pán vystupuje za hlaholu poľnice.<br>"+
+                    "Spievajte Bohu, spievajte.<br>"+
+                    "Spievajte nášmu kráľovi, spievajte.<br>"+
+                    "Pretože Boh je kráľom celej zeme;<br>"+
+                    "spievajte mu chválospev.<br>"+
+                    "<br>"+
+                    "Boh kraľuje nad národmi,<br>"+
+                    "Boh sedí na svojom svätom tróne.<br>"+
+                    "Kniežatá národov sa spolčujú<br>"+
+                    "s národom Boha Abrahámovho.<br>"+
+                    "Veď Bohu patria mocní zeme;<br>"+
+                    "tak veľmi je vyvýšený.<br>"+
+                    "<br>"+
+                    "<font color='#B71C1C'>HYMNUS KRISTA KRÁĽA<br>"+
+                    "Refrén:</font><br>"+
+                    "Sláva ti, Kriste, Kráľ náš, ty Vykupiteľ sveta!<br>"+
+                    "Prijmi hold od zástupu, čo sa dnes s tebou stretá!<br>"+
+                    "<font color='#B71C1C'>1.</font> Ľud vyvolený plesá a radostne ťa zdraví,<br>"+
+                    "prichádzaš v mene Božom, zdrav buď, Kráľ večnej slávy!<br>"+
+                    "<font color='#B71C1C'>Refrén.<br>"+
+                    "2.</font> Anjeli zišli z neba, aby ťa sprevádzali,<br>"+
+                    "a smrteľný tvor, človek, k ich pridá svoje chvály.<br>"+
+                    "<font color='#B71C1C'>Refrén.<br>"+
+                    "3.</font> Pomedzi zástup ľudu k Svätému ideš mestu,<br>"+
+                    "mlaď palmami a kvetmi pokrýva tvoju cestu.<br>"+
+                    "<font color='#B71C1C'>Refrén.<br>"+
+                    "4.</font> Hosanna, volá sprievod, lež tvoje oči hľadia<br>"+
+                    "v ústrety múk a krížu, keď ťa aj verní zradia.<br>"+
+                    "<font color='#B71C1C'>Refrén.<br>"+
+                    "5.</font> My veríme však, že si Kráľ, ktorý večne žije,<br>"+
+                    "n naše srdce k tebe oddanou láskou bije.<br>"+
+                    "<font color='#B71C1C'>Refrén.<br>"+
+                    "6.</font> Ako si vtedy prijal spev natešenej mladi,<br>"+
+                    "prijmi aj našu chválu, veď spievame ti radi.<br>"+
+                    "<font color='#B71C1C'>Refrén.<br>"+
+                    "7.</font> A pripútaj nás k sebe, aby sme s tebou boli<br>"+
+                    "v slávnostnej tejto chvíli, aj v úzkosti a bôli!<br>"+
+                    "<font color='#B71C1C'>Refrén.</font>",
+            //komentar - 24
+            "Keď sprievod vchádza do kostola, spieva sa nasledujúce responzórium alebo iná vhodná pieseň o Ježišovom vstupe do Jeruzalema.",
+            //text - 25
+            "\nRESPONZÓRIUM\n"+
+            "Keď Pán vchádzal do Svätého mesta, jeruzalemské deti s palmovými ratolesťami v rukách ohlasovali vzkriesenie života a volali: Hosanna na výsostiach!\n"+
+            "Keď ľudia počuli, že Ježiš prichádza do Jeruzalema, vyšli mu v ústrety s palmovými ratolesťami v rukách a volali: Hosanna na výsostiach!",
+            //komentar - 26
+            "Keď kňaz príde k oltáru, pobozká ho, prípadne ho aj incenzuje. Potom ide k sedadlu (odloží pluviál a oblečie si ornát). Vynechá úvodné omšové obrady a na zakľúčenie procesie prednesie modlitbu dňa. Potom pokračuje v slávení omše zvyčajným spôsobom.",
+            //text(html) - 27
+            "<br><b>Druhý spôsob: Slávnostný vstup</b><br>"+
+                    "<font color='#B71C1C'>Ak nie je možné usporiadať procesiu, spomienka na Pánov vstup do Jeruzalema sa oslávi v kostole, a to slávnostným vstupom na začiatku slávnostnej svätej omše.<br>"+
+                    "Veriaci s ratolesťami v rukách sa zhromaždia pred bránou kostola alebo v kostole samom. Kňaz, prisluhujúci a skupina zástupcov ľudu prídu na stanovené miesto mimo presbytéria. Toto miesto nech sa zvolí tak, aby čím viacerí mohli sledovať obrad.<br>"+
+                    "Kým kňaz ide na určené miesto, ľud spieva </font><font color='#000000'>Hosanna</font><font color='#B71C1C'> alebo inú vhodnú pieseň. Požehnanie ratolestí a čítanie evanjelia o Ježišovom vstupe do Jeruzalema sa koná ako pred procesiou. Po evanjeliu kňaz, prisluhujúci a skupina zástupcov ľudu slávnostne idú cez kostol k oltáru. Pritom sa spieva </font><font color='#000000'>Keď Pán vchádzal</font><font color='#B71C1C'> alebo iná pieseň (JKS, č. 182, 183).<br>"+
+                    "Keď kňaz príde k oltáru, pobozká ho, odíde k sedadlu, vynechá úvodné omšové obrady a hneď prednesie modlitbu dňa. Potom pokračuje v omši zvyčajným spôsobom.</font><br>"+
+                    "<br>"+
+                    "<b>Tretí spôsob: Jednoduchý vstup</b><br>"+
+                    "<font color='#B71C1C'>Vo všetkých ostatných omšiach tejto nedele, v ktorých sa nekoná slávnostný vstup, Pánov príchod do Jeruzalema sa pripomína len jednoduchým vstupom.<br>"+
+                    "Keď kňaz ide k oltáru, spieva sa úvodný spev so žalmom alebo iná pieseň s rovnakou myšlienkou. Keď kňaz príde k oltáru, pobozká ho, odíde k sedadlu, pozdraví ľud a pokračuje v omši zvyčajným spôsobom. V omšiach bez prítomnosti ľudu a v omšiach, v ktorých úvodný spev nemožno spievať, kňaz, len čo príde k oltáru a pobozká ho, pozdraví ľud a hneď prečíta úvodný spev. Potom pokračuje v omši zvyčajným spôsobom.</font><br>"+
+                    "<br>"+
+                    "<font color='#B71C1C'>ÚVODNÝ SPEV</font><br>"+
+                    "Šesť dní pred Veľkou nocou,<br>"+
+                    "keď Ježiš prichádzal do Jeruzalema,<br>"+
+                    "išli mu v ústrety deti<br>"+
+                    "s palmovými ratolesťami v rukách<br>"+
+                    "a nadšene volali: Hosanna na výsostiach!<br>"+
+                    "Požehnaný, ktorý prináša milosrdenstvo a spásu.<br>"+
+                    "<br><font color='#B71C1C'>Žalm 23 (9-10)</font><br>"+
+                    "Zdvihnite, brány, svoje hlavice<br>"+
+                    "a vyvýšte sa, brány prastaré,<br>"+
+                    "lebo má vstúpiť kráľ slávy.<br>"+
+                    "Kto je ten kráľ slávy?<br>"+
+                    "Pán zástupov, to je ten kráľ slávy.<br>"+
+                    "Hosanna na výsostiach!<br>"+
+                    "Sláva ti, ktorý prinášaš milosrdenstvo a spásu.<br>"};
+
 }
 

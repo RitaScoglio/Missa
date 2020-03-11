@@ -423,9 +423,13 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                     if (rezim) {
                         dialog.getWindow().setBackgroundDrawableResource(R.color.black);
                         dialogTextView.setTextColor(getResources().getColor(R.color.background));
+                        dialogButton.setTextColor(getResources().getColor(R.color.background));
+                        dialogButton.setBackgroundColor(Color.BLACK);
                     } else {
                         dialog.getWindow().setBackgroundDrawableResource(R.color.background);
                         dialogTextView.setTextColor(getResources().getColor(R.color.primary));
+                        dialogButton.setTextColor(getResources().getColor(R.color.primary));
+                        dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
                     }
                     dialogButton.setOnClickListener(new View.OnClickListener() {
                         @Override

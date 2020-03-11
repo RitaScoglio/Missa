@@ -1,5 +1,6 @@
 package sk.missa;
 
+import android.app.Dialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -12,6 +13,7 @@ import android.text.style.StyleSpan;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -2394,6 +2396,61 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         }
     }
 
+    //sprievod na Kvetnu nedelu
+    private void kvetnaNedelaDialog() {
+        final Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.custom_dialog);
+        ListView dialogListview = dialog.findViewById(R.id.vypis_misal);
+        TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
+        Button dialogButton = dialog.findViewById(R.id.dialog_button);
+        final ArrayList<Missa> dg = new ArrayList<>();
+
+        if (rezim) {
+            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
+            dialogTextView.setTextColor(getResources().getColor(R.color.background));
+            dialogButton.setTextColor(getResources().getColor(R.color.background));
+            dialogButton.setBackgroundColor(Color.BLACK);
+        } else {
+            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
+            dialogTextView.setTextColor(getResources().getColor(R.color.primary));
+            dialogButton.setTextColor(getResources().getColor(R.color.primary));
+            dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
+        }
+
+        dialogButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
+
+        dialogTextView.setText(kvetna_nedela[0]);
+        dg.add(new Missa(null, kvetna_nedela[1], kvetna_nedela[2], null, kvetna_nedela[3], false, 0));
+        dg.add(new Missa(kvetna_nedela[4], kvetna_nedela[5], false));
+        dg.add(new Missa(kvetna_nedela[6], kvetna_nedela[7], true));
+        dg.add(new Missa(kvetna_nedela[8], null, false));
+        dg.add(new Missa(2));
+        if (cirkevRok == 2) { //B
+            dg.add(new Missa(null, "ČÍTANIE", kvetna_nedela[11], null, kvetna_nedela[12], true, 0));
+            dg.add(new Missa(null, kvetna_nedela[13], kvetna_nedela[14], null, kvetna_nedela[15], true, 0));
+        } else if (cirkevRok == 0) { //C
+            dg.add(new Missa(null, "ČÍTANIE", kvetna_nedela[16], null, kvetna_nedela[17], true, 0));
+        } else { //A
+            dg.add(new Missa(null, "ČÍTANIE", kvetna_nedela[9], null, kvetna_nedela[10], true, 0));
+        }
+        dg.add(new Missa(2));
+        dg.add(new Missa(kvetna_nedela[18], kvetna_nedela[19], false));
+        dg.add(new Missa(kvetna_nedela[20], kvetna_nedela[21], true));
+        dg.add(new Missa(kvetna_nedela[22], kvetna_nedela[23], true));
+        dg.add(new Missa(kvetna_nedela[24], kvetna_nedela[25], false));
+        dg.add(new Missa(kvetna_nedela[26], kvetna_nedela[27], true));
+        dg.add(new Missa(2));
+
+        MissaAdapter ada = new MissaAdapter(this, dg);
+        dialogListview.setAdapter(ada);
+        dialog.show();
+    }
+
     //podľa zavolania a premennej dialog otvorí dialógové okno
     public void otvorenie(int dialog) {
         final AlertDialog.Builder builder = new AlertDialog.Builder(Misal.this);
@@ -2569,6 +2626,10 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         final ArrayList<Missa> missas = new ArrayList<>();
         missas.add(new Missa(nadpis, null, null, null, null, true, -1));
         missas.add(new Missa(true));
+        if(ID.equals("60") && P){
+            missas.add(new Missa("<font color='#B71C1C'>" + kvetna_nedela[0] + " (otvoriť)</font>", true, 17));
+            missas.add(new Missa(1));
+        }
         missas.add(new Missa(null, uvodny_spev.toUpperCase(), uvodny_suradnice, null, uvodny_vypis, true, 0));
         missas.add(new Missa(1)); //medzera mala
         missas.add(new Missa(pozdrav, true, 1));
@@ -2793,6 +2854,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         changeAleboPasie();
                         pozicia_listview = position;
                         vypis();
+                        break;
+                    case 17:
+                        kvetnaNedelaDialog();
                         break;
                     default:
                         break;

@@ -13,15 +13,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="8dp"
-        android:textStyle="bold"
         android:textSize="20sp"
-        />
+        android:textStyle="bold" />
 
     <ListView
-        android:layout_below="@+id/dialog_title"
         android:id="@+id/vypis_misal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_title"
         android:divider="@color/background"
         android:dividerHeight="0dp"
         android:listSelector="@android:color/transparent"
@@ -34,8 +33,5 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:text="@string/cancel"
-        android:textColor="@color/background"
-        android:background="@color/primary"/>
-
+        android:text="@string/cancel" />
 </RelativeLayout>
