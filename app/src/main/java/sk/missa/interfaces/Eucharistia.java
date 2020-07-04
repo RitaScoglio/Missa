@@ -30,7 +30,7 @@ public interface Eucharistia {
                     "túto svätú a nepoškvrnenú obetu.",
             "Pokračuje s rozopätými rukami:",
             "Prinášame ti ju<br>" +
-                    "najmä za tvoju svätú všeobecnú Cirkev<br>" +
+                    "najmä za tvoju svätú katolícku Cirkev<br>" +
                     "v jednote s tvojím služobníkom,<br>" +
                     "naším pápežom <font color='#B71C1C'>M.</font>,<br>" +
                     "s naším biskupom <font color='#B71C1C'>M. *</font><br>" +
@@ -54,7 +54,7 @@ public interface Eucharistia {
                     "i za časné blaho<br>" +
                     "a predkladajú svoje prosby tebe,<br>" +
                     "Bohu večnému, živému a pravému.<br>"},
-            {"Spomienka na svätých<br>",
+            {"Spomienka na svätých",
             "VSUVKA<font color='#B71C1C'>2.k</font> V spoločenstve s celou Cirkvou<br>" +
                     "s úctou si spomíname<br>" +
                     "najmä na preblahoslavenú Máriu,<br>" +
@@ -475,7 +475,7 @@ public interface Eucharistia {
                     "<br>" +
                     "<font color='#B71C1C'>▲</font> Dobrotivo prijmi do svojho kráľovstva<br>" +
                     "našich zosnulých bratov a sestry<br>" +
-                    "všetkých, ktorí v tvojej milosti<br>" +
+                    "i všetkých, ktorí v tvojej milosti<br>" +
                     "odišli z tohto sveta.<br>" +
                     "Pevne dúfame, že aj my sa tam s nimi<br>" +
                     "budeme naveky radovať z tvojej slávy",
@@ -488,7 +488,7 @@ public interface Eucharistia {
             "<font color='#B71C1C'>▲</font> Pamätaj na svojho služobníka <font color='#B71C1C'>(</font>svoju služobnicu<font color='#B71C1C'>) M.</font>, ktorého <font color='#B71C1C'>(</font>ktorú<font color='#B71C1C'>)</font> si z tohto sveta <font color='#B71C1C'>(</font>dnes<font color='#B71C1C'>)</font> povolal k sebe. Keďže krstom sa stal <font color='#B71C1C'>(</font>stala<font color='#B71C1C'>)</font> podobným <font color='#B71C1C'>(</font>podobnou<font color='#B71C1C'>)</font> tvojmu Synovi v smrti, daj mu <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> účasť aj na jeho zmŕtvychvstaní, keď Kristus vzkriesi mŕtvych a naše smrteľné telo pripodobní svojmu oslávenému telu.<br>" +
                     "Dobrotivo prijmi do svojho kráľovstva aj ostatných našich zosnulých bratov a sestry i všetkých, ktorí v tvojej milosti odišli z tohto sveta. Pevne dúfame, že aj my sa tam s nimi budeme naveky radovať z tvojej slávy. Tam zotrieš každú slzu z našich očí a uvidíme teba, svojho Boha, z tváre do tváre; budeme ti podobní po všetky veky a budeme ťa bez prestania chváliť",
             "zopne ruky",
-            "v Kristovi, našom Pánovi, skrze ktoréhoF štedro dávaš svetu všetko dobré.",
+            "v Kristovi, našom Pánovi, skrze ktorého štedro dávaš svetu všetko dobré.",
             "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>"+
                     "Vezme paténu s hostiou a kalich, pozdvihne ich a hovorí:",
             "<font color='#B71C1C'>Vš</font> Skrze Krista, s Kristom a v Kristovi<br>" +

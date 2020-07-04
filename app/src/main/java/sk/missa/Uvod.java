@@ -114,8 +114,8 @@ public class Uvod extends Main {
                 putZvoncek();
                 return true;
             case R.id.menu_tiche_modlitby:
-                switch_tiche_modlitby.setChecked(!switch_tiche_modlitby.isChecked());
-                tiche_modlitby = switch_tiche_modlitby.isChecked();
+                switch_ticheModlitby.setChecked(!switch_ticheModlitby.isChecked());
+                ticheModlitby = switch_ticheModlitby.isChecked();
                 putTicheModlitby();
                 return true;
             case R.id.menu_info:
@@ -172,10 +172,10 @@ public class Uvod extends Main {
                 putZvoncek();
             }
         });
-        switch_tiche_modlitby.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        switch_ticheModlitby.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                tiche_modlitby = isChecked;
+                ticheModlitby = isChecked;
                 putTicheModlitby();
             }
         });
@@ -327,7 +327,7 @@ public class Uvod extends Main {
                     tyzden = word.getTyzden();
                     pozicia_eucharistia = 1;
                     if (ID.contains("3dni")) {
-                        LayoutInflater inflater = getLayoutInflater();
+                       /* LayoutInflater inflater = getLayoutInflater();
                         View layout = inflater.inflate(R.layout.toast_layout,
                                 (ViewGroup) findViewById(R.id.toast));
                         TextView txt = layout.findViewById(R.id.text);
@@ -336,10 +336,10 @@ public class Uvod extends Main {
                         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
                         toast.setDuration(Toast.LENGTH_LONG);
                         toast.setView(layout);
-                        toast.show();
-                        /*zIntent = true;
+                        toast.show();*/
+                        //zIntent = true;
                         Intent misal = new Intent(Uvod.this, Trojdnie.class);
-                        startActivity(misal);*/
+                        startActivity(misal);
                     } else {
                         menoSvatca = word.getMenoSvatca();
                         slavenie = word.getSlavenie();

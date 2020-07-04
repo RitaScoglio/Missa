@@ -1406,7 +1406,7 @@ public interface Modlitby_svatci {
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
                     "ktorý je Boh a s tebou žije a kraľuje<br>" +
                     "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"16", "", "Všemohúci a milosrdný Bože,<br>" +
+            {"16+", "", "Všemohúci a milosrdný Bože,<br>" +
                     "ty si svätému Neitovi pomáhal<br>" +
                     "hrdinsky znášať útrapy mučenia; <font color='#B71C1C'>*</font><br>" +
                     "na jeho príhovor nám pomôž<br>" +

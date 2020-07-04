@@ -1421,7 +1421,7 @@ public interface Prosby_cezrok {
                     "<font color='#B71C1C'>(</font>Volajme: Pane, zachráň nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Modlime sa za nášho Svätého Otca <font color='#B71C1C'>M.</font>, aby z Ježišovej moci čerpal silu a múdrosť viesť aj v nepokojných časoch loďku Cirkvi.<br>" +
                             "<font color='#B71C1C'>2.</font> Modlime sa za ustráchaných ľudí, aby hľadali záchranu v Kristovi, ktorý nikoho neopustí.<br>" +
-                            "<font color='#B71C1C'>3.</font> Modlime sa za celé ľudstvo, aby sme sa šetrne správali k prírode a zachovali ju pre budúce generácie.",
+                            "<font color='#B71C1C'>3.</font> Modlime sa za celé ľudstvo, aby sme sa šetrne správali k prírode a zachovali ju pre budúce generácie.<br>"+
                     "<font color='#B71C1C'>(4.</font> Modlime sa za zúrodňujúci dážď, aby všade, kde je potrebný, priniesol životodarnú vlahu.<font color='#B71C1C'>)</font><br>" +
                             "<font color='#B71C1C'>5.</font> Modlime sa za naše eucharistické spoločenstvo, aby sme posilnení vo viere víťazili nad každým nebezpečenstvom a strachom.",
                     "Pane Ježišu Kriste,<br>" +

@@ -5,29 +5,16 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.graphics.Typeface;
-import android.media.MediaPlayer;
 import android.support.annotation.NonNull;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.AlertDialog;
 import android.os.Bundle;
 import android.text.Html;
-import android.text.Layout;
-import android.text.SpannableString;
-import android.text.style.AlignmentSpan;
-import android.text.style.ForegroundColorSpan;
-import android.text.style.RelativeSizeSpan;
-import android.text.style.StyleSpan;
-import android.util.Log;
-import android.util.TypedValue;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.CompoundButton;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -145,8 +132,8 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 vypis();
                 return true;
             case R.id.menu_tiche_modlitby:
-                switch_tiche_modlitby.setChecked(!switch_tiche_modlitby.isChecked());
-                tiche_modlitby = switch_tiche_modlitby.isChecked();
+                switch_ticheModlitby.setChecked(!switch_ticheModlitby.isChecked());
+                ticheModlitby = switch_ticheModlitby.isChecked();
                 putTicheModlitby();
                 pozicia_listview = listView.getFirstVisiblePosition();
                 vypis();
@@ -211,10 +198,10 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 vypis();
             }
         });
-        switch_tiche_modlitby.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        switch_ticheModlitby.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                tiche_modlitby = isChecked;
+                ticheModlitby = isChecked;
                 putTicheModlitby();
                 pozicia_listview = listView.getFirstVisiblePosition();
                 vypis();

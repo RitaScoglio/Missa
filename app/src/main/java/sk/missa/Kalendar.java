@@ -7,11 +7,8 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.view.GravityCompat;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
@@ -19,14 +16,13 @@ import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.joda.time.DateTime;
 
 import java.util.ArrayList;
 
 public class Kalendar extends Main {
-    TextView dateView, info;
+    TextView dateView;
     int position, mm;
     LinearLayout linear_kalendar;
     ListView listView;
@@ -128,8 +124,8 @@ public class Kalendar extends Main {
                 putZvoncek();
                 return true;
             case R.id.menu_tiche_modlitby:
-                switch_tiche_modlitby.setChecked(!switch_tiche_modlitby.isChecked());
-                tiche_modlitby = switch_tiche_modlitby.isChecked();
+                switch_ticheModlitby.setChecked(!switch_ticheModlitby.isChecked());
+                ticheModlitby = switch_ticheModlitby.isChecked();
                 putTicheModlitby();
                 return true;
             case R.id.menu_info:
@@ -212,10 +208,10 @@ public class Kalendar extends Main {
                 putZvoncek();
             }
         });
-        switch_tiche_modlitby.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        switch_ticheModlitby.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                tiche_modlitby = isChecked;
+                ticheModlitby = isChecked;
                 putTicheModlitby();
             }
         });
@@ -236,7 +232,6 @@ public class Kalendar extends Main {
             }
         });
 
-        info = findViewById(R.id.info);
         //pri nezapamatanom roku, nastaví premenne z pamate
         if (rok == 0)
             getPremenne();
@@ -281,9 +276,9 @@ public class Kalendar extends Main {
     //posun mesiaca o dozadu
     private void predchadzajuci() {
         if (mm == 0) {
-            mm = 11;
-            rok--;
-        //} else if(mm == 10){
+            //mm = 11;
+            //rok--;
+        //} else if(mm == 11){
             //obmedzenie kalendara
         } else {
             mm--;
@@ -296,9 +291,9 @@ public class Kalendar extends Main {
 
     private void nasledujuci() {
         if (mm == 11) {
-            mm = 0;
-            rok++;
-        //} else if(mm == 4){
+           // mm = 0;
+            //rok++;
+        //} else if(mm == 0){
                         //obmedzenie kalendara
         } else {
             linear_kalendar.startAnimation(slideInRight);
@@ -321,14 +316,11 @@ public class Kalendar extends Main {
         if (rezim) {
             drawer.setBackgroundColor(Color.BLACK);
             dateView.setTextColor(getResources().getColor(R.color.background));
-            info.setTextColor(getResources().getColor(R.color.background));
         } else {
             drawer.setBackgroundColor(getResources().getColor(R.color.background));
             dateView.setTextColor(Color.BLACK);
-            info.setTextColor(Color.BLACK);
         }
         dateView.setTextSize(sizeN);
-        info.setTextSize(sizeO * 0.75f);
         switch (mm) {
             case 0:
                 ziskajAaV(rok-1, rok);

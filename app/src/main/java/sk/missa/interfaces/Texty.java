@@ -174,7 +174,7 @@ public interface Texty {
             "<m>Prijmite slávnostné požehnanie. ",
             "Potom kňaz vystrie ruky nad ľud a prednesie modlitbu. Všetci odpovedia: ",
             "<m>Amen. ",
-            "Po modlitbe kňaz vždy dodá:",
+            "Po modlitbe kňaz vždy dodá: ",
             "<m>Nech vás žehná všemohúci Boh, Otec i Syn ", "+ ", "<m>i Duch Svätý. ",
             "Ľud odpovie: ",
             "<m>Amen.\n", "",
@@ -1159,7 +1159,13 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen."},
     };
 
-    String[][] ticheModlitby = {
+    String[][] tiche_modlitby = {
+            {"Po úkone kajúcnosti", "Potom kňaz prosí Pána Boha o odpustenie:",
+                    "Nech sa zmiluje nad nami všemohúci Boh,\n" +
+                    "nech nám hriechy odpustí\n" +
+                    "a privedie nás do života večného.",
+                    "Ľud odpovie:",
+                    "Amen."},
             {"Pred evanjeliom", "Všemohúci Bože, očisť mi srdce i pery, aby som dôstojne hlásal tvoje sväté evanjelium."},
             {"Po evanjeliu", "Slová svätého evanjelia nech zmyjú naše previnenia."},
             {"Príprava obetných darov", "Kňaz, stojac pri oltári, vezme paténu s chlebom, drží ju trocha pozdvihnutú nad oltárom a potichu hovorí:",
@@ -1497,6 +1503,88 @@ public interface Texty {
                     "Pán zástupov, to je ten kráľ slávy.<br>"+
                     "Hosanna na výsostiach!<br>"+
                     "Sláva ti, ktorý prinášaš milosrdenstvo a spásu.<br>"};
+
+    String modlitba_zasvatenia =             "<font color='#B71C1C'>Po svätom prijímaní kňaz nechá na oltári cibórium alebo vloží Hostiu do monštrancie a prikryje ju priesvitným závojom. Po modlitbe po prijímaní odhalí monštranciu a zíde ku kľačadlu. Vezme kadidelnicu a incenzuje Sviatosť. Ak je na oltári iba cibórium, incenzácia Sviatosti môže byť, ale nemusí. Medzitým sa spieva:</font><br>"+
+            "<br>"+
+            "<font color='#B71C1C'>PIESEŇ (JKS 499, 1)</font><br>"+
+            "Ó, Kriste, veľký Kráľu náš,<br>"+
+            "čo svetom, nebom vládneš,<br>"+
+            "ty božskej moci berlu máš<br>"+
+            "a láskou večne vládneš.<br>"+
+            "(:Ježišu, Kráľu, prijmi svoj ľud,<br>"+
+            "vrelý ti lásky skladáme sľub:<br>"+
+            "za tebou, Kráľu, vždy ísť chceme,<br>"+
+            "za tebou vždy ísť chceme:)<br>"+
+            "<br>"+
+            "<font color='#B71C1C'>Alebo: (JKS 270, 1)</font><br>"+
+            "Klaniam sa ti vrúcne <br>"+
+            "<br>"+
+            "<font color='#B71C1C'>ÚVODNÉ ZVOLANIA<br>"+
+            "K.:</font> Sláva ti a chvála, víťazný Baránok.<br>"+
+            "<font color='#B71C1C'>Ľ.:</font> Sláva ti a chvála, víťazný Baránok.<br>"+
+            "<font color='#B71C1C'>K.:</font> Ty si nás vykúpil svojou drahou krvou, Kriste, Vykupiteľ.<br>"+
+            "<font color='#B71C1C'>Ľ.:</font> Sláva ti a chvála, víťazný Baránok.<br>"+
+            "<font color='#B71C1C'>K.:</font> Ty si nás znovuzrodil pre nový život a živíš nás svojím obetovaným telom, Kriste, Spasiteľ.<br>"+
+            "<font color='#B71C1C'>Ľ.:</font> Sláva ti a chvála, víťazný Baránok.<br>"+
+            "<font color='#B71C1C'>K.:</font> Ty si Kráľ a stredisko našich sŕdc.<br>"+
+            "<font color='#B71C1C'>Ľ.:</font> Sláva ti a chvála, víťazný Baránok.<br>"+
+            "<font color='#B71C1C'>K.:</font> Hoden si prijať moc a bohatstvo, múdrosť a silu, slávu a dobrorečenie, víťazný Baránok, Ježišu Kriste.<br>"+
+            "<font color='#B71C1C'>Ľ.:</font> Sláva ti a chvála, víťazný Baránok.<br>"+
+            "<br>"+
+            "<font color='#B71C1C'>ČÍTANIE BOŽIEHO SLOVA (Kol 3, 12-15)</font><br>"+
+            "Apoštol Pavol hovorí:<br>"+
+            "Ako Boží vyvolenci, svätí a milovaní, oblečte si hlboké milosrdenstvo, láskavosť, pokoru, miernosť a trpezlivosť. Znášajte sa navzájom a odpúšťajte si, ak by mal niekto niečo proti druhému. Ako Pán odpustil vám, tak aj vy! Ale nad všetko toto majte lásku, ktorá je zväzkom dokonalosti! A vo vašich srdciach nech vládne Kristov pokoj. Preň ste aj povolaní v jednom tele. A buďte vďační! <br>"+
+            "<font color='#B71C1C'>Alebo: (1Kor 15, 25-28)</font><br>"+
+            "Apoštol Pavol hovorí:<br>"+
+            "On musí kraľovať, kým mu nepoloží všetkých nepriateľov pod nohy. Ako posledný nepriateľ bude zničená smrť, lebo mu všetko položil pod nohy. Ale keď hovorí: „Všetko je podrobené“, je jasné, že okrem toho, ktorý mu všetko podrobil. A keď mu bude všetko podrobené, vtedy sa aj sám Syn podrobí tomu, ktorý mu všetko podrobil, aby bol Boh všetko vo všetkom. <br>"+
+            "<br>"+
+            "<font color='#B71C1C'>ÚVAHA (Benedikt XV.)</font><br>"+
+            "Je krásne hľadieť na Ježišovo Srdce ako symbol jeho nekonečnej lásky. Ešte krajšie je mať ho vždy živého blízko seba, v Oltárnej sviatosti. Najsvätejšie Srdce, ktoré uctievame, nie je mŕtve, nebijúce srdce, na ktoré môžeme iba spomínať. Je to Srdce živé, živé nielen v nebi, kde sídli oslávený človek Kristus Ježiš, ale je živé aj na zemi, všade, kde je Eucharistia. „V Eucharistii nás toto Božské Srdce spravuje a miluje, žije a prebýva s nami, aby sme aj my žili a prebývali v ňom.“ <br>"+
+            "<br>"+
+            "<font color='#B71C1C'>Chvíľa ticha.<br>"+
+            "V tejto chvíľke sa zasvätím Kristovi Kráľovi a poďakujem sa mu, že patrím do jeho kráľovstva, do kráľovstva pravdy a života, do kráľovstva svätosti a milosti, do kráľovstva spravodlivosti, lásky a pokoja.<br>"+
+            "<br>"+
+            "ZASVÄTENIE ĽUDSKÉHO POKOLENIA BOŽSKÉMU SRDCU<br>"+
+            "K.:</font> Ježišu, Vykupiteľ ľudského pokolenia,<br>"+
+            "zhliadni na nás, pokorne kľačiacich<br>"+
+            "pred tvojím oltárom:<br>"+
+            "<font color='#B71C1C'>Ľ.:</font> Tvoji sme a tvoji chceme zostať.<br>"+
+            "<font color='#B71C1C'>K.:</font> Aby sme sa mohli s tebou<br>"+
+            "ešte vrúcnejšie spojiť,<br>"+
+            "<font color='#B71C1C'>Ľ.:</font> každý z nás sa dnes dobrovoľne<br>"+
+            "zasväcuje tvojmu najsvätejšiemu Srdcu.<br>"+
+            "<font color='#B71C1C'>K.:</font> Mnohí ľudia ťa doteraz nepoznali<br>"+
+            "mnohí pohrdli tvojimi prikázaniami<br>"+
+            "a odmietli ťa,<br>"+
+            "<font color='#B71C1C'>Ľ.:</font> zmiluj sa nad nimi, dobrotivý Ježišu,<br>"+
+            "a všetkých strhni k tvojmu svätému Srdcu.<br>"+
+            "<font color='#B71C1C'>K.:</font> Pane, buď kráľom nielen svojim verným,<br>"+
+            "ktorí ťa nikdy neopustili,<br>"+
+            "ale aj márnotratným synom a dcéram;<br>"+
+            "<font color='#B71C1C'>Ľ.:</font> daj, aby sa čím skôr vrátili<br>"+
+            "do otcovského domu<br>"+
+            "a nezahynuli hladom a biedou.<br>"+
+            "<font color='#B71C1C'>K.:</font> Pane, buď kráľom i tým,<br>"+
+            "ktorých od teba odlúčili<br>"+
+            "mylné názory a rozkolníctvo;<br>"+
+            "<font color='#B71C1C'>Ľ.:</font> priveď ich naspäť do prístavu pravdy<br>"+
+            "a k jednote viery,<br>"+
+            "aby bolo jedno stádo a jeden pastier.<br>"+
+            "<font color='#B71C1C'>K.:</font> Daruj svojej Cirkvi slobodu a bezpečnosť,<br>"+
+            "všetkým národom poriadok a pokoj;<br>"+
+            "nech zo všetkých končín zeme<br>"+
+            "zaznieva jeden hlas:<br>"+
+            "<font color='#B71C1C'>Ľ.:</font> Sláva Božskému Srdcu,<br>"+
+            "ktoré nám prinieslo spásu;<br>"+
+            "jemu česť a chvála naveky.<br>"+
+            "<font color='#B71C1C'>V.:</font> Amen.<br>"+
+            "<br>"+
+            "<font color='#B71C1C'>Kňaz môže celú modlitbu predniesť sám.<br>"+
+            "<br>"+
+            "Nasleduje eucharistická pieseň, modlitba a požehnanie.<br>"+
+            "<br>"+
+            "Táto pobožnosť nech sa koná vo všetkých kostoloch aspoň pri hlavnej svätej omši alebo aj popoludní mimo omše. Pri ostatných omšiach pred požehnaním recitovať aspoň zasväcujúcu modlitbu. (</font>Porov. Pius XI. Quas primas z 11. decembra 1925<font color='#B71C1C'>).</font><br>"
+            ;
 
 }
 

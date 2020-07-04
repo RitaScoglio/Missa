@@ -1970,7 +1970,7 @@ public interface Trojdnie_text {
             {"N", "Spoločná modlitba veriacich"},
             {"K", null,
                     "Bratia a sestry, náš Spasiteľ pri Poslednej večeri ustanovil eucharistickú obetu svojho tela a krvi, aby ňou až do konca sveta sprítomňoval obetu kríža. V duchu sa spojme so všetkými bratmi a sestrami po celom svete a nábožne sa modlime. <br>" +
-                    "<i>(Volajme: Obdaruj svoju Cirkev jednotou a pokojom.)</i><br>" +
+                    "<i><font color='#B71C1C'>(</font>Volajme: Obdaruj svoju Cirkev jednotou a pokojom.<font color='#B71C1C'>)</font></i><br>" +
                     "<br>" +
                     "<font color='#B71C1C'>1.</font> Ježišu, zachovaj Svätého Otca <font color='#B71C1C'>M.</font> v zdraví a sile ducha pre dobro Cirkvi.<br>" +
                     "<font color='#B71C1C'>2.</font> Požehnaj nášho biskupa <font color='#B71C1C'>M.</font> a všetkých biskupov, aby jasne a zrozumiteľne ukazovali cestu k tebe.<br>" +

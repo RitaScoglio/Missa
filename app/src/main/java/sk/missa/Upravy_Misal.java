@@ -83,8 +83,8 @@ public class Upravy_Misal extends Main implements Upravy_misal {
                 putZvoncek();
                 return true;
             case R.id.menu_tiche_modlitby:
-                switch_tiche_modlitby.setChecked(!switch_tiche_modlitby.isChecked());
-                tiche_modlitby = switch_tiche_modlitby.isChecked();
+                switch_ticheModlitby.setChecked(!switch_ticheModlitby.isChecked());
+                ticheModlitby = switch_ticheModlitby.isChecked();
                 putTicheModlitby();
                 return true;
             case R.id.menu_info:
@@ -142,10 +142,10 @@ public class Upravy_Misal extends Main implements Upravy_misal {
                 putZvoncek();
             }
         });
-        switch_tiche_modlitby.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        switch_ticheModlitby.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                tiche_modlitby = isChecked;
+                ticheModlitby = isChecked;
                 putTicheModlitby();
             }
         });

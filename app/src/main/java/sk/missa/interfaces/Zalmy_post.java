@@ -753,7 +753,7 @@ public interface Zalmy_post {
             {"54", "4", "", "Ž 105, 4-5. 6-7. 8-9",
                     "<font color='#B71C1C'>R.:</font> Pán večne pamätá na svoju zmluvu.<br><br>" +
                             "Hľadajte Pána a jeho moc, <font color='#B71C1C'>*</font><br>" +
-                            "hľadajte vždy jeho tvá<font color='#B71C1C'>– R.</font><br>" +
+                            "hľadajte vždy jeho tvár.<br>" +
                             "Pamätajte na divy, čo učinil, <font color='#B71C1C'>*</font><br>" +
                             "na jeho znamenia a na výroky jeho úst, <font color='#B71C1C'>– R.</font><br>" +
                             "vy, potomci Abraháma, Pánovho služobníka, <font color='#B71C1C'>*</font><br>" +

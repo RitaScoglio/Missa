@@ -117,8 +117,8 @@ public class MisalSrdceJC extends Misal {
                 vypis();
                 return true;
             case R.id.menu_tiche_modlitby:
-                switch_tiche_modlitby.setChecked(!switch_tiche_modlitby.isChecked());
-                tiche_modlitby = switch_tiche_modlitby.isChecked();
+                switch_ticheModlitby.setChecked(!switch_ticheModlitby.isChecked());
+                ticheModlitby = switch_ticheModlitby.isChecked();
                 putTicheModlitby();
                 pozicia_listview = listView.getFirstVisiblePosition();
                 vypis();
@@ -188,10 +188,10 @@ public class MisalSrdceJC extends Misal {
                 vypis();
             }
         });
-        switch_tiche_modlitby.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        switch_ticheModlitby.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                tiche_modlitby = isChecked;
+                ticheModlitby = isChecked;
                 putTicheModlitby();
                 pozicia_listview = listView.getFirstVisiblePosition();
                 vypis();

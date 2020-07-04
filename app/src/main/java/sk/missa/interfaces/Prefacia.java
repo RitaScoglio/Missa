@@ -132,6 +132,7 @@ public interface Prefacia {
     };
 
     String[][] prefacia4 = {
+            {"003", "4"},
             {"02", "2", "8", "11"},
             {"04", "2", "8", "10"},
             {"05", "2", "8", "10"},
@@ -409,7 +410,7 @@ public interface Prefacia {
                             "spievame chválospev na tvoju slávu<br>" +
                             "a neprestajne voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -437,7 +438,7 @@ public interface Prefacia {
                             "spievame chválospev na tvoju slávu<br>" +
                             "a neprestajne voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -465,7 +466,7 @@ public interface Prefacia {
                             "Prosíme ťa, pripoj k nim aj naše hlasy,<br>" +
                             "keď spoločne voláme na tvoju slávu:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -493,7 +494,7 @@ public interface Prefacia {
                             "Preto so zástupmi anjelov a svätých<br>" +
                             "z celej duše spievame chválospev na tvoju slávu:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -520,7 +521,7 @@ public interface Prefacia {
                             "a so všetkými anjelmi chválime<br>" +
                             "a radostne voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -549,7 +550,7 @@ public interface Prefacia {
                             "a so všetkými anjelmi chválime<br>" +
                             "a radostne voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -578,7 +579,7 @@ public interface Prefacia {
                             "Preto sa pripájame k zástupom anjelov a svätých<br>" +
                             "a radostne spievame na tvoju chválu:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -606,7 +607,7 @@ public interface Prefacia {
                             "Preto ťa spolu s anjelmi chválime<br>" +
                             "a radostne vyznávame:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -636,7 +637,7 @@ public interface Prefacia {
                             "spievame chválospev na tvoju slávu<br>" +
                             "a neprestajne voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -663,7 +664,7 @@ public interface Prefacia {
                             "aby sme ťa s nimi<br>" +
                             "v pokornej úcte chválili:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -690,7 +691,7 @@ public interface Prefacia {
                             "Preto aj my ťa spolu s anjelmi oslavujeme<br>" +
                             "a radostne vyznávame:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -715,7 +716,7 @@ public interface Prefacia {
                             "Preto ťa spolu s anjelmi chválime<br>" +
                             "a radostne vyznávame:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -739,7 +740,7 @@ public interface Prefacia {
                             "Preto ťa so všetkými anjelmi a svätými oslavujeme<br>" +
                             "a bez prestania voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -768,7 +769,7 @@ public interface Prefacia {
                             "hlásame tvoju slávu<br>" +
                             "a jedným hlasom voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -795,7 +796,7 @@ public interface Prefacia {
                             "a so zástupmi všetkých svätých<br>" +
                             "spievame chválospev na tvoju slávu<br>" +
                             "a neprestajne voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -817,7 +818,7 @@ public interface Prefacia {
                             "mali vždy na zreteli večné hodnoty.<br>" +
                             "Preto ťa so všetkými anjelmi a svätými oslavujeme<br>" +
                             "a bez prestania voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -844,7 +845,7 @@ public interface Prefacia {
                             "a večne sa radujú v tvojej prítomnosti.<br>" +
                             "Prosíme ťa, pripoj k nim aj naše hlasy,<br>" +
                             "keď spoločne voláme na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -869,7 +870,7 @@ public interface Prefacia {
                             "i blažení serafíni ťa oslavujú spoločným plesaním.<br>" +
                             "Prosíme, dovoľ i nám,<br>" +
                             "aby sme ťa s nimi v pokornej úcte chválili:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -898,7 +899,7 @@ public interface Prefacia {
                             "raduje sa z Kristovho vzkriesenia<br>" +
                             "a v nebi anjeli so zástupmi svätých<br>" +
                             "neprestajne spievajú na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -925,7 +926,7 @@ public interface Prefacia {
                             "raduje sa z Kristovho vzkriesenia<br>" +
                             "a v nebi anjeli so zástupmi svätých<br>" +
                             "neprestajne spievajú na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -950,7 +951,7 @@ public interface Prefacia {
                             "raduje sa z Kristovho vzkriesenia<br>" +
                             "a v nebi anjeli so zástupmi svätých<br>" +
                             "neprestajne spievajú na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -974,7 +975,7 @@ public interface Prefacia {
                             "raduje sa z Kristovho vzkriesenia<br>" +
                             "a v nebi anjeli so zástupmi svätých<br>" +
                             "neprestajne spievajú na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -999,7 +1000,7 @@ public interface Prefacia {
                             "raduje sa z Kristovho vzkriesenia<br>" +
                             "a v nebi anjeli so zástupmi svätých<br>" +
                             "neprestajne spievajú na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1026,7 +1027,7 @@ public interface Prefacia {
                             "vo večnosti.<br>" +
                             "Preto so zástupmi anjelov a svätých<br>" +
                             "z celej duše spievame chválospev na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1050,7 +1051,7 @@ public interface Prefacia {
                             "Preto so zástupmi anjelov a svätých<br>" +
                             "aj my pútnici do nebeskej vlasti<br>" +
                             "ustavične ťa oslavujeme a radostne voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1072,7 +1073,7 @@ public interface Prefacia {
                             "zapálil v nej lásku k Bohu.<br>" +
                             "Preto aj my vzdávame ti vďaky<br>" +
                             "a so zástupmi anjelov oslavujeme tvoju velebu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1099,7 +1100,7 @@ public interface Prefacia {
                             "a spieva novú pieseň,<br>" +
                             "preto so všetkými anjelskými chórmi<br>" +
                             "aj my bez prestania voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1126,7 +1127,7 @@ public interface Prefacia {
                             "a večne sa radujú v tvojej prítomnosti.<br>" +
                             "Prosíme ťa, pripoj k nim aj naše hlasy,<br>" +
                             "keď spoločne voláme na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1150,7 +1151,7 @@ public interface Prefacia {
                             "Preto ťa oslavujeme<br>" +
                             "a so všetkými anjelmi chválime<br>" +
                             "a radostne voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1172,7 +1173,7 @@ public interface Prefacia {
                             "a prejavila sa moc ukrižovaného Krista.<br>" +
                             "Preto sa pripájame k zástupom anjelov a svätých<br>" +
                             "a radostne spievame na tvoju chválu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1196,7 +1197,7 @@ public interface Prefacia {
                             "a večne sa radujú v tvojej prítomnosti.<br>" +
                             "Prosíme ťa, pripoj k nim aj naše hlasy,<br>" +
                             "keď spoločne voláme na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1224,7 +1225,7 @@ public interface Prefacia {
                             "a so zástupmi všetkých svätých<br>" +
                             "spievame chválospev na tvoju slávu<br>" +
                             "a neprestajne voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1254,7 +1255,7 @@ public interface Prefacia {
                             "a so zástupmi všetkých svätých<br>" +
                             "spievame chválospev na tvoju slávu<br>" +
                             "a neprestajne voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1278,7 +1279,7 @@ public interface Prefacia {
                             "a so zástupmi všetkých svätých<br>" +
                             "spievame chválospev na tvoju slávu<br>" +
                             "a neprestajne voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1306,7 +1307,7 @@ public interface Prefacia {
                             "Preto ťa oslavujeme<br>" +
                             "a so všetkými anjelmi chválime<br>" +
                             "a radostne voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1331,7 +1332,7 @@ public interface Prefacia {
                             "a nám smrteľným dal podiel na tvojej večnosti.<br>" +
                             "Preto ťa spolu s anjelmi chválime<br>" +
                             "a radostne vyznávame:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1363,7 +1364,7 @@ public interface Prefacia {
                             "spievame chválospev na tvoju slávu<br>" +
                             "a neprestajne voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1400,7 +1401,7 @@ public interface Prefacia {
                             "preto so všetkými anjelskými chórmi<br>" +
                             "aj my bez prestania voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1429,7 +1430,7 @@ public interface Prefacia {
                             "Prosíme, dovoľ i nám, aby sme ťa s nimi<br>" +
                             "v pokornej úcte chválili:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1461,7 +1462,7 @@ public interface Prefacia {
                             "Prosíme ťa, pripoj k nim aj naše hlasy,<br>" +
                             "keď spoločne voláme na tvoju slávu:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1490,7 +1491,7 @@ public interface Prefacia {
                             "a spolu s nimi radostne voláme:<br>" +
                             "Svätý, svätý, svätý Pán Boh všetkých svetov ...<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1524,7 +1525,7 @@ public interface Prefacia {
                             "Prosíme, dovoľ i nám, aby sme ťa s nimi<br>" +
                             "v pokornej úcte chválili :<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1552,7 +1553,7 @@ public interface Prefacia {
                             "spievame chválospev na tvoju slávu<br>" +
                             "a neprestajne voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1579,7 +1580,7 @@ public interface Prefacia {
                             "chceme ti so zástupmi anjelov vrúcne spievať<br>" +
                             "a nadšene ťa oslavovať:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1610,7 +1611,7 @@ public interface Prefacia {
                             "spievame pieseň chvály<br>" +
                             "a radostne voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1637,7 +1638,7 @@ public interface Prefacia {
                             "Preto sa pripájame k zástupom anjelov a svätých<br>" +
                             "a radostne spievame na tvoju chválu:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1664,7 +1665,7 @@ public interface Prefacia {
                             "aj my, pútnici do nebeskej vlasti,<br>" +
                             "ustavične ťa oslavujeme a radostne voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1689,7 +1690,7 @@ public interface Prefacia {
                             "Preto so zástupmi anjelov a svätých<br>" +
                             "z celej duše spievame chválospev na tvoju slávu:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1714,7 +1715,7 @@ public interface Prefacia {
                             "Preto ťa so všetkými anjelmi a svätými oslavujeme<br>" +
                             "a bez prestania voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1743,7 +1744,7 @@ public interface Prefacia {
                             "spievame chválospev na tvoju slávu<br>" +
                             "a neprestajne voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1767,7 +1768,7 @@ public interface Prefacia {
                             "Preto ťa spolu s anjelmi chválime<br>" +
                             "a radostne vyznávame:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1792,7 +1793,7 @@ public interface Prefacia {
                             "Prosíme ťa, pripoj k nim aj naše hlasy,<br>" +
                             "keď spoločne voláme na tvoju slávu:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1819,7 +1820,7 @@ public interface Prefacia {
                             "Preto so zástupmi anjelov a svätých<br>" +
                             "z celej duše spievame na tvoju slávu:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1846,7 +1847,7 @@ public interface Prefacia {
                             "aj my, pútnici do nebeskej vlasti,<br>" +
                             "ustavične ťa oslavujeme a radostne voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1880,7 +1881,7 @@ public interface Prefacia {
                             "aj my, pútnici do nebeskej vlasti,<br>" +
                             "ustavične ťa oslavujeme a radostne voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1909,7 +1910,7 @@ public interface Prefacia {
                             "Preto ťa so všetkými anjelmi a svätými<br>" +
                             "oslavujeme a bez prestania voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1940,7 +1941,7 @@ public interface Prefacia {
                             "Preto ťa spolu s anjelmi chválime<br>" +
                             "a radostne vyznávame:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1970,7 +1971,7 @@ public interface Prefacia {
                             "aj my, pútnici do nebeskej vlasti,<br>" +
                             "ustavične ťa oslavujeme a radostne voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -1999,7 +2000,7 @@ public interface Prefacia {
                             "Preto ťa spolu s anjelmi chválime<br>" +
                             "a radostne vyznávame:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2027,7 +2028,7 @@ public interface Prefacia {
                             "Prosíme, dovoľ i nám,<br>" +
                             "aby sme ťa s nimi v pokornej úcte chválili:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2059,7 +2060,7 @@ public interface Prefacia {
                             "Preto ťa so všetkými anjelmi a svätými oslavujeme<br>" +
                             "a bez prestania voláme:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2089,7 +2090,7 @@ public interface Prefacia {
                             "Preto ťa so všetkými anjelmi a svätými<br>" +
                             "oslavujeme a bez prestania voláme: <br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2121,7 +2122,7 @@ public interface Prefacia {
                             "zvelebujeme ťa so všetkými anjelmi a svätými<br>" +
                             "a voláme na tvoju slávu:<br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2155,7 +2156,7 @@ public interface Prefacia {
                             "so všetkými anjelmi a svätými<br>" +
                             "a ustavične ti voláme na slávu : <br>" +
                             "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2189,7 +2190,7 @@ public interface Prefacia {
                             "a v nebi anjeli so zástupmi svätých<br>" +
                             "neprestajne spievajú na tvoju slávu:<br>" +
 
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2214,7 +2215,7 @@ public interface Prefacia {
                             "raduje sa z Kristovho vzkriesenia<br>" +
                             "a v nebi anjeli so zástupmi svätých<br>" +
                             "neprestajne spievajú na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2230,7 +2231,7 @@ public interface Prefacia {
                             "vzdávať vďaky vždy a všade<br>" +
                             "tebe, Pane, svätý Otče, všemohúci a večný Bože.<br>" +
                             "Lebo na zavŕšenie<br>" +
-                            "veľkonočného tajomstva naseJ spásy<br>" +
+                            "veľkonočného tajomstva našej spásy<br>" +
                             "zoslal si dnes Ducha Svätého na tých,<br>" +
                             "ktorých si v Kristovi, svojom Synovi,<br>" +
                             "prijal za svoje deti;<br>" +
@@ -2242,7 +2243,7 @@ public interface Prefacia {
                             "raduje sa z Kristovho vzkriesenia<br>" +
                             "a v nebi anjeli so zástupmi svätých<br>" +
                             "neprestajne spievajú na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2266,7 +2267,7 @@ public interface Prefacia {
                             "v ústrety nášmu Spasiteľovi,<br>" +
                             "chválime ťa so všetkými anjelmi a svätými<br>" +
                             "a bez prestania voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2291,7 +2292,7 @@ public interface Prefacia {
                             "a na ich príhovor nás ochraňuješ.<br>" +
                             "Preto so zástupmi anjelov a svätých<br>" +
                             "z celej duše spievame chválospev na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2319,7 +2320,7 @@ public interface Prefacia {
                             "a večne sa radujú v tvojej prítomnosti.<br>" +
                             "Prosíme ťa, pripoj k nim aj naše hlasy,<br>" +
                             "keď spoločne privolávame na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2342,7 +2343,7 @@ public interface Prefacia {
                             "Preto teraz i po celú večnosť<br>" +
                             "chceme ti so zástupmi anjelov vrúcne spievať<br>" +
                             "a nadšene ťa oslavovať:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2367,7 +2368,7 @@ public interface Prefacia {
                             "skrze nášho Pána Ježiša Krista.<br>" +
                             "Preto ťa spolu s anjelmi chválime<br>" +
                             "a radostne vyznávame:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2401,7 +2402,7 @@ public interface Prefacia {
                             "kým nenadíde preslávny deň Pánov.<br>" +
                             "Preto ťa so všetkými anjelmi a svätými oslavujeme<br>" +
                             "a bez prestania voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2435,7 +2436,7 @@ public interface Prefacia {
                             "a tebe stále dosvedčovať vernosť a lásku. <br>" +
                             "Preto sa pripájame k zástupom anjelov a svätých<br>" +
                             "a radostne spievame na tvoju chválu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2466,7 +2467,7 @@ public interface Prefacia {
                             "cherubíni a serafíni,<br>" +
                             "ktorí neprestajne spievajú<br>" +
                             "a jedným hlasom volajú:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2491,7 +2492,7 @@ public interface Prefacia {
                             "aby s radosťou čerpali z prameňov spásy.<br>" +
                             "Preto ťa so všetkými anjelmi a svätými oslavujeme<br>" +
                             "a bez prestania voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2522,7 +2523,7 @@ public interface Prefacia {
                             "a so zástupmi všetkých svätých<br>" +
                             "spievame chválospev na tvoju slávu<br>" +
                             "a neprestajne voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2550,7 +2551,7 @@ public interface Prefacia {
                             "a bola mu príkladom svätosti.<br>" +
                             "Preto ťa spolu s anjelmi chválime<br>" +
                             "a radostne vyznávame:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2575,7 +2576,7 @@ public interface Prefacia {
                     "a so zástupmi všetkých svätých<br>" +
                     "spievame chválospev na tvoju slávu<br>" +
                     "a neprestajne voláme:<br><br>" +
-                    "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                    "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                     "Plné sú, nebesia i zem tvojej slávy.<br>" +
                     "Hosana na výsostiach!<br>" +
                     "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2603,7 +2604,7 @@ public interface Prefacia {
                     "Preto so zástupmi anjelov a svätých<br>" +
                     "aj my, pútnici do nebeskej vlasti,<br>" +
                     "ustavične ťa oslavujeme a radostne voláme:<br><br>" +
-                    "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                    "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                     "Plné sú, nebesia i zem tvojej slávy.<br>" +
                     "Hosana na výsostiach!<br>" +
                     "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2635,7 +2636,7 @@ public interface Prefacia {
                             "a večne sa radujú v tvojej prítomnosti.<br>" +
                             "Prosíme ťa, pripoj k nim aj naše hlasy,<br>" +
                             "keď spoločne voláme na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2663,7 +2664,7 @@ public interface Prefacia {
                             "a večne sa radujú z tvojej prítomnosti.<br>" +
                             "Prosíme ťa, pripoj k nim aj naše hlasy,<br>" +
                             "keď spoločne voláme na tvoju slávu:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2689,7 +2690,7 @@ public interface Prefacia {
                             "k chválospevu Bohorodičky Panny,<br>" +
                             "ponížene chválime tvoju velebu<br>" +
                             "a so zástupmi anjelov a svätých neprestajne voláme:<br><br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2723,7 +2724,7 @@ public interface Prefacia {
                     "a našimi ústami všetko tvorstvo pod nebom,<br>" +
                     "velebíme tvoje meno a spievame:<br>" +
                     "<br>" +
-                    "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                    "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                     "Plné sú, nebesia i zem tvojej slávy.<br>" +
                     "Hosana na výsostiach!<br>" +
                     "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2767,7 +2768,7 @@ public interface Prefacia {
                     "ohlasujeme tvoju nesmiernu lásku,<br>" +
                     "tešíme sa z veľkého daru spásy<br>" +
                     "a radostne voláme na tvoju slávu:<br><br>" +
-                    "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                    "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                     "Plné sú, nebesia i zem tvojej slávy.<br>" +
                     "Hosana na výsostiach!<br>" +
                     "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
@@ -2798,7 +2799,7 @@ public interface Prefacia {
                     "neprestajne ti vzdávať vďaky<br>" +
                     "a chváliť ťa s nebeskými chórmi,<br>" +
                     "ktoré ťa ustavične oslavujú:<br><br>" +
-                    "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                    "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                     "Plné sú, nebesia i zem tvojej slávy.<br>" +
                     "Hosana na výsostiach!<br>" +
                     "Požehnaný, ktorý prichádza v mene Pánovom<br>" +

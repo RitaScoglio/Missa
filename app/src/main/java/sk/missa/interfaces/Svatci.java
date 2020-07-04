@@ -54,7 +54,10 @@ public interface Svatci {
     String[] VNdni = {"Nedeľa", "Veľkonočný pondelok", "Veľkonočný utorok", "Veľkonočná streda", "Veľkonočný štvrtok", "Veľkonočný piatok", "Veľkonočná sobota"};
     String[] maria = {"", "Panny Márie v sobotu", "Ľubovoľná spomienka", "(biela)"};
     String[] cisla_m = {"Prvý", "Druhý", "Tretí", "Štvrtý", "Piaty", "Šiesty", "Siedmy"};
-    String[] cisla_z = {"Prvá", "Druhá", "Tretia", "Štvrtá", "Piata", "Šiesta", "Siedma"};
+    String[] cisla_z = {"Prvá", "Druhá", "Tretia", "Štvrtá", "Piata", "Šiesta", "Siedma", "Ôsma", "Deviata", "Desiata", "Jedenásta", "Dvanásta", "Trinásta",
+            "Štrnásta", "Pätnásta", "Šestnásta", "Sedemnásta", "Osemnásta", "Devätnásta", "Dvadsiata", "Dvadsiata prvá", "Dvadsiata druhá", "Dvadsiata tretia",
+            "Dvadsiata štvrtá", "Dvadsiata piata", "Dvadsiata šiesta", "Dvadsiata siedma", "Dvadsiata ôsma", "Dvadsiata deviata", "Tridsiata", "Tridsiata prvá",
+            "Tridsiata druhá", "Tridsiata tretia", "Tridsiata štvrtá"};
 
     //SVIATKY V MESIACOCH V ROKU
     String[][] month1 ={
@@ -155,7 +158,7 @@ public interface Svatci {
             {"11", "Sv. Barnabáša, apoštola", "Spomienka", "(červená)"},
             {"13", "Sv. Antona Paduánskeho, kňaza a učiteľa Cirkvi", "Spomienka", "(biela)"},
             {"13gv", "ORDINARIÁT OZBROJENĆH SÍL A OZBROJENÝCH ZBOROV SR: Výročie posviacky katedrálneho chrámu", "Sviatok", "(biela)"},
-            {"16", "ROŽŇAVSKÁ DIECÉZA: Sv. Neita, mučeníka", "Spomienka", "(červená)"},
+            {"16+", "ROŽŇAVSKÁ DIECÉZA: Sv. Neita, mučeníka", "Spomienka", "(červená)"},
             {"19", "Sv. Romualda, opáta", "Ľubovoľná spomienka", "(biela)"},
             {"21", "Sv. Alojza Gonzágu, rehoľníka", "Spomienka", "(biela)"},
             {"22a", "Sv. Pavlína z Noly, biskupa", "Ľubovoľná spomienka", "(biela)"},
@@ -241,7 +244,7 @@ public interface Svatci {
             {"09", "Sv. Petra Clavera, kňaza", "Ľubovoľná spomienka", "(biela)"},
             {"12m", "Najsvätejšieho mena Panny Márie", "Ľubovoľná spomienka", "(biela)"},
             {"13", "Sv. Jána Zlatoústeho, biskupa a učiteľa Cirkvi", "Spomienka", "(biela)"},
-            {"14gn", "Povýšenie svätého kríža", "Sviatok", "(červená)"},
+            {"14gn", "Povýšenie svätého Kríža", "Sviatok", "(červená)"},
             //{"14*", "Sedembolestnej Panny Márie, patrónky Slovenska", "Vigília", "(biela)"},
             {"15gkm", "Sedembolestnej Panny Márie, patrónky Slovenska", "Slávnosť", "(biela)"},
             {"16", "Sv. Kornélia, pápeža, a sv. Cypriána, biskupa, mučeníkov", "Spomienka", "(červená)"},
@@ -249,7 +252,7 @@ public interface Svatci {
             {"19", "Sv. Januára, biskupa a mučeníka", "Ľubovoľná spomienka", "(červená)"},
             {"20", "Sv. Ondreja Kim Taegona, kňaza, a Pavla Chong Hasanga a spoločníkov, mučeníkov", "Spomienka", "(červená)"},
             {"21g", "Sv. Matúša, apoštola a evanjelistu", "Sviatok", "(červená)"},
-            {"22+", "NITRIANSKA DIECÉZA: Sv. Emeráma, biskupa a mučeníka, titul katedrály", "Spomienka", "(červená)"},
+            {"22+", "NITRIANSKA DIECÉZA: Sv. Emeráma, biskupa a mučeníka (Titul katedrály)", "Spomienka", "(červená)"},
             {"23", "Sv. Pia z Pietrelčiny, kňaza", "Spomienka", "(biela)"},
             {"24gv", "BANSKOBYSTRICKÁ DIECÉZA: Výročie posviacky katedrálneho chrámu svätého Františka Xaverského v Banskej Bystrici", "Sviatok", "(biela)"},
             {"26", "Sv. Kozmu a Damiána, mučeníkov", "Ľubovoľná spomienka", "(červená)"},
@@ -296,7 +299,7 @@ public interface Svatci {
             {"02cn", "Spomienka na všetkých verných zosnulých (3.)", "Spomienka", "(fialová)"},
             {"03", "Sv. Martina de Porres, rehoľníka", "Ľubovoľná spomienka", "(biela)"},
             {"04", "Sv. Karola Boromejského, biskupa", "Spomienka", "(biela)"},
-            {"05", "Sv. Imricha", "Ľubovoľná spomienka", "(biela)"},
+            {"05", "TRNAVSKÁ ARCIDIECÉZA, BANSKOBYSTRICKÁ, NITRIANSKÁ A ROŽŇAVSKÁ DIECÉZA: Sv. Imricha", "Ľubovoľná spomienka", "(biela)"},
             {"09g", "Výročie posviacky Lateránskej baziliky", "Sviatok", "(biela)"},
             {"10", "Sv. Leva Veľkého, pápeža a učiteľa Cirkvi", "Spomienka", "(biela)"},
             {"11", "Sv. Martina z Tours, biskupa", "Spomienka", "(biela)"},
@@ -306,10 +309,10 @@ public interface Svatci {
             {"16a", "Sv. Margity Škótskej", "Ľubovoľná spomienka", "(biela)"},
             {"16b", "Sv. Gertrúdy, panny", "Ľubovoľná spomienka", "(biela)"},
             {"17", "Sv. Alžbety Uhorskej, rehoľníčky", "Spomienka", "(biela)"},
-            {"17gk", "KOŠICE (iba v meste Košice): Sv. Alžbety Uhorskej, rehoľníčky - Titul katedrály a patrónka mesta Košice", "Slávnosť", "(biela)"},
+            {"17gk", "KATEDRÁLA SV. ALŽBETY V KOŠICIACH: Sv. Alžbety Uhorskej, rehoľníčky (Titul katedrály)", "Slávnosť", "(biela)"},
             {"18", "Výročie posviacky bazilík sv. Petra a sv. Pavla, apoštolov", "Ľubovoľná spomienka", "(biela)"},
-            {"20", "KOŠICKÁ ARCIDIECÉZA: Bl. Anny Kolesárovej, panny a mučenice", "Ľubovoľná spomienka", "(červená)"},
             {"20gv", "NITRIANSKA DIECÉZA: Výročie posviacky katedrálneho chrámu svätého Emeráma", "Sviatok", "(biela)"},
+            {"20", "KOŠICKÁ ARCIDIECÉZA: Bl. Anny Kolesárovej, panny a mučenice", "Ľubovoľná spomienka", "(červená)"},
             {"21m", "Obetovanie Panny Márie", "Spomienka", "(biela)"},
             {"22", "Sv. Cecílie, panny a mučenice", "Spomienka", "(červená)"},
             {"23a", "Sv. Klementa I., pápeža a mučeníka", "Ľubovoľná spomienka", "(červená)"},

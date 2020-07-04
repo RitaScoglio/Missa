@@ -743,12 +743,12 @@ public interface Citania_svatci {
                             "Statočným poskytuje ochranu, je štítom tým, čo žijú poctivo, dáva pozor na\u00A0chodníky spravodlivosti a chráni cestu svätých.<br>" +
                             "Až vtedy pochopíš spravodlivosť a právo, statočnosť a každú dobrú cestu.<br>" +
                             "Počuli sme Božie slovo."},
-            {"16", "", "", "Zach 2, 14-17",
+            /*{"16", "", "", "Zach 2, 14-17",
                     "Raduj sa, dcéra Siona, lebo hľa, ja prichádzam",
                     "Čítanie z Knihy proroka Zachariáša<br>" +
                             "Plesaj a raduj sa, dcéra Siona, lebo hľa, ja prichádzam a budem bývať uprostred teba, hovorí Pán. V\u00A0ten deň sa mnohé národy pripoja k\u00A0Pánovi a budú jeho ľudom. Budem bývať uprostred teba a budeš vedieť, že ma Pán zástupov poslal k\u00A0tebe.<br>" +
                             "Pán bude vlastniť Júdu ako svoj podiel vo\u00A0svätej zemi a znovu si vyvolí Jeruzalem. Nech mlčí pred\u00A0Pánom každé telo, lebo vstáva zo\u00A0svojho svätého príbytku.<br>" +
-                            "Počuli sme Božie slovo."},
+                            "Počuli sme Božie slovo."},*/
             {"17gk", "", "", "Gn 12, 1-4a ",
                     "Odíď zo\u00A0svojej krajiny, od\u00A0svojich príbuzných",
                     "Čítanie z Knihy Genezis<br>" +
@@ -764,7 +764,7 @@ public interface Citania_svatci {
                             "Napokon, bratia, myslite na\u00A0všetko, čo je pravdivé, čo je cudné, čo je spravodlivé, čo je mravne čisté, čo je milé a čo má dobrú povesť, čo je čnostné a chválitebné!<br>" +
                             "Robte to, čo ste sa naučili, prijali, počuli a videli na\u00A0mne! A Boh pokoja bude s\u00A0vami.<br>" +
                             "Počuli sme Božie slovo."},
-            {"22g", "", "", "Pies 3, 1-4a ",
+            {"22g", "", "", "Pies 3, 1-4a",
                     "Našla som toho, ktorého moja duša miluje",
                     "Čítanie z Knihy Pieseň piesní<br>" +
                             "Snúbenica vraví: Na\u00A0svojom lôžku po\u00A0nociach hľadala som toho, ktorého moja duša miluje; hľadala som ho, ale nenašla. \"Vstanem a mesto pochodím: po\u00A0uliciach a námestiach budem hľadať toho, ktorého miluje moja duša.\"<br>" +
@@ -778,6 +778,12 @@ public interface Citania_svatci {
                             "Bratia, ženie nás Kristova láska, keď si uvedomíme, že ak jeden zomrel za\u00A0všetkých, teda všetci zomreli. A zomrel za\u00A0všetkých, aby aj tí, čo žijú, už nežili pre\u00A0seba, ale pre\u00A0toho, ktorý za\u00A0nich zomrel a vstal z\u00A0mŕtvych.<br>" +
                             "Preto odteraz nepoznáme nikoho podľa tela. A ak sme aj poznali Krista podľa tela, teraz už nepoznáme. Kto je teda v\u00A0Kristovi, je novým stvorením. Staré sa pominulo a nastalo nové.<br>" +
                             "Počuli sme Božie slovo."},
+            {"23g", "", "", "Gal 2, 19-20",
+                    "Už nežijem ja, ale vo mne žije Kristus",
+                    "Čítanie z Listu svätého apoštola Pavla Galaťanom <br>" +
+                            "Bratia, ja som skrze zákon zomrel zákonu, aby som žil Bohu. S\u00A0Kristom som pribitý na\u00A0kríž.<br>" +
+                            "Už nežijem ja, ale vo\u00A0mne žije Kristus.<br>" +
+                            "Ale život, ktorý teraz žijem v\u00A0tele, žijem vo\u00A0viere v\u00A0Božieho Syna, ktorý ma miluje a vydal seba samého za\u00A0mňa."},
             {"25g", "", "", "2 Kor 4, 7-15",
                     "Nosíme na\u00A0tele Ježišovo umieranie",
                     "Čítanie z Druhého listu svätého apoštola Pavla Korinťanom<br>" +
@@ -803,6 +809,15 @@ public interface Citania_svatci {
                     "Čítanie z Knihy proroka Daniela<br>" +
                             "Díval som sa, kým postavili tróny, a Starec si sadol. Jeho rúcho bolo biele ako sneh a vlasy na\u00A0jeho hlave ako čistá vlna. Jeho trónom boli ohnivé plamene, kolesá jeho trónu blčiaci oheň. Od\u00A0neho vyvierala a prúdila ohnivá rieka; tisíce tisícov mu slúžili a desaťtisíce státisícov stáli okolo neho: zasadol k\u00A0súdu a knihy sa otvorili.<br>" +
                             "Videl som v\u00A0nočnom videní: V\u00A0nebeských oblakoch prichádzal ktosi ako Syn človeka a došiel až k\u00A0Starcovi. Priviedli ho pred\u00A0neho, dostal moc a slávu i kráľovstvo a budú mu slúžiť všetky národy, kmene a jazyky. Jeho vláda je večná, nikdy nezanikne, a jeho kráľovstvo nebude nikdy zničené.<br>" +
+                            "Počuli sme Božie slovo.",
+                    //iba ak nie je nedela
+                    "Alebo:",
+                    "2 Pt 1, 16-19",
+                    "Tento hlas sme my počuli; zaznel z\u00A0neba",
+                    "Čítanie z Druhého listu svätého apoštola Petra<br>" +
+                            "Milovaní, nesledovali sme vymyslené bájky, keď sme vás oboznámili s\u00A0mocou a príchodom nášho Pána Ježiša Krista, ale sami sme boli očitými svedkami jeho veleby.<br>" +
+                            "On dostal od\u00A0Boha Otca česť a slávu, keď mu z\u00A0velebnej slávy zaznel hlas: \"Toto je môj Syn, môj milovaný, v\u00A0ktorom mám zaľúbenie.\" A tento hlas sme my počuli; zaznel z\u00A0neba, keď sme boli s\u00A0ním na\u00A0svätom vrchu.<br>" +
+                            "Tým je aj prorocké slovo pre\u00A0nás pevnejšie. A vy dobre robíte, že hľadíte naň ako na\u00A0lampu, ktorá svieti v\u00A0temnom mieste, kým nesvitne deň a nevzíde vo\u00A0vašich srdciach zornica.<br>" +
                             "Počuli sme Božie slovo."},
             {"09g", "", "", "Oz 2, 16bc. 17c-e. 21-22",
                     "Navždy si ťa zasnúbim",
@@ -1101,7 +1116,7 @@ public interface Citania_svatci {
                     "Hľa, môj milý prichádza, po\u00A0horách skáče",
                     "Čítanie z Piesne piesní<br>" +
                             "Hlas môjho milého! Hľa, on prichádza, po\u00A0horách skáče, po\u00A0vŕškoch hupká. Milý môj je sťa srna, ako jeleníča. Hľa, veď už stojí pred\u00A0naším múrom; oblôčkom hľadí, cez\u00A0mriežku sa díva. Môj milý mi hovorí: \"Hor' sa, priateľka moja, holubica moja, krásava moja, a poď! Veď už je po\u00A0zime, dážď prestal, pominul. Na\u00A0zemi sa zjavili kvety, prišiel čas veselého spevu, hrkútanie hrdličky počuť v\u00A0našom kraji, fígovník vydáva svoje plody, vinič roznáša vôňu v\u00A0rozkvete. Nuž, hor' sa, priateľka moja, krásava moja, a poď! Holubica moja v\u00A0rozsadlinách skál, v\u00A0úkryte na\u00A0bralách! Daj zrieť mi svoju tvár, daj počuť mi svoj hlas; veď sladký je tvoj hlas a prekrásna je tvoja tvár.\"",
-                            "Alebo:",
+                    "Alebo:",
                     "Sof 3, 14-18a",
                     "Kráľ Izraela, Pán, je s\u00A0tebou",
                     "Čítanie z Knihy proroka Sofoniáša<br>" +
@@ -1439,7 +1454,7 @@ public interface Citania_svatci {
                             "Vierou aj neplodná Sára dostala napriek pokročilému veku silu počať potomka, lebo verila, že je verný ten, ktorý dal prisľúbenie. Preto aj z\u00A0jedného, a to odumretého, vzišlo ich také množstvo, ako je hviezd na\u00A0nebi a piesku na\u00A0brehu mora, a ten sa nedá spočítať.<br>" +
                             "S vierou obetoval Abrahám Izáka, keď bol skúšaný, a jednorodeného obetoval ten, ktorý dostal prisľúbenia a ktorému bolo povedané: \"Po Izákovi sa bude volať tvoje potomstvo.\" Usudzoval totiž, že Boh má moc aj z\u00A0mŕtvych vzkriesiť. Preto ho dostal naspäť aj ako predobraz.<br>" +
                             "Počuli sme Božie slovo.",
-            "Alebo:",
+                    "Alebo:",
                     "Kol 3, 12-21",
                     "Rodinný život v\u00A0Pánovi",
                     "Čítanie z Listu svätého apoštola Pavla Kolosanom<br>" +
@@ -1461,7 +1476,7 @@ public interface Citania_svatci {
                             "Milovaní, ak nám srdce nič nevyčíta, máme dôveru k\u00A0Bohu a dostaneme od\u00A0neho všetko, o\u00A0čo len budeme prosiť, lebo zachovávame jeho prikázania a robíme, čo sa jemu páči.<br>" +
                             "A toto je jeho prikázanie: aby sme verili v\u00A0meno jeho Syna Ježiša Krista a milovali jeden druhého, ako nám prikázal. Kto zachováva jeho prikázania, ostáva v\u00A0Bohu a Boh v\u00A0ňom. A že v\u00A0nás ostáva, poznáme z\u00A0Ducha, ktorého nám dal.<br>" +
                             "Počuli sme Božie slovo.",
-            "Alebo:",
+                    "Alebo:",
                     "Kol 3, 12-21",
                     "Rodinný život v\u00A0Pánovi",
                     "Čítanie z Listu svätého apoštola Pavla Kolosanom<br>" +
@@ -1486,7 +1501,7 @@ public interface Citania_svatci {
                     "Čítanie z Prvého listu svätého apoštola Jána<br>" +
                             "Milovaní, každý, kto verí, že Ježiš je Kristus, narodil sa z\u00A0Boha. A každý, kto miluje Boha ako Otca, miluje aj toho, kto sa z\u00A0neho narodil. Podľa toho poznáme, že milujeme Božie deti, keď milujeme Boha a plníme jeho prikázania. Lebo láska k\u00A0Bohu spočíva v\u00A0tom, že zachovávame jeho prikázania. A jeho prikázania nie sú ťažké. Veď všetko, čo sa narodilo z\u00A0Boha, premáha svet. A tým víťazstvom, ktoré premohlo svet, je naša viera.<br>" +
                             "Veď kto iný premáha svet, ak nie ten, kto verí, že Ježiš je Boží Syn? On je ten, ktorý prišiel skrze vodu a krv, Ježiš Kristus. Nielen skrze vodu, ale skrze vodu a krv. A Duch to dosvedčuje, pretože Duch je pravda. Lebo traja sú, čo svedčia: Duch, voda a krv; a títo traja sú zajedno. Ak prijímame svedectvo ľudí, Božie svedectvo je väčšie; pretože Božie svedectvo je to, že svedčil o\u00A0svojom Synovi.",
-            "Alebo:",
+                    "Alebo:",
                     "Sk 10, 34-38",
                     "Boh pomazal Ježiša Duchom Svätým",
                     "Čítanie zo Skutkov apoštolov<br>" +
@@ -1498,7 +1513,7 @@ public interface Citania_svatci {
                     "Čítanie z Listu svätého apoštola Pavla Títovi<br>" +
                             "Milovaný, zjavila sa Božia milosť na\u00A0spásu všetkým ľuďom a vychováva nás, aby sme sa zriekli bezbožnosti a svetských žiadostí a žili v\u00A0tomto veku triezvo, spravodlivo a nábožne, a tak očakávali blahoslavenú nádej a príchod slávy veľkého Boha a nášho Spasiteľa Ježiša Krista, ktorý vydal za\u00A0nás seba samého, aby nás vykúpil z\u00A0každej neprávosti a očistil si vlastný ľud, horlivý v\u00A0dobrých skutkoch.<br>" +
                             "Ale keď sa zjavila dobrota Boha, nášho Spasiteľa, a jeho láska k\u00A0ľuďom, spasil nás nie pre\u00A0spravodlivé skutky, ktoré sme my konali, ale zo\u00A0svojho milosrdenstva, kúpeľom znovuzrodenia a obnovy v\u00A0Duchu Svätom, ktorého na\u00A0nás hojne vylial skrze Ježiša Krista, nášho Spasiteľa, aby sme, ospravedlnení jeho milosťou, boli podľa nádeje dedičmi večného života.",
-            "Alebo:",
+                    "Alebo:",
                     "Sk 10, 34-38",
                     "Boh pomazal Ježiša Duchom Svätým",
                     "Čítanie zo Skutkov apoštolov<br>" +
@@ -1534,11 +1549,11 @@ public interface Citania_svatci {
     String[][] citanie2_2 = {
             //iba ak je v nedelu
             {"02g", "", "", "Hebr 2, 14-18",
-            "Vo všetkom sa musel pripodobniť bratom, aby sa stal milosrdným",
-            "Čítanie z Listu Hebrejom<br>" +
-                    "Pretože deti majú účasť na\u00A0krvi a tele, aj Ježiš mal podobne spoluúčasť na\u00A0nich, aby smrťou zničil toho, ktorý vládol smrťou, čiže diabla, a vyslobodil tých, ktorých celý život zotročoval strach pred\u00A0smrťou.<br>" +
-                    "Veď sa neujíma anjelov, ale ujíma sa Abrahámovho potomstva. Preto sa vo\u00A0všetkom musel pripodobniť bratom, aby sa stal milosrdným a verným veľkňazom pred\u00A0Bohom a odčinil hriechy ľudu. A pretože sám prešiel skúškou utrpenia, môže pomáhať tým, ktorí sú skúšaní.<br>" +
-                    "Počuli sme Božie slovo."}
+                    "Vo všetkom sa musel pripodobniť bratom, aby sa stal milosrdným",
+                    "Čítanie z Listu Hebrejom<br>" +
+                            "Pretože deti majú účasť na\u00A0krvi a tele, aj Ježiš mal podobne spoluúčasť na\u00A0nich, aby smrťou zničil toho, ktorý vládol smrťou, čiže diabla, a vyslobodil tých, ktorých celý život zotročoval strach pred\u00A0smrťou.<br>" +
+                            "Veď sa neujíma anjelov, ale ujíma sa Abrahámovho potomstva. Preto sa vo\u00A0všetkom musel pripodobniť bratom, aby sa stal milosrdným a verným veľkňazom pred\u00A0Bohom a odčinil hriechy ľudu. A pretože sám prešiel skúškou utrpenia, môže pomáhať tým, ktorí sú skúšaní.<br>" +
+                            "Počuli sme Božie slovo."}
     };
 
     String[][] citanie2_3 = {};
@@ -2443,12 +2458,12 @@ public interface Citania_svatci {
                             "Peter povedal Ježišovi: \"Pozri, my sme opustili všetko a išli sme za\u00A0tebou. Čo z\u00A0toho teda budeme mať?\"<br>" +
                             "Ježiš im povedal: \"Veru, hovorím vám: Pri\u00A0obnovení sveta, keď Syn človeka zasadne na\u00A0trón svojej slávy, aj vy, čo ste išli za\u00A0mnou, zasadnete na\u00A0dvanásť trónov a budete súdiť dvanásť kmeňov Izraela. A každý, kto pre\u00A0moje meno opustí domy alebo bratov a sestry, alebo otca a matku, alebo deti, alebo polia, dostane stonásobne viac a bude dedičom večného života.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            {"16", "", "", "Mt 12, 46-50",
+            /*{"16", "", "", "Mt 12, 46-50",
                     "Vystrel ruku nad\u00A0svojich učeníkov a povedal: Hľa, moja matka a moji bratia",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Kým Ježiš hovoril zástupom, vonku stála jeho matka a bratia a chceli sa s\u00A0ním rozprávať. Ktosi mu povedal: \"Vonku stojí tvoja matka a tvoji bratia a chcú sa s\u00A0tebou rozprávať.\" On však odvetil tomu, čo mu to vravel: \"Kto je moja matka a kto sú moji bratia?\"<br>" +
                             "Vystrel ruku nad\u00A0svojich učeníkov a povedal: \"Hľa, moja matka a moji bratia. Lebo každý, kto plní vôľu môjho Otca, ktorý je na\u00A0nebesiach, je môj brat i sestra i matka.\"<br>" +
-                            "Počuli sme slovo Pánovo."},
+                            "Počuli sme slovo Pánovo."},*/
             {"17gk", "", "", "Lk 12, 35-40",
                     "Aj vy buďte pripravení",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +

@@ -529,7 +529,7 @@ public interface Prosby_post {
                             "dovoľ nám radovať sa z tvojho pokoja<br>" +
                             "a vždy plniť tvoju vôľu.<br>" +
                             "Skrze Krista, nášho Pána."},
-            {"50", "A", "Bratia a sestry, Pán Ježiš, ktorý vzkriesil Lazára, svojím Duchom vzkriesi aj nás. Pokorne a s vierou ho prosme za svoju spásu 0i za spásu celého sveta.",
+            {"50", "A", "Bratia a sestry, Pán Ježiš, ktorý vzkriesil Lazára, svojím Duchom vzkriesi aj nás. Pokorne a s vierou ho prosme za svoju spásu i za spásu celého sveta.",
                     "<font color='#B71C1C'>(</font>Volajme: Obnov nás, Pane, a vyslyš naše prosby.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Ježišu, daj, aby tvoja Cirkev bola vždy verná tomu, čo si jej zveril.<br>" +
                             "<font color='#B71C1C'>2.</font> Ježišu, daj biskupom a kňazom múdrosť, keď povzbudzujú ľud k obráteniu.<br>" +

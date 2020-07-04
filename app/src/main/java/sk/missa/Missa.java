@@ -77,7 +77,8 @@ public class Missa {
         this.medzera = medzera;
     }
 
-    Missa(String sekcia, String text_small, String text){ //tiche modlitby knaza
+    //tiche modlitby knaza
+    Missa(String sekcia, String text_small, String text){
         this.sekcia = sekcia;
         this.text_small = text_small;
         this.text = text;

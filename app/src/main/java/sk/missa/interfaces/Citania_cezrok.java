@@ -6195,8 +6195,8 @@ public interface Citania_cezrok {
                             "Každého, kto mňa vyzná pred\u00A0ľuďmi, aj ja vyznám pred\u00A0svojím Otcom, ktorý je na\u00A0nebesiach. Ale toho, kto mňa zaprie pred\u00A0ľuďmi, aj ja zapriem pred\u00A0svojím Otcom, ktorý je na\u00A0nebesiach.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"15", "A", "", "Mt 13, 1-23",
+                    "Rozsievač vyšiel rozsievať",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
-                            "Rozsievač vyšiel rozsievať<br>" +
                             "V ten deň vyšiel Ježiš z\u00A0domu a posadil sa pri\u00A0mori. Okolo neho sa zhromaždili veľké zástupy. Preto nastúpil na\u00A0loďku a sadol si; a celý zástup stál na\u00A0brehu.<br>" +
                             "Hovoril im veľa v\u00A0podobenstvách: \"Rozsievač vyšiel rozsievať. Ako sial, niektoré zrná padli na\u00A0kraj cesty; prileteli vtáky a pozobali ich.<br>" +
                             "Iné padli na\u00A0skalnatú pôdu, kde nemali veľa zeme, a hneď vzišli, lebo neboli hlboko v\u00A0zemi; ale keď vyšlo slnko, zahoreli, a pretože nemali koreňa, uschli.<br>" +
@@ -6521,7 +6521,15 @@ public interface Citania_cezrok {
                             "Preplavili sa na\u00A0druhý breh a došli do\u00A0kraja Genezaret. Len čo ho obyvatelia toho kraja spoznali, vyslali poslov do\u00A0celého okolia. I prinášali k\u00A0nemu všetkých chorých a prosili ho, aby sa smeli dotknúť aspoň obruby jeho odevu. A všetci, čo sa ho dotkli, ozdraveli.<br>" +
                             "Počuli sme slovo Pánovo."},
             // Namiesto tohto evanjelia sa môže, najmä v\u00A0ročnom cykle A, keď sa toto evanjelium čítalo včera, nasledujúce evanjelium: Mt 15, 1-2. 10-14
-            {"18", "3", "", "Mt 15, 21-28",
+            {"18", "2", "", "Mt 15, 11-2. 10-14",
+                    "Každú rastlinu, ktorú nezasadil môj otec, vytrhnú aj s\u00A0koreňom",
+                            "Čítanie zo\u00A0svätého evanjelia podľa Matúša<br>" +
+                            "K\u00A0Ježišovi prišli farizeji a zákonníci z\u00A0Jeruzalema a opýtali sa ho: „Prečo tvoji učeníci prestupujú obyčaje otcov? Veď si neumývajú ruky, keď jedia chlieb.“<br>" +
+                            "On zavolal k\u00A0sebe zástup a povedal im: „Počúvajte a pochopte: Človeka nepoškvrňuje to, čo vchádza do\u00A0úst, ale čo vychádza z\u00A0úst, to poškvrňuje človeka.“<br>" +
+                            "Tu pristúpili učeníci a povedali mu: „Vieš, že sa farizeji pohoršili, keď počuli, čo si povedal?“<br>" +
+                            "On im odpovedal: „Každú rastlinu, ktorú nezasadil môj nebeský Otec, vytrhnú aj s\u00A0koreňom. Nechajte ich. Sú slepými vodcami slepých. A keď slepý vedie slepého, obaja padnú do\u00A0jamy.“<br>" +
+                            "Počuli sme slovo Pánovo."},
+{"18", "3", "", "Mt 15, 21-28",
                     "Žena, veľká je tvoja viera",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Ježiš sa odobral do\u00A0okolia Týru a Sidonu. Tu prišla k\u00A0nemu istá kanaánska žena z\u00A0tých končín a kričala: \"Zmiluj sa nado mnou, Pane, syn Dávidov! Dcéru mi hrozne trápi zlý duch.\" Ale on jej neodpovedal ani slovo.<br>" +

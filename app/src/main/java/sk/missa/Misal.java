@@ -623,6 +623,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     aleboCitanie(cezrokCitanie1, index, 1);
                 }
             } else if (VN) {
+                Log.d("idex", String.valueOf(tyzden));
+                Log.d("idex", String.valueOf(dvt));
                 prve_citanie_suradnice = velkanocCitanie1[index][3];
                 prve_citanie_citat = velkanocCitanie1[index][4];
                 prve_citanie_vypis = velkanocCitanie1[index][5];
@@ -720,7 +722,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             prveCitanie();
         }
         //ak je na výber viac čítaní
-        if (index != -1 && citanie[index].length > 6 && !(ID.equals("02g") && m == 1 && dvt == 0)) {
+        //Premenenie Pana - ak nie je v nedelu, druhe citanie je ako alternativa k prvemu
+        if (index != -1 && citanie[index].length > 6 && !(ID.equals("02g") && m == 1 && dvt == 0) && (ID.equals("06gn") && !nedela)) {
             aleboCitanie(citanie, index, 1);
         }
     }
@@ -884,7 +887,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void druheCitanie() {
         druhe_citanie = null;
         //zisti ci je druhe citanie v dany den
-        if ((ID.contains("k") || ID.contains("n") || menoSvatca.equals("POPOLCOVÁ STREDA") ||
+        if ((ID.contains("k") || (ID.contains("n") && nedela)|| menoSvatca.equals("POPOLCOVÁ STREDA") ||
                 nedela || (ID.equals("02g") && m == 1 && dvt == 0)) && !slavenie.equals("Oktáva")) {
             druhe_citanie = "Druhé čítanie";
             int index = 0;
@@ -1280,6 +1283,10 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             if (C) {
                 index = index + 3;
                 while (!cezrokEvanjelium[index][1].equals(Integer.toString(dvt))) {
+                    index++;
+                }
+                //vynimka v 18 tyzdni v pondelok a utorok v roku A
+                if (tyzden == 18 && cirkevRok == 1 && (dvt == 1 || dvt == 2)) {
                     index++;
                 }
                 evanjelium_suradnice = cezrokEvanjelium[index][3];
@@ -1736,12 +1743,16 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 //výzvy na modlitbu "Otče náš" podľa obdobia
                 if (A) {
                     s = "Boh nás tak miloval, že nám poslal svojho jednorodeného Syna za Spasiteľa; preto sa osmeľujeme povedať:";
+                    i = i + 2;
                 } else if (V) {
                     s = "Boh sa stal človekom, aby sme sa my mohli stať Božími deťmi; preto sa s vďačným srdcom modlime:";
+                    i = i + 2;
                 } else if (P) {
                     s = "Ak chceme volať Boha naším Otcom, musíme si navzájom odpustiť; buďme ako jedna rodina a spoločne sa modlime:";
+                    i = i + 2;
                 } else if (VN) {
                     s = "Voláme sa Božími deťmi a nimi aj sme; preto sa modlime s veľkou dôverou:";
+                    i = i + 2;
                 } else
                     s = obrad[4];
                 missas.add(new Missa(obrad[3], s, false));
@@ -2521,6 +2532,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         } else if (dialog == 9) {//Príď, Duchu Svätý, tvorivý - 1.1.
             builder.setMessage(prid_Duchu_svaty_tvorivy);
             builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Príď, Duchu Svätý, tvorivý</b></font>")));
+        } else if (dialog == 10){
+            builder.setMessage(Html.fromHtml(nahrad(modlitba_zasvatenia)));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Zasvätenie ľudského pokolenia Božskému Srdcu</b></font>")));
         }
 
         builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
@@ -2635,6 +2649,11 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         missas.add(new Missa(pozdrav, true, 1));
         missas.add(new Missa(1)); //medzera mala
         missas.add(new Missa(kajucnost, true, 2));
+        if(ticheModlitby){
+            missas.add(new Missa(1)); //medzera mala
+            missas.add(new Missa(tiche_modlitby[0][0], tiche_modlitby[0][1], tiche_modlitby[0][2]));
+            missas.add(new Missa(null,tiche_modlitby[0][3], tiche_modlitby[0][4]));
+        }
         if (gloria != null) {
             missas.add(new Missa(1)); //medzera mala
             missas.add(new Missa(gloria, true, 3));//vynimka v poste
@@ -2667,12 +2686,12 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             vypisAlebo(missas, aleboEvanjelium, 13);
         if (evanjelium_vypis.equals("pasie")) {
             vypisAleboPasie(missas);
-        } else if (tiche_modlitby) {
-            missas.add(new Missa(ticheModlitby[0][0], null, ticheModlitby[0][1]));
+        } else if (ticheModlitby) {
+            missas.add(new Missa(tiche_modlitby[1][0], null, tiche_modlitby[1][1]));
             missas.add(new Missa(1)); //medzera mala
             missas.add(new Missa(null, evanjelium.toUpperCase(), evanjelium_suradnice, evanjelium_citat, evanjelium_vypis, true, -2));
             missas.add(new Missa(1)); //medzera mala
-            missas.add(new Missa(ticheModlitby[1][0], null, ticheModlitby[1][1]));
+            missas.add(new Missa(tiche_modlitby[2][0], null, tiche_modlitby[2][1]));
         } else
             missas.add(new Missa(null, evanjelium.toUpperCase(), evanjelium_suradnice, evanjelium_citat, evanjelium_vypis, true, -2));
         if (kredo != null) {
@@ -2684,11 +2703,11 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         if (aleboProsby != null)
             vypisAlebo(missas, aleboProsby, 15);
         missas.add(new Missa(prosby.toUpperCase(), prosby_uvod, prosby_zvolanie, "<br>" + prosby_vypis + "<br><br>" + prosby_zaver, true));
-        if (tiche_modlitby) {
+        if (ticheModlitby) {
             missas.add(new Missa(1)); //medzera mala
-            missas.add(new Missa(ticheModlitby[2][0], ticheModlitby[2][1], ticheModlitby[2][2]));
-            for (int i = 3; i < ticheModlitby[2].length; i = i + 2) {
-                missas.add(new Missa(null, ticheModlitby[2][i], ticheModlitby[2][i + 1]));
+            missas.add(new Missa(tiche_modlitby[3][0], tiche_modlitby[3][1], tiche_modlitby[3][2]));
+            for (int i = 3; i < tiche_modlitby[3].length; i = i + 2) {
+                missas.add(new Missa(null, tiche_modlitby[3][i], tiche_modlitby[3][i + 1]));
             }
         }
         missas.add(new Missa(1)); //medzera mala
@@ -2701,9 +2720,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         obradPrijimania(missas);
         missas.add(new Missa(1)); //medzera mala
         missas.add(new Missa(null, prijimanie_spev.toUpperCase(), prijimanie_suradnice, null, prijimanie_vypis, true, 0));
-        if (tiche_modlitby) {
+        if (ticheModlitby) {
             missas.add(new Missa(1)); //medzera mala
-            missas.add(new Missa(null, ticheModlitby[3][1], ticheModlitby[3][2]));
+            missas.add(new Missa(null, tiche_modlitby[4][1], tiche_modlitby[4][2]));
         }
         if (menoSvatca.equals("Slávnosť Panny Márie Bohorodičky")) {//vyskakovacie po prijímaní (31.12.,1.1.)
             if (ID.equals("31gk")) {
@@ -2716,6 +2735,10 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         }
         missas.add(new Missa(1)); //medzera mala
         missas.add(new Missa(modlitba_prijimanie.toUpperCase(), null, null, null, modlitba_prijimanie_vypis, true, 0));
+        if(ID.equals("8gkp")) { //nedela Krista Krala - modlitba zasvatenia
+            missas.add(new Missa(1)); //medzera mala
+            missas.add(new Missa("<font color='#B71C1C'>Zasvätenie ľudského pokolenia Božskému Srdcu (otvoriť)</font>", true, 18));
+        }
         missas.add(new Missa(1)); //medzera mala
         pozehnanie(missas); //otvor = 6, 7
         if (slav_pozehnanie != -1) {
@@ -2857,6 +2880,10 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         break;
                     case 17:
                         kvetnaNedelaDialog();
+                        break;
+                    case 18:
+                        otvorenie(10);
+                        double_click = 0;
                         break;
                     default:
                         break;
