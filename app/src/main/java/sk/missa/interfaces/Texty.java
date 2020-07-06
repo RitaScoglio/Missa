@@ -21,104 +21,104 @@ package sk.missa.interfaces;
  */
 
 public interface Texty {
-    String uvodnyPozdrav = "<font color='#B71C1C'>Kňaz:</font> <b>Milosť nášho Pána Ježiša Krista a láska Boha Otca i spoločenstvo Ducha Svätého nech je s vami všetkými.</b><br>" +
+    String uvodnyPozdrav = "<font color='#B71C1C'>Kňaz:</font>Milosť nášho Pána Ježiša Krista a láska Boha Otca i spoločenstvo Ducha Svätého nech je s vami všetkými.<br>" +
             "<font color='#B71C1C'>Ľud:</font> I s duchom tvojim.<br>" +
             "<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> <b>Milosť vám a pokoj od Boha, nášho Otca, i od Pána Ježiša Krista.</b><br>" +
+            "<font color='#B71C1C'>Kňaz:</font> Milosť vám a pokoj od Boha, nášho Otca, i od Pána Ježiša Krista.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Nech je zvelebený Boh a Otec nášho Pána Ježiša Krista.<br>" +
             "<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> <b>Milosť a pokoj nech sú s vami všetkými vo svätej Božej Cirkvi.</b><br>" +
+            "<font color='#B71C1C'>Kňaz:</font> Milosť a pokoj nech sú s vami všetkými vo svätej Božej Cirkvi.<br>" +
             "<font color='#B71C1C'>Ľud:</font> I s duchom tvojim.<br>" +
             "<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> <b>Milosť, milosrdenstvo a pokoj nášho Boha Otca i Ježiša Krista, nášho Spasiteľa, nech je s vami všetkými.</b><br>" +
+            "<font color='#B71C1C'>Kňaz:</font> Milosť, milosrdenstvo a pokoj nášho Boha Otca i Ježiša Krista, nášho Spasiteľa, nech je s vami všetkými.<br>" +
             "<font color='#B71C1C'>Ľud:</font> I s duchom tvojim.<br>" +
             "<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> <b>Milosť vám a pokoj od Boha Otca a od Ježiša Krista, ktorý si vás zamiloval, a svojou krvou obmyl vás od hriechov.</b><br>" +
+            "<font color='#B71C1C'>Kňaz:</font> Milosť vám a pokoj od Boha Otca a od Ježiša Krista, ktorý si vás zamiloval, a svojou krvou obmyl vás od hriechov.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Jemu sláva na veky vekov. Amen.<br>" +
             "<i>(alebo)</i><br>" +
             "<font color='#B71C1C'>Ľud:</font> Nech je zvelebený Boh a Otec nášho Pána Ježiša Krista.<br>" +
             "<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> <b>Milosť, milosrdenstvo a pokoj vám od Boha a od Ježiša Krista, jeho Syna a nášho Pána, v pravde a láske.</b><br>" +
+            "<font color='#B71C1C'>Kňaz:</font> Milosť, milosrdenstvo a pokoj vám od Boha a od Ježiša Krista, jeho Syna a nášho Pána, v pravde a láske.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<i>(alebo)</i><br>" +
             "<font color='#B71C1C'>Ľud:</font> I s duchom tvojim.<br>" +
             "<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> <b>Nech vám Pán otvorí srdcia, aby ste poznali jeho zákon, nech vyslyší vaše prosby a nech vás zmieri so sebou a udelí vám svoj pokoj.</b><br>" +
+            "<font color='#B71C1C'>Kňaz:</font> Nech vám Pán otvorí srdcia, aby ste poznali jeho zákon, nech vyslyší vaše prosby a nech vás zmieri so sebou a udelí vám svoj pokoj.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<i>(alebo)</i><br>" +
             "<font color='#B71C1C'>Ľud:</font> I s duchom tvojim.<br>" +
             "<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> <b>Milosť vám a pokoj od Boha, nášho Otca, i od Ježiša Krista, ktorý dal svoj život za naše hriechy.</b><br>" +
+            "<font color='#B71C1C'>Kňaz:</font> Milosť vám a pokoj od Boha, nášho Otca, i od Ježiša Krista, ktorý dal svoj život za naše hriechy.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Jemu sláva na veky vekov. Amen.<br>" +
             "<i>(alebo)</i><br>" +
             "<font color='#B71C1C'>Ľud:</font> I s duchom tvojim.";
 
     String[][] ukonKajucnosti = {
-            {"Cezrok", "<font color='#B71C1C'>—</font> <b>Ježišu, ty si prijal ľudskú prirodzenosť, aby si nás spasil: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si zomrel na kríži za všetkých ľudí: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si nám otvoril cestu do neba: Pane, zmiluj sa.</b><br>" +
+            {"Cezrok", "<font color='#B71C1C'>—</font> Ježišu, ty si prijal ľudskú prirodzenosť, aby si nás spasil: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si zomrel na kríži za všetkých ľudí: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si nám otvoril cestu do neba: Pane, zmiluj sa.<br>" +
                     "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ježišu, ty si dobrý Pastier a poznáš svoje ovečky: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty hľadáš každú stratenú ovečku: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty nás vedieš na nebeské pastviny: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "<br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ježišu, ty si cesta, ktorá vedie k Otcovi: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si pravda, ktorá osvecuje ľudstvo: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si život, ktorý obnovuje celý svet: Pane, zmiluj sa.</b><br>" +
+                    "<font color='#B71C1C'>—</font> Ježišu, ty si dobrý Pastier a poznáš svoje ovečky: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty hľadáš každú stratenú ovečku: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty nás vedieš na nebeské pastviny: Pane, zmiluj sa.<br>" +
                     "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Pane Ježišu, ty máš slová života večného: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si tichý a pokorný srdcom: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si bol pre nás poslušný až na smrť na kríži: Pane, zmiluj sa.</b><br>" +
+                    "<font color='#B71C1C'>—</font> Ježišu, ty si cesta, ktorá vedie k Otcovi: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si pravda, ktorá osvecuje ľudstvo: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si život, ktorý obnovuje celý svet: Pane, zmiluj sa.<br>" +
                     "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ježišu, ty si odpustil plačúcemu Petrovi, ktorý ťa zaprel: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si prisľúbil nebeské kráľovstvo kajúcemu zločincovi na kríži: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si dal apoštolom Ducha Svätého, aby odpúšťali hriechy: Pane, zmiluj sa.</b><br>" +
+                    "<font color='#B71C1C'>—</font> Pane Ježišu, ty máš slová života večného: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si tichý a pokorný srdcom: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si bol pre nás poslušný až na smrť na kríži: Pane, zmiluj sa.<br>" +
                     "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ježišu, ty si zomrel, aby každý, kto uverí v teba, mal život večný: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si prišiel na svet hladať, čo sa bolo stratilo: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si bol poslaný od Otca, nie aby si svet súdil, ale aby si ho spasil: Pane, zmiluj sa.</b><br>" +
+                    "<font color='#B71C1C'>—</font> Ježišu, ty si odpustil plačúcemu Petrovi, ktorý ťa zaprel: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si prisľúbil nebeské kráľovstvo kajúcemu zločincovi na kríži: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si dal apoštolom Ducha Svätého, aby odpúšťali hriechy: Pane, zmiluj sa.<br>" +
                     "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ježišu, ty si prišiel na svet zmieriť ľudí s nebeským Otcom: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si sa stal poslušným sluhom, aby si nás hriešnych urobil Božími deťmi: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty večne žiješ u Otca v jednote s Duchom Svätým, aby si sa za nás prihováral: Pane, zmiluj sa.</b>"},
-            {"Advent", "<font color='#B71C1C'>—</font> <b>Ježišu, ty prichádzaš volať nie spravodlivých, ale hriešnikov: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty nalomenú trstinu nedolomíš a hasnúci knôt nedohasíš: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Tvoje slovo nám dáva nádej a silu, prináša zľutovanie a lásku: Pane, zmiluj sa.</b><br><br>" +
+                    "<font color='#B71C1C'>—</font> Ježišu, ty si zomrel, aby každý, kto uverí v teba, mal život večný: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si prišiel na svet hladať, čo sa bolo stratilo: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si bol poslaný od Otca, nie aby si svet súdil, ale aby si ho spasil: Pane, zmiluj sa.<br>" +
+                    "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ježišu, ty si od večnosti Syn Boží: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si sa stal synom Panny Márie: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty oslobodzuješ človeka od viny a od zlého: Pane, zmiluj sa.</b><br>"},
-            {"Vianoce", "<font color='#B71C1C'>—</font> <b>Ty, večné Slovo nebeského Otca, stal si sa človekom: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si začiatkom nového života: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Skrze teba môže celé stvorenie nájsť pokoj v Bohu: Pane, zmiluj sa.</b><br><br>" +
+                    "<font color='#B71C1C'>—</font> Ježišu, ty si prišiel na svet zmieriť ľudí s nebeským Otcom: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si sa stal poslušným sluhom, aby si nás hriešnych urobil Božími deťmi: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty večne žiješ u Otca v jednote s Duchom Svätým, aby si sa za nás prihováral: Pane, zmiluj sa."},
+            {"Advent", "<font color='#B71C1C'>—</font> Ježišu, ty prichádzaš volať nie spravodlivých, ale hriešnikov: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty nalomenú trstinu nedolomíš a hasnúci knôt nedohasíš: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Tvoje slovo nám dáva nádej a silu, prináša zľutovanie a lásku: Pane, zmiluj sa.<br><br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ježišu, ty si veľkým svetlom pre ľudstvo tápajúce v tmách: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si záchrancom svojho ľudu a splnením jeho nádejí: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>V tebe sa nám zjavila dobrota a láskavosť nášho nebeského Otca: Pane, zmiluj sa.</b><br>"},
-            {"Pôst", "<font color='#B71C1C'>—</font> <b>Ježišu, ty si žil ako človek, vo všetkom nám podobný okrem hriechu: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si v ťažkej hodine skúšky v Getsemanskej záhrade prijal vôľu nebeského Otca: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty nás dnes voláš, aby sme sa obrátili a nasledovali ťa: Pane, zmiluj sa.</b><br><br>" +
+                    "<font color='#B71C1C'>—</font> Ježišu, ty si od večnosti Syn Boží: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si sa stal synom Panny Márie: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty oslobodzuješ človeka od viny a od zlého: Pane, zmiluj sa.<br>"},
+            {"Vianoce", "<font color='#B71C1C'>—</font> Ty, večné Slovo nebeského Otca, stal si sa človekom: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si začiatkom nového života: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Skrze teba môže celé stvorenie nájsť pokoj v Bohu: Pane, zmiluj sa.<br><br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ježišu, ty si prišiel medzi hriešnikov a priniesol si im Otcovo odpustenie: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si vydal seba samého na smrť, aby si hriešnikom dal život: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si prameňom božskej sily a nového života: Pane, zmiluj sa.</b><br><br>" +
+                    "<font color='#B71C1C'>—</font> Ježišu, ty si veľkým svetlom pre ľudstvo tápajúce v tmách: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si záchrancom svojho ľudu a splnením jeho nádejí: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> V tebe sa nám zjavila dobrota a láskavosť nášho nebeského Otca: Pane, zmiluj sa.<br>"},
+            {"Pôst", "<font color='#B71C1C'>—</font> Ježišu, ty si žil ako človek, vo všetkom nám podobný okrem hriechu: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si v ťažkej hodine skúšky v Getsemanskej záhrade prijal vôľu nebeského Otca: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty nás dnes voláš, aby sme sa obrátili a nasledovali ťa: Pane, zmiluj sa.<br><br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ježišu, ty si nás vo sviatosti krstu vyviedol z temnôt smrti na svetlo života: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si nám očistil duchovný zrak, aby sme mohli veriť: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty nás posilňuješ svojím slovom, aby sme podľa tvojho príkladu niesli svoj každodenný kríž a dosiahli slávu vzkriesenia: Pane, zmiluj sa.</b><br>"},
-            {"Veľká noc", "<font color='#B71C1C'>—</font> <b>Pane Ježišu, ty si svojou smrťou premohol našu smrť: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si vstal z mŕtvych, aby sme večne žili: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>V tvojom mene dosiahneme odpustenie svojich hriechov: Pane, zmiluj sa.</b><br><br>" +
+                    "<font color='#B71C1C'>—</font> Ježišu, ty si prišiel medzi hriešnikov a priniesol si im Otcovo odpustenie: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si vydal seba samého na smrť, aby si hriešnikom dal život: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si prameňom božskej sily a nového života: Pane, zmiluj sa.<br><br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ježišu, ty si kráľ pokoja: Pane, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si nádej pochybujúcich: Kriste, zmiluj sa.</b><br>" +
-                    "<font color='#B71C1C'>—</font> <b>Ty si radosť veriacich: Pane, zmiluj sa.</b><br>"},
+                    "<font color='#B71C1C'>—</font> Ježišu, ty si nás vo sviatosti krstu vyviedol z temnôt smrti na svetlo života: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si nám očistil duchovný zrak, aby sme mohli veriť: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty nás posilňuješ svojím slovom, aby sme podľa tvojho príkladu niesli svoj každodenný kríž a dosiahli slávu vzkriesenia: Pane, zmiluj sa.<br>"},
+            {"Veľká noc", "<font color='#B71C1C'>—</font> Pane Ježišu, ty si svojou smrťou premohol našu smrť: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si vstal z mŕtvych, aby sme večne žili: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> V tvojom mene dosiahneme odpustenie svojich hriechov: Pane, zmiluj sa.<br><br>" +
+                    "<font color='#B71C1C'>Alebo:</font><br>" +
+                    "<font color='#B71C1C'>—</font> Ježišu, ty si kráľ pokoja: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si nádej pochybujúcich: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si radosť veriacich: Pane, zmiluj sa.<br>"},
             {"NA SLÁVNOSŤ ZJAVENIA PÁNA", "Ježišu, ty si kráľ všetkých národov: Pane, zmiluj sa.<br>" +
                     "Ty si pravda a cesta všetkých, čo ťa hľadajú: Kriste, zmiluj sa.<br>" +
                     "Ty si radosť a odmena všetkých veriacich: Pane, zmiluj sa."},
@@ -178,195 +178,195 @@ public interface Texty {
             "<m>Nech vás žehná všemohúci Boh, Otec i Syn ", "+ ", "<m>i Duch Svätý. ",
             "Ľud odpovie: ",
             "<m>Amen.\n", "",
-            "<br><font color='#B71C1C'><b>1.</b><br>" +
-                    "Kňaz:</font> <b>Milosrdný Bože, " +
+            "<br><font color='#B71C1C'>1.<br>" +
+                    "Kňaz:</font> Milosrdný Bože, " +
                     "zľutuj sa nad&nbsp;svojím ľudom " +
                     "a nenechaj ho bez&nbsp;útechy na&nbsp;pozemskej púti, " +
                     "veď ho povolávaš k&nbsp;večnej radosti v&nbsp;nebi. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>2.</b><br>" +
-                    "Kňaz:</font> <b>Všemohúci Bože, poskytni svojmu ľudu " +
+                    "<br><font color='#B71C1C'>2.<br>" +
+                    "Kňaz:</font> Všemohúci Bože, poskytni svojmu ľudu " +
                     "všestrannú ochranu a hojnú milosť. " +
                     "Daj mu zdravie tela i duše, " +
                     "upevňuj ho v bratskej láske " +
                     "a posilňuj ho v oddanosti tebe. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>3.</b><br>" +
-                    "Kňaz:</font> <b>Láskavý Otče, dopraj kresťanskému ľudu, " +
+                    "<br><font color='#B71C1C'>3.<br>" +
+                    "Kňaz:</font> Láskavý Otče, dopraj kresťanskému ľudu, " +
                     "aby vždy hlbšie poznával vieru, ku ktorej sa hlási, " +
                     "a aby pre zásluhy eucharistickej obety " +
                     "vždy viac miloval Ježiša Krista, " +
-                    "ktorý žije a kraľuje na veky vekov.</b><br>" +
+                    "ktorý žije a kraľuje na veky vekov.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>4.</b><br>" +
-                    "Kňaz:</font> <b>Štedrý Bože, " +
+                    "<br><font color='#B71C1C'>4.<br>" +
+                    "Kňaz:</font> Štedrý Bože, " +
                     "daj svojmu ľudu sväté požehnanie, " +
                     "aby odolával všetkému, čo ho zvádza k hriechu, " +
                     "a dosiahol všetko, čo mu slúži k spáse. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>5.</b><br>" +
-                    "Kňaz:</font> <b>Milosrdný Bože, požehnaj svoj ľud, " +
+                    "<br><font color='#B71C1C'>5.<br>" +
+                    "Kňaz:</font> Milosrdný Bože, požehnaj svoj ľud, " +
                     "posilňuj ho vo viere " +
                     "a pomáhaj mu konať dobré skutky, " +
                     "aby rástol v tvojej milosti " +
                     "a dosiahol večnú radosť v nebi. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>6.</b><br>" +
-                    "Kňaz:</font> <b>Pane a Bože náš, " +
+                    "<br><font color='#B71C1C'>6.<br>" +
+                    "Kňaz:</font> Pane a Bože náš, " +
                     "láskavo priveď k sebe svoj ľud, " +
                     "aby všetky jeho túžby smerovali k tebe; " +
                     "a keďže si ho neprestal milovať " +
                     "po jeho páde do hriechu, " +
                     "zahrň ho ešte väčšou láskou, " +
                     "keď sa s poníženým srdcom obracia k tebe. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>7.</b><br>" +
-                    "Kňaz:</font> <b>Dobrotivý Bože, zľutuj sa nad rodinou " +
+                    "<br><font color='#B71C1C'>7.<br>" +
+                    "Kňaz:</font> Dobrotivý Bože, zľutuj sa nad rodinou " +
                     "svojich veriacich a ustavične im pomáhaj, " +
                     "aby milovali, čo sa tebe páči, " +
                     "a ochotne konali, čo je dobré. " +
-                    "O to ťa prosíme skrze Krista, nášho Pána.</b><br>" +
+                    "O to ťa prosíme skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>8.</b><br>" +
-                    "Kňaz:</font> <b>Bože a Otče náš, " +
+                    "<br><font color='#B71C1C'>8.<br>" +
+                    "Kňaz:</font> Bože a Otče náš, " +
                     "sprevádzaj ustavičnou pomocou " +
                     "svojich služobníkov, ktorí ťa prosia o milosť " +
                     "a radostne vyznávajú, " +
                     "že si ich Stvoriteľ a Pán; " +
                     "obnov v nich svoje dary, " +
                     "aby mohli vytrvať v dobrom. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>9.</b><br>" +
-                    "Kňaz:</font> <b>Dobrotivý Bože, zhliadni na svoj ľud, " +
+                    "<br><font color='#B71C1C'>9.<br>" +
+                    "Kňaz:</font> Dobrotivý Bože, zhliadni na svoj ľud, " +
                     "ktorý ťa prosí o milosrdenstvo, " +
                     "a daj, aby všetci, čo dôverujú v tvoju dobrotu, " +
                     "šírili vo svete tvoju lásku. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>10.</b><br>" +
-                    "Kňaz:</font> <b>Dobrotivý Otče, požehnaj svoj ľud, " +
+                    "<br><font color='#B71C1C'>10.<br>" +
+                    "Kňaz:</font> Dobrotivý Otče, požehnaj svoj ľud, " +
                     "ktorý dúfa v tvoju milosrdnú lásku, " +
                     "a v hojnej miere mu dopraj všetko, " +
                     "po čom z tvojho vnuknutia túži. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>11.</b><br>" +
-                    "Kňaz:</font> <b>Všemohúci Bože, " +
+                    "<br><font color='#B71C1C'>11.<br>" +
+                    "Kňaz:</font> Všemohúci Bože, " +
                     "zmiluj sa nad ľudom, ktorý ti je oddaný; " +
                     "daruj mu hojnosť svojej milosti " +
                     "a pomáhaj mu zachovávať " +
                     "všetky tvoje prikázania. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>12.</b><br>" +
-                    "Kňaz:</font> <b>Všemohúci Bože, " +
+                    "<br><font color='#B71C1C'>12.<br>" +
+                    "Kňaz:</font> Všemohúci Bože, " +
                     "zmiluj sa nad svojím ľudom " +
                     "a zbav ho všetkého zla, " +
                     "aby ti slúžil celým srdcom " +
                     "a bezpečne žil pod tvojou ochranou. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>13.</b><br>" +
-                    "Kňaz:</font> <b>Láskavý Bože, " +
+                    "<br><font color='#B71C1C'>13.<br>" +
+                    "Kňaz:</font> Láskavý Bože, " +
                     "poskytuj svojim veriacim otcovskú pomoc, " +
                     "aby ťa vyhľadávali celým srdcom " +
                     "a dosiahli, o čo ťa s dôverou prosia. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>14.</b><br>" +
-                    "Kňaz:</font> <b>Nebeský Otče, " +
+                    "<br><font color='#B71C1C'>14.<br>" +
+                    "Kňaz:</font> Nebeský Otče, " +
                     "udržuj svoju rodinu v duchovnej radosti, " +
                     "ktorá pramení zo slávenia Eucharistie, " +
                     "a pomáhaj jej rásť v dokonalosti, " +
                     "aby raz dosiahla plnosť večnej radosti. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>15.</b><br>" +
-                    "Kňaz:</font> <b>Najláskavejší Bože, posilňuj svoj ľud, " +
+                    "<br><font color='#B71C1C'>15.<br>" +
+                    "Kňaz:</font> Najláskavejší Bože, posilňuj svoj ľud, " +
                     "aby odhodlane odmietal, čo sa ti nepáči, " +
                     "a nachádzal radosť v plnení tvojej svätej vôle. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>16.</b><br>" +
-                    "Kňaz:</font> <b>Všemohúci Bože, " +
+                    "<br><font color='#B71C1C'>16.<br>" +
+                    "Kňaz:</font> Všemohúci Bože, " +
                     "vystri svoju pravicu na ochranu svojho ľudu, " +
                     "ktorý ťa pokorne prosí; " +
                     "očisťuj ho, veď ho svojou pravdou " +
                     "a dávaj mu všetko potrebné pre pozemský život, " +
                     "aby mohol dosiahnuť dobrá večné. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>17.</b><br>" +
-                    "Kňaz:</font> <b>Prosíme ťa, Bože, " +
+                    "<br><font color='#B71C1C'>17.<br>" +
+                    "Kňaz:</font> Prosíme ťa, Bože, " +
                     "zhliadni na túto svoju rodinu, " +
                     "za ktorú sa náš Pán Ježiš Kristus " +
                     "neváhal vydať do rúk zločincov " +
                     "a podstúpiť muky kríža. " +
-                    "Lebo on s tebou žije a kraľuje na veky vekov.</b><br>" +
+                    "Lebo on s tebou žije a kraľuje na veky vekov.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>18.</b><br>" +
-                    "Kňaz:</font> <b>Dobrotivý Otče, " +
+                    "<br><font color='#B71C1C'>18.<br>" +
+                    "Kňaz:</font> Dobrotivý Otče, " +
                     "daj svojim veriacim milosť " +
                     "často sláviť veľkonočné tajomstvá " +
                     "a s vierou očakávať dobrá budúceho veku, " +
                     "aby verní svojmu krstu " +
                     "mohli dosiahnuť život večný. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>19.</b><br>" +
-                    "Kňaz:</font> <b>Pane a Bože náš, " +
+                    "<br><font color='#B71C1C'>19.<br>" +
+                    "Kňaz:</font> Pane a Bože náš, " +
                     "buď milosrdný voči svojim služobníkom, " +
                     "aby boli bezpeční pod tvojou ochranou; " +
                     "zahrňuj ich svojím požehnaním, " +
                     "aby ti ustavične ďakovali " +
                     "a neprestajne ťa chválili. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>20.</b><br>" +
-                    "Kňaz:</font> <b>Nech vás Boh zahrnie svojím požehnaním, " +
+                    "<br><font color='#B71C1C'>20.<br>" +
+                    "Kňaz:</font> Nech vás Boh zahrnie svojím požehnaním, " +
                     "aby ste boli pred ním vždy čistí a svätí; " +
                     "nech vás štedro obdarí pokladmi svojej dobroty " +
                     "a poučuje slovom pravdy; " +
                     "nech vás povzbudzuje radostnou zvesťou spásy " +
                     "a posilňuje vo vás bratskú lásku. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>21.</b><br>" +
-                    "Kňaz:</font> <b>Prosíme ťa, Bože, " +
+                    "<br><font color='#B71C1C'>21.<br>" +
+                    "Kňaz:</font> Prosíme ťa, Bože, " +
                     "očisť svojich veriacich na tele i na duši " +
                     "a prenikaj ich srdce svojimi vnuknutiami, " +
                     "aby premáhali pokušenia " +
                     "a v tebe nachádzali pravú radosť. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>22.</b><br>" +
-                    "Kňaz:</font> <b>Všemohúci Bože, " +
+                    "<br><font color='#B71C1C'>22.<br>" +
+                    "Kňaz:</font> Všemohúci Bože, " +
                     "zahrňuj svojich veriacich hojným požehnaním " +
                     "a daj im silu Ducha Svätého, " +
                     "aby rástli v duchovnom živote a povzbudzovaní tvojou " +
                     "láskou horlivo konali dobré skutky. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>23.</b><br>" +
-                    "Kňaz:</font> <b>Dobrotivý Otče, " +
+                    "<br><font color='#B71C1C'>23.<br>" +
+                    "Kňaz:</font> Dobrotivý Otče, " +
                     "posilňuj veriacich svojou milosťou, " +
                     "aby ťa uctievali vrúcnou modlitbou " +
                     "a navzájom si slúžili s úprimnou láskou. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-                    "<br><font color='#B71C1C'><b>24.</b><br>" +
-                    "Kňaz:</font> <b>Bože, ochranca všetkých, čo dúfajú v teba, " +
+                    "<br><font color='#B71C1C'>24.<br>" +
+                    "Kňaz:</font> Bože, ochranca všetkých, čo dúfajú v teba, " +
                     "požehnaj svoj ľud " +
                     "ochraňuj ho, spravuj a opatruj, " +
                     "aby bez hriechu a bez strachu " +
                     "navždy zotrval v tvojej láske. " +
-                    "Skrze Krista, nášho Pána.</b><br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen."};
 
     String[] modlitba_pana_text = {"Modlitba Pána",

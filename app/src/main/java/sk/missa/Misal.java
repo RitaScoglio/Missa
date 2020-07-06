@@ -2552,7 +2552,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             alert.getWindow().setBackgroundDrawableResource(R.color.background);
             text.setTextColor(Color.BLACK);
         }
-        if (pismo && dialog != 0 && dialog != 1 && dialog != 6 && dialog != 7)
+        if (pismo)
             text.setTypeface(typeBold);
         if (dialog == 5)
             otvorExtra(text, procesia);
