@@ -6523,7 +6523,7 @@ public interface Citania_cezrok {
             // Namiesto tohto evanjelia sa môže, najmä v\u00A0ročnom cykle A, keď sa toto evanjelium čítalo včera, nasledujúce evanjelium: Mt 15, 1-2. 10-14
             {"18", "2", "", "Mt 15, 11-2. 10-14",
                     "Každú rastlinu, ktorú nezasadil môj otec, vytrhnú aj s\u00A0koreňom",
-                            "Čítanie zo\u00A0svätého evanjelia podľa Matúša<br>" +
+                            "<font color='#B71C1C'>†</font> Čítanie zo\u00A0svätého evanjelia podľa Matúša<br>" +
                             "K\u00A0Ježišovi prišli farizeji a zákonníci z\u00A0Jeruzalema a opýtali sa ho: „Prečo tvoji učeníci prestupujú obyčaje otcov? Veď si neumývajú ruky, keď jedia chlieb.“<br>" +
                             "On zavolal k\u00A0sebe zástup a povedal im: „Počúvajte a pochopte: Človeka nepoškvrňuje to, čo vchádza do\u00A0úst, ale čo vychádza z\u00A0úst, to poškvrňuje človeka.“<br>" +
                             "Tu pristúpili učeníci a povedali mu: „Vieš, že sa farizeji pohoršili, keď počuli, čo si povedal?“<br>" +

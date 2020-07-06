@@ -783,7 +783,8 @@ public interface Citania_svatci {
                     "Čítanie z Listu svätého apoštola Pavla Galaťanom <br>" +
                             "Bratia, ja som skrze zákon zomrel zákonu, aby som žil Bohu. S\u00A0Kristom som pribitý na\u00A0kríž.<br>" +
                             "Už nežijem ja, ale vo\u00A0mne žije Kristus.<br>" +
-                            "Ale život, ktorý teraz žijem v\u00A0tele, žijem vo\u00A0viere v\u00A0Božieho Syna, ktorý ma miluje a vydal seba samého za\u00A0mňa."},
+                            "Ale život, ktorý teraz žijem v\u00A0tele, žijem vo\u00A0viere v\u00A0Božieho Syna, ktorý ma miluje a vydal seba samého za\u00A0mňa." +
+                            "Počuli sme Božie slovo."},
             {"25g", "", "", "2 Kor 4, 7-15",
                     "Nosíme na\u00A0tele Ježišovo umieranie",
                     "Čítanie z Druhého listu svätého apoštola Pavla Korinťanom<br>" +
