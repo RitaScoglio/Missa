@@ -1186,8 +1186,8 @@ public interface Texty {
                             "že sme z tvojej štedrosti prijali toto víno.\n" +
                             "Obetujeme ho tebe\n" +
                             "ako plod viniča a práce ľudských rúk,\n" +
-                            "aby sa nám stalo duchovným nápojom.\n" +
-                            "Potom položí kalich na korporál.",
+                            "aby sa nám stalo duchovným nápojom.",
+                            "Potom položí kalich na korporál.\n" +
                     "Ak sa nespieva, kňaz môže tieto slová predniesť nahlas. Na konci ľud môže zvolať:",
                     "Zvelebený Boh naveky!",
                     "Potom sa kňaz skloní a potichu hovorí:",

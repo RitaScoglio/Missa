@@ -513,8 +513,8 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             d = Integer.toString(day);
 
         Calendar vigilia = null;
-        pm = prvyPiatok = false;
-        int vynimka_pm = 0;
+        boolean vynimka_pm;
+        pm = prvyPiatok = vynimka_pm = false;
         index = najdiIndex(month, d);
         dnes.setFirstDayOfWeek(java.util.Calendar.SUNDAY);
         //vypocet tyzdna v cezrocnom obdobi
@@ -581,10 +581,10 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 pm = true;
                 words.add(f);
             }
-            if (!month[index][2].equals("Sviatok") || !month[index][2].equals("Slávnosť"))
-                prvyPiatok = false;
-            if (month[index][2].equals("Spomienka"))
-                vynimka_pm = 1;
+            if (!month[index][2].equals("Sviatok") && !month[index][2].equals("Slávnosť"))
+                prvyPiatok = true;
+            if (month[index][2].equals("Spomienka") || month[index][1].equals("Najsvätejšieho mena Panny Márie"))
+                vynimka_pm = true;
             do {
                 if (month[index][2].equals("Vigília")) {
                     if (month[index][0].contains("*"))
@@ -603,7 +603,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             words.add(f);
         }
         //vypisovanie Panny Márie v sobotu
-        if (dvt == 6 && (pm || day < 7) && vynimka_pm == 0)
+        if (dvt == 6 && (pm || day < 7) && !vynimka_pm)
             words.add(new Calendar(maria[1], maria[2], maria[3], day, cezrok, "003m", "c"));
         if (dvt == 5 && prvyPiatok && day < 8)
             words.add(new Calendar("Najsvätejšieho Srdca Ježišovho", "Votívna omša", "(biela)", day, cezrok, "001", "c"));

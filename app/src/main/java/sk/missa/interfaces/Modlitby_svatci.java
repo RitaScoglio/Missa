@@ -2691,7 +2691,7 @@ public interface Modlitby_svatci {
                     "ktorý neprišiel volať a spasiť spravodlivých,<br>" +
                     "ale hriešnikov.<br>" +
                     "O to ťa prosíme skrze Krista, nášho Pána."},
-            {"22", "Všemohúci a večný Bože,<br>" +
+            {"22+", "Všemohúci a večný Bože,<br>" +
                     "ty si dal svätému biskupovi Emerámovi<br>" +
                     "silu trpezlivo znášať nespravodlivé obvinenie<br>" +
                     "a umrieť mučeníckou smrťou; <font color='#B71C1C'>*</font><br>" +

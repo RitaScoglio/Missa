@@ -935,13 +935,20 @@ public interface Citania_svatci {
                             "Ak počúvneš jeho hlas a urobíš všetko, čo hovorím, budem nepriateľom tvojich nepriateľov a budem sužovať tých, čo teba sužujú.<br>" +
                             "Môj anjel pôjde pred\u00A0tebou.\"<br>" +
                             "Počuli sme Božie slovo."},
-            {"07", "", "", "Sk 1, 12-14",
+            /*{"07", "", "", "Sk 1, 12-14",
                     "Zotrvávali na\u00A0modlitbách spolu s\u00A0Ježišovou matkou Máriou",
                     "Čítanie zo Skutkov apoštolov<br>" +
                             "Keď bol Ježiš vzatý do\u00A0neba, apoštoli sa vrátili do\u00A0Jeruzalema z\u00A0hory, ktorá sa volá Olivová a je blízko Jeruzalema, vzdialená toľko, koľko je dovolené prejsť v\u00A0sobotu.<br>" +
                             "Keď ta prišli, vystúpili do\u00A0hornej siene, kde sa zdržiavali Peter a Ján, Jakub a Ondrej, Filip a Tomáš, Bartolomej a Matúš, Jakub Alfejov, Šimon Horlivec a Júda Jakubov.<br>" +
                             "Títo všetci jednomyseľne zotrvávali na\u00A0modlitbách spolu so\u00A0ženami, s\u00A0Ježišovou matkou Máriou a s\u00A0jeho bratmi.<br>" +
+                            "Počuli sme Božie slovo."},*/
+            {"07", "", "", "Gal 2, 1-2. 7-14",
+                    "Poznali milosť, ktorú som dostal",
+                            "Čítanie z\u00A0Listu svätého apoštola Pavla Galaťanom<br>" +
+                            "Bratia, po\u00A0štrnástich rokoch som znova šiel s\u00A0Barnabášom do\u00A0Jeruzalema a vzal som so\u00A0sebou aj Títa. Išiel som ta pohnutý zjavením a predložil som im evanjelium, ktoré hlásam medzi pohanmi; ale v\u00A0súkromí tým, čo niečo znamenali, či nebežím alebo či som nebežal nadarmo. A keď videli, že mne je zverené evanjelium pre\u00A0neobrezaných, tak ako Petrovi pre\u00A0obrezaných – veď ten, ktorý pomáhal Petrovi v apoštoláte medzi obrezanými, pomáhal aj mne medzi pohanmi –, a keď poznali milosť, ktorú som dostal, Jakub, Kéfas a Ján, ktorých pokladali za\u00A0stĺpy, podali mne a Barnabášovi pravicu na\u00A0znak spoločenstva, že my pôjdeme medzi pohanov a oni medzi obrezaných. Len aby sme pamätali na\u00A0chudobných, čo som sa aj usiloval robiť.<br>" +
+                            "Ale keď prišiel Kéfas do\u00A0Antiochie, zoči-voči som sa postavil proti nemu, lebo si zaslúžil pokarhanie. Kým neprišli niektorí od\u00A0Jakuba, jedával s\u00A0pohanmi. Ale keď prišli, odťahoval sa a oddeľoval, lebo sa bál tých, čo boli z\u00A0obriezky. A s\u00A0ním sa pretvarovali aj ostatní Židia, takže sa dal aj Barnabáš strhnúť ich pokrytectvom. Keď som videl, že nepostupujú priamo, podľa pravdy evanjelia, povedal som Kéfasovi pred\u00A0všetkými: „Keď ty, Žid, žiješ pohansky, a nie po\u00A0židovsky, ako to, že nútiš pohanov žiť po\u00A0židovsky?!“<br>" +
                             "Počuli sme Božie slovo."},
+
             {"18g", "", "", "2 Tim 4, 10-17b",
                     "Jediný Lukáš je so\u00A0mnou",
                     "Čítanie z Druhého listu svätého apoštola Pavla Timotejovi<br>" +
@@ -2695,7 +2702,7 @@ public interface Citania_svatci {
                             "V tú hodinu pristúpili k\u00A0Ježišovi učeníci a pýtali sa: \"Kto je podľa teba najväčší v\u00A0nebeskom kráľovstve?\"<br>" +
                             "On zavolal k\u00A0sebe dieťa, postavil ho medzi nich a povedal: \"Veru, hovorím vám: Ak sa neobrátite a nebudete ako deti, nevojdete do\u00A0nebeského kráľovstva. Kto sa teda poníži ako toto dieťa, ten je najväčší v\u00A0nebeskom kráľovstve. A kto prijme jedno takéto dieťa v\u00A0mojom mene, mňa prijíma. Dajte si pozor, aby ste neopovrhli ani jedným z\u00A0týchto maličkých. Lebo vám hovorím, že ich anjeli v\u00A0nebi ustavične hľadia na\u00A0tvár môjho Otca, ktorý je na\u00A0nebesiach.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            {"07", "", "", "Lk 1, 26-38",
+            /*{"07", "", "", "Lk 1, 26-38",
                     "Počneš a porodíš syna",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "Boh poslal anjela Gabriela do\u00A0galilejského mesta, ktoré sa volá Nazaret, k\u00A0panne zasnúbenej mužovi z\u00A0rodu Dávidovho, menom Jozefovi. A meno panny bolo Mária.<br>" +
@@ -2706,8 +2713,14 @@ public interface Citania_svatci {
                             "Anjel jej odpovedal: \"Duch Svätý zostúpi na\u00A0teba a moc Najvyššieho ťa zatieni. A preto aj dieťa bude sa volať svätým, bude to Boží Syn. Aj Alžbeta, tvoja príbuzná, počala syna v\u00A0starobe. Už je v\u00A0šiestom mesiaci. A hovorili o\u00A0nej, že je neplodná! Lebo Bohu nič nie je nemožné.\"<br>" +
                             "Mária povedala: \"Hľa, služobnica Pána, nech sa mi stane podľa tvojho slova.\"<br>" +
                             "Anjel potom od\u00A0nej odišiel.<br>" +
-                            "Počuli sme slovo Pánovo."},
-            {"18g", "", "", "Lk 10, 1-9",
+                            "Počuli sme slovo Pánovo."},*/
+            {"07", "", "", "Lk 11, 1-4",
+                    "Pane, nauč nás modliť sa",
+                            "<font color='#B71C1C'>†</font> Čítanie zo\u00A0svätého evanjelia podľa Lukáša<br>" +
+                            "Raz sa Ježiš na\u00A0ktoromsi mieste modlil. Keď skončil, povedal mu jeden z\u00A0jeho učeníkov: „Pane, nauč nás modliť sa, ako Ján naučil svojich učeníkov.“<br>" +
+            "Povedal im: „Keď sa modlíte, hovorte: Otče, posväť sa tvoje meno, príď tvoje kráľovstvo. Chlieb náš každodenný daj nám každý deň a odpusť nám naše hriechy, lebo aj my odpúšťame každému svojmu dlžníkovi. A neuveď nás do\u00A0pokušenia.“<br>" +
+            "Počuli sme slovo Pánovo."},
+        {"18g", "", "", "Lk 10, 1-9",
                     "Žatva je veľká, ale robotníkov málo",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "Pán si vyvolil iných sedemdesiatich dvoch a po\u00A0dvoch ich poslal pred\u00A0sebou do\u00A0každého mesta a na\u00A0každé miesto, kam sa sám chystal ísť. A povedal im: \"Žatva je veľká, ale robotníkov málo. Preto proste Pána žatvy, aby poslal robotníkov na\u00A0svoju žatvu!<br>" +

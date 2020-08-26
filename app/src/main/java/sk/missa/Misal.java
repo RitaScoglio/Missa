@@ -723,7 +723,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         }
         //ak je na výber viac čítaní
         //Premenenie Pana - ak nie je v nedelu, druhe citanie je ako alternativa k prvemu
-        if (index != -1 && citanie[index].length > 6 && !(ID.equals("02g") && m == 1 && dvt == 0) && (ID.equals("06gn") && !nedela)) {
+        if ((index != -1 && citanie[index].length > 6 && !(ID.equals("02g") && m == 1 && dvt == 0)) && !(ID.equals("06gn") && m == 7 && nedela)) {
             aleboCitanie(citanie, index, 1);
         }
     }
