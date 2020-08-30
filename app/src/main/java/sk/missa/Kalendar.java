@@ -365,10 +365,10 @@ public class Kalendar extends Main {
                 slavenieMesiac(32, month10); //(počet dní v mesiaci+, mesiac obsahujúci sviatky)
                 break;
             case 10:
+                ziskajAaV(rok, rok+1);
                 slavenieMesiac(31, month11);
                 break;
             case 11:
-                ziskajAaV(rok, rok+1);
                 slavenieMesiac(32, month12);
             default:
                 break;

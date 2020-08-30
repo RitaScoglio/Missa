@@ -274,10 +274,10 @@ public class Uvod extends Main {
                 slavenieDen(month10);
                 break;
             case 10:
+                ziskajAaV(rok, rok+1);
                 slavenieDen(month11);
                 break;
             case 11:
-                ziskajAaV(rok, rok+1);
                 slavenieDen(month12);
             default:
                 break;
