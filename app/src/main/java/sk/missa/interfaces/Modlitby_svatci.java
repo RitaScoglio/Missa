@@ -3313,6 +3313,26 @@ public interface Modlitby_svatci {
                     "a úplne sa ti odovzdať ako svätý Martin, <font color='#B71C1C'>—</font><br>" +
                     "aby sme sa mohli tešiť, že patríme celkom tebe.<br>" +
                     "Skrze Krista, nášho Pána."},
+            {"11g", "Všemohúci Bože,<br>" +
+                    "svätý biskup Martin ťa oslávil<br>" +
+                    "svojím životom i svojou smrťou; <font color='#B71C1C'>*</font><br>" +
+                    "aj v našich srdciach konaj divy svojej milosti, <font color='#B71C1C'>—</font><br>" +
+                    "aby nás ani smrť ani život<br>" +
+                    "nemohli odlúčiť od tvojej lásky.<br>" +
+                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
+                    "tvojho Syna, ktorý je Boh a s tebou žije a kraľuje<br>" +
+                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, posväť tieto dary,<br>" +
+                    "ktoré ti s radosťou prinášame<br>" +
+                    "pri spomienke na svätého Martina; <font color='#B71C1C'>*</font><br>" +
+                    "nech nás táto obeta posilní, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme v šťastí i v protivenstvách<br>" +
+                    "kráčali správnou cestou.<br>" +
+                    "Skrze Krista, nášho Pána.", "Pane a Bože náš,<br>" +
+                    "posilnil si nás sviatosťou jednoty; <font color='#B71C1C'>*</font><br>" +
+                    "pomáhaj nám ochotne plniť tvoju vôľu<br>" +
+                    "a úplne sa ti odovzdať ako svätý Martin, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme sa mohli tešiť, že patríme celkom tebe.<br>" +
+                    "Skrze Krista, nášho Pána."},
             {"12", "Bože, otec všetkých veriacich,<br>" +
                     "daj svojej Cirkvi Ducha lásky,<br>" +
                     "ktorý svätému Jozafátovi dal silu<br>" +

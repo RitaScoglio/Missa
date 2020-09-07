@@ -5013,7 +5013,14 @@ public interface Citania_cezrok {
                             "Toto vám hovoríme podľa Pánovho slova: My, čo žijeme a zostaneme až do\u00A0Pánovho príchodu, nepredídeme tých, čo zosnuli.<br>" +
                             "Lebo na\u00A0povel, na\u00A0hlas archanjela a zvuk Božej poľnice sám Pán zostúpi z\u00A0neba a tí, čo umreli v\u00A0Kristovi, vstanú prví. Potom my, čo žijeme a zostaneme, budeme spolu s\u00A0nimi v\u00A0oblakoch uchvátení do\u00A0vzduchu v\u00A0ústrety Pánovi, a tak budeme navždy s\u00A0Pánom.<br>" +
                             "Preto sa potešujte navzájom týmito slovami.<br>" +
-                            "Počuli sme Božie slovo."},
+                            "Počuli sme Božie slovo.",
+                    "Alebo:",
+                    "1 Sol 4, 13-14\n",
+                    "Boh tých, čo zosnuli, skrze Ježiša privedie s\u00A0ním",
+                    "Čítanie z Prvého listu svätého apoštola Pavla Solúnčanom<br>" +
+                            "Nechceme, bratia, aby ste nevedeli, ako je to so\u00A0zosnulými, aby ste sa nezarmucovali ako ostatní, čo nemajú nádej.<br>" +
+                            "Lebo ak veríme, že Ježiš zomrel a vstal z\u00A0mŕtvych, tak Boh aj tých, čo zosnuli, skrze Ježiša privedie s\u00A0ním.<br>" +
+                            "Počuli sme slovo Pánovo."},
             {"32", "B", "", "Hebr 9, 24-28",
                     "Kristus sa raz obetoval, aby sňal hriechy mnohých",
                     "Čítanie z Listu Hebrejom<br>" +

@@ -2730,6 +2730,21 @@ public interface Prosby_svatci {
                             "a daj, aby sme sa skutkami milosrdnej lásky k blížnemu<br>" +
                             "upevňovali v láske k tebe.<br>" +
                             "Skrze Krista, nášho Pána."},
+            {"11g", "Bratia a sestry, svätý Martin je vzorom lásky k chudobným a príkladom neúnavnej práce i služby pre svoj ľud. Prosme Pána za dobrých duchovných pastierov a za spásu sveta.",
+                    "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Bože, roznieť v služobníkoch Cirkvi lásku k tebe a horlivosť za spásu duší.<br>" +
+                            "<font color='#B71C1C'>2.</font> Žehnaj všetkých, ktorí zmierňujú hlad a biedu vo svete.<br>" +
+                            "<font color='#B71C1C'>3.</font> Daruj všetkým katechumenom horlivosť v príprave na prijatie krstu.<br>" +
+                            "<font color='#B71C1C'>4.</font> Priveď všetkých obyvateľov našej krajiny k tomu, aby milovali svoju vlasť a bránili vieru otcov.<br>" +
+                            "<font color='#B71C1C'>5.</font> Nauč nás podeliť si chlieb i rúcho s chudobnými a hladujúcimi.<br>" +
+                            "<font color='#B71C1C'>6.</font> Daj umierajúcim odvahu, aby v hodine smrti prosili teba i svoje okolie o odpustenie.<br>" +
+                            "<font color='#B71C1C'>7. V Bratislavskej arcidiecéze a Spišskej diecéze:</font> Požehnávaj ľud našej <font color='#B71C1C'>(</font>arci<font color='#B71C1C'<font color='#B71C1C'>)</font>diecézy, aby s horlivosťou budoval spoločenstvo lásky a vzájomnej pomoci.",
+                    "Dobrotivý Bože,<br>" +
+                            "ty chceš skôr milosrdenstvo ako obetu;<br>" +
+                            "vyslyš naše prosby<br>" +
+                            "a daj, aby sme sa skutkami milosrdnej lásky k blížnemu<br>" +
+                            "upevňovali v láske k tebe.<br>" +
+                            "Skrze Krista, nášho Pána."},
             {"12", "Bratia a sestry, Boh volá všetkých ľudí k jednote vo viere v Kristovej Cirkvi. Prosme Pána, aby na orodovanie svätého Jozafáta v Cirkvi opäť zavládla jednota.",
                     "<font color='#B71C1C'>(</font>Volajme: Bože, zjednoť všetkých veriacich.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Bože, zošli všetkým národom svetlo viery a zjednoť ich vo svojej Cirkvi.<br>" +

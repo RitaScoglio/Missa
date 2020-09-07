@@ -536,6 +536,11 @@ public interface Spevy_svatci {
                     "Pán Ježiš povedal:<br>" +
                             "Čo ste urobili jednému z týchto mojich najmenších bratov,<br>" +
                             "mne ste urobili.", "(Mt 25, 40)"},
+            {"11g", "Pán hovorí: Povolám si verného kňaza,<br>" +
+                    "ktorý bude konať podľa môjho srdca a podľa môjho zmýšľania.<br>", "(1 Sam 2, 35)",
+                    "Pán Ježiš povedal:<br>" +
+                            "Čo ste urobili jednému z týchto mojich najmenších bratov,<br>" +
+                            "mne ste urobili.", "(Mt 25, 40)"},
             {"18", "Urobíš ich kniežatami nad celou zemou.<br>" +
                     "Na tvoje meno budú pamätať vo všetkých pokoleniach.<br>" +
                     "Preto ťa národy budú velebiť vždy a naveky.", "(Ž 44, 17-18)",

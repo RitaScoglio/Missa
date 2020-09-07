@@ -1067,12 +1067,12 @@ public interface Citania_svatci {
                             "Keď sme prišli do\u00A0Ríma, dovolili Pavlovi bývať oddelene len s\u00A0vojakom, čo ho strážil.<br>" +
                             "Pavol potom zostal celé dva roky vo\u00A0svojom najatom byte a prijímal všetkých, čo k\u00A0nemu prichádzali. Ohlasoval Božie kráľovstvo a učil o\u00A0Pánu Ježišovi Kristovi so\u00A0všetkou odvahou a bez\u00A0prekážky.<br>" +
                             "Počuli sme Božie slovo."},
-            {"21", "", "", "Zach 2, 14-17",
+           /* {"21", "", "", "Zach 2, 14-17",
                     "Raduj sa, dcéra Siona, lebo hľa, ja prichádzam",
                     "Čítanie z Knihy proroka Zachariáša<br>" +
                             "Plesaj a raduj sa, dcéra Siona, lebo hľa, ja prichádzam a budem bývať uprostred teba, hovorí Pán. V\u00A0ten deň sa mnohé národy pripoja k\u00A0Pánovi a budú jeho ľudom. Budem bývať uprostred teba a budeš vedieť, že ma Pán zástupov poslal k\u00A0tebe.<br>" +
                             "Pán bude vlastniť Júdu ako svoj podiel vo\u00A0svätej zemi a znovu si vyvolí Jeruzalem. Nech mlčí pred\u00A0Pánom každé telo, lebo vstáva zo\u00A0svojho svätého príbytku.<br>" +
-                            "Počuli sme Božie slovo."},
+                            "Počuli sme Božie slovo."},*/
             {"30g", "", "", "Rim 10, 9-18",
                     "Viera je z\u00A0hlásania a hlásanie skrze Kristovo slovo",
                     "Čítanie z Listu svätého apoštola Pavla Rimanom<br>" +
@@ -2851,12 +2851,12 @@ public interface Citania_svatci {
                             "Peter vystúpil z\u00A0loďky, vykročil po\u00A0vode a šiel k\u00A0Ježišovi. Ale keď videl silný vietor, naľakal sa. Začal sa topiť a vykríkol: \"Pane, zachráň ma!\"<br>" +
                             "Ježiš hneď vystrel ruku, zachytil ho a povedal mu: \"Maloverný, prečo si pochyboval?\" A keď vstúpili do\u00A0loďky, vietor utíchol. Tí, čo boli na\u00A0loďke, klaňali sa mu a vraveli: \"Naozaj si Boží Syn!\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            {"21", "", "", "Mt 12, 46-50",
+           /* {"21", "", "", "Mt 12, 46-50",
                     "Vystrel ruku nad\u00A0svojich učeníkov a povedal: Hľa, moja matka a moji bratia",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Kým Ježiš hovoril zástupom, vonku stála jeho matka a bratia a chceli sa s\u00A0ním rozprávať. Ktosi mu povedal: \"Vonku stojí tvoja matka a tvoji bratia a chcú sa s\u00A0tebou rozprávať.\" On však odvetil tomu, čo mu to vravel: \"Kto je moja matka a kto sú moji bratia?\"<br>" +
                             "Vystrel ruku nad\u00A0svojich učeníkov a povedal: \"Hľa, moja matka a moji bratia. Lebo každý, kto plní vôľu môjho Otca, ktorý je na\u00A0nebesiach, je môj brat i sestra i matka.\"<br>" +
-                            "Počuli sme slovo Pánovo."},
+                            "Počuli sme slovo Pánovo."},*/
             {"30g", "", "", "Mt 4, 18-22",
                     "Oni hneď zanechali siete a išli za\u00A0ním",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
