@@ -297,11 +297,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         int index = indexID(spev);
         String vypis;
         String suradnice;
-        if (ID.contains("v")) { //vyrocie
-            vypis = vyrocie[i - 1];
-            suradnice = vyrocie[i];
-            spevPrint(i, vypis, suradnice);
-        } else if (index != -1 && !spev[index][i].equals("")) { //vlastne sviatky svatych
+        if (index != -1 && !spev[index][i].equals("")) { //vlastne sviatky svatych
             vypis = spev[index][i];
             suradnice = spev[index][i + 1];
             spevPrint(i, vypis, suradnice);
@@ -495,9 +491,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
 
     public String modlitbaVypis(String[][] modlitba, int i) {
         int index = indexID(modlitba);
-        if (ID.contains("v")) {//vyrocie
-            return vyrocie[i + 3];
-        } else if (index != -1 && !modlitba[index][i].equals("")) {//vlastna cast na sviatky svatych
+        if (index != -1 && !modlitba[index][i].equals("")) {//vlastna cast na sviatky svatych
             return modlitba[index][i];
         } else if (!formArray.get(0).equals("Vlastný formulár")) {//formular
             return modlitbaFormular[indexModlitba][i + 1];
@@ -707,12 +701,12 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void prveCitanieVypis(String[][] citanie) {
         int index = indexID(citanie);
         if (ID.contains("v")) {//vyrocie
-            prve_citanie_suradnice = vyrocie[7];
-            prve_citanie_citat = vyrocie[8];
-            prve_citanie_vypis = vyrocie[9];
+            prve_citanie_suradnice = vyrocie[0];
+            prve_citanie_citat = vyrocie[1];
+            prve_citanie_vypis = vyrocie[2];
             aleboCitanie1 = new String[2][3];
-            aleboCitanie1[0] = new String[]{vyrocie[7], vyrocie[8], vyrocie[9]};
-            aleboCitanie1[1] = new String[]{vyrocie[11], vyrocie[12], vyrocie[13]};
+            aleboCitanie1[0] = new String[]{vyrocie[0], vyrocie[1], vyrocie[2]};
+            aleboCitanie1[1] = new String[]{vyrocie[4], vyrocie[5], vyrocie[6]};
         } else if (index != -1) {//zo sviatkov
             prve_citanie_suradnice = citanie[index][3];
             prve_citanie_citat = citanie[index][4];
@@ -872,8 +866,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void zalmVypis(String[][] zalm) {
         int index = indexID(zalm);
         if (ID.contains("v")) { //vyrocie
-            zalm_suradnice = vyrocie[14];
-            zalm_vypis = vyrocie[15];
+            zalm_suradnice = vyrocie[7];
+            zalm_vypis = vyrocie[8];
         } else if (index != -1) { //svatci
             zalm_suradnice = zalm[index][3];
             zalm_vypis = zalm[index][4];
@@ -1167,8 +1161,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void alelujaVypis(String[][] aleluja) {
         int index = indexID(aleluja);
         if (ID.contains("v")) { //vyrocie
-            aleluja_suradnice = vyrocie[16];
-            aleluja_vypis = vyrocie[17];
+            aleluja_suradnice = vyrocie[9];
+            aleluja_vypis = vyrocie[10];
         } else if (index != -1) { //svatci
             aleluja_suradnice = aleluja[index][3];
             aleluja_vypis = aleluja[index][4];
@@ -1378,9 +1372,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void evanjeliumVypis(String[][] evanjelium, int i) {
         int index = indexID(evanjelium);
         if (ID.contains("v")) { //vyrocie
-            evanjelium_suradnice = vyrocie[18];
-            evanjelium_citat = vyrocie[19];
-            evanjelium_vypis = vyrocie[20];
+            evanjelium_suradnice = vyrocie[11];
+            evanjelium_citat = vyrocie[12];
+            evanjelium_vypis = vyrocie[13];
         } else if (index != -1) {//svatci
             if (menoSvatca.equals("Premenenie Pána")) {
                 if (cirkevRok == 2) {
@@ -1590,12 +1584,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
 
     public void prosbyVypis(String[][] prosby) {
         int index = indexID(prosby);
-        if (ID.contains("v")) {//vyrocie
-            prosby_uvod = vyrocie[21];
-            prosby_zvolanie = vyrocie[22];
-            prosby_vypis = vyrocie[23];
-            prosby_zaver = vyrocie[24];
-        } else if (ID.equals("003") && den < 7 && !A) {
+        if (ID.equals("003") && den < 7 && !A) {
             index = indexFormular(prosbyFormular, "Omša k preblahoslavenej Panne Marií 3.", "11");
             prosby_uvod = prosbyFormular[index][2];
             prosby_zvolanie = prosbyFormular[index][3];

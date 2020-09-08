@@ -642,45 +642,7 @@ public interface Texty {
                     "brat občanov blažených.",
     };
 
-    String[] vyrocie = {"Videl som zostupovať z nebies od Boha\n" +
-            "sväté mesto, nový Jeruzalem,\n" +
-            "vystrojené ako nevestu,\n" +
-            "ktorá sa vyzdobila pre svojho ženícha", "(Zjv 21, 2)",
-            "Aj vy, ako živé kamene,\n" +
-                    "budujete duchovný dom, sväté kňazstvo.", "(1 Pt 2, 5)",
-            "Vznešený Bože,<br>" +
-                    "pripravuješ si z nás ako<br>" +
-                    "zo živých a vybraných kameňov<br>" +
-                    "duchovný chrám; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, zošli svojej Cirkvi Ducha Svätého, <font color='#B71C1C'>—</font><br>" +
-                    "aby neprestajne pôsobil v tvojich veriacich<br>" +
-                    "a budoval z nich nebeský Jeruzalem.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.<br>" +
-                    "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "Všemohúci Bože,<br>" +
-                    "ty povolávaš veriacich,<br>" +
-                    "aby tvorili Cirkev, chrám Ducha Svätého; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby ľud zhromaždený v tvojom mene<br>" +
-                    "tebe sa klaňal, teba miloval a nasledoval <font color='#B71C1C'>—</font><br>" +
-                    "a pod tvojou ochranou dosiahol<br>" +
-                    "prisľúbenú nebeskú blaženosť. <br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože,<br>" +
-            "prijmi naše obetné dary a dopraj, <font color='#B71C1C'>*</font><br>" +
-            "aby sme v tvojom svätom chráme<br>" +
-            "s úžitkom prijímali sviatosti <font color='#B71C1C'>—</font><br>" +
-            "a dosiahli milosti, o ktoré ťa prosíme.<br>" +
-            "Skrze Krista, nášho Pána.", "Dobrotivý Bože, ty si zo svojej Cirkvi na zemi urobil<br>" +
-            "obraz nebeského Jeruzalema; <font color='#B71C1C'>*</font><br>" +
-            "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-            "pôsobením sviatosti, ktorú sme prijali,<br>" +
-            "utváraj z nás živý chrám svojej milosti,<br>" +
-            "aby sme mohli vojsť do tvojej slávy.<br>" +
-            "Skrze Krista, nášho Pána.",
-            "Iz 56, 1. 6-7",
+    String[] vyrocie = {"Iz 56, 1. 6-7",
             "Cudzincov privediem na svoj svätý vrch",
             "Čítanie z Knihy proroka Izaiáša<br>" +
                     "Toto hovorí Pán: \"Zachovajte právo, konajte spravodlivo, lebo je blízko moja spása, už príde, aj moja spravodlivosť, už sa zjaví.<br>" +
@@ -725,19 +687,7 @@ public interface Texty {
                     "Židia povedali: \"Štyridsaťšesť rokov stavali tento chrám a ty ho postavíš za tri dni?\"<br>" +
                     "Ale on hovoril o chráme svojho tela.<br>" +
                     "Keď potom vstal z mŕtvych, jeho učeníci si spomenuli, že toto hovoril, a uverili Písmu i slovu, ktoré povedal Ježiš. <br>" +
-                    "Počuli sme slovo Pánovo.",
-            "Bratia a sestry, sme živými kameňmi chrámu, ktorým je Cirkev. V jednote a nádeji sa spoločne modlime.",
-            "(Volajme: Prosíme ťa, vyslyš nás.)",
-            "1. Modlime sa za Cirkev, postavenú zo živých kameňov, aby sa zveľaďovala vo viere a láske.<br>" +
-                    "2. Modlime sa za kresťanov, aby nezabúdali, že plná účasť na omši sa dosahuje v obetnej hostine.<br>" +
-                    "3. Modlime sa za všetkých ľudí, aby počuli hlas, ktorý ich volá do Pánovho domu, a vážili si duchovné hodnoty.<br>" +
-                    "4. Modlime sa, aby všetci spoznali, že chrám je domom modlitby.<br>" +
-                    "5. Modlime sa aj za seba, aby sme sa tešili, že chrám je domom Božím a bránou do neba.",
-            "Pane a Bože náš,<br>" +
-                    "vypočuj naše prosby<br>" +
-                    "a pomáhaj nám budovať duchovný chrám,<br>" +
-                    "ktorý je postavený na základoch dôvery v teba.<br>" +
-                    "Skrze Krista, nášho Pána."
+                    "Počuli sme slovo Pánovo."
     };
 
     String[] pozehnanie_Blazej = {

@@ -47,6 +47,7 @@ VLASTNE FORMULARE
 01 - Pondelok po zoslaní DS
 02 - NAJSVÄTEJŠIEHO SRDCA JEŽIŠOVHO
 03 - VOTÍVNA OMŠA O NAJSVÄTEJŠOM SRDCI JEŽIŠOVOM
+04 - Výročie posviacky chrámu (slávenie mimo chrámu)
    */
 
 public interface Formular {
@@ -85,6 +86,7 @@ public interface Formular {
             {"07", "21", "65"},
             {"08", "62", "63"},
             {"09", "62"},
+            {"10gv", "04"},
             {"17", "35", "32"},
             {"18", "32", "4"},
             {"23", "32"},
@@ -129,6 +131,7 @@ public interface Formular {
             {"06", "32", "62"},
             {"09", "4"},
             {"13", "33", "4", "62"},
+            {"13gv", "04"},
             {"16", "22"},
             {"19", "62"},
             {"22a", "32"},
@@ -177,9 +180,11 @@ public interface Formular {
             {"25a", "61"},
             {"25b", "33", "64"},
             {"27", "65"},
+            {"30gv", "04"},
     };
     String[][] formular9 = {
             {"03", "33", "4"},
+            {"06gv", "04"},
             {"09", "33"},
             {"12", "11"},
             {"13", "32", "4"},
@@ -188,6 +193,7 @@ public interface Formular {
             {"19", "22", "32"},
             {"22+", "22", "32"},
             {"23", "33", "62"},
+            {"24gv", "04"},
             {"26", "21"},
             {"28a", "22"},
             {"28b", "21"},
@@ -197,6 +203,7 @@ public interface Formular {
             {"06", "33", "62"},
             {"09a", "21"},
             {"09b", "35", "63"},
+            {"10gv", "04"},
             {"11", "31"},
             {"14", "22", "31"},
             {"16a", "62"},
@@ -207,11 +214,14 @@ public interface Formular {
             {"23", "35"},
             {"24", "32", "35"},
             {"25", "32"},
+            {"25gv", "04"},
+            {"27gv", "04"},
     };
     String[][] formular11 = {
             {"03", "62"},
             {"04", "32"},
             {"05", "61"},
+            {"09gv", "04"},
             {"10", "31", "4"},
             {"12", "22", "32"},
             {"15", "32", "4"},
@@ -219,6 +229,7 @@ public interface Formular {
             {"16b", "51", "62"},
             {"17", "63"},
             {"20", "26", "51"},
+            {"20gv", "04"},
             {"21", "11"},
             {"22", "22", "51"},
             {"23a", "22", "31"},
@@ -301,6 +312,12 @@ public interface Formular {
                             "<font color='#B71C1C'>Alebo: (Jn 19, 34)</font><br>" +
                             "Jeden z vojakov kopijou prebodol Ježišovi bok,<br>" +
                             "a hneď vyšla krv a voda.", "(Jn 7, 37 – 38)"},
+            {"04", "Výročie posviacky chrámu (slávenie mimo chrámu)", "Videl som zostupovať z nebies od Boha<br>" +
+                    "sväté mesto, nový Jeruzalem,<br>" +
+                    "vystrojené ako nevestu,<br>" +
+                    "ktorá sa vyzdobila pre svojho ženícha", "(Zjv 21, 2)",
+                    "Aj vy, ako živé kamene,<br>" +
+                            "budujete duchovný dom, sväté kňazstvo.", "(1 Pt 2, 5)",},
 
             // SPOLOCNE OMSE PREBLAHOSLAVENEJ PANNY MÁRIE
             {"11", "Omša k preblahoslavenej Panne Marií 1.", "Zdravas, svätá Matka.<br>" +
@@ -871,6 +888,38 @@ public interface Formular {
                     "dopraj, prosíme, <font color='#B71C1C'>—</font><br>" +
                     "aby sme sa na zemi stali podobnými Kristovi<br>" +
                     "a v nebi mali podiel na jeho sláve.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"04", "Výročie posviacky chrámu (slávenie mimo chrámu)", "Vznešený Bože,<br>" +
+                    "pripravuješ si z nás ako<br>" +
+                    "zo živých a vybraných kameňov<br>" +
+                    "duchovný chrám; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, zošli svojej Cirkvi Ducha Svätého, <font color='#B71C1C'>—</font><br>" +
+                    "aby neprestajne pôsobil v tvojich veriacich<br>" +
+                    "a budoval z nich nebeský Jeruzalem.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
+                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
+                    "v jednote s Duchom Svätým po všetky veky vekov.<br>" +
+                    "<font color='#B71C1C'>Alebo:</font><br>" +
+                    "Všemohúci Bože,<br>" +
+                    "ty povolávaš veriacich,<br>" +
+                    "aby tvorili Cirkev, chrám Ducha Svätého; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby ľud zhromaždený v tvojom mene<br>" +
+                    "tebe sa klaňal, teba miloval a nasledoval <font color='#B71C1C'>—</font><br>" +
+                    "a pod tvojou ochranou dosiahol<br>" +
+                    "prisľúbenú nebeskú blaženosť. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
+                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
+                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože,<br>" +
+                    "prijmi naše obetné dary a dopraj, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme v tvojom svätom chráme<br>" +
+                    "s úžitkom prijímali sviatosti <font color='#B71C1C'>—</font><br>" +
+                    "a dosiahli milosti, o ktoré ťa prosíme.<br>" +
+                    "Skrze Krista, nášho Pána.", "Dobrotivý Bože, ty si zo svojej Cirkvi na zemi urobil<br>" +
+                    "obraz nebeského Jeruzalema; <font color='#B71C1C'>*</font><br>" +
+                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "pôsobením sviatosti, ktorú sme prijali,<br>" +
+                    "utváraj z nás živý chrám svojej milosti,<br>" +
+                    "aby sme mohli vojsť do tvojej slávy.<br>" +
                     "Skrze Krista, nášho Pána."},
 
             // SPOLOCNE OMSE PREBLAHOSLAVENEJ PANNY MÁRIE
@@ -2403,6 +2452,18 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"02", "Najsvätejšieho Srdca Ježišovho", ""},
             {"03", "Votívna omša o Najsvätejšom Srdci Ježišovom", ""},
+            {"04", "Výročie posviacky chrámu (slávenie mimo chrámu)", "Bratia a sestry, sme živými kameňmi chrámu, ktorým je Cirkev. V jednote a nádeji sa spoločne modlime.",
+                    "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Modlime sa za Cirkev, postavenú zo živých kameňov, aby sa zveľaďovala vo viere a láske.<br>" +
+                            "<font color='#B71C1C'>2.</font> Modlime sa za kresťanov, aby nezabúdali, že plná účasť na omši sa dosahuje v obetnej hostine.<br>" +
+                            "<font color='#B71C1C'>3.</font> Modlime sa za všetkých ľudí, aby počuli hlas, ktorý ich volá do Pánovho domu, a vážili si duchovné hodnoty.<br>" +
+                            "<font color='#B71C1C'>4.</font> Modlime sa, aby všetci spoznali, že chrám je domom modlitby.<br>" +
+                            "<font color='#B71C1C'>5.</font> Modlime sa aj za seba, aby sme sa tešili, že chrám je domom Božím a bránou do neba.",
+                    "Pane a Bože náš,<br>" +
+                            "vypočuj naše prosby<br>" +
+                            "a pomáhaj nám budovať duchovný chrám,<br>" +
+                            "ktorý je postavený na základoch dôvery v teba.<br>" +
+                            "Skrze Krista, nášho Pána."},
 
             // SPOLOCNE OMSE PREBLAHOSLAVENEJ PANNY MÁRIE
             {"11", "Omša k preblahoslavenej Panne Marií 1.", "Bratia a sestry, Panna Mária je veľkým vzorom nášho života v pokore, modlitbe a plnení Božej vôle. V tejto spoločnej modlitbe na jej orodovanie prosme nášho najmilostivejšieho Pána.",
