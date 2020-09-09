@@ -880,8 +880,10 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
 
     public void druheCitanie() {
         druhe_citanie = null;
+        //vynimka z "n" pre Premenenie Pána a Povýšenie sv. Kríža (v nedelu su dve citania v tyzdni sa druhe citanie dava ako alebo moznost k prvemu)
+        boolean vynimka_n = (m == 7 && ID.equals("06gn")) || (m == 8 && ID.equals("14gn"));
         //zisti ci je druhe citanie v dany den
-        if ((ID.contains("k") || (ID.contains("n") && nedela)|| menoSvatca.equals("POPOLCOVÁ STREDA") ||
+        if ((ID.contains("k") || (ID.contains("n") && (nedela || !vynimka_n))|| menoSvatca.equals("POPOLCOVÁ STREDA") ||
                 nedela || (ID.equals("02g") && m == 1 && dvt == 0)) && !slavenie.equals("Oktáva")) {
             druhe_citanie = "Druhé čítanie";
             int index = 0;
