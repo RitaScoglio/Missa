@@ -300,7 +300,7 @@ public interface Svatci {
             {"03", "Sv. Martina de Porres, rehoľníka", "Ľubovoľná spomienka", "(biela)"},
             {"04", "Sv. Karola Boromejského, biskupa", "Spomienka", "(biela)"},
             {"05", "TRNAVSKÁ ARCIDIECÉZA, BANSKOBYSTRICKÁ, NITRIANSKÁ A ROŽŇAVSKÁ DIECÉZA: Sv. Imricha", "Ľubovoľná spomienka", "(biela)"},
-            {"09gv", "Výročie posviacky Lateránskej baziliky", "Sviatok", "(biela)"},
+            {"09g", "Výročie posviacky Lateránskej baziliky", "Sviatok", "(biela)"},
             {"10", "Sv. Leva Veľkého, pápeža a učiteľa Cirkvi", "Spomienka", "(biela)"},
             {"11", "Sv. Martina z Tours, biskupa", "Spomienka", "(biela)"},
             {"11g", "BRATISLAVSKA ARCIDIECÉZA A SPIŠSKÁ DIECÉZA: Sv. Martina z Tours, biskupa (Hlavný patrón Bratislavskej arcidiecézy a Spišskej diecézy a titul katedrál)", "Sviatok", "(biela)"},
