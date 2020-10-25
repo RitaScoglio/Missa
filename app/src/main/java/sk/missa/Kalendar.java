@@ -276,8 +276,10 @@ public class Kalendar extends Main {
     //posun mesiaca o dozadu
     private void predchadzajuci() {
         if (mm == 0) {
-            //mm = 11;
-            //rok--;
+            mm = 11;
+            rok--;
+            //dolezite pre vypocet tyzdna cezrok - posun (zalezi od krstu krista pana)
+            posunObdobieCezrok(rok);
         //} else if(mm == 11){
             //obmedzenie kalendara
         } else {
@@ -291,8 +293,10 @@ public class Kalendar extends Main {
 
     private void nasledujuci() {
         if (mm == 11) {
-           // mm = 0;
-            //rok++;
+            mm = 0;
+            rok++;
+            //dolezite pre vypocet tyzdna cezrok - posun (zalezi od krstu krista pana)
+            posunObdobieCezrok(rok);
         //} else if(mm == 0){
                         //obmedzenie kalendara
         } else {
@@ -323,7 +327,10 @@ public class Kalendar extends Main {
         dateView.setTextSize(sizeN);
         switch (mm) {
             case 0:
-                ziskajAaV(rok-1, rok);
+                //dolezite pre vypocet tyzdna cezrok - posun (zalezi od krstu krista pana)
+                posunObdobieCezrok(rok);
+                if (mPM == null)
+                    ziskajAaV(rok-1, rok);
                 slavenieMesiac(32, month1);
                 break;
             case 1:
@@ -365,10 +372,13 @@ public class Kalendar extends Main {
                 slavenieMesiac(32, month10); //(počet dní v mesiaci+, mesiac obsahujúci sviatky)
                 break;
             case 10:
-                ziskajAaV(rok, rok+1);
+                if (mPM == null)
+                    ziskajAaV(rok, rok+1);
                 slavenieMesiac(31, month11);
                 break;
             case 11:
+                if (mPM == null)
+                    ziskajAaV(rok, rok+1);
                 slavenieMesiac(32, month12);
             default:
                 break;

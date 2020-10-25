@@ -38,6 +38,7 @@ import org.joda.time.Days;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Locale;
 
 import sk.missa.interfaces.Svatci;
 
@@ -50,7 +51,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     public static boolean preface;
     public static String euchText, prefText;
     public static int sizeN, sizeO, sizeZ;
-    public static DateTime mP, mVN, mDS, mD, mSP, mNT, mTK, mNSJ, mSPM, msvJ, mZP, mJK, mvDS, mPM, mNP, mSR, mNNP, mZJ, mKKP, mZacA;
+    public static DateTime mP, mVN, mDS, mD, mSP, mNT, mTK, mNSJ, mSPM, msvJ, mZP, mJK, mvDS, mPM, mNP, mSR, mNNP, mZJ, mKKP, mZacA, mZJactual, mKKPactual;
     public static boolean C, A, V, P, VN;
     public static boolean pismo, rezim, zvoncek, fullscreen, ticheModlitby;
     public static int farba_b, farba_r;
@@ -518,10 +519,16 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         pm = prvyPiatok = vynimka_pm = false;
         index = najdiIndex(month, d);
         dnes.setFirstDayOfWeek(java.util.Calendar.SUNDAY);
+
         //vypocet tyzdna v cezrocnom obdobi
+        //v niektorych rokoch posun v tyzdnoch od klasiky = zistenie ci je posun v tyzdnoch (v januari musi byt cezrok vzdy 1)
+        int posun = Math.abs(1 - (mKKPactual.plusDays(1).getWeekOfWeekyear() - 2));
+        //zistim cezrok normalne
         cezrok = (dnes.get(java.util.Calendar.WEEK_OF_YEAR) - 14);
         if (mes == 0 || mes == 1 || mes == 2)
             cezrok = cezrok + 12;
+        //nakoniec priratam posun
+        cezrok = cezrok + posun;
 
         //nedela
         n = new Calendar((cisla_z[cezrok - 1] + " nedeľa v cezročnom období").toUpperCase(), "", "(zelená)", day, (cezrok), "gk", "c");
@@ -922,6 +929,17 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         mKKP = mZJ.plusDays(7 - dayKKP);
         //Začiatok adventného obdobia
         mZacA = mNP.minusDays(dayNP).minusWeeks(3);
+    }
+
+    void posunObdobieCezrok(int rok){
+        int dayKKP;
+        //Zjavenie Pána - 6.1.
+        mZJactual = new DateTime(rok, 1, 6, 12, 0, 0);
+        //Nedeľa po 6.januári - Krst Krista Pána (po novom roku)
+        dayKKP = mZJactual.getDayOfWeek();
+        if (dayKKP == 7)
+            dayKKP = 0;
+        mKKPactual = mZJactual.plusDays(7 - dayKKP);
     }
 }
 

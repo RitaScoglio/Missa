@@ -235,6 +235,10 @@ public class Uvod extends Main {
         }
         dtm.setTextSize(sizeN);
         upravyMisal.setTextSize(sizeO);
+
+        //dolezite pre vypocet tyzdna cezrok - posun (zalezi od krstu krista pana)
+        posunObdobieCezrok(rok);
+
         //vypis sviatkov v aktualnom dni
         switch (m) {
             case 0:
