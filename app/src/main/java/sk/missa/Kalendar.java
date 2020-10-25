@@ -326,11 +326,11 @@ public class Kalendar extends Main {
         }
         dateView.setTextSize(sizeN);
         switch (mm) {
+            //ziskajPaVN a ziskajAaV sa rata iba v hranickych mesiacoch, kedze v uvode sa rata v ostatnych
             case 0:
                 //dolezite pre vypocet tyzdna cezrok - posun (zalezi od krstu krista pana)
                 posunObdobieCezrok(rok);
-                if (mPM == null)
-                    ziskajAaV(rok-1, rok);
+                ziskajAaV(rok-1, rok);
                 slavenieMesiac(32, month1);
                 break;
             case 1:
@@ -341,18 +341,12 @@ public class Kalendar extends Main {
                     slavenieMesiac(29, month2);
                 break;
             case 2:
-                if (mP == null)
-                    ziskajPaVN();
                 slavenieMesiac(32, month3);
                 break;
             case 3:
-                if (mP == null)
-                    ziskajPaVN();
                 slavenieMesiac(31, month4);
                 break;
             case 4:
-                if (mP == null)
-                    ziskajPaVN();
                 slavenieMesiac(32, month5);
                 break;
             case 5:
@@ -372,13 +366,10 @@ public class Kalendar extends Main {
                 slavenieMesiac(32, month10); //(počet dní v mesiaci+, mesiac obsahujúci sviatky)
                 break;
             case 10:
-                if (mPM == null)
-                    ziskajAaV(rok, rok+1);
+                ziskajAaV(rok, rok+1);
                 slavenieMesiac(31, month11);
                 break;
             case 11:
-                if (mPM == null)
-                    ziskajAaV(rok, rok+1);
                 slavenieMesiac(32, month12);
             default:
                 break;

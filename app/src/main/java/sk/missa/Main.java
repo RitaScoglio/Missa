@@ -529,6 +529,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             cezrok = cezrok + 12;
         //nakoniec priratam posun
         cezrok = cezrok + posun;
+        Log.d("pocitanie cezrok", day + " " + mes + " " + cezrok);
 
         //nedela
         n = new Calendar((cisla_z[cezrok - 1] + " nedeľa v cezročnom období").toUpperCase(), "", "(zelená)", day, (cezrok), "gk", "c");
