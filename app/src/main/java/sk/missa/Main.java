@@ -345,6 +345,8 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             editor.putBoolean("firstOpen", firstOpen).apply();
             editor.putInt("sizeZ", sizeZ).apply();
         }
+        int s = (sizeO - 16) / 2 * 5;
+        sizeZ = 35 + s;
     }
 
     //uloží font

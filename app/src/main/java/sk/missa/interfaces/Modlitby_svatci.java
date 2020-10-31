@@ -687,7 +687,7 @@ public interface Modlitby_svatci {
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
                     "ktorý je Boh a s tebou žije a kraľuje<br>" +
                     "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"11", "Milosrdný Otče, <font color='#B71C1C'>*</font><br>" +
+            {"11m", "Milosrdný Otče, <font color='#B71C1C'>*</font><br>" +
                     "s radosťou slávime pamiatku Panny Márie,<br>" +
                     "nepoškvrnenej matky tvojho Syna, <font color='#B71C1C'>—</font><br>" +
                     "a prosíme ťa, na jej orodovanie pomôž nám slabým<br>" +
@@ -1110,7 +1110,7 @@ public interface Modlitby_svatci {
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
                     "ktorý je Boh a s tebou žije a kraľuje<br>" +
                     "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"13", "Dobrotivý Bože,<br>" +
+            {"13m", "Dobrotivý Bože,<br>" +
                     "ty si Rodičku svojho Syna ustanovil aj za našu Matku; <font color='#B71C1C'>*</font><br>" +
                     "daj, prosíme,<br>" +
                     "aby sme zotrvávali v pokání<br>" +
@@ -1613,7 +1613,7 @@ public interface Modlitby_svatci {
     };
 
     String[][] modlitba7 = {
-            {"02g", "Všemohúci a večný Bože,<br>" +
+            {"02gm", "Všemohúci a večný Bože,<br>" +
                     "keď pre blahoslavená Panna Mária<br>" +
                     "nosila pod srdcom tvojho Syna,<br>" +
                     "vnukol si jej, aby navštívila svätú Alžbetu; <font color='#B71C1C'>*</font><br>" +
@@ -1752,7 +1752,7 @@ public interface Modlitby_svatci {
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
                     "ktorý je Boh a s tebou žije a kraľuje<br>" +
                     "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"16", "Veľký a svätý Bože, <font color='#B71C1C'>*</font><br>" +
+            {"16m", "Veľký a svätý Bože, <font color='#B71C1C'>*</font><br>" +
                     "nech nám pomáha na životnej púti<br>" +
                     "mocné orodovanie slávnej Panny Márie, <font color='#B71C1C'>—</font><br>" +
                     "aby sme pod jej ochranou<br>" +
@@ -2215,7 +2215,7 @@ public interface Modlitby_svatci {
                     "ktorý čerpal svätý Maximilián Mária<br>" +
                     "z účasti na tejto sviatostnej hostine.<br>" +
                     "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"14gk", "Všemohúci a večný Bože,<br>" +
+            {"14gkm", "Všemohúci a večný Bože,<br>" +
                     "ty si zhliadol na svoju pokornú služobnicu Pannu Máriu<br>" +
                     "a vyznačil si ju tým, že sa stala matkou tvojho večného Syna<br>" +
                     "a dnešného dňa si ju korunoval najvyššou slávou; <font color='#B71C1C'>*</font><br>" +
@@ -2236,7 +2236,7 @@ public interface Modlitby_svatci {
                     "pomáhaj nám na tomto svete prekonávať všetky prekážky, <font color='#B71C1C'>—</font><br>" +
                     "aby sme mohli dôjsť k tebe do nebeskej vlasti.<br>" +
                     "Skrze Krista, nášho Pána."},
-            {"15gk", "Všemohúci a večný Bože,<br>" +
+            {"15gkm", "Všemohúci a večný Bože,<br>" +
                     "ty si vzal nepoškvrnenú Pannu Máriu, matku tvojho Syna,<br>" +
                     "s telom a dušou do nebeskej slávy; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa, pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
@@ -2315,7 +2315,7 @@ public interface Modlitby_svatci {
                     "aby nás nebeský chlieb, ktorý sme prijali,<br>" +
                     "upevnil vo viere a zjednotil v láske.<br>" +
                     "Skrze Krista, nášho Pána."},
-            {"22", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
+            {"22m", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
                     "Máriu, matku svojho Syna,<br>" +
                     "dal si nám za Matku a Kráľovnú; <font color='#B71C1C'>—</font><br>" +
                     "pomôž nám na jej orodovanie<br>" +
@@ -2483,7 +2483,7 @@ public interface Modlitby_svatci {
                     "aby sme sa podľa príkladu košických mučeníkov<br>" +
                     "verne pridŕžali Ježiša Krista a jeho Cirkvi.<br>" +
                     "Lebo on žije a kraľuje na veky vekov."},
-            {"08g", "Milosrdný Bože,<br>" +
+            {"08gm", "Milosrdný Bože,<br>" +
                     "uštedri nám svoju nebeskú milosť, <font color='#B71C1C'>*</font><br>" +
                     "a keďže narodenie Spasiteľ a z presvätej Panny<br>" +
                     "bolo počiatkom našej spásy, <font color='#B71C1C'>—</font><br>" +
@@ -2513,7 +2513,7 @@ public interface Modlitby_svatci {
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
                     "ktorý je Boh a s tebou žije a kraľuje<br>" +
                     "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"12", "Všemohúci Bože, prosíme ťa, <font color='#B71C1C'>*</font><br>" +
+            {"12m", "Všemohúci Bože, prosíme ťa, <font color='#B71C1C'>*</font><br>" +
                     "daj, aby blahoslavená Panna Mária<br>" +
                     "sprostredkovala dobrodenia<br>" +
                     "tvojho milosrdenstva všetkým, <font color='#B71C1C'>—</font><br>" +
@@ -2580,7 +2580,7 @@ public interface Modlitby_svatci {
                     "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
                     "daj nám účasť aj na sláve svojho zmŕtvychvstania.<br>" +
                     "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"15gk", "Všemohúci Bože,<br>" +
+            {"15gkm", "Všemohúci Bože,<br>" +
                     "ty si dal pre bolestnej Matke Márii silu,<br>" +
                     "aby stála pri tvojom ukrižovanom Synovi<br>" +
                     "a spolu s ním trpela; <font color='#B71C1C'>*</font><br>" +
@@ -2878,7 +2878,7 @@ public interface Modlitby_svatci {
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
                     "ktorý je Boh a s tebou žije a kraľuje<br>" +
                     "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"07", "Všemohúci Bože,<br>" +
+            {"07m", "Všemohúci Bože,<br>" +
                     "z anjelovho zvestovania vieme,<br>" +
                     "že tvoj Syn Ježiš Kristus sa stal človekom; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa,<br>" +
@@ -3430,7 +3430,7 @@ public interface Modlitby_svatci {
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
                     "ktorý je Boh a s tebou žije a kraľuje<br>" +
                     "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"21", "Dobrotivý Bože,<br>" +
+            {"21m", "Dobrotivý Bože,<br>" +
                     "dnes si s úctou spomíname na najsvätejšiu Pannu,<br>" +
                     "ktorú si zahrnul darmi svojej milosti; <font color='#B71C1C'>*</font><br>" +
                     "na jej orodovanie udeľ aj nám<br>" +
@@ -3620,7 +3620,7 @@ public interface Modlitby_svatci {
                     "neochvejne kráčali po tvojich cestách<br>" +
                     "a pripravovali sa na radostnú hostinu vo večnosti.<br>" +
                     "Skrze Krista, nášho Pána."},
-            {"10", "Deus, qui promíssa Pátribus adimplens<br>" +
+            {"10m", "Deus, qui promíssa Pátribus adimplens<br>" +
                     "beátam Vírginem Maríam elegísti,<br>" +
                     "ut matrem fíeret Salvatóris,<br>" +
                     "concéde nobis illíus exémpla sectári,<br>" +

@@ -3,7 +3,7 @@ package sk.missa;
 public class Missa {
 
     private String sekcia, nadpis, suradnice, citat, text, citat_prosby, text_prosby, text_center, text_small;
-    private boolean zvonec, vypisHtml, italic;
+    private boolean zvonec, vypisHtml, italic, bar;
     private int otvor, medzera, indexAlebo, index;
 
     //rôzne možnosti výpisu textu v misáli
@@ -72,9 +72,12 @@ public class Missa {
         this.zvonec = zvonec;
     }
 
-    //medzera
-    Missa(int medzera){
-        this.medzera = medzera;
+    //medzera alebo bar
+    Missa(int num){
+        if (num == 5)
+            this.bar = true;
+        else
+            this.medzera = num;
     }
 
     //tiche modlitby knaza
@@ -84,6 +87,7 @@ public class Missa {
         this.text = text;
         this.italic = true;
     }
+
 
     String getSekcia() {
         return this.sekcia;
@@ -147,6 +151,10 @@ public class Missa {
 
     boolean getItalic() {
         return this.italic;
+    }
+
+    boolean getBar(){
+        return this.bar;
     }
 
 }

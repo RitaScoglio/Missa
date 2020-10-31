@@ -53,7 +53,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         Zalmy_cezrok, Zalmy_advent, Zalmy_post, Zalmy_velkanoc, Zalmy_svatci {
     public static int indexSpev, indexModlitba, indexProsba, indexCS, indexCM, indexPS, indexPM, indexVNS, indexVNM,
             indexAS, indexAM, indexVS, indexVM, cirkevRok;
-    public static boolean feria, nedela, pohyb, maria;
+    public static boolean feria, nedela, pohyb;
     public static boolean nast_farbu, spevO, modlitbaO, prosbyO, citanie1O, zalmO, alelujaO, evanjeliumO;
     List<String> formArray = new ArrayList<>();
     List<String> formArrayNum = new ArrayList<>();
@@ -113,13 +113,6 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             cirkevRok = (rok + 1) % 3;
         else
             cirkevRok = rok % 3;
-        if (!feria) {
-            String m = Character.toString(ID.charAt(ID.length() - 1));
-            if (m.equals("m")) {
-                ID = ID.substring(0, ID.length() - 1);
-                maria = true;
-            }
-        }
         if (menoSvatca.equals("Sedembolestnej Panny Márie, patrónky Slovenska") || (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) ||
                 ID.equals("2gkp") || ID.equals("3gkp") || ID.equals("4gkp"))
             sequence = true;
@@ -883,7 +876,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         //vynimka z "n" pre Premenenie Pána a Povýšenie sv. Kríža (v nedelu su dve citania v tyzdni sa druhe citanie dava ako alebo moznost k prvemu)
         boolean vynimka_n = (m == 7 && ID.equals("06gn")) || (m == 8 && ID.equals("14gn"));
         //zisti ci je druhe citanie v dany den
-        if ((ID.contains("k") || (ID.contains("n") && (nedela || !vynimka_n))|| menoSvatca.equals("POPOLCOVÁ STREDA") ||
+        if ((ID.contains("k") || (ID.contains("n") && (nedela || !vynimka_n)) || menoSvatca.equals("POPOLCOVÁ STREDA") ||
                 nedela || (ID.equals("02g") && m == 1 && dvt == 0)) && !slavenie.equals("Oktáva")) {
             druhe_citanie = "Druhé čítanie";
             int index = 0;
@@ -1670,49 +1663,38 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         missas.add(new Missa("Eucharistická modlitba".toUpperCase(), null, null, false));
         for (int i = 0; i < eucharistia.length; i++) {
             for (int j = 0; j < eucharistia[i].length; j = j + 2) {
-                if (j == 0 && eucharistia[i][j] != null) {
-                    if (eucharistia[i][j].contains("Spomienka")) {
-                        if (eucharistia[i][j + 1].length() > 6) {
-                            if (eucharistia[i][j + 1].substring(0, 6).equals("VSUVKA")) {//vsuvky v EM na výnimočné sviatky
-                                if (V) {
-                                    //Na Narodenie Pána a cez oktávu
-                                    if (den >= 24)
-                                        missas.add(new Missa(null, eucharistia[i][j], vsuvkaEM[0][1], true));
-                                        //Na Zjavenie Pána
-                                    else if (ID.equals("06gk"))
-                                        missas.add(new Missa(null, eucharistia[i][j], vsuvkaEM[1][1], true));
-                                    else
-                                        missas.add(new Missa(null, eucharistia[i][j], eucharistia[i][j + 1].replace("VSUVKA", ""), true));
-                                } else if (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) {
-                                    missas.add(new Missa(null, eucharistia[i][j], vsuvkaEM[2][1], true));
-                                } else if (ID.equals("6gkp"))
-                                    missas.add(new Missa(null, eucharistia[i][j], vsuvkaEM[3][1], true));
-                                else if (ID.equals("2gkp") || ID.equals("3gkp"))
-                                    missas.add(new Missa(null, eucharistia[i][j], vsuvkaEM[4][1], true));
-                                else {
-                                    missas.add(new Missa(null, eucharistia[i][j], eucharistia[i][j + 1].replace("VSUVKA", ""), true));
-                                }
-                            } else
-                                missas.add(new Missa(null, eucharistia[i][j], eucharistia[i][j + 1], true));
-                        } else
-                            missas.add(new Missa(null, eucharistia[i][j], eucharistia[i][j + 1], true));
-                    } else if (eucharistia[i][j].contains("VEZMITE")) {
-                        missas.add(new Missa(null, eucharistia[i][j], null, false));
-                        missas.add(new Missa(true));
-                    } else
-                        missas.add(new Missa(eucharistia[i][j], eucharistia[i][j + 1], true));
-                } else if (eucharistia[i][j + 1].length() > 6) {
-                    if (eucharistia[i][j + 1].substring(0, 7).equals("VSUVKA2")) {//vsuvky na výnimočné sviatky
-                        if (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) {
-                            missas.add(new Missa(eucharistia[i][j], vsuvkaEM[2][2], true));
-                        } else {
-                            missas.add(new Missa(eucharistia[i][j], eucharistia[i][j + 1].replace("VSUVKA2", ""), true));
-                        }
+                if (eucharistia[i][j + 1].contains("VSUVKA1")) {//vsuvky v EM na výnimočné sviatky
+                    if (V && den >= 24) {
+                        //Na Narodenie Pána a cez oktávu
+                        missas.add(new Missa(null, eucharistia[i][j], vsuvkaEM[0][1], true));
+                        //Na Zjavenie Pána
+                    } else if (V && ID.equals("06gk")) {
+                        missas.add(new Missa(null, eucharistia[i][j], vsuvkaEM[1][1], true));
+                    } else if (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) {
+                        missas.add(new Missa(null, eucharistia[i][j], vsuvkaEM[2][1], true));
+                    } else if (ID.equals("6gkp")) {
+                        missas.add(new Missa(null, eucharistia[i][j], vsuvkaEM[3][1], true));
+                    } else if (ID.equals("2gkp") || ID.equals("3gkp")) {
+                        missas.add(new Missa(null, eucharistia[i][j], vsuvkaEM[4][1], true));
                     } else {
-                        missas.add(new Missa(eucharistia[i][j], eucharistia[i][j + 1], true));
+                        missas.add(new Missa(null, eucharistia[i][j], eucharistia[i][j + 1].replace("VSUVKA1", ""), true));
                     }
-                } else
+                } else if (eucharistia[i][j].contains("VEZMITE")) {
+                    missas.add(new Missa(null, eucharistia[i][j], null, false));
+                    missas.add(new Missa(true));
+                } else if (eucharistia[i][j + 1].contains("VSUVKA2")) {//vsuvky na výnimočné sviatky
+                    if (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) {
+                        missas.add(new Missa(eucharistia[i][j], vsuvkaEM[2][2], true));
+                    } else {
+                        missas.add(new Missa(eucharistia[i][j], eucharistia[i][j + 1].replace("VSUVKA2", ""), true));
+                    }
+                } else if (eucharistia[i][j].contains("Spomienka")){
+                    missas.add(new Missa(null, eucharistia[i][j], eucharistia[i][j + 1], true));
+                } else if (eucharistia[i][j].equals("BAR")) {
+                    missas.add(new Missa(5));
+                } else {
                     missas.add(new Missa(eucharistia[i][j], eucharistia[i][j + 1], true));
+                }
             }
         }
     }
@@ -2468,7 +2450,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
              *  ukon = ukonKajucnosti[9][1]; - za zosnulých*/
             if (ID.equals("2gkp") || ID.equals("3gkp"))
                 ukon = ukonKajucnosti[7][1];
-            else if (maria)
+            else if (ID.contains("m"))
                 ukon = ukonKajucnosti[8][1];
             else if (ID.equals("6gkp"))
                 ukon = ukonKajucnosti[6][1];
@@ -2523,7 +2505,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         } else if (dialog == 9) {//Príď, Duchu Svätý, tvorivý - 1.1.
             builder.setMessage(prid_Duchu_svaty_tvorivy);
             builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Príď, Duchu Svätý, tvorivý</b></font>")));
-        } else if (dialog == 10){
+        } else if (dialog == 10) {
             builder.setMessage(Html.fromHtml(nahrad(modlitba_zasvatenia)));
             builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Zasvätenie ľudského pokolenia Božskému Srdcu</b></font>")));
         }
@@ -2631,7 +2613,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         final ArrayList<Missa> missas = new ArrayList<>();
         missas.add(new Missa(nadpis, null, null, null, null, true, -1));
         missas.add(new Missa(true));
-        if(ID.equals("60") && P){
+        if (ID.equals("60") && P) {
             missas.add(new Missa("<font color='#B71C1C'>" + kvetna_nedela[0] + " (otvoriť)</font>", true, 17));
             missas.add(new Missa(1));
         }
@@ -2640,10 +2622,10 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         missas.add(new Missa(pozdrav, true, 1));
         missas.add(new Missa(1)); //medzera mala
         missas.add(new Missa(kajucnost, true, 2));
-        if(ticheModlitby){
+        if (ticheModlitby) {
             missas.add(new Missa(1)); //medzera mala
             missas.add(new Missa(tiche_modlitby[0][0], tiche_modlitby[0][1], tiche_modlitby[0][2]));
-            missas.add(new Missa(null,tiche_modlitby[0][3], tiche_modlitby[0][4]));
+            missas.add(new Missa(null, tiche_modlitby[0][3], tiche_modlitby[0][4]));
         }
         if (gloria != null) {
             missas.add(new Missa(1)); //medzera mala
@@ -2726,7 +2708,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         }
         missas.add(new Missa(1)); //medzera mala
         missas.add(new Missa(modlitba_prijimanie.toUpperCase(), null, null, null, modlitba_prijimanie_vypis, true, 0));
-        if(ID.equals("8gkp")) { //nedela Krista Krala - modlitba zasvatenia
+        if (ID.equals("8gkp")) { //nedela Krista Krala - modlitba zasvatenia
             missas.add(new Missa(1)); //medzera mala
             missas.add(new Missa("<font color='#B71C1C'>Zasvätenie ľudského pokolenia Božskému Srdcu (otvoriť)</font>", true, 18));
         }

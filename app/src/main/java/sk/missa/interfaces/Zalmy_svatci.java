@@ -799,7 +799,7 @@ public interface Zalmy_svatci {
                             "Kto je ten kráľ slávy? <font color='#B71C1C'>†</font><br>" +
                             "Pán zástupov, <font color='#B71C1C'>*</font><br>" +
                             "to je ten kráľ slávy. <font color='#B71C1C'>– R.</font>"},
-            /*{"11", "", "", "Jdt 13, 18b-e. 19",
+            /*{"11m", "", "", "Jdt 13, 18b-e. 19",
                     "<font color='#B71C1C'>R.:</font> Požehnaná si, Panna Mária, nad všetky ženy na svete.<br><br>" +
                             "Požehnaná si, dcéra, od Boha najvyššieho <font color='#B71C1C'>*</font><br>" +
                             "nad všetky ženy na svete.<br>" +
@@ -1080,7 +1080,7 @@ public interface Zalmy_svatci {
                             "Skúste a presvedčte sa, aký dobrý je Pán; <font color='#B71C1C'>*</font><br>" +
                             "šťastný človek, čo sa utieka k nemu.<font color='#B71C1C'> – R.</font>"},};
     String[][] zalm7 = {
-            {"02g", "", "", "Iz 12, 2-3. 4b-d. 5-6",
+            {"02gm", "", "", "Iz 12, 2-3. 4b-d. 5-6",
                     "<font color='#B71C1C'>R.:</font> Plesajme a jasajme, lebo uprostred nás je Svätý, Boh.<br><br>" +
                             "\"Hľa, Boh je moja spása; <font color='#B71C1C'>*</font><br>" +
                             "dúfam a nebojím sa,<br>" +
@@ -1131,7 +1131,7 @@ public interface Zalmy_svatci {
                             "Boháči sa nabiedia a nahladujú, <font color='#B71C1C'>*</font><br>" +
                             "ale tým, čo hľadajú Pána,<br>" +
                             "nijaké dobro chýbať nebude.<font color='#B71C1C'> – R.</font>"},
-            /*{"16", "", "", "Lk 1, 46-47. 48-49. 50-51. 52-53. 54-55",
+            /*{"16m", "", "", "Lk 1, 46-47. 48-49. 50-51. 52-53. 54-55",
                     "<font color='#B71C1C'>R.:</font> Blahoslavená si, Panna Mária, lebo si nosila Syna večného Otca.<br><br>" +
                             "Velebí moja duša Pána <font color='#B71C1C'>*</font><br>" +
                             "a môj duch jasá v Bohu, mojom Spasiteľovi,<font color='#B71C1C'> – R.</font><br>" +
@@ -1307,7 +1307,7 @@ public interface Zalmy_svatci {
                             "Rozdeľuje a dáva chudobným; <font color='#B71C1C'>†</font><br>" +
                             "jeho dobročinnosť potrvá naveky <font color='#B71C1C'>*</font><br>" +
                             "a jeho moc a sláva budú stále rásť.<font color='#B71C1C'> – R.</font>"},
-            {"14gk", "", "", "Ž 132, 6-7. 9-10. 13-14",
+            {"14gkm", "", "", "Ž 132, 6-7. 9-10. 13-14",
                     "<font color='#B71C1C'>R.:</font> Vstaň, Pane, zaujmi svoje miesto, ty a tvoja vznešená archa.<br><br>" +
                             "Počuli sme, že archa je v Efrate, <font color='#B71C1C'>*</font><br>" +
                             "a našli sme ju na jaarských nivách.<br>" +
@@ -1321,7 +1321,7 @@ public interface Zalmy_svatci {
                             "želal si mať ho za svoj príbytok:<br>" +
                             "\"To je miesto môjho odpočinku naveky; <font color='#B71C1C'>*</font><br>" +
                             "tu budem bývať, lebo som túžil za ním.\"<font color='#B71C1C'> – R.</font>"},
-            {"15gk", "", "", "Ž 45, 10. 11-12. 15-16",
+            {"15gkm", "", "", "Ž 45, 10. 11-12. 15-16",
                     "<font color='#B71C1C'>R.:</font> Po tvojej pravici, Pane, stojí kráľovná ozdobená zlatom.<br><br>" +
                             "Dcéry kráľovské sú medzi tvojimi vyvolenými; <font color='#B71C1C'>*</font><br>" +
                             "po tvojej pravici stojí kráľovná<br>" +
@@ -1367,7 +1367,7 @@ public interface Zalmy_svatci {
                             "Bože, ty si ma poúčal od mojej mladosti <font color='#B71C1C'>*</font><br>" +
                             "a ja až doteraz ohlasujem tvoje diela zázračné.<font color='#B71C1C'> – R.</font>"},};
     String[][] zalm9 = {
-            {"08g", "", "", "Ž 13, 6ab. 6cd",
+            {"08gm", "", "", "Ž 13, 6ab. 6cd",
                     "<font color='#B71C1C'>R.:</font> Duša mi jasá v mojom Bohu.<br><br>" +
                             "Ja dúfam v tvoje milosrdenstvo, <font color='#B71C1C'>*</font><br>" +
                             "moje srdce sa teší z tvojej pomoci.<font color='#B71C1C'> – R.</font><br>" +
@@ -1391,7 +1391,7 @@ public interface Zalmy_svatci {
                             "a nezničil ich.<br>" +
                             "Často svoj hnev potlačil <font color='#B71C1C'>*</font><br>" +
                             "a nedal celkom vzplanúť svojmu rozhorčeniu.<font color='#B71C1C'> – R.</font>"},
-            {"15gk", "", "", "Lk 1, 46-47. 48-49. 50-51. 52-53. 54-55",
+            {"15gkm", "", "", "Lk 1, 46-47. 48-49. 50-51. 52-53. 54-55",
                     "<font color='#B71C1C'>R.:</font> Ty si sláva nášho národa, ty si radosť nášho ľudu.<br><br>" +
                             "Velebí moja duša Pána <font color='#B71C1C'>*</font><br>" +
                             "a môj duch jasá v Bohu, mojom Spasiteľovi,<font color='#B71C1C'> – R.</font><br>" +
@@ -1459,7 +1459,7 @@ public interface Zalmy_svatci {
                             "a k tvojmu stanu sa nepriblíži pohroma,<br>" +
                             "lebo svojim anjelom dá príkaz o tebe, <font color='#B71C1C'>*</font><br>" +
                             "aby ťa strážili na všetkých tvojich cestách. <font color='#B71C1C'>– R.</font>"},
-            /*{"07", "", "", "Lk 1, 46-47. 48-49. 50-51. 52-53. 54-55",
+            /*{"07m", "", "", "Lk 1, 46-47. 48-49. 50-51. 52-53. 54-55",
                     "<font color='#B71C1C'>R.:</font> Blahoslavená si, Panna Mária, lebo si nosila Syna večného Otca.<br><br>" +
                             "Velebí moja duša Pána <font color='#B71C1C'>*</font><br>" +
                             "a môj duch jasá v Bohu, mojom Spasiteľovi, <font color='#B71C1C'>– R.</font><br>" +
@@ -1480,7 +1480,7 @@ public interface Zalmy_svatci {
                             "lebo pamätá na svoje milosrdenstvo,<br>" +
                             "ako sľúbil našim otcom, <font color='#B71C1C'>*</font><br>" +
                             "Abrahámovi a jeho potomstvu naveky. <font color='#B71C1C'>– R.</font>"},*/
-            {"07", "", "", "Ž 117, 1. 2",
+            {"07m", "", "", "Ž 117, 1. 2",
                     "<font color='#B71C1C'>R.:</font> Choďte do celého sveta a hlásajte evanjelium.<br><br>" +
                             "Chváľte Pána, všetky národy, <font color='#B71C1C'>*</font><br>" +
                             "oslavujte ho, všetci ľudia;<font color='#B71C1C'> – R.</font><br>" +
@@ -1676,7 +1676,7 @@ public interface Zalmy_svatci {
                             "na citare a na harfe zunivej.<br>" +
                             "Za hlaholu trúb a poľníc <font color='#B71C1C'>*</font><br>" +
                             "jasajte pred tvárou Kráľa a Pána. <font color='#B71C1C'>– R.</font>"},
-           /* {"21", "", "", "Lk 1, 46-47. 48-49. 50-51. 52-53. 54-55",
+           /* {"21m", "", "", "Lk 1, 46-47. 48-49. 50-51. 52-53. 54-55",
                     "<font color='#B71C1C'>R.:</font> Blahoslavená si, Panna Mária, lebo si nosila Syna večného Otca.<br><br>" +
                             "Velebí moja duša Pána <font color='#B71C1C'>*</font><br>" +
                             "a môj duch jasá v Bohu, mojom Spasiteľovi, <font color='#B71C1C'>– R.</font><br>" +
@@ -2103,11 +2103,11 @@ public interface Zalmy_svatci {
             {"29gk", "", "", "Mt 16, 18", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Ty si Peter a na tejto skale postavím svoju Cirkev a pekelné brány ju nepremôžu. <font color='#B71C1C'>– R.</font> Aleluja."},
     };
     String[][] aleluja7 = {
-            {"02g", "", "", "Porov. Lk 1, 45", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavená si Panna Mária, lebo si uverila, že sa splní, čo ti povedal Pán. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"02gm", "", "", "Porov. Lk 1, 45", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavená si Panna Mária, lebo si uverila, že sa splní, čo ti povedal Pán. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"03g", "", "", "Jn 20, 29", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Tomáš, uveril si, pretože si ma videl. Blahoslavení tí, čo nevideli, a uverili. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"05gk", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> To sú naši otcovia a praví pastieri, ktorí nás sediacich v temnotách priviedli k svetlu života. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"11g", "", "", "Mt 5, 3", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavení chudobní v duchu, lebo ich je nebeské kráľovstvo. <font color='#B71C1C'>– R.</font> Aleluja."},
-            {"16", "", "", "Lk 11, 28", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavení sú tí, čo počúvajú Božie slovo a zachovávajú ho. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"16m", "", "", "Lk 11, 28", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavení sú tí, čo počúvajú Božie slovo a zachovávajú ho. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"17gk", "", "", "Lk 21, 36", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Bdejte celý čas a modlite sa, aby ste sa mohli postaviť pred Syna človeka. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"17g", "", "", "Lk 21, 36", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Bdejte celý čas a modlite sa, aby ste sa mohli postaviť pred Syna človeka. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"22g", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Povedzže nám, ó, Mária, čos' videla na ceste? Hrob som zrela oslávený, kameň nebol na mieste. <font color='#B71C1C'>– R.</font> Aleluja."},
@@ -2119,23 +2119,23 @@ public interface Zalmy_svatci {
             {"06gn", "", "", "Mt 17, 5c", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Toto je môj milovaný Syn, v ktorom mám zaľúbenie; počúvajte ho. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"09g", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Toto je múdra panna, lebo ju Pán našiel bedliť; keď prišiel ženích, vošla s ním na svadobnú hostinu. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"10g", "", "", "Jn 8, 12bc", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Kto mňa nasleduje, nebude chodiť v tmách, ale bude mať svetlo života, hovorí Pán. <font color='#B71C1C'>– R.</font> Aleluja."},
-            {"14gk", "", "", "Lk 11, 28", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavení sú tí, čo počúvajú Božie slovo a zachovávajú ho. <font color='#B71C1C'>– R.</font> Aleluja."},
-            {"15gk", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Mária bola vzatá do neba; plesajú zástupy anjelov. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"14gkm", "", "", "Lk 11, 28", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavení sú tí, čo počúvajú Božie slovo a zachovávajú ho. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"15gkm", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Mária bola vzatá do neba; plesajú zástupy anjelov. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"24g", "", "", "Jn 1, 49b", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Rabbi, ty si Boží Syn, ty si kráľ Izraela! <font color='#B71C1C'>– R.</font> Aleluja."},
             {"29", "", "", "Mt 5, 10", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavení prenasledovaní pre spravodlivosť, lebo ich je nebeské kráľovstvo. <font color='#B71C1C'>– R.</font> Aleluja."},
     };
     String[][] aleluja9 = {
-            {"08g", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Šťastná si naozaj, svätá Panna Mária, a všetkej chvály najhodnejšia, lebo z teba vyšlo slnko spravodlivosti, Kristus, náš Boh. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"08gm", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Šťastná si naozaj, svätá Panna Mária, a všetkej chvály najhodnejšia, lebo z teba vyšlo slnko spravodlivosti, Kristus, náš Boh. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"14gn", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Klaniame sa ti, Kriste, a dobrorečíme ti, lebo si svojim krížom vykúpil svet. <font color='#B71C1C'>– R.</font> Aleluja."},
-            {"15gk", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavená Panna Mária, Matka bolestná; ty Matka milosti, ty nádej sveta, ty patrónka naša, vyslyš svoje deti, ktoré volajú k tebe. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"15gkm", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavená Panna Mária, Matka bolestná; ty Matka milosti, ty nádej sveta, ty patrónka naša, vyslyš svoje deti, ktoré volajú k tebe. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"21g", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Teba, Bože, chválime, teba, Pane, velebíme. Teba, Pane, oslavuje slávny zbor apoštolov. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"29g", "", "", "Ž 103, 21", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Dobrorečte Pánovi, všetky jeho zástupy, jeho služobníci, čo jeho vôľu plníte. <font color='#B71C1C'>– R.</font> Aleluja."},
     };
 
     String[][] aleluja10 = {
             {"02", "", "", "Ž 103, 21", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Dobrorečte Pánovi, všetky jeho zástupy, jeho služobníci, čo jeho vôľu plníte. <font color='#B71C1C'>– R.</font> Aleluja."},
-            //{"07", "", "", "Lk 1, 28b. 42b", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Zdravas', Mária, milosti plná, Pán s tebou; požehnaná si medzi ženami. <font color='#B71C1C'>– R.</font> Aleluja."},
-            {"07", "", "", "Rim 8,15", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Dostali ste Ducha adoptívneho synovstva, v ktorom voláme: Abba, Otče. <font color='#B71C1C'>– R.</font> Aleluja."},
+            //{"07m", "", "", "Lk 1, 28b. 42b", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Zdravas', Mária, milosti plná, Pán s tebou; požehnaná si medzi ženami. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"07m", "", "", "Rim 8,15", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Dostali ste Ducha adoptívneho synovstva, v ktorom voláme: Abba, Otče. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"18g", "", "", "Jn 15, 16", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Ja som si vás vyvolil zo sveta, aby ste išli a prinášali ovocie a aby vaše ovocie zostalo, hovorí Pán. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"26gk+", "", "", "2 Krn 7, 16", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Vyvolil som si toto miesto a posvätil som ho, hovorí Pán; aby tam bolo moje meno naveky. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"28g", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Teba, Bože, chválime, teba, Pane, velebíme. Teba, Pane, oslavuje slávny zbor apoštolov. <font color='#B71C1C'>– R.</font> Aleluja."},
@@ -2150,7 +2150,7 @@ public interface Zalmy_svatci {
             {"11g", "", "", "Jn 13, 34", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Nové prikázanie vám dávam, hovorí Pán; aby ste sa milovali navzájom, ako som ja miloval vás. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"17gk", "", "", "Jn 3, 14-18", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Nové prikázanie vám dávam, hovorí Pán; aby ste sa milovali navzájom, ako som ja miloval vás. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"18", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Teba, Bože, chválime, teba, Pane, velebíme. Teba, Pane, oslavuje slávny zbor apoštolov. <font color='#B71C1C'>– R.</font> Aleluja."},
-           // {"21", "", "", "Lk 11, 28", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavení sú tí, čo počúvajú Božie slovo a zachovávajú ho. <font color='#B71C1C'>– R.</font> Aleluja."},
+           // {"21m", "", "", "Lk 11, 28", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavení sú tí, čo počúvajú Božie slovo a zachovávajú ho. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"30g", "", "", "Mt 4, 19", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Poďte za mnou, hovorí Pán; a urobím z vás rybárov ľudí. <font color='#B71C1C'>– R.</font> Aleluja."},
     };
 

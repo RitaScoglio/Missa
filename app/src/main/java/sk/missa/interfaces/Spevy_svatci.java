@@ -251,7 +251,7 @@ public interface Spevy_svatci {
     };
 
     String[][] spev7 = {
-            {"02g", "Poďte sem a počúvajte, všetci ctitelia Boží,<br>" +
+            {"02gm", "Poďte sem a počúvajte, všetci ctitelia Boží,<br>" +
                     "vyrozprávam vám, aké veľké veci mi urobil Pán.", "(Ž 65, 16)",
                     "Blahoslaviť ma budú všetky pokolenia,<br>" +
                             "lebo veľké veci mi urobil ten, ktorý je mocný<br>" +
@@ -352,11 +352,11 @@ public interface Spevy_svatci {
                     "Pán Ježiš hovorí:<br>" +
                             "Nik nemá väčšiu lásku ako ten,<br>" +
                             "kto položí svoj život za svojich priateľov.", "(Jn 15, 13)"},
-            {"14gk", "Cirkev ťa chváli a velebí, Mária;<br>" +
+            {"14gkm", "Cirkev ťa chváli a velebí, Mária;<br>" +
                     "veď dnes si bola vyvýšená nad zástupy anjelov<br>" +
                     "a s Kristom vládneš naveky.", "", "Blahoslavená si, Panna Mária,<br>" +
                     "lebo si nosila pod srdcom Syna večného Otca.", "(Porov. Lk 11, 27)"},
-            {"15gk", "Veľké znamenie sa ukázalo na nebi:<br>" +
+            {"15gkm", "Veľké znamenie sa ukázalo na nebi:<br>" +
                     "Žena odetá slnkom, s mesiacom pod nohami<br>" +
                     "a s korunou dvanástich hviezd na hlave.<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
@@ -364,7 +364,7 @@ public interface Spevy_svatci {
                     "Z jej nanebovzatia sa radujú anjeli a spolu s ňou oslavujú Syna Božieho.", "(Zjv 12, 1)",
                     "Blahoslaviť ma budú všetky pokolenia,<br>" +
                             "lebo veľké veci mi urobil ten, ktorý je mocný.", "(Lk l , 48 – 49)"},
-            {"22", "Po tvojej pravici stojí kráľovná, ozdobená zlatom z Ofíru.", "(Ž 44, 10)",
+            {"22m", "Po tvojej pravici stojí kráľovná, ozdobená zlatom z Ofíru.", "(Ž 44, 10)",
                     "Blahoslavená si, Mária,<br>" +
                             "lebo si uverila, že sa splní, čo ti Pán povedal.", "(Lk l, 54)"},
             {"24g", "Zvestujte Božiu spásu deň čo deň;<br>" +
@@ -386,11 +386,11 @@ public interface Spevy_svatci {
             {"07", "Zvelebujte Pána, jeho kňazi, chváľte Boha, svätí a pokorní srdcom.", "(Dan 3, 84. 87)",
                     "Pán Ježiš hovorí: Každého, kto ma vyzná pred ľuďmi,<br>" +
                             "aj ja vyznám pred svojím Otcom, ktorý je na nebesiach.", "(Mt 10, 32)"},
-            {"08g", "S radosťou slávime narodenie Preblahoslavenej Panny Márie,<br>" +
+            {"08gm", "S radosťou slávime narodenie Preblahoslavenej Panny Márie,<br>" +
                     "lebo z nej vzišlo Slnko spravodlivosti, Kristus, náš Boh.", "",
                     "Hľa, Panna porodí Syna;<br>" +
                             "on vyslobodí svoj ľud z hriechov.", "(lz 7, 14; Mt 1, 21)"},
-            {"12", "Požehnaná si, Panna Mária, od Pána, Boha najvyššieho,<br>" +
+            {"12m", "Požehnaná si, Panna Mária, od Pána, Boha najvyššieho,<br>" +
                     "nad všetky ženy na svete;<br>" +
                     "lebo tvoje meno tak zvelebil,<br>" +
                     "že tvoja chvála nevymizne z úst ľudí.", "(Porov. Jdt 13, 18 - 20)",
@@ -400,7 +400,7 @@ public interface Spevy_svatci {
                     "On je naša spása, náš život, naše vzkriesenie; on nás oslobodil a spasil.", "(Porov. Gal 6, 14)",
                     "Pán Ježiš povedal:<br>" +
                             "Keď budem vyzdvihnutý od zeme, všetkých pritiahnem k sebe.", "(Jn 12, 32)"},
-            {"15gk", "Pri kríži stála Ježišova matka.<br>" +
+            {"15gkm", "Pri kríži stála Ježišova matka.<br>" +
                     "Keď Ježiš uzrel matku a vedľa nej milovaného učeníka,<br>" +
                     "povedal matke: Žena, hľa, tvoj syn.<br>" +
                     "Potom povedal učeníkovi: Hľa, tvoja Matka.<br>" +
@@ -454,7 +454,7 @@ public interface Spevy_svatci {
                     "zriekol sa svojho dedičstva a žil ako chudobný;<br>" +
                     "no Pán ho povýšil a prijal k sebe.", "",
                     "Blahoslavení chudobní v duchu, lebo ich je nebeské kráľovstvo.", "(Mt 5, 3)"},
-            {"07", "Zdravas, Mária, milosti plná, Pán s tebou:<br>" +
+            {"07m", "Zdravas, Mária, milosti plná, Pán s tebou:<br>" +
                     "požehnaná si medzi ženami<br>" +
                     "a požehnaný je plod tvojho života.", "(Lk 1, 28. 42)",
                     "Počneš a porodíš Syna a dáš mu meno Ježiš.", "(Lk 1, 31)"},

@@ -93,6 +93,12 @@ public class MissaAdapter extends ArrayAdapter<Missa> {
         citat.setText(currentMissa.getCitat());
         citat.setTextSize(sizeO);
 
+        //bar
+        View bar = listItemView.findViewById(R.id.bar);
+        if(currentMissa.getBar()){
+            bar.getLayoutParams().height = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 1, getContext().getResources().getDisplayMetrics());
+        }
+
 //maly text
         TextView text_small = listItemView.findViewById(R.id.text_small);
         text_small.setTextSize((float) (sizeO * 0.75));
@@ -150,6 +156,24 @@ public class MissaAdapter extends ArrayAdapter<Missa> {
 
         //zvoncek
         ImageView zvoncek = listItemView.findViewById(R.id.zvoncek);
+        //nastaví veľkosť zvončeka
+        if (currentMissa.getZvonec()) {
+            if (Main.zvoncek) {
+                zvoncek.setBackgroundResource(R.drawable.bell);
+                zvoncek.getLayoutParams().height = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, sizeZ, getContext().getResources().getDisplayMetrics());
+                zvoncek.getLayoutParams().width = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, sizeZ, getContext().getResources().getDisplayMetrics());
+                zvoncek.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        MediaPlayer mMediaPlayer = MediaPlayer.create(getContext(), R.raw.zvoncek);
+                        mMediaPlayer.start();
+                    }
+                });
+            } else {
+                zvoncek.getLayoutParams().height = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 15, getContext().getResources().getDisplayMetrics());
+                zvoncek.getLayoutParams().width = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 15, getContext().getResources().getDisplayMetrics());
+            }
+        }
 
         //pokiaľ pre dané views nie je text, nastaví ich veľkosť na 0
         if (currentMissa.getSekcia() == null) {
@@ -194,6 +218,10 @@ public class MissaAdapter extends ArrayAdapter<Missa> {
             zvoncek.getLayoutParams().width = 0;
         }
 
+        if (!currentMissa.getBar()) {
+            bar.getLayoutParams().height = 0;
+        }
+
         //nastaví farbu textu podľa režimu
         if (rezim) {
             if (currentMissa.getOtvor() == -1)
@@ -230,25 +258,6 @@ public class MissaAdapter extends ArrayAdapter<Missa> {
                 text.setTypeface(typeBold);
             citat_prosby.setTypeface(typeBoldItalic);
             text_prosby.setTypeface(typeBold);
-        }
-
-        //nastaví veľkosť zvončeka
-        if (currentMissa.getZvonec()) {
-            if (Main.zvoncek) {
-                zvoncek.setBackgroundResource(R.drawable.bell);
-                zvoncek.getLayoutParams().height = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, sizeZ, getContext().getResources().getDisplayMetrics());
-                zvoncek.getLayoutParams().width = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, sizeZ, getContext().getResources().getDisplayMetrics());
-                zvoncek.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        MediaPlayer mMediaPlayer = MediaPlayer.create(getContext(), R.raw.zvoncek);
-                        mMediaPlayer.start();
-                    }
-                });
-            } else {
-                zvoncek.getLayoutParams().height = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 15, getContext().getResources().getDisplayMetrics());
-                zvoncek.getLayoutParams().width = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 15, getContext().getResources().getDisplayMetrics());
-            }
         }
 
         //medzery medzi textami

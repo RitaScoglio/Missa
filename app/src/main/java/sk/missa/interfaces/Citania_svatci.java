@@ -534,7 +534,7 @@ public interface Citania_svatci {
                             "Pretože deti majú účasť na\u00A0krvi a tele, aj Ježiš mal podobne spoluúčasť na\u00A0nich, aby smrťou zničil toho, ktorý vládol smrťou, čiže diabla, a vyslobodil tých, ktorých celý život zotročoval strach pred\u00A0smrťou.<br>" +
                             "Veď sa neujíma anjelov, ale ujíma sa Abrahámovho potomstva. Preto sa vo\u00A0všetkom musel pripodobniť bratom, aby sa stal milosrdným a verným veľkňazom pred\u00A0Bohom a odčinil hriechy ľudu. A pretože sám prešiel skúškou utrpenia, môže pomáhať tým, ktorí sú skúšaní.<br>" +
                             "Počuli sme Božie slovo."},
-            /*{"11", "", "", "Iz 66, 10-14c",
+            /*{"11m", "", "", "Iz 66, 10-14c",
                     "Hľa, obrátim k\u00A0nemu pokoj ako rieku",
                     "Čítanie z Knihy proroka Izaiáša<br>" +
                             "Tešte sa s\u00A0Jeruzalemom, jasajte v\u00A0ňom všetci, čo ho milujete, radujte sa s\u00A0ním všetci, čo ste nad\u00A0ním trúchlili.<br>" +
@@ -715,7 +715,7 @@ public interface Citania_svatci {
                             "Tu Peter prišiel k\u00A0sebe a povedal si: \"Teraz naozaj viem, že Pán poslal svojho anjela a vyslobodil ma z\u00A0Herodesovej ruky a zo\u00A0všetkého, čo očakával židovský ľud.\"<br>" +
                             "Počuli sme Božie slovo."},};
     String[][] citanie1_7 = {
-            {"02g", "", "", "Sof 3, 14-18",
+            {"02gm", "", "", "Sof 3, 14-18",
                     "Kráľ Izraela, Pán, je s\u00A0tebou",
                     "Čítanie z Knihy proroka Sofoniáša<br>" +
                             "Jasaj, dcéra sionská, plesaj, Izrael! Raduj sa a veseľ z\u00A0plného srdca, dcéra jeruzalemská! Pán zrušil tvoj rozsudok, odvrátil tvojich nepriateľov. Kráľ Izraela, Pán, je s\u00A0tebou, neboj sa nijakého zla!<br>" +
@@ -749,7 +749,7 @@ public interface Citania_svatci {
                             "Statočným poskytuje ochranu, je štítom tým, čo žijú poctivo, dáva pozor na\u00A0chodníky spravodlivosti a chráni cestu svätých.<br>" +
                             "Až vtedy pochopíš spravodlivosť a právo, statočnosť a každú dobrú cestu.<br>" +
                             "Počuli sme Božie slovo."},
-            /*{"16", "", "", "Zach 2, 14-17",
+            /*{"16m", "", "", "Zach 2, 14-17",
                     "Raduj sa, dcéra Siona, lebo hľa, ja prichádzam",
                     "Čítanie z Knihy proroka Zachariáša<br>" +
                             "Plesaj a raduj sa, dcéra Siona, lebo hľa, ja prichádzam a budem bývať uprostred teba, hovorí Pán. V\u00A0ten deň sa mnohé národy pripoja k\u00A0Pánovi a budú jeho ľudom. Budem bývať uprostred teba a budeš vedieť, že ma Pán zástupov poslal k\u00A0tebe.<br>" +
@@ -839,7 +839,7 @@ public interface Citania_svatci {
                             "A Boh má moc rozhojniť vo\u00A0vás každú milosť, aby ste mali vždy vo\u00A0všetkom úplný dostatok a aby ste mali hojne na\u00A0každý dobrý skutok, ako je napísané: \"Rozsýpal a dal chudobným; jeho spravodlivosť trvá naveky.\"<br>" +
                             "Ten, čo dáva rozsievačovi semeno a chlieb na\u00A0jedenie, dá a rozmnoží vaše osivo a dá vzrast plodom vašej spravodlivosti.<br>" +
                             "Počuli sme Božie slovo."},
-            {"14gk", "", "", "1 Krn 15, 3-4. 15-16; 16, 1-2",
+            {"14gkm", "", "", "1 Krn 15, 3-4. 15-16; 16, 1-2",
                     "Priniesli Božiu archu a postavili ju uprostred stanu, ktorý pre\u00A0ňu postavil Dávid",
                     "Čítanie z Prvej knihy Kroník<br>" +
                             "Dávid zhromaždil celý Izrael v\u00A0Jeruzaleme, lebo sa prenášala Pánova archa na\u00A0miesto, ktoré pre\u00A0ňu pripravil.<br>" +
@@ -848,7 +848,7 @@ public interface Citania_svatci {
                             "Tak preniesli Božiu archu a postavili ju uprostred stanu, ktorý pre\u00A0ňu postavil Dávid. Potom obetovali pred\u00A0Bohom zápalné a pokojné obety.<br>" +
                             "Keď Dávid skončil obetovanie zápalných a pokojných obiet, požehnal ľud v\u00A0mene Pánovom.<br>" +
                             "Počuli sme Božie slovo."},
-            {"15gk", "", "", "Zjv 11, 19a; 12, 1-6a. 10a-c ",
+            {"15gkm", "", "", "Zjv 11, 19a; 12, 1-6a. 10a-c ",
                     "Žena odetá slnkom, pod\u00A0jej nohami mesiac",
                     "Čítanie z knihy zjavenia svätého apoštola Jána<br>" +
                             "V nebi sa otvoril Boží chrám a v\u00A0chráme bolo vidieť archu jeho zmluvy. Potom sa na\u00A0nebi ukázalo veľké znamenie: Žena odetá slnkom, pod\u00A0jej nohami mesiac a na\u00A0jej hlave veniec z\u00A0dvanástich hviezd. Bola ťarchavá a kričala v\u00A0bolestiach, lebo mala rodiť.<br>" +
@@ -872,7 +872,7 @@ public interface Citania_svatci {
                             "Budú proti tebe bojovať, no nepremôžu ťa, lebo s\u00A0tebou som ja, hovorí Pán, ja ťa zachránim.\"<br>" +
                             "Počuli sme Božie slovo."},};
     String[][] citanie1_9 = {
-            {"08g", "", "", "Mich 5, 1-4a ",
+            {"08gm", "", "", "Mich 5, 1-4a ",
                     "Kým rodička neporodí",
                     "Čítanie z Knihy proroka Micheáša<br>" +
                             "Toto hovorí Pán: \"Betlehem Efratský, najmenší medzi judejskými mestami, z\u00A0teba vzíde zvrchovaný vládca Izraela. Pôvod jeho je odpradávna, od\u00A0večnosti. Preto ich vydá až do\u00A0času, kým rodička neporodí. Až potom sa zvyšok jeho bratov vráti k\u00A0synom Izraela.<br>" +
@@ -901,7 +901,7 @@ public interface Citania_svatci {
                             "Ježiš Kristus, hoci má božskú prirodzenosť, nepridŕžal sa svojej rovnosti s\u00A0Bohom, ale zriekol sa seba samého, vzal si prirodzenosť sluhu, stal sa podobný ľuďom a podľa vonkajšieho zjavu bol pokladaný za\u00A0človeka. Uponížil sa, stal sa poslušným až na\u00A0smrť, až na\u00A0smrť na\u00A0kríži.<br>" +
                             "Preto ho Boh nad\u00A0všetko povýšil a dal mu meno, ktoré je nad\u00A0každé iné meno, aby sa na\u00A0meno Ježiš zohlo každé koleno v\u00A0nebi, na\u00A0zemi i v\u00A0podsvetí a aby každý jazyk vyznával: „Ježiš Kristus je Pán!“ na\u00A0slávu Boha Otca.<br>" +
                             "Počuli sme Božie slovo."},
-            {"15gk", "", "", "Sk 1, 12-14",
+            {"15gkm", "", "", "Sk 1, 12-14",
                     "Jednomyseľne zotrvávali na\u00A0modlitbách",
                     "Čítanie zo Skutkov apoštolov<br>" +
                             "Keď bol Ježiš vzatý do\u00A0neba, apoštoli sa vrátili do\u00A0Jeruzalema z\u00A0hory, ktorá sa volá Olivová a je blízko Jeruzalema, vzdialená toľko, koľko je dovolené prejsť v\u00A0sobotu.<br>" +
@@ -941,14 +941,14 @@ public interface Citania_svatci {
                             "Ak počúvneš jeho hlas a urobíš všetko, čo hovorím, budem nepriateľom tvojich nepriateľov a budem sužovať tých, čo teba sužujú.<br>" +
                             "Môj anjel pôjde pred\u00A0tebou.\"<br>" +
                             "Počuli sme Božie slovo."},
-            /*{"07", "", "", "Sk 1, 12-14",
+            /*{"07m", "", "", "Sk 1, 12-14",
                     "Zotrvávali na\u00A0modlitbách spolu s\u00A0Ježišovou matkou Máriou",
                     "Čítanie zo Skutkov apoštolov<br>" +
                             "Keď bol Ježiš vzatý do\u00A0neba, apoštoli sa vrátili do\u00A0Jeruzalema z\u00A0hory, ktorá sa volá Olivová a je blízko Jeruzalema, vzdialená toľko, koľko je dovolené prejsť v\u00A0sobotu.<br>" +
                             "Keď ta prišli, vystúpili do\u00A0hornej siene, kde sa zdržiavali Peter a Ján, Jakub a Ondrej, Filip a Tomáš, Bartolomej a Matúš, Jakub Alfejov, Šimon Horlivec a Júda Jakubov.<br>" +
                             "Títo všetci jednomyseľne zotrvávali na\u00A0modlitbách spolu so\u00A0ženami, s\u00A0Ježišovou matkou Máriou a s\u00A0jeho bratmi.<br>" +
                             "Počuli sme Božie slovo."},*/
-            {"07", "", "", "Gal 2, 1-2. 7-14",
+            {"07m", "", "", "Gal 2, 1-2. 7-14",
                     "Poznali milosť, ktorú som dostal",
                             "Čítanie z\u00A0Listu svätého apoštola Pavla Galaťanom<br>" +
                             "Bratia, po\u00A0štrnástich rokoch som znova šiel s\u00A0Barnabášom do\u00A0Jeruzalema a vzal som so\u00A0sebou aj Títa. Išiel som ta pohnutý zjavením a predložil som im evanjelium, ktoré hlásam medzi pohanmi; ale v\u00A0súkromí tým, čo niečo znamenali, či nebežím alebo či som nebežal nadarmo. A keď videli, že mne je zverené evanjelium pre\u00A0neobrezaných, tak ako Petrovi pre\u00A0obrezaných – veď ten, ktorý pomáhal Petrovi v apoštoláte medzi obrezanými, pomáhal aj mne medzi pohanmi –, a keď poznali milosť, ktorú som dostal, Jakub, Kéfas a Ján, ktorých pokladali za\u00A0stĺpy, podali mne a Barnabášovi pravicu na\u00A0znak spoločenstva, že my pôjdeme medzi pohanov a oni medzi obrezaných. Len aby sme pamätali na\u00A0chudobných, čo som sa aj usiloval robiť.<br>" +
@@ -1073,7 +1073,7 @@ public interface Citania_svatci {
                             "Keď sme prišli do\u00A0Ríma, dovolili Pavlovi bývať oddelene len s\u00A0vojakom, čo ho strážil.<br>" +
                             "Pavol potom zostal celé dva roky vo\u00A0svojom najatom byte a prijímal všetkých, čo k\u00A0nemu prichádzali. Ohlasoval Božie kráľovstvo a učil o\u00A0Pánu Ježišovi Kristovi so\u00A0všetkou odvahou a bez\u00A0prekážky.<br>" +
                             "Počuli sme Božie slovo."},
-           /* {"21", "", "", "Zach 2, 14-17",
+           /* {"21m", "", "", "Zach 2, 14-17",
                     "Raduj sa, dcéra Siona, lebo hľa, ja prichádzam",
                     "Čítanie z Knihy proroka Zachariáša<br>" +
                             "Plesaj a raduj sa, dcéra Siona, lebo hľa, ja prichádzam a budem bývať uprostred teba, hovorí Pán. V\u00A0ten deň sa mnohé národy pripoja k\u00A0Pánovi a budú jeho ľudom. Budem bývať uprostred teba a budeš vedieť, že ma Pán zástupov poslal k\u00A0tebe.<br>" +
@@ -1631,13 +1631,13 @@ public interface Citania_svatci {
                             "On dostal od\u00A0Boha Otca česť a slávu, keď mu z\u00A0velebnej slávy zaznel hlas: \"Toto je môj Syn, môj milovaný, v\u00A0ktorom mám zaľúbenie.\" A tento hlas sme my počuli; zaznel z\u00A0neba, keď sme boli s\u00A0ním na\u00A0svätom vrchu.<br>" +
                             "Tým je aj prorocké slovo pre\u00A0nás pevnejšie. A vy dobre robíte, že hľadíte naň ako na\u00A0lampu, ktorá svieti v\u00A0temnom mieste, kým nesvitne deň a nevzíde vo\u00A0vašich srdciach zornica.<br>" +
                             "Počuli sme Božie slovo."},
-            {"14gk", "", "", "1 Kor 15, 54-57",
+            {"14gkm", "", "", "1 Kor 15, 54-57",
                     "Dal nám víťazstvo skrze Ježiša Krista",
                     "Čítanie z Prvého listu svätého apoštola Pavla Korinťanom<br>" +
                             "Bratia, keď si toto porušiteľné oblečie neporušiteľnosť a toto smrteľné si oblečie nesmrteľnosť, vtedy sa splní, čo je napísané: \"Smrť pohltilo víťazstvo. Smrť, kde je tvoje víťazstvo? Smrť, kdeže je tvoj osteň?\"<br>" +
                             "Ostňom smrti je hriech a silou hriechu je zákon. Ale vďaka Bohu, ktorý nám dal víťazstvo skrze nášho Pána Ježiša Krista.<br>" +
                             "Počuli sme Božie slovo."},
-            {"15gk", "", "", "1 Kor 15, 20-27a ",
+            {"15gkm", "", "", "1 Kor 15, 20-27a ",
                     "Prvotinou je Kristus; potom tí, čo patria Kristovi",
                     "Čítanie z Prvého listu svätého apoštola Pavla Korinťanom<br>" +
                             "Bratia, Kristus vstal z\u00A0mŕtvych, prvotina zosnulých. Lebo ako je skrze človeka smrť, tak je skrze človeka aj zmŕtvychvstanie: Veď ako všetci umierajú v\u00A0Adamovi, tak zasa všetci ožijú v\u00A0Kristovi.<br>" +
@@ -2275,7 +2275,7 @@ public interface Citania_svatci {
                             "V Jeruzaleme žil vtedy muž menom Simeon, človek spravodlivý a nábožný, ktorý očakával potechu Izraela, a Duch Svätý bol na\u00A0ňom. Jemu Duch Svätý vyjavil, že neumrie, kým neuvidí Pánovho Mesiáša.<br>" +
                             "Z vnuknutia Ducha prišiel do\u00A0chrámu. A keď rodičia prinášali dieťa Ježiša, aby splnili, čo o\u00A0ňom predpisoval zákon, vzal ho aj on do\u00A0svojho náručia a velebil Boha slovami: \"Teraz prepustíš, Pane, svojho služobníka v\u00A0pokoji podľa svojho slova, lebo moje oči uvideli tvoju spásu, ktorú si pripravil pred\u00A0tvárou všetkých národov: svetlo na\u00A0osvietenie pohanov a slávu Izraela, tvojho ľudu.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            /*{"11", "", "", "Jn 2, 1-11",
+            /*{"11m", "", "", "Jn 2, 1-11",
                     "Bola tam aj Ježišova matka",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
                             "V Káne Galilejskej bola svadba. Bola tam aj Ježišova matka. Na\u00A0svadbu pozvali aj Ježiša a jeho učeníkov.<br>" +
@@ -2388,6 +2388,7 @@ public interface Citania_svatci {
                             "<font color='#B71C1C'>†</font> Čítanie za svätého evanjelia podľa Matúša<br>" +
                             "Keď Ježiš prišiel do\u00A0okolia Cézarey Filipovej, pýtal sa svojich učeníkov: \"Za\u00A0koho pokladajú ľudia Syna človeka?\"<br>" +
                             "Oni vraveli: \"Jedni za\u00A0Jána Krstiteľa, iní za\u00A0Eliáša a iní za\u00A0Jeremiáša alebo za\u00A0jedného z\u00A0prorokov.\"<br>" +
+                            "Oni vraveli: \"Jedni za\u00A0Jána Krstiteľa, iní za\u00A0Eliáša a iní za\u00A0Jeremiáša alebo za\u00A0jedného z\u00A0prorokov.\"<br>" +
                             "\"A za\u00A0koho ma pokladáte vy?\", opýtal sa ich.<br>" +
                             "Odpovedal Šimon Peter: \"Ty si Mesiáš, Syn živého Boha.\"<br>" +
                             "Ježiš mu povedal: \"Blahoslavený si, Šimon, syn Jonášov, lebo ti to nezjavilo telo a krv, ale môj Otec, ktorý je na\u00A0nebesiach. A ja ti hovorím: Ty si Peter a na\u00A0tejto skale postavím svoju Cirkev a pekelné brány ju nepremôžu.<br>" +
@@ -2448,7 +2449,7 @@ public interface Citania_svatci {
                             "Tebe dám kľúče od\u00A0nebeského kráľovstva: čo zviažeš na\u00A0zemi, bude zviazané v\u00A0nebi, a čo rozviažeš na\u00A0zemi, bude rozviazané v\u00A0nebi.\"<br>" +
                             "Počuli sme slovo Pánovo."},};
     String[][] evanjelium7 = {
-            {"02g", "", "", "Lk 1, 39-56",
+            {"02gm", "", "", "Lk 1, 39-56",
                     "Čím som si zaslúžila, že matka môjho Pána prichádza ku\u00A0mne?",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "V tých dňoch sa Mária vydala na\u00A0cestu a ponáhľala sa do\u00A0istého judejského mesta v\u00A0hornatom kraji. Vošla do\u00A0Zachariášovho domu a pozdravila Alžbetu.<br>" +
@@ -2482,7 +2483,7 @@ public interface Citania_svatci {
                             "Peter povedal Ježišovi: \"Pozri, my sme opustili všetko a išli sme za\u00A0tebou. Čo z\u00A0toho teda budeme mať?\"<br>" +
                             "Ježiš im povedal: \"Veru, hovorím vám: Pri\u00A0obnovení sveta, keď Syn človeka zasadne na\u00A0trón svojej slávy, aj vy, čo ste išli za\u00A0mnou, zasadnete na\u00A0dvanásť trónov a budete súdiť dvanásť kmeňov Izraela. A každý, kto pre\u00A0moje meno opustí domy alebo bratov a sestry, alebo otca a matku, alebo deti, alebo polia, dostane stonásobne viac a bude dedičom večného života.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            /*{"16", "", "", "Mt 12, 46-50",
+            /*{"16m", "", "", "Mt 12, 46-50",
                     "Vystrel ruku nad\u00A0svojich učeníkov a povedal: Hľa, moja matka a moji bratia",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Kým Ježiš hovoril zástupom, vonku stála jeho matka a bratia a chceli sa s\u00A0ním rozprávať. Ktosi mu povedal: \"Vonku stojí tvoja matka a tvoji bratia a chcú sa s\u00A0tebou rozprávať.\" On však odvetil tomu, čo mu to vravel: \"Kto je moja matka a kto sú moji bratia?\"<br>" +
@@ -2610,13 +2611,13 @@ public interface Citania_svatci {
                             "Kto miluje svoj život, stratí ho, a kto svoj život nenávidí na\u00A0tomto svete, zachráni si ho pre\u00A0večný život.<br>" +
                             "Ak mi niekto slúži, nech ma nasleduje! A kde som ja, tam bude aj môj služobník. Kto bude mne slúžiť, toho poctí Otec.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            {"14gk", "", "", "Lk 11, 27-28",
+            {"14gkm", "", "", "Lk 11, 27-28",
                     "Blahoslavený život, ktorý ťa nosil. Skôr sú blahoslavení tí, čo počúvajú Božie slovo",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "Ako Ježiš hovoril zástupom, akási žena zo\u00A0zástupu pozdvihla svoj hlas a povedala mu: \"Blahoslavený život, ktorý ťa nosil, a prsia, ktoré si požíval.\"<br>" +
                             "Ale on povedal: \"Skôr sú blahoslavení tí, čo počúvajú Božie slovo a zachovávajú ho.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            {"15gk", "", "", "Lk 1, 39-56",
+            {"15gkm", "", "", "Lk 1, 39-56",
                     "Čím som si zaslúžila, že matka môjho Pána prichádza ku\u00A0mne?",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "V tých dňoch sa Mária vydala na\u00A0cestu a ponáhľala sa do\u00A0istého judejského mesta v\u00A0hornatom kraji. Vošla do\u00A0Zachariášovho domu a pozdravila Alžbetu.<br>" +
@@ -2650,7 +2651,7 @@ public interface Citania_svatci {
                             "Kráľ sa zarmútil, ale pre\u00A0prísahu a kvôli spolustolujúcim ju nechcel sklamať. Hneď poslal kata a rozkázal priniesť jeho hlavu. Ten odišiel, vo\u00A0väzení ho sťal, priniesol na\u00A0mise jeho hlavu, odovzdal ju dievčaťu a dievča ju dalo svojej matke. Keď sa to dopočuli jeho učeníci, prišli, vzali jeho telo a uložili ho do\u00A0hrobu.<br>" +
                             "Počuli sme slovo Pánovo."},};
     String[][] evanjelium9 = {
-            {"08g", "", "", "Mt 1, 1-16. 18-23",
+            {"08gm", "", "", "Mt 1, 1-16. 18-23",
                     "Čo sa v\u00A0nej počalo, je z\u00A0Ducha Svätého",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Rodokmeň Ježiša Krista, syna Dávidovho, syna Abrahámovho.<br>" +
@@ -2678,7 +2679,7 @@ public interface Citania_svatci {
                             "A ako Mojžiš vyzdvihol na\u00A0púšti hada, tak musí byť vyzdvihnutý aj Syn človeka, aby každý, kto verí, mal v\u00A0ňom večný život.\"<br>" +
                             "Veď Boh tak miloval svet, že dal svojho jednorodeného Syna, aby nezahynul nik, kto v\u00A0neho verí, ale aby mal večný život. Lebo Boh neposlal Syna na\u00A0svet, aby svet odsúdil, ale aby sa skrze neho svet spasil.<br>" +
                             "Počuli sme slovo Pánovo."},
-            {"15gk", "", "", "Jn 19, 25-27",
+            {"15gkm", "", "", "Jn 19, 25-27",
                     "Hľa, tvoj syn! Hľa, tvoja matka!",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
                             "Pri Ježišovom kríži stála jeho matka, sestra jeho matky, Mária Kleopasova, a Mária Magdaléna.<br>" +
@@ -2718,7 +2719,7 @@ public interface Citania_svatci {
                             "V tú hodinu pristúpili k\u00A0Ježišovi učeníci a pýtali sa: \"Kto je podľa teba najväčší v\u00A0nebeskom kráľovstve?\"<br>" +
                             "On zavolal k\u00A0sebe dieťa, postavil ho medzi nich a povedal: \"Veru, hovorím vám: Ak sa neobrátite a nebudete ako deti, nevojdete do\u00A0nebeského kráľovstva. Kto sa teda poníži ako toto dieťa, ten je najväčší v\u00A0nebeskom kráľovstve. A kto prijme jedno takéto dieťa v\u00A0mojom mene, mňa prijíma. Dajte si pozor, aby ste neopovrhli ani jedným z\u00A0týchto maličkých. Lebo vám hovorím, že ich anjeli v\u00A0nebi ustavične hľadia na\u00A0tvár môjho Otca, ktorý je na\u00A0nebesiach.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            /*{"07", "", "", "Lk 1, 26-38",
+            /*{"07m", "", "", "Lk 1, 26-38",
                     "Počneš a porodíš syna",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "Boh poslal anjela Gabriela do\u00A0galilejského mesta, ktoré sa volá Nazaret, k\u00A0panne zasnúbenej mužovi z\u00A0rodu Dávidovho, menom Jozefovi. A meno panny bolo Mária.<br>" +
@@ -2730,7 +2731,7 @@ public interface Citania_svatci {
                             "Mária povedala: \"Hľa, služobnica Pána, nech sa mi stane podľa tvojho slova.\"<br>" +
                             "Anjel potom od\u00A0nej odišiel.<br>" +
                             "Počuli sme slovo Pánovo."},*/
-            {"07", "", "", "Lk 11, 1-4",
+            {"07m", "", "", "Lk 11, 1-4",
                     "Pane, nauč nás modliť sa",
                             "<font color='#B71C1C'>†</font> Čítanie zo\u00A0svätého evanjelia podľa Lukáša<br>" +
                             "Raz sa Ježiš na\u00A0ktoromsi mieste modlil. Keď skončil, povedal mu jeden z\u00A0jeho učeníkov: „Pane, nauč nás modliť sa, ako Ján naučil svojich učeníkov.“<br>" +
@@ -2867,7 +2868,7 @@ public interface Citania_svatci {
                             "Peter vystúpil z\u00A0loďky, vykročil po\u00A0vode a šiel k\u00A0Ježišovi. Ale keď videl silný vietor, naľakal sa. Začal sa topiť a vykríkol: \"Pane, zachráň ma!\"<br>" +
                             "Ježiš hneď vystrel ruku, zachytil ho a povedal mu: \"Maloverný, prečo si pochyboval?\" A keď vstúpili do\u00A0loďky, vietor utíchol. Tí, čo boli na\u00A0loďke, klaňali sa mu a vraveli: \"Naozaj si Boží Syn!\"<br>" +
                             "Počuli sme slovo Pánovo."},
-           /* {"21", "", "", "Mt 12, 46-50",
+           /* {"21m", "", "", "Mt 12, 46-50",
                     "Vystrel ruku nad\u00A0svojich učeníkov a povedal: Hľa, moja matka a moji bratia",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Kým Ježiš hovoril zástupom, vonku stála jeho matka a bratia a chceli sa s\u00A0ním rozprávať. Ktosi mu povedal: \"Vonku stojí tvoja matka a tvoji bratia a chcú sa s\u00A0tebou rozprávať.\" On však odvetil tomu, čo mu to vravel: \"Kto je moja matka a kto sú moji bratia?\"<br>" +

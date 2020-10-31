@@ -995,7 +995,7 @@ public interface Prosby_svatci {
                             "dovoľ nám stretnúť sa raz s tebou v nebi<br>" +
                             "a vidieť tvoju svätú tvár.<br>" +
                             "Skrze Krista, nášho Pána."},
-            {"11", "Bratia a sestry, Panna Mária sa v Lurdoch zjavila ako Nepoškvrnené počatie. Modlime sa k Bohu, prameňu všetkej svätosti a pôvodcovi každej milosti, aby nás na jej príhovor obdaroval svojím požehnaním.",
+            {"11m", "Bratia a sestry, Panna Mária sa v Lurdoch zjavila ako Nepoškvrnené počatie. Modlime sa k Bohu, prameňu všetkej svätosti a pôvodcovi každej milosti, aby nás na jej príhovor obdaroval svojím požehnaním.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Bože, roznecuj vo svojich služobníkoch úctu k Panne Márii a k tajomstvám jej života a daj im odhodlanie o nich svedčiť.<br>" +
                             "<font color='#B71C1C'>2.</font> Pomáhaj predstaviteľom národov žiť podľa čistého svedomia a vyhýbať sa hriechu a verejnému pohoršeniu.<br>" +
@@ -1267,7 +1267,7 @@ public interface Prosby_svatci {
                             "vypočuj nás,<br>" +
                             "keď ti pri spomienke na nich predkladáme svoje prosby.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"13", "Bratia a sestry, Panna Mária nás pri svojom zjavení vo Fatime vyzvala na modlitbu a obrátenie. Preto pozdvihnime svoje srdcia k Bohu a spoločne volajme:",
+            {"13m", "Bratia a sestry, Panna Mária nás pri svojom zjavení vo Fatime vyzvala na modlitbu a obrátenie. Preto pozdvihnime svoje srdcia k Bohu a spoločne volajme:",
                     "<font color='#B71C1C'>(</font>Pozri na Matku svojho Syna a vyslyš naše prosby.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Bože Otče, Panne Márii zasvätili viacerí pápeži celý svet; daj, aby všetci veriaci pocítili mocný príhovor Panny Márie, Matky Cirkvi.<br>" +
                             "<font color='#B71C1C'>2.</font> Bože Otče, Panna Mária vo Fatime ukázala deťom hrôzy pekla; ochraňuj ľudstvo od mravnej skazy a obráť ho na cestu svätosti.<br>" +
@@ -1597,7 +1597,7 @@ public interface Prosby_svatci {
     };
 
     String[][] prosby7 = {
-            {"02g", "Bratia a sestry, Božia Matka s radosťou kráčala cez hory a vrúcne spievala Bohu chválospev počas návštevy Alžbety. Aj táto naša spoločná modlitba nech je spevom nášho srdca a oslavou Boha.",
+            {"02gm", "Bratia a sestry, Božia Matka s radosťou kráčala cez hory a vrúcne spievala Bohu chválospev počas návštevy Alžbety. Aj táto naša spoločná modlitba nech je spevom nášho srdca a oslavou Boha.",
                     "<font color='#B71C1C'>(</font>Volajme: Pozri na Matku svojho Syna a vyslyš naše prosby.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Otče, daj, aby putujúcemu Božiemu ľudu bola Panna Mária znamením bezpečnej nádeje a útechy.<br>" +
                             "<font color='#B71C1C'>2.</font> Požehnávaj všetkých, ktorí pre pokoj medzi národmi nešetria ani námahu, ani cesty.<br>" +
@@ -1675,7 +1675,7 @@ public interface Prosby_svatci {
                             "pochopiť zmysel života<br>" +
                             "a nasmerovať svoje kroky k blaženej večnosti.<br>" +
                             "Skrze Krista, nášho Pána."},
-            {"16", "Bratia a sestry, naša nebeská Matka Mária, hviezda z hory Karmel, nás povzbudzuje v úsilí o spásu. Prosme Pána, aby vypočul jej príhovor a dával nám potrebnú milosť na spásu.",
+            {"16m", "Bratia a sestry, naša nebeská Matka Mária, hviezda z hory Karmel, nás povzbudzuje v úsilí o spásu. Prosme Pána, aby vypočul jej príhovor a dával nám potrebnú milosť na spásu.",
                     "<font color='#B71C1C'>(</font>Volajme: Na príhovor svojej Matky vyslyš nás, Pane.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Ježišu, na príhovor svojej matky, kráľovnej posvätného škapuliara, daruj Cirkvi dostatok kňazských, rehoľných a misijných povolaní.<br>" +
                             "<font color='#B71C1C'>2.</font> Ježišu, na príhovor svojej matky, nevyčerpateľnej studnice milosrdenstva, daj svetlo Ducha Svätého všetkým našim predstaveným.<br>" +
@@ -2005,7 +2005,7 @@ public interface Prosby_svatci {
                             "v plnosti svojho utrpenia<br>" +
                             "i večného víťazstva na kríži.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"14gk", "Bratia a sestry, zhromaždení v predvečer slávnosti Nanebovzatia Panny Márie, prosme Pána o pomoc zhora.",
+            {"14gkm", "Bratia a sestry, zhromaždení v predvečer slávnosti Nanebovzatia Panny Márie, prosme Pána o pomoc zhora.",
                     "<font color='#B71C1C'>(</font>Volajme: Nech sa za nás prihovára tvoja Matka, Pane.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Modlime sa za Cirkev, ktorá je znakom prítomnosti Boha medzi ľuďmi, aby všetky jej deti našli v Márii vzor dokonalého života.<br>" +
                             "<font color='#B71C1C'>2.</font> Modlime sa za všetkých pútnikov v mariánskych svätyniach, nech Kráľovná anjelov prijme ich modlitbu, posilní ich vo viere a u Syna vyprosí potrebné milosti.<br>" +
@@ -2019,7 +2019,7 @@ public interface Prosby_svatci {
                             "a príď nám všetkým na pomoc,<br>" +
                             "aby sme dosiahli účasť na sláve blažených.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"15gk", "Bratia a sestry, dnes sa celá Cirkev raduje zo vznešenej oslavy Božej Matky. Aj my s radosťou vyznávame, že Bohorodička Panna Mária bola vzatá do neba.",
+            {"15gkm", "Bratia a sestry, dnes sa celá Cirkev raduje zo vznešenej oslavy Božej Matky. Aj my s radosťou vyznávame, že Bohorodička Panna Mária bola vzatá do neba.",
                     "<font color='#B71C1C'>(</font>Volajme: Pozri na Matku svojho Syna a vyslyš naše prosby.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Nebeský Otče, prosíme ťa za putujúcu Cirkev, aby s vierou očakávala stretnutie s oslávenou Bohorodičkou.<br>" +
                             "<font color='#B71C1C'>2.</font> Prosíme ťa za všetkých ľudí, aby v Márii spoznali svoju duchovnú Matku a Kráľovnú.<br>" +
@@ -2087,7 +2087,7 @@ public interface Prosby_svatci {
                             "všetko obnoviť v Kristovi,<br>" +
                             "aby tvár tvojej Cirkvi žiarila stále jasnejším svetlom.<br>" +
                             "Skrze Krista, nášho Pána."},
-            {"22", "Bratia a sestry, Panna Mária je najbližšie Kristovi, Kráľovi neba i zeme. Svojou dôstojnosťou a svätosťou prevyšuje všetkých ľudí. Preto ju právom nazývame Kráľovnou. Zvlášť dnes sa s ňou spojme v modlitbe, aby jej Syn dal svetu, čo je potrebné na jeho záchranu.",
+            {"22m", "Bratia a sestry, Panna Mária je najbližšie Kristovi, Kráľovi neba i zeme. Svojou dôstojnosťou a svätosťou prevyšuje všetkých ľudí. Preto ju právom nazývame Kráľovnou. Zvlášť dnes sa s ňou spojme v modlitbe, aby jej Syn dal svetu, čo je potrebné na jeho záchranu.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Na príhovor Kráľovnej anjelov daj, nech je tvoja Cirkev aj v jednotlivých veriacich čistá a svätá.<br>" +
                             "<font color='#B71C1C'>2.</font> Na príhovor Kráľovnej pokoja daj, nech sa ľudské pokolenie zjednotí v bratskej láske.<br>" +
@@ -2196,7 +2196,7 @@ public interface Prosby_svatci {
                             "udeľ nám živú a vytrvalú vieru,<br>" +
                             "aby sme spolu s nimi získali večnú slávu.<br>" +
                             "Skrze Krista, nášho Pána."},
-            {"08g", "Bratia a sestry, narodenie Panny Márie prinieslo radosť celému svetu. Preto v tejto spoločnej modlitbe s radosťou a dôverou volajme k nebeskému Otcovi.",
+            {"08gm", "Bratia a sestry, narodenie Panny Márie prinieslo radosť celému svetu. Preto v tejto spoločnej modlitbe s radosťou a dôverou volajme k nebeskému Otcovi.",
                     "<font color='#B71C1C'>(</font>Volajme: Pozri na Matku svojho Syna a vyslyš naše prosby.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Nebeský Otče, pomáhaj všetkým veriacim, aby podľa príkladu Panny Márie ustavične žili v posväcujúcej milosti.<br>" +
                             "<font color='#B71C1C'>2.</font> Otče, daj spravodlivý pokoj národom na celom svete a na príhovor Kráľovnej pokoja im udeľ bezpečnú budúcnosť.<br>" +
@@ -2210,7 +2210,7 @@ public interface Prosby_svatci {
                             "a na jej príhovor nám daruj všetko,<br>" +
                             "čo potrebujeme pre spásu.<br>" +
                             "Skrze Krista, nášho Pána."},
-            {"12", "Bratia a sestry, dnes pri spomienke na preblahoslavenú Pannu Máriu vrúcne uctievame jej meno. Zjednoťme svoje srdcia i mysle v nábožnej radosti a vrúcne sa modlime.",
+            {"12m", "Bratia a sestry, dnes pri spomienke na preblahoslavenú Pannu Máriu vrúcne uctievame jej meno. Zjednoťme svoje srdcia i mysle v nábožnej radosti a vrúcne sa modlime.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Pane, daj, aby kňazi a rehoľníci boli veriacim príkladom úcty k Panne Márii.<br>" +
                             "<font color='#B71C1C'>2.</font> Na príhovor preblahoslavenej Panny Márie ochraňuj pútnikov na pútnických miestach po celom svete.<br>" +
@@ -2251,7 +2251,7 @@ public interface Prosby_svatci {
                             "zachráň nás pred večnou smrťou<br>" +
                             "a daj nám svoju spásu.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"15gk", "Bratia a sestry, v tejto spoločnej modlitbe s veľkou dôverou prosme Pána, aby na orodovanie Sedembolestnej Panny Márie, našej nebeskej patrónky, vyslyšal naše prosby.",
+            {"15gkm", "Bratia a sestry, v tejto spoločnej modlitbe s veľkou dôverou prosme Pána, aby na orodovanie Sedembolestnej Panny Márie, našej nebeskej patrónky, vyslyšal naše prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pozri na bolestnú Matku Máriu a vyslyš naše prosby.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Bože, pre pokoru tvojej služobnice a Matky Cirkvi Márie upevňuj v nás lásku, poslušnosť a úctu k nášmu pápežovi <font color='#B71C1C'>M.</font> a všetkým našim biskupom.<br>" +
                             "<font color='#B71C1C'>2.</font> Bože, na orodovanie bolestnej Panny Márie, našej nebeskej Matky a patrónky, udeľ nášmu ľudu pokoj a daruj mu spásu.<br>" +
@@ -2457,7 +2457,7 @@ public interface Prosby_svatci {
                             "a pomôž nám žiť s čistým srdcom,<br>" +
                             "aby sme ťa raz aj my videli z tváre do tváre.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"07", "Bratia a sestry, vytrvalá modlitba je prejavom dôvery a lásky a prináša nám duchovné dary. V tejto spoločnej modlitbe prosme Pána, aby nám modlitba posvätného ruženca bola duchovnou silou a svetu záchranou.",
+            {"07m", "Bratia a sestry, vytrvalá modlitba je prejavom dôvery a lásky a prináša nám duchovné dary. V tejto spoločnej modlitbe prosme Pána, aby nám modlitba posvätného ruženca bola duchovnou silou a svetu záchranou.",
                     "<font color='#B71C1C'>(</font>Volajme: Pozri na Matku svojho Syna a vyslyš naše prosby.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Otče, daj, aby všetci biskupi a kňazi rozjímaním o tajomstvách spásy v modlitbe ruženca nachádzali silu plniť svoje poslanie.<br>" +
                             "<font color='#B71C1C'>2.</font> Povzbuď všetkých veriacich, aby sa radi a často modlili ruženec.<br>" +
@@ -2823,7 +2823,7 @@ public interface Prosby_svatci {
                             "prosíme ťa, aby si na jej príhovor vypočul naše prosby<br>" +
                             "a aj nás viedol po ceste čistoty a svätosti.<br>" +
                             "Skrze Krista, nášho Pána."},
-            {"21", "Bratia a sestry, keď sa dnes celá Cirkev raduje zo vznešenej oslavy Božej Matky Márie, aj my sa s úprimnou radosťou modlime k všemohúcemu Bohu Otcovi.",
+            {"21m", "Bratia a sestry, keď sa dnes celá Cirkev raduje zo vznešenej oslavy Božej Matky Márie, aj my sa s úprimnou radosťou modlime k všemohúcemu Bohu Otcovi.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Za putujúcu Cirkev: aby s vierou očakávala stretnutie s oslávenou Pannou Máriou v nebi, prosme Pána.<br>" +
                             "<font color='#B71C1C'>2.</font> Za tých, ktorí sa starajú o zdravie ľudí: aby s láskou a úctou ošetrovali ľudské telo, ktoré je tiež určené na vzkriesenie a oslávenie, prosme Pána.<br>" +
@@ -2961,7 +2961,7 @@ public interface Prosby_svatci {
                             "a daj, aby naši duchovní pastieri, biskupi a kňazi<br>" +
                             "boli soľou zeme a svetlom sveta.<br>" +
                             "Skrze Krista, nášho Pána."},
-            {"10", "", "Bratia a sestry, dnešná spomienka nás privádza k Panne Márii ako k vyvolenej dcére nebeského Otca i našej Matke a Orodovníčke. Na jej príhovor prednesme svoje prosby milujúcemu Bohu.",
+            {"10m", "", "Bratia a sestry, dnešná spomienka nás privádza k Panne Márii ako k vyvolenej dcére nebeského Otca i našej Matke a Orodovníčke. Na jej príhovor prednesme svoje prosby milujúcemu Bohu.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Nebeský Otče, veď svoju nevestu Cirkev, aby sa vo viere pokore a čistote stále viac pripodobňovala Panne Márii, ktorú vzývame ako nepoškvrnenú Matku.<br>" +
                             "<font color='#B71C1C'>2.</font> Bože Otče, usmerňuj rozhodnutia svetových politikov, aby sa starali o najslabších a biednych ako Mária, ktorá je Matkou nádeje.<br>" +

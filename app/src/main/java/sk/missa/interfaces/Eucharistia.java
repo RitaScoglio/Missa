@@ -55,13 +55,13 @@ public interface Eucharistia {
                     "a predkladajú svoje prosby tebe,<br>" +
                     "Bohu večnému, živému a pravému.<br>"},
             {"Spomienka na svätých",
-            "VSUVKA<font color='#B71C1C'>2.k</font> V spoločenstve s celou Cirkvou<br>" +
+            "VSUVKA1<br><font color='#B71C1C'>2.k</font> V spoločenstve s celou Cirkvou<br>" +
                     "s úctou si spomíname<br>" +
                     "najmä na preblahoslavenú Máriu,<br>" +
                     "vždy Pannu,<br>" +
                     "Rodičku Ježiša Krista,<br>" +
                     "Boha a nášho Pána,"},
-            {null,
+            {"",
                     "i na svätého Jozefa, jej ženícha,<br>" +
                     "a na tvojich svätých apoštolov a mučeníkov<br>" +
                     "Petra a Pavla, Ondreja,<br>" +
@@ -114,7 +114,7 @@ public interface Eucharistia {
             {"VEZMITE\n" +
                     "A JEDZTE Z NEHO VŠETCI:\n" +
                     "TOTO JE MOJE TELO,\n" +
-                    "KTORÉ SA OBETUJE ZA VÁS."},
+                    "KTORÉ SA OBETUJE ZA VÁS.", ""},
             {"Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>" +
                     "Potom pokračuje:",
             "Podobne po večeri",
@@ -133,7 +133,7 @@ public interface Eucharistia {
                     "NA ODPUSTENIE HRIECHOV.\n" +
                     "JE TO KRV\n" +
                     "NOVEJ A VEČNEJ ZMLUVY.\n" +
-                    "TOTO ROBTE NA MOJU PAMIATKU."},
+                    "TOTO ROBTE NA MOJU PAMIATKU.", ""},
             {"Ukáže kalich ľudu, znova ho položí na korporál a pokľaknutím adoruje.<br>" +
                     "Potom povie:",
             "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.<br>" +
@@ -141,7 +141,7 @@ public interface Eucharistia {
                     "Smrť tvoju, Pane, zvestujeme<br>" +
                     "a tvoje zmŕtvychvstanie vyznávame,<br>" +
                     "kým neprídeš v sláve.",
-            "______________<br>"+
+            "BAR", "",
             "Druhá formula:",
                     "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.<br>" +
                     "Pane, keď jeme tento chlieb<br>" +
@@ -153,7 +153,7 @@ public interface Eucharistia {
                     "Spasiteľ sveta, zachráň nás,<br>" +
                     "veď ty si nás vykúpil<br>" +
                     "svojím krížom a zmŕtvychvstaním.",
-            "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>"+
+            "BAR", "",
             "Potom kňaz s rozopätými rukami hovorí:",
             "<font color='#B71C1C'>Vš</font> Preto, Otče, my, tvoji služobníci<br>" +
                     "aj tvoj svätý ľud,<br>" +
@@ -261,7 +261,7 @@ public interface Eucharistia {
             {"VEZMITE\n" +
                     "A JEDZTE Z NEHO VŠETCI:\n" +
                     "TOTO JE MOJE TELO,\n" +
-                    "KTORÉ SA OBETUJE ZA VÁS."},
+                    "KTORÉ SA OBETUJE ZA VÁS.", ""},
             {"Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>" +
                     "Potom pokračuje:",
                     "Podobne po večeri",
@@ -279,7 +279,7 @@ public interface Eucharistia {
                     "NA ODPUSTENIE HRIECHOV.\n" +
                     "JE TO KRV\n" +
                     "NOVEJ A VEČNEJ ZMLUVY.\n" +
-                    "TOTO ROBTE NA MOJU PAMIATKU."},
+                    "TOTO ROBTE NA MOJU PAMIATKU.", ""},
             {"Ukáže kalich ľudu, znova ho položí na korporál a pokľaknutím adoruje.<br>"+
             "Potom povie:",
             "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.",
@@ -386,7 +386,7 @@ public interface Eucharistia {
             {"VEZMITE\n" +
                     "A JEDZTE Z NEHO VŠETCI:\n" +
                     "TOTO JE MOJE TELO,\n" +
-                    "KTORÉ SA OBETUJE ZA VÁS."},
+                    "KTORÉ SA OBETUJE ZA VÁS.", ""},
             {"Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>"+
             "Potom pokračuje:",
             "Podobne po večeri",
@@ -404,7 +404,7 @@ public interface Eucharistia {
                     "NA ODPUSTENIE HRIECHOV.\n" +
                     "JE TO KRV\n" +
                     "NOVEJ A VEČNEJ ZMLUVY.\n" +
-                    "TOTO ROBTE NA MOJU PAMIATKU."},
+                    "TOTO ROBTE NA MOJU PAMIATKU.", ""},
             {"Ukáže kalich ľudu, znova ho položí na korporál a pokľaknutím adoruje.<br>Potom povie:",
             "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.",
             "Ľud odpovie zvolaním:",
@@ -565,7 +565,7 @@ public interface Eucharistia {
             {"VEZMITE\n" +
                     "A JEDZTE Z NEHO VŠETCI:\n" +
                     "TOTO JE MOJE TELO,\n" +
-                    "KTORÉ SA OBETUJE ZA VÁS."},
+                    "KTORÉ SA OBETUJE ZA VÁS.", ""},
             {"Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>"+
                     "Potom pokračuje:",
             "Podobne",
@@ -583,7 +583,7 @@ public interface Eucharistia {
                     "NA ODPUSTENIE HRIECHOV.\n" +
                     "JE TO KRV\n" +
                     "NOVEJ A VEČNEJ ZMLUVY.\n" +
-                    "TOTO ROBTE NA MOJU PAMIATKU."},
+                    "TOTO ROBTE NA MOJU PAMIATKU.", ""},
             {"Ukáže kalich ľudu, znova ho položí na korporál a pokľaknutím adoruje.<br>Potom povie:",
             "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.",
             "Ľud odpovie zvolaním:",
@@ -698,7 +698,7 @@ public interface Eucharistia {
             {"VEZMITE\n" +
                     "A JEDZTE Z NEHO VŠETCI:\n" +
                     "TOTO JE MOJE TELO,\n" +
-                    "KTORÉ SA OBETUJE ZA VÁS."},
+                    "KTORÉ SA OBETUJE ZA VÁS.", ""},
             {"Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>" +
                     "Potom pokračuje:",
                     "Podobne po večeri,<br>" +
@@ -717,7 +717,7 @@ public interface Eucharistia {
                     "NA ODPUSTENIE HRIECHOV.\n" +
                     "JE TO KRV\n" +
                     "NOVEJ A VEČNEJ ZMLUVY.\n" +
-                    "TOTO ROBTE NA MOJU PAMIATKU."},
+                    "TOTO ROBTE NA MOJU PAMIATKU.", ""},
             {"Ukáže kalich ľudu, znova ho položí na korporál a pokľaknutím adoruje.<br>" +
                     "Potom povie:",
                     "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.",
@@ -818,7 +818,7 @@ public interface Eucharistia {
                     {"VEZMITE\n" +
                             "A JEDZTE Z NEHO VŠETCI:\n" +
                             "TOTO JE MOJE TELO,\n" +
-                            "KTORÉ SA OBETUJE ZA VÁS."},
+                            "KTORÉ SA OBETUJE ZA VÁS.", ""},
             {"Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>" +
                     "Potom pokračuje:",
                     "Podobne v ten istý večer",
@@ -835,7 +835,7 @@ public interface Eucharistia {
                             "NA ODPUSTENIE HRIECHOV.\n" +
                             "JE TO KRV\n" +
                             "NOVEJ A VEČNEJ ZMLUVY.\n" +
-                            "TOTO ROBTE NA MOJU PAMIATKU."},
+                            "TOTO ROBTE NA MOJU PAMIATKU.", ""},
             {"Ukáže kalich ľudu, znova ho položí na korporál a pokľaknutím adoruje.<br>" +
                     "Potom povie:",
                     "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.",

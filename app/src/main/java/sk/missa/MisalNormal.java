@@ -283,7 +283,6 @@ public class MisalNormal extends Misal {
         sizeZ = settings.getInt("sizeZ", 30);
         m = settings.getInt("m", 0);
         rok = settings.getInt("rok", 0);
-        maria = settings.getBoolean("maria", false);
     }
 
     //uloží premenné do pamäte
@@ -303,6 +302,5 @@ public class MisalNormal extends Misal {
         editor.putString("obdobie", obdobie).apply();
         editor.putInt("m", m).apply();
         editor.putInt("rok", rok).apply();
-        editor.putBoolean("maria", maria).apply();
     }
 }

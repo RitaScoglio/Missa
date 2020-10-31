@@ -20,7 +20,7 @@ public interface Svatci {
     + - titul katedrály, mimo sviatku svätého (tj. spomienka, sviatok... v dieceze + feria)
     o - votivna omsa (lubovolna spomienka, ale slavi sa aj pokial v ten den spomienka alebo post)
     p - pohyblivy sviatok
-    m - mariansky sviatok (vzdy na konci lebo v misali sa odobera z ID) - ukon kajucnosti z marianskeho sviatku
+    m - mariansky sviatok - ukon kajucnosti z marianskeho sviatku
 
     POHYBLIVE SVIATKY
     19.3. - Svätého Jozefa, ženícha Panny Márie, Slávnosť            0gkp
