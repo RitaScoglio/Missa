@@ -657,7 +657,13 @@ public interface Citania_svatci {
                             "pokladajú nás za\u00A0ovce na\u00A0zabitie.\"<br>" +
                             "Ale v\u00A0tomto všetkom slávne víťazíme skrze toho, ktorý nás miluje.<br>" +
                             "A som si istý, že ani smrť, ani život, ani anjeli, ani kniežatstvá, ani prítomnosť, ani budúcnosť, ani mocnosti, ani výška, ani hĺbka, ani nijaké iné stvorenie nás nebude môcť odlúčiť od\u00A0Božej lásky, ktorá je v\u00A0Kristovi Ježišovi, našom Pánovi.<br>" +
-                            "Počuli sme Božie slovo."}
+                            "Počuli sme Božie slovo."},
+            {"29", "", "", "1Kor 16-19. 22-23",
+                    "Beda mi, keby som evanjelium nehlásal",
+                            "Čítanie z Prvého listu svätého apoštola Pavla Korinťanom<br>" +
+                            "Bratia, ak hlásam evanjelium, nemám sa čím chváliť; to je moja povinnosť, a beda mi, keby som evanjelium nehlásal. Ak to robím z\u00A0vlastnej vôle, mám nárok na odmenu, ale ak nie z\u00A0vlastnej vôle, je to služba, ktorá mi je zverená. Aká je teda moja odmena? Že keď hlásam evanjelium, predkladám ho zadarmo a nevyužívam svoje právo pri\u00A0evanjeliu. Lebo hoci som slobodný voči všetkým, stal som sa sluhom všetkých, aby som čím viacerých získal.<br>" +
+                            "Pre slabých som sa stal slabým, aby som získal slabých. Pre\u00A0všetkých som sa stal všetkým, aby som zachránil aspoň niektorých. A všetko robím pre\u00A0evanjelium, aby som mal na\u00A0ňom podiel.<br>" +
+                            "Počuli sme Božie slovo."},
     };
 
     String[][] citanie1_6 = {
@@ -2363,7 +2369,7 @@ public interface Citania_svatci {
                             "Počuli sme slovo Pánovo."},
             {"16", "", "", "Mt 10, 17-22",
                     "Pre mňa vás budú vláčiť pred\u00A0vladárov a kráľov, aby ste vydali svedectvo",
-                    "+ Čítanie zo svätého Evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>†</font> Čítanie zo svätého Evanjelia podľa Matúša<br>" +
                             "Ježiš povedal svojim učeníkom: \"Chráňte sa ľudí, lebo vás vydajú súdom, budú vás bičovať vo\u00A0svojich synagógach a pre\u00A0mňa vás budú vláčiť pred\u00A0vladárov a kráľov, aby ste vydali svedectvo im aj pohanom.<br>" +
                             "Ale keď vás vydajú, nestarajte sa, ako a čo budete hovoriť, lebo v\u00A0tú hodinu vám bude dané, čo máte povedať. Veď to už nie vy budete hovoriť, ale Duch vášho Otca bude hovoriť vo\u00A0vás.<br>" +
                             "Brat vydá na\u00A0smrť brata a otec dieťa. Deti povstanú proti rodičom a pripravia ich o\u00A0život.<br>" +
@@ -2371,11 +2377,21 @@ public interface Citania_svatci {
                             "Počuli sme slovo Pánovo."},
             {"16g", "", "", "Mt 10, 17-22",
                     "Pre mňa vás budú vláčiť pred\u00A0vladárov a kráľov, aby ste vydali svedectvo",
-                    "+ Čítanie zo svätého Evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>†</font> Čítanie zo svätého Evanjelia podľa Matúša<br>" +
                             "Ježiš povedal svojim učeníkom: \"Chráňte sa ľudí, lebo vás vydajú súdom, budú vás bičovať vo\u00A0svojich synagógach a pre\u00A0mňa vás budú vláčiť pred\u00A0vladárov a kráľov, aby ste vydali svedectvo im aj pohanom.<br>" +
                             "Ale keď vás vydajú, nestarajte sa, ako a čo budete hovoriť, lebo v\u00A0tú hodinu vám bude dané, čo máte povedať. Veď to už nie vy budete hovoriť, ale Duch vášho Otca bude hovoriť vo\u00A0vás.<br>" +
                             "Brat vydá na\u00A0smrť brata a otec dieťa. Deti povstanú proti rodičom a pripravia ich o\u00A0život.<br>" +
                             "Všetci vás budú nenávidieť pre\u00A0moje meno. Ale kto vytrvá do\u00A0konca, bude spasený.\"<br>" +
+                            "Počuli sme slovo Pánovo."},
+            {"29", "", "", "Mt 16, 13-19",
+                    "Ty si Peter a na tejto skale postavím svoju Cirkev",
+                            "<font color='#B71C1C'>†</font> Čítanie za svätého evanjelia podľa Matúša<br>" +
+                            "Keď Ježiš prišiel do\u00A0okolia Cézarey Filipovej, pýtal sa svojich učeníkov: \"Za\u00A0koho pokladajú ľudia Syna človeka?\"<br>" +
+                            "Oni vraveli: \"Jedni za\u00A0Jána Krstiteľa, iní za\u00A0Eliáša a iní za\u00A0Jeremiáša alebo za\u00A0jedného z\u00A0prorokov.\"<br>" +
+                            "\"A za\u00A0koho ma pokladáte vy?\", opýtal sa ich.<br>" +
+                            "Odpovedal Šimon Peter: \"Ty si Mesiáš, Syn živého Boha.\"<br>" +
+                            "Ježiš mu povedal: \"Blahoslavený si, Šimon, syn Jonášov, lebo ti to nezjavilo telo a krv, ale môj Otec, ktorý je na\u00A0nebesiach. A ja ti hovorím: Ty si Peter a na\u00A0tejto skale postavím svoju Cirkev a pekelné brány ju nepremôžu.<br>" +
+                            "Tebe dám kľúče od\u00A0nebeského kráľovstva: čo zviažeš na\u00A0zemi, bude zviazané v\u00A0nebi, a čo rozviažeš na\u00A0zemi, bude rozviazané v\u00A0nebi.\"<br>" +
                             "Počuli sme slovo Pánovo."},
     };
 

@@ -983,6 +983,20 @@ public interface Zalmy_svatci {
                             "v tomto čase milosti.<br>" +
                             "A budem vytrhnutý z moci svojich nenávistníkov <font color='#B71C1C'>*</font><br>" +
                             "i z hlbokých vôd. <font color='#B71C1C'>– R.</font>"},
+            {"29", "", "", "Ž 96, l-2a, 2b-3, 7-8a. 10",
+                    "<font color='#B71C1C'>R.:</font> Zvestujte všetkým národom zázraky Pánove.<br><br>" +
+                            "Spievajte Pánovi pieseň novú;<br>" +
+                            "spievaj Pánovi, celá zem!<br>" +
+                            "Spievajte Pánovi, velebte jeho meno.<font color='#B71C1C'> – R.</font><br>" +
+                            "Zvestujte jeho spásu deň čo deň.<br>" +
+                            "Zvestujte jeho slávu pohanom<br>" +
+                            "a jeho zázraky všetkým národom.<font color='#B71C1C'> – R.</font><br>" +
+                            "Vzdávajte Pánovi, rodiny národov,<br>" +
+                            "vzdávajte Pánovi slávu a česť,<br>" +
+                            "vzdávajte Pánovi slávu hodnú jeho mena.<font color='#B71C1C'> – R.</font><br>" +
+                            "Hlásajte medzi pohanmi: „Pán kraľuje!“<br>" +
+                            "Upevnil zemekruh, nepohne sa;<br>" +
+                            "a spravodlivo súdi národy.<font color='#B71C1C'> – R.</font>"},
     };
 
     String[][] zalm6 = {
@@ -2078,6 +2092,7 @@ public interface Zalmy_svatci {
             {"14g", "", "", "Porov. Jn 15, 16", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Ja som si vás vyvolil zo sveta, aby ste išli a prinášali ovocie a aby vaše ovocie zostalo, hovorí Pán. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"16", "", "", "Mt 5, 10", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavení prenasledovaní pre spravodlivosť, lebo ich je nebeské kráľovstvo. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"16g", "", "", "Mt 5, 10", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavení prenasledovaní pre spravodlivosť, lebo ich je nebeské kráľovstvo. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"29", "", "", " Mk 1,17", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Poďte za mnou, hovorí Pán, a urobím z vás rybárov ľudí. <font color='#B71C1C'>– R.</font> Aleluja."},
     };
 
     String[][] aleluja6 = {

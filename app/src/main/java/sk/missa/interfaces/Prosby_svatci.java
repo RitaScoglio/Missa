@@ -2961,6 +2961,19 @@ public interface Prosby_svatci {
                             "a daj, aby naši duchovní pastieri, biskupi a kňazi<br>" +
                             "boli soľou zeme a svetlom sveta.<br>" +
                             "Skrze Krista, nášho Pána."},
+            {"10", "", "Bratia a sestry, dnešná spomienka nás privádza k Panne Márii ako k vyvolenej dcére nebeského Otca i našej Matke a Orodovníčke. Na jej príhovor prednesme svoje prosby milujúcemu Bohu.",
+                    "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Nebeský Otče, veď svoju nevestu Cirkev, aby sa vo viere pokore a čistote stále viac pripodobňovala Panne Márii, ktorú vzývame ako nepoškvrnenú Matku.<br>" +
+                            "<font color='#B71C1C'>2.</font> Bože Otče, usmerňuj rozhodnutia svetových politikov, aby sa starali o najslabších a biednych ako Mária, ktorá je Matkou nádeje.<br>" +
+                            "<font color='#B71C1C'>3.</font> Večný Bože, posilňuj sužovaných akýmkoľvek trápením, aby nachádzali posilu v spoločenstve veriacich, ktorí vzývajú Máriu ako Pomocnicu kresťanov.<br>" +
+                            "<font color='#B71C1C'>4.</font> Milosrdný Bože, vypočuj všetkých, čo sa na pútnických miestach vo viere utiekajú o pomoc Márie, ktorú uctievame ako Pannu mocnú a dobrotivú.<br>" +
+                            "<font color='#B71C1C'>5.</font> Nebeský Otče, priveď k sebe do večnej radosti tých, ktorí vo vrúcnej modlitbe oslovovali Máriu ako Útočisko hriešnikov a Bránu do neba.",
+                    "Všemohúci Bože,<br>" +
+                            "ty si nám dal Máriu za vzor dokonalej učeníčky<br>" +
+                            "Ježiša, tvojho milovaného Syna;<br>" +
+                            "na jej príhovor vypočuj naše prosby<br>" +
+                            "a pomôž nám stále viac sa jej podobať.<br>" +
+                            "Skrze Krista, nášho Pána."},
             {"11", "Bratia a sestry, na príhovor svätého pápeža Damaza prednesme s dôverou Bohu svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Bože, na príhovor svätého Damaza daj silu nášmu pápežovi <font color='#B71C1C'>M.</font>, aby múdro viedol zverenú Cirkev.<br>" +

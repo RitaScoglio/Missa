@@ -3620,6 +3620,13 @@ public interface Modlitby_svatci {
                     "neochvejne kráčali po tvojich cestách<br>" +
                     "a pripravovali sa na radostnú hostinu vo večnosti.<br>" +
                     "Skrze Krista, nášho Pána."},
+            {"10", "Deus, qui promíssa Pátribus adimplens<br>" +
+                    "beátam Vírginem Maríam elegísti,<br>" +
+                    "ut matrem fíeret Salvatóris,<br>" +
+                    "concéde nobis illíus exémpla sectári,<br>" +
+                    "cuius humílitas tibi plácuit,<br>" +
+                    "et oboediéntia nobis prófuit.<br>" +
+                    "Per Dóminiun.", "", ""},
             {"11", "Pane a Bože náš,<br>" +
                     "tvoj služobník svätý pápež Damaz<br>" +
                     "bol veľkým ctiteľom mučeníkov<br>" +

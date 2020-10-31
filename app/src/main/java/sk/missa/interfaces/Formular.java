@@ -244,6 +244,8 @@ public interface Formular {
             {"04b", "26", "51"},
             {"06", "32"},
             {"07", "32", "4"},
+            {"09", "61"},
+            {"10", "11"},
             {"11", "31"},
             {"12", "12"},
             {"13", "26", "51"},
@@ -2492,19 +2494,20 @@ public interface Formular {
                             "posilni nás vo vytrvalosti stále sa modliť,<br>" +
                             "ako sa modlila tvoja najdrahšia Matka.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"11", "Omša k preblahoslavenej Panne Marií 3.", "Bratia a sestry, Panna Mária je veľkým vzorom nášho života v pokore, modlitbe a plnení Božej vôle. V tejto spoločnej modlitbe na jej orodovanie prosme nášho najmilostivejšieho Pána.",
+            {"11", "Omša k preblahoslavenej Panne Marií 3.", "Bratia a sestry, v nebi máme svoju Matku, ktorú vzývame ako kráľovnú a našu orodovníčku. S dôverou v jej príhovor sa pri spoločnej modlitbe obráťme na nebeského Otca. ",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, požehnávaj Svätého Otca <font color='#B71C1C'>M.</font> a našich biskupov, kňazov a diakonov, aby tak ako Panna Mária vždy ochotne plnili tvoju vôľu.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane, ochraňuj všetky národy a ich predstavených, aby tak ako Panna Mária vždy zotrvávali v tvojej prítomnosti a žili podľa tvojich príkazov.<br>" +
-                            "<font color='#B71C1C'>3.</font> Otče, posilňuj všetkých trpiacich a núdznych, aby tak ako Panna Mária vedeli s pokorou znášať svoju bolesť a oddane ti slúžiť.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, veď všetkých kresťanov, aby tak ako Panna Mária ochotne počúvali Pánove slová a uchovávali ich vo svojich srdciach.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, zachovaj náš národ v jednote a svornosti, aby tak ako Panna Mária, naša patrónka, svorne kráčal v ústrety večnému nebeskému kráľovstvu.<br>" +
-                            "<font color='#B71C1C'>6.</font> Otče, stoj pri všetkých umierajúcich, aby tak ako Panna Mária s čistou dušou raz predstúpili pred tvoju tvár.",
-                    "Dobrotivý Otče, vypočuj naše prosby,<br>" +
-                            "ktorými voláme k tebe<br>" +
-                            "a utiekame sa pod ochranu Panny Márie,<br>" +
-                            "aby sme sa stále zdokonaľovali na ceste života<br>" +
-                            "a pripravovali sa na stretnutie s tebou.<br>" +
+                    "<font color='#B71C1C'>1.</font> Prosme za Cirkev: aby prijala fatimskú výzvu na pokánie a odpovedala na ňu konkrétnymi skutkami.<br>" +
+                            "<font color='#B71C1C'>2.</font> Prosme za politikov na celom svete: aby pochopili, že pravý rozvoj krajín a národov je možný iba v mieri a úcte ku každému človeku.<br>" +
+                            "<font color='#B71C1C'>3.</font> Prosme za tvorcov zákonov v európskych krajinách: aby prijali skutočnosť, že Boh nás stvoril ako mužov a ženy, a aby podporovali rodiny posvätené sviatosťou manželstva.<br>" +
+                            "<font color='#B71C1C'>4.</font> Prosme za pútnikov, ktorí putujú do mariánskych svätýň, aby pocítili ochranu Panny Márie a túžili tak ako ona v pokore plniť Pánovu vôľu.<br>" +
+                            "<font color='#B71C1C'>5.</font> Prosme za seba samých, aby sme si každý deň našli primeraný čas na modlitbu, ktorou sa zverujeme Bohu a odovzdávame mu celý svoj život.",
+                    "Všemohúci Bože, <br>" +
+                            "tvoje Slovo naplnilo Máriino srdce<br>" +
+                            "a bolo posilou jej svätého života;<br>" +
+                            "vypočuj naše prosby<br>" +
+                            "a daj, aby sme sa svojou vierou, pokorou a dôverou<br>" +
+                            "podobali Panne Márii,<br>" +
+                            "a tak zakúsili v živote veľké znamenia tvojej lásky.<br>" +
                             "Skrze Krista, nášho Pána."},
             // 4 – iba v adventnom obdobi
             {"12", "Omša k preblahoslavenej Panne Marií", ""},
