@@ -808,10 +808,10 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 if (!month[index][2].equals("Sviatok") || !month[index][2].equals("Slávnosť"))
                     prvyPiatok = prvyStvrtok = true;
                 do {
-                    if (day >= 17)
-                        words.add(new Calendar(month[index][1], month[index][2], "(fialová)", day, advent, month[index][0], "a"));
-                    else
+                    if (day < 17 || m == 10)
                         words.add(new Calendar(month[index][1], month[index][2], month[index][3], day, advent, month[index][0], "a"));
+                    else
+                        words.add(new Calendar(month[index][1], month[index][2], "(fialová)", day, advent, month[index][0], "a"));
                     index++;
                 } while (index < month.length && month[index][0].contains(d));
                 if (!month[index - 1][2].equals("Sviatok") && !month[index - 1][2].equals("Slávnosť") && !month[index - 1][2].equals("Spomienka") && day < 17)
@@ -819,7 +819,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             } else {
                 prvyPiatok = prvyStvrtok = true;
                 words.add(new Calendar((dni[dvt] + " " + advent + ". týždňa v adventnom období"), "Féria", "(fialová)", day, advent, Integer.toString(advent) + dvt, "a"));
-                if (day < 17)
+                if (day < 17 || m == 10)
                     words.add(new Calendar("Omša o Panne Márii v adventnom období", " ", "(biela)", day, advent, "003m", "a"));
             }
             if (dvt == 5 && prvyPiatok && day < 8)
