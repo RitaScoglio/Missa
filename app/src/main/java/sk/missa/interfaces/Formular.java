@@ -43,8 +43,14 @@ SPOLOCNE OMSE SVATYCH MUZOV A SVATYCH ZIEN
 63 - omsa o tych, co konali skutky milosrdensta
 64 - omsa o vychovavateloch
 65 - omsa o svatych zenach
-JARNE KANTROVE DNI
-71
+SPECIALNE
+71 - Jarné kántrové dni
+72a - Za jednotu kresťanov - Letné kántrové dni
+72b - Za kňazské/duchovné povolania - Letné kántrové dni
+73 - Jesenné kántrové dni
+74 - Zimné kántrové dni
+75 - Prosebné dni
+76 - Za jednotu kresťanov
 VLASTNE FORMULARE
 01 - Pondelok po zoslaní DS
 02 - NAJSVÄTEJŠIEHO SRDCA JEŽIŠOVHO
