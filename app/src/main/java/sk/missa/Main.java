@@ -58,7 +58,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     public static Integer jazyk, omsa, themeStyle;
     static Typeface typeNormal, typeBold, typeItalic, typeBoldItalic;
     public String[] jazyky = {"Anglicky", "Francúzsky", "Chorvatsky", "Latinsky", "Maďarsky", "Nemecky", "Poľsky", "Španielsky", "Taliansky"};
-    public String[] omse = {"Omša za zmierenie", "Omša za zosnulých", "Omša o Najsvätejšom Srdci Ježišovom", "Spoločné omše preblahoslavenej Panny Márie"};
+    public String[] omse = {"Omša za zmierenie", "Omša za zosnulých", "Omša v čase pandémie", "Omša o Najsvätejšom Srdci Ježišovom", "Spoločné omše preblahoslavenej Panny Márie"};
     public String[] upravy = {"Úpravy v omšovom poriadku", "Prvá eucharistická modlitba", "Druhá eucharistická modlitba", "Tretia eucharistická modlitba", "Štvrtá eucharistická modlitba"};
     public CharSequence[] fonty = {"bezpätkové", "pätkové"};
     public NavigationView navigationView;
@@ -106,10 +106,10 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         builder.setItems(omse, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 omsa = which;
+                settings = getApplicationContext().getSharedPreferences("MySviatok", 0);
+                boolean zmierenie = settings.getBoolean("zmierenie", false);
                 if (omsa == 0) {
                     //Omša za zmierenie
-                    settings = getApplicationContext().getSharedPreferences("MySviatok", 0);
-                    boolean zmierenie = settings.getBoolean("zmierenie", false);
                     if (zmierenie) {
                         getSpecial();
                         zIntent = true;
@@ -134,6 +134,24 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                     startActivity(intent);
                     finish();
                 } else if (omsa == 2) {
+                    if (zmierenie) {
+                    //Omsa v case pandemie
+                    getSpecial();
+                    zIntent = true;
+                    Intent intent = new Intent(context, MisalPandemia.class);
+                    startActivity(intent);
+                    finish();
+                    } else {
+                        LayoutInflater inflater = getLayoutInflater();
+                        View layout = inflater.inflate(R.layout.toast_layout,
+                                (ViewGroup) findViewById(R.id.toast));
+                        Toast toast = new Toast(getApplicationContext());
+                        toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
+                        toast.setDuration(Toast.LENGTH_LONG);
+                        toast.setView(layout);
+                        toast.show();
+                    }
+                } else if (omsa == 3){
                     //Omša o najsätejšom Srdci Ježišovom
                     getSpecial();
                     zIntent = true;

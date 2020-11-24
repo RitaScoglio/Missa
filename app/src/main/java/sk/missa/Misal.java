@@ -1711,7 +1711,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
 
     public void obradPrijimaniaVypis(String[] obrad, ArrayList<Missa> missas, boolean nahrad) {
         for (int i = 1; i < obrad.length; i = i + 2) {
-            if (i == 3 && nahrad) {
+            if (i == 5 && nahrad) {
                 String s = null;
                 //výzvy na modlitbu "Otče náš" podľa obdobia
                 if (A) {
@@ -1727,8 +1727,10 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     s = "Voláme sa Božími deťmi a nimi aj sme; preto sa modlime s veľkou dôverou:";
                     i = i + 2;
                 } else
-                    s = obrad[4];
-                missas.add(new Missa(obrad[3], s, false));
+                    s = obrad[6];
+                missas.add(new Missa(obrad[5], s, false));
+            } else if(obrad[i].equals("BAR")){
+                missas.add(new Missa(5));
             } else {
                 missas.add(new Missa(obrad[i], obrad[i + 1], false));
             }
@@ -2639,7 +2641,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             vypisAlebo(missas, aleboCitanie1, 11);
         missas.add(new Missa(null, prve_citanie.toUpperCase(), prve_citanie_suradnice, prve_citanie_citat, prve_citanie_vypis, true, -2));
         missas.add(new Missa(1)); //medzera mala
-        if (aleboZalm != null)
+        if (aleboZalm != null  && !ID.equals("10gkp") && !ID.equals("11gkp") && !nadpis.equals("Omša v čase pandémie"))
             vypisAlebo(missas, aleboZalm, 14);
         missas.add(new Missa(null, zalm.toUpperCase(), zalm_suradnice, null, zalm_vypis, true, 0));
         missas.add(new Missa(1)); //medzera mala
@@ -2795,7 +2797,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         prve_citanie_suradnice = aleboCitanie1[0][0];
                         prve_citanie_citat = aleboCitanie1[0][1];
                         prve_citanie_vypis = aleboCitanie1[0][2];
-                        if (ID.equals("10gkp") || ID.equals("11gkp")) {
+                        if (ID.equals("10gkp") || ID.equals("11gkp") || nadpis.equals("Omša v čase pandémie")) {
                             changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
                             zalm_suradnice = aleboZalm[0][0];
                             zalm_vypis = aleboZalm[0][1];
@@ -2826,12 +2828,12 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
                         zalm_suradnice = aleboZalm[0][0];
                         zalm_vypis = aleboZalm[0][1];
-                        if (ID.equals("10gkp") || ID.equals("11gkp")) {
+                        /*if (ID.equals("10gkp") || ID.equals("11gkp")) {
                             changeAleboCitanie(aleboCitanie1, missa.getIndexAlebo());
                             prve_citanie_suradnice = aleboCitanie1[0][0];
                             prve_citanie_citat = aleboCitanie1[0][1];
                             prve_citanie_vypis = aleboCitanie1[0][2];
-                        }
+                        }*/
                         pozicia_listview = position;
                         vypis();
                         break;
