@@ -35,6 +35,9 @@
             android:name=".MisalSrdceJC"
             android:configChanges="orientation|screenSize" />
         <activity
+            android:name=".MisalPandemia"
+            android:configChanges="orientation|screenSize" />
+        <activity
             android:name=".Uvod"
             android:configChanges="orientation|screenSize">
             <intent-filter>

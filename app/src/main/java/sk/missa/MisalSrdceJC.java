@@ -286,7 +286,7 @@ public class MisalSrdceJC extends Misal {
     public void spev() {
         uvodny_spev = "Úvodný spev";
         prijimanie_spev = "Spev na prijímanie";
-        index = indexFormular(spevFormular, formArray.get(pozicia_formular), formArrayNum.get(pozicia_formular));
+        index = indexFormular(spevFormular, formArray.get(pozicia_formular));
         uvodny_vypis = spevFormular[index][2];
         uvodny_suradnice = spevFormular[index][3];
         prijimanie_vypis = spevFormular[index][4];
@@ -298,7 +298,7 @@ public class MisalSrdceJC extends Misal {
         modlitba_dna = "Modlitba dňa";
         modlitba_dary = "Modlitba nad obetnými darmi";
         modlitba_prijimanie = "Modlitba po prijímaní";
-        index = indexFormular(modlitbaFormular, formArray.get(pozicia_formular), formArrayNum.get(pozicia_formular));
+        index = indexFormular(modlitbaFormular, formArray.get(pozicia_formular));
         modlitba_dna_vypis = modlitbaFormular[index][2];
         modlitba_dary_vypis = modlitbaFormular[index][3];
         modlitba_prijimanie_vypis = modlitbaFormular[index][4];
@@ -342,11 +342,8 @@ public class MisalSrdceJC extends Misal {
     @Override
     public void ziskajFormular() {
         formArray.clear();
-        formArrayNum.clear();
-        formArray.add("Najsvätejšieho Srdca Ježišovho");
-        formArrayNum.add("02");
-        formArray.add("Votívna omša o Najsvätejšom Srdci Ježišovom");
-        formArrayNum.add("03");
+        formArray.add(new String[]{"02", "1", "Najsvätejšieho Srdca Ježišovho"});
+        formArray.add(new String[]{"03", "1", "Votívna omša o Najsvätejšom Srdci Ježišovom"});
     }
 
     //nastavi moznosti EM

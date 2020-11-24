@@ -50,7 +50,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     public static boolean preface;
     public static String euchText, prefText;
     public static int sizeN, sizeO, sizeZ;
-    public static DateTime mP, mVN, mDS, mD, mSP, mNT, mTK, mNSJ, mSPM, msvJ, mZP, mJK, mvDS, mPM, mNP, mSR, mNNP, mZJ, mKKP, mZacA, mZJactual, mKKPactual;
+    public static DateTime mP, mVN, mDS, mD, mSP, mNT, mTK, mNSJ, mSPM, msvJ, mZP, mJK, mvDS, mPM, mNP, mSR, mNNP, mZJ, mKKP, mZacA, mZJactual, mKKPactual, mNPactual, mZacAactual, mVNactual;
     public static boolean C, A, V, P, VN;
     public static boolean pismo, rezim, zvoncek, fullscreen, ticheModlitby;
     public static int farba_b, farba_r;
@@ -68,13 +68,13 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     public SharedPreferences settings;
     public static boolean zIntent;
     public static int zvuk;
-    int vnd, vnm, psd, psm, dsd, dsm;
+    static int vnd, vnm, psd, psm, dsd, dsm, zacAd, zacAm, nvpm, nvpd;
     int index, dvt, cezrok, post, velkanoc, advent, vianoce;
     /**
      * @param pm - Panna Mária v sobotu
      * @param prvyPiatok - Najsvätejšie Srdce Ježišovo na prvý piatok
      */
-    boolean pm, prvyPiatok;
+    boolean pm, prvyPiatok, prvyStvrtok;
     String d;
     Calendar nedela, feria;
     Date datum = new Date();
@@ -535,7 +535,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
 
         Calendar vigilia = null;
         boolean vynimka_pm;
-        pm = prvyPiatok = vynimka_pm = false;
+        pm = prvyPiatok = prvyStvrtok = vynimka_pm = false;
         index = najdiIndex(month, d);
         dnes.setFirstDayOfWeek(java.util.Calendar.SUNDAY);
 
@@ -610,7 +610,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 words.add(feria);
             }
             if (!month[index][2].equals("Sviatok") && !month[index][2].equals("Slávnosť"))
-                prvyPiatok = true;
+                prvyPiatok = prvyStvrtok= true;
             if (month[index][2].equals("Spomienka") || month[index][1].equals("Najsvätejšieho mena Panny Márie"))
                 vynimka_pm = true;
             if (!month[index][2].equals("Slávnosť") && mD.isEqual(mSPM)) //neposkvrneneho srdca panny marie
@@ -627,7 +627,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             } while (index < month.length && month[index][0].contains(d));
         } else { //ak nie je nedeľa a ani sviatok
             pm = true;
-            prvyPiatok = true;
+            prvyPiatok = prvyStvrtok = true;
             words.add(feria);
             if (mD.isEqual(mSPM)) {
                 pm = false;
@@ -639,8 +639,19 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             words.add(new Calendar(maria[1], maria[2], maria[3], day, cezrok, "003m", "c"));
         if (dvt == 5 && prvyPiatok && day < 8)
             words.add(new Calendar("O Najsvätejšom Srdci Ježišovom", "Votívna omša", "(biela)", day, cezrok, "001", "c"));
+        if (dvt == 4 && prvyStvrtok && day < 8)
+            words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, cezrok, "002", "c"));
         if (vigilia != null)
             words.add(vigilia);
+
+        //kantrove dni
+        if (mes == 8 && ((14 < day && day < 22 && dvt == 3) ||
+                (16 < day && day < 24 && dvt == 5) ||
+                (17 < day && day < 25 && dvt == 6)))
+            words.add(new Calendar("Jesenné kántrové dni", " ", "(zelená)", day, cezrok, "006", "c"));
+        //tyzden modlitieb za jednotu krestanov
+        if(mes == 0 && 17 < day && day < 23)
+            words.add(new Calendar("Za jednotu kresťanov", " ", "(zelená)", day, cezrok, "009", "c"));
     }
 
 
@@ -699,6 +710,10 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 } while (index < month.length && month[index][0].contains(d));
             } else
                 words.add(feria);
+
+            //kantrove dni
+            if (post == 1 && (dvt == 3 || dvt == 5 || dvt == 6))
+                words.add(new Calendar("Jarné kántrové dni", " ", "(fialová)", day, post, "004", "p"));
         }
     }
 
@@ -706,7 +721,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     public void velkanocVypis(final ArrayList<Calendar> words, String[][] month, int day) {
         int days = Days.daysBetween(mVN, mD).getDays();
         velkanoc = (days / 7) + 1; //vypocet tyzdna vo velkonocnom obdobi
-        prvyPiatok = false;
+        prvyPiatok = prvyStvrtok = false;
 
         if (mD.isEqual(mVN))
             words.add(new Calendar("Veľkonočná nedeľa".toUpperCase(), "", "(biela)", day, velkanoc, Integer.toString(velkanoc) + dvt, "n"));
@@ -736,13 +751,13 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                     words.add(new Calendar((dni[dvt] + " po " + velkanoc + ". Veľkonočnej nedeli"), "Féria", "(biela)", day, velkanoc, Integer.toString(velkanoc) + dvt, "n"));
                 }
                 if (!month[index][2].equals("Sviatok") || !month[index][2].equals("Slávnosť"))
-                    prvyPiatok = true;
+                    prvyPiatok = prvyStvrtok = true;
                 do {
                     words.add(new Calendar(month[index][1], month[index][2], month[index][3], day, velkanoc, month[index][0], "n"));
                     index++;
                 } while (index < month.length && month[index][0].contains(d));
             } else {
-                prvyPiatok = true;
+                prvyPiatok = prvyStvrtok = true;
                 words.add(new Calendar((dni[dvt] + " po " + velkanoc + ". Veľkonočnej nedeli"), "Féria", "(biela)", day, velkanoc, Integer.toString(velkanoc) + dvt, "n"));
             }
             if (mD.isEqual(mvDS))
@@ -751,14 +766,22 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 words.add(new Calendar(maria[1], maria[2], maria[3], day, velkanoc, "003m", "n"));
             if (dvt == 5 && prvyPiatok && day < 8)
                 words.add(new Calendar("O Najsvätejšom Srdci Ježišovom", "Votívna omša", "(biela)", day, velkanoc, "001", "n"));
+            if (dvt == 4 && prvyStvrtok && day < 8)
+                words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, velkanoc, "002", "n"));
         }
+        //kantrove dni
+        if (velkanoc == 7 && (dvt == 3 || dvt == 5 || dvt == 6))
+            words.add(new Calendar("Letné kántrové dni", " ", "(biela)", day, velkanoc, "005", "n"));
+        //prosebne dni
+        if (velkanoc == 7 && (dvt == 1 || dvt == 2 || dvt == 3))
+            words.add(new Calendar("Prosebné dni", " ", "(biela)", day, velkanoc, "008", "n"));
     }
 
     //vypis kalendára v adventnom období
     public void adventVypis(final ArrayList<Calendar> words, String[][] month, int day) {
         int days = Days.daysBetween(mZacA, mD).getDays();
         advent = (days / 7) + 1; //vypočet týzdna v adventnom období
-        prvyPiatok = false;
+        prvyPiatok = prvyStvrtok = false;
 
         if (mD.isEqual(mPM))
             words.add(new Calendar("Nepoškvrnené počatie Panny Márie", "Slávnosť", "(biela)", day, advent, "9gkp", "a"));
@@ -783,7 +806,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                     words.add(new Calendar((dni[dvt] + " " + advent + ". týždňa v adventnom období"), "Féria", "(fialová)", day, advent, Integer.toString(advent) + dvt, "a"));
                 }
                 if (!month[index][2].equals("Sviatok") || !month[index][2].equals("Slávnosť"))
-                    prvyPiatok = true;
+                    prvyPiatok = prvyStvrtok = true;
                 do {
                     if (day >= 17)
                         words.add(new Calendar(month[index][1], month[index][2], "(fialová)", day, advent, month[index][0], "a"));
@@ -792,30 +815,37 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                     index++;
                 } while (index < month.length && month[index][0].contains(d));
                 if (!month[index - 1][2].equals("Sviatok") && !month[index - 1][2].equals("Slávnosť") && !month[index - 1][2].equals("Spomienka") && day < 17)
-                    words.add(new Calendar(("Omša o Panne Márii v adventnom období"), " ", "(biela)", day, advent, "003", "a"));
+                    words.add(new Calendar("Omša o Panne Márii v adventnom období", " ", "(biela)", day, advent, "003m", "a"));
             } else {
-                prvyPiatok = true;
+                prvyPiatok = prvyStvrtok = true;
                 words.add(new Calendar((dni[dvt] + " " + advent + ". týždňa v adventnom období"), "Féria", "(fialová)", day, advent, Integer.toString(advent) + dvt, "a"));
                 if (day < 17)
-                    words.add(new Calendar(("Omša o Panne Márii v adventnom období"), " ", "(biela)", day, advent, "003", "a"));
+                    words.add(new Calendar("Omša o Panne Márii v adventnom období", " ", "(biela)", day, advent, "003m", "a"));
             }
             if (dvt == 5 && prvyPiatok && day < 8)
                 words.add(new Calendar("O Najsvätejšom Srdci Ježišovom", "Votívna omša", "(biela)", day, advent, "001", "a"));
+            if (dvt == 4 && prvyStvrtok && day < 8)
+                words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, advent, "002", "a"));
         }
+
+        //kantrove dni
+        if (advent == 2 && (dvt == 3 || dvt == 5 || dvt == 6))
+            words.add(new Calendar("Zimné kántrové dni", " ", "(fialová)", day, advent, "007", "a"));
     }
 
     //vypis kalendára vo vianočnom období
     public void vianoceVypis(final ArrayList<Calendar> words, String[][] month, int day) {
         int days = Days.daysBetween(mNP, mD).getDays();
         vianoce = (days / 7) + 1; //vypocet tyzdna vo vianočnom období
-        pm = prvyPiatok = false;
+        pm = prvyPiatok = prvyStvrtok = false;
 
         if (mD.isEqual(mSR))
             words.add(new Calendar("Svätej rodiny Ježiša, Márie a Jozefa", "Slávnosť", "(biela)", day, vianoce, "10gkp", "v"));
-        else if (mD.isEqual(mZJ))
+        else if (mD.isEqual(mZJ)) {
+            vypocetPreOhlasenieVN();
             words.add(new Calendar("Zjavenie Pána", "Slávnosť", "(biela)", day, vianoce, "06gk", "v"));
-        else if (mD.isEqual(mNNP))
-            words.add(new Calendar(("Nedeľa 2. týždňa vo vianočnom období").toUpperCase(), "", "(biela)", day, vianoce, vianoce + "0", "v"));
+        } else if (mD.isEqual(mNNP))
+            words.add(new Calendar(("Druhá nedeľa po Narodení Pána").toUpperCase(), "", "(biela)", day, vianoce, vianoce + "0", "v"));
         else if (mD.isEqual(mKKP))
             words.add(new Calendar("Krst Krista Pána".toUpperCase(), "Slávnosť", "(biela)", day, vianoce, "11gkp", "v"));
 
@@ -838,7 +868,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                         words.add(new Calendar((dni[dvt] + " vo Vianočnom období"), "Féria", "(biela)", day, vianoce, Integer.toString(vianoce) + dvt, "v"));
                 }
                 if (!month[index][2].equals("Sviatok") && !month[index][2].equals("Slávnosť"))
-                    prvyPiatok = pm = true;
+                    prvyPiatok = pm = prvyStvrtok = true;
                 do {
                     words.add(new Calendar(month[index][1], month[index][2], month[index][3], day, vianoce, month[index][0], "v"));
                     index++;
@@ -848,21 +878,35 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             else if (mD.isAfter(mZJ)) //po Zjavení Pána
                 words.add(new Calendar((dni[dvt] + " po Zjavení Pána"), "Féria", "(biela)", day, vianoce, Integer.toString(vianoce) + dvt, "v"));
             else {
-                prvyPiatok = pm = true;
+                prvyPiatok = pm = prvyStvrtok = true;
                 words.add(new Calendar((dni[dvt] + " vo Vianočnom období"), "Féria", "(biela)", day, vianoce, Integer.toString(vianoce) + dvt, "v"));
             }
             if (dvt == 6 && (pm || day < 7))
                 words.add(new Calendar(maria[1], maria[2], maria[3], day, cezrok, "003m", "v"));
             if (dvt == 5 && prvyPiatok && day < 8)
                 words.add(new Calendar("O Najsvätejšom Srdci Ježišovom", "Votívna omša", "(biela)", day, vianoce, "001", "v"));
-
+            if (dvt == 4 && prvyStvrtok && day < 8)
+                words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, vianoce, "002", "v"));
         }
     }
 
-    //vypočíta dátum Popolcovej stredy, Veľkej noci a pohyblivých sviatkov
-    public void ziskajPaVN() {
+    public void vypocetPreOhlasenieVN(){
+        vypocetVN();
+        //nanebovstupenie Pana
+        mVNactual = new DateTime(rok, vnm + 1, vnd, 12, 0, 0);
+        DateTime mNVP = mVNactual.plusDays(39);
+        nvpm = mNVP.getMonthOfYear() - 1;
+        nvpd = mNVP.getDayOfMonth();
+        //advent
+        mNPactual = new DateTime(rok, 12, 25, 12, 0, 0);
+        int dayNP = mNPactual.getDayOfWeek();
+        mZacAactual = mNPactual.minusDays(dayNP).minusWeeks(3);
+        zacAm = mZacAactual.getMonthOfYear() - 1;
+        zacAd = mZacAactual.getDayOfMonth();
+    }
+
+    public void vypocetVN(){
         int a, b, c, d, e;
-        int dayJ, dayZP;
         a = rok % 19;
         b = rok % 4;
         c = rok % 7;
@@ -895,6 +939,12 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             psd = psd - 7;
             dsd = dsd - 7;
         }
+    }
+
+    //vypočíta dátum Popolcovej stredy, Veľkej noci a pohyblivých sviatkov
+    public void ziskajPaVN() {
+        vypocetVN();
+        int dayJ, dayZP;
         mP = new DateTime(rok, psm + 1, psd, 12, 0, 0);
         mVN = new DateTime(rok, vnm + 1, vnd, 12, 0, 0);
         mDS = new DateTime(rok, dsm + 1, dsd, 12, 0, 0);

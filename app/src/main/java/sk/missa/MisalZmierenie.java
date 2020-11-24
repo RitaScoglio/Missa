@@ -15,6 +15,9 @@ import android.widget.ListView;
 
 import com.google.gson.Gson;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MisalZmierenie extends Misal {
 
    /* @Override
@@ -468,6 +471,7 @@ public class MisalZmierenie extends Misal {
     }
 
     //nastavi moznosti formularu
+    List<String> formArray = new ArrayList<>();
     @Override
     public void ziskajFormular() {
         formArray.clear();

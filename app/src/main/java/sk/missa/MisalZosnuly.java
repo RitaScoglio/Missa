@@ -20,8 +20,6 @@ import java.util.List;
 
 public class MisalZosnuly extends Misal {
 
-    List<String> prosbyArray = new ArrayList<>();
-
    /* @Override
     protected void onResume() {
         if (!zIntent)
@@ -292,7 +290,7 @@ public class MisalZosnuly extends Misal {
     public void spev() {
         uvodny_spev = "Úvodný spev";
         prijimanie_spev = "Spev na prijímanie";
-        index = indexFormular(spevFormularZosnuly, formArray.get(pozicia_formular), formArrayNum.get(pozicia_formular));
+        index = indexFormular(spevFormularZosnuly, formArray.get(pozicia_formular));
         uvodny_vypis = spevFormularZosnuly[index][2];
         uvodny_suradnice = spevFormularZosnuly[index][3];
         prijimanie_vypis = spevFormularZosnuly[index][4];
@@ -304,7 +302,7 @@ public class MisalZosnuly extends Misal {
         modlitba_dna = "Modlitba dňa";
         modlitba_dary = "Modlitba nad obetnými darmi";
         modlitba_prijimanie = "Modlitba po prijímaní";
-        index = indexFormular(modlitbaFormularZosnuly, formArray.get(pozicia_formular), formArrayNum.get(pozicia_formular));
+        index = indexFormular(modlitbaFormularZosnuly, formArray.get(pozicia_formular));
         modlitba_dna_vypis = modlitbaFormularZosnuly[index][2];
         modlitba_dary_vypis = modlitbaFormularZosnuly[index][3];
         modlitba_prijimanie_vypis = modlitbaFormularZosnuly[index][4];
@@ -334,7 +332,7 @@ public class MisalZosnuly extends Misal {
     public void formular(View view) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(Html.fromHtml("<font color='#9C0E0F'><b>Formulár</b></font>"));
-        final CharSequence[] form = formArray.toArray(new CharSequence[0]);
+        final CharSequence[] form = formArraytoCharSequence();
         builder.setSingleChoiceItems(form, pozicia_formular, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int i) {
             }
@@ -420,27 +418,16 @@ public class MisalZosnuly extends Misal {
     @Override
     public void ziskajFormular() {
         formArray.clear();
-        formArrayNum.clear();
-        formArray.add("Vo výročný deň I (mimo veľkonočného obdobia)");
-        formArrayNum.add("1");
-        formArray.add("Vo výročný deň II (mimo veľkonočného obdobia)");
-        formArrayNum.add("1");
-            formArray.add("Vo výročný deň I (vo veľkonočnom období)");
-            formArrayNum.add("2");
-        formArray.add("Vo výročný deň");
-        formArrayNum.add("3");
-        formArray.add("Vo výročný deň");
-        formArrayNum.add("4");
-        formArray.add("Pri rozličných spomienkach za jedného zosnulého I");
-        formArrayNum.add("5");
-        formArray.add("Pri rozličných spomienkach za jedného zosnulého II");
-        formArrayNum.add("5");
-        formArray.add("Pri rozličných spomienkach za viacerých zosnulých I");
-        formArrayNum.add("6");
-        formArray.add("Pri rozličných spomienkach za viacerých zosnulých II");
-        formArrayNum.add("6");
-        formArray.add("Pri rozličných spomienkach za viacerých zosnulých III");
-        formArrayNum.add("6");
+        formArray.add(new String[]{"1", "1", "Vo výročný deň I (mimo veľkonočného obdobia)"});
+        formArray.add(new String[]{"1", "2", "Vo výročný deň II (mimo veľkonočného obdobia)"});
+        formArray.add(new String[]{"2", "1", "Vo výročný deň I (vo veľkonočnom období)"});
+        formArray.add(new String[]{"3", "1", "Vo výročný deň"});
+        formArray.add(new String[]{"4", "1", "Vo výročný deň"});
+        formArray.add(new String[]{"5", "1", "Pri rozličných spomienkach za jedného zosnulého I"});
+        formArray.add(new String[]{"5", "2", "Pri rozličných spomienkach za jedného zosnulého II"});
+        formArray.add(new String[]{"6", "1", "Pri rozličných spomienkach za viacerých zosnulých I"});
+        formArray.add(new String[]{"6", "2", "Pri rozličných spomienkach za viacerých zosnulých II"});
+        formArray.add(new String[]{"6", "3", "Pri rozličných spomienkach za viacerých zosnulých III"});
     }
 
     //nastavi moznosti EM

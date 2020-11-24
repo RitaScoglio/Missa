@@ -325,11 +325,13 @@ public class Kalendar extends Main {
             dateView.setTextColor(Color.BLACK);
         }
         dateView.setTextSize(sizeN);
+
+        //dolezite pre vypocet tyzdna cezrok - posun (zalezi od krstu krista pana)
+        posunObdobieCezrok(rok);
+        
         switch (mm) {
             //ziskajPaVN a ziskajAaV sa rata iba v hranickych mesiacoch, kedze v uvode sa rata v ostatnych
             case 0:
-                //dolezite pre vypocet tyzdna cezrok - posun (zalezi od krstu krista pana)
-                posunObdobieCezrok(rok);
                 ziskajAaV(rok-1, rok);
                 slavenieMesiac(32, month1);
                 break;
@@ -341,12 +343,15 @@ public class Kalendar extends Main {
                     slavenieMesiac(29, month2);
                 break;
             case 2:
+                ziskajPaVN();
                 slavenieMesiac(32, month3);
                 break;
             case 3:
+                ziskajPaVN();
                 slavenieMesiac(31, month4);
                 break;
             case 4:
+                ziskajPaVN();
                 slavenieMesiac(32, month5);
                 break;
             case 5:
@@ -370,6 +375,7 @@ public class Kalendar extends Main {
                 slavenieMesiac(31, month11);
                 break;
             case 11:
+                ziskajAaV(rok, rok+1);
                 slavenieMesiac(32, month12);
             default:
                 break;

@@ -3,21 +3,24 @@ package sk.missa;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.AlertDialog;
 import android.text.Html;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.google.gson.Gson;
 
-public class MisalPM extends Misal {
+import java.util.ArrayList;
 
-    static int pozicia_prosby = 0;
+public class MisalPandemia extends Misal{
 
    /* @Override
     protected void onResume() {
@@ -84,12 +87,12 @@ public class MisalPM extends Misal {
             case R.id.menu_odpovede:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
-                vyberJazyk(MisalPM.this);
+                vyberJazyk(MisalPandemia.this);
                 return true;
             case R.id.menu_font:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
-                vyberFont(MisalPM.this);
+                vyberFont(MisalPandemia.this);
                 return true;
             case R.id.menu_fullscreen:
                 switch_fullscreen.setChecked(!switch_fullscreen.isChecked());
@@ -135,6 +138,7 @@ public class MisalPM extends Misal {
         }
         return true;
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -227,24 +231,27 @@ public class MisalPM extends Misal {
         dvt = (dnes.get(java.util.Calendar.DAY_OF_WEEK) - 1);
 
         ziskajObdobie();
-        ziskajFormular();
-        ziskajPrefaciu();
-        ziskajEucharistiu();
+        //ziskajFormular();
+        //ziskajPrefaciu();
+        //ziskajEucharistiu();
         nadpis();
         spev();
         pozdrav();
         kajucnost();
         modlitba();
-        gloria();
+        //gloria();
         prveCitanie();
         zalm();
-        druheCitanie();
-        sekvencia();
+        //druheCitanie();
+        //sekvencia();
         aleluja();
         evanjelium();
-        kredo();
+        //kredo();
         prosby();
         prefacia();
+        //slavnostnePozehnanie();
+        slav_pozehnanie = -1;
+        //pozenanie nad ludom
         vypis();
     }
 
@@ -255,7 +262,6 @@ public class MisalPM extends Misal {
         pozicia_eucharistia = settings.getInt("poz_euch", 1);
         pozicia_formular = settings.getInt("poz_form", 0);
         pozicia_prefacia = settings.getInt("poz_pref", 0);
-        pozicia_prosby = settings.getInt("poz_prosby", 0);
         rezim = settings.getBoolean("rezim", false);
         pismo = settings.getBoolean("pismo", false);
         zvoncek = settings.getBoolean("zvoncek", false);
@@ -276,25 +282,23 @@ public class MisalPM extends Misal {
         editor.putInt("poz_form", pozicia_formular).apply();
         editor.putInt("poz_pref", pozicia_prefacia).apply();
         editor.putInt("poz_euch", pozicia_eucharistia).apply();
-        editor.putInt("poz_prosby", pozicia_prosby).apply();
         editor.putInt("m", m).apply();
         editor.putInt("rok", rok).apply();
     }
 
     @Override
     public void nadpis(){
-        nadpis = ("Spoločné omše preblahoslavenej Panny Márie");
+        nadpis = ("Omša v čase pandémie");
     }
 
     @Override
     public void spev() {
         uvodny_spev = "Úvodný spev";
         prijimanie_spev = "Spev na prijímanie";
-        index = indexFormular(spevFormular, formArray.get(pozicia_formular));
-        uvodny_vypis = spevFormular[index][2];
-        uvodny_suradnice = spevFormular[index][3];
-        prijimanie_vypis = spevFormular[index][4];
-        prijimanie_suradnice = spevFormular[index][5];
+        uvodny_vypis = pandemiaFormular[0][0];
+        uvodny_suradnice = pandemiaFormular[0][1];
+        prijimanie_vypis = pandemiaFormular[0][2];
+        prijimanie_suradnice = pandemiaFormular[0][3];
     }
 
     @Override
@@ -302,28 +306,108 @@ public class MisalPM extends Misal {
         modlitba_dna = "Modlitba dňa";
         modlitba_dary = "Modlitba nad obetnými darmi";
         modlitba_prijimanie = "Modlitba po prijímaní";
-        index = indexFormular(modlitbaFormular, formArray.get(pozicia_formular));
-        modlitba_dna_vypis = modlitbaFormular[index][2];
-        modlitba_dary_vypis = modlitbaFormular[index][3];
-        modlitba_prijimanie_vypis = modlitbaFormular[index][4];
+        modlitba_dna_vypis = pandemiaFormular[1][0];
+        modlitba_dary_vypis = pandemiaFormular[1][1];
+        modlitba_prijimanie_vypis = pandemiaFormular[1][2];
+    }
+
+    @Override
+    public void prveCitanie(){
+        liturgia_slova = "Liturgia slova";
+        prve_citanie = "Prvé čítanie";
+        prve_citanie_suradnice = pandemiaFormular[3][0];
+        prve_citanie_citat = pandemiaFormular[3][1];
+        prve_citanie_vypis = pandemiaFormular[3][2];
+        aleboCitanie1 = new String[2][3];
+        aleboCitanie1[0] = new String[]{prve_citanie_suradnice, prve_citanie_citat, prve_citanie_vypis};
+        aleboCitanie1[1] = new String[]{pandemiaFormular[3][4], pandemiaFormular[3][5], pandemiaFormular[3][6]};
+    }
+
+    @Override
+    public void zalm(){
+        zalm = "Responzóriový žalm";
+        zalm_suradnice = pandemiaFormular[4][0];
+        zalm_vypis = pandemiaFormular[4][1];
+        aleboZalm = new String[2][2];
+        aleboZalm[0] = new String[]{zalm_suradnice, zalm_vypis};
+        aleboZalm[1] = new String[]{pandemiaFormular[4][3], pandemiaFormular[4][4]};
+    }
+
+    @Override
+    public void aleluja(){
+        if (P) {
+            aleluja = "Verš pred evanjeliom";
+            aleluja_vypis = pandemiaFormular[5][2];
+        } else {
+            aleluja = "Alelujový verš";
+            aleluja_vypis = pandemiaFormular[5][1];
+        }
+        aleluja_suradnice = pandemiaFormular[5][0];
+    }
+
+    @Override
+    public void evanjelium(){
+        evanjelium = "Evanjelium";
+        evanjelium_suradnice = pandemiaFormular[6][0];
+        evanjelium_citat = pandemiaFormular[6][1];
+        evanjelium_vypis = pandemiaFormular[6][2];
     }
 
     @Override
     public void prosby() {
         prosby = "Spoločné modlitby veriacich";
-        index = indexFormular(prosbyFormular, formArray.get(pozicia_formular));
-        prosby_uvod = prosbyFormular[pozicia_prosby][1];
-        prosby_zvolanie = prosbyFormular[pozicia_prosby][2];
-        prosby_vypis = prosbyFormular[pozicia_prosby][3];
-        prosby_zaver = prosbyFormular[pozicia_prosby][4];
+        prosby_uvod = pandemiaFormular[2][0];
+        prosby_zvolanie = pandemiaFormular[2][1];
+        prosby_vypis = pandemiaFormular[2][2];
+        prosby_zaver =pandemiaFormular[2][3];
     }
 
     @Override
-    public void prefacia() {
+    public void prefacia(){
         prefacia = "Prefácia";
-        index = indexOmsa(prefacie, prefaciaArray.get(pozicia_prefacia));
-        prefacia_nadpis = (prefacie[index][2]);
-        prefacia_vypis = prefacie[index][3];
+        prefacia_nadpis = pandemiaFormular[7][0];
+        prefacia_vypis = pandemiaFormular[7][1];
+    }
+
+    @Override
+    public void modlitbaEucharistia(ArrayList<Missa> missas) {
+        missas.add(new Missa("Eucharistická modlitba".toUpperCase(), null, null, false));
+        for (int j = 0; j < pandemiaFormular[8].length; j = j + 2) {
+            if (pandemiaFormular[8][j+1].contains("VEZMITE")) {
+                missas.add(new Missa(pandemiaFormular[8][j], null, true));
+                missas.add(new Missa(null, pandemiaFormular[8][j+1], null, false));
+                missas.add(new Missa(true));
+            } else if (pandemiaFormular[8][j].equals("BAR")) {
+                missas.add(new Missa(5));
+            } else {
+                missas.add(new Missa(pandemiaFormular[8][j], pandemiaFormular[8][j + 1], true));
+            }
+        }
+    }
+
+    @Override
+    public void otvorenie(int dialog) {
+        final AlertDialog.Builder builder = new AlertDialog.Builder(MisalPandemia.this);
+        builder.setMessage("");
+        builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Modlitby nad ľudom</b></font>")));
+        builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+            }
+        });
+        AlertDialog alert = builder.create();
+        alert.show();
+        TextView text = alert.findViewById(android.R.id.message);
+        text.setTextSize(sizeO);
+        if (rezim) {
+            alert.getWindow().setBackgroundDrawableResource(R.color.black);
+            text.setTextColor(getResources().getColor(R.color.background));
+        } else {
+            alert.getWindow().setBackgroundDrawableResource(R.color.background);
+            text.setTextColor(Color.BLACK);
+        }
+        if (pismo)
+            text.setTypeface(typeBold);
+        otvorExtra(text, pandemiaFormular[9]);
     }
 
     //výber, nastavenie a výpis spevov, modlitieb a prosieb podľa vybratého formulára
@@ -331,22 +415,14 @@ public class MisalPM extends Misal {
     public void formular(View view) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(Html.fromHtml("<font color='#9C0E0F'><b>Formulár</b></font>"));
-        final CharSequence[] form = formArraytoCharSequence();
-        builder.setSingleChoiceItems(form, pozicia_formular, new DialogInterface.OnClickListener() {
+        final CharSequence[] form = new CharSequence[]{"V čase pandémie"};
+        builder.setSingleChoiceItems(form, 0, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int i) {
             }
         });
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialogInterface, int i) {
-                int predtym = pozicia_formular;
-                ListView lw = ((AlertDialog) dialogInterface).getListView();
-                pozicia_formular = lw.getCheckedItemPosition();
-                if (predtym != pozicia_formular) {
-                    spev();
-                    modlitba();
-                    pozicia_listview = listView.getFirstVisiblePosition();
-                    vypis();
-                }
+
             }
         });
         builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
@@ -363,8 +439,8 @@ public class MisalPM extends Misal {
     public void eucharistickaModlitba(View view) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(Html.fromHtml("<font color='#9C0E0F'><b>Eucharistická modlitba</b></font>"));
-        final CharSequence[] eucharistia = eucharistiaArray.toArray(new CharSequence[0]);
-        builder.setSingleChoiceItems(eucharistia, pozicia_eucharistia, new DialogInterface.OnClickListener() {
+        final CharSequence[] eucharistia = new CharSequence[]{"Eucharistická modlitba v omšiach za rozličné potreby"};
+        builder.setSingleChoiceItems(eucharistia, 0, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int i) {
             }
         });
@@ -387,21 +463,13 @@ public class MisalPM extends Misal {
     public void prefacia(View view) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(Html.fromHtml("<font color='#9C0E0F'><b>Prefácia</b></font>"));
-        final CharSequence[] pref = prefaciaArray.toArray(new CharSequence[0]);
-        builder.setSingleChoiceItems(pref, pozicia_prefacia, new DialogInterface.OnClickListener() {
+        final CharSequence[] pref = new CharSequence[]{"Za rozličné potreby IV"};
+        builder.setSingleChoiceItems(pref, 0, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int i) {
             }
         });
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialogInterface, int i) {
-                int predtym = pozicia_prefacia;
-                ListView lw = ((AlertDialog) dialogInterface).getListView();
-                pozicia_prefacia = lw.getCheckedItemPosition();
-                if (predtym != pozicia_prefacia) {
-                    prefacia();
-                    pozicia_listview = listView.getFirstVisiblePosition();
-                    vypis();
-                }
             }
         });
         builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
@@ -413,37 +481,4 @@ public class MisalPM extends Misal {
         dialog.show();
     }
 
-    //nastavi moznosti formularu
-    @Override
-    public void ziskajFormular() {
-        formArray.clear();
-        if(A){
-            formArray.add(new String[]{"12", "1", "Omša k preblahoslavenej Panne Marií"});
-        } else if (V){
-            formArray.add(new String[]{"13", "1", "Omša k preblahoslavenej Panne Marií"});
-        } else if (VN){
-            formArray.add(new String[]{"14", "1", "Omša k preblahoslavenej Panne Marií"});
-        } else {
-            formArray.add(new String[]{"11", "1", "Omša k preblahoslavenej Panne Marií 1."});
-            formArray.add(new String[]{"11", "2", "Omša k preblahoslavenej Panne Marií 2."});
-            formArray.add(new String[]{"11", "3", "Omša k preblahoslavenej Panne Marií 3."});
-        }
-    }
-
-    //nastavi moznosti EM
-    @Override
-    public void ziskajEucharistiu() {
-        eucharistiaArray.clear();
-        eucharistiaArray.add("1. eucharistická modlitba");
-        eucharistiaArray.add("2. eucharistická modlitba");
-        eucharistiaArray.add("3. eucharistická modlitba");
-    }
-
-    //nastavi moznosti prefacie
-    @Override
-    public void ziskajPrefaciu() {
-        prefaciaArray.clear();
-        prefaciaArray.add("O preblahoslavenej Panne Marií I");
-        prefaciaArray.add("O preblahoslavenej Panne Marií II");
-    }
 }

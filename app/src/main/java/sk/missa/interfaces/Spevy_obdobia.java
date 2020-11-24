@@ -229,7 +229,7 @@ public interface Spevy_obdobia {
                     "Ponáhľaj sa mi na pomoc, Pane, spása moja.", "(Ž 37, 22-23)",
                     "Ukážeš mi cestu života,<br>" +
                             "u teba je plnosť radosti, Pane.<br>" +
-                            "Alebo : (Jn 6, 58)<br>" +
+                            "<font color='#B71C1C'>Alebo:</font> (Jn 6, 58)<br>" +
                             "Pán Ježiš hovorí:<br>" +
                             "Ako mňa poslal živý Otec a ja žijem z Otca,<br>" +
                             "aj ten, čo mňa je, bude žiť zo mňa.", "(Porov. Ž 15, 11)"},

@@ -253,7 +253,7 @@ public interface Citania_cezrok {
                             "Jonatan na\u00A0tvojich kopcoch je zabitý. Krušne mi pre\u00A0teba, brat môj Jonatan, veľmi si mi bol milý. Tvoja láska bývala mi vzácnejšia ako láska žien.<br>" +
                             "Ako len padli hrdinovia a zlomili sa bojové zbrane!\"<br>" +
                             "Počuli sme Božie slovo."},
-            {"3", "A", "", " Iz 8, 23b – 9, 3",
+            {"3", "A", "", "Iz 8, 23b – 9, 3",
                     "V Galilei pohanov uzrel ľud veľké svetlo",
                     "Čítanie z Knihy proroka Izaiáša<br>" +
                             "V predošlom čase Pán ponížil krajinu Zabulon a krajinu Neftali, ale v\u00A0poslednom čase oslávi morskú cestu, kraj za\u00A0Jordánom, územie pohanov.<br>" +
@@ -261,7 +261,7 @@ public interface Citania_cezrok {
                             "Rozmnožuješ plesanie, zväčšuješ radosť. Jasajú pred\u00A0tebou, ako sa jasá pri\u00A0žatve, ako plesajú tí, čo sa delia o\u00A0korisť.<br>" +
                             "Pretože lámeš jeho ťažké jarmo, brvno na\u00A0jeho pleciach a palicu jeho utláčateľa ako v\u00A0deň porážky Madiánčanov.<br>" +
                             "Počuli sme Božie slovo."},
-            {"3", "B", "", "", "Jon 3, 1-5. 10",
+            {"3", "B", "", "Jon 3, 1-5. 10",
                     "Ninivčania sa odvrátili od\u00A0svojej zlej cesty",
                     "Čítanie z Knihy proroka Jonáša<br>" +
                             "Pán prehovoril k\u00A0Jonášovi: \"Vstaň, choď do\u00A0veľkého mesta Ninive a káž tam, čo ti hovorím.\"<br>" +
@@ -270,7 +270,7 @@ public interface Citania_cezrok {
                             "Obyvatelia Ninive uverili v\u00A0Boha, vyhlásili pôst a od\u00A0najväčšieho po\u00A0najmenšieho sa obliekli do\u00A0vrecoviny.<br>" +
                             "A Boh videl ich skutky, že sa odvrátili od\u00A0svojej zlej cesty; zmiloval sa a nepostihol ich nešťastím, ktorým im hrozil.<br>" +
                             "Počuli sme Božie slovo."},
-            {"3", "C", "", " Neh 8, 2-4a. 5-6. 8-10",
+            {"3", "C", "", "Neh 8, 2-4a. 5-6. 8-10",
                     "Čítali z\u00A0knihy zákona a vykladali zmysel",
                     "Čítanie z Knihy proroka Nehemiáša<br>" +
                             "Kňaz Ezdráš v\u00A0prvý deň siedmeho mesiaca priniesol zákon pred\u00A0zhromaždenie mužov a žien i všetkých, čo boli schopní chápať, a od\u00A0skorého rána do\u00A0poludnia z\u00A0neho čítal na\u00A0námestí pred\u00A0Vodnou bránou mužom a ženám i všetkým, čo boli schopní porozumieť. A pozornosť všetkého ľudu bola upretá ku\u00A0knihe zákona.<br>" +
@@ -5020,7 +5020,7 @@ public interface Citania_cezrok {
                     "Čítanie z Prvého listu svätého apoštola Pavla Solúnčanom<br>" +
                             "Nechceme, bratia, aby ste nevedeli, ako je to so\u00A0zosnulými, aby ste sa nezarmucovali ako ostatní, čo nemajú nádej.<br>" +
                             "Lebo ak veríme, že Ježiš zomrel a vstal z\u00A0mŕtvych, tak Boh aj tých, čo zosnuli, skrze Ježiša privedie s\u00A0ním.<br>" +
-                            "Počuli sme slovo Pánovo."},
+                            "Počuli sme Božie slovo."},
             {"32", "B", "", "Hebr 9, 24-28",
                     "Kristus sa raz obetoval, aby sňal hriechy mnohých",
                     "Čítanie z Listu Hebrejom<br>" +
