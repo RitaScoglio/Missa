@@ -476,50 +476,48 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
 
     //vypis eucharistickej modlitby
     @Override
-    public void modlitbaEucharistiaVypis(String[][] eucharistia, ArrayList<Missa> missas) {
+    public void modlitbaEucharistiaVypis(String[] eucharistia, ArrayList<Missa> missas) {
         missas.add(new Missa("Eucharistická modlitba".toUpperCase(), null, null, false));
-        for (int i = 0; i < eucharistia.length; i++) {
-            for (int j = 0; j < eucharistia[i].length; j = j + 2) {
+            for (int j = 0; j < eucharistia.length; j = j + 2) {
 
-                if (j == 0 && eucharistia[i][j] != null) {
-                    if (eucharistia[i][j].contains("Spomienka")) {
-                        if (eucharistia[i][j + 1].length() > 6) {
-                            if (eucharistia[i][j + 1].substring(0, 6).equals("VSUVKA")) {
+                if (j == 0 && eucharistia[j] != null) {
+                    if (eucharistia[j].contains("Spomienka")) {
+                        if (eucharistia[j + 1].length() > 6) {
+                            if (eucharistia[j + 1].substring(0, 6).equals("VSUVKA")) {
                                 if (ID.equals("3dni4"))
-                                    missas.add(new Missa(null, eucharistia[i][j], vsuvkyTrojdnieEM[0][1], true));
+                                    missas.add(new Missa(null, eucharistia[j], vsuvkyTrojdnieEM[0][1], true));
 
                                 else
-                                    missas.add(new Missa(null, eucharistia[i][j], vsuvkyTrojdnieEM[1][1], true));
+                                    missas.add(new Missa(null, eucharistia[j], vsuvkyTrojdnieEM[1][1], true));
                             } else
-                                missas.add(new Missa(null, eucharistia[i][j], eucharistia[i][j + 1], true));
+                                missas.add(new Missa(null, eucharistia[j], eucharistia[j + 1], true));
                         } else
-                            missas.add(new Missa(null, eucharistia[i][j], eucharistia[i][j + 1], true));
-                    } else if (eucharistia[i][j].contains("VEZMITE")) {
-                        missas.add(new Missa(null, eucharistia[i][j], null, false));
+                            missas.add(new Missa(null, eucharistia[j], eucharistia[j + 1], true));
+                    } else if (eucharistia[j].contains("VEZMITE")) {
+                        missas.add(new Missa(null, eucharistia[j], null, false));
                         missas.add(new Missa(true));
                     } else
-                        missas.add(new Missa(eucharistia[i][j], eucharistia[i][j + 1], true));
-                } else if (eucharistia[i][j + 1].length() > 6) {
-                    if (eucharistia[i][j + 1].substring(0, 7).equals("VSUVKA2")) {
+                        missas.add(new Missa(eucharistia[j], eucharistia[j + 1], true));
+                } else if (eucharistia[j + 1].length() > 6) {
+                    if (eucharistia[j + 1].substring(0, 7).equals("VSUVKA2")) {
                         if (ID.equals("3dni4")) {
-                            missas.add(new Missa(eucharistia[i][j], vsuvkyTrojdnieEM[0][2], true));
+                            missas.add(new Missa(eucharistia[j], vsuvkyTrojdnieEM[0][2], true));
                         } else {
-                            missas.add(new Missa(eucharistia[i][j], vsuvkyTrojdnieEM[1][2], true));
+                            missas.add(new Missa(eucharistia[j], vsuvkyTrojdnieEM[1][2], true));
                         }
-                    } else if (eucharistia[i][j+1].substring(0, 8).equals("On večer")){
+                    } else if (eucharistia[j+1].substring(0, 8).equals("On večer")){
                         if (ID.equals("3dni4")) {
-                            missas.add(new Missa(eucharistia[i][j], vsuvkyTrojdnieEM[0][3], true));
+                            missas.add(new Missa(eucharistia[j], vsuvkyTrojdnieEM[0][3], true));
                         } else {
-                            missas.add(new Missa(eucharistia[i][j], eucharistia[i][j + 1], true));
+                            missas.add(new Missa(eucharistia[j], eucharistia[j + 1], true));
                         }
                     } else {
-                        missas.add(new Missa(eucharistia[i][j], eucharistia[i][j + 1], true));
+                        missas.add(new Missa(eucharistia[j], eucharistia[j + 1], true));
                     }
                 } else
-                    missas.add(new Missa(eucharistia[i][j], eucharistia[i][j + 1], true));
+                    missas.add(new Missa(eucharistia[j], eucharistia[j + 1], true));
             }
         }
-    }
 
     @Override
     public void formular(View view) {
