@@ -2908,6 +2908,19 @@ public interface Prosby_svatci {
     };
 
     String[][] prosby12 = {
+            {"03", "Bratia a sestry, modlime sa k Bohu, ktorý dáva Cirkvi svätcov, ktorí neúnavne pracujú a pokračujú v diele apoštolov.",
+                    "<font color='#B71C1C'>(</font>Volajme: Bože, vyslyš naše prosby.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Prosme za pápeža, biskupov, kňazov a diakonov, aby svoje úsilie a životný elán venovali službe nesmrteľným dušiam.<br>" +
+                            "<font color='#B71C1C'>2.</font> Prosme za tých, ktorí zložili rehoľné sľuby, aby silou vôle a svojho zasvätenia ochotne slúžili svojim blížnym.<br>" +
+                            "<font color='#B71C1C'>3.</font> Prosme za národy, ktorým svätý František hlásal evanjelium, aby povzbudení jeho príkladom vytrvali v pravej viere.<br>" +
+                            "<font color='#B71C1C'>4.</font> Prosme za misionárske povolania, aby na príhovor svätého Františka Xaverského bolo čím viac odvážnych hlásateľov Božieho slova.<br>" +
+                            "<font color='#B71C1C'>5.</font> Prosme za rodičov našich farností, aby svoje deti vychovávali v pravej viere, ako to sľúbili pri ich krste.<br>" +
+                            "<font color='#B71C1C'>6. V Banskobystrickej diecéze:</font> Prosme za našu diecézu, aby na príhovor svätého Františka Xaverského mala vždy dostatok horlivých veriacich, kňazov a rehoľníkov.",
+                    "Bože, ty si povedal apoštolom, aby išli do celého sveta<br>" +
+                            "a hlásali evanjelium všetkému stvoreniu;<br>" +
+                            "prijmi naše prosby a daj nám radosť z viery,<br>" +
+                            "statočnosť v jej vyznávaní a horlivosť v jej šírení.<br>" +
+                            "Skrze Krista, nášho Pána."},
             {"03g", "Bratia a sestry, modlime sa k Bohu, ktorý dáva Cirkvi svätcov, ktorí neúnavne pracujú a pokračujú v diele apoštolov.",
                     "<font color='#B71C1C'>(</font>Volajme: Bože, vyslyš naše prosby.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Prosme za pápeža, biskupov, kňazov a diakonov, aby svoje úsilie a životný elán venovali službe nesmrteľným dušiam.<br>" +

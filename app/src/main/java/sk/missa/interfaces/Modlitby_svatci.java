@@ -487,6 +487,14 @@ public interface Modlitby_svatci {
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
                     "ktorý je Boh a s tebou žije a kraľuje<br>" +
                     "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
+            {"20g+", "Prosíme ťa, nekonečný Bože, <font color='#B71C1C'>*</font><br>" +
+                    "udeľ nám ducha sily, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme podľa príkladu slávneho<br>" +
+                    "mučeníka Šebastiána<br>" +
+                    "poslúchali viac teba ako ľudí.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
+                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
+                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
             {"21", "Všemohúci a večný Bože,<br>" +
                     "ty si volíš, čo svet pokladá za slabé,<br>" +
                     "aby si zahanbil, čo je v očiach sveta mocné; <font color='#B71C1C'>*</font><br>" +
@@ -3252,7 +3260,7 @@ public interface Modlitby_svatci {
                     "v deň spomienky na svätého Karola,<br>" +
                     "bedlivého pastiera a horlivého kňaza; <font color='#B71C1C'>—</font><br>" +
                     "mocou tejto obety pomôž aj nám<br>" +
-                    "prinášať v tvoj ej Cirkvi<br>" +
+                    "prinášať v tvojej Cirkvi<br>" +
                     "ovocie pravého kresťanského života.<br>" +
                     "Skrze Krista, nášho Pána.", "Prosíme ťa, láskavý Bože, <font color='#B71C1C'>*</font><br>" +
                     "nech nám spásonosný pokrm, ktorý sme prijali,<br>" +

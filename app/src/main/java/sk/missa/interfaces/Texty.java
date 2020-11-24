@@ -18,6 +18,7 @@ package sk.missa.interfaces;
  * ticheModlitby - tiché modlitby kňaza
  * prid_Duchu_svaty_tvorivy
  * teba_Boze_chvalime
+ * ohlasenieVN - ohlasenie VN na Zjavenie Pana
  */
 
 public interface Texty {
@@ -119,25 +120,25 @@ public interface Texty {
                     "<font color='#B71C1C'>—</font> Ježišu, ty si kráľ pokoja: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si nádej pochybujúcich: Kriste, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si radosť veriacich: Pane, zmiluj sa.<br>"},
-            {"NA SLÁVNOSŤ ZJAVENIA PÁNA", "Ježišu, ty si kráľ všetkých národov: Pane, zmiluj sa.<br>" +
-                    "Ty si pravda a cesta všetkých, čo ťa hľadajú: Kriste, zmiluj sa.<br>" +
-                    "Ty si radosť a odmena všetkých veriacich: Pane, zmiluj sa."},
-            {"NA SLÁVNOSŤ NANEBOVSTÚPENIA PÁNA", "Ježišu, ty si verne vykonal dielo, ktoré ti Otec zveril: Pane, zmiluj sa.<br>" +
-                    "Ty si nám svojím nanebovstúpením dal dôkaz o Božej vernosti a láske: Kriste, zmiluj sa.<br>" +
-                    "Ty si nám prisľúbil Ducha Svätého, ktorý nás posilňuje: Pane, zmiluj sa."},
-            {"NA TURÍCE", "Pane Ježišu, Duch Svätý nám ukázal, že ty si Vyvolený Boží: Pane, zmiluj sa.<br>" +
-                    "Ty si prisľúbil dary Ducha Svätého všetkým, čo budú svedčiť o tvojej pravde: Kriste, zmiluj sa.<br>" +
-                    "Svojím slovom nás poučuješ, aby sme vyznávali jedného Boha v troch osobách: Pane, zmiluj sa."},
-            {"NA MARIÁNSKE SVIATKY", "Pane Ježišu, tvoja matka Mária bola nepoškvrnená nad nami hriešnymi: Pane, zmiluj sa.<br>" +
-                    "Tvoja matka ťa s láskou prijala, sprevádzala ťa na životnej ceste a verne stála pod krížom, keď si za nás umieral: Kriste, zmiluj sa.<br>" +
-                    "Svoju matku si vzal do neba, aby bola našou kráľovnou a orodovníčkou: Pane, zmiluj sa."},
-            {"ZA ZOSNULÝCH", "Pane Ježišu, ty si nám ukázal cestu k Otcovi: Pane, zmiluj sa.<br>" +
-                    "Ty si svojou smrťou daroval svetu život: Kriste, zmiluj sa.<br>" +
-                    "Ty si nám pripravil v dome svojho Otca príbytok: Pane, zmiluj sa.<br><br>" +
+            {"NA SLÁVNOSŤ ZJAVENIA PÁNA", "<font color='#B71C1C'>—</font> Ježišu, ty si kráľ všetkých národov: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si pravda a cesta všetkých, čo ťa hľadajú: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si radosť a odmena všetkých veriacich: Pane, zmiluj sa."},
+            {"NA SLÁVNOSŤ NANEBOVSTÚPENIA PÁNA", "<font color='#B71C1C'>—</font> Ježišu, ty si verne vykonal dielo, ktoré ti Otec zveril: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si nám svojím nanebovstúpením dal dôkaz o Božej vernosti a láske: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si nám prisľúbil Ducha Svätého, ktorý nás posilňuje: Pane, zmiluj sa."},
+            {"NA TURÍCE", "<font color='#B71C1C'>—</font> Pane Ježišu, Duch Svätý nám ukázal, že ty si Vyvolený Boží: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si prisľúbil dary Ducha Svätého všetkým, čo budú svedčiť o tvojej pravde: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Svojím slovom nás poučuješ, aby sme vyznávali jedného Boha v troch osobách: Pane, zmiluj sa."},
+            {"NA MARIÁNSKE SVIATKY", "<font color='#B71C1C'>—</font> Pane Ježišu, tvoja matka Mária bola nepoškvrnená nad nami hriešnymi: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Tvoja matka ťa s láskou prijala, sprevádzala ťa na životnej ceste a verne stála pod krížom, keď si za nás umieral: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Svoju matku si vzal do neba, aby bola našou kráľovnou a orodovníčkou: Pane, zmiluj sa."},
+            {"ZA ZOSNULÝCH", "<font color='#B71C1C'>—</font> Pane Ježišu, ty si nám ukázal cestu k Otcovi: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si svojou smrťou daroval svetu život: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si nám pripravil v dome svojho Otca príbytok: Pane, zmiluj sa.<br><br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "Pane Ježišu, ty si sa stal človekom, aby si nám dal účasť na Božom živote: Pane, zmiluj sa.<br>" +
-                    "Ty si zomrel na kríži, aby si nám otvoril bránu večného života: Kriste, zmiluj sa.<br>" +
-                    "Ty si vstal z 'mŕtvych, aby sme večne žili pre teba: Pane, zmiluj sa."},
+                    "<font color='#B71C1C'>—</font> Pane Ježišu, ty si sa stal človekom, aby si nám dal účasť na Božom živote: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si zomrel na kríži, aby si nám otvoril bránu večného života: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si vstal z 'mŕtvych, aby sme večne žili pre teba: Pane, zmiluj sa."},
     };
 
     String gloria_vypis = "Sláva Bohu na výsostiach\n" +
@@ -374,12 +375,12 @@ public interface Texty {
             "Na príkaz nášho Spasiteľa\n" +
                     "a podľa jeho božského učenia\n" +
                     "osmeľujeme sa povedať:",
-            "______________\n" +
+            "BAR", "",
                     "Iné výzvy k modlitbe Pána:",
             "A teraz spoločne prosme nebeského Otca a modlime sa, ako nás naučil náš Pán Ježiš Kristus:",
             "Alebo:",
             "Prijali sme Ducha Svätého, v ktorom sme sa stali Božími deťmi; preto sa osmeľujeme povedať:",
-            "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\n" +
+            "BAR", "",
                     "Kňaz rozopne ruky a spolu s ľuďom pokračuje:",
             "Otče náš, ktorý si na nebesiach,\n" +
                     "posväť sa meno tvoje,\n" +
@@ -984,12 +985,12 @@ public interface Texty {
             "a obdaruje vás svojím pokojom. <br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech vás žehná všemohúci Boh, Otec i Syn <font color='#B71C1C'>+</font> i Duch Svätý. <br>" +
-            "<font color='#B71C1C'>Ľud:</font> Amen." +
+            "<font color='#B71C1C'>Ľud:</font> Amen.<br><br>" +
             "<font color='#B71C1C'>V OBDOBÍ «CEZ ROK» II (Flp 4, 7)</font><br>" +
             "<font color='#B71C1C'>Kňaz:</font> Pokoj, ktorý vychádza z Boha, pokoj, ktorý prevyšuje každú chápavosť, nech chráni vaše srdcia a myšlienky, aby ste vždy lepšie poznali a väčšmi milovali Boha Otca i jeho Syna, nášho Pána Ježiša Krista.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech vás žehná všemohúci Boh, Otec i Syn <font color='#B71C1C'>+</font> i Duch Svätý.<br>" +
-            "<font color='#B71C1C'>Ľud:</font> Amen." +
+            "<font color='#B71C1C'>Ľud:</font> Amen.<br><br>" +
             "<font color='#B71C1C'>V OBDOBÍ «CEZ ROK» III</font><br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech vás všemohúci a dobrotivý Boh požehná a nech vám dá pravú múdrosť, ktorá vedie k spáse.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
@@ -998,7 +999,7 @@ public interface Texty {
             "<font color='#B71C1C'>Kňaz:</font> Nech usmerňuje k sebe všetky vaše kroky a nech vás zachováva v pokoji a láske.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech vás žehná všemohúci Boh, Otec i Syn <font color='#B71C1C'>+</font> i Duch Svätý.<br>" +
-            "<font color='#B71C1C'>Ľud:</font> Amen." +
+            "<font color='#B71C1C'>Ľud:</font> Amen.<br><br>" +
             "<font color='#B71C1C'>V OBDOBÍ «CEZ ROK» IV</font><br>" +
             "<font color='#B71C1C'>Kňaz:</font> Boh, od ktorého pochádza pravá útecha, nech vás sprevádza po všetky dni vášho života svojím pokojom a požehnaním.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
@@ -1007,7 +1008,7 @@ public interface Texty {
             "<font color='#B71C1C'>Kňaz:</font> Nech rozmnoží vašu vieru, posilní nádej a roznieti lásku, aby ste horlivo konali dobré skutky, a tak si zaslúžili večný život.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech vás žehná všemohúci Boh, Otec i Syn <font color='#B71C1C'>+</font> i Duch Svätý.<br>" +
-            "<font color='#B71C1C'>Ľud:</font> Amen." +
+            "<font color='#B71C1C'>Ľud:</font> Amen.<br><br>" +
             "<font color='#B71C1C'>V OBDOBÍ «CEZ ROK» V</font><br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech všemohúci Boh odvráti od vás každé zlo a zahrnie vás svojím požehnaním.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
@@ -1536,5 +1537,40 @@ public interface Texty {
             "Táto pobožnosť nech sa koná vo všetkých kostoloch aspoň pri hlavnej svätej omši alebo aj popoludní mimo omše. Pri ostatných omšiach pred požehnaním recitovať aspoň zasväcujúcu modlitbu. (</font>Porov. Pius XI. Quas primas z 11. decembra 1925<font color='#B71C1C'>).</font><br>"
             ;
 
+    String[] ohlasenieVN = {
+            "Milí bratia a sestry,<br>" +
+            "Pánova sláva sa nám zjavila<br>" +
+            "a vždy sa bude zjavovať medzi nami,<br>" +
+            "až kým on sám nepríde.<br>" +
+            "V rytmoch a striedaní času<br>" +
+            "si pripomíname a prežívame tajomstvá spásy.<br>" +
+            "<br>" +
+            "Centrom celého liturgického roka<br>" +
+            "je posvätné Trojdnie<br>" +
+            "ukrižovaného, pochovaného<br>" +
+            "a vzkrieseného Pána,<br>" +
+            " ktoré vrcholí v nedeľu na Veľkú noc<br>" +
+            "– v tomto roku ",
+            ".<br><br>" +
+                    "V každú nedeľu, ktorá je Veľkou nocou týždňa,<br>" +
+                    "svätá Cirkev sprítomňuje<br>" +
+                    "túto veľkú udalosť spásy,<br>" +
+                    "v ktorej Kristus premohol hriech a smrť.<br>" +
+                    " Z Veľkej noci pramenia všetky sväté dni:<br>" +
+                    "začiatok pôstneho obdobia<br>" +
+                    "- Popolcová streda ",
+            ",<br>Nanebovstúpenie Pána ",
+            ",<br>Zoslanie Ducha Svätého ",
+            ",<br>Prvá adventná nedeľa ",
+            ".<br><br>" +
+                    "Aj na sviatky svätej Božej Matky,<br>" +
+                    "apoštolov a svätých<br>" +
+                    "i pri Spomienke na všetkých verných zosnulých<br>" +
+                    "Cirkev putujúca na zemi<br>" +
+                    "ohlasuje Veľkú noc svojho Pána.<br>" +
+                    " Kristovi, ktorý bol, ktorý je a ktorý príde,<br>" +
+                    "Pánovi času a dejín,<br>" +
+                    "neprestajná chvála na veky vekov. Amen."
+    };
 }
 

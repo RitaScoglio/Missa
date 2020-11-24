@@ -55,6 +55,7 @@ O umučení (29-30)
 46 - Krst Krista Pána (nedeľa po 6.1.)
 47 - Panny Márie Bohorodičky (panny marie I)
 48a, b, c - vlastne prefacie k marianskym formularom
+49 - Za jednotu kresťanov
 Vlastná - 4. eucharisticka modlitba
 */
 
@@ -2720,6 +2721,35 @@ public interface Prefacia {
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
                             "Hosana na výsostiach!"},
+            {"49", "Vlastná prefácia - Za jednotu kresťanov", "O jednote Kristovho tela, ktorým je Cirkev",
+                            "<font color='#B71C1C'>K.:</font> Pán s vami.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Hore srdcia.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Máme ich u Pána.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Vzdávajme vďaky Pánovi, Bohu nášmu.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Je to dôstojné a správne.<br><br>" +
+                            "Je naozaj dôstojné a správne, dobré a spásonosné<br>" +
+                            "vzdávať vďaky vždy a všade<br>" +
+                            "tebe, Pane, svätý Otče, všemohúci a večný Bože,<br>" +
+                            "skrze nášho Pána Ježiša Krista.<br>" +
+                            "Lebo skrze neho si nás priviedol<br>" +
+                            "k poznaniu svojej pravdy,<br>" +
+                            "aby sme sa zväzkom jednej viery a jedného krstu<br>" +
+                            "stali jeho tajomným telom.<br>" +
+                            "Skrze neho si všetkým národom<br>" +
+                            "daroval svojho Svätého Ducha,<br>" +
+                            "ktorý rozmanitými darmi tajomne účinkuje<br>" +
+                            "a tvorí jednotu,<br>" +
+                            "prebýva v ľuďoch, ktorých si ty prijal za svoje deti,<br>" +
+                            "a posväcuje i spravuje celú Cirkev.<br>" +
+                            "Preto ťa spolu s anjelmi chválime<br>" +
+                            "a radostne vyznávame:<br><br>" +
+                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
+                            "Plné sú, nebesia i zem tvojej slávy.<br>" +
+                            "Hosana na výsostiach!<br>" +
+                            "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
+                            "Hosana na výsostiach!"},
+
 
             {"", "Vlastná prefácia", "", "<font color='#B71C1C'>K.:</font> Pán s vami.<br>" +
                     "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br>" +

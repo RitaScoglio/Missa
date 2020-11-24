@@ -11,6 +11,13 @@ public interface Svatci {
     feria = ""
     maria = 003
     prvy piatok = 001
+    prvy stvrtok = 002
+    Jarné kántrové dni = 004
+    Letné kántrové dni = 005
+    Jesenné kántrové dni = 006
+    Zimné kántrové dni = 007
+    Prosebné dni = 008
+    Za jednotu kresťanov = 009
     trojdnie = 3dni4/5/6
     v - vyrocie posviacky
     g - gloria (sviatok)
@@ -58,6 +65,7 @@ public interface Svatci {
             "Štrnásta", "Pätnásta", "Šestnásta", "Sedemnásta", "Osemnásta", "Devätnásta", "Dvadsiata", "Dvadsiata prvá", "Dvadsiata druhá", "Dvadsiata tretia",
             "Dvadsiata štvrtá", "Dvadsiata piata", "Dvadsiata šiesta", "Dvadsiata siedma", "Dvadsiata ôsma", "Dvadsiata deviata", "Tridsiata", "Tridsiata prvá",
             "Tridsiata druhá", "Tridsiata tretia", "Tridsiata štvrtá"};
+    String[] mesiacG = {"januára", "februára", "marca", "apríla", "mája", "júna", "júla", "augusta", "septembera", "októbra", "novembra", "decembra"};
 
     //SVIATKY V MESIACOCH V ROKU
     String[][] month1 ={

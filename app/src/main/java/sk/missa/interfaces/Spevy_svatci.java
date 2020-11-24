@@ -649,7 +649,7 @@ public interface Spevy_svatci {
                     "Betlehemské deti boli vykúpené spomedzi ľudí<br>" +
                             "ako prvotiny Bohu a Baránkovi,<br>" +
                             "preto nasledujú Baránka, kamkoľvek ide.", "(Porov. Zjv 14, 4)"},
-            {"29", "Boh t ak miloval svet, že dal svojho jednorodeného Syna,<br>" +
+            {"29", "Boh tak miloval svet, že dal svojho jednorodeného Syna,<br>" +
                     "aby nezahynul nik, čo v neho verí,<br>" +
                     "ale aby mal večný život.", "(Jn 3, 16)",
                     "Z milosrdnej lásky nášho Boha<br>" +

@@ -1,11 +1,11 @@
 package sk.missa.interfaces;
 
 /*
-* Vsuvky do eucharistických modlitieb v rôznych obdobiach: vsuvkyEM
-* Eucharistické modlitby: eucharistia1, eucharistia2, eucharistia3, eucharistia4
-* Eucharistické modliby v omšiach za zmierenie: eucharistiaZmierenie1, eucharistiaZmierenie2
-* dvojrozmerné polia sú rozdelené na tri časti podľa slov premenenia a v nich sa striedajú úseky menšieho a normálneho textu
-*/
+ * Vsuvky do eucharistických modlitieb v rôznych obdobiach: vsuvkyEM
+ * Eucharistické modlitby: eucharistia1, eucharistia2, eucharistia3, eucharistia4
+ * Eucharistické modliby v omšiach za zmierenie: eucharistiaZmierenie1, eucharistiaZmierenie2
+ * dvojrozmerné polia sú rozdelené na tri časti podľa slov premenenia a v nich sa striedajú úseky menšieho a normálneho textu
+ */
 
 public interface Eucharistia {
     String[][] vsuvkaEM = {
@@ -17,8 +17,7 @@ public interface Eucharistia {
             {"Na Turíce", "<font color='#B71C1C'>2.k</font> V spoločenstve s celou Cirkvou v presvätý deň Turíc, keď sa Duch Svätý v ohnivých jazykoch zjavil apoštolom, s úctou si spomíname najmä na preblahoslavenú Máriu, vždy Pannu, Rodičku Ježiša Krista, Boha a nášho Pána,"},
 
     };
-    String[][] eucharistia1 = {
-            {"Kňaz rozopne ruky a hovorí:",
+    String[] eucharistia1 = {"Kňaz rozopne ruky a hovorí:",
             "<font color='#B71C1C'>HI</font> Teba teda, najláskavejší Otče,<br>" +
                     "pokorne vzývame a prosíme<br>" +
                     "skrze Ježiša Krista,<br>" +
@@ -38,11 +37,11 @@ public interface Eucharistia {
                     "o pravú, katolícku a apoštolskú vieru. <br>" +
                     "Daruj svojej Cirkvi pokoj,<br>" +
                     "chráň ju, zjednocuj <br>" +
-                    "a spravuj po celom svete.<br>"},
-            {"Spomienka na živých",
+                    "a spravuj po celom svete.<br>",
+            "Spomienka na živých",
             "<br><font color='#B71C1C'>1.k</font> Pamätaj, Otče,<br>" +
-                    "na svojich služobníkov a služobnice <font color='#B71C1C'>M.</font> a <font color='#B71C1C'>M.</font>"},
-            {"Zopne ruky a modlí sa chvíľu za tých, ktorých si chce osobitne pripomenúť. Potom s rozopätými rukami pokračuje:",
+                    "na svojich služobníkov a služobnice <font color='#B71C1C'>M.</font> a <font color='#B71C1C'>M.</font>",
+            "Zopne ruky a modlí sa chvíľu za tých, ktorých si chce osobitne pripomenúť. Potom s rozopätými rukami pokračuje:",
             "Pamätaj i na všetkých tu prítomných.<br>" +
                     "Ty poznáš ich vieru<br>" +
                     "a vieš, že sú ti oddaní.<br>" +
@@ -110,22 +109,22 @@ public interface Eucharistia {
                     "vzdával ti vďaky a dobrorečil,<br>" +
                     "lámal chlieb<br>" +
                     "a dával svojim učeníkom, hovoriac:",
-            "trocha sa skloní",""},
-            {"VEZMITE\n" +
+            "trocha sa skloní",
+            "VEZMITE\n" +
                     "A JEDZTE Z NEHO VŠETCI:\n" +
                     "TOTO JE MOJE TELO,\n" +
                     "KTORÉ SA OBETUJE ZA VÁS.",
             "Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>" +
                     "Potom pokračuje:",
             "Podobne po večeri",
-            "vezme kalich,<br>"+
+            "vezme kalich,<br>" +
                     "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
             "vzal do svojich svätých a ctihodných rúk<br>" +
                     "tento preslávny kalich,<br>" +
                     "znova ti vzdával vďaky, dobrorečil<br>" +
                     "a dal ho svojim učeníkom, hovoriac:",
-            "trocha sa skloní", ""},
-            {"VEZMITE\n" +
+            "trocha sa skloní",
+            "VEZMITE\n" +
                     "A PITE Z NEHO VŠETCI:\n" +
                     "TOTO JE KALICH MOJEJ KRVI,\n" +
                     "KTORÁ SA VYLIEVA ZA VÁS\n" +
@@ -143,13 +142,13 @@ public interface Eucharistia {
                     "kým neprídeš v sláve.",
             "BAR", "",
             "Druhá formula:",
-                    "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.<br>" +
+            "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.<br>" +
                     "Pane, keď jeme tento chlieb<br>" +
                     "a pijeme z tohto kalicha,<br>" +
                     "zvestujeme tvoju smrť,<br>" +
                     "kým neprídeš v sláve.",
-                    "Tretia formula:",
-                    "<font color='#B71C1C'>HI</font> Veľké je tajomstvo viery.<br>" +
+            "Tretia formula:",
+            "<font color='#B71C1C'>HI</font> Veľké je tajomstvo viery.<br>" +
                     "Spasiteľ sveta, zachráň nás,<br>" +
                     "veď ty si nás vykúpil<br>" +
                     "svojím krížom a zmŕtvychvstaním.",
@@ -188,16 +187,16 @@ public interface Eucharistia {
             "vzpriami sa a prežehná sa; pritom hovorí:",
             "naplnilo hojné nebeské požehnanie a milosť.",
             "Zopne ruky.",
-            "<font color='#B71C1C'>(</font>Skrze nášho Pána Ježiša Krista. Amen.<font color='#B71C1C'>)</font><br>"},
-            {"Spomienka na zosnulých", ""},
-            {"Kňaz s rozopätými rukami hovorí:",
+            "<font color='#B71C1C'>(</font>Skrze nášho Pána Ježiša Krista. Amen.<font color='#B71C1C'>)</font><br>",
+            "Spomienka na zosnulých", "",
+            "Kňaz s rozopätými rukami hovorí:",
             "<font color='#B71C1C'>1.k</font> Pamätaj, Otče,<br>" +
                     "i na svojich služobníkov<br>" +
                     "a služobnice <font color='#B71C1C'>M.</font> a <font color='#B71C1C'>M.</font>,<br>" +
                     "ktorí nás predišli do večnosti<br>" +
                     "so znakom viery<br>" +
                     "a spia spánkom pokoja.",
-            "Zopne ruky a modlí sa chvíľu za zosnulých, ktorých si chce osobitne pripomenúť.<br>"+
+            "Zopne ruky a modlí sa chvíľu za zosnulých, ktorých si chce osobitne pripomenúť.<br>" +
                     "Potom s rozopätými rukami pokračuje:",
             "Prosíme ťa, Otče, daj im<br>" +
                     "a všetkým v Kristu odpočívajúcim<br>" +
@@ -235,43 +234,42 @@ public interface Eucharistia {
                     "všetku úctu a slávu<br>" +
                     "po všetky veky vekov.",
             "Ľud zvolá:",
-            "Amen."},
-    };
+            "Amen."};
 
-    String[][] eucharistia2 = {
-            {"Kňaz rozopne ruky a hovorí:",
-                    "<font color='#B71C1C'>HI</font> Naozaj si svätý, Otče,<br>" +
-                            "ty prameň všetkej svätosti.<br>",
-                    "Zopne ruky, vystrie ich nad obetné dary a hovorí (i všetci koncelebranti s ním):",
-                    "<font color='#B71C1C'>Vš</font> Preto ťa prosíme,<br>" +
-                            "posväť tieto dary rosou svojho Ducha,",
-                    "zopne ruky,<br>" +
-                            "urobí znak kríža nad chlebom a kalichom a hovorí:",
-                    "aby sa nám stali telom <font color='#B71C1C'>+</font> a krvou<br>" +
-                            "nášho Pána Ježiša Krista.",
-                    "Zopne ruky.<br>" +
-                            "V nasledujúcich formulách treba predniesť Pánove slová jasne a zrozumiteľne, ako to ich povaha vyžaduje.",
-                    "On, prv než sa dobrovoľne vydal na smrť,",
-                    "vezme chlieb,<br>" +
-                            "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
-                    "vzal chlieb<br>" +
-                            "a vzdával vďaky,<br>" +
-                            "lámal ho a dával svojim učeníkom, hovoriac:",
-                    "trocha sa skloní", ""},
-            {"VEZMITE\n" +
+    String[] eucharistia2 = {
+            "Kňaz rozopne ruky a hovorí:",
+            "<font color='#B71C1C'>HI</font> Naozaj si svätý, Otče,<br>" +
+                    "ty prameň všetkej svätosti.<br>",
+            "Zopne ruky, vystrie ich nad obetné dary a hovorí (i všetci koncelebranti s ním):",
+            "<font color='#B71C1C'>Vš</font> Preto ťa prosíme,<br>" +
+                    "posväť tieto dary rosou svojho Ducha,",
+            "zopne ruky,<br>" +
+                    "urobí znak kríža nad chlebom a kalichom a hovorí:",
+            "aby sa nám stali telom <font color='#B71C1C'>+</font> a krvou<br>" +
+                    "nášho Pána Ježiša Krista.",
+            "Zopne ruky.<br>" +
+                    "V nasledujúcich formulách treba predniesť Pánove slová jasne a zrozumiteľne, ako to ich povaha vyžaduje.",
+            "On, prv než sa dobrovoľne vydal na smrť,",
+            "vezme chlieb,<br>" +
+                    "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
+            "vzal chlieb<br>" +
+                    "a vzdával vďaky,<br>" +
+                    "lámal ho a dával svojim učeníkom, hovoriac:",
+            "trocha sa skloní",
+            "VEZMITE\n" +
                     "A JEDZTE Z NEHO VŠETCI:\n" +
                     "TOTO JE MOJE TELO,\n" +
                     "KTORÉ SA OBETUJE ZA VÁS.",
             "Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>" +
                     "Potom pokračuje:",
-                    "Podobne po večeri",
-                    "vezme kalich,<br>" +
-                            "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
-                    "vzal kalich,<br>" +
-                            "znova vzdával vďaky<br>" +
-                            "a dal ho svojim učeníkom, hovoriac:",
-                    "trocha sa skloní", ""},
-            {"VEZMITE\n" +
+            "Podobne po večeri",
+            "vezme kalich,<br>" +
+                    "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
+            "vzal kalich,<br>" +
+                    "znova vzdával vďaky<br>" +
+                    "a dal ho svojim učeníkom, hovoriac:",
+            "trocha sa skloní",
+           "VEZMITE\n" +
                     "A PITE Z NEHO VŠETCI:\n" +
                     "TOTO JE KALICH MOJEJ KRVI,\n" +
                     "KTORÁ SA VYLIEVA ZA VÁS\n" +
@@ -287,7 +285,7 @@ public interface Eucharistia {
             "Smrť tvoju, Pane, zvestujeme<br>" +
                     "a tvoje zmŕtvychvstanie vyznávame,<br>" +
                     "kým neprídeš v sláve.",
-            "______________<br>"+
+            "BAR", "",
             "Druhá formula:",
             "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.<br>" +
                     "Pane, keď jeme tento chlieb<br>" +
@@ -299,7 +297,7 @@ public interface Eucharistia {
                     "Spasiteľ sveta, zachráň nás,<br>" +
                     "veď ty si nás vykúpil<br>" +
                     "svojím krížom a zmŕtvychvstaním.",
-            "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>"+
+            "BAR", "",
             "Potom kňaz s rozopätými rukami hovorí:",
             "<font color='#B71C1C'>Vš</font> Keď teda slávime pamiatku<br>" +
                     "smrti a zmŕtvychvstania tvojho Syna,<br>" +
@@ -320,11 +318,11 @@ public interface Eucharistia {
                     "v jednote s naším pápežom <font color='#B71C1C'>M.</font><br>" +
                     "a s naším biskupom <font color='#B71C1C'>M. *</font><br>" +
                     "i so všetkými kňazmi a diakonmi.",
-            "______________<br>"+
+            "BAR", "",
             "V omšiach za zosnulých možno pridať:",
             "Pamätaj na svojho služobníka <font color='#B71C1C'>(</font>svoju služobnicu<font color='#B71C1C'>) M.</font> , ktorého <font color='#B71C1C'>(</font>ktorú<font color='#B71C1C'>)</font> si z tohto sveta <font color='#B71C1C'>(</font>dnes<font color='#B71C1C'>)</font> povolal k sebe. Keďže krstom sa stal <font color='#B71C1C'>(</font>stala<font color='#B71C1C'>)</font> podobným <font color='#B71C1C'>(</font>podobnou<font color='#B71C1C'>)</font> tvojmu Synovi v smrti, daj mu <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> účasť aj na jeho zmŕtvychvstaní.",
-            "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾",
-                    "<font color='#B71C1C'>2.k</font> Pamätaj i na našich bratov a sestry,<br>" +
+            "BAR", "", "",
+            "<font color='#B71C1C'>2.k</font> Pamätaj i na našich bratov a sestry,<br>" +
                     "čo zomreli v nádeji na vzkriesenie,<br>" +
                     "i na všetkých, ktorí v tvojej milosti<br>" +
                     "odišli z tohto sveta,<br>" +
@@ -349,11 +347,10 @@ public interface Eucharistia {
                     "všetku úctu a slávu<br>" +
                     "po všetky veky vekov.",
             "Ľud zvolá:",
-            "Amen."}
-    };
+            "Amen."};
 
-    String[][] eucharistia3 = {
-            {"Kňaz rozopne ruky a hovorí:",
+    String[] eucharistia3 = {
+            "Kňaz rozopne ruky a hovorí:",
             "<font color='#B71C1C'>HI</font> Naozaj si svätý, Otče,<br>" +
                     "a právom ťa chváli každé tvoje stvorenie,<br>" +
                     "lebo skrze svojho Syna,<br>" +
@@ -368,8 +365,8 @@ public interface Eucharistia {
                     "láskavo posväť svojím Duchom<br>" +
                     "tieto dary,<br>" +
                     "ktoré sme ti priniesli na obetu,",
-            "zopne ruky,<br>"+
-            "urobí znak kríža nad chlebom a kalichom a hovorí:",
+            "zopne ruky,<br>" +
+                    "urobí znak kríža nad chlebom a kalichom a hovorí:",
             "aby sa stali telom <font color='#B71C1C'>+</font> a krvou<br>" +
                     "Ježiša Krista, tvojho Syna a nášho Pána,",
             "zloží ruky",
@@ -377,26 +374,26 @@ public interface Eucharistia {
             "nasledujúcich formulách treba predniesť Pánove slová jasne a zrozumiteľne, ako to ich povaha vyžaduje.",
             "<br>" +
                     "On v tú noc, keď bol zradený,",
-            "vezme chlieb,<br>"+
+            "vezme chlieb,<br>" +
                     "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
             "vzal chlieb,<br>" +
                     "vzdával ti vďaky a dobrorečil,<br>" +
                     "lámal ho a dával svojim učeníkom, hovoriac:",
-            "trocha sa skloní",""},
-            {"VEZMITE\n" +
+            "trocha sa skloní",
+            "VEZMITE\n" +
                     "A JEDZTE Z NEHO VŠETCI:\n" +
                     "TOTO JE MOJE TELO,\n" +
                     "KTORÉ SA OBETUJE ZA VÁS.",
             "Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>" +
                     "Potom pokračuje:",
             "Podobne po večeri",
-            "vezme kalich,<br>"+
-            "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
+            "vezme kalich,<br>" +
+                    "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
             "vzal kalich,<br>" +
                     "vzdával ti vďaky, dobrorečil<br>" +
                     "a dal ho svojim učeníkom, hovoriac:",
-            "trocha sa skloní",""},
-            {"VEZMITE\n" +
+            "trocha sa skloní",
+           "VEZMITE\n" +
                     "A PITE Z NEHO VŠETCI:\n" +
                     "TOTO JE KALICH MOJEJ KRVI,\n" +
                     "KTORÁ SA VYLIEVA ZA VÁS\n" +
@@ -412,7 +409,7 @@ public interface Eucharistia {
             "Smrť tvoju, Pane, zvestujeme<br>" +
                     "a tvoje zmŕtvychvstanie vyznávame,<br>" +
                     "kým neprídeš v sláve.",
-            "______________<br>"+
+            "BAR", "",
             "Druhá formula:",
             "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.<br>" +
                     "Pane, keď jeme tento chlieb<br>" +
@@ -424,7 +421,7 @@ public interface Eucharistia {
                     "Spasiteľ sveta, zachráň nás,<br>" +
                     "veď ty si nás vykúpil<br>" +
                     "svojím krížom a zmŕtvychvstaním.",
-            "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>"+
+            "BAR", "",
             "Potom kňaz s rozopätými rukami hovorí:",
             "<font color='#B71C1C'>Vš</font> Preto, Otče, keď slávime pamiatku<br>" +
                     "spásonosného umučenia tvojho Syna<br>" +
@@ -484,24 +481,22 @@ public interface Eucharistia {
             "v Kristovi, našom Pánovi,<br>" +
                     "skrze ktorého<br>" +
                     "štedro dávaš svetu všetko dobré.",
-            "______________<br>"+
-                    "V omšiach za zosnulých namiesto posledného odseku ▲ \"Dobrotivo...\" možno pridať:",
+            "BAR", "",
+            "V omšiach za zosnulých namiesto posledného odseku ▲ \"Dobrotivo...\" možno pridať:",
             "<font color='#B71C1C'>▲</font> Pamätaj na svojho služobníka <font color='#B71C1C'>(</font>svoju služobnicu<font color='#B71C1C'>) M.</font>, ktorého <font color='#B71C1C'>(</font>ktorú<font color='#B71C1C'>)</font> si z tohto sveta <font color='#B71C1C'>(</font>dnes<font color='#B71C1C'>)</font> povolal k sebe. Keďže krstom sa stal <font color='#B71C1C'>(</font>stala<font color='#B71C1C'>)</font> podobným <font color='#B71C1C'>(</font>podobnou<font color='#B71C1C'>)</font> tvojmu Synovi v smrti, daj mu <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> účasť aj na jeho zmŕtvychvstaní, keď Kristus vzkriesi mŕtvych a naše smrteľné telo pripodobní svojmu oslávenému telu.<br>" +
                     "Dobrotivo prijmi do svojho kráľovstva aj ostatných našich zosnulých bratov a sestry i všetkých, ktorí v tvojej milosti odišli z tohto sveta. Pevne dúfame, že aj my sa tam s nimi budeme naveky radovať z tvojej slávy. Tam zotrieš každú slzu z našich očí a uvidíme teba, svojho Boha, z tváre do tváre; budeme ti podobní po všetky veky a budeme ťa bez prestania chváliť",
             "zopne ruky",
             "v Kristovi, našom Pánovi, skrze ktorého štedro dávaš svetu všetko dobré.",
-            "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>"+
-                    "Vezme paténu s hostiou a kalich, pozdvihne ich a hovorí:",
+            "BAR", "",
+            "Vezme paténu s hostiou a kalich, pozdvihne ich a hovorí:",
             "<font color='#B71C1C'>Vš</font> Skrze Krista, s Kristom a v Kristovi<br>" +
                     "máš ty, Bože Otče všemohúci,<br>" +
                     "v jednote s Duchom Svätým<br>" +
                     "všetku úctu a slávu po všetky veky vekov.",
             "Ľud zvolá:",
-            "Amen."}
-    };
+            "Amen."};
 
-    String[][] eucharistia4 = {
-            {"Kňaz rozopne ruky a hovorí:",
+    String[] eucharistia4 = {"Kňaz rozopne ruky a hovorí:",
             "<font color='#B71C1C'>HI</font> Velebíme ťa, svätý Otče, lebo si veľký<br>" +
                     "a všetko si stvoril<br>" +
                     "s múdrosťou a s láskou.<br>" +
@@ -545,7 +540,7 @@ public interface Eucharistia {
             "Zopne ruky, vystrie ich nad obetné dary a hovorí (i všetci koncelebranti s ním):",
             "<font color='#B71C1C'>Vš</font> Preto ťa, Otče, prosíme,<br>" +
                     "nech Duch Svätý posvätí tieto dary,",
-            "zopne ruky,<br>"+
+            "zopne ruky,<br>" +
                     "urobí znak kríža nad chlebom a kalichom a hovorí:",
             "aby sa stali telom <font color='#B71C1C'>+</font> a krvou nášho Pána Ježiša Krista",
             "zopne ruky",
@@ -557,26 +552,26 @@ public interface Eucharistia {
                     "aby si ho oslávil, svätý Otče,<br>" +
                     "pretože miloval svojich, čo boli na svete,<br>" +
                     "a miloval ich do krajnosti,",
-            "vezme chlieb,<br>"+
+            "vezme chlieb,<br>" +
                     "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
             "pri večeri vzal chlieb a dobrorečil,<br>" +
                     "lámal ho<br>" +
                     "a dával svojim učeníkom, hovoriac:",
-            "trocha sa skloní",""},
-            {"VEZMITE\n" +
+            "trocha sa skloní",
+            "VEZMITE\n" +
                     "A JEDZTE Z NEHO VŠETCI:\n" +
                     "TOTO JE MOJE TELO,\n" +
                     "KTORÉ SA OBETUJE ZA VÁS.",
             "Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>" +
                     "Potom pokračuje:",
             "Podobne",
-            "vezme kalich,<br>"+
-            "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
+            "vezme kalich,<br>" +
+                    "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
             "vzal kalich s vínom,<br>" +
                     "vzdával vďaky<br>" +
                     "a dal ho svojim učeníkom, hovoriac:",
-            "trocha sa skloní",""},
-            {"VEZMITE\n" +
+            "trocha sa skloní",
+           "VEZMITE\n" +
                     "A PITE Z NEHO VŠETCI:\n" +
                     "TOTO JE KALICH MOJEJ KRVI,\n" +
                     "KTORÁ SA VYLIEVA ZA VÁS\n" +
@@ -591,8 +586,8 @@ public interface Eucharistia {
             "Smrť tvoju, Pane, zvestujeme <br>" +
                     "a tvoje zmŕtvychvstanie vyznávame, <br>" +
                     "kým neprídeš v sláve.",
-            "______________<br>"+
-                    "Druhá formula:",
+            "BAR", "",
+            "Druhá formula:",
             "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.<br>" +
                     "Pane, keď jeme tento chlieb<br>" +
                     "a pijeme z tohto kalicha,<br>" +
@@ -603,7 +598,7 @@ public interface Eucharistia {
                     "Spasiteľ sveta, zachráň nás,<br>" +
                     "veď ty si nás vykúpil<br>" +
                     "svojím krížom a zmŕtvychvstaním.",
-            "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>"+
+            "BAR", "",
             "Potom kňaz s rozopätými rukami hovorí:",
             "<font color='#B71C1C'>Vš</font> Preto, Otče, keď teraz slávime<br>" +
                     "pamiatku nášho vykúpenia,<br>" +
@@ -661,56 +656,55 @@ public interface Eucharistia {
                     "v jednote s Duchom Svätým<br>" +
                     "všetku úctu a slávu po všetky veky vekov.",
             "Ľud zvolá:",
-            "Amen."}
-    };
+            "Amen."};
 
-    String[][] eucharistiaZmierenie1 = {
-            {"Kňaz rozopne ruky a hovorí:",
-                    "<font color='#B71C1C'>HI</font> Naozaj si svätý, Otče,<br>" +
-                            "a od začiatku sveta sa o človeka staráš,<br>" +
-                            "aby sa stal svätým, ako ty si svätý.",
-                    "Zopne ruky, vystrie ich nad obetné dary a hovorí:",
-                    "<font color='#B71C1C'>Vš</font> Zhliadni, prosíme, na svoj ľud,<br>" +
-                            "zhromaždený pri tvojom oltári,<br>" +
-                            "a zošli moc svojho Ducha,<br>" +
-                            "aby sa nám tieto dary stali telom a krvou",
-                    "zopne ruky,<br>" +
-                            "urobí znak kríža nad chlebom a kalichom a hovorí:",
-                    "tvojho milovaného Syna <font color='#B71C1C'>+</font> Ježiša Krista,<br>" +
-                            "v ktorom sme aj my tvojimi deťmi.",
-                    "Pokračuje s rozopätými rukami:",
-                    "<font color='#B71C1C'>HI</font> Keď sme boli ako mŕtvi<br>" +
-                            "a nevládali sme prísť k tebe,<br>" +
-                            "dal si nám vrcholný dôkaz svojej lásky tým,<br>" +
-                            "že tvoj Syn, ktorý jediný je spravodlivý, <br>" +
-                            "odovzdal sa do našich rúk<br>" +
-                            "a nechal sa pribiť na drevo kríža.",
-                    "Zopne ruky." +
-                            "V nasledujúcich formulách treba predniesť Pánove slová jasne a zrozumiteľne, ako to ich povaha vyžaduje:",
-                    "<font color='#B71C1C'>Vš</font> Prv než rozopäl svoje ruky<br>" +
-                            "na znak večnej zmluvy<br>" +
-                            "medzi nebom a zemou,<br>" +
-                            "chcel so svojimi učeníkmi sláviť Veľkú noc.",
-                    "Vezme chlieb, drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
-                    "Pri večeri vzal chlieb,<br>" +
-                            "vzdával ti vďaky a dobrorečil,<br>" +
-                            "lámal ho a dával svojim učeníkom, hovoriac:",
-                    "trocha sa skloní:", ""},
-            {"VEZMITE\n" +
+    String[] eucharistiaZmierenie1 = {
+            "Kňaz rozopne ruky a hovorí:",
+            "<font color='#B71C1C'>HI</font> Naozaj si svätý, Otče,<br>" +
+                    "a od začiatku sveta sa o človeka staráš,<br>" +
+                    "aby sa stal svätým, ako ty si svätý.",
+            "Zopne ruky, vystrie ich nad obetné dary a hovorí:",
+            "<font color='#B71C1C'>Vš</font> Zhliadni, prosíme, na svoj ľud,<br>" +
+                    "zhromaždený pri tvojom oltári,<br>" +
+                    "a zošli moc svojho Ducha,<br>" +
+                    "aby sa nám tieto dary stali telom a krvou",
+            "zopne ruky,<br>" +
+                    "urobí znak kríža nad chlebom a kalichom a hovorí:",
+            "tvojho milovaného Syna <font color='#B71C1C'>+</font> Ježiša Krista,<br>" +
+                    "v ktorom sme aj my tvojimi deťmi.",
+            "Pokračuje s rozopätými rukami:",
+            "<font color='#B71C1C'>HI</font> Keď sme boli ako mŕtvi<br>" +
+                    "a nevládali sme prísť k tebe,<br>" +
+                    "dal si nám vrcholný dôkaz svojej lásky tým,<br>" +
+                    "že tvoj Syn, ktorý jediný je spravodlivý, <br>" +
+                    "odovzdal sa do našich rúk<br>" +
+                    "a nechal sa pribiť na drevo kríža.",
+            "Zopne ruky." +
+                    "V nasledujúcich formulách treba predniesť Pánove slová jasne a zrozumiteľne, ako to ich povaha vyžaduje:",
+            "<font color='#B71C1C'>Vš</font> Prv než rozopäl svoje ruky<br>" +
+                    "na znak večnej zmluvy<br>" +
+                    "medzi nebom a zemou,<br>" +
+                    "chcel so svojimi učeníkmi sláviť Veľkú noc.",
+            "Vezme chlieb, drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
+            "Pri večeri vzal chlieb,<br>" +
+                    "vzdával ti vďaky a dobrorečil,<br>" +
+                    "lámal ho a dával svojim učeníkom, hovoriac:",
+            "trocha sa skloní:",
+            "VEZMITE\n" +
                     "A JEDZTE Z NEHO VŠETCI:\n" +
                     "TOTO JE MOJE TELO,\n" +
                     "KTORÉ SA OBETUJE ZA VÁS.",
             "Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>" +
                     "Potom pokračuje:",
-                    "Podobne po večeri,<br>" +
-                            "vediac, že svojou krvou vyliatou na kríži<br>" +
-                            "má v sebe zmieriť celý svet,",
-                    "vezme kalich, drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
-                    "vzal kalich s vínom,<br>" +
-                            "znova vzdával vďaky<br>" +
-                            "a dal ho svojim učeníkom, hovoriac:",
-                    "trocha sa skloní",""},
-            {"VEZMITE\n" +
+            "Podobne po večeri,<br>" +
+                    "vediac, že svojou krvou vyliatou na kríži<br>" +
+                    "má v sebe zmieriť celý svet,",
+            "vezme kalich, drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
+            "vzal kalich s vínom,<br>" +
+                    "znova vzdával vďaky<br>" +
+                    "a dal ho svojim učeníkom, hovoriac:",
+            "trocha sa skloní",
+           "VEZMITE\n" +
                     "A PITE Z NEHO VŠETCI:\n" +
                     "TOTO JE KALICH MOJEJ KRVI,\n" +
                     "KTORÁ SA VYLIEVA ZA VÁS\n" +
@@ -721,71 +715,70 @@ public interface Eucharistia {
                     "TOTO ROBTE NA MOJU PAMIATKU.",
             "Ukáže kalich ľudu, znova ho položí na korporál a pokľaknutím adoruje.<br>" +
                     "Potom povie:",
-                    "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.",
-                    "Ľud odpovie zvolaním:",
-                    "Smrť tvoju, Pane, zvestujeme<br>" +
-                            "a tvoje zmŕtvychvstanie vyznávame,<br>" +
-                            "kým neprídeš v sláve.",
-                    "______________<br>"+
-                            "Druhá formula:",
-                    "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.",
-                    "Ľud odpovie zvolaním:",
-                    "Pane, keď jeme tento chlieb<br>" +
-                            "a pijeme z tohto kalicha,<br>" +
-                            "zvestujeme tvoju smrť,<br>" +
-                            "kým neprídeš v sláve.",
-                    "Tretia formula:",
-                    "<font color='#B71C1C'>HI</font> Veľké je tajomstvo viery.<br>" +
-                            "Spasiteľ sveta, zachráň nás,<br>" +
-                            "veď ty si nás vykúpil<br>" +
-                            "svojím krížom a zmŕtvychvstaním.",
-                    "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>" +
-                            "Potom kňaz s rozopätými rukami hovorí:",
-                    "<font color='#B71C1C'>Vš</font> Keď teda slávime pamiatku<br>" +
-                            "smrti a zmŕtvychvstania Ježiša Krista,<br>" +
-                            "ktorý je náš veľkonočný Baránok<br>" +
-                            "a náš bezpečný pokoj,<br>" +
-                            "a kým očakávame deň jeho príchodu v sláve,<br>" +
-                            "prinášame tebe, Bohu vernému a pravému,<br>" +
-                            "túto obetu,<br>" +
-                            "ktorá zmieruje ľudstvo s tebou.<br>" +
-                            "Dobrotivý Otče,<br>" +
-                            "láskavo zhliadni na tých,<br>" +
-                            "ktorým dávaš účasť<br>" +
-                            "na tejto jedinej Kristovej obete,<br>" +
-                            "a tak ich spájaš so sebou.<br>" +
-                            "Daj, aby sa pôsobením Ducha Svätého<br>" +
-                            "stali jedným telom,<br>" +
-                            "v ktorom niet rozdelenia ani nesvornosti.<br>" +
-                            "<font color='#B71C1C'>1.k</font> Zachovaj nás<br>" +
-                            "vo vzájomnej jednote ducha a srdca<br>" +
-                            "s naším pápežom <font color='#B71C1C'>M.</font> a s naším biskupom <font color='#B71C1C'>M.</font><br>" +
-                            "Pomáhaj nám pripravovať<br>" +
-                            "príchod tvojho kráľovstva<br>" +
-                            "až do dňa, keď prídeme k tebe<br>" +
-                            "a budeme večne žiť v tvojej prítomnosti,<br>" +
-                            "svätí medzi svätými,<br>" +
-                            "v spoločenstve s Pannou Máriou<br>" +
-                            "a apoštolmi i s našimi zosnulými bratmi a sestrami,<br>" +
-                            "ktorých odporúčame<br>" +
-                            "do tvojej milosrdnej lásky.<br>" +
-                            "Vtedy budeme novými stvoreniami,<br>" +
-                            "konečne oslobodenými od skazy hriechu,<br>" +
-                            "a budeme s Kristom večne živým",
-                    "zopne ruky",
-                    "spievať chválospev vďaky.",
-                    "Vezme paténu s hostiou a kalich, pozdvihne ich a hovorí:",
-                    "<font color='#B71C1C'>Vš</font> Skrze Krista, s Kristom a v Kristovi<br>" +
-                            "máš ty, Bože Otče všemohúci,<br>" +
-                            "v jednote s Duchom Svätým<br>" +
-                            "všetku úctu a slávu<br>" +
-                            "po všetky veky vekov.",
-                    "Ľud zvolá:",
-                    "Amen."}
+            "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.",
+            "Ľud odpovie zvolaním:",
+            "Smrť tvoju, Pane, zvestujeme<br>" +
+                    "a tvoje zmŕtvychvstanie vyznávame,<br>" +
+                    "kým neprídeš v sláve.",
+            "BAR", "",
+            "Druhá formula:",
+            "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.",
+            "Ľud odpovie zvolaním:",
+            "Pane, keď jeme tento chlieb<br>" +
+                    "a pijeme z tohto kalicha,<br>" +
+                    "zvestujeme tvoju smrť,<br>" +
+                    "kým neprídeš v sláve.",
+            "Tretia formula:",
+            "<font color='#B71C1C'>HI</font> Veľké je tajomstvo viery.<br>" +
+                    "Spasiteľ sveta, zachráň nás,<br>" +
+                    "veď ty si nás vykúpil<br>" +
+                    "svojím krížom a zmŕtvychvstaním.",
+            "BAR", "",
+            "Potom kňaz s rozopätými rukami hovorí:",
+            "<font color='#B71C1C'>Vš</font> Keď teda slávime pamiatku<br>" +
+                    "smrti a zmŕtvychvstania Ježiša Krista,<br>" +
+                    "ktorý je náš veľkonočný Baránok<br>" +
+                    "a náš bezpečný pokoj,<br>" +
+                    "a kým očakávame deň jeho príchodu v sláve,<br>" +
+                    "prinášame tebe, Bohu vernému a pravému,<br>" +
+                    "túto obetu,<br>" +
+                    "ktorá zmieruje ľudstvo s tebou.<br>" +
+                    "Dobrotivý Otče,<br>" +
+                    "láskavo zhliadni na tých,<br>" +
+                    "ktorým dávaš účasť<br>" +
+                    "na tejto jedinej Kristovej obete,<br>" +
+                    "a tak ich spájaš so sebou.<br>" +
+                    "Daj, aby sa pôsobením Ducha Svätého<br>" +
+                    "stali jedným telom,<br>" +
+                    "v ktorom niet rozdelenia ani nesvornosti.<br>" +
+                    "<font color='#B71C1C'>1.k</font> Zachovaj nás<br>" +
+                    "vo vzájomnej jednote ducha a srdca<br>" +
+                    "s naším pápežom <font color='#B71C1C'>M.</font> a s naším biskupom <font color='#B71C1C'>M.</font><br>" +
+                    "Pomáhaj nám pripravovať<br>" +
+                    "príchod tvojho kráľovstva<br>" +
+                    "až do dňa, keď prídeme k tebe<br>" +
+                    "a budeme večne žiť v tvojej prítomnosti,<br>" +
+                    "svätí medzi svätými,<br>" +
+                    "v spoločenstve s Pannou Máriou<br>" +
+                    "a apoštolmi i s našimi zosnulými bratmi a sestrami,<br>" +
+                    "ktorých odporúčame<br>" +
+                    "do tvojej milosrdnej lásky.<br>" +
+                    "Vtedy budeme novými stvoreniami,<br>" +
+                    "konečne oslobodenými od skazy hriechu,<br>" +
+                    "a budeme s Kristom večne živým",
+            "zopne ruky",
+            "spievať chválospev vďaky.",
+            "Vezme paténu s hostiou a kalich, pozdvihne ich a hovorí:",
+            "<font color='#B71C1C'>Vš</font> Skrze Krista, s Kristom a v Kristovi<br>" +
+                    "máš ty, Bože Otče všemohúci,<br>" +
+                    "v jednote s Duchom Svätým<br>" +
+                    "všetku úctu a slávu<br>" +
+                    "po všetky veky vekov.",
+            "Ľud zvolá:",
+            "Amen."
     };
-            String [][] eucharistiaZmierenie2 = {
-                    {"Kňaz rozopne ruky a hovorí:",
-                    "<font color='#B71C1C'>HI</font> Naozaj si svätý, Otče,<br>" +
+    String[] eucharistiaZmierenie2 = {"Kňaz rozopne ruky a hovorí:",
+            "<font color='#B71C1C'>HI</font> Naozaj si svätý, Otče,<br>" +
                     "Pán neba i zeme.<br>" +
                     "Dobrorečíme ti<br>" +
                     "skrze tvojho Syna Ježiša Krista,<br>" +
@@ -803,16 +796,16 @@ public interface Eucharistia {
                     "<font color='#B71C1C'>Vš</font> Preto slávime veľké dielo nášho zmierenia,<br>" +
                     "ktoré vykonal Ježiš Kristus,<br>" +
                     "a vrúcne ťa prosíme.",
-                    "Zopne ruky, vystrie ich nad obetné dary a hovorí:",
-                    "posväť tieto dary rosou svojho Ducha,",
-                    "Zopne ruky, urobí znak kríža nad chlebom a kalichom a hovorí:",
-                    "keď konáme, čo nám prikázal <font color='#B71C1C'>+</font> tvoj Syn.",
-                    "Zloží ruky." +
+            "Zopne ruky, vystrie ich nad obetné dary a hovorí:",
+            "posväť tieto dary rosou svojho Ducha,",
+            "Zopne ruky, urobí znak kríža nad chlebom a kalichom a hovorí:",
+            "keď konáme, čo nám prikázal <font color='#B71C1C'>+</font> tvoj Syn.",
+            "Zloží ruky." +
                     "V nasledujúcich formách treba predniesť Pánove slová jasne a zrozumiteľne, ako to ich povahe vyžaduje:",
-                    "On, prv než obetoval za nás život,<br>" +
+            "On, prv než obetoval za nás život,<br>" +
                     "aby nás vyslobodil,",
-                    "Vezme chlieb, drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
-                    "pri večeri vzal do rúk chlieb,<br>" +
+            "Vezme chlieb, drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
+            "pri večeri vzal do rúk chlieb,<br>" +
                     "vzdával ti vďaky a dobrorečil,<br>" +
                     "lámal ho a dával svojim učeníkom, hovoriac:",
             "trochu sa skloní",
@@ -822,9 +815,9 @@ public interface Eucharistia {
                     "KTORÉ SA OBETUJE ZA VÁS.",
             "Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>" +
                     "Potom pokračuje:",
-                    "Podobne v ten istý večer",
-                    "vezme kalich, drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
-                    "vzal kalich s vínom,<br>" +
+            "Podobne v ten istý večer",
+            "vezme kalich, drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
+            "vzal kalich s vínom,<br>" +
                     "zveleboval tvoju milosrdnú lásku<br>" +
                     "a dal ho svojim učeníkom, hovoriac:",
             "trocha sa skloní",
@@ -839,27 +832,27 @@ public interface Eucharistia {
                     "TOTO ROBTE NA MOJU PAMIATKU.",
             "Ukáže kalich ľudu, znova ho položí na korporál a pokľaknutím adoruje.<br>" +
                     "Potom povie:",
-                    "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.",
-                    "Ľud odpovie zvolaním:",
-                    "Smrť tvoju, Pane, zvestujeme<br>" +
+            "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.",
+            "Ľud odpovie zvolaním:",
+            "Smrť tvoju, Pane, zvestujeme<br>" +
                     "a tvoje zmŕtvychvstanie vyznávame,<br>" +
                     "kým neprídeš v sláve.",
-                    "______________<br>"+
-                    "Druhá formula:",
-                    "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.<br>" +
+            "BAR", "",
+            "Druhá formula:",
+            "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.<br>" +
                     "<font color='#B71C1C'>Ľud odpovie zvolaním:</font><br>" +
                     "Pane, keď jeme tento chlieb<br>" +
                     "a pijeme z tohto kalicha,<br>" +
                     "zvestujeme tvoju smrť,<br>" +
                     "kým neprídeš v sláve.",
-                    "Tretia formula:",
-                    "<font color='#B71C1C'>HI</font> Veľké je tajomstvo viery.<br>" +
+            "Tretia formula:",
+            "<font color='#B71C1C'>HI</font> Veľké je tajomstvo viery.<br>" +
                     "Spasiteľ sveta, zachráň nás,<br>" +
                     "veď ty si nás vykúpil<br>" +
                     "svojím krížom a zmŕtvychvstaním.",
-                            "‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾<br>"+
-                    "Potom kňaz s rozopätými rukami hovorí:",
-                    "<font color='#B71C1C'>Vš</font> Pane a Bože náš,<br>" +
+            "BAR", "",
+            "Potom kňaz s rozopätými rukami hovorí:",
+            "<font color='#B71C1C'>Vš</font> Pane a Bože náš,<br>" +
                     "tvoj Syn nám zanechal<br>" +
                     "tento dôkaz svojej lásky.<br>" +
                     "Preto keď slávime pamiatku jeho smrti<br>" +
@@ -888,16 +881,16 @@ public interface Eucharistia {
                     "jazykov a kultúr<br>" +
                     "na večnej hostine v novom svete,<br>" +
                     "kde vládne dokonalá jednota a pravý pokoj.",
-                    "Zopne ruky.",
-                    "Skrze nášho Pána, Ježiša Krista.",
-                    "Vezme paténu s hostiou a kalich, pozdvihne ich a hovorí:",
-                    "<font color='#B71C1C'>Vš</font> Skrze Krista, s Kristom a v Kristovi<br>" +
+            "Zopne ruky.",
+            "Skrze nášho Pána, Ježiša Krista.",
+            "Vezme paténu s hostiou a kalich, pozdvihne ich a hovorí:",
+            "<font color='#B71C1C'>Vš</font> Skrze Krista, s Kristom a v Kristovi<br>" +
                     "máš ty, Bože Otče všemohúci,<br>" +
                     "v jednote s Duchom Svätým<br>" +
                     "všetku úctu a slávu<br>" +
                     "po všetky veky vekov.",
-                    "Ľud zvolá:",
-                    "Amen."}
+            "Ľud zvolá:",
+            "Amen."
     };
 }
 
