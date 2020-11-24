@@ -53,7 +53,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         Zalmy_cezrok, Zalmy_advent, Zalmy_post, Zalmy_velkanoc, Zalmy_svatci {
     public static int indexSpev, indexModlitba, indexProsba, indexCS, indexCM, indexPS, indexPM, indexVNS, indexVNM,
             indexAS, indexAM, indexVS, indexVM, cirkevRok;
-    public static boolean feria, nedela, pohyb, maria;
+    public static boolean feria, nedela, pohyb;
     public static boolean nast_farbu, spevO, modlitbaO, prosbyO, citanie1O, zalmO, alelujaO, evanjeliumO;
     List<String[]> formArray = new ArrayList<>();
     List<String> eucharistiaArray = new ArrayList<>();
@@ -113,13 +113,6 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             cirkevRok = (rok + 1) % 3;
         else
             cirkevRok = rok % 3;
-        if (!feria) {
-            String m = Character.toString(ID.charAt(ID.length() - 1));
-            if (m.equals("m")) {
-                ID = ID.substring(0, ID.length() - 1);
-                maria = true;
-            }
-        }
         if (menoSvatca.equals("Sedembolestnej Panny Márie, patrónky Slovenska") || (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) ||
                 ID.equals("2gkp") || ID.equals("3gkp") || ID.equals("4gkp"))
             sequence = true;
@@ -1864,9 +1857,6 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         CharSequence[] toReturn = new CharSequence[formArray.size()];
         for(int i = 0; i < formArray.size(); i++){
             toReturn[i] = formArray.get(i)[2];
-            Log.d("vyprintuj", formArray.get(i)[0]);
-            Log.d("vyprintuj", formArray.get(i)[1]);
-            Log.d("vyprintuj", formArray.get(i)[2]);
         }
         return toReturn;
     }
@@ -2474,7 +2464,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
              *  ukon = ukonKajucnosti[9][1]; - za zosnulých*/
             if (ID.equals("2gkp") || ID.equals("3gkp"))
                 ukon = ukonKajucnosti[7][1];
-            else if (maria)
+            else if (ID.contains("m"))
                 ukon = ukonKajucnosti[8][1];
             else if (ID.equals("6gkp"))
                 ukon = ukonKajucnosti[6][1];
@@ -2674,7 +2664,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             vypisAlebo(missas, aleboCitanie1, 11);
         missas.add(new Missa(null, prve_citanie.toUpperCase(), prve_citanie_suradnice, prve_citanie_citat, prve_citanie_vypis, true, -2));
         missas.add(new Missa(1)); //medzera mala
-        if (aleboZalm != null)
+        if (aleboZalm != null && !ID.equals("10gkp") && !ID.equals("11gkp") && !nadpis.equals("Omša v čase pandémie"))
             vypisAlebo(missas, aleboZalm, 14);
         missas.add(new Missa(null, zalm.toUpperCase(), zalm_suradnice, null, zalm_vypis, true, 0));
         missas.add(new Missa(1)); //medzera mala
@@ -2834,7 +2824,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         prve_citanie_suradnice = aleboCitanie1[0][0];
                         prve_citanie_citat = aleboCitanie1[0][1];
                         prve_citanie_vypis = aleboCitanie1[0][2];
-                        if (ID.equals("10gkp") || ID.equals("11gkp")) {
+                        if (ID.equals("10gkp") || ID.equals("11gkp") || nadpis.equals("Omša v čase pandémie")) {
                             changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
                             zalm_suradnice = aleboZalm[0][0];
                             zalm_vypis = aleboZalm[0][1];
@@ -2865,12 +2855,12 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
                         zalm_suradnice = aleboZalm[0][0];
                         zalm_vypis = aleboZalm[0][1];
-                        if (ID.equals("10gkp") || ID.equals("11gkp")) {
+                        /*if (ID.equals("10gkp") || ID.equals("11gkp")) {
                             changeAleboCitanie(aleboCitanie1, missa.getIndexAlebo());
                             prve_citanie_suradnice = aleboCitanie1[0][0];
                             prve_citanie_citat = aleboCitanie1[0][1];
                             prve_citanie_vypis = aleboCitanie1[0][2];
-                        }
+                        }*/
                         pozicia_listview = position;
                         vypis();
                         break;
