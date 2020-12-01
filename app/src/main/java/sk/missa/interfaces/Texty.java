@@ -401,7 +401,7 @@ public interface Texty {
                     "a príchod nášho Spasiteľa Ježiša Krista.",
             "Zopne ruky.\n" +
                     "Ľud zakľúči modlitbu zvolaním:",
-            "Lebo tvoje je kráľovstvo a moc i sláva naveky.",};
+            "Lebo tvoje je kráľovstvo a moc i sláva naveky."};
 
 
     String[] obrad_pokoja_text = {"Obrad pokoja",
