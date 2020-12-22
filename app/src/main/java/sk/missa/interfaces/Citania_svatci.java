@@ -1129,8 +1129,9 @@ public interface Citania_svatci {
             {"21", "", "", " Pies 2, 8-14",
                     "Hľa, môj milý prichádza, po\u00A0horách skáče",
                     "Čítanie z Piesne piesní<br>" +
-                            "Hlas môjho milého! Hľa, on prichádza, po\u00A0horách skáče, po\u00A0vŕškoch hupká. Milý môj je sťa srna, ako jeleníča. Hľa, veď už stojí pred\u00A0naším múrom; oblôčkom hľadí, cez\u00A0mriežku sa díva. Môj milý mi hovorí: \"Hor' sa, priateľka moja, holubica moja, krásava moja, a poď! Veď už je po\u00A0zime, dážď prestal, pominul. Na\u00A0zemi sa zjavili kvety, prišiel čas veselého spevu, hrkútanie hrdličky počuť v\u00A0našom kraji, fígovník vydáva svoje plody, vinič roznáša vôňu v\u00A0rozkvete. Nuž, hor' sa, priateľka moja, krásava moja, a poď! Holubica moja v\u00A0rozsadlinách skál, v\u00A0úkryte na\u00A0bralách! Daj zrieť mi svoju tvár, daj počuť mi svoj hlas; veď sladký je tvoj hlas a prekrásna je tvoja tvár.\"",
-                    "Alebo:",
+                            "Hlas môjho milého! Hľa, on prichádza, po\u00A0horách skáče, po\u00A0vŕškoch hupká. Milý môj je sťa srna, ako jeleníča. Hľa, veď už stojí pred\u00A0naším múrom; oblôčkom hľadí, cez\u00A0mriežku sa díva. Môj milý mi hovorí: \"Hor' sa, priateľka moja, holubica moja, krásava moja, a poď! Veď už je po\u00A0zime, dážď prestal, pominul. Na\u00A0zemi sa zjavili kvety, prišiel čas veselého spevu, hrkútanie hrdličky počuť v\u00A0našom kraji, fígovník vydáva svoje plody, vinič roznáša vôňu v\u00A0rozkvete. Nuž, hor' sa, priateľka moja, krásava moja, a poď! Holubica moja v\u00A0rozsadlinách skál, v\u00A0úkryte na\u00A0bralách! Daj zrieť mi svoju tvár, daj počuť mi svoj hlas; veď sladký je tvoj hlas a prekrásna je tvoja tvár.\"<br>"+
+                            "Počuli sme Božie slovo.",
+                            "Alebo:",
                     "Sof 3, 14-18a",
                     "Kráľ Izraela, Pán, je s\u00A0tebou",
                     "Čítanie z Knihy proroka Sofoniáša<br>" +

@@ -370,122 +370,122 @@ public interface Zalmy_svatci {
                             "Spievajte Pánovi pieseň novú, <font color='#B71C1C'>*</font><br>" +
                             "lebo vykonal veci zázračné.<br>" +
                             "Víťazstvo je dielom jeho pravice <font color='#B71C1C'>*</font><br>" +
-                            "a jeho svätého ramena. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "a jeho svätého ramena. <font color='#B71C1C'>– R.</font><br>" +
                             "Pán oznámil svoju spásu, <font color='#B71C1C'>*</font><br>" +
                             "pred očami pohanov vyjavil svoju spravodlivosť.<br>" +
                             "Rozpamätal sa na svoju dobrotu <font color='#B71C1C'>*</font><br>" +
-                            "a na svoju vernosť voči Izraelovmu domu. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "a na svoju vernosť voči Izraelovmu domu. <font color='#B71C1C'>– R.</font><br>" +
                             "Uzreli všetky končiny zeme <font color='#B71C1C'>*</font><br>" +
                             "spásu nášho Boha.<br>" +
                             "Na chválu Božiu jasaj, celá zem; <font color='#B71C1C'>*</font><br>" +
-                            "plesajte, radujte sa a hrajte. <font color=‘#B71C1C’>– R.</font>"},
+                            "plesajte, radujte sa a hrajte. <font color='#B71C1C'>– R.</font>"},
             // Svätej rodiny
             {"10gkp", "A", "", "Ž 128, 1-2. 3. 4-5",
                     "<font color='#B71C1C'>R.:</font> Blažení sú všetci, čo sa boja Pána a kráčajú po jeho cestách.<br><br>" +
                     "Blažený každý, čo sa bojí Pána <font color='#B71C1C'>*</font><br>" +
                     "a kráča po jeho cestách.<br>" +
                     "Budeš jesť z práce svojich rúk; <font color='#B71C1C'>*</font><br>" +
-                    "budeš šťastný a budeš sa mať dobre. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "budeš šťastný a budeš sa mať dobre. <font color='#B71C1C'>– R.</font><br>" +
                     "Tvoja manželka je ako plodonosný vinič <font color='#B71C1C'>*</font><br>" +
                     "vnútri tvojho domu.<br>" +
                     "Tvoji synovia sú ako mládniky olivy <font color='#B71C1C'>*</font><br>" +
-                    "okolo tvojho stola. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "okolo tvojho stola. <font color='#B71C1C'>– R.</font><br>" +
                     "Veru, tak bude požehnaný muž, <font color='#B71C1C'>*</font><br>" +
                     "ktorý sa bojí Pána.<br>" +
                     "Nech ťa žehná Pán zo Siona, †<br>" +
                     "aby si videl šťastie Jeruzalema <font color='#B71C1C'>*</font><br>" +
-                    "po všetky dni svojho života. <font color=‘#B71C1C’>– R.</font>"},
+                    "po všetky dni svojho života. <font color='#B71C1C'>– R.</font>"},
             {"", "B", "", "Ž 128, 1-2. 3. 4-5",
                     "<font color='#B71C1C'>R.:</font> Blažení sú všetci, čo sa boja Pána a kráčajú po jeho cestách.<br><br>" +
                     "Blažený každý, čo sa bojí Pána <font color='#B71C1C'>*</font><br>" +
                     "a kráča po jeho cestách.<br>" +
                     "Budeš jesť z práce svojich rúk; <font color='#B71C1C'>*</font><br>" +
-                    "budeš šťastný a budeš sa mať dobre. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "budeš šťastný a budeš sa mať dobre. <font color='#B71C1C'>– R.</font><br>" +
                     "Tvoja manželka je ako plodonosný vinič <font color='#B71C1C'>*</font><br>" +
                     "vnútri tvojho domu.<br>" +
                     "Tvoji synovia sú ako mládniky olivy <font color='#B71C1C'>*</font><br>" +
-                    "okolo tvojho stola. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "okolo tvojho stola. <font color='#B71C1C'>– R.</font><br>" +
                     "Veru, tak bude požehnaný muž, <font color='#B71C1C'>*</font><br>" +
                     "ktorý sa bojí Pána.<br>" +
                     "Nech ťa žehná Pán zo Siona, †<br>" +
                     "aby si videl šťastie Jeruzalema <font color='#B71C1C'>*</font><br>" +
-                    "po všetky dni svojho života. <font color=‘#B71C1C’>– R.</font>",
+                    "po všetky dni svojho života. <font color='#B71C1C'>– R.</font>",
                     "Alebo:",
                     "Ž 105, 1b-2. 3-4. 5-6. 8-9",
                     "<font color='#B71C1C'>R.:</font> On je náš Pán a Boh, večne pamätá na svoju zmluvu.<br><br>" +
                     "Oslavujte Pána a vzývajte jeho meno, <font color='#B71C1C'>*</font><br>" +
                     "rozhlasujte jeho skutky medzi národmi.<br>" +
                     "Spievajte mu a hrajte, <font color='#B71C1C'>*</font><br>" +
-                    "rozprávajte o jeho obdivuhodných skutkoch. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "rozprávajte o jeho obdivuhodných skutkoch. <font color='#B71C1C'>– R.</font><br>" +
                     "Jeho svätým menom sa honoste; <font color='#B71C1C'>*</font><br>" +
                     "nech sa radujú srdcia tých, čo hľadajú Pána.<br>" +
                     "Hľadajte Pána a jeho moc, <font color='#B71C1C'>*</font><br>" +
-                    "hľadajte vždy jeho tvár. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "hľadajte vždy jeho tvár. <font color='#B71C1C'>– R.</font><br>" +
                     "Pamätajte na divy, čo učinil, <font color='#B71C1C'>*</font><br>" +
                     "na jeho znamenia a na výroky jeho úst,<br>" +
                     "vy, potomci Abraháma, Pánovho služobníka, <font color='#B71C1C'>*</font><br>" +
-                    "synovia Jakuba, vyvoleného Pánovho. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "synovia Jakuba, vyvoleného Pánovho. <font color='#B71C1C'>– R.</font><br>" +
                     "Večne pamätá na svoju zmluvu, <font color='#B71C1C'>*</font><br>" +
                     "na sľub, ktorý dal pokoleniam tisícim,<br>" +
                     "na zmluvu, čo s Abrahámom uzavrel, <font color='#B71C1C'>*</font><br>" +
-                    "na prísahu, ktorou sa Izákovi zaviazal. <font color=‘#B71C1C’>– R.</font>"},
+                    "na prísahu, ktorou sa Izákovi zaviazal. <font color='#B71C1C'>– R.</font>"},
             {"", "C", "", "Ž 128, 1-2. 3. 4-5",
                     "<font color='#B71C1C'>R.:</font> Blažení sú všetci, čo sa boja Pána a kráčajú po jeho cestách.<br><br>" +
                             "Blažený každý, čo sa bojí Pána <font color='#B71C1C'>*</font><br>" +
                             "a kráča po jeho cestách.<br>" +
                             "Budeš jesť z práce svojich rúk; <font color='#B71C1C'>*</font><br>" +
-                            "budeš šťastný a budeš sa mať dobre. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "budeš šťastný a budeš sa mať dobre. <font color='#B71C1C'>– R.</font><br>" +
                             "Tvoja manželka je ako plodonosný vinič <font color='#B71C1C'>*</font><br>" +
                             "vnútri tvojho domu.<br>" +
                             "Tvoji synovia sú ako mládniky olivy <font color='#B71C1C'>*</font><br>" +
-                            "okolo tvojho stola. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "okolo tvojho stola. <font color='#B71C1C'>– R.</font><br>" +
                             "Veru, tak bude požehnaný muž, <font color='#B71C1C'>*</font><br>" +
                             "ktorý sa bojí Pána.<br>" +
                             "Nech ťa žehná Pán zo Siona, †<br>" +
                             "aby si videl šťastie Jeruzalema <font color='#B71C1C'>*</font><br>" +
-                            "po všetky dni svojho života. <font color=‘#B71C1C’>– R.</font>",
+                            "po všetky dni svojho života. <font color='#B71C1C'>– R.</font>",
                     "Alebo:",
                     "Ž 84, 2-3. 5-6. 9-10",
                     "<font color='#B71C1C'>R.:</font> Blažení tí, čo bývajú v tvojom dome, Pane.<br><br>" +
                     "Aké milé sú tvoje príbytky, Pane zástupov; <font color='#B71C1C'>*</font><br>" +
                     "túži a zmiera moja duša po nádvoriach Pánových.<br>" +
                     "Moje srdce i moje telo <font color='#B71C1C'>*</font><br>" +
-                    "vznášajú sa k Bohu živému. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "vznášajú sa k Bohu živému. <font color='#B71C1C'>– R.</font><br>" +
                     "Blažení tí, čo bývajú v tvojom dome <font color='#B71C1C'>*</font><br>" +
                     "a bez prestania ťa velebia.<br>" +
                     "Blažený človek, ktorému ty pomáhaš, <font color='#B71C1C'>*</font><br>" +
-                    "keď sa chystá na svätú púť. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "keď sa chystá na svätú púť. <font color='#B71C1C'>– R.</font><br>" +
                     "Pane, Bože zástupov, čuj moju modlitbu, <font color='#B71C1C'>*</font><br>" +
                     "vypočuj ma, Bože Jakubov.<br>" +
                     "Bože, náš ochranca, pohliadni <font color='#B71C1C'>*</font><br>" +
-                    "a pozri na tvár svojho pomazaného. <font color=‘#B71C1C’>– R.</font>"},
+                    "a pozri na tvár svojho pomazaného. <font color='#B71C1C'>– R.</font>"},
             //Krst Krista Pána
             {"11gkp", "A", "", "Ž 29, 1a+2. 3ac-4. 3b+9c-10",
                     "<font color='#B71C1C'>R.:</font> Pán požehná svoj ľud pokojom.<br><br>" +
                     "Vzdávajte Pánovi, synovia Boží, †<br>" +
                     "vzdávajte Pánovi slávu hodnu jeho mena, <font color='#B71C1C'>*</font><br>" +
-                    "v posvätnom rúchu klaňajte sa pánovi. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "v posvätnom rúchu klaňajte sa pánovi. <font color='#B71C1C'>– R.</font><br>" +
                     "Hlas Pánov nad vodami; <font color='#B71C1C'>*</font><br>" +
                     "Pán nad veľkými vodami!<br>" +
                     "Hlas Pánov taký mohutný! <font color='#B71C1C'>*</font><br>" +
-                    "Hlas pánov taký veľkolepý! <font color=‘#B71C1C’>– R.</font><br>" +
+                    "Hlas pánov taký veľkolepý! <font color='#B71C1C'>– R.</font><br>" +
                     "Zahrmel Boh veleby <font color='#B71C1C'>*</font><br>" +
                     "a v jeho chráme všetci volajú: Sláva!<br>" +
                     "Pán tróni nad záplavami vôd, <font color='#B71C1C'>*</font><br>" +
-                    "Pán bude tróniť ako večný kráľ. <font color=‘#B71C1C’>– R.</font>"},
+                    "Pán bude tróniť ako večný kráľ. <font color='#B71C1C'>– R.</font>"},
             {"", "B", "", "Ž 29, 1a+2. 3ac-4. 3b+9c-10",
                     "<font color='#B71C1C'>R.:</font> Pán požehná svoj ľud pokojom.<br><br>" +
                             "Vzdávajte Pánovi, synovia Boží, †<br>" +
                             "vzdávajte Pánovi slávu hodnu jeho mena, <font color='#B71C1C'>*</font><br>" +
-                            "v posvätnom rúchu klaňajte sa pánovi. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "v posvätnom rúchu klaňajte sa pánovi. <font color='#B71C1C'>– R.</font><br>" +
                             "Hlas Pánov nad vodami; <font color='#B71C1C'>*</font><br>" +
                             "Pán nad veľkými vodami!<br>" +
                             "Hlas Pánov taký mohutný! <font color='#B71C1C'>*</font><br>" +
-                            "Hlas pánov taký veľkolepý! <font color=‘#B71C1C’>– R.</font><br>" +
+                            "Hlas pánov taký veľkolepý! <font color='#B71C1C'>– R.</font><br>" +
                             "Zahrmel Boh veleby <font color='#B71C1C'>*</font><br>" +
                             "a v jeho chráme všetci volajú: Sláva!<br>" +
                             "Pán tróni nad záplavami vôd, <font color='#B71C1C'>*</font><br>" +
-                            "Pán bude tróniť ako večný kráľ. <font color=‘#B71C1C’>– R.</font>",
+                            "Pán bude tróniť ako večný kráľ. <font color='#B71C1C'>– R.</font>",
                     "Alebo:",
                     "Iz 12, 2-3. 4b-d. 5-6",
                     "<font color='#B71C1C'>R.:</font> Čerpajme vodu s radosťou z prameňov spásy.<br><br>" +
@@ -494,54 +494,54 @@ public interface Zalmy_svatci {
                     "lebo moja sila a chvála je Pán, <font color='#B71C1C'>*</font><br>" +
                     "on sa mi stal záchrancom.\"<br>" +
                     "Budete čerpať vodu s radosťou <font color='#B71C1C'>*</font><br>" +
-                    "z prameňov spásy. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "z prameňov spásy. <font color='#B71C1C'>– R.</font><br>" +
                     "\"Oslavujte Pána a vzývajte jeho meno, †<br>" +
                     "ohlasujte medzi národmi jeho zázraky, <font color='#B71C1C'>*</font><br>" +
-                    "pamätajte, že jeho meno je vznešené. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "pamätajte, že jeho meno je vznešené. <font color='#B71C1C'>– R.</font><br>" +
                     "Spievajte Pánovi, lebo urobil veľké veci; <font color='#B71C1C'>*</font><br>" +
                     "nech je to známe po celej zemi.<br>" +
                     "Plesaj a jasaj, obyvateľka Siona, <font color='#B71C1C'>*</font><br>" +
-                    "lebo veľký uprostred teba je Svätý Izraela.\" <font color=‘#B71C1C’>– R.</font>"},
+                    "lebo veľký uprostred teba je Svätý Izraela.\" <font color='#B71C1C'>– R.</font>"},
             {"", "C", "", "Ž 29, 1a+2. 3ac-4. 3b+9c-10",
                     "<font color='#B71C1C'>R.:</font> Pán požehná svoj ľud pokojom.<br><br>" +
                             "Vzdávajte Pánovi, synovia Boží, †<br>" +
                             "vzdávajte Pánovi slávu hodnu jeho mena, <font color='#B71C1C'>*</font><br>" +
-                            "v posvätnom rúchu klaňajte sa pánovi. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "v posvätnom rúchu klaňajte sa pánovi. <font color='#B71C1C'>– R.</font><br>" +
                             "Hlas Pánov nad vodami; <font color='#B71C1C'>*</font><br>" +
                             "Pán nad veľkými vodami!<br>" +
                             "Hlas Pánov taký mohutný! <font color='#B71C1C'>*</font><br>" +
-                            "Hlas pánov taký veľkolepý! <font color=‘#B71C1C’>– R.</font><br>" +
+                            "Hlas pánov taký veľkolepý! <font color='#B71C1C'>– R.</font><br>" +
                             "Zahrmel Boh veleby <font color='#B71C1C'>*</font><br>" +
                             "a v jeho chráme všetci volajú: Sláva!<br>" +
                             "Pán tróni nad záplavami vôd, <font color='#B71C1C'>*</font><br>" +
-                            "Pán bude tróniť ako večný kráľ. <font color=‘#B71C1C’>– R.</font>",
+                            "Pán bude tróniť ako večný kráľ. <font color='#B71C1C'>– R.</font>",
                     "Alebo:",
                     "Ž 104, 1b-2. 3-4. 24-25. 27-28. 29-30",
                     "<font color='#B71C1C'>R.:</font> Dobroreč, duša moja, Pánovi; on je nesmierne veľký.<br><br>" +
                     "Pane, Bože môj, ty si nesmierne veľký. <font color='#B71C1C'>*</font><br>" +
                     "Odel si sa do slávy a veleby,<br>" +
                     "do svetla si sa zahalil ako do rúcha. <font color='#B71C1C'>*</font><br>" +
-                    "Nebesia rozpínaš ako stan, <font color=‘#B71C1C’>– R.</font><br>" +
+                    "Nebesia rozpínaš ako stan, <font color='#B71C1C'>– R.</font><br>" +
                     "nad vodami si buduješ komnaty. †<br>" +
                     "Po oblakoch vystupuješ ako po schodoch, <font color='#B71C1C'>*</font><br>" +
                     "na krídlach vánku sa prechádzaš.<br>" +
                     "Vetry sú tvojimi poslami, <font color='#B71C1C'>*</font><br>" +
-                    "ohnivé plamene tvojimi služobníkmi. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "ohnivé plamene tvojimi služobníkmi. <font color='#B71C1C'>– R.</font><br>" +
                     "Aké mnohoraké sú tvoje diela, Pane! †<br>" +
                     "Všetko si múdro urobil. <font color='#B71C1C'>*</font><br>" +
                     "Zem je plná tvojho stvorenstva.<br>" +
                     "Tu more veľké, dlhé a široké, †<br>" +
                     "v ňom sa hemžia plazy bez počtu, <font color='#B71C1C'>*</font><br>" +
-                    "živočíchy drobné i obrovské. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "živočíchy drobné i obrovské. <font color='#B71C1C'>– R.</font><br>" +
                     "Všetko to čaká na teba, <font color='#B71C1C'>*</font><br>" +
                     "že im dáš pokrm v pravý čas.<br>" +
                     "Ty im ho dávaš a ony ho zbierajú; <font color='#B71C1C'>*</font><br>" +
-                    "otváraš svoju ruku, sýtia sa dobrotami. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "otváraš svoju ruku, sýtia sa dobrotami. <font color='#B71C1C'>– R.</font><br>" +
                     "Len čo odvrátiš svoju tvár, už sa trasú; †<br>" +
                     "odnímaš im dych a hneď hynú <font color='#B71C1C'>*</font><br>" +
                     "a vracajú sa do prachu.<br>" +
                     "Keď zošleš svojho ducha, sú stvorené <font color='#B71C1C'>*</font><br>" +
-                    "a obnovuješ tvárnosť zeme. <font color=‘#B71C1C’>– R.</font>"},
+                    "a obnovuješ tvárnosť zeme. <font color='#B71C1C'>– R.</font>"},
     };
 
     String[][] zalm1 = {
@@ -552,201 +552,201 @@ public interface Zalmy_svatci {
                     "Chváľ, Jeruzalem, Pána, <font color='#B71C1C'>*</font><br>" +
                     "oslavuj, Sion, svojho Boha.<br>" +
                     "Lebo upevnil závory tvojich brán <font color='#B71C1C'>*</font><br>" +
-                    "a požehnal tvojich synov v tebe. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a požehnal tvojich synov v tebe. <font color='#B71C1C'>– R.</font><br>" +
                     "Zaisťuje pokoj tvojim hraniciam, <font color='#B71C1C'>*</font><br>" +
                     "sýti ťa najlepšou pšenicou.<br>" +
                     "Svoj rozkaz na zem zosiela; <font color='#B71C1C'>*</font><br>" +
-                    "rýchlo sa šíri jeho slovo. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "rýchlo sa šíri jeho slovo. <font color='#B71C1C'>– R.</font><br>" +
                     "On svoje slovo zvestuje Jakubovi, <font color='#B71C1C'>*</font><br>" +
                     "svoje zákony a prikázania Izraelovi.<br>" +
                     "Neurobil tak iným národom, <font color='#B71C1C'>*</font><br>" +
-                    "nezjavil im svoje zámery. <font color=‘#B71C1C’>– R.</font>"},
+                    "nezjavil im svoje zámery. <font color='#B71C1C'>– R.</font>"},
 
             {"01gk", "", "", "Ž 67, 2-3. 5. 6+8",
                     "<font color='#B71C1C'>R.:</font> Bože, buď nám milostivý a žehnaj nás.<br><br>" +
                     "Bože, buď nám milostivý a žehnaj nás; <font color='#B71C1C'>*</font><br>" +
                     "a tvoja tvár nech žiari nad nami,<br>" +
                     "aby sa tvoja cesta stala známou na zemi <font color='#B71C1C'>*</font><br>" +
-                    "a tvoja spása medzi všetkými národmi. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a tvoja spása medzi všetkými národmi. <font color='#B71C1C'>– R.</font><br>" +
                     "Nech sa tešia a jasajú národy, †<br>" +
                     "že spravodlivo súdiš ľudí <font color='#B71C1C'>*</font><br>" +
-                    "a spravuješ národy na zemi. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a spravuješ národy na zemi. <font color='#B71C1C'>– R.</font><br>" +
                     "Bože, nech ťa velebia národy, <font color='#B71C1C'>*</font><br>" +
                     "nech ťa velebia všetky národy.<br>" +
                     "Nech nás Boh požehná <font color='#B71C1C'>*</font><br>" +
-                    "a nech si ho ctia všetky končiny zeme. <font color=‘#B71C1C’>– R.</font>"},
+                    "a nech si ho ctia všetky končiny zeme. <font color='#B71C1C'>– R.</font>"},
             {"2", "", "", "Ž 98, 1. 2-3b. 3c-4",
                     "<font color='#B71C1C'>R.:</font> Uzreli všetky končiny zeme spásu nášho Boha.<br><br>" +
                     "Spievajte Pánovi pieseň novú, <font color='#B71C1C'>*</font><br>" +
                     "lebo vykonal veci zázračné.<br>" +
                     "Víťazstvo je dielom jeho pravice <font color='#B71C1C'>*</font><br>" +
-                    "a jeho svätého ramena. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a jeho svätého ramena. <font color='#B71C1C'>– R.</font><br>" +
                     "Pán oznámil svoju spásu, <font color='#B71C1C'>*</font><br>" +
                     "pred očami pohanov vyjavil svoju spravodlivosť.<br>" +
                     "Rozpamätal sa na svoju dobrotu <font color='#B71C1C'>*</font><br>" +
-                    "a na svoju vernosť voči Izraelovmu domu. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a na svoju vernosť voči Izraelovmu domu. <font color='#B71C1C'>– R.</font><br>" +
                     "Uzreli všetky končiny zeme <font color='#B71C1C'>*</font><br>" +
                     "spásu nášho Boha.<br>" +
                     "Na chválu Božiu jasaj, celá zem; <font color='#B71C1C'>*</font><br>" +
-                    "plesajte, radujte sa a hrajte. <font color=‘#B71C1C’>– R.</font>"},
+                    "plesajte, radujte sa a hrajte. <font color='#B71C1C'>– R.</font>"},
             {"3", "", "", "Ž 98, 1. 3c-4. 5-6",
                     "<font color='#B71C1C'>R.:</font> Uzreli všetky končiny zeme spásu nášho Boha.<br><br>" +
                     "Spievajte Pánovi pieseň novú, <font color='#B71C1C'>*</font><br>" +
                     "lebo vykonal veci zázračné.<br>" +
                     "Víťazstvo je dielom jeho pravice <font color='#B71C1C'>*</font><br>" +
-                    "a jeho svätého ramena. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a jeho svätého ramena. <font color='#B71C1C'>– R.</font><br>" +
                     "Uzreli všetky končiny zeme <font color='#B71C1C'>*</font><br>" +
                     "spásu nášho Boha.<br>" +
                     "Na chválu Božiu jasaj, celá zem; <font color='#B71C1C'>*</font><br>" +
-                    "plesajte, radujte sa a hrajte. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "plesajte, radujte sa a hrajte. <font color='#B71C1C'>– R.</font><br>" +
                     "Hrajte Pánovi na citare, <font color='#B71C1C'>*</font><br>" +
                     "na citare a na harfe zunivej.<br>" +
                     "Za hlaholu trúb a poľníc <font color='#B71C1C'>*</font><br>" +
-                    "jasajte pred tvárou Kráľa a Pána. <font color=‘#B71C1C’>– R.</font>"},
+                    "jasajte pred tvárou Kráľa a Pána. <font color='#B71C1C'>– R.</font>"},
             {"03a", "", "", "Ž 8, 4-5. 6-7. 8-9",
                     "<font color='#B71C1C'>R.:</font> Pane, náš Vládca, aké vznešené je tvoje meno na celej zemi!<br><br>" +
                             "Keď hľadím na nebesia, dielo tvojich rúk, <font color='#B71C1C'>*</font><br>" +
                             "na mesiac a na hviezdy, ktoré si ty stvoril:<br>" +
                             "čože je človek, že naň pamätáš, <font color='#B71C1C'>*</font><br>" +
-                            "a syn človeka, že sa ho ujímaš? <font color=‘#B71C1C’>– R.</font><br>" +
+                            "a syn človeka, že sa ho ujímaš? <font color='#B71C1C'>– R.</font><br>" +
                             "Stvoril si ho len o niečo menšieho od anjelov, <font color='#B71C1C'>*</font><br>" +
                             "slávou a cťou si ho ovenčil<br>" +
                             "a ustanovil si ho za vládcu nad dielami tvojich rúk. <font color='#B71C1C'>*</font><br>" +
-                            "Všetko si mu položil pod nohy: <font color=‘#B71C1C’>– R.</font><br>" +
+                            "Všetko si mu položil pod nohy: <font color='#B71C1C'>– R.</font><br>" +
                             "ovce a všetok domáci statok <font color='#B71C1C'>*</font><br>" +
                             "aj všetku poľnú zver,<br>" +
                             "vtáctvo pod oblohou a ryby v mori <font color='#B71C1C'>*</font><br>" +
-                            "i všetko, čo sa hýbe po dne morskom. <font color=‘#B71C1C’>– R.</font>"},
+                            "i všetko, čo sa hýbe po dne morskom. <font color='#B71C1C'>– R.</font>"},
             {"4", "", "", "Ž 98, 1. 7-8. 9",
                     "<font color='#B71C1C'>R.:</font> Uzreli všetky končiny zeme spásu nášho Boha.<br><br>" +
                     "Spievajte Pánovi pieseň novú, <font color='#B71C1C'>*</font><br>" +
                     "lebo vykonal veci zázračné.<br>" +
                     "Víťazstvo je dielom jeho pravice <font color='#B71C1C'>*</font><br>" +
-                    "a jeho svätého ramena. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a jeho svätého ramena. <font color='#B71C1C'>– R.</font><br>" +
                     "Zahuč, more a všetko, čo ho napĺňa, <font color='#B71C1C'>*</font><br>" +
                     "zemekruh a všetci, čo na ňom bývajú.<br>" +
                     "Tlieskajte, rieky, rukami, <font color='#B71C1C'>*</font><br>" +
-                    "jasajte s nimi, vrchy, <font color=‘#B71C1C’>– R.</font><br>" +
+                    "jasajte s nimi, vrchy, <font color='#B71C1C'>– R.</font><br>" +
                     "pred tvárou Pánovou, lebo prichádza súdiť zem. †<br>" +
                     "Spravodlivo bude súdiť zemekruh <font color='#B71C1C'>*</font><br>" +
-                    "a podľa práva národy. <font color=‘#B71C1C’>– R.</font>"},
+                    "a podľa práva národy. <font color='#B71C1C'>– R.</font>"},
             {"5", "", "", "Ž 100, 2. 3. 4. 5",
                     "<font color='#B71C1C'>R.:</font> Sme jeho ľud a ovce z jeho stáda.<br><br>" +
                     "Jasaj na chválu Pánovi, celá zem, †<br>" +
                     "s radosťou slúžte Pánovi. <font color='#B71C1C'>*</font><br>" +
-                    "S plesaním vstupujte pred jeho tvár. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "S plesaním vstupujte pred jeho tvár. <font color='#B71C1C'>– R.</font><br>" +
                     "Vedzte, že náš Pán je Boh; †<br>" +
                     "on je náš stvoriteľ a jemu patríme, <font color='#B71C1C'>*</font><br>" +
-                    "sme jeho ľud a ovce z jeho stáda. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "sme jeho ľud a ovce z jeho stáda. <font color='#B71C1C'>– R.</font><br>" +
                     "Vstupujte do jeho brán s piesňou chvály †<br>" +
                     "a do jeho nádvorí s piesňami oslavnými; <font color='#B71C1C'>*</font><br>" +
-                    "chváľte ho a velebte jeho meno. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "chváľte ho a velebte jeho meno. <font color='#B71C1C'>– R.</font><br>" +
                     "Lebo Pán je dobrý; †<br>" +
                     "jeho milosrdenstvo trvá naveky <font color='#B71C1C'>*</font><br>" +
-                    "a jeho vernosť z pokolenia na pokolenie. <font color=‘#B71C1C’>– R.</font>"},
+                    "a jeho vernosť z pokolenia na pokolenie. <font color='#B71C1C'>– R.</font>"},
             {"06gk", "", "", "Ž 72, 1-2. 7-8. 10-11. 12-13",
                     "<font color='#B71C1C'>R.:</font> Budú sa ti klaňať, Pane, všetky národy sveta.<br><br>" +
                     "Bože, zver svoju právomoc kráľovi, <font color='#B71C1C'>*</font><br>" +
                     "kráľovmu synovi svoju spravodlivosť,<br>" +
                     "aby spravodlivo vládol nad tvojím ľudom <font color='#B71C1C'>*</font><br>" +
-                    "a podľa práva nad tvojimi chudobnými. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a podľa práva nad tvojimi chudobnými. <font color='#B71C1C'>– R.</font><br>" +
                     "V jeho dňoch bude prekvitať spravodlivosť<br>" +
                     "a plnosť pokoja, <font color='#B71C1C'>*</font><br>" +
                     "kým mesiac nezhasne.<br>" +
                     "A bude panovať od mora až k moru <font color='#B71C1C'>*</font><br>" +
-                    "a od Rieky až na kraj zeme. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a od Rieky až na kraj zeme. <font color='#B71C1C'>– R.</font><br>" +
                     "Králi Taršišu a ostrovov prinesú mu dary, <font color='#B71C1C'>*</font><br>" +
                     "oddajú mu dane králi Arabov aj zo Sáby.<br>" +
                     "Budú sa mu klaňať všetci králi, <font color='#B71C1C'>*</font><br>" +
-                    "slúžiť mu budú všetky národy. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "slúžiť mu budú všetky národy. <font color='#B71C1C'>– R.</font><br>" +
                     "On vyslobodí bedára, čo volá k nemu, <font color='#B71C1C'>*</font><br>" +
                     "i chudobného, ktorému nik nepomáha.<br>" +
                     "Zmiluje sa nad chudobným a bedárom, <font color='#B71C1C'>*</font><br>" +
-                    "zachráni život úbožiakom. <font color=‘#B71C1C’>– R.</font>"},
+                    "zachráni život úbožiakom. <font color='#B71C1C'>– R.</font>"},
             {"7", "", "", "Ž 2, 7-8. 10-11",
                     "<font color='#B71C1C'>R.:</font> Otec dal Synovi kráľovstvo všetkých národov.<br><br>" +
                     "Zvestujem Pánovo rozhodnutie: †<br>" +
                     "Pán mi povedal: \"Ty si môj syn. <font color='#B71C1C'>*</font><br>" +
                     "Ja som ťa dnes splodil.<br>" +
                     "Žiadaj si odo mňa a dám ti do dedičstva národy <font color='#B71C1C'>*</font><br>" +
-                    "a do vlastníctva celú zem.\" <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a do vlastníctva celú zem.\" <font color='#B71C1C'>– R.</font><br>" +
                     "A teraz, králi, pochopte; <font color='#B71C1C'>*</font><br>" +
                     "dajte si povedať, pozemskí vladári.<br>" +
                     "V bázni slúžte Pánovi <font color='#B71C1C'>*</font><br>" +
-                    "a s chvením sa mu klaňajte. <font color=‘#B71C1C’>– R.</font>"},
+                    "a s chvením sa mu klaňajte. <font color='#B71C1C'>– R.</font>"},
             {"8", "", "", "Ž 72, 1-2. 3-4b. 7-8",
                     "<font color='#B71C1C'>R.:</font> Budú sa ti klaňať, Pane, všetky národy sveta.<br><br>" +
                     "Bože, zver svoju právomoc kráľovi, <font color='#B71C1C'>*</font><br>" +
                     "kráľovmu synovi svoju spravodlivosť,<br>" +
                     "aby spravodlivo vládol nad tvojím ľudom <font color='#B71C1C'>*</font><br>" +
-                    "a podľa práva nad tvojimi chudobnými. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a podľa práva nad tvojimi chudobnými. <font color='#B71C1C'>– R.</font><br>" +
                     "Vrchy nech ľudu prinesú pokoj <font color='#B71C1C'>*</font><br>" +
                     "a pahorky spravodlivosť.<br>" +
                     "Prisúdi právo ľuďom úbohým, <font color='#B71C1C'>*</font><br>" +
-                    "poskytne pomoc deťom bedára. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "poskytne pomoc deťom bedára. <font color='#B71C1C'>– R.</font><br>" +
                     "V jeho dňoch bude prekvitať spravodlivosť<br>" +
                     "a plnosť pokoja, <font color='#B71C1C'>*</font><br>" +
                     "kým mesiac nezhasne.<br>" +
                     "A bude panovať od mora až k moru <font color='#B71C1C'>*</font><br>" +
-                    "a od Rieky až na kraj zeme. <font color=‘#B71C1C’>– R.</font>"},
+                    "a od Rieky až na kraj zeme. <font color='#B71C1C'>– R.</font>"},
             {"9", "", "", "Ž 72, 1-2. 10-11. 12-13",
                     "<font color='#B71C1C'>R.:</font> Budú sa ti klaňať, Pane, všetky národy sveta.<br><br>" +
                     "Bože, zver svoju právomoc kráľovi, <font color='#B71C1C'>*</font><br>" +
                     "kráľovmu synovi svoju spravodlivosť,<br>" +
                     "aby spravodlivo vládol nad tvojím ľudom <font color='#B71C1C'>*</font><br>" +
-                    "a podľa práva nad tvojimi chudobnými. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a podľa práva nad tvojimi chudobnými. <font color='#B71C1C'>– R.</font><br>" +
                     "Králi Taršišu a ostrovov prinesú mu dary, <font color='#B71C1C'>*</font><br>" +
                     "oddajú mu dane králi Arabov aj zo Sáby.<br>" +
                     "Budú sa mu klaňať všetci králi, <font color='#B71C1C'>*</font><br>" +
-                    "slúžiť mu budú všetky národy. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "slúžiť mu budú všetky národy. <font color='#B71C1C'>– R.</font><br>" +
                     "On vyslobodí bedára, čo volá k nemu, <font color='#B71C1C'>*</font><br>" +
                     "i chudobného, ktorému nik nepomáha.<br>" +
                     "Zmiluje sa nad chudobným a bedárom, <font color='#B71C1C'>*</font><br>" +
-                    "zachráni život úbožiakom. <font color=‘#B71C1C’>– R.</font>"},
+                    "zachráni život úbožiakom. <font color='#B71C1C'>– R.</font>"},
             {"10", "", "", "Ž 72, 1-2. 14+15bc. 17",
                     "<font color='#B71C1C'>R.:</font> Budú sa ti klaňať, Pane, všetky národy sveta.<br><br>" +
                     "Bože, zver svoju právomoc kráľovi, <font color='#B71C1C'>*</font><br>" +
                     "kráľovmu synovi svoju spravodlivosť,<br>" +
                     "aby spravodlivo vládol nad tvojím ľudom <font color='#B71C1C'>*</font><br>" +
-                    "a podľa práva nad tvojimi chudobnými. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a podľa práva nad tvojimi chudobnými. <font color='#B71C1C'>– R.</font><br>" +
                     "Vyslobodí ich z útlaku a násilia, <font color='#B71C1C'>*</font><br>" +
                     "lebo v jeho očiach je vzácna ich krv.<br>" +
                     "Stále sa budú modliť za neho <font color='#B71C1C'>*</font><br>" +
-                    "a dobrorečiť mu každý deň. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a dobrorečiť mu každý deň. <font color='#B71C1C'>– R.</font><br>" +
                     "Jeho meno nech je velebené naveky; <font color='#B71C1C'>*</font><br>" +
                     "kým bude svietiť slnko, jeho meno potrvá.<br>" +
                     "V ňom budú požehnané všetky kmene zeme, <font color='#B71C1C'>*</font><br>" +
-                    "zvelebovať ho budú všetky národy. <font color=‘#B71C1C’>– R.</font>"},
+                    "zvelebovať ho budú všetky národy. <font color='#B71C1C'>– R.</font>"},
             {"11", "", "", "Ž 147, 12-13. 14-15. 19-20",
                     "<font color='#B71C1C'>R.:</font> Chváľ, Jeruzalem, Pána, oslavuj, Sion, svojho Boha. <br>" +
                     "<font color='#B71C1C'>Alebo:</font> Aleluja.<br><br>" +
                     "Chváľ, Jeruzalem, Pána, <font color='#B71C1C'>*</font><br>" +
                     "oslavuj, Sion, svojho Boha.<br>" +
                     "Lebo upevnil závory tvojich brán <font color='#B71C1C'>*</font><br>" +
-                    "a požehnal tvojich synov v tebe. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a požehnal tvojich synov v tebe. <font color='#B71C1C'>– R.</font><br>" +
                     "Zaisťuje pokoj tvojim hraniciam, <font color='#B71C1C'>*</font><br>" +
                     "sýti ťa najlepšou pšenicou.<br>" +
                     "Svoj rozkaz na zem zosiela; <font color='#B71C1C'>*</font><br>" +
-                    "rýchlo sa šíri jeho slovo. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "rýchlo sa šíri jeho slovo. <font color='#B71C1C'>– R.</font><br>" +
                     "On svoje slovo zvestuje Jakubovi, <font color='#B71C1C'>*</font><br>" +
                     "svoje zákony a prikázania Izraelovi.<br>" +
                     "Neurobil tak iným národom, <font color='#B71C1C'>*</font><br>" +
-                    "nezjavil im svoje zámery. <font color=‘#B71C1C’>– R.</font>"},
+                    "nezjavil im svoje zámery. <font color='#B71C1C'>– R.</font>"},
             {"12", "", "", "Ž 149, 1-2. 3-4. 5-6a+9b",
                     "<font color='#B71C1C'>R.:</font> Pán, Boh, miluje svoj ľud.<br>" +
                     "<font color='#B71C1C'>Alebo:</font> Aleluja.<br><br>" +
                     "Spievajte Pánovi pieseň novú; <font color='#B71C1C'>*</font><br>" +
                     "jeho chvála nech znie v zhromaždení svätých. <br>" +
                     "Nech sa teší Izrael zo svojho Stvoriteľa, <font color='#B71C1C'>*</font><br>" +
-                    "synovia Siona nech jasajú nad svojím kráľom. <font color=‘#B71C1C’>– R.</font> <br>" +
+                    "synovia Siona nech jasajú nad svojím kráľom. <font color='#B71C1C'>– R.</font> <br>" +
                     "Nech oslavujú jeho meno tancom, <font color='#B71C1C'>*</font><br>" +
                     "nech mu hrajú na bubne a na citare. <br>" +
                     "Lebo Pán miluje svoj ľud <font color='#B71C1C'>*</font><br>" +
-                    "a tichých venčí víťazstvom. <font color=‘#B71C1C’>– R.</font> <br>" +
+                    "a tichých venčí víťazstvom. <font color='#B71C1C'>– R.</font> <br>" +
                     "Nech svätí jasajú v sláve, <font color='#B71C1C'>*</font><br>" +
                     "nech sa veselia na svojich lôžkach. <br>" +
                     "Oslavu Boha nech majú na perách; <font color='#B71C1C'>*</font><br>" +
-                    "všetkým jeho svätým to bude na slávu. <font color=‘#B71C1C’>– R.</font>"},
+                    "všetkým jeho svätým to bude na slávu. <font color='#B71C1C'>– R.</font>"},
             {"20g+", "", "", "Ž 31, 3c-4. 6+8ab. 16b-17",
                     "<font color='#B71C1C'>R.:</font> Do tvojich rúk, Pane, porúčam svojho ducha.<br><br>" +
                             "Buď mi skalou útočišťa, <font color='#B71C1C'>*</font><br>" +
@@ -1714,282 +1714,282 @@ public interface Zalmy_svatci {
                     "<font color='#B71C1C'>R.:</font> Choďte do celého sveta a hlásajte evanjelium.<br>" +
                     "<font color='#B71C1C'>Alebo:</font> Aleluja. <br><br>" +
                     "Chváľte Pána, všetky národy, <font color='#B71C1C'>*</font><br>" +
-                    "oslavujte ho, všetci ľudia; <font color=‘#B71C1C’>– R.</font><br>" +
+                    "oslavujte ho, všetci ľudia; <font color='#B71C1C'>– R.</font><br>" +
                     "lebo je veľké jeho milosrdenstvo voči nám <font color='#B71C1C'>*</font><br>" +
-                    "a pravda Pánova trvá naveky. <font color=‘#B71C1C’>– R.</font>"},
+                    "a pravda Pánova trvá naveky. <font color='#B71C1C'>– R.</font>"},
             {"17", "", "", "Ž 72, 1-2. 3-4b. 7-8. 17",
                     "<font color='#B71C1C'>R.:</font> V jeho dňoch bude prekvitať spravodlivosť a plnosť pokoja naveky.<br><br>" +
                             "Bože, zver svoju právomoc kráľovi, <font color='#B71C1C'>*</font><br>" +
                             "kráľovmu synovi svoju spravodlivosť,<br>" +
                             "aby spravodlivo vládol nad tvojím ľudom <font color='#B71C1C'>*</font><br>" +
-                            "a podľa práva nad tvojimi chudobnými. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "a podľa práva nad tvojimi chudobnými. <font color='#B71C1C'>– R.</font><br>" +
                             "Vrchy nech ľudu prinesú pokoj <font color='#B71C1C'>*</font><br>" +
                             "a pahorky spravodlivosť.<br>" +
                             "Prisúdi právo ľuďom úbohým, <font color='#B71C1C'>*</font><br>" +
-                            "poskytne pomoc deťom bedára. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "poskytne pomoc deťom bedára. <font color='#B71C1C'>– R.</font><br>" +
                             "V jeho dňoch bude prekvitať spravodlivosť<br>" +
                             "a plnosť pokoja, <font color='#B71C1C'>*</font><br>" +
                             "kým mesiac nezhasne.<br>" +
                             "A bude panovať od mora až k moru <font color='#B71C1C'>*</font><br>" +
-                            "a od Rieky až na kraj zeme. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "a od Rieky až na kraj zeme. <font color='#B71C1C'>– R.</font><br>" +
                             "Jeho meno nech je velebené naveky; <font color='#B71C1C'>*</font><br>" +
                             "kým bude svietiť slnko, jeho meno potrvá.<br>" +
                             "V ňom budú požehnané všetky kmene zeme, <font color='#B71C1C'>*</font><br>" +
-                            "zvelebovať ho budú všetky národy. <font color=‘#B71C1C’>– R.</font>"},
+                            "zvelebovať ho budú všetky národy. <font color='#B71C1C'>– R.</font>"},
             {"18", "", "", "Ž 72, 1-2. 12-13. 18-19",
                     "<font color='#B71C1C'>R.:</font> V jeho dňoch bude prekvitať spravodlivosť a plnosť pokoja naveky.<br><br>" +
                             "Bože, zver svoju právomoc kráľovi, <font color='#B71C1C'>*</font><br>" +
                             "kráľovmu synovi svoju spravodlivosť,<br>" +
                             "aby spravodlivo vládol nad tvojím ľudom <font color='#B71C1C'>*</font><br>" +
-                            "a podľa práva nad tvojimi chudobnými. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "a podľa práva nad tvojimi chudobnými. <font color='#B71C1C'>– R.</font><br>" +
                             "On vyslobodí bedára, čo volá k nemu, <font color='#B71C1C'>*</font><br>" +
                             "i chudobného, ktorému nik nepomáha.<br>" +
                             "Zmiluje sa nad chudobným a bedárom, <font color='#B71C1C'>*</font><br>" +
-                            "zachráni život úbožiakom. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "zachráni život úbožiakom. <font color='#B71C1C'>– R.</font><br>" +
                             "Nech je zvelebený Pán, Boh Izraela, <font color='#B71C1C'>*</font><br>" +
                             "čo jediný koná zázraky.<br>" +
                             "Jeho vznešené meno nech je velebené naveky <font color='#B71C1C'>*</font><br>" +
-                            "a jeho velebou nech sa naplní celá zem. <font color=‘#B71C1C’>– R.</font>"},
+                            "a jeho velebou nech sa naplní celá zem. <font color='#B71C1C'>– R.</font>"},
             {"19", "", "", "Ž 71, 3-4a. 5-6b. 16-17",
                     "<font color='#B71C1C'>R.:</font> Nech sa mi ústa naplnia chválou a budem spievať o tvojej sláve.<br><br>" +
                             "Buď mi ochrannou skalou a opevneným hradom <font color='#B71C1C'>*</font><br>" +
                             "na moju záchranu;<br>" +
                             "veď ty si moja opora a moje útočište. <font color='#B71C1C'>*</font><br>" +
-                            "Bože môj, vytrhni ma z ruky hriešnika. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "Bože môj, vytrhni ma z ruky hriešnika. <font color='#B71C1C'>– R.</font><br>" +
                             "Lebo ja, Pane, túžim za tebou, <font color='#B71C1C'>*</font><br>" +
                             "ty, Pane, si moja nádej od mojej mladosti.<br>" +
                             "Od matkinho lona mám v tebe oporu, <font color='#B71C1C'>*</font><br>" +
-                            "od života matky si mojím ochrancom. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "od života matky si mojím ochrancom. <font color='#B71C1C'>– R.</font><br>" +
                             "Budem hovoriť o veľkých činoch Pánových; <font color='#B71C1C'>*</font><br>" +
                             "Pane, budem spomínať len tvoju spravodlivosť.<br>" +
                             "Bože, ty si ma poúčal od mojej mladosti <font color='#B71C1C'>*</font><br>" +
-                            "a ja až doteraz ohlasujem tvoje diela zázračné. <font color=‘#B71C1C’>– R.</font>"},
+                            "a ja až doteraz ohlasujem tvoje diela zázračné. <font color='#B71C1C'>– R.</font>"},
             {"20", "", "", "Ž 24, 1-2. 3-4b. 5-6",
                     "<font color='#B71C1C'>R.:</font> Hľa, prichádza Pán, on je Kráľ slávy.<br><br>" +
                             "Pánova je zem i všetko, čo ju napĺňa, <font color='#B71C1C'>*</font><br>" +
                             "okruh zeme aj tí, čo bývajú na ňom.<br>" +
                             "Veď on sám položil jeho základy na moriach <font color='#B71C1C'>*</font><br>" +
-                            "a upevnil ho na vodách. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "a upevnil ho na vodách. <font color='#B71C1C'>– R.</font><br>" +
                             "Kto smie vystúpiť na vrch Pánov, <font color='#B71C1C'>*</font><br>" +
                             "kto smie stáť na jeho mieste posvätnom?<br>" +
                             "Ten, čo má ruky nevinné a srdce čisté, <font color='#B71C1C'>*</font><br>" +
-                            "čo nedvíha svoju dušu k márnosti. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "čo nedvíha svoju dušu k márnosti. <font color='#B71C1C'>– R.</font><br>" +
                             "Taký dostane požehnanie od Pána <font color='#B71C1C'>*</font><br>" +
                             "a odmenu od Boha, svojho spasiteľa.<br>" +
                             "To je pokolenie tých, čo ho hľadajú, <font color='#B71C1C'>*</font><br>" +
-                            "čo hľadajú tvár Boha Jakubovho. <font color=‘#B71C1C’>– R.</font>"},
+                            "čo hľadajú tvár Boha Jakubovho. <font color='#B71C1C'>– R.</font>"},
             {"21", "", "", "Ž 33, 2-3. 11-12. 20-21",
                     "<font color='#B71C1C'>R.:</font> Plesajte, spravodliví, v Pánovi, spievajte mu novú pieseň. <br><br>" +
                             "Oslavujte Pána citarou, <font color='#B71C1C'>*</font><br>" +
                             "hrajte mu na desaťstrunovej lutne.<br>" +
                             "Spievajte mu novú pieseň, <font color='#B71C1C'>*</font><br>" +
-                            "nadšene mu hrajte a volajte na slávu. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "nadšene mu hrajte a volajte na slávu. <font color='#B71C1C'>– R.</font><br>" +
                             "Pánov úmysel trvá naveky, <font color='#B71C1C'>*</font><br>" +
                             "myšlienky jeho srdca z pokolenia na pokolenie.<br>" +
                             "Blažený národ, ktorého Bohom je Pán, <font color='#B71C1C'>*</font><br>" +
-                            "blažený ľud, ktorý si on vyvolil za dedičstvo. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "blažený ľud, ktorý si on vyvolil za dedičstvo. <font color='#B71C1C'>– R.</font><br>" +
                             "Naša duša očakáva Pána, <font color='#B71C1C'>*</font><br>" +
                             "on je naša pomoc a ochrana.<br>" +
                             "V ňom sa naše srdce raduje <font color='#B71C1C'>*</font><br>" +
-                            "a v jeho sväté meno máme dôveru. <font color=‘#B71C1C’>– R.</font>"},
+                            "a v jeho sväté meno máme dôveru. <font color='#B71C1C'>– R.</font>"},
             {"22", "", "", "1 Sam 2, 1b-e. 4-5. 6-7. 8a-d",
                     "<font color='#B71C1C'>R.:</font> Srdce mi plesá v mojom Bohu.<br><br>" +
                             "Srdce mi plesá v Pánovi, <font color='#B71C1C'>*</font><br>" +
                             "v mojom Bohu rastie moja sila.<br>" +
                             "Otvorím si ústa proti mojim nepriateľom, <font color='#B71C1C'>*</font><br>" +
-                            "lebo sa radujem z tvojej pomoci. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "lebo sa radujem z tvojej pomoci. <font color='#B71C1C'>– R.</font><br>" +
                             "Luk silákov sa zlomil, <font color='#B71C1C'>*</font><br>" +
                             "slabí sa opásali silou.<br>" +
                             "Tí, čo boli sýti, dávajú sa prenajímať za chlieb, <font color='#B71C1C'>*</font><br>" +
                             "no tí, čo hladovali, už nepoznajú núdzu.<br>" +
                             "Neplodná rodí mnoho ráz <font color='#B71C1C'>*</font><br>" +
-                            "a tá, čo má veľa detí, vädne. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "a tá, čo má veľa detí, vädne. <font color='#B71C1C'>– R.</font><br>" +
                             "Pán dáva smrť i život, <font color='#B71C1C'>*</font><br>" +
                             "uvádza do ríše smrti a vyvádza naspäť.<br>" +
                             "Pán dáva schudobnieť, ale aj zbohatnúť, <font color='#B71C1C'>*</font><br>" +
-                            "ponižuje aj vyvyšuje. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "ponižuje aj vyvyšuje. <font color='#B71C1C'>– R.</font><br>" +
                             "Dvíha z prachu bedára <font color='#B71C1C'>*</font><br>" +
                             "a zo smetiska povyšuje chudobného.<br>" +
                             "Usádza ho medzi kniežatá <font color='#B71C1C'>*</font><br>" +
-                            "a dáva mu trón slávy. <font color=‘#B71C1C’>– R.</font>"},
+                            "a dáva mu trón slávy. <font color='#B71C1C'>– R.</font>"},
             {"23", "", "", "Ž 25, 4-5b. 8-9. 10+14",
                     "<font color='#B71C1C'>R.:</font> Zodvihnite hlavu, lebo sa blíži vaše vykúpenie.<br><br>" +
                             "Ukáž mi, Pane, svoje cesty <font color='#B71C1C'>*</font><br>" +
                             "a pouč ma o svojich chodníkoch.<br>" +
                             "Veď ma vo svojej pravde a uč ma, <font color='#B71C1C'>*</font><br>" +
-                            "lebo ty si Boh, moja spása. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "lebo ty si Boh, moja spása. <font color='#B71C1C'>– R.</font><br>" +
                             "Pán je dobrý a spravodlivý: <font color='#B71C1C'>*</font><br>" +
                             "ukazuje cestu hriešnikom.<br>" +
                             "Pokorných vedie k správnemu konaniu <font color='#B71C1C'>*</font><br>" +
-                            "a tichých poúča o svojich cestách. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "a tichých poúča o svojich cestách. <font color='#B71C1C'>– R.</font><br>" +
                             "Všetky cesty Pánove sú milosrdenstvo a vernosť <font color='#B71C1C'>*</font><br>" +
                             "pre tých, čo zachovávajú jeho zmluvu a jeho príkazy.<br>" +
                             "Pán bude dôverným priateľom tým, čo sa ho boja, <font color='#B71C1C'>*</font><br>" +
-                            "a zjaví im svoju zmluvu. <font color=‘#B71C1C’>– R.</font>"},
+                            "a zjaví im svoju zmluvu. <font color='#B71C1C'>– R.</font>"},
             {"24", "", "", "Ž 89, 2-3. 4-5. 27+29",
                     "<font color='#B71C1C'>R.:</font> Tvoje milosrdenstvo, Pane, ospevovať budem naveky.<br><br>" +
                             "Pánovo milosrdenstvo chcem ospevovať naveky; <font color='#B71C1C'>*</font><br>" +
                             "po všetky pokolenia hlásať svojimi ústami tvoju vernosť.<br>" +
                             "Veď ty si povedal:<br>" +
                             "\"Moje milosrdenstvo je ustanovené naveky.\" <font color='#B71C1C'>*</font><br>" +
-                            "Tvoja vernosť je upevnená v nebesiach. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "Tvoja vernosť je upevnená v nebesiach. <font color='#B71C1C'>– R.</font><br>" +
                             "\"Zmluvu som uzavrel so svojím vyvoleným, <font color='#B71C1C'>*</font><br>" +
                             "svojmu služobníkovi Dávidovi som prisahal:<br>" +
                             "Naveky zaistím tvoj rod <font color='#B71C1C'>*</font><br>" +
-                            "a postavím tvoj trón, čo pretrvá všetky pokolenia.\" <font color=‘#B71C1C’>– R.</font><br>" +
+                            "a postavím tvoj trón, čo pretrvá všetky pokolenia.\" <font color='#B71C1C'>– R.</font><br>" +
                             "On bude volať ku mne: \"Ty si môj otec, <font color='#B71C1C'>*</font><br>" +
                             "môj Boh a útočište mojej spásy.\"<br>" +
                             "Naveky mu svoju milosť zachovám <font color='#B71C1C'>*</font><br>" +
-                            "a pevná bude moja zmluva s ním. <font color=‘#B71C1C’>– R.</font>"},
+                            "a pevná bude moja zmluva s ním. <font color='#B71C1C'>– R.</font>"},
             {"24gkn", "", "", "Ž 89, 4-5. 16-17. 27+29",
                     "<font color='#B71C1C'>R.:</font> Tvoje milosrdenstvo, Pane, ospevovať budem naveky.<br><br>" +
                     "\"Zmluvu som uzavrel so svojím vyvoleným, <font color='#B71C1C'>*</font><br>" +
                     "svojmu služobníkovi Dávidovi som prisahal:<br>" +
                     "Naveky zaistím tvoj rod <font color='#B71C1C'>*</font><br>" +
-                    "a postavím tvoj trón, čo pretrvá všetky pokolenia.\" <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a postavím tvoj trón, čo pretrvá všetky pokolenia.\" <font color='#B71C1C'>– R.</font><br>" +
                     "Blažený ľud, ktorý vie jasať! <font color='#B71C1C'>*</font><br>" +
                     "Kráča vo svetle tvojej tváre, Pane;<br>" +
                     "deň čo deň sa raduje z tvojho mena <font color='#B71C1C'>*</font><br>" +
-                    "a honosí sa tvojou spravodlivosťou. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a honosí sa tvojou spravodlivosťou. <font color='#B71C1C'>– R.</font><br>" +
                     "\"On bude volať ku mne: ‚Ty si môj otec, <font color='#B71C1C'>*</font><br>" +
                     "môj Boh a útočište mojej spásy.'<br>" +
                     "Naveky mu svoju milosť zachovám <font color='#B71C1C'>*</font><br>" +
-                    "a pevná bude moja zmluva s ním.\" <font color=‘#B71C1C’>– R.</font>"},
+                    "a pevná bude moja zmluva s ním.\" <font color='#B71C1C'>– R.</font>"},
             {"25agkn", "", "", "Ž 96, 1-2a. 2b-3. 11-12a. 12b-13",
                     "<font color='#B71C1C'>R.:</font> Dnes sa nám narodil Spasiteľ, Kristus Pán.<br><br>" +
                     "Spievajte Pánovi pieseň novú; †<br>" +
                     "spievaj Pánovi, celá zem! <font color='#B71C1C'>*</font><br>" +
-                    "Spievajte Pánovi, velebte jeho meno. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "Spievajte Pánovi, velebte jeho meno. <font color='#B71C1C'>– R.</font><br>" +
                     "Zvestujte jeho spásu deň čo deň. †<br>" +
                     "Zvestujte jeho slávu pohanom <font color='#B71C1C'>*</font><br>" +
-                    "a jeho zázraky všetkým národom. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a jeho zázraky všetkým národom. <font color='#B71C1C'>– R.</font><br>" +
                     "Tešte sa, nebesia, plesaj, zem; †<br>" +
                     "nech more zahučí a čo ho napĺňa, <font color='#B71C1C'>*</font><br>" +
-                    "nech plesá pole a všetko, čo je na ňom. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "nech plesá pole a všetko, čo je na ňom. <font color='#B71C1C'>– R.</font><br>" +
                     "I zajasajú všetky stromy lesa †<br>" +
                     "pred tvárou Pána, že prichádza, <font color='#B71C1C'>*</font><br>" +
                     "že prichádza súdiť zem.<br>" +
                     "Spravodlivo bude súdiť zemekruh <font color='#B71C1C'>*</font><br>" +
-                    "a národy podľa svojej pravdy. <font color=‘#B71C1C’>– R.</font>"},
+                    "a národy podľa svojej pravdy. <font color='#B71C1C'>– R.</font>"},
             {"25bgkn", "", "", "Ž 97, 1+6. 11-12",
                     "<font color='#B71C1C'>R.:</font> Dnes zažiari nad nami svetlo, lebo sa nám narodil Pán.<br><br>" +
                     "Pán kraľuje, jasaj, zem; <font color='#B71C1C'>*</font><br>" +
                     "radujte sa, všetky ostrovy.<br>" +
                     "Jeho spravodlivosť ohlasujú nebesia <font color='#B71C1C'>*</font><br>" +
-                    "a jeho slávu vidia všetky národy. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a jeho slávu vidia všetky národy. <font color='#B71C1C'>– R.</font><br>" +
                     "Vychádza svetlo spravodlivému <font color='#B71C1C'>*</font><br>" +
                     "a radosť tým, čo majú srdcia úprimné.<br>" +
                     "Radujte sa, spravodliví, v Pánovi <font color='#B71C1C'>*</font><br>" +
-                    "a oslavujte jeho sväté meno. <font color=‘#B71C1C’>– R.</font>"},
+                    "a oslavujte jeho sväté meno. <font color='#B71C1C'>– R.</font>"},
             {"25cgkn", "", "", "Ž 98, 1. 2-3b. 3c-4. 5-6",
                     "<font color='#B71C1C'>R.:</font> Uzreli všetky končiny zeme spásu nášho Boha.<br><br>" +
                     "Spievajte Pánovi pieseň novú, <font color='#B71C1C'>*</font><br>" +
                     "lebo vykonal veci zázračné.<br>" +
                     "Víťazstvo je dielom jeho pravice <font color='#B71C1C'>*</font><br>" +
-                    "a jeho svätého ramena. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a jeho svätého ramena. <font color='#B71C1C'>– R.</font><br>" +
                     "Pán oznámil svoju spásu, <font color='#B71C1C'>*</font><br>" +
                     "pred očami pohanov vyjavil svoju spravodlivosť.<br>" +
                     "Rozpamätal sa na svoju dobrotu <font color='#B71C1C'>*</font><br>" +
-                    "a na svoju vernosť voči Izraelovmu domu. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a na svoju vernosť voči Izraelovmu domu. <font color='#B71C1C'>– R.</font><br>" +
                     "Uzreli všetky končiny zeme <font color='#B71C1C'>*</font><br>" +
                     "spásu nášho Boha.<br>" +
                     "Na chválu Božiu jasaj, celá zem; <font color='#B71C1C'>*</font><br>" +
-                    "plesajte, radujte sa a hrajte. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "plesajte, radujte sa a hrajte. <font color='#B71C1C'>– R.</font><br>" +
                     "Hrajte Pánovi na citare, <font color='#B71C1C'>*</font><br>" +
                     "na citare a na harfe zunivej.<br>" +
                     "Za hlaholu trúb a poľníc <font color='#B71C1C'>*</font><br>" +
-                    "jasajte pred tvárou Kráľa a Pána. <font color=‘#B71C1C’>– R.</font>"},
+                    "jasajte pred tvárou Kráľa a Pána. <font color='#B71C1C'>– R.</font>"},
             {"26g", "", "", "Ž 31, 3c-4. 6+8ab. 16b-17",
                     "<font color='#B71C1C'>R.:</font> Do tvojich rúk, Pane, porúčam svojho ducha.<br><br>" +
                             "Buď mi skalou útočišťa, <font color='#B71C1C'>*</font><br>" +
                             "opevneným hradom mojej spásy.<br>" +
                             "Veď ty si moja sila a moje útočište, <font color='#B71C1C'>*</font><br>" +
-                            "pre svoje meno budeš ma viesť a opatrovať. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "pre svoje meno budeš ma viesť a opatrovať. <font color='#B71C1C'>– R.</font><br>" +
                             "Do tvojich rúk porúčam svojho ducha; <font color='#B71C1C'>*</font><br>" +
                             "ty si ma vykúpil, Pane, Bože verný.<br>" +
                             "Plesám a teším sa, že si milosrdný, <font color='#B71C1C'>*</font><br>" +
-                            "lebo si zhliadol na moju poníženosť. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "lebo si zhliadol na moju poníženosť. <font color='#B71C1C'>– R.</font><br>" +
                             "Vytrhni ma z rúk mojich nepriateľov <font color='#B71C1C'>*</font><br>" +
                             "a prenasledovateľov.<br>" +
                             "Rozjasni svoju tvár nad svojím sluhom <font color='#B71C1C'>*</font><br>" +
-                            "a zachráň ma vo svojom milosrdenstve. <font color=‘#B71C1C’>– R.</font>"},
+                            "a zachráň ma vo svojom milosrdenstve. <font color='#B71C1C'>– R.</font>"},
             {"27g", "", "", "Ž 97, 1-2. 5-6. 11-12",
                     "<font color='#B71C1C'>R.:</font> Radujte sa, spravodliví, tešte sa v Pánovi.<br><br>" +
                             "Pán kraľuje, jasaj, zem; <font color='#B71C1C'>*</font><br>" +
                             "radujte sa, všetky ostrovy.<br>" +
                             "Vôkol neho oblaky a mrákavy, <font color='#B71C1C'>*</font><br>" +
-                            "spravodlivosť a právo sú základom jeho trónu. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "spravodlivosť a právo sú základom jeho trónu. <font color='#B71C1C'>– R.</font><br>" +
                             "Ako vosk sa topia vrchy pred tvárou Pánovou, <font color='#B71C1C'>*</font><br>" +
                             "pred Pánom celej zeme.<br>" +
                             "Jeho spravodlivosť ohlasujú nebesia <font color='#B71C1C'>*</font><br>" +
-                            "a jeho slávu vidia všetky národy. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "a jeho slávu vidia všetky národy. <font color='#B71C1C'>– R.</font><br>" +
                             "Vychádza svetlo spravodlivému <font color='#B71C1C'>*</font><br>" +
                             "a radosť tým, čo majú srdcia úprimné.<br>" +
                             "Radujte sa, spravodliví, v Pánovi <font color='#B71C1C'>*</font><br>" +
-                            "a oslavujte jeho sväté meno. <font color=‘#B71C1C’>– R.</font>"},
+                            "a oslavujte jeho sväté meno. <font color='#B71C1C'>– R.</font>"},
             {"28g", "", "", "Ž 124, 2-3. 4-5. 7c-8",
                     "<font color='#B71C1C'>R.:</font> Naša duša unikla ako vtáča zo siete poľovníkov.<br><br>" +
                             "Keby sa nás Pán nebol ujal, <font color='#B71C1C'>*</font><br>" +
                             "keď ľudia povstali proti nám,<br>" +
                             "vari by nás živých boli prehltli, <font color='#B71C1C'>*</font><br>" +
-                            "keď proti nám blčala ich zúrivosť. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "keď proti nám blčala ich zúrivosť. <font color='#B71C1C'>– R.</font><br>" +
                             "Vari by nás bola voda zaliala <font color='#B71C1C'>*</font><br>" +
                             "a riava sa prevalila cez nás.<br>" +
                             "Vari by sa boli prevalili cez nás <font color='#B71C1C'>*</font><br>" +
-                            "rozbúrené vody. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "rozbúrené vody. <font color='#B71C1C'>– R.</font><br>" +
                             "Slučka sa roztrhla <font color='#B71C1C'>*</font><br>" +
                             "a my sme na slobode.<br>" +
                             "Naša pomoc v mene Pánovom, <font color='#B71C1C'>*</font><br>" +
-                            "ktorý stvoril nebo i zem. <font color=‘#B71C1C’>– R.</font>"},
+                            "ktorý stvoril nebo i zem. <font color='#B71C1C'>– R.</font>"},
             {"29", "", "", "Ž 96, 1-2a. 2b-3. 5b-6",
                     "<font color='#B71C1C'>R.:</font> Tešte sa, nebesia, a plesaj, zem.<br><br>" +
                     "Spievajte Pánovi pieseň novú; †<br>" +
                     "spievaj Pánovi, celá zem! <font color='#B71C1C'>*</font><br>" +
-                    "Spievajte Pánovi, velebte jeho meno. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "Spievajte Pánovi, velebte jeho meno. <font color='#B71C1C'>– R.</font><br>" +
                     "Zvestujte jeho spásu deň čo deň. †<br>" +
                     "Zvestujte jeho slávu pohanom <font color='#B71C1C'>*</font><br>" +
-                    "a jeho zázraky všetkým národom. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "a jeho zázraky všetkým národom. <font color='#B71C1C'>– R.</font><br>" +
                     "Pán stvoril nebesia. †<br>" +
                     "Vznešenosť a krása pred jeho tvárou, <font color='#B71C1C'>*</font><br>" +
-                    "moc a veleba v jeho svätyni. <font color=‘#B71C1C’>– R.</font>"},
+                    "moc a veleba v jeho svätyni. <font color='#B71C1C'>– R.</font>"},
             {"30", "", "", "Ž 96, 7-8a. 8b-9. 10",
                     "<font color='#B71C1C'>R.:</font> Tešte sa, nebesia, a plesaj, zem.<br><br>" +
                     "Vzdávajte Pánovi, rodiny národov, †<br>" +
                     "vzdávajte Pánovi slávu a česť, <font color='#B71C1C'>*</font><br>" +
-                    "vzdávajte Pánovi slávu hodnu jeho mena. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "vzdávajte Pánovi slávu hodnu jeho mena. <font color='#B71C1C'>– R.</font><br>" +
                     "Prineste obetné dary a vstúpte do jeho nádvorí, †<br>" +
                     "klaňajte sa Pánovi v posvätnom rúchu. <font color='#B71C1C'>*</font><br>" +
-                    "Chvej sa pred ním, celá zem, <font color=‘#B71C1C’>– R.</font><br>" +
+                    "Chvej sa pred ním, celá zem, <font color='#B71C1C'>– R.</font><br>" +
                     "hlásajte medzi pohanmi: \"Pán kraľuje!\" †<br>" +
                     "Upevnil zemekruh, nepohne sa; <font color='#B71C1C'>*</font><br>" +
-                    "a spravodlivo súdi národy. <font color=‘#B71C1C’>– R.</font>"},
+                    "a spravodlivo súdi národy. <font color='#B71C1C'>– R.</font>"},
             {"31", "", "", "Ž 96, 1-2. 11-12. 13",
                     "<font color='#B71C1C'>R.:</font> Tešte sa, nebesia, a plesaj, zem.<br><br>" +
                     "Spievajte Pánovi pieseň novú; <font color='#B71C1C'>*</font><br>" +
                     "spievaj Pánovi, celá zem!<br>" +
                     "Spievajte Pánovi, velebte jeho meno. <font color='#B71C1C'>*</font><br>" +
-                    "Zvestujte jeho spásu deň čo deň. <font color=‘#B71C1C’>– R.</font><br>" +
+                    "Zvestujte jeho spásu deň čo deň. <font color='#B71C1C'>– R.</font><br>" +
                     "Tešte sa, nebesia, plesaj, zem; <font color='#B71C1C'>*</font><br>" +
                     "nech more zahučí a čo ho napĺňa,<br>" +
                     "nech plesá pole a všetko, čo je na ňom. <font color='#B71C1C'>*</font><br>" +
-                    "I zajasajú všetky stromy lesa <font color=‘#B71C1C’>– R.</font><br>" +
+                    "I zajasajú všetky stromy lesa <font color='#B71C1C'>– R.</font><br>" +
                     "pred tvárou Pána, že prichádza, <font color='#B71C1C'>*</font><br>" +
                     "že prichádza súdiť zem.<br>" +
                     "Spravodlivo bude súdiť zemekruh <font color='#B71C1C'>*</font><br>" +
-                    "a národy podľa svojej pravdy. <font color=‘#B71C1C’>– R.</font>"},
+                    "a národy podľa svojej pravdy. <font color='#B71C1C'>– R.</font>"},
             {"31gk", "", "", "Ž 67, 2-3. 5. 6+8",
                     "<font color='#B71C1C'>R.:</font> Bože, buď nám milostivý a žehnaj nás.<br><br>" +
                             "Bože, buď nám milostivý a žehnaj nás; <font color='#B71C1C'>*</font><br>" +
                             "a tvoja tvár nech žiari nad nami,<br>" +
                             "aby sa tvoja cesta stala známou na zemi <font color='#B71C1C'>*</font><br>" +
-                            "a tvoja spása medzi všetkými národmi. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "a tvoja spása medzi všetkými národmi. <font color='#B71C1C'>– R.</font><br>" +
                             "Nech sa tešia a jasajú národy, †<br>" +
                             "že spravodlivo súdiš ľudí <font color='#B71C1C'>*</font><br>" +
-                            "a spravuješ národy na zemi. <font color=‘#B71C1C’>– R.</font><br>" +
+                            "a spravuješ národy na zemi. <font color='#B71C1C'>– R.</font><br>" +
                             "Bože, nech ťa velebia národy, <font color='#B71C1C'>*</font><br>" +
                             "nech ťa velebia všetky národy.<br>" +
                             "Nech nás Boh požehná <font color='#B71C1C'>*</font><br>" +
-                            "a nech si ho ctia všetky končiny zeme. <font color=‘#B71C1C’>– R.</font>"},
+                            "a nech si ho ctia všetky končiny zeme. <font color='#B71C1C'>– R.</font>"},
     };
 
     String[][] alelujaPohyb = {

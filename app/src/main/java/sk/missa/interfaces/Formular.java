@@ -4798,7 +4798,7 @@ public interface Formular {
     };
 
     String[][] prosbyZosnuly = {
-            {"", "V omšiach za zosnulých I.", "Bratia a sestry, s dôverou vzývajme všemohúceho Boha a prosme ho za spásu živých i mŕtvych, veď on vzkriesil svojho Syna Ježiša Krista.",
+            {"", "", "V omšiach za zosnulých I.", "Bratia a sestry, s dôverou vzývajme všemohúceho Boha a prosme ho za spásu živých i mŕtvych, veď on vzkriesil svojho Syna Ježiša Krista.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Bože, nášmu zosnulému bratovi <font color='#B71C1C'>M. (</font>našej zosnulej sestre <font color='#B71C1C'>M.)</font> si v krste otvoril bránu večného života; dobrotivo mu <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> udeľ večné spoločenstvo so svätými.<br>" +
                             "<font color='#B71C1C'>2.</font> Otče, náš zosnulý brat (naša zosnulá sestra) prijal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> Kristovo telo, chlieb večného života; vzkries jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> telo v posledný deň na večnú slávu.<br>" +

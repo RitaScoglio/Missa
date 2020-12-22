@@ -287,10 +287,10 @@ public class MisalSrdceJC extends Misal {
         uvodny_spev = "Úvodný spev";
         prijimanie_spev = "Spev na prijímanie";
         index = indexFormular(spevFormular, formArray.get(pozicia_formular));
-        uvodny_vypis = spevFormular[index][2];
-        uvodny_suradnice = spevFormular[index][3];
-        prijimanie_vypis = spevFormular[index][4];
-        prijimanie_suradnice = spevFormular[index][5];
+        uvodny_vypis = spevFormular[index][3];
+        uvodny_suradnice = spevFormular[index][4];
+        prijimanie_vypis = spevFormular[index][5];
+        prijimanie_suradnice = spevFormular[index][6];
     }
 
     @Override
@@ -299,9 +299,9 @@ public class MisalSrdceJC extends Misal {
         modlitba_dary = "Modlitba nad obetnými darmi";
         modlitba_prijimanie = "Modlitba po prijímaní";
         index = indexFormular(modlitbaFormular, formArray.get(pozicia_formular));
-        modlitba_dna_vypis = modlitbaFormular[index][2];
-        modlitba_dary_vypis = modlitbaFormular[index][3];
-        modlitba_prijimanie_vypis = modlitbaFormular[index][4];
+        modlitba_dna_vypis = modlitbaFormular[index][3];
+        modlitba_dary_vypis = modlitbaFormular[index][4];
+        modlitba_prijimanie_vypis = modlitbaFormular[index][5];
     }
 
     @Override

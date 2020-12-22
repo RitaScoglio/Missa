@@ -590,7 +590,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             prve_citanie_suradnice = citanie1_12[index][3];
             prve_citanie_citat = citanie1_12[index][4];
             prve_citanie_vypis = citanie1_12[index][5];
-            if (citanie1_12[index].length > 6 && cirkevRok == 1) {
+            if (citanie1_12[index].length > 6 && cirkevRok == 2) {
                 aleboCitanie(citanie1_12, index, 1);
             }
         } else if (feria || citanie1O) {//feria

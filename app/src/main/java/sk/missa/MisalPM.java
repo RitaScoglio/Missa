@@ -291,10 +291,10 @@ public class MisalPM extends Misal {
         uvodny_spev = "Úvodný spev";
         prijimanie_spev = "Spev na prijímanie";
         index = indexFormular(spevFormular, formArray.get(pozicia_formular));
-        uvodny_vypis = spevFormular[index][2];
-        uvodny_suradnice = spevFormular[index][3];
-        prijimanie_vypis = spevFormular[index][4];
-        prijimanie_suradnice = spevFormular[index][5];
+        uvodny_vypis = spevFormular[index][3];
+        uvodny_suradnice = spevFormular[index][4];
+        prijimanie_vypis = spevFormular[index][5];
+        prijimanie_suradnice = spevFormular[index][6];
     }
 
     @Override
@@ -303,19 +303,19 @@ public class MisalPM extends Misal {
         modlitba_dary = "Modlitba nad obetnými darmi";
         modlitba_prijimanie = "Modlitba po prijímaní";
         index = indexFormular(modlitbaFormular, formArray.get(pozicia_formular));
-        modlitba_dna_vypis = modlitbaFormular[index][2];
-        modlitba_dary_vypis = modlitbaFormular[index][3];
-        modlitba_prijimanie_vypis = modlitbaFormular[index][4];
+        modlitba_dna_vypis = modlitbaFormular[index][3];
+        modlitba_dary_vypis = modlitbaFormular[index][4];
+        modlitba_prijimanie_vypis = modlitbaFormular[index][5];
     }
 
     @Override
     public void prosby() {
         prosby = "Spoločné modlitby veriacich";
         index = indexFormular(prosbyFormular, formArray.get(pozicia_formular));
-        prosby_uvod = prosbyFormular[pozicia_prosby][1];
-        prosby_zvolanie = prosbyFormular[pozicia_prosby][2];
-        prosby_vypis = prosbyFormular[pozicia_prosby][3];
-        prosby_zaver = prosbyFormular[pozicia_prosby][4];
+        prosby_uvod = prosbyFormular[pozicia_prosby][3];
+        prosby_zvolanie = prosbyFormular[pozicia_prosby][4];
+        prosby_vypis = prosbyFormular[pozicia_prosby][5];
+        prosby_zaver = prosbyFormular[pozicia_prosby][6];
     }
 
     @Override
