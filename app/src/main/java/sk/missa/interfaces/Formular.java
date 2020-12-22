@@ -4952,19 +4952,11 @@ public interface Formular {
             //prosby (za chorých II.)
             {"Bratia a sestry, pamätajme vo svojich modlitbách na tých, ktorí pre chorobu trpia na tele alebo na duši. Modlime sa za nich i za seba a volajme:",
                     "<font color='#B71C1C'>(</font>Ježišu, uzdrav naše duše.<font color='#B71C1C'>)</font>",
-                    "1. Pane, daj, aby Cirkev vedená Duchom Svätým <br>" +
-                            "vždy kráčala po ceste pravdy <br>" +
-                            "a pevne sa pridŕžala zásad evanjelia. <br>" +
-                            "2. Pomôž lekárom vo svete účinne a nezištne <br>" +
-                            "hľadať lieky proti chorobám dnešnej civilizácie. <br>" +
-                            "3. Vzbudzuj v chorých a trpiacich <br>" +
-                            "odhodlanie obetovať svoju chorobu tebe <br>" +
-                            "a modlitbou čeliť bolesti a súženiu. <br>" +
-                            "4. Ochraňuj nás od chorôb ducha, <br>" +
-                            "aby sme si zachovali čistú myseľ <br>" +
-                            "a nedali sa manipulovať zlým duchom. <br>" +
-                            "5. Vylieč duše našich zosnulých zo všetkých previnení <br>" +
-                            "a dovoľ im prebývať v tvojej blaženosti.",
+                    "<font color='#B71C1C'>1.</font> Pane, daj, aby Cirkev vedená Duchom Svätým vždy kráčala po ceste pravdy a pevne sa pridŕžala zásad evanjelia. <br>" +
+                            "<font color='#B71C1C'>2.</font> Pomôž lekárom vo svete účinne a nezištne hľadať lieky proti chorobám dnešnej civilizácie. <br>" +
+                            "<font color='#B71C1C'>3.</font> Vzbudzuj v chorých a trpiacich odhodlanie obetovať svoju chorobu tebe a modlitbou čeliť bolesti a súženiu. <br>" +
+                            "<font color='#B71C1C'>4.</font> Ochraňuj nás od chorôb ducha, aby sme si zachovali čistú myseľ a nedali sa manipulovať zlým duchom. <br>" +
+                            "<font color='#B71C1C'>5.</font> Vylieč duše našich zosnulých zo všetkých previnení a dovoľ im prebývať v tvojej blaženosti.",
                     "Pane Ježišu, <br>" +
                             "ty si najlepším lekárom; <br>" +
                             "vyslyš naše prosby a posilni tých, <br>" +
@@ -4974,7 +4966,7 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             //prve citanie
             {"Nár 3, 17–26", "Dobre je v tichosti očakávať Pánovu záchranu",
-                    "Čítanie z Knihy Náreky" +
+                    "Čítanie z Knihy Náreky<br>" +
                             "Moja duša je zbavená pokoja,<br>" +
                             "zabudol som, čo je blaho.<br>" +
                             "Povedal som: „Zanikla moja sláva<br>" +
