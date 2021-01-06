@@ -3121,8 +3121,7 @@ public interface Prosby_svatci {
                             "<font color='#B71C1C'>2.</font> Svedectvom života kresťanov priveď všetkých ľudí k viere v teba.<br>" +
                             "<font color='#B71C1C'>3.</font> Daj, nech vo svete zavládne pravý pokoj a nech národ nedvíha zbraň proti národu.<br>" +
                             "<font color='#B71C1C'>4.</font> Daj všetkým, ktorí budú nadchádzajúce sviatky prežívať ďaleko od svojich najbližších, aby precítili vzájomnú blízkosť v Ježišovi Kristovi.<br>" +
-                            "<font color='#B71C1C'>5.</font> Chráň nás, aby sme svojím životom a skutkami nikdy nezapreli Krista,<br>" +
-                            "ale ho ohlasovali so živou vierou.<br>" +
+                            "<font color='#B71C1C'>5.</font> Chráň nás, aby sme svojím životom a skutkami nikdy nezapreli Krista, ale ho ohlasovali so živou vierou.<br>" +
                             "<font color='#B71C1C'>6.</font> Pridruž našich zosnulých <font color='#B71C1C'>(M.)</font> k zástupom blažených.",
                     "Všemohúci a milosrdný Bože,<br>" +
                             "vypočuj naše prosby a daj,<br>" +

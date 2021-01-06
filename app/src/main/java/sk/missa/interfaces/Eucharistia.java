@@ -135,8 +135,8 @@ public interface Eucharistia {
                     "TOTO ROBTE NA MOJU PAMIATKU.",
             "Ukáže kalich ľudu, znova ho položí na korporál a pokľaknutím adoruje.<br>" +
                     "Potom povie:",
-            "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.<br>" +
-                    "Ľud odpovie zvolaním:<br>" +
+            "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.<br>",
+                    "Ľud odpovie zvolaním:",
                     "Smrť tvoju, Pane, zvestujeme<br>" +
                     "a tvoje zmŕtvychvstanie vyznávame,<br>" +
                     "kým neprídeš v sláve.",

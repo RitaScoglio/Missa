@@ -3808,7 +3808,7 @@ public interface Modlitby_svatci {
             {"23", "Všemohúci a večný Bože,<br>" +
                     "už sú blízko sviatky narodenia tvojho Syna; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa, nech nám, nehodným služobníkom,<br>" +
-                    "'preukáže svoju milosrdnú lásku<br>" +
+                    "preukáže svoju milosrdnú lásku<br>" +
                     "tvoje večné Slovo, Ježiš Kristus, <font color='#B71C1C'>—</font><br>" +
                     "ktorý si vzal telo z Panny Márie<br>" +
                     "a prebýval medzi nami.<br>" +
@@ -3816,7 +3816,7 @@ public interface Modlitby_svatci {
                     "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože,<br>" +
                     "táto obeta, ktorú si nám dal<br>" +
                     "ako najdokonalejšiu bohoslužbu, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás u zmieri s tebou, <font color='#B71C1C'>—</font><br>" +
+                    "nech nás uzmieri s tebou, <font color='#B71C1C'>—</font><br>" +
                     "aby sme s očisteným srdcom<br>" +
                     "slávili narodenie nášho Vykupiteľa,<br>" +
                     "ktorý žije a kraľuje na veky vekov.", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
@@ -4052,7 +4052,7 @@ public interface Modlitby_svatci {
                     "<font color='#B71C1C'>(</font>aj v uplynulom roku<br>" +
                     "si nás sprevádzal na životnej ceste;<font color='#B71C1C'>) *</font><br>" +
                     "otcovsky nás ochraňuj teraz i v budúcnosti <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby nás radosť z pozemských dohier<br>" +
+                    "a daj, aby nás radosť z pozemských dobier<br>" +
                     "pobádala väčšmi sa usilovať<br>" +
                     "o hodnoty večné.<br>" +
                     "Skrze Krista, nášho Pána."},

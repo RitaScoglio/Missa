@@ -1298,7 +1298,7 @@ public interface Prefacia {
                             "tebe, Pane, svätý Otče, všemohúci a večný Bože.<br>" +
                             "Lebo tajomným vtelením tvojho Slova<br>" +
                             "zažiarilo našej duši<br>" +
-                            "nové svetlo tvoj ej slávy.<br>" +
+                            "nové svetlo tvojej slávy.<br>" +
                             "Keď takto poznávame Boha viditeľne,<br>" +
                             "nech nás on sám strhne k láske vecí neviditeľných.<br>" +
                             "Preto s anjelmi, archanjelmi<br>" +

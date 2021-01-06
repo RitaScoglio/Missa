@@ -1857,16 +1857,16 @@ public interface Zalmy_svatci {
                     "a pevná bude moja zmluva s ním.\" <font color='#B71C1C'>– R.</font>"},
             {"25agkn", "", "", "Ž 96, 1-2a. 2b-3. 11-12a. 12b-13",
                     "<font color='#B71C1C'>R.:</font> Dnes sa nám narodil Spasiteľ, Kristus Pán.<br><br>" +
-                    "Spievajte Pánovi pieseň novú; †<br>" +
+                    "Spievajte Pánovi pieseň novú; <font color='#B71C1C'>†</font><br>" +
                     "spievaj Pánovi, celá zem! <font color='#B71C1C'>*</font><br>" +
                     "Spievajte Pánovi, velebte jeho meno. <font color='#B71C1C'>– R.</font><br>" +
-                    "Zvestujte jeho spásu deň čo deň. †<br>" +
+                    "Zvestujte jeho spásu deň čo deň. <font color='#B71C1C'>†</font><br>" +
                     "Zvestujte jeho slávu pohanom <font color='#B71C1C'>*</font><br>" +
                     "a jeho zázraky všetkým národom. <font color='#B71C1C'>– R.</font><br>" +
-                    "Tešte sa, nebesia, plesaj, zem; †<br>" +
+                    "Tešte sa, nebesia, plesaj, zem; <font color='#B71C1C'>†</font><br>" +
                     "nech more zahučí a čo ho napĺňa, <font color='#B71C1C'>*</font><br>" +
                     "nech plesá pole a všetko, čo je na ňom. <font color='#B71C1C'>– R.</font><br>" +
-                    "I zajasajú všetky stromy lesa †<br>" +
+                    "I zajasajú všetky stromy lesa <font color='#B71C1C'>†</font><br>" +
                     "pred tvárou Pána, že prichádza, <font color='#B71C1C'>*</font><br>" +
                     "že prichádza súdiť zem.<br>" +
                     "Spravodlivo bude súdiť zemekruh <font color='#B71C1C'>*</font><br>" +
@@ -1943,24 +1943,24 @@ public interface Zalmy_svatci {
                             "ktorý stvoril nebo i zem. <font color='#B71C1C'>– R.</font>"},
             {"29", "", "", "Ž 96, 1-2a. 2b-3. 5b-6",
                     "<font color='#B71C1C'>R.:</font> Tešte sa, nebesia, a plesaj, zem.<br><br>" +
-                    "Spievajte Pánovi pieseň novú; †<br>" +
+                    "Spievajte Pánovi pieseň novú; <font color='#B71C1C'>†</font><br>" +
                     "spievaj Pánovi, celá zem! <font color='#B71C1C'>*</font><br>" +
                     "Spievajte Pánovi, velebte jeho meno. <font color='#B71C1C'>– R.</font><br>" +
-                    "Zvestujte jeho spásu deň čo deň. †<br>" +
+                    "Zvestujte jeho spásu deň čo deň. <font color='#B71C1C'>†</font><br>" +
                     "Zvestujte jeho slávu pohanom <font color='#B71C1C'>*</font><br>" +
                     "a jeho zázraky všetkým národom. <font color='#B71C1C'>– R.</font><br>" +
-                    "Pán stvoril nebesia. †<br>" +
+                    "Pán stvoril nebesia. <font color='#B71C1C'>†</font><br>" +
                     "Vznešenosť a krása pred jeho tvárou, <font color='#B71C1C'>*</font><br>" +
                     "moc a veleba v jeho svätyni. <font color='#B71C1C'>– R.</font>"},
             {"30", "", "", "Ž 96, 7-8a. 8b-9. 10",
                     "<font color='#B71C1C'>R.:</font> Tešte sa, nebesia, a plesaj, zem.<br><br>" +
-                    "Vzdávajte Pánovi, rodiny národov, †<br>" +
+                    "Vzdávajte Pánovi, rodiny národov, <font color='#B71C1C'>†</font><br>" +
                     "vzdávajte Pánovi slávu a česť, <font color='#B71C1C'>*</font><br>" +
                     "vzdávajte Pánovi slávu hodnu jeho mena. <font color='#B71C1C'>– R.</font><br>" +
-                    "Prineste obetné dary a vstúpte do jeho nádvorí, †<br>" +
+                    "Prineste obetné dary a vstúpte do jeho nádvorí, <font color='#B71C1C'>†</font><br>" +
                     "klaňajte sa Pánovi v posvätnom rúchu. <font color='#B71C1C'>*</font><br>" +
                     "Chvej sa pred ním, celá zem, <font color='#B71C1C'>– R.</font><br>" +
-                    "hlásajte medzi pohanmi: \"Pán kraľuje!\" †<br>" +
+                    "hlásajte medzi pohanmi: \"Pán kraľuje!\" <font color='#B71C1C'>†</font><br>" +
                     "Upevnil zemekruh, nepohne sa; <font color='#B71C1C'>*</font><br>" +
                     "a spravodlivo súdi národy. <font color='#B71C1C'>– R.</font>"},
             {"31", "", "", "Ž 96, 1-2. 11-12. 13",
@@ -1983,7 +1983,7 @@ public interface Zalmy_svatci {
                             "a tvoja tvár nech žiari nad nami,<br>" +
                             "aby sa tvoja cesta stala známou na zemi <font color='#B71C1C'>*</font><br>" +
                             "a tvoja spása medzi všetkými národmi. <font color='#B71C1C'>– R.</font><br>" +
-                            "Nech sa tešia a jasajú národy, †<br>" +
+                            "Nech sa tešia a jasajú národy, <font color='#B71C1C'>†</font><br>" +
                             "že spravodlivo súdiš ľudí <font color='#B71C1C'>*</font><br>" +
                             "a spravuješ národy na zemi. <font color='#B71C1C'>– R.</font><br>" +
                             "Bože, nech ťa velebia národy, <font color='#B71C1C'>*</font><br>" +

@@ -1424,10 +1424,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             else
                 index = indexTyzdenDen(adventProsby);
         } else if (V) {
-            /*if (nedela) //druha nedela po Narodeni Pana
+            if (nedela) //druha nedela po Narodeni Pana
                 index = 0;
-            else*/
-            if (den > 13)
+            else if (den > 13)
                 index = indexCislo(prosby12, den);
             else
                 index = indexCislo(prosby1, den);
@@ -2827,10 +2826,18 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         prve_citanie_suradnice = aleboCitanie1[0][0];
                         prve_citanie_citat = aleboCitanie1[0][1];
                         prve_citanie_vypis = aleboCitanie1[0][2];
-                        if (ID.equals("10gkp") || ID.equals("11gkp") || nadpis.equals("Omša v čase pandémie")) {
+                        if (nadpis.equals("Omša v čase pandémie")) {
                             changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
                             zalm_suradnice = aleboZalm[0][0];
                             zalm_vypis = aleboZalm[0][1];
+                        } else if (ID.equals("10gkp")) {
+                            changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
+                            zalm_suradnice = aleboZalm[0][0];
+                            zalm_vypis = aleboZalm[0][1];
+                            changeAleboCitanie(aleboCitanie2, missa.getIndexAlebo());
+                            druhe_citanie_suradnice = aleboCitanie2[0][0];
+                            druhe_citanie_citat = aleboCitanie2[0][1];
+                            druhe_citanie_vypis = aleboCitanie2[0][2];
                         }
                         pozicia_listview = position;
                         vypis();
@@ -2841,6 +2848,15 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         druhe_citanie_suradnice = aleboCitanie2[0][0];
                         druhe_citanie_citat = aleboCitanie2[0][1];
                         druhe_citanie_vypis = aleboCitanie2[0][2];
+                        if (ID.equals("10gkp")) {
+                            changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
+                            zalm_suradnice = aleboZalm[0][0];
+                            zalm_vypis = aleboZalm[0][1];
+                            changeAleboCitanie(aleboCitanie1, missa.getIndexAlebo());
+                            prve_citanie_suradnice = aleboCitanie1[0][0];
+                            prve_citanie_citat = aleboCitanie1[0][1];
+                            prve_citanie_vypis = aleboCitanie1[0][2];
+                        }
                         pozicia_listview = position;
                         vypis();
                         break;

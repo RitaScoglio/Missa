@@ -1142,7 +1142,8 @@ public interface Citania_svatci {
                     "Čítanie z Prvej knihy Samuelovej<br>" +
                             "Keď Anna oddojčila Samuela, vzala ho so\u00A0sebou, aj trojročného býčka, jednu mericu múky a mech vína, a priviedla ho do\u00A0Pánovho domu v\u00A0Silo. Chlapec bol ešte maličký. Býčka obetovali a chlapca zaviedli k\u00A0Helimu.<br>" +
                             "Anna povedala: \"Prosím, pane môj, ako žiješ, pane, ja som tá žena, čo tu stála pred\u00A0tebou a modlila sa k\u00A0Pánovi. O\u00A0tohto chlapčeka som prosila a Pán mi dal, o\u00A0čo som ho prosila. Nuž aj ja ho odovzdávam Pánovi. Po\u00A0všetky dni, kým bude žiť, nech je zasvätený Pánovi.\"<br>" +
-                            "I klaňali sa tam Pánovi."},
+                            "I klaňali sa tam Pánovi.<br>"+
+                            "Počuli sme Božie slovo."},
             {"23", "", "", "Mal 3, 1-4. 23-24",
                     "Hľa, ja vám pošlem proroka Eliáša, prv, ako príde deň Pána",
                     "Čítanie z Knihy proroka Malachiáša<br>" +
@@ -1462,14 +1463,7 @@ public interface Citania_svatci {
                             "Deti, poslúchajte rodičov vo\u00A0všetkom, lebo je to milé Pánovi!<br>" +
                             "Otcovia, nedráždite svoje deti, aby nezmalomyseľneli!<br>" +
                             "Počuli sme Božie slovo."},
-            {"", "B", "", "Hebr 11, 8. 11-12. 17-19",
-                    "Viera Abraháma, Sáry a Izáka",
-                    "Čítanie z Listu Hebrejom<br>" +
-                            "Bratia, s\u00A0vierou poslúchol Abrahám, keď bol povolaný, aby šiel na\u00A0miesto, ktoré mal dostať ako dedičstvo; išiel a ani nevedel, kam ide.<br>" +
-                            "Vierou aj neplodná Sára dostala napriek pokročilému veku silu počať potomka, lebo verila, že je verný ten, ktorý dal prisľúbenie. Preto aj z\u00A0jedného, a to odumretého, vzišlo ich také množstvo, ako je hviezd na\u00A0nebi a piesku na\u00A0brehu mora, a ten sa nedá spočítať.<br>" +
-                            "S vierou obetoval Abrahám Izáka, keď bol skúšaný, a jednorodeného obetoval ten, ktorý dostal prisľúbenia a ktorému bolo povedané: \"Po Izákovi sa bude volať tvoje potomstvo.\" Usudzoval totiž, že Boh má moc aj z\u00A0mŕtvych vzkriesiť. Preto ho dostal naspäť aj ako predobraz.<br>" +
-                            "Počuli sme Božie slovo.",
-                    "Alebo:",
+            {"", "B", "",
                     "Kol 3, 12-21",
                     "Rodinný život v\u00A0Pánovi",
                     "Čítanie z Listu svätého apoštola Pavla Kolosanom<br>" +
@@ -1481,7 +1475,16 @@ public interface Citania_svatci {
                             "Muži, milujte manželky a nebuďte voči nim nevrlí!<br>" +
                             "Deti, poslúchajte rodičov vo\u00A0všetkom, lebo je to milé Pánovi!<br>" +
                             "Otcovia, nedráždite svoje deti, aby nezmalomyseľneli!<br>" +
-                            "Počuli sme Božie slovo."},
+                            "Počuli sme Božie slovo.",
+                    "Alebo:",
+                    "Hebr 11, 8. 11-12. 17-19",
+                    "Viera Abraháma, Sáry a Izáka",
+                    "Čítanie z Listu Hebrejom<br>" +
+                            "Bratia, s\u00A0vierou poslúchol Abrahám, keď bol povolaný, aby šiel na\u00A0miesto, ktoré mal dostať ako dedičstvo; išiel a ani nevedel, kam ide.<br>" +
+                            "Vierou aj neplodná Sára dostala napriek pokročilému veku silu počať potomka, lebo verila, že je verný ten, ktorý dal prisľúbenie. Preto aj z\u00A0jedného, a to odumretého, vzišlo ich také množstvo, ako je hviezd na\u00A0nebi a piesku na\u00A0brehu mora, a ten sa nedá spočítať.<br>" +
+                            "S vierou obetoval Abrahám Izáka, keď bol skúšaný, a jednorodeného obetoval ten, ktorý dostal prisľúbenia a ktorému bolo povedané: \"Po Izákovi sa bude volať tvoje potomstvo.\" Usudzoval totiž, že Boh má moc aj z\u00A0mŕtvych vzkriesiť. Preto ho dostal naspäť aj ako predobraz.<br>" +
+                            "Počuli sme Božie slovo."
+                    },
             {"", "C", "", "1 Jn 3, 1-2. 21-24",
                     "Voláme sa Božími deťmi a nimi aj sme",
                     "Čítanie z Prvého listu svätého apoštola Jána<br>" +
@@ -2102,8 +2105,9 @@ public interface Citania_svatci {
                             "Počuli sme slovo Pánovo.",
                     "Alebo:",
                     "Jn 1, 1-5. 9-14",
-                    "Na počiatku bolo Slovo a Slovo bolo u\u00A0Boha a to Slovo bolo Boh.",
+                    "Slovo sa telom stalo a prebývalo medzi nami",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
+                            "Na počiatku bolo Slovo a Slovo bolo u\u00A0Boha a to Slovo bolo Boh.<br>" +
                             "Ono bolo na\u00A0počiatku u\u00A0Boha. Všetko povstalo skrze neho a bez\u00A0neho nepovstalo nič z\u00A0toho, čo povstalo. V\u00A0ňom bol život a život bol svetlom ľudí. A svetlo vo\u00A0tmách svieti, a tmy ho neprijali. Pravé svetlo, ktoré osvecuje každého človeka, prišlo na\u00A0svet. Bol na\u00A0svete a svet povstal skrze neho, a svet ho nepoznal.<br>" +
                             "Prišiel do\u00A0svojho vlastného, a vlastní ho neprijali. Ale tým, ktorí ho prijali, dal moc stať sa Božími deťmi: tým, čo uverili v\u00A0jeho meno, čo sa nenarodili ani z\u00A0krvi, ani z\u00A0vôle tela, ani z\u00A0vôle muža, ale z\u00A0Boha.<br>" +
                             "A Slovo sa telom stalo a prebývalo medzi nami. A my sme uvideli jeho slávu, slávu, akú má od\u00A0Otca jednorodený Syn, plný milosti a pravdy.<br>" +
