@@ -158,18 +158,42 @@ public interface Texty {
             "s Duchom Svätým v sláve Boha Otca.\n" +
             "Amen.";
 
-    String kredo_vypis = "Verím v jedného Boha, Otca všemohúceho, Stvoriteľa neba i zeme, sveta viditeľného i neviditeľného.\n" +
-            "Verím v jedného Pána Ježiša Krista, jednorodeného Syna Božieho, zrodeného z Otca pred všetkými vekmi;\n" +
-            "Boha z Boha, Svetlo zo Svetla, pravého Boha z Boha pravého, splodeného, nie stvoreného, jednej podstaty s Otcom:\n" +
-            "skrze neho bolo všetko stvorené. On pre nás ľudí a pre našu spásu zostúpil z nebies.\n" +
-            "A mocou Ducha Svätého vzal si telo z Márie Panny a stal sa človekom.\n" +
-            "Za nás bol aj ukrižovaný za vlády Poncia Piláta, bol umučený a pochovaný,\n" +
-            "ale tretieho dňa vstal z mŕtvych podľa Svätého písma. A vystúpil do neba,\n" +
-            "sedí po pravici Otca. A zasa príde v sláve súdiť živých i mŕtvych a jeho kráľovstvu nebude konca.\n" +
-            "Verím v Ducha Svätého, Pána a Oživovateľa, ktorý vychádza z Otca i Syna.\n" +
-            "Jemu sa zároveň vzdáva tá istá poklona a sláva ako Otcovi a Synovi. On hovoril ústami prorokov.\n" +
-            "Verím v jednu, svätú, katolícku a apoštolskú Cirkev. Vyznávam jeden krst na odpustenie hriechov.\n" +
-            "A očakávam vzkriesenie mŕtvych a život budúceho veku. Amen.";
+    String kredo_vypis = "Verím v jedného Boha,\n" +
+            "Otca všemohúceho,\n" +
+            "Stvoriteľa neba i zeme,\n" +
+            "sveta viditeľného i neviditeľného.\n" +
+            "Verím v jedného Pána Ježiša Krista,\n" +
+            "jednorodeného Syna Božieho,\n" +
+            "zrodeného z Otca pred všetkými vekmi;\n" +
+            "Boha z Boha, Svetlo zo Svetla,\n" +
+            "pravého Boha z Boha pravého,\n" +
+            "splodeného, nie stvoreného,\n" +
+            "jednej podstaty s Otcom:\n" +
+            "skrze neho bolo všetko stvorené.\n" +
+            "On pre nás ľudí a pre našu spásu\n" +
+            "zostúpil z nebies.\n" +
+            "A mocou Ducha Svätého\n" +
+            "vzal si telo z Márie Panny\n" +
+            "a stal sa človekom.\n" +
+            "Za nás bol aj ukrižovaný\n" +
+            "za vlády Poncia Piláta,\n" +
+            "bol umučený a pochovaný,\n" +
+            "ale tretieho dňa vstal z mŕtvych podľa Svätého písma.\n" +
+            "A vystúpil do neba,\n" +
+            "sedí po pravici Otca.\n" +
+            "A zasa príde v sláve súdiť živých i mŕtvych\n" +
+            "a jeho kráľovstvu nebude konca.\n" +
+            "Verím v Ducha Svätého,\n" +
+            "Pána a Oživovateľa,\n" +
+            "ktorý vychádza z Otca i Syna.\n" +
+            "Jemu sa zároveň vzdáva\n" +
+            "tá istá poklona a sláva ako Otcovi a Synovi.\n" +
+            "On hovoril ústami prorokov.\n" +
+            "Verím v jednu, svätú, katolícku, apoštolskú Cirkev.\n" +
+            "Vyznávam jeden krst na odpustenie hriechov \n" +
+            "a očakávam vzkriesenie mŕtvych\n" +
+            "a život budúceho veku.\n" +
+            "Amen.";
 
     String[] modlitby = {"", "Diakon (alebo ak ho niet, sám kňaz) obráti sa na veriacich týmito alebo podobnými slovami: ",
             "<m>Prijmite slávnostné požehnanie. ",

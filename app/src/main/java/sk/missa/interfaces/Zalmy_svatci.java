@@ -392,7 +392,7 @@ public interface Zalmy_svatci {
                     "okolo tvojho stola. <font color='#B71C1C'>– R.</font><br>" +
                     "Veru, tak bude požehnaný muž, <font color='#B71C1C'>*</font><br>" +
                     "ktorý sa bojí Pána.<br>" +
-                    "Nech ťa žehná Pán zo Siona, †<br>" +
+                    "Nech ťa žehná Pán zo Siona, <font color='#B71C1C'>†</font><br>" +
                     "aby si videl šťastie Jeruzalema <font color='#B71C1C'>*</font><br>" +
                     "po všetky dni svojho života. <font color='#B71C1C'>– R.</font>"},
             {"", "B", "", "Ž 128, 1-2. 3. 4-5",
@@ -407,7 +407,7 @@ public interface Zalmy_svatci {
                     "okolo tvojho stola. <font color='#B71C1C'>– R.</font><br>" +
                     "Veru, tak bude požehnaný muž, <font color='#B71C1C'>*</font><br>" +
                     "ktorý sa bojí Pána.<br>" +
-                    "Nech ťa žehná Pán zo Siona, †<br>" +
+                    "Nech ťa žehná Pán zo Siona, <font color='#B71C1C'>†</font><br>" +
                     "aby si videl šťastie Jeruzalema <font color='#B71C1C'>*</font><br>" +
                     "po všetky dni svojho života. <font color='#B71C1C'>– R.</font>",
                     "Alebo:",
@@ -441,7 +441,7 @@ public interface Zalmy_svatci {
                             "okolo tvojho stola. <font color='#B71C1C'>– R.</font><br>" +
                             "Veru, tak bude požehnaný muž, <font color='#B71C1C'>*</font><br>" +
                             "ktorý sa bojí Pána.<br>" +
-                            "Nech ťa žehná Pán zo Siona, †<br>" +
+                            "Nech ťa žehná Pán zo Siona, <font color='#B71C1C'>†</font><br>" +
                             "aby si videl šťastie Jeruzalema <font color='#B71C1C'>*</font><br>" +
                             "po všetky dni svojho života. <font color='#B71C1C'>– R.</font>",
                     "Alebo:",
@@ -462,20 +462,20 @@ public interface Zalmy_svatci {
             //Krst Krista Pána
             {"11gkp", "A", "", "Ž 29, 1a+2. 3ac-4. 3b+9c-10",
                     "<font color='#B71C1C'>R.:</font> Pán požehná svoj ľud pokojom.<br><br>" +
-                    "Vzdávajte Pánovi, synovia Boží, †<br>" +
+                    "Vzdávajte Pánovi, synovia Boží, <font color='#B71C1C'>†</font><br>" +
                     "vzdávajte Pánovi slávu hodnu jeho mena, <font color='#B71C1C'>*</font><br>" +
                     "v posvätnom rúchu klaňajte sa pánovi. <font color='#B71C1C'>– R.</font><br>" +
                     "Hlas Pánov nad vodami; <font color='#B71C1C'>*</font><br>" +
                     "Pán nad veľkými vodami!<br>" +
                     "Hlas Pánov taký mohutný! <font color='#B71C1C'>*</font><br>" +
-                    "Hlas pánov taký veľkolepý! <font color='#B71C1C'>– R.</font><br>" +
+                    "Hlas Pánov taký veľkolepý! <font color='#B71C1C'>– R.</font><br>" +
                     "Zahrmel Boh veleby <font color='#B71C1C'>*</font><br>" +
                     "a v jeho chráme všetci volajú: Sláva!<br>" +
                     "Pán tróni nad záplavami vôd, <font color='#B71C1C'>*</font><br>" +
                     "Pán bude tróniť ako večný kráľ. <font color='#B71C1C'>– R.</font>"},
             {"", "B", "", "Ž 29, 1a+2. 3ac-4. 3b+9c-10",
                     "<font color='#B71C1C'>R.:</font> Pán požehná svoj ľud pokojom.<br><br>" +
-                            "Vzdávajte Pánovi, synovia Boží, †<br>" +
+                            "Vzdávajte Pánovi, synovia Boží, <font color='#B71C1C'>†</font><br>" +
                             "vzdávajte Pánovi slávu hodnu jeho mena, <font color='#B71C1C'>*</font><br>" +
                             "v posvätnom rúchu klaňajte sa pánovi. <font color='#B71C1C'>– R.</font><br>" +
                             "Hlas Pánov nad vodami; <font color='#B71C1C'>*</font><br>" +
@@ -495,7 +495,7 @@ public interface Zalmy_svatci {
                     "on sa mi stal záchrancom.\"<br>" +
                     "Budete čerpať vodu s radosťou <font color='#B71C1C'>*</font><br>" +
                     "z prameňov spásy. <font color='#B71C1C'>– R.</font><br>" +
-                    "\"Oslavujte Pána a vzývajte jeho meno, †<br>" +
+                    "\"Oslavujte Pána a vzývajte jeho meno, <font color='#B71C1C'>†</font><br>" +
                     "ohlasujte medzi národmi jeho zázraky, <font color='#B71C1C'>*</font><br>" +
                     "pamätajte, že jeho meno je vznešené. <font color='#B71C1C'>– R.</font><br>" +
                     "Spievajte Pánovi, lebo urobil veľké veci; <font color='#B71C1C'>*</font><br>" +
@@ -504,7 +504,7 @@ public interface Zalmy_svatci {
                     "lebo veľký uprostred teba je Svätý Izraela.\" <font color='#B71C1C'>– R.</font>"},
             {"", "C", "", "Ž 29, 1a+2. 3ac-4. 3b+9c-10",
                     "<font color='#B71C1C'>R.:</font> Pán požehná svoj ľud pokojom.<br><br>" +
-                            "Vzdávajte Pánovi, synovia Boží, †<br>" +
+                            "Vzdávajte Pánovi, synovia Boží, <font color='#B71C1C'>†</font><br>" +
                             "vzdávajte Pánovi slávu hodnu jeho mena, <font color='#B71C1C'>*</font><br>" +
                             "v posvätnom rúchu klaňajte sa pánovi. <font color='#B71C1C'>– R.</font><br>" +
                             "Hlas Pánov nad vodami; <font color='#B71C1C'>*</font><br>" +
@@ -522,22 +522,22 @@ public interface Zalmy_svatci {
                     "Odel si sa do slávy a veleby,<br>" +
                     "do svetla si sa zahalil ako do rúcha. <font color='#B71C1C'>*</font><br>" +
                     "Nebesia rozpínaš ako stan, <font color='#B71C1C'>– R.</font><br>" +
-                    "nad vodami si buduješ komnaty. †<br>" +
+                    "nad vodami si buduješ komnaty. <font color='#B71C1C'>†</font><br>" +
                     "Po oblakoch vystupuješ ako po schodoch, <font color='#B71C1C'>*</font><br>" +
                     "na krídlach vánku sa prechádzaš.<br>" +
                     "Vetry sú tvojimi poslami, <font color='#B71C1C'>*</font><br>" +
                     "ohnivé plamene tvojimi služobníkmi. <font color='#B71C1C'>– R.</font><br>" +
-                    "Aké mnohoraké sú tvoje diela, Pane! †<br>" +
+                    "Aké mnohoraké sú tvoje diela, Pane! <font color='#B71C1C'>†</font><br>" +
                     "Všetko si múdro urobil. <font color='#B71C1C'>*</font><br>" +
                     "Zem je plná tvojho stvorenstva.<br>" +
-                    "Tu more veľké, dlhé a široké, †<br>" +
+                    "Tu more veľké, dlhé a široké, <font color='#B71C1C'>†</font><br>" +
                     "v ňom sa hemžia plazy bez počtu, <font color='#B71C1C'>*</font><br>" +
                     "živočíchy drobné i obrovské. <font color='#B71C1C'>– R.</font><br>" +
                     "Všetko to čaká na teba, <font color='#B71C1C'>*</font><br>" +
                     "že im dáš pokrm v pravý čas.<br>" +
                     "Ty im ho dávaš a ony ho zbierajú; <font color='#B71C1C'>*</font><br>" +
                     "otváraš svoju ruku, sýtia sa dobrotami. <font color='#B71C1C'>– R.</font><br>" +
-                    "Len čo odvrátiš svoju tvár, už sa trasú; †<br>" +
+                    "Len čo odvrátiš svoju tvár, už sa trasú; <font color='#B71C1C'>†</font><br>" +
                     "odnímaš im dych a hneď hynú <font color='#B71C1C'>*</font><br>" +
                     "a vracajú sa do prachu.<br>" +
                     "Keď zošleš svojho ducha, sú stvorené <font color='#B71C1C'>*</font><br>" +
@@ -568,7 +568,7 @@ public interface Zalmy_svatci {
                     "a tvoja tvár nech žiari nad nami,<br>" +
                     "aby sa tvoja cesta stala známou na zemi <font color='#B71C1C'>*</font><br>" +
                     "a tvoja spása medzi všetkými národmi. <font color='#B71C1C'>– R.</font><br>" +
-                    "Nech sa tešia a jasajú národy, †<br>" +
+                    "Nech sa tešia a jasajú národy, <font color='#B71C1C'>†</font><br>" +
                     "že spravodlivo súdiš ľudí <font color='#B71C1C'>*</font><br>" +
                     "a spravuješ národy na zemi. <font color='#B71C1C'>– R.</font><br>" +
                     "Bože, nech ťa velebia národy, <font color='#B71C1C'>*</font><br>" +
@@ -627,21 +627,21 @@ public interface Zalmy_svatci {
                     "zemekruh a všetci, čo na ňom bývajú.<br>" +
                     "Tlieskajte, rieky, rukami, <font color='#B71C1C'>*</font><br>" +
                     "jasajte s nimi, vrchy, <font color='#B71C1C'>– R.</font><br>" +
-                    "pred tvárou Pánovou, lebo prichádza súdiť zem. †<br>" +
+                    "pred tvárou Pánovou, lebo prichádza súdiť zem. <font color='#B71C1C'>†</font><br>" +
                     "Spravodlivo bude súdiť zemekruh <font color='#B71C1C'>*</font><br>" +
                     "a podľa práva národy. <font color='#B71C1C'>– R.</font>"},
             {"5", "", "", "Ž 100, 2. 3. 4. 5",
                     "<font color='#B71C1C'>R.:</font> Sme jeho ľud a ovce z jeho stáda.<br><br>" +
-                    "Jasaj na chválu Pánovi, celá zem, †<br>" +
+                    "Jasaj na chválu Pánovi, celá zem, <font color='#B71C1C'>†</font><br>" +
                     "s radosťou slúžte Pánovi. <font color='#B71C1C'>*</font><br>" +
                     "S plesaním vstupujte pred jeho tvár. <font color='#B71C1C'>– R.</font><br>" +
-                    "Vedzte, že náš Pán je Boh; †<br>" +
+                    "Vedzte, že náš Pán je Boh; <font color='#B71C1C'>†</font><br>" +
                     "on je náš stvoriteľ a jemu patríme, <font color='#B71C1C'>*</font><br>" +
                     "sme jeho ľud a ovce z jeho stáda. <font color='#B71C1C'>– R.</font><br>" +
-                    "Vstupujte do jeho brán s piesňou chvály †<br>" +
+                    "Vstupujte do jeho brán s piesňou chvály <font color='#B71C1C'>†</font><br>" +
                     "a do jeho nádvorí s piesňami oslavnými; <font color='#B71C1C'>*</font><br>" +
                     "chváľte ho a velebte jeho meno. <font color='#B71C1C'>– R.</font><br>" +
-                    "Lebo Pán je dobrý; †<br>" +
+                    "Lebo Pán je dobrý; <font color='#B71C1C'>†</font><br>" +
                     "jeho milosrdenstvo trvá naveky <font color='#B71C1C'>*</font><br>" +
                     "a jeho vernosť z pokolenia na pokolenie. <font color='#B71C1C'>– R.</font>"},
             {"06gk", "", "", "Ž 72, 1-2. 7-8. 10-11. 12-13",
@@ -665,7 +665,7 @@ public interface Zalmy_svatci {
                     "zachráni život úbožiakom. <font color='#B71C1C'>– R.</font>"},
             {"7", "", "", "Ž 2, 7-8. 10-11",
                     "<font color='#B71C1C'>R.:</font> Otec dal Synovi kráľovstvo všetkých národov.<br><br>" +
-                    "Zvestujem Pánovo rozhodnutie: †<br>" +
+                    "Zvestujem Pánovo rozhodnutie: <font color='#B71C1C'>†</font><br>" +
                     "Pán mi povedal: \"Ty si môj syn. <font color='#B71C1C'>*</font><br>" +
                     "Ja som ťa dnes splodil.<br>" +
                     "Žiadaj si odo mňa a dám ti do dedičstva národy <font color='#B71C1C'>*</font><br>" +

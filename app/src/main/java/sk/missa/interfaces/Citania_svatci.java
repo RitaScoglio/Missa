@@ -1518,7 +1518,8 @@ public interface Citania_svatci {
                     "Duch, voda a krv",
                     "Čítanie z Prvého listu svätého apoštola Jána<br>" +
                             "Milovaní, každý, kto verí, že Ježiš je Kristus, narodil sa z\u00A0Boha. A každý, kto miluje Boha ako Otca, miluje aj toho, kto sa z\u00A0neho narodil. Podľa toho poznáme, že milujeme Božie deti, keď milujeme Boha a plníme jeho prikázania. Lebo láska k\u00A0Bohu spočíva v\u00A0tom, že zachovávame jeho prikázania. A jeho prikázania nie sú ťažké. Veď všetko, čo sa narodilo z\u00A0Boha, premáha svet. A tým víťazstvom, ktoré premohlo svet, je naša viera.<br>" +
-                            "Veď kto iný premáha svet, ak nie ten, kto verí, že Ježiš je Boží Syn? On je ten, ktorý prišiel skrze vodu a krv, Ježiš Kristus. Nielen skrze vodu, ale skrze vodu a krv. A Duch to dosvedčuje, pretože Duch je pravda. Lebo traja sú, čo svedčia: Duch, voda a krv; a títo traja sú zajedno. Ak prijímame svedectvo ľudí, Božie svedectvo je väčšie; pretože Božie svedectvo je to, že svedčil o\u00A0svojom Synovi.",
+                            "Veď kto iný premáha svet, ak nie ten, kto verí, že Ježiš je Boží Syn? On je ten, ktorý prišiel skrze vodu a krv, Ježiš Kristus. Nielen skrze vodu, ale skrze vodu a krv. A Duch to dosvedčuje, pretože Duch je pravda. Lebo traja sú, čo svedčia: Duch, voda a krv; a títo traja sú zajedno. Ak prijímame svedectvo ľudí, Božie svedectvo je väčšie; pretože Božie svedectvo je to, že svedčil o\u00A0svojom Synovi.<br>" +
+                    "Počuli sme Božie slovo.",
                     "Alebo:",
                     "Sk 10, 34-38",
                     "Boh pomazal Ježiša Duchom Svätým",
@@ -1530,7 +1531,8 @@ public interface Citania_svatci {
                     "Spasil nás kúpeľom znovuzrodenia a obnovy v\u00A0Duchu Svätom",
                     "Čítanie z Listu svätého apoštola Pavla Títovi<br>" +
                             "Milovaný, zjavila sa Božia milosť na\u00A0spásu všetkým ľuďom a vychováva nás, aby sme sa zriekli bezbožnosti a svetských žiadostí a žili v\u00A0tomto veku triezvo, spravodlivo a nábožne, a tak očakávali blahoslavenú nádej a príchod slávy veľkého Boha a nášho Spasiteľa Ježiša Krista, ktorý vydal za\u00A0nás seba samého, aby nás vykúpil z\u00A0každej neprávosti a očistil si vlastný ľud, horlivý v\u00A0dobrých skutkoch.<br>" +
-                            "Ale keď sa zjavila dobrota Boha, nášho Spasiteľa, a jeho láska k\u00A0ľuďom, spasil nás nie pre\u00A0spravodlivé skutky, ktoré sme my konali, ale zo\u00A0svojho milosrdenstva, kúpeľom znovuzrodenia a obnovy v\u00A0Duchu Svätom, ktorého na\u00A0nás hojne vylial skrze Ježiša Krista, nášho Spasiteľa, aby sme, ospravedlnení jeho milosťou, boli podľa nádeje dedičmi večného života.",
+                            "Ale keď sa zjavila dobrota Boha, nášho Spasiteľa, a jeho láska k\u00A0ľuďom, spasil nás nie pre\u00A0spravodlivé skutky, ktoré sme my konali, ale zo\u00A0svojho milosrdenstva, kúpeľom znovuzrodenia a obnovy v\u00A0Duchu Svätom, ktorého na\u00A0nás hojne vylial skrze Ježiša Krista, nášho Spasiteľa, aby sme, ospravedlnení jeho milosťou, boli podľa nádeje dedičmi večného života.<br>" +
+                    "Počuli sme Božie slovo.",
                     "Alebo:",
                     "Sk 10, 34-38",
                     "Boh pomazal Ježiša Duchom Svätým",

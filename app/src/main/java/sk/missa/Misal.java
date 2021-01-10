@@ -2826,7 +2826,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         prve_citanie_suradnice = aleboCitanie1[0][0];
                         prve_citanie_citat = aleboCitanie1[0][1];
                         prve_citanie_vypis = aleboCitanie1[0][2];
-                        if (nadpis.equals("Omša v čase pandémie")) {
+                        if (nadpis.equals("Omša v čase pandémie") || ID.equals("11gkp")) {
                             changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
                             zalm_suradnice = aleboZalm[0][0];
                             zalm_vypis = aleboZalm[0][1];

@@ -350,7 +350,7 @@ public interface Modlitby_svatci {
                     "keď bol Ježiš Kristus pokrstený v Jordáne<br>" +
                     "a vznášal sa nad ním Duch Svätý,<br>" +
                     "slávnostne si vyhlásil,<br>" +
-                    "že je tvojím milovaným Synom;*<br>" +
+                    "že je tvojím milovaným Synom; <font color='#B71C1C'>*</font><br>" +
                     "pomáhaj nám, svojim deťom,<br>" +
                     "zrodeným z vody a Ducha Svätého, <font color='#B71C1C'>—</font><br>" +
                     "stále žiť podľa tvojej svätej vôle.<br>" +
