@@ -52,7 +52,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         Citania_cezrok, Citania_advent, Citania_post, Citania_velkanoc, Citania_svatci,
         Zalmy_cezrok, Zalmy_advent, Zalmy_post, Zalmy_velkanoc, Zalmy_svatci {
     public static int indexSpev, indexModlitba, indexProsba, indexCS, indexCM, indexPS, indexPM, indexVNS, indexVNM,
-            indexAS, indexAM, indexVS, indexVM, cirkevRok;
+            indexAS, indexAM, indexVS, indexVM, cirkevRok, actualCirkevRok;
     public static boolean feria, nedela, pohyb;
     public static boolean nast_farbu, spevO, modlitbaO, prosbyO, citanie1O, zalmO, alelujaO, evanjeliumO;
     List<String[]> formArray = new ArrayList<>();
@@ -110,9 +110,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             feria = true;
         pohyb = ID.contains("p");
         if (A || (V && den > 23))
-            cirkevRok = (rok + 1) % 3;
+            cirkevRok = actualCirkevRok = (rok + 1) % 3;
         else
-            cirkevRok = rok % 3;
+            cirkevRok = actualCirkevRok = rok % 3;
         if (menoSvatca.equals("Sedembolestnej Panny Márie, patrónky Slovenska") || (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) ||
                 ID.equals("2gkp") || ID.equals("3gkp") || ID.equals("4gkp"))
             sequence = true;
@@ -171,7 +171,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             uvodny_suradnice = cezrokSpev[indexCS][2];
             prijimanie_vypis = cezrokSpev[indexCS][3];
             prijimanie_suradnice = cezrokSpev[indexCS][4];
-        } else if (P) {
+        } else if (P && !(slavenie.equals("Sviatok") || slavenie.equals("Slávnosť") || slavenie.equals("Vigília"))) {
             //post
             uvodny_vypis = postSpev[indexPS][1];
             uvodny_suradnice = postSpev[indexPS][2];
@@ -399,7 +399,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     break;
                 case 1:
                     modlitba_dna_vypis = modlitbaVypis(modlitba2, 1);
-                    if (P) { //v prípade pôstu sú modlitby nad obetnými darmi a po prijímaní z pôstneho obdobia
+                    if (P && !(slavenie.equals("Sviatok") || slavenie.equals("Slávnosť") || slavenie.equals("Vigília"))) { //v prípade pôstu sú modlitby nad obetnými darmi a po prijímaní z pôstneho obdobia
                         modlitbaO = true;
                         modlitba();
                     } else {
@@ -409,7 +409,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     break;
                 case 2:
                     modlitba_dna_vypis = modlitbaVypis(modlitba3, 1);
-                    if (P) { //v prípade pôstu sú modlitby nad obetnými darmi a po prijímaní z pôstneho obdobia
+                    if (P && !(slavenie.equals("Sviatok") || slavenie.equals("Slávnosť") || slavenie.equals("Vigília"))) { //v prípade pôstu sú modlitby nad obetnými darmi a po prijímaní z pôstneho obdobia
                         modlitbaO = true;
                         modlitba();
                     } else {
@@ -419,7 +419,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     break;
                 case 3:
                     modlitba_dna_vypis = modlitbaVypis(modlitba4, 1);
-                    if (P) { //v prípade pôstu sú modlitby nad obetnými darmi a po prijímaní z pôstneho obdobia
+                    if (P && !(slavenie.equals("Sviatok") || slavenie.equals("Slávnosť") || slavenie.equals("Vigília"))) { //v prípade pôstu sú modlitby nad obetnými darmi a po prijímaní z pôstneho obdobia
                         modlitbaO = true;
                         modlitba();
                     } else {
@@ -579,7 +579,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 prve_citanie_citat = citanie1_1[0][4];
                 prve_citanie_vypis = citanie1_1[0][5];
             }
-        } else if (P) {
+        } else if (P && !(slavenie.equals("Sviatok") || slavenie.equals("Slávnosť") || slavenie.equals("Vigília"))) {
             prve_citanie_suradnice = postCitanie1[index][3];
             prve_citanie_citat = postCitanie1[index][4];
             prve_citanie_vypis = postCitanie1[index][5];
@@ -762,6 +762,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             } else if (P) {
                 zalm_suradnice = postZalm[index][3];
                 zalm_vypis = postZalm[index][4];
+                if (postZalm[index].length > 5)
+                    aleboCitanie(postZalm, index, 4);
             } else if (VN) {
                 zalm_suradnice = velkanocZalm[index][3];
                 zalm_vypis = velkanocZalm[index][4];
@@ -772,7 +774,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 zalm_suradnice = zalm1[0][3];
                 zalm_vypis = zalm1[0][4];
             }
-        } else if (P) {
+        } else if (P && !(slavenie.equals("Sviatok") || slavenie.equals("Slávnosť") || slavenie.equals("Vigília"))) {
             zalm_suradnice = postZalm[index][3];
             zalm_vypis = postZalm[index][4];
         } else if (A && den >= 17 && m != 10) {
@@ -1072,7 +1074,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 aleluja_suradnice = aleluja1[0][3];
                 aleluja_vypis = aleluja1[0][4];
             }
-        } else if (P) {
+        } else if (P && !(slavenie.equals("Sviatok") || slavenie.equals("Slávnosť") || slavenie.equals("Vigília"))) {
             aleluja_suradnice = postAleluja[index][3];
             aleluja_vypis = postAleluja[index][4];
         } else if (A && den >= 17 && m != 10) {
@@ -1252,7 +1254,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     aleboCitanie(evanjelium1, 0, 3);
                 }
             }
-        } else if (P) {
+        } else if (P && !(slavenie.equals("Sviatok") || slavenie.equals("Slávnosť") || slavenie.equals("Vigília"))) {
             evanjelium_suradnice = postEvanjelium[index][3];
             evanjelium_citat = postEvanjelium[index][4];
             evanjelium_vypis = postEvanjelium[index][5];
@@ -1482,7 +1484,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     prosby_zaver = prosby1[index][4];
                 }
             }
-        } else if (P) {
+        } else if (P && !(slavenie.equals("Sviatok") || slavenie.equals("Slávnosť") || slavenie.equals("Vigília"))) {
             prosby_uvod = postProsby[index][2];
             prosby_zvolanie = postProsby[index][3];
             prosby_vypis = postProsby[index][4];
@@ -2127,22 +2129,28 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         prefaciaArray.add(prefacie[24][1]);
                         break;
                     case "30":
-                        prefaciaArray.add(prefacie[25][1]);
-                        for (int b = 14; b < 18; b++) {
-                            prefaciaArray.add(prefacie[b][1]);
-                        }
+                        if (cirkevRok == 1)
+                            prefaciaArray.add(prefacie[25][1]);
+                        else
+                            for (int b = 14; b < 18; b++) {
+                                prefaciaArray.add(prefacie[b][1]);
+                            }
                         break;
                     case "40":
-                        prefaciaArray.add(prefacie[26][1]);
-                        for (int b = 14; b < 18; b++) {
-                            prefaciaArray.add(prefacie[b][1]);
-                        }
+                        if (cirkevRok == 1)
+                            prefaciaArray.add(prefacie[26][1]);
+                        else
+                            for (int b = 14; b < 18; b++) {
+                                prefaciaArray.add(prefacie[b][1]);
+                            }
                         break;
                     case "50":
-                        prefaciaArray.add(prefacie[27][1]);
-                        for (int b = 14; b < 18; b++) {
-                            prefaciaArray.add(prefacie[b][1]);
-                        }
+                        if (cirkevRok == 1)
+                            prefaciaArray.add(prefacie[27][1]);
+                        else
+                            for (int b = 14; b < 18; b++) {
+                                prefaciaArray.add(prefacie[b][1]);
+                            }
                         break;
                     case "60":
                         prefaciaArray.add(prefacie[28][1]);
@@ -2379,7 +2387,11 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void ziskajEucharistiu() {
         eucharistiaArray.clear();
         if (vlastnaPrefacia || slavenie.equals("Vigília") || slavenie.equals("Slávnosť")
-                || slavenie.equals("Sviatok") || ID.equals("003m") || ID.equals("001") || (A && nedela)
+                || slavenie.equals("Sviatok")
+                || ID.equals("003m") //Panna Mária v sobotu
+                || ID.equals("001") //Prvý piatok
+                || (P && tyzden == 6) //Veľký týždeň
+                || (A && nedela) // nedeľa v advente
                 || (V && den > 24)) { //vianocna oktava
             eucharistiaArray.add("1. eucharistická modlitba");
             eucharistiaArray.add("2. eucharistická modlitba");
@@ -2390,7 +2402,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             eucharistiaArray.add("3. eucharistická modlitba");
             eucharistiaArray.add("4. eucharistická modlitba");
         }
-        if (P && !slavenie.equals("Slávnosť")) {
+        if (P && !(slavenie.equals("Slávnosť") || slavenie.equals("Sviatok") || slavenie.equals("Vigília")
+                || ID.equals("03") //Popolcová streda
+                || tyzden == 6)) { //Veľký týždeň
             eucharistiaArray.add("1. eucharistická modlitba v omšiach za zmierenie");
             eucharistiaArray.add("2. eucharistická modlitba v omšiach za zmierenie");
         }
@@ -2662,16 +2676,22 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         missas.add(new Missa(modlitba_dna.toUpperCase(), null, null, null, modlitba_dna_vypis, true, 0));
         missas.add(new Missa(2)); //medzera velka
         missas.add(new Missa(liturgia_slova.toUpperCase(), null, null, null, null, true, 0));
+        if (P && (ID.equals("30") || ID.equals("40") || ID.equals("50")) && (actualCirkevRok == 2 || actualCirkevRok == 0)) { //3., 4., 5. pôstna nedeľa môžu mať cítania z roku B
+            if (cirkevRok == 2 || cirkevRok == 0)
+                missas.add(new Missa("<font color='#B71C1C'>Čítania z roku A</font>", true, 20));
+            else
+                missas.add(new Missa("<font color='#B71C1C'>Čítania z akuálneho roku</font>", true, 20));
+        }
         if (aleboCitanie1 != null)
             vypisAlebo(missas, aleboCitanie1, 11);
         missas.add(new Missa(null, prve_citanie.toUpperCase(), prve_citanie_suradnice, prve_citanie_citat, prve_citanie_vypis, true, -2));
         missas.add(new Missa(1)); //medzera mala
-        if (aleboZalm != null && !ID.equals("10gkp") && !ID.equals("11gkp") && !nadpis.equals("Omša v čase pandémie"))
+        if (aleboZalm != null && !ID.equals("10gkp") && !ID.equals("11gkp") && !nadpis.equals("Omša v čase pandémie") && !(P && ID.equals("30")))
             vypisAlebo(missas, aleboZalm, 14);
         missas.add(new Missa(null, zalm.toUpperCase(), zalm_suradnice, null, zalm_vypis, true, 0));
         missas.add(new Missa(1)); //medzera mala
         if (druhe_citanie != null) {
-            if (aleboCitanie2 != null)
+            if (aleboCitanie2 != null && !(P && ID.equals("30")))
                 vypisAlebo(missas, aleboCitanie2, 12);
             missas.add(new Missa(null, druhe_citanie.toUpperCase(), druhe_citanie_suradnice, druhe_citanie_citat, druhe_citanie_vypis, true, -2));
             missas.add(new Missa(1)); ////medzera mala
@@ -2838,6 +2858,18 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                             druhe_citanie_suradnice = aleboCitanie2[0][0];
                             druhe_citanie_citat = aleboCitanie2[0][1];
                             druhe_citanie_vypis = aleboCitanie2[0][2];
+                        } else if (P && ID.equals("30")) {
+                            changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
+                            zalm_suradnice = aleboZalm[0][0];
+                            zalm_vypis = aleboZalm[0][1];
+                            changeAleboCitanie(aleboCitanie2, missa.getIndexAlebo());
+                            druhe_citanie_suradnice = aleboCitanie2[0][0];
+                            druhe_citanie_citat = aleboCitanie2[0][1];
+                            druhe_citanie_vypis = aleboCitanie2[0][2];
+                            changeAleboCitanie(aleboEvanjelium, missa.getIndexAlebo());
+                            evanjelium_suradnice = aleboEvanjelium[0][0];
+                            evanjelium_citat = aleboEvanjelium[0][1];
+                            evanjelium_vypis = aleboEvanjelium[0][2];
                         }
                         pozicia_listview = position;
                         vypis();
@@ -2909,6 +2941,20 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     case 19:
                         otvorenie(11);
                         double_click = 0;
+                    case 20:
+                        if (cirkevRok == 1)
+                            cirkevRok = actualCirkevRok;
+                        else
+                            cirkevRok = 1;
+                        prveCitanie();
+                        zalm();
+                        druheCitanie();
+                        aleluja();
+                        evanjelium();
+                        ziskajPrefaciu();
+                        prefacia();
+                        pozicia_listview = position;
+                        vypis();
                     default:
                         break;
                 }

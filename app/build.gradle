@@ -6,7 +6,7 @@ android {
         applicationId "sk.missa"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 27
+        versionCode 28
         versionName "1.7"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

@@ -2636,7 +2636,7 @@ public interface Modlitby_svatci {
                     "svätých mučeníkov Kornélia a Cypriána<br>" +
                     "odhodlane vydávali svedectvo o pravde evanjelia.<br>" +
                     "Skrze Krista, nášho Pána."},
-            {"17", "Večný Bože,<br>" +
+            {"17a", "Večný Bože,<br>" +
                     "svätého biskupa Róberta si obdaril<br>" +
                     "vynikajúcou učenosťou a nezlomnou odvahou,<br>" +
                     "aby bránil vieru tvojej Cirkvi; <font color='#B71C1C'>*</font><br>" +

@@ -2278,7 +2278,7 @@ public interface Prosby_svatci {
                             "aby sme prekonávali ťažkosti života,<br>" +
                             "a tak si raz zaslúžili naveky prebývať s tebou.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"17", "Bratia a sestry, svätý biskup Róbert Bellarmín vynikal múdrosťou života a zaslúžil sa o duchovnú obnovu Cirkvi. Prosme všemohúceho Otca, aby na jeho príhovor vypočul naše modlitby.",
+            {"17a", "Bratia a sestry, svätý biskup Róbert Bellarmín vynikal múdrosťou života a zaslúžil sa o duchovnú obnovu Cirkvi. Prosme všemohúceho Otca, aby na jeho príhovor vypočul naše modlitby.",
                     "<font color='#B71C1C'>(</font>Volajme: Bože Otče, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Bože, zachovaj svoju Cirkev v pravom učení a ochraňuj ju pred útokmi bludných náuk.<br>" +
                             "<font color='#B71C1C'>2.</font> Otče, obráť srdcia svetských predstaviteľov, ktorí útočia na Cirkev a znevažujú jej hodnoty.<br>" +

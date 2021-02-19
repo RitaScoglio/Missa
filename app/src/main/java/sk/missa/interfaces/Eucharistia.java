@@ -751,6 +751,7 @@ public interface Eucharistia {
                     "Daj, aby sa pôsobením Ducha Svätého<br>" +
                     "stali jedným telom,<br>" +
                     "v ktorom niet rozdelenia ani nesvornosti.<br>" +
+                    "<br>" +
                     "<font color='#B71C1C'>1.k</font> Zachovaj nás<br>" +
                     "vo vzájomnej jednote ducha a srdca<br>" +
                     "s naším pápežom <font color='#B71C1C'>M.</font> a s naším biskupom <font color='#B71C1C'>M.</font><br>" +
@@ -793,6 +794,7 @@ public interface Eucharistia {
                     "Jeho si vydal na smrť,<br>" +
                     "aby sme sa my vrátili k tebe<br>" +
                     "a navzájom sa milovali.<br>" +
+                    "<br>" +
                     "<font color='#B71C1C'>Vš</font> Preto slávime veľké dielo nášho zmierenia,<br>" +
                     "ktoré vykonal Ježiš Kristus,<br>" +
                     "a vrúcne ťa prosíme.",
@@ -839,8 +841,8 @@ public interface Eucharistia {
                     "kým neprídeš v sláve.",
             "BAR", "",
             "Druhá formula:",
-            "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.<br>" +
-                    "<font color='#B71C1C'>Ľud odpovie zvolaním:</font><br>" +
+            "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.",
+                    "Ľud odpovie zvolaním:",
                     "Pane, keď jeme tento chlieb<br>" +
                     "a pijeme z tohto kalicha,<br>" +
                     "zvestujeme tvoju smrť,<br>" +
@@ -865,6 +867,7 @@ public interface Eucharistia {
                     "a pri tejto eucharistickej hostine<br>" +
                     "zošli na nás jeho Ducha,<br>" +
                     "aby nás oslobodil od všetkého, čo rozdeľuje.<br>" +
+                    "<br>" +
                     "<font color='#B71C1C'>1.k</font> Nech nás Duch Svätý zachová v jednote<br>" +
                     "s naším pápežom <font color='#B71C1C'>M.</font>, s naším biskupom <font color='#B71C1C'>M.</font>,<br>" +
                     "so všetkými biskupmi<br>" +
@@ -872,6 +875,7 @@ public interface Eucharistia {
                     "Daj, aby tvoja Cirkev bola znakom jednoty<br>" +
                     "a nástrojom pokoja<br>" +
                     "medzi všetkými ľuďmi.<br>" +
+                    "<br>" +
                     "<font color='#B71C1C'>2.k</font> Zhromaždil si nás pri stole svojho Syna<br>" +
                     "v spoločenstve<br>" +
                     "so svätou Bohorodičkou Pannou Máriou<br>" +

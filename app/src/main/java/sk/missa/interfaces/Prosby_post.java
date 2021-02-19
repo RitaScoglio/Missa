@@ -161,7 +161,7 @@ public interface Prosby_post {
                             "<font color='#B71C1C'>6.</font> Za lásku v rodinách.<br>" +
                             "<font color='#B71C1C'>7.</font> Za zdravie pre chorých.<br>" +
                             "<font color='#B71C1C'>8.</font> Za radosť pre ponorených v smútku.<br>" +
-                            "9. Za hlboké prežitie Pôstneho obdobia pre našu farnosť <font color='#B71C1C'>(</font>naše spoločenstvo<font color='#B71C1C'>)</font>.",
+                            "<font color='#B71C1C'>9.</font> Za hlboké prežitie Pôstneho obdobia pre našu farnosť <font color='#B71C1C'>(</font>naše spoločenstvo<font color='#B71C1C'>)</font>.",
                     "Ježišu, ty si náš Pán;<br>" +
                             "prosíme, vyslyš naše prosby,<br>" +
                             "ktoré ti s dôverou predkladáme.<br>" +

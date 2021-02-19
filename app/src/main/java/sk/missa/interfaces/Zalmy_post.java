@@ -393,7 +393,7 @@ public interface Zalmy_post {
                             "Vzácnejšie sú než zlato, <font color='#B71C1C'>*</font><br>" +
                             "než veľký drahokam,<br>" +
                             "sladšie sú než med, <font color='#B71C1C'>*</font><br>" +
-                            "než medové kvapky z plástu. <font color='#B71C1C'>– R.</font>"},
+                            "než medové kvapky z plástu. <font color='#B71C1C'>– R.</font>",},
             {"30", "C", "", "Ž 103, 1-2. 3-4. 6-7. 8+11",
                     "<font color='#B71C1C'>R.:</font> Milostivý a milosrdný je Pán.<br><br>" +
                             "Dobroreč, duša moja, Pánovi <font color='#B71C1C'>*</font><br>" +

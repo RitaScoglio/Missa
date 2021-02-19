@@ -220,22 +220,6 @@ public interface Citania_post {
                             "Nebudeš krivo svedčiť proti svojmu blížnemu.<br>" +
                             "Nebudeš žiadostivo túžiť po\u00A0dome svojho blížneho.<br>" +
                             "Nebudeš túžiť po\u00A0jeho manželke, ani po\u00A0jeho sluhovi, ani po\u00A0slúžke, ani po\u00A0volovi, ani po\u00A0oslovi, ani po\u00A0ničom, čo mu patrí.\"<br>" +
-                            "Počuli sme Božie slovo.",
-                    "Alebo:",
-                    "Ex 20, 1-3. 7-8. 12-17",
-                    "Zákon bol daný skrze Mojžiša",
-                    "Čítanie z Knihy Exodus<br>" +
-                            "Boh povedal všetky tieto slová: \"Ja som Pán, tvoj Boh, ktorý ťa vyviedol z\u00A0egyptskej krajiny, z\u00A0domu otroctva.<br>" +
-                            "Nebudeš mať iných bohov okrem mňa.<br>" +
-                            "Nevyslovíš meno Pána, svojho Boha, nadarmo. Lebo Pán nenechá bez\u00A0trestu toho, kto by zneuctil meno Pána, svojho Boha.<br>" +
-                            "Pamätaj na\u00A0sobotný deň a zasväť ho.<br>" +
-                            "Cti svojho otca a svoju matku, aby si dlho žil v\u00A0krajine, ktorú ti dá Pán, tvoj Boh.<br>" +
-                            "Nezabiješ.<br>" +
-                            "Nescudzoložíš.<br>" +
-                            "Nepokradneš.<br>" +
-                            "Nebudeš krivo svedčiť proti svojmu blížnemu.<br>" +
-                            "Nebudeš žiadostivo túžiť po\u00A0dome svojho blížneho.<br>" +
-                            "Nebudeš túžiť po\u00A0jeho manželke, ani po\u00A0jeho sluhovi, ani po\u00A0slúžke, ani po\u00A0volovi, ani po\u00A0oslovi, ani po\u00A0ničom, čo mu patrí.\"<br>" +
                             "Počuli sme Božie slovo."},
             {"30", "C", "", "Ex 3, 1-8a. 13-15",
                     "Ten, ktorý je, ma k\u00A0vám poslal",
@@ -635,8 +619,8 @@ public interface Citania_post {
                             "Milovaný, trp spolu so\u00A0mnou za\u00A0evanjelium, posilňovaný mocou Boha. On nás spasil a povolal svätým povolaním, nie pre\u00A0naše skutky, ale zo\u00A0svojho rozhodnutia a milosti, ktorú sme dostali v\u00A0Kristovi Ježišovi pred\u00A0večnými vekmi. No známou sa stala až teraz, keď sa zjavil náš Spasiteľ Ježiš Kristus. On zničil smrť a zjavil život a nesmrteľnosť evanjeliom.<br>" +
                             "Počuli sme Božie slovo."},
             {"20", "B", "", "Rim 8, 31b-34",
+                    "Boh vlastného Syna neušetril",
                     "Čítanie z Listu svätého apoštola Pavla Rimanom<br>" +
-                            "Boh vlastného Syna neušetril<br>" +
                             "Bratia, ak je Boh za\u00A0nás, kto je proti nám? Keď on vlastného Syna neušetril, ale vydal ho za\u00A0nás všetkých, akože by nám s\u00A0ním nedaroval všetko!?<br>" +
                             "Kto obžaluje Božích vyvolencov? Boh, ktorý ospravedlňuje? A kto ich odsúdi? Kristus Ježiš, ktorý zomrel, ba viac – ktorý bol vzkriesený, je po\u00A0pravici Boha a prihovára sa za\u00A0nás?<br>" +
                             "Počuli sme Božie slovo."},
@@ -1499,7 +1483,7 @@ public interface Citania_post {
                             "<font color='#B71C1C'>E</font> A hľa, chrámová opona sa roztrhla vo\u00A0dvoje odvrchu až dospodku. Zem sa triasla a skaly sa pukali. Otvorili sa hroby a mnohé telá zosnulých svätých vstali z\u00A0mŕtvych. Vyšli z\u00A0hrobov a po\u00A0jeho vzkriesení prišli do\u00A0svätého mesta a ukázali sa mnohým.<br>" +
                             "<font color='#B71C1C'>E</font> Keď stotník a tí, čo s\u00A0ním strážili Ježiša, videli zemetrasenie a všetko, čo sa deje, veľmi sa naľakali a hovorili: <font color='#B71C1C'>S</font> \"On bol naozaj Boží Syn.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            {"60", "B", "", " Mk 14, 1 – 15, 47", "Umučenie nášho Pána Ježiša Krista podľa Marka<br>"+
+            {"60", "B", "Mk 14, 1 – 15, 47", "Umučenie nášho Pána Ježiša Krista podľa Marka<br>"+
                     "<font color='#B71C1C'>Pašie sa čítajú bez\u00A0sviečok a bez\u00A0incenzácie, bez\u00A0pozdravu a bez\u00A0poznačenia knihy znakom kríža. Číta ich diakon; ak ho niet, kňaz. Čítať ich môžu aj lektori laici; v\u00A0tomto prípade, ak je možné, treba vyhradiť kňazovi časti, v\u00A0ktorých hovorí Kristus.<br>" +
                     "Diakoni (nie však iní) pred\u00A0spievaním pašií prosia od\u00A0kňaza požehnanie, ako sa to robí vo\u00A0svätej omši pred\u00A0evanjeliom.<br>" +
                     "Po pašiách, ak je to vhodné, nech je krátka homília.<br>" +
@@ -1596,9 +1580,9 @@ public interface Citania_post {
                     "Jozef ku\u00A0vchodu do\u00A0hrobu privalil kameň",
                     "<font color='#B71C1C'>E</font> Keď sa už zvečerilo, pretože bol Prípravný deň, čiže deň pred\u00A0sobotou, prišiel Jozef z\u00A0Arimatey, významný člen rady, ktorý tiež očakával Božie kráľovstvo, smelo vošiel k\u00A0Pilátovi a poprosil o\u00A0Ježišovo telo. Pilát sa zadivil, že už zomrel. Zavolal si stotníka a opýtal sa ho, či je už mŕtvy. Keď mu to stotník potvrdil, daroval telo Jozefovi. On kúpil plátno a keď ho sňal, zavinul ho do\u00A0plátna a uložil do\u00A0hrobu vytesaného do\u00A0skaly. A ku\u00A0vchodu do\u00A0hrobu privalil kameň.<br>" +
                             "<font color='#B71C1C'>E</font> Mária Magdaléna a Mária Jozesova sa pozerali, kde ho uložili.<br>" +
-                            "Počuli sme slovo Pánovo.<br><br>" +
-                            "<font color='#B71C1C'>Alebo kratšie: Mk 15, 1-39</font><br>" +
-                            "Umučenie nášho Pána Ježiša Krista podľa Marka",
+                            "Počuli sme slovo Pánovo.",
+                            "Alebo kratšie:",
+                    "Mk 15, 1-39",
                     "Chcete, aby som vám prepustil židovského kráľa?",
                     "<font color='#B71C1C'>E</font> Hneď zrána mali poradu veľkňazi so\u00A0staršími a zákonníkmi, teda celá veľrada. Ježiša spútali, odviedli a odovzdali Pilátovi.<br>" +
                             "<font color='#B71C1C'>E</font> Pilát sa ho spýtal: <font color='#B71C1C'>S</font> \"Si židovský kráľ?\"<br>" +
@@ -1729,9 +1713,9 @@ public interface Citania_post {
                     "Jozef uložil Ježišovo telo do\u00A0vytesaného hrobu",
                     "<font color='#B71C1C'>E</font> Tu istý muž menom Jozef, člen rady, dobrý a spravodlivý človek z\u00A0judejského mesta Arimatey, ktorý nesúhlasil s\u00A0ich rozhodnutím ani činmi a očakával Božie kráľovstvo, zašiel k\u00A0Pilátovi a poprosil o\u00A0Ježišovo telo. Keď ho sňal, zavinul ho do\u00A0plátna a uložil do\u00A0vytesaného hrobu, v\u00A0ktorom ešte nik neležal. Bol Prípravný deň a už sa začínala sobota.<br>" +
                             "<font color='#B71C1C'>E</font> Odprevádzali ho ženy, ktoré s\u00A0ním prišli z\u00A0Galiley. Pozreli si hrob aj to, ako uložili jeho telo. Potom sa vrátili domov a pripravili si voňavé oleje a masti. Ale v\u00A0sobotu zachovali podľa prikázania pokoj.<br>" +
-                            "Počuli sme slovo Pánovo.<br><br>" +
-                            "<font color='#B71C1C'>Alebo kratšie: Lk 23, 1-49</font><br>" +
-                            "Umučenie nášho Pána Ježiša Krista podľa Lukáša",
+                            "Počuli sme slovo Pánovo.",
+                            "Alebo kratšie:",
+                    "Lk 23, 1-49",
                     "Ja nenachádzam nijakú vinu na\u00A0tomto človekovi",
                     "<font color='#B71C1C'>E</font> Tu celé zhromaždenie vstalo, odviedli ho k\u00A0Pilátovi a začali naňho žalovať: <font color='#B71C1C'>S</font> \"Tohoto sme pristihli, ako rozvracia náš národ, zakazuje platiť dane cisárovi a tvrdí o\u00A0sebe, že je Mesiáš, kráľ.\"<br>" +
                             "<font color='#B71C1C'>E</font> Pilát sa ho spýtal: <font color='#B71C1C'>S</font> \"Si židovský kráľ?\"<br>" +

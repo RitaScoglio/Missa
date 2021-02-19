@@ -9,7 +9,7 @@ public interface Svatci {
     POMOCNÉ ZNAČKY pre bližšie určenie sviatku:
     ID: nedela = gk
     feria = ""
-    maria = 003
+    maria = 003m
     prvy piatok = 001
     prvy stvrtok = 002
     Jarné kántrové dni = 004
@@ -97,7 +97,7 @@ public interface Svatci {
             {"06", "Sv. Mikiho a spoločníkov, mučeníkov", "Spomienka", "(červená)"},
             {"08a", "Sv. Hieronyma Emilianiho", "Ľubovoľná spomienka", "(biela)"},
             {"08b", "Sv. Jozefíny Bakhity, panny", "Ľubovoľná spomienka", "(biela)"},
-            {"10", "Sv. Školastiky, pannny", "Spomienka", "(biela)"},
+            {"10", "Sv. Školastiky, panny", "Spomienka", "(biela)"},
             {"11m", "Preblahoslavenej Panny Márie Lurdskej", "Ľubovoľná spomienka", "(biela)"},
             {"14o", "Sv. Cyrila, mnícha a Sv. Metóda, biskupa, patrónov Európy", "Votívna omša", "(biela)"},
             {"14g+", "ŽILINSKÁ DIECÉZA: Sv. Cyrila, mnícha a Sv. Metóda, biskupa (Hlavných patrónov diecézy)", "Sviatok", "(biela)"},
@@ -105,6 +105,7 @@ public interface Svatci {
             {"21", "Sv. Petra Damianiho, biskupa a učiteľa Cirkvi", "Ľubovoľná spomienka", "(biela)"},
             {"22g", "Katedra sv. Petra, apoštola", "Sviatok", "(biela)"},
             {"23", "Sv. Polykarpa, biskupa a mučeníka", "Spomienka", "(červená)"},
+            {"27", "Sv. Gregor z Nareku, opáta a učiteľa Cirkvi", "Ľubovoľná spomienka", "(biela)"},
     };
     String[][] month3 ={
             {"04", "Sv. Kazimíra", "Ľubovoľná spomienka", "(biela)"},
@@ -138,6 +139,7 @@ public interface Svatci {
             {"02", "Sv. Atanáza, biskupa a učiteľa Cirkvi", "Spomienka", "(biela)"},
             {"03g", "Sv. Filipa a Jakuba, apoštolov", "Sviatok", "(červená)"},
             {"04", "Sv. Floriána, mučeníka", "Ľubovoľná spomienka", "(červená)"},
+            {"10", "Sv. Ján z Avily kňaza, mystika a učiteľa Cirkvi", "Ľubovoľná spomienka", "(biela)"},
             {"11", "Bl. Sáry Salkaháziovej, panny a mučenice", "Ľubovoľná spomienka", "(červená)"},
             {"12a", "Sv. Nerea a Achila, mučeníkov", "Ľubovoľná spomienka", "(červená)"},
             {"12b", "Sv. Pankráca, mučeníka", "Ľubovoľná spomienka", "(červená)"},
@@ -206,7 +208,7 @@ public interface Svatci {
             {"25g", "Sv. Jakuba, apoštola", "Sviatok", "(červená)"},
             {"26", "Sv. Joachima a Anny, rodičov Preblahoslavenej Panny Márie", "Spomienka", "(biela)"},
             {"27", "Sv. Gorazda a spoločníkov", "Spomienka", "(biela)"},
-            {"29", "Sv. Marty", "Spomienka", "(biela)"},
+            {"29", "Sv. Marty, Márie a Lazára", "Spomienka", "(biela)"},
             {"30", "Sv. Petra Chryzológa, biskupa a učiteľa Cirkvi", "Ľubovoľná spomienka", "(biela)"},
             {"30b", "Bl. Zdenky Cecílie Schelingovej, panny a mučenice", "Ľubovoľná spomienka", "(červená)"},
             {"31", "Sv. Ignáca z Loyoly, kňaza", "Spomienka", "(biela)"},
@@ -256,7 +258,8 @@ public interface Svatci {
             //{"14*", "Sedembolestnej Panny Márie, patrónky Slovenska", "Vigília", "(biela)"},
             {"15gkm", "Sedembolestnej Panny Márie, patrónky Slovenska", "Slávnosť", "(biela)"},
             {"16", "Sv. Kornélia, pápeža, a sv. Cypriána, biskupa, mučeníkov", "Spomienka", "(červená)"},
-            {"17", "Sv. Róberta Bellarmína, biskupa a učiteľa Cirkvi", "Ľubovoľná spomienka", "(biela)"},
+            {"17a", "Sv. Róberta Bellarmína, biskupa a učiteľa Cirkvi", "Ľubovoľná spomienka", "(biela)"},
+            {"17b", "Sv. Hildegarda z Bingenu, opátka a učiteľka Cirkvi", "Ľubovoľná spomienka", "(biela)"},
             {"19", "Sv. Januára, biskupa a mučeníka", "Ľubovoľná spomienka", "(červená)"},
             {"20", "Sv. Ondreja Kim Taegona, kňaza, a Pavla Chong Hasanga a spoločníkov, mučeníkov", "Spomienka", "(červená)"},
             {"21g", "Sv. Matúša, apoštola a evanjelistu", "Sviatok", "(červená)"},

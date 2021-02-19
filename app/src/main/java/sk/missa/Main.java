@@ -38,6 +38,7 @@ import org.joda.time.Days;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Locale;
 
 import sk.missa.interfaces.Svatci;
 
@@ -538,17 +539,17 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         pm = prvyPiatok = prvyStvrtok = vynimka_pm = false;
         index = najdiIndex(month, d);
         dnes.setFirstDayOfWeek(java.util.Calendar.SUNDAY);
+        dnes.setMinimalDaysInFirstWeek(1);
 
         //vypocet tyzdna v cezrocnom obdobi
-        //v niektorych rokoch posun v tyzdnoch od klasiky = zistenie ci je posun v tyzdnoch (v januari musi byt cezrok vzdy 1)
-        int posun = Math.abs(1 - (mKKPactual.plusDays(1).getWeekOfWeekyear() - 2));
-        //zistim cezrok normalne
-        cezrok = (dnes.get(java.util.Calendar.WEEK_OF_YEAR) - 14);
-        if (mes == 0 || mes == 1 || mes == 2)
-            cezrok = cezrok + 12;
-        //nakoniec priratam posun
-        cezrok = cezrok + posun;
-        Log.d("pocitanie cezrok", day + " " + mes + " " + cezrok);
+        //v niektorych rokoch posun v tyzdnoch od klasiky => v januari musi byt cezrok vzdy 1, preto specialne pocitanie
+        if (mes == 0 || mes == 1 || mes == 2) {
+            int days = Days.daysBetween(mKKPactual, mD).getDays();
+            cezrok = (days / 7) + 1;
+        } else { //zistim cezrok normalne
+            cezrok = dnes.get(java.util.Calendar.WEEK_OF_YEAR);
+            cezrok = cezrok - 14;
+        }
 
         //nedela
         nedela = new Calendar((cisla_z[cezrok - 1] + " nedeľa v cezročnom období").toUpperCase(), "", "(zelená)", day, (cezrok), "gk", "c");
@@ -650,7 +651,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 (17 < day && day < 25 && dvt == 6)))
             words.add(new Calendar("Jesenné kántrové dni", " ", "(zelená)", day, cezrok, "006", "c"));
         //tyzden modlitieb za jednotu krestanov
-        if(mes == 0 && 17 < day && day < 23)
+        if(mes == 0 && 17 < day && day < 25)
             words.add(new Calendar("Za jednotu kresťanov", " ", "(zelená)", day, cezrok, "009", "c"));
     }
 
@@ -697,7 +698,8 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 feria = new Calendar((dni[dvt] + " po " + post + ". pôstnej nedeli"), "Féria", "(fialová)", day, post, Integer.toString(post) + dvt, "p");
 
             if (index != -1) {
-                if (month[index][2].equals("Ľubovoľná spomienka") || month[index][2].equals("Spomienka") || month[index][2].equals("Vigília"))
+                if (month[index][2].equals("Ľubovoľná spomienka") || month[index][2].equals("Spomienka")
+                        || month[index][2].equals("Vigília") || month[index][0].contains("v"))
                     words.add(feria);
                 do {
                     if (month[index][2].equals("Ľubovoľná spomienka") || month[index][2].equals("Spomienka"))
