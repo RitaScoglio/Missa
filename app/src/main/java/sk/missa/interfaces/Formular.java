@@ -3182,7 +3182,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
             {"21", "2", "Omša za viacerých mučeníkov 2.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
@@ -3195,7 +3195,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
             {"21", "3", "Omša za viacerých mučeníkov 3.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
@@ -3208,7 +3208,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
             {"21", "4", "Omša za viacerých mučeníkov 4.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
@@ -3221,7 +3221,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
             {"21", "5", "Omša za viacerých mučeníkov 5.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
@@ -3234,7 +3234,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
             // omsa jedneho muceníka mimo velkonocneho obdobia
@@ -3259,7 +3259,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
             // omsa viacerých muceníkov vo velkonocnom obdobi
@@ -3273,7 +3273,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
             {"23", "2", "Omša za viacerých mučeníkov 2.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
@@ -3286,7 +3286,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
 // omsa jedného muceníka vo velkonocnom obdobi
@@ -3299,7 +3299,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
             // omsa o mucenikoch misionaroch
@@ -3312,7 +3312,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
             // omsa o panne mucenici
@@ -3326,7 +3326,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
             {"26", "2", "Omša o panne mučenici 2.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
@@ -3339,7 +3339,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
             // omsa o svatej zene mucenici
@@ -3352,7 +3352,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
             {"27", "2", "Omša o svätej žene mučenici 2.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
@@ -3364,7 +3364,7 @@ public interface Formular {
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
-                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.<font color='#B71C1C'>)</font><br>" +
+                            "a na orodovanie svätých mučeníkov <font color='#B71C1C'>(</font>svätého mučeníka <font color='#B71C1C'>M.)</font><br>" +
                             "nás posilňuj pri obrane viery.<br>" +
                             "Skrze Krista, nášho Pána."},
             // SPOLOCNE OMSE DUCHOVNYCH PASTIEROVSPOLOCNE OMSE DUCHOVNYCH PASTIEROV,

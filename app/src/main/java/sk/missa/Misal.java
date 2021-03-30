@@ -1398,16 +1398,16 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
 
     public void kredo() {
         kredo = null;
-        if (ID.equals("26g") && m == 11)
+        if (ID.equals("26g") && m == 11) //Sv. Štefana
             kredo = "<font color='#B71C1C'>Pri slávnostných omšiach môže byť aj Krédo (otvoriť)</font>";
             //else if (ID.equals("10gkp") && dvt != 0)
-        else if (ID.equals("02g") && m == 1 && dvt == 0)
+        else if (menoSvatca.equals("POPOLCOVÁ STREDA"))
+            kredo = "<font color='#B71C1C'>Požehnanie popola a značenie popolom</font>";
+        else if (ID.contains("k") || nedela
+                || (VN && ID.equals("11")) //Veľkonočný pondelok
+                || (ID.equals("02g") && m == 1 && dvt == 0)) //Obetovanie Pána v nedeľu
+        {
             kredo = "<font color='#B71C1C'>Krédo (otvoriť)</font>";
-        else if (ID.contains("k") || nedela || slavenie.equals("Oktáva") || menoSvatca.equals("POPOLCOVÁ STREDA")) {
-            if (menoSvatca.equals("POPOLCOVÁ STREDA"))
-                kredo = "<font color='#B71C1C'>Požehnanie popola a značenie popolom</font>";
-            else
-                kredo = "<font color='#B71C1C'>Krédo (otvoriť)</font>";
         }
     }
 
@@ -2034,6 +2034,10 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     formArray.add(new String[]{"0", "0", "Vlastný formulár"});
                     break;
                 }
+                if (P && nedela) {
+                    formArray.add(new String[]{"0", "0", "Vlastný formulár"});
+                    break;
+                }
                 if (VN) {
                     switch (omsa) {
                         case "22":
@@ -2392,7 +2396,14 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 || ID.equals("001") //Prvý piatok
                 || (P && tyzden == 6) //Veľký týždeň
                 || (A && nedela) // nedeľa v advente
-                || (V && den > 24)) { //vianocna oktava
+                || (V && den > 24) //vianocna oktava
+                || ID.equals("004") //jarné kántrové dni
+                || ID.equals("005") //letné kántrové dni
+                || ID.equals("006") //jesenné kántrové dni
+                || ID.equals("007") //zimné kántrové dni
+                || ID.equals("008") //prosebné dni
+                || ID.equals("009")) //za duchovné povolania
+        {
             eucharistiaArray.add("1. eucharistická modlitba");
             eucharistiaArray.add("2. eucharistická modlitba");
             eucharistiaArray.add("3. eucharistická modlitba");
@@ -2458,10 +2469,78 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         dg.add(new Missa(kvetna_nedela[22], kvetna_nedela[23], true));
         dg.add(new Missa(kvetna_nedela[24], kvetna_nedela[25], false));
         dg.add(new Missa(kvetna_nedela[26], kvetna_nedela[27], true));
+        dg.add(new Missa(kvetna_nedela[28], kvetna_nedela[29], true));
+        dg.add(new Missa(kvetna_nedela[30], kvetna_nedela[31], true));
         dg.add(new Missa(2));
 
         MissaAdapter ada = new MissaAdapter(this, dg);
         dialogListview.setAdapter(ada);
+        dialog.show();
+    }
+
+
+    //prosby za zosnulych a rozlicne potreby
+    private void prosbyRozlicnePotreby() {
+        final Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.custom_dialog);
+        ListView dialogListview = dialog.findViewById(R.id.vypis_misal);
+        TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
+        Button dialogButton = dialog.findViewById(R.id.dialog_button);
+        final ArrayList<Missa> dg = new ArrayList<>();
+
+        if (rezim) {
+            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
+            dialogTextView.setTextColor(getResources().getColor(R.color.background));
+            dialogButton.setTextColor(getResources().getColor(R.color.background));
+            dialogButton.setBackgroundColor(Color.BLACK);
+        } else {
+            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
+            dialogTextView.setTextColor(getResources().getColor(R.color.primary));
+            dialogButton.setTextColor(getResources().getColor(R.color.primary));
+            dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
+        }
+
+        dialogButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
+
+        dialogTextView.setText("Prosby za zosnulých a rozličné potreby");
+        dg.add(new Missa("<font color='#B71C1C'>"+prosby_rozlicne[0][0]+"</font>", true, 1));
+        dg.add(new Missa("<font color='#B71C1C'>"+prosby_rozlicne[1][0]+"</font>", true, 2));
+        dg.add(new Missa("<font color='#B71C1C'>"+prosby_rozlicne[2][0]+"</font>", true, 3));
+        dg.add(new Missa("<font color='#B71C1C'>"+prosby_rozlicne[3][0]+"</font>", true, 4));
+        dg.add(new Missa("<font color='#B71C1C'>"+prosby_rozlicne[4][0]+"</font>", true, 5));
+
+        MissaAdapter ada = new MissaAdapter(this, dg);
+        dialogListview.setAdapter(ada);
+        dialogListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                Missa missa = dg.get(position);
+                switch (missa.getOtvor()) {
+                    case 1:
+                        otvorenie(12);
+                        break;
+                    case 2:
+                        otvorenie(13);
+                        break;
+                    case 3:
+                        otvorenie(14);
+                        break;
+                    case 4:
+                        otvorenie(15);
+                        break;
+                    case 5:
+                        otvorenie(16);
+                        break;
+                    default:
+                        break;
+                }
+            }
+        });
         dialog.show();
     }
 
@@ -2516,7 +2595,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 builder.setMessage(Html.fromHtml(nahrad(popol)));
                 builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Požehnanie popola a značenie popolom</b></font>")));
             } else {
-                builder.setMessage(Html.fromHtml(nahrad(kredo_vypis)));
+                builder.setMessage(kredo_vypis);
                 builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Krédo</b></font>")));
             }
         } else if (dialog == 5) {//eucharistická procesia
@@ -2540,6 +2619,21 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         } else if (dialog == 11) { //ohlasenie Velkej noci
             builder.setMessage("");
             builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Oznámenie dňa Veľkej noci</b></font>")));
+        } else if (dialog == 12) { //rozličné prosby - prosby za zosnulých
+        builder.setMessage(Html.fromHtml(nahrad(prosby_rozlicne[0][1])));
+        builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+prosby_rozlicne[0][0]+"</b></font>")));
+        } else if (dialog == 13) { //rozličné prosby - Prosby za zdravie a Božiu pomoc
+            builder.setMessage(Html.fromHtml(nahrad(prosby_rozlicne[1][1])));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+prosby_rozlicne[1][0]+"</b></font>")));
+        } else if (dialog == 14) { //rozličné prosby - Prosby za poďakovanie
+            builder.setMessage(Html.fromHtml(nahrad(prosby_rozlicne[2][1])));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+prosby_rozlicne[2][0]+"</b></font>")));
+        } else if (dialog == 15) { //rozličné prosby - Prosby za farnosť
+            builder.setMessage(Html.fromHtml(nahrad(prosby_rozlicne[3][1])));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+prosby_rozlicne[3][0]+"</b></font>")));
+        } else if (dialog == 16) { //rozličné prosby - Prosby za duchovné povolania
+            builder.setMessage(Html.fromHtml(nahrad(prosby_rozlicne[4][1])));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+prosby_rozlicne[4][0]+"</b></font>")));
         }
 
         builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
@@ -2551,9 +2645,11 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         TextView text = alert.findViewById(android.R.id.message);
         text.setTextSize(sizeO);
         if (rezim) {
+            alert.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(getResources().getColor(R.color.background));
             alert.getWindow().setBackgroundDrawableResource(R.color.black);
             text.setTextColor(getResources().getColor(R.color.background));
         } else {
+            alert.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(getResources().getColor(R.color.primary));
             alert.getWindow().setBackgroundDrawableResource(R.color.background);
             text.setTextColor(Color.BLACK);
         }
@@ -2726,7 +2822,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         missas.add(new Missa(2)); //medzera velka
         if (aleboProsby != null)
             vypisAlebo(missas, aleboProsby, 15);
-        missas.add(new Missa(prosby.toUpperCase(), prosby_uvod, prosby_zvolanie, "<br>" + prosby_vypis + "<br><br>" + prosby_zaver, true));
+        missas.add(new Missa(prosby.toUpperCase(), prosby_uvod, prosby_zvolanie, "<br>" + prosby_vypis, true));
+        missas.add(new Missa("<font color='#B71C1C'>Prosby za rozličné potreby (otvoriť)</font>", true,  21));
+        missas.add(new Missa(null, null, null, "<br>" + prosby_zaver, true));
         if (ticheModlitby) {
             missas.add(new Missa(1)); //medzera mala
             missas.add(new Missa(tiche_modlitby[3][0], tiche_modlitby[3][1], tiche_modlitby[3][2]));
@@ -2858,7 +2956,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                             druhe_citanie_suradnice = aleboCitanie2[0][0];
                             druhe_citanie_citat = aleboCitanie2[0][1];
                             druhe_citanie_vypis = aleboCitanie2[0][2];
-                        } else if (P && ID.equals("30")) {
+                        } /*else if (P && ID.equals("30")) {
                             changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
                             zalm_suradnice = aleboZalm[0][0];
                             zalm_vypis = aleboZalm[0][1];
@@ -2870,7 +2968,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                             evanjelium_suradnice = aleboEvanjelium[0][0];
                             evanjelium_citat = aleboEvanjelium[0][1];
                             evanjelium_vypis = aleboEvanjelium[0][2];
-                        }
+                        }*/
                         pozicia_listview = position;
                         vypis();
                         break;
@@ -2941,7 +3039,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     case 19:
                         otvorenie(11);
                         double_click = 0;
-                    case 20:
+                    case 20: //zmena cirkevRoku kvoli citaniam
                         if (cirkevRok == 1)
                             cirkevRok = actualCirkevRok;
                         else
@@ -2955,6 +3053,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         prefacia();
                         pozicia_listview = position;
                         vypis();
+                    case 21:
+                        prosbyRozlicnePotreby();
+                        break;
                     default:
                         break;
                 }

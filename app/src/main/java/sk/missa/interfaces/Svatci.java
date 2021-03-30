@@ -43,9 +43,9 @@ public interface Svatci {
     Svätej rodiny                                                    10gkp
     Krst Krista Pána                                                 11gkp
     Svätodušný pondelok, Votívna omša                                1op
-    Preblahoslavenej Panny Márie, Matky Cirkvi, Spomienka            2pm
+    Preblahoslavenej Panny Márie, Matky Cirkvi, Spomienka            2mp
     Nášho Pána Ježiša Krista, najvyššieho a večného kňaza, Sviatok   3gp
-    Nepoškvrneného Srdca Panny Márie, Spomienka                      4pm
+    Nepoškvrneného Srdca Panny Márie, Spomienka                      4mp
 
 
     OBDOBIA

@@ -73,7 +73,7 @@ public interface Citania_svatci {
                             "Ale ovocie Ducha je láska, radosť, pokoj, zhovievavosť, láskavosť, dobrota, vernosť, miernosť, zdržanlivosť.<br>" +
                             "Tí, čo patria Kristovi Ježišovi, ukrižovali telo s\u00A0vášňami a žiadosťami. Ak žijeme v\u00A0Duchu, podľa Ducha aj konajme.<br>" +
                             "Počuli sme Božie slovo."},
-            {"2p", "", "", "Gn 3, 9-15. 20",
+            {"2mp", "", "", "Gn 3, 9-15. 20",
                     "Matka všetkých žijúcich",
                     "Čítanie z knihy Genezis<br>" +
                             "Keď Adam jedol zo\u00A0stromu, zavolal ho Pán, Boh, a povedal mu: \"Kde si?\"<br>" +
@@ -224,7 +224,7 @@ public interface Citania_svatci {
                             "Vyvediem ich spomedzi národov, zhromaždím ich z\u00A0krajín a privediem ich do\u00A0vlasti. A budem ich pásť na\u00A0izraelských vrchoch, v\u00A0dolinách a na\u00A0lúčinách krajiny. Budem ich vodiť na\u00A0bohatú pastvu a ich ovčinec bude na\u00A0vysokých vrchoch Izraela. Tam si odpočinú na\u00A0zelenom trávniku, na\u00A0izraelských vrchoch nájdu šťavnatú pastvu.<br>" +
                             "Ja sám budem pásť svoje ovce, ja im dám odpočinok, hovorí Pán, Boh. Stratené ovce vyhľadám, rozptýlené privediem naspäť, zranené obviažem, slabé posilním, tučné a silné ochránim a budem ich pásť svedomito.\"<br>" +
                             "Počuli sme Božie slovo."},
-            {"4p", "", "", "Iz 61, 9-11",
+            {"4mp", "", "", "Iz 61, 9-11",
                     "Radosťou jasám v\u00A0Pánovi",
                     "Čítanie z knihy proroka Izaiáša<br>" +
                             "Ich rod bude známy medzi pohanmi a ich potomstvo medzi národmi. Všetci, čo ich uvidia, poznajú, že oni sú pokolením, ktoré požehnal Pán.<br>" +
@@ -658,12 +658,12 @@ public interface Citania_svatci {
                             "Ale v\u00A0tomto všetkom slávne víťazíme skrze toho, ktorý nás miluje.<br>" +
                             "A som si istý, že ani smrť, ani život, ani anjeli, ani kniežatstvá, ani prítomnosť, ani budúcnosť, ani mocnosti, ani výška, ani hĺbka, ani nijaké iné stvorenie nás nebude môcť odlúčiť od\u00A0Božej lásky, ktorá je v\u00A0Kristovi Ježišovi, našom Pánovi.<br>" +
                             "Počuli sme Božie slovo."},
-            {"29", "", "", "1Kor 16-19. 22-23",
+            /*{"29", "", "", "1Kor 16-19. 22-23",
                     "Beda mi, keby som evanjelium nehlásal",
                             "Čítanie z Prvého listu svätého apoštola Pavla Korinťanom<br>" +
                             "Bratia, ak hlásam evanjelium, nemám sa čím chváliť; to je moja povinnosť, a beda mi, keby som evanjelium nehlásal. Ak to robím z\u00A0vlastnej vôle, mám nárok na odmenu, ale ak nie z\u00A0vlastnej vôle, je to služba, ktorá mi je zverená. Aká je teda moja odmena? Že keď hlásam evanjelium, predkladám ho zadarmo a nevyužívam svoje právo pri\u00A0evanjeliu. Lebo hoci som slobodný voči všetkým, stal som sa sluhom všetkých, aby som čím viacerých získal.<br>" +
                             "Pre slabých som sa stal slabým, aby som získal slabých. Pre\u00A0všetkých som sa stal všetkým, aby som zachránil aspoň niektorých. A všetko robím pre\u00A0evanjelium, aby som mal na\u00A0ňom podiel.<br>" +
-                            "Počuli sme Božie slovo."},
+                            "Počuli sme Božie slovo."},*/
     };
 
     String[][] citanie1_6 = {
@@ -1807,7 +1807,7 @@ public interface Citania_svatci {
                             "Ježiš povedal svojim učeníkom: \"Kto ma miluje, bude zachovávať moje slovo a môj Otec ho bude milovať; prídeme k\u00A0nemu a urobíme si uňho príbytok. Kto ma nemiluje, nezachováva moje slová. A slovo, ktoré počujete, nie je moje, ale Otcovo, toho, ktorý ma poslal.<br>" +
                             "Toto som vám povedal, kým som ešte u\u00A0vás. Ale Tešiteľ, Duch Svätý, ktorého pošle Otec v\u00A0mojom mene, naučí vás všetko a pripomenie vám všetko, čo som vám povedal.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            {"2p", "", "", "Jn 19, 25-34",
+            {"2mp", "", "", "Jn 19, 25-34",
                     "Hľa, tvoj syn! Hľa, tvoja matka!",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
                             "Pri Ježišovom kríži stála jeho matka, sestra jeho matky, Mária Kleopasova, a Mária Magdaléna. Keď Ježiš uzrel matku a pri\u00A0nej učeníka, ktorého miloval, povedal matke: \"Žena, hľa, tvoj syn!\" Potom povedal učeníkovi: \"Hľa, tvoja matka!\" A od\u00A0tej hodiny si ju učeník vzal k\u00A0sebe.<br>" +
@@ -1916,7 +1916,7 @@ public interface Citania_svatci {
                             "Ježiš povedal farizejom a zákonníkom toto podobenstvo: \"Ak má niekto z\u00A0vás sto oviec a jednu z\u00A0nich stratí, nenechá tých deväťdesiatdeväť na\u00A0púšti a nepôjde za\u00A0tou, čo sa stratila, kým ju nenájde? A keď ju nájde, vezme ju s\u00A0radosťou na\u00A0plecia, a len čo príde domov, zvolá priateľov a susedov a povie im: ‚Radujte sa so\u00A0mnou lebo som našiel ovcu, čo sa mi stratila.'<br>" +
                             "Hovorím vám: Tak bude aj v\u00A0nebi väčšia radosť nad\u00A0jedným hriešnikom, ktorý robí pokánie, ako nad\u00A0deväťdesiatimi deviatimi spravodlivými, ktorí pokánie nepotrebujú.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            {"4p", "", "", "Lk 2, 41-52",
+            {"4mp", "", "", "Lk 2, 41-52",
                     "Rodičia našli Ježiša medzi učiteľmi",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "Ježišovi rodičia chodievali každý rok do\u00A0Jeruzalema na\u00A0veľkonočné sviatky. Keď mal dvanásť rokov, tiež išli, ako bývalo na\u00A0sviatky zvykom. A keď sa dni slávností skončili a oni sa vracali domov, zostal chlapec Ježiš v\u00A0Jeruzaleme, čo jeho rodičia nezbadali. Nazdávali sa, že je v\u00A0sprievode. Prešli deň cesty a hľadali ho medzi príbuznými a známymi. No nenašli. Vrátili sa teda do\u00A0Jeruzalema a tam ho hľadali.<br>" +
@@ -1945,6 +1945,13 @@ public interface Citania_svatci {
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
                             "Ježiš povedal svojim učeníkom: \"Keď príde Tešiteľ, ktorého vám ja pošlem od\u00A0Otca, Duch pravdy, ktorý vychádza od\u00A0Otca, on o\u00A0mne vydá svedectvo. Ale aj vy vydávate svedectvo, lebo ste so\u00A0mnou od\u00A0začiatku.<br>" +
                             "Ešte veľa vám mám toho povedať, ale teraz by ste to nezniesli. Keď príde on, Duch pravdy, uvedie vás do\u00A0plnej pravdy, lebo nebude hovoriť sám zo\u00A0seba, ale bude hovoriť, čo počuje, a zvestuje vám, čo má prísť. On ma oslávi, lebo z\u00A0môjho vezme a zvestuje vám. Všetko, čo má Otec, je moje. Preto som povedal, že z\u00A0môjho vezme a zvestuje vám.\"<br>" +
+                            "Počuli sme slovo Pánovo.",
+            "Alebo:",
+                    "Jn 20, 19-23",
+                    "Ako mňa poslal Otec, aj ja posielam vás: Prijmite Ducha Svätého",
+                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
+                            "Večer v\u00A0ten istý prvý deň v\u00A0týždni, keď boli učeníci zo\u00A0strachu pred\u00A0Židmi zhromaždení za\u00A0zatvorenými dverami, prišiel Ježiš, stal si doprostred a povedal im: \"Pokoj vám!\" Ako to povedal, ukázal im ruky a bok. Učeníci sa zaradovali, keď videli Pána.<br>" +
+                            "A znova im povedal: \"Pokoj vám! Ako mňa poslal Otec, aj ja posielam vás.\" Keď to povedal, dýchol na\u00A0nich a hovoril im: \"Prijmite Ducha Svätého. Komu odpustíte hriechy, budú mu odpustené, komu ich zadržíte, budú zadržané.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"", "C", "", "Jn 20, 19-23",
                     "Ako mňa poslal Otec, aj ja posielam vás: Prijmite Ducha Svätého",
@@ -2390,7 +2397,7 @@ public interface Citania_svatci {
                             "Brat vydá na\u00A0smrť brata a otec dieťa. Deti povstanú proti rodičom a pripravia ich o\u00A0život.<br>" +
                             "Všetci vás budú nenávidieť pre\u00A0moje meno. Ale kto vytrvá do\u00A0konca, bude spasený.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            {"29", "", "", "Mt 16, 13-19",
+            /*{"29", "", "", "Mt 16, 13-19",
                     "Ty si Peter a na tejto skale postavím svoju Cirkev",
                             "<font color='#B71C1C'>†</font> Čítanie za svätého evanjelia podľa Matúša<br>" +
                             "Keď Ježiš prišiel do\u00A0okolia Cézarey Filipovej, pýtal sa svojich učeníkov: \"Za\u00A0koho pokladajú ľudia Syna človeka?\"<br>" +
@@ -2400,7 +2407,7 @@ public interface Citania_svatci {
                             "Odpovedal Šimon Peter: \"Ty si Mesiáš, Syn živého Boha.\"<br>" +
                             "Ježiš mu povedal: \"Blahoslavený si, Šimon, syn Jonášov, lebo ti to nezjavilo telo a krv, ale môj Otec, ktorý je na\u00A0nebesiach. A ja ti hovorím: Ty si Peter a na\u00A0tejto skale postavím svoju Cirkev a pekelné brány ju nepremôžu.<br>" +
                             "Tebe dám kľúče od\u00A0nebeského kráľovstva: čo zviažeš na\u00A0zemi, bude zviazané v\u00A0nebi, a čo rozviažeš na\u00A0zemi, bude rozviazané v\u00A0nebi.\"<br>" +
-                            "Počuli sme slovo Pánovo."},
+                            "Počuli sme slovo Pánovo."},*/
     };
 
     String[][] evanjelium6 = {

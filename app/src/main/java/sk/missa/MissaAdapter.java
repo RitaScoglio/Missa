@@ -1,5 +1,6 @@
 package sk.missa;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Color;
 import android.media.MediaPlayer;
@@ -43,6 +44,7 @@ public class MissaAdapter extends ArrayAdapter<Missa> {
         super(context, 0, missas);
     }
 
+    @SuppressLint("WrongConstant")
     @RequiresApi(api = Build.VERSION_CODES.O)
     @NonNull
     @Override
@@ -107,7 +109,7 @@ public class MissaAdapter extends ArrayAdapter<Missa> {
         else
             text_small.setTypeface(typeNormal);
         if (currentMissa.getVypisHtml() && currentMissa.getText_small() != null)
-            text_small.setText(Html.fromHtml(nahrad(currentMissa.getText_small())));
+        text_small.setText(Html.fromHtml(nahrad(currentMissa.getText_small())));
         else
             text_small.setText(currentMissa.getText_small());
 
@@ -264,13 +266,13 @@ public class MissaAdapter extends ArrayAdapter<Missa> {
         LinearLayout list_linear = listItemView.findViewById(R.id.list_linear);
         switch (currentMissa.getMedzera()) {
             case 1:
-                list_linear.setPadding(8, 8, 8, 0); //medzera mala
+                list_linear.setPadding(0, 8, 0, 0); //medzera mala
                 break;
             case 2:
-                list_linear.setPadding(8, 16, 8, 0); //medzera velka
+                list_linear.setPadding(0, 16, 0, 0); //medzera velka
                 break;
             default:
-                list_linear.setPadding(8, 0, 8, 0); //medzera klasik
+                list_linear.setPadding(0, 0, 0, 0); //medzera klasik
                 break;
         }
 

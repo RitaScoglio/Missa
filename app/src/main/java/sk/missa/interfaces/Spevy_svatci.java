@@ -37,7 +37,7 @@ public interface Spevy_svatci {
                     "Bože, hľa, tu som, a chcem plniť tvoju vôľu.", "(Porov. Hebr 10, 5. 7)",
                     "Hľa, Panna počne a porodí Syna,<br>" +
                             "a dajú mu meno Emanuel, čo značí: Boh s nami.", "(Iz 7, 14)"},
-            {"2p", "", "Všetci zotrvávali jednomyseľne v modlitbách<br>" +
+            {"2mp", "", "Všetci zotrvávali jednomyseľne v modlitbách<br>" +
                     "spolu s Máriou, Ježišovou matkou.", "(Porov. Sk 1, 14)",
                     "V Káne Galilejskej bola svadba. Bola tam aj Ježišova matka.<br>" +
                             "Vtedy urobil Ježiš prvý zázrak a zjavil svoju moc.<br>" +
@@ -74,7 +74,7 @@ public interface Spevy_svatci {
                             "<font color='#B71C1C'>Alebo: (Jn 19, 34)</font><br>" +
                             "Jeden z vojakov prebodol kopijou Ježišovi bok,<br>" +
                             "a hneď vyšla krv a voda.", "(Jn 7, 37-38)"},
-            {"4p", "", "Moje srdce sa teší z tvojej pomoci.<br>" +
+            {"4mp", "", "Moje srdce sa teší z tvojej pomoci.<br>" +
                     "Spievať budem Pánovi, že ma zahŕňa dobrodeniami.", "(Ž 12, 6)",
                     "Mária všetky tieto udalosti chránila hlboko v srdci<br>" +
                             "a premýšľala o nich.", "(Lk 2, 19)"},

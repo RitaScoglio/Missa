@@ -101,7 +101,7 @@ public interface Prosby_svatci {
                             "Skrze Krista, nášho Pána."},
 
             //ZOSLANIE DUCHA SVÄTÉHO – VIGÍLIA II.
-            {"", "B", "Bratia a sestry, s dôverou prosme o dary prisľúbeného Ducha Posvätiteľa a spoločne volajme:<br>" +
+            {"", "B", "Bratia a sestry, s dôverou prosme o dary prisľúbeného Ducha Posvätiteľa a spoločne volajme:",
                     "<font color='#B71C1C'>(</font>Príď, Duchu Svätý, a zapáľ v nás oheň svojej lásky.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Duch múdrosti, obdaruj svoju Cirkev schopnosťou rozpoznávať znamenia čias; nech je pre súčasného človeka oporou na ceste vedúcej k výšinám svätosti a dokonalosti v Bohu.<br>" +
                             "<font color='#B71C1C'>2.</font> Duch rozumu, napĺňaj hojnosťou svojich darov nášho pápeža <font color='#B71C1C'>M.</font>; nech je jeho služba požehnaním pre každého človeka, ktorý sa vo svojom živote stretne s posolstvom Petra našich čias.<br>" +
@@ -190,7 +190,7 @@ public interface Prosby_svatci {
                             "aby sme boli milosrdní, ako je milosrdný náš Otec.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             //NEPOŠKVRNENÉHO SRDCA PANNY MÁRIE
-            {"4p", "", "Bratia a sestry, Panna Mária hlboko v srdci zachovávala Ježišove slová a premýšľala o nich. V tejto spoločnej modlitbe prosme Boha Otca, aby pre lásku k nepoškvrnenému Máriinmu srdcu zhliadol na naše prosby.",
+            {"4mp", "", "Bratia a sestry, Panna Mária hlboko v srdci zachovávala Ježišove slová a premýšľala o nich. V tejto spoločnej modlitbe prosme Boha Otca, aby pre lásku k nepoškvrnenému Máriinmu srdcu zhliadol na naše prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pozri na Matku svojho Syna a vyslyš naše prosby.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Otče, pre lásku, ktorou ťa miluje Mária, Matka Cirkvi, ochráň svoju Cirkev pred všetkými nebezpečenstvami.<br>" +
                             "<font color='#B71C1C'>2.</font> Daj, aby nepoškvrnené srdce Panny Márie bolo všetkým národom znamením lásky a pokoja.<br>" +
@@ -206,7 +206,7 @@ public interface Prosby_svatci {
                             "chránila od hriechu a viedla k tebe.<br>" +
                             "Skrze Krista, nášho Pána."},
             //PANNY MÁRIE, MATKY CIRKVI
-            {"2p", "", "Bratia a sestry, Pannu Máriu uctievame ako Matku Božieho Syna, milovanú dcéru Otca a svätyňu Ducha Svätého. Veríme, že sa s materinskou láskou stará o Cirkev a sprevádza nás všetkých, kým sa vo večnosti nestretneme ako jedna rodina Božích detí. Preto na jej príhovor prednesme nebeskému Otcovi svoje prosby.",
+            {"2mp", "", "Bratia a sestry, Pannu Máriu uctievame ako Matku Božieho Syna, milovanú dcéru Otca a svätyňu Ducha Svätého. Veríme, že sa s materinskou láskou stará o Cirkev a sprevádza nás všetkých, kým sa vo večnosti nestretneme ako jedna rodina Božích detí. Preto na jej príhovor prednesme nebeskému Otcovi svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Nebeský Otče, prosíme ťa za kresťanov na celom svete, aby na príhovor Panny Márie, Matky Cirkvi, zvíťazili nad hriechom a rástli vo svätosti.<br>" +
                             "<font color='#B71C1C'>2.</font> Prosíme ťa za politikov a zákonodarcov, aby na príhovor Panny Márie, novej Evy, chránili posvätnosť rodiny a dôstojnosť každého ľudského života.<br>" +

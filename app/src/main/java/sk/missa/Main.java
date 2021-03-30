@@ -558,7 +558,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
 
         //svatodusny pondelok + preblahoslavenej panny marie
         if (mD.isEqual(mSP)) {
-            words.add(new Calendar("Preblahoslavenej Panny Márie, Matky Cirkvi", "Spomienka", "(biela)", day, cezrok, "2pm", "c"));
+            words.add(new Calendar("Preblahoslavenej Panny Márie, Matky Cirkvi", "Spomienka", "(biela)", day, cezrok, "2mp", "c"));
             words.add(new Calendar("Votívna omša o Duchu Svätom", "Votívna omša", "(červená)", day, cezrok, "1op", "c"));
         } //Nášho Pána Ježiša Krista
         else if (mD.isEqual(mJK))
@@ -615,7 +615,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             if (month[index][2].equals("Spomienka") || month[index][1].equals("Najsvätejšieho mena Panny Márie"))
                 vynimka_pm = true;
             if (!month[index][2].equals("Slávnosť") && mD.isEqual(mSPM)) //neposkvrneneho srdca panny marie
-                words.add(new Calendar("Nepoškvrneného Srdca Panny Márie", "Spomienka", "(biela)", day, cezrok, "4pm", "c"));
+                words.add(new Calendar("Nepoškvrneného Srdca Panny Márie", "Spomienka", "(biela)", day, cezrok, "4mp", "c"));
             do {
                 if (month[index][2].equals("Vigília")) {
                     if (month[index][0].contains("*"))
@@ -629,10 +629,11 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         } else { //ak nie je nedeľa a ani sviatok
             pm = true;
             prvyPiatok = prvyStvrtok = true;
-            words.add(feria);
             if (mD.isEqual(mSPM)) {
                 pm = false;
-                words.add(new Calendar("Nepoškvrneného Srdca Panny Márie", "Spomienka", "(biela)", day, cezrok, "4pm", "c"));
+                words.add(new Calendar("Nepoškvrneného Srdca Panny Márie", "Spomienka", "(biela)", day, cezrok, "4mp", "c"));
+            } else {
+                words.add(feria);
             }
         }
         //vypisovanie Panny Márie v sobotu
@@ -771,12 +772,15 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             if (dvt == 4 && prvyStvrtok && day < 8)
                 words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, velkanoc, "002", "n"));
         }
+        //za duchovne povolania v 3.tyzdni (pondelok - sobota)
+        if (velkanoc == 3 && dvt > 0)
+            words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, velkanoc, "002", "n"));
+        //prosebne dni
+        if (velkanoc == 6 && (dvt == 1 || dvt == 2 || dvt == 3))
+            words.add(new Calendar("Prosebné dni", " ", "(biela)", day, velkanoc, "008", "n"));
         //kantrove dni
         if (velkanoc == 7 && (dvt == 3 || dvt == 5 || dvt == 6))
             words.add(new Calendar("Letné kántrové dni", " ", "(biela)", day, velkanoc, "005", "n"));
-        //prosebne dni
-        if (velkanoc == 7 && (dvt == 1 || dvt == 2 || dvt == 3))
-            words.add(new Calendar("Prosebné dni", " ", "(biela)", day, velkanoc, "008", "n"));
     }
 
     //vypis kalendára v adventnom období

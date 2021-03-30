@@ -19,6 +19,7 @@ package sk.missa.interfaces;
  * prid_Duchu_svaty_tvorivy
  * teba_Boze_chvalime
  * ohlasenieVN - ohlasenie VN na Zjavenie Pana
+ * prosby_rozlicne - prosby za zosnulých a rozličné potreby
  */
 
 public interface Texty {
@@ -1453,16 +1454,20 @@ public interface Texty {
             //komentar - 26
             "Keď kňaz príde k oltáru, pobozká ho, prípadne ho aj incenzuje. Potom ide k sedadlu (odloží pluviál a oblečie si ornát). Vynechá úvodné omšové obrady a na zakľúčenie procesie prednesie modlitbu dňa. Potom pokračuje v slávení omše zvyčajným spôsobom.",
             //text(html) - 27
-            "<br><b>Druhý spôsob: Slávnostný vstup</b><br>"+
+            "<br><b>Druhý spôsob: Slávnostný vstup</b>",
+            //komentar(html) - 28
                     "<font color='#B71C1C'>Ak nie je možné usporiadať procesiu, spomienka na Pánov vstup do Jeruzalema sa oslávi v kostole, a to slávnostným vstupom na začiatku slávnostnej svätej omše.<br>"+
                     "Veriaci s ratolesťami v rukách sa zhromaždia pred bránou kostola alebo v kostole samom. Kňaz, prisluhujúci a skupina zástupcov ľudu prídu na stanovené miesto mimo presbytéria. Toto miesto nech sa zvolí tak, aby čím viacerí mohli sledovať obrad.<br>"+
                     "Kým kňaz ide na určené miesto, ľud spieva </font><font color='#000000'>Hosanna</font><font color='#B71C1C'> alebo inú vhodnú pieseň. Požehnanie ratolestí a čítanie evanjelia o Ježišovom vstupe do Jeruzalema sa koná ako pred procesiou. Po evanjeliu kňaz, prisluhujúci a skupina zástupcov ľudu slávnostne idú cez kostol k oltáru. Pritom sa spieva </font><font color='#000000'>Keď Pán vchádzal</font><font color='#B71C1C'> alebo iná pieseň (JKS, č. 182, 183).<br>"+
                     "Keď kňaz príde k oltáru, pobozká ho, odíde k sedadlu, vynechá úvodné omšové obrady a hneď prednesie modlitbu dňa. Potom pokračuje v omši zvyčajným spôsobom.</font><br>"+
-                    "<br>"+
-                    "<b>Tretí spôsob: Jednoduchý vstup</b><br>"+
+                    "<br>",
+            //text(html) - 29
+                    "<b>Tretí spôsob: Jednoduchý vstup</b>",
+            //komentar(html) - 30
                     "<font color='#B71C1C'>Vo všetkých ostatných omšiach tejto nedele, v ktorých sa nekoná slávnostný vstup, Pánov príchod do Jeruzalema sa pripomína len jednoduchým vstupom.<br>"+
                     "Keď kňaz ide k oltáru, spieva sa úvodný spev so žalmom alebo iná pieseň s rovnakou myšlienkou. Keď kňaz príde k oltáru, pobozká ho, odíde k sedadlu, pozdraví ľud a pokračuje v omši zvyčajným spôsobom. V omšiach bez prítomnosti ľudu a v omšiach, v ktorých úvodný spev nemožno spievať, kňaz, len čo príde k oltáru a pobozká ho, pozdraví ľud a hneď prečíta úvodný spev. Potom pokračuje v omši zvyčajným spôsobom.</font><br>"+
-                    "<br>"+
+                    "<br>",
+            //text(html) - 31
                     "<font color='#B71C1C'>ÚVODNÝ SPEV</font><br>"+
                     "Šesť dní pred Veľkou nocou,<br>"+
                     "keď Ježiš prichádzal do Jeruzalema,<br>"+
@@ -1595,6 +1600,34 @@ public interface Texty {
                     " Kristovi, ktorý bol, ktorý je a ktorý príde,<br>" +
                     "Pánovi času a dejín,<br>" +
                     "neprestajná chvála na veky vekov. Amen."
+    };
+
+    String[][] prosby_rozlicne = {
+            {"Prosby za zosnulých",
+                    "<font color='#B71C1C'>1.</font> Bože Otče, prosíme ťa za zomrelých <font color='#B71C1C'>M.</font>, nech ich tvoj Syn Ježiš Kristus privedie do nebeského kráľovstva.<br><br>" +
+                    "<font color='#B71C1C'>2.</font> Bože, uveď našich zomrelých <font color='#B71C1C'>M.</font> do slávy večného života.<br><br>" +
+                    "<font color='#B71C1C'>3.</font> Ježišu, ty prídeš súdiť živých i mŕtvych; pripoj našich zosnulých <font color='#B71C1C'>M.</font> k zástupu blažených.<br><br>" +
+                    "<font color='#B71C1C'>4.</font> Ježišu, náš život a naše vzkriesenie, udeľ večnú spásu našim zomrelým <font color='#B71C1C'>M.</font> a priveď ich do víťaznej Cirkvi v nebi.<br><br>" +
+                    "<font color='#B71C1C'>5.</font> Pane Ježišu, zmiluj sa nad našimi zomrelými <font color='#B71C1C'>M.</font>, zahrň ich svojím milosrdenstvom a daj im spoznať svoju spásu.<br><br>" +
+                    "<font color='#B71C1C'>6.</font> Pane, prosíme ťa za zosnulých <font color='#B71C1C'>M.</font>: ukáž im svoju slávu v nebeskom príbytku.<br><br>" +
+                    "<font color='#B71C1C'>7.</font> Daj, aby naši zomrelí <font color='#B71C1C'>M.</font> prežívali večnú radosť v nebeskom domove.<br><br>" +
+                    "<font color='#B71C1C'>8.</font> Odním putá smrti z našich zomrelých <font color='#B71C1C'>M.</font> a privítaj ich vo svojom kráľovstve.<br><br>" +
+                    "<font color='#B71C1C'>9.</font> Prosme za našich zosnulých <font color='#B71C1C'>M.</font>: Pane, daj im podiel na svojej sláve.<br><br>" +
+                    "<font color='#B71C1C'>10.</font> Modlime sa za našich zomrelých <font color='#B71C1C'>M.</font>, aby im Pán prejavil svoju lásku, odpustil im hriechy a prijal ich k sebe.<br><br>" +
+                    "<font color='#B71C1C'>11.</font> Aby Pán priviedol našich zosnulých <font color='#B71C1C'>M.</font> do svojho nebeského kráľovstva, prosme Pána.<br><br>" +
+                    "<font color='#B71C1C'>12.</font> Za zomrelých <font color='#B71C1C'>M.</font>: nech spoznajú moc nekonečného Božieho milosrdenstva, prosme Pána.<br><br>" +
+                    "<font color='#B71C1C'>13.</font> Za zosnulých <font color='#B71C1C'>M.</font>, na ktorých si pri tejto omši spomíname: aby dosiahli večnú spásu v spoločenstve svätých v nebi, prosme Pána.<br>"},
+            {"Prosby za zdravie a Božiu pomoc", "<font color='#B71C1C'>1.</font> Pane Ježišu, prosíme ťa o zdravie a tvoje požehnanie pre nášho brata <font color='#B71C1C'>M. (</font> našu sestru <font color='#B71C1C'>M.)</font>, za ktorého <font color='#B71C1C'>(</font>ktorú<font color='#B71C1C'>)</font> je obetovaná táto svätá omša.<br><br>" +
+                    "<font color='#B71C1C'>2.</font> Bože Otče, daruj zdravie, svoju pomoc a požehnanie nášmu bratovi <font color='#B71C1C'>M. (</font>našej sestre <font color='#B71C1C'>M.)</font>.<br>"},
+            {"Prosby za poďakovanie", "<font color='#B71C1C'>1.</font> Pane, ty nám dávaš všetko potrebné pre náš život; prijmi naše poďakovanie za...<br><br>" +
+                    "<font color='#B71C1C'>2.</font> Bože, vypočuj úmysel tejto svätej omše, ktorú ti obetujeme na poďakovanie za...<br>"},
+            {"Prosby za farnosť", "<font color='#B71C1C'>1.</font> Pane, požehnaj našu farnosť a daj, aby sme všetci žili a pracovali podľa tvojej vôle.<br><br>" +
+                    "<font color='#B71C1C'>2.</font> Bože, požehnávaj naše farské spoločenstvo, aby sme všetci žili ako jedna rodina vo svornosti a pravej láske.<br><br>" +
+                    "<font color='#B71C1C'>3.</font> Modlime sa za našu farnosť: aby sme sa všetci usilovali o horlivý kresťanský život, prosme Pána.<br>"},
+            {"Prosby za duchovné povolania", "<font color='#B71C1C'>1.</font> Ježišu, daj mladým ľuďom túžbu zasvätiť sa ti v duchovnom povolaní.<br><br>" +
+                    "<font color='#B71C1C'>2.</font> Bože Otče, posilňuj v ochote odpovedať na tvoj hlas všetkých mužov a ženy, ktorých voláš k zasvätenému životu.<br><br>" +
+                    "<font color='#B71C1C'>3.</font> Za chlapcov a mladých mužov: aby mali odvahu rozhodnúť sa pre kňazskú službu, prosme Pána.<br><br>" +
+                    "<font color='#B71C1C'>4.</font> Modlime sa za kresťanské rodiny: aby mali ochotu darovať a vychovať Cirkvi nových kňazov, rehoľníkov a rehoľné sestry.<br>"},
     };
 }
 

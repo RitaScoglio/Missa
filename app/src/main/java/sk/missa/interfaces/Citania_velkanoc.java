@@ -1,10 +1,10 @@
 package sk.missa.interfaces;
 
 /*
- * Čítania vo\u00A0veľkonočnom období uložené v\u00A0troch dvojrozmerných poliach: velkanocCitanie1, velkanocCitanie2, velkanocEvanjelium
+ * Čítania vo veľkonočnom období uložené v troch dvojrozmerných poliach: velkanocCitanie1, velkanocCitanie2, velkanocEvanjelium
  * nedeľa: {týždeň vo\u00A0veľkonočnom období+deň, liturgický rok (A/B/C), "", súradnice, citát, text},
- * deň v\u00A0týždni: {týždeň vo\u00A0veľkonočnom období+deň (napr. 2 týždeň v\u00A0pondelok - 21), deň v\u00A0týždni (1-pondelok, 2-utorok..., 6-sobota), "", súradnice, citát, text},
- * čítanie, ktoré obsahuje alebo: {týždeň vo\u00A0veľkonočnom období+deň, deň v\u00A0týždni (1-pondelok, 2-utorok..., 6-sobota, "", súradnice, citát, text, "Alebo:", súradnice, citát, text...},
+ * deň v týždni: {týždeň vo veľkonočnom období+deň (napr. 2 týždeň v pondelok - 21), deň v\u00A0týždni (1-pondelok, 2-utorok..., 6-sobota), "", súradnice, citát, text},
+ * čítanie, ktoré obsahuje alebo: {týždeň vo\u00A0veľkonočnom období+deň, deň v týždni (1-pondelok, 2-utorok..., 6-sobota, "", súradnice, citát, text, "Alebo:", súradnice, citát, text...},
  */
 
 
@@ -1095,13 +1095,20 @@ public interface Citania_velkanoc {
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
                             "Ježiš povedal: \"Moje ovce počúvajú môj hlas, ja ich poznám a ony idú za\u00A0mnou. Ja im dávam večný život. Nezahynú nikdy a nik mi ich nevytrhne z\u00A0ruky. Môj Otec, ktorý mi ich dal, je väčší od\u00A0všetkých a nik ich nemôže Otcovi vytrhnúť z\u00A0ruky. Ja a Otec sme jedno.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            {"41", "1", "", "Jn 10, 11-18",
+            /*{"41", "1", "", "Jn 10, 11-18",
                     "Dobrý pastier položí svoj život za\u00A0ovce",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
                             "Ježiš povedal: \"Ja som dobrý pastier. Dobrý pastier položí svoj život za\u00A0ovce. Nájomník a ten, čo nie je pastierom a ovce nie sú jeho, opúšťa ovce a uteká, keď vidí prichádzať vlka, a vlk ich trhá a rozháňa. Veď je nádenník a nezáleží mu na\u00A0ovciach.<br>" +
                             "Ja som dobrý pastier. Poznám svoje a moje poznajú mňa, ako mňa pozná Otec a ja poznám Otca. Aj svoj život položím za\u00A0ovce.<br>" +
                             "Mám aj iné ovce, ktoré nie sú z\u00A0tohoto ovčinca. Aj tie musím priviesť a budú počuť môj hlas; a bude jedno stádo a jeden pastier.<br>" +
                             "Otec ma preto miluje, že ja dávam svoj život, a zasa si ho vezmem. Nik mi ho neberie, ja ho dávam sám od\u00A0seba. Mám moc dať ho a mám moc zasa si ho vziať. Taký príkaz som dostal od\u00A0môjho Otca.\"<br>" +
+                            "Počuli sme slovo Pánovo."},*/
+            {"41", "1", "", "Jn 10, 1-10",
+                    "Ja som brána k\u00A0ovciam",
+                    "<font color='#B71C1C'>†</font> Čítanie zo\u00A0svätého evanjelia podľa Jána<br>" +
+                            "Ježiš povedal: \"Veru, veru, hovorím vám: Kto nevchádza do\u00A0ovčinca bránou, ale prelieza inokade, je zlodej a zbojník. Kto vchádza bránou je pastier oviec. Tomu vrátnik otvára a ovce počúvajú jeho hlas. On volá svoje ovce po\u00A0mene a vyvádza ich. Keď ich všetky vyženie, kráča pred nimi a ovce idú za\u00A0ním, lebo poznajú jeho hlas. Za\u00A0cudzím nepôjdu, ba ujdú od\u00A0neho, lebo cudzí hlas nepoznajú.\" Ježiš im to povedal takto obrazne, ale oni nepochopili, čo im to chcel povedať.<br>" +
+                            "Preto im Ježiš znova vravel: \"Veru, veru, hovorím vám: Ja som brána k\u00A0ovciam: Všetci, čo prišli predo mnou, sú zlodeji a zbojníci, ale ovce ich nepočúvali. Ja som brána. Kto vojde cezo mňa, bude spasený; bude vchádzať i vychádzať a nájde pastvu.<br>" +
+                            "Zlodej prichádza, len aby kradol, zabíjal a ničil. Ja som prišiel, aby mali život a aby ho mali hojnejšie.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"42", "2", "", "Jn 10, 22-30",
                     "Ja a Otec sme jedno",

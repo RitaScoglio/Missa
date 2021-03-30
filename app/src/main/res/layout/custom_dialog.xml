@@ -25,13 +25,15 @@
         android:dividerHeight="0dp"
         android:listSelector="@android:color/transparent"
         android:orientation="vertical"
-        android:scrollbars="none" />
+        android:scrollbars="none"
+        android:paddingBottom="16dp"/>
 
     <Button
         android:id="@+id/dialog_button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:text="@string/cancel" />
+        android:text="@string/cancel"
+        android:gravity="center_vertical|right"
+        android:paddingRight="8dp"/>
 </RelativeLayout>

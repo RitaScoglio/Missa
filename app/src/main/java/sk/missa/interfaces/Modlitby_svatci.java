@@ -128,7 +128,7 @@ public interface Modlitby_svatci {
                     "že on je pravý Boh a pravý človek,<br>" +
                     "a mocou jeho zmŕtvychvstania dosiahli večnú radosť.<br>" +
                     "Skrze Krista, nášho Pána."},
-            {"2p", "", "Bože, milosrdný Otče,<br>" +
+            {"2mp", "", "Bože, milosrdný Otče,<br>" +
                     "tvoj jednorodený Syn, pribitý na kríži,<br>" +
                     "dal nám všetkým za matku<br>" +
                     "pre blahoslavenú Pannu Máriu; <font color='#B71C1C'>*</font><br>" +
@@ -250,7 +250,7 @@ public interface Modlitby_svatci {
                     "aby sme ho vytrvalo nasledovali<br>" +
                     "a vedeli ho spoznať aj v našich bratoch.<br>" +
                     "Skrze Krista, nášho Pána."},
-            {"4p", "", "Svätý Bože,<br>" +
+            {"4mp", "", "Svätý Bože,<br>" +
                     "ty si pripravil v srdci<br>" +
                     "preblahoslavenej Panny Márie<br>" +
                     "dôstojný príbytok Duchu Svätému; <font color='#B71C1C'>*</font><br>" +
@@ -997,6 +997,16 @@ public interface Modlitby_svatci {
                     "Kristovej smrti a zmŕtvychvstania,<br>" +
                     "aby sme vydávali o ňom svedectvo<br>" +
                     "obnoveným kresťanským životom.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
+                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
+                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
+            {"28b", "Bože večnej múdrosti,<br>" +
+                    "ty si svätého kňaza Ľudovíta Máriu<br>" +
+                    "urobil vynikajúcim svedkom a učiteľom<br>" +
+                    "úplného zasvätenia tvojmu Synovi, Kristovi,<br>" +
+                    "prostredníctvom jeho blahoslavenej Matky; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme kráčali po tej istej duchovnej ceste, <font color='#B71C1C'>—</font><br>" +
+                    "a tak mohli šíriť tvoje kráľovstvo vo svete.<br>" +
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
                     "ktorý je Boh a s tebou žije a kraľuje<br>" +
                     "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
