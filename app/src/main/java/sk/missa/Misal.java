@@ -2823,7 +2823,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         if (aleboProsby != null)
             vypisAlebo(missas, aleboProsby, 15);
         missas.add(new Missa(prosby.toUpperCase(), prosby_uvod, prosby_zvolanie, "<br>" + prosby_vypis, true));
-        missas.add(new Missa("<font color='#B71C1C'>Prosby za rozličné potreby (otvoriť)</font>", true,  21));
+        missas.add(new Missa("<font color='#B71C1C'>Prosby za zosnulých a rozličné potreby (otvoriť)</font>", true,  21));
         missas.add(new Missa(null, null, null, "<br>" + prosby_zaver, true));
         if (ticheModlitby) {
             missas.add(new Missa(1)); //medzera mala
