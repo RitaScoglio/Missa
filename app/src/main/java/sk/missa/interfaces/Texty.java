@@ -20,6 +20,7 @@ package sk.missa.interfaces;
  * teba_Boze_chvalime
  * ohlasenieVN - ohlasenie VN na Zjavenie Pana
  * prosby_rozlicne - prosby za zosnulých a rozličné potreby
+ * tri_oblasti_modlitby_a_pripravy - Prosby pred návštevou pápeža
  */
 
 public interface Texty {
@@ -1628,6 +1629,28 @@ public interface Texty {
                     "<font color='#B71C1C'>2.</font> Bože Otče, posilňuj v ochote odpovedať na tvoj hlas všetkých mužov a ženy, ktorých voláš k zasvätenému životu.<br><br>" +
                     "<font color='#B71C1C'>3.</font> Za chlapcov a mladých mužov: aby mali odvahu rozhodnúť sa pre kňazskú službu, prosme Pána.<br><br>" +
                     "<font color='#B71C1C'>4.</font> Modlime sa za kresťanské rodiny: aby mali ochotu darovať a vychovať Cirkvi nových kňazov, rehoľníkov a rehoľné sestry.<br>"},
+    };
+
+    String[][] tri_oblasti_modlitby_a_pripravy = {
+            {"Za pápeža – znak spoločenstva so Svätým Otcom",
+                    "<font color='#B71C1C'>1.</font> Aby modernému svetu s odvahou hlásal Ježišovo evanjelium pravdy a lásky.<br><br>" +
+                            "<font color='#B71C1C'>2.</font> Aby slovami nádeje napomáhal prekonávanie nerovností a rozdelení medzi ľuďmi.<br><br>" +
+                            "<font color='#B71C1C'>3.</font> Aby bol naplnený Božím Duchom a viedol Cirkev k chápaniu znamení našich čias.<br><br>" +
+                            "<font color='#B71C1C'>4.</font> Aby sme s úctou a poslušnosťou počúvali slová pápeža Františka a uvádzali ich do života.<br>"},
+            {"Za Cirkev na Slovensku – znak zodpovednosti za našu krajinu",
+                    "<font color='#B71C1C'>1.</font> Aby sme sa s úprimnou ochotou modlili za pápeža, za biskupov a kňazov<br><br>" +
+                            "<font color='#B71C1C'>2.</font> Aby sme prijímali radosť kresťanskej viery v každodennom živote a vydávali pravdivé svedectvo o Kristovi a jeho Cirkvi.<br><br>" +
+                            "<font color='#B71C1C'>3.</font> Aby sme podľa príkladu Panny Márie a s jej pomocou odvážne prijímali svoj život ako neopakovateľný a dôležitý v Božích plánoch.<br><br>" +
+                            "<font color='#B71C1C'>4.</font> Aby sme podľa príkladu sv. Jozefa neúnavne a nenápadne pracovali vo svete v službe Ježišovi.<br><br>" +
+                            "<font color='#B71C1C'>5.</font> Aby sme v pravde a láske mohli rásť v slobode Božích synov a dcér.<br><br>"
+            },
+            {"Za ľudí vo svete – znak evanjeliovej solidarity",
+                    "<font color='#B71C1C'>1.</font> Aby kresťania rôznych vyznaní budovali medzi sebou cesty porozumenia a vzájomného prijatia.<br><br>" +
+                            "<font color='#B71C1C'>2.</font> Aby mladí ľudia, ktorí hľadajú zmysel života, vytrvali v spoločenstve s Bohom i Cirkvou.<br><br>" +
+                            "<font color='#B71C1C'>3.</font> Aby sa napĺňali túžby ľudskej rodiny po pravom pokoji a bratskej láske.<br><br>" +
+                            "<font color='#B71C1C'>4.</font> Aby sme spolupracovali s Bohom na prejavoch starostlivosti voči chorým, opusteným, chudobným a prenasledovaným.<br><br>" +
+                            "<font color='#B71C1C'>5.</font> Aby sme boli ochotní konkrétne pomáhať sociálne slabším a ľuďom, ktorí sa nachádzajú v núdzi.<br><br>"
+            },
     };
 }
 

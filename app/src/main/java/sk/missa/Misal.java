@@ -1917,8 +1917,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 if (predtym != pozicia_eucharistia) {
                     euchText = lw.getAdapter().getItem(lw.getCheckedItemPosition()).toString();
                     //obdobie = true;
-                    ziskajPrefaciu();
                     ziskajEucharistiu();
+                    ziskajPrefaciu();
                     prefacia();
                     pozicia_listview = listView.getFirstVisiblePosition();
                     vypis();
@@ -2544,6 +2544,63 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         dialog.show();
     }
 
+    //prosby za zosnulych a rozlicne potreby
+    private void prosbyTriOblasti() {
+        final Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.custom_dialog);
+        ListView dialogListview = dialog.findViewById(R.id.vypis_misal);
+        TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
+        Button dialogButton = dialog.findViewById(R.id.dialog_button);
+        final ArrayList<Missa> dg = new ArrayList<>();
+
+        if (rezim) {
+            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
+            dialogTextView.setTextColor(getResources().getColor(R.color.background));
+            dialogButton.setTextColor(getResources().getColor(R.color.background));
+            dialogButton.setBackgroundColor(Color.BLACK);
+        } else {
+            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
+            dialogTextView.setTextColor(getResources().getColor(R.color.primary));
+            dialogButton.setTextColor(getResources().getColor(R.color.primary));
+            dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
+        }
+
+        dialogButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
+
+        dialogTextView.setText("Prosby pred návštevou pápeža");
+        dg.add(new Missa("<font color='#B71C1C'>"+tri_oblasti_modlitby_a_pripravy[0][0]+"</font>", true, 1));
+        dg.add(new Missa("<font color='#B71C1C'>"+tri_oblasti_modlitby_a_pripravy[1][0]+"</font>", true, 2));
+        dg.add(new Missa("<font color='#B71C1C'>"+tri_oblasti_modlitby_a_pripravy[2][0]+"</font>", true, 3));
+
+        MissaAdapter ada = new MissaAdapter(this, dg);
+        dialogListview.setAdapter(ada);
+        dialogListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                Missa missa = dg.get(position);
+                switch (missa.getOtvor()) {
+                    case 1:
+                        otvorenie(17);
+                        break;
+                    case 2:
+                        otvorenie(18);
+                        break;
+                    case 3:
+                        otvorenie(19);
+                        break;
+                    default:
+                        break;
+                }
+            }
+        });
+        dialog.show();
+    }
+
     //podľa zavolania a premennej dialog otvorí dialógové okno
     public void otvorenie(int dialog) {
         final AlertDialog.Builder builder = new AlertDialog.Builder(Misal.this);
@@ -2634,6 +2691,15 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         } else if (dialog == 16) { //rozličné prosby - Prosby za duchovné povolania
             builder.setMessage(Html.fromHtml(nahrad(prosby_rozlicne[4][1])));
             builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+prosby_rozlicne[4][0]+"</b></font>")));
+        } else if (dialog == 17) { //tri oblasti - pápež
+            builder.setMessage(Html.fromHtml(nahrad(tri_oblasti_modlitby_a_pripravy[0][1])));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+tri_oblasti_modlitby_a_pripravy[0][0]+"</b></font>")));
+        } else if (dialog == 18) { //tri oblasti - Cirkev
+            builder.setMessage(Html.fromHtml(nahrad(tri_oblasti_modlitby_a_pripravy[1][1])));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+tri_oblasti_modlitby_a_pripravy[1][0]+"</b></font>")));
+        } else if (dialog == 19) { //tri oblasti - ľudia
+            builder.setMessage(Html.fromHtml(nahrad(tri_oblasti_modlitby_a_pripravy[2][1])));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+tri_oblasti_modlitby_a_pripravy[2][0]+"</b></font>")));
         }
 
         builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
@@ -2823,8 +2889,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         if (aleboProsby != null)
             vypisAlebo(missas, aleboProsby, 15);
         missas.add(new Missa(prosby.toUpperCase(), prosby_uvod, prosby_zvolanie, "<br>" + prosby_vypis, true));
+        missas.add(new Missa("<font color='#B71C1C'>Prosby pred návštevou pápeža (otvoriť)</font>", true,  22));
         missas.add(new Missa("<font color='#B71C1C'>Prosby za zosnulých a rozličné potreby (otvoriť)</font>", true,  21));
-        missas.add(new Missa(null, null, null, "<br>" + prosby_zaver, true));
+        missas.add(new Missa(null, null, null, prosby_zaver, true));
         if (ticheModlitby) {
             missas.add(new Missa(1)); //medzera mala
             missas.add(new Missa(tiche_modlitby[3][0], tiche_modlitby[3][1], tiche_modlitby[3][2]));
@@ -3055,6 +3122,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         vypis();
                     case 21:
                         prosbyRozlicnePotreby();
+                        break;
+                    case 22:
+                        prosbyTriOblasti();
                         break;
                     default:
                         break;
