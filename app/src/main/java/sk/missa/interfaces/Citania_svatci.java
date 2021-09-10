@@ -1657,7 +1657,7 @@ public interface Citania_svatci {
                             "Ježiš Kristus, hoci má božskú prirodzenosť, nepridŕžal sa svojej rovnosti s\u00A0Bohom, ale zriekol sa seba samého, vzal si prirodzenosť sluhu, stal sa podobný ľuďom a podľa vonkajšieho zjavu bol pokladaný za\u00A0človeka. Uponížil sa, stal sa poslušným až na\u00A0smrť, až na\u00A0smrť na\u00A0kríži.<br>" +
                             "Preto ho Boh nad\u00A0všetko povýšil a dal mu meno, ktoré je nad\u00A0každé iné meno, aby sa na\u00A0meno Ježiš zohlo každé koleno v\u00A0nebi, na\u00A0zemi i v\u00A0podsvetí a aby každý jazyk vyznával: \"Ježiš Kristus je Pán!\" na\u00A0slávu Boha Otca.<br>" +
                             "Počuli sme Božie slovo."},
-            {"15gk", "", "", "1 Pt 4, 13-16",
+            {"15gkm", "", "", "1 Pt 4, 13-16",
                     "Keď vás hanobia pre\u00A0Kristovo meno, ste blahoslavení",
                     "Čítanie z Prvého listu svätého apoštola Petra<br>" +
                             "Milovaní, radujte sa, keď máte účasť na\u00A0Kristových utrpeniach, aby ste sa radovali a plesali aj vtedy, keď sa zjaví jeho sláva.<br>" +
