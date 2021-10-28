@@ -20,15 +20,24 @@
             android:layout_height="42dp"
             android:background="@color/primary"
             app:popupTheme="@style/PopupOverlay"
-            app:theme="@style/Toolbar" >
+            app:theme="@style/Toolbar"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:contentInsetStartWithNavigation="0dp">
 
             <android.support.v7.widget.AppCompatTextView
                 android:id="@+id/toolbar_title"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="@string/app_name"
-                android:textSize="20sp"
-                android:textColor="@color/background"/>
+                android:textColor="@color/background"
+                android:gravity="center_vertical"
+                android:paddingRight="8dp"
+                android:paddingEnd="8dp"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="12sp"
+                app:autoSizeMaxTextSize="20sp"
+                app:autoSizeStepGranularity="2sp" />
 
         </android.support.v7.widget.Toolbar>
 
@@ -56,13 +65,15 @@
                 android:layout_marginBottom="16dp"
                 android:divider="@color/background"
                 android:dividerHeight="0dp"
-                android:orientation="vertical" />
+                android:orientation="vertical"
+                android:layout_above="@+id/linear_bottom"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:id="@+id/linear_bottom">
 
                 <TextView
                     android:layout_width="wrap_content"

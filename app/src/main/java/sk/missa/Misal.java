@@ -5,6 +5,8 @@ import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.widget.AppCompatTextView;
+import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
@@ -159,7 +161,11 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
 
     //uloží nadpis
     public void nadpis() {
-        nadpis = (String.valueOf(menoSvatca));
+        //nadpis = (String.valueOf(menoSvatca));
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        TextView title = toolbar.findViewById(R.id.toolbar_title);
+        title.setText(menoSvatca);
+        title.setTypeface(typeBold);
     }
 
     public void spev() {
@@ -2889,8 +2895,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         if (aleboProsby != null)
             vypisAlebo(missas, aleboProsby, 15);
         missas.add(new Missa(prosby.toUpperCase(), prosby_uvod, prosby_zvolanie, "<br>" + prosby_vypis, true));
-        missas.add(new Missa("<font color='#B71C1C'>Prosby pred návštevou pápeža (otvoriť)</font>", true,  22));
-        missas.add(new Missa("<font color='#B71C1C'>Prosby za zosnulých a rozličné potreby (otvoriť)</font>", true,  21));
+        //missas.add(new Missa("<font color='#B71C1C'>Prosby pred návštevou pápeža (otvoriť)</font>", true,  22));
+        missas.add(new Missa("<font color='#B71C1C'>Prosby za zosnulých a rozličné potreby (otvoriť)</font><br>", true,  21));
         missas.add(new Missa(null, null, null, prosby_zaver, true));
         if (ticheModlitby) {
             missas.add(new Missa(1)); //medzera mala

@@ -2558,7 +2558,7 @@ public interface Modlitby_svatci {
                     "ktorej úctyhodné meno oslavujeme.<br>" +
                     "Skrze Krista, nášho Pána."},
             {"13", "Bože, sila dúfajúcich v teba,<br>" +
-                    "ty si dal svätému Ján ovi Zlatoústemu<br>" +
+                    "ty si dal svätému Jánovi Zlatoústemu<br>" +
                     "obdivuhodnú výrečnosť<br>" +
                     "a hrdinskú odvahu v prenasledovaniach; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa, <font color='#B71C1C'>—</font><br>" +

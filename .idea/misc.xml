@@ -8,7 +8,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/activity_jazyky.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/activity_kalendar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/activity_misal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/activity_upravy_misal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/activity_uvod.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/custom_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/menu_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/missa_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/zoom.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

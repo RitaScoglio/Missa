@@ -136,10 +136,10 @@ public class MissaAdapter extends ArrayAdapter<Missa> {
         else
             text.setTypeface(typeNormal);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            if (currentMissa.getOtvor() == -2)
+            //if (currentMissa.getOtvor() == -2)
                 text.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
-            else
-                text.setJustificationMode(Layout.JUSTIFICATION_MODE_NONE);
+           /* else
+                text.setJustificationMode(Layout.JUSTIFICATION_MODE_NONE);*/
         }
 
         //citat v prosbach
@@ -155,6 +155,9 @@ public class MissaAdapter extends ArrayAdapter<Missa> {
         else
             text_prosby.setText(null);
         text_prosby.setTextSize(sizeO);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            text_prosby.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
+        }
 
         //zvoncek
         ImageView zvoncek = listItemView.findViewById(R.id.zvoncek);

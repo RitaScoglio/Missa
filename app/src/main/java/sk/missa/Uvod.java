@@ -317,8 +317,6 @@ public class Uvod extends Main {
         Calendar w = words.get(0);
         ulozSpecial(w);
         uvodLayout = true;
-        words.add(new Calendar(null));
-        //words.add(new Calendar(null));
         CalendarAdapter adapter = new CalendarAdapter(this, words);
         ListView listView = findViewById(R.id.den_sviatky);
         listView.setAdapter(adapter);

@@ -1518,7 +1518,6 @@ public interface Prefacia {
                             "Aj my sa k nim pripájame<br>" +
                             "a s úctou sa ti klaniame<br>" +
                             "a spolu s nimi radostne voláme:<br>" +
-                            "Svätý, svätý, svätý Pán Boh všetkých svetov ...<br>" +
                             "<br>" +
                             "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +

@@ -441,16 +441,16 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
 
     //nastaví fullscreen
     public void setFullscreen() {
-        ActionBar m_myActionBar = getSupportActionBar();
+        //ActionBar m_myActionBar = getSupportActionBar();
         if (fullscreen) {
             getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                     WindowManager.LayoutParams.FLAG_FULLSCREEN);
-            assert m_myActionBar != null;
-            m_myActionBar.hide();
+            //assert m_myActionBar != null;
+            //m_myActionBar.hide();
         } else {
             getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-            assert m_myActionBar != null;
-            m_myActionBar.show();
+            //assert m_myActionBar != null;
+            //m_myActionBar.show();
         }
     }
 

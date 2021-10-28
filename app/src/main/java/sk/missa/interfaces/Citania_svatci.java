@@ -948,12 +948,12 @@ public interface Citania_svatci {
                             "Keď ta prišli, vystúpili do\u00A0hornej siene, kde sa zdržiavali Peter a Ján, Jakub a Ondrej, Filip a Tomáš, Bartolomej a Matúš, Jakub Alfejov, Šimon Horlivec a Júda Jakubov.<br>" +
                             "Títo všetci jednomyseľne zotrvávali na\u00A0modlitbách spolu so\u00A0ženami, s\u00A0Ježišovou matkou Máriou a s\u00A0jeho bratmi.<br>" +
                             "Počuli sme Božie slovo."},*/
-            {"07m", "", "", "Gal 2, 1-2. 7-14",
+            /*{"07m", "", "", "Gal 2, 1-2. 7-14",
                     "Poznali milosť, ktorú som dostal",
                             "Čítanie z\u00A0Listu svätého apoštola Pavla Galaťanom<br>" +
                             "Bratia, po\u00A0štrnástich rokoch som znova šiel s\u00A0Barnabášom do\u00A0Jeruzalema a vzal som so\u00A0sebou aj Títa. Išiel som ta pohnutý zjavením a predložil som im evanjelium, ktoré hlásam medzi pohanmi; ale v\u00A0súkromí tým, čo niečo znamenali, či nebežím alebo či som nebežal nadarmo. A keď videli, že mne je zverené evanjelium pre\u00A0neobrezaných, tak ako Petrovi pre\u00A0obrezaných – veď ten, ktorý pomáhal Petrovi v apoštoláte medzi obrezanými, pomáhal aj mne medzi pohanmi –, a keď poznali milosť, ktorú som dostal, Jakub, Kéfas a Ján, ktorých pokladali za\u00A0stĺpy, podali mne a Barnabášovi pravicu na\u00A0znak spoločenstva, že my pôjdeme medzi pohanov a oni medzi obrezaných. Len aby sme pamätali na\u00A0chudobných, čo som sa aj usiloval robiť.<br>" +
                             "Ale keď prišiel Kéfas do\u00A0Antiochie, zoči-voči som sa postavil proti nemu, lebo si zaslúžil pokarhanie. Kým neprišli niektorí od\u00A0Jakuba, jedával s\u00A0pohanmi. Ale keď prišli, odťahoval sa a oddeľoval, lebo sa bál tých, čo boli z\u00A0obriezky. A s\u00A0ním sa pretvarovali aj ostatní Židia, takže sa dal aj Barnabáš strhnúť ich pokrytectvom. Keď som videl, že nepostupujú priamo, podľa pravdy evanjelia, povedal som Kéfasovi pred\u00A0všetkými: „Keď ty, Žid, žiješ pohansky, a nie po\u00A0židovsky, ako to, že nútiš pohanov žiť po\u00A0židovsky?!“<br>" +
-                            "Počuli sme Božie slovo."},
+                            "Počuli sme Božie slovo."},*/
 
             {"18g", "", "", "2 Tim 4, 10-17b",
                     "Jediný Lukáš je so\u00A0mnou",
@@ -2745,12 +2745,12 @@ public interface Citania_svatci {
                             "Mária povedala: \"Hľa, služobnica Pána, nech sa mi stane podľa tvojho slova.\"<br>" +
                             "Anjel potom od\u00A0nej odišiel.<br>" +
                             "Počuli sme slovo Pánovo."},*/
-            {"07m", "", "", "Lk 11, 1-4",
+            /*{"07m", "", "", "Lk 11, 1-4",
                     "Pane, nauč nás modliť sa",
                             "<font color='#B71C1C'>†</font> Čítanie zo\u00A0svätého evanjelia podľa Lukáša<br>" +
                             "Raz sa Ježiš na\u00A0ktoromsi mieste modlil. Keď skončil, povedal mu jeden z\u00A0jeho učeníkov: „Pane, nauč nás modliť sa, ako Ján naučil svojich učeníkov.“<br>" +
             "Povedal im: „Keď sa modlíte, hovorte: Otče, posväť sa tvoje meno, príď tvoje kráľovstvo. Chlieb náš každodenný daj nám každý deň a odpusť nám naše hriechy, lebo aj my odpúšťame každému svojmu dlžníkovi. A neuveď nás do\u00A0pokušenia.“<br>" +
-            "Počuli sme slovo Pánovo."},
+            "Počuli sme slovo Pánovo."},*/
         {"18g", "", "", "Lk 10, 1-9",
                     "Žatva je veľká, ale robotníkov málo",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
