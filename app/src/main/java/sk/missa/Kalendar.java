@@ -433,6 +433,7 @@ public class Kalendar extends Main {
                     tyzden = word.getTyzden();
                     pozicia_eucharistia = 1;
                     m = mm;
+                    rok = rr;
                     if (ID.contains("3dni")) {
                         /*LayoutInflater inflater = getLayoutInflater();
                         View layout = inflater.inflate(R.layout.toast_layout,
