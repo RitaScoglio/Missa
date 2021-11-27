@@ -103,6 +103,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 break;
         }
         nedela = slavenie.equals("");
+        if (dvt == 0 && ID.equals("009"))
+            nedela = true;
         feria = slavenie.equals("Féria");
         //kántrové dni, prosebné dni, týždeň modlitieb za jednotu kresťanov
         /*if(slavenie.equals(" ") && !ID.equals("003m")) {
@@ -161,7 +163,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
 
     //uloží nadpis
     public void nadpis() {
-        //nadpis = (String.valueOf(menoSvatca));
+        nadpis = (String.valueOf(menoSvatca));
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView title = toolbar.findViewById(R.id.toolbar_title);
         title.setText(menoSvatca);
@@ -1465,6 +1467,11 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 prosby_zvolanie = cezrokProsby[index][3];
                 prosby_vypis = cezrokProsby[index][4];
                 prosby_zaver = cezrokProsby[index][5];
+                if (cezrokProsby[index].length > 6) {
+                    aleboProsby = new String[(cezrokProsby[index].length) / 5][5];
+                    aleboProsby[0] = new String[]{"Prosby v roku " + cezrokProsby[index][1], prosby_uvod, prosby_zvolanie, prosby_vypis, prosby_zaver};
+                    aleboProsby[1] = new String[]{"Prosby na nedeľu Božieho slova", cezrokProsby[index][7], cezrokProsby[index][8], cezrokProsby[index][9], cezrokProsby[index][10]};
+                }
             } else if (P) {
                 prosby_uvod = postProsby[index][2];
                 prosby_zvolanie = postProsby[index][3];
@@ -2820,7 +2827,6 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         else
             drawer.setBackgroundColor(getResources().getColor(R.color.background));
         final ArrayList<Missa> missas = new ArrayList<>();
-        missas.add(new Missa(nadpis, null, null, null, null, true, -1));
         missas.add(new Missa(true));
         if (ID.equals("60") && P) {
             missas.add(new Missa("<font color='#B71C1C'>" + kvetna_nedela[0] + " (otvoriť)</font>", true, 17));

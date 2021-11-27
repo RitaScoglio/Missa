@@ -3638,13 +3638,15 @@ public interface Modlitby_svatci {
                     "neochvejne kráčali po tvojich cestách<br>" +
                     "a pripravovali sa na radostnú hostinu vo večnosti.<br>" +
                     "Skrze Krista, nášho Pána."},
-            {"10m", "Deus, qui promíssa Pátribus adimplens<br>" +
-                    "beátam Vírginem Maríam elegísti,<br>" +
-                    "ut matrem fíeret Salvatóris,<br>" +
-                    "concéde nobis illíus exémpla sectári,<br>" +
-                    "cuius humílitas tibi plácuit,<br>" +
-                    "et oboediéntia nobis prófuit.<br>" +
-                    "Per Dóminiun.", "", ""},
+            {"10m", "Bože, ty si splnil sľub daný našim otcom<br>" +
+                    "a vyvolil si preblahoslavenú Pannu Máriu<br>" +
+                    "za matku Spasiteľa; <font color='#B71C1C'>*</font><br>" +
+                    "pomáhaj nám nasledovať<br>" +
+                    "jej príklad pokory, ktorá ti je milá, <font color='#B71C1C'>—</font><br>" +
+                    "a poslušnosti, ktorá nám priniesla spásu.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "po všetky veky vekov.","",""},
             {"11", "Pane a Bože náš,<br>" +
                     "tvoj služobník svätý pápež Damaz<br>" +
                     "bol veľkým ctiteľom mučeníkov<br>" +

@@ -23,7 +23,7 @@ import java.util.ArrayList;
 
 public class Kalendar extends Main {
     TextView dateView;
-    int position, mm;
+    int position, mm, rr;
     LinearLayout linear_kalendar;
     ListView listView;
     Animation slideInRight;
@@ -39,15 +39,16 @@ public class Kalendar extends Main {
 
     @Override
     protected void onPause() {
+        super.onPause();
         setAll();
         /*if(!zIntent)
             unsetZvuk();*/
-        super.onPause();
     }
 
     //zisti či je rovnaký deň ako pri otvorení aplikácie, ak nie, tak otvorí úvodnú stranu
     @Override
     protected void onResume() {
+        super.onResume();
         if (!zIntent) {
             settings = getApplicationContext().getSharedPreferences("MySviatok", 0);
             setDate();
@@ -59,7 +60,7 @@ public class Kalendar extends Main {
                 startActivity(uvod);
             }
         }
-        super.onResume();
+
     }
 
     //možnosti v menu
@@ -237,8 +238,9 @@ public class Kalendar extends Main {
             getPremenne();
         //uloží aktuálny mesiac
         mm = m;
+        rr = rok;
         //vypíše mesiac s rokom
-        vypisDatumKalendar(mm, rok);
+        vypisDatumKalendar(mm, rr);
         //vypíše sviatky v mesiaci
         sviatokMesiac();
     }
@@ -277,9 +279,9 @@ public class Kalendar extends Main {
     private void predchadzajuci() {
         if (mm == 0) {
             mm = 11;
-            rok--;
+            rr--;
             //dolezite pre vypocet tyzdna cezrok - posun (zalezi od krstu krista pana)
-            posunObdobieCezrok(rok);
+            posunObdobieCezrok(rr);
         //} else if(mm == 11){
             //obmedzenie kalendara
         } else {
@@ -287,23 +289,23 @@ public class Kalendar extends Main {
             linear_kalendar.startAnimation(slideInLeft);
         }
         //pokial bude posuvanie aj medzi rokmi, tak treba spravit rok a r(podobne ako mm a m), aby si vzdy pamatalo aktualny rok
-        vypisDatumKalendar(mm, rok);
+        vypisDatumKalendar(mm, rr);
         sviatokMesiac();
     }
 
     private void nasledujuci() {
         if (mm == 11) {
             mm = 0;
-            rok++;
+            rr++;
             //dolezite pre vypocet tyzdna cezrok - posun (zalezi od krstu krista pana)
-            posunObdobieCezrok(rok);
+            posunObdobieCezrok(rr);
         //} else if(mm == 0){
                         //obmedzenie kalendara
         } else {
             linear_kalendar.startAnimation(slideInRight);
             mm++;
         }
-        vypisDatumKalendar(mm, rok);
+        vypisDatumKalendar(mm, rr);
         sviatokMesiac();
     }
 
@@ -327,17 +329,17 @@ public class Kalendar extends Main {
         dateView.setTextSize(sizeN);
 
         //dolezite pre vypocet tyzdna cezrok - posun (zalezi od krstu krista pana)
-        posunObdobieCezrok(rok);
+        posunObdobieCezrok(rr);
         
         switch (mm) {
             //ziskajPaVN a ziskajAaV sa rata iba v hranickych mesiacoch, kedze v uvode sa rata v ostatnych
             case 0:
-                ziskajAaV(rok-1, rok);
+                ziskajAaV(rr-1, rr);
                 slavenieMesiac(32, month1);
                 break;
             case 1:
                 ziskajPaVN(); //zistí dátum popolcovej stredy a veľkej noci
-                if (rok % 4 == 0)
+                if (rr % 4 == 0)
                     slavenieMesiac(30, month2);
                 else
                     slavenieMesiac(29, month2);
@@ -371,11 +373,11 @@ public class Kalendar extends Main {
                 slavenieMesiac(32, month10); //(počet dní v mesiaci+, mesiac obsahujúci sviatky)
                 break;
             case 10:
-                ziskajAaV(rok, rok+1);
+                ziskajAaV(rr, rr+1);
                 slavenieMesiac(31, month11);
                 break;
             case 11:
-                ziskajAaV(rok, rok+1);
+                ziskajAaV(rr, rr+1);
                 slavenieMesiac(32, month12);
             default:
                 break;
@@ -388,8 +390,8 @@ public class Kalendar extends Main {
         final ArrayList<Calendar> words = new ArrayList<>();
 
         for (int d = 1; d < pocet; d++) {
-            dnes.set(rok, mm, d);
-            mD = new DateTime(rok, mm + 1, d, 12, 0, 0);
+            dnes.set(rr, mm, d);
+            mD = new DateTime(rr, mm + 1, d, 12, 0, 0);
             dvt = (dnes.get(java.util.Calendar.DAY_OF_WEEK) - 1);
             words.add(new Calendar(d + ". " + dni[dvt].toUpperCase()));
             if (d == den && m == mm)

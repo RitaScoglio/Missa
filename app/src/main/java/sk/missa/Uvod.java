@@ -28,7 +28,7 @@ import java.util.ArrayList;
 
 public class Uvod extends Main {
 
-    TextView dtm, upravyMisal;
+    TextView dtm;
 
 
     /*@Override
@@ -197,7 +197,6 @@ public class Uvod extends Main {
         });
 
         dtm = findViewById(R.id.datum);
-        upravyMisal = findViewById(R.id.upravyMisal);
         nastavDatum();
         sviatokDen();
     }
@@ -227,14 +226,11 @@ public class Uvod extends Main {
         if (rezim) {
             drawer.setBackgroundColor(Color.BLACK);
             dtm.setTextColor(getResources().getColor(R.color.background));
-            upravyMisal.setTextColor(getResources().getColor(R.color.background));
         } else {
             drawer.setBackgroundColor(getResources().getColor(R.color.background));
             dtm.setTextColor(Color.BLACK);
-            upravyMisal.setTextColor(Color.BLACK);
         }
         dtm.setTextSize(sizeN);
-        upravyMisal.setTextSize(sizeO);
 
         //dolezite pre vypocet tyzdna cezrok - posun (zalezi od krstu krista pana)
         posunObdobieCezrok(rok);
@@ -391,11 +387,5 @@ public class Uvod extends Main {
        private void resizeZvoncek() {
         int s = (sizeO - 16) / 2 * 5;
         sizeZ = 35 + s;
-    }
-
-    public void openUpravy(View view){
-        zIntent = true;
-        Intent upravy_misal = new Intent(this, Upravy_Misal.class);
-        startActivity(upravy_misal);
     }
 }

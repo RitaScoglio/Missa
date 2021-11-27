@@ -2974,7 +2974,7 @@ public interface Prosby_svatci {
                             "a daj, aby naši duchovní pastieri, biskupi a kňazi<br>" +
                             "boli soľou zeme a svetlom sveta.<br>" +
                             "Skrze Krista, nášho Pána."},
-            {"10m", "", "Bratia a sestry, dnešná spomienka nás privádza k Panne Márii ako k vyvolenej dcére nebeského Otca i našej Matke a Orodovníčke. Na jej príhovor prednesme svoje prosby milujúcemu Bohu.",
+            {"10m", "Bratia a sestry, dnešná spomienka nás privádza k Panne Márii ako k vyvolenej dcére nebeského Otca i našej Matke a Orodovníčke. Na jej príhovor prednesme svoje prosby milujúcemu Bohu.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Nebeský Otče, veď svoju nevestu Cirkev, aby sa vo viere pokore a čistote stále viac pripodobňovala Panne Márii, ktorú vzývame ako nepoškvrnenú Matku.<br>" +
                             "<font color='#B71C1C'>2.</font> Bože Otče, usmerňuj rozhodnutia svetových politikov, aby sa starali o najslabších a biednych ako Mária, ktorá je Matkou nádeje.<br>" +

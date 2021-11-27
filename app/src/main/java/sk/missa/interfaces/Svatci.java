@@ -36,6 +36,7 @@ public interface Svatci {
     Zoslanie Ducha Svätého, Slávnosť                                 3gkp
     Najsvätejšieho Kristovho Tela a Krvi, Slávnosť                   4gkp
     Najsvätejšieho Srdca Ježišovho, Slávnosť                         5gkp
+    Nanebovstúpenie Pána - vigília
     Nanebovstúpenie Pána                                             6gkp
     Najsvätejšej Trojice - nedela                                    7gkp
     Nedeľa Krista Kráľa                                              8gkp
@@ -59,7 +60,7 @@ public interface Svatci {
     String[] mesiac = {"január", "február", "marec", "apríl", "máj", "jún", "júl", "august", "september", "október", "november", "december"};
     String[] dni = {"Nedeľa", "Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok", "Sobota"};
     String[] VNdni = {"Nedeľa", "Veľkonočný pondelok", "Veľkonočný utorok", "Veľkonočná streda", "Veľkonočný štvrtok", "Veľkonočný piatok", "Veľkonočná sobota"};
-    String[] maria = {"", "O Preblahoslavenej Panne Márii", "Ľubovoľná spomienka", "(biela)"};
+    String[] maria = {"", "O Nepoškvrnenom Srdci Panny Márie", "Ľubovoľná spomienka", "(biela)"};
     String[] cisla_m = {"Prvý", "Druhý", "Tretí", "Štvrtý", "Piaty", "Šiesty", "Siedmy"};
     String[] cisla_z = {"Prvá", "Druhá", "Tretia", "Štvrtá", "Piata", "Šiesta", "Siedma", "Ôsma", "Deviata", "Desiata", "Jedenásta", "Dvanásta", "Trinásta",
             "Štrnásta", "Pätnásta", "Šestnásta", "Sedemnásta", "Osemnásta", "Devätnásta", "Dvadsiata", "Dvadsiata prvá", "Dvadsiata druhá", "Dvadsiata tretia",
@@ -72,6 +73,7 @@ public interface Svatci {
             {"01gk", "Slávnosť Panny Márie Bohorodičky", "Slávnosť", "(biela)"},
             {"02a", "Sv. Bazila Veľkého a Gregora Nazianského, biskupov a učiteľov Cirkvi", "Spomienka", "(biela)"},
             {"03a", "Najsvätejšieho mena Ježiš", "Ľubovoľná spomienka", "(biela)"},
+            {"05*", "Zjavenie Pána", "Vigília", "(biela)"},
             {"06gk", "Zjavenie Pána", "Slávnosť", "(biela)"},
             {"07", "Sv. Rajmunda z Peňafortu, kňaza", "Ľubovoľná spomienka", "(biela)"},
             {"13", "Sv. Hilára, biskupa a učiteľa Cirkvi", "Ľubovoľná spomienka", "(biela)"},
@@ -198,15 +200,15 @@ public interface Svatci {
             {"15", "Sv. Bonaventúru, biskupa a učiteľa Cirkvi", "Spomienka", "(biela)"},
             {"16m", "Preblahoslavenej Panny Márie Karmelskej", "Ľubovoľná spomienka", "(biela)"},
             {"17", "Sv. Andreja-Svorada a Benedikta, pustovníkov", "Spomienka", "(biela)"},
-            {"17g", "NITRIANSKA DIECÉZA: Svätých Andreja-Svorada a Benedikta, pustovníkov (Hlavných patrónov diecézy)", "Sviatok", "(biela)"},
-            {"17gk", "NITRA (iba v meste Nitra): Svätého Andreja-Svorada (Patrón mesta)", "Slávnosť", "(biela)"},
+            {"17gn", "NITRIANSKA DIECÉZA: Svätých Andreja-Svorada a Benedikta, pustovníkov (Hlavných patrónov diecézy)", "Sviatok", "(biela)"},
+            {"17gkn", "NITRA (iba v meste Nitra): Svätého Andreja-Svorada (Patrón mesta)", "Slávnosť", "(biela)"},
             {"20", "Sv. Apolinára, biskupa a mučeníka", "Ľubovoľná spomienka", "(červená)"},
             {"21", "Sv. Vavrinca z Brindisi, kňaza a učiteľa Cirkvi", "Ľubovoľná spomienka", "(biela)"},
             {"22g", "Sv. Márie Magdalény", "Sviatok", "(biela)"},
             {"23g", "Sv. Brigity, rehoľníčky, patrónky Európy", "Sviatok", "(biela)"},
             {"24", "Sv. Šarbela Makhlufa, kňaza", "Ľubovoľná spomienka", "(biela)"},
             {"25g", "Sv. Jakuba, apoštola", "Sviatok", "(červená)"},
-            {"26", "Sv. Joachima a Anny, rodičov Preblahoslavenej Panny Márie", "Spomienka", "(biela)"},
+            {"26", "Sv. Joachima a Anny, rodičov preblahoslavenej Panny Márie", "Spomienka", "(biela)"},
             {"27", "Sv. Gorazda a spoločníkov", "Spomienka", "(biela)"},
             {"29", "Sv. Marty, Márie a Lazára", "Spomienka", "(biela)"},
             {"30", "Sv. Petra Chryzológa, biskupa a učiteľa Cirkvi", "Ľubovoľná spomienka", "(biela)"},
@@ -236,7 +238,7 @@ public interface Svatci {
             {"19", "Sv. Jána Eudes, kňaza", "Ľubovoľná spomienka", "(biela)"},
             {"20", "Sv. Bernarda, opáta a učiteľa Cirkvi", "Spomienka", "(biela)"},
             {"21", "Sv. Pia X., pápeža", "Spomienka", "(biela)"},
-            {"22m", "Panny Márie Kráľovnej", "Spomienka", "(biela)"},
+            {"22m", "Preblahoslavenej Panny Márie Kráľovnej", "Spomienka", "(biela)"},
             {"23", "Sv. Ruženy Limskej, panny", "Ľubovoľná spomienka", "(biela)"},
             {"24g", "Sv. Bartolomeja, apoštola", "Sviatok", "(biela)"},
             {"25a", "Sv. Ľudovíta", "Ľubovoľná spomienka", "(biela)"},
@@ -252,7 +254,7 @@ public interface Svatci {
             {"07", "Sv. Marka Križina, Melichara Grodzieckého a Štefana Pongrácza, kňazov a mučeníkov", "Spomienka", "(červená)"},
             {"08gm", "Narodenie Preblahoslavenej Panny Márie", "Sviatok", "(biela)"},
             {"09", "Sv. Petra Clavera, kňaza", "Ľubovoľná spomienka", "(biela)"},
-            {"12m", "Najsvätejšieho mena Panny Márie", "Ľubovoľná spomienka", "(biela)"},
+            {"12m", "Najsvätejšieho mena Mária", "Ľubovoľná spomienka", "(biela)"},
             {"13", "Sv. Jána Zlatoústeho, biskupa a učiteľa Cirkvi", "Spomienka", "(biela)"},
             {"14gn", "Povýšenie svätého Kríža", "Sviatok", "(červená)"},
             //{"14*", "Sedembolestnej Panny Márie, patrónky Slovenska", "Vigília", "(biela)"},
@@ -305,9 +307,9 @@ public interface Svatci {
     };
     String[][] month11 = {
             {"01gk", "Všetkých svätých", "Slávnosť", "(biela)"},
-            {"02an", "Spomienka na všetkých verných zosnulých (1.)", "Spomienka", "(fialová)"},
-            {"02bn", "Spomienka na všetkých verných zosnulých (2.)", "Spomienka", "(fialová)"},
-            {"02cn", "Spomienka na všetkých verných zosnulých (3.)", "Spomienka", "(fialová)"},
+            {"02an", "Spomienka na všetkých zosnulých veriacich (1.)", "Spomienka", "(fialová)"},
+            {"02bn", "Spomienka na všetkých zosnulých veriacich (2.)", "Spomienka", "(fialová)"},
+            {"02cn", "Spomienka na všetkých zosnulých veriacich (3.)", "Spomienka", "(fialová)"},
             {"03", "Sv. Martina de Porres, rehoľníka", "Ľubovoľná spomienka", "(biela)"},
             {"04", "Sv. Karola Boromejského, biskupa", "Spomienka", "(biela)"},
             {"05", "TRNAVSKÁ ARCIDIECÉZA, BANSKOBYSTRICKÁ, NITRIANSKÁ A ROŽŇAVSKÁ DIECÉZA: Sv. Imricha", "Ľubovoľná spomienka", "(biela)"},
@@ -324,7 +326,7 @@ public interface Svatci {
             {"18", "Výročie posviacky bazilík sv. Petra a sv. Pavla, apoštolov", "Ľubovoľná spomienka", "(biela)"},
             {"20gv", "NITRIANSKA DIECÉZA: Výročie posviacky katedrálneho chrámu svätého Emeráma", "Sviatok", "(biela)"},
             {"20", "KOŠICKÁ ARCIDIECÉZA: Bl. Anny Kolesárovej, panny a mučenice", "Ľubovoľná spomienka", "(červená)"},
-            {"21m", "Obetovanie Panny Márie", "Spomienka", "(biela)"},
+            {"21m", "Obetovanie Preblahoslavenej Panny Márie", "Spomienka", "(biela)"},
             {"22", "Sv. Cecílie, panny a mučenice", "Spomienka", "(červená)"},
             {"23a", "Sv. Klementa I., pápeža a mučeníka", "Ľubovoľná spomienka", "(červená)"},
             {"23b", "Sv. Kolumbána, opáta", "Ľubovoľná spomienka", "(biela)"},
