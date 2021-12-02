@@ -2027,7 +2027,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void formularVypis(String[][] formular) {
         String omsa;
         int index = indexID(formular);
-        if (index == -1 || feria) {
+        if (index == -1 || feria || nedela) {
             if (ID.equals("003m")) {
                 formArray.add(new String[]{"11", "1", "Omša k preblahoslavenej Panne Marií 1."});
                 formArray.add(new String[]{"11", "2", "Omša k preblahoslavenej Panne Marií 2."});
@@ -2362,7 +2362,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         default:
                             prefaciaArray.add("O preblahoslavenej Panne Marií I");
                             prefaciaArray.add("O preblahoslavenej Panne Marií II");
-                            prefaciaArray.add(prefacie[32][1]);
+                            prefaciaArray.add(prefacie[31][1]);
                             break;
                     }
                 } else {
