@@ -11,699 +11,742 @@ package sk.missa.interfaces;
 
 public interface Modlitby_svatci {
     String[][] modlitbaPohyb = {
-            {"6gkp", "", "Všemohúci Bože,<br>" +
-                    "naplň nás svätou radosťou a vďačnosťou, <font color='#B71C1C'>*</font><br>" +
-                    "lebo nanebovstúpenie tvojho Syna<br>" +
-                    "je aj naším víťazstvom; <font color='#B71C1C'>—</font><br>" +
-                    "pevne dúfame, že aj my,<br>" +
-                    "ako údy jeho tela, vojdeme do večnej slávy,<br>" +
+            {"60gkp", "", "Bože, tvoj Syn dnes <br>" +
+                    "pred zrakom apoštolov vystúpil do neba; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj, prosíme, aby sme podľa jeho prísľubu <br>" +
+                    "vždy pociťovali jeho prítomnosť na zemi <font color='#B71C1C'>—</font><br>" +
+                    "a zaslúžili si dôjsť do spoločenstva s ním v nebi.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Bože, tvoj jednorodený Syn <br>" +
+                            "a náš Veľkňaz je večne živý a sedí <br>" +
+                            "po tvojej pravici, aby sa za nás prihováral; <font color='#B71C1C'>*</font><br>" +
+                            "dopraj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme pristupovali k trónu milosti <br>" +
+                            "s dôverou, že získame tvoje milosrdenstvo.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "nech dary, ktoré sme prijali z tvojho oltára, <br>" +
+                            "zapália v nás túžbu po nebeskej vlasti <font color='#B71C1C'>*</font><br>" +
+                            "a nech nám pomáhajú nasledovať svojho Spasiteľa <font color='#B71C1C'>—</font><br>" +
+                            "a dôjsť tam, kam nás on sám predišiel.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"6gkp", "", "Všemohúci Bože, <br>" +
+                    "naplň nás svätou radosťou a vďačnosťou, <br>" +
+                    "lebo nanebovstúpenie tvojho Syna <br>" +
+                    "je aj naším víťazstvom; <font color='#B71C1C'>*</font><br>" +
+                    "pevne dúfame, že aj my, ako jeho tajomné telo, <br>" +
+                    "vojdeme do večnej slávy, <font color='#B71C1C'>—</font><br>" +
                     "kam nás predišiel on, naša Hlava.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Večný Bože,<br>" +
-                    "na slávnosť nanebovstúpenia tvojho Syna<br>" +
-                    "pokorne ti prinášame túto obetu; <font color='#B71C1C'>*</font><br>" +
-                    "dožič nám láskavo, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa týmto posvätným úkonom<br>" +
-                    "aj my povzniesli k tebe. Skrze Krista, nášho Pána.", "Všemohúci a večný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "vo svojej dobrote dávaš nám už na zemi<br>" +
-                    "prežívať nebeské tajomstvá; <font color='#B71C1C'>—</font><br>" +
-                    "prosíme ťa, naplň naše srdcia vrúcnou túžbou<br>" +
-                    "žiť s osláveným Kristom,<br>" +
-                    "v ktorom naša ľudská prirodzenosť už prebýva u teba.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"2gkp", "", "Všemohúci a večný Bože,<br>" +
-                    "v posvätnom okruhu päťdesiatich dní<br>" +
-                    "sa podľa tvojej vôle zavŕšilo veľkonočné tajomstvo; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa,<br>" +
-                    "mocou Ducha Svätého zjednoť všetky národy, <font color='#B71C1C'>—</font><br>" +
-                    "aby ľudia rozličných jazykov spoločne<br>" +
-                    "vyznávali tvoje meno.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "Prosíme ťa, všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech sa nad nami zaskvie jas tvojej slávy <font color='#B71C1C'>—</font><br>" +
-                    "a Kristus, svetlo sveta,<br>" +
-                    "nech Duchom Svätým posilní srdcia všetkých,<br>" +
-                    "ktorí sa krstom znovuzrodili k novému životu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože,<br>" +
-                    "posväť tieto obetné dary svojím Duchom <font color='#B71C1C'>*</font><br>" +
-                    "a skrze ne udeľ Cirkvi pravú lásku, <font color='#B71C1C'>—</font><br>" +
-                    "aby celému svetu horlivo ohlasovala spásu,<br>" +
-                    "ku ktorej povolávaš všetky národy.<br>" +
-                    "Skrze Krista, nášho Pána.", "Láskavý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nám prijaté sviatostné dary pomáhajú, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ustavične planuli tým Duchom Svätým,<br>" +
-                    "ktorým si zázračne naplnil svojich apoštolov.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"3gkp", "", "Všemohúci Bože,<br>" +
-                    "tajomstvom dnešnej slávnosti<br>" +
-                    "posväcuješ svoju Cirkev<br>" +
+                    "Všemohúci Bože, <br>" +
+                    "veríme, že dnes tvoj jednorodený Syn <br>" +
+                    "a náš Vykupiteľ vystúpil do neba; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme aj my túžili po nebeskom domove. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Večný Bože, na slávnosť <br>" +
+                            "nanebovstúpenia tvojho Syna <br>" +
+                            "pokorne ti prinášame túto obetu; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby táto presvätá výmena <br>" +
+                            "upriamila našu myseľ na nebo.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Všemohúci a večný Bože, <br>" +
+                            "už na zemi nám umožňuješ <br>" +
+                            "prežívať božské tajomstvá; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, naplň naše srdcia <br>" +
+                            "vrúcnou túžbou žiť s osláveným Kristom, <font color='#B71C1C'>—</font><br>" +
+                            "v ktorom naša ľudská prirodzenosť <br>" +
+                            "už prebýva u teba.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"2gkp", "", "Všemohúci a večný Bože, <br>" +
+                    "v posvätnom okruhu päťdesiatich dní <br>" +
+                    "sa podľa tvojej vôle zavŕšilo veľkonočné tajomstvo; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, nebeskou milosťou zjednoť všetky národy, <font color='#B71C1C'>—</font><br>" +
+                    "aby ľudia rozličných jazykov <br>" +
+                    "spoločne vyznávali tvoje meno.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.<br>" +
+                    "<font color='#B71C1C'>Alebo:</font><br>" +
+                    "Prosíme ťa, všemohúci Bože,<br>" +
+                    "nech sa nad nami zaskvie jas tvojej slávy <font color='#B71C1C'>*</font><br>" +
+                    "a Kristus, svetlo zo svetla, nech Duchom Svätým <br>" +
+                    "posilní srdcia všetkých, <font color='#B71C1C'>—</font><br>" +
+                    "ktorí sa tvojou milosťou znovuzrodili k novému životu.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "posväť tieto obetné dary svojím Duchom <font color='#B71C1C'>*</font><br>" +
+                            "a skrze ne udeľ svojej Cirkvi takú lásku, <font color='#B71C1C'>—</font><br>" +
+                            "aby celému svetu zažiarila <br>" +
+                            "pravda spásonosného tajomstva.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nech nám prijaté <br>" +
+                            "sviatostné dary pomáhajú, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme ustavične planuli Duchom Svätým, <font color='#B71C1C'>—</font><br>" +
+                            "ktorým si zázračne naplnil svojich apoštolov.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"3gkp", "", "Bože, tajomstvom dnešnej slávnosti <br>" +
+                    "posväcuješ svoju Cirkev <br>" +
                     "vo všetkých krajinách a národoch; <font color='#B71C1C'>*</font><br>" +
                     "naplň celý svet darmi Ducha Svätého <font color='#B71C1C'>—</font><br>" +
-                    "a v srdciach svojich veriacich<br>" +
+                    "a v srdciach svojich veriacich <br>" +
                     "obnovuj aj teraz veľké skutky svojej lásky, <br>" +
                     "ktoré si konal pri prvom hlásaní evanjelia.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Prosíme ťa, nebeský Otče, <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby nám Duch Svätý pomáhal<br>" +
-                    "stále lepšie chápať tajomstvo tejto obety <font color='#B71C1C'>—</font><br>" +
-                    "a priviedol nás k plnému poznaniu pravdy<br>" +
-                    "podľa prisľúbenia Ježiša Krista,<br>" +
-                    "ktorý s tebou žije a kraľuje na veky vekov.", "Dobrotivý Otče,<br>" +
-                    "ty štedro dávaš svojej Cirkvi nebeské dary; <font color='#B71C1C'>*</font><br>" +
-                    "ochraňuj v nás svoju milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby dar Ducha Svätého ustavične pôsobil<br>" +
-                    "v našich srdciach<br>" +
-                    "a sviatostný pokrm zveľaďoval<br>" +
-                    "v nás dielo večnej spásy.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"0gkp", "", "Všemohúci Bože,<br>" +
-                    "ty si svojho Syna a jeho panenskú matku<br>" +
-                    "zveril vernej ochrane svätého Jozefa; <font color='#B71C1C'>*</font><br>" +
-                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby tvoja Cirkev, pod ochranou Pánovho pestúna,<br>" +
-                    "ustavične pracovala na spáse všetkých ľudí.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože Otče,<br>" +
-                    "svätý Jozef oddane a s láskou slúžil tvojmu Synovi,<br>" +
-                    "narodenému z Panny Márie; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme aj my verne a s čistým srdcom<br>" +
-                    "vykonávali službu pri tvojom oltári.<br>" +
-                    "Skrze Krista, nášho Pána.", "Láskavý Otče,<br>" +
-                    "na slávnosť svätého Jozefa<br>" +
-                    "zhromaždil si nás okolo svojho oltára<br>" +
-                    "a nasýtil si nás sviatostným pokrmom; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "ustavične nás opatruj s otcovskou láskou<br>" +
-                    "a zveľaďuj v nás svoje dary.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"1gkp", "", "Bože Otče,<br>" +
-                    "ty si chcel, aby tvoj večný Syn<br>" +
-                    "prijal ľudskú prirodzenosť v lone Panny Márie; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby všetci, ktorí ho vyznávajú<br>" +
-                    "ako pravého Boha a pravého človeka,<br>" +
-                    "mali účasť na jeho božskej prirodzenosti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože,<br>" +
-                    "láskavo prijmi dary svojej Cirkvi, <font color='#B71C1C'>*</font><br>" +
-                    "ktorá vo vtelení tvojho jednorodeného Syna<br>" +
-                    "vidí svoj počiatok; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme s radosťou slávili<br>" +
-                    "toto hlboké tajomstvo Ježiša Krista,<br>" +
-                    "ktorý žije a kraľuje na veky vekov.", "Prosíme ťa, dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech účasť na eucharistickej slávnosti<br>" +
-                    "posilňuje v nás vieru v Ježiša Krista,<br>" +
-                    "ktorý sa počal z Panny Márie, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vždy vyznávali,<br>" +
-                    "že on je pravý Boh a pravý človek,<br>" +
-                    "a mocou jeho zmŕtvychvstania dosiahli večnú radosť.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"2mp", "", "Bože, milosrdný Otče,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby nám Duch Svätý, <br>" +
+                            "podľa prisľúbenia tvojho Syna, <br>" +
+                            "pomáhal stále lepšie chápať tajomstvo tejto obety <font color='#B71C1C'>—</font><br>" +
+                            "a priviedol nás k plnému poznaniu pravdy.<br>" +
+                            "Skrze Krista, nášho Pána. ",
+                    "Bože, ty štedro dávaš <br>" +
+                            "svojej Cirkvi nebeské dary; <font color='#B71C1C'>*</font><br>" +
+                            "zachovaj milosť, ktorú si nám daroval, <br>" +
+                            "aby dar Ducha Svätého <br>" +
+                            "ustavične pôsobil v našich srdciach <font color='#B71C1C'>—</font><br>" +
+                            "a sviatostný pokrm zveľaďoval <br>" +
+                            "v nás dielo večnej spásy.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"0gkp", "", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby tajomstvo ľudskej spásy, <br>" +
+                    "ktorej počiatok si zveril do dôvernej <br>" +
+                    "starostlivosti svätého Jozefa, <font color='#B71C1C'>—</font><br>" +
+                    "na jeho príhovor tvoja Cirkev <br>" +
+                    "neustále udržiavala a viedla k naplneniu. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, svätý Jozef oddane a s láskou <br>" +
+                            "slúžil tvojmu jednorodenému Synovi <br>" +
+                            "narodenému z Panny Márie; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme ti aj my mohli s čistým srdcom <br>" +
+                            "slúžiť pri tvojom oltári.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, Pane, ustavične ochraňuj svoju rodinu, <font color='#B71C1C'>*</font><br>" +
+                            "ktorá sa teší z toho, že si ju na slávnosť svätého Jozefa <br>" +
+                            "nasýtil pokrmom zo svojho oltára, <font color='#B71C1C'>—</font><br>" +
+                            "a zachovaj ju v tvojej milosti. <br>" +
+                            "Skrze Krista, nášho Pána."},
+
+            {"1gkp", "", "Bože, ty si chcel, aby tvoje Slovo <br>" +
+                    "prijalo ľudskú prirodzenosť v lone Panny Márie; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby si všetci, čo vyznávajú, <br>" +
+                    "že náš Vykupiteľ je Boh a človek, <font color='#B71C1C'>—</font><br>" +
+                    "zaslúžili účasť na jeho božskej prirodzenosti. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Všemohúci Bože, <br>" +
+                            "láskavo prijmi dary svojej Cirkvi, <font color='#B71C1C'>*</font><br>" +
+                            "ktorá vo vtelení tvojho jednorodeného Syna <br>" +
+                            "spoznáva svoj počiatok, <font color='#B71C1C'>—</font><br>" +
+                            "a daj, nech v deň tejto slávnosti <br>" +
+                            "s radosťou slávime tajomstvá spásy.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, Pane, upevni v nás tajomstvo pravej viery, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme vyznávali, že ten, ktorý sa počal z Panny, <br>" +
+                            "je pravý Boh a pravý človek, <font color='#B71C1C'>—</font><br>" +
+                            "a mocou jeho spásonosného zmŕtvychvstania <br>" +
+                            "si zaslúžili dôjsť do večnej radosti. <br>" +
+                            "Skrze Krista, nášho Pána."},
+
+            {"2mp", "", "Bože, Otec milosrdenstva,<br>" +
                     "tvoj jednorodený Syn, pribitý na kríži,<br>" +
                     "dal nám všetkým za matku<br>" +
-                    "pre blahoslavenú Pannu Máriu; <font color='#B71C1C'>*</font><br>" +
-                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby tvoja Cirkev s jej láskavou pomocou<br>" +
-                    "zo dňa na deň rástla,<br>" +
+                    "preblahoslavenú Pannu Máriu; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby tvoja Cirkev<br>" +
+                    "s jej láskavou pomocou zo dňa na deň rástla, <font color='#B71C1C'>—</font><br>" +
                     "tešila sa zo svätosti svojich detí<br>" +
-                    "a pritiahla do svojho náručia<br>" +
-                    "všetky národy sveta.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Večný Bože,<br>" +
-                    "prijmi naše obetné dary<br>" +
-                    "a premeň ich na sviatosť našej spásy; <font color='#B71C1C'>*</font><br>" +
-                    "nech nás povzbudzuje sila tohto tajomstva<br>" +
-                    "i láska Panny Márie, Matky Cirkvi, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa spolu s ňou<br>" +
-                    "plnšie zapojili do diela vykúpenia.<br>" +
-                    "Skrze Krista, nášho Pána.", "Všemohúci Bože,<br>" +
-                    "prijali sme záloh vykúpenia<br>" +
-                    "a večného života; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby tvoja Cirkev<br>" +
-                    "s materskou pomocou Panny Márie<br>" +
-                    "ohlasovala evanjelium všetkým národom<br>" +
-                    "a naplnila svet prejavmi Ducha Svätého.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"3gp", "", "Bože, ty si na svoju slávu<br>" +
+                    "a pritiahla do svojho náručia všetky národy sveta.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prijmi naše obetné dary<br>" +
+                            "a premeň ich na sviatosť našej spásy; <font color='#B71C1C'>*</font><br>" +
+                            "nech nás povzbudzuje sila tohto tajomstva<br>" +
+                            "i láska Panny Márie, Matky Cirkvi, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme sa spolu s ňou<br>" +
+                            "plnšie zapojili do diela vykúpenia.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, prijali sme<br>" +
+                            "záloh vykúpenia a večného života; <font color='#B71C1C'>*</font><br>" +
+                            "vrúcne ťa prosíme, daj, aby tvoja Cirkev<br>" +
+                            "s materskou pomocou Panny Márie<br>" +
+                            "ohlasovala evanjelium všetkým národom <font color='#B71C1C'>—</font><br>" +
+                            "a naplnila svet prejavmi Ducha Svätého.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"3gp", "", "Bože, ty si na svoju slávu <br>" +
                     "a na spásu ľudského pokolenia <br>" +
                     "ustanovil svojho jednorodeného Syna <br>" +
-                    "za najvyššieho a večného kňaza, <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby tí, ktorých si vyvolil<br>" +
+                    "za najvyššieho a večného kňaza; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby tí, ktorých si vyvolil <br>" +
                     "za vysluhovateľov a správcov tvojich tajomstiev, <font color='#B71C1C'>—</font><br>" +
-                    "boli v sile Ducha Svätého <br>" +
-                    "verní vo vykonávaní prijatej služby.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Náš prostredník Ježiš Kristus <font color='#B71C1C'>*</font><br>" +
-                    "nech urobí tieto dary príjemnými tebe, Pane, <font color='#B71C1C'>—</font> <br>" +
-                    "a nech nás zároveň<br>" +
-                    "so sebou prinesie ako tebe milú obetu. <br>" +
-                    "Lebo on žije a kraľuje na veky vekov.", "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás oživuje božská obeta, <br>" +
-                    "ktorú sme priniesli a prijali, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme boli večnou láskou spojení s tebou<br>" +
-                    "a prinášali ovocie trvajúce naveky.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"7gkp", "", "Bože, láskavý Otče,<br>" +
-                    "ty si poslal na svet svojho Syna, večné Slovo pravdy,<br>" +
-                    "a Ducha Svätého, Posvätiteľa, <font color='#B71C1C'>*</font><br>" +
-                    "a tak si zjavil ľuďom<br>" +
-                    "nevyspytateľné tajomstvo božského života; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme v duchu pravej viery<br>" +
-                    "vyznávali slávu večnej Trojice<br>" +
+                    "boli v sile Ducha Svätého verní vo vykonávaní prijatej služby.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Náš prostredník Ježiš Kristus <font color='#B71C1C'>*</font><br>" +
+                            "nech urobí tieto dary príjemnými tebe, Pane, <font color='#B71C1C'>—</font><br>" +
+                            "a nech nás zároveň so sebou prinesie <br>" +
+                            "ako tebe milú obetu.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "nech nás oživuje božská obeta, <br>" +
+                            "ktorú sme priniesli a prijali, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme boli večnou láskou spojení s tebou <font color='#B71C1C'>—</font><br>" +
+                            "a prinášali ovocie trvajúce naveky.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"7gkp", "", "Bože, láskavý Otče, <br>" +
+                    "ty si poslal na svet Slovo pravdy a Ducha Posvätiteľa, <br>" +
+                    "a tak si zjavil ľuďom svoje obdivuhodné tajomstvo; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme v duchu pravej viery <br>" +
+                    "vyznávali slávu večnej Trojice <font color='#B71C1C'>—</font><br>" +
                     "a klaňali sa jedinému všemohúcemu Bohu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "vzývame tvoje meno a vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "posväť tieto dary<br>" +
-                    "a ich pôsobením premeň aj nás<br>" +
-                    "na ustavičnú obetu pre teba.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "sviatosť, ktorú sme prijali,<br>" +
-                    "a viera v jediného Boha<br>" +
-                    "vo svätej a nerozdielnej Trojici osôb <font color='#B71C1C'>—</font><br>" +
-                    "nech nám slúžia na spásu tela i duše.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"4gkp", "", "Pane Ježišu,<br>" +
-                    "vo vznešenej Oltárnej sviatosti<br>" +
-                    "zanechal si nám pamiatku<br>" +
-                    "svojho umučenia a zmŕtvychvstania; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pomáhaj nám<br>" +
-                    "uctievať tajomstvo tvojho tela a krvi<br>" +
-                    "s takou vierou a láskou, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vždy pociťovali<br>" +
-                    "účinky tvojho vykupiteľského diela.<br>" +
-                    "Lebo ty žiješ a kraľuješ s Bohom Otcom<br>" +
-                    "v jednote s Duchom Svätým<br>" +
-                    "po všetky veky vekov.", "Prosíme ťa, Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "udeľ svojej Cirkvi jednotu a pokoj, <font color='#B71C1C'>—</font><br>" +
-                    "ktoré sú tajomne naznačené<br>" +
-                    "týmito darmi chleba a vína.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dopraj nám, Pane Ježišu, <font color='#B71C1C'>*</font><br>" +
-                    "aby sme vo večnosti dosiahli plnú radosť<br>" +
-                    "z tvojho božského života, <font color='#B71C1C'>—</font><br>" +
-                    "ktorú nám už teraz dávaš okúsiť<br>" +
-                    "v prijímaní tvojho predrahého tela a krvi.<br>" +
-                    "Ty žiješ a kraľuješ na veky vekov."},
-            {"5gkp", "", "Všemohúci Bože,<br>" +
-                    "oslavujeme Srdce tvojho milovaného Syna<br>" +
-                    "a pripomíname si veľké dobrodenia<br>" +
-                    "jeho lásky k nám; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme z tohto prameňa milosti<br>" +
-                    "čerpali prehojné nebeské dary.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.<br>" +
-                    "<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane a Bože náš, vzývame tvoje meno <font color='#B71C1C'>*</font><br>" +
+                            "a prosíme ťa, posväť tieto naše dary <font color='#B71C1C'>—</font><br>" +
+                            "a ich pôsobením premeň aj nás <br>" +
+                            "na ustavičnú obetu pre teba.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
+                            "sviatosť, ktorú sme prijali, <br>" +
+                            "a viera v jediného Boha vo svätej a večnej Trojici osôb <font color='#B71C1C'>—</font><br>" +
+                            "nech nám slúžia na spásu tela i duše.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"4gkp", "", "Pane Ježišu, vo vznešenej Oltárnej sviatosti <br>" +
+                    "zanechal si nám pamiatku svojho umučenia a zmŕtvychvstania; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, pomáhaj nám uctievať tajomstvo <br>" +
+                    "tvojho Tela a Krvi s takou vierou a láskou, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme vždy pociťovali účinky <br>" +
+                    "tvojho vykupiteľského diela.<br>" +
+                    "Lebo ty si Boh a žiješ a kraľuješ <br>" +
+                    "s Bohom Otcom v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "daruj svojej Cirkvi jednotu a pokoj, <font color='#B71C1C'>—</font><br>" +
+                            "ktoré sú tajomne naznačené týmito darmi chleba a vína.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Dopraj nám, Pane Ježišu, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme vo večnosti dosiahli <br>" +
+                            "plnú radosť z tvojho božského života, <font color='#B71C1C'>—</font><br>" +
+                            "ktorú nám už teraz dávaš okúsiť <br>" +
+                            "v prijímaní tvojho predrahého Tela a Krvi.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
+            {"5gkp", "", "Všemohúci Bože, <br>" +
+                    "oslavujeme Srdce tvojho milovaného Syna <br>" +
+                    "a pripomíname si veľké dobrodenia jeho lásky k nám; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme z tohto prameňa nebeských darov <br>" +
+                    "mohli čerpať prehojné milosti.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "Milosrdný Bože,<br>" +
-                    "ty nám otváraš nekonečné poklady lásky<br>" +
-                    "v Srdci svojho Syna,<br>" +
-                    "ktoré bolo ranené našimi hriechmi ; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme mu slúžili s oddanou láskou,<br>" +
-                    "a tak prinášali povinné zadosťučinenie za svoje viny.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Najláskavejší Otče, <font color='#B71C1C'>*</font><br>" +
-                    "hľaď na Srdce svojho milovaného Syna,<br>" +
-                    "prekypujúce nevýslovnou láskou, <font color='#B71C1C'>—</font><br>" +
-                    "a prijmi obetu, ktorú ti prinášame<br>" +
-                    "na zmierenie za naše hriechy.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milovaný Otče,<br>" +
-                    "prijali sme sviatosť, ktorá je darom tvojej lásky; <font color='#B71C1C'>*</font><br>" +
-                    "roznecuj v nás lásku k tvojmu Synovi, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ho vytrvalo nasledovali<br>" +
-                    "a vedeli ho spoznať aj v našich bratoch.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"4mp", "", "Svätý Bože,<br>" +
-                    "ty si pripravil v srdci<br>" +
-                    "preblahoslavenej Panny Márie<br>" +
+                    "Bože, ty nám milosrdne otváraš <br>" +
+                    "nekonečné poklady lásky v Srdci svojho Syna, <br>" +
+                    "ktoré bolo ranené našimi hriechmi; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby sme mu slúžili s oddanou láskou, <font color='#B71C1C'>—</font><br>" +
+                    "a tak prinášali dôstojné zadosťučinenie.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "zhliadni na Srdce svojho milovaného Syna, <br>" +
+                            "prekypujúce nevýslovnou láskou, <font color='#B71C1C'>—</font><br>" +
+                            "a prijmi obetu, ktorú ti prinášame <br>" +
+                            "na zmierenie za naše hriechy.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, sviatosť lásky nech v nás <br>" +
+                            "prehlbuje úctu k tvojmu Synovi, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme ho vytrvalo nasledovali <font color='#B71C1C'>—</font><br>" +
+                            "a vedeli ho spoznať aj v našich bratoch.<br>" +
+                            "Lebo on žije a kreľuje na veky vekov."},
+            {"4mp", "", "Bože, ty si pripravil v srdci <br>" +
+                    "preblahoslavenej Panny Márie <br>" +
                     "dôstojný príbytok Duchu Svätému; <font color='#B71C1C'>*</font><br>" +
-                    "na orodovanie nepoškvrnenej Panny<br>" +
-                    "naplň aj naše srdcia svojou milosťou, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme boli tvojím svätým chrámom.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi modlitby a obetné dary,<br>" +
-                    "ktoré ti predkladáme pri spomienke<br>" +
-                    "na Božiu Rodičku Máriu, <font color='#B71C1C'>—</font><br>" +
-                    "a pre túto svätú obetu<br>" +
-                    "zahrň nás svojím milosrdenstvom.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože,<br>" +
-                    "s pokornou vierou sme prijali sviatosť večnej spásy;<font color='#B71C1C'>*</font><br>" +
-                    "pomôž nám, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa príkladu Panny Márie<br>" +
-                    "ochotne prijímali milosti, ktoré nám dávaš,<br>" +
-                    "a stále sa zdokonaľovali v kresťanskom živote.<br>" +
-                    "Skrze Krista, nášho Pána."},
+                    "na orodovanie nepoškvrnenej Panny láskavo dopraj, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme sa stali dôstojným chrámom tvojej milosti. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, zhliadni na modlitby <br>" +
+                            "a dary svojich veriacich, <br>" +
+                            "ktoré ti prinášame pri spomienke <br>" +
+                            "na preblahoslavenú Bohorodičku Máriu; <font color='#B71C1C'>*</font><br>" +
+                            "daj, nech ti je milá naša obeta <font color='#B71C1C'>—</font><br>" +
+                            "a nám nech prinesie tvoju pomoc a milosrdenstvo. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, pri spomienke na Matku tvojho Syna <br>" +
+                            "sme prijali sviatosť večnej spásy; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, aby sme pociťovali jej spásne účinky <font color='#B71C1C'>—</font><br>" +
+                            "a tešili sa z plnosti tvojej milosti. <br>" +
+                            "Skrze Krista, nášho Pána."},
             {"8gkp", "", "Všemohúci a večný Bože,<br>" +
-                    "ty si rozhodol všetko obnoviť a zjednotiť<br>" +
-                    "vo svojom milovanom Synovi,<br>" +
-                    "Kráľovi neba i zeme; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sa všetko tvorstvo,<br>" +
-                    "vyslobodené z otroctva hriechu,<br>" +
-                    "podrobilo tvojej božskej moci<br>" +
-                    "a bez prestania ťa oslavovalo. <br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože,<br>" +
-                    "slávime obetu, ktorá zmierila ľudstvo s tebou, <font color='#B71C1C'>*</font>" +
-                    "a pokorne prosíme, <font color='#B71C1C'>—</font>" +
-                    "aby tvoj Syn udelil všetkým národom<br>" +
-                    "dar jednoty a pokoja.<br>" +
-                    "Lebo on žije a kraľuje na veky vekov.", "Nebeský Otče,<br>" +
-                    "s radosťou sme prijali chlieb večného života<br>" +
-                    "a sme šťastní, že môžeme poslúchať Ježiša Krista,<br>" +
-                    "Kráľa neba i zeme; <font color='#B71C1C'>*</font>" +
-                    "dožič nám, prosíme, <font color='#B71C1C'>—</font>" +
-                    "aby sme s ním naveky žili v nebeskom kráľovstve.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána."},
+                    "ty si rozhodol všetko obnoviť <br>" +
+                    "vo svojom milovanom Synovi, Kráľovi neba i zeme; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, <br>" +
+                    "aby sa všetko tvorstvo, vyslobodené <br>" +
+                    "z otroctva hriechu, podrobilo tvojej božskej moci <font color='#B71C1C'>—</font><br>" +
+                    "a bez prestania ťa oslavovalo.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, slávime obetu, <br>" +
+                            "ktorá zmierila ľudstvo s tebou, <font color='#B71C1C'>*</font><br>" +
+                            "a pokorne prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby tvoj Syn udelil všetkým národom <br>" +
+                            "dar jednoty a pokoja.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Pane, prijali sme pokrm večného života <br>" +
+                            "a sme šťastní, že môžeme zachovávať príkazy <br>" +
+                            "Krista, Kráľa neba i zeme; <font color='#B71C1C'>*</font><br>" +
+                            "dopraj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme s ním mohli naveky žiť <br>" +
+                            "v nebeskom kráľovstve.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
             //8. decembra - NEPOŠKVRNENÉ POČATIE PANNY MÁRIE
-            {"9gkp", "", "Svätý Bože,<br>" +
-                    "nepoškvrneným počatím Panny Márie<br>" +
-                    "pripravil si dôstojný príbytok svojmu Synovi<br>" +
-                    "a pre budúce zásluhy jeho smrti<br>" +
+            {"9gkp", "", "Bože, nepoškvrneným počatím Panny Márie <br>" +
+                    "pripravil si dôstojný príbytok svojmu Synovi <br>" +
+                    "a pre budúce zásluhy jeho smrti <br>" +
                     "uchránil si ju od každého hriechu; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme na jej orodovanie<br>" +
+                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme na jej orodovanie <br>" +
                     "aj my prišli k tebe s čistým srdcom.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože, láskavo prijmi naše obetné dary<br>" +
-                    "v deň slávnosti<br>" +
-                    "Nepoškvrneného počatia Panny Márie,<br>" +
-                    "ktorú si svojou milosťou<br>" +
-                    "uchránil od každého hriechu; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "osloboď nás na jej orodovanie<br>" +
-                    "od všetkých previnení<br>" +
-                    "a zachovaj nás vo svojej milosti.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane a Bože náš,<br>" +
-                    "nech sviatosť, ktorú sme prijali,<br>" +
-                    "zahojí v nás rany po prvotnom hriechu, <font color='#B71C1C'>*</font><br>" +
-                    "pred ktorým si výnimočným spôsobom<br>" +
-                    "uchránil Pannu Máriu, <font color='#B71C1C'>—</font><br>" +
-                    "keď bola bez poškvrny počatá.<br>" +
-                    "Skrze Krista, nášho Pána."},
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "láskavo prijmi naše obetné dary <br>" +
+                            "v deň slávnosti Nepoškvrneného počatia <br>" +
+                            "preblahoslavenej Panny Márie, <font color='#B71C1C'>*</font><br>" +
+                            "ktorú si svojou milosťou <br>" +
+                            "uchránil od každého hriechu, <font color='#B71C1C'>—</font><br>" +
+                            "a na jej orodovanie nás osloboď <br>" +
+                            "od všetkých previnení.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane a Bože náš, <br>" +
+                            "nech sviatosť, ktorú sme prijali, <br>" +
+                            "zahojí v nás rany po prvotnom hriechu, <font color='#B71C1C'>*</font><br>" +
+                            "pred ktorým si výnimočným spôsobom <br>" +
+                            "uchránil preblahoslavenú Pannu Máriu, <font color='#B71C1C'>—</font><br>" +
+                            "keď bola bez poškvrny počatá. <br>" +
+                            "Skrze Krista, nášho Pána."},
             //  SVÄTEJ RODINY JEŽIŠA, MÁRIE A JOZEFA
-            {"10gkp", "", "Nebeský Otče,<br>" +
-                    "ty si nám dal Svätú rodinu ako žiarivý vzor; <font color='#B71C1C'>*</font><br>" +
-                    "láskavo dopraj,<br>" +
-                    "aby sme ju nasledovali vo vzájomnej láske<br>" +
-                    "a v rodinných čnostiach, <font color='#B71C1C'>—</font><br>" +
-                    "a tak dosiahli večnú blaženosť<br>" +
-                    "v tvojom nebeskom domove.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože a Otče náš, prinášame ti zmiernu obetu <font color='#B71C1C'>*</font><br>" +
-                    "a vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby si na orodovanie Panny Márie a svätého Jozefa<br>" +
-                    "upevňoval naše rodiny v tvojej milosti<br>" +
-                    "a v tvojom pokoji.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Otče,<br>" +
-                    "ty nás posilňuješ pri sviatostnom stole; <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj nám vytrvalo nasledovať<br>" +
-                    "príklad Svätej rodiny, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme po útrapách tohto života<br>" +
-                    "dosiahli večnú blaženosť<br>" +
-                    "v jej spoločenstve.<br>" +
-                    "Skrze Krista, nášho Pána."},
+            {"10gkp", "", "Bože, ty si nám dal Svätú rodinu ako žiarivý vzor; <font color='#B71C1C'>*</font><br>" +
+                    "láskavo dopraj, aby sme ju nasledovali <br>" +
+                    "vo vzájomnej láske a v rodinných čnostiach, <font color='#B71C1C'>—</font><br>" +
+                    "a tak dosiahli večnú odmenu <br>" +
+                    "v tvojom nebeskom domove. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prinášame ti zmiernu obetu <font color='#B71C1C'>*</font><br>" +
+                            "a vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby si na orodovanie Bohorodičky Panny Márie <br>" +
+                            "a svätého Jozefa upevňoval naše rodiny <br>" +
+                            "v tvojej milosti a v tvojom pokoji. <br>" +
+                            "Skrze Krista, nášho Pána. ",
+                    "Dobrotivý Otče, <br>" +
+                            "ty nás posilňuješ nebeskými sviatosťami; <font color='#B71C1C'>*</font><br>" +
+                            "pomáhaj nám vytrvalo nasledovať <br>" +
+                            "príklad Svätej rodiny, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme po útrapách tohto života <br>" +
+                            "dosiahli večnú blaženosť v jej spoločenstve.<br>" +
+                            "Skrze Krista, nášho Pána"},
             //Nedeľa po 6. januári - KRST KRISTA PÁNA
-            {"11gkp", "", "Všemohúci a večný Bože,<br>" +
-                    "keď bol Ježiš Kristus pokrstený v Jordáne<br>" +
-                    "a vznášal sa nad ním Duch Svätý,<br>" +
-                    "slávnostne si vyhlásil,<br>" +
-                    "že je tvojím milovaným Synom; <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj nám, svojim deťom,<br>" +
+            {"11gkp", "", "Všemohúci a večný Bože, <br>" +
+                    "keď bol Ježiš Kristus pokrstený v Jordáne <br>" +
+                    "a vznášal sa nad ním Duch Svätý, <br>" +
+                    "slávnostne si vyhlásil, že je tvojím milovaným Synom; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj nám, svojim deťom, <br>" +
                     "zrodeným z vody a Ducha Svätého, <font color='#B71C1C'>—</font><br>" +
-                    "stále žiť podľa tvojej svätej vôle.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.<br>" +
+                    "stále zotrvávať v tvojej priazni. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "Láskavý Otče,<br>" +
-                    "tvoj jednorodený Syn<br>" +
-                    "prišiel medzi nás ako pravý človek<br>" +
+                    "Bože, tvoj jednorodený Syn <br>" +
+                    "sa zjavil v našej ľudskej prirodzenosti <br>" +
                     "a bol nám navonok podobný; <font color='#B71C1C'>*</font><br>" +
                     "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa s pomocou jeho milosti<br>" +
-                    "vnútorne stali podobnými jemu.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože,<br>" +
-                    "na sviatok krstu tvojho milovaného Syna<br>" +
-                    "prijmi naše obetné dary <font color='#B71C1C'>*</font><br>" +
-                    "a daj, aby sa premenili<br>" +
-                    "na telo a krv Ježiša Krista, <font color='#B71C1C'>—</font><br>" +
-                    "ktorý láskavo zmyl hriechy sveta<br>" +
-                    "a s tebou žije a kraľuje na veky vekov.", "Dobrotivý Bože,<br>" +
-                    "posilnil si nás svojím slovom a chlebom života; <font color='#B71C1C'>*</font><br>" +
-                    "pomôž nám verne počúvať<br>" +
-                    "tvojho milovaného Syna, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme boli tvojimi deťmi<br>" +
-                    "nielen podľa mena, ale aj životom.<br>" +
-                    "Skrze Krista, nášho Pána."},
+                    "aby sme sa s pomocou jeho milosti <br>" +
+                    "vnútorne stali podobnými jemu. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Bože, pri oslave zjavenia <br>" +
+                            "tvojho milovaného Syna prijmi naše obetné dary <font color='#B71C1C'>*</font><br>" +
+                            "a daj, aby sa premenili na Telo a Krv Ježiša Krista, <font color='#B71C1C'>—</font><br>" +
+                            "ktorý láskavo zmyl hriechy sveta. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov. ",
+                    "Pane, nasýtení svätými darmi ťa pokorne prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "pomôž nám verne počúvať tvojho jednorodeného Syna, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme boli tvojimi deťmi nielen podľa mena, ale aj životom. <br>" +
+                            "Skrze Krista, nášho Pána."},
     };
 
     String[][] modlitba1 = {
-            {"01gk", "Večný Otče,<br>" +
-                    "narodením tvojho Syna z Panny Márie<br>" +
+            {"01gk", "Bože, narodením tvojho Syna <br>" +
+                    "z preblahoslavenej Panny Márie <br>" +
                     "poskytol si ľuďom večnú spásu; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme vždy pociťovali účinky jej orodovania,<br>" +
-                    "veď skrze ňu sme dostali Pôvodcu života,<br>" +
-                    "Ježiša Krista,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože,<br>" +
-                    "ty láskavo začínaš a dovršuješ každé dobré dielo; <font color='#B71C1C'>*</font><br>" +
-                    "na tento radostný sviatok Božej Matky<br>" +
-                    "oslavujeme začiatok našej spásy <font color='#B71C1C'>—</font><br>" +
-                    "a prosíme, aby sa v nás zavŕšila v plnej miere.<br>" +
-                    "Skrze Krista, nášho Pána.", "Láskavý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nadšene vyznávame, že blahoslavená Panna Mária<br>" +
-                    "je Rodičkou tvojho Syna a Matkou Cirkvi, <font color='#B71C1C'>—</font><br>" +
-                    "a prosíme, aby nám nebeský pokrm,<br>" +
-                    "ktorý sme s radosťou prijali,<br>" +
-                    "slúžil pre večný život.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"02a", "Láskavý Bože,<br>" +
-                    "ty si osvietil svoju Cirkev<br>" +
-                    "príkladom a náukou svätého Bazila a Gregora; <font color='#B71C1C'>*</font><br>" +
-                    "dopraj, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme s pokorným srdcom prijali tvoju pravdu<br>" +
-                    "a dôsledne ju dosvedčovali skutkami lásky.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"06gk", "Všemohúci Bože,<br>" +
-                    "ty si dnešného dňa svetlom hviezdy<br>" +
-                    "zjavil svojho Syna národom; <font color='#B71C1C'>*</font><br>" +
-                    "aj my sme ťa už poznali svetlom viery a prosíme,<br>" +
-                    "priveď nás láskavo k sebe, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vo večnej blaženosti<br>" +
-                    "mohli hľadieť na tvoju velebu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Láskavý Otče,<br>" +
-                    "zhliadni na dary svojej Cirkvi, <font color='#B71C1C'>*</font><br>" +
-                    "ktorá ti neprináša zlato, kadidlo a myrhu,<br>" +
-                    "ale Ježiša Krista, <font color='#B71C1C'>—</font><br>" +
-                    "ktorý sa v týchto daroch<br>" +
-                    "sprítomňuje, obetuje a nám dáva.<br>" +
-                    "On s tebou žije a kraľuje na veky vekov.", "Prosíme ťa, Bože,<br>" +
-                    "sprevádzaj nás vždy a všade nebeským svetlom, <font color='#B71C1C'>*</font><br>" +
-                    "aby sme stále lepšie poznávali sviatosť,<br>" +
-                    "na ktorej si nám doprial účasť, <font color='#B71C1C'>—</font><br>" +
-                    "a prijímali ju so vzrastajúcou láskou.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"07", "Milosrdný Bože,<br>" +
-                    "ty si udelil svätému kňazovi Rajmundovi<br>" +
-                    "nevšednú lásku voči hriešnikom; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "na jeho orodovanie zbav nás jarma hriechu,<br>" +
-                    "aby sme so slobodným srdcom<br>" +
-                    "ochotne plnili tvoju vôľu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"13", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj nám správne chápať a verne vyznávať<br>" +
+                    "daj, prosíme, aby sme vždy pociťovali <br>" +
+                    "účinky jej orodovania, <font color='#B71C1C'>—</font><br>" +
+                    "veď skrze ňu sme dostali Pôvodcu života, <br>" +
+                    "Ježiša Krista, tvojho Syna a nášho Pána.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Bože, ty láskavo začínaš <br>" +
+                            "a dovršuješ každé dobré dielo; <font color='#B71C1C'>*</font><br>" +
+                            "na tento radostný sviatok Božej Matky <br>" +
+                            "oslavujeme začiatok našej spásy a prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby sa v nás zavŕšila v plnej miere. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nadšene vyznávame, <br>" +
+                            "že preblahoslavená Panna Mária <br>" +
+                            "je Rodičkou tvojho Syna a Matkou Cirkvi, <font color='#B71C1C'>*</font><br>" +
+                            "a prosíme, aby nám nebeská sviatosť, <br>" +
+                            "ktorú sme s radosťou prijali, <font color='#B71C1C'>—</font><br>" +
+                            "slúžila pre večný život. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"02a", "Bože, ty si osvietil svoju Cirkev príkladom <br>" +
+                    "a náukou svätých biskupov Bazila a Gregora; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj, prosíme, aby sme v pokore prijali tvoju pravdu <font color='#B71C1C'>—</font><br>" +
+                    "a verne o nej svedčili skutkami lásky.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, prijmi túto obetu svojho ľudu, <font color='#B71C1C'>*</font><br>" +
+                            "ktorú ti pri spomienke na svätých <br>" +
+                            "Bazila a Gregora obetujeme na slávu, <font color='#B71C1C'>—</font><br>" +
+                            "aby nám slúžila na večnú spásu.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Všemohúci Bože, <br>" +
+                            "nech v nás všetkých, ktorí slávime <br>" +
+                            "sviatok svätých Bazila a Gregora, <br>" +
+                            "eucharistický pokrm upevní a rozhojní silu z neba, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme si zachovali neporušený dar viery <font color='#B71C1C'>—</font><br>" +
+                            "a kráčali po bezpečnej ceste spásy.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"03a", "Bože, vo vtelení svojho Slova <br>" +
+                    "si dal ľudskému pokoleniu základ spásy; <font color='#B71C1C'>*</font><br>" +
+                    "udeľ svojmu ľudu milosti, o ktoré ťa prosí, <font color='#B71C1C'>—</font><br>" +
+                    "aby všetci spoznali, že niet iného mena, <br>" +
+                    "ktoré sa má vzývať, iba meno tvojho jednorodeného Syna.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Pane, prinášame ti dary, <br>" +
+                            "ktoré si nám udelil vo svojej štedrosti; <font color='#B71C1C'>*</font><br>" +
+                            "ty si dal Kristovi poslušnému <br>" +
+                            "až na smrť spásonosné meno: <font color='#B71C1C'>—</font><br>" +
+                            "prosíme ťa, ochraňuj aj nás silou tohto mena.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, prijali sme obetu, ktorú sme priniesli <br>" +
+                            "tvojej velebnosti na počesť Kristovho mena; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, daj, nech nám hojne vleje tvoju milosť, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme sa radovali, že aj naše mená sú zapísané v nebi.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"05gk", "Prosíme ťa, Pane, <br>" +
+                    "osvieť naše srdcia svetlom svojej slávy, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme mohli prekonať temnoty tohto sveta <font color='#B71C1C'>—</font><br>" +
+                    "a dosiahnuť žiaru večnej vlasti.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "prijmi naše dary, ktoré ti obetujeme pri oslave <br>" +
+                            "zjavenia tvojho jednorodeného Syna všetkým národom, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme ti nimi vzdali chválu, <font color='#B71C1C'>—</font><br>" +
+                            "a tak získali večnú spásu.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, posilnení posvätným pokrmom <br>" +
+                            "ťa láskavo prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "aby hviezda tvojej spravodlivosti <br>" +
+                            "vždy žiarila v našich srdciach <font color='#B71C1C'>—</font><br>" +
+                            "a vo vyznávaní tvojho mena <br>" +
+                            "sme našli svoj pravý poklad.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"06gk", "Bože, ty si dnešného dňa <br>" +
+                    "svetlom hviezdy zjavil svojho Syna národom; <font color='#B71C1C'>*</font><br>" +
+                    "aj my sme ťa už spoznali svetlom viery a prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "priveď nás láskavo k sebe, <br>" +
+                    "aby sme mohli hľadieť na tvoju velebu. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, zhliadni na dary svojej Cirkvi, <font color='#B71C1C'>*</font><br>" +
+                            "ktorá ti neprináša zlato, kadidlo a myrhu, <font color='#B71C1C'>—</font><br>" +
+                            "ale Ježiša Krista, ktorý sa v týchto daroch <br>" +
+                            "sprítomňuje, obetuje a nám dáva. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "sprevádzaj nás vždy a všade nebeským svetlom, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme stále lepšie poznávali tajomstvo, <br>" +
+                            "na ktorom si nám doprial účasť, <font color='#B71C1C'>—</font><br>" +
+                            "a prijímali ho so vzrastajúcou láskou. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"07", "Bože, ty si ozdobil svätého kňaza Rajmunda <br>" +
+                    "nevšednou láskou voči hriešnikom a zajatým; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, na jeho orodovanie <br>" +
+                    "nás zbav jarma hriechu, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme až do konca ochotne nasledovali to, <br>" +
+                    "čo je tebe milé.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"13", "Všemohúci Bože, <br>" +
+                    "prosíme ťa, pomáhaj nám, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme správne chápali a verne vyznávali <br>" +
                     "božstvo tvojho Syna, <font color='#B71C1C'>—</font><br>" +
-                    "ktoré tak neochvejne obhajoval svätý biskup Hilár.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"17", "Bože a Otče náš,<br>" +
-                    "ty si vnukol svätému opátovi Antonovi,<br>" +
-                    "aby ti slúžil obdivuhodným životom na púšti; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, na jeho orodovanie dopraj aj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme premáhali svoje sebectvo<br>" +
-                    "a nadovšetko milovali teba.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Svätý Bože, nech sú ti príjemné naše dary,<br>" +
-                    "ktoré pri spomienke na svätého Antona<br>" +
-                    "s oddanosťou kladieme na oltár; <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa nepripútali k pozemským veciam<br>" +
-                    "a svoje bohatstvo hľadali iba v tebe.<br>" +
-                    "Skrze Krista, nášho Pána.", "Všemohúci Bože, ty si dal svätému Antonovi silu<br>" +
-                    "víťaziť nad mocnosťami temností; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, posilni nás spasiteľnou sviatosťou,<br>" +
-                    "ktorú sme prijali, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme aj my premáhali všetky nástrahy<br>" +
-                    "nepriateľa našej spásy. Skrze Krista, nášho Pána."},
-            {"20a", "Bože a Otče náš, ty si sláva Cirkvi<br>" +
-                    "a sila jej duchovných pastierov; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme na orodovanie svätého<br>" +
-                    "mučeníka Fabiána<br>" +
-                    "rástli vo viere, ktorú on hrdinsky vyznával,<br>" +
-                    "a podľa jeho príkladu oddane ti slúžili až do smrti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"20b", "Prosíme ťa, nekonečný Bože, <font color='#B71C1C'>*</font><br>" +
+                    "ktoré neochvejne obhajoval svätý biskup Hilár.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"17", "Bože, ty si vnukol svätému opátovi Antonovi, <br>" +
+                    "aby ti na púšti slúžil v nevšednom spoločenstve s tebou; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, na jeho príhovor nám dopraj, <br>" +
+                    "aby sme sa zriekali samých seba <font color='#B71C1C'>—</font><br>" +
+                    "a bez prestania ťa nadovšetko milovali. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "nech sú ti milé dary, ktoré pri spomienke <br>" +
+                            "na svätého Antona s oddanosťou kladieme na tvoj oltár; <font color='#B71C1C'>*</font><br>" +
+                            "pomáhaj nám, aby sme sa odpútali od pozemských vecí <font color='#B71C1C'>—</font><br>" +
+                            "a nachádzali bohatstvo len v tebe. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, ty si dal svätému Antonovi <br>" +
+                            "silu víťaziť nad mocnosťami temností; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme aj my, posilnení spasiteľnou sviatosťou, <br>" +
+                            "vždy premáhali všetky nástrahy nepriateľa. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"20a", "Bože, ty si sláva kňazov; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme podľa príkladu tvojho mučeníka, <br>" +
+                    "svätého Fabiána, a na jeho príhovor <br>" +
+                    "rástli vo viere a oddane ti slúžili. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"20b", "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
                     "udeľ nám ducha sily, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa príkladu slávneho<br>" +
-                    "mučeníka Šebastiána<br>" +
-                    "poslúchali viac teba ako ľudí.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"20g+", "Prosíme ťa, nekonečný Bože, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme sa z mimoriadneho príkladu <br>" +
+                    "tvojho mučeníka, svätého Šebastiána, <br>" +
+                    "naučili poslúchať viac teba ako ľudí. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"20g+", "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
                     "udeľ nám ducha sily, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa príkladu slávneho<br>" +
-                    "mučeníka Šebastiána<br>" +
-                    "poslúchali viac teba ako ľudí.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"21", "Všemohúci a večný Bože,<br>" +
-                    "ty si volíš, čo svet pokladá za slabé,<br>" +
-                    "aby si zahanbil, čo je v očiach sveta mocné; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, dopraj nám vytrvať vo viere, <font color='#B71C1C'>—</font><br>" +
-                    "ako nás k tomu povzbudzuje svätá Agnesa,<br>" +
-                    "ktorej mučenícku smrť dnes oslavujeme.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"22", "Všemohúci a večný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "láskavo na nás zošli svojho Ducha,<br>" +
-                    "aby v našich srdciach zavládla taká láska,<br>" +
-                    "s akou svätý mučeník Vincent<br>" +
-                    "pretrpel všetky telesné muky.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-           /* 23. januára
-            SV. JÁNA ALMUŽNÍKA
-            {"", "Všemohúci Bože, ty si svätého biskupa<br>" +
-                    "Jána Almužníka obdaril nevšednou láskou<br>" +
-                    "voči biednym a núdznym; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho príhovor nám pomôž, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa vymanili z otroctva lakomstva<br>" +
-                    "a ochotne konali skutky milosrdenstva.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, nech sú ti milé obetné dary,<br>" +
-                    "ktoré prinášame na oltár; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "nauč nás správne hodnotiť pozemské veci,<br>" +
-                    "aby nám neprekážali v úsilí<br>" +
-                    "o duchovné dobrá.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane a Bože náš,<br>" +
-                    "nech toto prijímanie roznieti v nás takú lásku, <font color='#B71C1C'>*</font><br>" +
-                    "akou horel svätý Ján Almužník, <font color='#B71C1C'>—</font><br>" +
-                    "keď všetok svoj majetok rozdal chudobným.<br>" +
-                    "Skrze Krista, nášho Pána."},*/
-
-            {"24", "Láskavý Bože,<br>" +
-                    "ty si povolal svätého biskupa Františka,<br>" +
-                    "aby sa v horlivosti za spásu duši<br>" +
-                    "stal všetkým pre všetkých; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pomáhaj nám<br>" +
-                    "podľa jeho príkladu slúžiť bratom <font color='#B71C1C'>—</font><br>" +
-                    "a sprítomňovať vo svete tvoju dobrotivú lásku.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože a Otče náš, <font color='#B71C1C'>*</font><br>" +
-                    "pre túto spásonosnú obetu<br>" +
-                    "zapáľ v nás oheň Ducha Svätého, <font color='#B71C1C'>—</font><br>" +
-                    "ktorým si urobil zo svätého Františka<br>" +
-                    "vzor prívetivej láskavosti.<br>" +
-                    "Skrze Krista, nášho Pána.", "Prosíme ťa, všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme posilnení touto sviatosťou<br>" +
-                    "napodobňovali lásku a miernosť<br>" +
-                    "svätého Františka v tomto živote <font color='#B71C1C'>—</font><br>" +
-                    "a v nebi dosiahli večnú slávu.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"25g", "Bože, spása všetkých národov,<br>" +
-                    "apoštola Pavla si vyvolil,<br>" +
-                    "aby ohlasoval radostné posolstvo pohanom ; <font color='#B71C1C'>*</font><br>" +
-                    "dnes, keď slávime sviatok jeho obrátenia,<br>" +
-                    "vrúcne ťa prosíme, posilňuj nás, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa jeho príkladu kráčali k tebe<br>" +
-                    "a pred svetom vydávali svedectvo o tvojej pravde.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože,<br>" +
-                    "nech nás Duch Svätý pri slávení tejto obety<br>" +
-                    "prenikne svetlom viery, <font color='#B71C1C'>*</font><br>" +
-                    "ktoré ustavične viedlo svätého Pavla apoštola, <font color='#B71C1C'>—</font><br>" +
-                    "aby ohlasoval tvoju slávu medzi národmi.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "sviatostný pokrm, ktorý sme prijali,<br>" +
-                    "nech v nás roznieti oheň lásky, <font color='#B71C1C'>—</font><br>" +
-                    "ktorým horel svätý apoštol Pavol,<br>" +
-                    "keď sa neúnavne staral<br>" +
-                    "o všetky cirkevné spoločenstvá.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"26", "Dobrotivý Bože,<br>" +
-                    "svätého Timoteja a Tita si ozdobil<br>" +
-                    "čnosťami apoštolov; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pomáhaj nám na ich orodovanie, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme nábožne a sväto žili na tomto svete,<br>" +
-                    "a tak si zaslúžili dôjsť do nebeskej vlasti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"27", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás svätá panna Angela ustavične odporúča<br>" +
-                    "tvojej otcovskej dobrote, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme nasledovaním jej lásky a múdrosti<br>" +
-                    "ochotne prijali tvoje učenie<br>" +
-                    "a vyznávali ho čnostným životom.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"28", "Bože, prameň všetkej múdrosti,<br>" +
-                    "ty si urobil Tomáša Akvinského veľkým<br>" +
-                    "na poli svätosti a posvätnej vedy; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, osvieť nám myseľ,<br>" +
-                    "aby sme chápali jeho náuku, <font color='#B71C1C'>—</font><br>" +
-                    "a posilni nám vôľu,<br>" +
-                    "aby sme nasledovali jeho čnosti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"31", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "vo svätom kňazovi Jánovi Boskovi<br>" +
-                    "dal si mládeži láskavého otca a učiteľa; <font color='#B71C1C'>—</font><br>" +
-                    "prosíme ťa, zapáľ aj nás takou láskou,<br>" +
-                    "akou horelo jeho srdce,<br>" +
-                    "aby sme neúnavne hľadali duše<br>" +
-                    "a vytrvalo slúžili iba tebe.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
+                    "aby sme sa z mimoriadneho príkladu <br>" +
+                    "tvojho mučeníka, svätého Šebastiána, <br>" +
+                    "naučili poslúchať viac teba ako ľudí. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"21", "Všemohúci a večný Bože, <br>" +
+                    "ty si volíš, čo svet pokladá za slabé, <br>" +
+                    "aby si zahanbil to, čo je silné; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, láskavo dopraj, <br>" +
+                    "aby sme aj my, čo slávime narodenie <br>" +
+                    "tvojej svätej mučenice Agnesy pre nebo, <font color='#B71C1C'>—</font><br>" +
+                    "nasledovali jej vytrvalosť vo viere. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"22", "Všemohúci a večný Bože, <br>" +
+                    "láskavo nás naplň svojím Duchom, <font color='#B71C1C'>*</font><br>" +
+                    "aby v našich srdciach zavládla taká mocná láska, <font color='#B71C1C'>—</font><br>" +
+                    "s akou svätý mučeník Vincent premohol všetky telesné muky. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"24", "Bože, ty si chcel, aby sa svätý biskup František <br>" +
+                    "stal pre spásu duší všetkým pre všetkých; <font color='#B71C1C'>*</font><br>" +
+                    "láskavo dopraj, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme podľa jeho príkladu <br>" +
+                    "v bratskej službe vždy preukazovali tvoju dobrotivú lásku. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, skrze túto spásonosnú obetu, ktorú ti prinášame, <font color='#B71C1C'>*</font><br>" +
+                            "zapáľ naše srdcia tým božským ohňom Ducha Svätého, <font color='#B71C1C'>—</font><br>" +
+                            "ktorým si obdivuhodne roznietil pokorného ducha svätého Františka. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby sme posilnení prijatou sviatosťou napodobňovali <br>" +
+                            "lásku a miernosť svätého Františka tu na zemi, <font color='#B71C1C'>—</font><br>" +
+                            "a tak dosiahli slávu v nebi. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"25g", "Bože, ty si poučil celý svet <br>" +
+                    "kázaním svätého apoštola Pavla, <br>" +
+                    "ktorého obrátenie dnes oslavujeme; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby sme <br>" +
+                    "podľa jeho príkladu kráčali k tebe <font color='#B71C1C'>—</font><br>" +
+                    "a boli svedkami tvojej pravdy pre svet. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "nech nás pri slávení tejto obety <br>" +
+                            "prenikne Duch Svätý svetlom viery, <font color='#B71C1C'>—</font><br>" +
+                            "ktoré ustavične osvecovalo <br>" +
+                            "svätého apoštola Pavla pri ohlasovaní tvojej slávy. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane a Bože náš, <br>" +
+                            "prosíme ťa, nech sviatosť, <br>" +
+                            "ktorú sme prijali, roznieti v nás oheň lásky, <font color='#B71C1C'>*</font><br>" +
+                            "ktorým mocne horel svätý apoštol Pavol, <font color='#B71C1C'>—</font><br>" +
+                            "keď sa neúnavne staral o všetky cirkevné spoločenstvá. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"26", "Bože, ty si ozdobil apoštolskými <br>" +
+                    "čnosťami svätých Timoteja a Títa; <font color='#B71C1C'>*</font><br>" +
+                    "na ich orodovanie dopraj, <br>" +
+                    "aby sme v tomto svete žili spravodlivo a nábožne <font color='#B71C1C'>—</font><br>" +
+                    "a zaslúžili si dôjsť do nebeskej vlasti. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "prijmi dary svojho ľudu, ktoré ti predkladáme <br>" +
+                            "pri oslave svätých Timoteja a Títa, <font color='#B71C1C'>—</font><br>" +
+                            "a dopraj, aby sme k tebe <br>" +
+                            "vždy prichádzali s úprimným srdcom. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, nech sviatosť, <br>" +
+                            "ktorú sme prijali, živí v nás vieru, <font color='#B71C1C'>—</font><br>" +
+                            "ktorú apoštolským ohlasovaním <br>" +
+                            "a starostlivosťou zachovali svätí Timotej a Títus. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"27", "Prosíme ťa, Pane, <br>" +
+                    "nech nám svätá panna Angela <br>" +
+                    "ustavične vyprosuje tvoju milosť, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme nasledovaním jej príkladu lásky <br>" +
+                    "a múdrosti boli schopní zachovávať tvoju náuku <font color='#B71C1C'>—</font><br>" +
+                    "a vyznávať ju životom.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"28", "Bože, ty si urobil svätého Tomáša <br>" +
+                    "veľkým v horlivosti o svätosť <br>" +
+                    "a v poznávaní posvätnej náuky; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme boli schopní pochopiť, čo učil, <br>" +
+                    "a napodobňovať, čo žil. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"31", "Bože, ty si svätého kňaza Jána <br>" +
+                    "povolal za otca a učiteľa mládeže; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, dopraj, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme zapálení tým istým ohňom lásky <br>" +
+                    "hľadali duše a slúžili jedine tebe. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
     };
 
     String[][] modlitba2 = {
-            {"02g", "Všemohúci a večný Bože,<br>" +
-                    "tvoj jednorodený Syn<br>" +
-                    "prijal našu ľudskú prirodzenosť<br>" +
+            {"02g", "Všemohúci a večný Bože, <br>" +
+                    "tvoj jednorodený Syn prijal <br>" +
+                    "našu ľudskú prirodzenosť <br>" +
                     "a dnes ti bol obetovaný v chráme; <font color='#B71C1C'>*</font><br>" +
-                    "pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "obnov náš život a naše zmýšľanie,<br>" +
-                    "aby sme aj my mohli s čistým srdcom<br>" +
+                    "pokorne ťa prosíme, očisti nás, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme aj my mohli s čistým srdcom <br>" +
                     "predstúpiť pred tvoju tvár.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Večný Otče,<br>" +
-                    "ty si chcel, aby sa tvoj jednorodený Syn<br>" +
-                    "obetoval za spásu sveta<br>" +
-                    "ako nepoškvrnený Baránok; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "prijmi láskavo aj tento obetný dar svojej Cirkvi,<br>" +
-                    "ktorá ťa s radosťou oslavuje.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Bože,<br>" +
-                    "ty si splnil Simeonovi prísľub,<br>" +
-                    "že neumrie, kým neuzrie Spasiteľa sveta; <font color='#B71C1C'>*</font><br>" +
-                    "upevňuj nás týmto sviatostným pokrmom<br>" +
-                    "vo svojej milosti, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme neochvejne kráčali v ústrety Pánovi<br>" +
-                    "a dosiahli večný život.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána."},
-            {"03a", "Pane a Bože náš, vypočuj svoj ľud,<br>" +
-                    "ktorý ti v deň svätého biskupa a mučeníka Blažeja<br>" +
-                    "prednáša svoje pokorné prosby: <font color='#B71C1C'>*</font><br>" +
-                    "daruj nám pokoj a zdravie<br>" +
-                    "a pomáhaj nám tak žiť v časnom živote, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme dosiahli večnú spásu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"03b", "Svätý Bože, prameň spásy, <font color='#B71C1C'>*</font><br>" +
-                    "ty si poslal svätého biskupa Oskára<br>" +
-                    "ohlasovať Kristovu blahozvesť mnohým národom; <font color='#B71C1C'>—</font><br>" +
-                    "na jeho orodovanie nám pomáhaj<br>" +
-                    "ustavične kráčať vo svetle tvojej pravdy.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"05", "Dobrotivý Bože, zmiluj sa nad nami <font color='#B71C1C'>*</font><br>" +
-                    "a odpusť nám naše previnenia<br>" +
-                    "na orodovanie svätej Agaty, panny a mučenice, <font color='#B71C1C'>—</font><br>" +
-                    "ktorá ti bola milá pre panenský život<br>" +
-                    "a pre svoje mučeníctvo.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"06", "Bože, posila všetkých mučeníkov,<br>" +
-                    "ty si priviedol svätého Pavla a jeho spoločníkov<br>" +
-                    "k večnému životu ich mučeníckou smrťou na kríži; <font color='#B71C1C'>*</font><br>" +
-                    "na ich orodovanie daj nám silu, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme statočne vyznávali vieru<br>" +
-                    "a zachovali si ju až do smrti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"08a", "Bože Otče, prameň milosrdenstva,<br>" +
-                    "ty si dal svätého Hieronyma<br>" +
-                    "sirotám za otca a pomocníka; <font color='#B71C1C'>*</font><br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, ty si chcel, aby ti bol <br>" +
+                            "tvoj jednorodený Syn obetovaný <br>" +
+                            "ako nepoškvrnený Baránok za spásu sveta; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, nech ti je milá táto obeta, <font color='#B71C1C'>—</font><br>" +
+                            "ktorú ti Cirkev s radosťou prináša.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, ako si Simeonovi splnil očakávanie, <br>" +
+                            "že nezomrie prv, kým neuzrie Krista, <font color='#B71C1C'>*</font><br>" +
+                            "tak aj nám skrze tento sviatostný pokrm, <br>" +
+                            "ktorý sme prijali, udeľ svoju milosť, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme kráčali v ústrety Pánovi a dosiahli večný život.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"03a", "Pane, vypočuj pokorné prosby svojho ľudu, <br>" +
+                    "ktoré ti prednášame na príhovor svätého mučeníka Blažeja, <font color='#B71C1C'>*</font><br>" +
+                    "a dopraj nám tešiť sa v časnom živote z pokoja <font color='#B71C1C'>—</font><br>" +
+                    "a nájsť pomoc pre večný život.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"03b", "Bože, ty si poslal svätého biskupa Oskara <br>" +
+                    "ohlasovať Kristovu blahozvesť mnohým národom; <font color='#B71C1C'>*</font><br>" +
                     "na jeho orodovanie nám pomáhaj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme plnili záväzky svätého krstu,<br>" +
-                    "v ktorom sme dostali ducha synovstva<br>" +
-                    "a stali sme sa tvojimi deťmi.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"10", "Vznešený Bože, <font color='#B71C1C'>*</font><br>" +
-                    "pri spomienke na svätú pannu Školastiku<br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "pomáhaj nám, aby sme ti podľa jej príkladu<br>" +
-                    "slúžili s nenarušenou oddanosťou,<br>" +
-                    "a tak dosiahli blažený život,<br>" +
-                    "ktorý nám pripravila tvoja láska.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"11m", "Milosrdný Otče, <font color='#B71C1C'>*</font><br>" +
-                    "s radosťou slávime pamiatku Panny Márie,<br>" +
-                    "nepoškvrnenej matky tvojho Syna, <font color='#B71C1C'>—</font><br>" +
-                    "a prosíme ťa, na jej orodovanie pomôž nám slabým<br>" +
-                    "odvrátiť sa od hriechov,<br>" +
-                    "konať pokánie a žiť novým životom.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
+                    "aby sme vždy kráčali vo svetle tvojej pravdy.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+                    {"05", "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "zmiluj sa nad nami na príhovor <br>" +
+                            "svätej panny a mučenice Agáty, <font color='#B71C1C'>—</font><br>" +
+                            "ktorá ti bola vždy milá pre svoju silu <br>" +
+                            "v mučeníctve a panenský život. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"06", "Bože, sila všetkých svätých, <font color='#B71C1C'>*</font><br>" +
+                            "ty si povolal svätých mučeníkov Pavla <br>" +
+                            "a jeho spoločníkov cez smrť na kríži k životu; <font color='#B71C1C'>—</font><br>" +
+                            "daj, prosíme, aby sme si na ich orodovanie <br>" +
+                            "zachovali odvahu statočne vyznávať vieru až do smrti.<br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"08a", "Bože, Otec milosrdenstva, ty si sirotám <br>" +
+                            "dal svätého Hieronyma za otca a pomocníka; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, na jeho orodovanie dopraj, <br>" +
+                            "aby sme si verne zachovali ducha synovstva, <font color='#B71C1C'>—</font><br>" +
+                            "v ktorom sa nazývame a sme tvojimi deťmi.<br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"08b", "Bože, ty si pozdvihol svätú Jozefínu z ponižujúceho <br>" +
+                            "otroctva k hodnosti svojej dcéry a Kristovej nevesty; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, dopraj, <br>" +
+                            "aby sme podľa jej príkladu <br>" +
+                            "oddane nasledovali ukrižovaného Ježiša Krista, <font color='#B71C1C'>—</font><br>" +
+                            "ochotne vytrvali v láske a konali skutky milosrdenstva.<br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"10", "Pane, pri spomienke na svätú pannu <br>" +
+                            "Školastiku vrúcne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme ti podľa jej príkladu oddane slúžili <font color='#B71C1C'>—</font><br>" +
+                            "a radostne prijímali to, čo pochádza z tvojej lásky.<br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"11m", "Milosrdný Bože, <br>" +
+                            "buď nám ochranou v našej slabosti, <font color='#B71C1C'>*</font><br>" +
+                            "a keď slávime spomienku <br>" +
+                            "na nepoškvrnenú Božiu Rodičku, <font color='#B71C1C'>—</font><br>" +
+                            "daj, aby sme na jej príhovor <br>" +
+                            "dokázali povstať z našich neprávostí.<br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
             {"14o", "Všemohúci Bože,<br>" +
                     "ty si prostredníctvom svätých bratov Cyrila a Metoda<br>" +
                     "daroval slovanským národom svetlo evanjelia <font color='#B71C1C'>*</font><br>" +
@@ -725,3376 +768,3458 @@ public interface Modlitby_svatci {
                     "a jednomyseľne budovalo kráľovstvo<br>" +
                     "spravodlivosti a pokoja.<br>" +
                     "Skrze Krista, nášho Pána."},
-            {"14g+", "Všemohúci Bože,<br>" +
-                    "ty si prostredníctvom svätých bratov Cyrila a Metoda<br>" +
-                    "daroval slovanským národom svetlo evanjelia <font color='#B71C1C'>*</font><br>" +
+            {"14g+", "Bože, ty si prostredníctvom<br>" +
+                    "svätých bratov Cyrila a Metoda<br>" +
+                    "daroval slovanským národom svetlo evanjelia; <font color='#B71C1C'>*</font><br>" +
                     "daj, nech s ochotným srdcom<br>" +
                     "prijímame slovo tvojho učenia, <font color='#B71C1C'>—</font><br>" +
-                    "a urob z nás ľud zjednotený<br>" +
-                    "v pravej viere a správnom vyznávaní.", "Zhliadni, Otče na dary <font color='#B71C1C'>*</font><br>" +
-                    "ktoré ti pri spomienke na svätého Cyrila a Metoda<br>" +
-                    "kladieme na oltár <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby sa stali znamením nového ľudstva<br>" +
-                    "zmiereného v láske.<br>" +
-                    "Skrze Krista, nášho Pána.", "Bože, Otec všetkých národov,<br>" +
-                    "ty nás jedným chlebom robíš v jednom Duchu<br>" +
-                    "spolustolujúcimi a dedičmi večnej hostiny; <font color='#B71C1C'>*</font><br>" +
-                    "pri tejto slávnosti svätého Cyrila a Metoda<br>" +
-                    "ťa prosíme: <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby množstvo tvojich synov a dcér<br>" +
-                    "zotrvalo v tej istej viere<br>" +
-                    "a jednomyseľne budovalo kráľovstvo<br>" +
-                    "spravodlivosti a pokoja.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"17", "Dobrotivý Bože,<br>" +
-                    "nábožne slávime pamiatku siedmich svätých bratov,<br>" +
-                    "ktorým si vlial úprimnú lásku k Matke Božej<br>" +
-                    "a pomáhal si im privádzať tvoj ľud bližšie k tebe; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "aj nám daj vrúcnu lásku k Panne Márii<br>" +
-                    "a ustavičnú ochotu slúžiť ti v našich blížnych.<br>" +
+                    "aby sme sa zjednotili v pravej viere<br>" +
+                    "a správnom vyznávaní.<br>" +
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
                     "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"21", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj nám nasledovať učenie a príklad<br>" +
-                    "svätého biskupa Petra Damianiho, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vo všetkom dávali prednosť Kristovi,<br>" +
-                    "oddane slúžili tvojej Cirkvi,<br>" +
-                    "a tak došli do večnej radosti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"22g", "Všemohúci Bože,<br>" +
-                    "ty si vystavil svoju Cirkev na Petrovi,<br>" +
-                    "ktorý vyznal vieru v tvojho Syna; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "nedovoľ, aby bludy a búrlivé rozvraty<br>" +
-                    "otriasli našou vierou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milostivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi modlitby a dary svojej Cirkvi,<br>" +
-                    "ktorá má v Petrovi učiteľa neporušenej viery; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme pod jeho pastierskou ochranou<br>" +
-                    "dosiahli večné dedičstvo. Skrze Krista, nášho Pána.", "Bože a Otče náš,<br>" +
-                    "na sviatok svätého Petra apoštola<br>" +
-                    "posilnil si nás telom a krvou svojho Syna; <font color='#B71C1C'>*</font><br>" +
-                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby nám toto stretnutie s naším Vykupiteľom<br>" +
-                    "bolo prameňom jednoty a pokoja.<br>" +
-                    "Skrze Krista, nášho Pána.<br>"},
-            {"23", "Bože, Pán všetkého tvorstva,<br>" +
-                    "ty si pridružil svätého biskupa Polykarpa<br>" +
-                    "k zástupu mučeníkov; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho príhovor aj nám daj silu<br>" +
-                    "piť z kalicha Kristovho utrpenia, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme mali účasť na sláve vzkriesenia.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "zhliadni na dary, ktoré ti pri oslave<br>" +
+                            "svätých Cyrila a Metoda kladieme na oltár, <font color='#B71C1C'>—</font><br>" +
+                            "a daj, aby sa stali znamením<br>" +
+                            "nového ľudstva zmiereného v láske.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, Otec všetkých národov,<br>" +
+                            "ty nás jedným chlebom a v jednom Duchu<br>" +
+                            "robíš spolustolujúcimi a dedičmi večnej hostiny; <font color='#B71C1C'>*</font><br>" +
+                            "pri tejto oslave svätých Cyrila a Metoda ťa prosíme,<br>" +
+                            "daj, aby tvoji synovia a dcéry zotrvávali v tej istej viere <font color='#B71C1C'>—</font><br>" +
+                            "a jednomyseľne budovali kráľovstvo<br>" +
+                            "spravodlivosti a pokoja.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"17", "Prosíme ťa, Pane, <br>" +
+                    "naplň nás synovskou láskou, <font color='#B71C1C'>*</font><br>" +
+                    "ktorou svätí bratia uctievali Bohorodičku <font color='#B71C1C'>—</font><br>" +
+                    "a viedli tvoj ľud k tebe.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"21", "Všemohúci Bože, <br>" +
+                    "prosíme ťa, dopraj nám nasledovať učenie <br>" +
+                    "a príklad svätého biskupa Petra, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme vo všetkom dávali prednosť Kristovi, <br>" +
+                    "vždy oddane slúžili tvojej Cirkvi, <font color='#B71C1C'>—</font><br>" +
+                    "a tak dosiahli svetlo večnej radosti.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"22g", "Všemohúci Bože, ty si vystavil svoju Cirkev <br>" +
+                    "na skale apoštolského vyznania svätého Petra; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, dopraj, <font color='#B71C1C'>—</font><br>" +
+                    "aby žiadne ťažkosti neotriasli našou vierou.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "láskavo prijmi modlitby a dary svojej Cirkvi, <font color='#B71C1C'>*</font><br>" +
+                            "ktorá si pod pastierskou ochranou svätého Petra <br>" +
+                            "zachováva neporušenú vieru, <font color='#B71C1C'>—</font><br>" +
+                            "aby dosiahla večné dedičstvo. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, pri oslave sviatku svätého Petra <br>" +
+                            "si nás nasýtil Kristovým Telom a Krvou; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby táto spásna výmena <br>" +
+                            "bola pre nás sviatosťou jednoty a pokoja. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"23", "Bože všetkého stvorenia, <br>" +
+                    "ty si pripojil svätého biskupa Polykarpa k zástupu mučeníkov; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, na jeho príhovor nám daj účasť <br>" +
+                    "na kalichu tvojho Syna Ježiša Krista, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme prostredníctvom Ducha Svätého <br>" +
+                    "povstali k novému životu.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"27","Všemohúci a večný Bože, <br>" +
+                    "ty si svätého Gregora, učiteľa ozdobu arménskeho ľudu, <br>" +
+                    "láskavo naplnil mystickou náukou; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj nám, aby sme sa podľa jeho učenia <br>" +
+                    "zdokonaľovali v umení modlitby <font color='#B71C1C'>—</font><br>" +
+                    "a v živote sa stále posilňovali sviatosťami Cirkvi. <br>" +
+                    "povstali k novému životu. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
     };
 
     String[][] modlitba3 = {
-            {"04", "Všemohúci Bože,<br>" +
-                    "tebe slúžiť znamená kraľovať; <font color='#B71C1C'>*</font><br>" +
-                    "daj, prosíme, na orodovanie svätého Kazimíra, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ti vytrvalo slúžili v spravodlivosti a svätosti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"07", "Bože a Otče náš, <font color='#B71C1C'>*</font><br>" +
-                    "veľká láska k tebe<br>" +
-                    "dala svätej Perpetue a Felicite silu<br>" +
-                    "zvíťaziť nad trýzniteľmi a nad mukami;<br>" +
-                    "pomáhaj nám na ich orodovanie, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme aj my ustavične rástli v láske,<br>" +
-                    "ktorá premáha všetok strach.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"08", "Dobrotivý Bože,<br>" +
-                    "ty si naplnil srdce svätého Jána<br>" +
-                    "milosrdenstvom voči chudobným a chorým; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, aj nám pomáhaj konať skutky lásky, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme dosiahli miesto medzi vyvolenými<br>" +
-                    "v tvojom kráľovstve.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"09", "Všemohúci Bože,<br>" +
-                    "ty si dal svojmu ľudu svätú Františku<br>" +
-                    "za príklad manželského i rehoľného života; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, udeľ nám milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ti v každom stave a povolaní<br>" +
-                    "verne slúžili, žili v tvojej prítomnosti<br>" +
-                    "a dali sa viesť svetlom tvojej pravdy.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"17", "Večný Bože,<br>" +
-                    "ty si poslal svätého biskupa Patrika<br>" +
-                    "írskemu národu hlásať tvoju blahozvesť; <font color='#B71C1C'>*</font><br>" +
-                    "pre jeho zásluhy a na jeho orodovanie<br>" +
-                    "vzbuď misionárskeho ducha<br>" +
-                    "vo všetkých kresťanoch, <font color='#B71C1C'>—</font><br>" +
-                    "aby ohlasovali svetu obdivuhodné dielo tvojej lásky.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"18", "Nekonečný Bože,<br>" +
-                    "prostredníctvom svätého biskupa Cyrila<br>" +
-                    "priviedol si svoju Cirkev<br>" +
+            {"04", "Všemohúci Bože, tebe slúžiť znamená kraľovať; <font color='#B71C1C'>*</font><br>" +
+                    "na orodovanie svätého Kazimíra dopraj, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme ti vytrvalo slúžili v spravodlivosti a svätosti. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"07", "Bože, sväté mučenice Perpetua a Felicita <br>" +
+                    "zapálené láskou k tebe pohrdli prenasledovateľom <br>" +
+                    "a zvíťazili nad mukami smrti; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, na ich príhovor nám dopraj, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme stále rástli v tvojej láske. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, pri spomienke na nebeské víťazstvo <br>" +
+                            "svätých Perpetuy a Felicity <br>" +
+                            "ti s radosťou prinášame dnešnú obetu, <font color='#B71C1C'>*</font><br>" +
+                            "ktorou ohlasujeme tvoje veľké skutky <font color='#B71C1C'>—</font><br>" +
+                            "a tešíme sa, že sme získali ich slávny príhovor. <br>" +
+                            "Skrze Krista, nášho Pána. ",
+                    "Pane, máme nekonečnú radosť z účasti na tejto sviatosti <br>" +
+                            "a zo spomienky na sväté Perpetuu a Felicitu; <font color='#B71C1C'>*</font><br>" +
+                            "pokorne ťa prosíme, dopraj, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme dôstojne prijímali sviatosť, ktorú si nám daroval. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"08", "Bože, ty si naplnil svätého Jána <br>" +
+                    "duchom milosrdenstva; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, <br>" +
+                    "aby sme si aj my, keď konáme skutky lásky, <font color='#B71C1C'>—</font><br>" +
+                    "zaslúžili miesto medzi vyvolenými v tvojom kráľovstve. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"09", "Bože, ty si nám dal vo svätej Františke <br>" +
+                    "jedinečný príklad manželského a rehoľného života; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj nám vytrvalo ti slúžiť, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme vo všetkých životných situáciách <br>" +
+                    "hľadeli na teba a nasledovali ťa.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"17", "Bože, ty si poslal svätého biskupa Patrika <br>" +
+                    "ohlasovať tvoju slávu írskemu národu; <font color='#B71C1C'>*</font><br>" +
+                    "pre jeho zásluhy a na jeho orodovanie daj, <br>" +
+                    "aby tí, ktorí sa radujú z mena kresťan, <font color='#B71C1C'>—</font><br>" +
+                    "vždy ohlasovali svetu tvoje obdivuhodné diela. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"18", "Bože, ty si prostredníctvom svätého biskupa Cyrila <br>" +
+                    "obdivuhodne priviedol svoju Cirkev <br>" +
                     "k hlbšiemu chápaniu tajomstiev spásy; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho orodovanie nám pomáhaj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vždy lepšie poznávali tvojho Syna<br>" +
-                    "a v ňom hľadali plnosť života.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"23", "Milosrdný Bože, ty si zveľadil svoju Cirkev<br>" +
-                    "apoštolskou horlivosťou svätého biskupa Turibia<br>" +
-                    "a jeho láskou k pravde; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "pomáhaj kresťanskému ľudu<br>" +
-                    "ustavične rásť vo viere a svätosti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
+                    "na jeho orodovanie nám pomáhaj, <br>" +
+                    "aby sme lepšie poznávali tvojho Syna, <font color='#B71C1C'>—</font><br>" +
+                    "a tak dosiahli plnosť života. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"23", "Bože, ty si zveľadil svoju Cirkev <br>" +
+                    "apoštolskou starostlivosťou svätého biskupa Turibia <br>" +
+                    "a jeho horlivosťou za pravdu; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj, aby sa tebe zasvätený ľud neustále vzmáhal vo viere <font color='#B71C1C'>—</font><br>" +
+                    "a vzrastal vo svätosti. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
     };
 
     String[][] modlitba4 = {
-            {"02", "Bože, sláva ponížených,<br>" +
-                    "ty si povýšil svätého Františka<br>" +
-                    "do slávy svojich vyvolených; <font color='#B71C1C'>*</font><br>" +
+            {"02", "Bože, sláva ponížených, <br>" +
+                    "ty si povýšil svätého Františka <br>" +
+                    "do slávy svojich svätých; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa, udeľ nám milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme nasledovali jeho príklad<br>" +
-                    "a pre jeho zásluhy dosiahli odmenu,<br>" +
-                    "prisľúbenú ľuďom tichého a pokorného srdca.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"04", "Bože, prameň všetkej múdrosti, <font color='#B71C1C'>*</font><br>" +
-                    "v deň spomienky na svätého<br>" +
-                    "Izidora pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "na jeho orodovanie na pomáhaj svoju Cirkev,<br>" +
-                    "ktorú on obohatil svojou náukou a svätým životom.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"05", "Bože a Otče náš,<br>" +
-                    "ty si dal svojej Cirkvi svätého kňaza Vincenta,<br>" +
-                    "ktorý neúnavne hlásal evanjelium<br>" +
-                    "a zdôrazňoval príchod tvojho Syna<br>" +
-                    "ako večného Sudcu; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme bedlivo očakávali<br>" +
-                    "deň Kristovho príchodu <font color='#B71C1C'>—</font><br>" +
-                    "a v nebeskej blaženosti ho uzreli ako nášho Kráľa.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"07", "Dobrotivý Bože,<br>" +
-                    "ty si vyvolil svätého kňaza Jána de la Salle,<br>" +
-                    "aby viedol kresťanskú mládež po ceste spásy; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "vzbuď vo svojej Cirkvi vychovávateľov,<br>" +
-                    "ktorí by sa celým srdcom venovali mládeži<br>" +
-                    "a vychovávali dobrých občanov a pravých kresťanov.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"11", "Nekonečný Bože,<br>" +
-                    "svätý biskup Stanislav<br>" +
-                    "pre tvoju česť klesol<br>" +
-                    "pod mečom prenasledovateľov; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa o milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme boli silní vo viere<br>" +
-                    "a vytrvali v nej až do smrti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"13", "Všemohúci Bože,<br>" +
-                    "svätému Martinovi, pápežovi a mučeníkovi,<br>" +
-                    "dal si takú silu,<br>" +
-                    "že ho nezastrašili ani hrozby ani muky; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, aj nás posilňuj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme s nezlomným duchom<br>" +
-                    "znášali všetky protivenstvá.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"21", "Nekonečný Bože,<br>" +
-                    "svätému biskupovi Anzelmovi si udelil dar<br>" +
-                    "prenikať do hlbín tvojich tajomstiev<br>" +
-                    "a ohlasovať ich tvojmu ľudu; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, daj, nech viera napomáha náš rozum, <font color='#B71C1C'>—</font><br>" +
-                    "aby náuka, ktorú si nám zjavil,<br>" +
-                    "bola slasťou nášho srdca.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"23", "Všemohúci a večný Bože,<br>" +
-                    "ty si svätého biskupa Vojtecha,<br>" +
-                    "muža plného viery a Ducha Svätého,<br>" +
+                    "aby sme pre jeho zásluhy a príklad <br>" +
+                    "šťastlivo dosiahli odmenu prisľúbenú pokorným. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"04", "Prosíme ťa, Pane, vypočuj naše prosby, <br>" +
+                    "ktoré ti predkladáme v deň spomienky na svätého Izidora, <font color='#B71C1C'>*</font><br>" +
+                    "aby si na jeho orodovanie zveľadil svoju Cirkev, <font color='#B71C1C'>—</font><br>" +
+                    "ktorá čerpá z jeho nebeského učenia. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"05", "Bože, ty si svätého kňaza Vincenta <br>" +
+                    "podnietil k službe ohlasovania evanjelia; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby sme Sudcu, <br>" +
+                    "ktorý má prísť a ktorého on ohlasoval na zemi, <font color='#B71C1C'>—</font><br>" +
+                    "raz uzreli v blaženosti ako kráľa v nebi.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+            {"07", "Bože, ty si vyvolil svätého Jána Krstiteľa de la Salle, <br>" +
+                    "aby vychovával kresťanskú mládež; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, vzbuď vo svojej Cirkvi vychovávateľov, <br>" +
+                    "ktorí by sa mladým venovali celým svojím srdcom <font color='#B71C1C'>—</font><br>" +
+                    "a formovali ich v ľudských a kresťanských čnostiach. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"11", "Bože, svätý biskup Stanislav <br>" +
+                    "pre tvoju slávu klesol pod mečmi prenasledovateľov; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme vytrvali pevní vo viere až do smrti. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"13", "Všemohúci Bože, <br>" +
+                    "svätý Martin, pápež a mučeník, <br>" +
+                    "s tvojou pomocou nepodľahol hrozbám a mukám; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme s nezlomným duchom <br>" +
+                    "aj my vytrvalo znášali protivenstvá sveta. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"21", "Bože, ty si dal svätému biskupovi Anzelmovi <br>" +
+                    "dar preniknúť do hlbín tvojej múdrosti <br>" +
+                    "a vyučovať ju iných; <font color='#B71C1C'>*</font><br>" +
+                    "daj, nech viera v teba pomáha nášmu rozumu chápať, <font color='#B71C1C'>—</font><br>" +
+                    "že to, čo si nám dal veriť, je ľúbeznou múdrosťou srdca.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"23", "Bože, ty si svätého biskupa Vojtecha <br>" +
+                    "korunoval mučeníctvom pre jeho horlivosť za duše; <font color='#B71C1C'>*</font><br>" +
+                    "na jeho mocný príhovor dopraj, <br>" +
+                    "aby veriaci poslúchali svojich pastierov <font color='#B71C1C'>—</font><br>" +
+                    "a kňazi vynikali duchovnou starostlivosťou o veriacich. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.<br>" +
+                    "<font color='#B71C1C'>Alebo:</font><br>" +
+                    "Bože, ty si svätého biskupa Vojtecha, <br>" +
+                    "muža plného viery a Ducha Svätého, <br>" +
                     "poslal šíriť evanjelium medzi slovanské kmene; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa, pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme aj my slovom a dobrým príkladom<br>" +
-                    "zveľaďovali vieru, ktorú on tak horlivo ohlasoval.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "požehnaj tieto obetné dary<br>" +
-                    "a posilňuj nás vo viere, <font color='#B71C1C'>—</font><br>" +
-                    "ktorú svätý Vojtech dosvedčil mučeníckou smrťou.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože, sviatostné telo a krv tvojho Syna<br>" +
-                    "pomáhali svätému biskupovi Vojtechovi<br>" +
-                    "prekonať všetky utrpenia; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "nech aj nás posilňuje sväté prijímanie,<br>" +
-                    "aby sme si zachovali vieru a lásku k tebe.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"24a", "Všemohúci Bože,<br>" +
-                    "velebíme tvoju moc vo svätom Jurajovi,<br>" +
-                    "ktorý svojím utrpením nasledoval tvojho Syna; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, daj nám na jeho orodovanie silu, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vždy zvíťazili nad zlom<br>" +
-                    "a každodenný kríž niesli<br>" +
-                    "v spojení s Ježišom Kristom,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"24b", "Večný Bože,<br>" +
-                    "ty si dal svätému Fidelovi takú veľkú lásku,<br>" +
-                    "že pri šírení viery získal palmu mučeníctva; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho príhovor udeľ nám vytrvalosť v láske, <font color='#B71C1C'>—</font><br>" +
-                    "aby sa aj na nás prejavila sila zmŕtvychvstania<br>" +
-                    "nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"25g", "Milostivý Bože,<br>" +
-                    "ty si vyvolil svätého evanjelistu Marka<br>" +
-                    "za ohlasovateľa tvojej blahozvesti; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, osvecuj nás, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa nábožným čítaním jeho Evanjelia<br>" +
-                    "naučili verne kráčať po stopách tvojho Syna<br>" +
-                    "Ježiša Krista, ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "na sviatok svätého Marka<br>" +
-                    "prinášame ti obetu chvály a pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby tvoja Cirkev neprestajne hlásala<br>" +
-                    "evanjelium Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý s tebou žije a kraľuje na veky vekov.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás posvätí chlieb života,<br>" +
-                    "ktorý sme prijali z tvojho oltára, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme pevne verili evanjeliu,<br>" +
-                    "ktoré ohlasoval a nám odovzdal svätý Marek.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána."},
-            {"28a", "Všemohúci Bože,<br>" +
-                    "mučeníckou smrťou svätého Petra Chanela<br>" +
-                    "si zasial semeno viery na ostrovoch Oceánie; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "pomáhaj nám v tomto veľkonočnom období<br>" +
-                    "tak sláviť tajomstvo<br>" +
-                    "Kristovej smrti a zmŕtvychvstania,<br>" +
-                    "aby sme vydávali o ňom svedectvo<br>" +
-                    "obnoveným kresťanským životom.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"28b", "Bože večnej múdrosti,<br>" +
-                    "ty si svätého kňaza Ľudovíta Máriu<br>" +
-                    "urobil vynikajúcim svedkom a učiteľom<br>" +
-                    "úplného zasvätenia tvojmu Synovi, Kristovi,<br>" +
-                    "prostredníctvom jeho blahoslavenej Matky; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme kráčali po tej istej duchovnej ceste, <font color='#B71C1C'>—</font><br>" +
-                    "a tak mohli šíriť tvoje kráľovstvo vo svete.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"29g", "Milosrdný Bože,<br>" +
-                    "ty si roznecoval vo svätej Kataríne<br>" +
-                    "vrúcnu lásku k tebe,<br>" +
-                    "keď rozjímala o Kristovom utrpení<br>" +
-                    "a slúžila tvojej Cirkvi; <font color='#B71C1C'>*</font><br>" +
-                    "na jej príhovor pomáhaj aj nám<br>" +
-                    "v osudoch Cirkvi prežívať tajomstvo<br>" +
-                    "Kristovej smrti a zmŕtvychvstania, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa s ním večne mohli radovať,<br>" +
-                    "keď sa zjaví vo svojej sláve.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Láskavý Otče,<br>" +
-                    "prijmi spásonosnú obetu, ktorú ti prinášame<br>" +
-                    "v deň spomienky na svätú Katarínu, <font color='#B71C1C'>*</font><br>" +
-                    "a pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa jej učenia a príkladu<br>" +
-                    "vždy horlivejšie vzdávali vďaky<br>" +
-                    "tebe, pravému Bohu.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Bože,<br>" +
-                    "prijali sme nebeský pokrm,<br>" +
-                    "ktorý zázračne udržoval<br>" +
-                    "aj pozemský život svätej Kataríny; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby nám prijímanie tejto sviatosti<br>" +
-                    "zaistilo večný život.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"30", "Dobrotivý Bože,<br>" +
-                    "vo svojej prozreteľnosti<br>" +
-                    "si poslal svojmu ľudu svätého pápeža Pia,<br>" +
-                    "aby hájil pravú vieru a obnovil liturgiu Cirkvi; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme na jeho príhovor<br>" +
-                    "slávili tajomstvá spásy so živou vierou <font color='#B71C1C'>—</font><br>" +
-                    "a uvádzali ich do života činorodou láskou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
+                    "aby sme aj my slovom a dobrým príkladom <br>" +
+                    "zveľaďovali vieru, ktorú on tak horlivo ohlasoval. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Dobrotivý Bože, požehnaj tieto obetné dary <font color='#B71C1C'>*</font><br>" +
+                            "a posilňuj nás vo viere, <font color='#B71C1C'>—</font><br>" +
+                            "ktorú svätý Vojtech dosvedčil mučeníckou smrťou. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Milosrdný Bože, sviatostné Telo a Krv tvojho Syna <br>" +
+                            "pomáhali svätému biskupovi Vojtechovi <br>" +
+                            "prekonať všetky utrpenia; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, nech aj nás posilňuje sväté prijímanie, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme si zachovali vieru a lásku k tebe. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"24a", "Pane, zvelebujeme tvoju moc a pokorne prosíme, <font color='#B71C1C'>*</font><br>" +
+                    "aby nám svätý Juraj, ktorý sa pripodobnil Pánovmu utrpeniu, <font color='#B71C1C'>—</font><br>" +
+                    "bol ochotným pomocníkom v našej krehkosti. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"24b", "Bože, ty si ozdobil palmou mučeníctva svätého Fidéla, <br>" +
+                    "ktorý zapálený láskou k tebe šíril vieru; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, na jeho príhovor dopraj, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme sa upevnili v láske a spolu s ním si zaslúžili <br>" +
+                    "spoznať silu Kristovho zmŕtvychvstania. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+            {"25g", "Bože, ty si svätého evanjelistu Marka <br>" +
+                    "obdaril milosťou ohlasovať tvoju blahozvesť; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, posilňuj nás jeho učením, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme vždy verne nasledovali Krista. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Pane, pri oslave svätého Marka <br>" +
+                            "prinášame ti obetu chvály <font color='#B71C1C'>*</font><br>" +
+                            "a pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby tvoja Cirkev vždy vytrvala v hlásaní evanjelia. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Všemohúci Bože, <br>" +
+                            "daj, prosíme, aby nás sviatosť, <br>" +
+                            "ktorú sme prijali z tohto svätého oltára, <font color='#B71C1C'>*</font><br>" +
+                            "posvätila a posilnila vo viere evanjelia, <font color='#B71C1C'>—</font><br>" +
+                            "ktoré hlásal svätý Marek.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"28a", "Bože, ty si pre rozšírenie svojej Cirkvi <br>" +
+                    "ozdobil svätého Petra <font color='#B71C1C'>(</font>Chanela<font color='#B71C1C'>)</font> mučeníctvom; <font color='#B71C1C'>*</font><br>" +
+                    "daj, nech v týchto dňoch veľkonočnej radosti <br>" +
+                    "tak slávime tajomstvá Kristovej smrti a zmŕtvychvstania, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme si zaslúžili byť svedkami nového života. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"28b", "Bože, ty si viedol kroky <br>" +
+                    "svätého kňaza Ľudovíta Máriu po ceste spásy <br>" +
+                    "a Kristovej lásky v sprievode preblahoslavenej Panny Márie; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme podľa jeho príkladu <br>" +
+                    "uvažovali o tajomstvách tvojej lásky <font color='#B71C1C'>—</font><br>" +
+                    "a zanietene budovali tvoju Cirkev. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.<br>" +
+                    "<font color='#B71C1C'>Alebo:</font><br>" +
+                    "Všemohúci a večný Bože, <br>" +
+                    "ty si svätého kňaza Ľudovíta Máriu <br>" +
+                    "urobil vynikajúcim svedkom a učiteľom <br>" +
+                    "úplného zasvätenia tvojmu Synovi Ježišovi Kristovi <br>" +
+                    "prostredníctvom jeho preblahoslavenej Matky; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme nasledovali tú istú duchovnú cestu, <font color='#B71C1C'>—</font><br>" +
+                    "a tak neustále šírili tvoje kráľovstvo. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"29g", "Bože, ty si vo svätej Kataríne roznietil vrúcnu lásku, <br>" +
+                    "keď rozjímala o Pánovom umučení a slúžila tvojej Cirkvi; <font color='#B71C1C'>*</font><br>" +
+                    "na jej príhovor dopraj, <br>" +
+                    "aby sa tvoj ľud, ktorému si dal účasť na Kristových tajomstvách, <font color='#B71C1C'>—</font><br>" +
+                    "večne tešil, keď sa Kristus zjaví vo svojej sláve. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Pane, prijmi spásonosnú obetu, <font color='#B71C1C'>*</font><br>" +
+                            "ktorú ti prinášame na sviatok svätej Kataríny, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme povzbudení jej učením ešte horlivejšie <br>" +
+                            "vzdávali vďaky tebe, pravému Bohu. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, prijali sme nebeský pokrm, <br>" +
+                            "ktorým si posilňoval <br>" +
+                            "v pozemskom živote svätú Katarínu; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
+                            "nech je nám jeho prijímanie zárukou večného života.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"30", "Bože, ty si vo svojej prozreteľnosti <br>" +
+                    "dal svojej Cirkvi svätého pápeža Pia, <br>" +
+                    "aby chránil vieru a obnovil liturgiu na tvoju oslavu; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme na jeho príhovor mali účasť <br>" +
+                    "na tvojich tajomstvách so živou vierou a činorodou láskou. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+
     };
 
     String[][] modlitba5 = {
-            {"01", "Bože, stvoriteľ vesmíru,<br>" +
+            {"01", "Bože, stvoriteľ všetkého, <br>" +
                     "ty si nám dal prácu ako životný údel; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa,<br>" +
-                    "pomáhaj nám nasledovať príklad svätého Jozefa <font color='#B71C1C'>—</font><br>" +
-                    "a pod jeho ochranou<br>" +
-                    "svedomite vykonávať všetky svoje povinnosti,<br>" +
-                    "aby sme dosiahli prisľúbenú odmenu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože, prameň všetkého milosrdenstva, <font color='#B71C1C'>*</font><br>" +
-                    "láskavo zhliadni na dary, ktoré ti prinášame<br>" +
-                    "pri spomienke na svätého Jozefa, <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby sme pre zásluhy tejto svätej obety<br>" +
-                    "našli u teba pomoc a ochranu.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Otče,<br>" +
-                    "s radosťou sme prijali nebeský pokrm; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme podľa príkladu svätého Jozefa<br>" +
-                    "vydávali svedectvo o láske,<br>" +
-                    "ktorú si roznietil v našich srdciach, <font color='#B71C1C'>—</font><br>" +
-                    "a neprestajne sa tešili z pravého a trvalého pokoja.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"02", "Všemohúci a večný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "vo svätom biskupovi Atanázovi<br>" +
-                    "si dal svoj ej Cirkvi<br>" +
-                    "neohrozeného obrancu božstva tvojho Syna; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme ťa mohli vždy lepšie poznávať<br>" +
-                    "a nadovšetko milovať,<br>" +
-                    "osvietení náukou a podporovaní orodovaním<br>" +
-                    "tohto vynikajúceho biskupa.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože,<br>" +
-                    "zhliadni na dary, ktoré ti prinášame<br>" +
-                    "pri spomienke na svätého Atanáza; <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj nám<br>" +
-                    "neohrozene vyznávať pravú vieru, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vydávali svedectvo o tvojej pravde,<br>" +
-                    "a tak si zaslúžili večnú odmenu.<br>" +
-                    "Skrze Krista, nášho Pána.", "Všemohúci Bože,<br>" +
-                    "so svätým Atanázom pevne vyznávame,<br>" +
-                    "že tvoj jednorodený Syn je pravý Boh; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "posilňuj a zveľaďuj v nás božský život<br>" +
-                    "prijímaním Najsvätejšej sviatosti.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"03g", "Dobrotivý Bože,<br>" +
-                    "potešuješ nás výročným sviatkom<br>" +
+                    "dopraj láskavo, aby sme <br>" +
+                    "podľa príkladu svätého Jozefa a pod jeho ochranou <br>" +
+                    "vykonávali všetky svoje povinnosti <font color='#B71C1C'>—</font><br>" +
+                    "a dosiahli sľúbenú odmenu. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Bože, prameň všetkého milosrdenstva, <br>" +
+                            "zhliadni na naše dary, ktoré ti predkladáme <br>" +
+                            "pri spomienke na svätého Jozefa, <font color='#B71C1C'>*</font><br>" +
+                            "a láskavo dopraj, aby sa obeta, <br>" +
+                            "ktorú predkladáme tvojej vznešenosti, <font color='#B71C1C'>—</font><br>" +
+                            "stala prostriedkom na ochranu tých, <br>" +
+                            "ktorí k tebe úpenlivo volajú. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.",
+                    "Pane, prijali sme nebeský pokrm a pokorne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme podľa príkladu svätého Jozefa <br>" +
+                            "prinášali vo svojich srdciach svedectvo tvojej lásky <font color='#B71C1C'>—</font><br>" +
+                            "a neustále sa tešili z ovocia trvalého pokoja.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"02", "Všemohúci a večný Bože, <br>" +
+                    "ty si povýšil svätého biskupa Atanáza <br>" +
+                    "na neohrozeného obrancu božstva tvojho Syna; <font color='#B71C1C'>*</font><br>" +
+                    "láskavo dopraj, aby sme sa tešili <br>" +
+                    "z jeho náuky a ochrany, <font color='#B71C1C'>—</font><br>" +
+                    "a tak ťa mohli vždy lepšie poznávať a nadovšetko milovať. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, zhliadni na dary, <br>" +
+                            "ktoré ti prinášame pri spomienke na svätého Atanáza, <font color='#B71C1C'>*</font><br>" +
+                            "a daj, aby jeho svedectvo o tvojej pravde <br>" +
+                            "slúžilo na spásu tým, <font color='#B71C1C'>—</font><br>" +
+                            "čo vyznávajú pravú vieru. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, aby nás prostredníctvom tejto sviatosti <br>" +
+                            "posilňovalo a ochraňovalo pravé božstvo <br>" +
+                            "tvojho jednorodeného Syna, <font color='#B71C1C'>—</font><br>" +
+                            "ktoré pevne so svätým Atanázom vyznávame. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"03g", "Bože, potešuješ nás výročným sviatkom <br>" +
                     "apoštolov Filipa a Jakuba; <font color='#B71C1C'>*</font><br>" +
-                    "na ich orodovanie daj nám účasť<br>" +
-                    "na utrpení a zmŕtvychvstaní tvojho Syna, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ťa vo večnosti mohli vidieť z tváre do tváre.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi obetné dary, ktoré ti prinášame<br>" +
-                    "na sviatok apoštolov Filipa a Jakuba, <font color='#B71C1C'>—</font><br>" +
-                    "a pomáhaj nám uvádzať do života<br>" +
-                    "rýdzu a bezchybnú nábožnosť.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Otče, <font color='#B71C1C'>*</font><br>" +
-                    "týmto svätým prijímaním očisti naše srdce,<br>" +
-                    "aby sme ťa aj my poznali v tvojom Synovi<br>" +
-                    "ako svätý Filip a Jakub,<br>" +
-                    "a zaslúžili si život večný. Skrze Krista, nášho Pána."},
-            {"12a", "Všemohúci Bože,<br>" +
-                    "ty si dal svätým mučeníkom Nereovi a Achilovi<br>" +
-                    "odvahu a stálosť vo vyznávaní viery; <font color='#B71C1C'>*</font><br>" +
-                    "pomôž aj nám na ich orodovanie, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme neohrozene vyznávali vieru až do smrti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"12b", "Dobrotivý Bože, nech sa tvoja Cirkev raduje,<br>" +
+                    "na ich orodovanie daj nám účasť <br>" +
+                    "na utrpení a zmŕtvychvstaní tvojho jednorodeného Syna, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme si naveky zaslúžili hľadieť na tvoju tvár. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "prijmi dary, ktoré ti prinášame <br>" +
+                            "na sviatok apoštolov Filipa a Jakuba, <font color='#B71C1C'>—</font><br>" +
+                            "a daj nám pravú a čistú nábožnosť. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "týmto svätým prijímaním očisti naše srdcia, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme ťa spolu s apoštolmi Filipom a Jakubom <br>" +
+                            "spoznali v tvojom Synovi <font color='#B71C1C'>—</font><br>" +
+                            "a zaslúžili si večný život. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"04", "Všemohúci Bože, <br>" +
+                    "ty si svätému mučeníkovi Floriánovi udelil milosť, <br>" +
+                    "že vlastnou smrťou dosvedčil vieru v Krista; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, na jeho príhovor nás ochraňuj od každého zla <font color='#B71C1C'>—</font><br>" +
+                    "a pomáhaj nám, aby sme mali odvahu <br>" +
+                    "neohrozene vyznávať vieru v tvojho Syna. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+            {"10","Bože, svätého Jána z Avily <br>" +
+                    "si dal kňazom i svojmu ľudu za znamenitého učiteľa <br>" +
+                    "pre jeho svätosť a horlivosť; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sa Cirkev horlivosťou tvojich služobníkov <br>" +
+                    "aj v našich časoch vzmáhala vo svätosti. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"11", "Všemohúci a večný Bože, <br>" +
+                    "ty si udelil blahoslavenej Sáre, panne a mučenici, <br>" +
+                    "že tebe zasvätený život korunovala mučeníctvom; <font color='#B71C1C'>*</font><br>" +
+                    "na jej orodovanie prosíme, <br>" +
+                    "udeľ nám milosť ohlasovať spásu chudobným, <font color='#B71C1C'>—</font><br>" +
+                    "vykúpenie väzneným a radosť zarmúteným. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"12a", "Všemohúci Bože, <br>" +
+                    "poznáme veľkú odvahu <br>" +
+                    "slávnych mučeníkov Nerea a Achila, <br>" +
+                    "s akou ťa vyznali; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme vždy pociťovali účinky ich orodovania. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"12b", "Bože, nech sa tvoja Cirkev raduje, <br>" +
                     "že sa za ňu prihovára svätý mučeník Pankrác; <font color='#B71C1C'>*</font><br>" +
-                    "pomôž jej, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby vytrvala v nábožnej oddanosti tebe<br>" +
-                    "a pod tvojou ochranou žila v trvalom pokoji.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"13m", "Dobrotivý Bože,<br>" +
-                    "ty si Rodičku svojho Syna ustanovil aj za našu Matku; <font color='#B71C1C'>*</font><br>" +
-                    "daj, prosíme,<br>" +
-                    "aby sme zotrvávali v pokání<br>" +
-                    "a na modlitbách za spásu sveta <font color='#B71C1C'>―</font><br>" +
-                    "a mohli čoraz viac a účinnejšie zveľaďovať<br>" +
-                    "Kristovo kráľovstvo.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh<br>" +
-                    "a s tebou žije a kraľuje v jednote s Duchom Svätým<br>" +
-                    "po všetky veky vekov.", "", ""},
-            {"14g", "Milosrdný Bože, ty si pridružil svätého Mateja<br>" +
-                    "k zboru apoštolov; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho orodovanie nám udeľ milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme všetci, ktorých zahŕňaš svojou láskou,<br>" +
-                    "boli raz pripočítaní k tvojim vyvoleným.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi obetné dary,<br>" +
-                    "ktoré ti tvoja Cirkev úctivo predkladá<br>" +
-                    "na sviatok apoštola Mateja, <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby sa nám stali prameňom milosti a sily.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "neprestajne zahŕňaj rodinu veriacich<br>" +
-                    "nebeskými darmi <font color='#B71C1C'>—</font><br>" +
-                    "a na príhovor svätého Mateja<br>" +
-                    "prijmi nás do blaženého spoločenstva tvojich svätých.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"16", "Milosrdný Bože,<br>" +
-                    "ty si vyvolil kňaza a mučeníka Jána<br>" +
-                    "za obrancu práv Cirkvi<br>" +
-                    "a za strážcu spovedného tajomstva; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme si vzali príklad z jeho statočnosti<br>" +
-                    "a verne konali službu, do ktorej si nás povolal.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Prijmi, Bože, obetu zmierenia a chvály, <font color='#B71C1C'>*</font><br>" +
-                    "ktorú slávime<br>" +
-                    "na sviatok svätého Jána Nepomuckého;<br>" +
-                    "pre jej zásluhy odpusť nám hriechy <font color='#B71C1C'>—</font><br>" +
-                    "a naplň nás ustavičnou vďačnosťou.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože,<br>" +
-                    "nech nás posilňuje nebeský chlieb,<br>" +
-                    "ktorý sme prijali, <font color='#B71C1C'>*</font><br>" +
-                    "ako posilňoval tvojho kňaza a mučeníka Jána, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ti vždy<br>" +
-                    "a vo všetkých okolnostiach zostali verní.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"16g", "Milosrdný Bože,<br>" +
-                    "ty si vyvolil kňaza a mučeníka Jána<br>" +
-                    "za obrancu práv Cirkvi<br>" +
-                    "a za strážcu spovedného tajomstva; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme si vzali príklad z jeho statočnosti<br>" +
-                    "a verne konali službu, do ktorej si nás povolal.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Prijmi, Bože, obetu zmierenia a chvály, <font color='#B71C1C'>*</font><br>" +
-                    "ktorú slávime<br>" +
-                    "na sviatok svätého Jána Nepomuckého;<br>" +
-                    "pre jej zásluhy odpusť nám hriechy <font color='#B71C1C'>—</font><br>" +
-                    "a naplň nás ustavičnou vďačnosťou.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože,<br>" +
-                    "nech nás posilňuje nebeský chlieb,<br>" +
-                    "ktorý sme prijali, <font color='#B71C1C'>*</font><br>" +
-                    "ako posilňoval tvojho kňaza a mučeníka Jána, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ti vždy<br>" +
-                    "a vo všetkých okolnostiach zostali verní.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"18", "Večný Bože, odmena verných duší,<br>" +
-                    "tento deň si posvätil mučeníctvom<br>" +
-                    "svätého pápeža Jána; <font color='#B71C1C'>*</font><br>" +
-                    "obdivujeme jeho záslužné činy<br>" +
-                    "a vrúcne ťa prosíme, pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vždy nasledovali jeho stálosť vo viere.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"20", "Láskavý Otče,<br>" +
-                    "ty si vložil do srdca svojho kňaza Bernardína<br>" +
-                    "veľkú lásku k svätému menu Ježiš; <font color='#B71C1C'>*</font><br>" +
-                    "pre jeho zásluhy a na jeho orodovanie dopraj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme aj my horeli láskou k tebe.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"21", "Všemohúci večný Bože,<br>" +
-                    "ty si svätého kňaza Krištofa a jeho spoločníkov<br>" +
-                    "urobil vernými Kristovi Kráľovi až po mučeníctvo; <font color='#B71C1C'>*</font><br>" +
-                    "na ich orodovanie nám udeľ,<br>" +
-                    "aby sme vytrvali vo vyznávaní pravej viery <font color='#B71C1C'>―</font><br>" +
-                    "a tak sa vždy pridŕžali prikázaní tvojej lásky.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"22", "Otče, uštedri nám, prosíme,<br>" +
-                    "múdrosť a silu kríža, <font color='#B71C1C'>*</font><br>" +
-                    "ktorými si milostivo obdaril svätú Ritu, <font color='#B71C1C'>―</font><br>" +
-                    "aby sme v súženiach trpeli s Kristom,<br>" +
-                    "a tak mohli mať hlbokú účasť<br>" +
-                    "na jeho veľkonočnom tajomstve.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"25a", "Láskavý Bože,<br>" +
-                    "ty osvecuješ svoju Cirkev náukou<br>" +
-                    "svätého kňaza Bédu; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, dopraj, <font color='#B71C1C'>—</font><br>" +
-                    "aby nám jeho múdrosť svietila na ceste života<br>" +
-                    "a jeho zásluhy pomáhali vytrvať v dobrom.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"25b", "Všemohúci Bože,<br>" +
-                    "svätého pápeža Gregora si vyznačil<br>" +
-                    "veľkou duchovnou silou<br>" +
-                    "a horlivosťou za spravodlivosť; <font color='#B71C1C'>*</font><br>" +
-                    "udeľ aj dnes svojej Cirkvi odvahu<br>" +
-                    "vystupovať proti bezpráviu <font color='#B71C1C'>—</font><br>" +
-                    "a s úprimnou láskou slobodne slúžiť pravde a dobru.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"25c", "Bože, milovník panenskej čistoty, <font color='#B71C1C'>*</font><br>" +
-                    "svätú Máriu Magdalénu de' Pazzi,<br>" +
-                    "ktorej srdce horelo vrúcnou láskou k tebe,<br>" +
-                    "obdaril si mimoriadnymi nad prirodzenými darmi; <font color='#B71C1C'>—</font><br>" +
-                    "prosíme ťa, dopraj nám všetkým,<br>" +
-                    "čo ju dnes uctievame,<br>" +
-                    "nasledovať príklad jej čistoty a lásky.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"26", "Láskavý Bože,<br>" +
-                    "svojich verných služobníkov<br>" +
-                    "korunuješ slávou svätosti<br>" +
-                    "a dávaš ich za vzor svojim veriacim; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, zapáľ nám srdcia<br>" +
-                    "ohňom Ducha Svätého<br>" +
-                    "a zachovaj v nás lásku a veselosť,<br>" +
-                    "akú nosil v srdci svätý kňaz Filip Neri, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme boli poslami tvojej radosti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "prinášame ti obetu chvály a vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa príkladu svätého Filipa<br>" +
-                    "vždy s radosťou oslavovali tvoje meno<br>" +
-                    "a s láskou slúžili svojim blížnym.<br>" +
-                    "Skrze Krista, nášho Pána.", "Prosíme ťa, milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás sväté prijímanie naplní radosťou,<br>" +
-                    "s akou svätý Filip ohlasoval ľuďom tvoju lásku, <font color='#B71C1C'>—</font><br>" +
-                    "nech ustavične túžime<br>" +
-                    "po sviatostnom pokrme,<br>" +
-                    "ktorý v nás zveľaďuje pravý život.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"27", "Bože, vládca národov,<br>" +
-                    "slovom a príkladom svätého biskupa Augustína<br>" +
-                    "priviedol si národy Anglicka k svetlu evanjelia; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby jeho misionárske námahy<br>" +
-                    "prinášali v tvojej Cirkvi vždy novú úrodu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"29", "Bože, ty si zveril svoju Cirkev <br>" +
-                    "svätému pápežovi Pavlovi, <br>" +
-                    "horlivému ohlasovateľovi evanjelia tvojho Syna; <br>" +
-                    "prosíme ťa, dopraj, <br>" +
-                    "aby sme podľa jeho náuky <br>" +
-                    "spolupracovali s tebou na šírení <br>" +
-                    "vzájomnej úcty a lásky medzi ľuďmi.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""}
+                    "na jeho slávne prosby dopraj, <br>" +
+                    "aby sme ti boli nábožne oddaní <font color='#B71C1C'>—</font><br>" +
+                    "a zostali pevní pod tvojou ochranou. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"13m", "Bože, ty si Matku svojho Syna <br>" +
+                    "ustanovil aj za našu Matku; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby sme zotrvávali <br>" +
+                    "v pokání a na modlitbách za spásu sveta <font color='#B71C1C'>—</font><br>" +
+                    "a mohli deň čo deň účinnejšie zveľaďovať Kristovo kráľovstvo. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+                    {"14g", "Bože, ty si pridružil <br>" +
+                            "svätého Mateja k zboru apoštolov; <font color='#B71C1C'>*</font><br>" +
+                            "na jeho orodovanie dopraj, <br>" +
+                            "aby všetci, ktorých zahŕňaš svojou láskou, <font color='#B71C1C'>—</font><br>" +
+                            "boli raz pripočítaní k tvojim vyvoleným. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.",
+                            "Pane, prijmi dary, <br>" +
+                                    "ktoré ti tvoja Cirkev úctivo predkladá <br>" +
+                                    "na sviatok svätého apoštola Mateja, <font color='#B71C1C'>*</font><br>" +
+                                    "a láskavo dopraj, <font color='#B71C1C'>—</font><br>" +
+                                    "aby nás posilnili tvojou milosťou. <br>" +
+                                    "Skrze Krista, nášho Pána.",
+                            "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                                    "neprestajne zahŕňaj rodinu <br>" +
+                                    "svojich veriacich nebeskými darmi <font color='#B71C1C'>—</font><br>" +
+                                    "a na príhovor svätého Mateja nás prijmi <br>" +
+                                    "do blaženého spoločenstva svojich svätých.<br>" +
+                                    "Skrze Krista, nášho Pána."},
+                    {"16", "Milosrdný Bože, <br>" +
+                            "ty si vyvolil kňaza a mučeníka Jána <br>" +
+                            "za obrancu práv Cirkvi <br>" +
+                            "a za strážcu spovedného tajomstva; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, pomáhaj nám, <br>" +
+                            "aby sme si vzali príklad z jeho statočnosti <font color='#B71C1C'>—</font><br>" +
+                            "a verne konali službu, do ktorej si nás povolal. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.",
+                            "Bože, prijmi obetu zmierenia a chvály, <br>" +
+                                    "ktorú slávime na sviatok svätého Jána Nepomuckého; <font color='#B71C1C'>*</font><br>" +
+                                    "pre jej zásluhy odpusť nám hriechy <font color='#B71C1C'>—</font><br>" +
+                                    "a naplň nás ustavičnou vďačnosťou. <br>" +
+                                    "Skrze Krista, nášho Pána.",
+                            "Milosrdný Bože, nech nás posilňuje <br>" +
+                                    "nebeský chlieb, ktorý sme prijali, <font color='#B71C1C'>*</font><br>" +
+                                    "ako posilňoval tvojho kňaza a mučeníka Jána, <font color='#B71C1C'>—</font><br>" +
+                                    "aby sme ti vždy a vo všetkých <br>" +
+                                    "okolnostiach zostali verní. <br>" +
+                                    "Skrze Krista, nášho Pána."},
+                    {"16g", "Milosrdný Bože, <br>" +
+                            "ty si vyvolil kňaza a mučeníka Jána <br>" +
+                            "za obrancu práv Cirkvi <br>" +
+                            "a za strážcu spovedného tajomstva; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, pomáhaj nám, <br>" +
+                            "aby sme si vzali príklad z jeho statočnosti <font color='#B71C1C'>—</font><br>" +
+                            "a verne konali službu, do ktorej si nás povolal. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.",
+                            "Bože, prijmi obetu zmierenia a chvály, <br>" +
+                                    "ktorú slávime na sviatok svätého Jána Nepomuckého; <font color='#B71C1C'>*</font><br>" +
+                                    "pre jej zásluhy odpusť nám hriechy <font color='#B71C1C'>—</font><br>" +
+                                    "a naplň nás ustavičnou vďačnosťou. <br>" +
+                                    "Skrze Krista, nášho Pána.",
+                            "Milosrdný Bože, nech nás posilňuje <br>" +
+                                    "nebeský chlieb, ktorý sme prijali, <font color='#B71C1C'>*</font><br>" +
+                                    "ako posilňoval tvojho kňaza a mučeníka Jána, <font color='#B71C1C'>—</font><br>" +
+                                    "aby sme ti vždy a vo všetkých <br>" +
+                                    "okolnostiach zostali verní. <br>" +
+                                    "Skrze Krista, nášho Pána."},
+                    {"18", "Bože, odmena verných duší, <br>" +
+                            "ty si tento deň posvätil mučeníctvom <br>" +
+                            "svätého pápeža Jána; <font color='#B71C1C'>*</font><br>" +
+                            "láskavo vypočuj prosby svojho ľudu <br>" +
+                            "a daj, aby sme aj my, keď obdivujeme jeho zásluhy, <font color='#B71C1C'>—</font><br>" +
+                            "napodobňovali jeho stálosť vo viere. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"20", "Bože, ty si vložil do srdca svojho kňaza Bernardína <br>" +
+                            "veľkú lásku k svätému menu Ježiš; <font color='#B71C1C'>*</font><br>" +
+                            "pre jeho zásluhy a na jeho orodovanie dopraj, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme aj my horeli láskou k tebe. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"21", "Všemohúci a večný Bože, <br>" +
+                            "ty si svätého kňaza Krištofa a jeho spoločníkov <br>" +
+                            "urobil vernými Kristovi Kráľovi až po mučeníctvo; <font color='#B71C1C'>*</font><br>" +
+                            "na ich príhovor dopraj, <br>" +
+                            "aby sme vytrvali vo vyznávaní pravej viery, <font color='#B71C1C'>—</font><br>" +
+                            "a tak sa vždy pridŕžali prikázaní tvojej lásky. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"22", "Prosíme ťa, Pane, <br>" +
+                            "uštedri nám múdrosť a silu kríža, <br>" +
+                            "ktorými si milostivo obdaril svätú Ritu, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme v súženiach trpeli s Kristom, <font color='#B71C1C'>—</font><br>" +
+                            "a tak mohli mať hlbokú účasť na jeho veľkonočnom tajomstve. <br>" +
+                            "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                            "v jednote Ducha Svätého po všetky veky vekov.","",""},
+                    {"25a", "Bože, ty osvecuješ svoju Cirkev <br>" +
+                            "náukou svätého kňaza Bédu; <font color='#B71C1C'>*</font><br>" +
+                            "láskavo dopraj, aby nás vždy osvecovala jeho múdrosť <font color='#B71C1C'>—</font><br>" +
+                            "a pomáhali nám jeho zásluhy. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"25b", "Prosíme ťa, Pane, <br>" +
+                            "daj nám ducha sily a horlivosti za spravodlivosť, <br>" +
+                            "ktorými si nechal zažiariť svätého pápeža Gregora, <font color='#B71C1C'>*</font><br>" +
+                            "aby Cirkev s odvahou vystupovala proti bezpráviu <font color='#B71C1C'>—</font><br>" +
+                            "a s láskou a slobodne podporovala všetko, čo je správne. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"25c", "Bože, milovník panenskej čistoty, <br>" +
+                            "ty si obdaril nebeskými darmi <br>" +
+                            "svätú pannu Máriu Magdalénu <font color='#B71C1C'>(</font>de Pazzi<font color='#B71C1C'>)</font>, <br>" +
+                            "ktorej srdce horelo láskou k tebe; <font color='#B71C1C'>*</font><br>" +
+                            "a keď ju dnes oslavujeme, dopraj, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme ju nasledovali v jej príklade čistoty a lásky. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"26", "Bože, svojich verných služobníkov <br>" +
+                            "korunuješ slávou svätosti; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, dopraj, aby Duch Svätý zapálil v nás oheň, <font color='#B71C1C'>—</font><br>" +
+                            "ktorý obdivuhodne prenikol srdce svätého Filipa. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.",
+                            "Pane, prinášame ti obetu chvály <font color='#B71C1C'>*</font><br>" +
+                                    "a prosíme ťa, daj, aby sme <br>" +
+                                    "podľa príkladu svätého Filipa <br>" +
+                                    "vždy oslavovali tvoje meno <font color='#B71C1C'>—</font><br>" +
+                                    "a s radosťou slúžili blížnym. <br>" +
+                                    "Skrze Krista, nášho Pána.",
+                            "Pane, nasýtil si nás nebeským pokrmom; <font color='#B71C1C'>*</font><br>" +
+                                    "daj, prosíme, aby sme podľa <br>" +
+                                    "príkladu svätého Filipa vždy túžili po tejto posile, <font color='#B71C1C'>—</font><br>" +
+                                    "ktorá v nás zveľaďuje opravdivý život. <br>" +
+                                    "Skrze Krista, nášho Pána."},
+                    {"27", "Bože, ty si ohlasovaním svätého biskupa Augustína <br>" +
+                            "priviedol národy Anglicka k evanjeliu; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, <br>" +
+                            "aby jeho vytrvalá práca v tvojej Cirkvi <font color='#B71C1C'>—</font><br>" +
+                            "vždy prinášala novú úrodu. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"29", "Bože, ty si zveril svoju Cirkev <br>" +
+                            "svätému pápežovi Pavlovi, <br>" +
+                            "horlivému ohlasovateľovi evanjelia tvojho Syna; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, dopraj, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme podľa jeho náuky spolupracovali s tebou <br>" +
+                            "na šírení vzájomnej úcty a lásky medzi ľuďmi.<br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
     };
 
     String[][] modlitba6 = {
-            {"01", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "ty si svätého mučeníka Justína priviedol<br>" +
-                    "k hlbokému poznaniu Ježiša Krista skrze kríž,<br>" +
-                    "ktorý je pre mnohých bláznovstvom; <font color='#B71C1C'>—</font><br>" +
-                    "na jeho orodovanie nás ochraňuj<br>" +
-                    "pred bludnými náukami<br>" +
-                    "a upevňuj vo vyznávaní pravej viery.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, prijmi naše obetné dary <font color='#B71C1C'>*</font><br>" +
-                    "a daj, aby sme dôstojne slávili<br>" +
-                    "eucharistické tajomstvo, <font color='#B71C1C'>—</font><br>" +
-                    "ktoré svätý mučeník Justín<br>" +
-                    "tak odhodlane a statočne obraňoval.<br>" +
-                    "Skrze Krista, nášho Pána.", "Večný Bože,<br>" +
-                    "nebeským pokrmom posilnení pokorne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
-                    "aby sme žili podľa náuky svätého<br>" +
-                    "mučeníka Justína <font color='#B71C1C'>—</font><br>" +
-                    "a ustavične ti ďakovali za prijaté dary.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"02", "Láskavý Bože,<br>" +
-                    "pre slávne mučeníctvo svätého Marcelína a Petra<br>" +
-                    "poskytuješ svojej Cirkvi vytrvalosť a odvahu; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby nás svojím orodovaním posilňovali <font color='#B71C1C'>—</font><br>" +
-                    "a svojím príkladom povzbudzovali k stálosti vo viere.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"03", "Všemohúci Bože,<br>" +
-                    "tvojím pôsobením sa krv mučeníkov<br>" +
-                    "stáva semenom nových kresťanov; <font color='#B71C1C'>*</font><br>" +
-                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby pole tvojej Cirkvi,<br>" +
-                    "skropené krvou svätého Karola a jeho spoločníkov,<br>" +
+            {"01", "Bože, ty si svätého mučeníka Justína <br>" +
+                    "obdivuhodne priviedol k jedinečnému <br>" +
+                    "poznaniu Ježiša Krista skrze kríž, <br>" +
+                    "ktorý je pre múdrych bláznovstvom; <font color='#B71C1C'>*</font><br>" +
+                    "na jeho orodovanie dopraj, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme odmietali bludné náuky a upevňovali sa vo viere. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "dopraj, aby sme dôstojne slávili tieto tajomstvá, <font color='#B71C1C'>—</font><br>" +
+                            "ktoré svätý Justín tak statočne obraňoval. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, posilnení nebeským pokrmom <br>" +
+                            "pokorne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme nasledovali náuku svätého mučeníka Justína <font color='#B71C1C'>—</font><br>" +
+                            "a vždy vzdávali vďaky za prijaté dary. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"02", "Bože, ty nás pre slávne vyznanie <br>" +
+                    "svätých mučeníkov Marcelína a Petra <br>" +
+                    "zahŕňaš ochranou; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj, aby sme mali úžitok z ich nasledovania <font color='#B71C1C'>—</font><br>" +
+                    "a posilu z ich príhovoru za nás. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"03", "Bože, tvojím pôsobením sa krv mučeníkov <br>" +
+                    "stala semenom nových kresťanov; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj láskavo, aby pole tvojej Cirkvi, <br>" +
+                    "skropené krvou svätého Karola a jeho spoločníkov, <font color='#B71C1C'>—</font><br>" +
                     "prinášalo stále hojnú úrodu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože,<br>" +
-                    "prinášame ti obetné dary<br>" +
-                    "v deň spomienky na ugandských mučeníkov,<br>" +
-                    "ktorí radšej zomreli, ako by mali zhrešiť; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme boli oddaní jedine tebe<br>" +
-                    "a nábožne slúžili pri tvojom oltári.<br>" +
-                    "Skrze Krista, nášho Pána.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "pri oslave víťaznej smrti svätých mučeníkov<br>" +
-                    "prijali sme Eucharistiu,<br>" +
-                    "ktorá ich posilňovala v utrpení; <font color='#B71C1C'>—</font><br>" +
-                    "prosíme ťa, daj,<br>" +
-                    "aby táto vznešená sviatosť aj nám pomáhala<br>" +
-                    "zachovať si živú vieru a lásku<br>" +
-                    "uprostred skúšok a protivenstiev tohto života.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"05", "Láskavý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj nám na orodovanie svätého<br>" +
-                    "mučeníka Bonifáca, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme pevne vyznávali<br>" +
-                    "a životom dosvedčovali vieru,<br>" +
-                    "ktorú on neohrozene hlásal a spečatil svojou krvou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"06", "Nekonečný Bože,<br>" +
-                    "svätý Norbert sa pre svoju lásku k modlitbe<br>" +
-                    "a pastiersku horlivosť<br>" +
-                    "stal biskupom podľa tvojho srdca; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho príhovor daj svojmu ľudu<br>" +
-                    "aj dnes biskupov a kňazov, <font color='#B71C1C'>—</font><br>" +
-                    "ktorí by sa s láskou starali o tvojich veriacich<br>" +
-                    "a viedli ich k prameňom spásy.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"09", "Dobrotivý Bože,<br>" +
-                    "pôsobením Ducha Svätého<br>" +
-                    "si tak roznietil svätého diakona Efréma,<br>" +
-                    "že radostne ospevoval vznešenosť tvojich tajomstiev<br>" +
-                    "a venoval sa iba tvojej službe; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa,<br>" +
-                    "aj do našich sŕdc vlož lásku a silu svojho Ducha, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ti verne slúžili a svojím životom ťa chválili.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"11", "Dobrotivý Bože,<br>" +
-                    "ty si poslal svätého Barnabáša,<br>" +
-                    "plného viery a Ducha Svätého,<br>" +
-                    "ohlasovať evanjelium pohanom; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "vzbudzuj aj dnes horlivých pracovníkov,<br>" +
-                    "ktorí by podľa jeho príkladu<br>" +
-                    "slovom i životom ohlasovali blahozvesť Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh<br>" +
-                    "a s tebou žije a kraľuje v jednote s Duchom Svätým<br>" +
-                    "po všetky veky vekov.", "Prosíme ťa, večný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "požehnaj a posväť tieto obetné dary <font color='#B71C1C'>—</font><br>" +
-                    "a zapáľ v nás oheň lásky,<br>" +
-                    "ktorou horel svätý Barnabáš,<br>" +
-                    "keď národom niesol svetlo evanjelia.<br>" +
-                    "Skrze Krista, nášho Pána.", "Nekonečný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "pri spomienke na svätého Barnabáša<br>" +
-                    "prijali sme nebeský chlieb<br>" +
-                    "ako záloh večného života; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme raz z tváre do tváre<br>" +
-                    "videli Ježiša Krista,<br>" +
-                    "ktorého prijímame v Oltárnej sviatosti.<br>" +
-                    "Lebo on žije a kraľuje na veky vekov."},
-            {"13", "Všemohúci a večný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "vo svätom Antonovi si dal svojmu ľudu<br>" +
-                    "vynikajúceho kazateľa<br>" +
-                    "a mocného pomocníka v núdzi; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme na jeho príhovor<br>" +
-                    "žili podľa kresťanských zásad<br>" +
-                    "a vo všetkých protivenstvách cítili tvoju ochranu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"16+", "", "Všemohúci a milosrdný Bože,<br>" +
-                    "ty si svätému Neitovi pomáhal<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, svätým mučeníkom <br>" +
+                            "si dal silu radšej zomrieť, ako zhrešiť; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, prijmi naše obetné dary <br>" +
+                            "a dopraj, aby sme boli oddaní iba tebe <font color='#B71C1C'>—</font><br>" +
+                            "a slúžili ti pri tvojom oltári.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, pri oslave víťaznej smrti <br>" +
+                            "svätých mučeníkov prijali sme Eucharistiu, <br>" +
+                            "ktorá ich posilňovala v utrpení; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby táto sviatosť aj nám <br>" +
+                            "pomáhala zachovať si pevnú vieru a lásku <br>" +
+                            "uprostred skúšok a protivenstiev. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"05", "Bože, na orodovanie <br>" +
+                    "svätého mučeníka Bonifáca nám pomáhaj, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme pevne vyznávali a životom dosvedčovali vieru, <font color='#B71C1C'>—</font><br>" +
+                    "ktorú on neohrozene hlásal a spečatil svojou krvou. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"06", "Bože, ty si ustanovil svätého Norberta <br>" +
+                    "za biskupa a služobníka svojej Cirkvi <br>" +
+                    "pre jeho lásku k modlitbe a pastiersku horlivosť; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, na jeho príhovor dopraj, <br>" +
+                    "aby spoločenstvo veriacich <br>" +
+                    "malo vždy pastierov podľa tvojho srdca, <font color='#B71C1C'>—</font><br>" +
+                    "ktorí ho budú neustále viesť k prameňom spásy. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"09", "Bože, láskavo vlej <br>" +
+                    "do našich sŕdc silu Ducha Svätého, <br>" +
+                    "ktorým si podnietil svätého diakona Efréma, <font color='#B71C1C'>*</font><br>" +
+                    "aby radostne ospevoval <br>" +
+                    "vznešenosť tvojich tajomstiev <font color='#B71C1C'>—</font><br>" +
+                    "a slúžil jedine tebe. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"11", "Bože, ty si poslal svätého Barnabáša, <br>" +
+                    "plného viery a Ducha Svätého, obrátiť národy k viere; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby sa Kristovo evanjelium, <br>" +
+                    "ktoré on tak neochvejne šíril, <font color='#B71C1C'>—</font><br>" +
+                    "stále s vierou ohlasovalo slovami i skutkami. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "požehnaj a posväť tieto obetné dary, <br>" +
+                            "ktoré si nám dal, aby v nás zapálili oheň tvojej lásky, <font color='#B71C1C'>*</font><br>" +
+                            "ktorým horel svätý Barnabáš, <font color='#B71C1C'>—</font><br>" +
+                            "keď niesol národom svetlo evanjelia. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, pri spomienke na svätého Barnabáša <br>" +
+                            "prijali sme nebeský chlieb ako záloh večného života; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby sme raz z tváre do tváre videli Ježiša Krista, <font color='#B71C1C'>—</font><br>" +
+                            "ktorého prijímame v Oltárnej sviatosti. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"13", "Všemohúci a večný Bože, <br>" +
+                    "vo svätom Antonovi si dal svojmu ľudu <br>" +
+                    "vynikajúceho kazateľa <br>" +
+                    "a mocného pomocníka v núdzi; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme s jeho pomocou žili <br>" +
+                    "podľa kresťanských zásad <font color='#B71C1C'>—</font><br>" +
+                    "a vo všetkých protivenstvách cítili tvoju ochranu. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"16+", "Všemohúci a milosrdný Bože, ty si svätému Neitovi pomáhal<br>" +
                     "hrdinsky znášať útrapy mučenia; <font color='#B71C1C'>*</font><br>" +
                     "na jeho príhovor nám pomôž<br>" +
                     "tak pracovať na šírení viery, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme získali pre Krista čím viac bratov a sestier<br>" +
-                    "a spolu s nimi dosiahli večný život.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Láskavý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech v nás táto obeta vznieti takú duševnú silu, <font color='#B71C1C'>—</font><br>" +
-                    "akú prejavoval svätý mučeník Neitus<br>" +
-                    "v tvojej službe a v hrdinskom utrpení.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"19", "Dobrotivý Bože,<br>" +
-                    "ty si prostredníctvom svätého Romualda<br>" +
-                    "obnovil vo svojej Cirkvi<br>" +
-                    "pustovnícky spôsob života; <font color='#B71C1C'>*</font><br>" +
-                    "pomôž aj nám premáhať seba<br>" +
-                    "a nasledovať Krista, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme šťastne došli do nebeského kráľovstva.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"21", "Bože, pôvodca nebeských darov,<br>" +
-                    "ty si v živote svätého Alojza<br>" +
+                    "aby sme získali pre Krista<br>" +
+                    "čím viac bratov a sestier<br>" +
+                    "a spolu s nimi dosiahli večný život. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "po všetky veky vekov. ",
+                    "Dobrotivý Bože, požehnaj tieto dary <font color='#B71C1C'>*</font><br>" +
+                            "a posilni nás vo viere, <font color='#B71C1C'>—</font><br>" +
+                            "ktorú svätý Neitus dosvedčil <br>" +
+                            "obetovaním svojho života. <br>" +
+                            "Skrze Krista, nášho Pána. ",
+                    "Láskavý Bože, nech v nás táto obeta<br>" +
+                            "vzbudí takú duševnú silu, <font color='#B71C1C'>*</font><br>" +
+                            "akú prejavoval svätý mučeník Neitus v tvojej službe <font color='#B71C1C'>—</font><br>" +
+                            "a v hrdinskom utrpení. <br>" +
+                            "Skrze Krista, nášho Pána. "},
+            {"19", "Bože, ty si prostredníctvom svätého Romualda <br>" +
+                    "obnovil vo svojej Cirkvi pustovnícky spôsob života; <font color='#B71C1C'>*</font><br>" +
+                    "pomôž aj nám premáhať seba a nasledovať Krista, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme šťastne došli do nebeského kráľovstva. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"21", "Bože, pôvodca nebeských darov, <br>" +
+                    "ty si v živote svätého Alojza <br>" +
                     "spojil obdivuhodnú nevinnosť s kajúcnosťou; <font color='#B71C1C'>*</font><br>" +
-                    "pre jeho zásluhy a na jeho<br>" +
-                    "príhovor daj nám milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ho napodobňovali v kajúcnosti,<br>" +
-                    "ak sme ho nenasledovali v nevinnosti.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh<br>" +
-                    "a s tebou žije a kraľuje v jednote s Duchom Svätým<br>" +
-                    "po všetky veky vekov.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme ako svätý Alojz<br>" +
-                    "prichádzali na nebeskú hostinu<br>" +
-                    "vždy vo svadobnom rúchu milosti, <font color='#B71C1C'>—</font><br>" +
-                    "a tak vo svätej omši získali hojnosť tvojich darov.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože,<br>" +
-                    "nasýtil si nás anjelským chlebom; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme ti podľa príkladu svätého Alojza<br>" +
-                    "slúžili s čistým srdcom <font color='#B71C1C'>—</font><br>" +
-                    "a ustavične ti vzdávali vďaky.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"22a", "Dobrotivý Bože,<br>" +
-                    "vo svätom biskupovi Pavlínovi<br>" +
-                    "dal si svojej Cirkvi žiarivý príklad<br>" +
-                    "apoštolskej horlivosti a lásky k chudobným; <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj nám, aby sme uctievali jeho svätý život <font color='#B71C1C'>—</font><br>" +
-                    "a napodobňovali jeho činorodú lásku.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh<br>" +
-                    "a s tebou žije a kraľuje v jednote s Duchom Svätým<br>" +
-                    "po všetky veky vekov.", "", ""},
-            {"22b", "Láskavý Bože,<br>" +
-                    "mučenícka smrť je pred tebou<br>" +
-                    "najdokonalejším svedectvom pravej viery; <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj nám na orodovanie<br>" +
-                    "svätého Jána Fišera a Tomáša Morusa, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme v životných<br>" +
-                    "skúškach skutkami dokazovali vieru,<br>" +
-                    "ktorú vyznávame slovami.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"23gk", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme sa uberali cestou spásy,<br>" +
-                    "nasledujúc výzvy Pánovho predchodcu Jána Krstiteľa, <font color='#B71C1C'>—</font><br>" +
-                    "a tak bezpečne prišli k tomu,<br>" +
-                    "ktorého on predpovedal,<br>" +
-                    "k nášmu Pánovi Ježišovi Kristovi,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "láskavo zhliadni na dary, ktoré ti prinášame<br>" +
-                    "na slávnosť svätého Jána Krstiteľa, <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby sme ti so živou vierou a opravdivou láskou<br>" +
-                    "slúžili aj pri oltári aj v každodennom živote.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Otče,<br>" +
-                    "nasýtil si nás nebeským pokrmom; <font color='#B71C1C'>*</font><br>" +
-                    "daj, nech nás svätý Ján Krstiteľ<br>" +
-                    "sprevádza svojím orodovaním <font color='#B71C1C'>—</font><br>" +
-                    "a nech nám vyprosí zmilovanie u tvojho Syna,<br>" +
-                    "ktorého nazval Baránkom, čo sníma hriechy sveta.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána."},
-            {"24gk", "Dobrotivý Bože,<br>" +
-                    "ty si poslal svätého Jána Krstiteľa,<br>" +
-                    "aby pripravil starozákonný ľud<br>" +
-                    "na príchod Ježiša Krista; <font color='#B71C1C'>*</font><br>" +
-                    "daruj svojej Cirkvi radosť v Duchu Svätom <font color='#B71C1C'>—</font><br>" +
-                    "a veď nás stále po ceste pokoja a spásy.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Nebeský Otče, <font color='#B71C1C'>*</font><br>" +
-                    "s radosťou prinášame obetné dary na tvoj oltár<br>" +
-                    "na slávnosť narodenia Jána Krstiteľa, <font color='#B71C1C'>—</font><br>" +
-                    "ktorý predpovedal<br>" +
-                    "i oznámil príchod Spasiteľa sveta, Ježiša Krista,<br>" +
-                    "ktorý s tebou žije a kraľuje na veky vekov.", "Všemohúci Bože,<br>" +
-                    "na sviatok narodenia svätého Jána Krstiteľa<br>" +
-                    "posilnil si nás na hostine nebeského Baránka<br>" +
-                    "a naplnil svätou radosťou; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme čoraz lepšie poznávali, <font color='#B71C1C'>—</font><br>" +
-                    "že Kristus, ktorého Ján predpovedal,<br>" +
-                    "je pôvodcom nášho znovuzrodenia.<br>" +
-                    "On žije a kraľuje na veky vekov."},
-            {"27a", "Všemohúci a večný Bože,<br>" +
-                    "vo svätom Ladislavovi si nám dal príklad,<br>" +
-                    "ako ti možno oddane slúžiť<br>" +
-                    "v každom povolaní; <font color='#B71C1C'>*</font><br>" +
-                    "láskavo nám pomáhaj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme Kristovou náukou zveľaďovali svornosť<br>" +
-                    "a upevňovali lásku medzi ľuďmi.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"27b", "Večný Bože,<br>" +
-                    "vo svätom Cyrilovi si dal Cirkvi<br>" +
-                    "neohrozeného obrancu pravdy,<br>" +
+                    "pre jeho zásluhy a na jeho príhovor nám dopraj, <br>" +
+                    "aby sme ho napodobňovali v kajúcnosti, <font color='#B71C1C'>—</font><br>" +
+                    "ak sme ho nenasledovali v nevinnosti. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "daj, aby sme ako svätý Alojz <br>" +
+                            "prichádzali na nebeskú hostinu odetí <br>" +
+                            "do svadobného rúcha <font color='#B71C1C'>*</font><br>" +
+                            "a účasťou na tomto tajomstve <font color='#B71C1C'>—</font><br>" +
+                            "získali hojnosť tvojej milosti. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nasýtil si nás anjelským pokrmom; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby sme ti podľa príkladu <br>" +
+                            "svätého Alojza slúžili s čistým srdcom <font color='#B71C1C'>—</font><br>" +
+                            "a ustavične ti vzdávali vďaky. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"22a", "Bože, ty si učinil svätého biskupa Pavlína <br>" +
+                    "žiarivým príkladom apoštolskej horlivosti <br>" +
+                    "a lásky k chudobným; <font color='#B71C1C'>*</font><br>" +
+                    "keď slávime jeho zásluhy, dopraj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme napodobňovali aj príklad jeho činorodej lásky. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"22b", "Bože, mučenícka smrť <br>" +
+                    "je najdokonalejším svedectvom pravej viery; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby sme posilnení príhovorom <br>" +
+                    "svätých Jána Fišera a Tomáša Morusa <br>" +
+                    "potvrdzovali svedectvom života vieru, <font color='#B71C1C'>—</font><br>" +
+                    "ktorú vyznávame ústami. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"23gk", "Všemohúci Bože, <br>" +
+                    "daj, aby sme kráčali cestou spásy <br>" +
+                    "a nasledovali výzvy svätého Jána, <br>" +
+                    "Pánovho predchodcu, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme tak bezpečne prišli k tomu, <br>" +
+                    "ktorého on predpovedal, <font color='#B71C1C'>—</font><br>" +
+                    "k nášmu Pánovi Ježišovi Kristovi. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "láskavo zhliadni na dary, <br>" +
+                            "ktoré ti prinášame na slávnosť <br>" +
+                            "svätého Jána Krstiteľa, <font color='#B71C1C'>—</font><br>" +
+                            "a daj, aby sme ti oddane slúžili <br>" +
+                            "pri oltári aj v každodennom živote. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nasýtil si nás nebeským pokrmom; <font color='#B71C1C'>*</font><br>" +
+                            "daj, nech nás sprevádza láskavý <br>" +
+                            "príhovor svätého Jána Krstiteľa <font color='#B71C1C'>—</font><br>" +
+                            "a nech nám vyprosí zmilovanie u tvojho Syna, <br>" +
+                            "ktorého nazval Baránkom, čo sníma naše hriechy. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"24gk", "Bože, ty si poslal svätého Jána Krstiteľa, <br>" +
+                    "aby pripravil ľudí na prijatie Ježiša Krista; <font color='#B71C1C'>*</font><br>" +
+                    "daj svojmu ľudu milosť duchovných radostí <font color='#B71C1C'>—</font><br>" +
+                    "a veď srdcia všetkých veriacich po ceste pokoja a spásy. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prinášame obetné dary na tvoj oltár <br>" +
+                            "v deň slávnosti narodenia svätého Jána Krstiteľa, <font color='#B71C1C'>*</font><br>" +
+                            "ktorý zvestoval príchod Spasiteľa sveta <font color='#B71C1C'>—</font><br>" +
+                            "a ukázal na neho, že už je tu. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Pane, na sviatok narodenia <br>" +
+                            "svätého Jána Krstiteľa posilnil si nás <br>" +
+                            "na hostine nebeského Baránka <br>" +
+                            "a naplnil svätou radosťou; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby tvoja Cirkev čoraz lepšie poznávala, <font color='#B71C1C'>—</font><br>" +
+                            "že Kristus, ktorého Ján predpovedal, <br>" +
+                            "je pôvodcom nášho znovuzrodenia. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"27b", "Bože, vo svätom Cyrilovi <br>" +
+                    "si dal Cirkvi neohrozeného obrancu pravdy, <br>" +
                     "že preblahoslavená Panna Mária je Bohorodičkou; <font color='#B71C1C'>*</font><br>" +
-                    "aj my veríme a vyznávame,<br>" +
-                    "že je naozaj Matkou Božou, <font color='#B71C1C'>—</font><br>" +
-                    "a prosíme, aby sme dosiahli spásu<br>" +
-                    "v tvojom Synovi Ježišovi Kristovi,<br>" +
-                    "ktorý sa pre nás stal človekom<br>" +
-                    "a s tebou žije a kraľuje v jednote<br>" +
-                    "s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"28", "Dobrotivý Bože,<br>" +
-                    "ty si povolal svätého Ireneja<br>" +
-                    "obraňovať pravé učenie<br>" +
-                    "a upevňovať pokoj v Cirkvi; <font color='#B71C1C'>*</font><br>" +
+                    "aj my veríme, že je naozaj Božou Matkou, a prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme dosiahli spásu v tvojom Synovi Ježišovi Kristovi, <br>" +
+                    "ktorý sa pre nás stal človekom. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+            {"27a", "Všemohúci a večný Bože, <br>" +
+                    "vo svätom Ladislavovi si nám dal príklad, <br>" +
+                    "ako ti možno oddane slúžiť v každom povolaní; <font color='#B71C1C'>*</font><br>" +
+                    "láskavo nám pomáhaj, <br>" +
+                    "aby sme Kristovou náukou zveľaďovali svornosť <font color='#B71C1C'>—</font><br>" +
+                    "a upevňovali lásku medzi ľuďmi. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov. ","",""},
+            {"28", "Bože, ty si povolal svätého biskupa Ireneja <br>" +
+                    "posilňovať pravé učenie a pokoj v Cirkvi; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, na jeho príhovor <br>" +
+                    "obnov v nás vieru a lásku, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme sa vždy usilovali o jednotu a svornosť. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, v deň narodenia svätého Ireneja <br>" +
+                            "pre nebo ti s radosťou prinášame svätú obetu; <font color='#B71C1C'>*</font><br>" +
+                            "nech sa ňou oslávi tvoje meno <br>" +
+                            "a nech nás upevní v láske k pravde, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme sa držali neporušenej viery <br>" +
+                            "a zachovali jednotu Cirkvi. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, týmito posvätnými tajomstvami <br>" +
+                            "zveľaďuj v nás vieru, <br>" +
+                            "za ktorú svätý biskup Irenej <br>" +
+                            "podstúpil mučenícku smrť, <font color='#B71C1C'>*</font><br>" +
+                            "a pomáhaj nám, aby sme aj my <br>" +
+                            "dôsledne žili podľa viery, <font color='#B71C1C'>—</font><br>" +
+                            "ktorá nás urobí spravodlivými pred tebou. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"28gk", "Pane a Bože náš, <br>" +
+                    "požehnaným pôsobením svätých apoštolov <br>" +
+                    "Petra a Pavla dal si Cirkvi pevný základ; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "na jeho príhovor obnov v nás vieru a lásku,<br>" +
-                    "aby sme sa vždy usilovali o jednotu a svornosť.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Veľký a večný Bože,<br>" +
-                    "s radosťou ti prinášame svätú obetu<br>" +
-                    "v deň víťaznej smrti svätého Ireneja; <font color='#B71C1C'>*</font><br>" +
-                    "nech táto svätá omša oslávi tvoje meno<br>" +
-                    "a nás nech upevní v láske k pravde, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa držali neporušenej viery<br>" +
-                    "a zachovali jednotu Cirkvi.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože,<br>" +
-                    "týmito posvätnými tajomstvami<br>" +
-                    "zveľaďuj v nás vieru,<br>" +
-                    "za ktorú tvoj svätý biskup Irenej<br>" +
-                    "podstúpil mučenícku smrť, <font color='#B71C1C'>*</font><br>" +
-                    "a pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme aj my dôsledne žili podľa viery<br>" +
-                    "a dosiahli slávu v nebi.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"28gk", "Pane a Bože náš,<br>" +
-                    "požehnaným pôsobením svätých<br>" +
-                    "apoštolov Petra a Pavla<br>" +
-                    "dal si rodiacej sa Cirkvi pevný základ viery; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "na ich príhovor poskytni nám pomoc<br>" +
+                    "na ich príhovor poskytni nám pomoc <br>" +
                     "potrebnú na večnú spásu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "v predvečer slávnosti svätých apoštolov Petra a Pavla<br>" +
-                    "kladieme na tvoj oltár obetné dary, <font color='#B71C1C'>—</font><br>" +
-                    "a hoci nás zarmucujú naše poklesky,<br>" +
-                    "dúfame, že nás zachrániš pre svoju dobrotu.<br>" +
-                    "Skrze Krista, nášho Pána.", "Láskavý Bože,<br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
-                    "ustavične nás posilňuj nebeským pokrmom, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa držali náuky apoštolov.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"29gk", "Všemohúci a večný Bože,<br>" +
-                    "dnešnou slávnosťou svätého Petra a Pavla<br>" +
-                    "pripravil si nám veľkú a svätú radosť; <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj svojej Cirkvi, <font color='#B71C1C'>—</font><br>" +
-                    "aby vo všetkom nasledovala<br>" +
-                    "učenie svätých apoštolov,<br>" +
-                    "od ktorých pri svojom zrode prijala dar viery.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Prosíme ťa, Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech orodovanie svätých apoštolov<br>" +
-                    "sprevádza naše dary,<br>" +
-                    "ktoré sme priniesli na oltár, <font color='#B71C1C'>—</font><br>" +
-                    "a nech nám pomáha<br>" +
-                    "nábožne sláviť túto obetu.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Bože,<br>" +
-                    "posilnení touto sviatosťou vrúcne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
-                    "pomôž nám bratsky nažívať v Cirkvi,<br>" +
-                    "aby sme sa ako prví kresťania<br>" +
-                    "vytrvalo zúčastňovali na lámaní chleba,<br>" +
-                    "ostali verní náuke apoštolov, <font color='#B71C1C'>—</font><br>" +
-                    "a tak boli jedno srdce a jedna duša.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"30", "Všemohúci Bože,<br>" +
-                    "sľubné začiatky Cirkvi v Ríme<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, na slávnosť svätých apoštolov <br>" +
+                            "Petra a Pavla kladieme na tvoj oltár obetné dary, <font color='#B71C1C'>*</font><br>" +
+                            "a hoci nás veľmi zarmucujú naše poklesky, <font color='#B71C1C'>—</font><br>" +
+                            "predsa máme nádej, že nás zachrániš pre svoju dobrotu. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "posilňuj nebeským pokrmom svojich veriacich, <font color='#B71C1C'>—</font><br>" +
+                            "ktorých si poučil náukou apoštolov. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"29gk", "Bože, dnešnou slávnosťou <br>" +
+                    "svätých Petra a Pavla pripravil si nám <br>" +
+                    "veľkú a svätú radosť; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby tvoja Cirkev <br>" +
+                    "vo všetkom nasledovala učenie apoštolov, <font color='#B71C1C'>—</font><br>" +
+                    "od ktorých prijala základ viery. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "nech orodovanie apoštolov sprevádza dary, <font color='#B71C1C'>*</font><br>" +
+                            "ktoré ti prinášame na posvätenie, <font color='#B71C1C'>—</font><br>" +
+                            "a nech nám ich príhovor <br>" +
+                            "pomáha nábožne sláviť túto obetu. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, posilnení touto sviatosťou <br>" +
+                            "vrúcne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "pomôž nám v Cirkvi žiť tak, <br>" +
+                            "aby sme sa ako prví kresťania <br>" +
+                            "vytrvalo zúčastňovali na lámaní chleba, <font color='#B71C1C'>—</font><br>" +
+                            "ostali verní náuke apoštolov, <br>" +
+                            "a tak boli jedno srdce a jedna duša. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"30", "Bože, sľubné začiatky Cirkvi v Ríme <br>" +
                     "si posvätil krvou mnohých mučeníkov; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, daj,<br>" +
-                    "aby nás ich hrdinský zápas<br>" +
-                    "povzbudzoval k statočnosti <font color='#B71C1C'>—</font><br>" +
-                    "a ich sväté víťazstvo napĺňalo radosťou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
+                    "prosíme ťa, daj, nech čerpáme <br>" +
+                    "silu z ich veľkej odvahy <font color='#B71C1C'>—</font><br>" +
+                    "a nech sa navždy tešíme z ich svätého víťazstva. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
     };
 
     String[][] modlitba7 = {
-            {"02gm", "Všemohúci a večný Bože,<br>" +
-                    "keď pre blahoslavená Panna Mária<br>" +
-                    "nosila pod srdcom tvojho Syna,<br>" +
-                    "vnukol si jej, aby navštívila svätú Alžbetu; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme aj my ochotne poslúchali<br>" +
-                    "vnuknutia Ducha Svätého <font color='#B71C1C'>—</font><br>" +
-                    "a spolu s Pannou Máriou ťa vždy velebili.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Pane a Bože náš,<br>" +
-                    "nech ti je milá táto naša obeta, <font color='#B71C1C'>*</font><br>" +
-                    "ako ti bola milá služba lásky, <font color='#B71C1C'>—</font><br>" +
-                    "ktorú svätej Alžbete preukázala<br>" +
-                    "matka tvojho Syna Ježiša Krista,<br>" +
-                    "ktorý s tebou žije a kraľuje na veky vekov.", "Dobrotivý Otče,<br>" +
-                    "zvelebujeme ťa s Pannou Máriou a s celou Cirkvou,<br>" +
-                    "lebo si nás zahrnul veľkými milosťami; <font color='#B71C1C'>*</font><br>" +
-                    "a ako svätý Ján zaplesal, keď pocítil prítomnosť<br>" +
-                    "Božieho Syna v lone panenskej matky, <font color='#B71C1C'>—</font><br>" +
-                    "daj, nech aj my s radosťou prijímame Ježiša Krista,<br>" +
-                    "vždy prítomného v Oltárnej sviatosti.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána."},
-            {"03g", "Všemohúci Bože,<br>" +
-                    "s radosťou slávime sviatok svätého apoštola Tomáša,<br>" +
+            {"02gm", "Všemohúci a večný Bože, <br>" +
+                    "keď preblahoslavená Panna Mária <br>" +
+                    "nosila pod srdcom tvojho Syna, <br>" +
+                    "vnukol si jej, aby navštívila Alžbetu; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby sme ochotne <br>" +
+                    "nasledovali vnuknutia Ducha Svätého <font color='#B71C1C'>—</font><br>" +
+                    "a spolu s Pannou Máriou ťa vždy mohli velebiť.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "nech ti je milá táto naša obeta, <font color='#B71C1C'>—</font><br>" +
+                            "ako ti bola milá služba lásky <br>" +
+                            "najsvätejšej Matky tvojho jednorodeného Syna.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, nech ťa tvoja Cirkev zvelebuje, <br>" +
+                            "pretože si pre svojich veriacich <br>" +
+                            "urobil veľké veci, <font color='#B71C1C'>*</font><br>" +
+                            "a ako svätý Ján zaplesal, <br>" +
+                            "keď pocítil prítomnosť Božieho Syna, <font color='#B71C1C'>—</font><br>" +
+                            "tak nech aj my s radosťou prijímame Ježiša Krista, <br>" +
+                            "vždy prítomného v Oltárnej sviatosti.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"03g", "Všemohúci Bože, s radosťou slávime <br>" +
+                    "sviatok svätého apoštola Tomáša, <br>" +
                     "ktorý vyznal, že tvoj Syn je Pán a Boh; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, nech nás ustavične sprevádza<br>" +
-                    "ochrana tohto apoštola, <font color='#B71C1C'>—</font><br>" +
+                    "prosíme ťa, nech nás ustavične <br>" +
+                    "sprevádza ochrana tohto apoštola, <font color='#B71C1C'>—</font><br>" +
                     "aby sme vierou mali život v Ježišovom mene.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože,<br>" +
-                    "pri oslave mučeníckej smrti svätého apoštola Tomáša<br>" +
-                    "prinášame ti povinnú obetu chvály <font color='#B71C1C'>*</font><br>" +
-                    "a pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "zachovaj v nás milosť vykúpenia.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože,<br>" +
-                    "v tejto sviatosti sme prijali skutočné telo<br>" +
-                    "tvojho osláveného Syna <font color='#B71C1C'>*</font><br>" +
-                    "a spolu s apoštolom Tomášom<br>" +
-                    "v Kristovi spoznávame nášho Pána a Boha; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme sa k nemu hlásili nielen slovom,<br>" +
-                    "ale celým svojím životom.<br>" +
-                    "Lebo on s tebou žije a kraľuje na veky vekov."},
-            {"04", "Bože, pôvodca lásky a pokoja,<br>" +
-                    "ty si obdaril svätú Alžbetu<br>" +
-                    "obdivuhodnou milosťou zmierovať hnevníkov; <font color='#B71C1C'>*</font><br>" +
-                    "na jej príhovor pomáhaj nám vnášať pokoj medzi ľudí, <font color='#B71C1C'>—</font><br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Pane, pri oslave vyznania <br>" +
+                            "svätého apoštola Tomáša <br>" +
+                            "prinášame ti povinnú obetu chvály <font color='#B71C1C'>*</font><br>" +
+                            "a pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "zachovaj v nás milosť vykúpenia.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, v tejto sviatosti sme prijali <br>" +
+                            "skutočné Telo tvojho jednorodeného Syna <br>" +
+                            "a spolu s apoštolom Tomášom <br>" +
+                            "v Kristovi spoznávame nášho Pána a Boha; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby sme sa k nemu hlásili nielen slovom, <font color='#B71C1C'>—</font><br>" +
+                            "ale celým svojím životom.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"04", "Bože, pôvodca pokoja a pravej lásky, <br>" +
+                    "ty si obdaril svätú Alžbetu obdivuhodnou <br>" +
+                    "milosťou zmierovať hnevníkov; <font color='#B71C1C'>*</font><br>" +
+                    "na jej príhovor nám pomáhaj <br>" +
+                    "vnášať pokoj medzi ľudí, <font color='#B71C1C'>—</font><br>" +
                     "aby sme sa mohli nazývať Božími deťmi.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"05gk", "Všemohúci a večný Bože,<br>" +
-                    "ty si našim predkom poslal svätého Cyrila a Metoda,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"05gk", "Všemohúci a večný Bože, <br>" +
+                    "ty si našim predkom poslal svätých Cyrila a Metoda, <br>" +
                     "aby ich priviedli k pravej viere; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa, pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme si verne zachovali dedičstvo otcov,<br>" +
+                    "aby sme si verne zachovali dedičstvo otcov, <br>" +
                     "statočne vyznávali svoju vieru a podľa nej aj žili.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Láskavý Bože,<br>" +
-                    "prinášame ti obetné dary<br>" +
-                    "na počesť našich vierozvestov Cyrila a Metoda <font color='#B71C1C'>*</font><br>" +
-                    "a prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "pre túto svätú obetu<br>" +
-                    "udeľ nám dar jednoty a pokoja.<br>" +
-                    "Skrze Krista, nášho Pána.", "Všemohúci Bože,<br>" +
-                    "prijali sme nebeský chlieb, ktorý je znakom jednoty; <font color='#B71C1C'>*</font><br>" +
-                    "na orodovanie svätého Cyrila a Metoda udeľ nám milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby všetci kresťania, zjednotení vo viere,<br>" +
-                    "mohli spoločne sláviť tajomstvo Eucharistie.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"06", "Bože, pôvodca nevinnosti a milovník čistoty,<br>" +
-                    "ty si svätej Márii Goretti dal v kvete mladosti<br>" +
-                    "milosť mučeníctva pri obrane čistoty<br>" +
-                    "a v nebi si ju odmenil vencom slávy; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, na jej orodovanie udeľ nám milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme odhodlane a verne zachovávali tvoje prikázania.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"07", "Pane a Bože náš,<br>" +
-                    "v duchu apoštola Pavla svätý Anton Mária Zaccaria<br>" +
-                    "nechcel poznať a ohlasovať nič iné,<br>" +
-                    "iba Ježiša Krista, a to ukrižovaného; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme si aj my osvojili toto vznešené učenie <font color='#B71C1C'>—</font><br>" +
-                    "a v kríži Ježiša Krista našli pravú múdrosť.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh<br>" +
-                    "a s tebou žije a kraľuje v jednote s Duchom Svätým<br>" +
-                    "po všetky veky vekov.", "", ""},
-            {"11g", "Dobrotivý Bože,<br>" +
-                    "vo svätom opátovi Benediktovi<br>" +
-                    "dal si nám veľkého učiteľ a duchovného života; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vždy na prvé miesto kládli lásku k tebe<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Láskavý Bože, <br>" +
+                            "prinášame ti obetné dary na počesť <br>" +
+                            "našich vierozvestov Cyrila a Metoda <font color='#B71C1C'>*</font><br>" +
+                            "a prosíme ťa, <font color='#B71C1C'>—</font><br>" +
+                            "aby si  nám pre túto svätú obetu <br>" +
+                            "udelil dar jednoty a pokoja.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Všemohúci Bože, <br>" +
+                            "prijali sme nebeský chlieb, ktorý je znakom jednoty; <font color='#B71C1C'>*</font><br>" +
+                            "na orodovanie svätých Cyrila a Metoda udeľ nám milosť, <font color='#B71C1C'>—</font><br>" +
+                            "aby všetci kresťania, zjednotení vo viere, <br>" +
+                            "mohli spoločne sláviť tajomstvo Eucharistie.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"06", "Bože, pôvodca nevinnosti a milovník čistoty, <br>" +
+                    "ty si svätej Márii Goretti dal v kvete mladosti <br>" +
+                    "milosť mučeníctva pri obrane čistoty <br>" +
+                    "a odmenil si ju vencom slávy; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, na jej orodovanie nám udeľ milosť, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme verne zachovávali tvoje prikázania.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"07", "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme v duchu apoštola Pavla <br>" +
+                    "nasledovali vznešené poznanie Ježiša Krista, <font color='#B71C1C'>—</font><br>" +
+                    "ktoré svätý Anton Mária naplnený múdrosťou <br>" +
+                    "slova spásy ustavične ohlasoval v tvojej Cirkvi.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"09", "Bože, ty si vyznaním <br>" +
+                    "svätého mučeníka Augustína a jeho spoločníkov <br>" +
+                    "obdivuhodným riadením posilnil svoju Cirkev; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby tvoj ľud verný svojmu <br>" +
+                    "zverenému poslaniu dosiahol rast slobody <font color='#B71C1C'>—</font><br>" +
+                    "a svedčil vo svete o pravde.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"11g", "Bože, ty si vo svätom opátovi Benediktovi <br>" +
+                    "ustanovil veľkého učiteľa duchovného života; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby sme na prvé miesto <br>" +
+                    "vždy kládli lásku k tebe <font color='#B71C1C'>—</font><br>" +
                     "a veľkodušne kráčali po ceste tvojich prikázaní.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "milostivo zhliadni na obetné dary,<br>" +
-                    "ktoré ti prinášame v deň spomienky<br>" +
-                    "na svätého Benedikta, <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby sme podľa jeho príkladu<br>" +
-                    "vždy a všade hľadali teba<br>" +
-                    "a v tvojej službe dostali dar jednoty a pokoja.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože,<br>" +
-                    "vo sviatosti, ktorú sme prijali,<br>" +
-                    "dal si nám záruku večného života; <font color='#B71C1C'>*</font><br>" +
-                    "pokorne ťa prosíme, dopraj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ti podľa vzoru svätého Benedikta svedomite slúžili<br>" +
-                    "a činorodou láskou milovali svojich blížnych.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"13", "Všemohúci Bože,<br>" +
-                    "ty si svätého Henricha obdaril svojou milosťou<br>" +
-                    "a uprostred starostí o pozemské kráľovstvo<br>" +
-                    "dvíhal si jeho myseľ k veciam nebeským; <font color='#B71C1C'>*</font><br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, milostivo zhliadni na tieto obetné dary, <br>" +
+                            "ktoré ti prinášame v deň spomienky na svätého Benedikta, <font color='#B71C1C'>*</font><br>" +
+                            "a daj, aby sme podľa jeho príkladu <br>" +
+                            "vždy a všade hľadali teba <font color='#B71C1C'>—</font><br>" +
+                            "a v tvojej službe dostali dar jednoty a pokoja.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, vo sviatosti, ktorú sme prijali, <br>" +
+                            "dal si nám záruku večného života; <font color='#B71C1C'>*</font><br>" +
+                            "pokorne ťa prosíme, dopraj, aby sme ti <br>" +
+                            "podľa vzoru svätého Benedikta svedomite slúžili <font color='#B71C1C'>—</font><br>" +
+                            "a činorodou láskou milovali svojich blížnych.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"13", "Bože, ty si svätého Henricha <br>" +
+                    "obdaril svojou milosťou <br>" +
+                    "a uprostred starostí o pozemské kráľovstvo <br>" +
+                    "si dvíhal jeho myseľ k veciam nebeským; <font color='#B71C1C'>*</font><br>" +
                     "na jeho príhovor nám pomáhaj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vo víre tohto sveta<br>" +
+                    "aby sme vo víre tohto sveta <br>" +
                     "kráčali k tebe s čistou mysľou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"14", "Milosrdný Bože,<br>" +
-                    "ty si svätému kňazovi Kamilovi<br>" +
-                    "udelil dar hrdinskej lásky k chorým; <font color='#B71C1C'>*</font><br>" +
-                    "pre jeho zásluhy naplň nás duchom svojej lásky, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ti slúžili vo svojich blížnych<br>" +
-                    "a v hodine našej smrti<br>" +
-                    "mohli bez strachu predstúpiť pred tvoju tvár.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"15", " Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "v deň spomienky na svätého biskupa Bonaventúru,<br>" +
-                    "ktorý sa dnes narodil pre nebo, vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "pomáhaj nám čerpať z bohatstva jeho náuky<br>" +
-                    "a vytrvalo ho nasledovať vo veľkej láske k tebe.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"16m", "Veľký a svätý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nám pomáha na životnej púti<br>" +
-                    "mocné orodovanie slávnej Panny Márie, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme pod jej ochranou<br>" +
-                    "bezpečne došli k vrcholu dokonalosti,<br>" +
-                    "k Ježišovi Kristovi, ktorý je Boh<br>" +
-                    "a s tebou žije a kraľuje v jednote s Duchom Svätým<br>" +
-                    "po všetky veky vekov.", "", ""},
-            {"17", "Láskavý Bože,<br>" +
-                    "na tvoje vnuknutie svätý Andrej-Svorad a Benedikt<br>" +
-                    "sa odobrali do ticha samoty,<br>" +
-                    "aby ti modlitbou, prácou i mlčaním dokonalejšie slúžili; <font color='#B71C1C'>*</font><br>" +
-                    "na ich orodovanie pomôž aj nám <font color='#B71C1C'>—</font><br>" +
-                    "uprostred hluku tohto sveta<br>" +
-                    "započúvať sa do tvojho hlasu<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"14", "Bože, ty si svätému kňazovi Kamilovi <br>" +
+                    "udelil osobitnú milosť lásky k chorým; <font color='#B71C1C'>*</font><br>" +
+                    "pre jeho zásluhy naplň nás duchom svojej lásky, <br>" +
+                    "aby sme ti slúžili vo svojich blížnych <font color='#B71C1C'>—</font><br>" +
+                    "a v hodine našej smrti mohli bez strachu <br>" +
+                    "predstúpiť pred tvoju tvár.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"15", "Všemohúci Bože, <br>" +
+                    "pri oslave svätého biskupa Bonaventúru, <br>" +
+                    "ktorý sa dnes narodil pre nebo, <br>" +
+                    "vrúcne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme mohli čerpať z bohatstva jeho náuky <font color='#B71C1C'>—</font><br>" +
+                    "a vytrvalo ho nasledovať v horlivej láske.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"16m", "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                    "nech nám pomáha mocné <br>" +
+                    "orodovanie slávnej Panny Márie, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme pod jej ochranou bezpečne došli <br>" +
+                    "k vrcholu dokonalosti, ktorým je Kristus.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+            {"17", "Láskavý Bože, <br>" +
+                    "na tvoje vnuknutie sa svätí Andrej Svorad a Beňadik <br>" +
+                    "odobrali do ticha samoty, aby ti modlitbou, <br>" +
+                    "prácou i mlčaním dokonalejšie slúžili; <font color='#B71C1C'>*</font><br>" +
+                    "na ich orodovanie pomôž aj nám uprostred <br>" +
+                    "hluku tohto sveta započúvať sa do tvojho hlasu <font color='#B71C1C'>—</font><br>" +
                     "a dôsledne plniť tvoju vôľu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Svätý Bože, nech sú ti milé dary,<br>" +
-                    "ktoré prinášame na oltár pri spomienke<br>" +
-                    "na svätého Andreja-Svorada a Benedikta; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "nauč nás správne hodnotiť pozemské veci<br>" +
-                    "a dávať prednosť hodnotám trvácnym.<br>" +
-                    "Skrze Krista, nášho Pána.", "Prosíme ťa, všemohúci Bože,<br>" +
-                    "nech nám toto prijímanie<br>" +
-                    "posvätí myseľ i srdce, <font color='#B71C1C'>*</font><br>" +
-                    "aby sme podľa príkladu tvojich svätých pustovníkov <font color='#B71C1C'>—</font><br>" +
-                    "preukazovali bratskú lásku dobrými skutkami.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"17g", "Láskavý Bože,<br>" +
-                    "na tvoje vnuknutie svätý Andrej-Svorad a Benedikt<br>" +
-                    "sa odobrali do ticha samoty,<br>" +
-                    "aby ti modlitbou, prácou i mlčaním dokonalejšie slúžili; <font color='#B71C1C'>*</font><br>" +
-                    "na ich orodovanie pomôž aj nám <font color='#B71C1C'>—</font><br>" +
-                    "uprostred hluku tohto sveta<br>" +
-                    "započúvať sa do tvojho hlasu<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Svätý Bože, nech sú ti milé dary, <br>" +
+                            "ktoré prinášame na oltár pri spomienke <br>" +
+                            "na svätých Andreja Svorada a Beňadika; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, nauč nás správne hodnotiť pozemské veci <font color='#B71C1C'>—</font><br>" +
+                            "a dávať prednosť hodnotám trvácnym.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
+                            "nech nám toto sväté prijímanie posvätí myseľ i srdce, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme podľa príkladu tvojich svätých pustovníkov <br>" +
+                            "preukazovali bratskú lásku dobrými skutkami.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"17gn", "Láskavý Bože, <br>" +
+                    "na tvoje vnuknutie sa svätí Andrej Svorad a Beňadik <br>" +
+                    "odobrali do ticha samoty, aby ti modlitbou, <br>" +
+                    "prácou i mlčaním dokonalejšie slúžili; <font color='#B71C1C'>*</font><br>" +
+                    "na ich orodovanie pomôž aj nám uprostred <br>" +
+                    "hluku tohto sveta započúvať sa do tvojho hlasu <font color='#B71C1C'>—</font><br>" +
                     "a dôsledne plniť tvoju vôľu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Svätý Bože, nech sú ti milé dary,<br>" +
-                    "ktoré prinášame na oltár pri spomienke<br>" +
-                    "na svätého Andreja-Svorada a Benedikta; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "nauč nás správne hodnotiť pozemské veci<br>" +
-                    "a dávať prednosť hodnotám trvácnym.<br>" +
-                    "Skrze Krista, nášho Pána.", "Prosíme ťa, všemohúci Bože,<br>" +
-                    "nech nám toto prijímanie<br>" +
-                    "posvätí myseľ i srdce, <font color='#B71C1C'>*</font><br>" +
-                    "aby sme podľa príkladu tvojich svätých pustovníkov <font color='#B71C1C'>—</font><br>" +
-                    "preukazovali bratskú lásku dobrými skutkami.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"17gk", "Láskavý Bože,<br>" +
-                    "na tvoje vnuknutie svätý Andrej-Svorad a Benedikt<br>" +
-                    "sa odobrali do ticha samoty,<br>" +
-                    "aby ti modlitbou, prácou i mlčaním dokonalejšie slúžili; <font color='#B71C1C'>*</font><br>" +
-                    "na ich orodovanie pomôž aj nám <font color='#B71C1C'>—</font><br>" +
-                    "uprostred hluku tohto sveta<br>" +
-                    "započúvať sa do tvojho hlasu<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Svätý Bože, nech sú ti milé dary, <br>" +
+                            "ktoré prinášame na oltár pri spomienke <br>" +
+                            "na svätých Andreja Svorada a Beňadika; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, nauč nás správne hodnotiť pozemské veci <font color='#B71C1C'>—</font><br>" +
+                            "a dávať prednosť hodnotám trvácnym.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
+                            "nech nám toto sväté prijímanie posvätí myseľ i srdce, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme podľa príkladu tvojich svätých pustovníkov <br>" +
+                            "preukazovali bratskú lásku dobrými skutkami.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"17gkn", "Láskavý Bože, <br>" +
+                    "na tvoje vnuknutie sa svätí Andrej Svorad a Beňadik <br>" +
+                    "odobrali do ticha samoty, aby ti modlitbou, <br>" +
+                    "prácou i mlčaním dokonalejšie slúžili; <font color='#B71C1C'>*</font><br>" +
+                    "na ich orodovanie pomôž aj nám uprostred <br>" +
+                    "hluku tohto sveta započúvať sa do tvojho hlasu <font color='#B71C1C'>—</font><br>" +
                     "a dôsledne plniť tvoju vôľu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Svätý Bože, nech sú ti milé dary,<br>" +
-                    "ktoré prinášame na oltár pri spomienke<br>" +
-                    "na svätého Andreja-Svorada a Benedikta; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "nauč nás správne hodnotiť pozemské veci<br>" +
-                    "a dávať prednosť hodnotám trvácnym.<br>" +
-                    "Skrze Krista, nášho Pána.", "Prosíme ťa, všemohúci Bože,<br>" +
-                    "nech nám toto prijímanie<br>" +
-                    "posvätí myseľ i srdce, <font color='#B71C1C'>*</font><br>" +
-                    "aby sme podľa príkladu tvojich svätých pustovníkov <font color='#B71C1C'>—</font><br>" +
-                    "preukazovali bratskú lásku dobrými skutkami.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"21", "Všemohúci Bože,<br>" +
-                    "svätému Vavrincovi z Brindisi si udelil ducha rady a sily,<br>" +
-                    "aby ako kňaz a učiteľ svätej náuky<br>" +
-                    "šíril slávu tvojho mena a zachraňoval duše; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho príhovor aj nás osvieť svojím Duchom, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme poznali svoje poslanie<br>" +
-                    "a s tvojou pomocou ho aj spĺňali.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"22g", "Všemohúci Otče,<br>" +
-                    "tvoj jednorodený Syn poslal Máriu Magdalénu,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Svätý Bože, nech sú ti milé dary, <br>" +
+                            "ktoré prinášame na oltár pri spomienke <br>" +
+                            "na svätých Andreja Svorada a Beňadika; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, nauč nás správne hodnotiť pozemské veci <font color='#B71C1C'>—</font><br>" +
+                            "a dávať prednosť hodnotám trvácnym.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
+                            "nech nám toto sväté prijímanie posvätí myseľ i srdce, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme podľa príkladu tvojich svätých pustovníkov <br>" +
+                            "preukazovali bratskú lásku dobrými skutkami.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"20", "Pane, usmerňuj svojich <br>" +
+                    "veriacich na cestu večnej spásy, <br>" +
+                    "ktorú ukázal učením <br>" +
+                    "a mučeníctvom svätý biskup Apolinár; <font color='#B71C1C'>*</font><br>" +
+                    "na jeho orodovanie dopraj, <br>" +
+                    "aby sme vytrvali v tvojich príkazoch <font color='#B71C1C'>—</font><br>" +
+                    "a zaslúžili si veniec slávy.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"21", "Bože, svätému kňazovi Vavrincovi <br>" +
+                    "si udelil ducha rady a sily, <br>" +
+                    "aby šíril slávu tvojho mena; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj, aby sme v tom istom duchu <br>" +
+                    "spoznali, čo máme konať, <font color='#B71C1C'>—</font><br>" +
+                    "a na jeho orodovanie to aj uskutočňovali.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"22g", "Bože, tvoj jednorodený Syn <br>" +
+                    "poslal Máriu Magdalénu, <br>" +
                     "aby prvá zvestovala apoštolom veľkonočnú radosť; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, na jej príhovor nás posilňuj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa jej príkladu<br>" +
-                    "aj my ohlasovali vzkrieseného Ježiša Krista<br>" +
-                    "a raz ho uzreli vo večnej sláve ako svojho Kráľa.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Láskavý Bože,<br>" +
-                    "prinášame ti obetné dary<br>" +
-                    "pri spomienke na svätú Máriu Magdalénu; <font color='#B71C1C'>*</font><br>" +
-                    "láskavo ich prijmi, <font color='#B71C1C'>—</font><br>" +
-                    "ako tvoj Syn dobrotivo prijal jej službu,<br>" +
-                    "ktorú mu z lásky preukázala.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás nábožné prijatie tejto sviatosti<br>" +
-                    "naplní takou vrúcnou a vytrvalou láskou, <font color='#B71C1C'>—</font><br>" +
-                    "s akou sa svätá Mária Magdaléna<br>" +
-                    "ustavične pridŕžala svojho Učiteľa a Pána,<br>" +
-                    "tvojho Syna Ježiša Krista,<br>" +
-                    "ktorý s tebou žije a kraľuje na veky vekov."},
-            {"23g", "Bože, ty si svätú Brigitu viedol rozličnými cestami života<br>" +
-                    "a obdivuhodne si ju naučil múdrosti kríža,<br>" +
-                    "keď rozjímala o utrpení tvojho Syna; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme v ktoromkoľvek životnom stave <font color='#B71C1C'>—</font><br>" +
-                    "vo všetkom vedeli hľadať iba teba.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Najláskavejší Bože,<br>" +
-                    "ty si po zničení starého človeka<br>" +
-                    "láskavo stvoril vo svätej Brigite človeka nového; <font color='#B71C1C'>*</font><br>" +
-                    "udeľ milostivo, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme rovnako obnovení<br>" +
-                    "prinášali túto tebe milú obetu zmierenia.<br>" +
-                    "Skrze Krista, nášho Pána.", "Všemohúci Bože,<br>" +
-                    "upevňujeme sa silou tejto sviatosti; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, daj,<br>" +
-                    "aby sme sa podľa príkladu svätej Brigity<br>" +
-                    "učili hľadať vždy predovšetkým teba <font color='#B71C1C'>—</font><br>" +
-                    "a kráčať v tomto svete ako noví ľudia.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"25g", "Všemohúci a večný Bože,<br>" +
-                    "ty si prvotnú činnosť apoštolov<br>" +
-                    "požehnal mučeníckou krvou svätého Jakuba; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby tvoja Cirkev čerpala posilu z jeho mučeníctva<br>" +
+                    "daj, prosíme, aby sme na jej príhovor <br>" +
+                    "a podľa jej príkladu ohlasovali živého Krista <font color='#B71C1C'>—</font><br>" +
+                    "a raz ho uzreli vo večnej sláve ako svojho kráľa.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "prijmi dary, ktoré ti prinášame <br>" +
+                            "pri spomienke na svätú Máriu Magdalénu, <font color='#B71C1C'>—</font><br>" +
+                            "ako aj tvoj jednorodený Syn <br>" +
+                            "dobrotivo prijal jej službu obety a úcty.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "nech nás nábožné prijatie tejto sviatosti <br>" +
+                            "naplní takou vytrvalou láskou, <font color='#B71C1C'>—</font><br>" +
+                            "s akou sa svätá Mária Magdaléna <br>" +
+                            "ustavične pridŕžala Krista, svojho učiteľa.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"23g", "Bože, ty si svätú Brigitu viedol rozličnými cestami života <font color='#B71C1C'>*</font><br>" +
+                    "a obdivuhodne si ju naučil múdrosti kríža, <br>" +
+                    "keď rozjímala o utrpení tvojho Syna; <font color='#B71C1C'>—</font><br>" +
+                    "daj, aby sme v ktoromkoľvek životnom stave <br>" +
+                    "vo všetkom hľadali iba teba.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Najláskavejší Bože, <br>" +
+                            "ty si po zničení starého človeka <br>" +
+                            "láskavo stvoril vo svätej Brigite človeka nového; <font color='#B71C1C'>*</font><br>" +
+                            "dopraj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme rovnako obnovení <br>" +
+                            "prinášali túto tebe milú obetu zmierenia.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Všemohúci Bože, posilňuješ nás silou tejto sviatosti; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, aby sme sa podľa príkladu svätej Brigity <br>" +
+                            "učili hľadať vždy predovšetkým teba <font color='#B71C1C'>—</font><br>" +
+                            "a kráčať v tomto svete ako noví ľudia.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"24", "Bože, ty si povolal svätého kňaza Šarbela, <br>" +
+                    "aby viedol duchovný zápas v samote na púšti, <br>" +
+                    "a naplnil si ho nesmiernou zbožnosťou; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby sme sa životom <br>" +
+                    "pripodobnili Pánovmu utrpeniu <font color='#B71C1C'>—</font><br>" +
+                    "a raz si zaslúžili mať účasť na jeho kráľovstve.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"25g", "Všemohúci a večný Bože, <br>" +
+                    "ty si prvotnú činnosť apoštolov <br>" +
+                    "posvätil mučeníckou krvou svätého Jakuba; <font color='#B71C1C'>*</font><br>" +
+                    "vrúcne ťa prosíme, daj, aby tvoja Cirkev <br>" +
+                    "čerpala posilu z jeho mučeníctva <font color='#B71C1C'>—</font><br>" +
                     "a pod jeho ochranou sa ustavične vzmáhala.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "očisť nás spasiteľným krstom<br>" +
-                    "utrpenia tvojho Syna, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ti mohli priniesť príjemnú obetu<br>" +
-                    "na sviatok svätého Jakuba,<br>" +
-                    "ktorého si prvého z apoštolov povolal k účasti<br>" +
-                    "na kalichu Kristovho utrpenia.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána.", "Dobrotivý Bože,<br>" +
-                    "na sviatok svätého apoštola Jakuba<br>" +
-                    "sme s radosťou prijali vznešenú sviatosť; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "na jeho orodovanie sprevádzaj nás na životnej púti.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"26", "Pane, Bože našich otcov,<br>" +
-                    "ty si svätého Joachima a Annu<br>" +
-                    "vyvolil za rodičov Panny Márie,<br>" +
-                    "matky tvojho vteleného Syna; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "pomáhaj nám na ich spoločné orodovanie<br>" +
-                    "dosiahnuť spásu, ktorú si sľúbil svojmu ľudu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Láskavý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi tieto dary<br>" +
-                    "ako prejav našej oddanosti, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme mali účasť na požehnaní,<br>" +
-                    "ktoré si prisľúbil nášmu praotcovi vo viere<br>" +
-                    "Abrahámovi a jeho potomkom.<br>" +
-                    "Skrze Krista, nášho Pána.", "Bože a Otče náš,<br>" +
-                    "tvoj jednorodený Syn sa stal človekom,<br>" +
-                    "aby sa človek mohol vo sviatosti krstu znovuzrodiť z teba; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "posväcuj nás Duchom, ktorý nás pretvára na tvoje deti,<br>" +
-                    "a živ nás Chlebom z tvojho stola.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"27", "Všemohúci a milosrdný Bože,<br>" +
-                    "ty si povzbudzoval Metodovho učeníka Gorazda<br>" +
-                    "a jeho spoločníkov,<br>" +
-                    "aby pokračovali v apoštolskom diele našich vierozvestov; <font color='#B71C1C'>*</font><br>" +
-                    "na ich orodovanie nám pomôž, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme aj my dnešnému svetu<br>" +
-                    "ohlasovali blahozvesť tvojho Syna<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, očisti nás spasiteľným krstom <br>" +
+                            "utrpenia tvojho Syna, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme ti mohli priniesť príjemnú obetu <br>" +
+                            "na sviatok svätého Jakuba, <font color='#B71C1C'>—</font><br>" +
+                            "ktorého si ako prvého z apoštolov <br>" +
+                            "povolal k účasti na kalichu Kristovho utrpenia.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, na sviatok svätého apoštola Jakuba <br>" +
+                            "sme s radosťou prijali vznešenú sviatosť; <font color='#B71C1C'>*</font><br>" +
+                            "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "na jeho orodovanie nám pomáhaj na životnej púti.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"26", "Pane, Bože našich otcov, <br>" +
+                    "ty si svätých Joachima a Annu milostivo vyvolil <br>" +
+                    "za rodičov Matky tvojho vteleného Syna; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, pomáhaj nám, <br>" +
+                    "aby sme na ich spoločné orodovanie dosiahli spásu, <font color='#B71C1C'>—</font><br>" +
+                    "ktorú si prisľúbil svojmu ľudu.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "prijmi tieto dary ako prejav našej oddanosti, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme mali účasť na tom istom požehnaní, <font color='#B71C1C'>—</font><br>" +
+                            "ktoré si prisľúbil Abrahámovi a jeho potomstvu.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, tvoj jednorodený Syn sa stal človekom, <br>" +
+                            "aby sa prostredníctvom tvojho obdivuhodného <br>" +
+                            "tajomstva mohlo ľudstvo znovuzrodiť z teba; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, vo svojej láskavosti <br>" +
+                            "posväť duchom adoptívneho synovstva tých, <font color='#B71C1C'>—</font><br>" +
+                            "ktorých si nasýtil nebeským chlebom.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"27", "Všemohúci a milosrdný Bože, <br>" +
+                    "ty si povzbudzoval Metodovho <br>" +
+                    "učeníka Gorazda a jeho spoločníkov, <br>" +
+                    "aby pokračovali v apoštolskom <br>" +
+                    "diele našich vierozvestov; <font color='#B71C1C'>*</font><br>" +
+                    "na ich orodovanie nám pomáhaj, <br>" +
+                    "aby sme aj my dnešnému svetu <br>" +
+                    "ohlasovali blahozvesť tvojho Syna <font color='#B71C1C'>—</font><br>" +
                     "a upevňovali jednotu Cirkvi.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Večný Bože, prijmi obetné dary,<br>" +
-                    "ktoré ti prinášame v deň spomienky<br>" +
-                    "na svätého Gorazda a jeho spoločníkov, <font color='#B71C1C'>*</font><br>" +
-                    "a pomôž nám podľa ich príkladu<br>" +
-                    "vyznávať neporušenú vieru <font color='#B71C1C'>—</font><br>" +
-                    "a s láskou ti obetovať všetky ťažkosti života.<br>" +
-                    "Skrze Krista, nášho Pána.", "Bože, nasýtil si nás nebeským pokrmom,<br>" +
-                    "a tak si nás ešte užšie spojil so svojím Synom; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby nás nič neodlúčilo od Kristovej lásky <font color='#B71C1C'>—</font><br>" +
-                    "a aby sme ako svätý Gorazda jeho spoločníci<br>" +
-                    "trpezlivo prekonávali všetky protivenstvá.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"29", "Všemohúci a večný Bože,<br>" +
-                    "tvoj Syn láskavo prijal pohostinstvo v dome svätej Marty; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, na jej príhovor nám pomáhaj<br>" +
-                    "ochotne slúžiť Kristovi v našich blížnych, <font color='#B71C1C'>—</font><br>" +
-                    "aby si nás mohol prijať do svojho nebeského príbytku.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh<br>" +
-                    "a s tebou žije a kraľuje v jednote s Duchom Svätým<br>" +
-                    "po všetky veky vekov.", "Mocný Bože, velebíme ťa pre milosť,<br>" +
-                    "ktorou si obdaril svätú Martu <font color='#B71C1C'>*</font><br>" +
-                    "a pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby ti aj naša posvätná služba bola príjemná,<br>" +
-                    "ako ti bol milý prejav jej pohostinnej lásky.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Otče, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás prijatie tela a krvi tvojho jednorodeného Syna<br>" +
-                    "vedie k správnemu hodnoteniu pominuteľných vecí, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ti podľa príkladu svätej Marty<br>" +
-                    "slúžili s oddanou láskou<br>" +
-                    "a v nebi sa tešili z večného pohľadu na teba.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"30", "Svätý Bože,<br>" +
-                    "vo svätom biskupovi Petrovi Chryzológovi<br>" +
-                    "dal si svojej Cirkvi<br>" +
-                    "vynikajúceho hlásateľ a tvojho vteleného Slova; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho príhovor nám pomáhaj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme s milujúcim srdcom<br>" +
-                    "uvažovali o tajomstvách spásy<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Večný Bože, prijmi obetné dary, <br>" +
+                            "ktoré ti prinášanie v deň spomienky <br>" +
+                            "na svätého Gorazda a jeho spoločníkov, <font color='#B71C1C'>*</font><br>" +
+                            "a pomôž nám podľa ich príkladu <br>" +
+                            "vyznávať neporušenú vieru <font color='#B71C1C'>—</font><br>" +
+                            "a s láskou ti obetovať všetky ťažkosti života.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, nasýtil si nás nebeským pokrmom, <br>" +
+                            "a tak si nás ešte užšie spojil so svojím Synom; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby nás nič neodlúčilo od Kristovej lásky <font color='#B71C1C'>—</font><br>" +
+                            "a aby sme ako svätý Gorazd a jeho spoločníci <br>" +
+                            "trpezlivo prekonávali všetky protivenstvá.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"29", "Všemohúci a večný Bože, <br>" +
+                    "tvoj Syn láskavo prijal pohostinstvo <br>" +
+                    "v dome svätej Marty; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj, prosíme, nech na jej príhovor <br>" +
+                    "verne slúžime Kristovi v našich blížnych, <font color='#B71C1C'>—</font><br>" +
+                    "aby si nás raz mohol prijať do svojho nebeského príbytku.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, velebíme ťa pre milosť, <br>" +
+                            "ktorou si obdaril svätú Martu, <font color='#B71C1C'>*</font><br>" +
+                            "a pokorne ťa prosíme, <br>" +
+                            "aby ti aj naša posvätná služba bola príjemná, <font color='#B71C1C'>—</font><br>" +
+                            "ako ti bol milý prejav jej pohostinnej lásky.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nech nás prijatie Tela a Krvi <br>" +
+                            "tvojho jednorodeného Syna vedie <br>" +
+                            "k správnemu používaniu pominuteľných vecí, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme ti podľa príkladu svätej Marty <br>" +
+                            "slúžili s oddanou láskou <font color='#B71C1C'>—</font><br>" +
+                            "a v nebi sa tešili z večného pohľadu na teba.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"30", "Bože, vo svätom biskupovi Petrovi Chryzológovi <br>" +
+                    "dal si svojej Cirkvi vynikajúceho hlásateľa <br>" +
+                    "tvojho vteleného Slova; <font color='#B71C1C'>*</font><br>" +
+                    "na jeho príhovor nám pomáhaj, aby sme <br>" +
+                    "s milujúcim srdcom uvažovali o tajomstvách spásy <font color='#B71C1C'>—</font><br>" +
                     "a verne o nich svedčili svojimi skutkami.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"30b", "Dobrotivý Bože,<br>" +
-                    "ty si dal blahoslavenej Zdenke<br>" +
-                    "nevšednú lásku k ukrižovanému Kristovi,<br>" +
-                    "ktorú prejavila radostnou službou chorým<br>" +
-                    "a tvojim kňazom;<br>" +
-                    "prosíme ťa, dopraj aj nám,<br>" +
-                    "aby sme ju nasledovali v úprimnej ochote<br>" +
-                    "dať svoj život do služby bratom a sestrám<br>" +
-                    "a boli nadšenými svedkami tvojho Syna Ježiša Krista,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.<br>", "", ""},
-            {"31", "Všemohúci Bože,<br>" +
-                    "svätého Ignáca z Loyoly si povolal,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"30b", "Dobrotivý Bože, ty si dal blahoslavenej Zdenke <br>" +
+                    "nevšednú lásku k ukrižovanému Kristovi, <br>" +
+                    "ktorú prejavila radostnou službou <br>" +
+                    "chorým a tvojim kňazom; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, dopraj aj nám, <br>" +
+                    "aby sme ju nasledovali v úprimnej ochote <br>" +
+                    "dať svoj život do služby bratom a sestrám <font color='#B71C1C'>—</font><br>" +
+                    "a boli nadšenými svedkami tvojho Syna Ježiša Krista.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+            {"31", "Bože, vo svojej Cirkvi si povolal svätého Ignáca, <br>" +
                     "aby šíril väčšiu slávu tvojho mena; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme podľa jeho príkladu<br>" +
-                    "a s jeho pomocou bojovali dobrý boj na zemi<br>" +
-                    "a spolu s ním dostali veniec slávy v nebi.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "láskavo prijmi obetné dary,<br>" +
-                    "ktoré ti prinášame pri oslave svätého Ignáca, <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby nás posvätilo v pravde<br>" +
-                    "eucharistické tajomstvo,<br>" +
-                    "ktoré si ustanovil za prameň všetkej svätosti.<br>" +
-                    "Skrze Krista, nášho Pána.", "Láskavý Otče,<br>" +
-                    "priniesli sme ti obetu chvály a ďakujeme ti,<br>" +
-                    "že si svojej Cirkvi dal svätého Ignáca; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, nech nás Eucharistia posilňuje, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme všetko konali na tvoju väčšiu slávu<br>" +
-                    "a mohli ťa večne chváliť v nebi.<br>" +
-                    "Skrze Krista, nášho Pána."},
+                    "daj, prosíme, aby sme podľa jeho príkladu <br>" +
+                    "a s jeho pomocou bojovali dobrý boj na zemi <font color='#B71C1C'>—</font><br>" +
+                    "a spolu s ním dosiahli veniec slávy v nebi.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov. ",
+                    "Pane a Bože náš, láskavo prijmi obetné dary, <br>" +
+                            "ktoré ti prinášame pri oslave svätého Ignáca, <font color='#B71C1C'>*</font><br>" +
+                            "a daj, aby nás posvätilo v pravde eucharistické tajomstvo, <font color='#B71C1C'>—</font><br>" +
+                            "ktoré si ustanovil za prameň všetkej svätosti.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, priniesli sme ti obetu chvály <br>" +
+                            "ako poďakovanie za svätého Ignáca; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, dopraj, <font color='#B71C1C'>—</font><br>" +
+                            "aby nás Eucharistia priviedla <br>" +
+                            "k trvalej oslave tvojej vznešenosti.<br>" +
+                            "Skrze Krista, nášho Pána."},
     };
 
     String[][] modlitba8 = {
-            {"01", "Dobrotivý Bože,<br>" +
-                    "svojej Cirkvi stále udeľuješ nové vzory čností; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme v horlivosti za spásu duší<br>" +
+            {"01", "Bože, svojej Cirkvi stále udeľuješ nové vzory čností; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme v horlivosti za spásu duší <br>" +
                     "kráčali po stopách svätého biskupa Alfonza <font color='#B71C1C'>—</font><br>" +
                     "a dosiahli s ním večnú odmenu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Láskavý Bože,<br>" +
-                    "svätému Alfonzovi si dal milosť<br>" +
-                    "sláviť tieto tajomstvá<br>" +
-                    "a v nich ti prinášať aj seba samého<br>" +
-                    "ako svätú obetu; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "ohňom svojho Ducha očisť a posväť i naše srdcia.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane a Bože náš,<br>" +
-                    "vo svojej prozreteľnosti si povolal svätého Alfonza<br>" +
-                    "za verného vysluhovateľa a apoštola Eucharistie; <font color='#B71C1C'>*</font><br>" +
-                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby veriaci často prijímali Naj svätejšiu sviatosť<br>" +
-                    "a bez prestania ti za ňu ďakovali.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"02a", "Nekonečný a večný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "daj nám silu vyznávať božstvo tvojho Syna<br>" +
-                    "s vytrvalosťou svätého biskupa Euzébia, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme si zachovali vieru, ktorú on učil,<br>" +
-                    "a vo večnosti mali účasť na sláve<br>" +
-                    "tvojho Syna Ježiša Krista, ktorý je Boh<br>" +
-                    "a s tebou žije a kraľuje v jednote s Duchom Svätým<br>" +
-                    "po všetky veky vekov.", "", ""},
-            {"02b", "Vznešený Bože, <font color='#B71C1C'>*</font><br>" +
-                    "ty si svätého Petra Juliána vyznačil obdivuhodnou láskou<br>" +
-                    "k svätým tajomstvám tela a krvi svojho Syna; <font color='#B71C1C'>—</font><br>" +
-                    "milostivo daj, aby sme aj my mohli prijať bohaté ovocie<br>" +
-                    "z tejto nebeskej hostiny, ako on prijímal.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"04", "Všemohúci a milosrdný Bože,<br>" +
-                    "ty si obdaril svojho kňaza Jána Vianneya<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, svätému Alfonzovi <br>" +
+                            "si dal milosť sláviť tieto tajomstvá <br>" +
+                            "a v nich ti prinášať aj seba samého ako svätú obetu; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
+                            "roznieť aj naše srdcia ohňom svojho Ducha.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, ty si vo svojej prozreteľnosti povolal <br>" +
+                            "svätého Alfonza za verného vysluhovateľa <br>" +
+                            "a ohlasovateľa tohto veľkého tajomstva; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, aby tvoji veriaci <br>" +
+                            "často prijímali Najsvätejšiu sviatosť <font color='#B71C1C'>—</font><br>" +
+                            "a bez prestania ti za ňu ďakovali.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"02a", "Pane a Bože náš, <br>" +
+                    "daj nám silu vyznávať božstvo tvojho Syna <br>" +
+                    "s vytrvalosťou svätého biskupa Euzébia, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme si zachovali vieru, ktorú on učil, <font color='#B71C1C'>—</font><br>" +
+                    "a zaslúžili si mať účasť na živote tvojho Syna Ježiša Krista.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+            {"02b", "Bože, ty si svätého Petra Juliána <br>" +
+                    "vyznačil obdivuhodnou láskou <br>" +
+                    "k svätým tajomstvám Tela a Krvi tvojho Syna; <font color='#B71C1C'>*</font><br>" +
+                    "milostivo daj, aby sme aj my mohli <br>" +
+                    "prijať bohaté ovocie z tejto nebeskej hostiny, <font color='#B71C1C'>—</font><br>" +
+                    "ako z nej aj on prijímal.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"04", "Všemohúci a milosrdný Bože, <br>" +
+                    "ty si obdaril svätého kňaza Jána Vianneya <br>" +
                     "horlivosťou za spásu duší; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, na jeho príhovor daj nám milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme aj my Kristovou láskou<br>" +
-                    "získavali pre teba našich bratov a sestry<br>" +
-                    "a s nimi dosiahli večnú spásu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"05", "Prosíme ťa, milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "odpusť nám naše viny, <font color='#B71C1C'>—</font><br>" +
-                    "a keďže sa nemôžeme spoliehať na vlastné zásluhy,<br>" +
-                    "zachráň nás na orodovanie Rodičky tvojho Syna<br>" +
-                    "a nášho Pána Ježiša Krista, ktorý je Boh<br>" +
-                    "a s tebou žije a kraľuje v jednote s Duchom Svätým<br>" +
-                    "po všetky veky vekov.", "", ""},
-            {"06gn", "Láskavý Otče,<br>" +
-                    "pri slávnom premenení tvojho jednorodeného Syna<br>" +
-                    "si potvrdil pravdivosť tajomstiev našej viery<br>" +
-                    "svedectvom Mojžiša a Eliáša<br>" +
-                    "a naznačil si, čo očakáva nás, tvoje deti,<br>" +
-                    "keď budeme navždy s tebou; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "pomôž nám počúvať tvojho milovaného Syna,<br>" +
+                    "daj, prosíme, aby sme na jeho príhovor <br>" +
+                    "a podľa jeho príkladu Kristovou láskou <br>" +
+                    "získavali našich bratov a sestry pre teba <font color='#B71C1C'>—</font><br>" +
+                    "a dosiahli s nimi večnú spásu.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"05", "Prosíme ťa, Pane, odpusť viny svojim služobníkom, <font color='#B71C1C'>*</font><br>" +
+                    "a keďže sa ti nemôžeme zapáčiť svojimi skutkami, <font color='#B71C1C'>—</font><br>" +
+                    "zachráň nás na orodovanie Matky tvojho Syna a nášho Pána.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+            {"06gn", "Bože, pri slávnom premenení <br>" +
+                    "svojho jednorodeného Syna si svedectvom otcov <br>" +
+                    "potvrdil tajomstvá viery a obdivuhodne si naznačil <br>" +
+                    "naše plné prijatie za tvoje deti; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, pomôž nám <br>" +
+                    "počúvať tvojho milovaného Syna, <font color='#B71C1C'>—</font><br>" +
                     "aby sme dosiahli účasť na jeho sláve.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože a Otče náš, <font color='#B71C1C'>*</font><br>" +
-                    "pre slávne premenenie tvojho Syna posväť dary,<br>" +
-                    "ktoré sme ti priniesli na oltár, <font color='#B71C1C'>—</font><br>" +
-                    "a očisti nás od poškvrny hriechu<br>" +
-                    "žiarou slávy Ježiša Krista,<br>" +
-                    "ktorý s tebou žije a kraľuje na veky vekov.", "Nebeský Otče,<br>" +
-                    "pri slávnom premenení tvojho Syna<br>" +
-                    "zjavil si nám jeho vznešenosť; <font color='#B71C1C'>*</font><br>" +
-                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby sviatostný pokrm, ktorý sme prijali,<br>" +
-                    "urobil nás podobnými Ježišovi Kristovi,<br>" +
-                    "ktorý s tebou žije a kraľuje na veky vekov."},
-            {"07a", "Všemohúci Bože,<br>" +
-                    "svätého pápeža Sixta a jeho spoločníkov si obdaril silou,<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "pre slávne premenenie tvojho jednorodeného Syna <br>" +
+                            "posväť tieto obetné dary žiarou jeho slávy <font color='#B71C1C'>—</font><br>" +
+                            "a očisti nás od poškvrny hriechu.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, pri slávnom premenení svojho Syna <br>" +
+                            "zjavil si nám jeho vznešenosť; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby nás sviatostný pokrm, ktorý sme prijali, <br>" +
+                            "urobil podobnými Ježišovi Kristovi.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"07a", "Všemohúci Bože, svätého pápeža Sixta <br>" +
+                    "a jeho spoločníkov si obdaril silou, <br>" +
                     "že za tvoje slovo a za Ježiša Krista položili život; <font color='#B71C1C'>*</font><br>" +
-                    "aj nás posilňuj Duchom Svätým, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme verne počúvali tvoje posolstvo<br>" +
+                    "aj nás posilňuj Duchom Svätým, <br>" +
+                    "aby sme verne počúvali tvoje posolstvo <font color='#B71C1C'>—</font><br>" +
                     "a statočne vyznávali svoju vieru.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"07b", "Dobrotivý Bože,<br>" +
-                    "ty si vnukol svätému kňazovi Kajetánovi,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"07b", "Bože, ty si vnukol svätému kňazovi Kajetánovi, <br>" +
                     "aby žil podľa príkladu apoštolov; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho orodovanie nauč aj nás vždy dôverovať v teba <font color='#B71C1C'>—</font><br>" +
+                    "na jeho orodovanie a podľa jeho príkladu <br>" +
+                    "nauč aj nás vždy dôverovať v teba <font color='#B71C1C'>—</font><br>" +
                     "a neúnavne hľadať tvoje kráľovstvo.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"08", "Bože, milosrdný Otče,<br>" +
-                    "nech tvojej Cirkvi pomáhajú zásluhy a učenie<br>" +
-                    "svätého Dominika, vynikajúceho hlásateľa tvojej pravdy; <font color='#B71C1C'>*</font><br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"08", "Pane, nech tvojej Cirkvi pomáhajú <br>" +
+                    "zásluhy a učenie svätého Dominika, <br>" +
+                    "vynikajúceho hlásateľa tvojej pravdy; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "na jeho orodovanie vzbuď aj v našich časoch<br>" +
+                    "na jeho orodovanie vzbuď aj v našich časoch <br>" +
                     "presvedčivých kazateľov tvojho slova.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "na príhovor svätého Dominika<br>" +
-                    "nech sú ti milé naše modlitby a obetné dary <font color='#B71C1C'>—</font><br>" +
-                    "a pre túto spasiteľnú obetu<br>" +
-                    "chráň a posilňuj všetkých hlásateľov evanjelia.<br>" +
-                    "Skrze Krista, nášho Pána.", "Láskavý Otče,<br>" +
-                    "posilnil si nás nebeskou sviatosťou<br>" +
-                    "v deň spomienky na svätého Dominika,<br>" +
-                    "ktorý svojimi kázňami priviedol Cirkev k rozkvetu; <font color='#B71C1C'>*</font><br>" +
-                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby sa Cirkev na jeho príhovor<br>" +
-                    "aj dnes vzmáhala a dosiahla plný účinok tejto sviatosti.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"09g", "Bože našich otcov,<br>" +
-                    "ty si svätú mučenicu Teréziu Benediktu<br>" +
-                    "priviedol k poznaniu tvojho ukrižovaného Syna<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "na príhovor svätého Dominika láskavo zhliadni <br>" +
+                            "na modlitby, ktoré ti prednášame, <font color='#B71C1C'>—</font><br>" +
+                            "a silou tejto obety chráň a posilňuj <br>" +
+                            "všetkých hlásateľov evanjelia.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, posilnil si nás nebeskou sviatosťou <br>" +
+                            "v deň spomienky na svätého Dominika, <br>" +
+                            "ktorý svojimi kázňami priviedol Cirkev k rozkvetu; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, aby sa Cirkev <br>" +
+                            "na jeho príhovor aj dnes vzmáhala <font color='#B71C1C'>—</font><br>" +
+                            "a dosiahla plný účinok tejto sviatosti.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"09g", "Bože našich otcov, <br>" +
+                    "ty si svätú mučenicu Teréziu Benediktu <br>" +
+                    "priviedol k poznaniu tvojho ukrižovaného Syna <br>" +
                     "a jeho nasledovaniu až na smrť; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby na jej príhovor<br>" +
-                    "všetci ľudia spoznali Krista, Spasiteľa, <font color='#B71C1C'>—</font><br>" +
+                    "daj, aby na jej príhovor všetci ľudia <br>" +
+                    "spoznali Krista, Spasiteľa, <font color='#B71C1C'>—</font><br>" +
                     "a skrze neho raz večne hľadeli na teba.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Pane, dobrotivo prijmi<br>" +
-                    "a urob dokonalými tieto obetné dary, <font color='#B71C1C'>*</font><br>" +
-                    "ktoré ti prinášame<br>" +
-                    "pri spomienke na tvoju mučenicu<br>" +
-                    "Teréziu Benediktu; <font color='#B71C1C'>—</font><br>" +
-                    "veď ty si rozličné starozákonné obety<br>" +
-                    "zavŕšil jedinou a dokonalou obetou,<br>" +
-                    "ktorú ti svojou krvou priniesol tvoj Syn,<br>" +
-                    "ktorý žije a kraľuje na veky vekov.", "Najláskavejší Bože, <font color='#B71C1C'>*</font><br>" +
-                    "keď si uctievame svätú Teréziu Benediktu prosíme ťa,<br>" +
-                    "daj, aby nebeské ovocie zo stromu kríža<br>" +
-                    "poskytlo našim srdciam silu, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa verne pridŕžali Krista tu na zemi<br>" +
-                    "a raz mohli jesť zo stromu života v raji.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"10g", "Milosrdný Bože, ohnivá láska k tebe<br>" +
-                    "dala svätému diakonovi Vavrincovi silu<br>" +
-                    "verne slúžiť tebe a chudobným<br>" +
-                    "a bez strachu podstúpiť mučenícku smrť; <font color='#B71C1C'>*</font><br>" +
-                    "pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme ťa podľa jeho príkladu vrúcne milovali<br>" +
-                    "a obetavo slúžili blížnym.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Láskavý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi obetné dary, ktoré ti s radosťou prinášame<br>" +
-                    "na sviatok svätého Vavrinca, <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby táto eucharistická obeta<br>" +
-                    "bola na spásu nám i celému svetu.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Otče, <font color='#B71C1C'>*</font><br>" +
-                    "na sviatok svätého Vavrinca sme slávili svätú obetu<br>" +
-                    "a prijali Oltárnu sviatosť; <font color='#B71C1C'>—</font><br>" +
-                    "nech nás tento nebeský pokrm posilní<br>" +
-                    "a upevní v tvojej láske.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"11", "Dobrotivý Bože,<br>" +
-                    "ty si vložil do srdca svätej Kláry<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Pane, dobrotivo prijmi a urob dokonalými <br>" +
+                            "tieto obetné dary, ktoré ti prinášame <br>" +
+                            "pri spomienke na tvoju mučenicu Teréziu Benediktu; <font color='#B71C1C'>*</font><br>" +
+                            "veď ty si rozličné starozákonné obety <br>" +
+                            "zavŕšil jedinou a dokonalou obetou, <font color='#B71C1C'>—</font><br>" +
+                            "ktorú ti svojou krvou priniesol tvoj Syn.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Najláskavejší Bože, keď si uctievame <br>" +
+                            "svätú Teréziu Benediktu, prosíme ťa, dopraj, <font color='#B71C1C'>*</font><br>" +
+                            "nech nebeské ovocie zo stromu kríža <br>" +
+                            "poskytne našim srdciam silu, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme sa verne pridŕžali Krista tu na zemi <br>" +
+                            "a raz mohli jesť zo stromu života v raji.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"10g", "Bože, ohnivá láska k tebe <br>" +
+                    "dala svätému diakonovi Vavrincovi silu <br>" +
+                    "k vernej službe a mučeníckej smrti; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby sme milovali to, čo on miloval, <font color='#B71C1C'>—</font><br>" +
+                    "a konali to, čo učil.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "prijmi obetné dary, ktoré ti s radosťou prinášame <br>" +
+                            "na sviatok svätého Vavrinca, <font color='#B71C1C'>—</font><br>" +
+                            "a daj, aby nám táto eucharistická obeta bola na spásu.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, na sviatok svätého Vavrinca <br>" +
+                            "sme slávili svätú obetu a prijali Oltárnu sviatosť; <font color='#B71C1C'>*</font><br>" +
+                            "nech nás tento nebeský pokrm posilní <font color='#B71C1C'>—</font><br>" +
+                            "a upevní na ceste spásy.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"11", "Bože, ty si vložil do srdca svätej Kláry <br>" +
                     "veľkú lásku k evanjeliovej chudobe; <font color='#B71C1C'>*</font><br>" +
-                    "na jej príhovor nám pomáhaj<br>" +
+                    "na jej príhovor nám pomáhaj <br>" +
                     "nasledovať Ježiša Krista v duchu chudoby, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme si zaslúžili naveky žiť s tebou<br>" +
-                    "v nebeskom kráľovstve.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"12", "Dobrotivý Bože,<br>" +
-                    "svätú Janu Františku priviedol si k veľkej svätosti<br>" +
-                    "v rodinnom i rehoľnom živote; <font color='#B71C1C'>*</font><br>" +
-                    "na jej príhovor nám pomáhaj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme čnostne žili vo svojom povolaní<br>" +
-                    "a blížnemu svietili dobrým príkladom.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"13", "Pane a Bože náš, prosíme ťa, <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby obdivuhodná statočnosť<br>" +
-                    "svätých mučeníkov Ponciána a Hypolita <font color='#B71C1C'>—</font><br>" +
-                    "ustavične v nás rozmnožovala lásku k tebe<br>" +
-                    "a upevňovala svätú vieru.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"14", "Všemohúci Bože,<br>" +
-                    "ty si naplnil svätého kňaza a mučeníka Maximiliána<br>" +
-                    "nevšednou láskou k Nepoškvrnenej Panne Márii<br>" +
-                    "a dal si mu silu, aby z lásky k nesmrteľným dušiam<br>" +
-                    "položil život za svojho blížneho; <font color='#B71C1C'>*</font><br>" +
-                    "pokorne ťa prosíme, daj, aby sme na jeho príhovor<br>" +
+                    "aby sme si zaslúžili naveky žiť s tebou v nebeskom kráľovstve.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"12", "Bože, svätú Janu Františku si priviedol <br>" +
+                    "k veľkej svätosti v rodinnom i rehoľnom živote; <font color='#B71C1C'>*</font><br>" +
+                    "na jej príhovor nám pomáhaj, <br>" +
+                    "aby sme čnostne žili vo svojom povolaní, <font color='#B71C1C'>—</font><br>" +
+                    "a tak dávali dobrý príklad.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"13", "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby obdivuhodná statočnosť <br>" +
+                    "svätých mučeníkov Ponciána a Hipolyta <br>" +
+                    "ustavične v nás rozmnožovala lásku k tebe <font color='#B71C1C'>—</font><br>" +
+                    "a v našich srdciach upevňovala svätú vieru.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"14", "Bože, ty si naplnil svätého kňaza <br>" +
+                    "a mučeníka Maximiliána nevšednou láskou <br>" +
+                    "k nepoškvrnenej Panne Márii, <br>" +
+                    "horlivosťou pre spásu duší a láskou k blížnemu; <font color='#B71C1C'>*</font><br>" +
+                    "pokorne ťa prosíme, daj, aby sme na jeho príhovor <br>" +
                     "neúnavne slúžili svojim bratom na tvoju slávu <font color='#B71C1C'>—</font><br>" +
-                    "a mali silu stať sa podobnými tvojmu Synovi<br>" +
+                    "a mali silu stať sa podobnými tvojmu Synovi <br>" +
                     "aj obetovaním svojho života.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Otče, <font color='#B71C1C'>*</font><br>" +
-                    "prinášame ti obetné dary<br>" +
-                    "a vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa podľa príkladu svätého Maximiliána<br>" +
-                    "naučili obetovať tebe aj svoj život.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane Ježišu, <font color='#B71C1C'>*</font><br>" +
-                    "daj, nech v nás prijímanie tvojho tela a tvojej krvi<br>" +
-                    "roznieti oheň lásky, <font color='#B71C1C'>—</font><br>" +
-                    "ktorý čerpal svätý Maximilián Mária<br>" +
-                    "z účasti na tejto sviatostnej hostine.<br>" +
-                    "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"14gkm", "Všemohúci a večný Bože,<br>" +
-                    "ty si zhliadol na svoju pokornú služobnicu Pannu Máriu<br>" +
-                    "a vyznačil si ju tým, že sa stala matkou tvojho večného Syna<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prinášame ti obetné dary <font color='#B71C1C'>*</font><br>" +
+                            "a vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme sa podľa príkladu svätého Maximiliána <br>" +
+                            "naučili obetovať ti aj svoj život.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "daj, nech v nás prijímanie <br>" +
+                            "Tela a Krvi tvojho Syna roznieti oheň lásky, <font color='#B71C1C'>—</font><br>" +
+                            "ktorý čerpal svätý Maximilián z účasti <br>" +
+                            "na tejto sviatostnej hostine.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"14gkm", "Bože, ty si zhliadol na svoju <br>" +
+                    "pokornú služobnicu Pannu Máriu, <br>" +
+                    "ktorú si vyvolil za matku svojho jednorodeného Syna, <br>" +
                     "a dnešného dňa si ju korunoval najvyššou slávou; <font color='#B71C1C'>*</font><br>" +
-                    "na jej orodovanie prijmi aj nás do nebeského kráľovstva, <font color='#B71C1C'>—</font><br>" +
-                    "veď si nás vykúpil smrťou a zmŕtvychvstaním<br>" +
-                    "tvojho Syna, nášho Pána Ježiša Krista,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Prijmi, Bože, obetu zmierenia a chvály,<br>" +
-                    "ktorú slávime v predvečer slávnosti<br>" +
-                    "Nanebovzatia Panny Márie; <font color='#B71C1C'>*</font><br>" +
-                    "nech nám táto svätá obeta očisti srdcia<br>" +
-                    "a pretvorí celý náš život, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ti ustavične vzdávali vďaky.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane a Bože náš,<br>" +
-                    "v predvečer sviatku Nanebovzatia Panny Márie<br>" +
-                    "zhromaždil si nás pri svojom stole; <font color='#B71C1C'>*</font><br>" +
-                    "na príhovor svätej Bohorodičky<br>" +
-                    "pomáhaj nám na tomto svete prekonávať všetky prekážky, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme mohli dôjsť k tebe do nebeskej vlasti.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"15gkm", "Všemohúci a večný Bože,<br>" +
-                    "ty si vzal nepoškvrnenú Pannu Máriu, matku tvojho Syna,<br>" +
-                    "s telom a dušou do nebeskej slávy; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vždy smerovali k nebu<br>" +
-                    "a mohli mať s ňou účasť na večnej blaženosti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože,<br>" +
-                    "nech stúpa k tebe naša modlitba a naša obeta <font color='#B71C1C'>*</font><br>" +
-                    "a na príhovor Panny Márie, ktorú si vzal do neba,<br>" +
-                    "zapáľ naše srdcia ohňom lásky, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vždy túžili po tebe.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože,<br>" +
-                    "s radosťou sme prijali spásonosnú sviatosť; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, dopraj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme na orodovanie Panny Márie,<br>" +
-                    "ktorú si vzal do neba,<br>" +
-                    "dosiahli slávne vzkriesenie.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"16", "Všemohúci Bože,<font color='#B71C1C'>*</font><br>" +
-                    "svätý Štefan, uhorský kráľ,<br>" +
-                    "priviedol svoj ľud ku kresťanskej viere; <font color='#B71C1C'>—</font><br>" +
-                    "daj, nech je svojmu ľudu i nám všetkým<br>" +
-                    "mocným orodovníkom v nebeskom kráľovstve.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"19", "Večný Bože,<br>" +
-                    "ty si vyvolil svätého kňaza Jána,<br>" +
-                    "aby ohlasoval nevýslovné bohatstvo Kristovho tajomstva; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme podľa jeho príkladu a učenia<br>" +
+                    "na jej príhovor prijmi aj nás do nebeského kráľovstva, <font color='#B71C1C'>—</font><br>" +
+                    "veď si nás zachránil tajomstvom vykúpenia.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prijmi, obetu zmierenia a chvály, <br>" +
+                            "ktorú slávime na slávnosť <br>" +
+                            "Nanebovzatia Bohorodičky, Panny Márie; <font color='#B71C1C'>*</font><br>" +
+                            "nech nás táto svätá obeta očistí, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme ti ustavične vzdávali vďaky.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane a Bože náš, na slávnosť <br>" +
+                            "Nanebovzatia Bohorodičky, Panny Márie, <br>" +
+                            "zhromaždil si nás pri svojom stole; <font color='#B71C1C'>*</font><br>" +
+                            "pokorne ťa prosíme, dopraj, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme boli oslobodení od všetkého zla.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"15gkm", "Všemohúci a večný Bože, <br>" +
+                    "ty si vzal nepoškvrnenú Pannu Máriu, <br>" +
+                    "matku svojho Syna, s telom a dušou <br>" +
+                    "do nebeskej slávy; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, pomáhaj nám, <br>" +
+                    "aby sme vždy smerovali k nebu <font color='#B71C1C'>—</font><br>" +
+                    "a mali s ňou účasť na večnej blaženosti.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, nech stúpa k tebe <br>" +
+                            "naša modlitba a naša obeta <font color='#B71C1C'>*</font><br>" +
+                            "a na príhovor preblahoslavenej Panny Márie, <br>" +
+                            "ktorú si vzal do neba, <br>" +
+                            "zapáľ naše srdcia ohňom lásky, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme vždy túžili po tebe.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, s radosťou sme prijali spásonosnú sviatosť; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, udeľ nám milosť, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme na orodovanie preblahoslavenej Panny Márie, <br>" +
+
+                            "ktorú si vzal do neba, dosiahli slávne vzkriesenie.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"16", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
+                    "dopraj, aby svätý Štefan, <br>" +
+                    "ktorý podporoval vzrast tvojej Cirkvi <br>" +
+                    "ako pozemský kráľ, <font color='#B71C1C'>—</font><br>" +
+                    "bol aj jej mocným nebeským ochrancom.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"18", "Milosrdný Bože, <br>" +
+                    "svätú Helenu si obdaril <br>" +
+                    "mimoriadnou úctou k svätému krížu, <br>" +
+                    "ktorý je znamením tvojej bezhraničnej lásky; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby sme na jej orodovanie <br>" +
+                    "stále viac milovali toho, ktorý na ňom zomrel, <font color='#B71C1C'>—</font><br>" +
+                    "Ježiša Krista, nášho Pána.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+            {"19", "Bože, ty si vyvolil <br>" +
+                    "svätého kňaza Jána, aby ohlasoval <br>" +
+                    "nevýslovné bohatstvo Kristovho tajomstva; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme podľa jeho príkladu a učenia <br>" +
                     "stále viac poznávali teba <font color='#B71C1C'>—</font><br>" +
                     "a žili verne podľa evanjelia.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"20", "Milosrdný Bože,<br>" +
-                    "svätému opátovi Bernardovi si dal milosť,<br>" +
-                    "aby bol svetlom v tvojej Cirkvi a horel za jej obnovu; <font color='#B71C1C'>*</font><br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"20", "Bože, svätému opátovi Bernardovi <br>" +
+                    "si dal milosť, aby bol svetlom <br>" +
+                    "v tvojej Cirkvi a horel za jej obnovu; <font color='#B71C1C'>*</font><br>" +
                     "na jeho príhovor naplň aj nás duchom horlivosti, <font color='#B71C1C'>—</font><br>" +
                     "aby sme stále žili ako synovia svetla.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "s radosťou slávime Eucharistiu,<br>" +
-                    "prameň jednoty a pokoja,<br>" +
-                    "v deň spomienky na svätého opáta Bernarda,<br>" +
-                    "vynikajúceho kazateľa a svätca,<br>" +
-                    "ktorý sa zaslúžil o poriadok a svornosť v Cirkvi; <font color='#B71C1C'>—</font><br>" +
-                    "prijmi naše obetné dary<br>" +
-                    "a odstráň od nás všetky roztržky a nepokoje.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Otče, <font color='#B71C1C'>*</font><br>" +
-                    "nech v nás mocne pôsobí sviatostný pokrm,<br>" +
-                    "ktorý sme prijali v deň spomienky na svätého Bernarda; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby nás jeho príklad a náuka<br>" +
-                    "viedli k láske k tvojmu vtelenému Slovu, Ježišovi Kristovi,<br>" +
-                    "ktorý s tebou žije a kraľuje na veky vekov."},
-            {"21", "Láskavý Bože,<br>" +
-                    "svätého pápeža Pia si obdaril<br>" +
-                    "nebeskou múdrosťou a apoštolskou odvahou,<br>" +
-                    "aby chránil vieru Cirkvi a všetko obnovil v Kristovi; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme si z neho vzali príklad<br>" +
-                    "a osvojili si jeho zásady, <font color='#B71C1C'>—</font><br>" +
-                    "a tak dosiahli večnú odmenu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, láskavo prijmi naše obetné dary <font color='#B71C1C'>*</font><br>" +
-                    "a daj, aby sme povzbudení odkazom<br>" +
-                    "svätého pápeža Pia <font color='#B71C1C'>—</font><br>" +
-                    "dôstojne slávili sväté tajomstvá<br>" +
-                    "a prijímali ich so živou vierou.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "v deň spomienky na svätého pápeža Pia,<br>" +
-                    "apoštola častého svätého prijímania,<br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby nás nebeský chlieb, ktorý sme prijali,<br>" +
-                    "upevnil vo viere a zjednotil v láske.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"22m", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "Máriu, matku svojho Syna,<br>" +
-                    "dal si nám za Matku a Kráľovnú; <font color='#B71C1C'>—</font><br>" +
-                    "pomôž nám na jej orodovanie<br>" +
-                    "dosiahnuť v nebeskom kráľovstve<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, obetujeme ti sviatosť jednoty a pokoja <br>" +
+                            "pri oslave svätého opáta Bernarda, <font color='#B71C1C'>*</font><br>" +
+                            "ktorý vynikal v slovách i skutkoch <font color='#B71C1C'>—</font><br>" +
+                            "a usiloval sa o poriadok a svornosť v tvojej Cirkvi.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nech v nás mocne pôsobí sviatostný pokrm, <font color='#B71C1C'>*</font><br>" +
+                            "ktorý sme prijali v deň spomienky na svätého Bernarda; <font color='#B71C1C'>—</font><br>" +
+                            "daj, prosíme, aby nás jeho príklad a náuka <br>" +
+                            "viedli k láske k Ježišovi Kristovi, tvojmu vtelenému Slovu.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"21", "Bože, svätého pápeža Pia <br>" +
+                    "si obdaril nebeskou múdrosťou <br>" +
+                    "a apoštolskou odvahou, aby chránil <br>" +
+                    "vieru Cirkvi a všetko obnovil v Kristovi; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme si z neho vzali príklad, <font color='#B71C1C'>—</font><br>" +
+                    "osvojili si jeho zásady, a tak dosiahli večnú odmenu.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, láskavo prijmi naše obetné dary <font color='#B71C1C'>*</font><br>" +
+                            "a daj, aby sme povzbudení odkazom <br>" +
+                            "svätého pápeža Pia dôstojne <br>" +
+                            "slávili sväté tajomstvá <font color='#B71C1C'>—</font><br>" +
+                            "a prijímali ich so živou vierou.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane a Bože náš, <br>" +
+                            "v deň spomienky na svätého <br>" +
+                            "pápeža Pia ťa prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "aby nás účasť <br>" +
+                            "na nebeskej hostine upevnila vo viere <font color='#B71C1C'>—</font><br>" +
+                            "a zjednotila v láske.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"22m", "Bože, Máriu, matku svojho Syna, <br>" +
+                    "dal si nám za Matku a Kráľovnú; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, na jej orodovanie dopraj, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme dosiahli v nebeskom kráľovstve <br>" +
                     "plnú slávu tvojich synov a dcér.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože a Otče náš,<br>" +
-                    "prijmi dary, ktoré ti obetujeme<br>" +
-                    "pri oslave pre blahoslavenej Panny Márie; <font color='#B71C1C'>*</font><br>" +
-                    "nech nám stále pomáha tvoj Syn, <font color='#B71C1C'>—</font><br>" +
-                    "ktorý sa stal človekom<br>" +
-                    "a obetoval sa ti na kríži<br>" +
-                    "ako obeť bez poškvrny.<br>" +
-                    "Lebo on žije a kraľuje na veky vekov.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "na sviatok pre blahoslavenej Panny Márie,<br>" +
-                    "našej Matky a Kráľovnej,<br>" +
-                    "nasýtil si nás na sviatostnej hostine; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme pôsobením tejto sviatosti<br>" +
-                    "dosiahli účasť na večnej hostine v nebi.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"23", "Dobrotivý Bože,<br>" +
-                    "svätú Ruženu si zapálil takou veľkou láskou,<br>" +
-                    "že sa zriekla sveta<br>" +
-                    "a v prísnej kajúcnosti slúžila iba tebe; <font color='#B71C1C'>*</font><br>" +
-                    "na jej príhovor nám pomáhaj<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prijmi dary, ktoré ti obetujeme <br>" +
+                            "pri oslave preblahoslavenej Panny Márie, <font color='#B71C1C'>*</font><br>" +
+                            "a dopraj, nech nám stále pomáha tvoj Syn, <br>" +
+                            "ktorý sa stal človekom <font color='#B71C1C'>—</font><br>" +
+                            "a obetoval sa ti na kríži ako obeta bez poškvrny.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Pane, prijali sme nebeskú sviatosť <br>" +
+                            "pri oslave preblahoslavenej Panny Márie; <font color='#B71C1C'>*</font><br>" +
+                            "dopraj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme raz mohli mať účasť <br>" +
+                            "na večnej nebeskej hostine.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"23", "Bože, svätú Ruženu si zapálil takou veľkou láskou, <br>" +
+                    "že sa zriekla sveta a v prísnej kajúcnosti slúžila iba tebe; <font color='#B71C1C'>*</font><br>" +
+                    "na jej príhovor nám pomáhaj <br>" +
                     "kráčať cestou čnostného života, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme raz došli k tebe,<br>" +
-                    "nevyčerpateľnému prameňu večnej blaženosti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"24g", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "posilňuj nás vo viere,<br>" +
-                    "ktorou sa apoštol Bartolomej<br>" +
+                    "aby sme mohli dôjsť k tebe, <br>" +
+                    "prameňu večnej blaženosti.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"24g", "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                    "posilňuj nás vo viere, ktorou sa <br>" +
+                    "svätý apoštol Bartolomej <br>" +
                     "úprimne oddal tvojmu Synovi, <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby tvoja Cirkev na jeho orodovanie<br>" +
+                    "a daj, aby tvoja Cirkev na jeho orodovanie <br>" +
                     "bola účinnou sviatosťou spásy pre všetky národy.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože,<br>" +
-                    "na sviatok svätého apoštola Bartolomeja<br>" +
-                    "prinášame ti na jeho česť obetu chvály; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "na jeho príhovor nám udeľ<br>" +
-                    "svoju láskavú pomoc.<br>" +
-                    "Skrze Krista, nášho Pána.", "Láskavý Otče,<br>" +
-                    "na sviatok svätého apoštola Bartolomeja<br>" +
-                    "sme pri tvojom stole prijali záloh večnej spásy; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "nech nám toto prijímanie pomáha v časnom živote<br>" +
-                    "a privedie nás do života večného.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"25a", "Všemohúci Bože,<br>" +
-                    "ty si priviedol svätého Ľudovíta<br>" +
-                    "zo starostí o pozemské kráľovstvo<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, na sviatok svätého apoštola Bartolomeja <br>" +
+                            "prinášame ti na jeho česť obetu chvály <font color='#B71C1C'>*</font><br>" +
+                            "a prosíme ťa, <font color='#B71C1C'>—</font><br>" +
+                            "na jeho príhovor nám udeľ svoju láskavú pomoc.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, na sviatok svätého apoštola Bartolomeja <br>" +
+                            "sme prijali záloh večnej spásy; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, nech nám toto prijímanie <br>" +
+                            "pomáha v časnom živote <font color='#B71C1C'>—</font><br>" +
+                            "a privedie nás do života večného.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"25a", "Bože, ty si priviedol svätého Ľudovíta <br>" +
+                    "zo starostí o pozemské kráľovstvo <br>" +
                     "do slávy nebeského kráľovstva; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho príhovor nám pomáhaj<br>" +
-                    "svedomite si plniť povinnosti svojho povolania, <font color='#B71C1C'>—</font><br>" +
+                    "na jeho príhovor nám pomáhaj <br>" +
+                    "svedomite si plniť časné povinnosti, <font color='#B71C1C'>—</font><br>" +
                     "aby sme si zaslúžili večné kráľovstvo.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"25b", "Milosrdný Bože,<br>" +
-                    "svätého kňaza Jozefa si obdaril takou láskou a trpezlivosťou,<br>" +
-                    "že sa neúnavne venoval mládeži<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"25b", "Bože, svätého kňaza Jozefa <br>" +
+                    "si obdaril takou láskou a trpezlivosťou, <br>" +
+                    "že sa neúnavne venoval mládeži <br>" +
                     "a viedol ju k čnostnému životu; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pomáhaj aj nám,<br>" +
+                    "prosíme ťa, pomáhaj aj nám, <br>" +
                     "ktorí si ho uctievame ako učiteľa múdrosti, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa jeho príkladu<br>" +
-                    "privádzali mládež k poznaniu pravdy.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"27", "Bože, útecha zarmútených,<br>" +
-                    "ty si milosrdne vyslyšal svätú Moniku,<br>" +
-                    "keď ťa so slzami v očiach vytrvalo prosila<br>" +
+                    "aby sme ho napodobňovali <br>" +
+                    "ako spolupracovníka tvojej pravdy.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"27", "Bože, útecha zarmútených, <br>" +
+                    "ty si milosrdne vypočul svätú Moniku, <br>" +
+                    "keď ťa so slzami v očiach vytrvalo prosila <br>" +
                     "za obrátenie svojho syna Augustína; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme aj my na príhovor obidvoch<br>" +
+                    "daj, aby sme aj my na príhovor obidvoch <br>" +
                     "oplakávali svoje hriechy, <font color='#B71C1C'>—</font><br>" +
                     "a tak dosiahli milosť tvojho odpustenia.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"28", "Prosíme ťa, milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "obnov vo svojej Cirkvi ducha,<br>" +
-                    "ktorým si naplnil svätého biskupa Augustína, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme aj my túžili po tebe, prameni pravej múdrosti,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"28", "Prosíme ťa, Pane, <br>" +
+                    "obnov vo svojej Cirkvi ducha, <br>" +
+                    "ktorým si naplnil svätého biskupa Augustína, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme aj my túžili po tebe, <br>" +
+                    "prameni pravej múdrosti, <font color='#B71C1C'>—</font><br>" +
                     "a neúnavne hľadali teba, pôvodcu večnej lásky.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Láskavý Otče, <font color='#B71C1C'>*</font><br>" +
-                    "nábožne slávime pamiatku našej spásy<br>" +
-                    "a pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "premeň naše obetné dary na sviatosť,<br>" +
-                    "ktorá je znamením jednoty a putom lásky.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás posvätí účasť na hostine Ježiša Krista, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa ako údy jeho tajomného tela<br>" +
-                    "čoraz viac premieňali v neho.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána."},
-            {"29", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "ty si povolal svätého Jána Krstiteľa,<br>" +
-                    "aby svojím narodením a smrťou<br>" +
-                    "bol predchodcom tvojho Syna; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme neohrozene vyznávali vieru v teba,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, nábožne slávime pamiatku našej spásy <font color='#B71C1C'>*</font><br>" +
+                            "a pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby sa nám táto sviatosť <br>" +
+                            "stala znamením jednoty a putom lásky.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nech nás posvätí <br>" +
+                            "účasť na Kristovej hostine; <font color='#B71C1C'>*</font><br>" +
+                            "a keďže patríme do jeho tajomného tela, <font color='#B71C1C'>—</font><br>" +
+                            "daj, nech sa čoraz viac premieňame v neho.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"29", "Bože, ty si povolal svätého Jána Krstiteľa, <br>" +
+                    "aby svojím narodením a smrťou <br>" +
+                    "bol predchodcom tvojho Syna; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme neohrozene <br>" +
+                    "vyznávali vieru v teba, <font color='#B71C1C'>—</font><br>" +
                     "ako on položil život za pravdu a spravodlivosť.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "pre túto svätú obetu daj nám milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme bez váhania kráčali priamou cestou,<br>" +
-                    "ktorú svätý Ján ukázal prorockým hlasom na púšti<br>" +
-                    "a hrdinsky poznačil svojou krvou.<br>" +
-                    "Skze Krista, nášho Pána.", "Dobrotivý Otče,<br>" +
-                    "pri oslave mučeníckej smrti svätého Jána Krstiteľa<br>" +
-                    "prijali sme sviatosť spásy; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme túto sviatosť uctievali s hlbokou vierou <font color='#B71C1C'>—</font><br>" +
-                    "a cítili jej blahodarné účinky v každodennom živote.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána."},
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, pre tieto dary, <br>" +
+                            "ktoré ti predkladáme, daj nám milosť, <br>" +
+                            "aby sme bez váhania kráčali priamou cestou, <font color='#B71C1C'>*</font><br>" +
+                            "ktorú svätý Ján ukázal prorockým hlasom na púšti <font color='#B71C1C'>—</font><br>" +
+                            "a hrdinsky poznačil svojou krvou.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, pri oslave mučeníckej smrti <br>" +
+                            "svätého Jána Krstiteľa ťa pokorne prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "dopraj, aby sme sviatosť <br>" +
+                            "spásy, ktorú sme prijali, <br>" +
+                            "uctievali s hlbokou vierou <font color='#B71C1C'>—</font><br>" +
+                            "a radovali sa z jej pôsobenia v nás.<br>" +
+                            "Skrze Krista, nášho Pána."},
     };
 
     String[][] modlitba9 = {
-            {"03", "Milosrdný Bože,<br>" +
-                    "ty odpúšťaš svojmu ľudu a s láskou nad ním vládneš; <font color='#B71C1C'>*</font><br>" +
-                    "na príhovor svätého pápeža Gregora<br>" +
-                    "udeľ ducha múdrosti všetkým,<br>" +
+            {"03", "Bože, ty odpúšťaš svojmu ľudu <br>" +
+                    "a s láskou nad ním vládneš; <font color='#B71C1C'>*</font><br>" +
+                    "na príhovor svätého pápeža Gregora <br>" +
+                    "udeľ ducha múdrosti všetkým, <br>" +
                     "čo majú účasť na vedení tvojho ľudu, <font color='#B71C1C'>—</font><br>" +
-                    "aby z čnostného života veriacich<br>" +
+                    "aby z čnostného života veriacich <br>" +
                     "mali večnú radosť duchovní pastieri.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože,<br>" +
-                    "v deň spomienky na svätého pápeža Gregora<br>" +
-                    "prinášame ti dary na slávenie obety,<br>" +
-                    "ktorou si sňal hriechy sveta; <font color='#B71C1C'>*</font><br>" +
-                    "milostivo zhliadni na nás <font color='#B71C1C'>—</font><br>" +
-                    "a daj, nech nám toto sväté tajomstvo<br>" +
-                    "prinesie požehnanie a spásu.<br>" +
-                    "Skrze Krista, nášho Pána.", "Láskavý Otče,<br>" +
-                    "tvoj Syn je pre nás chlebom života; <font color='#B71C1C'>*</font><br>" +
-                    "daj, nech je aj naším učiteľom, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa príkladu svätého Gregora<br>" +
-                    "lepšie poznávali tvoju pravdu<br>" +
-                    "a dosvedčovali ju bratskou láskou.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"07", "Dobrotivý Bože,<br>" +
-                    "ty si dal svojmu ľudu vo svätých košických mučeníkoch<br>" +
-                    "Markovi, Melicharovi a Štefanovi<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "vypočuj našu modlitbu <font color='#B71C1C'>*</font><br>" +
+                            "a daj, aby nám bola posilou obeta, <br>" +
+                            "ktorú ti prinášame pri oslave svätého Gregora, <font color='#B71C1C'>—</font><br>" +
+                            "veď ňou si zmyl hriechy celého sveta.<br>" +
+                            "Skrze Krista, nášho Pána. ",
+                    "Pane, tvoj Syn je pre nás chlebom života; <font color='#B71C1C'>*</font><br>" +
+                            "daj, nech je aj naším učiteľom, <br>" +
+                            "aby sme podľa príkladu svätého Gregora <br>" +
+                            "lepšie poznávali tvoju pravdu <font color='#B71C1C'>—</font><br>" +
+                            "a dosvedčovali ju bratskou láskou.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"07", "Bože, ty si dal svojmu ľudu <br>" +
+                    "vo svätých košických mučeníkoch <br>" +
+                    "Markovi, Melicharovi a Štefanovi <br>" +
                     "horlivých pastierov a hrdinov pravej viery; <font color='#B71C1C'>*</font><br>" +
-                    "na ich príhovor dožič nám útechu v súženiach <font color='#B71C1C'>—</font><br>" +
+                    "na ich príhovor nám daj útechu v súženiach <font color='#B71C1C'>—</font><br>" +
                     "a pomôž nám utvrdzovať sa vo viere.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože,<br>" +
-                    "prinášame ti obetné dary<br>" +
-                    "pri spomienke na košických mučeníkov; <font color='#B71C1C'>*</font><br>" +
-                    "posilňuj i nás vo viere, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vo všetkých protivenstvách<br>" +
-                    "neohrozene vyznávali tvoje meno.<br>" +
-                    "Skrze Krista, nášho Pána.", "Všemohúci Bože, <br>" +
-                    "posilnil si nás predrahým telom a krvou<br>" +
-                    "svojho jednorodeného Syna; <font color='#B71C1C'>*</font><br>" +
-                    "obdaruj nás milosťou, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa podľa príkladu košických mučeníkov<br>" +
-                    "verne pridŕžali Ježiša Krista a jeho Cirkvi.<br>" +
-                    "Lebo on žije a kraľuje na veky vekov."},
-            {"08gm", "Milosrdný Bože,<br>" +
-                    "uštedri nám svoju nebeskú milosť, <font color='#B71C1C'>*</font><br>" +
-                    "a keďže narodenie Spasiteľ a z presvätej Panny<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Dobrotivý Bože, prinášame ti obetné dary <br>" +
+                            "pri spomienke na košických mučeníkov; <font color='#B71C1C'>*</font><br>" +
+                            "posilňuj i nás vo viere, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme vo všetkých protivenstvách <br>" +
+                            "neohrozene vyznávali tvoje meno.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Všemohúci Bože, posilnil si nás predrahým <br>" +
+                            "Telom a Krvou svojho jednorodeného Syna; <font color='#B71C1C'>*</font><br>" +
+                            "obdaruj nás milosťou, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme sa podľa príkladu košických mučeníkov <br>" +
+                            "verne pridŕžali Ježiša Krista a jeho Cirkvi.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"08gm", "Prosíme ťa, Pane, <br>" +
+                    "udeľ nám svoju nebeskú milosť, <font color='#B71C1C'>*</font><br>" +
+                    "a keďže narodenie Spasiteľa z presvätej Panny <br>" +
                     "bolo počiatkom našej spásy, <font color='#B71C1C'>—</font><br>" +
-                    "nech oslava jej narodenia upevní pokoj na celom svete.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Otče,<br>" +
-                    "nech nám vždy pomáha tvoj láskavý Syn,<br>" +
-                    "ktorý pri svojom narodení<br>" +
-                    "neporušil panenstvo svojej matky, ale ho posvätil; <font color='#B71C1C'>*</font><br>" +
-                    "daj prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "nech aj nás tvoj Syn posvätí a chráni od hriechov<br>" +
-                    "aby ti bola milá naša obeta.<br>" +
-                    "Lebo on žije a kraľuje na veky vekov.", "Dobrotivý Otče,<br>" +
-                    "tvoja Cirkev ťa zvelebuje,<br>" +
-                    "že si ju nasýtil sviatostným pokrmom, <font color='#B71C1C'>*</font><br>" +
-                    "a s radosťou oslavuje narodenie Panny Márie, <font color='#B71C1C'>—</font><br>" +
-                    "lebo v nej svitla celému svetu nádej na spásu.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"09", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "ty si urobil svätého Petra sluhom otrokov<br>" +
-                    "a obdaril si ho obdivuhodnou láskou<br>" +
-                    "a trpezlivosťou v jeho úsilí pomôcť im; <font color='#B71C1C'>—</font><br>" +
-                    "na jeho orodovanie daj,<br>" +
-                    "aby sme hľadali záujmy Ježiša Krista<br>" +
+                    "nech oslava jej narodenia <br>" +
+                    "upevní pokoj na celom svete.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, nech nám vždy pomáha <br>" +
+                            "tvoj jednorodený Syn, <br>" +
+                            "ktorý pri svojom narodení neporušil <br>" +
+                            "panenstvo svojej matky, ale ho posvätil; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, aby posvätil aj nás, <br>" +
+                            "aby nás uchránil od hriechov <font color='#B71C1C'>—</font><br>" +
+                            "a urobil ti príjemnou túto našu obetu.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov.<br>" +
+                            "<font color='#B71C1C'>Alebo:</font><br>" +
+                            "Pane, prinášame ti obetné dary <br>" +
+                            "pri radostnej oslave narodenia <br>" +
+                            "preblahoslavenej Panny Márie <font color='#B71C1C'>*</font><br>" +
+                            "a pokorne ťa prosíme, <br>" +
+                            "nech nám pre svoju ľudskú prirodzenosť <br>" +
+                            "pomáha tvoj Syn, <font color='#B71C1C'>—</font><br>" +
+                            "ktorý si vzal telo z panenskej Matky.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Pane, tvoja Cirkev, ktorú si nasýtil <br>" +
+                            "sviatostným pokrmom, ťa zvelebuje <font color='#B71C1C'>*</font><br>" +
+                            "a s radosťou oslavuje narodenie <br>" +
+                            "preblahoslavenej Panny Márie, <font color='#B71C1C'>—</font><br>" +
+                            "lebo v nej svitla celému svetu <br>" +
+                            "nádej na spásu.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"09", "Bože, ty si urobil svätého Petra <br>" +
+                    "sluhom otrokov a obdaril si ho <br>" +
+                    "obdivuhodnou láskou a trpezlivosťou <br>" +
+                    "v jeho úsilí pomôcť im; <font color='#B71C1C'>*</font><br>" +
+                    "na jeho orodovanie daj, <br>" +
+                    "aby sme hľadali záujmy Ježiša Krista <font color='#B71C1C'>—</font><br>" +
                     "a blížnych milovali skutkom a pravdou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"12m", "Všemohúci Bože, prosíme ťa, <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby blahoslavená Panna Mária<br>" +
-                    "sprostredkovala dobrodenia<br>" +
-                    "tvojho milosrdenstva všetkým, <font color='#B71C1C'>—</font><br>" +
-                    "čo oslavujú jej slávne meno.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.<br>" +
-                    "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "Všemohúci Bože,<br>" +
-                    "s radosťou oslavujeme preblahoslavenú Pannu Máriu<br>" +
-                    "a osobitne uctievame jej meno; <font color='#B71C1C'>*</font><br>" +
-                    "na jej orodovanie chráň nás pred časnými nebezpečenstvami <font color='#B71C1C'>—</font><br>" +
-                    "a priveď nás do večnej radosti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Otče nech príhovor blahoslavenej Márie vždy Panny<br>" +
-                    "sprevádza naše dary <font color='#B71C1C'>*</font><br>" +
-                    "a nás, čo uctievame jej meno, <font color='#B71C1C'>—</font><br>" +
-                    "nech urobí milými tvojej velebnosti.<br>" +
-                    "Lebo on žije a kraľuje na veky vekov.", "Pane, daj, aby sme na orodovanie Bohorodičky Márie<br>" +
-                    "dosiahli milosť tvojho požehnania <font color='#B71C1C'>*</font><br>" +
-                    "a aby sme vo všetkých potrebách<br>" +
-                    "získali pomoc tej, <font color='#B71C1C'>—</font><br>" +
-                    "ktorej úctyhodné meno oslavujeme.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"13", "Bože, sila dúfajúcich v teba,<br>" +
-                    "ty si dal svätému Jánovi Zlatoústemu<br>" +
-                    "obdivuhodnú výrečnosť<br>" +
-                    "a hrdinskú odvahu v prenasledovaniach; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "osvieť našu myseľ jeho slovom<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"12m", "Všemohúci Bože, prosíme ťa, dopraj, <font color='#B71C1C'>*</font><br>" +
+                    "aby preblahoslavená Panna Mária sprostredkovala <br>" +
+                    "dobrodenia tvojho milosrdenstva všetkým, <font color='#B71C1C'>—</font><br>" +
+                    "čo oslavujú jej slávne meno. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "nech príhovor preblahoslavenej Márie, <br>" +
+                            "vždy Panny, sprevádza naše dary <font color='#B71C1C'>*</font><br>" +
+                            "a nás, čo uctievame jej meno, <font color='#B71C1C'>—</font><br>" +
+                            "nech urobí milými tvojej velebnosti.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, daj, aby sme <br>" +
+                            "na orodovanie Bohorodičky Márie <br>" +
+                            "dosiahli milosť tvojho požehnania <font color='#B71C1C'>*</font><br>" +
+                            "a aby sme vo všetkých potrebách <br>" +
+                            "získali pomoc tej, <font color='#B71C1C'>—</font><br>" +
+                            "ktorej sväté meno oslavujeme.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"13", "Bože, sila dúfajúcich v teba, <br>" +
+                    "ty si dal svätému Jánovi Zlatoústemu <br>" +
+                    "obdivuhodnú výrečnosť a hrdinskú <br>" +
+                    "odvahu v prenasledovaniach; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, osvieť našu myseľ jeho slovom <font color='#B71C1C'>—</font><br>" +
                     "a našu vôľu povzbuď jeho nezdolnou trpezlivosťou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "zhliadni na obetné dary,<br>" +
-                    "ktoré ti s radosťou prinášame v deň spomienky<br>" +
-                    "na svätého Jána Zlatoústeho, <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby sme sa podľa jeho poučenia<br>" +
-                    "stali obetným darom pre teba<br>" +
-                    "a celým svojím životom ťa oslavovali.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "v deň spomienky na svätého Jána Zlatoústeho<br>" +
-                    "prijali sme nebeský chlieb; <font color='#B71C1C'>—</font><br>" +
-                    "nech nás tento sviatostný pokrm posilní v láske k tebe<br>" +
-                    "a pretvorí na verných vyznávačov tvojej pravdy.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"14gn", "Láskavý Otče,<br>" +
-                    "ty si poslal na svet svojho milovaného Syna,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Bože, zhliadni na obetné dary, <br>" +
+                            "ktoré ti s radosťou prinášame <br>" +
+                            "v deň spomienky na svätého Jána Zlatoústeho, <font color='#B71C1C'>*</font><br>" +
+                            "a daj, aby sme sa podľa jeho poučenia <br>" +
+                            "stali obetným darom pre teba <font color='#B71C1C'>—</font><br>" +
+                            "a celým svojím životom ťa oslavovali.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Milosrdný Bože, <br>" +
+                            "v deň spomienky na svätého <br>" +
+                            "Jána Zlatoústeho sme prijali nebeskú sviatosť; <font color='#B71C1C'>*</font><br>" +
+                            "nech nás jej prijatie posilní v láske k tebe <font color='#B71C1C'>—</font><br>" +
+                            "a pretvorí na verných vyznávačov tvojej pravdy.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"14gn", "Bože, ty si poslal na svet <br>" +
+                    "svojho jednorodeného Syna, <br>" +
                     "aby smrťou na kríži spasil všetkých ľudí; <font color='#B71C1C'>*</font><br>" +
-                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme na zemi stále lepšie poznávali<br>" +
-                    "tajomstvo jeho vykupiteľskej smrti<br>" +
+                    "daj, prosíme, aby sme na zemi stále lepšie <br>" +
+                    "poznávali tajomstvo jeho vykupiteľskej smrti <font color='#B71C1C'>—</font><br>" +
                     "a dosiahli účasť na jeho sláve v nebi.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Prosíme ťa, milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás očistí od každej viny<br>" +
-                    "obeta Ježiša Krista, <font color='#B71C1C'>—</font><br>" +
-                    "ktorý na oltári kríža sňal hriechy celého sveta.<br>" +
-                    "Lebo on žije a kraľuje na veky vekov.", "Pane Ježišu Kriste,<br>" +
-                    "na dreve kríža zaslúžil si nám nový život<br>" +
-                    "a v tejto sviatosti nám dávaš za pokrm seba samého; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "daj nám účasť aj na sláve svojho zmŕtvychvstania.<br>" +
-                    "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"15gkm", "Všemohúci Bože,<br>" +
-                    "ty si dal pre bolestnej Matke Márii silu,<br>" +
-                    "aby stála pri tvojom ukrižovanom Synovi<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "nech nás očistí od každej viny táto obeta, <font color='#B71C1C'>—</font><br>" +
+                            "ktorou sa na oltári kríža <br>" +
+                            "sňali hriechy celého sveta.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane Ježišu Kriste, <br>" +
+                            "nasýtil si nás sviatostným pokrmom; <font color='#B71C1C'>*</font><br>" +
+                            "a keďže si nás vykúpil na životodarnom dreve kríža, <font color='#B71C1C'>—</font><br>" +
+                            "prosíme ťa, priveď nás k sláve vzkriesenia.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
+            {"15gkm", "Všemohúci Bože, ty si dal <br>" +
+                    "prebolestnej Matke Márii silu, <br>" +
+                    "aby stála pri tvojom ukrižovanom Synovi <br>" +
                     "a spolu s ním trpela; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, daj,<br>" +
-                    "aby sme aj my ochotne niesli svoj každodenný kríž<br>" +
-                    "v spojení s Kristom, <font color='#B71C1C'>—</font><br>" +
+                    "daj, prosíme, aby sme aj my ochotne niesli <br>" +
+                    "svoj každodenný kríž v spojení s Kristom, <font color='#B71C1C'>—</font><br>" +
                     "a tak dosiahli účasť na jeho zmŕtvychvstaní.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože,<br>" +
-                    "prijmi na svoju chválu naše modlitby a dary, <font color='#B71C1C'>*</font><br>" +
-                    "ktoré ti obetujeme<br>" +
-                    "na slávnosť Sedembolestnej Panny Márie, <font color='#B71C1C'>—</font><br>" +
-                    "ktorú si nám dal za Matku,<br>" +
-                    "keď stála pri Ježišovom kríži.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána.", "Dobrotivý Otče,<br>" +
-                    "s oddanou vierou sme prijali sviatosť večnej spásy<br>" +
-                    "a s úctou si pripomíname účasť Panny Márie<br>" +
-                    "na Kristovom vykupiteľskom utrpení; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pomôž nám<br>" +
-                    "vytrvalo znášať ťažkosti každodenného života, <font color='#B71C1C'>—</font><br>" +
-                    "a tak dopĺňať, čo chýba Kristovmu utrpeniu<br>" +
-                    "v prospech Cirkvi, jeho tajomného tela.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"16", "Večný Bože,<br>" +
-                    "vo svätom pápežovi Kornéliovi<br>" +
-                    "a vo svätom biskupovi Cypriánovi<br>" +
-                    "dal si svojej Cirkvi horlivých duchovných pastierov<br>" +
-                    "a neohrozených mučeníkov; <font color='#B71C1C'>*</font><br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov. ",
+                    "Milosrdný Bože, <br>" +
+                            "prijmi na svoju chválu naše modlitby a dary, <font color='#B71C1C'>*</font><br>" +
+                            "ktoré ti obetujeme na slávnosť <br>" +
+                            "Sedembolestnej Panny Márie, <font color='#B71C1C'>—</font><br>" +
+                            "ktorú si nám dal za Matku, <br>" +
+                            "keď stála pri Ježišovom kríži.<br>" +
+                            "Skrze Krista, nášho Pána. ",
+                    "Pane, s oddanou vierou <br>" +
+                            "sme prijali sviatosť večnej spásy <br>" +
+                            "a s úctou si pripomíname účasť <br>" +
+                            "preblahoslavenej Panny Márie <br>" +
+                            "na Kristovom vykupiteľskom utrpení; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, pomôž nám vytrvalo <br>" +
+                            "znášať ťažkosti každodenného života, <font color='#B71C1C'>—</font><br>" +
+                            "a tak dopĺňať, čo chýba Kristovmu utrpeniu <br>" +
+                            "v prospech Cirkvi, jeho tajomného tela.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"16", "Bože, vo svätom pápežovi Kornelovi <br>" +
+                    "a vo svätom biskupovi Cypriánovi <br>" +
+                    "dal si svojej Cirkvi horlivých <br>" +
+                    "duchovných pastierov a neohrozených mučeníkov; <font color='#B71C1C'>*</font><br>" +
                     "na ich orodovanie upevni našu vieru <font color='#B71C1C'>—</font><br>" +
                     "a povzbuď nás k modlitbe a práci za jednotu Cirkvi.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože, prijmi obetné dary,<br>" +
-                    "ktoré ti prinášame pri oslave mučeníckej smrti<br>" +
-                    "svätého Kornélia a Cypriána; <font color='#B71C1C'>*</font><br>" +
-                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby nám eucharistická obeta dala silu<br>" +
-                    "prekonávať životné ťažkosti,<br>" +
-                    "ako týmto mučeníkom dala odvahu<br>" +
-                    "položiť život za Krista,<br>" +
-                    "ktorý s tebou žije a kraľuje na veky vekov.", "Pokorne ťa prosíme, láskavý Otče, <font color='#B71C1C'>*</font><br>" +
-                    "týmto svätým prijímaním<br>" +
-                    "upevni v nás ducha odvahy a sily, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa príkladu<br>" +
-                    "svätých mučeníkov Kornélia a Cypriána<br>" +
-                    "odhodlane vydávali svedectvo o pravde evanjelia.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"17a", "Večný Bože,<br>" +
-                    "svätého biskupa Róberta si obdaril<br>" +
-                    "vynikajúcou učenosťou a nezlomnou odvahou,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prijmi obetné dary, <br>" +
+                            "ktoré ti prinášame pri oslave <br>" +
+                            "mučeníckej smrti svätých Kornela a Cypriána; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, aby nám eucharistická obeta <br>" +
+                            "dala silu prekonávať životné ťažkosti, <font color='#B71C1C'>—</font><br>" +
+                            "ako týmto mučeníkom dala vytrvalosť v protivenstvách.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "týmto svätým prijímaním <br>" +
+                            "upevni v nás ducha odvahy a sily, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme podľa príkladu <br>" +
+                            "svätých mučeníkov Kornela a Cypriána <font color='#B71C1C'>—</font><br>" +
+                            "odhodlane vydávali svedectvo <br>" +
+                            "o pravde evanjelia.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"17a", "Bože, svätého biskupa Róberta <br>" +
+                    "si obdaril vynikajúcou učenosťou <br>" +
+                    "a nezlomnou odvahou, <br>" +
                     "aby bránil vieru tvojej Cirkvi; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho orodovanie pomáhaj svojmu ľudu<br>" +
+                    "na jeho orodovanie pomáhaj svojmu ľudu <br>" +
                     "zachovať si neporušenú vieru <font color='#B71C1C'>—</font><br>" +
                     "a dosvedčovať ju v každodennom živote.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"19", "Láskavý Bože,<br>" +
-                    "v dnešný deň nás povolávaš osláviť<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"17b","Bože, prameň života, <br>" +
+                    "ty si svätú pannu Hildegardu <br>" +
+                    "naplnil prorockým duchom; <font color='#B71C1C'>*</font><br>" +
+                    "daj prosíme, aby sme podľa jej príkladu <br>" +
+                    "a na jej príhovor poznali tvoje cesty <font color='#B71C1C'>—</font><br>" +
+                    "a v temnote tohto veku spoznali svetlo tvojej slávy. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"19", "Bože, v dnešný deň <br>" +
+                    "nám dovoľuješ osláviť <br>" +
                     "mučeníctvo svätého biskupa Januára; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme sa tešili z jeho spoločenstva<br>" +
-                    "vo večnej blaženosti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"20", "Milostivý Bože, stvoriteľ a spása všetkých národov, <font color='#B71C1C'>*</font><br>" +
-                    "ty si v Kórei obdivuhodne povolal na katolícku vieru ľud,<br>" +
-                    "ktorý si prijal za svoj,<br>" +
-                    "a pre slávne vyznanie svätých mučeníkov<br>" +
-                    "Ondreja, Pavla a ich spoločníkov<br>" +
-                    "dal si mu rásť vo viere, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme aj my podľa ich príkladu a na ich orodovanie<br>" +
-                    "vytrvali v zachovávaní tvojich prikázaní až do smrti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "láskavo zhliadni na obetné dary svojho ľudu <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby sme sa na príhovor svätých mučeníkov<br>" +
-                    "stali aj my tebe milou obetou<br>" +
-                    "na spásu celého sveta.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Otče, <font color='#B71C1C'>*</font><br>" +
-                    "pri oslave svätých mučeníkov<br>" +
-                    "nasýtil si nás pokrmom silných; <font color='#B71C1C'>—</font><br>" +
-                    "pokorne ťa prosíme,<br>" +
-                    "daj, aby sme zostali pevne spojení s Kristom<br>" +
-                    "a v Cirkvi pracovali na spáse všetkých ľudí.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"21g", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "vo svojom nesmiernom milosrdenstve<br>" +
-                    "si mýtnika Matúša vyvolil za apoštola; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme podľa jeho príkladu a na jeho príhovor<br>" +
-                    "verne kráčali za Kristom a pevne sa ho pridŕžali.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh<br>" +
-                    "a s tebou žije a kraľuje v jednote s Duchom Svätým<br>" +
-                    "po všetky veky vekov.", "Bože, Otče náš, <font color='#B71C1C'>*</font><br>" +
-                    "na sviatok svätého Matúša prinášame ti obetné dary<br>" +
-                    "a pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "milostivo zhliadni na svoju Cirkev,<br>" +
-                    "ktorej vieru apoštoli živili hlásaním evanjelia.<br>" +
-                    "Skrze Krista, nášho Pána.", "Láskavý Otče,<br>" +
-                    "prežívame duchovnú radosť,<br>" +
-                    "ktorú cítil svätý Matúš,<br>" +
-                    "keď vo svojom dome prijal Spasiteľa ako hosťa; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme so živou vierou<br>" +
-                    "pristupovali k stolu tvojho Syna, <font color='#B71C1C'>—</font><br>" +
-                    "ktorý neprišiel volať a spasiť spravodlivých,<br>" +
-                    "ale hriešnikov.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána."},
-            {"22+", "Všemohúci a večný Bože,<br>" +
+                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme sa tešili <br>" +
+                    "z jeho spoločenstva vo večnej blaženosti.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"20", "Bože, ty rozmnožuješ počet <br>" +
+                    "svojich adoptívnych synov a dcér vo svete <br>" +
+                    "a z krvi svätých mučeníkov Andreja <br>" +
+                    "a jeho spoločníkov si urobil <br>" +
+                    "semeno nových kresťanov; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby nám pomáhal ich príhovor <font color='#B71C1C'>—</font><br>" +
+                    "a posilňoval nás ich príklad.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
+                            "láskavo zhliadni na obetné dary svojho ľudu <font color='#B71C1C'>—</font><br>" +
+                            "a daj, aby sme sa na príhovor svätých mučeníkov <br>" +
+                            "stali aj my tebe milou obetou na spásu celého sveta.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, pri oslave svätých mučeníkov <br>" +
+                            "nasýtil si nás pokrmom silných; <font color='#B71C1C'>*</font><br>" +
+                            "pokorne ťa prosíme, <br>" +
+                            "daj, aby sme zostali pevne spojení s Kristom <font color='#B71C1C'>—</font><br>" +
+                            "a v Cirkvi pracovali na spáse všetkých ľudí.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"21g", "Bože, vo svojom nesmiernom milosrdenstve <br>" +
+                    "si mýtnika Matúša vyvolil za apoštola; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme podľa jeho príkladu <br>" +
+                    "a na jeho príhovor verne kráčali za tebou <font color='#B71C1C'>—</font><br>" +
+                    "a pevne sa ťa pridŕžali.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, na sviatok svätého Matúša <br>" +
+                            "prinášame ti obetné dary a pokorne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "milostivo zhliadni na svoju Cirkev, <font color='#B71C1C'>—</font><br>" +
+                            "ktorej vieru apoštoli živili hlásaním evanjelia.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, prežívame radosť zo spásy, <br>" +
+                            "ktorú cítil svätý Matúš, keď vo svojom dome <br>" +
+                            "prijal Spasiteľa ako hosťa; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby sme vždy prijímali pokrm tvojho Syna, <font color='#B71C1C'>—</font><br>" +
+                            "ktorý neprišiel volať a spasiť <br>" +
+                            "spravodlivých, ale hriešnikov.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"22+", "Všemohúci a večný Bože, <br>" +
                     "ty si dal svätému biskupovi Emerámovi<br>" +
                     "silu trpezlivo znášať nespravodlivé obvinenie<br>" +
                     "a umrieť mučeníckou smrťou; <font color='#B71C1C'>*</font><br>" +
-                    "pomôž nám,<br>" +
-                    "aby sme z lásky k tebe prekonávali všetky protivenstvá <font color='#B71C1C'>—</font><br>" +
-                    "a čistým životom sa uberali k tebe.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "v deň spomienky na svätého mučeníka Emeráma<br>" +
-                    "prijmi naše obetné dary, <font color='#B71C1C'>—</font><br>" +
-                    "ako si prijal<br>" +
-                    "jeho neúnavnú prácu za spásu duší<br>" +
-                    "a jeho mučenícke svedectvo.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Otče,<br>" +
-                    "prijali sme telo a krv tvojho Syna <font color='#B71C1C'>*</font><br>" +
-                    "a prosíme ťa, obdaruj nás takou duševnou silou, <font color='#B71C1C'>—</font><br>" +
-                    "akú prejavoval svätý Emerám v tvojej službe<br>" +
-                    "i pri svojom umučení.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"26", "Všemohúci Bože,<br>" +
-                    "oslavujeme ťa spomienkou<br>" +
-                    "na svätých mučeníkov Kozmu a Damiána,<br>" +
+                    "pomôž nám, aby sme z lásky k tebe<br>" +
+                    "prekonávali všetky protivenstvá <font color='#B71C1C'>—</font><br>" +
+                    "a čistým životom sa uberali k tebe. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "po všetky veky vekov. ",
+                    "Dobrotivý Bože, v deň spomienky<br>" +
+                            "na svätého mučeníka Emeráma<br>" +
+                            "prijmi naše obetné dary, <font color='#B71C1C'>*</font><br>" +
+                            "ako si prijal jeho neúnavnú prácu za spásu duší <font color='#B71C1C'>—</font><br>" +
+                            "a jeho mučenícke svedectvo. <br>" +
+                            "Skrze Krista, nášho Pána. ",
+                    "Milosrdný Otče, <br>" +
+                            "prijali sme Telo a Krv tvojho Syna <font color='#B71C1C'>*</font><br>" +
+                            "a prosíme ťa, obdaruj nás takou duševnou silou, <font color='#B71C1C'>—</font><br>" +
+                            "akú prejavoval svätý Emerám v tvojej službe<br>" +
+                            "i pri svojom umučení. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"23", "Všemohúci a večný Bože, <br>" +
+                    "ty si dal svätému kňazovi Piovi <br>" +
+                    "osobitnou milosťou účasť na kríži tvojho Syna <br>" +
+                    "a prostredníctvom jeho služby si obnovil <br>" +
+                    "obdivuhodné prejavy tvojho milosrdenstva; <font color='#B71C1C'>*</font><br>" +
+                    "na jeho orodovanie nám dopraj, <br>" +
+                    "aby sme boli neustále spojení s utrpením Krista <font color='#B71C1C'>—</font><br>" +
+                    "a šťastlivo dosiahli slávu vzkriesenia.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"26", "Pane, oslavujeme ťa spomienkou <br>" +
+                    "na svätých mučeníkov Kozmu a Damiána, <br>" +
                     "ktorých si voviedol do večnej slávy; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "sprevádzaj aj nás svojou prozreteľnosťou na ceste k tebe.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný a večný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "v deň víťaznej smrti tvojich svätých mučeníkov<br>" +
-                    "slávime pamiatku obety tvojho Syna <font color='#B71C1C'>—</font><br>" +
-                    "a vyznávame, že každé mučeníctvo má pôvod a silu<br>" +
-                    "v tejto jedinej obete Ježiša Krista,<br>" +
-                    "ktorý s tebou žije a kraľuje na veky vekov.", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "v deň spomienky<br>" +
-                    "na svätých mučeníkov Kozmu a Damiána<br>" +
-                    "uštedril si nám pri tejto obete dary svojej milosti; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby v nás Oltárna sviatosť upevnila vernosť k tebe<br>" +
-                    "a priniesla nám pokoj a spásu.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"27", "Milosrdný Bože,<br>" +
-                    "svätého Vincenta si obdaril apoštolskými čnosťami,<br>" +
-                    "aby sa staral o chudobných a o výchovu dobrých kňazov; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, naplň aj nás apoštolskou horlivosťou, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa riadili jeho naučeniami<br>" +
+                    "sprevádzaj aj nás svojou prozreteľnosťou <br>" +
+                    "na ceste k tebe.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, v deň víťaznej smrti <br>" +
+                            "tvojich svätých mučeníkov <font color='#B71C1C'>*</font><br>" +
+                            "prinášame ti obetu, <font color='#B71C1C'>—</font><br>" +
+                            "v ktorej má pôvod a silu každé mučeníctvo.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, zachovaj v nás svoje dary, <font color='#B71C1C'>*</font><br>" +
+                            "a čo sme v deň spomienky <br>" +
+                            "na svätých mučeníkov Kozmu a Damiána <br>" +
+                            "prijali z tvojej štedrosti, <font color='#B71C1C'>—</font><br>" +
+                            "nech nám prinesie pokoj a spásu.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"27", "Bože, svätého Vincenta <br>" +
+                    "si obdaril apoštolskými čnosťami, <br>" +
+                    "aby sa staral o chudobných <br>" +
+                    "a o výchovu dobrých kňazov; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, naplň aj nás apoštolskou horlivosťou, <br>" +
+                    "aby sme sa riadili jeho náukou <font color='#B71C1C'>—</font><br>" +
                     "a nasledovali ho v láske k tebe a k blížnym.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože,<br>" +
-                    "svätému Vincentovi si dal milosť<br>" +
-                    "životom uskutočňovať,<br>" +
-                    "čo slávil v týchto svätých tajomstvách; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "mocou tejto obety premeň aj nás<br>" +
-                    "na príjemný dar pre teba.<br>" +
-                    "Skrze Krista, nášho Pána.", "Láskavý Otče, <font color='#B71C1C'>*</font><br>" +
-                    "eucharistickým pokrmom posilnení vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa príkladu svätého Vincenta<br>" +
-                    "a na jeho príhovor<br>" +
-                    "nasledovali tvojho milovaného Syna<br>" +
-                    "a ohlasovali blahozvesť chudobným.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"28a", "Bože, kráľ večnej slávy,<br>" +
-                    "ty si svätého mučeníka Václava<br>" +
-                    "naučil ceniť si nebeské kráľovstvo<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Bože, svätému Vincentovi <br>" +
+                            "si dal milosť životom uskutočňovať, <br>" +
+                            "čo slávil v týchto svätých tajomstvách; <font color='#B71C1C'>*</font><br>" +
+                            "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "mocou tejto obety premeň aj nás <br>" +
+                            "na príjemný dar pre teba.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nasýtil si nás nebeskou sviatosťou; <font color='#B71C1C'>*</font><br>" +
+                            "vrúcne ťa prosíme, <br>" +
+                            "daj, aby sme podľa príkladu svätého Vincenta <br>" +
+                            "a na jeho príhovor nasledovali tvojho Syna <font color='#B71C1C'>—</font><br>" +
+                            "a ohlasovali blahozvesť chudobným.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"28a", "Bože, ty si svätého mučeníka Václava <br>" +
+                    "naučil ceniť si nebeské kráľovstvo <br>" +
                     "viac ako pozemské vladárstvo; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho príhovor daj nám silu, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme premáhali seba samých<br>" +
+                    "na jeho príhovor nám daj silu, <br>" +
+                    "aby sme premáhali seba samých <font color='#B71C1C'>—</font><br>" +
                     "a celým srdcom sa vinuli k tebe.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"28b", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, udeľ nám takú vytrvalosť<br>" +
-                    "v službe tebe a blížnemu,<br>" +
-                    "akú mali tvoji svätí mučeníci Vavrinec a jeho spoločníci, <font color='#B71C1C'>—</font><br>" +
-                    "lebo v tvojom kráľovstve sú blahoslavení tí, <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"28b", "Pane a Bože náš, <br>" +
+                    "prosíme ťa, udeľ nám takú vytrvalosť <br>" +
+                    "v službe tebe a blížnemu, <br>" +
+                    "akú mali tvoji svätí mučeníci <br>" +
+                    "Vavrinec a jeho spoločníci, <font color='#B71C1C'>*</font><br>" +
+                    "lebo v tvojom kráľovstve sú blahoslavení tí, <font color='#B71C1C'>—</font><br>" +
                     "ktorých prenasledujú pre spravodlivosť.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh<br>" +
-                    "a s tebou žije a kraľuje v jednote s Duchom Svätým<br>" +
-                    "po všetky veky vekov.", "", ""},
-            {"29g", "Nekonečný Bože,<br>" +
-                    "ty obdivuhodne určuješ úlohy anjelom i ľuďom; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pošli svojich anjelov,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"29g", "Bože, ty obdivuhodne <br>" +
+                    "určuješ úlohy anjelom i ľuďom; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, pošli svojich anjelov, <br>" +
                     "ktorí ti ustavične slúžia v nebi, <font color='#B71C1C'>—</font><br>" +
                     "aby nás ochraňovali v pozemskom živote.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Pane a Bože náš,<br>" +
-                    "prinášame ti obetu chvály a prosíme,<br>" +
-                    "nech ju anjeli prenesú pred tvoju tvár; <font color='#B71C1C'>*</font><br>" +
-                    "milostivo ju prijmi <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby nám bola na spásu.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "posilnení nebeským chlebom pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby nám tento sviatostný pokrm<br>" +
-                    "pomáhal odhodlane napredovať na ceste spásy<br>" +
-                    "pod mocnou ochranou tvojich anjelov.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"30", "Všemohúci Bože,<br>" +
-                    "svätého kňaza Hieronyma si obdaril láskou<br>" +
-                    "a živým záujmom o Sväté písmo; <font color='#B71C1C'>*</font><br>" +
-                    "otvor aj naše srdce pre tvoje slovo, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa ním živili a v ňom našli prameň života.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme aj my ako svätý Hieronym<br>" +
-                    "s radosťou rozjímali o tvojom slove, <font color='#B71C1C'>—</font><br>" +
-                    "a tak ochotnejšie pristupovali k tvojmu oltáru<br>" +
-                    "nábožne sláviť obetu spásy.<br>" +
-                    "Skrze Krista, nášho Pána.", "Prosíme ťa, milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "sviatosť, ktorú sme prijali<br>" +
-                    "pri radostnej oslave svätého Hieronyma,<br>" +
-                    "nech vzbudí v našich srdciach<br>" +
-                    "väčšiu lásku k tvojmu slovu, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ho čoraz lepšie chápali, podľa neho žili,<br>" +
-                    "a tak dosiahli večnú blaženosť.<br>" +
-                    "Skrze Krista, nášho Pána."},
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prinášame ti obetu chvály a prosíme, <br>" +
+                            "nech ju anjeli prenesú pred tvoju tvár; <font color='#B71C1C'>*</font><br>" +
+                            "milostivo ju prijmi <font color='#B71C1C'>—</font><br>" +
+                            "a daj, aby nám bola na spásu.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, posilnil si nás nebeským chlebom; <font color='#B71C1C'>*</font><br>" +
+                            "pokorne ťa prosíme, <br>" +
+                            "aby nám tento sviatostný pokrm <br>" +
+                            "pomáhal odhodlane napredovať na ceste spásy <font color='#B71C1C'>—</font><br>" +
+                            "pod mocnou ochranou tvojich anjelov.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"30", "Bože, svätého kňaza Hieronyma <br>" +
+                    "si obdaril láskou a živým <br>" +
+                    "záujmom o Sväté písmo; <font color='#B71C1C'>*</font><br>" +
+                    "otvor aj naše srdce pre tvoje slovo, <br>" +
+                    "aby sme sa ním živili <font color='#B71C1C'>—</font><br>" +
+                    "a v ňom našli prameň života.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "daj, aby sme aj my podľa príkladu <br>" +
+                            "svätého Hieronyma rozjímali o tvojom slove, <font color='#B71C1C'>*</font><br>" +
+                            "a tak ochotnejšie pristupovali k tvojmu oltáru <font color='#B71C1C'>—</font><br>" +
+                            "nábožne sláviť obetu spásy.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "sviatosť, ktorú sme prijali <br>" +
+                            "pri radostnej oslave svätého Hieronyma, <br>" +
+                            "nech vzbudí v našich srdciach <br>" +
+                            "väčšiu lásku k tvojmu slovu, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme ho čoraz lepšie chápali, <br>" +
+                            "podľa neho žili, <br>" +
+                            "a tak dosiahli večný život.<br>" +
+                            "Skrze Krista, nášho Pána."},
     };
 
     String[][] modlitba10 = {
-            {"01", "Veľký Bože,<br>" +
-                    "svoje kráľovstvo otváraš pokorným a maličkým; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme s dôverou kráčali<br>" +
+            {"01", "Bože, svoje kráľovstvo <br>" +
+                    "otváraš pokorným a maličkým; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme s dôverou kráčali <br>" +
                     "po stopách svätej Terézie <font color='#B71C1C'>—</font><br>" +
                     "a na jej príhovor sa dostali do večnej slávy.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Nekonečný Bože, velebíme teba,<br>" +
-                    "keď slávime pamiatku svätej panny Terézie, <font color='#B71C1C'>*</font><br>" +
-                    "a pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby ti naša obeta bola taká milá,<br>" +
-                    "ako ti bol milý jej obetavý život.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech toto sväté prijímanie<br>" +
-                    "zapáli v nás oheň lásky, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa ti úplne oddali ako svätá Terézia<br>" +
-                    "a podľa jej príkladu vyprosovali všetkým ľuďom<br>" +
-                    "tvoje zľutovanie.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"02", "Láskavý Bože, vo svojej prozreteľnosti<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, velebíme teba, keď slávime pamiatku <br>" +
+                            "svätej panny Terézie, a pokorne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "aby ti naša obeta bola taká milá, <font color='#B71C1C'>—</font><br>" +
+                            "ako ti bol milý jej obetavý život.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nech prijatá sviatosť <br>" +
+                            "zapáli v nás oheň lásky, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme sa ti úplne oddali ako svätá Terézia <font color='#B71C1C'>—</font><br>" +
+                            "a podľa jej príkladu vyprosovali <br>" +
+                            "všetkým ľuďom tvoje zľutovanie.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"02", "Bože, vo svojej prozreteľnosti <br>" +
                     "posielaš nám svätých anjelov za strážcov; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme vždy cítili ich mocnú ochranu<br>" +
+                    "vrúcne ťa prosíme, <br>" +
+                    "daj, aby sme vždy cítili ich mocnú ochranu <font color='#B71C1C'>—</font><br>" +
                     "a raz v ich spoločenstve prežívali večnú radosť.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi obetné dary, ktoré ti prinášame<br>" +
-                    "na počesť tvojich svätých anjelov, <font color='#B71C1C'>—</font><br>" +
-                    "aby nás chránili pred nebezpečenstvami tohto sveta<br>" +
-                    "a priviedli do večného života.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Otče,<br>" +
-                    "v tejto vznešenej sviatosti nám dávaš pokrm<br>" +
-                    "pre večný život; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pošli svojich anjelov, <font color='#B71C1C'>—</font><br>" +
-                    "aby nás sprevádzali na ceste spásy a pokoja.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"04", "Bože, otec chudobných,<br>" +
-                    "svätému Františkovi si dal milosť,<br>" +
-                    "že sa chudobou a pokorou stal podobným Kristovi; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme aj my podľa jeho príkladu<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prijmi obetné dary, ktoré ti <br>" +
+                            "prinášame na počesť tvojich svätých anjelov, <font color='#B71C1C'>*</font><br>" +
+                            "a dopraj, aby nás neustále chránili <br>" +
+                            "pred nebezpečenstvami tohto sveta <font color='#B71C1C'>—</font><br>" +
+                            "a priviedli do večného života.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, v tejto vznešenej sviatosti <br>" +
+                            "nám dávaš pokrm pre večný život; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, pošli svojich anjelov, <font color='#B71C1C'>—</font><br>" +
+                            "aby nás sprevádzali na ceste spásy a pokoja.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"04", "Bože, svätému Františkovi si dal milosť, <br>" +
+                    "že sa chudobou a pokorou <br>" +
+                    "stal podobným Kristovi; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme aj my podľa jeho príkladu <br>" +
                     "nasledovali tvojho Syna <font color='#B71C1C'>—</font><br>" +
                     "a v láske a radosti sa zjednocovali s tebou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Otče, prijmi naše obetné dary <font color='#B71C1C'>*</font><br>" +
-                    "a daj, aby sme tajomstvo kríža<br>" +
-                    "slávili na tvojom oltári s takou láskou, <font color='#B71C1C'>—</font><br>" +
-                    "s akou sa k Ukrižovanému vinul svätý František.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás Oltárna sviatosť upevní v láske k tebe<br>" +
-                    "a nech v nás vzbudí horlivosť za spásu ľudí, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa ako svätý František<br>" +
-                    "stali šíriteľmi kresťanskej radosti vo svete.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"06", "Všemohúci Bože,<br>" +
-                    "svätého Bruna si povolal, aby ti slúžil v samote; <font color='#B71C1C'>*</font><br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prinášame ti obetné dary <br>" +
+                            "a pokorne prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme tajomstvo kríža slávili <br>" +
+                            "na tvojom oltári s takou láskou, <font color='#B71C1C'>—</font><br>" +
+                            "s akou sa k Ukrižovanému <br>" +
+                            "vinul svätý František.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nech nás prijatá sviatosť <br>" +
+                            "upevní v láske k tebe <font color='#B71C1C'>*</font><br>" +
+                            "a nech v nás vzbudí horlivosť za spásu ľudí, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme sa ako svätý František <br>" +
+                            "stali šíriteľmi kresťanskej radosti vo svete.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"05", "Všemohúci a večný Bože, <br>" +
+                    "ty si vybral svätú Faustínu, <br>" +
+                    "aby hlásala nesmierne bohatstvá <br>" +
+                    "tvojho milosrdenstva; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme na jej príhovor a podľa jej príkladu <br>" +
+                    "úplne dôverovali tvojmu milosrdenstvu <font color='#B71C1C'>—</font><br>" +
+                    "a vytrvalo konali diela kresťanskej lásky.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"06", "Bože, svätého Bruna si povolal, <br>" +
+                    "aby ti slúžil v samote; <font color='#B71C1C'>*</font><br>" +
                     "na jeho príhovor nám pomáhaj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme si v zhone tohto života<br>" +
+                    "aby sme si v zhone tohto života <br>" +
                     "vždy našli čas pre teba.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"07m", "Všemohúci Bože,<br>" +
-                    "z anjelovho zvestovania vieme,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"07m", "Pane, z anjelovho zvestovania vieme, <br>" +
                     "že tvoj Syn Ježiš Kristus sa stal človekom; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa,<br>" +
-                    "na orodovanie preblahoslavenej Panny Márie<br>" +
+                    "prosíme ťa, na orodovanie <br>" +
+                    "preblahoslavenej Panny Márie <br>" +
                     "vlej nám do duše svoju milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby nás jeho umučenie a kríž<br>" +
+                    "aby nás jeho umučenie a kríž <br>" +
                     "priviedli k slávnemu vzkrieseniu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože, prijmi tieto dary,<br>" +
-                    "s ktorými ti obetujeme aj seba samých, <font color='#B71C1C'>*</font><br>" +
-                    "a daj, aby sme úprimne prežívali<br>" +
-                    "tajomstvá tvojho Syna, <font color='#B71C1C'>—</font><br>" +
-                    "a tak dosiahli slávu, ktorú si nám prisľúbil.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane a Bože náš,<br>" +
-                    "touto sviatostnou obetou<br>" +
-                    "zvestujeme smrť a zmŕtvychvstanie tvojho Syna; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pomôž nám<br>" +
-                    "znášať utrpenia v spojení s Kristom, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme mali účasť aj na jeho večnej sláve.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"09a", "Dobrotivý Bože,<br>" +
-                    "svätého biskupa Dionýza a jeho spoločníkov<br>" +
-                    "si poslal ohlasovať evanjelium pohanom<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, pomôž nám <br>" +
+                            "pripodobniť sa darom, ktoré prinášame, <font color='#B71C1C'>*</font><br>" +
+                            "a daj, nech tak prežívame <br>" +
+                            "tajomstvá tvojho jednorodeného Syna, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme boli hodní jeho prisľúbení.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Pane a Bože náš, v tejto sviatosti zvestujeme <br>" +
+                            "smrť a zmŕtvychvstanie tvojho Syna; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, pomôž nám <br>" +
+                            "znášať utrpenia v spojení s Kristom, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme mali účasť aj na jeho večnej sláve.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"09a", "Bože, svätého Dionýza a jeho spoločníkov <br>" +
+                    "si poslal ohlasovať evanjelium pohanom <br>" +
                     "a dal si im silu podstúpiť mučeníctvo; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa, na ich príhovor nám pomáhaj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa nedali zvábiť<br>" +
-                    "klamnými dobrami tohto sveta<br>" +
-                    "a nebáli sa jeho protivenstiev.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"09b", "Bože, darca všetkého dobra,<br>" +
-                    "ty si poslal svätého kňaza Jána Leonardiho<br>" +
+                    "aby sme sa nedali zvábiť klamnými dobrami <br>" +
+                    "tohto sveta a nebáli sa jeho protivenstiev.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"09b", "Bože, darca všetkého dobra, <br>" +
+                    "ty si poslal svätého kňaza Jána <br>" +
                     "ohlasovať evanjelium národom; <font color='#B71C1C'>*</font><br>" +
                     "na jeho orodovanie dopraj, <font color='#B71C1C'>—</font><br>" +
                     "aby vždy a všade prekvitala pravá viera.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"14", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "vypočuj prosby kresťanského ľudu,<br>" +
-                    "ktorý oslavuje mučenícku smrť svätého<br>" +
-                    "pápeža Kalixta; <font color='#B71C1C'>—</font><br>" +
-                    "pre jeho zásluhy a na jeho orodovanie<br>" +
-                    "pomáhaj nám v ťažkostiach každodenného života.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"15", "Všemohúci Bože,<br>" +
-                    "svätú Teréziu si osvietil Duchom Svätým,<br>" +
-                    "aby bola v Cirkvi učiteľkou<br>" +
-                    "kresťanskej dokonalosti; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "daj nám neprestajne čerpať z jej duchovnej náuky<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"11", "Všemohúci a večný Bože, <br>" +
+                    "ty si vo svätom pápežovi Jánovi <br>" +
+                    "dal svetu živý obraz Krista, dobrého pastiera; <font color='#B71C1C'>*</font><br>" +
+                    "na jeho príhovor dopraj, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme s radosťou šírili plnosť kresťanskej lásky.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"14", "Bože, ty si povolal svätého pápeža Kalixta <br>" +
+                    "slúžiť Cirkvi a prehlbovať úctu <br>" +
+                    "k zosnulým veriacim; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, nech nás posilňuje príklad jeho viery, <br>" +
+                    "aby sme sa vymanili z otroctva hriechu <font color='#B71C1C'>—</font><br>" +
+                    "a získali neporušené dedičstvo.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"15", "Bože, svätú Teréziu si osvietil <br>" +
+                    "Duchom Svätým, aby bola v Cirkvi <br>" +
+                    "učiteľkou kresťanskej dokonalosti; <font color='#B71C1C'>*</font><br>" +
+                    "vrúcne ťa prosíme, daj nám <br>" +
+                    "neprestajne čerpať z jej duchovnej náuky <font color='#B71C1C'>—</font><br>" +
                     "a túžiť po pravej svätosti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "nech sú ti príjemné naše obetné dary, <font color='#B71C1C'>—</font><br>" +
-                    "ako ti bol milý<br>" +
-                    "obetavý a oddaný život svätej Terézie.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Otče, rodinu svojich veriacich<br>" +
-                    "si posilnil nebeským chlebom; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme podľa príkladu svätej Terézie<br>" +
-                    "vedeli ďakovať za tento veľký dar <font color='#B71C1C'>—</font><br>" +
-                    "a naveky ospevovali tvoje milosrdenstvo.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"16a", "Všemohúci Bože,<br>" +
-                    "vo svätej Hedvige si dal kresťanskému ľudu<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "nech sú ti príjemné naše obetné dary, <font color='#B71C1C'>—</font><br>" +
+                            "ako ti bol milý obetavý <br>" +
+                            "a oddaný život svätej Terézie.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane a Bože náš, rodinu svojich <br>" +
+                            "veriacich si nasýtil nebeským chlebom; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby sme nasledovali <br>" +
+                            "príklad svätej Terézie <font color='#B71C1C'>—</font><br>" +
+                            "a raz mohli naveky <br>" +
+                            "ospevovať tvoje milosrdenstvo.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"16a", "Všemohúci Bože, <br>" +
+                    "vo svätej Hedvige si nám dal <br>" +
                     "žiarivý vzor evanjeliovej pokory; <font color='#B71C1C'>*</font><br>" +
                     "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby nám jej mocný príhovor zaistil tvoju pomoc.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"16b", "Milosrdný Bože,<br>" +
-                    "ty si dal svätej Margite nazrieť<br>" +
-                    "do tajomstva lásky tvojho Syna,<br>" +
-                    "ktorá prevyšuje všetko poznanie; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, aj nám daruj svojho Ducha, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme poznali Kristovu lásku<br>" +
+                    "aby nám jej mocný <br>" +
+                    "príhovor zaistil tvoju pomoc.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"16b", "Prosíme ťa, Pane, zošli na nás ducha, <br>" +
+                    "ktorým si osobitne naplnil svätú Margitu Máriu, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme mohli poznať Kristovu lásku, <br>" +
+                    "ktorá prevyšuje všetko poznanie, <font color='#B71C1C'>—</font><br>" +
                     "a mali účasť na bohatstve tvojho božského života.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"17", "Všemohúci a večný Bože,<br>" +
-                    "svedectvom svätých mučeníkov<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"16c", "Všemohúci Bože, ty si povolal svätého Gála, <br>" +
+                    "aby horlivo ohlasoval pravdy evanjelia; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, zachovaj nám pravú radosť, <br>" +
+                    "ktorá pramení z viery, <font color='#B71C1C'>—</font><br>" +
+                    "a posilni našu vernosť <br>" +
+                    "tvojmu Synovi, Ježišovi Kristovi.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+            {"17", "Všemohúci a večný Bože, <br>" +
+                    "svedectvom svätých mučeníkov <br>" +
                     "ozdobuješ svoju Cirkev, Kristovo tajomné telo; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby mučenícka smrť svätého Ignáca,<br>" +
-                    "ktorá jeho priviedla do večnej slávy, <font color='#B71C1C'>—</font><br>" +
-                    "pre nás bola ustavičným zdrojom sily a odvahy<br>" +
-                    "vo vyznávaní viery.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "láskavo prijmi obetu našej oddanosti,<br>" +
-                    "ako si prijal svätého Ignáca, <font color='#B71C1C'>—</font><br>" +
-                    "keď sa ti obetoval ako Kristova pšenica,<br>" +
-                    "mučeníctvom rozomletá na čistý chlieb.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás občerství a posilní sviatostný chlieb,<br>" +
-                    "ktorý sme prijali<br>" +
-                    "v deň víťaznej smrti svätého Ignáca, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme boli kresťanmi nielen podľa mena,<br>" +
-                    "ale aj svojím životom.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"18g", "Pane a Bože náš,<br>" +
-                    "ty si poslal svätého Lukáša<br>" +
-                    "ohlasovať slovom i písmom<br>" +
-                    "tajomstvo tvojej lásky voči chudobným; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby všetci kresťania<br>" +
-                    "boli jedno srdce a jedna duša <font color='#B71C1C'>—</font><br>" +
-                    "a aby všetky národy uvideli spásu,<br>" +
-                    "ktorú si im pripravil.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Láskavý Bože,<br>" +
-                    "obdaruj nás milosťou ochotne ti slúžiť, <font color='#B71C1C'>*</font><br>" +
-                    "aby dary, ktoré ti prinášame<br>" +
-                    "na sviatok svätého Lukáša, <font color='#B71C1C'>—</font><br>" +
-                    "stali sa pre nás duchovným liekom<br>" +
-                    "a pomáhali nám k večnej sláve.<br>" +
-                    "Skrze Krista, nášho Pána.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás posvätí nebeský chlieb,<br>" +
-                    "ktorý sme prijali z tvojho oltára, <font color='#B71C1C'>—</font><br>" +
-                    "a nech nás upevní vo vernosti k evanjeliu,<br>" +
-                    "ktoré ohlasoval svätý Lukáš.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána."},
-            {"19a", "Dobrotivý Bože, ty si posvätil<br>" +
-                    "prvotiny viery v krajinách severnej Ameriky<br>" +
-                    "kázaním a mučeníckou krvou<br>" +
-                    "svätého Jána, Izáka a ich spoločníkov; <font color='#B71C1C'>*</font><br>" +
-                    "milostivo dopraj, <font color='#B71C1C'>—</font><br>" +
-                    "aby na ich orodovanie<br>" +
-                    "vzrastalo a prekvitalo kresťanstvo<br>" +
-                    "vo všetkých končinách zeme.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"19b", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "ty si do srdca svätého kňaza Pavla<br>" +
-                    "vložil veľkú lásku ku krížu tvojho Syna; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme na jeho príhovor a podľa jeho príkladu<br>" +
-                    "vzali na seba každodenný kríž<br>" +
-                    "a nasledovali Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože,<br>" +
-                    "v deň spomienky na svätého Pavla z Kríža<br>" +
-                    "prinášame ti obetné dary; <font color='#B71C1C'>*</font><br>" +
-                    "láskavo na ne zhliadni <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby sme svojím životom<br>" +
-                    "napodobňovali obetu tvojho Syna na kríži,<br>" +
-                    "ktorú slávime v tomto tajomstve.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána.", "Láskavý Otče,<br>" +
-                    "v živote svätého kňaza Pavla<br>" +
-                    "si nám obdivuhodne priblížil tajomstvo kríža; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme sa posilnení touto obetou<br>" +
-                    "verne pridŕžali tvojho ukrižovaného Syna <font color='#B71C1C'>—</font><br>" +
-                    "a v Cirkvi pracovali na spáse všetkých ľudí.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"22", "Bože, bohatý na milosrdenstvo,<br>" +
-                    "ty si povolal svätého pápeža Jána Pavla II.<br>" +
-                    "viesť tvoju Cirkev; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme posilnení jeho náukou<br>" +
-                    "s dôverou otvorili svoje srdcia<br>" +
+                    "daj, aby mučenícka smrť svätého Ignáca, <br>" +
+                    "ktorá ho priviedla do večnej slávy, <font color='#B71C1C'>—</font><br>" +
+                    "bola pre nás ustavičným zdrojom posily.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, láskavo prijmi obetu našej oddanosti, <font color='#B71C1C'>*</font><br>" +
+                            "ako si prijal svätého Ignáca, <br>" +
+                            "keď sa ti obetoval ako Kristova pšenica, <font color='#B71C1C'>—</font><br>" +
+                            "mučeníctvom pretvorená na čistý chlieb.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nech nás občerství nebeský chlieb, <br>" +
+                            "ktorý sme prijali v deň <br>" +
+                            "víťaznej smrti svätého Ignáca, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme boli kresťanmi nielen podľa mena, <font color='#B71C1C'>—</font><br>" +
+                            "ale aj svojím životom.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"18g", "Pane a Bože náš, ty si poslal <br>" +
+                    "svätého Lukáša ohlasovať slovom i písmom <br>" +
+                    "tajomstvo tvojej lásky k chudobným; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby všetci kresťania boli <br>" +
+                    "jedno srdce a jedna duša <font color='#B71C1C'>—</font><br>" +
+                    "a aby všetky národy uzreli tvoju spásu.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, obdaruj nás <br>" +
+                            "milosťou ochotne ti slúžiť, <font color='#B71C1C'>*</font><br>" +
+                            "aby dary, ktoré ti prinášame <br>" +
+                            "na sviatok svätého Lukáša, <br>" +
+                            "stali sa pre nás duchovným liekom <font color='#B71C1C'>—</font><br>" +
+                            "a pomáhali nám k večnej sláve.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Všemohúci Bože, <br>" +
+                            "nech nás posvätí sviatosť, <br>" +
+                            "ktorú sme prijali z tvojho svätého oltára, <font color='#B71C1C'>*</font><br>" +
+                            "a nech nás upevní vo vernosti k evanjeliu, <font color='#B71C1C'>—</font><br>" +
+                            "ktoré ohlasoval svätý Lukáš.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"19a", "Bože, ty si chcel námahou a vyliatím krvi <br>" +
+                    "svätých Jána a Izáka a ich spoločníkov <br>" +
+                    "poukázať na blaženú nádej večného kráľovstva; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sa na ich príhovor <br>" +
+                    "stále upevňovala kresťanská viera.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"19b", "Pane, nech nám svätý kňaz Pavol, <br>" +
+                    "ktorého jedinou láskou bol kríž, <br>" +
+                    "vyprosí tvoju milosť, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme nasledovali jeho príklad <font color='#B71C1C'>—</font><br>" +
+                    "a s odvahou vzali na seba každodenný kríž.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Všemohúci Bože, <br>" +
+                            "v deň spomienky na svätého Pavla <br>" +
+                            "prinášame ti obetné dary; <font color='#B71C1C'>*</font><br>" +
+                            "láskavo na ne zhliadni a daj, <br>" +
+                            "aby sme svojím životom napodobňovali <br>" +
+                            "obetu tvojho Syna na kríži, <font color='#B71C1C'>—</font><br>" +
+                            "ktorú slávime v tomto tajomstve.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, v živote svätého kňaza Pavla <br>" +
+                            "si nám obdivuhodne priblížil tajomstvo kríža; <font color='#B71C1C'>*</font><br>" +
+                            "láskavo dopraj, aby sme sa posilnení <br>" +
+                            "touto obetou verne pridŕžali Krista <font color='#B71C1C'>—</font><br>" +
+                            "a v Cirkvi pracovali na spáse všetkých ľudí.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"22", "Bože, bohatý na milosrdenstvo, <br>" +
+                    "ty si povolal svätého pápeža <br>" +
+                    "Jána Pavla viesť tvoju Cirkev; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme posilnení jeho náukou <br>" +
+                    "s dôverou otvorili svoje srdcia <br>" +
                     "spásnej milosti Krista, <font color='#B71C1C'>—</font><br>" +
-                    "jediného Vykupiteľa človeka.<br>" +
-                    "On je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"23", "Milosrdný Bože,<br>" +
-                    "ty si povolal svätého Jána Kapistránskeho,<br>" +
-                    "aby v krušných časoch posmeľoval kresťanský ľud;<font color='#B71C1C'>*</font><br>" +
+                    "jediného Vykupiteľa človeka. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+            {"23", "Bože, ty si povolal svätého Jána, <br>" +
+                    "aby v krušných časoch posmeľoval kresťanský ľud; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa, aj nám poskytuj bezpečnú ochranu <font color='#B71C1C'>—</font><br>" +
                     "a svoju Cirkev zachovaj v trvalom pokoji.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"24", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "ty si obdaril svätého biskupa Antona<br>" +
-                    "veľkou láskou a trpezlivosťou<br>" +
-                    "pri hlásaní evanjelia národom; <font color='#B71C1C'>—</font> <br>" +
-                    "daj, aby sme aj my hľadali<br>" +
-                    "najprv Božie kráľovstvo<br>" +
-                    "a horlivo privádzali svojich blížnych<br>" +
-                    "k tvojmu Synovi Ježišovi Kristovi,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"26gk+", "Všemohúci Bože, pre tvoju dobrotu<br>" +
-                    "môžeme každoročne sláviť<br>" +
-                    "deň posvätenia tohto chrámu; <font color='#B71C1C'>*</font><br>" +
-                    "vyslyš prosby svojho ľudu a dopraj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sa na tomto mieste<br>" +
-                    "vždy konala tebe milá služba<br>" +
-                    "a na nás hojne zostupovala milosť vykúpenia.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Presvätý Bože, pripomíname si deň,<br>" +
-                    "keď si svojou prítomnosťou posvätil<br>" +
-                    "tento chrám vyhradený pre teba; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "prijmi dary, ktoré ti prinášame<br>" +
-                    "na tomto posvätnom mieste,<br>" +
-                    "a urob aj z nás tebe príjemnú obetu.<br>" +
-                    "Skrze Krista, nášho Pána.", "Všemohúci a večný Bože,<br>" +
-                    "na výročie posvätenia tohto chrámu<br>" +
-                    "priniesli sme ti obetu chvály; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa,<br>" +
-                    "naplň nás nebeským požehnaním a radosťou, <font color='#B71C1C'>—</font><br>" +
-                    "aby naše spoločenstvo bolo vždy<br>" +
-                    "dôstojnejším chrámom tvojej slávy.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"28g", "Všemohúci Bože,<br>" +
-                    "pričinením svätých apoštolov<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"24", "Bože, ty si obdaril <br>" +
+                    "svätého biskupa Antona Máriu <br>" +
+                    "veľkou láskou a trpezlivosťou <br>" +
+                    "pri hlásaní evanjelia národom; <font color='#B71C1C'>*</font><br>" +
+                    "na jeho príhovor dopraj, <br>" +
+                    "aby sme aj my hľadali Božie kráľovstvo <font color='#B71C1C'>—</font><br>" +
+                    "a horlivo privádzali svojich blížnych ku Kristovi.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+            {"25", "Dobrotivý Bože, svätý Maurus <br>" +
+                    "sa s tebou spájal v tichu <br>" +
+                    "a bol príkladom ustavičnej <br>" +
+                    "modlitby, pokory a čistoty; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, pomáhaj nám <br>" +
+                    "zjednotiť sa s tebou na tvoju chválu <font color='#B71C1C'>—</font><br>" +
+                    "a na našu spásu i spásu celého sveta.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"28g", "Bože, prostredníctvom svätých apoštolov <br>" +
                     "priviedol si nás k poznaniu svojho mena; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby na príhovor svätého Šimona a Júdu<br>" +
-                    "stále vzrastal počet veriacich <font color='#B71C1C'>—</font><br>" +
-                    "a tvoja Cirkev bola znamením spásy<br>" +
-                    "pre všetky národy.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Večný Bože,<br>" +
-                    "pripomíname si nebeskú slávu<br>" +
-                    "tvojich svätých apoštolov Šimona a Júdu; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, prijmi naše dary a modlitby, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme dôstojne slávili sväté tajomstvá.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane a Bože náš,<br>" +
-                    "prijali sme sviatostný pokrm z obety,<br>" +
-                    "ktorú sme slávili na počesť mučeníkov<br>" +
-                    "Šimona a Júdu; <font color='#B71C1C'>*</font><br>" +
-                    "v Duchu Svätom ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "nech nás táto sviatosť a príklad tvojich apoštolov<br>" +
-                    "upevní v láske k tebe.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"31gk", "Všemohúci a večný Bože,<br>" +
-                    "doprial si nám radosť,<br>" +
-                    "že dnešným sviatkom<br>" +
+                    "láskavo dopraj, <font color='#B71C1C'>—</font><br>" +
+                    "aby na príhovor svätých Šimona a Júdu <br>" +
+                    "Cirkev stále vzrastala v počte veriacich.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, pripomíname si nekonečnú slávu <br>" +
+                            "svätých apoštolov Šimona a Júdu <font color='#B71C1C'>*</font><br>" +
+                            "a prosíme ťa, prijmi naše dary a modlitby, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme dôstojne slávili sväté tajomstvá.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, prijali sme sviatostný pokrm <br>" +
+                            "a v Duchu Svätom ťa pokorne prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "nech nás obeta, ktorú sme slávili <br>" +
+                            "na počesť utrpenia apoštolov Šimona a Júdu, <font color='#B71C1C'>—</font><br>" +
+                            "upevní v láske k tebe.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"31gk", "Všemohúci a večný Bože, <br>" +
+                    "doprial si nám radosť, že dnešným sviatkom <br>" +
                     "môžeme osláviť zásluhy všetkých tvojich svätých; <font color='#B71C1C'>*</font><br>" +
                     "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "na príhovor toľkých orodovníkov<br>" +
+                    "na príhovor toľkých orodovníkov <br>" +
                     "zahrň nás svojou milosrdnou láskou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Presvätý Otče,<br>" +
-                    "prijmi obetné dary na počesť všetkých svätých,<br>" +
-                    "ktorí už dosiahli nehynúcu blaženosť v nebi; <font color='#B71C1C'>*</font><br>" +
-                    "dopraj, aby sme pocítili, <font color='#B71C1C'>—</font><br>" +
-                    "že nám účinne pomáhajú na ceste spásy.<br>" +
-                    "Skrze Krista, nášho Pána.", "Nekonečný Bože,<br>" +
-                    "dnešným sviatkom všetkých svätých<br>" +
-                    "oslavujeme teba, prameň všetkej svätosti; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ťa nadovšetko milovali,<br>" +
-                    "a tak mohli prejsť<br>" +
-                    "od sviatostného stola pútnikov<br>" +
-                    "k nebeskej hostine v spoločenstve tvojich svätých.<br>" +
-                    "Skrze Krista, nášho Pána."},
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, nech sú ti milé obetné dary <br>" +
+                            "na počesť všetkých svätých, <br>" +
+                            "ktorí už dosiahli nehynúcu blaženosť v nebi; <font color='#B71C1C'>*</font><br>" +
+                            "dopraj, aby sme pocítili, <font color='#B71C1C'>—</font><br>" +
+                            "že nám účinne pomáhajú na ceste spásy.<br>" +
+                            "Skrze Krista, nášho Pána. ",
+                    "Bože, dnešným sviatkom všetkých svätých <br>" +
+                            "oslavujeme teba, prameň všetkej svätosti; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, pomáhaj nám, <br>" +
+                            "aby sme ťa nadovšetko milovali, <font color='#B71C1C'>—</font><br>" +
+                            "a tak mohli prejsť od sviatostného stola pútnikov <br>" +
+                            "k nebeskej hostine v spoločenstve tvojich svätých. <br>" +
+                            "Skrze Krista, nášho Pána."},
     };
 
     String[][] modlitba11 = {
-            {"01gk", "Všemohúci a večný Bože,<br>" +
-                    "doprial si nám radosť,<br>" +
-                    "že dnešným sviatkom<br>" +
+            {"01gk", "Všemohúci a večný Bože, <br>" +
+                    "doprial si nám radosť, že dnešným sviatkom <br>" +
                     "môžeme osláviť zásluhy všetkých tvojich svätých; <font color='#B71C1C'>*</font><br>" +
                     "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "na príhovor toľkých orodovníkov<br>" +
+                    "na príhovor toľkých orodovníkov <br>" +
                     "zahrň nás svojou milosrdnou láskou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Presvätý Otče,<br>" +
-                    "prijmi obetné dary na počesť všetkých svätých,<br>" +
-                    "ktorí už dosiahli nehynúcu blaženosť v nebi; <font color='#B71C1C'>*</font><br>" +
-                    "dopraj, aby sme pocítili, <font color='#B71C1C'>—</font><br>" +
-                    "že nám účinne pomáhajú na ceste spásy.<br>" +
-                    "Skrze Krista, nášho Pána.", "Nekonečný Bože,<br>" +
-                    "dnešným sviatkom všetkých svätých<br>" +
-                    "oslavujeme teba, prameň všetkej svätosti; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ťa nadovšetko milovali,<br>" +
-                    "a tak mohli prejsť<br>" +
-                    "od sviatostného stola pútnikov<br>" +
-                    "k nebeskej hostine v spoločenstve tvojich svätých.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"02an", "Milosrdný Bože,<br>" +
-                    "vypočuj naše prosby a oživuj našu vieru<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, nech sú ti milé obetné dary <br>" +
+                            "na počesť všetkých svätých, <br>" +
+                            "ktorí už dosiahli nehynúcu blaženosť v nebi; <font color='#B71C1C'>*</font><br>" +
+                            "dopraj, aby sme pocítili, <font color='#B71C1C'>—</font><br>" +
+                            "že nám účinne pomáhajú na ceste spásy.<br>" +
+                            "Skrze Krista, nášho Pána. ",
+                    "Bože, dnešným sviatkom všetkých svätých <br>" +
+                            "oslavujeme teba, prameň všetkej svätosti; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, pomáhaj nám, <br>" +
+                            "aby sme ťa nadovšetko milovali, <font color='#B71C1C'>—</font><br>" +
+                            "a tak mohli prejsť od sviatostného stola pútnikov <br>" +
+                            "k nebeskej hostine v spoločenstve tvojich svätých. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"02an", "Prosíme ťa, Pane, <br>" +
+                    "vypočuj naše prosby a oživuj našu vieru <br>" +
                     "v tvojho Syna, ktorý vstal z mŕtvych, <font color='#B71C1C'>*</font><br>" +
                     "aby v nás rástla nádej, <font color='#B71C1C'>—</font><br>" +
-                    "že aj našich zosnulých<br>" +
+                    "že aj našich zosnulých <br>" +
                     "vzkriesiš k večnému životu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Pane a Bože náš,<br>" +
-                    "láskavo zhliadni na naše obetné dary <font color='#B71C1C'>*</font><br>" +
-                    "a všetkých verných zosnulých<br>" +
-                    "prijmi do slávy svojho Syna, <font color='#B71C1C'>—</font><br>" +
-                    "s ktorým aj nás spája<br>" +
-                    "táto sviatosť nesmiernej lásky.<br>" +
-                    "Skrze Krista, nášho Pána.", "Prosíme ťa, večný Otče, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi do vlasti svetla a pokoja<br>" +
-                    "všetkých našich zosnulých, <font color='#B71C1C'>—</font><br>" +
-                    "za ktorých sme slávili<br>" +
-                    "pamiatku smrti a zmŕtvychvstania Ježiša Krista,<br>" +
-                    "ktorý žije a kraľuje na veky vekov."},
-            {"02bn", "Bože, svetlo veriacich a život spravodlivých,<br>" +
-                    "tvoj Syn nás vykúpil<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,..",
+                    "Pane, láskavo zhliadni na naše obetné dary <font color='#B71C1C'>*</font><br>" +
+                            "a všetkých svojich zosnulých služobníkov <br>" +
+                            "prijmi do slávy svojho Syna, <font color='#B71C1C'>—</font><br>" +
+                            "s ktorým aj nás spája táto sviatosť lásky.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "prijmi do vlasti svetla a pokoja <br>" +
+                            "všetkých svojich zosnulých služobníkov, <font color='#B71C1C'>—</font><br>" +
+                            "za ktorých sme slávili túto veľkonočnú sviatosť.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"02bn", "Bože, svetlo veriacich a život spravodlivých, <br>" +
+                    "tvoj Syn nás vykúpil <br>" +
                     "svojou smrťou a zmŕtvychvstaním; <font color='#B71C1C'>*</font><br>" +
-                    "zmiluj sa nad svojimi zosnulými služobníkmi,<br>" +
+                    "zmiluj sa nad svojimi zosnulými služobníkmi, <br>" +
                     "ktorí verili vo vzkriesenie z mŕtvych, <font color='#B71C1C'>—</font><br>" +
                     "a odmeň ich večnou blaženosťou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci a milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa za tvojich zosnulých služobníkov,<br>" +
-                    "ktorých si v krste priviedol k novému životu; <font color='#B71C1C'>—</font><br>" +
-                    "v tejto obete obmy ich viny Kristovou krvou<br>" +
-                    "a dokonale ich očisti<br>" +
-                    "svojou milosrdnou láskou.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Otče,<br>" +
-                    "prijali sme sviatosť tvojho jednorodeného Syna,<br>" +
-                    "ktorý za nás zomrel na kríži<br>" +
-                    "a slávne vstal z mŕtvych ; <font color='#B71C1C'>*</font><br>" +
-                    "týmto tajomstvom nášho vykúpenia<br>" +
-                    "očisti našich zosnulých bratov a sestry, <font color='#B71C1C'>—</font><br>" +
-                    "aby mali účasť na sláve<br>" +
-                    "vzkrieseného Ježiša Krista,<br>" +
-                    "ktorý žije a kraľuje na veky vekov."},
-            {"02cn", "Všemohúci Bože,<br>" +
-                    "ty si povýšil do nebeskej slávy<br>" +
-                    "svojho Syna, víťaza nad smrťou; <font color='#B71C1C'>*</font><br>" +
-                    "daj našim zosnulým bratom a sestrám<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov. ",
+                    "Všemohúci a milosrdný Bože, <br>" +
+                            "prosíme ťa za tvojich zosnulých služobníkov, <br>" +
+                            "ktorých si obmyl vodou krstu; <font color='#B71C1C'>*</font><br>" +
+                            "v tejto obete zotri ich viny Kristovou krvou <font color='#B71C1C'>—</font><br>" +
+                            "a dokonale ich očisti svojou milosrdnou láskou.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, prijali sme sviatosť <br>" +
+                            "tvojho jednorodeného Syna, <br>" +
+                            "ktorý za nás zomrel na kríži <br>" +
+                            "a slávne vstal z mŕtvych; <font color='#B71C1C'>*</font><br>" +
+                            "týmto tajomstvom nášho vykúpenia <br>" +
+                            "očisti svojich zosnulých služobníkov, <font color='#B71C1C'>—</font><br>" +
+                            "aby sa radovali z daru budúceho vzkriesenia.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"02cn", "Bože, ty si povýšil do nebeskej slávy <br>" +
+                    "svojho jednorodeného Syna, víťaza nad smrťou; <font color='#B71C1C'>*</font><br>" +
+                    "daj svojim zosnulým služobníkom <br>" +
                     "účasť na Kristovom víťazstve nad smrťou, <font color='#B71C1C'>—</font><br>" +
-                    "aby mohli večne vidieť z tváre do tváre teba,<br>" +
+                    "aby mohli večne hľadieť na teba, <br>" +
                     "svojho Stvoriteľa a Záchrancu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Otče, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi tieto obetné dary<br>" +
-                    "za všetkých našich bratov a sestry,<br>" +
-                    "čo zosnuli v spojení s Kristom, <font color='#B71C1C'>—</font><br>" +
-                    "a pre túto vznešenú obetu<br>" +
-                    "vysloboď ich z moci smrti<br>" +
-                    "a voveď do večného života.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Otče,<br>" +
-                    "pri viň k sebe našich zosnulých bratov a sestry,<br>" +
-                    "za ktorých sme priniesli túto obetu; <font color='#B71C1C'>*</font><br>" +
-                    "a keďže si im v krste dal účasť<br>" +
-                    "na svojom živote, <font color='#B71C1C'>—</font><br>" +
-                    "daj im v nebi podiel<br>" +
-                    "na večnej radosti.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"03", "Milosrdný Bože,<br>" +
-                    "svätého Martina si priviedol po ceste pokory<br>" +
-                    "do nebeskej slávy; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme podľa jeho príkladu<br>" +
-                    "pomáhali svojim blížnym v núdzi a chorobe, <font color='#B71C1C'>—</font><br>" +
-                    "a tak dosiahli s ním účasť<br>" +
-                    "na radosti svätých v nebi.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"04", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "zachovaj vo svojom ľude ducha,<br>" +
-                    "ktorým si naplnil svätého biskupa Karola, <font color='#B71C1C'>—</font><br>" +
-                    "aby sa tvoja Cirkev stále obnovovala,<br>" +
-                    "stávala sa čoraz podobnejšia Kristovi,<br>" +
-                    "a tak sprítomňovala svetu tvár tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi obetné dary,<br>" +
-                    "ktoré ti kladieme na oltár<br>" +
-                    "v deň spomienky na svätého Karola,<br>" +
-                    "bedlivého pastiera a horlivého kňaza; <font color='#B71C1C'>—</font><br>" +
-                    "mocou tejto obety pomôž aj nám<br>" +
-                    "prinášať v tvojej Cirkvi<br>" +
-                    "ovocie pravého kresťanského života.<br>" +
-                    "Skrze Krista, nášho Pána.", "Prosíme ťa, láskavý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nám spásonosný pokrm, ktorý sme prijali,<br>" +
-                    "dá silu ducha, <font color='#B71C1C'>—</font><br>" +
-                    "ktorá svätého Karola urobila verným<br>" +
-                    "v kňazskej službe<br>" +
-                    "a neúnavným v láske k blížnym.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"05", "Dobrotivý Bože,<br>" +
-                    "ty si svätého Imricha v kvete mladosti prijal<br>" +
-                    "do spoločenstva svojich svätých; <font color='#B71C1C'>*</font><br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prijmi tieto obetné dary <br>" +
+                            "za všetkých svojich služobníkov, <br>" +
+                            "čo zosnuli v Kristovi, <font color='#B71C1C'>*</font><br>" +
+                            "a pre túto vznešenú obetu <br>" +
+                            "vysloboď ich z moci smrti <font color='#B71C1C'>—</font><br>" +
+                            "a voveď do večného života.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, mocou sviatosti, ktorú sme prijali, <br>" +
+                            "zahrň svojich zosnulých služobníkov <br>" +
+                            "svojím milosrdenstvom; <font color='#B71C1C'>*</font><br>" +
+                            "a keďže si ich už obdaril krstnou milosťou, <font color='#B71C1C'>—</font><br>" +
+                            "daruj im plnosť večnej radosti.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"03", "Bože, svätého Martina si priviedol <br>" +
+                    "po ceste pokory do nebeskej slávy; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme nasledovali jeho žiarivý príklad, <font color='#B71C1C'>—</font><br>" +
+                    "a tak dosiahli s ním účasť na nebeskej radosti.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"04", "Prosíme ťa, Pane, <br>" +
+                    "zachovaj vo svojom ľude ducha, <br>" +
+                    "ktorým si naplnil svätého biskupa Karola, <font color='#B71C1C'>*</font><br>" +
+                    "aby sa tvoja Cirkev stále obnovovala, <br>" +
+                    "stávala sa čoraz podobnejšou Kristovi, <font color='#B71C1C'>—</font><br>" +
+                    "a tak sprítomňovala svetu tvár tvojho Syna.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "zhliadni na obetné dary, <br>" +
+                            "ktoré ti kladieme na oltár <br>" +
+                            "v deň spomienky na svätého Karola, <br>" +
+                            "bedlivého pastiera, ktorý vynikal v čnostiach, <font color='#B71C1C'>—</font><br>" +
+                            "a mocou tejto obety pomôž aj nám <br>" +
+                            "prinášať ovocie pravého kresťanského života.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, Pane, nech nám sviatosť, <br>" +
+                            "ktorú sme prijali, dá silu ducha, <font color='#B71C1C'>*</font><br>" +
+                            "ktorá svätého Karola <br>" +
+                            "urobila verným v kňazskej službe <font color='#B71C1C'>—</font><br>" +
+                            "a neúnavným v láske k blížnym.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"05", "Dobrotivý Bože, <br>" +
+                    "ty si svätého Imricha v kvete mladosti<br>" +
+                    "prijal do spoločenstva svojich svätých; <font color='#B71C1C'>*</font><br>" +
                     "na jeho príhovor nám pomôž, <font color='#B71C1C'>—</font><br>" +
                     "aby sme si uprostred pokušení tohto sveta<br>" +
-                    "zachovali čistotu srdca.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"10", "Vševládny Bože,<br>" +
-                    "svojej Cirkvi si dal pevný základ<br>" +
-                    "na skale, ktorou je Peter,<br>" +
-                    "a nikdy nedovolíš,<br>" +
-                    "aby ju premohli pekelné mocnosti; <font color='#B71C1C'>*</font><br>" +
-                    "na príhovor svätého pápeža Leva Veľkého<br>" +
+                    "zachovali čistotu srdca. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "po všetky veky vekov. ","",""},
+            {"09g", "Bože, zo živých a vybraných kameňov <br>" +
+                    "si pripravuješ svoj večný príbytok; <font color='#B71C1C'>*</font><br>" +
+                    "rozmnož vo svojej Cirkvi <br>" +
+                    "ducha milosti, ktorého si jej poslal, <font color='#B71C1C'>—</font><br>" +
+                    "aby sa vzrastom tvojho veriaceho ľudu <br>" +
+                    "budoval nebeský Jeruzalem.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.<br>" +
+                    "<font color='#B71C1C'>Alebo:</font><br>" +
+                    "Bože, ty Cirkev nazývaš svojou nevestou; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby ľud slúžiaci <br>" +
+                    "tvojmu menu tebe sa klaňal, <br>" +
+                    "teba miloval a nasledoval <font color='#B71C1C'>—</font><br>" +
+                    "a pod tvojím vedením <br>" +
+                    "dosiahol prisľúbenú nebeskú blaženosť.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "prijmi naše obetné dary a dopraj, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme v tvojom svätom chráme<br>" +
+                            "s úžitkom prijímali sviatosti <font color='#B71C1C'>—</font><br>" +
+                            "a dosiahli milosti, o ktoré ťa prosíme.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, ty si zo svojej Cirkvi na zemi <br>" +
+                            "urobil obraz nebeského Jeruzalema; <font color='#B71C1C'>*</font><br>" +
+                            "vrúcne ťa prosíme, <br>" +
+                            "pôsobením sviatosti, ktorú sme prijali, <br>" +
+                            "utváraj z nás živý chrám svojej milosti, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme mohli vojsť do príbytku tvojej slávy.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"10", "Bože, svojej Cirkvi si dal pevný základ <br>" +
+                    "na skale, ktorou je Peter, <br>" +
+                    "a nikdy nedovolíš, aby ju <br>" +
+                    "premohli pekelné mocnosti; <font color='#B71C1C'>*</font><br>" +
+                    "na príhovor svätého pápeža Leva Veľkého <br>" +
                     "posilňuj ju v pravej viere <font color='#B71C1C'>—</font><br>" +
                     "a zachovaj v jednote a pokoji.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "pre túto svätú obetu<br>" +
-                    "ukazuj svojej Cirkvi správnu cestu,<br>" +
-                    "aby sa tvoj ľud duchovne vzmáhal po celej zemi, <font color='#B71C1C'>—</font><br>" +
-                    "a osvecuj jeho pastierov,<br>" +
-                    "aby ti ich služba bola milá.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Bože,<br>" +
-                    "nasýtil si nás sviatostným pokrmom; <font color='#B71C1C'>*</font><br>" +
-                    "spravuj svoju Cirkev pevnou rukou<br>" +
-                    "a daruj jej múdrych pastierov, <font color='#B71C1C'>—</font><br>" +
-                    "aby ti mohla slúžiť v pravej slobode<br>" +
-                    "a zachovávala neporušenú vieru.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"11", "Všemohúci Bože,<br>" +
-                    "svätý biskup Martin ťa oslávil<br>" +
-                    "svojím životom i svojou smrťou; <font color='#B71C1C'>*</font><br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "pre túto svätú obetu osvecuj svoju Cirkev, <font color='#B71C1C'>*</font><br>" +
+                            "aby sa tvoj ľud vzmáhal po celej zemi <font color='#B71C1C'>—</font><br>" +
+                            "a aby ti bola milá služba duchovných pastierov.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nasýtil si nás sviatostným pokrmom; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, láskavo spravuj <br>" +
+                            "svoju Cirkev mocnou rukou, <font color='#B71C1C'>—</font><br>" +
+                            "aby ti mohla slúžiť v pravej slobode <br>" +
+                            "a zachovávala neporušenú vieru.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"11", "Bože, svätý biskup Martin <br>" +
+                    "ťa oslávil svojím životom i svojou smrťou; <font color='#B71C1C'>*</font><br>" +
                     "aj v našich srdciach konaj divy svojej milosti, <font color='#B71C1C'>—</font><br>" +
-                    "aby nás ani smrť ani život<br>" +
+                    "aby nás ani smrť, ani život <br>" +
                     "nemohli odlúčiť od tvojej lásky.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, posväť tieto dary,<br>" +
-                    "ktoré ti s radosťou prinášame<br>" +
-                    "pri spomienke na svätého Martina; <font color='#B71C1C'>*</font><br>" +
-                    "nech nás táto obeta posilní, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme v šťastí i v protivenstvách<br>" +
-                    "kráčali správnou cestou.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane a Bože náš,<br>" +
-                    "posilnil si nás sviatosťou jednoty; <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj nám ochotne plniť tvoju vôľu<br>" +
-                    "a úplne sa ti odovzdať ako svätý Martin, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa mohli tešiť, že patríme celkom tebe.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"11g", "Všemohúci Bože,<br>" +
-                    "svätý biskup Martin ťa oslávil<br>" +
-                    "svojím životom i svojou smrťou; <font color='#B71C1C'>*</font><br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane a Bože náš, posväť tieto dary, <br>" +
+                            "ktoré ti s radosťou prinášame <br>" +
+                            "pri spomienke na svätého Martina; <font color='#B71C1C'>*</font><br>" +
+                            "nech nás táto obeta posilní, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme v šťastí i v protivenstvách <br>" +
+                            "kráčali správnou cestou.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, posilnil si nás sviatosťou jednoty; <font color='#B71C1C'>*</font><br>" +
+                            "pomáhaj nám ochotne plniť tvoju vôľu <br>" +
+                            "a úplne sa ti odovzdať ako svätý Martin, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme sa mohli tešiť, že patríme celkom tebe.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"11g", "Bože, svätý biskup Martin <br>" +
+                    "ťa oslávil svojím životom i svojou smrťou; <font color='#B71C1C'>*</font><br>" +
                     "aj v našich srdciach konaj divy svojej milosti, <font color='#B71C1C'>—</font><br>" +
-                    "aby nás ani smrť ani život<br>" +
+                    "aby nás ani smrť, ani život <br>" +
                     "nemohli odlúčiť od tvojej lásky.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, posväť tieto dary,<br>" +
-                    "ktoré ti s radosťou prinášame<br>" +
-                    "pri spomienke na svätého Martina; <font color='#B71C1C'>*</font><br>" +
-                    "nech nás táto obeta posilní, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme v šťastí i v protivenstvách<br>" +
-                    "kráčali správnou cestou.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane a Bože náš,<br>" +
-                    "posilnil si nás sviatosťou jednoty; <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj nám ochotne plniť tvoju vôľu<br>" +
-                    "a úplne sa ti odovzdať ako svätý Martin, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa mohli tešiť, že patríme celkom tebe.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"12", "Bože, otec všetkých veriacich,<br>" +
-                    "daj svojej Cirkvi Ducha lásky,<br>" +
-                    "ktorý svätému Jozafátovi dal silu<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane a Bože náš, posväť tieto dary, <br>" +
+                            "ktoré ti s radosťou prinášame <br>" +
+                            "pri spomienke na svätého Martina; <font color='#B71C1C'>*</font><br>" +
+                            "nech nás táto obeta posilní, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme v šťastí i v protivenstvách <br>" +
+                            "kráčali správnou cestou.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, posilnil si nás sviatosťou jednoty; <font color='#B71C1C'>*</font><br>" +
+                            "pomáhaj nám ochotne plniť tvoju vôľu <br>" +
+                            "a úplne sa ti odovzdať ako svätý Martin, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme sa mohli tešiť, že patríme celkom tebe.<br>" +
+                            "Skrze Krista, nášho Pána."},
+
+            {"12", "Prosíme ťa, Pane, daj svojej Cirkvi Ducha lásky, <br>" +
+                    "ktorý svätému Jozafátovi dal silu <br>" +
                     "položiť život za svoj ľud; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho príhovor naplň i nás<br>" +
-                    "duchom lásky a sily, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa nebáli<br>" +
-                    "obetovať aj život za svojich bratov.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "svojím požehnaním posväť tieto dary <font color='#B71C1C'>—</font><br>" +
-                    "a posilni nás vo viere,<br>" +
-                    "ktorú svätý Jozafát dosvedčil svojou krvou.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nám táto obetná hostina<br>" +
-                    "dá ducha sily a pokoja, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa príkladu svätého Jozafáta<br>" +
-                    "vedeli ochotne obetovať aj život<br>" +
-                    "za česť a jednotu Cirkvi.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"15", "Bože, prameň všetkej múdrosti,<br>" +
-                    "svätého biskupa Alberta si vyznačil tým,<br>" +
-                    "že ľudskú vedu<br>" +
+                    "na jeho príhovor naplň i nás tým istým Duchom, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme sa nebáli obetovať aj život za svojich bratov.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Dobrotivý Bože, <br>" +
+                            "svojím požehnaním posväť tieto dary <font color='#B71C1C'>*</font><br>" +
+                            "a posilni nás vo viere, <font color='#B71C1C'>—</font><br>" +
+                            "ktorú svätý Jozafát dosvedčil svojou krvou.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nech nám táto obetná hostina <font color='#B71C1C'>*</font><br>" +
+                            "dá ducha sily a pokoja, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme podľa príkladu svätého Jozafáta <br>" +
+                            "vedeli ochotne obetovať <br>" +
+                            "aj život za česť a jednotu Cirkvi.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"15", "Bože, svätého biskupa Alberta <br>" +
+                    "si vyznačil tým, že ľudskú vedu <br>" +
                     "uviedol do súladu so zjavenou pravdou; <font color='#B71C1C'>*</font><br>" +
                     "dopraj nám kráčať v šľapajach tohto učiteľa, <font color='#B71C1C'>—</font><br>" +
-                    "aby nám pokrok vo vede<br>" +
-                    "pomáhal lepšie poznávať a vrúcnejšie milovať teba.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"16a", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "do srdca svätej Margity, škótskej kráľovnej,<br>" +
-                    "vložil si veľkú lásku k chudobným; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme na jej orodovanie a podľa jej príkladu<br>" +
+                    "aby nám pokrok vo vede pomáhal <br>" +
+                    "lepšie poznávať a vrúcnejšie milovať teba.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"16a", "Bože, do srdca svätej Margity <br>" +
+                    "si vložil veľkú lásku k chudobným; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme na jej orodovanie <br>" +
+                    "a podľa jej príkladu <br>" +
                     "vo svete sprítomňovali tvoju dobrotu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"16b", "Dobrotivý Bože,<br>" +
-                    "v panenskom srdci svätej Gertrúdy<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"16b", "Bože, v panenskom srdci svätej Gertrúdy <br>" +
                     "pripravil si pre seba milý príbytok; <font color='#B71C1C'>*</font><br>" +
-                    "na jej orodovanie rozptýľ temnoty nášho srdca<br>" +
+                    "na jej orodovanie rozptýľ <br>" +
+                    "temnoty nášho srdca <br>" +
                     "a osvieť nás svojím svetlom, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme s radosťou cítili,<br>" +
+                    "aby sme s radosťou cítili, <br>" +
                     "že v nás prebývaš a pôsobíš.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"17", "Bože, otec chudobných,<br>" +
-                    "svätej Alžbete si udelil milosť,<br>" +
-                    "že v chudobných<br>" +
-                    "videla a uctievala samého Krista; <font color='#B71C1C'>*</font><br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"17", "Bože, svätej Alžbete si udelil milosť, <br>" +
+                    "že v chudobných videla <br>" +
+                    "a uctievala samého Krista; <font color='#B71C1C'>*</font><br>" +
                     "na jej orodovanie dopraj aj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme s neúnavnou láskou<br>" +
+                    "aby sme s neúnavnou láskou <br>" +
                     "pomáhali chudobným a trpiacim.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"17gk", "Bože, otec chudobných,<br>" +
-                    "svätej Alžbete si udelil milosť,<br>" +
-                    "že v chudobných<br>" +
-                    "videla a uctievala samého Krista; <font color='#B71C1C'>*</font><br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"17gk", "Bože, svätej Alžbete si udelil milosť, <br>" +
+                    "že v chudobných videla <br>" +
+                    "a uctievala samého Krista; <font color='#B71C1C'>*</font><br>" +
                     "na jej orodovanie dopraj aj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme s neúnavnou láskou<br>" +
+                    "aby sme s neúnavnou láskou <br>" +
                     "pomáhali chudobným a trpiacim.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"18", "Nekonečný a večný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "neprestajne poskytuj svojej Cirkvi<br>" +
-                    "ochranu svätých apoštolov Petra a Pavla,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"18", "Pane, neprestajne poskytuj svojej Cirkvi <br>" +
+                    "ochranu svätých apoštolov Petra a Pavla, <font color='#B71C1C'>*</font><br>" +
                     "ktorí jej prví ohlasovali evanjelium; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby na ich príhovor<br>" +
-                    "rástla v tvoj ej milosti až do konca vekov.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Pane a Bože náš, <font color='#B71C1C'>*</font><br>" +
-                    "prinášame ti dary svojej oddanosti<br>" +
-                    "a vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme neporušenú zachovali náuku,<br>" +
-                    "ktorú nám odovzdali svätí apoštoli Peter a Pavol.<br>" +
-                    "Skrze Krista, nášho Pána.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, aby tvoj ľud,<br>" +
-                    "nasýtený nebeským chlebom, <font color='#B71C1C'>—</font><br>" +
-                    "s radosťou prežíval spomienku<br>" +
-                    "na svätých apoštolov Petra a Pavla,<br>" +
-                    "ktorých si mu dal za pastierov a ochrancov.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"20", "Bože, ty si blahoslavenú Annu posilňoval,<br>" +
-                    "aby sa nebála toho, kto môže zabiť telo,<br>" +
-                    "s korunoval si jej panenstvo slávou mučeníctva;<br>" +
+                    "daj, aby na ich príhovor rástla <br>" +
+                    "v tvojej milosti až do konca vekov.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prinášame ti dary svojej oddanosti <br>" +
+                            "a vrúcne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme zachovali neporušenú náuku, <font color='#B71C1C'>—</font><br>" +
+                            "ktorú nám odovzdali <br>" +
+                            "svätí apoštoli Peter a Pavol.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby tvoj ľud, nasýtený <br>" +
+                            "nebeským chlebom, <br>" +
+                            "s radosťou prežíval spomienku <br>" +
+                            "na svätých apoštolov Petra a Pavla, <font color='#B71C1C'>—</font><br>" +
+                            "ktorých si mu dal za pastierov a ochrancov.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"20", "Bože, ty si blahoslavenú Annu posilňoval, <br>" +
+                    "aby sa nebála toho, kto môže zabiť telo, <font color='#B71C1C'>*</font><br>" +
+                    "a korunoval si jej panenstvo slávou mučeníctva; <font color='#B71C1C'>—</font><br>" +
                     "na jej príhovor udeľ aj nám odvahu<br>" +
-                    "voliť si dobro a zavrhovať zlo.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"21m", "Dobrotivý Bože,<br>" +
-                    "dnes si s úctou spomíname na najsvätejšiu Pannu,<br>" +
-                    "ktorú si zahrnul darmi svojej milosti; <font color='#B71C1C'>*</font><br>" +
-                    "na jej orodovanie udeľ aj nám<br>" +
-                    "z bohatstva svojej dobroty, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ti cez celý život<br>" +
-                    "slúžili s oddaným srdcom.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"22", "Dobrotivý Bože,<br>" +
-                    "milostivo prijmi naše modlitby <font color='#B71C1C'>*</font><br>" +
-                    "a na príhovor svätej Cecílie, panny a mučenice,<br>" +
-                    "udeľ nám milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ťa s radostnou oddanosťou<br>" +
-                    "mohli chváliť celým svojím životom.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"23a", "Bože, obdivuhodná sila všetkých svätých,<br>" +
-                    "naplň nás radosťou<br>" +
-                    "pri spomienke na svätého Klementa,<br>" +
+                    "voliť si dobro a zavrhovať zlo. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "po všetky veky vekov. ","",""},
+            {"21m", "Pane, dnes si s úctou spomíname <br>" +
+                    "na najsvätejšiu Pannu Máriu; <font color='#B71C1C'>*</font><br>" +
+                    "na jej orodovanie ťa prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "dopraj, aby sme mohli mať účasť <br>" +
+                    "na plnosti tvojej milosti.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"22", "Bože, každoročne nás potešuješ <br>" +
+                    "oslavou svätej Cecílie; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby nám jej život bol príkladom <br>" +
+                    "a svedectvom pôsobenia Krista, <br>" +
+                    "tvojho Syna, vo svojich služobníkoch.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.","",""},
+            {"23a", "Všemohúci a večný Bože, <br>" +
+                    "obdivuhodná sila všetkých svätých, <br>" +
+                    "naplň nás radosťou pri spomienke <br>" +
+                    "na svätého Klimenta, <br>" +
                     "Kristovho kňaza a mučeníka; <font color='#B71C1C'>*</font><br>" +
-                    "veď on nielen slávil tajomstvo viery,<br>" +
+                    "veď on nielen slávil tajomstvo viery, <br>" +
                     "ale vydal o ňom aj svedectvo svojou krvou, <font color='#B71C1C'>—</font><br>" +
-                    "a evanjelium, ktoré hlásal slovom,<br>" +
+                    "a evanjelium, ktoré hlásal slovom, <br>" +
                     "potvrdzoval skutkami.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"23b", "Dobrotivý Bože,<br>" +
-                    "vo svätom Kolumbánovi si obdivuhodne spojil<br>" +
-                    "horlivosť v šírení evanjelia<br>" +
-                    "s láskou k rehoľnému životu; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho orodovanie nám pomáhaj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa jeho príkladu<br>" +
-                    "vo všetkom hľadali iba teba<br>" +
-                    "a horlivo sa pričiňovali o rozvoj tvojej Cirkvi.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"24", "Dobrotivý Bože,<br>" +
-                    "prameň a pôvodca každého otcovstva,<br>" +
-                    "ty si urobil svätých mučeníkov Ondreja a jeho spoločníkov<br>" +
-                    "vernými krížu tvojho Syna až po vyliatie krvi; <font color='#B71C1C'>*</font><br>" +
-                    "daj, nech na ich príhovor<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"23b", "Bože, vo svätom Kolumbánovi <br>" +
+                    "si obdivuhodne spojil horlivosť v šírení <br>" +
+                    "evanjelia s láskou k mníšskemu životu; <font color='#B71C1C'>*</font><br>" +
+                    "na jeho orodovanie nám pomáhaj, <br>" +
+                    "aby sme podľa jeho príkladu <br>" +
+                    "vo všetkom hľadali iba teba <font color='#B71C1C'>—</font><br>" +
+                    "a snažili sa o rozvoj veriaceho ľudu.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"24", "Bože, prameň a pôvodca každého otcovstva, <br>" +
+                    "ty si urobil svätých mučeníkov <br>" +
+                    "Andreja a jeho spoločníkov vernými <br>" +
+                    "krížu tvojho Syna až po vyliatie krvi; <font color='#B71C1C'>*</font><br>" +
+                    "daj, nech na ich príhovor <br>" +
                     "šírime tvoju lásku medzi bratmi, <font color='#B71C1C'>—</font><br>" +
                     "aby sme sa mohli volať a byť tvojimi synmi.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Nebeský Otče,<br>" +
-                    "Prijmi obetné dary, ktoré ti prinášame<br>" +
-                    "Pri spomienke umučenia<br>" +
-                    "Svätých vietnamských mučeníkov; <font color='#B71C1C'>*</font><br>" +
-                    "Daj, aby sme ti uprostred protivenstiev nášho života<br>" +
-                    "Zostali vždy verní <font color='#B71C1C'>—</font> <br>" +
-                    "A aby sme sa sami stali tebe milou obetou.<br>" +
-                    "Skrze Krista, nášho Pána.", "Bože náš,<br>" +
-                    "pri svätej omši si nás posilnil<br>" +
-                    "pokrmom jedného chleba; <font color='#B71C1C'>*</font><br>" +
-                    "pri spomienke na svätých vietnamských mučeníkov<br>" +
-                    "pokorne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme zostali jednomyseľní v tvojej láske<br>" +
-                    "a dosiahli večnú odmenu trpezlivosti.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"25", "Bože, prameň múdrosti a sily,<br>" +
-                    "svojim verným zjavuješ moc svojho milosrdenstva; <font color='#B71C1C'>*</font><br>" +
-                    "na príhovor svätej Kataríny nám pomáhaj<br>" +
-                    "obstáť v skúškach života <font color='#B71C1C'>—</font><br>" +
-                    "a v každej núdzi nám daj pocítiť tvoju láskavú pomoc.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"30g", "Všemohúci Bože,<br>" +
-                    "svojej Cirkvi si dal svätého apoštola Ondreja<br>" +
-                    "za zvestovateľa viery a duchovného pastiera; <font color='#B71C1C'>*</font><br>" +
-                    "vyslyš naše prosby <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby Cirkev aj v dnešných časoch<br>" +
-                    "cítila moc jeho orodovania.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože,<br>" +
-                    "na sviatok svätého Ondreja<br>" +
-                    "prinášame ti obetné dary; <font color='#B71C1C'>*</font><br>" +
-                    "nech sa ti páčia, keď ich predkladáme, <font color='#B71C1C'>—</font><br>" +
-                    "a nech nás obživia, keď ich premenené prijmeme.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Otče,<br>" +
-                    "posilni nás týmto svätým prijímaním, <font color='#B71C1C'>*</font><br>" +
-                    "aby sme podľa príkladu svätého apoštola Ondreja<br>" +
-                    "s láskou nasledovali ukrižovaného Krista, <font color='#B71C1C'>—</font><br>" +
-                    "a tak mohli aj my dosiahnuť slávu vzkriesenia.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána."},
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Svätý Otče, prijmi obetné dary, <br>" +
+                            "ktoré ti prinášame pri spomienke <br>" +
+                            "umučenia svätých mučeníkov; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby sme ti uprostred protivenstiev <br>" +
+                            "nášho života zostali vždy verní <font color='#B71C1C'>—</font><br>" +
+                            "a aby sme sa sami stali tebe milou obetou.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, pri spomienke na svätých mučeníkov <br>" +
+                            "nasýtil si nás z jedného chleba; <font color='#B71C1C'>*</font><br>" +
+                            "pokorne ťa prosíme, daj, aby sme zostali <br>" +
+                            "jednomyseľní v tvojej láske <font color='#B71C1C'>—</font><br>" +
+                            "a dosiahli večnú odmenu trpezlivosti.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"25", "Všemohúci a večný Bože, <br>" +
+                    "ty si svojmu ľudu dal <br>" +
+                    "svätú pannu a mučenicu Katarínu; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj, aby sme sa na jej príhovor <br>" +
+                    "utvrdzovali vo viere <font color='#B71C1C'>—</font><br>" +
+                    "a horlivo pracovali na jednote Cirkvi.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"30g", "Pane, svojej Cirkvi si dal <br>" +
+                    "svätého apoštola Ondreja <br>" +
+                    "za ohlasovateľa viery a duchovného pastiera; <font color='#B71C1C'>*</font><br>" +
+                    "vypočuj naše prosby <font color='#B71C1C'>—</font><br>" +
+                    "a daj, aby sme vždy <br>" +
+                    "cítili účinky jeho orodovania.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Všemohúci Bože, <br>" +
+                            "na sviatok svätého Ondreja <br>" +
+                            "prinášame ti obetné dary; <font color='#B71C1C'>*</font><br>" +
+                            "nech sa ti páčia, keď ich predkladáme, <font color='#B71C1C'>—</font><br>" +
+                            "a nech nás posilnia, <br>" +
+                            "keď ich premenené prijmeme.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, posilni nás týmto svätým prijímaním, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme podľa príkladu <br>" +
+                            "svätého apoštola Ondreja <br>" +
+                            "s láskou nasledovali ukrižovaného Krista, <font color='#B71C1C'>—</font><br>" +
+                            "a tak sme mohli dosiahnuť slávu vzkriesenia.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
     };
 
     String[][] modlitba12 = {
-            {"03", "Bože, spása všetkých ľudí,<br>" +
-                    "misionárskou činnosťou svätého<br>" +
-                    "Františka Xaverského<br>" +
-                    "získal si mnohé národy pre svoju Cirkev; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, naplň srdcia veriacich<br>" +
+            {"03", "Bože, misionárskou činnosťou <br>" +
+                    "svätého Františka Xaverského si získal <br>" +
+                    "mnohé národy pre svoju Cirkev; <font color='#B71C1C'>*</font><br>" +
+                    "vrúcne ťa prosíme, naplň srdcia veriacich <br>" +
                     "horlivosťou za šírenie viery, <font color='#B71C1C'>—</font><br>" +
-                    "aby tvoj a Cirkev po celom svete<br>" +
+                    "aby tvoja Cirkev po celom svete <br>" +
                     "rástla počtom a svätosťou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože, Pán všetkých národov, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi naše obetné dary<br>" +
-                    "v deň spomienky na svätého Františka,<br>" +
-                    "ktorý sa z túžby po spáse ľudí<br>" +
-                    "odobral do ďalekých krajín ohlasovať<br>" +
-                    "Kristovu blahozvesť; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme aj my boli pravými svedkami evanjelia<br>" +
-                    "a s našimi bratmi a sestrami vo viere<br>" +
-                    "uberali sa k tebe.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech táto sviatosť zapáli v nás oheň lásky,<br>" +
-                    "akým za spásu duší horel svätý František, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme žili zodpovedne<br>" +
-                    "svojmu kresťanskému povolaniu<br>" +
-                    "a spolu s ním dosiahli odmenu<br>" +
-                    "prisľúbenú svedomitým robotníkom v tvojej vinici.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"03g", "Bože, spása všetkých ľudí,<br>" +
-                    "misionárskou činnosťou svätého<br>" +
-                    "Františka Xaverského<br>" +
-                    "získal si mnohé národy pre svoju Cirkev; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, naplň srdcia veriacich<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prijmi naše obetné dary <br>" +
+                            "v deň spomienky na svätého Františka, <br>" +
+                            "ktorý sa z túžby po spáse ľudí <br>" +
+                            "odobral do ďalekých krajín <br>" +
+                            "ohlasovať Kristovu blahozvesť; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby sme aj my boli <br>" +
+                            "pravými svedkami evanjelia <font color='#B71C1C'>—</font><br>" +
+                            "a s našimi bratmi a sestrami <br>" +
+                            "vo viere sa uberali k tebe.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, nech táto sviatosť <br>" +
+                            "zapáli v nás oheň lásky, <br>" +
+                            "akým za spásu duší <br>" +
+                            "horel svätý František, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme žili zodpovedne <br>" +
+                            "svojmu kresťanskému povolaniu <font color='#B71C1C'>—</font><br>" +
+                            "a spolu s ním dosiahli odmenu <br>" +
+                            "prisľúbenú svedomitým robotníkom <br>" +
+                            "v tvojej vinici.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"03g", "Bože, misionárskou činnosťou <br>" +
+                    "svätého Františka Xaverského si získal <br>" +
+                    "mnohé národy pre svoju Cirkev; <font color='#B71C1C'>*</font><br>" +
+                    "vrúcne ťa prosíme, naplň srdcia veriacich <br>" +
                     "horlivosťou za šírenie viery, <font color='#B71C1C'>—</font><br>" +
-                    "aby tvoj a Cirkev po celom svete<br>" +
+                    "aby tvoja Cirkev po celom svete <br>" +
                     "rástla počtom a svätosťou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože, Pán všetkých národov, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi naše obetné dary<br>" +
-                    "v deň spomienky na svätého Františka,<br>" +
-                    "ktorý sa z túžby po spáse ľudí<br>" +
-                    "odobral do ďalekých krajín ohlasovať<br>" +
-                    "Kristovu blahozvesť; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme aj my boli pravými svedkami evanjelia<br>" +
-                    "a s našimi bratmi a sestrami vo viere<br>" +
-                    "uberali sa k tebe.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech táto sviatosť zapáli v nás oheň lásky,<br>" +
-                    "akým za spásu duší horel svätý František, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme žili zodpovedne<br>" +
-                    "svojmu kresťanskému povolaniu<br>" +
-                    "a spolu s ním dosiahli odmenu<br>" +
-                    "prisľúbenú svedomitým robotníkom v tvojej vinici.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"04a", "Všemohúci Bože, vo svätom Jánovi Damascénskom<br>" +
-                    "si dal Cirkvi vynikajúceho učiteľa; <font color='#B71C1C'>*</font><br>" +
-                    "poskytuj nám na jeho príhovor stálu pomoc, <font color='#B71C1C'>—</font><br>" +
-                    "aby pravá viera, ktorú tak presvedčivo hlásal,<br>" +
-                    "bola nám vždy prameňom svetla a sily.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"06", "Bože, darca každého dobra,<br>" +
-                    "na príhovor svätého biskupa Mikuláša<br>" +
-                    "pomáhaj nám v každej núdzi<br>" +
-                    "a chráň nás pred každým nešťastím; <font color='#B71C1C'>*</font><br>" +
-                    "daj nám veľkodušné srdce, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ochotne dávali iným, čo prijímame od teba,<br>" +
-                    "a tak bezpečne kráčali po ceste spásy.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"07", "Dobrotivý Bože,<br>" +
-                    "vo svätom biskupovi Ambrózovi<br>" +
-                    "dal si nám vynikajúceho učiteľa katolíckej viery<br>" +
-                    "a vzor apoštolskej odvahy; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aj v našich dňoch pošli svojej Cirkvi<br>" +
-                    "duchovných pastierov podľa tvojho srdca,<br>" +
-                    "aby ju spravovali múdro a neohrozene.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás pri slávení tejto božskej obety<br>" +
-                    "naplní svetlom viery Duch Svätý, <font color='#B71C1C'>—</font><br>" +
-                    "ktorý svätého Ambróza povzbudzoval<br>" +
-                    "k horlivému šíreniu tvojej pravdy a slávy.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Otče,<br>" +
-                    "na sviatostnej hostine<br>" +
-                    "si nás posilnil chlebom z neba; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme podľa príkladu svätého Ambróza<br>" +
-                    "neochvejne kráčali po tvojich cestách<br>" +
-                    "a pripravovali sa na radostnú hostinu vo večnosti.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"10m", "Bože, ty si splnil sľub daný našim otcom<br>" +
-                    "a vyvolil si preblahoslavenú Pannu Máriu<br>" +
-                    "za matku Spasiteľa; <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj nám nasledovať<br>" +
-                    "jej príklad pokory, ktorá ti je milá, <font color='#B71C1C'>—</font><br>" +
-                    "a poslušnosti, ktorá nám priniesla spásu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
-                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prijmi naše obetné dary <br>" +
+                            "v deň spomienky na svätého Františka, <br>" +
+                            "ktorý sa z túžby po spáse ľudí <br>" +
+                            "odobral do ďalekých krajín <br>" +
+                            "ohlasovať Kristovu blahozvesť; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby sme aj my boli <br>" +
+                            "pravými svedkami evanjelia <font color='#B71C1C'>—</font><br>" +
+                            "a s našimi bratmi a sestrami <br>" +
+                            "vo viere sa uberali k tebe.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, nech táto sviatosť <br>" +
+                            "zapáli v nás oheň lásky, <br>" +
+                            "akým za spásu duší <br>" +
+                            "horel svätý František, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme žili zodpovedne <br>" +
+                            "svojmu kresťanskému povolaniu <font color='#B71C1C'>—</font><br>" +
+                            "a spolu s ním dosiahli odmenu <br>" +
+                            "prisľúbenú svedomitým robotníkom <br>" +
+                            "v tvojej vinici.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"04a", "Pane, na príhovor <br>" +
+                    "svätého Jána Damascénskeho nám pomáhaj, <font color='#B71C1C'>*</font><br>" +
+                    "aby pravá viera, ktorú tak presvedčivo hlásal, <font color='#B71C1C'>—</font><br>" +
+                    "bola pre nás vždy prameňom svetla a sily.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
                     "po všetky veky vekov.","",""},
-            {"11", "Pane a Bože náš,<br>" +
-                    "tvoj služobník svätý pápež Damaz<br>" +
-                    "bol veľkým ctiteľom mučeníkov<br>" +
+                    {"04b", "Bože, ty si vo svojej všemohúcnosti <br>" +
+                            "udelil i ženskému pokoleniu <br>" +
+                            "víťazstvo mučeníctva; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, daj nám silu, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme nasledovali príklad <br>" +
+                            "svätej panny a mučenice Barbory, <br>" +
+                            "ktorej narodenie pre nebo oslavujeme, <br>" +
+                            "a tak sa dostali k tebe.<br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"06", "Pane, vzývame tvoje milosrdenstvo <font color='#B71C1C'>*</font><br>" +
+                            "a prosíme ťa, na mocný príhovor <br>" +
+                            "svätého biskupa Mikuláša chráň nás <br>" +
+                            "pred každým nešťastím, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme mohli napredovať po ceste spásy.<br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.","",""},
+                    {"07", "Bože, vo svätom biskupovi Ambrózovi <br>" +
+                            "dal si nám vynikajúceho učiteľa <br>" +
+                            "katolíckej viery a vzor apoštolskej odvahy; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, posielaj svojej Cirkvi <br>" +
+                            "duchovných pastierov podľa svojho srdca, <font color='#B71C1C'>—</font><br>" +
+                            "aby ju spravovali múdro a neohrozene.<br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.",
+                            "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                                    "nech nás pri slávení týchto svätých tajomstiev <br>" +
+                                    "naplní svetlom viery Duch Svätý, <font color='#B71C1C'>—</font><br>" +
+                                    "ktorý svätého Ambróza povzbudzoval <br>" +
+                                    "k šíreniu tvojej slávy.<br>" +
+                                    "Skrze Krista, nášho Pána.",
+                            "Pane, nech nám prijatie tejto sviatosti pomáha, <font color='#B71C1C'>*</font><br>" +
+                                    "aby sme podľa príkladu svätého Ambróza <br>" +
+                                    "neochvejne kráčali po tvojich cestách <font color='#B71C1C'>—</font><br>" +
+                                    "a pripravovali sa na radostnú hostinu vo večnosti.<br>" +
+                                    "Skrze Krista, nášho Pána."},
+            {"09", "Bože, ty si prostredníctvom svätého Jána <br>" +
+                    "preukázal svojmu ľudu lásku <br>" +
+                    "presvätej Panny Márie; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme na jeho orodovanie <br>" +
+                    "nasledovali rady guadalupskej Matky, <font color='#B71C1C'>—</font><br>" +
+                    "a tak mohli neustále plniť tvoju vôľu.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"10m", "Bože, ty si splnil sľub daný našim otcom <br>" +
+                    "a vyvolil si preblahoslavenú Pannu Máriu <br>" +
+                    "za matku Spasiteľa; <font color='#B71C1C'>*</font><br>" +
+                    "pomáhaj nám nasledovať <br>" +
+                    "jej príklad pokory, ktorá ti je milá, <font color='#B71C1C'>—</font><br>" +
+                    "a poslušnosti, ktorá nám priniesla spásu. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"11", "Pane, svätý pápež Damaz <br>" +
+                    "bol veľkým ctiteľom mučeníkov <br>" +
                     "a horlivo šíril ich úctu; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme podľa jeho príkladu<br>" +
-                    "aj my obdivovali ich hrdinské skutky <font color='#B71C1C'>—</font><br>" +
-                    "a neochvejne vyznávali svoju vieru.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"13", "Milosrdný Bože,<br>" +
-                    "na mocný príhovor svätej panny a mučenice Lucie<br>" +
-                    "naplň nás svojím svetlom a radosťou <font color='#B71C1C'>*</font><br>" +
-                    "a daj, aby sme na zemi podľa jej príkladu<br>" +
-                    "žili ako deti svetla <font color='#B71C1C'>—</font><br>" +
-                    "a vo večnosti mali s ňou účasť na tvojej sláve.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"14", "Všemohúci Bože,<br>" +
-                    "svätého kňaza Jána si obdaril<br>" +
-                    "mimoriadnou silou k sebazapieraniu<br>" +
+                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme podľa jeho príkladu <br>" +
+                    "aj my oslavovali ich hrdinské skutky.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"12", "Bože, Otec milosrdenstva, <br>" +
+                    "ty si zveril svoj ľud pod osobitnú ochranu <br>" +
+                    "presvätej Matky tvojho Syna; <font color='#B71C1C'>*</font><br>" +
+                    "udeľ všetkým, ktorí vzývajú <br>" +
+                    "preblahoslavenú guadalupskú Pannu, <font color='#B71C1C'>—</font><br>" +
+                    "aby sa so živou vierou usilovali o rozvoj <br>" +
+                    "národov po cestách spravodlivosti a pokoja.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"13", "Prosíme ťa, Pane, na príhovor <br>" +
+                    "svätej panny a mučenice Lucie nám pomáhaj, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme tu na zemi dôstojne oslávili <br>" +
+                    "jej narodenie pre nebo <font color='#B71C1C'>—</font><br>" +
+                    "a raz sa s ňou mohli stretnúť vo večnej sláve.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"14", "Bože, svätého kňaza Jána <br>" +
+                    "si obdaril mimoriadnou silou k sebazapieraniu <br>" +
                     "a vynikajúcou láskou ku krížu; <font color='#B71C1C'>*</font><br>" +
                     "daj, aby sme nasledovali jeho príklad <font color='#B71C1C'>—</font><br>" +
-                    "a navždy sa spojili s tebou v nebeskej sláve.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože, milosrdný Otče,<br>" +
-                    "v deň spomienky na svätého Jána z Kríža<br>" +
-                    "prinášame ti obetné dary; <font color='#B71C1C'>*</font><br>" +
-                    "láskavo na ne zhliadni <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby sme vo svojom živote<br>" +
-                    "napodobňovali obetu tvojho Syna na kríži,<br>" +
-                    "ktorej pamiatku nábožne slávime.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána.", "Láskavý Otče,<br>" +
-                    "v živote svätého kňaza Jána<br>" +
-                    "si nám obdivuhodne priblížil tajomstvo kríža; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme sa posilnení touto obetou<br>" +
-                    "verne pridŕžali tvojho ukrižovaného Syna <font color='#B71C1C'>—</font><br>" +
-                    "a v Cirkvi pracovali na spáse všetkých ľudí.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"17", "Všemohúci Bože, Stvoriteľ a Vykupiteľ človeka,<br>" +
-                    "tvoje večné Slovo<br>" +
-                    "sa v lone panenskej matky stalo telom; <font color='#B71C1C'>*</font><br>" +
-                    "láskavo vypočuj naše prosby a dopraj, <font color='#B71C1C'>—</font><br>" +
-                    "aby nám tvoj jednorodený Syn,<br>" +
-                    "ktorý prijal našu ľudskú prirodzenosť,<br>" +
-                    "dal účasť na svojom božskom živote.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Láskavý Bože,<br>" +
-                    "posväť dary svojej Cirkvi, <font color='#B71C1C'>*</font><br>" +
-                    "aby sme sa pri slávení tejto svätej obety <font color='#B71C1C'>—</font><br>" +
-                    "mohli posilniť nebeským chlebom.<br>" +
-                    "Skrze Krista, nášho Pána.", "Všemohúci Bože,<br>" +
-                    "nasýtil si nás sviatostným pokrmom; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, zapáľ v nás oheň svojho Ducha,<br>" +
-                    "aby sme žiarili ako jasné svetlá, <font color='#B71C1C'>—</font><br>" +
-                    "keď príde tvoj Syn Ježiš Kristus,<br>" +
-                    "ktorý žije a kraľuje na veky vekov."},
-            {"18", "Všemohúci Bože,<font color='#B71C1C'>*</font><br>" +
-                    "ešte stále na nás doliehajú<br>" +
-                    "následky prvotného hriechu; <font color='#B71C1C'>—</font><br>" +
-                    "prosíme ťa, nech nám prinesie pravú slobodu<br>" +
-                    "očakávané narodenie tvojho milovaného Syna.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože a Otče náš,<br>" +
-                    "nech obeta, ktorú slávime,<br>" +
-                    "urobí nás tebe milými <font color='#B71C1C'>*</font><br>" +
-                    "a nech nám dá účasť na večnom živote tvojho Syna, <font color='#B71C1C'>—</font><br>" +
-                    "ktorý sa stal človekom,<br>" +
-                    "aby nám svojou smrťou zaslúžil nesmrteľnosť.<br>" +
-                    "Lebo on žije a kraľuje na veky vekov.", "Dobrotivý Otče, <font color='#B71C1C'>*</font><br>" +
-                    "preukáž nám svoje milosrdenstvo<br>" +
-                    "v tomto svätom chráme, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa účasťou na bohoslužbách<br>" +
-                    "náležite pripravili na blízke sviatky nášho vykúpenia.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"19", "Večný Bože,<br>" +
-                    "narodením tvojho Syna z presvätej Panny<br>" +
-                    "zjavil si svetu jas svojej slávy; <font color='#B71C1C'>*</font><br>" +
+                    "a navždy sa spojili s tebou vo večnej sláve.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Všemohúci Bože, <br>" +
+                            "v deň spomienky na svätého Jána od Kríža <br>" +
+                            "prinášame ti obetné dary; <font color='#B71C1C'>*</font><br>" +
+                            "láskavo na ne zhliadni <br>" +
+                            "a daj, aby sme vo svojom živote <br>" +
+                            "napodobňovali obetu tvojho Syna na kríži, <font color='#B71C1C'>—</font><br>" +
+                            "ktorej pamiatku nábožne slávime.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, v živote svätého kňaza Jána <br>" +
+                            "si nám obdivuhodne priblížil tajomstvo kríža; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby sme sa posilnení <br>" +
+                            "touto obetou verne pridŕžali Krista <font color='#B71C1C'>—</font><br>" +
+                            "a v Cirkvi pracovali na spáse všetkých ľudí.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"17", "Bože, Stvoriteľ a Vykupiteľ človeka, <br>" +
+                    "ty si chcel, aby sa tvoje Slovo <br>" +
+                    "v lone ustavičnej Panny stalo telom; <font color='#B71C1C'>*</font><br>" +
+                    "láskavo zhliadni na naše prosby a dopraj, <font color='#B71C1C'>—</font><br>" +
+                    "aby nám tvoj jednorodený Syn, <br>" +
+                    "ktorý prijal našu ľudskú prirodzenosť, <br>" +
+                    "dal účasť na svojom božskom živote. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "posväť dary svojej Cirkvi <font color='#B71C1C'>*</font><br>" +
+                            "a daj, aby sme sa pri slávení <br>" +
+                            "týchto svätých tajomstiev <font color='#B71C1C'>—</font><br>" +
+                            "mohli posilniť nebeským chlebom. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Všemohúci Bože, <br>" +
+                            "nasýtení sviatostným pokrmom ťa prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "splň našu túžbu a zapáľ v nás oheň svojho Ducha, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme žiarili ako jasné svetlá, <br>" +
+                            "keď príde tvoj Syn Ježiš Kristus.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"18", "Všemohúci Bože, <br>" +
+                    "ešte stále na nás doliehajú následky prvotného hriechu; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme toto nevýslovné tajomstvo vtelenia<br>" +
-                    "uctievali so živou vierou<br>" +
-                    "a oslavovali s úprimnou oddanosťou.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože a Otče náš, <font color='#B71C1C'>*</font><br>" +
-                    "láskavo zhliadni na obetné dary,<br>" +
-                    "ktoré kladieme na tvoj oltár, <font color='#B71C1C'>—</font><br>" +
-                    "a svojou mocou posväť to,<br>" +
-                    "čo ti my, krehkí ľudia, ochotne obetujeme.<br>" +
-                    "Skrze Krista, nášho Pána.", "Všemohúci Bože,<br>" +
-                    "vzdávame ti vďaky za udelené dary <font color='#B71C1C'>*</font><br>" +
-                    "a prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "očisti naše srdcia<br>" +
-                    "a vzbuď v nás túžbu po prisľúbenej spáse,<br>" +
-                    "aby sme dôstojne oslávili<br>" +
-                    "narodenie nášho Spasiteľa,<br>" +
-                    "ktorý žije a kraľuje na veky vekov."},
-            {"20", "Nebeský Otče,<br>" +
-                    "nepoškvrnená Panna Mária<br>" +
-                    "pri anjelovom zvestovaní prijala večné Slovo<br>" +
-                    "a naplnená svetlom Ducha Svätého<br>" +
+                    "nech nám prinesie pravú slobodu <br>" +
+                    "očakávané narodenie tvojho milovaného Syna. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Pane, nech nás obeta, ktorú slávime, urobí tebe milými, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme mali účasť na večnosti tvojho Syna, <font color='#B71C1C'>—</font><br>" +
+                            "ktorý nám svojou smrťou zaslúžil nesmrteľnosť. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "preukáž nám svoje milosrdenstvo <br>" +
+                            "v tvojom svätom chráme, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme s náležitou úctou <font color='#B71C1C'>—</font><br>" +
+                            "napredovali k nadchádzajúcej slávnosti nášho vykúpenia.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"19", "Bože, ty si narodením svojho Syna <br>" +
+                    "z presvätej Panny zjavil svetu jas svojej slávy; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby sme toto nevýslovné tajomstvo vtelenia <br>" +
+                    "uctievali s neporušenou vierou <font color='#B71C1C'>—</font><br>" +
+                    "a oslavovali s úprimnou oddanosťou. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "láskavo zhliadni na obetné dary, <br>" +
+                            "ktoré kladieme na tvoj oltár, <font color='#B71C1C'>*</font><br>" +
+                            "aby tvoja moc posvätila to, <font color='#B71C1C'>—</font><br>" +
+                            "čo ti v našej slabosti predkladáme.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Všemohúci Bože, <br>" +
+                            "vzdávame ti vďaky za udelené dary <font color='#B71C1C'>*</font><br>" +
+                            "a prosíme ťa, vzbuď v nás túžbu po prisľúbenej spáse, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme s očisteným srdcom dôstojne oslávili <br>" +
+                            "narodenie nášho Spasiteľa.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"20", "Bože, večná vznešenosť, nepoškvrnená Panna Mária <br>" +
+                    "pri anjelovom zvestovaní prijala tvoje večné Slovo <br>" +
+                    "a naplnená svetlom Ducha Svätého <br>" +
                     "stala sa Božím príbytkom; <font color='#B71C1C'>*</font><br>" +
                     "prosíme ťa, pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme podľa jej príkladu<br>" +
-                    "aj my ochotne plnili tvoju vôľu.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože,<br>" +
-                    "láskavo zhliadni na túto vznešenú obetu <font color='#B71C1C'>*</font><br>" +
-                    "a daj, aby sme účasťou<br>" +
-                    "na eucharistickom tajomstve <font color='#B71C1C'>—</font><br>" +
-                    "dosiahli nebeské dary, ktoré s vierou očakávame.<br>" +
-                    "Skrze Krista, nášho Pána.", "Láskavý Otče, <font color='#B71C1C'>*</font><br>" +
-                    "svojou božskou mocou ochraňuj svojich verných,<br>" +
-                    "ktorých si nasýtil nebeským pokrmom, <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby nám účasť na sviatostnej hostine<br>" +
-                    "priniesla radosť a pravý pokoj.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"21", "Dobrotivý Otče, <font color='#B71C1C'>*</font><br>" +
-                    "láskavo vyslyš prosby svojho ľudu,<br>" +
-                    "ktorý s radosťou očakáva príchod<br>" +
-                    "tvojho jednorodeného Syna v ľudskom tele; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme dosiahli odmenu večného života,<br>" +
-                    "keď znova príde vo svojej sláve.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "dobrotivo prijmi dary,<br>" +
-                    "ktoré si nám poskytol,<br>" +
-                    "aby sme ti ich mohli priniesť na obetu, <font color='#B71C1C'>—</font><br>" +
-                    "a svojou božskou mocou ich premeň<br>" +
-                    "na sviatosť našej spásy.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože,<br>" +
-                    "účasť na eucharistickej obete<br>" +
-                    "nech je tvojmu ľudu ustavičnou ochranou; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, daj, aby sme ti oddane slúžili, <font color='#B71C1C'>—</font><br>" +
-                    "a tak dosiahli spásu tela i duše.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"21a", "Všemohúci Bože,<br>" +
-                    "svätého kňaza Petra Kanízia<br>" +
-                    "si obdaril vynikajúcou učenosťou a veľkou odvahou<br>" +
-                    "pri obrane katolíckej viery; <font color='#B71C1C'>*</font><br>" +
-                    "na jeho príhovor pomáhaj všetkým,<br>" +
-                    "čo hľadajú pravdu,<br>" +
+                    "aby sme podľa jej príkladu <br>" +
+                    "aj my ochotne plnili tvoju vôľu. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "láskavo zhliadni na túto vznešenú obetu <font color='#B71C1C'>*</font><br>" +
+                            "a daj, aby sme účasťou na tomto tajomstve <font color='#B71C1C'>—</font><br>" +
+                            "dosiahli nebeské dary, ktoré s vierou očakávame. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, svojou božskou mocou ochraňuj tých, <br>" +
+                            "ktorých si nasýtil nebeským pokrmom, <font color='#B71C1C'>*</font><br>" +
+                            "a láskavo dopraj, <font color='#B71C1C'>—</font><br>" +
+                            "aby nám účasť na tvojich tajomstvách <br>" +
+                            "priniesla radosť a pravý pokoj. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"21", "Prosíme ťa, Pane, <br>" +
+                    "láskavo vypočuj prosby svojho ľudu, <br>" +
+                    "ktorý sa raduje z príchodu <br>" +
+                    "tvojho jednorodeného Syna v ľudskom tele, <font color='#B71C1C'>*</font><br>" +
+                    "a daj, aby sme dosiahli odmenu večného života, <font color='#B71C1C'>—</font><br>" +
+                    "keď príde vo svojej sláve. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Pane, dobrotivo prijmi dary svojej Cirkvi, <font color='#B71C1C'>*</font><br>" +
+                            "ktoré si nám poskytol, aby sme ti ich mohli priniesť na obetu, <font color='#B71C1C'>—</font><br>" +
+                            "a svojou mocou ich premeň na sviatosť našej spásy. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nech je účasť na tomto božskom tajomstve <br>" +
+                            "pre tvoj ľud ustavičnou ochranou; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, aby sme ti oddane slúžili, <font color='#B71C1C'>—</font><br>" +
+                            "a tak dosiahli spásu tela i duše. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"21a", "Bože, svätého kňaza Petra Kanízia <br>" +
+                    "si obdaril vynikajúcou učenosťou <br>" +
+                    "a veľkou odvahou pri obrane katolíckej viery; <font color='#B71C1C'>*</font><br>" +
+                    "na jeho príhovor <br>" +
+                    "pomáhaj všetkým, čo hľadajú pravdu, <br>" +
                     "aby s radosťou našli teba, <font color='#B71C1C'>—</font><br>" +
-                    "a svojim veriacim udeľ vytrvalosť<br>" +
+                    "a svojim veriacim udeľ vytrvalosť <br>" +
                     "a neohrozenosť vo viere.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"22", "Milosrdný Otče, príchodom tvojho Syna<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov. ","",""},
+            {"22", "Bože, príchodom svojho Syna <br>" +
                     "vyslobodil si človeka z moci hriechu a smrti; <font color='#B71C1C'>*</font><br>" +
-                    "udeľ nám veriacim milosť,<br>" +
-                    "aby sme pokorne a nábožne vyznávali<br>" +
-                    "tajomstvo Kristovho vtelenia <font color='#B71C1C'>—</font><br>" +
-                    "a v spoločenstve s naším Spasiteľom<br>" +
-                    "našli večnú spásu.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Láskavý Bože,<br>" +
-                    "s dôverou v tvoju dobrotivosť<br>" +
-                    "prichádzame s darmi k svätému oltáru; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby nás očistila tvoja milosť <font color='#B71C1C'>—</font><br>" +
-                    "a posvätila obeta, ktorú konáme.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Bože,<br>" +
-                    "nech nás posilní prijatá sviatosť, <font color='#B71C1C'>*</font><br>" +
-                    "aby sme, bohatí na dobré skutky,<br>" +
-                    "s dôverou mohli ísť v ústrety Spasiteľovi <font color='#B71C1C'>—</font><br>" +
-                    "a zaslúžili si odmenu večnej blaženosti.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"23", "Všemohúci a večný Bože,<br>" +
-                    "už sú blízko sviatky narodenia tvojho Syna; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, nech nám, nehodným služobníkom,<br>" +
-                    "preukáže svoju milosrdnú lásku<br>" +
-                    "tvoje večné Slovo, Ježiš Kristus, <font color='#B71C1C'>—</font><br>" +
-                    "ktorý si vzal telo z Panny Márie<br>" +
-                    "a prebýval medzi nami.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Bože,<br>" +
-                    "táto obeta, ktorú si nám dal<br>" +
-                    "ako najdokonalejšiu bohoslužbu, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás uzmieri s tebou, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme s očisteným srdcom<br>" +
-                    "slávili narodenie nášho Vykupiteľa,<br>" +
-                    "ktorý žije a kraľuje na veky vekov.", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nebeský pokrm, ktorým si nás nasýtil,<br>" +
-                    "nech nám prinesie tvoj pokoj, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme so zažatými lampami<br>" +
-                    "kráčali v ústrety tvojmu milovanému Synovi,<br>" +
-                    "ktorý žije a kraľuje na veky vekov."},
-            {"23a", "Dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nám príklad svätého Jána Kentského pomáha<br>" +
-                    "rásť v múdrosti svätých, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme preukazovali milosrdenstvo všetkým,<br>" +
+                    "dopraj, prosíme, aby sme pokorne a nábožne <br>" +
+                    "vyznávali tajomstvo jeho vtelenia <font color='#B71C1C'>—</font><br>" +
+                    "a zaslúžili si večnú spásu <br>" +
+                    "v spoločenstve s naším Vykupiteľom.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Pane, s dôverou v tvoju dobrotu <br>" +
+                            "prichádzame s darmi k svätému oltáru; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby nás očistila tvoja milosť <font color='#B71C1C'>—</font><br>" +
+                            "a posvätili tajomstvá, ktoré slávime. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nech nás posilní prijatá sviatosť, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme, bohatí na dobré skutky, <br>" +
+                            "s dôverou mohli ísť v ústrety Spasiteľovi <font color='#B71C1C'>—</font><br>" +
+                            "a zaslúžili si odmenu večnej blaženosti. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"23", "Všemohúci a večný Bože, <br>" +
+                    "už sú blízko sviatky <br>" +
+                    "narodenia tvojho Syna v ľudskom tele; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, nech nám, tvojim nehodným služobníkom, <br>" +
+                    "preukáže svoju milosrdnú lásku tvoje Slovo, Ježiš Kristus, <font color='#B71C1C'>—</font><br>" +
+                    "ktorý si vzal telo z Panny Márie a prebýval medzi nami. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Pane, nech nás táto obeta, <br>" +
+                            "ktorú si nám dal ako najplnšiu bohoslužbu, <font color='#B71C1C'>*</font><br>" +
+                            "dokonale zmieri s tebou, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme s očisteným srdcom slávili narodenie nášho Vykupiteľa.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Pane, nebeský pokrm, ktorým si nás nasýtil, <font color='#B71C1C'>*</font><br>" +
+                            "nech nám prinesie tvoj pokoj, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme so zažatými lampami kráčali <br>" +
+                            "v ústrety tvojmu milovanému Synovi. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"23a", "Všemohúci Bože, <br>" +
+                    "nech nám príklad svätého kňaza <br>" +
+                    "Jána Kentského pomáha rásť v múdrosti svätých, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme preukazovali milosrdenstvo všetkým, <font color='#B71C1C'>—</font><br>" +
                     "a tak dosiahli tvoje odpustenie.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"24", "Pane Ježišu, príď už a nemeškaj, <font color='#B71C1C'>*</font><br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.", "", ""},
+            {"24", "Pane Ježišu, príď rýchlo a nemeškaj, <font color='#B71C1C'>*</font><br>" +
                     "a svojím príchodom poteš a posilni tých, <font color='#B71C1C'>—</font><br>" +
-                    "čo dôverujú v tvoju dobrotu.<br>" +
-                    "Lebo ty si Boh a žiješ a kraľuješ s Bohom Otcom<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože a Otče náš,<br>" +
-                    "láskavo prijmi tieto obetné dary <font color='#B71C1C'>*</font><br>" +
-                    "a premeň ich na sviatostný pokrm,<br>" +
-                    "ktorý očistí naše srdcia, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme s radosťou mohli očakávať<br>" +
-                    "slávny príchod tvojho Syna,<br>" +
-                    "ktorý žije a kraľuje na veky vekov.", "Štedrý Bože,<br>" +
-                    "posilnil si nás nebeským chlebom; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme dôstojne oslávili<br>" +
-                    "sviatok narodenia tvojho Syna <font color='#B71C1C'>—</font><br>" +
-                    "a v deň jeho slávneho príchodu<br>" +
-                    "dosiahli večnú radosť.<br>" +
-                    "Lebo on žije a kraľuje na veky vekov."},
-            {"24gkn", "Najláskavejší Otče,<br>" +
-                    "z tvojej dobroty každý rok radostne očakávame<br>" +
-                    "sviatky našej spásy; <font color='#B71C1C'>*</font><br>" +
-                    "daj nám s čistým srdcom privítať tvojho Syna,<br>" +
-                    "keď nás prichádza vykúpiť, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme bez obáv hľadeli na neho,<br>" +
-                    "keď nás raz príde súdiť.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Láskavý Bože,<br>" +
-                    "prijmi naše obetné dary <font color='#B71C1C'>*</font><br>" +
-                    "a pomôž nám dôstojne sláviť<br>" +
-                    "tajomstvo narodenia tvojho Syna, <font color='#B71C1C'>—</font><br>" +
-                    "ktoré je začiatkom nášho vykúpenia.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána.", "Prosíme ťa, všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nás duchovne obrodí výročná slávnosť<br>" +
-                    "narodenia tvojho milovaného Syna, <font color='#B71C1C'>—</font><br>" +
-                    "ktorý sa nám v tejto sviatosti dáva za pokrm a nápoj.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"25agkn", "Večný Bože, v túto presvätú noc<br>" +
+                    "čo dôverujú v tvoju dobrotu. <br>" +
+                    "Lebo ty si Boh a žiješ a kraľuješ s Bohom Otcom <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Pane, láskavo prijmi tieto obetné dary <font color='#B71C1C'>*</font><br>" +
+                            "a daj, aby sme sa ich prijatím očistili od hriechov <font color='#B71C1C'>—</font><br>" +
+                            "a mohli sme s čistým srdcom očakávať <br>" +
+                            "slávny príchod tvojho Syna.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Pane, posilnil si nás <br>" +
+                            "týmto svojím obdivuhodným darom; <font color='#B71C1C'>*</font><br>" +
+                            "daj, nech sa dôstojne pripravíme <br>" +
+                            "na sviatok narodenia tvojho Syna, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme tak s radosťou mohli získať <br>" +
+                            "jeho večnú odmenu.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"24gkn", "Bože, ty nás každý rok potešuješ <br>" +
+                    "očakávaním sviatkov nášho vykúpenia; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby sme raz bez obáv mohli hľadieť <br>" +
+                    "na tvojho jednorodeného Syna, <br>" +
+                    "nášho Pána Ježiša Krista, ako na sudcu, <font color='#B71C1C'>—</font><br>" +
+                    "keď ho teraz s radosťou vítame ako Vykupiteľa.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby sme touto službou dôstojne oslávili <br>" +
+                            "tajomstvo narodenia tvojho Syna, <font color='#B71C1C'>—</font><br>" +
+                            "ktoré je začiatkom nášho vykúpenia. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "nech nás duchovne posilní <br>" +
+                            "slávnosť narodenia tvojho jednorodeného Syna, <font color='#B71C1C'>—</font><br>" +
+                            "ktorý sa nám v tomto nebeskom tajomstve dáva za pokrm a nápoj. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"25agkn", "Bože, v túto presvätú noc <br>" +
                     "nám zažiarilo pravé svetlo, Ježiš Kristus; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, daj, aby sme s vierou prijali<br>" +
-                    "svetlo jeho pravdy, <font color='#B71C1C'>—</font><br>" +
-                    "a v nebi mali blaživú účasť na jeho sláve.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Prosíme ťa, Bože,<br>" +
-                    "nech ti je milá naša vianočná obeta, <font color='#B71C1C'>*</font><br>" +
-                    "aby sme touto tajomnou výmenou darov<br>" +
-                    "dosiahli účasť na božskom živote tvojho Syna, <font color='#B71C1C'>—</font><br>" +
-                    "v ktorom je naša ľudská prirodzenosť<br>" +
-                    "spojená s tvojím božstvom.<br>" +
-                    "Skrze Krista, nášho Pána.", "Pane a Bože náš,<br>" +
-                    "radostne slávime narodenie nášho Vykupiteľa <font color='#B71C1C'>*</font><br>" +
-                    "a prosíme ťa, daj nám milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme žili príkladným kresťanským životom,<br>" +
-                    "a tak sa dostali do jeho spoločenstva v nebi.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"25bgkn", "Všemohúci Bože,<br>" +
-                    "tvoje vtelené Slovo Ježiš Kristus<br>" +
-                    "preniká nás novým svetlom; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, aby sme na zemi <br>" +
+                    "spoznali svetlo jeho pravdy <font color='#B71C1C'>—</font><br>" +
+                    "a v nebi mali účasť na jeho sláve.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Prosíme ťa, Pane, nech ti je milá <br>" +
+                            "dnešná sviatočná obeta, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme touto presvätou výmenou <br>" +
+                            "dosiahli účasť na božskom živote tvojho Syna, <font color='#B71C1C'>—</font><br>" +
+                            "v ktorom je naša ľudská prirodzenosť <br>" +
+                            "spojená s tvojím božstvom.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov.",
+                    "Pane a Bože náš, <br>" +
+                            "radostne slávime narodenie nášho Vykupiteľa a prosíme ťa, <font color='#B71C1C'>*</font><br>" +
+                            "daj nám milosť, aby sme žili príkladným životom, <font color='#B71C1C'>—</font><br>" +
+                            "a tak sa dostali do jeho spoločenstva v nebi. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"25bgkn", "Všemohúci Bože, <br>" +
+                    "tvoje vtelené Slovo nás preniká novým svetlom; <font color='#B71C1C'>*</font><br>" +
                     "dopraj, prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "aby viera v neho, ktorá osvecuje našu myseľ,<br>" +
-                    "žiarila aj z našich skutkov.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Nebeský Otče, prosíme ťa,<br>" +
-                    "požehnaj naše obetné dary,<br>" +
-                    "aby zvýrazňovali tajomstvo dnešného dňa: <font color='#B71C1C'>*</font><br>" +
-                    "ako sa nám v slabom dieťati Ježišovi zjavil Boh, <font color='#B71C1C'>—</font><br>" +
-                    "tak nech nám tieto skromné dary chleba a vína<br>" +
-                    "sprostredkujú účasť na Božom živote.<br>" +
-                    "Skrze Krista, nášho Pána.", "Láskavý Bože,<br>" +
-                    "s radosťou oslavujeme narodenie tvojho Syna <font color='#B71C1C'>*</font><br>" +
-                    "a vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme toto nevýslovné tajomstvo<br>" +
-                    "poznávali so živou vierou<br>" +
-                    "a prežívali ho čoraz s väčšou láskou.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"25cgkn", "Všemohúci Otče,<br>" +
-                    "ty si podivuhodne stvoril človeka<br>" +
+                    "aby viera, ktorá osvecuje našu myseľ, <br>" +
+                    "žiarila aj z našich skutkov. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, nech sú naše dary hodné <br>" +
+                            "tajomstiev Božieho narodenia, ktoré dnes slávime; <font color='#B71C1C'>*</font><br>" +
+                            "a tak ako sa v narodenom dieťati Ježišovi zjavil Boh, <font color='#B71C1C'>—</font><br>" +
+                            "nech nám tieto pozemské dary <br>" +
+                            "sprostredkujú účasť na Božom živote.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, s radosťou oslavujeme <br>" +
+                            "narodenie tvojho Syna a vrúcne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby sme toto nevýslovné tajomstvo <br>" +
+                            "poznávali so živou vierou <font color='#B71C1C'>—</font><br>" +
+                            "a prežívali ho s čoraz väčšou láskou. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"25cgkn", "Bože, ty si podivuhodne stvoril človeka <br>" +
                     "a ešte podivuhodnejšie si ho vykúpil; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "daj nám účasť na božskom živote svojho Syna,<br>" +
-                    "ktorý prijal našu ľudskú prirodzenosť.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože,<br>" +
-                    "nech ti je milá dnešná slávnostná obeta, <font color='#B71C1C'>*</font><br>" +
-                    "ktorá nás dokonale zmieruje s tebou <font color='#B71C1C'>—</font><br>" +
-                    "a je najvyšším prejavom našej služby<br>" +
-                    "na tvoju česť a slávu.<br>" +
-                    "Skrze Krista, nášho Pána.", "Prosíme ťa, dobrotivý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nech nám Spasiteľ sveta, ktorý sa dnes narodil<br>" +
-                    "a urobil nás tvojimi deťmi, <font color='#B71C1C'>—</font><br>" +
-                    "dá aj účasť na večnom živote.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"26g", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "pri oslave víťaznej smrti svätého Štefana,<br>" +
-                    "prvého mučeníka tvojej Cirkvi,<br>" +
-                    "ktorý sa modlil za svojich mučiteľov,<br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "daj nám silu, aby sme podľa jeho príkladu<br>" +
+                    "prosíme ťa, daj nám účasť <br>" +
+                    "na božskom živote svojho Syna, <font color='#B71C1C'>—</font><br>" +
+                    "ktorý prijal našu ľudskú prirodzenosť. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Pane, nech ti je milá dnešná slávnostná obeta, <font color='#B71C1C'>*</font><br>" +
+                            "ktorá nás dokonale zmieruje s tebou <font color='#B71C1C'>—</font><br>" +
+                            "a je najvyšším prejavom našej bohoslužby. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
+                            "nech nám Spasiteľ sveta, ktorý sa dnes narodil <br>" +
+                            "a je pôvodcom nášho božského zrodenia, <font color='#B71C1C'>—</font><br>" +
+                            "dá aj účasť na večnom živote. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"26g", "Pane, pri oslave víťaznej smrti <br>" +
+                    "svätého Štefana, ktorý sa modlil <br>" +
+                    "za svojich prenasledovateľov, <br>" +
+                    "vrúcne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
+                    "daj nám silu, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme podľa jeho príkladu <br>" +
                     "milovali aj svojich nepriateľov.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože a Otče náš, <font color='#B71C1C'>*</font><br>" +
-                    "pri oslave prvého mučeníka svätého Štefana<br>" +
-                    "láskavo prijmi tieto dary, <font color='#B71C1C'>—</font><br>" +
-                    "s ktorými sa ti ochotne aj my oddávame.<br>" +
-                    "Skrze Krista, nášho Pána.", "Dobrotivý Otče,<br>" +
-                    "ďakujeme ti za toľké prejavy<br>" +
-                    "tvojho milosrdenstva, <font color='#B71C1C'>*</font><br>" +
-                    "lebo narodením Ježiša Krista nám dávaš spásu <font color='#B71C1C'>—</font><br>" +
-                    "a oslavou prvého mučeníka Štefana nás povzbudzuješ,<br>" +
-                    "aby sme sa vždy odvážne hlásili k tvojmu Synovi,<br>" +
-                    "ktorý žije a kraľuje na veky vekov."},
-            {"27g", "Všemohúci Bože,<br>" +
-                    "prostredníctvom svätého Jána apoštola<br>" +
-                    "zjavil si nám tajomstvo tvojho večného Slova; <font color='#B71C1C'>*</font><br>" +
-                    "pomáhaj nám, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme s osvietenou mysľou<br>" +
-                    "a s milujúcim srdcom pochopili učenie,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "pri oslave svätého mučeníka Štefana, <br>" +
+                            "láskavo prijmi tieto dary, <font color='#B71C1C'>—</font><br>" +
+                            "s ktorými sa ti ochotne aj my oddávame.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, ďakujeme ti za toľké <br>" +
+                            "prejavy tvojho milosrdenstva, <font color='#B71C1C'>*</font><br>" +
+                            "lebo narodením svojho Syna nám dávaš spásu <font color='#B71C1C'>—</font><br>" +
+                            "a oslavou svätého mučeníka Štefana nás povzbudzuješ.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"27g", "Bože, prostredníctvom <br>" +
+                    "svätého apoštola Jána zjavil si nám <br>" +
+                    "tajomstvo svojho večného Slova; <font color='#B71C1C'>*</font><br>" +
+                    "pomáhaj nám, <br>" +
+                    "aby sme s osvietenou mysľou pochopili učenie, <font color='#B71C1C'>—</font><br>" +
                     "ktoré nám tak vzletne hlásal.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože,<br>" +
-                    "posväť naše obetné dary <font color='#B71C1C'>*</font><br>" +
-                    "a daj, aby sme účasťou na posvätnej hostine<br>" +
-                    "stále viac poznávali tajomstvá večného Slova, <font color='#B71C1C'>—</font><br>" +
-                    "ktoré si pri Poslednej večeri<br>" +
-                    "zjavil svojmu apoštolovi Jánovi.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána.", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "svätý apoštol Ján ohlasoval,<br>" +
-                    "že tvoje Slovo sa stalo telom pre našu spásu; <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby skrze posvätné tajomstvo,<br>" +
-                    "ktoré sme slávili,<br>" +
-                    "stále prebýval v nás tvoj Syn Ježiš Kristus,<br>" +
-                    "ktorý s tebou žije a kraľuje na veky vekov."},
-            {"28g", "Nebeský Otče,<br>" +
-                    "dnes ťa betlehemské deti oslávili<br>" +
-                    "nie slovami, ale mučeníckou smrťou; <font color='#B71C1C'>*</font><br>" +
-                    "udeľ nám milosť, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme vieru, ktorú vyznávame ústami,<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "posväť naše obetné dary <font color='#B71C1C'>*</font><br>" +
+                            "a daj, aby sme účasťou na posvätnej hostine <br>" +
+                            "stále viac poznávali tajomstvá večného Slova, <font color='#B71C1C'>—</font><br>" +
+                            "ktoré si pri Poslednej večeri <br>" +
+                            "zjavil svojmu apoštolovi Jánovi.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Všemohúci Bože, <br>" +
+                            "svätý apoštol Ján ohlasoval, <br>" +
+                            "že tvoje Slovo sa stalo telom pre našu spásu; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby skrze posvätné tajomstvo, ktoré sme slávili, <font color='#B71C1C'>—</font><br>" +
+                            "stále v nás prebýval tvoj Syn Ježiš Kristus.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"28g", "Bože, dnes ťa betlehemské deti <br>" +
+                    "oslávili nie slovami, ale mučeníckou smrťou; <font color='#B71C1C'>*</font><br>" +
+                    "udeľ nám milosť, <br>" +
+                    "aby sme vieru, ktorú vyznávame ústami, <font color='#B71C1C'>—</font><br>" +
                     "dosvedčovali aj svojím životom.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Pane a Bože náš,<br>" +
-                    "prijmi obetné dary,<br>" +
-                    "ktoré ti prinášame s čistým a úprimným srdcom <font color='#B71C1C'>*</font><br>" +
-                    "a očisť nás obetou svojho Syna, <font color='#B71C1C'>—</font><br>" +
-                    "pre ktorú dávaš milosť spásy aj ľuďom,<br>" +
-                    "čo ťa nepoznajú.<br>" +
-                    "O to ťa prosíme skrze Krista, nášho Pána.", "Bože a Otče náš, <font color='#B71C1C'>*</font><br>" +
-                    "pre zásluhy narodenia tvojho Syna<br>" +
-                    "dal si betlehemským deťom korunu mučeníctva,<br>" +
-                    "hoci ešte neboli schopné vyznať vieru v neho; <font color='#B71C1C'>—</font><br>" +
-                    "nech nám Kristus,<br>" +
-                    "pre ktorého vyliali nevinnú krv,<br>" +
-                    "udelí v tejto sviatosti plnosť spásy.<br>" +
-                    "O to ťa prosíme Skrze Krista, nášho Pána."},
-            {"29", "Všemohúci a neviditeľný Bože,<br>" +
-                    "príchodom Ježiša Krista, pravého svetla,<br>" +
-                    "rozptýlil si temnoty sveta; <font color='#B71C1C'>*</font><br>" +
-                    "dobrotivo pozri na nás <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby sme dôstojne oslavovali<br>" +
-                    "narodenie tvojho Syna.<br>" +
-                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Dobrotivý Otče, prijmi tieto dary,<br>" +
-                    "ktorými sa uskutočňuje vznešená výmena: <font color='#B71C1C'>*</font><br>" +
-                    "my ti obetujeme z toho, čo si nám uštedril, <font color='#B71C1C'>—</font><br>" +
-                    "a ty nám dávaš seba samého<br>" +
-                    "vo svojom Synovi Ježišovi Kristovi,<br>" +
-                    "ktorý žije a kraľuje na veky vekov.", "Prosíme ťa, všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby nám nebeský pokrm, ktorý sme prijali, <font color='#B71C1C'>—</font><br>" +
-                    "bol stálou posilou na ceste k tebe.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"29a", "Všemohúci Bože,<br>" +
-                    "svätému Tomášovi Becketovi si dal milosť<br>" +
-                    "veľkodušne obetovať svoj život<br>" +
-                    "za spravodlivosť a slobodu Cirkvi; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme aj my z lásky ku Kristovi<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <br>" +
+                            "prijmi obetné dary, <br>" +
+                            "ktoré ti prinášame s úprimným srdcom, <font color='#B71C1C'>*</font><br>" +
+                            "a očisti nás touto obetou, <font color='#B71C1C'>—</font><br>" +
+                            "pre ktorú dávaš milosť spásy aj tým, <br>" +
+                            "čo ťa nepoznajú.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, pre zásluhy narodenia svojho Syna <br>" +
+                            "dal si betlehemským deťom <br>" +
+                            "korunu mučeníctva, hoci ešte <br>" +
+                            "neboli schopné vyznať vieru v neho; <font color='#B71C1C'>*</font><br>" +
+                            "nech nám Kristus, <br>" +
+                            "pre ktorého vyliali nevinnú krv, <font color='#B71C1C'>—</font><br>" +
+                            "udelí v tejto sviatosti plnosť spásy.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"29", "Všemohúci a neviditeľný Bože, <br>" +
+                    "príchodom tvojho svetla rozptýlil si temnoty sveta; <font color='#B71C1C'>*</font><br>" +
+                    "dobrotivo zhliadni na nás <font color='#B71C1C'>—</font><br>" +
+                    "a daj, aby sme dôstojne oslavovali <br>" +
+                    "vznešené narodenie tvojho jednorodeného Syna. <br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Pane, prijmi naše dary, <br>" +
+                            "ktorými sa uskutočňuje vznešená výmena, <font color='#B71C1C'>*</font><br>" +
+                            "a keď ti obetujeme z toho, čo si nám uštedril, <font color='#B71C1C'>—</font><br>" +
+                            "nech si zaslúžime prijať teba samého.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby nám sväté tajomstvá, ktoré sme prijali, <font color='#B71C1C'>—</font><br>" +
+                            "boli neustálou posilou v našom živote. <br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"29a", "Bože, svätému Tomášovi Becketovi <br>" +
+                    "si dal milosť veľkodušne obetovať <br>" +
+                    "svoj život za spravodlivosť; <font color='#B71C1C'>*</font><br>" +
+                    "na jeho príhovor dopraj, <br>" +
+                    "aby sme aj my z lásky ku Kristovi <br>" +
                     "boli ochotní stratiť svoj život na tomto svete, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme ho znovu našli v nebeskom kráľovstve.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"30", "Všemohúci Bože,<br>" +
-                    "pre zásluhy narodenia tvojho milovaného Syna <font color='#B71C1C'>*</font><br>" +
-                    "vysloboď nás zo starého otroctva, <font color='#B71C1C'>—</font><br>" +
-                    "ktoré nás drží v jarme hriechu.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi obetné dary svojho ľudu, <font color='#B71C1C'>—</font><br>" +
-                    "aby sme touto eucharistickou obetou<br>" +
-                    "dosiahli dobrá,<br>" +
-                    "po ktorých so synovskou dôverou túžime.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože,<br>" +
-                    "láskavo sa stretávaš s nami<br>" +
-                    "v Najsvätejšej sviatosti; <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby jej sila<br>" +
-                    "neprestajne účinkovala v našich srdciach <font color='#B71C1C'>—</font><br>" +
-                    "a uspôsobila nás na prijatie ďalších milostí.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"31", "Dobrotivý Otče,<br>" +
-                    "narodenie tvojho Syna utvorilo nový<br>" +
-                    "a dokonalý vzťah ľudí k tebe; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa,<br>" +
-                    "daj, aby sme aj my patrili medzi jeho verných, <font color='#B71C1C'>—</font><br>" +
-                    "lebo on je Spasiteľ celého ľudstva.<br>" +
-                    "O to ťa prosíme skrze nášho Pána Ježiša Krista,<br>" +
-                    "tvojho Syna, ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Bože, pôvodca úprimnej nábožnosti<br>" +
-                    "a darca pokoja, <font color='#B71C1C'>*</font><br>" +
-                    "daj, aby sme ťa dôstojne uctili našimi darmi <font color='#B71C1C'>—</font><br>" +
-                    "a účasťou na eucharistickom tajomstve<br>" +
-                    "upevnili medzi sebou zväzky bratskej jednoty.<br>" +
-                    "Skrze Krista, nášho Pána.", "Milosrdný Bože,<br>" +
-                    "ty mnohorakým spôsobom<br>" +
-                    "vedieš a posilňuješ svoj ľud;<br>" +
-                    "<font color='#B71C1C'>(</font>aj v uplynulom roku<br>" +
-                    "si nás sprevádzal na životnej ceste;<font color='#B71C1C'>) *</font><br>" +
-                    "otcovsky nás ochraňuj teraz i v budúcnosti <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby nás radosť z pozemských dobier<br>" +
-                    "pobádala väčšmi sa usilovať<br>" +
-                    "o hodnoty večné.<br>" +
-                    "Skrze Krista, nášho Pána."},
-            {"31a", "Bože, Pán časov, <font color='#B71C1C'>*</font><br>" +
-                    "na príhovor svätého pápeža Silvestra<br>" +
-                    "nám pomáhaj <font color='#B71C1C'>—</font><br>" +
-                    "aby sme sa v pozemskom živote riadili tvojou vôľou<br>" +
+                    "aby sme ho znova našli v nebeskom kráľovstve.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"30", "Všemohúci Bože, prosíme ťa, dopraj, <font color='#B71C1C'>*</font><br>" +
+                            "aby nás narodenie tvojho jednorodeného Syna <br>" +
+                            "vyslobodilo zo starého otroctva, <font color='#B71C1C'>—</font><br>" +
+                            "ktoré nás drží v jarme hriechu.<br>" +
+                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov.",
+                            "Prosíme ťa, Pane, <br>" +
+                                    "dobrotivo prijmi obetné dary svojho ľudu, <font color='#B71C1C'>*</font><br>" +
+                                    "aby sme touto nebeskou sviatosťou dosiahli dobrá, <font color='#B71C1C'>—</font><br>" +
+                                    "po ktorých túžime s vierou a nábožnosťou. <br>" +
+                                    "Skrze Krista, nášho Pána.",
+                            "Bože, láskavo sa stretávaš s nami v Najsvätejšej sviatosti; <font color='#B71C1C'>*</font><br>" +
+                                    "daj, nech jej sila neprestajne účinkuje v našich srdciach, <font color='#B71C1C'>—</font><br>" +
+                                    "aby nás tak pripravila na prijatie ďalších milostí.<br>" +
+                                    "Skrze Krista, nášho Pána."},
+                    {"31", "Všemohúci a večný Bože, <br>" +
+                            "narodenie tvojho Syna sa stalo začiatkom <br>" +
+                            "nového a dokonalého vzťahu ľudí k tebe; <font color='#B71C1C'>*</font><br>" +
+                            "a keďže je Spasiteľom celého ľudstva, <font color='#B71C1C'>—</font><br>" +
+                            "daj, prosíme, aby sme aj my boli pripočítaní medzi jeho verných.<br>" +
+                            "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                            "v jednote Ducha Svätého po všetky veky vekov.",
+                            "Bože, pôvodca úprimnej nábožnosti a pokoja, <font color='#B71C1C'>*</font><br>" +
+                                    "daj, prosíme, aby sme ťa dôstojne uctili týmito darmi <font color='#B71C1C'>—</font><br>" +
+                                    "a účasťou na svätých tajomstvách upevnili vzájomnú jednotu. <br>" +
+                                    "Skrze Krista, nášho Pána.",
+                            "Pane, ty mnohorakým spôsobom <br>" +
+                                    "vedieš a posilňuješ svoj ľud; <font color='#B71C1C'>*</font><br>" +
+                                    "otcovsky nás ochraňuj teraz i v budúcnosti <font color='#B71C1C'>—</font><br>" +
+                                    "a daj, aby nás radosť z pozemských dobier <br>" +
+                                    "pobádala väčšmi sa usilovať o hodnoty večné. <br>" +
+                                    "Skrze Krista, nášho Pána."},
+            {"31a", "Pane, na príhovor svätého <br>" +
+                    "pápeža Silvestra nám pomáhaj, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme sa v pozemskom živote <br>" +
+                    "riadili tvojou vôľou <font color='#B71C1C'>—</font><br>" +
                     "a dosiahli nehynúcu blaženosť vo večnosti.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "", ""},
-            {"31gk", "Večný Otče,<br>" +
-                    "narodením tvojho Syna z Panny Márie<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.","",""},
+            {"31gk", "Bože, narodením tvojho Syna <br>" +
+                    "z preblahoslavenej Panny Márie <br>" +
                     "poskytol si ľuďom večnú spásu; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby sme vždy pociťovali účinky jej orodovania,<br>" +
-                    "veď skrze ňu sme dostali Pôvodcu života,<br>" +
-                    "Ježiša Krista,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                    "v jednote s Duchom Svätým po všetky veky vekov.", "Všemohúci Bože,<br>" +
-                    "ty láskavo začínaš a dovršuješ každé dobré dielo; <font color='#B71C1C'>*</font><br>" +
-                    "na tento radostný sviatok Božej Matky<br>" +
-                    "oslavujeme začiatok našej spásy <font color='#B71C1C'>—</font><br>" +
-                    "a prosíme, aby sa v nás zavŕšila v plnej miere.<br>" +
-                    "Skrze Krista, nášho Pána.", "Láskavý Bože, <font color='#B71C1C'>*</font><br>" +
-                    "nadšene vyznávame, že blahoslavená Panna Mária<br>" +
-                    "je Rodičkou tvojho Syna a Matkou Cirkvi, <font color='#B71C1C'>—</font><br>" +
-                    "a prosíme, aby nám nebeský pokrm,<br>" +
-                    "ktorý sme s radosťou prijali,<br>" +
-                    "slúžil pre večný život.<br>" +
-                    "Skrze Krista, nášho Pána."},
+                    "daj, prosíme, aby sme vždy pociťovali <br>" +
+                    "účinky jej orodovania, <font color='#B71C1C'>—</font><br>" +
+                    "veď skrze ňu sme dostali Pôvodcu života, <br>" +
+                    "Ježiša Krista, tvojho Syna a nášho Pána.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje <br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Bože, ty láskavo začínaš <br>" +
+                            "a dovršuješ každé dobré dielo; <font color='#B71C1C'>*</font><br>" +
+                            "na tento radostný sviatok Božej Matky <br>" +
+                            "oslavujeme začiatok našej spásy a prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby sa v nás zavŕšila v plnej miere. <br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, nadšene vyznávame, <br>" +
+                            "že preblahoslavená Panna Mária <br>" +
+                            "je Rodičkou tvojho Syna a Matkou Cirkvi, <font color='#B71C1C'>*</font><br>" +
+                            "a prosíme, aby nám nebeská sviatosť, <br>" +
+                            "ktorú sme s radosťou prijali, <font color='#B71C1C'>—</font><br>" +
+                            "slúžila pre večný život. <br>" +
+                            "Skrze Krista, nášho Pána."},
     };
 }
