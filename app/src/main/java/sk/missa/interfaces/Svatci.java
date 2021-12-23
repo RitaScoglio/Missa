@@ -30,23 +30,23 @@ public interface Svatci {
     m - mariansky sviatok - ukon kajucnosti z marianskeho sviatku
 
     POHYBLIVE SVIATKY
-    19.3. - Svätého Jozefa, ženícha Panny Márie, Slávnosť            0gkp
-    25.3. - Zvestovanie Pána, Slávnosť                               1gkp
-    Zoslanie Ducha Svätého, Vigília                                  2gkp
-    Zoslanie Ducha Svätého, Slávnosť                                 3gkp
-    Najsvätejšieho Kristovho Tela a Krvi, Slávnosť                   4gkp
-    Najsvätejšieho Srdca Ježišovho, Slávnosť                         5gkp
-    Nanebovstúpenie Pána - vigília
-    Nanebovstúpenie Pána                                             6gkp
-    Najsvätejšej Trojice - nedela                                    7gkp
-    Nedeľa Krista Kráľa                                              8gkp
-    8.12. - Nepoškvrnené počatie Panny Márie, Slávnosť               9gkp
-    Svätej rodiny                                                    10gkp
-    Krst Krista Pána                                                 11gkp
-    Svätodušný pondelok, Votívna omša                                1op
-    Preblahoslavenej Panny Márie, Matky Cirkvi, Spomienka            2mp
-    Nášho Pána Ježiša Krista, najvyššieho a večného kňaza, Sviatok   3gp
-    Nepoškvrneného Srdca Panny Márie, Spomienka                      4mp
+    19.3. - Svätého Jozefa, ženícha Panny Márie, Slávnosť               0gkp
+    25.3. - Zvestovanie Pána, Slávnosť                                  1gkp
+    Zoslanie Ducha Svätého, Vigília                                     2gkp
+    Zoslanie Ducha Svätého, Slávnosť                                    3gkp
+    Najsvätejšieho Kristovho Tela a Krvi, Slávnosť                      4gkp
+    Najsvätejšieho Srdca Ježišovho, Slávnosť                            5gkp
+    Nanebovstúpenie Pána - vigília                                      60gkp
+    Nanebovstúpenie Pána                                                6gkp
+    Najsvätejšej Trojice - nedela                                       7gkp
+    Nedeľa Krista Kráľa - Nášho Pána Ježiša Krista, Kráľa neba i zeme   8gkp
+    8.12. - Nepoškvrnené počatie Panny Márie, Slávnosť                  9gkp
+    Svätej rodiny                                                       10gkp
+    Krst Krista Pána                                                    11gkp
+    Svätodušný pondelok, Votívna omša                                   1op
+    Preblahoslavenej Panny Márie, Matky Cirkvi, Spomienka               2mp
+    Nášho Pána Ježiša Krista, najvyššieho a večného kňaza, Sviatok      3gp
+    Nepoškvrneného Srdca Panny Márie, Spomienka                         4mp
 
 
     OBDOBIA
@@ -73,7 +73,7 @@ public interface Svatci {
             {"01gk", "Slávnosť Panny Márie Bohorodičky", "Slávnosť", "(biela)"},
             {"02a", "Sv. Bazila Veľkého a Gregora Nazianského, biskupov a učiteľov Cirkvi", "Spomienka", "(biela)"},
             {"03a", "Najsvätejšieho mena Ježiš", "Ľubovoľná spomienka", "(biela)"},
-            {"05*", "Zjavenie Pána", "Vigília", "(biela)"},
+            {"05gk", "Zjavenie Pána", "Vigília", "(biela)"},
             {"06gk", "Zjavenie Pána", "Slávnosť", "(biela)"},
             {"07", "Sv. Rajmunda z Peňafortu, kňaza", "Ľubovoľná spomienka", "(biela)"},
             {"13", "Sv. Hilára, biskupa a učiteľa Cirkvi", "Ľubovoľná spomienka", "(biela)"},

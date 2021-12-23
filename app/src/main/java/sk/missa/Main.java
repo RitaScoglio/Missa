@@ -742,7 +742,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             else
                 words.add(new Calendar((cisla_z[velkanoc - 1] + " Veľkonočná nedeľa").toUpperCase(), "", "(biela)", day, velkanoc, velkanoc + "0", "n"));
         } else if (dvt == 3 && velkanoc == 6) {
-            words.add(new Calendar("Nanebovstúpenie Pána", "Vigília", "(biela)", day, velkanoc, "6gkp", "n"));
+            words.add(new Calendar("Nanebovstúpenie Pána", "Vigília", "(biela)", day, velkanoc, "60gkp", "n"));
         } else if (dvt == 4 && velkanoc == 6) {
             words.add(new Calendar("Nanebovstúpenie Pána", "Slávnosť", "(biela)", day, velkanoc, "6gkp", "n"));
         } else { //bežné dni a sviatky
