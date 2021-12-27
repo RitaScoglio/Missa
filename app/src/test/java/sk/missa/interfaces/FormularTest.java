@@ -6,10 +6,36 @@ import junit.framework.TestCase;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class FormularTest extends TestCase {
 
     public void testFormularLength(){
-        assertEquals(spevFormular.length, modlitbaFormular.length);
+        assertEquals(spevFormular.length, modlitbaFormular.length, prosbyFormular.length);
+    }
+
+    public void testFormularNames(){
+        List<String> spevFormularNames = new ArrayList<>();
+        List<String> modlitbaFormularNames = new ArrayList<>();
+        List<String> prosbyFormularNames = new ArrayList<>();
+        for (String[] strings : spevFormular) {
+            spevFormularNames.add(strings[2]);
+        }
+        for (String[] strings : modlitbaFormular) {
+            modlitbaFormularNames.add(strings[2]);
+        }
+        for (String[] strings : prosbyFormular) {
+            prosbyFormularNames.add(strings[2]);
+        }
+        for(int i = 0; i <spevFormularNames.size(); i++){
+            try {
+                assertEquals(spevFormularNames.get(i), modlitbaFormularNames.get(i), prosbyFormularNames.get(i));
+            } catch (AssertionError e){
+                System.out.println(spevFormularNames.get(i)+" -> "+ modlitbaFormularNames.get(i)+ " -> " + prosbyFormularNames.get(i));
+                throw e;
+            }
+        }
     }
 
     public void testFormularSpev(){
