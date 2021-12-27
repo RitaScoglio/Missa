@@ -83,11 +83,8 @@ public interface Spevy_svatci {
             {"02g", "Spomíname, Bože, na tvoje milosrdenstvo uprostred tvojho chrámu. Ako tvoje meno, Bože,<br>" +
                     "tak aj tvoja sláva šíri sa až do končín zeme; tvoja pravica je plná spravodlivosti.", "(Porov. Ž 48, 10 – 11)",
                     "Moje oči uvideli tvoju spásu, ktorú si pripravil pred tvárou všetkých národov.", "(Lk 2, 30 – 31)"},
-            {"14o", "Toto sú svätí, Boží priatelia.<br>" +
-                    "slávni hlásatelia Božej pravdy.", "",
-                    "Učeníci sa rozišli a hlásali evanjelium. <br>" +
-                            "Pán im pomáhal a ich slová potvrdzoval znameniami,<br>" +
-                            "ktoré ich sprevádzali.", "(Porov. Mk 16, 20)"},
+            {"14o", "Toto sú svätí, Boží priatelia, slávni hlásatelia Božej pravdy.", "",
+                    "Učeníci sa rozišli a hlásali evanjelium. Pán im pomáhal a ich slová potvrdzoval znameniami, ktoré ich sprevádzali.", "(Porov. Mk 16, 20)"},
             {"14g+", "Toto sú svätí, Boží priatelia, slávni hlásatelia Božej pravdy.", "",
                     "Učeníci sa rozišli a hlásali evanjelium. Pán im pomáhal a ich slová potvrdzoval znameniami, ktoré ich sprevádzali.", "(Porov. Mk 16, 20)"},
             {"22g", "Pán hovorí Šimonovi Petrovi: ja som prosil za teba, aby neochabla tvoja viera; a ty, až sa raz obrátiš, posilňuj svojich bratov.", "(Lk 22, 32)",

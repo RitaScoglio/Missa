@@ -747,27 +747,30 @@ public interface Modlitby_svatci {
                             "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
                             "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
                             "po všetky veky vekov.","",""},
-            {"14o", "Všemohúci Bože,<br>" +
-                    "ty si prostredníctvom svätých bratov Cyrila a Metoda<br>" +
-                    "daroval slovanským národom svetlo evanjelia <font color='#B71C1C'>*</font><br>" +
+            {"14o", "Bože, ty si prostredníctvom<br>" +
+                    "svätých bratov Cyrila a Metoda<br>" +
+                    "daroval slovanským národom svetlo evanjelia; <font color='#B71C1C'>*</font><br>" +
                     "daj, nech s ochotným srdcom<br>" +
                     "prijímame slovo tvojho učenia, <font color='#B71C1C'>—</font><br>" +
-                    "a urob z nás ľud zjednotený<br>" +
-                    "v pravej viere a správnom vyznávaní.", "Zhliadni, Otče na dary <font color='#B71C1C'>*</font><br>" +
-                    "ktoré ti pri spomienke na svätého Cyrila a Metoda<br>" +
-                    "kladieme na oltár <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby sa stali znamením nového ľudstva<br>" +
-                    "zmiereného v láske.<br>" +
-                    "Skrze Krista, nášho Pána.", "Bože, Otec všetkých národov,<br>" +
-                    "ty nás jedným chlebom robíš v jednom Duchu<br>" +
-                    "spolustolujúcimi a dedičmi večnej hostiny; <font color='#B71C1C'>*</font><br>" +
-                    "pri tejto slávnosti svätého Cyrila a Metoda<br>" +
-                    "ťa prosíme: <font color='#B71C1C'>—</font><br>" +
-                    "daj, aby množstvo tvojich synov a dcér<br>" +
-                    "zotrvalo v tej istej viere<br>" +
-                    "a jednomyseľne budovalo kráľovstvo<br>" +
-                    "spravodlivosti a pokoja.<br>" +
-                    "Skrze Krista, nášho Pána."},
+                    "aby sme sa zjednotili v pravej viere<br>" +
+                    "a správnom vyznávaní.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
+                    "ktorý je Boh a s tebou žije a kraľuje<br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "zhliadni na dary, ktoré ti pri oslave<br>" +
+                            "svätých Cyrila a Metoda kladieme na oltár, <font color='#B71C1C'>—</font><br>" +
+                            "a daj, aby sa stali znamením<br>" +
+                            "nového ľudstva zmiereného v láske.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Bože, Otec všetkých národov,<br>" +
+                            "ty nás jedným chlebom a v jednom Duchu<br>" +
+                            "robíš spolustolujúcimi a dedičmi večnej hostiny; <font color='#B71C1C'>*</font><br>" +
+                            "pri tejto oslave svätých Cyrila a Metoda ťa prosíme,<br>" +
+                            "daj, aby tvoji synovia a dcéry zotrvávali v tej istej viere <font color='#B71C1C'>—</font><br>" +
+                            "a jednomyseľne budovali kráľovstvo<br>" +
+                            "spravodlivosti a pokoja.<br>" +
+                            "Skrze Krista, nášho Pána."},
             {"14g+", "Bože, ty si prostredníctvom<br>" +
                     "svätých bratov Cyrila a Metoda<br>" +
                     "daroval slovanským národom svetlo evanjelia; <font color='#B71C1C'>*</font><br>" +
