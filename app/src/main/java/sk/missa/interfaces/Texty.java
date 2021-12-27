@@ -1650,5 +1650,18 @@ public interface Texty {
                             "<font color='#B71C1C'>5.</font> Aby sme boli ochotní konkrétne pomáhať sociálne slabším a ľuďom, ktorí sa nachádzajú v núdzi.<br><br>"
             },
     };
+
+    String[] rozpustenie_ludu = {
+            "Potom diakon alebo sám kňaz, obrátený k ľudu, so zopätými rukami povie:",
+                    "Choďte v mene Božom.",
+                    "Alebo:",
+                    "Choďte a ohlasujte Pánovo evanjelium.",
+                    "Alebo:",
+                    "Choďte v pokoji a oslavujte Pána svojím životom.",
+                    "Alebo:",
+                    "Choďte v pokoji.",
+                    "Ľud odpovie:",
+                    "Bohu vďaka."
+    };
 }
 

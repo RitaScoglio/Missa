@@ -2937,6 +2937,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             missas.add(new Missa(1)); //medzera mala
             missas.add(new Missa("<font color='#B71C1C'>Slávnostné požehnanie (otvoriť)</font>", true, 8));
         }
+        rozpustenieLudu(missas);
         MissaAdapter adapter = new MissaAdapter(this, missas);
         listView = findViewById(R.id.vypis_misal);
         listView.setAdapter(adapter);
@@ -3134,6 +3135,12 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 }
             }
         });
+    }
+
+    private void rozpustenieLudu(ArrayList<Missa> missas) {
+        for (int i = 0; i < rozpustenie_ludu.length; i = i + 2) {
+            missas.add(new Missa(rozpustenie_ludu[i], rozpustenie_ludu[i + 1], false));
+        }
     }
 
     private void changeAleboPasie() {
