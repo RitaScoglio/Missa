@@ -62,7 +62,7 @@ public interface Texty {
                     "<font color='#B71C1C'>—</font> Ty si nám otvoril cestu do neba: Pane, zmiluj sa.<br>" +
                     "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "<font color='#B71C1C'>—</font> Ježišu, ty si dobrý Pastier a poznáš svoje ovečky: Pane, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ježišu, ty si Dobrý pastier a poznáš svoje ovečky: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty hľadáš každú stratenú ovečku: Kriste, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty nás vedieš na nebeské pastviny: Pane, zmiluj sa.<br>" +
                     "<br>" +
@@ -83,7 +83,7 @@ public interface Texty {
                     "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
                     "<font color='#B71C1C'>—</font> Ježišu, ty si zomrel, aby každý, kto uverí v teba, mal život večný: Pane, zmiluj sa.<br>" +
-                    "<font color='#B71C1C'>—</font> Ty si prišiel na svet hladať, čo sa bolo stratilo: Kriste, zmiluj sa.<br>" +
+                    "<font color='#B71C1C'>—</font> Ty si prišiel na svet hľadať, čo sa stratilo: Kriste, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si bol poslaný od Otca, nie aby si svet súdil, ale aby si ho spasil: Pane, zmiluj sa.<br>" +
                     "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
@@ -92,43 +92,48 @@ public interface Texty {
                     "<font color='#B71C1C'>—</font> Ty večne žiješ u Otca v jednote s Duchom Svätým, aby si sa za nás prihováral: Pane, zmiluj sa."},
             {"Advent", "<font color='#B71C1C'>—</font> Ježišu, ty prichádzaš volať nie spravodlivých, ale hriešnikov: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty nalomenú trstinu nedolomíš a hasnúci knôt nedohasíš: Kriste, zmiluj sa.<br>" +
-                    "<font color='#B71C1C'>—</font> Tvoje slovo nám dáva nádej a silu, prináša zľutovanie a lásku: Pane, zmiluj sa.<br><br>" +
+                    "<font color='#B71C1C'>—</font> Tvoje slovo nám dáva nádej a silu, prináša zľutovanie a lásku: Pane, zmiluj sa.<br>" +
+                    "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
                     "<font color='#B71C1C'>—</font> Ježišu, ty si od večnosti Syn Boží: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si sa stal synom Panny Márie: Kriste, zmiluj sa.<br>" +
-                    "<font color='#B71C1C'>—</font> Ty oslobodzuješ človeka od viny a od zlého: Pane, zmiluj sa.<br>"},
+                    "<font color='#B71C1C'>—</font> Ty oslobodzuješ človeka od viny a od zlého: Pane, zmiluj sa."},
             {"Vianoce", "<font color='#B71C1C'>—</font> Ty, večné Slovo nebeského Otca, stal si sa človekom: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si začiatkom nového života: Kriste, zmiluj sa.<br>" +
-                    "<font color='#B71C1C'>—</font> Skrze teba môže celé stvorenie nájsť pokoj v Bohu: Pane, zmiluj sa.<br><br>" +
+                    "<font color='#B71C1C'>—</font> Skrze teba môže celé stvorenie nájsť pokoj v Bohu: Pane, zmiluj sa.<br>" +
+                    "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
                     "<font color='#B71C1C'>—</font> Ježišu, ty si veľkým svetlom pre ľudstvo tápajúce v tmách: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si záchrancom svojho ľudu a splnením jeho nádejí: Kriste, zmiluj sa.<br>" +
-                    "<font color='#B71C1C'>—</font> V tebe sa nám zjavila dobrota a láskavosť nášho nebeského Otca: Pane, zmiluj sa.<br>"},
+                    "<font color='#B71C1C'>—</font> V tebe sa nám zjavila dobrota a láskavosť nášho nebeského Otca: Pane, zmiluj sa."},
             {"Pôst", "<font color='#B71C1C'>—</font> Ježišu, ty si žil ako človek, vo všetkom nám podobný okrem hriechu: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si v ťažkej hodine skúšky v Getsemanskej záhrade prijal vôľu nebeského Otca: Kriste, zmiluj sa.<br>" +
-                    "<font color='#B71C1C'>—</font> Ty nás dnes voláš, aby sme sa obrátili a nasledovali ťa: Pane, zmiluj sa.<br><br>" +
+                    "<font color='#B71C1C'>—</font> Ty nás dnes voláš, aby sme sa obrátili a nasledovali ťa: Pane, zmiluj sa.<br>" +
+                    "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
                     "<font color='#B71C1C'>—</font> Ježišu, ty si prišiel medzi hriešnikov a priniesol si im Otcovo odpustenie: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si vydal seba samého na smrť, aby si hriešnikom dal život: Kriste, zmiluj sa.<br>" +
-                    "<font color='#B71C1C'>—</font> Ty si prameňom božskej sily a nového života: Pane, zmiluj sa.<br><br>" +
+                    "<font color='#B71C1C'>—</font> Ty si prameňom božskej sily a nového života: Pane, zmiluj sa.<br>" +
+                    "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
                     "<font color='#B71C1C'>—</font> Ježišu, ty si nás vo sviatosti krstu vyviedol z temnôt smrti na svetlo života: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si nám očistil duchovný zrak, aby sme mohli veriť: Kriste, zmiluj sa.<br>" +
-                    "<font color='#B71C1C'>—</font> Ty nás posilňuješ svojím slovom, aby sme podľa tvojho príkladu niesli svoj každodenný kríž a dosiahli slávu vzkriesenia: Pane, zmiluj sa.<br>"},
+                    "<font color='#B71C1C'>—</font> Ty nás posilňuješ svojím slovom, aby sme podľa tvojho príkladu niesli svoj každodenný kríž a dosiahli slávu vzkriesenia: Pane, zmiluj sa."},
             {"Veľká noc", "<font color='#B71C1C'>—</font> Pane Ježišu, ty si svojou smrťou premohol našu smrť: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si vstal z mŕtvych, aby sme večne žili: Kriste, zmiluj sa.<br>" +
-                    "<font color='#B71C1C'>—</font> V tvojom mene dosiahneme odpustenie svojich hriechov: Pane, zmiluj sa.<br><br>" +
+                    "<font color='#B71C1C'>—</font> V tvojom mene dosiahneme odpustenie svojich hriechov: Pane, zmiluj sa.<br>" +
+                    "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
                     "<font color='#B71C1C'>—</font> Ježišu, ty si kráľ pokoja: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si nádej pochybujúcich: Kriste, zmiluj sa.<br>" +
-                    "<font color='#B71C1C'>—</font> Ty si radosť veriacich: Pane, zmiluj sa.<br>"},
+                    "<font color='#B71C1C'>—</font> Ty si radosť veriacich: Pane, zmiluj sa."},
             {"NA SLÁVNOSŤ ZJAVENIA PÁNA", "<font color='#B71C1C'>—</font> Ježišu, ty si kráľ všetkých národov: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si pravda a cesta všetkých, čo ťa hľadajú: Kriste, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si radosť a odmena všetkých veriacich: Pane, zmiluj sa."},
-            {"NA SLÁVNOSŤ NANEBOVSTÚPENIA PÁNA", "<font color='#B71C1C'>—</font> Ježišu, ty si verne vykonal dielo, ktoré ti Otec zveril: Pane, zmiluj sa.<br>" +
+            {"NA SLÁVNOSŤ NANEBOVSTÚPENIA PÁNA","<font color='#B71C1C'>—</font> Ježišu, ty si verne vykonal dielo, ktoré ti Otec zveril: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si nám svojím nanebovstúpením dal dôkaz o Božej vernosti a láske: Kriste, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si nám prisľúbil Ducha Svätého, ktorý nás posilňuje: Pane, zmiluj sa."},
-            {"NA TURÍCE", "<font color='#B71C1C'>—</font> Pane Ježišu, Duch Svätý nám ukázal, že ty si Vyvolený Boží: Pane, zmiluj sa.<br>" +
+            {"NA TURÍCE", "<font color='#B71C1C'>—</font> Pane Ježišu, Duch Svätý nám ukázal, že ty si vyvolený Boží: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si prisľúbil dary Ducha Svätého všetkým, čo budú svedčiť o tvojej pravde: Kriste, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Svojím slovom nás poučuješ, aby sme vyznávali jedného Boha v troch osobách: Pane, zmiluj sa."},
             {"NA MARIÁNSKE SVIATKY", "<font color='#B71C1C'>—</font> Pane Ježišu, tvoja matka Mária bola nepoškvrnená nad nami hriešnymi: Pane, zmiluj sa.<br>" +
@@ -136,11 +141,13 @@ public interface Texty {
                     "<font color='#B71C1C'>—</font> Svoju matku si vzal do neba, aby bola našou kráľovnou a orodovníčkou: Pane, zmiluj sa."},
             {"ZA ZOSNULÝCH", "<font color='#B71C1C'>—</font> Pane Ježišu, ty si nám ukázal cestu k Otcovi: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si svojou smrťou daroval svetu život: Kriste, zmiluj sa.<br>" +
-                    "<font color='#B71C1C'>—</font> Ty si nám pripravil v dome svojho Otca príbytok: Pane, zmiluj sa.<br><br>" +
+                    "<font color='#B71C1C'>—</font> Ty si nám pripravil v dome svojho Otca príbytok:<br>" +
+                    "<font color='#B71C1C'>—</font> Pane, zmiluj sa.<br>" +
+                    "<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
                     "<font color='#B71C1C'>—</font> Pane Ježišu, ty si sa stal človekom, aby si nám dal účasť na Božom živote: Pane, zmiluj sa.<br>" +
                     "<font color='#B71C1C'>—</font> Ty si zomrel na kríži, aby si nám otvoril bránu večného života: Kriste, zmiluj sa.<br>" +
-                    "<font color='#B71C1C'>—</font> Ty si vstal z 'mŕtvych, aby sme večne žili pre teba: Pane, zmiluj sa."},
+                    "<font color='#B71C1C'>—</font> Ty si vstal z mŕtvych, aby sme večne žili pre teba: Pane, zmiluj sa."},
     };
 
     String gloria_vypis = "Sláva Bohu na výsostiach\n" +
