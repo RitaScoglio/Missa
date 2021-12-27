@@ -397,33 +397,31 @@ public interface Texty {
                     "<font color='#B71C1C'>Ľud:</font> Amen."};
 
     String[] modlitba_pana_text = {"Modlitba Pána",
-            "Kňaz so zopätými rukami vyzve ľud k modlitbe Pána:",
-            "Na príkaz nášho Spasiteľa\n" +
-                    "a podľa jeho božského učenia\n" +
-                    "osmeľujeme sa povedať:",
+            "Kňaz položí kalich a paténu, zopne ruky a povie:",
+            "Na príkaz nášho Spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:",
             "BAR", "",
-                    "Iné výzvy k modlitbe Pána:",
+            "Iné výzvy k modlitbe Pána:",
             "A teraz spoločne prosme nebeského Otca a modlime sa, ako nás naučil náš Pán Ježiš Kristus:",
             "Alebo:",
             "Prijali sme Ducha Svätého, v ktorom sme sa stali Božími deťmi; preto sa osmeľujeme povedať:",
             "BAR", "",
-                    "Kňaz rozopne ruky a spolu s ľuďom pokračuje:",
+            "Rozopne ruky a spolu s ľudom pokračuje:",
             "Otče náš, ktorý si na nebesiach,\n" +
                     "posväť sa meno tvoje,\n" +
                     "príď kráľovstvo tvoje,\n" +
-                    "buď vôľa tvoja ako v nebi tak i na zemi.\n" +
+                    "buď vôľa tvoja ako v nebi, tak i na zemi.\n" +
                     "Chlieb náš každodenný daj nám dnes\n" +
                     "a odpusť nám naše viny,\n" +
                     "ako i my odpúšťame svojim vinníkom,\n" +
                     "a neuveď nás do pokušenia,\n" +
                     "ale zbav nás zlého.\n",
             "Ďalej pokračuje iba kňaz s rozopätými rukami:",
-            "Prosíme ťa, Otče, zbav nás všetkého zla,\n" +
+            "Prosíme ťa, Pane, zbav nás všetkého zla,\n" +
                     "udeľ svoj pokoj našim dňom\n" +
                     "a príď nám milosrdne na pomoc,\n" +
                     "aby sme boli vždy uchránení pred hriechom\n" +
                     "a pred každým nepokojom,\n" +
-                    "kým očakávame splnenie blaženej nádeje\n" +
+                    "kým očakávame blaženú nádej\n" +
                     "a príchod nášho Spasiteľa Ježiša Krista.",
             "Zopne ruky.\n" +
                     "Ľud zakľúči modlitbu zvolaním:",
@@ -432,13 +430,15 @@ public interface Texty {
 
     String[] obrad_pokoja_text = {"Obrad pokoja",
             "Potom kňaz s rozopätými rukami nahlas hovorí:",
-            "Pane Ježišu Kriste, ty si povedal svojim apoštolom:\n" +
-                    "Pokoj vám zanechávam, svoj pokoj vám dávam.\n" +
-                    "Nehlaď na naše hriechy,\n" +
+            "Pane Ježišu Kriste,\n" +
+                    "ty si povedal svojim apoštolom:\n" +
+                    "Pokoj vám zanechávam,\n" +
+                    "svoj pokoj vám dávam.\n" +
+                    "Nehľaď na naše hriechy,\n" +
                     "ale na vieru svojej Cirkvi\n" +
                     "a podľa svojej vôle jej milostivo\n" +
                     "daruj pokoj a jednotu,",
-            "zopne ruky",
+            "Zopne ruky.",
             "lebo ty žiješ a kraľuješ na veky vekov.",
             "Ľud odpovie:",
             "Amen.",
@@ -446,42 +446,40 @@ public interface Texty {
             "Pokoj Pánov nech je vždy s vami.",
             "Ľud odpovie:",
             "I s duchom tvojím.",
-            "Diakon (kňaz) môže dodať:",
+            "Potom diakon alebo kňaz prípadne dodá:",
             "Dajte si znak pokoja.",
-            "Podľa miestneho zvyku všetci si dajú navzájom znak pokoja a lásky. Kňaz dá znak pokoja diakonovi alebo posluhujúcemu.\n" +
-                    "Zbor zvolá:",
-            "Pokoj a bratská láska",
-            "Všetci pokračujú:",
-            "nech je medzi nami.",
-            "A podajú si ruky.", null};
+            "Ľud zvolá:",
+            "Pokoj a bratská láska nech je medzi nami.",
+            "A podajú si ruky s najbližšie stojacimi ako znak pokoja, spoločenstva a lásky; kňaz dá znak pokoja diakonovi alebo posluhujúcemu.", null};
 
     String[] lamanie_chleba_text = {"Lámanie chleba",
-            "Potom kňaz vezme hostiu, rozlomí ju nad paténou a kúsok hostie vpustí do kalicha. Pritom potichu hovorí:",
-            "Telo a krv nášho Pána Ježiša Krista, spojené v tomto kalichu, nech nám prijímajúcim osožia pre život večný.",
-            "Kým kňaz láme Chlieb, ľud hovorí alebo spieva:",
+            "Potom kňaz vezme hostiu, rozlomí ju nad paténou a kúsok hostie vpustí do kalicha, pričom potichu hovorí:",
+            "Toto zmiešanie Tela a Krvi nášho Pána Ježiša Krista nech nám prijímajúcim osoží pre večný život.",
+            "Medzitým sa spieva alebo recituje:",
+            "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n" +
                     "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n" +
-                            "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n" +
-                            "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj.",
-                    "Ak lámanie Chleba trvá dlhšie, možno toto zvolanie opakovať viackrát. Len posledné zvolanie sa zakončí slovami daruj nám pokoj.", null,
-        "Potom kňaz so zopätými rukami potichu hovorí:",
-                    "Pane Ježišu Kriste, Syn Boha živého,\n" +
-                            "ty si z vôle Otca\n" +
-                            "a za spoluúčinkovania Ducha Svätého\n" +
-                            "svojou smrťou oživil svet.\n" +
-                            "Týmto svojím presvätým telom a krvou\n" +
-                            "zbav ma všetkých mojich hriechov a každého zla.\n" +
-                            "Daj, aby som sa vždy pridržiaval tvojich prikázaní,\n" +
-                            "a nikdy nedopusť, aby som sa odlúčil od teba.",
-                    "Alebo:",
-                    "Pane Ježišu Kriste,\n" +
-                            "nech mi prijatie tvojho tela a krvi\n" +
-                            "neslúži na odsúdenie a zatratenie,\n" +
-                            "ale pre tvoju dobrotu\n" +
-                            "nech mi ochraňuje a uzdravuje dušu i telo.",
-        "Kňaz pokľakne, vezme hostiu, a držiac ju trocha pozdvihnutú nad paténou, obrátený k ľudu nahlas hovorí:",
-                    "Hľa, Baránok Boží, ktorý sníma hriechy sveta. Blažení tí, čo sú pozvaní na hostinu Baránkovu.",
-                    "Potom spolu s veriacimi iba raz povie:",
-                    "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."
+                    "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj.",
+            "Ak lámanie chleba trvá dlhšie, možno toto zvolanie opakovať viackrát. Len posledné zvolanie sa zakončí slovami: daruj nám pokoj.\n" +
+                    "Potom kňaz so zopätými rukami potichu hovorí:\n",
+            "Pane Ježišu Kriste, Syn Boha živého,\n" +
+                    "ty si z vôle Otca\n" +
+                    "a za spoluúčinkovania Ducha Svätého\n" +
+                    "svojou smrťou oživil svet.\n" +
+                    "Skrze svoje presväté Telo a Krv osloboď ma\n" +
+                    "od všetkých mojich neprávostí a od každého zla.\n" +
+                    "Daj, aby som sa vždy pridržiaval tvojich prikázaní,\n" +
+                    "a nikdy nedopusť, aby som sa odlúčil od teba.",
+            "Alebo:",
+            "Pane Ježišu Kriste,\n" +
+                    "nech mi prijatie tvojho Tela a Krvi\n" +
+                    "neslúži na odsúdenie a zatratenie,\n" +
+                    "ale pre tvoju dobrotu\n" +
+                    "nech mi ochraňuje a uzdravuje dušu i telo.",
+            "Kňaz pokľakne, vezme hostiu, drží ju trocha pozdvihnutú nad paténou alebo nad kalichom a obrátený k ľudu nahlas hovorí:",
+            "Hľa, Baránok Boží, ktorý sníma hriechy sveta.\n" +
+                    "Blažení tí, čo sú pozvaní na hostinu Baránkovu.",
+            "A spolu s ľudom raz povie:",
+            "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."
     };
 
     String[] sekvencia_vypis = {"<font color='#B71C1C'>Nie je záväzná, možno ju predniesť celú alebo len od slov * Svätá Matka, Krista rany.</font><br>" +

@@ -2063,16 +2063,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                             omsa = "23";
                             break;
                     }
-                }
-                if (omsa.equals("01b")) {
-                    if (cirkevRok == 2)
-                        omsa = "01B";
-                    else if (cirkevRok == 0)
-                        omsa = "01C";
-                    else
-                        omsa = "01A";
-                }
-                for (int b = 0; b < spevFormular.length; b++) {
+                } for (int b = 0; b < spevFormular.length; b++) {
                     if (spevFormular[b][0].equals(omsa)) {
                         formArray.add(new String[]{spevFormular[b][0], spevFormular[b][1], spevFormular[b][2]});
                     }
