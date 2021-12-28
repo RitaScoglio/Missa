@@ -2076,7 +2076,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void ziskajPrefaciu() {
         prefaciaArray.clear();
         if (euchText.equals("4. eucharistická modlitba")) {
-            prefaciaArray.add("Vlastná prefácia");
+                prefaciaArray.add("Vlastná prefácia - 4. eucharistická modlitba");
         } else if (ID.equals("001")) {
             prefaciaArray.add("Vlastná prefácia - Najsvätejšieho Srdca Ježišovho");
         } else if (ID.equals("004") && formArray.get(pozicia_formular)[1].equals("1")) { //Jarné kántrové dni
@@ -2280,6 +2280,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     break;
             }
         }
+        if (euchText.equals("2. eucharistická modlitba") && !vlastnaPrefacia)
+            prefaciaArray.add("Vlastná prefácia - 2. eucharistická modlitba");
     }
 
     public void prefaciaVypis(String[][] prefacia) {

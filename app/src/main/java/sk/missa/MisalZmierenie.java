@@ -366,7 +366,7 @@ public class MisalZmierenie extends Misal {
         prefacia = "Prefácia";
         if (prefText.equals("Vlastná prefácia")) {
             prefacia_nadpis = "";
-            prefacia_vypis = prefacie_EM0[pozicia_eucharistia];
+            prefacia_vypis = prefacie_EM_zmierenie[pozicia_eucharistia];
         } else {
             index = indexOmsa(prefacie, prefText);
             prefacia_nadpis = prefacie[index][2];
