@@ -83,7 +83,48 @@ public interface Prosby_svatci {
                             "prijmi naše prosby a daj,<br>" +
                             "nech sme tvojimi vernými svedkami.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
-
+            {"60gkp", "A", "Bratia a sestry, pozdvihnime svoj duchovný zrak k Ježišovi, ktorý vystúpil do neba a sedí po pravici Otca.",
+                    "<font color='#B71C1C'>(</font>Volajme: Ježišu, Kráľ slávy, vyslyš naše prosby.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Pane Ježišu, posilni svojím Duchom všetkých veriacich, aby slovom i životom svedčili o tebe.<br>" +
+                            "<font color='#B71C1C'>2.</font> Pane Ježišu, žehnaj všetkých biskupov a kňazov, ktorí ohlasujú tvoje evanjelium a krstia tých, ktorí uverili.<br>" +
+                            "<font color='#B71C1C'>3.</font> Pane Ježišu, osvieť všetky národy, aby spoznali tvoju lásku a tvoj pokoj.<br>" +
+                            "<font color='#B71C1C'>4.</font> Pane Ježišu, naplň útechou a silou Ducha Svätého všetkých, ktorí trpia na tele alebo na duši.<br>" +
+                            "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim prvoprijímajúcim deťom milosť trvalej lásky a vernosti.<br>" +
+                            "<font color='#B71C1C'>6.</font> Pane Ježišu, dovoľ nám všetkým uzrieť po smrti slávu neba, do ktorej si ty slávne vystúpil.",
+                    "Ježišu, Kráľ slávy,<br>" +
+                            "ty sedíš po pravici Otca<br>" +
+                            "a zároveň zostávaš s nami až do skončenia sveta;<br>" +
+                            "vypočuj naše prosby a daj,<br>" +
+                            "aby nás nič neodlúčilo od teba.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
+            {"", "B", "Bratia a sestry, keď Ježiš pred zrakom ľudí vystúpil do neba, dostali prísľub, že sa v sláve opäť vráti. Nenecháva nás však opustených, preto ho môžeme s dôverou prosiť.",
+                    "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Ježišu, požehnaj Svätého Otca, biskupov a kňazov, keď slávia pamiatku tvojej veľkonočnej obety.<br>" +
+                            "<font color='#B71C1C'>2.</font> Ježišu, požehnaj všetkých, ktorí svojou miernosťou a trpezlivosťou vydávajú dobré svedectvo viery.<br>" +
+                            "<font color='#B71C1C'>3.</font> Ježišu, požehnaj všetkých, ktorí svoju politickú moc používajú pre blaho spoločnosti.<br>" +
+                            "<font color='#B71C1C'>4.</font> Ježišu, požehnaj všetkých, ktorí praktickou láskou k blížnym zvestujú tvoje zmŕtvychvstanie.<br>" +
+                            "<font color='#B71C1C'>5.</font> Ježišu, požehnaj všetkých uväznených, ktorí chcú konať pokánie a zmeniť svoj život.<br>" +
+                            "<font color='#B71C1C'>6.</font> Ježišu, požehnaj naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo, aby sme verne plnili tvoj príkaz lásky.",
+                    "Ježišu, Kráľ slávy,<br>" +
+                            "ty sedíš po pravici Otca<br>" +
+                            "a zároveň zostávaš s nami do konca sveta;<br>" +
+                            "vypočuj naše prosby<br>" +
+                            "a daj nám silu ohlasovať veľkonočnú radosť.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
+            {"", "C", "Bratia a sestry, dnes s úžasom prežívame Kristovo vystúpenie do slávy večného Otca. Obráťme svoj zrak k nebu, kde sedí po Božej pravici, a volajme k nemu.",
+                    "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Ježišu, posilňuj biskupov a kňazov, aby boli skutočnými pastiermi Božieho ľudu, schopnými privádzať ľudské srdcia k tebe.<br>" +
+                            "<font color='#B71C1C'>2.</font> Ježišu, daj, nech vo viere a modlitbe, ako apoštoli a tvoja matka Mária, aj my očakávame sľúbené dary Ducha Svätého.<br>" +
+                            "<font color='#B71C1C'>3.</font> Ježišu, daj sa spoznať všetkým pochybujúcim a bezradným ako bezpečný ochranca a sprievodca životom.<br>" +
+                            "<font color='#B71C1C'>4.</font> Ježišu, ukáž všetkým, ktorí sú naviazaní na hmotné veci, pominuteľnosť sveta a jeho bohatstva.<br>" +
+                            "<font color='#B71C1C'>5.</font> Ježišu, upevňuj v nás vedomie, že aj naše premenené telo bude mať raz podiel na tvojej sláve.<br>" +
+                            "<font color='#B71C1C'>6.</font> Ježišu, prijmi k sebe našich zosnulých <font color='#B71C1C'>(M.)</font>.",
+                    "Ježišu Kriste, Kráľ slávy,<br>" +
+                            "ty sedíš po pravici Otca<br>" +
+                            "a zároveň zostávaš s nami do konca sveta;<br>" +
+                            "prijmi naše prosby a daj,<br>" +
+                            "nech sme tvojimi vernými svedkami.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
             //ZOSLANIE DUCHA SVÄTÉHO – VIGÍLIA I.
             {"2gkp", "A", "Bratia a sestry, prosme Pána, aby zoslal svojho Ducha a zapálil v nás oheň svojej lásky.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
@@ -654,6 +695,44 @@ public interface Prosby_svatci {
                             "a vypočuj ich,<br>" +
                             "aby sme rástli v láske k tebe<br>" +
                             "a k našim blížnym.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
+            {"05gk", "Bratia a sestry, pokloňme sa nášmu Kráľovi uloženému v jasliach a nábožne sa modlime.",
+                    "<font color='#B71C1C'>(</font>Volajme: Pre svoje zjavenie vyslyš nás, Pane.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Prosme za Cirkev: nebeský Ženích, posväcuj svoju nevestu Cirkev a urob ju znamením lásky pre všetky národy.<br>" +
+                            "<font color='#B71C1C'>2.</font> Prosme za celý svet: Kráľ slávy, zažiar ako svetlo národom a priveď ich do svojho kráľovstva.<br>" +
+                            "<font color='#B71C1C'>3.</font> Prosme za tých, ktorí hľadajú Pána: Spasiteľ sveta, priveď k sebe všetkých, ktorí ťa hľadajú s úprimným srdcom.<br>" +
+                            "<font color='#B71C1C'>4.</font> Prosme za pochybujúcich vo viere: Ježišu, prameň svätosti, daruj im pevnú vieru, aby láskou k tebe a k ľuďom odpovedali na tvoje zjavenie.<br>" +
+                            "<font color='#B71C1C'>5.</font> Prosme aj za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo: Kráľ všetkých sŕdc, pritiahni nás k sebe a daj, aby sme ťa často navštevovali a klaňali sa ti v Oltárnej sviatosti.",
+                    "Ježišu, Kráľ slávy,<br>" +
+                            "vypočuj naše prosby a daj,<br>" +
+                            "aby sme ako synovia svetla kráčali v ústrety tebe.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
+            {"B", "Bratia a sestry, Ježiš Kristus, svetlo sveta, sa dáva spoznať všetkým národom. Vrúcne ho prosme, aby všetci ľudia v ňom našli spásu.",
+                    "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Za Svätého Otca: aby jeho výzvy k pokoju a bratstvu našli ozvenu v srdciach ľudí, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font> Za pokrstených: aby Ježiš Kristus, pravé svetlo, priviedol všetkých k jednote viery a lásky, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font> Za všetkých ľudí: aby ich Ježiš Kristus, na príhovor Panny Márie, zahrnul hojnosťou svojich darov, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>4.</font> Za vedeckých pracovníkov: aby svojou prácou podporovali rozvoj ľudskej spoločnosti, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>5.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby ich Ježiš Kristus, sudca živých i mŕtvych, pridružil k zástupom blažených, prosme Pána.",
+                    "Pane Ježišu,<br>" +
+                            "tvoje svetlo priviedlo mudrcov<br>" +
+                            "k poznaniu pravdy o tvojom narodení;<br>" +
+                            "nedovoľ, aby sme sa ponorili do tmy hriechu,<br>" +
+                            "ale daj, aby sme stále kráčali vo svetle tvojej milosti.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
+            {"C", "Bratia a sestry, Ježiš je Syn Boží a syn Panny Márie; jeho narodenie a zjavenie prežívame v hlbokej radosti. Prosme ho teda s dôverou.",
+                    "<font color='#B71C1C'>(</font>Volajme: Pre svoje zjavenie vyslyš nás, Pane.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Prosme za Cirkev, ktorá je ohlasovateľkou Ježišových slov, aby zvestovala evanjelium celému svetu.<br>" +
+                            "<font color='#B71C1C'>2.</font> Prosme za národy Blízkeho východu, aby sa spravodlivým riešením sporných otázok nastolil vo Svätej zemi pravý a trvalý pokoj.<br>" +
+                            "<font color='#B71C1C'>3.</font> Prosme za neveriacich a hľadajúcich ľudí, aby vďaka životu horlivých kresťanov spoznali Ježiša Krista ako Boha a Pána celého sveta.<br>" +
+                            "<font color='#B71C1C'>4.</font> Prosme za duše v očistci, aby sa mohli spolu so všetkými svätými radovať v nebeskom kráľovstve.<br>" +
+                            "<font color='#B71C1C'>5.</font> Prosme za nás tu zhromaždených, aby nás dnešná slávnosť posilnila vo viere a v odhodlaní slúžiť Bohu.",
+                    "Pane Ježišu, stal si sa človekom,<br>" +
+                            "aby sme sa my mohli stať Božími deťmi;<br>" +
+                            "ďakujeme ti za to a prosíme ťa,<br>" +
+                            "vypočuj naše prosby a daj,<br>" +
+                            "aby sme vždy zostali<br>" +
+                            "tvojimi vernými bratmi a sestrami.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             // 6. januára - ZJAVENIE PÁNA - A
             {"06gk", "Bratia a sestry, pokloňme sa nášmu Kráľovi uloženému v jasliach a nábožne sa modlime.",

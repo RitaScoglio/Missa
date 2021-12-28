@@ -151,7 +151,15 @@ public interface Citania_svatci {
                             "On im povedal: \"Vám neprislúcha poznať časy alebo chvíle, ktoré Otec určil svojou mocou, ale keď zostúpi na\u00A0vás Svätý Duch, dostanete silu a budete mi svedkami v\u00A0Jeruzaleme i v\u00A0celej Judei aj v\u00A0Samárii a až po\u00A0samý kraj zeme.\"<br>" +
                             "Keď to povedal, pred\u00A0ich očami sa vzniesol a oblak im ho vzal spred očí. A kým uprene hľadeli k\u00A0nebu, ako odchádza, zastali pri\u00A0nich dvaja mužovia v\u00A0bielom odeve a povedali: \"Mužovia galilejskí, čo stojíte a hľadíte do\u00A0neba? Tento Ježiš, ktorý bol od\u00A0vás vzatý do\u00A0neba, príde tak, ako ste ho videli do\u00A0neba odchádzať.\"<br>" +
                             "Počuli sme Božie slovo."},
-
+            {"60gkp", "", "", "Sk 1, 1-11",
+                    "Pred ich očami sa vzniesol",
+                    "Čítanie zo Skutkov apoštolov<br>" +
+                            "Milý Teofil, v\u00A0prvej knihe som rozprával o\u00A0všetkom, čo Ježiš robil a učil od\u00A0začiatku až do\u00A0dňa, keď dal skrze Ducha Svätého príkazy apoštolom, ktorých si vyvolil, a vzatý bol do\u00A0neba. Po\u00A0svojom umučení im poskytol mnoho dôkazov, že žije, keď sa im štyridsať dní zjavoval a hovoril o\u00A0Božom kráľovstve.<br>" +
+                            "A keď s\u00A0nimi stoloval, prikázal im, aby neodchádzali z\u00A0Jeruzalema, ale aby očakávali Otcovo prisľúbenie: \"O ktorom ste počuli odo\u00A0mňa, že Ján krstil vodou, ale vy budete o\u00A0niekoľko dní pokrstení Duchom Svätým.\"<br>" +
+                            "A zhromaždení sa ho pýtali: \"Pane, už v\u00A0tomto čase obnovíš kráľovstvo Izraela?\"<br>" +
+                            "On im povedal: \"Vám neprislúcha poznať časy alebo chvíle, ktoré Otec určil svojou mocou, ale keď zostúpi na\u00A0vás Svätý Duch, dostanete silu a budete mi svedkami v\u00A0Jeruzaleme i v\u00A0celej Judei aj v\u00A0Samárii a až po\u00A0samý kraj zeme.\"<br>" +
+                            "Keď to povedal, pred\u00A0ich očami sa vzniesol a oblak im ho vzal spred očí. A kým uprene hľadeli k\u00A0nebu, ako odchádza, zastali pri\u00A0nich dvaja mužovia v\u00A0bielom odeve a povedali: \"Mužovia galilejskí, čo stojíte a hľadíte do\u00A0neba? Tento Ježiš, ktorý bol od\u00A0vás vzatý do\u00A0neba, príde tak, ako ste ho videli do\u00A0neba odchádzať.\"<br>" +
+                            "Počuli sme Božie slovo."},
             //Najsvätejšej Trojice
             {"7gkp", "A", "", "Ex 34, 4b-6. 8-9",
                     "Pán, Pán, Boh je milosrdný a láskavý",
@@ -401,6 +409,14 @@ public interface Citania_svatci {
                             "Ak má niekto pozemský majetok a vidí brata v\u00A0núdzi, a srdce si pred\u00A0ním zatvorí, ako v\u00A0ňom môže ostávať Božia láska?<br>" +
                             "Deti moje, nemilujme len slovom a jazykom, ale skutkom a pravdou. Podľa toho poznáme, že sme z\u00A0pravdy, a upokojíme si pred\u00A0ním srdce. Lebo keby nám srdce niečo vyčítalo, Boh je väčší ako naše srdce a vie všetko.<br>" +
                             "Milovaní, ak nám srdce nič nevyčíta, máme dôveru k\u00A0Bohu.<br>" +
+                            "Počuli sme Božie slovo."},
+            {"05gk", "", "", "Iz 60, 1-6",
+                    "Pánova veleba vzišla nad\u00A0tebou",
+                    "Čítanie z Knihy proroka Izaiáša<br>" +
+                            "Vstaň, zažiar, Jeruzalem, lebo prichádza tvoje svetlo a Pánova veleba vzišla nad\u00A0tebou.<br>" +
+                            "Lebo, hľa, tma zahaľuje zem a temnota pokrýva národy; ale nad\u00A0tebou vzíde Pán a jeho veleba sa zjaví na\u00A0tebe.<br>" +
+                            "Národy budú kráčať v\u00A0tvojom svetle a králi v\u00A0jase, čo ti vzišiel. Pozdvihni oči a dívaj sa navôkol: títo všetci sa zhromaždili, prišli k\u00A0tebe; zďaleka prichádzajú tvoji synovia a tvoje dcéry nesú v\u00A0náručí.<br>" +
+                            "Uvidíš to a zažiariš, rozochveje a rozšíri sa tvoje srdce. Lebo k\u00A0tebe sa obráti bohatstvo mora, poklady národov prídu k\u00A0tebe. Záplava tiav ťa pokryje, ťavätá z\u00A0Madiánu a Efy; prídu všetci zo\u00A0Sáby, zlato a kadidlo prinesú a zvestujú Pánovu slávu.<br>" +
                             "Počuli sme Božie slovo."},
             {"06gk", "", "", "Iz 60, 1-6",
                     "Pánova veleba vzišla nad\u00A0tebou",
@@ -1424,6 +1440,53 @@ public interface Citania_svatci {
                             "A ako je ustanovené, že ľudia raz zomrú a potom bude súd, tak aj Kristus: raz sa obetoval, aby sňal hriechy mnohých, a druhý raz sa zjaví bez\u00A0hriechu na\u00A0spásu tým, čo ho očakávajú.<br>" +
                             "A keď máme, bratia, smelú dôveru, že vojdeme do\u00A0Svätyne skrze Ježišovu krv, tou novou a živou cestou, ktorú nám otvoril cez\u00A0oponu, to jest cez\u00A0svoje telo, a keď máme veľkňaza nad\u00A0Božím domom, pristupujme s\u00A0úprimným srdcom v\u00A0plnosti viery, so\u00A0srdcom očisteným od\u00A0zlého svedomia a s\u00A0telom obmytým čistou vodou. Neochvejne sa držme nádeje, ktorú vyznávame, lebo verný je ten, ktorý dal prisľúbenie.<br>" +
                             "Počuli sme Božie slovo."},
+            {"60gkp", "A", "", "Ef 1, 17-23",
+                    "V nebi ho posadil po\u00A0svojej pravici",
+                    "Čítanie z Listu svätého apoštola Pavla Efezanom<br>" +
+                            "Bratia, nech vám Boh nášho Pána Ježiša Krista, Otec slávy, dá Ducha múdrosti a zjavenia, aby ste ho poznali.<br>" +
+                            "Nech osvieti oči vášho srdca, aby ste vedeli, aká je nádej z\u00A0jeho povolania, aké bohatstvo slávy je z\u00A0jeho dedičstva vo\u00A0svätých, a aká nesmierne veľká je jeho moc pre\u00A0nás veriacich podľa pôsobenia jeho mocnej sily, ktorú dokázal na\u00A0Kristovi, keď ho vzkriesil z\u00A0mŕtvych a v\u00A0nebi posadil po\u00A0svojej pravici nad\u00A0každé kniežatstvo, mocnosť, silu a panstvo a nad\u00A0každé iné meno, ktoré možno vysloviť nielen v\u00A0tomto veku, ale aj v\u00A0budúcom.<br>" +
+                            "Všetko mu položil pod\u00A0nohy a jeho ustanovil nad\u00A0všetkým za\u00A0hlavu Cirkvi, ktorá je jeho telom, plnosťou toho, ktorý napĺňa všetko vo\u00A0všetkom.<br>" +
+                            "Počuli sme Božie slovo."},
+            {"", "B", "", "Ef 1, 17-23",
+                    "V nebi ho posadil po\u00A0svojej pravici",
+                    "Čítanie z Listu svätého apoštola Pavla Efezanom<br>" +
+                            "Bratia, nech vám Boh nášho Pána Ježiša Krista, Otec slávy, dá Ducha múdrosti a zjavenia, aby ste ho poznali.<br>" +
+                            "Nech osvieti oči vášho srdca, aby ste vedeli, aká je nádej z\u00A0jeho povolania, aké bohatstvo slávy je z\u00A0jeho dedičstva vo\u00A0svätých, a aká nesmierne veľká je jeho moc pre\u00A0nás veriacich podľa pôsobenia jeho mocnej sily, ktorú dokázal na\u00A0Kristovi, keď ho vzkriesil z\u00A0mŕtvych a v\u00A0nebi posadil po\u00A0svojej pravici nad\u00A0každé kniežatstvo, mocnosť, silu a panstvo a nad\u00A0každé iné meno, ktoré možno vysloviť nielen v\u00A0tomto veku, ale aj v\u00A0budúcom.<br>" +
+                            "Všetko mu položil pod\u00A0nohy a jeho ustanovil nad\u00A0všetkým za\u00A0hlavu Cirkvi, ktorá je jeho telom, plnosťou toho, ktorý napĺňa všetko vo\u00A0všetkom.<br>" +
+                            "Počuli sme Božie slovo.",
+                    "Alebo:",
+                    "Ef 4, 1-13",
+                    "K miere plného Kristovho veku",
+                    "Čítanie z Listu svätého apoštola Pavla Efezanom<br>" +
+                            "Bratia, prosím vás ja, väzeň v\u00A0Pánovi, aby ste žili dôstojne podľa povolania, ktorého sa vám dostalo, so\u00A0všetkou pokorou, miernosťou a zhovievavosťou. Znášajte sa navzájom v\u00A0láske a usilujte sa zachovať jednotu ducha vo\u00A0zväzku pokoja. Jedno je telo a jeden Duch, ako ste aj povolaní v\u00A0jednej nádeji svojho povolania. Jeden je Pán, jedna viera, jeden krst. Jeden je Boh a Otec všetkých, ktorý je nad\u00A0všetkými, preniká všetkých a je vo\u00A0všetkých.<br>" +
+                            "Ale každý z\u00A0nás dostal milosť podľa miery, akou nás obdaroval Kristus. Preto hovorí: \"Do výšav vystúpil, so\u00A0sebou vzal zajatcov, ľuďom dal dary.\"<br>" +
+                            "A čo iné znamená to \"vystúpil\", ako že aj zostúpil do\u00A0nižších častí zeme? Ten, čo zostúpil, je ten istý, čo aj vystúpil ponad všetky nebesia, aby naplnil všetko.<br>" +
+                            "On ustanovil niektorých za\u00A0apoštolov, niektorých za\u00A0prorokov, iných za\u00A0evanjelistov a iných za\u00A0pastierov a učiteľov, aby pripravovali svätých na\u00A0dielo služby, na\u00A0budovanie Kristovho tela, kým nedospejeme všetci k\u00A0jednote viery a poznania Božieho Syna, k\u00A0zrelosti muža, k\u00A0miere plného Kristovho veku.<br>" +
+                            "Počuli sme Božie slovo.",
+                    "Alebo kratšie:",
+                    "Ef 4, 1-7. 11-13",
+                    "Na dielo služby, na\u00A0budovanie Kristovho tela",
+                    "Čítanie z Listu svätého apoštola Pavla Efezanom<br>" +
+                            "Bratia, prosím vás ja, väzeň v\u00A0Pánovi, aby ste žili dôstojne podľa povolania, ktorého sa vám dostalo, so\u00A0všetkou pokorou, miernosťou a zhovievavosťou. Znášajte sa navzájom v\u00A0láske a usilujte sa zachovať jednotu ducha vo\u00A0zväzku pokoja.<br>" +
+                            "Jedno je telo a jeden Duch, ako ste aj povolaní v\u00A0jednej nádeji svojho povolania. Jeden je Pán, jedna viera, jeden krst. Jeden je Boh a Otec všetkých, ktorý je nad\u00A0všetkými, preniká všetkých a je vo\u00A0všetkých.<br>" +
+                            "Ale každý z\u00A0nás dostal milosť podľa miery, akou nás obdaroval Kristus. On ustanovil niektorých za\u00A0apoštolov, niektorých za\u00A0prorokov, iných za\u00A0evanjelistov a iných za\u00A0pastierov a učiteľov, aby pripravovali svätých na\u00A0dielo služby, na\u00A0budovanie Kristovho tela, kým nedospejeme všetci k\u00A0jednote viery a poznania Božieho Syna, k\u00A0zrelosti muža, k\u00A0miere plného Kristovho veku.<br>" +
+                            "Počuli sme Božie slovo."},
+            {"", "C", "", "Ef 1, 17-23",
+                    "V nebi ho posadil po\u00A0svojej pravici",
+                    "Čítanie z Listu svätého apoštola Pavla Efezanom<br>" +
+                            "Bratia, nech vám Boh nášho Pána Ježiša Krista, Otec slávy, dá Ducha múdrosti a zjavenia, aby ste ho poznali.<br>" +
+                            "Nech osvieti oči vášho srdca, aby ste vedeli, aká je nádej z\u00A0jeho povolania, aké bohatstvo slávy je z\u00A0jeho dedičstva vo\u00A0svätých, a aká nesmierne veľká je jeho moc pre\u00A0nás veriacich podľa pôsobenia jeho mocnej sily, ktorú dokázal na\u00A0Kristovi, keď ho vzkriesil z\u00A0mŕtvych a v\u00A0nebi posadil po\u00A0svojej pravici nad\u00A0každé kniežatstvo, mocnosť, silu a panstvo a nad\u00A0každé iné meno, ktoré možno vysloviť nielen v\u00A0tomto veku, ale aj v\u00A0budúcom.<br>" +
+                            "Všetko mu položil pod\u00A0nohy a jeho ustanovil nad\u00A0všetkým za\u00A0hlavu Cirkvi, ktorá je jeho telom, plnosťou toho, ktorý napĺňa všetko vo\u00A0všetkom.<br>" +
+                            "Počuli sme Božie slovo.",
+                    "Alebo:",
+                    "Hebr 9, 24-28; 10, 19-23",
+                    "Kristus vošiel do\u00A0samého neba",
+                    "Čítanie z Listu Hebrejom<br>" +
+                            "Kristus nevošiel do\u00A0Svätyne zhotovenej rukou, ktorá je len predobrazom pravej, ale do\u00A0samého neba, aby sa teraz za\u00A0nás ukázal pred\u00A0Božou tvárou. Ani nie preto, aby seba samého viackrát obetoval ako veľkňaz, ktorý rok čo rok vchádza do\u00A0Svätyne s\u00A0cudzou krvou. Inak by bol musel trpieť už mnohokrát od\u00A0stvorenia sveta. On sa však teraz na\u00A0konci vekov zjavil raz navždy, aby obetovaním seba zničil hriech.<br>" +
+                            "A ako je ustanovené, že ľudia raz zomrú a potom bude súd, tak aj Kristus: raz sa obetoval, aby sňal hriechy mnohých, a druhý raz sa zjaví bez\u00A0hriechu na\u00A0spásu tým, čo ho očakávajú.<br>" +
+                            "A keď máme, bratia, smelú dôveru, že vojdeme do\u00A0Svätyne skrze Ježišovu krv, tou novou a živou cestou, ktorú nám otvoril cez\u00A0oponu, to jest cez\u00A0svoje telo, a keď máme veľkňaza nad\u00A0Božím domom, pristupujme s\u00A0úprimným srdcom v\u00A0plnosti viery, so\u00A0srdcom očisteným od\u00A0zlého svedomia a s\u00A0telom obmytým čistou vodou. Neochvejne sa držme nádeje, ktorú vyznávame, lebo verný je ten, ktorý dal prisľúbenie.<br>" +
+                            "Počuli sme Božie slovo."},
+
             {"8gkp", "A", "", "1 Kor 15, 20-26. 28",
                     "Odovzdá kráľovstvo Bohu a Otcovi, aby bol Boh všetko vo\u00A0všetkom",
                     "Čítanie z Prvého listu svätého apoštola Pavla Korinťanom<br>" +
@@ -1558,6 +1621,11 @@ public interface Citania_svatci {
                             "Bratia, keď prišla plnosť času, Boh poslal svojho Syna, narodeného zo\u00A0ženy, narodeného pod\u00A0zákonom, aby vykúpil tých, čo boli pod\u00A0zákonom, a aby sme dostali adoptívne synovstvo.<br>" +
                             "Pretože ste synmi, poslal Boh do\u00A0našich sŕdc Ducha svojho Syna a on volá: \"Abba, Otče!\"<br>" +
                             "A tak už nie si otrok, ale syn; a keď syn, tak skrze Boha aj dedič.<br>" +
+                            "Počuli sme Božie slovo."},
+            {"05gk", "", "", "Ef 3, 2-3a. 5-6",
+                    "Teraz sa zjavilo, že pohania sú spoludedičmi prisľúbenia",
+                    "Čítanie z Listu svätého apoštola Pavla Efezanom<br>" +
+                            "Bratia, počuli ste o\u00A0dare Božej milosti, ktorý som dostal pre\u00A0vás: lebo zo\u00A0zjavenia som sa dozvedel tajomstvo. Ono v\u00A0iných pokoleniach nebolo ľuďom známe tak, ako sa teraz v\u00A0Duchu zjavilo jeho svätým apoštolom a prorokom: že pohania sú spoludedičmi, spoluúdmi a spoluúčastníkmi prisľúbenia v\u00A0Kristovi Ježišovi skrze evanjelium.<br>" +
                             "Počuli sme Božie slovo."},
             {"06gk", "", "", "Ef 3, 2-3a. 5-6",
                     "Teraz sa zjavilo, že pohania sú spoludedičmi prisľúbenia",
@@ -1990,6 +2058,30 @@ public interface Citania_svatci {
                             "Hľa, ja na\u00A0vás zošlem, čo môj Otec prisľúbil. Preto zostaňte v\u00A0meste, kým nebudete vystrojení mocou z\u00A0výsosti!\"<br>" +
                             "Potom ich vyviedol von až k\u00A0Betánii, zdvihol ruky a požehnal ich. Ako ich žehnal, vzdialil sa od\u00A0nich a vznášal sa do\u00A0neba. Oni sa mu klaňali a s\u00A0veľkou radosťou sa vrátili do\u00A0Jeruzalema. Stále boli v\u00A0chráme a velebili Boha.<br>" +
                             "Počuli sme slovo Pánovo."},
+            {"60gkp", "A", "", "Mt 28, 16-20",
+                    "Choďte a učte všetky národy",
+                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                            "Jedenásti učeníci odišli do\u00A0Galiley na\u00A0vrch, kam im Ježiš rozkázal. Keď ho uvideli, klaňali sa mu, no niektorí pochybovali.<br>" +
+                            "Ježiš pristúpil k\u00A0nim a povedal im: \"Daná mi je všetka moc na\u00A0nebi i na\u00A0zemi. Choďte teda, učte všetky národy a krstite ich v\u00A0mene Otca i Syna i Ducha Svätého a naučte ich zachovávať všetko, čo som vám prikázal.<br>" +
+                            "A hľa, ja som s\u00A0vami po\u00A0všetky dni až do\u00A0skončenia sveta.\"<br>" +
+                            "Počuli sme slovo Pánovo."},
+            {"", "B", "", "Mk 16, 15-20",
+                    "Choďte do\u00A0celého sveta a hlásajte evanjelium",
+                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Marka<br>" +
+                            "Ježiš sa zjavil Jedenástim a povedal im: \"Choďte do\u00A0celého sveta a hlásajte evanjelium všetkému stvoreniu.<br>" +
+                            "Kto uverí a dá sa pokrstiť, bude spasený; ale kto neuverí, bude odsúdený.<br>" +
+                            "A tých, čo uveria, budú sprevádzať tieto znamenia: v\u00A0mojom mene budú vyháňať zlých duchov, budú hovoriť novými jazykmi, hady budú brať do\u00A0rúk a ak niečo smrtonosné vypijú, neuškodí im; na\u00A0chorých budú vkladať ruky a tí ozdravejú.\"<br>" +
+                            "Keď im to Pán Ježiš povedal, vzatý bol do\u00A0neba a zasadol po\u00A0pravici Boha.<br>" +
+                            "Oni sa rozišli a všade kázali. Pán im pomáhal a ich slová potvrdzoval znameniami, ktoré ich sprevádzali.<br>" +
+                            "Počuli sme slovo Pánovo."},
+            {"", "C", "", "Lk 24, 46-53",
+                    "Ako ich žehnal, vznášal sa do\u00A0neba",
+                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
+                            "Ježiš povedal svojim učeníkom: \"Tak je napísané, že Mesiáš bude trpieť a tretieho dňa vstane z\u00A0mŕtvych a v\u00A0jeho mene sa bude všetkým národom, počnúc od\u00A0Jeruzalema, hlásať pokánie na\u00A0odpustenie hriechov. Vy ste toho svedkami.<br>" +
+                            "Hľa, ja na\u00A0vás zošlem, čo môj Otec prisľúbil. Preto zostaňte v\u00A0meste, kým nebudete vystrojení mocou z\u00A0výsosti!\"<br>" +
+                            "Potom ich vyviedol von až k\u00A0Betánii, zdvihol ruky a požehnal ich. Ako ich žehnal, vzdialil sa od\u00A0nich a vznášal sa do\u00A0neba. Oni sa mu klaňali a s\u00A0veľkou radosťou sa vrátili do\u00A0Jeruzalema. Stále boli v\u00A0chráme a velebili Boha.<br>" +
+                            "Počuli sme slovo Pánovo."},
+
             {"8gkp", "A", "", "Mt 25, 31-46",
                     "Čokoľvek ste urobili jednému z\u00A0týchto mojich najmenších bratov, mne ste urobili",
                     "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
@@ -2177,6 +2269,15 @@ public interface Citania_svatci {
                             "Natanael mu povedal: \"Rabbi, ty si Boží Syn, ty si kráľ Izraela!\"<br>" +
                             "Ježiš mu odvetil: \"Veríš preto, že som ti povedal: Videl som ťa pod\u00A0figovníkom? Uvidíš väčšie veci ako toto.\"<br>" +
                             "Potom mu povedal: \"Veru, veru, hovorím vám: Uvidíte otvorené nebo a Božích anjelov vystupovať a zostupovať na\u00A0Syna človeka.\"<br>" +
+                            "Počuli sme slovo Pánovo."},
+            {"05gk", "", "", "Mt 2, 1-12",
+                    "Prišli sme z\u00A0východu pokloniť sa kráľovi",
+                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                            "Keď sa za\u00A0čias kráľa Herodesa v\u00A0judejskom Betleheme narodil Ježiš, prišli do\u00A0Jeruzalema mudrci od\u00A0východu a pýtali sa: \"Kde je ten novonarodený židovský kráľ? Videli sme jeho hviezdu na\u00A0východe a prišli sme sa mu pokloniť.\"<br>" +
+                            "Keď to počul kráľ Herodes, rozrušil sa a celý Jeruzalem s\u00A0ním. Zvolal všetkých veľkňazov a zákonníkov ľudu a vyzvedal sa od\u00A0nich, kde sa má narodiť Mesiáš.<br>" +
+                            "Oni mu povedali: \"V judejskom Betleheme, lebo tak píše prorok: ‚A ty, Betlehem, v\u00A0judejskej krajine, nijako nie si najmenší medzi poprednými mestami Judey, lebo z\u00A0teba vyjde vojvoda, ktorý bude spravovať môj ľud, Izrael.'\" Tu si dal Herodes potajomky zavolať mudrcov a podrobne sa ich povypytoval, kedy sa im zjavila hviezda. Potom ich poslal do\u00A0Betlehema a povedal: \"Choďte a dôkladne sa vypytujte na\u00A0dieťa. Keď ho nájdete, oznámte mi, aby som sa mu aj ja šiel pokloniť.\"<br>" +
+                            "Oni kráľa vypočuli a odišli. A hľa, hviezda, ktorú videli na\u00A0východe, išla pred\u00A0nimi, až sa zastavila nad\u00A0miestom, kde bolo dieťa. Ako zbadali hviezdu, nesmierne sa zaradovali.<br>" +
+                            "Vošli do\u00A0domu a uvideli dieťa s\u00A0Máriou, jeho matkou, padli na\u00A0zem a klaňali sa mu. Potom otvorili svoje pokladnice a dali mu dary: zlato, kadidlo a myrhu. A keď vo\u00A0sne dostali pokyn, aby sa nevracali k\u00A0Herodesovi, inou cestou sa vrátili do\u00A0svojej krajiny.<br>" +
                             "Počuli sme slovo Pánovo."},
             {"06gk", "", "", "Mt 2, 1-12",
                     "Prišli sme z\u00A0východu pokloniť sa kráľovi",

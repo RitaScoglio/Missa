@@ -127,7 +127,21 @@ public interface Zalmy_svatci {
                             "spievajte mu chválospev.<br>" +
                             "Boh kraľuje nad národmi, <font color='#B71C1C'>*</font><br>" +
                             "Boh sedí na svojom svätom tróne. <font color='#B71C1C'>– R.</font>"},
-
+            {"60gkp", "", "", "Ž 47, 2-3. 6-7. 8-9",
+                    "<font color='#B71C1C'>R.:</font> Pán vystupuje do neba za hlaholu poľnice.<br>" +
+                            "<font color='#B71C1C'>Alebo:</font> Aleluja.<br><br>" +
+                            "Tlieskajte rukami, všetky národy, <font color='#B71C1C'>*</font><br>" +
+                            "jasajte Bohu hlasom radostným.<br>" +
+                            "Lebo Pán je Najvyšší a hrozný, <font color='#B71C1C'>*</font><br>" +
+                            "nad celou zemou veľký kráľ. <font color='#B71C1C'>– R.</font><br>" +
+                            "Za jasotu vystupuje Boh, <font color='#B71C1C'>*</font><br>" +
+                            "Pán vystupuje za hlaholu poľnice.<br>" +
+                            "Spievajte Bohu, spievajte, <font color='#B71C1C'>*</font><br>" +
+                            "spievajte nášmu kráľovi, spievajte. <font color='#B71C1C'>– R.</font><br>" +
+                            "Pretože Boh je kráľom celej zeme; <font color='#B71C1C'>*</font><br>" +
+                            "spievajte mu chválospev.<br>" +
+                            "Boh kraľuje nad národmi, <font color='#B71C1C'>*</font><br>" +
+                            "Boh sedí na svojom svätom tróne. <font color='#B71C1C'>– R.</font>"},
             //Najsvätejšej Trojice
             {"7gkp", "A", "", "Porov. Dan 3, 52. 53. 54. 55. 56",
                     "<font color='#B71C1C'>R.:</font> Chvála ti a sláva naveky.<br><br>" +
@@ -644,6 +658,25 @@ public interface Zalmy_svatci {
                     "Lebo Pán je dobrý; <font color='#B71C1C'>†</font><br>" +
                     "jeho milosrdenstvo trvá naveky <font color='#B71C1C'>*</font><br>" +
                     "a jeho vernosť z pokolenia na pokolenie. <font color='#B71C1C'>– R.</font>"},
+            {"05gk", "", "", "Ž 72, 1-2. 7-8. 10-11. 12-13",
+                    "<font color='#B71C1C'>R.:</font> Budú sa ti klaňať, Pane, všetky národy sveta.<br><br>" +
+                            "Bože, zver svoju právomoc kráľovi, <font color='#B71C1C'>*</font><br>" +
+                            "kráľovmu synovi svoju spravodlivosť,<br>" +
+                            "aby spravodlivo vládol nad tvojím ľudom <font color='#B71C1C'>*</font><br>" +
+                            "a podľa práva nad tvojimi chudobnými. <font color='#B71C1C'>– R.</font><br>" +
+                            "V jeho dňoch bude prekvitať spravodlivosť<br>" +
+                            "a plnosť pokoja, <font color='#B71C1C'>*</font><br>" +
+                            "kým mesiac nezhasne.<br>" +
+                            "A bude panovať od mora až k moru <font color='#B71C1C'>*</font><br>" +
+                            "a od Rieky až na kraj zeme. <font color='#B71C1C'>– R.</font><br>" +
+                            "Králi Taršišu a ostrovov prinesú mu dary, <font color='#B71C1C'>*</font><br>" +
+                            "oddajú mu dane králi Arabov aj zo Sáby.<br>" +
+                            "Budú sa mu klaňať všetci králi, <font color='#B71C1C'>*</font><br>" +
+                            "slúžiť mu budú všetky národy. <font color='#B71C1C'>– R.</font><br>" +
+                            "On vyslobodí bedára, čo volá k nemu, <font color='#B71C1C'>*</font><br>" +
+                            "i chudobného, ktorému nik nepomáha.<br>" +
+                            "Zmiluje sa nad chudobným a bedárom, <font color='#B71C1C'>*</font><br>" +
+                            "zachráni život úbožiakom. <font color='#B71C1C'>– R.</font>"},
             {"06gk", "", "", "Ž 72, 1-2. 7-8. 10-11. 12-13",
                     "<font color='#B71C1C'>R.:</font> Budú sa ti klaňať, Pane, všetky národy sveta.<br><br>" +
                     "Bože, zver svoju právomoc kráľovi, <font color='#B71C1C'>*</font><br>" +
@@ -2007,6 +2040,7 @@ public interface Zalmy_svatci {
             {"", "B", "", "Hebr 5, 8-9", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Hoci bol Synom, z toho, čo vytrpel, naučil sa poslušnosti; a keď dosiahol dokonalosť, stal sa pôvodcom večnej spásy pre všetkých, ktorí ho poslúchajú. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"", "C", "", "Ez 36, 25a. 26a", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Vylejem na vás čistú vodu, dám vám nové srdce a vložím do vás nového ducha. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"6gkp", "", "", "Mt 28, 19a. 20b", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Choďte a učte všetky národy, hovorí Pán; ja som s vami po všetky dni až do skončenia sveta. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"60gkp", "", "", "Mt 28, 19a. 20b", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Choďte a učte všetky národy, hovorí Pán; ja som s vami po všetky dni až do skončenia sveta. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"7gkp", "", "", "Porov. Zjv 1, 8", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Sláva Otcu i Synu i Duchu Svätému, Bohu, ktorý je, ktorý bol a ktorý príde. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"4gkp", "", "", "Mt 11, 29ab", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Ja som živý chlieb, ktorý zostúpil z neba, hovorí Pán; kto bude jesť z tohoto chleba, bude žiť naveky. <font color='#B71C1C'>– R.</font> Aleluja."},
             //Najsvätejšieho Srdca Ježišovho
@@ -2043,6 +2077,7 @@ public interface Zalmy_svatci {
             {"03a", "", "", "Mt 1, 21", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Dáš mu meno Ježiš; lebo on vyslobodí svoj ľud z hriechov. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"4", "", "", "Hebr 1, 1-2", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Mnoho ráz hovoril kedysi Boh otcom skrze prorokov. V týchto posledných dňoch prehovoril k nám v Synovi. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"5", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Posvätný deň nám zažiaril: poďte, národy, a klaňajte sa Pánovi. Dnes zostúpilo na zem veľké svetlo. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"05gk", "", "", "Mt 2, 2", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Videli sme jeho hviezdu na východe a prišli sme sa pokloniť Pánovi. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"06gk", "", "", "Mt 2, 2", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Videli sme jeho hviezdu na východe a prišli sme sa pokloniť Pánovi. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"7", "", "", "Mt 4, 23", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Ježiš hlásal evanjelium o kráľovstve a uzdravoval každú chorobu medzi ľudom. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"8", "", "", "Porov. Lk 4, 18", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Pán ma poslal hlásať evanjelium chudobným, oznámiť zajatým, že budú prepustení. <font color='#B71C1C'>– R.</font> Aleluja."},
