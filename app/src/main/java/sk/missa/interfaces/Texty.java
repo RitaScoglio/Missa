@@ -1142,56 +1142,50 @@ public interface Texty {
     };
 
     String[][] tiche_modlitby = {
-            {"Po úkone kajúcnosti", "Potom kňaz prosí Pána Boha o odpustenie:",
-                    "Nech sa zmiluje nad nami všemohúci Boh,\n" +
-                    "nech nám hriechy odpustí\n" +
-                    "a privedie nás do života večného.",
+            {"Po úkone kajúcnosti", "Nasleduje absolúcia kňaza:",
+                    "Nech sa nad nami zmiluje všemohúci Boh, nech nám hriechy odpustí\n" +
+                            "a privedie nás do večného života.",
                     "Ľud odpovie:",
                     "Amen."},
-            {"Pred evanjeliom", "Všemohúci Bože, očisť mi srdce i pery, aby som dôstojne hlásal tvoje sväté evanjelium."},
-            {"Po evanjeliu", "Slová svätého evanjelia nech zmyjú naše previnenia."},
-            {"Príprava obetných darov", "Kňaz, stojac pri oltári, vezme paténu s chlebom, drží ju trocha pozdvihnutú nad oltárom a potichu hovorí:",
-                    "Dobrorečíme ti, Bože, Pane svetov,\n" +
-                            "že sme z tvojej štedrosti prijali tento chlieb.\n" +
-                            "Obetujeme ho tebe\n" +
-                            "ako plod zeme a práce ľudských rúk,\n" +
+            {"Pred evanjeliom", "Všemohúci Bože, očisť mi srdce i pery, aby som mohol dôstojne hlásať tvoje sväté evanjelium."},
+            {"Po evanjeliu", "Slová evanjelia nech zmyjú naše previnenia."},
+            {"Príprava obetných darov", "ňaz stojí pri oltári, vezme paténu s chlebom, oboma rukami ju drží trocha pozdvihnutú nad oltárom a potichu hovorí:",
+                    "Požehnaný si, Pane, Bože všetkého stvorenia,\n" +
+                            "pretože sme z tvojej štedrosti prijali tento chlieb.\n" +
+                            "Obetujeme ti ho ako plod zeme a práce ľudských rúk,\n" +
                             "aby sa nám stal chlebom života.",
-                    "Potom položí paténu s chlebom na oltár.\n" +
-                            "Ak sa nespieva, kňaz môže tieto slová predniesť nahlas. Na konci ľud môže zvolať:",
-                    "Zvelebený Boh naveky!",
+                    "Potom položí paténu s chlebom na korporál.\n" +
+                            "Ak sa počas prípravy obetných darov nespieva, kňaz môže tieto slová predniesť nahlas.\n" +
+                            "Na konci môže ľud zvolať:",
+                    "Požehnaný Boh naveky!",
                     "Diakon alebo kňaz naleje do kalicha víno a trocha vody. Pritom potichu hovorí:",
                     "Tajomstvo tejto vody a vína\n" +
-                            "nech nás spojí s božstvom Ježiša Krista,\n" +
+                            "nech nám dá účasť na božstve toho,\n" +
                             "ktorý láskavo prijal našu ľudskú prirodzenosť.",
-                    "Potom kňaz vezme kalich, drží ho trocha pozdvihnutý nad oltárom a potichu hovorí:",
-                    "Dobrorečíme ti, Bože, Pane svetov,\n" +
-                            "že sme z tvojej štedrosti prijali toto víno.\n" +
-                            "Obetujeme ho tebe\n" +
-                            "ako plod viniča a práce ľudských rúk,\n" +
+                    "Potom kňaz vezme kalich, oboma rukami ho drží trocha pozdvihnutý nad oltárom a potichu hovorí:",
+                    "Požehnaný si, Pane, Bože všetkého stvorenia, \n" +
+                            "pretože sme z tvojej štedrosti prijali toto víno. \n" +
+                            "Obetujeme ti ho ako plod viniča a práce ľudských rúk, \n" +
                             "aby sa nám stalo duchovným nápojom.",
                             "Potom položí kalich na korporál.\n" +
-                    "Ak sa nespieva, kňaz môže tieto slová predniesť nahlas. Na konci ľud môže zvolať:",
-                    "Zvelebený Boh naveky!",
-                    "Potom sa kňaz skloní a potichu hovorí:",
-                    "Prijmi nás, Bože,\n" +
-                            "v duchu pokorných a v srdci skrúšených,\n" +
+                                    "Ak sa nespieva spev na obetovanie, kňaz môže tieto slová predniesť nahlas. Na konci môže ľud zvolať:",
+                    "Požehnaný Boh naveky!",
+                    "Potom sa kňaz hlboko skloní a potichu povie:",
+                    "Prijmi nás, Pane,\n" +
+                            "v duchu pokorných a v srdci skrúšených, \n" +
                             "a naša dnešná obeta\n" +
                             "nech nájde zaľúbenie v tvojich očiach.",
-                    "Potom si kňaz po strane oltára umyje ruky, potichu hovoriac:",
-                    "Pane, zmy zo mňa moju vinu\n" +
-                            "a očisť ma od hriechu.",
-                    "Kňaz, stojac uprostred oltára obrátený tvárou k ľudu, rozopne a znova zloží ruky, pričom hovorí:",
-                    "Modlite sa, bratia a sestry,\n" +
-                            "aby sa moja i vaša obeta\n" +
-                            "zaľúbila Bohu Otcu všemohúcemu.",
-                    "Ľud odpovie:",
-                    "Nech Pán prijme obetu z tvojich rúk\n" +
-                            "na chválu a slávu svojho mena,\n" +
+                    "Potom si kňaz stojac na boku oltára umyje ruky a potichu hovorí:",
+                    "Pane, zmy zo mňa moju vinu a očisť ma od hriechu.",
+                    "Kňaz stojí uprostred oltára obrátený tvárou k ľudu, rozopne a znova zloží ruky, pričom hovorí:",
+                    "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila všemohúcemu Bohu Otcovi.",
+                    "Ľud vstane a odpovie:",
+                    "Nech Pán prijme obetu z tvojich rúk na chválu a slávu svojho mena,\n" +
                             "na úžitok nám i celej svätej Cirkvi."},
-            {"Po speve na prijímanie", "Pri purifikovaní kňaz potichu hovorí:", "Pane, čo sme prijali ústami,\n" +
-                    "nech očistí a posvätí naše srdce,\n" +
-                    "a čo sme prijali pod spôsobom časných darov,\n" +
-                    "nech sa nám stane zárukou večného života."}
+            {"Po speve na prijímanie", "Pri purifikovaní kňaz potichu hovorí:", "Pane, čo sme prijali ústami, \n" +
+                    "nech očistí naše srdce\n" +
+                    "a časný dar nech sa nám stane \n" +
+                    "zárukou večného života."}
     };
 
     String teba_Boze_chvalime = "Teba, Bože, chválime,\n" +
