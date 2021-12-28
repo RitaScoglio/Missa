@@ -38,6 +38,29 @@ public class FormularTest extends TestCase {
         }
     }
 
+    public void testFormularNumbers(){
+        List<String> spevFormularNumbers = new ArrayList<>();
+        List<String> modlitbaFormularNumbers = new ArrayList<>();
+        List<String> prosbyFormularNumbers = new ArrayList<>();
+        for (String[] strings : spevFormular) {
+            spevFormularNumbers.add(strings[0]);
+        }
+        for (String[] strings : modlitbaFormular) {
+            modlitbaFormularNumbers.add(strings[0]);
+        }
+        for (String[] strings : prosbyFormular) {
+            prosbyFormularNumbers.add(strings[0]);
+        }
+        for(int i = 0; i <spevFormularNumbers.size(); i++){
+            try {
+                assertEquals(spevFormularNumbers.get(i), modlitbaFormularNumbers.get(i), prosbyFormularNumbers.get(i));
+            } catch (AssertionError e){
+                System.out.println(spevFormularNumbers.get(i)+" -> "+ modlitbaFormularNumbers.get(i)+ " -> " + prosbyFormularNumbers.get(i));
+                throw e;
+            }
+        }
+    }
+
     public void testFormularSpev(){
         for (String[] strings : spevFormular) {
             try {

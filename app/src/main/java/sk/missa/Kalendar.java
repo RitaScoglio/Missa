@@ -60,7 +60,6 @@ public class Kalendar extends Main {
                 startActivity(uvod);
             }
         }
-
     }
 
     //možnosti v menu

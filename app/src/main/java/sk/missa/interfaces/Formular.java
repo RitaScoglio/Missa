@@ -1756,7 +1756,7 @@ public interface Formular {
                             "uzreli v plnom svetle tajomstvo, <font color='#B71C1C'>—</font><br>" +
                             "ktoré teraz slávime pod sviatostnými znakmi.<br>" +
                             "Skrze Krista, nášho Pána."},
-            {"36", "1", "Omša o duchovnom pastierovi 1.", "Všemohúci Bože, pokorne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
+            {"37", "1", "Omša o duchovnom pastierovi 1.", "Všemohúci Bože, pokorne ťa prosíme, <font color='#B71C1C'>*</font><br>" +
                     "na príhovor svätého <font color='#B71C1C'>(</font>biskupa<font color='#B71C1C'>) M.</font> <br>" +
                     "rozmnožuj v nás svoje dary <font color='#B71C1C'>—</font><br>" +
                     "a našim časom udeľ pravý pokoj.<br>" +
@@ -1776,7 +1776,7 @@ public interface Formular {
                             "aby sme si zachovali neporušený dar viery <font color='#B71C1C'>—</font><br>" +
                             "a kráčali po bezpečnej ceste spásy.<br>" +
                             "Skrze Krista, nášho Pána."},
-            {"36", "2", "Omša o duchovnom pastierovi 2.", "Bože, svetlo veriacich a pastier duší, <br>" +
+            {"37", "2", "Omša o duchovnom pastierovi 2.", "Bože, svetlo veriacich a pastier duší, <br>" +
                     "ty si dal Cirkvi svätého <font color='#B71C1C'>(</font>biskupa<font color='#B71C1C'>) M.</font>, <br>" +
                     "aby živil tvoj ľud Božím slovom <br>" +
                     "a poučoval ho svojím príkladom; <font color='#B71C1C'>*</font><br>" +
