@@ -2248,52 +2248,52 @@ public interface Prefacia {
                             "Požehnaný, ktorý prichádza v mene Pánovom!<br>" +
                             "Hosana na výsostiach!"},
             {"15", "O Duchu Svätom I", "Pán zoslal Ducha Svätého Cirkvi",
-                    "<font color='#B71C1C'>K.:</font> Pán s vami.<br>" +
-                            "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br>" +
-                            "<font color='#B71C1C'>K.:</font> Hore srdcia.<br>" +
-                            "<font color='#B71C1C'>Ľ.:</font> Máme ich u Pána.<br>" +
-                            "<font color='#B71C1C'>K.:</font> Vzdávajme vďaky Pánovi, Bohu nášmu.<br>" +
-                            "<font color='#B71C1C'>Ľ.:</font> Je to dôstojné a správne.<br><br>" +
+                    "<font color='#B71C1C'>V.:</font> Pán s vami.<br>" +
+                            "<font color='#B71C1C'>R.:</font> I s duchom tvojím.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Hore srdcia.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Máme ich u Pána.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Vzdávajme vďaky Pánovi, nášmu Bohu.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Je to dôstojné a správne.<br><br>" +
                             "Je naozaj dôstojné a správne, dobré a spásonosné<br>" +
-                            "vzdávať vďaky vždy a všade<br>" +
-                            "tebe, Pane, svätý Otče, všemohúci a večný Bože,<br>" +
-                            "skrze nášho Pána Ježiša Krista.<br>" +
-                            "Lebo on vystúpil na nebesia,<br>" +
+                            "vzdávať vďaky vždy a všade tebe, Pane, <br>" +
+                            "svätý Otče, všemohúci a večný Bože, <br>" +
+                            "skrze nášho Pána Ježiša Krista. <br>" +
+                            "Lebo on vystúpil na nebesia, <br>" +
                             "zasadol po tvojej pravici<br>" +
-                            "a zoslal prisľúbeného Ducha Svätého na deti,<br>" +
-                            "ktoré si ty prijal za svoje.<br>" +
-                            "Preto teraz i po celú večnosť<br>" +
-                            "chceme ti so zástupmi anjelov vrúcne spievať<br>" +
-                            "a nadšene ťa oslavovať:<br><br>" +
-                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
+                            "a zoslal prisľúbeného Ducha Svätého na deti, <br>" +
+                            "ktoré si ty prijal za svoje. <br>" +
+                            "Preto ťa teraz i po celú večnosť<br>" +
+                            "spolu so všetkými zástupmi anjelov<br>" +
+                            "nábožne oslavujeme a voláme:<br><br>" +
+                            "Svätý, svätý, svätý Pán, Boh všetkých svetov.<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
-                            "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
+                            "Požehnaný, ktorý prichádza v mene Pánovom!<br>" +
                             "Hosana na výsostiach!"},
             {"15", "O Duchu Svätom II", "O pôsobení Ducha Svätého v Cirkvi",
-                    "<font color='#B71C1C'>K.:</font> Pán s vami.<br>" +
-                            "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br>" +
-                            "<font color='#B71C1C'>K.:</font> Hore srdcia.<br>" +
-                            "<font color='#B71C1C'>Ľ.:</font> Máme ich u Pána.<br>" +
-                            "<font color='#B71C1C'>K.:</font> Vzdávajme vďaky Pánovi, Bohu nášmu.<br>" +
-                            "<font color='#B71C1C'>Ľ.:</font> Je to dôstojné a správne.<br><br>" +
-                            "Je naozaj dôstojné a správne, dobré a spásonosné<br>" +
-                            "vzdávať vďaky vždy a všade<br>" +
-                            "tebe, Pane, svätý Otče, všemohúci a večný Bože.<br>" +
-                            "Lebo ty dávaš svojej Cirkvi milosti<br>" +
-                            "primerané každej dobe<br>" +
-                            "a obdivuhodne ju spravuješ a chrániš.<br>" +
+                    "<font color='#B71C1C'>V.:</font> Pán s vami.<br>" +
+                            "<font color='#B71C1C'>R.:</font> I s duchom tvojím.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Hore srdcia.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Máme ich u Pána.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Vzdávajme vďaky Pánovi, nášmu Bohu.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Je to dôstojné a správne.<br><br>" +
+                            "Je naozaj dôstojné a správne, dobré a spásonosné <br>" +
+                            "vzdávať vďaky vždy a všade tebe, Pane, <br>" +
+                            "svätý Otče, všemohúci a večný Bože. <br>" +
+                            "Lebo ty dávaš svojej Cirkvi<br>" +
+                            "milosti primerané každej dobe<br>" +
+                            "a obdivuhodne ju spravuješ a chrániš. <br>" +
                             "Veď darmi Ducha Svätého ju tak posilňuješ<br>" +
-                            "a ustavične naplňuješ dôverou,<br>" +
-                            "že ani v zármutku ťa neprestáva prosiť,<br>" +
+                            "a ustavične naplňuješ dôverou, <br>" +
+                            "že ani v zármutku ťa neprestáva prosiť, <br>" +
                             "ani uprostred radostí ti nezabúda ďakovať<br>" +
-                            "skrze nášho Pána Ježiša Krista.<br>" +
-                            "Preto ťa spolu s anjelmi chválime<br>" +
+                            "skrze nášho Pána Ježiša Krista. <br>" +
+                            "Preto ťa spolu s anjelskými chórmi chválime<br>" +
                             "a radostne vyznávame:<br><br>" +
-                            "Svätý, svätý, svätý Pán Boh všetkých svetov<br>" +
+                            "Svätý, svätý, svätý Pán, Boh všetkých svetov.<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
-                            "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
+                            "Požehnaný, ktorý prichádza v mene Pánovom!<br>" +
                             "Hosana na výsostiach!"},
             {"39", "O preblahoslavenej Panne Márii", "O Panne Márii, ktorá je vzorom a Matkou Cirkvi",
                     "<font color='#B71C1C'>V.:</font> Pán s vami.<br>" +
