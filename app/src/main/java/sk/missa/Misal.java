@@ -5,14 +5,12 @@ import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -2730,11 +2728,15 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         if (dialog == 5)
             otvorExtra(text, procesia);
         else if (dialog == 6)
-            otvorExtra(text, modlitby);
+            otvorExtra(text, modlitby_nad_ludom);
         else if (dialog == 7)
-            otvorExtra(text, new String[]{"", "Kňaz (diakon): ",
-                    "<m>Prijmite slávnostné požehnanie. ",
-                    "Túto výzvu môže povedať aj inými slovami.\n", "<br>" + slavnostne_pozehnanie[slav_pozehnanie][1]});
+            otvorExtra(text, new String[]{"", "Uvedené formuly slávnostných požehnaní môže kňaz použiť podľa vlastného uváženia na konci svätej omše alebo liturgie slova, na konci liturgie hodín alebo po vysluhovaní sviatostí.\n" +
+                    "Diakon alebo, ak ho niet, sám kňaz, prednesie výzvu: ",
+                    "<m>Skloňte sa na požehnanie. ",
+                    "alebo: ",
+                    "<m>Prijmite slávnostné požehnanie.",
+                    "Potom kňaz vystrie ruky nad ľud a prednesie formulu požehnania. Všetci odpovedia:",
+                    "<m>Amen.", "<br>" + slavnostne_pozehnanie[slav_pozehnanie][1]});
         else if (dialog == 11)
             otvorExtra(text, new String[]{"", "Na slávnosť Zjavenia Pána po evanjeliu diakon alebo sám kňaz, prípadne aj spevák môže ohlásiť deň Veľkej noci takto:\n",
                     "<br>" + ohlasenieVN[0] + vnd + ". " + mesiacG[vnm] + ohlasenieVN[1] + psd + ". " + mesiacG[psm] +
@@ -2773,15 +2775,13 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         else if (ID.equals("06gk") && m == 0) //Zjavenie Pána
             slav_pozehnanie = 6;
         else if (ID.equals("6gkp")) //Nanebovstúpenie Pána
-            slav_pozehnanie = 8;
+            slav_pozehnanie = 7;
         else if (ID.equals("3gkp")) //Zoslanie Ducha Svätého, Slávnosť
-            slav_pozehnanie = 9;
+            slav_pozehnanie = 8;
         else if (ID.equals("2pm") || ID.equals("9gkp")) //Preblahoslavenej Panny Márie, Matky Cirkvi, Spomienka
-            slav_pozehnanie = 10;
+            slav_pozehnanie = 9;
         else if ((ID.equals("28gk") || ID.equals("29gk")) && m == 5) //Sv. Petra a Pavla, apoštolov
-            slav_pozehnanie = 11;
-        else if (ID.equals("05gk") && m == 6) //Sv. Cyrila a Metoda, slovanských vierozvestov
-            slav_pozehnanie = 12;
+            slav_pozehnanie = 10;
         else if (((ID.equals("03g") || ID.equals("14g")) && m == 4) || //Filip a Jakub - 3.5, Matej - 14.5
                 (ID.equals("11") && m == 5) || //Barnabas - 11.6
                 ((ID.equals("03g") || ID.equals("25g")) && m == 6) ||//Tomáš - 3.7, Jakub - 25.7
@@ -2789,24 +2789,20 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 (ID.equals("21g") && m == 8) ||//Matúš - 21.9
                 (ID.equals("28g") && m == 9) ||//Šimon a Júda 28.10
                 (ID.equals("30g") && m == 10))//Ondrej - 30.11
-            slav_pozehnanie = 13;
+            slav_pozehnanie = 11;
         else if (ID.equals("01gk") && m == 10) //Všetkých svätých
-            slav_pozehnanie = 14;
+            slav_pozehnanie = 12;
         else if ((ID.equals("02an") || ID.equals("02bn") || ID.equals("02cn")) && m == 10) //Spomienka na všetkých verných zosnulých
-            slav_pozehnanie = 15;
-
+            slav_pozehnanie = 13;
+        else if(P && slavenie.equals("Slávnosť"))
+            slav_pozehnanie = 2;
         else if (nedela || slavenie.equals("Slávnosť") || slavenie.equals("Sviatok")
                 || slavenie.equals("Oktáva") || slavenie.equals("Vigília")) {
             if (A)
                 slav_pozehnanie = 0;
             else if (V)
                 slav_pozehnanie = 1;
-            else if (P)
-                slav_pozehnanie = 2;
             else if (VN) {
-                if (ID.equals("10") && slavenie.equals("Oktáva"))
-                    slav_pozehnanie = 7;
-                else
                     slav_pozehnanie = 3;
             } else //cezrok
                 slav_pozehnanie = 4;
