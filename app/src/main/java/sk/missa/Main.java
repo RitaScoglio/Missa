@@ -960,7 +960,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     }
 
     //vypočíta dátum Popolcovej stredy, Veľkej noci a pohyblivých sviatkov
-    public void ziskajPaVN() {
+    public void ziskajPaVN(int rok) {
         vypocetVN();
         int dayJ, dayZP;
         mP = new DateTime(rok, psm + 1, psd, 12, 0, 0);

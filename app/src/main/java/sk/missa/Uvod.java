@@ -242,23 +242,23 @@ public class Uvod extends Main {
                 slavenieDen(month1);
                 break;
             case 1:
-                ziskajPaVN();
+                ziskajPaVN(rok);
                 slavenieDen(month2);
                 break;
             case 2:
-                ziskajPaVN();
+                ziskajPaVN(rok);
                 slavenieDen(month3);
                 break;
             case 3:
-                ziskajPaVN();
+                ziskajPaVN(rok);
                 slavenieDen(month4);
                 break;
             case 4:
-                ziskajPaVN();
+                ziskajPaVN(rok);
                 slavenieDen(month5);
                 break;
             case 5:
-                ziskajPaVN();
+                ziskajPaVN(rok);
                 slavenieDen(month6);
                 break;
             case 6:

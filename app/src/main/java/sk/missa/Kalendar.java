@@ -337,26 +337,26 @@ public class Kalendar extends Main {
                 slavenieMesiac(32, month1);
                 break;
             case 1:
-                ziskajPaVN(); //zistí dátum popolcovej stredy a veľkej noci
+                ziskajPaVN(rr); //zistí dátum popolcovej stredy a veľkej noci
                 if (rr % 4 == 0)
                     slavenieMesiac(30, month2);
                 else
                     slavenieMesiac(29, month2);
                 break;
             case 2:
-                ziskajPaVN();
+                ziskajPaVN(rr);
                 slavenieMesiac(32, month3);
                 break;
             case 3:
-                ziskajPaVN();
+                ziskajPaVN(rr);
                 slavenieMesiac(31, month4);
                 break;
             case 4:
-                ziskajPaVN();
+                ziskajPaVN(rr);
                 slavenieMesiac(32, month5);
                 break;
             case 5:
-                ziskajPaVN();
+                ziskajPaVN(rr);
                 slavenieMesiac(31, month6);
                 break;
             case 6:
