@@ -15,6 +15,7 @@ package sk.missa.interfaces;
  * popol - požehnanie popola a značenie popolom na popolcovú stredu
  * procesia - eucharistická procesia na slávnosť Najsvätejšieho Kristovho Tela a Krvi
  * slavnostne_pozehnanie - slávnostné požehnania rozdelené podľa období a významných sviatkov
+ * postne_pozehnania - pozehnania v poste
  * ticheModlitby - tiché modlitby kňaza
  * prid_Duchu_svaty_tvorivy
  * teba_Boze_chvalime
@@ -320,7 +321,7 @@ public interface Texty {
                     "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
                     "<br><font color='#B71C1C'>NA SVIATKY SVÄTÝCH<br>" +
-                    "<br><font color='#B71C1C'>27.<br>" +
+                    "<br>27.<br>" +
                     "Kňaz:</font> Pane, nech kresťanský ľud jasá pri oslave obdivuhodných členov tajomného tela tvojho Syna, a keď v deň ich sviatku potvrdzuje svoju oddanosť tebe, nech získa podiel na ich večnosti a spolu s nimi sa raduje z tvojej slávy. " +
                     "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
@@ -908,13 +909,13 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
-            /*1*/      {"Vianoce", "<font color='#B71C1C'>Kňaz:</font> Nekonečne dobrotivý Boh, ktorý vtelením svojho Syna zahnal temnoty sveta a jeho slávnym narodením ožiaril túto presvätú noc <font color='#9C0E0F'>(<font> tento presvätý deň<font color='#9C0E0F'>)</font>, nech zaženie od vás temnoty zla a ožiari vaše srdcia svetlom svojej milosti.<br>" +
+            /*1*/      {"Vianoce", "<font color='#B71C1C'>Kňaz:</font> Nekonečne dobrotivý Boh, ktorý vtelením svojho Syna zahnal temnoty sveta a jeho slávnym narodením ožiaril túto presvätú noc <font color='#B71C1C'>(</font>tento presvätý deň<font color='#B71C1C'>)</font>, nech zaženie od vás temnoty zla a ožiari vaše srdcia svetlom svojej milosti.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Boh, ktorý oznámil pastierom prostredníctvom anjelov radostnú zvesť o Spasiteľovom narodení, nech naplní aj vás radosťou a urobí vás ohlasovateľmi Kristovej blahozvesti.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Boh, ktorý vtelením svojho Syna spojil nebo so zemou, nech vás naplní svojím pokojom a láskou a nech vás vovedie do spoločenstva oslávenej Cirkvi v nebi.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
             /*2*/    {"Pôst", "<font color='#B71C1C'>Kňaz:</font> Milosrdný Boh Otec, ktorý obetoval svojho Syna a v ňom vám dal príklad nesmiernej lásky, nech vám dá milosť, aby ste v službe Bohu i ľuďom pocítili nevýslovný dar jeho požehnania.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
@@ -922,7 +923,7 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Keďže nasledujete Krista v jeho uponížení, nech vám dá účasť na jeho slávnom zmŕtvychvstaní.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
             /*3*/    {"Veľká noc", "<font color='#B71C1C'>Kňaz:</font> Boh, ktorý vás zmŕtvychvstaním svojho Syna vykúpil a prijal za svojich, nech vás požehná a naplní duchovnou radosťou.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
@@ -930,7 +931,7 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Keďže ste boli v krste vierou vzkriesení s Kristom, nech si dobrým životom zaslúžite večnú odmenu v nebi.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
             /*4*/      {"Cezrok", "<font color='#B71C1C'>V OBDOBÍ «CEZ ROK» I (Nm 6, 24 – 26)</font><br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech vás žehná Pán a nech vás ochraňuje.<br>" +
@@ -939,12 +940,12 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech k vám obráti svoju tvár a nech vám daruje pokoj. <br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami. <br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami. <br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br><br>" +
             "<font color='#B71C1C'>V OBDOBÍ «CEZ ROK» II (Flp 4, 7)</font><br>" +
             "<font color='#B71C1C'>Kňaz:</font> Boží pokoj, ktorý prevyšuje každú chápavosť, nech zachová vaše srdcia a vaše mysle v múdrosti a láske Boha i jeho Syna, nášho Pána Ježiša Krista.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br><br>" +
             "<font color='#B71C1C'>V OBDOBÍ «CEZ ROK» III</font><br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech vás vo svojej láskavosti požehná všemohúci Boh a nech vám dá pravú múdrosť, ktorá vedie k spáse.<br>" +
@@ -953,7 +954,7 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech usmerňuje k sebe vaše kroky a nech vám ukáže cestu pokoja a lásky.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br><br>" +
             "<font color='#B71C1C'>V OBDOBÍ «CEZ ROK» IV</font><br>" +
             "<font color='#B71C1C'>Kňaz:</font> Boh všetkej útechy nech zachová vaše dni vo svojom pokoji a obdaruje vás svojím požehnaním.<br>" +
@@ -962,7 +963,7 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen. <br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech vo vás rozmnoží dary nádeje, viery a lásky, aby ste horlivo konali dobré skutky, a tak si zaslúžili večný život.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br><br>" +
             "<font color='#B71C1C'>V OBDOBÍ «CEZ ROK» V</font><br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech všemohúci Boh odvráti od vás každé zlo a láskavo vás zahrnie svojím požehnaním.<br>" +
@@ -972,12 +973,12 @@ public interface Texty {
             "<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech vždy chápete, čo je dobré a správne, a nech kráčate po ceste Božích prikázaní, aby ste dosiahli spoločenstvo so svätými v nebi.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br><br>"+
 			 "<font color='#B71C1C'>V OBDOBÍ «CEZ ROK» VI</font><br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech vás Boh požehná všetkým nebeským požehnaním, nech vás zachová vo svätosti a čistote pred svojím pohľadom, štedro na vás vyleje bohatstvo svojej slávy, učí vás slovami pravdy, usmerňuje vás evanjeliom spásy a vždy vás obohacuje bratskou láskou. Skrze Krista, nášho Pána.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
 
             /*5*/  {"Začiatok roku", "<font color='#B71C1C'>Kňaz:</font> Boh, prameň a pôvodca všetkého požehnania, nech vás posilní milosťou, naplní hojným požehnaním a nech vás po celý rok ochraňuje od všetkých nebezpečenstiev.<br>" +
@@ -986,7 +987,7 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech svojím pokojom naplní všetky vaše dni a skutky, nech vyslyší všetky vaše modlitby a šťastlivo vás privedie do večného života.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
             /*6*/    {"Zjavenie Pána", "<font color='#B71C1C'>Kňaz:</font> Boh, ktorý vás povolal z temnôt do svojho predivného svetla, nech vás naplní svojím požehnaním a nech vám dá silnú vieru, nádej a lásku.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
@@ -994,7 +995,7 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Po skončení pozemskej púte nech prídete ku Kristovi, svetlu zo svetla, ktorého mudrci hľadali, keď išli za hviezdou, a ktorého našli s veľkou radosťou.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
             /*7*/     {"Nanebovstúpenie Pána", "<font color='#B71C1C'>Kňaz:</font> Nech vás požehná všemohúci Boh, ktorého jednorodený Syn vystúpil dnes na nebesia a otvoril aj vám cestu, aby ste mohli prísť tam, kde on žije v sláve.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
@@ -1002,7 +1003,7 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Keďže veríte, že Kristus zasadol s Otcom v jeho sláve, nech s radosťou prežívate naplnenie jeho sľubu, že zostane s vami až do konca vekov.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
             /*8*/     {"O Duchu Svätom", "<font color='#B71C1C'>Kňaz:</font> Boh, Otec svetla, ktorý osvietil mysle učeníkov vyliatím Ducha Svätého, Tešiteľa, nech vám dá radosť z jeho požehnania a bohato vás naplní trvalými darmi Ducha Svätého.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
@@ -1010,7 +1011,7 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Duch Svätý, ktorý zjednotil rozličné jazyky vo vyznávaní tej istej viery, nech aj vás utvrdí vo viere a privedie do večnej blaženosti.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
             /*9*/      {"Preblahoslavenej Panny Márie", "<font color='#B71C1C'>Kňaz:</font> Boh, ktorý sa narodil z preblahoslavenej Panny Márie, a tak chcel vo svojej veľkej láske vykúpiť ľudstvo, nech vás obdarí svojím požehnaním.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
@@ -1018,7 +1019,7 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Všetkým vám, ktorí ste sa zišli osláviť sviatok ... Panny Márie, nech dobrotivý Boh udelí pravú duchovnú radosť a bohatú odmenu v nebi.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
             /*10*/    {"Svätý Peter a Pavol", "<font color='#B71C1C'>Kňaz:</font> Nech vás požehná všemohúci Boh, ktorý vás upevnil v Petrovom spásnom vyznaní a postavil vás tak na pevnej skale viery Cirkvi.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
@@ -1026,15 +1027,15 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Svätí apoštoli Peter a Pavol dosiahli veniec slávy mučeníckou smrťou, jeden na kríži, druhý pod ostrím meča; nech aj vám pomáhajú dosiahnuť večnú radosť: svätý Peter mocou kľúčov a svätý Pavol silou Božieho slova.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
-            /*11*/     {"Sviatky apoštolov", "<font color='#B71C1C'>Kňaz:</font> Boh, ktorý vás postavil na bezpečné základy apoštolskej viery, nech vás láskavo požehná prostredníctvom slávnych zásluh svätých apoštolov <font color='#9C0E0F'>M.</font> a <font color='#9C0E0F'>M. (</font>svätého apoštola <font color='#9C0E0F'>M.)</font>.<br>" +
+            /*11*/     {"Sviatky apoštolov", "<font color='#B71C1C'>Kňaz:</font> Boh, ktorý vás postavil na bezpečné základy apoštolskej viery, nech vás láskavo požehná prostredníctvom slávnych zásluh svätých apoštolov <font color='#B71C1C'>M.</font> a <font color='#B71C1C'>M. (</font>svätého apoštola <font color='#B71C1C'>M.)</font>.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Boh, ktorý vás obdaroval učením a príkladom apoštolov, nech vás pod ich ochranou urobí svedkami pravdy.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> Nech príklad svätých apoštolov <font color='#9C0E0F'>M.</font> a <font color='#9C0E0F'>M. (</font>svätého apoštola <font color='#9C0E0F'>M.)</font> posilňuje vašu vieru a ich <font color='#9C0E0F'>(</font>jeho<font color='#9C0E0F'>)</font> orodovanie nech vám pomáha na ceste k večnému životu.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> Nech príklad svätých apoštolov <font color='#B71C1C'>M.</font> a <font color='#B71C1C'>M. (</font>svätého apoštola <font color='#B71C1C'>M.)</font> posilňuje vašu vieru a ich <font color='#B71C1C'>(</font>jeho<font color='#B71C1C'>)</font> orodovanie nech vám pomáha na ceste k večnému životu.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
             /*12*/    {"Všetkých svätých", "<font color='#B71C1C'>Kňaz:</font> Boh, sláva a radosť svätých, ktorý vám dal posilu v ich osobitnom príhovore, nech vás požehná trvalým požehnaním.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
@@ -1042,7 +1043,7 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech spolu so všetkými svätými získate radosť večnej vlasti, kde sa svätá Cirkev raduje, že jej deti sú prijaté vo večnom pokoji do spoločenstva vyvolených.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
             /*13*/     {"Za zosnulých", "<font color='#B71C1C'>Kňaz:</font> Nech vás žehná Boh všetkej útechy, ktorý vo svojej nevýslovnej dobrote stvoril človeka a zmŕtvychvstaním svojho milovaného Syna dal veriacim nádej na vzkriesenie.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
@@ -1050,8 +1051,222 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Nech nás všetkých privedie do večnej radosti s Kristom, o ktorom pevne veríme, že víťazne vstal z mŕtvych.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#B71C1C'>Kňaz:</font> A požehnanie všemohúceho Boha, Otca i Syna <font color='#B71C1C'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> Amen."},
+    };
+
+    String[][] postne_pozehnania = {
+            {"03", "Bože, vylej ducha kajúcnosti na tých,<br>" +
+                    "čo sa skláňajú pred tvojou velebou,<br>" +
+                    "aby mohli získať odmenu sľúbenú tým,<br>" +
+                    "čo konajú pokánie.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"04", "Všemohúci Bože, ty si ukázal<br>" +
+                    "svojmu ľudu cestu večného života;<br>" +
+                    "daj, prosíme, aby sme po tejto ceste<br>" +
+                    "prišli k tebe, nehasnúcemu svetlu.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"05", "Milosrdný Bože,<br>" +
+                    "tvoj ľud ti neprestajne ďakuje za tvoje veľké činy;<br>" +
+                    "daj, nech si zachovávaním starobylých príkazov<br>" +
+                    "na svojej životnej púti zaslúži dôjsť<br>" +
+                    "do večnosti s tebou.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"06", "Pane, láskavo stoj pri svojom ľude,<br>" +
+                    "ktorý sa dotýka svätých tajomstiev,<br>" +
+                    "aby žiadne nebezpečenstvo neublížilo tým,<br>" +
+                    "ktorí dôverujú v tvoju ochranu.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"10", "Prosíme ťa, Pane,<br>" +
+                    "nech zostúpi na tvoj ľud hojné požehnanie,<br>" +
+                    "aby v súžení rástla naša nádej,<br>" +
+                    "v pokušení sa upevňovali naše čnosti,<br>" +
+                    "a tak sme získali večnú spásu.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"11", "Prosíme ťa, Pane,<br>" +
+                    "osvieť myseľ svojho ľudu svetlom svojej slávy,<br>" +
+                    "aby spoznal, čo treba konať,<br>" +
+                    "a nasledoval, čo je správne.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"12", "Bože, posilni svojich veriacich svojím požehnaním<br>" +
+                    "a buď im potešením v smútku, posilou v utrpení<br>" +
+                    "a pomocou v nebezpečenstve.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"13", "Pane, zhliadni na svoj ľud<br>" +
+                    "a láskavo nás očisti od každého hriechu,<br>" +
+                    "lebo ak nás neovláda neprávosť,<br>" +
+                    "nemôže nám ublížiť žiadne pokušenie.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"14", "Prosíme ťa, Pane,<br>" +
+                    "zahrň žiadaným milosrdenstvom tých, čo ťa vzývajú,<br>" +
+                    "a udeľ im nebeské dary, aby poznali, čo je správne,<br>" +
+                    "a získali, po čom túžia.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"16", "Pane, láskavo zhliadni na svoj ľud,<br>" +
+                    "aby vonkajšie telesné odriekanie<br>" +
+                    "dosiahlo aj vnútorný účinok.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"20", "Bože, posilňuj svojich veriacich požehnaním,<br>" +
+                    "aby sa nikdy neodklonili od tvojej vôle<br>" +
+                    "a mohli sa vždy radovať z tvojich dobrodení.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"20", "Pane, požehnaj svojich veriacich trvalým požehnaním<br>" +
+                    "a daj, nech tak nasledujú evanjelium<br>" +
+                    "tvojho jednorodeného Syna, aby vždy túžili po sláve,<br>" +
+                    "ktorú ukázal pri svojom premenení apoštolom,<br>" +
+                    "a šťastne k nej i došli.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"21", "Prosíme ťa, Pane,<br>" +
+                    "posilni srdcia svojich veriacich silou tvojej milosti,<br>" +
+                    "aby boli zbožní v modlitbe<br>" +
+                    "a úprimní vo vzájomnej láske.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"22", "Pane, vypočuj prosby svojich veriacich<br>" +
+                    "a posilni ich na duchu, aby získali odpustenie<br>" +
+                    "a tešili sa z tvojho požehnania.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"23", "Pane, poskytni svojim služobníkom<br>" +
+                    "hojnú ochranu a milosť,<br>" +
+                    "daj im zdravie tela i duše, daj im plnosť bratskej lásky<br>" +
+                    "a urob ich stále oddanými tebe.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"24", "Pane, stoj pri svojich služobníkoch,<br>" +
+                    "ktorí si vyprosujú pomoc tvojej milosti,<br>" +
+                    "a neustále ich sprevádzaj a ochraňuj.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"25", "Prosíme ťa, Pane,<br>" +
+                    "udeľ svojmu ľudu zdravie tela i duše,<br>" +
+                    "aby si vytrvalosťou v dobrých skutkoch<br>" +
+                    "zaslúžil tvoju ochranu.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"26", "Pane, ty napĺňaš želania prosiacich;<br>" +
+                    "vo svojom milosrdenstve vypočuj naše modlitby<br>" +
+                    "a daj, aby sme si žiadali to, čo je milé tebe.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"30", "Prosíme ťa, Pane, spravuj srdcia svojich veriacich<br>" +
+                    "a svojim služobníkom udeľ milosť,<br>" +
+                    "aby vytrvali v láske k tebe a k blížnemu<br>" +
+                    "a zachovávali všetky tvoje príkazy.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"31", "Prosíme ťa, Pane, svojou pravicou<br>" +
+                    "ochraňuj prosiaci ľud a láskavo ho očisti,<br>" +
+                    "aby získal útechu v tomto živote<br>" +
+                    "a dosiahol aj budúce dobrá.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"32", "Bože, tvorca a vládca svojho ľudu,<br>" +
+                    "odstráň hriechy, ktoré ho sužujú,<br>" +
+                    "aby sa ti vždy páčil a pokojne žil<br>" +
+                    "pod tvojou ochranou.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"33", "Bože, daj svojmu ľudu zmýšľanie, ktoré by sa ti páčilo,<br>" +
+                    "lebo keď ho vzdelávaš svojimi príkazmi,<br>" +
+                    "zahŕňaš ho aj svojou priazňou.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"34", "Pane, dúfame v tvoje milosrdenstvo<br>" +
+                    "a vzývame tvoju láskavosť,<br>" +
+                    "a keďže od teba pochádza všetko, čím sme,<br>" +
+                    "nech v tvojej milosti hľadáme, čo je správne,<br>" +
+                    "a konáme, čo je dobré.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"35", "Pane, láskavo zhliadni na svojich veriacich,<br>" +
+                    "ktorí vzývajú tvoje milosrdenstvo,<br>" +
+                    "a keďže dôverujú v tvoju dobrotu,<br>" +
+                    "nech dokážu všade šíriť dary tvojej lásky.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"36", "Pane, drž nad svojimi veriacimi ochrannú pravicu,<br>" +
+                    "aby ťa hľadali celým srdcom a zaslúžili si získať,<br>" +
+                    "o čo zbožne prosia.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"40", "Pane, zhliadni na tých, čo ťa vzývajú, a posilni slabých;<br>" +
+                    "oživuj svojím svetlom tých, čo kráčajú v temnotách smrti,<br>" +
+                    "a tých, ktorých si oslobodil od všetkého zla,<br>" +
+                    "priveď k najvyššiemu dobru.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"41", "Prosíme ťa, Pane, obnov svoj ľud vnútorne i navonok,<br>" +
+                    "a keďže nechceš, aby bol spútaný telesnou rozkošou,<br>" +
+                    "daj nech napreduje v duchovnom živote.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"42", "Milosrdný Bože,<br>" +
+                    "daj, aby sa tvoj ľud vzmáhal v láske k tebe<br>" +
+                    "a z tvojej milosti vždy dostával to,<br>" +
+                    "čo mu je prospešné.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"43", "Pane, láskavo ochraňuj svojich služobníkov,<br>" +
+                    "keď na tomto svete konajú dobré skutky,<br>" +
+                    "aby mohli dôjsť k najvyššiemu dobru.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"44", "Bože, ochranca tých, čo v teba dúfajú,<br>" +
+                    "požehnaj, zachráň, ochraňuj a obnov svoj ľud,<br>" +
+                    "aby bol oslobodený od hriechu, v bezpečí pred zlom<br>" +
+                    "a vždy vytrval v tvojej láske.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"45", "Pane, zhliadni na svojich služobníkov,<br>" +
+                    "ktorí dúfajú v tvoje milosrdenstvo,<br>" +
+                    "a láskavo im poskytni nebeskú pomoc a ochranu.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"46", "Pane, zhliadni na svoj ľud,<br>" +
+                    "ktorý sa pripravuje na slávenie veľkonočných sviatkov,<br>" +
+                    "a sprevádzaj ho nebeskou milosťou,<br>" +
+                    "aby posilnený pozemskou útechou<br>" +
+                    "túžil viac po nebeských dobrách.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"50", "Pane, požehnaj svoj ľud,<br>" +
+                    "ktorý očakáva dielo tvojho milosrdenstva,<br>" +
+                    "a daj, aby to, po čom z tvojho vnuknutia túži,<br>" +
+                    "z tvojej štedrosti aj dosiahol.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"51", "Prosíme ťa, Pane,<br>" +
+                    "osloboď od hriechov ľud, ktorý ťa vzýva,<br>" +
+                    "aby žil svätým spôsobom života<br>" +
+                    "a bol uchránený od všetkých pokušení.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"52", "Bože, ty dúfajúcim v teba<br>" +
+                    "prejavuješ radšej milosrdenstvo ako hnev;<br>" +
+                    "daj, nech tvoji veriaci oľutujú zlo, ktoré konali,<br>" +
+                    "aby si zaslúžili dosiahnuť milosť tvojej útechy.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"53", "Všemohúci Bože, vypočuj prosby svojho ľudu,<br>" +
+                    "a tak ako mu dávaš nádej vo svojom zľutovaní,<br>" +
+                    "dopraj mu pocítiť účinky tvojho milosrdenstva.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"54", "Prosíme ťa, Pane, láskavo stoj pri svojom ľude,<br>" +
+                    "ktorý každý deň odmieta to, čo ti nie je milé,<br>" +
+                    "aby sa mohol radovať z tvojich príkazov.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"55", "Všemohúci Bože, prosíme ťa, dopraj,<br>" +
+                    "aby boli tvoji služobníci,<br>" +
+                    "ktorí hľadajú tvoju milostivú ochranu,<br>" +
+                    "oslobodení od všetkého zla<br>" +
+                    "a slúžili ti s pokojným srdcom.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"56", "Pane, zmiluj sa nad svojou Cirkvou,<br>" +
+                    "ktorá ti predkladá svoje prosby, a obráť sa k tým,<br>" +
+                    "čo pred tebou skláňajú svoje srdcia;<br>" +
+                    "a keďže si nás vykúpil smrťou svojho jednorodeného Syna,<br>" +
+                    "nedaj, aby sme boli pripútaní k hriechu,<br>" +
+                    "ani premožení pokušeniami.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"60", "Prosíme ťa, Pane, zhliadni na túto svoju rodinu,<br>" +
+                    "pre ktorú sa náš Pán Ježiš Kristus<br>" +
+                    "neváhal vydať do rúk zločincov<br>" +
+                    "a podstúpiť muky kríža.<br>" +
+                    "Lebo on žije a kraľuje na veky vekov."},
+            {"61", "Prosíme ťa, Pane, bráň pokorných<br>" +
+                    "a neustále ochraňuj tých, čo dúfajú v tvoje milosrdenstvo,<br>" +
+                    "aby sme mohli sláviť veľkonočné sviatky<br>" +
+                    "nielen vonkajšími znakmi,<br>" +
+                    "ale nadovšetko s čistým srdcom.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"62", "Bože, nech tvoje milosrdenstvo<br>" +
+                    "očistí tebe oddaný ľud od všetkých minulých hriechov<br>" +
+                    "a nech ho urobí schopným novej svätosti.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"63", "Prosíme ťa, Pane, daj, aby tvoji veriaci<br>" +
+                    "mali neprestajne účasť na veľkonočných tajomstvách,<br>" +
+                    "túžobne očakávali budúce dary<br>" +
+                    "a vytrvali v sviatosti, ktorou boli znovuzrodení,<br>" +
+                    "aby tak pomocou kajúcich skutkov došli do nového života.<br>" +
+                    "Skrze Krista, nášho Pána."},
     };
 
     String[][] tiche_modlitby = {

@@ -1757,7 +1757,10 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         } else if (ID.equals("4gkp")) {
             missas.add(new Missa("<font color='#B71C1C'>Eucharistická procesia (otvoriť)</font>", true, 6));
         } else {
-            missas.add(new Missa("<font color='#B71C1C'>Modlitby nad ľudom (otvoriť)</font>", true, 7));
+            if (P)
+                missas.add(new Missa("<font color='#B71C1C'>Modlitba nad ľudom (otvoriť)</font>", true, 7));
+            else
+                missas.add(new Missa("<font color='#B71C1C'>Modlitby nad ľudom (otvoriť)</font>", true, 7));
         }
     }
 
@@ -2664,7 +2667,11 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Eucharistická procesia</b></font>")));
         } else if (dialog == 6) {//modlitby nad ľudom
             builder.setMessage("");
-            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Modlitby nad ľudom</b></font>")));
+            if (P) {
+                builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Modlitba nad ľudom</b></font>")));
+            } else {
+                builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Modlitby nad ľudom</b></font>")));
+            }
         } else if (dialog == 7) {//slávnosté požehnanie
             builder.setMessage("");
             builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Slávnostné požehnanie</b></font>")));
@@ -2728,15 +2735,19 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         if (dialog == 5)
             otvorExtra(text, procesia);
         else if (dialog == 6)
-            otvorExtra(text, modlitby_nad_ludom);
+            if (P) {
+                int index = indexID(postne_pozehnania);
+                otvorExtra(text, new String[]{postne_pozehnania[index][1]});
+            } else
+                otvorExtra(text, modlitby_nad_ludom);
         else if (dialog == 7)
             otvorExtra(text, new String[]{"", "Uvedené formuly slávnostných požehnaní môže kňaz použiť podľa vlastného uváženia na konci svätej omše alebo liturgie slova, na konci liturgie hodín alebo po vysluhovaní sviatostí.\n" +
                     "Diakon alebo, ak ho niet, sám kňaz, prednesie výzvu: ",
                     "<m>Skloňte sa na požehnanie. ",
                     "alebo: ",
-                    "<m>Prijmite slávnostné požehnanie.",
-                    "Potom kňaz vystrie ruky nad ľud a prednesie formulu požehnania. Všetci odpovedia:",
-                    "<m>Amen.", "<br>" + slavnostne_pozehnanie[slav_pozehnanie][1]});
+                    "<m>Prijmite slávnostné požehnanie. ",
+                    "Potom kňaz vystrie ruky nad ľud a prednesie formulu požehnania. Všetci odpovedia: ",
+                    "<m>Amen.", "", "<br><br>" + slavnostne_pozehnanie[slav_pozehnanie][1]});
         else if (dialog == 11)
             otvorExtra(text, new String[]{"", "Na slávnosť Zjavenia Pána po evanjeliu diakon alebo sám kňaz, prípadne aj spevák môže ohlásiť deň Veľkej noci takto:\n",
                     "<br>" + ohlasenieVN[0] + vnd + ". " + mesiacG[vnm] + ohlasenieVN[1] + psd + ". " + mesiacG[psm] +
@@ -2891,7 +2902,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             vypisAlebo(missas, aleboProsby, 15);
         missas.add(new Missa(prosby.toUpperCase(), prosby_uvod, prosby_zvolanie, "<br>" + prosby_vypis, true));
         //missas.add(new Missa("<font color='#B71C1C'>Prosby pred návštevou pápeža (otvoriť)</font>", true,  22));
-        missas.add(new Missa("<font color='#B71C1C'>Prosby za zosnulých a rozličné potreby (otvoriť)</font><br>", true,  21));
+        missas.add(new Missa("<font color='#B71C1C'>Prosby za zosnulých a rozličné potreby (otvoriť)</font>", true, 21));
         missas.add(new Missa(null, null, null, prosby_zaver, true));
         if (ticheModlitby) {
             missas.add(new Missa(1)); //medzera mala
