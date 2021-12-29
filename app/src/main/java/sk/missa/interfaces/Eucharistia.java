@@ -321,7 +321,7 @@ public interface Eucharistia {
                     "i so všetkými biskupmi, kňazmi a diakonmi.",
             "BAR", "",
             "V omšiach za zosnulých možno pridať:",
-            "Pamätaj na svojho služobníka (svoju služobnicu) M., ktorého (ktorú) si z tohto sveta (dnes) povolal k sebe. Keďže sa stal (stala) podobným (podobnou) tvojmu Synovi v smrti, nech sa mu pripodobní aj v jeho zmŕtvychvstaní.",
+            "Pamätaj na svojho služobníka <font color='#B71C1C'>(</font>svoju služobnicu<font color='#B71C1C'>) M.</font>, ktorého <font color='#B71C1C'>(</font>ktorú<font color='#B71C1C'>)</font> si z tohto sveta <font color='#B71C1C'>(</font>dnes<font color='#B71C1C'>)</font> povolal k sebe. Keďže sa stal <font color='#B71C1C'>(</font>stala<font color='#B71C1C'>)</font> podobným <font color='#B71C1C'>(</font>podobnou<font color='#B71C1C'>)</font> tvojmu Synovi v smrti, nech sa mu pripodobní aj v jeho zmŕtvychvstaní.",
             "BAR", "", "",
             "<font color='#B71C1C'>2.k</font> Pamätaj i na našich bratov a sestry,<br>" +
                     "čo zomreli v nádeji na vzkriesenie,<br>" +
