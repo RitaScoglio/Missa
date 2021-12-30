@@ -647,8 +647,12 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             }
         }
         //vypisovanie Panny Márie v sobotu
-        if (dvt == 6 && pm && day < 8)
-            words.add(new Calendar(maria[1], maria[2], maria[3], day, cezrok, "003m", "c"));
+        if (dvt == 6 && pm) {
+            if(day < 8)
+                words.add(new Calendar("O Nepoškvrnenom Srdci Panny Márie", maria[2], maria[3], day, cezrok, "003m", "c"));
+            else
+                words.add(new Calendar(maria[1], maria[2], maria[3], day, cezrok, "003m", "c"));
+        }
         if (dvt == 5 && prvyPiatok && day < 8)
             words.add(new Calendar("O Najsvätejšom Srdci Ježišovom", "Votívna omša", "(biela)", day, cezrok, "001", "c"));
         if (dvt == 4 && prvyStvrtok && day < 8)
@@ -778,7 +782,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             if (mD.isEqual(mvDS))
                 words.add(new Calendar("Zoslanie Ducha Svätého", "Vigília", "(červená)", day, velkanoc, "2gkp", "n"));
             if (dvt == 6 && day < 8)
-                words.add(new Calendar(maria[1], maria[2], maria[3], day, velkanoc, "003m", "n"));
+                words.add(new Calendar("O Nepoškvrnenom Srdci Panny Márie", maria[2], maria[3], day, velkanoc, "003m", "n"));
             if (dvt == 5 && prvyPiatok && day < 8)
                 words.add(new Calendar("O Najsvätejšom Srdci Ježišovom", "Votívna omša", "(biela)", day, velkanoc, "001", "n"));
             if (dvt == 4 && prvyStvrtok && day < 8)
@@ -851,7 +855,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
 
         if (pm){
             if (dvt == 6 && day < 8)
-                words.add(new Calendar(maria[1], maria[2], maria[3], day, advent, "003m", "a"));
+                words.add(new Calendar("O Nepoškvrnenom Srdci Panny Márie", maria[2], maria[3], day, advent, "003m", "a"));
             else
                 words.add(new Calendar("Omša o Panne Márii v adventnom období", " ", "(biela)", day, advent, "003m", "a"));
         }
@@ -874,7 +878,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         } else if (mD.isEqual(mNNP))
             words.add(new Calendar(("Druhá nedeľa po Narodení Pána").toUpperCase(), "", "(biela)", day, vianoce, vianoce + "0", "v"));
         else if (mD.isEqual(mKKP))
-            words.add(new Calendar("Krst Krista Pána".toUpperCase(), "Slávnosť", "(biela)", day, vianoce, "11gkp", "v"));
+            words.add(new Calendar("Krst Pána".toUpperCase(), "Slávnosť", "(biela)", day, vianoce, "11gkp", "v"));
 
         else if (dvt == 0) { //nedele
             words.add(new Calendar((vianoce + ". nedeľa po Narodení Pána").toUpperCase(), "", "(biela)", day, vianoce, vianoce + "0", "v"));
@@ -909,7 +913,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 words.add(new Calendar((dni[dvt] + " vo Vianočnom období"), "Féria", "(biela)", day, vianoce, Integer.toString(vianoce) + dvt, "v"));
             }
             if (dvt == 6 && pm && day < 8)
-                words.add(new Calendar(maria[1], maria[2], maria[3], day, cezrok, "003m", "v"));
+                words.add(new Calendar("O Nepoškvrnenom Srdci Panny Márie", maria[2], maria[3], day, cezrok, "003m", "v"));
             if (dvt == 5 && prvyPiatok && day < 8)
                 words.add(new Calendar("O Najsvätejšom Srdci Ježišovom", "Votívna omša", "(biela)", day, vianoce, "001", "v"));
             if (dvt == 4 && prvyStvrtok && day < 8)

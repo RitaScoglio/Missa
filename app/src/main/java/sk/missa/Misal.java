@@ -2031,11 +2031,17 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         int index = indexID(formular);
         if (index == -1 || feria || nedela) {
             if (ID.equals("003m")) {
-                formArray.add(new String[]{"11", "1", "Omša k preblahoslavenej Panne Marií 1."});
-                formArray.add(new String[]{"11", "2", "Omša k preblahoslavenej Panne Marií 2."});
-                formArray.add(new String[]{"11", "3", "Omša k preblahoslavenej Panne Marií 3."});
-                if (den < 7) {
+                if (den < 8) {
                     formArray.add(new String[]{"11", "1", "Nepoškvrneného Srdca Panny Márie"});
+                } else {
+                    formArray.add(new String[]{"11", "1", "Omša k preblahoslavenej Panne Marií 1."});
+                    formArray.add(new String[]{"11", "2", "Omša k preblahoslavenej Panne Marií 2."});
+                    formArray.add(new String[]{"11", "3", "Omša k preblahoslavenej Panne Marií 3."});
+                    formArray.add(new String[]{"11", "4", "Omša k preblahoslavenej Panne Marií 4."});
+                    formArray.add(new String[]{"11", "5", "Omša k preblahoslavenej Panne Marií 5."});
+                    formArray.add(new String[]{"11", "6", "Omša k preblahoslavenej Panne Marií 6."});
+                    formArray.add(new String[]{"11", "7", "Omša k preblahoslavenej Panne Marií 7."});
+                    formArray.add(new String[]{"11", "8", "Omša k preblahoslavenej Panne Marií 8."});
                 }
             } else if (ID.equals("001")) {
                 formArray.add(new String[]{"02", "1", "Najsvätejšieho Srdca Ježišovho"});
@@ -2889,7 +2895,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             missas.add(new Missa(tiche_modlitby[2][0], null, tiche_modlitby[2][1]));
         } else
             missas.add(new Missa(null, evanjelium.toUpperCase(), evanjelium_suradnice, evanjelium_citat, evanjelium_vypis, true, -2));
-        if (ID.equals("06gk") && m == 0) { //zjavenie Pana
+        if ((ID.equals("06gk") || ID.equals("05gk")) && m == 0) { //zjavenie Pana
             missas.add(new Missa(1)); //medzera mala
             missas.add(new Missa("<font color='#B71C1C'>Oznámenie dňa Veľkej noci (otvoriť)</font>", true, 19));
         }
@@ -3122,6 +3128,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     case 19:
                         otvorenie(11);
                         double_click = 0;
+                        break;
                     case 20: //zmena cirkevRoku kvoli citaniam
                         if (cirkevRok == 1)
                             cirkevRok = actualCirkevRok;
@@ -3136,6 +3143,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         prefacia();
                         pozicia_listview = position;
                         vypis();
+                        break;
                     case 21:
                         prosbyRozlicnePotreby();
                         break;

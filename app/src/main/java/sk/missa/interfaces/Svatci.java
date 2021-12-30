@@ -60,7 +60,7 @@ public interface Svatci {
     String[] mesiac = {"január", "február", "marec", "apríl", "máj", "jún", "júl", "august", "september", "október", "november", "december"};
     String[] dni = {"Nedeľa", "Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok", "Sobota"};
     String[] VNdni = {"Nedeľa", "Veľkonočný pondelok", "Veľkonočný utorok", "Veľkonočná streda", "Veľkonočný štvrtok", "Veľkonočný piatok", "Veľkonočná sobota"};
-    String[] maria = {"", "O Nepoškvrnenom Srdci Panny Márie", "Ľubovoľná spomienka", "(biela)"};
+    String[] maria = {"", "Preblahoslavenej Panny Márie v sobotu", "Ľubovoľná spomienka", "(biela)"};
     String[] cisla_m = {"Prvý", "Druhý", "Tretí", "Štvrtý", "Piaty", "Šiesty", "Siedmy"};
     String[] cisla_z = {"Prvá", "Druhá", "Tretia", "Štvrtá", "Piata", "Šiesta", "Siedma", "Ôsma", "Deviata", "Desiata", "Jedenásta", "Dvanásta", "Trinásta",
             "Štrnásta", "Pätnásta", "Šestnásta", "Sedemnásta", "Osemnásta", "Devätnásta", "Dvadsiata", "Dvadsiata prvá", "Dvadsiata druhá", "Dvadsiata tretia",
