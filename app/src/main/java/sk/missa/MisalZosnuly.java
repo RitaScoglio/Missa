@@ -418,16 +418,41 @@ public class MisalZosnuly extends Misal {
     @Override
     public void ziskajFormular() {
         formArray.clear();
-        formArray.add(new String[]{"1", "1", "Vo výročný deň I (mimo veľkonočného obdobia)"});
-        formArray.add(new String[]{"1", "2", "Vo výročný deň II (mimo veľkonočného obdobia)"});
-        formArray.add(new String[]{"2", "1", "Vo výročný deň I (vo veľkonočnom období)"});
-        formArray.add(new String[]{"3", "1", "Vo výročný deň"});
-        formArray.add(new String[]{"4", "1", "Vo výročný deň"});
-        formArray.add(new String[]{"5", "1", "Pri rozličných spomienkach za jedného zosnulého I"});
-        formArray.add(new String[]{"5", "2", "Pri rozličných spomienkach za jedného zosnulého II"});
-        formArray.add(new String[]{"6", "1", "Pri rozličných spomienkach za viacerých zosnulých I"});
-        formArray.add(new String[]{"6", "2", "Pri rozličných spomienkach za viacerých zosnulých II"});
-        formArray.add(new String[]{"6", "3", "Pri rozličných spomienkach za viacerých zosnulých III"});
+        formArray.add(new String[]{"1", "1", "Vo výročný deň smrti alebo pohrebu 1. (mimo veľkonočného obdobia)"});
+        formArray.add(new String[]{"1", "2", "Vo výročný deň smrti alebo pohrebu 2. (mimo veľkonočného obdobia)"});
+        formArray.add(new String[]{"2", "1", "Vo výročný deň smrti alebo pohrebu (vo veľkonočnom období)"});
+        formArray.add(new String[]{"3", "1", "Iné modlitby na výročie smrti alebo pohrebu"});
+        formArray.add(new String[]{"4", "1", "Iné modlitby na výročie smrti alebo pohrebu"});
+        formArray.add(new String[]{"5", "1", "Pri rozličných spomienkach za jedného zosnulého 1."});
+        formArray.add(new String[]{"5", "2", "Pri rozličných spomienkach za jedného zosnulého 2."});
+        formArray.add(new String[]{"5", "3", "Pri rozličných spomienkach za jedného zosnulého 3."});
+        formArray.add(new String[]{"5", "4", "Pri rozličných spomienkach za jedného zosnulého 4."});
+        formArray.add(new String[]{"5", "5", "Pri rozličných spomienkach za jedného zosnulého 5."});
+        formArray.add(new String[]{"6", "1", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 1."});
+        formArray.add(new String[]{"6", "2", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 2."});
+        formArray.add(new String[]{"6", "3", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 3."});
+        formArray.add(new String[]{"6", "4", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 4."});
+        formArray.add(new String[]{"6", "5", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 5."});
+        formArray.add(new String[]{"6", "6", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 6."});
+        formArray.add(new String[]{"6", "7", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 7."});
+        formArray.add(new String[]{"6", "8", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 8."});
+        formArray.add(new String[]{"6", "9", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 9."});
+        formArray.add(new String[]{"7", "1", "Za zosnulého pápeža 1."});
+        formArray.add(new String[]{"7", "2", "Za zosnulého pápeža 2."});
+        formArray.add(new String[]{"7", "3", "Za zosnulého pápeža 3."});
+        formArray.add(new String[]{"8", "1", "Za zosnulého diecézneho biskupa"});
+        formArray.add(new String[]{"9", "1", "Za iného biskupa"});
+        formArray.add(new String[]{"10", "1", "Za kňaza 1."});
+        formArray.add(new String[]{"10", "2", "Za kňaza 2."});
+        formArray.add(new String[]{"11", "1", "Za diakona"});
+        formArray.add(new String[]{"12", "1", "Za rehoľníka alebo rehoľníčku"});
+        formArray.add(new String[]{"13", "1", "Za zosnulého, ktorý sa zaslúžil o šírenie evanjelia"});
+        formArray.add(new String[]{"14", "1", "Za zosnulého mladého človeka"});
+        formArray.add(new String[]{"15", "1", "Za človeka zosnulého po dlhšej chorobe"});
+        formArray.add(new String[]{"16", "1", "Za človeka zosnulého náhlou smrťou"});
+        formArray.add(new String[]{"17", "1", "Za zosnulých manželov"});
+        formArray.add(new String[]{"18", "1", "Za zosnulých rodičov"});
+        formArray.add(new String[]{"19", "1", "Za zosnulých príbuzných, priateľov a dobrodincov"});
     }
 
     //nastavi moznosti EM
