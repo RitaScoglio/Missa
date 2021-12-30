@@ -313,27 +313,27 @@ public interface Citania_advent {
     String[][] adventEvanjelium = {
             {"10", "A", "", "Mt 24, 37-44",
                     "Bdejte, aby ste boli pripravení",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Ježiš povedal svojim učeníkom: \"Ako bolo za\u00A0dní Noema, tak bude aj pri\u00A0príchode Syna človeka. Ako v\u00A0dňoch pred\u00A0potopou ľudia jedli a pili, ženili sa a vydávali až do\u00A0toho dňa, keď Noe vošiel do\u00A0korába, a nič nezbadali, až prišla potopa a zmietla všetkých, tak bude aj pri\u00A0príchode Syna človeka. Vtedy budú na\u00A0poli dvaja: jeden bude vzatý, druhý sa ponechá. Dve budú mlieť na\u00A0mlyne: jedna bude vzatá, druhá sa ponechá.<br>" +
                             "Bdejte teda, lebo neviete, v\u00A0ktorý deň príde váš Pán. Uvážte predsa: Keby hospodár vedel, v\u00A0ktorú nočnú hodinu príde zlodej, veruže by bdel a nedovolil by mu vniknúť do\u00A0svojho domu. Preto aj vy buďte pripravení, lebo Syn človeka príde v\u00A0hodinu, o\u00A0ktorej neviete.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"10", "B", "", "Mk 13, 33-37",
                     "Bdejte, lebo neviete, kedy príde pán domu",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Marka<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Marka<br>" +
                             "Ježiš povedal svojim učeníkom: \"Majte sa na\u00A0pozore, bdejte, lebo neviete, kedy príde ten čas. Je to tak, ako keď človek odcestuje: opustil svoj dom, svojim sluhom odovzdal moc, každému určil prácu a vrátnikovi prikázal bdieť.<br>" +
                             "Bdejte teda, lebo neviete, kedy príde pán domu: či večer, či o\u00A0polnoci, či za\u00A0spevu kohúta alebo ráno. Aby vás nenašiel spať, keď príde nečakane!<br>" +
                             "A čo hovorím vám, hovorím všetkým: Bdejte!\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"10", "C", "", "Lk 21, 25-28. 34-36",
                     "Blíži sa vaše vykúpenie",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "Ježiš povedal svojim učeníkom: \"Budú znamenia na\u00A0slnku a mesiaci i na\u00A0hviezdach a na\u00A0zemi budú národy plné úzkosti a zmätku z\u00A0hukotu mora a vlnobitia. Ľudia budú zmierať od\u00A0strachu a očakávania toho, čo príde na\u00A0svet, lebo nebeské mocnosti sa budú chvieť. Vtedy uvidia Syna človeka prichádzať v\u00A0oblaku s\u00A0mocou a veľkou slávou.<br>" +
                             "Keď sa to začne diať, vzpriamte sa, zodvihnite hlavu, lebo sa blíži vaše vykúpenie.<br>" +
                             "Dávajte si pozor, aby vaše srdcia neoťaželi obžerstvom, opilstvom a starosťami o\u00A0tento život, aby vás onen deň neprekvapil. Lebo príde ako osídlo na\u00A0všetkých, čo bývajú na\u00A0povrchu celej zeme. Preto bdejte celý čas a modlite sa, aby ste mohli uniknúť všetkému tomu, čo má prísť, a postaviť sa pred\u00A0Syna človeka.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"11", "1", "", "Mt 8, 5-11",
                     "Prídu mnohí od\u00A0východu i západu do\u00A0nebeského kráľovstva",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Keď Ježiš vošiel do\u00A0Kafarnauma, pristúpil k\u00A0nemu stotník s\u00A0prosbou: \"Pane, sluha mi leží doma ochrnutý a hrozne trpí.\"<br>" +
                             "On mu povedal: \"Prídem a uzdravím ho.\"<br>" +
                             "Stotník mu odpovedal: \"Pane, nie som hoden, aby si vošiel pod\u00A0moju strechu, ale povedz iba slovo a môj sluha ozdravie. Veď aj ja som podriadený človek a mám pod\u00A0sebou vojakov. Ak daktorému poviem: \"Choď!\" – ide; inému: \"Poď sem!\" – tak príde; a svojmu sluhovi: \"Urob toto!\" – on to urobí.\"<br>" +
@@ -341,14 +341,14 @@ public interface Citania_advent {
                             "Počuli sme slovo Pánovo."},
             {"12", "2", "", "Lk 10, 21-24",
                     "Ježiš zaplesal v\u00A0Duchu Svätom",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "Ježiš v\u00A0tej hodine zaplesal v\u00A0Duchu Svätom a povedal: \"Zvelebujem ťa, Otče, Pán neba i zeme, že si tieto veci skryl pred\u00A0múdrymi a rozumnými a zjavil si ich maličkým. Áno, Otče, tebe sa tak páčilo.<br>" +
                             "Môj Otec mi odovzdal všetko. A nik nevie, kto je Syn, iba Otec, ani kto je Otec, iba Syn a ten, komu to Syn bude chcieť zjaviť.\"<br>" +
                             "Potom sa obrátil osobitne k\u00A0učeníkom a povedal: \"Blahoslavené oči, ktoré vidia, čo vidíte vy. Lebo hovorím vám: Mnohí proroci a králi chceli vidieť, čo vidíte vy, ale nevideli, a počuť, čo vy počúvate, ale nepočuli.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"13", "3", "", "Mt 15, 29-37",
                     "Ježiš uzdravuje mnohých a rozmnožuje chleby",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Ježiš prišiel ku\u00A0Galilejskému moru, vystúpil na\u00A0vrch a tam si sadol. Prichádzali k\u00A0nemu celé zástupy, ktoré mali so\u00A0sebou chromých, slepých, mrzákov, nemých a mnohých iných. Kládli mu ich k\u00A0nohám a on ich uzdravoval. A zástupy žasli, keď videli, že nemí hovoria, mrzáci sú zdraví, chromí chodia a slepí vidia, a velebili Boha Izraela.<br>" +
                             "Ježiš zvolal svojich učeníkov a povedal: \"Ľúto mi je zástupu, lebo už tri dni sa zdržiavajú pri\u00A0mne a nemajú čo jesť. A nechcem ich prepustiť hladných, aby nepoomdlievali na\u00A0ceste.\"<br>" +
                             "Učeníci mu povedali: \"Kdeže vezmeme na\u00A0púšti toľko chleba, aby sme nasýtili takýto zástup?\"<br>" +
@@ -359,14 +359,14 @@ public interface Citania_advent {
                             "Počuli sme slovo Pánovo."},
             {"14", "4", "", "Mt 7, 21. 24-27",
                     "Kto plní vôľu Otca, vojde do\u00A0nebeského kráľovstva",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Ježiš povedal svojim učeníkom: \"Nie každý, kto mi hovorí: ‚Pane, Pane,' vojde do\u00A0nebeského kráľovstva, ale iba ten, kto plní vôľu môjho Otca, ktorý je na\u00A0nebesiach.<br>" +
                             "A tak každý, kto počúva tieto moje slová a uskutočňuje ich, podobá sa múdremu mužovi, ktorý si postavil dom na\u00A0skale. Spustil sa dážď, privalili sa vody, strhla sa víchrica a oborili sa na\u00A0ten dom, ale dom sa nezrútil, lebo mal základy na\u00A0skale.<br>" +
                             "A každý, kto tieto moje slová počúva, ale ich neuskutočňuje, podobá sa hlúpemu mužovi, ktorý si postavil dom na\u00A0piesku. Spustil sa dážď, privalili sa vody, strhla sa víchrica, oborili sa na\u00A0ten dom a dom sa zrútil; zostalo z\u00A0neho veľké rumovisko.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"15", "5", "", "Mt 9, 27-31",
                     "Dvom slepcom, ktorí uverili v\u00A0Ježiša, sa otvorili oči",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Keď Ježiš odchádzal, išli za\u00A0ním dvaja slepci a kričali: \"Syn Dávidov, zmiluj sa nad\u00A0nami!\"<br>" +
                             "Keď potom vošiel do\u00A0domu, slepci prišli k\u00A0nemu. Ježiš sa ich opýtal: \"Veríte, že to môžem urobiť?\"<br>" +
                             "Oni mu odpovedali: \"Áno, Pane.\"<br>" +
@@ -376,21 +376,21 @@ public interface Citania_advent {
                             "Počuli sme slovo Pánovo."},
             {"16", "6", "", "Mt 9, 35 – 10, 1. 5a. 6-8",
                     "Videl zástupy a zľutoval sa nad\u00A0nimi",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Ježiš chodil po\u00A0všetkých mestách a dedinách, učil v\u00A0ich synagógach, hlásal evanjelium o\u00A0kráľovstve a uzdravoval každý neduh a každú chorobu.<br>" +
                             "Keď videl zástupy, zľutoval sa nad\u00A0nimi, lebo boli zmorené a sklesnuté ako ovce bez\u00A0pastiera. Vtedy povedal svojim učeníkom: \"Žatva je veľká, ale robotníkov málo. Preto proste Pána žatvy, aby poslal robotníkov na\u00A0svoju žatvu.\"<br>" +
                             "Zvolal svojich dvanástich učeníkov a dal im moc nad\u00A0nečistými duchmi, aby ich vyháňali a uzdravovali každý neduh a každú chorobu. Týchto dvanástich Ježiš vyslal a prikázal im: \"Choďte k\u00A0ovciam strateným z\u00A0domu Izraela! Choďte a hlásajte: ‚Priblížilo sa nebeské kráľovstvo.' Chorých uzdravujte, mŕtvych krieste, malomocných očisťujte, zlých duchov vyháňajte. Zadarmo ste dostali, zadarmo dávajte.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"20", "A", "", "Mt 3, 1-12",
                     "Robte pokánie, lebo sa priblížilo nebeské kráľovstvo",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "V tých dňoch vystúpil Ján Krstiteľ a hlásal v\u00A0judejskej púšti: \"Robte pokánie, lebo sa priblížilo nebeské kráľovstvo.\"<br>" +
                             "To o\u00A0ňom povedal prorok Izaiáš: \"Hlas volajúceho na\u00A0púšti: ‚Pripravte cestu Pánovi, vyrovnajte mu chodníky!'\" Ján nosil odev z\u00A0ťavej srsti a okolo bedier kožený opasok. Potravou mu boli kobylky a lesný med. Vtedy prichádzal k\u00A0nemu Jeruzalem a celá Judea i celé okolie Jordánu. Vyznávali svoje hriechy a dávali sa mu krstiť v\u00A0rieke Jordán.<br>" +
                             "Keď videl, že aj mnohí farizeji a saduceji prichádzajú k\u00A0nemu na\u00A0krst, povedal im: \"Hadie plemeno, kto vám ukázal, ako uniknúť budúcemu hnevu!? Prinášajte teda ovocie hodné pokánia! Nenazdávajte sa, že si môžete povedať: ‚Naším otcom je Abrahám!' – lebo vravím vám: Boh môže Abrahámovi vzbudiť deti aj z\u00A0týchto kameňov. Sekera je už priložená na\u00A0korene stromov. A každý strom, ktorý neprináša dobré ovocie, vytnú a hodia do\u00A0ohňa. Ja vás krstím vodou na\u00A0pokánie, ale ten, čo príde po\u00A0mne, je mocnejší, ako som ja. Ja nie som hoden nosiť mu obuv. On vás bude krstiť Duchom Svätým a ohňom. V\u00A0ruke má vejačku, vyčistí si humno, pšenicu si zhromaždí do\u00A0sýpky, ale plevy spáli v\u00A0neuhasiteľnom ohni.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"20", "B", "", "Mk 1, 1-8",
                     "Vyrovnajte chodníky Pánovi",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Marka<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Marka<br>" +
                             "Začiatok evanjelia Ježiša Krista, Božieho Syna.<br>" +
                             "Prorok Izaiáš napísal: \"Hľa, posielam svojho posla pred\u00A0tvojou tvárou a on ti pripraví cestu.<br>" +
                             "Hlas volajúceho na\u00A0púšti: ‚Pripravte cestu Pánovi, vyrovnajte mu chodníky!'\"<br>" +
@@ -399,13 +399,13 @@ public interface Citania_advent {
                             "Počuli sme slovo Pánovo."},
             {"20", "C", "", "Lk 3, 1-6",
                     "Každé telo uvidí Božiu spásu",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "V pätnástom roku vlády cisára Tibéria, keď Poncius Pilát spravoval Judeu a Herodes bol tetrarchom v\u00A0Galilei, jeho brat Filip tetrarchom v\u00A0Itúrei a trachonitídskom kraji a Lyzaniáš tetrarchom v\u00A0Abilíne, za\u00A0veľkňazov Annáša a Kajfáša zaznel na\u00A0púšti Boží hlas nad\u00A0Jánom, synom Zachariáša.<br>" +
                             "Chodil po\u00A0celom okolí Jordána a hlásal krst pokánia na\u00A0odpustenie hriechov, ako je napísané v\u00A0knihe rečí proroka Izaiáša: \"Hlas volajúceho na\u00A0púšti: ‚Pripravte cestu Pánovi, vyrovnajte mu chodníky! Každá dolina sa vyplní a každý vrch a kopec zníži. Čo je krivé, bude priame, a čo je hrboľaté, bude cestou hladkou. A každé telo uvidí Božiu spásu.'\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"21", "1", "", "Lk 5, 17-26",
                     "Dnes sme videli obdivuhodné veci",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "Keď v\u00A0istý deň Ježiš učil, sedeli pri\u00A0ňom farizeji a zákonníci, čo poprichádzali zo\u00A0všetkých galilejských a judejských dedín i z\u00A0Jeruzalema; a mal od\u00A0Pána moc uzdravovať.<br>" +
                             "Tu muži priniesli na\u00A0nosidlách človeka, ktorý bol ochrnutý, a pokúšali sa dostať ho dovnútra a položiť pred\u00A0neho. Ale keď pre\u00A0zástup nenašli priechod, kadiaľ by ho vniesli, vyšli na\u00A0strechu a cez\u00A0povalu ho na\u00A0lôžku spustili priamo pred\u00A0Ježiša.<br>" +
                             "Keď videl ich vieru, povedal: \"Človeče, odpúšťajú sa ti hriechy.\"<br>" +
@@ -416,39 +416,39 @@ public interface Citania_advent {
                             "Počuli sme slovo Pánovo."},
             {"22", "2", "", "Mt 18, 12-14",
                     "Boh nechce, aby zahynuli maličkí",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Ježiš povedal svojim učeníkom: \"Čo myslíte? Keby mal niekto sto oviec a jedna z\u00A0nich by zablúdila, nenechá tých deväťdesiatdeväť na\u00A0vrchoch a nepôjde hľadať tú, čo zablúdila? A keď sa mu ju podarí nájsť, veru, hovorím vám: Bude mať z\u00A0nej väčšiu radosť ako z\u00A0tých deväťdesiatich deviatich, čo nezablúdili.<br>" +
                             "Tak ani váš Otec, ktorý je na\u00A0nebesiach, nechce, aby zahynul čo len jediný z\u00A0týchto maličkých.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"23", "3", "", "Mt 11, 28-30",
                     "Poďte ku\u00A0mne všetci, ktorí sa namáhate",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Ježiš povedal: \"Poďte ku\u00A0mne všetci, ktorí sa namáhate a ste preťažení, a ja vás posilním.<br>" +
                             "Vezmite na\u00A0seba moje jarmo a učte sa odo\u00A0mňa, lebo som tichý a pokorný srdcom; a nájdete odpočinok pre\u00A0svoju dušu.<br>" +
                             "Moje jarmo je príjemné a moje bremeno ľahké.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"24", "4", "", "Mt 11, 11-15",
                     "Nik nepovstal väčší ako Ján Krstiteľ",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Ježiš povedal zástupom: \"Veru, hovorím vám: Medzi tými, čo sa narodili zo\u00A0ženy, nepovstal nik väčší ako Ján Krstiteľ. Ale ten, kto je v\u00A0nebeskom kráľovstve menší, je väčší ako on.<br>" +
                             "Od dní Jána Krstiteľa podnes trpí nebeské kráľovstvo násilie a násilníci sa ho zmocňujú. Lebo všetci Proroci i Zákon prorokovali až po\u00A0Jána: A on sám – ak to chcete prijať – je Eliáš, ktorý má prísť.<br>" +
                             "Kto má uši, nech počúva!\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"25", "5", "", "Mt 11, 16-19",
                     "Nepočúvajú ani Jána, ani Syna človeka",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Ježiš povedal zástupom: \"Komuže prirovnám toto pokolenie? Podobá sa deťom, čo vysedávajú na\u00A0námestí a pokrikujú na\u00A0svojich druhov: ‚Pískali sme vám, a netancovali ste; nariekali sme, a neplakali ste.'<br>" +
                             "Prišiel Ján, nejedol a nepil, a hovoria: ‚Je posadnutý zlým duchom.' Prišiel Syn človeka, je a pije, a hovoria: ‚Hľa, pažravec a pijan, priateľ mýtnikov a hriešnikov!' No múdrosť ospravedlňujú jej skutky.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"26", "6", "", "Mt 17, 10-13",
                     "Eliáš už prišiel, no nespoznali ho",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Keď zostupovali z\u00A0vrchu, učeníci sa pýtali Ježiša: \"Prečo zákonníci hovoria, že najprv musí prísť Eliáš?\"<br>" +
                             "On odpovedal: \"Áno Eliáš príde a všetko obnoví. Ba hovorím vám, že Eliáš už prišiel, no nespoznali ho a urobili s\u00A0ním, čo chceli. Takisto bude od\u00A0nich trpieť aj Syn človeka.\" Vtedy učeníci pochopili, že im hovoril o\u00A0Jánovi Krstiteľovi.<br>" +
                             "Počuli sme slovo Pánovo."},
             {"30", "A", "", "Mt 11, 2-11",
                     "Ty si ten, ktorý má prísť, alebo máme čakať iného?",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Ján bol v\u00A0žalári. Keď počul o\u00A0Kristových skutkoch, poslal k\u00A0nemu svojich učeníkov opýtať sa: \"Ty si ten, ktorý má prísť, alebo máme čakať iného?\"<br>" +
                             "Ježiš im odpovedal: \"Choďte a oznámte Jánovi, čo počujete a čo vidíte: Slepí vidia, chromí chodia, malomocní sú čistí, hluchí počujú, mŕtvi vstávajú a chudobným sa hlása evanjelium. A blahoslavený je, kto sa na\u00A0mne nepohorší.\"<br>" +
                             "Keď odchádzali, začal Ježiš hovoriť zástupom o\u00A0Jánovi: \"Čo ste vyšli na\u00A0púšť vidieť? Trstinu zmietanú vetrom? Alebo čo ste vyšli vidieť? Človeka oblečeného do\u00A0jemných šiat? Veď tí, čo nosia jemné šaty, bývajú v\u00A0kráľovských domoch. Teda čo ste vyšli vidieť? Proroka? Áno, hovorím vám, viac ako proroka! Lebo to o\u00A0ňom je napísané: ‚Hľa, ja posielam svojho posla pred\u00A0tvojou tvárou a on pripraví cestu pred\u00A0tebou.'<br>" +
@@ -456,7 +456,7 @@ public interface Citania_advent {
                             "Počuli sme slovo Pánovo."},
             {"30", "B", "", "Jn 1, 6-8. 19-28",
                     "Medzi vami stojí ten, ktorého nepoznáte",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
                             "Bol človek, ktorého poslal Boh, volal sa Ján. Prišiel ako svedok vydať svedectvo o\u00A0svetle, aby skrze neho všetci uverili. On sám nebol svetlo, prišiel iba vydať svedectvo o\u00A0svetle.<br>" +
                             "A toto je Jánovo svedectvo: Keď Židia z\u00A0Jeruzalema poslali k\u00A0nemu kňazov a levitov, aby sa ho pýtali: \"Kto si ty?\", on vyznal a nič nezaprel. Vyznal: \"Ja nie som Mesiáš.\"<br>" +
                             "\"Čo teda, \"pýtali sa ho, \"si Eliáš?\"<br>" +
@@ -469,7 +469,7 @@ public interface Citania_advent {
                             "Počuli sme slovo Pánovo."},
             {"30", "C", "", "Lk 3, 10-18",
                     "Čo máme robiť my?",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "Zástupy sa pýtali Jána: \"Čo teda máme robiť?\"<br>" +
                             "On im odpovedal: \"Kto má dvoje šiat, nech dá tomu, čo nemá nijaké, a kto má jedlo, nech urobí podobne!\"<br>" +
                             "Aj mýtnici prišli, aby sa dali pokrstiť, a hovorili mu: \"Učiteľ, čo máme robiť?\"<br>" +
@@ -481,7 +481,7 @@ public interface Citania_advent {
                             "Počuli sme slovo Pánovo."},
             {"31", "1", "", "Mt 21, 23-27",
                     "Odkiaľ bol Jánov krst?",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Keď Ježiš prišiel do\u00A0chrámu a učil, pristúpili k\u00A0nemu veľkňazi a starší ľudu a pýtali sa: \"Akou mocou toto robíš? A kto ti dal túto moc?\"<br>" +
                             "Ježiš im povedal: \"Aj ja sa vás na\u00A0niečo spýtam. Ak mi odpoviete, i ja vám poviem, akou mocou toto robím. Odkiaľ bol Jánov krst? Z\u00A0neba, či od\u00A0ľudí?\"<br>" +
                             "Oni rozmýšľali a hovorili si: \"Ak povieme: ‚Z neba,' povie nám: ‚Prečo ste mu teda neuverili?' Ale ak povieme: ‚Od ľudí,' máme sa čo obávať zástupu, lebo Jána pokladajú všetci za\u00A0proroka.\"<br>" +
@@ -490,7 +490,7 @@ public interface Citania_advent {
                             "Počuli sme slovo Pánovo."},
             {"32", "2", "", "Mt 21, 28-32",
                     "Prišiel Ján a hriešnici mu uverili",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "Ježiš povedal veľkňazom a starším ľudu: \"Čo poviete na\u00A0toto? Istý človek mal dvoch synov. Prišiel k\u00A0prvému a povedal mu: ‚Syn môj, choď dnes pracovať do\u00A0vinice!' Ale on odpovedal: ‚Nechce sa mi.' No potom to oľutoval a šiel.<br>" +
                             "Išiel k\u00A0druhému a povedal mu to isté. Ten odpovedal: ‚Idem, pane!' Ale nešiel. Kto z\u00A0týchto dvoch splnil otcovu vôľu?\"<br>" +
                             "Odpovedali: \"Ten prvý.\"<br>" +
@@ -498,14 +498,14 @@ public interface Citania_advent {
                             "Počuli sme slovo Pánovo."},
             {"33", "3", "", "Lk 7, 19-23",
                     "Oznámte Jánovi, čo ste videli a počuli",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "Ján si zavolal dvoch zo\u00A0svojich učeníkov a poslal ich k\u00A0Pánovi s\u00A0otázkou: \"Ty si ten, ktorý má prísť, alebo máme čakať iného?\"<br>" +
                             "Keď muži k\u00A0nemu prišli, povedali: \"Poslal nás k\u00A0tebe Ján Krstiteľ a pýta sa: ‚Ty si ten, ktorý má prísť, alebo máme čakať iného?'\"<br>" +
                             "Práve v\u00A0tú hodinu uzdravil mnohých z\u00A0neduhov, chorôb a od\u00A0zlých duchov a mnohým slepým daroval zrak. A tak im odpovedal: \"Choďte a oznámte Jánovi, čo ste videli a počuli: Slepí vidia, chromí chodia, malomocní sú čistí, hluchí počujú, mŕtvi vstávajú a chudobným sa hlása evanjelium. A blahoslavený je, kto sa na\u00A0mne nepohorší.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"34", "4", "", "Lk 7, 24-30",
                     "Ján je posol ktorý pripravuje cestu Pánovi",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "Keď Jánovi poslovia odišli, začal Ježiš hovoriť zástupom o\u00A0Jánovi: \"Čo ste vyšli na\u00A0púšť vidieť? Trstinu zmietanú vetrom?<br>" +
                             "Alebo čo ste vyšli vidieť? Človeka oblečeného do\u00A0jemných šiat? Veď tí, čo sa skvostne obliekajú a žijú v\u00A0rozkošiach, bývajú v\u00A0kráľovských domoch.<br>" +
                             "Teda čo ste vyšli vidieť? Proroka?<br>" +
@@ -515,13 +515,13 @@ public interface Citania_advent {
                             "Počuli sme slovo Pánovo."},
             {"35", "5", "", "Jn 5, 33-36",
                     "Ján je lampa, ktorá horí a svieti",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
                             "Ježiš povedal Židom: \"Vy ste poslali k\u00A0Jánovi a on vydal svedectvo pravde. Lenže ja neprijímam svedectvo od\u00A0človeka, ale toto hovorím preto, aby ste vy boli spasení. On bol lampa, ktorá horí a svieti, a vy ste sa chceli chvíľu veseliť v\u00A0jeho svetle.<br>" +
                             "Ja mám väčšie svedectvo, ako je Jánovo: skutky, ktoré mi dal vykonať Otec. Tieto skutky, ktoré konám, svedčia o\u00A0mne, že ma poslal Otec.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"40", "A", "", "Mt 1, 18-24",
                     "Ježiš sa narodí z\u00A0Márie, zasnúbenej s\u00A0Jozefom, Dávidovým synom",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Matúša<br>" +
                             "S narodením Ježiša Krista to bolo takto: Jeho matka Mária bola zasnúbená s\u00A0Jozefom. Ale skôr, ako by boli začali spolu bývať, ukázalo sa, že počala z\u00A0Ducha Svätého.<br>" +
                             "Jozef, jej manžel, bol človek spravodlivý a nechcel ju vystaviť potupe, preto ju zamýšľal potajomky prepustiť.<br>" +
                             "Ako o\u00A0tom uvažoval, zjavil sa mu vo\u00A0sne Pánov anjel a povedal: \"Jozef, syn Dávidov, neboj sa prijať Máriu, svoju manželku, lebo to, čo sa v\u00A0nej počalo, je z\u00A0Ducha Svätého. Porodí syna a dáš mu meno Ježiš; lebo on vyslobodí svoj ľud z\u00A0hriechov.\"<br>" +
@@ -530,7 +530,7 @@ public interface Citania_advent {
                             "Počuli sme slovo Pánovo."},
             {"40", "B", "", "Lk 1, 26-38",
                     "Počneš a porodíš syna",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "Boh poslal anjela Gabriela do\u00A0galilejského mesta, ktoré sa volá Nazaret, k\u00A0panne zasnúbenej mužovi z\u00A0rodu Dávidovho, menom Jozefovi. A meno panny bolo Mária.<br>" +
                             "Anjel prišiel k\u00A0nej a povedal: \"Zdravas', milosti plná, Pán s\u00A0tebou.\"<br>" +
                             "Ona sa nad\u00A0jeho slovami zarazila a rozmýšľala, čo znamená takýto pozdrav.<br>" +
@@ -542,7 +542,7 @@ public interface Citania_advent {
                             "Počuli sme slovo Pánovo."},
             {"40", "C", "", "Lk 1, 39-45",
                     "Čím som si zaslúžila, že matka môjho Pána prichádza ku\u00A0mne?",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
+                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Lukáša<br>" +
                             "V tých dňoch sa Mária vydala na\u00A0cestu a ponáhľala sa do\u00A0istého judejského mesta v\u00A0hornatom kraji. Vošla do\u00A0Zachariášovho domu a pozdravila Alžbetu. Len čo Alžbeta začula Máriin pozdrav, dieťa v\u00A0jej lone sa zachvelo a Alžbetu naplnil Duch Svätý. Vtedy zvolala veľkým hlasom: \"Požehnaná si medzi ženami a požehnaný je plod tvojho života. Čím som si zaslúžila, že matka môjho Pána prichádza ku\u00A0mne? Lebo len čo zaznel tvoj pozdrav v\u00A0mojich ušiach, radosťou sa zachvelo dieťa v\u00A0mojom lone. A blahoslavená je tá, ktorá uverila, že sa splní, čo jej povedal Pán.\"<br>" +
                             "Počuli sme slovo Pánovo."},
     };
