@@ -171,7 +171,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void spev() {
         uvodny_spev = "Úvodný spev";
         prijimanie_spev = "Spev na prijímanie";
-        if (C && (feria || nedela || spevO)) {
+        if (C && (feria || nedela || spevO) && !ID.equals("009")) {
             //cezrok
             uvodny_vypis = cezrokSpev[indexCS][1];
             uvodny_suradnice = cezrokSpev[indexCS][2];
@@ -340,7 +340,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         modlitba_dna = "Modlitba dňa";
         modlitba_dary = "Modlitba nad obetnými darmi";
         modlitba_prijimanie = "Modlitba po prijímaní";
-        if (C && (feria || nedela || modlitbaO)) {
+        if (C && (feria || nedela || modlitbaO) && !ID.equals("009")) {
             //cezrok
             modlitba_dna_vypis = cezrokModlitby[indexCM][1];
             modlitba_dary_vypis = cezrokModlitby[indexCM][2];
@@ -1453,7 +1453,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             prosby_zvolanie = prosbyPohyb[index][3];
             prosby_vypis = prosbyPohyb[index][4];
             prosby_zaver = prosbyPohyb[index][5];
-        } else if (nedela) {//nedela
+        } else if (nedela && !ID.equals("009")) {//nedela
             if (cirkevRok == 2) {
                 index++;
             }
@@ -2029,7 +2029,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void formularVypis(String[][] formular) {
         String omsa;
         int index = indexID(formular);
-        if (index == -1 || feria || nedela) {
+        if ((index == -1 || feria || nedela) && !ID.equals("009")) {
             if (ID.equals("003m")) {
                 if (den < 8) {
                     formArray.add(new String[]{"11", "1", "Nepoškvrneného Srdca Panny Márie"});
