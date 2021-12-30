@@ -393,6 +393,7 @@ public class MisalZmierenie extends Misal {
                     formText = lw.getAdapter().getItem(lw.getCheckedItemPosition()).toString();
                     spev();
                     modlitba();
+                    ziskajPrefaciu();
                     pozicia_listview = listView.getFirstVisiblePosition();
                     vypis();
                 }
@@ -478,17 +479,15 @@ public class MisalZmierenie extends Misal {
         if (P)
             formArray.add("Pôstny");
         if (!(nedela && P)) {
-            formArray.add("Za zachovanie mieru a spravodlivosti I");
-            formArray.add("Za zachovanie mieru a spravodlivosti II");
+            formArray.add("Za zachovanie pokoja a spravodlivosti 1.");
+            formArray.add("Za zachovanie pokoja a spravodlivosti 2.");
             formArray.add("Za zmierenie");
-            formArray.add("V čase vojny a občianskych rozvratov");
+            formArray.add("V čase vojny a občianskych nepokojov");
             formArray.add("Za odpustenie hriechov");
             formArray.add("Za dar lásky");
             formArray.add("Za svornosť");
             formArray.add("O tajomstve svätého kríža");
-            formArray.add("O najsvätejšej eucharistii I");
-            formArray.add("O najsvätejšej eucharistii II");
-            formArray.add("O najsvätejšej eucharistii III");
+            formArray.add("O najsvätejšej eucharistii");
             formArray.add("O predrahej krvi nášho Pána Ježiša Krista");
         }
         formText = formArray.get(pozicia_formular);
@@ -507,6 +506,25 @@ public class MisalZmierenie extends Misal {
     public void ziskajPrefaciu() {
         prefaciaArray.clear();
         prefaciaArray.add("Vlastná prefácia");
+        switch (formText) {
+            case "Za svornosť":
+                prefaciaArray.add("Za jednotu kresťanov");
+                break;
+            case "Za odpustenie hriechov":
+                prefaciaArray.add("Nedeľná IV");
+                break;
+            case "O tajomstve svätého kríža":
+                prefaciaArray.add("O víťazstve slávneho kríža");
+                prefaciaArray.add("O umučení Pána I");
+                break;
+            case "O najsvätejšej eucharistii":
+                prefaciaArray.add("O Eucharistii I");
+                prefaciaArray.add("O Eucharistii II");
+                break;
+            case "O predrahej krvi nášho Pána Ježiša Krista":
+                prefaciaArray.add("O umučení Pána I");
+                break;
+        }
         if (P) {
             if (nedela) {
                 switch (ID) {
@@ -541,7 +559,7 @@ public class MisalZmierenie extends Misal {
                         break;
                 }
             } else {
-                if (tyzden == 5) {
+                if (tyzden == 5 && !formText.equals("O tajomstve svätého kríža") && !formText.equals("O predrahej krvi nášho Pána Ježiša Krista")) {
                     prefaciaArray.add(prefacie[29][1]);
                 } else if (tyzden == 6) {
                     prefaciaArray.add(prefacie[30][1]);
