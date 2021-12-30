@@ -2940,8 +2940,10 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             missas.add(new Missa(1)); //medzera mala
             missas.add(new Missa("<font color='#B71C1C'>Zasvätenie ľudského pokolenia Božskému Srdcu (otvoriť)</font>", true, 18));
         }
-        missas.add(new Missa(1)); //medzera mala
-        pozehnanie(missas); //otvor = 6, 7
+        if(!P || !slavenie.equals("Slávnosť")) {
+            missas.add(new Missa(1)); //medzera mala
+            pozehnanie(missas); //otvor = 6, 7
+        }
         if (slav_pozehnanie != -1) {
             missas.add(new Missa(1)); //medzera mala
             missas.add(new Missa("<font color='#B71C1C'>Slávnostné požehnanie (otvoriť)</font>", true, 8));
