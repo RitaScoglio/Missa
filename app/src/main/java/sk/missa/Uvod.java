@@ -365,13 +365,10 @@ public class Uvod extends Main {
         Gson gson = new Gson();
         String json = gson.toJson(w);
         editor.putString("special-omsa", json).apply();
-        if (pom.equals("Sviatok") || pom.equals("Slávnosť") ||
-                pom.equals("Vigília") || pom.equals("Oktáva") ||
-                (pom.equals("") && !w.getObdobie().equals("p")))
+        if (!pom.equals("Sviatok") && !pom.equals("Slávnosť") &&
+                !pom.equals("Vigília") && !pom.equals("Oktáva") &&
+                !(pom.equals("") && !w.getObdobie().equals("p")))
         {
-            editor.putBoolean("zmierenie", false).apply();
-        }
-        else {
             editor.putBoolean("zmierenie", true).apply();
         }
     }
