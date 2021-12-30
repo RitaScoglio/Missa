@@ -201,19 +201,6 @@ public interface Prosby_cezrok {
                             "a udeľ nám milosť trvalej vernosti tebe.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"3", "A", "Bratia a sestry, Pán Ježiš aj nám, rovnako ako apoštolom, otvára myseľ, aby sme porozumeli Písmu, a povzbudzuje nás, aby sme mu, zhromaždení v jeho mene, predniesli svoje prosby.",
-                    "(Volajme: Prosíme ťa, vyslyš nás.)",
-                    "<font color='#B71C1C'>1.</font> Ježišu, Božie Slovo, pomáhaj svojej Cirkvi, aby aj v dnešných časoch ohlasovala evanjelium s odvahou a horlivosťou apoštolov.<br>" +
-                            "<font color='#B71C1C'>2.</font> Ježišu, obraz Otca, veď svojím Duchom kresťanských politikov, aby hodnoty Svätého písma vnášali do života celej spoločnosti.<br>" +
-                            "<font color='#B71C1C'>3.</font> Ježišu, nebeský Učiteľ, posilňuj kresťanských teológov, aby svoje štúdium a náuku stavali vždy na múdrosti Svätého písma.<br>" +
-                            "<font color='#B71C1C'>4.</font> Ježišu, zasľúbený Mesiáš, zapáľ srdcia kresťanov všetkých vyznaní, aby v jednote viery prameniacej z Božieho slova vyznávali, že si Boží Syn.<br>" +
-                            "<font color='#B71C1C'>5.</font> Ježišu, náš Boh a Pán, privádzaj naše spoločenstvo k túžbe denne sa živiť múdrosťou biblickej náuky, aby sme správne verili a podľa viery aj žili.",
-                    "Pane Ježišu Kriste,<br>" +
-                            "skrze teba Otcovým slovom povstal celý svet;<br>" +
-                            "prijmi naše dnešné prosby<br>" +
-                            "a láskavo ich vyslyš.<br>" +
-                            "Lebo ty žiješ a kraľuješ na veky vekov.",
-                    "Alebo:",
-                    "Bratia a sestry, Pán Ježiš aj nám, rovnako ako apoštolom, otvára myseľ, aby sme porozumeli Písmu, a povzbudzuje nás, aby sme mu, zhromaždení v jeho mene, predniesli svoje prosby.",
                     "<font color=‘#B71C1C’>(</font> Volajme: Prosíme ťa, vyslyš nás.<font color=‘#B71C1C’>)</font>",
                     "<font color=‘#B71C1C’>1.</font> Ježišu, Božie Slovo, pomáhaj svojej Cirkvi, aby aj v dnešných časoch ohlasovala evanjelium s odvahou a horlivosťou apoštolov.<br>" +
                             "<font color=‘#B71C1C’>2.</font> Ježišu, obraz Otca, veď svojím Duchom kresťanských politikov, aby hodnoty Svätého písma vnášali do života celej spoločnosti.<br>" +
@@ -225,21 +212,7 @@ public interface Prosby_cezrok {
                             "prijmi naše dnešné prosby<br>" +
                             "a láskavo ich vyslyš. <br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"3", "B", "Bratia a sestry, Pán Ježiš si zhromažďuje učeníkov, ohlasuje Božie kráľovstvo a vyzýva na pokánie. Preto obráťme svoje srdcia k nemu a spoločne sa modlime.",
-                    "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Aby všetci kresťania ochotne a poslušne odpovedali na Božie volanie, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Aby vo svete víťazili pravé hodnoty, ktoré sú založené na Kristovom posolstve, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Aby všetci ľudia pochopili, že hriechom a zlobou si pripravujú nešťastie a večnú smrť, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>4.</font> Aby sme dokázali odstrániť všetky nezhody, ktoré sa nachádzajú v našom spoločenstve, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Aby miništranti v našich farnostiach rástli na dobrých kresťanov a ochotne odpovedali na Božie volanie, prosme Pána.",
-                    "Pane Ježišu,<br>" +
-                            "ty chceš, aby sme sa pripravovali na stretnutie s tebou;<br>" +
-                            "vyslyš naše prosby<br>" +
-                            "a pomôž nám prekonávať všetko,<br>" +
-                            "čo nám prekáža dosiahnuť tvoje kráľovstvo.<br>" +
-                            "Lebo ty žiješ a kraľuješ na veky vekov.",
-                    "Alebo:",
-                    "Bratia a sestry, Pán Ježiš aj nám, rovnako ako apoštolom, otvára myseľ, aby sme porozumeli Písmu, a povzbudzuje nás, aby sme mu, zhromaždení v jeho mene, predniesli svoje prosby.",
+            {"3", "B", "Bratia a sestry, Pán Ježiš aj nám, rovnako ako apoštolom, otvára myseľ, aby sme porozumeli Písmu, a povzbudzuje nás, aby sme mu, zhromaždení v jeho mene, predniesli svoje prosby.",
                     "<font color=‘#B71C1C’>(</font> Volajme: Prosíme ťa, vyslyš nás.<font color=‘#B71C1C’>)</font>",
                     "<font color=‘#B71C1C’>1.</font> Ježišu, Božie Slovo, pomáhaj svojej Cirkvi, aby aj v dnešných časoch ohlasovala evanjelium s odvahou a horlivosťou apoštolov.<br>" +
                             "<font color=‘#B71C1C’>2.</font> Ježišu, obraz Otca, veď svojím Duchom kresťanských politikov, aby hodnoty Svätého písma vnášali do života celej spoločnosti.<br>" +
@@ -251,21 +224,7 @@ public interface Prosby_cezrok {
                             "prijmi naše dnešné prosby<br>" +
                             "a láskavo ich vyslyš. <br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"3", "C", "Bratia a sestry, Ježiš Kristus je náš učiteľ. Jeho poslal Otec hlásať evanjelium chudobným. Prosme Pána, aby sa slová jeho radostnej zvesti šírili po celom svete.",
-                    "<font color='#B71C1C'>(</font>Volajme: Pane, naplň nás svojím Duchom a vyslyš naše prosby.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Prosíme ťa, Pane, za Cirkev, aby Božie slovo ohlasovala a vysvetľovala pravdivo a zrozumiteľne.<br>" +
-                            "<font color='#B71C1C'>2.</font> Prosíme ťa za všetkých kresťanov, aby im čítanie Svätého písma prinášalo útechu v smútku, silu v slabosti a svetlo v pochybnostiach.<br>" +
-                            "<font color='#B71C1C'>3.</font> Prosíme ťa za lektorov v našich farnostiach, aby ochotne plnili svoju službu a vlastným životom sa stotožnili s tým, čo prednášajú.<br>" +
-                            "<font color='#B71C1C'>4.</font> Prosíme ťa za deti a mladých ľudí, aby vždy viac objavovali krásu Božieho slova a radi čítali duchovnú literatúru.<br>" +
-                            "<font color='#B71C1C'>5.</font> Prosíme ťa za tých, ktorí pre chorobu a starobu nemohli prísť na nedeľné eucharistické slávenie, aby sa dokázali duchovne spojiť s liturgickým zhromaždením veriacich.",
-                    "Pane Ježišu,<br>" +
-                            "ty si prítomný aj vo svojom slove;<br>" +
-                            "vyslyš naše prosby<br>" +
-                            "a daj nám lásku k tvojmu evanjeliu,<br>" +
-                            "aby sme z neho žili a dosiahli večný život.<br>" +
-                            "Lebo ty žiješ a kraľuješ na veky vekov.",
-                    "Alebo:",
-                    "Bratia a sestry, Pán Ježiš aj nám, rovnako ako apoštolom, otvára myseľ, aby sme porozumeli Písmu, a povzbudzuje nás, aby sme mu, zhromaždení v jeho mene, predniesli svoje prosby.",
+            {"3", "C", "Bratia a sestry, Pán Ježiš aj nám, rovnako ako apoštolom, otvára myseľ, aby sme porozumeli Písmu, a povzbudzuje nás, aby sme mu, zhromaždení v jeho mene, predniesli svoje prosby.",
                     "<font color=‘#B71C1C’>(</font> Volajme: Prosíme ťa, vyslyš nás.<font color=‘#B71C1C’>)</font>",
                     "<font color=‘#B71C1C’>1.</font> Ježišu, Božie Slovo, pomáhaj svojej Cirkvi, aby aj v dnešných časoch ohlasovala evanjelium s odvahou a horlivosťou apoštolov.<br>" +
                             "<font color=‘#B71C1C’>2.</font> Ježišu, obraz Otca, veď svojím Duchom kresťanských politikov, aby hodnoty Svätého písma vnášali do života celej spoločnosti.<br>" +

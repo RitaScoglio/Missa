@@ -42,8 +42,7 @@ public interface Spevy_svatci {
                             "Jeden z vojakov mu kopijou prebodol bok, a hneď vyšla krv a voda.", "(Jn 7, 37 – 38)"},
             {"4mp", "", "Moje srdce sa teší z tvojej pomoci. Spievať budem Pánovi, že ma zahŕňa dobrodeniami.", "(Ž 13, 6)",
                     "Mária zachovávala všetky tieto slová vo svojom srdci a premýšľala o nich.", "(Lk 2, 19)"},
-            {"8gkp", "", "Hoden je Baránok, ktorý bol zabitý, prijať moc, bohatstvo a múdrosť, silu a česť.<br>" +
-                    "Jemu sláva a vláda na veky vekov.", "(Zjv 5, 12; 1, 6)",
+            {"8gkp", "", "Hoden je Baránok, ktorý bol zabitý, prijať moc, bohatstvo a múdrosť, silu a česť. Jemu sláva a vláda na veky vekov.", "(Zjv 5, 12; 1, 6)",
                     "Pán bude tróniť ako večný Kráľ, Pán požehná svoj ľud pokojom.", "(Ž 29, 10 – 11)"},
             //8. decembra - NEPOŠKVRNENÉ POČATIE PANNY MÁRIE
             {"9gkp", "", "Radosťou jasám v Pánovi, duša mi plesá v mojom Bohu, pretože ma zaodial rúchom spásy, zahalil ma plášťom spravodlivosti ako nevestu okrášlenú šperkami.", "(Iz 61, 10)",
@@ -64,7 +63,7 @@ public interface Spevy_svatci {
                     "Ježiš Kristus je ten istý včera i dnes a naveky.", "(Hebr 13, 8)"},
             {"02a", "O múdrosti svätých nech rozprávajú národy a ich chválu nech ohlasuje Cirkev; ich mená nech žijú naveky.", "(Porov. Sir 44, 15. 14)",
                     "My však ohlasujeme ukrižovaného Krista, Krista – Božiu moc a Božiu múdrosť.", "(Porov. 1 Kor 1, 23 – 24)"},
-            {"03a", "Na meno Ježiš nech sa zohne každé koleno v nebi, na zemi i v podsvetí <br>" +
+            {"03a", "Na meno Ježiš nech sa zohne každé koleno v nebi, na zemi i v podsvetí" +
                     "a každý jazyk nech vyznáva: Ježiš Kristus je Pán na slávu Boha Otca.", "(Flp 2, 10 – 11)",
                     "Pane, náš Vládca, aké vznešené je tvoje meno na celej zemi!", "(Ž 8, 2)"},
             {"05gk", "Povstaň, Jeruzalem, hľaď na východ a podívaj sa na svojich synov zhromaždených od východu slnka až po západ.", "(Porov. Bar 5, 5)",
@@ -80,7 +79,7 @@ public interface Spevy_svatci {
     };
 
     String[][] spev2 = {
-            {"02g", "Spomíname, Bože, na tvoje milosrdenstvo uprostred tvojho chrámu. Ako tvoje meno, Bože,<br>" +
+            {"02g", "Spomíname, Bože, na tvoje milosrdenstvo uprostred tvojho chrámu. Ako tvoje meno, Bože," +
                     "tak aj tvoja sláva šíri sa až do končín zeme; tvoja pravica je plná spravodlivosti.", "(Porov. Ž 48, 10 – 11)",
                     "Moje oči uvideli tvoju spásu, ktorú si pripravil pred tvárou všetkých národov.", "(Lk 2, 30 – 31)"},
             {"14o", "Toto sú svätí, Boží priatelia, slávni hlásatelia Božej pravdy.", "",
@@ -88,7 +87,7 @@ public interface Spevy_svatci {
             {"14g+", "Toto sú svätí, Boží priatelia, slávni hlásatelia Božej pravdy.", "",
                     "Učeníci sa rozišli a hlásali evanjelium. Pán im pomáhal a ich slová potvrdzoval znameniami, ktoré ich sprevádzali.", "(Porov. Mk 16, 20)"},
             {"22g", "Pán hovorí Šimonovi Petrovi: ja som prosil za teba, aby neochabla tvoja viera; a ty, až sa raz obrátiš, posilňuj svojich bratov.", "(Lk 22, 32)",
-                    "Peter povedal Ježišovi: Ty si Mesiáš, Syn živého Boha. <br>" +
+                    "Peter povedal Ježišovi: Ty si Mesiáš, Syn živého Boha." +
                             "Ježiš mu odpovedal: Ty si Peter, a na tejto skale postavím svoju Cirkev.", "(Porov. Mt 16, 16. 18)"},
     };
 
@@ -148,9 +147,8 @@ public interface Spevy_svatci {
             {"02gm", "Poďte sem a počúvajte, všetci ctitelia Boží, vyrozprávam vám, aké veľké veci mi urobil Pán.", "(Porov. Ž 66, 16)",
                     "Blahoslaviť ma budú všetky pokolenia, lebo veľké veci mi urobil ten, ktorý je mocný, a sväté je jeho meno.", "(Lk 1, 48 – 49)"},
             {"03g", "Ty si môj Boh, a ja ťa vyznávam; ty si môj Boh, a ja ťa velebím; ďakujem ti, že si ma zachránil.", "(Porov. Ž 118, 28. 21)",
-                    "Vystri ruku a dotkni sa rán po klincoch<br>" +
-                            "a nebuď neveriaci, ale veriaci.", "(Porov. Jn 20, 27)"},
-            {"05gk", "Čujte slovo, slovo Boha; slovo, ktoré sýti ľudské duše; slovo, ktoré posilňuje srdce i rozum;<br>" +
+                    "Vystri ruku a dotkni sa rán po klincoch a nebuď neveriaci, ale veriaci.", "(Porov. Jn 20, 27)"},
+            {"05gk", "Čujte slovo, slovo Boha; slovo, ktoré sýti ľudské duše; slovo, ktoré posilňuje srdce i rozum; " +
                     "slovo, ktoré učí poznávať Boha.<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
                     "Radujme sa všetci v Pánovi a slávme sviatok na počesť svätých Cyrila a Metoda. Z ich oslávenia sa radujú anjeli a spolu s nimi velebia Božieho Syna.", "(Proglas, 24 – 27)",
@@ -167,8 +165,7 @@ public interface Spevy_svatci {
             "Ženie nás Kristova láska, aby aj tí, čo žijú, už nežili pre seba, ale pre toho, ktorý za nich zomrel a vstal z mŕtvych.", "(2 Kor 5, 14. 15)"},
     {"23g", "Radujme sa všetci v Pánovi a slávme sviatok na počesť svätej Brigity; z jej oslávenia sa radujú anjeli a spolu s ňou velebia Božieho Syna.", "",
             "Miluješ spravodlivosť a nenávidíš neprávosť, preto ťa Boh, tvoj Boh, pomazal olejom radosti viac ako tvojich druhov.", "(Ž 45, 8)"},
-    {"25g", "Keď Ježiš kráčal popri Galilejskom mori, videl Jakuba Zebedejovho, a jeho brata Jána,<br>" +
-            "ako opravujú siete, a povolal ich.", "(Porov. Mt 4, 18. 21)",
+    {"25g", "Keď Ježiš kráčal popri Galilejskom mori, videl Jakuba Zebedejovho, a jeho brata Jána, ako opravujú siete, a povolal ich.", "(Porov. Mt 4, 18. 21)",
             "Pili Pánov kalich a stali sa Božími priateľmi.", ""},
         {"26", "Oslavujme Joachima a Annu v ich pokolení, lebo im Pán daroval požehnanie všetkých národov.", "(Porov. Sir 44, 1. 25)",
                 "Dostali požehnanie od Pána a milosrdenstvo od Boha, svojho Spasiteľa.", "(Porov. Ž 24, 5)"},
@@ -185,9 +182,7 @@ public interface Spevy_svatci {
     String[][] spev8 = {
             {"06gn", "V žiarivom oblaku sa zjavil Duch Svätý a bolo počuť Otcov hlas: Toto je môj milovaný Syn, v ktorom mám zaľúbenie: počúvajte ho!", "(Porov. Mt 17, 5)",
                     "Keď sa zjaví Kristus, budeme mu podobní, lebo ho budeme vidieť takého, aký je.", "(Porov. 1 Jn 3, 2)"},
-            {"08", "Uprostred Božieho ľudu otvoril Pán jeho ústa<br>" +
-                    "a naplnil ho duchom múdrosti a rozumu,<br>" +
-                    "zaodel ho rúchom slávy.", "(Porov. Sir 15, 5)",
+            {"08", "Uprostred Božieho ľudu otvoril Pán jeho ústa a naplnil ho duchom múdrosti a rozumu, zaodel ho rúchom slávy.", "(Porov. Sir 15, 5)",
                     "Verný a múdry správca, ktorého pán ustanoví nad svojou čeľaďou, aby jej načas dával určený pokrm.", "(Lk 12, 42)"},
             {"09g", "Ja sa nechcem chváliť ničím iným, iba krížom nášho Pána Ježiša Krista, cez ktorý je svet ukrižovaný pre mňa a ja pre svet.", "(Gal 6, 14)",
                     "Keby som mal ísť uprostred tône smrti, nebudem sa báť zlého, lebo ty si so mnou.", "(Porov. Ž 23, 4 – 5)"},
@@ -199,8 +194,7 @@ public interface Spevy_svatci {
                     "Blahoslavená si, Panna Mária, lebo si nosila pod srdcom Syna večného Otca.", "(Porov. Lk 11, 27)"},
             {"15gkm", "Na nebi sa ukázalo veľké znamenie: Žena, odetá slnkom, pod jej nohami mesiac a na jej hlave veniec z dvanástich hviezd.<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
-                    "Radujme sa všetci v Pánovi, lebo v dnešný deň slávime sviatok na počesť Panny Márie.<br>" +
-                    "Z jej nanebovzatia sa radujú anjeli a spolu s ňou velebia Božieho Syna.", "(Porov. Zjv 12, 1)",
+                    "Radujme sa všetci v Pánovi, lebo v dnešný deň slávime sviatok na počesť Panny Márie. Z jej nanebovzatia sa radujú anjeli a spolu s ňou velebia Božieho Syna.", "(Porov. Zjv 12, 1)",
                     "Blahoslaviť ma budú všetky pokolenia, lebo veľké veci mi urobil ten, ktorý je mocný.", "(Lk 1, 48 – 49)"},
             {"20", "Pán naplnil svätého Bernarda duchom múdrosti a on odovzdával pravé učenie Božiemu ľudu.", "",
                     "Ako mňa miluje Otec, tak ja milujem vás, hovorí Pán. Ostaňte v mojej láske.", "(Jn 15, 9)"},
@@ -253,12 +247,8 @@ public interface Spevy_svatci {
             {"07m", "Zdravas', Mária, milosti plná, Pán s tebou: požehnaná si medzi ženami a požehnaný je plod tvojho života.", "(Porov. Lk 1, 28. 42)",
                     "Počneš a porodíš Syna a dáš mu meno Ježiš.", "(Lk 1, 31)"},
             {"15", "Ako jeleň dychtí za vodou z prameňa, tak moja duša, Bože, túži za tebou. Po Bohu žízni moja duša, po Bohu živom.", "(Porov. Ž 42, 2 – 3)",
-                    "Pánovo milosrdenstvo chcem ospevovať naveky;<br>" +
-                            "po všetky pokolenia hlásať svojimi ústami tvoju vernosť.", "(Ž 89, 2)"},
-            {"17", "S Kristom som pribitý na kríž;<br>" +
-                    "už nežijem ja, ale vo mne žije Kristus;<br>" +
-                    "žijem vo viere v Božieho Syna, ktorý ma miluje<br>" +
-                    "a vydal seba samého za mňa.", "(Porov. Gal 2, 19 – 20)",
+                    "Pánovo milosrdenstvo chcem ospevovať naveky; po všetky pokolenia hlásať svojimi ústami tvoju vernosť.", "(Ž 89, 2)"},
+            {"17", "S Kristom som pribitý na kríž; už nežijem ja, ale vo mne žije Kristus; žijem vo viere v Božieho Syna, ktorý ma miluje a vydal seba samého za mňa.", "(Porov. Gal 2, 19 – 20)",
                     "Som Kristovým pšeničným zrnom, nech ma rozomelú zuby šeliem, aby som sa stal čistým chlebom.", ""},
             {"18g", "Aké krásne sú na horách nohy posla, ktorý hlása pokoj, posla dobrej zvesti, ktorý ohlasuje spásu.", "(Iz 52, 7)",
                     "Pán poslal učeníkov, aby ohlasovali mestám: Priblížilo sa k vám Božie kráľovstvo.", "(Porov. Lk 10, 1. 9)"},
@@ -281,14 +271,12 @@ public interface Spevy_svatci {
             {"01gk", "Radujme sa všetci v Pánovi, lebo dnes slávime sviatok na počesť všetkých svätých. Z ich oslávenia sa radujú anjeli a spolu s nimi velebia Syna Božieho.", "",
                     "Blahoslavení čistého srdca, lebo oni uvidia Boha. Blahoslavení tí, čo šíria pokoj, lebo ich budú volať Božími synmi. Blahoslavení prenasledovaní pre spravodlivosť, lebo ich je nebeské kráľovstvo.", "(Mt 5, 8 – 10)"},
             {"02an", "Ako Ježiš zomrel a vstal z mŕtvych, tak Boh tých, čo zosnuli, skrze Ježiša privedie s ním. Lebo ako všetci umierajú v Adamovi, tak zasa všetci ožijú v Kristovi.", "(Porov. 1 Sol 4, 14; 1 Kor 15, 22)",
-                    "Ja som vzkriesenie a život, hovorí Pán.<br>" +
-                            "Kto verí vo mňa, bude žiť, aj keď umrie. A nik, kto žije a verí vo mňa, neumrie naveky.", "(Porov. Jn 11, 25 – 26)"},
+                    "Ja som vzkriesenie a život, hovorí Pán. Kto verí vo mňa, bude žiť, aj keď umrie. A nik, kto žije a verí vo mňa, neumrie naveky.", "(Porov. Jn 11, 25 – 26)"},
             {"02bn", "Odpočinutie večné daj im, Pane, a svetlo večné nech im svieti.", "(Porov. 4 Ezd 2, 34 – 35)",
                     "Svetlo večné nech im svieti, Pane, v spoločenstve tvojich svätých, veď si dobrotivý.", "(Porov. 4 Ezd 2, 35. 34)"},
             {"02cn", "Boh, ktorý vzkriesil Ježiša z mŕtvych, oživí aj naše smrteľné telá skrze svojho Ducha, ktorý prebýva v nás.", "(Porov. Rim 8, 11)",
                     "Očakávame Spasiteľa, nášho Pána Ježiša Krista; on pretvorí naše úbohé telo, aby sa stalo podobným jeho oslávenému telu.", "(Porov. Flp 3, 20 – 21)"},
-            {"09g", "Videl som, ako z neba od Boha zostupuje sväté mesto, nový Jeruzalem,<br>" +
-                    "vystrojené ako nevesta, ozdobená pre svojho ženícha.<br>" +
+            {"09g", "Videl som, ako z neba od Boha zostupuje sväté mesto, nový Jeruzalem, vystrojené ako nevesta, ozdobená pre svojho ženícha.<br>" +
                     "<font color='#B71C1C'>Alebo: (Porov. Zjv 21, 3)</font><br>" +
                     "Hľa, Boží stánok je medzi ľuďmi! A bude medzi nimi prebývať; oni budú jeho ľudom a sám Boh – ich Boh – bude s nimi.", "(Porov. Zjv 21, 2)",
                     "Dajte sa vbudovať aj vy ako živé kamene do duchovného domu, do svätého kňazstva.", "(Porov. 1 Pt 2, 5)"},
@@ -311,12 +299,12 @@ public interface Spevy_svatci {
     String[][] spev12 = {
             {"03", "Budem ťa, Pane, chváliť medzi národmi a hlásať tvoje meno svojim bratom.", "(Ž 18, 50; 22, 23)",
                     "Čo vám hovorím vo tme, hovorte na svetle, hovorí Pán, a čo počujete do ucha, rozhlasujte zo striech.", "(Mt 10, 27)"},
-            {"07", "Uprostred Božieho ľudu otvoril Pán jeho ústa a naplnil ho duchom múdrosti a rozumu, <br>" +
+            {"07", "Uprostred Božieho ľudu otvoril Pán jeho ústa a naplnil ho duchom múdrosti a rozumu," +
                     "zaodel ho rúchom slávy.", "(Porov. Sir 15, 5)",
                     "Ten, čo o zákone Pánovom rozjíma dňom i nocou, prináša ovocie v pravý čas.", "(Porov. Ž 1, 2. 3)"},
             {"14", "Ja sa nechcem chváliť ničím iným, iba krížom nášho Pána Ježiša Krista, cez ktorý je svet ukrižovaný pre mňa a ja pre svet.", "(Gal 6, 14)",
                     "Kto chce ísť za mnou, nech zaprie sám seba, vezme svoj kríž a nasleduje ma, hovorí Pán.", "(Porov. Mt 16, 24)"},
-            {"17", "Radujte sa, nebesia, a plesaj zem, lebo náš Pán príde a zľutuje sa nad svojimi biednymi.", "(Porov. Iz 49, 13)<br>",
+            {"17", "Radujte sa, nebesia, a plesaj zem, lebo náš Pán príde a zľutuje sa nad svojimi biednymi.", "(Porov. Iz 49, 13)",
                     "Hľa, príde ten, po ktorom túžia všetky národy, a Pánov dom sa naplní slávou.", "(Porov. Ag 2, 7)"},
             {"18", "Príde Kristus, náš Kráľ; Ján o ňom povedal, že príde ako Baránok.", "",
                     "Dajú mu meno Emanuel, čo v preklade znamená: Boh s nami.", "(Mt 1, 23)"},

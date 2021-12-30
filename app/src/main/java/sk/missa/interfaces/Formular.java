@@ -335,10 +335,8 @@ public interface Formular {
                     "Svätá Panna a Matka, Boh, ktorého nemôže obsiahnuť celý svet, stal sa človekom v tvojom lone.", "",
                     "Blahoslavená si Panna Mária, lebo si nosila Syna večného Otca.", "(Porov. Lk 11, 27)"},
             // 6 – iba vo velkonocnom obdobi
-            {"14", "1", "Omša k preblahoslavenej Panne Marií", "Učeníci jednomyseľne zotrvávali v modlitbách<br>" +
-                    "spolu s Ježišovou matkou Máriou. Aleluja.", "(Porov. Sk 1, 14)",
-                    "Raduj sa, panenská Matka,<br>" +
-                            "pretože tvoj Syn Ježiš Kristus vstal z mŕtvych. Aleluja.", ""},
+            {"14", "1", "Omša k preblahoslavenej Panne Marií", "Pane, môj nárek si obrátil na tanec a radosťou si ma opásal, aleluja.", "(Porov. Ž 30, 12)",
+                    "Raduj sa, panenská Matka, lebo Kristus vstal z hrobu, aleluja.", ""},
             //marianske formulare
             {"15", "1", "Preblahoslavená Panna Mária vyvolený potomok Izraela", "Raduj sa a veseľ z plného srdca,<br>" +
                     "dcéra jeruzalemská!<br>" +
@@ -366,8 +364,7 @@ public interface Formular {
             {"21", "1", "Omša za viacerých mučeníkov 1.", "V nebi sa radujú duše svätých, ktorí nasledovali Krista; a pretože z lásky k nemu vyliali svoju krv, s Kristom požívajú šťastie bez konca.<br>" +
                     "<font color='#B71C1C'>Alebo:</font><br>" +
                     "Svätí muži preliali slávnu krv pre Pána, milovali Krista vo svojom živote, pripodobnili sa mu vo svojej smrti, a preto si zaslúžili korunu víťazstva.", "",
-                    "Vy ste vytrvali so mnou v mojich skúškach a ja vám dávam kráľovstvo, hovorí Pán,<br>" +
-                            "aby ste jedli a pili pri mojom stole v mojom kráľovstve.<br>" +
+                    "Vy ste vytrvali so mnou v mojich skúškach a ja vám dávam kráľovstvo, hovorí Pán, aby ste jedli a pili pri mojom stole v mojom kráľovstve.<br>" +
                             "<font color='#B71C1C'>Alebo:</font> <br>" +
                             "Hľa, odmena svätých je bohatá u Boha: tí, čo umreli pre Krista, budú žiť naveky.", "(Lk 22, 28 – 30)"},
             {"21", "2", "Omša za viacerých mučeníkov 2.", "Spravodliví majú utrpení veľa, ale Pán ich vyslobodil zo všetkých. Pán im ochraňuje všetky kosti, ani jedna sa im nezlomí.<br>" +
@@ -401,8 +398,7 @@ public interface Formular {
             "Kto chce ísť za mnou, nech zaprie sám seba, vezme svoj kríž a nasleduje ma, hovorí Pán.<br>" +
             "<font color='#B71C1C'>Alebo: (Mt 10, 39)</font><br>" +
             "Kto stratí svoj život pre mňa, hovorí Pán, nájde ho naveky.", "(Porov. Mt 16, 24)"},
-        {"22", "2", "Omša za jedného mučeníka 2.", "Toto je vskutku mučeník, ktorý sa nebál hrozieb sudcov, vylial pre Kristovo meno svoju krv<br>" +
-                "a dostal sa do nebeského kráľovstva.<br>" +
+        {"22", "2", "Omša za jedného mučeníka 2.", "Toto je vskutku mučeník, ktorý sa nebál hrozieb sudcov, vylial pre Kristovo meno svoju krv a dostal sa do nebeského kráľovstva.<br>" +
                 "<font color='#B71C1C'>Alebo: (Porov. Fil 3, 8. 10)</font><br>" +
                 "Všetko pokladám za stratu pre vznešenosť poznania Krista Ježiša, môjho Pána, a účasť na jeho utrpení tým, že sa mu pripodobním v smrti.", "",
                 "Ja som vinič, vy ste ratolesti, hovorí Pán. Kto ostáva vo mne a ja v ňom, prináša veľa ovocia.<br>" +

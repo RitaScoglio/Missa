@@ -76,13 +76,11 @@ public interface Spevy_obdobia {
                     "Ustanovil pamiatku na svoje obdivuhodné skutky; Pán je milosrdný a milostivý. Pokrm dal tým, čo sa ho boja.<br>" +
                             "<font color='#B71C1C'>Alebo: (Zjv 3, 20)</font><br>" +
                             "Hľa, stojím pri dverách a klopem, hovorí Pán. Kto počúvne môj hlas a otvorí dvere, k tomu vojdem a budem s ním večerať a on so mnou.", "(Ž 111, 4 – 5)"},
-            {"17", "Boh prebýva vo svojom svätom príbytku; Boh, čo opusteným dáva prebývať v domoch,<br>" +
-                    "on sám dáva silu i statočnosť svojmu ľudu.", "(Porov. Ž 68, 6 – 7. 36)",
+            {"17", "Boh prebýva vo svojom svätom príbytku; Boh, čo opusteným dáva prebývať v domoch, on sám dáva silu i statočnosť svojmu ľudu.", "(Porov. Ž 68, 6 – 7. 36)",
                     "Dobroreč, duša moja, Pánovi a nezabúdaj na jeho dobrodenia. <br>" +
                             "<font color='#B71C1C'>Alebo: (Mt 5, 7 – 8)</font><br>" +
                             "Blahoslavení milosrdní, lebo oni dosiahnu milosrdenstvo. Blahoslavení čistého srdca, lebo oni uvidia Boha.", "(Ž 103, 2)"},
-            {"18", "Bože, príď mi na pomoc, Pane, ponáhľaj sa mi pomáhať.<br>" +
-                    "Ty si moja pomoc a môj osloboditeľ, Pane, nemeškaj.", "(Ž 70, 2. 6)",
+            {"18", "Bože, príď mi na pomoc, Pane, ponáhľaj sa mi pomáhať. Ty si moja pomoc a môj osloboditeľ, Pane, nemeškaj.", "(Ž 70, 2. 6)",
                     "Dal si nám chlieb z neba, Pane, ktorý má v sebe všetku slasť a uspokojí každú chuť.<br>" +
                             "<font color='#B71C1C'>Alebo: (Jn 6, 35)</font><br>" +
                             "Ja som chlieb života, hovorí Pán. Kto prichádza ku mne, nikdy nebude hladovať, a kto verí vo mňa, nikdy nebude žízniť.", "(Múd 16, 20)"},
@@ -95,8 +93,7 @@ public interface Spevy_obdobia {
                             "<font color='#B71C1C'>Alebo: (Jn 6, 51 – 52)</font><br>" +
                             "Ja som živý chlieb, ktorý zostúpil z neba, hovorí Pán; kto bude jesť z tohto chleba, bude žiť naveky.", "(Ž 130, 7)"},
             {"21", "Nakloň, Pane, svoj sluch a vyslyš ma; zachráň, Bože, svojho sluhu, ktorý dúfa v teba. Zmiluj sa, Pane, nado mnou, veď k tebe volám deň čo deň.", "(Porov. Ž 86, 1 – 3)",
-                    "Plodmi svojich diel sýtiš zem, Pane;<br>" +
-                            "zo zeme vyvádzaš chlieb i víno, čo obveseľuje srdce človeka.<br>" +
+                    "Plodmi svojich diel sýtiš zem, Pane; zo zeme vyvádzaš chlieb i víno, čo obveseľuje srdce človeka.<br>" +
                             "<font color='#B71C1C'>Alebo: (Jn 6, 54)</font><br>" +
                             "Kto je moje telo a pije moju krv, má večný život, hovorí Pán, a ja ho vzkriesim v posledný deň.", "(Porov. Ž 104, 13 – 15)"},
             {"22", "Zmiluj sa Pane, nado mnou, veď k tebe volám deň čo deň; lebo ty, Pane, si dobrý a láskavý a veľmi milostivý voči všetkým, čo ťa vzývajú.", "(Porov. Ž 86, 3. 5)",
@@ -155,11 +152,8 @@ public interface Spevy_obdobia {
 
     String[][] postSpev = {
             {"03", "Pane, zmilúvaš sa nad všetkými a nepohŕdaš ničím, čo si stvoril; zatváraš oči nad hriechmi ľudí, aby sa kajali, a si k nim láskavý, lebo si Boh a náš Pán.", "(Porov. Múd 11, 24. 25. 27)",
-                    "Kto o zákone Pánovom rozjíma dňom i nocou,<br>" +
-                            "prináša ovocie v pravý čas.", "(Porov. Ž 1, 2 – 3)"},
-            {"04", "Volal som k Pánovi, a vypočul môj hlas.<br>" +
-                    "Vyslobodil ma z moci tých, čo na mňa útočia.<br>" +
-                    "Zlož svoju starosť na Pána a on ťa zachová.", "(Porov. Ž 55, 17 – 20. 23)",
+                    "Kto o zákone Pánovom rozjíma dňom i nocou, prináša ovocie v pravý čas.", "(Porov. Ž 1, 2 – 3)"},
+            {"04", "Volal som k Pánovi, a vypočul môj hlas. Vyslobodil ma z moci tých, čo na mňa útočia. Zlož svoju starosť na Pána a on ťa zachová.", "(Porov. Ž 55, 17 – 20. 23)",
                     "Bože, stvor vo mne srdce čisté a v mojom vnútri obnov ducha pevného.", "(Porov. Ž 51, 12)"},
             {"05", "Čuj, Pane, a zmiluj sa nado mnou; Pane, buď mi na pomoci.", "(Ž 30, 11)",
                     "Ukáž nám, Pane, svoje cesty a pouč nás o svojich chodníkoch.", "(Ž 25, 4)"},
@@ -174,8 +168,7 @@ public interface Spevy_obdobia {
             {"12", "Pane, stal si sa nám útočišťom z pokolenia na pokolenie; ty si od vekov až na veky.", "(Porov. Ž 90, 1 – 2)",
                     "Bože, spravodlivosť moja, ty si ma vyslyšal, keď som volal o pomoc; v súžení si mi uľavil. Zmiluj sa nado mnou, Pane, a vyslyš moju modlitbu.", "(Porov. Ž 4, 2)"},
             {"13", "Rozpomeň sa, Pane, na svoje zľutovanie a na svoje milosrdenstvo, ktoré trvá od vekov. Nech naši nepriatelia nezvíťazia nad nami. Vysloboď nás, Bože Izraela, zo všetkých našich úzkostí.", "(Porov. Ž 25, 6. 2. 22)",
-                    "Nech sa tešia všetci, čo majú dôveru v teba, Pane,<br>" +
-                            "a naveky nech jasajú, lebo si s nimi.", "(Porov. Ž 5, 12)"},
+                    "Nech sa tešia všetci, čo majú dôveru v teba, Pane, a naveky nech jasajú, lebo si s nimi.", "(Porov. Ž 5, 12)"},
             {"14", "Pane, počuj moje slová, všimni si moje vzdychanie. Pozoruj moju hlasitú prosbu, môj Kráľ a môj Boh.", "(Porov. Ž 5, 2 – 3)",
                     "Každý, kto prosí, dostane, a kto hľadá, nájde, a kto klope, tomu otvoria.", "(Mt 7, 8)"},
             {"15", "Vytrhni ma, Pane, z mojich tiesní. Pozri na moju pokoru a na moje trápenie a odpusť mi všetky priestupky.", "(Porov. Ž 25, 17 – 18)",
@@ -184,10 +177,7 @@ public interface Spevy_obdobia {
                     "Buďte dokonalí, ako je dokonalý váš nebeský Otec, hovorí Pán.", "(Mt 5, 48)"},
             {"20", "V srdci mi znejú tvoje slová: Hľadajte moju tvár. Pane, ja hľadám tvoju tvár, neodvracaj svoju tvár odo mňa.<br>" +
                     "<font color='#B71C1C'>Alebo: (Porov. Ž 25, 6. 2. 22)</font><br>" +
-                    "Rozpomeň sa, Pane, na svoje zľutovanie<br>" +
-                    "a na svoje milosrdenstvo, ktoré trvá od vekov.<br>" +
-                    "Nech naši nepriatelia nezvíťazia nad nami.<br>" +
-                    "Vysloboď nás, Bože Izraela, zo všetkých našich úzkostí.", "(Porov. Ž 27, 8 – 9)",
+                    "Rozpomeň sa, Pane, na svoje zľutovanie a na svoje milosrdenstvo, ktoré trvá od vekov. Nech naši nepriatelia nezvíťazia nad nami. Vysloboď nás, Bože Izraela, zo všetkých našich úzkostí.", "(Porov. Ž 27, 8 – 9)",
                     "Toto je môj milovaný Syn, v ktorom mám zaľúbenie, počúvajte ho.", "(Mt 17, 5) "},
             {"21", "Vykúp ma, Pane, a buď mi milostivý. Moja noha stojí na rovnej ceste; v zhromaždeniach chcem velebiť Pána.", "(Porov. Ž 26, 11 – 12)",
                     "Buďte milosrdní, ako je milosrdný váš Otec, hovorí Pán.", "(Lk 6, 36)"},
@@ -221,16 +211,12 @@ public interface Spevy_obdobia {
                     "Milovať Boha z celého srdca a blížneho ako seba samého je viac ako všetky obety.", "(Porov. Mk 12, 33)"},
             {"36", "Dobroreč, duša moja, Pánovi a nezabúdaj na jeho dobrodenia; veď on ti odpúšťa všetky neprávosti.", "(Ž 103, 2 – 3)",
                     "Mýtnik stál celkom vzadu, bil sa do pŕs a hovoril: Bože, buď milostivý mne hriešnemu.", "(Lk 18, 13)"},
-            {"40", "Raduj sa, Jeruzalem,<br>" +
-                    "zhromaždite sa všetci, čo ho milujete;<br>" +
-                    "radujte sa a jasajte, čo ste trúchlili, <br>" +
-                    "plesajte a čerpajte z bohatých zdrojov útechy.", "(Porov. Iz 66, 10 – 11)",
+            {"40", "Raduj sa, Jeruzalem, zhromaždite sa všetci, čo ho milujete; radujte sa a jasajte, čo ste trúchlili, plesajte a čerpajte z bohatých zdrojov útechy.", "(Porov. Iz 66, 10 – 11)",
                     "Ak sa číta evanjelium o slepom od narodenia:<br>" +
-                            "Pán mi potrel oči, šiel som, umyl som sa a vidím, a uveril som v Boha.<br>" +
-                            "Ak sa číta evanjelium o márnotratnom synovi: <br>" +
+                            "Pán mi potrel oči, šiel som, umyl som sa a vidím, a uveril som v Boha. Ak sa číta evanjelium o márnotratnom synovi: " +
                             "(Lk 15, 32)<br>" +
                             "Syn môj, patrí sa ti radovať, lebo tvoj brat bol mŕtvy, a ožil, bol stratený, a našiel sa.<br>" +
-                            "Ak sa číta iné evanjelium: <br>" +
+                            "Ak sa číta iné evanjelium: " +
                             "(Porov. Ž 122, 3 – 4)<br>" +
                             "Jeruzalem je vystavaný ako mesto spojené v jeden celok. Tam prichádzajú kmene, kmene Pánove, aby velebili meno Pánovo.", "(Porov. Jn 9, 11. 38) "},
             {"41", "Ja dúfam v Pána; plesám a teším sa, že si milosrdný, lebo si zhliadol na moju poníženosť.", "(Porov. Ž 31, 7 – 8)",
@@ -285,8 +271,7 @@ public interface Spevy_obdobia {
                     "Požehnaný, ktorý prináša milosrdenstvo a spásu.", "(Porov. Jn 12, 1. 12 – 13; Ž 24, 9 – 10)",
                     "Otče môj, ak ma tento kalich nemôže minúť <br>" +
                             "a musím ho piť, nech sa stane tvoja vôľa.", "(Mt 26, 42)"},
-            {"61", "Pane, odsúď tých, čo mňa odsudzujú, napadni tých, čo mňa napádajú.<br>" +
-                    "Vezmi zbroj a štít a vstaň mi na pomoc, Pane, moja sila a záštita.", "(Porov. Ž 35, 1 – 2; Ž 140, 8)",
+            {"61", "Pane, odsúď tých, čo mňa odsudzujú, napadni tých, čo mňa napádajú. Vezmi zbroj a štít a vstaň mi na pomoc, Pane, moja sila a záštita.", "(Porov. Ž 35, 1 – 2; Ž 140, 8)",
                     "Neskrývaj svoju tvár predo mnou; v deň môjho súženia nakloň ku mne svoj sluch; kedykoľvek ťa budem vzývať, čím skôr ma vypočuj.", "(Porov. Ž 102, 3)"},
             {"62", "Pane, nevydávaj ma zvoli utláčateľov, veď povstali proti mne kriví svedkovia, dychtiví po násilí.", "(Porov. Ž 27, 12)",
                     "Boh vlastného Syna neušetril, ale vydal ho za nás všetkých.", "(Rim 8, 32)"},
@@ -311,8 +296,7 @@ public interface Spevy_obdobia {
                     "radujme sa všetci a plesajme, lebo on naveky kraľuje, aleluja.", "(Ex 13, 5. 9)",
                     "Kristus vzkriesený z mŕtvych už neumiera, smrť nad ním už nepanuje, aleluja.", "(Rim 6, 9)"},
             {"12", "Vodou múdrosti ich napojil; spevnie v ňom, takže sa nezohne, a povýši ich naveky, aleluja.", "(Porov. Sir 15, 3 – 4)",
-                    "Ak ste s Kristom vstali z mŕtvych, hľadajte, čo je hore, kde Kristus sedí po pravici Boha;<br>" +
-                            "myslite na to, čo je hore, aleluja.", "(Kol 3, 1 – 2)"},
+                    "Ak ste s Kristom vstali z mŕtvych, hľadajte, čo je hore, kde Kristus sedí po pravici Boha; myslite na to, čo je hore, aleluja.", "(Kol 3, 1 – 2)"},
             {"13", "Poďte, požehnaní môjho Otca, zaujmite kráľovstvo, ktoré je pre vás pripravené od stvorenia sveta, aleluja.", "(Porov. Mt 25, 34)",
                     "Učeníci spoznali Pána Ježiša pri lámaní chleba, aleluja.", "(Porov. Lk 24, 35)"},
             {"14", "Svorne velebili tvoju víťaznú ruku, Pane, lebo múdrosť otvorila ústa nemým a rozviazala jazyk maličkým, aleluja.", "(Múd 10, 20 – 21)",
@@ -321,28 +305,21 @@ public interface Spevy_obdobia {
                     "Ježiš povedal svojim učeníkom: Poďte jesť! Vzal chlieb a dával im, aleluja.", "(Porov. Jn 21, 12 – 13)"},
             {"16", "Pán viedol svoj ľud v radosti vyvolených svojich s plesaním, aleluja.", "(Ž 105, 43)",
                     "Všetci, čo ste pokrstení v Kristovi, Krista ste si obliekli, aleluja.", "(Gal 3, 27)"},
-            {"20", "Ako novonarodené deti túžte po nefalšovanom duchovnom mlieku,<br>" +
-                    "aby ste od neho rástli na spásu, aleluja.<br>" +
+            {"20", "Ako novonarodené deti túžte po nefalšovanom duchovnom mlieku, aby ste od neho rástli na spásu, aleluja.<br>" +
                     "<font color='#B71C1C'>Alebo: (4 Ezd 2, 36 – 37)</font><br>" +
                     "Radujte sa zo svojej slávy a vzdávajte vďaky Bohu, že vás povolal do nebeského kráľovstva, aleluja.", "(1 Pt 2, 2)",
                     "Vystri ruku a dotkni sa rán po klincoch a nebuď neveriaci, ale veriaci, aleluja.", "(Porov. Jn 20, 27)"},
             {"21", "Kristus vzkriesený z mŕtvych už neumiera, smrť nad ním už nepanuje, aleluja.", "(Rim 6, 9)",
                     "Ježiš si stal doprostred svojich učeníkov a povedal im: Pokoj vám, aleluja.", "(Jn 20, 19)"},
             {"22", "Radujme sa a plesajme, vzdávajme Bohu slávu, lebo začal kraľovať Pán, náš všemohúci Boh, aleluja.", "(Zjv 19, 7. 6)",
-                    "Mesiáš musel trpieť a vstať z mŕtvych,<br>" +
-                            "a tak vojsť do svojej slávy, aleluja.", "(Porov. Lk 24, 46. 26)"},
-            {"23", "Budem ťa, Pane, velebiť medzi národmi;<br>" +
-                    "tvoje meno chcem zvestovať svojim bratom, aleluja.", "(Porov. Ž 18, 50; 22, 23)",
-                    "Pán hovorí: Ja som si vás vyvolil zo sveta<br>" +
-                            "a ustanovil som vás, aby ste išli a prinášali ovocie<br>" +
-                            "a aby vaše ovocie zostalo, aleluja.", "(Porov. Jn 15, 16. 19)"},
+                    "Mesiáš musel trpieť a vstať z mŕtvych, a tak vojsť do svojej slávy, aleluja.", "(Porov. Lk 24, 46. 26)"},
+            {"23", "Budem ťa, Pane, velebiť medzi národmi; tvoje meno chcem zvestovať svojim bratom, aleluja.", "(Porov. Ž 18, 50; 22, 23)",
+                    "Pán hovorí: Ja som si vás vyvolil zo sveta a ustanovil som vás, aby ste išli a prinášali ovocie a aby vaše ovocie zostalo, aleluja.", "(Porov. Jn 15, 16. 19)"},
             {"24", "Bože, keď si kráčal na čele svojho ľudu, kliesnil si mu cestu a býval si s ním; zem sa zatriasla a rozpršala sa obloha, aleluja.", "(Porov. Ž 68, 8 – 9. 20)",
                     "Hľa, ja som s vami po všetky dni až do skončenia sveta, aleluja.", "(Mt 28, 20)"},
-            {"25", "Vykúpil si nás svojou krvou, Pane, ľudí z každého kmeňa, jazyka, ľudu a národa<br>" +
-                    "a urobil si nás kráľovstvom a kňazmi nášmu Bohu, aleluja.", "(Zjv 5, 9 – 10)",
+            {"25", "Vykúpil si nás svojou krvou, Pane, ľudí z každého kmeňa, jazyka, ľudu a národa a urobil si nás kráľovstvom a kňazmi nášmu Bohu, aleluja.", "(Zjv 5, 9 – 10)",
                     "Kristus, náš Pán, bol vydaný za naše hriechy a vzkriesený pre naše ospravedlnenie, aleluja.", "(Rim 4, 25)"},
-            {"26", "Ľud určený na vlastníctvo, zvestuj slávne skutky toho,<br>" +
-                    "ktorý ťa z tmy povolal do svojho obdivuhodného svetla, aleluja.", "(Porov. 1 Pt 2, 9)",
+            {"26", "Ľud určený na vlastníctvo, zvestuj slávne skutky toho, ktorý ťa z tmy povolal do svojho obdivuhodného svetla, aleluja.", "(Porov. 1 Pt 2, 9)",
                     "Otče, chcem, aby aj tí, ktorých si mi dal, boli so mnou tam, kde som ja, aby videli moju slávu, ktorú si mi dal, aleluja.", "(Jn 17, 24)"},
             {"30", "Jasaj Bohu, celá zem, hrajte a spievajte na slávu jeho mena, vzdávajte mu chválu, aleluja.", "(Porov. Ž 66, 1 – 2)",
                     "Rok A<br>" +
@@ -356,20 +333,16 @@ public interface Spevy_obdobia {
                             "(Porov. Jn 21, 12 – 13)<br>" +
                             "Ježiš povedal svojim učeníkom: Poďte jesť. Potom vzal chlieb a dával im, aleluja.", "(Lk 24, 35) "},
             {"31", "Vstal z mŕtvych Dobrý pastier, ktorý dal svoj život za svoje ovce a ochotne umrel za svoje stádo, aleluja.", "",
-                    "Pokoj vám zanechávam, svoj pokoj vám dávam;<br>" +
-                            "ale ja vám nedávam, ako svet dáva, hovorí Pán, aleluja.", "(Jn 14, 27)"},
+                    "Pokoj vám zanechávam, svoj pokoj vám dávam; ale ja vám nedávam, ako svet dáva, hovorí Pán, aleluja.", "(Jn 14, 27)"},
             {"32", "Chváľte nášho Boha všetci, čo sa ho bojíte, malí i veľkí, lebo nastala spása, moc a vláda jeho Pomazaného, aleluja.", "(Zjv 19, 5; 12, 10)",
                     "Ak sme zomreli s Kristom, veríme, že s ním budeme aj žiť, aleluja.", "(Rim 6, 8)"},
-            {"33", "Nech sa mi ústa naplnia tvojou oslavou a nech ťa velebím deň čo deň;<br>" +
-                    "jasať budú moje pery, keď ti zaspievam, aleluja.", "(Porov. Ž 71, 8. 23)",
+            {"33", "Nech sa mi ústa naplnia tvojou oslavou a nech ťa velebím deň čo deň; jasať budú moje pery, keď ti zaspievam, aleluja.", "(Porov. Ž 71, 8. 23)",
                     "Pán vstal z mŕtvych a zažiaril nám, vykúpil nás svojou krvou, aleluja.", ""},
             {"34", "Spievajme Pánovi, lebo sa preslávil. Pán je moja sila a moja udatnosť, on ma zachránil, aleluja.", "(Porov. Ex 15, 1 – 2)",
-                    "Kristus zomrel za všetkých, aby aj tí, čo žijú, už nežili pre seba,<br>" +
-                            "ale pre toho, ktorý za nich zomrel a vstal z mŕtvych, aleluja.", "(2 Kor 5, 15)"},
+                    "Kristus zomrel za všetkých, aby aj tí, čo žijú, už nežili pre seba, ale pre toho, ktorý za nich zomrel a vstal z mŕtvych, aleluja.", "(2 Kor 5, 15)"},
             {"35", "Hoden je Baránok, ktorý bol zabitý, prijať moc, bohatstvo a múdrosť, silu a česť, aleluja.", "(Zjv 5, 12)",
                     "Ukrižovaný vstal z mŕtvych a vykúpil nás, aleluja.", ""},
-            {"36", "S Kristom ste boli pochovaní v krste a v ňom ste boli s ním aj vzkriesení vierou v moc Boha,<br>" +
-                    "ktorý ho vzkriesil z mŕtvych, aleluja.", "(Kol 2, 12)",
+            {"36", "S Kristom ste boli pochovaní v krste a v ňom ste boli s ním aj vzkriesení vierou v moc Boha, ktorý ho vzkriesil z mŕtvych, aleluja.", "(Kol 2, 12)",
                     "Otče, prosím za nich, aby aj oni boli v nás jedno, aby svet uveril, že si ma ty poslal, hovorí Pán, aleluja.", "(Jn 17, 20 – 21)"},
             {"40", "Milosti Pánovej plná je zem; Pánovým slovom povstali nebesia, aleluja.", "(Porov. Ž 33, 5. 6)",
                     "Dobrý pastier, ktorý dal život za svoje ovečky a neváhal za ne podstúpiť smrť na kríži,<br>" +
@@ -379,75 +352,54 @@ public interface Spevy_obdobia {
             {"42", "Radujme sa a plesajme, vzdávajme Bohu slávu, lebo začal kraľovať Pán, náš všemohúci Boh, aleluja.", "(Zjv 19, 7. 6)",
                     "Mesiáš musel trpieť a vstať z mŕtvych, a tak vojsť do svojej slávy, aleluja.", "(Porov. Lk 24, 46. 26)"},
             {"43", "Budem ťa, Pane, velebiť medzi národmi; tvoje meno chcem zvestovať svojim bratom, aleluja.", "(Porov. Ž 18, 50; 22, 23)",
-                    "Pán hovorí: Ja som si vás vyvolil zo sveta a ustanovil som vás, aby ste išli a prinášali ovocie<br>" +
-                            "a aby vaše ovocie zostalo, aleluja.", "(Porov. Jn 15, 16. 19)"},
-            {"44", "Bože, keď si kráčal na čele svojho ľudu, kliesnil si mu cestu a býval si s ním;<br>" +
-                    "zem sa zatriasla a rozpršala sa obloha, aleluja.", "(Porov. Ž 68, 8 – 9. 20)",
+                    "Pán hovorí: Ja som si vás vyvolil zo sveta a ustanovil som vás, aby ste išli a prinášali ovocie a aby vaše ovocie zostalo, aleluja.", "(Porov. Jn 15, 16. 19)"},
+            {"44", "Bože, keď si kráčal na čele svojho ľudu, kliesnil si mu cestu a býval si s ním; zem sa zatriasla a rozpršala sa obloha, aleluja.", "(Porov. Ž 68, 8 – 9. 20)",
                     "Hľa, ja som s vami po všetky dni až do skončenia sveta, aleluja.", "(Mt 28, 30)"},
-            {"45", "Vykúpil si nás svojou krvou, Pane, ľudí z každého kmeňa, jazyka, ľudu a národa<br>" +
-                    "a urobil si nás kráľovstvom a kňazmi nášmu Bohu, aleluja.", "(Zjv 5, 9 – 10)",
+            {"45", "Vykúpil si nás svojou krvou, Pane, ľudí z každého kmeňa, jazyka, ľudu a národa a urobil si nás kráľovstvom a kňazmi nášmu Bohu, aleluja.", "(Zjv 5, 9 – 10)",
                     "Kristus, náš Pán, bol vydaný za naše hriechy a vzkriesený pre naše ospravedlnenie, aleluja.", "(Rim 4, 25)"},
-            {"46", "Ľud určený na vlastníctvo, zvestujte slávne skutky toho,<br>" +
-                    "ktorý vás z tmy povolal do svojho obdivuhodného svetla, aleluja.", "(Porov. 1 Pt 2, 9)",
-                    "Otče, chcem, aby aj tí, ktorých si mi dal, boli so mnou tam, kde som ja,<br>" +
-                            "aby videli moju slávu, ktorú si mi dal, aleluja.", "(Jn 17, 24)"},
-            {"50", "Spievajte Pánovi pieseň novú, lebo vykonal veci zázračné;<br>" +
-                    "pred očami pohanov vyjavil svoju spravodlivosť, aleluja.", "(Porov. Ž 98, 1 – 2)",
-                    "Ja som pravý vinič, vy ste ratolesti, hovorí Pán;<br>" +
-                            "kto ostáva vo mne a ja v ňom, prináša veľa ovocia, aleluja.", "(Jn 15, 1. 5)"},
-            {"51", "Vstal z mŕtvych Dobrý pastier, ktorý dal život za svoje ovce,<br>" +
-                    "a ochotne umrel za svoje stádo, aleluja.", "",
+            {"46", "Ľud určený na vlastníctvo, zvestujte slávne skutky toho, ktorý vás z tmy povolal do svojho obdivuhodného svetla, aleluja.", "(Porov. 1 Pt 2, 9)",
+                    "Otče, chcem, aby aj tí, ktorých si mi dal, boli so mnou tam, kde som ja, aby videli moju slávu, ktorú si mi dal, aleluja.", "(Jn 17, 24)"},
+            {"50", "Spievajte Pánovi pieseň novú, lebo vykonal veci zázračné; pred očami pohanov vyjavil svoju spravodlivosť, aleluja.", "(Porov. Ž 98, 1 – 2)",
+                    "Ja som pravý vinič, vy ste ratolesti, hovorí Pán; kto ostáva vo mne a ja v ňom, prináša veľa ovocia, aleluja.", "(Jn 15, 1. 5)"},
+            {"51", "Vstal z mŕtvych Dobrý pastier, ktorý dal život za svoje ovce, a ochotne umrel za svoje stádo, aleluja.", "",
                     "Pokoj vám zanechávam, svoj pokoj vám dávam; ale ja vám nedávam, ako svet dáva, hovorí Pán, aleluja.", "(Jn 14, 27)"},
             {"52", "Chváľte nášho Boha všetci, čo sa ho bojíte, malí i veľkí, lebo nastala spása, moc a vláda jeho Pomazaného, aleluja.", "(Zjv 19, 5; 12, 10)",
                     "Ak sme zomreli s Kristom, veríme, že s ním budeme aj žiť, aleluja.", "(Rim 6, 8)"},
-            {"53", "Nech sa mi ústa naplnia tvojou oslavou a nech ťa velebím deň čo deň;<br>" +
-                    "jasať budú moje pery, keď ti zaspievam, aleluja.", "(Porov. Ž 71, 8. 23)",
+            {"53", "Nech sa mi ústa naplnia tvojou oslavou a nech ťa velebím deň čo deň; jasať budú moje pery, keď ti zaspievam, aleluja.", "(Porov. Ž 71, 8. 23)",
                     "Pán vstal z mŕtvych a zažiaril nám, vykúpil nás svojou krvou, aleluja.", ""},
             {"54", "Spievajme Pánovi, lebo sa preslávil. Pán je moja sila a moja udatnosť, on ma zachránil, aleluja.", "(Porov. Ex 15, 1 – 2)",
                     "Kristus zomrel za všetkých, aby aj tí, čo žijú, už nežili pre seba, ale pre toho, ktorý za nich zomrel a vstal z mŕtvych, aleluja.", "(2 Kor 5, 15)"},
             {"55", "Hoden je Baránok, ktorý bol zabitý, prijať moc, bohatstvo a múdrosť, silu a česť, aleluja.", "(Zjv 5, 12)",
                     "Ukrižovaný vstal z mŕtvych a vykúpil nás, aleluja.", ""},
-            {"56", "S Kristom ste boli pochovaní v krste a v ňom ste boli s ním aj vzkriesení vierou v moc Boha,<br>" +
-                    "ktorý ho vzkriesil z mŕtvych, aleluja.", "(Kol 2, 12)",
-                    "Otče, prosím za nich, aby aj oni boli v nás jedno, aby svet uveril, že si ma ty poslal,<br>" +
-                            "hovorí Pán, aleluja.", "(Jn 17, 20 – 21)"},
+            {"56", "S Kristom ste boli pochovaní v krste a v ňom ste boli s ním aj vzkriesení vierou v moc Boha, ktorý ho vzkriesil z mŕtvych, aleluja.", "(Kol 2, 12)",
+                    "Otče, prosím za nich, aby aj oni boli v nás jedno, aby svet uveril, že si ma ty poslal, hovorí Pán, aleluja.", "(Jn 17, 20 – 21)"},
             {"60", "Nadšene ohlasujte, aby to bolo počuť, zvestujte to až po kraj zeme; Pán vyslobodil svoj ľud, aleluja.", "(Porov. Iz 48, 20)",
                     "Ak ma milujete, budete zachovávať moje prikázania, hovorí Pán. A ja poprosím Otca a on vám dá iného Tešiteľa, aby zostal s vami naveky, aleluja.", "(Jn 14, 15 – 16)"},
             {"61", "Kristus vzkriesený z mŕtvych už neumiera, smrť nad ním už nepanuje, aleluja.", "(Rim 6, 9)",
                     "Ježiš si stal doprostred svojich učeníkov a povedal im: Pokoj vám, aleluja.", "(Jn 20, 19)"},
-            {"62", "Radujme sa a plesajme, vzdávajme Bohu slávu,<br>" +
-                    "lebo začal kraľovať Pán, náš všemohúci Boh, aleluja.", "(Zjv 19, 7. 6)",
+            {"62", "Radujme sa a plesajme, vzdávajme Bohu slávu, lebo začal kraľovať Pán, náš všemohúci Boh, aleluja.", "(Zjv 19, 7. 6)",
                     "Mesiáš musel trpieť a vstať z mŕtvych, a tak vojsť do svojej slávy, aleluja.", "(Porov. Lk 24, 46. 26)"},
             {"63", "Budem ťa, Pane, velebiť medzi národmi; tvoje meno chcem zvestovať svojim bratom, aleluja.", "(Porov. Ž 18, 50; 22, 23)",
-                    "Pán hovorí: Ja som si vás vyvolil zo sveta a ustanovil som vás, aby ste išli a prinášali ovocie<br>" +
-                            "a aby vaše ovocie zostalo, aleluja.", "(Porov. Jn 15, 16. 19)"},
+                    "Pán hovorí: Ja som si vás vyvolil zo sveta a ustanovil som vás, aby ste išli a prinášali ovocie a aby vaše ovocie zostalo, aleluja.", "(Porov. Jn 15, 16. 19)"},
             {"64", "Bože, keď si kráčal na čele svojho ľudu, kliesnil si im cestu a býval si s nimi; zem sa zatriasla a rozpršala sa aj obloha, aleluja.", "(Porov. Ž 68, 8 – 9. 20)",
                     "Hľa, ja som s vami po všetky dni až do skončenia sveta, aleluja.", "(Mt 28, 20)"},
-            {"65", "Vykúpil si nás svojou krvou, Pane, ľudí z každého kmeňa, jazyka, ľudu a národa<br>" +
-                    "a urobil si nás kráľovstvom a kňazmi nášmu Bohu, aleluja.", "(Zjv 5, 9 – 10)",
+            {"65", "Vykúpil si nás svojou krvou, Pane, ľudí z každého kmeňa, jazyka, ľudu a národa a urobil si nás kráľovstvom a kňazmi nášmu Bohu, aleluja.", "(Zjv 5, 9 – 10)",
                     "Kristus, náš Pán, bol vydaný za naše hriechy a vzkriesený pre naše ospravedlnenie, aleluja.", "(Rim 4, 25)"},
-            {"66", "Ľud určený na vlastníctvo, zvestuj slávne skutky toho,<br>" +
-                    "ktorý ťa z tmy povolal do svojho obdivuhodného svetla, aleluja.", "(Porov. 1 Pt 2, 9)",
+            {"66", "Ľud určený na vlastníctvo, zvestuj slávne skutky toho, ktorý ťa z tmy povolal do svojho obdivuhodného svetla, aleluja.", "(Porov. 1 Pt 2, 9)",
                     "Otče, chcem, aby aj tí, ktorých si mi dal, boli so mnou tam, kde som ja, aby videli moju slávu, ktorú si mi dal, aleluja.", "(Jn 17, 24)"},
             {"70", "Čuj, Pane, hlas môjho volania. V srdci mi znejú tvoje slová: Hľadajte moju tvár. Pane, ja hľadám tvoju tvár; neodvracaj svoju tvár odo mňa, aleluja.", "(Porov. Ž 27, 7 – 9)",
                     "Otče, prosím ťa, aby boli jedno, ako sme my jedno, aleluja.", "(Jn 17, 22)"},
             {"71", "Dostanete silu Ducha Svätého, ktorý na vás zostúpi; a budete mi svedkami až po samý kraj zeme, aleluja.", "(Sk 1, 8)",
                     "Nenechám vás ako siroty, hovorí Pán: zasa k vám prídem, a vaše srdce sa bude radovať, aleluja.", "(Jn 14, 18; 16, 22)"},
             {"72", "Ja som Prvý a Posledný a Živý. Bol som mŕtvy, a hľa, žijem na veky vekov, aleluja.", "(Zjv 1, 17 – 18)",
-                    "Duch Svätý, ktorého pošle Otec v mojom mene, naučí vás všetko a pripomenie vám všetko,<br>" +
-                            "čo som vám povedal, hovorí Pán, aleluja.", "(Jn 14, 26)"},
+                    "Duch Svätý, ktorého pošle Otec v mojom mene, naučí vás všetko a pripomenie vám všetko, čo som vám povedal, hovorí Pán, aleluja.", "(Jn 14, 26)"},
             {"73", "Tlieskajte rukami, všetky národy, jasajte Bohu hlasom radostným, aleluja.", "(Ž 47, 2)",
-                    "Keď príde Tešiteľ, ktorého vám ja pošlem, Duch pravdy, ktorý vychádza od Otca,<br>" +
-                            "on o mne vydá svedectvo. Aj vy vydávate svedectvo, hovorí Pán, aleluja.", "(Jn 15, 26 – 27)"},
-            {"74", "Pristupujme s dôverou k trónu milosti, aby sme dosiahli milosrdenstvo a našli milosť <br>" +
-                    "a pomoc v pravom čase, aleluja.", "(Hebr 4, 16)",
-                    "Hovorím vám pravdu: Je pre vás osožnejšie, aby som odišiel;<br>" +
-                            "lebo ak neodídem, Tešiteľ k vám nepríde, hovorí Pán, aleluja.", "(Jn 16, 7)"},
-            {"75", "Kristus nás miluje a svojou krvou nás oslobodil od hriechov <br>" +
-                    "a urobil nás kráľovstvom, kňazmi Bohu a svojmu Otcovi, aleluja.", "(Zjv 1, 5 – 6)",
+                    "Keď príde Tešiteľ, ktorého vám ja pošlem, Duch pravdy, ktorý vychádza od Otca, on o mne vydá svedectvo. Aj vy vydávate svedectvo, hovorí Pán, aleluja.", "(Jn 15, 26 – 27)"},
+            {"74", "Pristupujme s dôverou k trónu milosti, aby sme dosiahli milosrdenstvo a našli milosť  a pomoc v pravom čase, aleluja.", "(Hebr 4, 16)",
+                    "Hovorím vám pravdu: Je pre vás osožnejšie, aby som odišiel; lebo ak neodídem, Tešiteľ k vám nepríde, hovorí Pán, aleluja.", "(Jn 16, 7)"},
+            {"75", "Kristus nás miluje a svojou krvou nás oslobodil od hriechov a urobil nás kráľovstvom, kňazmi Bohu a svojmu Otcovi, aleluja.", "(Zjv 1, 5 – 6)",
                     "Keď príde Duch pravdy, uvedie vás do plnej pravdy, hovorí Pán, aleluja.", "(Jn 16, 13)"},
-            {"76", "Učeníci jednomyseľne zotrvávali na modlitbách spolu so ženami,<br>" +
-                    "s Ježišovou matkou Máriou a jeho bratmi, aleluja.", "(Sk 1, 14)",
+            {"76", "Učeníci jednomyseľne zotrvávali na modlitbách spolu so ženami, s Ježišovou matkou Máriou a jeho bratmi, aleluja.", "(Sk 1, 14)",
                     "Duch Svätý ma oslávi, lebo z môjho vezme a zvestuje vám, hovorí Pán, aleluja.", "(Jn l6, 14)"},
     };
 
