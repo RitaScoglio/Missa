@@ -11,7 +11,6 @@ import android.support.design.internal.NavigationMenuView;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -19,7 +18,6 @@ import android.support.v7.widget.SwitchCompat;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -38,7 +36,6 @@ import org.joda.time.Days;
 
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Locale;
 
 import sk.missa.interfaces.Svatci;
 
@@ -417,6 +414,18 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         editor.putInt("sizeO", sizeO).apply();
         editor.putInt("sizeN", sizeN).apply();
         editor.putInt("sizeZ", sizeZ).apply();
+    }
+
+    //zisti, ci bola po aktualizacii prvykrat otvorena app
+    //ak je aplikácia otvorena prvykrat po aktualizacii - po zavolani funkcie v uvode nasladne ukaze dialogove okno s informaciou, ze aplikacia obsahuje novy misal
+    public boolean showActualisationDialog() {
+        settings = getApplicationContext().getSharedPreferences("MySviatok", 0);
+        boolean firstOpenNewMisal = settings.getBoolean("firstOpenNewMisal", true);
+        if(firstOpenNewMisal){
+            SharedPreferences.Editor editor = settings.edit();
+            editor.putBoolean("firstOpenNewMisal", false).apply();
+        }
+        return firstOpenNewMisal;
     }
 
     //získa premenné z uloženej omše v prípade výberu špecialnej omše v menu

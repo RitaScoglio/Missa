@@ -1,12 +1,14 @@
 package sk.missa;
 
 import android.annotation.SuppressLint;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.view.GravityCompat;
+import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -199,6 +201,17 @@ public class Uvod extends Main {
         dtm = findViewById(R.id.datum);
         nastavDatum();
         sviatokDen();
+        if(showActualisationDialog()){
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Aplikácia obsahuje texty z vydania Rímskeho misála (2022).")
+                    .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                        }
+                    });
+            AlertDialog dialog = builder.create();
+            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
+            dialog.show();
+        }
     }
 
     @Override
