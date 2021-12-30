@@ -1677,19 +1677,20 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             if (eucharistia[j + 1].contains("VSUVKA1")) {//vsuvky v EM na výnimočné sviatky
                 if (V && den >= 24) {
                     //Na Narodenie Pána a cez oktávu
-                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[0][1], true));
+                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[0][1]+eucharistia[j+3], true));
                     //Na Zjavenie Pána
                 } else if (V && ID.equals("06gk")) {
-                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[1][1], true));
+                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[1][1]+eucharistia[j+3], true));
                 } else if (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) {
-                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[2][1], true));
+                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[2][1]+eucharistia[j+3], true));
                 } else if (ID.equals("6gkp")) {
-                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[3][1], true));
+                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[3][1]+eucharistia[j+3], true));
                 } else if (ID.equals("2gkp") || ID.equals("3gkp")) {
-                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[4][1], true));
+                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[4][1]+eucharistia[j+3], true));
                 } else {
-                    missas.add(new Missa(null, eucharistia[j], eucharistia[j + 1].replace("VSUVKA1", ""), true));
+                    missas.add(new Missa(null, eucharistia[j], eucharistia[j + 1].replace("VSUVKA1", "")+eucharistia[j+3], true));
                 }
+                j+=2;
             } else if (eucharistia[j + 1].contains("VEZMITE")) {
                 missas.add(new Missa(eucharistia[j], null, true));
                 missas.add(new Missa(null, eucharistia[j + 1], null, false));
