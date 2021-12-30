@@ -18,4 +18,11 @@ public class PrefaciaTest extends TestCase {
         }
     }
 
+    public void testPrefacieIndex(){
+        for (int i = 0; i <prefacie.length; i++) {
+            System.out.println(i+": "+prefacie[i][0] + " "+prefacie[i][1]);
+        }
+    }
+
+
 }

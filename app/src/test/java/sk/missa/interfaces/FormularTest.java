@@ -95,4 +95,89 @@ public class FormularTest extends TestCase {
         }
     }
 
+    public void testFormularSpevZmierenie(){
+        for (String[] strings : spevFormularZmierenie) {
+            try {
+                assertEquals(5, strings.length);
+            } catch (AssertionError e) {
+                System.out.println(strings[0]);
+                throw e;
+            }
+        }
+    }
+
+    public void testFormularModlitbaZmierenie() {
+        for (String[] strings : modlitbaFormularZmierenie) {
+            try {
+                assertEquals(4, strings.length);
+            } catch (AssertionError e) {
+                System.out.println(strings[0]);
+                throw e;
+            }
+        }
+    }
+
+    public void testFormularZmierenieNames(){
+        List<String> spevFormularZmierenieNames = new ArrayList<>();
+        List<String> modlitbaFormularZmierenieNames = new ArrayList<>();
+        for (String[] strings : spevFormularZmierenie) {
+            spevFormularZmierenieNames.add(strings[0]);
+        }
+        for (String[] strings : modlitbaFormularZmierenie) {
+            modlitbaFormularZmierenieNames.add(strings[0]);
+        }
+        for(int i = 0; i <spevFormularZmierenieNames.size(); i++){
+            try {
+                assertEquals(spevFormularZmierenieNames.get(i), modlitbaFormularZmierenieNames.get(i));
+            } catch (AssertionError e){
+                System.out.println(spevFormularZmierenieNames.get(i)+" -> "+ modlitbaFormularZmierenieNames.get(i));
+                throw e;
+            }
+        }
+    }
+
+    public void testFormularSpevZosnuly(){
+        for (String[] strings : spevFormularZosnuly) {
+            try {
+                //System.out.println("formArray.add(new String[]{\""+strings[0] + "\", \""+ strings[1] + "\", \"" + strings[2] + "\"});");
+                assertEquals(7, strings.length);
+            } catch (AssertionError e) {
+                System.out.println(strings[2]);
+                throw e;
+            }
+        }
+    }
+
+    public void testFormularModlitbaZosnuly() {
+        for (String[] strings : modlitbaFormularZosnuly) {
+            try {
+                assertEquals(6, strings.length);
+            } catch (AssertionError e) {
+                System.out.println(strings[2]);
+                throw e;
+            }
+        }
+    }
+
+    public void testFormularZosnulyNames(){
+        List<String> spevFormularZosnulyNames = new ArrayList<>();
+        List<String> modlitbaFormularZosnulyNames = new ArrayList<>();
+        for (String[] strings : spevFormularZosnuly) {
+            spevFormularZosnulyNames.add(strings[0]);
+        }
+        for (String[] strings : modlitbaFormularZosnuly) {
+            modlitbaFormularZosnulyNames.add(strings[0]);
+        }
+        for(int i = 0; i <spevFormularZosnulyNames.size(); i++){
+            try {
+                assertEquals(spevFormularZosnulyNames.get(i), modlitbaFormularZosnulyNames.get(i));
+            } catch (AssertionError e){
+                System.out.println(spevFormularZosnulyNames.get(i)+" -> "+ modlitbaFormularZosnulyNames.get(i));
+                throw e;
+            }
+        }
+    }
+
+
+
 }

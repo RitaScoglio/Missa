@@ -2642,6 +2642,67 @@ public interface Prefacia {
                             "Požehnaný, ktorý prichádza v mene Pánovom!<br>" +
                             "Hosana na výsostiach!"},
 
+            //omse za zmierenie
+            {"1z", "Za jednotu kresťanov", "O jednote Kristovho tela, ktorým je Cirkev",
+                    "<font color='#B71C1C'>V.:</font> Pán s vami.<br>" +
+                            "<font color='#B71C1C'>R.:</font> I s duchom tvojím.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Hore srdcia.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Máme ich u Pána.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Vzdávajme vďaky Pánovi, nášmu Bohu.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Je to dôstojné a správne.<br><br>" +
+                            "Je naozaj dôstojné a správne, dobré a spásonosné<br>" +
+                            "vzdávať vďaky vždy a všade tebe, Pane,<br>" +
+                            "svätý Otče, všemohúci a večný Bože,<br>" +
+                            "skrze nášho Pána Ježiša Krista.<br>" +
+                            "Lebo skrze neho si nás priviedol<br>" +
+                            "k poznaniu svojej pravdy,<br>" +
+                            "aby sme sa zväzkom<br>" +
+                            "jednej viery a jedného krstu<br>" +
+                            "stali jeho tajomným telom.<br>" +
+                            "Skrze neho si všetkým národom<br>" +
+                            "daroval svojho Svätého Ducha,<br>" +
+                            "ktorý rozmanitými darmi<br>" +
+                            "tajomne účinkuje a tvorí jednotu,<br>" +
+                            "prebýva v ľuďoch,<br>" +
+                            "ktorých si ty prijal za svoje deti,<br>" +
+                            "a posväcuje i spravuje celú Cirkev.<br>" +
+                            "Preto ťa spolu s anjelskými chórmi chválime<br>" +
+                            "a radostne vyznávame:<br><br>" +
+                            "Svätý, svätý, svätý Pán, Boh všetkých svetov.<br>" +
+                            "Plné sú, nebesia i zem tvojej slávy.<br>" +
+                            "Hosana na výsostiach!<br>" +
+                            "Požehnaný, ktorý prichádza v mene Pánovom!<br>" +
+                            "Hosana na výsostiach!"},
+            {"2z", "O víťazstve slávneho kríža", "O víťazstve slávneho kríža",
+                    "<font color='#B71C1C'>V.:</font> Pán s vami.<br>" +
+                            "<font color='#B71C1C'>R.:</font> I s duchom tvojím.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Hore srdcia.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Máme ich u Pána.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Vzdávajme vďaky Pánovi, nášmu Bohu.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Je to dôstojné a správne.<br><br>" +
+                            "Je naozaj dôstojné a správne, dobré a spásonosné<br>" +
+                            "vzdávať vďaky vždy a všade tebe, Pane,<br>" +
+                            "svätý Otče, všemohúci a večný Bože.<br>" +
+                            "Lebo vykúpenie ľudstva<br>" +
+                            "sa z tvojho rozhodnutia<br>" +
+                            "uskutočnilo na dreve kríža.<br>" +
+                            "Zo stromu v raji prišla na nás smrť,<br>" +
+                            "zo stromu kríža dostali sme nový život.<br>" +
+                            "Nepriateľ, ktorý nás v raji premohol,<br>" +
+                            "na dreve kríža bol premožený<br>" +
+                            "Kristom, naším Pánom.<br>" +
+                            "Skrze neho tvoju velebu chvália anjeli,<br>" +
+                            "klaňajú sa jej panstvá,<br>" +
+                            "chvejú sa pred ňou mocnosti.<br>" +
+                            "Nebesia a nebeské sily i blažení serafíni<br>" +
+                            "ťa oslavujú spoločným plesaním.<br>" +
+                            "Prosíme ťa, pripoj k nim aj naše hlasy,<br>" +
+                            "keď v pokornej úcte voláme:<br><br>" +
+                            "Svätý, svätý, svätý Pán, Boh všetkých svetov.<br>" +
+                            "Plné sú, nebesia i zem tvojej slávy.<br>" +
+                            "Hosana na výsostiach!<br>" +
+                            "Požehnaný, ktorý prichádza v mene Pánovom!<br>" +
+                            "Hosana na výsostiach!"},
 
 
             {"", "Vlastná prefácia - 2. eucharistická modlitba", "",
