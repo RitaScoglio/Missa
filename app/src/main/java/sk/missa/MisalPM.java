@@ -427,6 +427,11 @@ public class MisalPM extends Misal {
             formArray.add(new String[]{"11", "1", "Omša k preblahoslavenej Panne Marií 1."});
             formArray.add(new String[]{"11", "2", "Omša k preblahoslavenej Panne Marií 2."});
             formArray.add(new String[]{"11", "3", "Omša k preblahoslavenej Panne Marií 3."});
+            formArray.add(new String[]{"11", "4", "Omša k preblahoslavenej Panne Marií 4."});
+            formArray.add(new String[]{"11", "5", "Omša k preblahoslavenej Panne Marií 5."});
+            formArray.add(new String[]{"11", "6", "Omša k preblahoslavenej Panne Marií 6."});
+            formArray.add(new String[]{"11", "7", "Omša k preblahoslavenej Panne Marií 7."});
+            formArray.add(new String[]{"11", "8", "Omša k preblahoslavenej Panne Marií 8."});
         }
     }
 
