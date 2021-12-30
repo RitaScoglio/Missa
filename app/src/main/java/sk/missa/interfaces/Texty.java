@@ -348,7 +348,7 @@ public interface Texty {
                     "a odpusť nám naše viny,\n" +
                     "ako i my odpúšťame svojim vinníkom,\n" +
                     "a neuveď nás do pokušenia,\n" +
-                    "ale zbav nás zlého.\n",
+                    "ale zbav nás zlého.",
             "Ďalej pokračuje iba kňaz s rozopätými rukami:",
             "Prosíme ťa, Pane, zbav nás všetkého zla,\n" +
                     "udeľ svoj pokoj našim dňom\n" +
@@ -394,7 +394,7 @@ public interface Texty {
                     "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n" +
                     "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj.",
             "Ak lámanie chleba trvá dlhšie, možno toto zvolanie opakovať viackrát. Len posledné zvolanie sa zakončí slovami: daruj nám pokoj.\n" +
-                    "Potom kňaz so zopätými rukami potichu hovorí:\n",
+                    "Potom kňaz so zopätými rukami potichu hovorí:",
             "Pane Ježišu Kriste, Syn Boha živého,\n" +
                     "ty si z vôle Otca\n" +
                     "a za spoluúčinkovania Ducha Svätého\n" +
