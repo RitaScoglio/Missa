@@ -2736,7 +2736,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             otvorExtra(text, procesia);
         else if (dialog == 6)
             if (P) {
-                int index = indexID(postne_pozehnania);
+                int index = indexTyzdenDen(postne_pozehnania);
                 otvorExtra(text, new String[]{postne_pozehnania[index][1]});
             } else
                 otvorExtra(text, modlitby_nad_ludom);
