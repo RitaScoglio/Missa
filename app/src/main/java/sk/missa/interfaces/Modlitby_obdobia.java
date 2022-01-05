@@ -2785,8 +2785,7 @@ public interface Modlitby_obdobia {
                     "a dosiahli nehynúcu radosť. <br>" +
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
                     "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
-                    "po všetky veky vekov.<br>" +
-                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "po všetky veky vekov.",
                     "Pane, prijmi naše dary, <br>" +
                             "ktorými sa uskutočňuje vznešená výmena, <font color='#B71C1C'>*</font><br>" +
                             "a keď ti obetujeme z toho, čo si nám uštedril, <font color='#B71C1C'>—</font><br>" +
