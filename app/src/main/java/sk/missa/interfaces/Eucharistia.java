@@ -174,6 +174,7 @@ public interface Eucharistia {
             "Potom kňaz s rozopätými rukami hovorí:",
             "<font color='#B71C1C'>Vš</font> Preto, Pane, my, tvoji služobníci<br>" +
                     "požehnaného umučenia a zmŕtvychvstania<br>" +
+                    "aj tvoj svätý ľud, slávime pamiatku<br>" +
                     "i slávneho nanebovstúpenia Ježiša Krista,<br>" +
                     "tvojho Syna a nášho Pána,<br>" +
                     "a prinášame tebe, vznešenému Bohu,<br>" +
