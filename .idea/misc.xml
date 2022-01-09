@@ -8,6 +8,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/layout/activity_jazyky.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/layout/activity_misal.xml" value="0.1" />
+        <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/layout/custom_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/layout/mass_text_recycleView.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/layout/mass_text_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/layout/toast_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/layout/word_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/menu/misal_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/menu/missa_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/activity_jazyky.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/activity_kalendar.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/activity_misal.xml" value="0.25416666666666665" />
