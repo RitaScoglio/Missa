@@ -1,5 +1,8 @@
 package sk.missa;
 
+import static sk.missa.interfaces.Texty.pozehnania_menu;
+
+import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -14,6 +17,8 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SwitchCompat;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
@@ -24,6 +29,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -50,7 +56,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     public static int sizeN, sizeO, sizeZ;
     public static DateTime mP, mVN, mDS, mD, mSP, mNT, mTK, mNSJ, mSPM, msvJ, mZP, mJK, mvDS, mPM, mNP, mSR, mNNP, mZJ, mKKP, mZacA, mZJactual, mKKPactual, mNPactual, mZacAactual, mVNactual;
     public static boolean C, A, V, P, VN;
-    public static boolean pismo, rezim, zvoncek, fullscreen, ticheModlitby;
+    public static boolean pismo, nightMode, zvoncek, fullscreen, ticheModlitby;
     public static int farba_b, farba_r;
     public static boolean uvodLayout;
     public static Integer jazyk, omsa, themeStyle;
@@ -79,7 +85,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     java.util.Calendar dnes = java.util.Calendar.getInstance();
 
     public static String nahrad(String text) {
-        if (rezim)
+        if (nightMode)
             return text.replace("B71C1C", "D20607");
         else
             return text.replace("B71C1C", "80242B"); //predtym - 9C0E0F
@@ -190,6 +196,79 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         dialog.show();
     }
 
+    //Požehnania - menu
+    public void vyberPozehnania() {
+        Context context = this;
+        final Dialog dialog = new Dialog(context);
+        dialog.setContentView(R.layout.custom_dialog);
+        RecyclerView dialogListview = dialog.findViewById(R.id.vypis_misal);
+        TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
+        Button dialogButton = dialog.findViewById(R.id.dialog_button);
+        final ArrayList<MassText> dg = new ArrayList<>();
+
+        if (nightMode) {
+            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
+            dialogTextView.setTextColor(getResources().getColor(R.color.background));
+            dialogButton.setTextColor(getResources().getColor(R.color.background));
+            dialogButton.setBackgroundColor(Color.BLACK);
+        } else {
+            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
+            dialogTextView.setTextColor(getResources().getColor(R.color.primary));
+            dialogButton.setTextColor(getResources().getColor(R.color.primary));
+            dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
+        }
+
+        dialogButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
+
+        dialogTextView.setText("Požehnania");
+        for (String[] pozehnanie : pozehnania_menu) {
+            if (pozehnanie.length == 1)
+                dg.add(new MassText(pozehnanie[0], "center|red|bigPadding"));
+            else
+                dg.add(new MassText(pozehnanie[0], "smallPadding"));
+        }
+        MassTextAdapter ada = new MassTextAdapter(dg);
+        dialogListview.setLayoutManager(new LinearLayoutManager(this));
+        dialogListview.setAdapter(ada);
+        ada.setOnItemClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                RecyclerView.ViewHolder viewHolder = (RecyclerView.ViewHolder) view.getTag();
+                int position = viewHolder.getAdapterPosition();
+                if (pozehnania_menu[position].length != 1) {
+                    final AlertDialog.Builder builder = new AlertDialog.Builder(context);
+                    builder.setMessage(Html.fromHtml(nahrad(pozehnania_menu[position][1])));
+                    builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+pozehnania_menu[position][0]+"</b></font>")));
+                    builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                        }
+                    });
+                    AlertDialog alert = builder.create();
+                    alert.show();
+                    TextView text = alert.findViewById(android.R.id.message);
+                    text.setTextSize(sizeO);
+                    if (nightMode) {
+                        alert.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(getResources().getColor(R.color.background));
+                        alert.getWindow().setBackgroundDrawableResource(R.color.black);
+                        text.setTextColor(getResources().getColor(R.color.background));
+                    } else {
+                        alert.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(getResources().getColor(R.color.primary));
+                        alert.getWindow().setBackgroundDrawableResource(R.color.background);
+                        text.setTextColor(Color.BLACK);
+                    }
+                    if (pismo)
+                        text.setTypeface(typeBold);
+                }
+            }
+        });
+        dialog.show();
+    }
+
     //Výber fontu pre aplikáciu - menu
     public void vyberFont(final Context context) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
@@ -284,7 +363,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         text.setMovementMethod(LinkMovementMethod.getInstance());
         //nastaví veľkosť písma, farbu a pozadie podľa nastavení v menu
         text.setTextSize(sizeO);
-        if (rezim) {
+        if (nightMode) {
             dialog.getWindow().setBackgroundDrawableResource(R.color.black);
             text.setTextColor(getResources().getColor(R.color.background));
         } else {
@@ -334,7 +413,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         boolean firstOpen = settings.getBoolean("firstOpen", true);
         try {
             pismo = settings.getBoolean("pismo", false);
-            rezim = settings.getBoolean("rezim", false);
+            nightMode = settings.getBoolean("rezim", false);
             zvoncek = settings.getBoolean("zvoncek", false);
             fullscreen = settings.getBoolean("fullscreen", false);
             ticheModlitby = settings.getBoolean("ticheModlitby", false);
@@ -345,7 +424,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             SharedPreferences.Editor editor = settings.edit();
             editor.clear().apply();
             pismo = settings.getBoolean("pismo", false);
-            rezim = settings.getBoolean("rezim", false);
+            nightMode = settings.getBoolean("rezim", false);
             zvoncek = settings.getBoolean("zvoncek", false);
             fullscreen = settings.getBoolean("fullscreen", false);
             ticheModlitby = settings.getBoolean("ticheModlitby", false);
@@ -390,7 +469,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     public void putRezim() {
         settings = getApplicationContext().getSharedPreferences("MySviatok", 0);
         SharedPreferences.Editor editor = settings.edit();
-        editor.putBoolean("rezim", rezim).apply();
+        editor.putBoolean("rezim", nightMode).apply();
     }
 
     //uloží zobrazovanie zvončekov
@@ -465,7 +544,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
 
     //nastaví režim v menu
     public void menuRezim() {
-        if (rezim) {
+        if (nightMode) {
             navigationView.setBackgroundColor(getResources().getColor(R.color.menu_background));
             navigationView.setItemTextColor(ColorStateList.valueOf(getResources().getColor(R.color.background)));
             image_zoomIn.setBackgroundColor(getResources().getColor(R.color.menu_background));
@@ -507,7 +586,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         switch_pismo = menu.findItem(R.id.menu_pismo).getActionView().findViewById(R.id.switcher);
         switch_pismo.setChecked(pismo);
         switch_rezim = menu.findItem(R.id.menu_rezim).getActionView().findViewById(R.id.switcher);
-        switch_rezim.setChecked(rezim);
+        switch_rezim.setChecked(nightMode);
         switch_zvoncek = menu.findItem(R.id.menu_zvoncek).getActionView().findViewById(R.id.switcher);
         switch_zvoncek.setChecked(zvoncek);
         switch_ticheModlitby = menu.findItem(R.id.menu_tiche_modlitby).getActionView().findViewById(R.id.switcher);

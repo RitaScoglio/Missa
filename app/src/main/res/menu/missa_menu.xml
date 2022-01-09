@@ -15,6 +15,9 @@
             android:id="@+id/menu_kalendar"
             android:title="Kalendár" />
         <item
+            android:id="@+id/menu_pozehnania"
+            android:title="Požehnania" />
+        <item
             android:id="@+id/menu_odpovede"
             android:title="Odpovede v cudzích jazykoch" />
     </group>
