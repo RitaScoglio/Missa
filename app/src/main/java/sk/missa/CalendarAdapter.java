@@ -55,7 +55,7 @@ public class CalendarAdapter extends ArrayAdapter<Calendar> {
         }*/
 
        //nastavenie rezimu vo výpise sviatkov v uvode a kalendari
-        if (Main.rezim) {
+        if (Main.nightMode) {
             konDen.setTextColor(Color.parseColor("#D20607"));
             menoSvatca.setTextColor(Color.parseColor("#f5ebd2"));
             slavenie.setTextColor(Color.parseColor("#f5ebd2"));
