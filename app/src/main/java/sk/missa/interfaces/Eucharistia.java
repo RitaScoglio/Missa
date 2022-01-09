@@ -173,15 +173,16 @@ public interface Eucharistia {
             "BAR", "",
             "Potom kňaz s rozopätými rukami hovorí:",
             "<font color='#B71C1C'>Vš</font> Preto, Pane, my, tvoji služobníci<br>" +
-                    "požehnaného umučenia a zmŕtvychvstania<br>" +
                     "aj tvoj svätý ľud, slávime pamiatku<br>" +
+                    "požehnaného umučenia a zmŕtvychvstania<br>" +
                     "i slávneho nanebovstúpenia Ježiša Krista,<br>" +
                     "tvojho Syna a nášho Pána,<br>" +
                     "a prinášame tebe, vznešenému Bohu,<br>" +
                     "dary z tvojich darov, svätý chlieb večného života<br>" +
                     "a kalich večnej spásy<br>" +
                     "ako obetu čistú, obetu svätú,<br>" +
-                    "obetu nepoškvrnenú.<br><br>" +
+                    "obetu nepoškvrnenú.",
+            "SPACE",
                     "Zhliadni na ne vľúdnym a láskavým okom<br>" +
                     "a milostivo ich prijmi,<br>" +
                     "ako si milo prijal obetné dary<br>" +
@@ -308,11 +309,13 @@ public interface Eucharistia {
                     "obetujeme ti, Pane,<br>" +
                     "chlieb života a kalich spásy.<br>" +
                     "Ďakujeme ti, že si nás uznal za hodných<br>" +
-                    "stáť pred tvojou tvárou a tebe slúžiť.<br><br>" +
+                    "stáť pred tvojou tvárou a tebe slúžiť.",
+            "SPACE",
                     "Pokorne ťa prosíme,<br>" +
                     "nech nás všetkých,<br>" +
                     "ktorí máme účasť na Kristovom Tele a Krvi,<br>" +
-                    "združí v jedno Duch Svätý.<br><br>" +
+                    "združí v jedno Duch Svätý.",
+            "SPACE",
                     "<font color='#B71C1C'>1k</font> Pamätaj, Pane, na svoju Cirkev,<br>" +
                     "rozšírenú po celom svete,<br>" +
                     "a veď ju k dokonalej láske<br>" +
@@ -327,7 +330,8 @@ public interface Eucharistia {
                     "čo zomreli v nádeji na vzkriesenie,<br>" +
                     "i na všetkých, ktorí v tvojej milosti<br>" +
                     "odišli z tohto sveta,<br>" +
-                    "a prijmi ich do svetla svojej tváre.<br><br>" +
+                    "a prijmi ich do svetla svojej tváre.",
+            "SPACE",
                     "Prosíme ťa, zmiluj sa nad nami všetkými,<br>" +
                     "aby sme si zaslúžili účasť na večnom živote<br>" +
                     "v spoločenstve s preblahoslavenou Bohorodičkou<br>" +
@@ -417,7 +421,8 @@ public interface Eucharistia {
                     "i jeho slávneho zmŕtvychvstania a nanebovstúpenia<br>" +
                     "a kým očakávame jeho druhý príchod,<br>" +
                     "prinášame ti so vzdávaním vďaky<br>" +
-                    "túto živú a svätú obetu.<br><br>" +
+                    "túto živú a svätú obetu.",
+            "SPACE",
                     "Zhliadni, prosíme, na dar svojej Cirkvi<br>" +
                     "a spoznaj v ňom obetovaného Baránka,<br>" +
                     "ktorý podľa tvojej vôle zmieril nás s tebou;<br>" +
@@ -425,8 +430,8 @@ public interface Eucharistia {
                     "Telom a Krvou tvojho Syna,<br>" +
                     "naplň Duchom Svätým,<br>" +
                     "aby sme boli v Kristovi<br>" +
-                    "jedno telo a jeden duch.<br>" +
-                    "<br>" +
+                    "jedno telo a jeden duch.",
+                    "SPACE",
                     "<font color='#B71C1C'>1.k</font> Nech Duch Svätý urobí z nás<br>" +
                     "ustavičnú obetu pre teba,<br>" +
                     "aby sme dostali dedičstvo<br>" +
@@ -439,8 +444,8 @@ public interface Eucharistia {
                     "<font color='#B71C1C'>(</font>so svätým <font color='#B71C1C'>M., svätcom dňa alebo patrónom)</font><br>" +
                     "a so všetkými svätými,<br>" +
                     "ktorí nám, ako dúfame, ustavične pomáhajú<br>" +
-                    "svojím orodovaním u teba.<br>" +
-                    "<br>" +
+                    "svojím orodovaním u teba.",
+                            "SPACE",
                     "<font color='#B71C1C'>2.k</font> Prosíme ťa, Pane,<br>" +
                     "nech táto obeta nášho zmierenia<br>" +
                     "prinesie celému svetu pokoj a spásu.<br>" +
@@ -453,8 +458,8 @@ public interface Eucharistia {
                     "Milostivo vypočuj prosby tejto rodiny,<br>" +
                     "ktorú si zhromaždil okolo seba,<br>" +
                     "a láskavo priveď k sebe, dobrotivý Otče,<br>" +
-                    "všetky svoje roztratené deti.<br>" +
-                    "<br>" +
+                    "všetky svoje roztratené deti.",
+            "SPACE",
                     "<font color='#B71C1C'>▲</font> Dobrotivo prijmi do svojho kráľovstva<br>" +
                     "našich zosnulých bratov a sestry<br>" +
                     "i všetkých, ktorí v tvojej milosti<br>" +
@@ -493,7 +498,8 @@ public interface Eucharistia {
                     "aby ťa hľadali a našli.<br>" +
                     "Viac ráz si ľuďom ponúkol zmluvu<br>" +
                     "a ústami prorokov si ich povzbudzoval,<br>" +
-                    "aby očakávali spásu.<br><br>" +
+                    "aby očakávali spásu.",
+            "SPACE",
                     "Svätý Otče, až tak si svet miloval,<br>" +
                     "že v plnosti času poslal si nám za Spasiteľa<br>" +
                     "svojho jednorodeného Syna,<br>" +
@@ -504,7 +510,8 @@ public interface Eucharistia {
                     "zajatým vykúpenie, zroneným potešenie.<br>" +
                     "Aby uskutočnil tvoj večný plán spásy,<br>" +
                     "sám seba vydal na smrť a svojím zmŕtvychvstaním<br>" +
-                    "premohol smrť a obnovil život.<br><br>" +
+                    "premohol smrť a obnovil život.",
+            "SPACE",
                     "A aby sme už nežili len sebe samým, <br>" +
                     "ale jemu, ktorý za nás umrel a vstal z mŕtvych, <br>" +
                     "od teba, Otče, poslal ako prvý dar veriacim <br>" +
@@ -576,15 +583,16 @@ public interface Eucharistia {
                     "a kým očakávame jeho príchod v sláve,<br>" +
                     "obetujeme ti jeho Telo a Krv,<br>" +
                     "obetu, v ktorej ty máš zaľúbenie<br>" +
-                    "a celý svet spásu.<br><br>" +
+                    "a celý svet spásu.",
+            "SPACE",
                     "Zhliadni, Pane, na obetu,<br>" +
                     "ktorú si sám svojej Cirkvi pripravil,<br>" +
                     "a daj, nech všetkých, čo budú mať účasť<br>" +
                     "na tomto jednom chlebe a jednom kalichu,<br>" +
                     "Duch Svätý združí v jedno telo,<br>" +
                     "aby sa v Kristovi stali živou obetou<br>" +
-                    "na tvoju chválu a slávu.<br>" +
-                    "<br>" +
+                    "na tvoju chválu a slávu.",
+                    "SPACE",
                     "<font color='#B71C1C'>1.k</font> Pamätaj, Pane, na všetkých,<br>" +
                     "za ktorých ti prinášame túto obetu:<br>" +
                     "najmä na svojho služobníka, nášho pápeža <font color='#B71C1C'>M.</font> ,<br>" +
@@ -592,12 +600,13 @@ public interface Eucharistia {
                     "i na všetkých kňazov a diakonov,<br>" +
                     "na obetujúcich i tu prítomných,<br>" +
                     "na všetok svoj ľud a na všetkých,<br>" +
-                    "čo ťa hľadajú s úprimným srdcom.<br>" +
-                    "<br>" +
+                    "čo ťa hľadajú s úprimným srdcom.",
+                            "SPACE",
                     "<font color='#B71C1C'>2.k</font> Pamätaj i na tých,<br>" +
                     "čo zomreli v Kristovom pokoji,<br>" +
                     "a na všetkých zosnulých,<br>" +
-                    "ktorých vieru iba ty si poznal.<br><br>" +
+                    "ktorých vieru iba ty si poznal.",
+            "SPACE",
                     "Dobrotivý Otče,<br>" +
                     "nám všetkým, tvojim deťom, pomôž dosiahnuť<br>" +
                     "nebeské dedičstvo v tvojom kráľovstve<br>" +
@@ -693,15 +702,16 @@ public interface Eucharistia {
                     "oslavujeme jeho smrť a vzkriesenie z mŕtvych, <br>" +
                     "a kým očakávame jeho príchod v sláve, <br>" +
                     "prinášame tebe, Bohu vernému a milosrdnému, <br>" +
-                    "túto obetu, ktorá zmieruje ľudstvo s tebou.<br><br>" +
+                    "túto obetu, ktorá zmieruje ľudstvo s tebou.",
+            "SPACE",
                     "Dobrotivý Otče,<br>" +
                     "láskavo zhliadni na tých,<br>" +
                     "ktorých obetou tvojho Syna spájaš so sebou.<br>" +
                     "Daj, aby sa mocou Ducha Svätého<br>" +
                     "a účasťou na tomto jednom chlebe a kalichu <br>" +
                     "stali jedným telom v Kristovi,<br>" +
-                    "ktorý odstraňuje všetko rozdelenie.<br>" +
-                    "<br>" +
+                    "ktorý odstraňuje všetko rozdelenie.",
+            "SPACE",
                     "<font color='#B71C1C'>1.k</font> Zachovaj nás<br>" +
                     "vo vzájomnej jednote ducha a srdca<br>" +
                     "s naším pápežom <font color='#B71C1C'>M.</font> a s naším biskupom <font color='#B71C1C'>M. *</font><br>" +
@@ -712,7 +722,8 @@ public interface Eucharistia {
                     "s preblahoslavenou Bohorodičkou Pannou Máriou, <br>" +
                     "so svätými apoštolmi a so všetkými svätými<br>" +
                     "i s našimi zosnulými bratmi a sestrami,<br>" +
-                    "ktorých pokorne odporúčame tvojmu milosrdenstvu.<br><br>" +
+                    "ktorých pokorne odporúčame tvojmu milosrdenstvu.",
+            "SPACE",
                     "Vtedy budeme novými stvoreniami,<br>" +
                     "konečne oslobodenými od skazy hriechu, <br>" +
                     "a budeme ti spievať chválospev vďaky",
@@ -798,20 +809,21 @@ public interface Eucharistia {
                     "smrti a zmŕtvychvstania tvojho Syna,<br>" +
                     "ktorý nám zanechal tento dôkaz svojej lásky,<br>" +
                     "prinášame ti to, čo si nám sám uštedril,<br>" +
-                    "ako obetu dokonalého zmierenia.<br><br>" +
+                    "ako obetu dokonalého zmierenia.",
+            "SPACE",
                     "Prosíme ťa, svätý Otče,<br>" +
                     "láskavo prijmi so svojím Synom aj nás<br>" +
                     "a pri tejto spásonosnej hostine<br>" +
                     "zošli na nás jeho Ducha,<br>" +
-                    "aby nás oslobodil od všetkého, čo rozdeľuje.<br>" +
-                    "<br>" +
+                    "aby nás oslobodil od všetkého, čo rozdeľuje.",
+                    "SPACE",
                     "<font color='#B71C1C'>1.k</font> On sám nech urobí z tvojej Cirkvi znak jednoty<br>" +
                     "a nástroj pokoja medzi všetkými ľuďmi<br>" +
                     "a nech nás zachová v spoločenstve<br>"+
             "s naším pápežom <font color='#B71C1C'>M.</font>, s naším biskupom <font color='#B71C1C'>M. *</font>,<br>" +
                     "so všetkými biskupmi<br>" +
-                    "a s celým tvojím ľudom.<br>" +
-                    "<br>" +
+                    "a s celým tvojím ľudom.",
+                            "SPACE",
                     "<font color='#B71C1C'>2.k</font> Ako si nás zhromaždil pri stole svojho Syna,<br>" +
                     "tak nás zjednoť aj s preblahoslavenou Bohorodičkou<br>" +
                     "Pannou Máriou,<br>" +
