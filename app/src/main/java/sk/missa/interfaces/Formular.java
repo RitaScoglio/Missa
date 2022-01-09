@@ -300,12 +300,12 @@ public interface Formular {
                             "<font color='#B71C1C'>Alebo: (Jn 19, 34)</font><br>" +
                             "Jeden z vojakov mu kopijou prebodol bok, a hneď vyšla krv a voda.", "(Jn 7, 37 – 38)"},
             {"04", "1", "Výročie posviacky chrámu (slávenie mimo chrámu)", "Videl som, ako z neba od Boha zostupuje sväté mesto, nový Jeruzalem,<br>" +
-            "vystrojené ako nevesta, ozdobená pre svojho ženícha <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
+                    "vystrojené ako nevesta, ozdobená pre svojho ženícha <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
                     "<font color='#B71C1C'>Alebo: (Porov. Zjv 21, 3)</font><br>" +
                     "Hľa, Boží stánok je medzi ľuďmi! A bude medzi nimi prebývať; oni budú jeho ľudom a sám Boh – ich Boh – bude s nimi <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Zjv 21, 2)",
-            "Dajte sa vbudovať aj vy ako živé kamene do duchovného domu, do svätého kňazstva <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
-                    "<font color='#B71C1C'>Alebo: (Porov. Mt 21, 13; Lk 11, 10)</font><br>" +
-                    "Môj dom sa bude volať domom modlitby, hovorí Pán. V ňom každý, kto prosí, dostane, a kto hľadá, nájde, a kto klope, tomu otvoria <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. 1 Pt 2, 5)"},
+                    "Dajte sa vbudovať aj vy ako živé kamene do duchovného domu, do svätého kňazstva <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
+                            "<font color='#B71C1C'>Alebo: (Porov. Mt 21, 13; Lk 11, 10)</font><br>" +
+                            "Môj dom sa bude volať domom modlitby, hovorí Pán. V ňom každý, kto prosí, dostane, a kto hľadá, nájde, a kto klope, tomu otvoria <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. 1 Pt 2, 5)"},
 
             // SPOLOCNE OMSE PREBLAHOSLAVENEJ PANNY MÁRIE
             {"11", "1", "Omša k preblahoslavenej Panne Marií 1.", "Zdravas', svätá Matka. Ty si porodila Kráľa, ktorý večne vládne nad nebom i zemou.", "(Sedulius)",
@@ -393,17 +393,17 @@ public interface Formular {
                             "Aj všetky vlasy máte na hlave spočítané. Nebojte sa teda, vy ste cennejší ako mnoho vrabcov.", "(Porov. Rim 8, 38 – 39)"},
             // omsa jedneho muceníka mimo velkonocneho obdobia
             {"22", "1", "Omša za jedného mučeníka 1.", "Tento svätec bojoval za Boží zákon až na smrť a nebál sa hrozieb bezbožných; lebo mal základy na pevnej skale.<br>" +
-            "<font color='#B71C1C'>Alebo: (Porov. Múd 10, 12)</font><br>" +
-            "V ťažkom boji mu Pán pomáhal k víťazstvu, aby poznal, že bohabojnosť je mocnejšia ako všetko ostatné.", "",
-            "Kto chce ísť za mnou, nech zaprie sám seba, vezme svoj kríž a nasleduje ma, hovorí Pán.<br>" +
-            "<font color='#B71C1C'>Alebo: (Mt 10, 39)</font><br>" +
-            "Kto stratí svoj život pre mňa, hovorí Pán, nájde ho naveky.", "(Porov. Mt 16, 24)"},
-        {"22", "2", "Omša za jedného mučeníka 2.", "Toto je vskutku mučeník, ktorý sa nebál hrozieb sudcov, vylial pre Kristovo meno svoju krv a dostal sa do nebeského kráľovstva.<br>" +
-                "<font color='#B71C1C'>Alebo: (Porov. Fil 3, 8. 10)</font><br>" +
-                "Všetko pokladám za stratu pre vznešenosť poznania Krista Ježiša, môjho Pána, a účasť na jeho utrpení tým, že sa mu pripodobním v smrti.", "",
-                "Ja som vinič, vy ste ratolesti, hovorí Pán. Kto ostáva vo mne a ja v ňom, prináša veľa ovocia.<br>" +
-                        "<font color='#B71C1C'>Alebo: (Jn 8, 12)</font><br>" +
-                        "Kto mňa nasleduje, nebude chodiť vo tmách, ale bude mať svetlo života, hovorí Pán.", "(Porov. Jn 15, 1. 5)"},
+                    "<font color='#B71C1C'>Alebo: (Porov. Múd 10, 12)</font><br>" +
+                    "V ťažkom boji mu Pán pomáhal k víťazstvu, aby poznal, že bohabojnosť je mocnejšia ako všetko ostatné.", "",
+                    "Kto chce ísť za mnou, nech zaprie sám seba, vezme svoj kríž a nasleduje ma, hovorí Pán.<br>" +
+                            "<font color='#B71C1C'>Alebo: (Mt 10, 39)</font><br>" +
+                            "Kto stratí svoj život pre mňa, hovorí Pán, nájde ho naveky.", "(Porov. Mt 16, 24)"},
+            {"22", "2", "Omša za jedného mučeníka 2.", "Toto je vskutku mučeník, ktorý sa nebál hrozieb sudcov, vylial pre Kristovo meno svoju krv a dostal sa do nebeského kráľovstva.<br>" +
+                    "<font color='#B71C1C'>Alebo: (Porov. Fil 3, 8. 10)</font><br>" +
+                    "Všetko pokladám za stratu pre vznešenosť poznania Krista Ježiša, môjho Pána, a účasť na jeho utrpení tým, že sa mu pripodobním v smrti.", "",
+                    "Ja som vinič, vy ste ratolesti, hovorí Pán. Kto ostáva vo mne a ja v ňom, prináša veľa ovocia.<br>" +
+                            "<font color='#B71C1C'>Alebo: (Jn 8, 12)</font><br>" +
+                            "Kto mňa nasleduje, nebude chodiť vo tmách, ale bude mať svetlo života, hovorí Pán.", "(Porov. Jn 15, 1. 5)"},
             // omsa viacerých muceníkov vo velkonocnom obdobi
             {"23", "1", "Omša za viacerých mučeníkov 1.", "Poďte, požehnaní môjho Otca, zaujmite kráľovstvo, ktoré je pre vás pripravené od počiatku sveta, aleluja.<br>" +
                     "<font color='#B71C1C'>Alebo: (Porov. Zjv 7, 13 – 14)</font><br>" +
@@ -411,12 +411,12 @@ public interface Formular {
                     "Tomu, kto zvíťazí, dám jesť zo stromu života, ktorý je v Božom raji, aleluja.<br>" +
                             "<font color='#B71C1C'>Alebo: (Porov. Ž 33, 1)</font><br>" +
                             "Plesajte, spravodliví, v Pánovi; statočným sluší spievať pieseň chvály, aleluja.", "(Porov. Zjv 2, 7)"},
-                    {"23", "2", "Omša za viacerých mučeníkov 2.", "Títo svätí zvíťazili pre Baránkovu krv; Krista milovali viac než svoj život, preto s ním kraľujú naveky, aleluja.<br>" +
-                            "<font color='#B71C1C'>Alebo: (Porov. Mt 25, 34)</font><br>" +
-                            "Radujte sa, svätí, pred Baránkovým pohľadom; je pre vás pripravené kráľovstvo od stvorenia sveta, aleluja.", "(Porov. Zjv 12, 11)",
-                            "Ak sme zomreli s Kristom, s ním budeme aj žiť. Ak vytrváme, s ním budeme aj kraľovať, aleluja.<br>" +
-                                    "<font color='#B71C1C'>Alebo: (Porov. Mt 5, 12)</font><br>" +
-                                    "Radujte sa a jasajte, lebo máte hojnú odmenu v nebi, aleluja.", "(Porov. 2 Tim 2, 11 – 12)"},
+            {"23", "2", "Omša za viacerých mučeníkov 2.", "Títo svätí zvíťazili pre Baránkovu krv; Krista milovali viac než svoj život, preto s ním kraľujú naveky, aleluja.<br>" +
+                    "<font color='#B71C1C'>Alebo: (Porov. Mt 25, 34)</font><br>" +
+                    "Radujte sa, svätí, pred Baránkovým pohľadom; je pre vás pripravené kráľovstvo od stvorenia sveta, aleluja.", "(Porov. Zjv 12, 11)",
+                    "Ak sme zomreli s Kristom, s ním budeme aj žiť. Ak vytrváme, s ním budeme aj kraľovať, aleluja.<br>" +
+                            "<font color='#B71C1C'>Alebo: (Porov. Mt 5, 12)</font><br>" +
+                            "Radujte sa a jasajte, lebo máte hojnú odmenu v nebi, aleluja.", "(Porov. 2 Tim 2, 11 – 12)"},
 // omsa jedného muceníka vo velkonocnom obdobi
             {"24", "1", "Omša za jedného mučeníka", "Večné svetlo bude svietiť tvojim svätým, Pane, na veky vekov, aleluja.<br>" +
                     "<font color='#B71C1C'>Alebo:</font> <br>" +
@@ -456,17 +456,17 @@ public interface Formular {
                     "Pane, ty vieš všetko, ty dobre vieš, že ťa mám rád <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Jn 21, 17)"},
             // omsa o biskupoch
             {"32", "1", "Omša o biskupoch 1.", "Ujmem sa svojich oviec, hovorí Pán, a ustanovím pastiera, ktorý ich bude pásť; a ja, Pán, budem ich Bohom <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
-            "<font color='#B71C1C'>Alebo: (Porov. Lk 12, 42)</font><br>" +
-            "Toto je verný a múdry správca, ktorého pán ustanovil nad svojou čeľaďou, aby jej načas dával určený pokrm <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Ez 34, 11. 23 – 24)",
-            "Nie vy ste si vyvolili mňa, hovorí Pán, ale ja som si vyvolil vás a ustanovil som vás, aby ste išli a prinášali ovocie a aby vaše ovocie zostalo <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
-            "<font color='#B71C1C'>Alebo: (Porov. Lk 12, 36 – 37)</font><br>" +
-            "Blahoslavený sluha, ktorého Pán nájde bdieť, keď sa vráti a zaklope <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Jn 15, 16)"},
-        {"32", "2", "Omša o biskupoch 2.", "Povolám si verného kňaza, ktorý bude konať podľa môjho srdca a podľa môjho zmýšľania, hovorí Pán <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
-                "<font color='#B71C1C'>Alebo: (Porov. Lk 12, 42)</font><br>" +
-                "Verný a múdry správca, ktorého pán ustanovil nad svojou čeľaďou, aby jej načas dával určený pokrm <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. 1 Sam 2, 35)",
-                "Ja som prišiel, aby mali život, a aby ho mali hojnejšie, hovorí Pán <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
-                        "<font color='#B71C1C'>Alebo: (Mk 16, 17 – 18)</font><br>" +
-                        "Tých, čo uveria, budú sprevádzať tieto znamenia: budú vyháňať zlých duchov, na chorých budú vkladať ruky a tí ozdravejú <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Jn 10, 10)"},
+                    "<font color='#B71C1C'>Alebo: (Porov. Lk 12, 42)</font><br>" +
+                    "Toto je verný a múdry správca, ktorého pán ustanovil nad svojou čeľaďou, aby jej načas dával určený pokrm <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Ez 34, 11. 23 – 24)",
+                    "Nie vy ste si vyvolili mňa, hovorí Pán, ale ja som si vyvolil vás a ustanovil som vás, aby ste išli a prinášali ovocie a aby vaše ovocie zostalo <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
+                            "<font color='#B71C1C'>Alebo: (Porov. Lk 12, 36 – 37)</font><br>" +
+                            "Blahoslavený sluha, ktorého Pán nájde bdieť, keď sa vráti a zaklope <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Jn 15, 16)"},
+            {"32", "2", "Omša o biskupoch 2.", "Povolám si verného kňaza, ktorý bude konať podľa môjho srdca a podľa môjho zmýšľania, hovorí Pán <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
+                    "<font color='#B71C1C'>Alebo: (Porov. Lk 12, 42)</font><br>" +
+                    "Verný a múdry správca, ktorého pán ustanovil nad svojou čeľaďou, aby jej načas dával určený pokrm <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. 1 Sam 2, 35)",
+                    "Ja som prišiel, aby mali život, a aby ho mali hojnejšie, hovorí Pán <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
+                            "<font color='#B71C1C'>Alebo: (Mk 16, 17 – 18)</font><br>" +
+                            "Tých, čo uveria, budú sprevádzať tieto znamenia: budú vyháňať zlých duchov, na chorých budú vkladať ruky a tí ozdravejú <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Jn 10, 10)"},
             // omsa o duchovnych pastieroch
             {"33", "1", "Omša o duchovných pastieroch", "Dám vám pastierov podľa môjho srdca, ktorí vás budú pásť rozumne a múdro <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>. <br>" +
                     "<font color='#B71C1C'>Alebo: (Porov. Dan 3, 84. 87)</font><br>" +
@@ -477,10 +477,10 @@ public interface Formular {
                             "<font color='#B71C1C'>Alebo: (Porov. Lk 12, 42)</font><br>" +
                             "Verný a múdry správca, ktorého Pán ustanovil nad svojou čeľaďou, aby jej načas dával určený pokrm <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Mt 24, 46 – 47)"},
             {"37", "2", "Omša o duchovnom pastierovi 2.", "Duch Pána je nado mnou, lebo ma pomazal, aby som hlásal evanjelium chudobným a uzdravoval skrúšených srdcom <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
-            "<font color='#B71C1C'>Alebo: (Porov. Sir 45, 20)</font><br>" +
-            "Pán si ho vyvolil za kňaza, aby prinášal Bohu obetu chvály <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Lk 4, 18)",
-            "Hľa, ja som s vami po všetky dni až do skončenia sveta, hovorí Pán <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Mt 28, 20)"},
-        // omsa o zakladateloch miestych cirkvi
+                    "<font color='#B71C1C'>Alebo: (Porov. Sir 45, 20)</font><br>" +
+                    "Pán si ho vyvolil za kňaza, aby prinášal Bohu obetu chvály <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Lk 4, 18)",
+                    "Hľa, ja som s vami po všetky dni až do skončenia sveta, hovorí Pán <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Mt 28, 20)"},
+            // omsa o zakladateloch miestych cirkvi
             {"34", "1", "Omša o zakladateľovi miestnej cirkvi", "Pán hovorí: Moje slová, ktoré som ti dal do úst, nezmiznú z tvojich úst a tvoje dary mi budú potešením na mojom oltári <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Iz 59, 21; 56, 7)",
                     "Syn človeka prišiel, aby položil svoj život ako výkupné za mnohých <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
                             "<font color='#B71C1C'>Alebo: (1 Kor 3, 11)</font><br>" +
@@ -539,7 +539,7 @@ public interface Formular {
                     "Prišiel Ženích, a panny, ktoré boli pripravené, vošli s ním na svadbu <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
                             "<font color='#B71C1C'>Alebo: (Jn 14, 21. 23)</font><br>" +
                             "Kto miluje mňa, toho bude milovať môj Otec, prídeme k nemu a urobíme si uňho príbytok.", "(Porov. Mt 25, 10)"},
-                    // SPOLOCNE OMSE SVATYCH MUZOV a SVATYCH ZIEN
+            // SPOLOCNE OMSE SVATYCH MUZOV a SVATYCH ZIEN
             {"61", "1", "Omša o svätých mužoch a svätých ženách 1.", "Nech ťa oslavujú, Pane, všetky tvoje diela a tvoji svätí nech ťa velebia. Nech rozprávajú o sláve tvojho kráľovstva a o tvojej moci nech hovoria <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Ž 145, 10 – 11)",
                     "Spravodliví sa môžu tešiť a jasať pred Božou tvárou a v radosti sa veseliť <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
                             "<font color='#B71C1C'>Alebo: (Lk 12, 37)</font><br>" +
@@ -547,10 +547,10 @@ public interface Formular {
             {"61", "2", "Omša o svätých mužoch a svätých ženách 2.","Spravodlivý sa teší v Pánovi a spolieha sa na neho, a jasajú všetci, čo majú srdce úprimné <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Ž 64, 11)",
                     "Ak mi niekto slúži, nech ma nasleduje, hovorí Pán; a kde som ja, tam bude aj môj služobník <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Jn 12, 26)"},
             {"61", "3", "Omša o svätých mužoch a svätých ženách 3.", "Spravodlivý sťa palma zakvitne a vyrastie sťa céder z Libanonu. Tí, čo vyrastajú v dome Pánovom, v nádvoriach nášho Boha budú prekvitať <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Ž 92, 13 – 14)",
-            "Poďte ku mne všetci, ktorí sa namáhate a ste preťažení, a ja vás posilním, hovorí Pán <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Mt 11, 28)"},
-        {"61", "4", "Omša o svätých mužoch a svätých ženách 4.", "Požehnaný človek, čo dúfa v Pána, Pán bude jeho oporou. Bude ako strom zasadený pri vode,<br>" +
-                "ktorý k potoku vystiera korene; nebude sa báť, keď príde horúčosť <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Jer 17, 7 – 8)",
-                "Ako mňa miluje Otec, tak ja milujem vás, hovorí Pán. Ostaňte v mojej láske <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Jn 15, 9)"},
+                    "Poďte ku mne všetci, ktorí sa namáhate a ste preťažení, a ja vás posilním, hovorí Pán <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Mt 11, 28)"},
+            {"61", "4", "Omša o svätých mužoch a svätých ženách 4.", "Požehnaný človek, čo dúfa v Pána, Pán bude jeho oporou. Bude ako strom zasadený pri vode,<br>" +
+                    "ktorý k potoku vystiera korene; nebude sa báť, keď príde horúčosť <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Jer 17, 7 – 8)",
+                    "Ako mňa miluje Otec, tak ja milujem vás, hovorí Pán. Ostaňte v mojej láske <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Jn 15, 9)"},
             {"60", "1", "Omša o svätých mužoch a svätých ženách 5.", "Pane, z tvojej sily sa spravodlivý raduje a veľmi sa teší z tvojej spásy; vyplnil si túžbu jeho srdca <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. Ž 21, 2 – 3)",
                     "Kto chce ísť za mnou, nech zaprie sám seba, vezme svoj kríž a nasleduje ma, hovorí Pán <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.<br>" +
                             "<font color='#B71C1C'>Alebo pre tých, čo zastávali verejný úrad: </font><br>" +
@@ -625,18 +625,18 @@ public interface Formular {
                     "Nadovšetko majte lásku, ktorá je zväzkom dokonalosti. A vo vašich srdciach nech vládne Kristov pokoj. Preň ste aj povolaní v jednom tele.", "(Kol 3, 14 – 15)"},
             {"72a", "3", "Za jednotu kresťanov 3.", "Jedno je telo a jeden Duch, ako ste aj povolaní v jednej nádeji svojho povolania. Jeden je Pán, jedna viera, jeden krst. Jeden je Boh a Otec všetkých, ktorý je nad všetkými, preniká všetkých a je vo všetkých.", "(Ef 4, 4 – 6)",
                     "Aby všetci boli jedno, ako ty, Otče, vo mne a ja v tebe, aby aj oni boli v nás jedno. Ja v nich a ty vo mne, nech sú tak dokonale jedno.", "(Jn 17, 21. 23)"},
-        {"72b", "4", "Za povolanie na kňazský stav", "Proste Pána žatvy, aby poslal robotníkov na svoju žatvu, hovorí Ježiš svojim učeníkom.", "(Mt 9, 38)",
-                "Čo je láska, poznali sme z toho, že on položil za nás svoj život. Aj my sme povinní dávať život za bratov.", "(1 Jn 3, 16)"},
+            {"72b", "4", "Za povolanie na kňazský stav", "Proste Pána žatvy, aby poslal robotníkov na svoju žatvu, hovorí Ježiš svojim učeníkom.", "(Mt 9, 38)",
+                    "Čo je láska, poznali sme z toho, že on položil za nás svoj život. Aj my sme povinní dávať život za bratov.", "(1 Jn 3, 16)"},
             {"72b", "5", "Za rehoľné povolania", "Ak chceš byť dokonalý, choď, predaj čo máš, a rozdaj chudobným; potom príď a nasleduj ma, hovorí Pán.", "(Mt 19, 21)",
                     "Veru, hovorím vám, že vy, čo ste opustili všetko a nasledovali ste ma, stonásobne viac dostanete a dosiahnete večný život, hovorí Pán.", "(Porov. Mt 19, 27 – 29)"},
-        {"73", "1", "Na poďakovanie Pánu Bohu 1.", "Vo svojich srdciach spievajte Pánovi a oslavujte ho. Ustavične vzdávajte vďaky za všetko Bohu a Otcovi v mene nášho Pána Ježiša Krista.", "(Porov. Ef 5, 19 – 20)",
-            "Chcem ťa, Pane, oslavovať celým srdcom, že si vypočul slová mojich úst.<br>" +
-            "<font color='#B71C1C'>Alebo: (Ž 116, 12 – 13)</font><br>" +
-            "Čím sa odvďačím Pánovi za všetko, čo mi dal? Vezmem kalich spásy a budem vzývať meno Pánovo.", "(Ž 138, 1)"},
-        {"73", "2", "Na poďakovanie Pánu Bohu 2.", "Vo svojich srdciach spievajte Pánovi a oslavujte ho. Ustavične vzdávajte vďaky za všetko Bohu a Otcovi v mene nášho Pána Ježiša Krista.", "(Porov. Ef 5, 19 – 20)",
-                "Chcem ťa, Pane, oslavovať celým srdcom, že si vypočul slová mojich úst.<br>" +
-                        "<font color='#B71C1C'>Alebo: (Ž 116, 12 – 13)</font><br>" +
-                        "Čím sa odvďačím Pánovi za všetko, čo mi dal? Vezmem kalich spásy a budem vzývať meno Pánovo.", "(Ž 138, 1)"},
+            {"73", "1", "Na poďakovanie Pánu Bohu 1.", "Vo svojich srdciach spievajte Pánovi a oslavujte ho. Ustavične vzdávajte vďaky za všetko Bohu a Otcovi v mene nášho Pána Ježiša Krista.", "(Porov. Ef 5, 19 – 20)",
+                    "Chcem ťa, Pane, oslavovať celým srdcom, že si vypočul slová mojich úst.<br>" +
+                            "<font color='#B71C1C'>Alebo: (Ž 116, 12 – 13)</font><br>" +
+                            "Čím sa odvďačím Pánovi za všetko, čo mi dal? Vezmem kalich spásy a budem vzývať meno Pánovo.", "(Ž 138, 1)"},
+            {"73", "2", "Na poďakovanie Pánu Bohu 2.", "Vo svojich srdciach spievajte Pánovi a oslavujte ho. Ustavične vzdávajte vďaky za všetko Bohu a Otcovi v mene nášho Pána Ježiša Krista.", "(Porov. Ef 5, 19 – 20)",
+                    "Chcem ťa, Pane, oslavovať celým srdcom, že si vypočul slová mojich úst.<br>" +
+                            "<font color='#B71C1C'>Alebo: (Ž 116, 12 – 13)</font><br>" +
+                            "Čím sa odvďačím Pánovi za všetko, čo mi dal? Vezmem kalich spásy a budem vzývať meno Pánovo.", "(Ž 138, 1)"},
             {"73", "3", "Na poďakovanie za úrodu", "Zem vydala svoj plod; nech nás požehná Boh, náš Boh.", "(Ž 67, 7)",
                     "Pane, plodmi svojich diel sýtiš zem. Zo zeme vyvádzaš chlieb i víno, čo obveseľuje srdce človeka.", "(Porov. Ž 104, 13 – 15)"},
             {"74", "1", "Za zachovanie pokoja a spravodlivosti 1.", "Daruj, Pane, pokoj tým, čo sa spoliehajú na teba, vypočuj prosby svojich služobníkov a veď nás na cestu spravodlivosti.", "(Porov. Sir 36, 18 – 19)",
@@ -659,7 +659,7 @@ public interface Formular {
                     "Nadovšetko majte lásku, ktorá je zväzkom dokonalosti. A vo vašich srdciach nech vládne Kristov pokoj. Preň ste aj povolaní v jednom tele.", "(Kol 3, 14 – 15)"},
             {"76", "3", "Za jednotu kresťanov 3.", "Jedno je telo a jeden Duch, ako ste aj povolaní v jednej nádeji svojho povolania. Jeden je Pán, jedna viera, jeden krst. Jeden je Boh a Otec všetkých, ktorý je nad všetkými, preniká všetkých a je vo všetkých.", "(Ef 4, 4 – 6)",
                     "Aby všetci boli jedno, ako ty, Otče, vo mne a ja v tebe, aby aj oni boli v nás jedno. Ja v nich a ty vo mne, nech sú tak dokonale jedno.", "(Jn 17, 21. 23)"},
-        };
+    };
 
     String[][] modlitbaFormular = {
             {"01a", "1", "Votívna omša 1.", "Bože, ty osvecuješ<br>" +
@@ -811,7 +811,7 @@ public interface Formular {
                             "aby sme sa na zemi stali podobnými Kristovi <font color='#B71C1C'>—</font><br>" +
                             "a v nebi mali podiel na jeho sláve.<br>" +
                             "Lebo on žije a kraľuje na veky vekov."},
-                    {"04", "1", "Výročie posviacky chrámu (slávenie mimo chrámu)", "Bože, zo živých a vybraných kameňov <br>" +
+            {"04", "1", "Výročie posviacky chrámu (slávenie mimo chrámu)", "Bože, zo živých a vybraných kameňov <br>" +
                     "si pripravuješ svoj večný príbytok; <font color='#B71C1C'>*</font><br>" +
                     "rozmnož vo svojej Cirkvi ducha milosti, <br>" +
                     "ktorého si jej poslal, <font color='#B71C1C'>—</font><br>" +
@@ -956,12 +956,12 @@ public interface Formular {
                     "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
                     "po všetky veky vekov.",
                     "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
-                    "prijmi naše dary, keď slávime <br>" +
-                    "nevýslovné dielo lásky tvojho Syna, <font color='#B71C1C'>—</font><br>" +
-                    "a daj, aby sme podľa príkladu <br>" +
-                    "preblahoslavenej Panny Márie napredovali <br>" +
-                    "v láske k tebe a k blížnemu.<br>" +
-                    "Skrze Krista, nášho Pána.",
+                            "prijmi naše dary, keď slávime <br>" +
+                            "nevýslovné dielo lásky tvojho Syna, <font color='#B71C1C'>—</font><br>" +
+                            "a daj, aby sme podľa príkladu <br>" +
+                            "preblahoslavenej Panny Márie napredovali <br>" +
+                            "v láske k tebe a k blížnemu.<br>" +
+                            "Skrze Krista, nášho Pána.",
                     "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
                             "dopraj, aby tvoja Cirkev posilnená <br>" +
                             "touto sviatosťou kráčala cestou evanjelia <br>" +
@@ -1681,10 +1681,10 @@ public interface Formular {
                     "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
                     "po všetky veky vekov.",
                     "Prosíme ťa, Pane, vypočuj našu modlitbu <font color='#B71C1C'>*</font><br>" +
-                    "a daj, aby nám bola posilou obeta, <br>" +
-                    "ktorú ti prinášame pri oslave svätého <font color='#B71C1C'>M.</font>, <font color='#B71C1C'>—</font><br>" +
-                    "veď ňou si zmyl hriechy celého sveta.<br>" +
-                    "Skrze Krista, nášho Pána.",
+                            "a daj, aby nám bola posilou obeta, <br>" +
+                            "ktorú ti prinášame pri oslave svätého <font color='#B71C1C'>M.</font>, <font color='#B71C1C'>—</font><br>" +
+                            "veď ňou si zmyl hriechy celého sveta.<br>" +
+                            "Skrze Krista, nášho Pána.",
                     "Pane a Bože náš, nech nám sviatosť, <br>" +
                             "ktorú sme prijali v deň oslavy svätého <font color='#B71C1C'>M.</font>, <font color='#B71C1C'>*</font><br>" +
                             "poskytne pomoc v časnom živote <font color='#B71C1C'>—</font><br>" +
@@ -1700,10 +1700,10 @@ public interface Formular {
                     "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
                     "po všetky veky vekov.",
                     "Prosíme ťa, Pane, vypočuj našu modlitbu <font color='#B71C1C'>*</font><br>" +
-                    "a daj, aby nám bola posilou obeta, <br>" +
-                    "ktorú ti prinášame pri oslave svätého <font color='#B71C1C'>M.</font>, <font color='#B71C1C'>—</font><br>" +
-                    "veď ňou si zmyl hriechy celého sveta.<br>" +
-                    "Skrze Krista, nášho Pána.",
+                            "a daj, aby nám bola posilou obeta, <br>" +
+                            "ktorú ti prinášame pri oslave svätého <font color='#B71C1C'>M.</font>, <font color='#B71C1C'>—</font><br>" +
+                            "veď ňou si zmyl hriechy celého sveta.<br>" +
+                            "Skrze Krista, nášho Pána.",
                     "Pane a Bože náš, nech nám sviatosť, <br>" +
                             "ktorú sme prijali v deň oslavy svätého <font color='#B71C1C'>M.</font>, <font color='#B71C1C'>*</font><br>" +
                             "poskytne pomoc v časnom živote <font color='#B71C1C'>—</font><br>" +
@@ -2130,43 +2130,43 @@ public interface Formular {
                             "bola pre všetkých zálohom večnej spásy.<br>" +
                             "Skrze Krista, nášho Pána."},
             {"61", "2", "Omša o svätých mužoch a svätých ženách 2.", "Bože, ty vieš, že sme krehkí a ľahko klesáme; <font color='#B71C1C'>*</font><br>" +
-                            "prosíme ťa, zľutuj sa nad nami <font color='#B71C1C'>—</font><br>" +
-                            "a príkladom svojich svätých <br>" +
-                            "posilni v nás lásku k tebe.<br>" +
-                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
-                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
-                            "po všetky veky vekov.",
-                            "Všemohúci Bože, <br>" +
-                                    "nech ti je milá obeta, <br>" +
-                                    "ktorú s pokorou prinášame <br>" +
-                                    "k úcte tvojich svätých, <font color='#B71C1C'>*</font><br>" +
-                                    "aby nás očistila <font color='#B71C1C'>—</font><br>" +
-                                    "a posvätila na tele i na duši.<br>" +
-                                    "Skrze Krista, nášho Pána.",
-                            "Pane, pri oslave blaženej smrti tvojich svätých <br>" +
-                                    "posilnil si nás sviatostným pokrmom; <font color='#B71C1C'>*</font><br>" +
-                                    "daj, aby sme raz požívali večné dobrá, <font color='#B71C1C'>—</font><br>" +
-                                    "na ktorých nám už dávaš účasť touto sviatosťou.<br>" +
-                                    "Skrze Krista, nášho Pána."},
-                    {"61", "3", "Omša o svätých mužoch a svätých ženách 3.", "Pane, nech nám svätí <font color='#B71C1C'>M.</font> a <font color='#B71C1C'>M.</font>, <br>" +
-                            "ktorých sviatok nábožne slávime, <br>" +
-                            "vyprosia tvoju pomoc, <font color='#B71C1C'>*</font><br>" +
-                            "aby sme s nimi mali účasť na večnej sláve.<br>" +
-                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
-                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
-                            "po všetky veky vekov.",
-                            "Pane, prinášame dary na tvoj oltár <br>" +
-                                    "a prosíme ťa, daj nám vrúcnu oddanosť tebe, <font color='#B71C1C'>*</font><br>" +
-                                    "akou si obdaril svätých <font color='#B71C1C'>M.</font> a <font color='#B71C1C'>M.</font>, <font color='#B71C1C'>—</font><br>" +
-                                    "aby sme s čistou mysľou a s horlivým srdcom <br>" +
-                                    "slávili tebe milú a nám prospešnú obetu.<br>" +
-                                    "Skrze Krista, nášho Pána.",
-                            "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
-                                    "nech nám slúži na spásu sviatosť, <br>" +
+                    "prosíme ťa, zľutuj sa nad nami <font color='#B71C1C'>—</font><br>" +
+                    "a príkladom svojich svätých <br>" +
+                    "posilni v nás lásku k tebe.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Všemohúci Bože, <br>" +
+                            "nech ti je milá obeta, <br>" +
+                            "ktorú s pokorou prinášame <br>" +
+                            "k úcte tvojich svätých, <font color='#B71C1C'>*</font><br>" +
+                            "aby nás očistila <font color='#B71C1C'>—</font><br>" +
+                            "a posvätila na tele i na duši.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, pri oslave blaženej smrti tvojich svätých <br>" +
+                            "posilnil si nás sviatostným pokrmom; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby sme raz požívali večné dobrá, <font color='#B71C1C'>—</font><br>" +
+                            "na ktorých nám už dávaš účasť touto sviatosťou.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"61", "3", "Omša o svätých mužoch a svätých ženách 3.", "Pane, nech nám svätí <font color='#B71C1C'>M.</font> a <font color='#B71C1C'>M.</font>, <br>" +
+                    "ktorých sviatok nábožne slávime, <br>" +
+                    "vyprosia tvoju pomoc, <font color='#B71C1C'>*</font><br>" +
+                    "aby sme s nimi mali účasť na večnej sláve.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prinášame dary na tvoj oltár <br>" +
+                            "a prosíme ťa, daj nám vrúcnu oddanosť tebe, <font color='#B71C1C'>*</font><br>" +
+                            "akou si obdaril svätých <font color='#B71C1C'>M.</font> a <font color='#B71C1C'>M.</font>, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme s čistou mysľou a s horlivým srdcom <br>" +
+                            "slávili tebe milú a nám prospešnú obetu.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, Pane, <font color='#B71C1C'>*</font><br>" +
+                            "nech nám slúži na spásu sviatosť, <br>" +
 
-                                    "ktorú sme prijali, <font color='#B71C1C'>—</font><br>" +
-                                    "a nech nás posilňuje svetlom tvojej pravdy.<br>" +
-                                    "Skrze Krista, nášho Pána."},
+                            "ktorú sme prijali, <font color='#B71C1C'>—</font><br>" +
+                            "a nech nás posilňuje svetlom tvojej pravdy.<br>" +
+                            "Skrze Krista, nášho Pána."},
             {"61", "4", "Omša o svätých mužoch a svätých ženách 4.", "Všemohúci Bože, príkladmi svojich svätých <br>" +
                     "nás povzbudzuješ k lepšiemu životu; <font color='#B71C1C'>*</font><br>" +
                     "preto ťa prosíme, pomáhaj nám <br>" +
@@ -2370,14 +2370,14 @@ public interface Formular {
             // omsa o vychovavateloch
             {"64", "1", "Omša o vychovávateľoch", "Bože, ty si vzbudil vo svojej Cirkvi <br>" +
                     "svätého <font color='#B71C1C'>M.</font> (svätú <font color='#B71C1C'>M.</font>), aby svojim blížnym <br>" +
-                            "ukazoval<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> cestu spásy; <font color='#B71C1C'>*</font><br>" +
-                            "pomáhaj nám podľa jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> príkladu <br>" +
-                            "verne nasledovať Krista, nášho Učiteľa, <font color='#B71C1C'>—</font><br>" +
-                            "aby sme mohli so svojimi bratmi a sestrami <br>" +
-                            "dôjsť k tebe do večnej radosti.<br>" +
-                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
-                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
-                            "po všetky veky vekov.",
+                    "ukazoval<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> cestu spásy; <font color='#B71C1C'>*</font><br>" +
+                    "pomáhaj nám podľa jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> príkladu <br>" +
+                    "verne nasledovať Krista, nášho Učiteľa, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme mohli so svojimi bratmi a sestrami <br>" +
+                    "dôjsť k tebe do večnej radosti.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
                     "Pane, dobrotivo prijmi obetné dary svojho ľudu <br>" +
                             "v deň oslavy svätého <font color='#B71C1C'>M. (</font>svätej <font color='#B71C1C'>M.)</font>; <font color='#B71C1C'>*</font><br>" +
                             "nech nás táto vznešená obeta posilňuje, <font color='#B71C1C'>—</font><br>" +
@@ -2634,49 +2634,49 @@ public interface Formular {
                             "aby si mnohí vyvolili za svoje životné povolanie<br>" +
                             "slúžiť tebe vo svojich bratoch.<br>" +
                             "Skrze Krista, nášho Pána."},
-                    {"72b", "5", "Za rehoľné povolania", "Svätý Otče, ty všetkých veriacich<br>" +
-                            "pozývaš k dokonalej láske<br>" +
-                            "a mnohých povolávaš nasledovať<br>" +
-                            "tvojho Syna osobitným spôsobom; <font color='#B71C1C'>*</font><br>" +
-                            "prosíme ťa, milostivo pomáhaj všetkým,<br>" +
-                            "ktorých si vyvolil pre rehoľný život, <font color='#B71C1C'>—</font><br>" +
-                            "aby boli Cirkvi a svetu presvedčivým<br>" +
-                            "znamením tvojho kráľovstva.<br>" +
-                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
-                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
-                            "po všetky veky vekov.<br>" +
+            {"72b", "5", "Za rehoľné povolania", "Svätý Otče, ty všetkých veriacich<br>" +
+                    "pozývaš k dokonalej láske<br>" +
+                    "a mnohých povolávaš nasledovať<br>" +
+                    "tvojho Syna osobitným spôsobom; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, milostivo pomáhaj všetkým,<br>" +
+                    "ktorých si vyvolil pre rehoľný život, <font color='#B71C1C'>—</font><br>" +
+                    "aby boli Cirkvi a svetu presvedčivým<br>" +
+                    "znamením tvojho kráľovstva.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.<br>" +
+                    "<font color='#B71C1C'>Alebo (ak modlitbu prednáša rehoľný kňaz):</font><br>" +
+                    "Pane, milostivo zhliadni<br>" +
+                    "na našu rehoľnú rodinu<br>" +
+                    "a zveľaďuj ju novým dorastom; <font color='#B71C1C'>*</font><br>" +
+                    "daj, aby všetci členovia nášho spoločenstva<br>" +
+                    "nažívali v dokonalej láske <font color='#B71C1C'>—</font><br>" +
+                    "a úspešne pracovali na spáse ľudí.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Svätý Otče,<br>" +
+                            "milostivo prijmi dary, ktoré ti predkladáme,<br>" +
+                            "a vypočuj naše prosby za tých,<br>" +
+                            "čo chcú s radosťou nasledovať<br>" +
+                            "tvojho Syna po úzkej ceste rehoľného života; <font color='#B71C1C'>*</font><br>" +
+                            "daj, aby v rehoľnom spoločenstve<br>" +
+                            "našli úprimnú bratskú lásku <font color='#B71C1C'>—</font><br>" +
+                            "a opravdivú slobodu ducha.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, posilnil si nás<br>" +
+                            "duchovným pokrmom a nápojom; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa za všetkých rehoľníkov,<br>" +
+                            "aby verne žili podľa evanjeliovej dokonalosti, <font color='#B71C1C'>—</font><br>" +
+                            "a tak boli všade živým obrazom<br>" +
+                            "tvojho Syna, Ježiša Krista.<br>" +
+                            "Lebo on žije a kraľuje na veky vekov.<br>" +
                             "<font color='#B71C1C'>Alebo (ak modlitbu prednáša rehoľný kňaz):</font><br>" +
-                            "Pane, milostivo zhliadni<br>" +
-                            "na našu rehoľnú rodinu<br>" +
-                            "a zveľaďuj ju novým dorastom; <font color='#B71C1C'>*</font><br>" +
-                            "daj, aby všetci členovia nášho spoločenstva<br>" +
-                            "nažívali v dokonalej láske <font color='#B71C1C'>—</font><br>" +
-                            "a úspešne pracovali na spáse ľudí.<br>" +
-                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
-                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
-                            "po všetky veky vekov.",
-                            "Svätý Otče,<br>" +
-                                    "milostivo prijmi dary, ktoré ti predkladáme,<br>" +
-                                    "a vypočuj naše prosby za tých,<br>" +
-                                    "čo chcú s radosťou nasledovať<br>" +
-                                    "tvojho Syna po úzkej ceste rehoľného života; <font color='#B71C1C'>*</font><br>" +
-                                    "daj, aby v rehoľnom spoločenstve<br>" +
-                                    "našli úprimnú bratskú lásku <font color='#B71C1C'>—</font><br>" +
-                                    "a opravdivú slobodu ducha.<br>" +
-                                    "Skrze Krista, nášho Pána.",
-                            "Pane, posilnil si nás<br>" +
-                                    "duchovným pokrmom a nápojom; <font color='#B71C1C'>*</font><br>" +
-                                    "prosíme ťa za všetkých rehoľníkov,<br>" +
-                                    "aby verne žili podľa evanjeliovej dokonalosti, <font color='#B71C1C'>—</font><br>" +
-                                    "a tak boli všade živým obrazom<br>" +
-                                    "tvojho Syna, Ježiša Krista.<br>" +
-                                    "Lebo on žije a kraľuje na veky vekov.<br>" +
-                                    "<font color='#B71C1C'>Alebo (ak modlitbu prednáša rehoľný kňaz):</font><br>" +
-                                    "Pane, touto vznešenou sviatosťou<br>" +
-                                    "daruj nám silu verne a oddane ti slúžiť, <font color='#B71C1C'>*</font><br>" +
-                                    "aby sme pred svetom svedčili o tvojej láske <font color='#B71C1C'>—</font><br>" +
-                                    "a vyhľadávali predovšetkým večné hodnoty.<br>" +
-                                    "Skrze Krista, nášho Pána."},
+                            "Pane, touto vznešenou sviatosťou<br>" +
+                            "daruj nám silu verne a oddane ti slúžiť, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme pred svetom svedčili o tvojej láske <font color='#B71C1C'>—</font><br>" +
+                            "a vyhľadávali predovšetkým večné hodnoty.<br>" +
+                            "Skrze Krista, nášho Pána."},
             {"73", "1", "Na poďakovanie Pánu Bohu 1.", "Bože, ty sa zľutúvaš<br>" +
                     "nad svojimi služobníkmi, keď sú v tiesni,<br>" +
                     "a vždy vypočuješ ich prosby; <font color='#B71C1C'>*</font><br>" +
@@ -2806,27 +2806,27 @@ public interface Formular {
                     "ktorý je Boh a s tebou žije a kraľuje<br>" +
                     "v jednote Ducha Svätého po všetky veky vekov.", "", ""},
             {"74", "3", "Za rodinu", "Bože, v tebe má rodinné spoločenstvo<br>" +
-                            "svoj pôvod a pevný základ; <font color='#B71C1C'>*</font><br>" +
-                            "láskavo vypočuj naše prosby<br>" +
-                            "a pomáhaj nám rásť vo vzájomnej láske<br>" +
-                            "a v rodinných čnostiach<br>" +
-                            "podľa príkladu Svätej rodiny, <font color='#B71C1C'>—</font><br>" +
-                            "aby sme dosiahli večnú odmenu v nebeskom domove.<br>" +
-                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
-                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
-                            "po všetky veky vekov.",
-                            "Pane, prinášame ti zmiernu obetu <font color='#B71C1C'>*</font><br>" +
-                                    "a vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                                    "aby si upevňoval naše rodiny<br>" +
-                                    "v tvojej milosti a v tvojom pokoji.<br>" +
-                                    "Skrze Krista, nášho Pána.",
-                            "Dobrotivý Otče,<br>" +
-                                    "ty nás posilňuješ nebeskými sviatosťami; <font color='#B71C1C'>*</font><br>" +
-                                    "pomáhaj nám vytrvalo nasledovať<br>" +
-                                    "príklad Svätej rodiny, <font color='#B71C1C'>—</font><br>" +
-                                    "aby sme po útrapách tohto života<br>" +
-                                    "dosiahli večnú blaženosť v jej spoločenstve.<br>" +
-                                    "Skrze Krista, nášho Pána."},
+                    "svoj pôvod a pevný základ; <font color='#B71C1C'>*</font><br>" +
+                    "láskavo vypočuj naše prosby<br>" +
+                    "a pomáhaj nám rásť vo vzájomnej láske<br>" +
+                    "a v rodinných čnostiach<br>" +
+                    "podľa príkladu Svätej rodiny, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme dosiahli večnú odmenu v nebeskom domove.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prinášame ti zmiernu obetu <font color='#B71C1C'>*</font><br>" +
+                            "a vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "aby si upevňoval naše rodiny<br>" +
+                            "v tvojej milosti a v tvojom pokoji.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Dobrotivý Otče,<br>" +
+                            "ty nás posilňuješ nebeskými sviatosťami; <font color='#B71C1C'>*</font><br>" +
+                            "pomáhaj nám vytrvalo nasledovať<br>" +
+                            "príklad Svätej rodiny, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme po útrapách tohto života<br>" +
+                            "dosiahli večnú blaženosť v jej spoločenstve.<br>" +
+                            "Skrze Krista, nášho Pána."},
             {"75", "1", "V čase sejby 1.", "Bože, zverujeme zemi osivo,<br>" +
                     "ktoré vzrastie s tvojou pomocou, <font color='#B71C1C'>*</font><br>" +
                     "a keďže vieme, že naša práca sama nestačí,<br>" +
@@ -3035,7 +3035,7 @@ public interface Formular {
                             "a pomáhaj nám budovať duchovný chrám,<br>" +
                             "ktorý je postavený na základoch dôvery v teba.<br>" +
                             "Skrze Krista, nášho Pána."},
-                        // SPOLOCNE OMSE PREBLAHOSLAVENEJ PANNY MÁRIE
+            // SPOLOCNE OMSE PREBLAHOSLAVENEJ PANNY MÁRIE
             {"11", "1", "Omša k preblahoslavenej Panne Marií 1.", "Bratia a sestry, Panna Mária je veľkým vzorom nášho života v pokore, modlitbe a plnení Božej vôle. V tejto spoločnej modlitbe na jej orodovanie prosme nášho najmilostivejšieho Pána.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Bože, požehnávaj Svätého Otca <font color='#B71C1C'>M.</font> a našich biskupov, kňazov a diakonov, aby tak ako Panna Mária vždy ochotne plnili tvoju vôľu.<br>" +
@@ -3630,77 +3630,77 @@ public interface Formular {
                             "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
                             "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
                     "Kriste, náš Pán a kráľ,<br>" +
-            "prijmi a vypočuj naše modlitby,<br>" +
-                    "ktoré ti s pokorou predkladáme,<br>" +
-                    "daruj nám duchovnú radosť a nadšenie<br>" +
-                    "nasledovať tvojich verných a svätých služobníkov.<br>" +
-                    "Lebo ty žiješ a kraľuješ na veky vekov."},
-    {"61", "2", "Omša o svätých mužoch a svätých ženách 2.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
-            "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-            "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
-                    "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
-                    "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
-                    "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
-                    "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
-            "Kriste, náš Pán a kráľ,<br>" +
-            "prijmi a vypočuj naše modlitby,<br>" +
-                    "ktoré ti s pokorou predkladáme,<br>" +
-                    "daruj nám duchovnú radosť a nadšenie<br>" +
-                    "nasledovať tvojich verných a svätých služobníkov.<br>" +
-                    "Lebo ty žiješ a kraľuješ na veky vekov."},
-    {"61", "3", "Omša o svätých mužoch a svätých ženách 3.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
-            "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-            "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
-                    "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
-                    "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
-                    "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
-                    "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
-            "Kriste, náš Pán a kráľ,<br>" +
-            "prijmi a vypočuj naše modlitby,<br>" +
-                    "ktoré ti s pokorou predkladáme,<br>" +
-                    "daruj nám duchovnú radosť a nadšenie<br>" +
-                    "nasledovať tvojich verných a svätých služobníkov.<br>" +
-                    "Lebo ty žiješ a kraľuješ na veky vekov."},
-    {"61", "4", "Omša o svätých mužoch a svätých ženách 4.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
-            "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-            "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
-                    "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
-                    "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
-                    "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
-                    "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
-            "Kriste, náš Pán a kráľ,<br>" +
-            "prijmi a vypočuj naše modlitby,<br>" +
-                    "ktoré ti s pokorou predkladáme,<br>" +
-                    "daruj nám duchovnú radosť a nadšenie<br>" +
-                    "nasledovať tvojich verných a svätých služobníkov.<br>" +
-                    "Lebo ty žiješ a kraľuješ na veky vekov."},
-    {"60", "1", "Omša o svätých mužoch a svätých ženách 5.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
-            "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-            "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
-                    "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
-                    "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
-                    "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
-                    "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
-            "Kriste, náš Pán a kráľ,<br>" +
-            "prijmi a vypočuj naše modlitby,<br>" +
-                    "ktoré ti s pokorou predkladáme,<br>" +
-                    "daruj nám duchovnú radosť a nadšenie<br>" +
-                    "nasledovať tvojich verných a svätých služobníkov.<br>" +
-                    "Lebo ty žiješ a kraľuješ na veky vekov."},
-    {"60", "2", "Omša o svätých mužoch a svätých ženách 6.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
-            "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-            "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
-                    "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
-                    "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
-                    "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
-                    "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
-            "Kriste, náš Pán a kráľ,<br>" +
-            "prijmi a vypočuj naše modlitby,<br>" +
-                    "ktoré ti s pokorou predkladáme,<br>" +
-                    "daruj nám duchovnú radosť a nadšenie<br>" +
-                    "nasledovať tvojich verných a svätých služobníkov.<br>" +
-                    "Lebo ty žiješ a kraľuješ na veky vekov."},
-    // omsa o reholnikoch
+                            "prijmi a vypočuj naše modlitby,<br>" +
+                            "ktoré ti s pokorou predkladáme,<br>" +
+                            "daruj nám duchovnú radosť a nadšenie<br>" +
+                            "nasledovať tvojich verných a svätých služobníkov.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
+            {"61", "2", "Omša o svätých mužoch a svätých ženách 2.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
+                    "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
+                            "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
+                            "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
+                            "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
+                            "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
+                    "Kriste, náš Pán a kráľ,<br>" +
+                            "prijmi a vypočuj naše modlitby,<br>" +
+                            "ktoré ti s pokorou predkladáme,<br>" +
+                            "daruj nám duchovnú radosť a nadšenie<br>" +
+                            "nasledovať tvojich verných a svätých služobníkov.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
+            {"61", "3", "Omša o svätých mužoch a svätých ženách 3.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
+                    "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
+                            "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
+                            "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
+                            "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
+                            "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
+                    "Kriste, náš Pán a kráľ,<br>" +
+                            "prijmi a vypočuj naše modlitby,<br>" +
+                            "ktoré ti s pokorou predkladáme,<br>" +
+                            "daruj nám duchovnú radosť a nadšenie<br>" +
+                            "nasledovať tvojich verných a svätých služobníkov.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
+            {"61", "4", "Omša o svätých mužoch a svätých ženách 4.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
+                    "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
+                            "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
+                            "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
+                            "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
+                            "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
+                    "Kriste, náš Pán a kráľ,<br>" +
+                            "prijmi a vypočuj naše modlitby,<br>" +
+                            "ktoré ti s pokorou predkladáme,<br>" +
+                            "daruj nám duchovnú radosť a nadšenie<br>" +
+                            "nasledovať tvojich verných a svätých služobníkov.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
+            {"60", "1", "Omša o svätých mužoch a svätých ženách 5.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
+                    "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
+                            "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
+                            "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
+                            "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
+                            "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
+                    "Kriste, náš Pán a kráľ,<br>" +
+                            "prijmi a vypočuj naše modlitby,<br>" +
+                            "ktoré ti s pokorou predkladáme,<br>" +
+                            "daruj nám duchovnú radosť a nadšenie<br>" +
+                            "nasledovať tvojich verných a svätých služobníkov.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
+            {"60", "2", "Omša o svätých mužoch a svätých ženách 6.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
+                    "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
+                            "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
+                            "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
+                            "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
+                            "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
+                    "Kriste, náš Pán a kráľ,<br>" +
+                            "prijmi a vypočuj naše modlitby,<br>" +
+                            "ktoré ti s pokorou predkladáme,<br>" +
+                            "daruj nám duchovnú radosť a nadšenie<br>" +
+                            "nasledovať tvojich verných a svätých služobníkov.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov."},
+            // omsa o reholnikoch
             {"62", "1", "Omša o rehoľníkoch 1.", "Bratia a sestry, svätý<font color='#B71C1C'>(</font>á<font color='#B71C1C'>) M.</font> získal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> korunu víťazstva za svoj príkladný život v rehoľnom spoločenstve. Na jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> príhovor prosme nášho dobrotivého Boha Otca.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Bože Otče, milostivo sprevádzaj predstavených rehoľných spoločenstiev a všetkých biskupov, kňazov a diakonov, aby v sile Ducha Svätého prinášali svojim blížnym svetlo viery a nádej.<br>" +
@@ -3911,11 +3911,11 @@ public interface Formular {
                             "prijmi naše prosby<br>" +
                             "a daj nám kňazov podľa svojho Srdca,<br>" +
                             "lebo ty žiješ a kraľuješ na veky vekov.",
-            "Alebo:",
+                    "Alebo:",
                     "Za nové kňazské povolania", "Bratia a sestry, kňazi nám prinášajú na oltár živého Krista, preto vďaka nim môžeme mať účasť na stretnutí s naším Pánom. Modlime sa za nové povolania na kňazstvo a za celú Cirkev.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Bože, stoj pri všetkých kňazoch svojej Cirkvi, aby prostredníctvom živého spojenia s Kristom boli príkladom pre nové kňazské povolania.<br>" +
-                    "<font color='#B71C1C'>2.</font> Otče, posilňuj všetkých kňazov, ktorí sú svetskými zákonmi prenasledovaní alebo utláčaní, aby mali dostatok odvahy vydávať svedectvo o tvojej nekonečnej láske a odpustení.<br>" +
+                            "<font color='#B71C1C'>2.</font> Otče, posilňuj všetkých kňazov, ktorí sú svetskými zákonmi prenasledovaní alebo utláčaní, aby mali dostatok odvahy vydávať svedectvo o tvojej nekonečnej láske a odpustení.<br>" +
                             "<font color='#B71C1C'>3.</font> Bože, zjavuj svoju dobrotu v srdciach mladých mužov, aby sa medzi nimi našli takí, ktorí ti zasvätia celý svoj život.<br>" +
                             "<font color='#B71C1C'>4.</font> Otče, nauč nás ochotne prijímať dar povolania ku kňazstvu u svojich bratov a nerobiť im prekážky na ceste nasledovania Krista.<br>" +
                             "<font color='#B71C1C'>5.</font> Bože, poteš večnou radosťou našich zosnulých kňazov, ktorí opustili tento svet, a priveď ich do večnej blaženosti.",
@@ -3941,7 +3941,7 @@ public interface Formular {
                             "aby bol dostatok robotníkov na tvojej žatve<br>" +
                             "na tvoju česť a slávu a pre spásu ľudí,<br>" +
                             "lebo ty žiješ a kraľuješ na veky vekov.",
-            "Alebo:",
+                    "Alebo:",
                     "Za nové duchovné povolania 1.",
                     "Bratia a sestry, každý z nás plní v živote určité poslanie. Modlime sa, aby Boh daroval svojim vyvoleným milosť Ducha Svätého, v ktorej môžu spoznať povolanie na duchovný život.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, povolaj tých, v ktorých máš zaľúbenie.<font color='#B71C1C'>)</font>",
@@ -4124,15 +4124,803 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
     };
 
+    String[][] citanie1KantroveDni = {
+            {"71", "1", "Za odpustenie hriechov 1.", "Iz 55, 6-9",
+                    "Nech sa vráti k Pánovi, pretože on veľkodušne odpúšťa",
+                    "Čítanie z Knihy proroka Izaiáša.<br>" +
+                            "Hľadajte Pána, kým ho možno nájsť, volajte ho, kým je nablízku. Nech zanechá bezbožný svoju cestu a zločinec svoje zámery, nech sa vráti k Pánovi a on sa nad ním zmiluje, k nášmu Bohu, lebo on veľkodušne odpúšťa.<br>" +
+                            "Lebo moje myšlienky nie sú vaše myšlienky a vaše cesty nie sú mojimi cestami, hovorí Pán. Lebo ako vysoko je nebo nad zemou, tak vysoko sú moje cesty nad vašimi cestami a moje myšlienky nad vašimi myšlienkami.<br>" +
+                            "Počuli sme Božie slovo.",
+                    "Alebo:", "Joel 2, 12-18",
+                    "Srdcia si roztrhnite, nie šaty",
+                    "Čítanie z Knihy proroka Joela<br>"+
+                            "Pán hovorí: „Obráťte sa ku mne celým svojím srdcom, pôstom, plačom a nárekom; srdcia si roztrhnite, nie šaty, a obráťte sa k Pánovi, svojmu Bohu. <br>" +
+                            "Veď on je dobrotivý a milosrdný, zhovievavý a veľmi milostivý a zľutúva sa v nešťastí.“<br>" +
+                            "Kto vie? Možno zmení svoje rozhodnutie a odpustí nám a zanechá po sebe požehnanie na obetu a nápoj Pánovi, vášmu Bohu.<br>" +
+                            "Trúbte na Sione, vyhláste pôst, zvolajte pospolitosť! Zhromaždite ľud, posväťte zástup, zvolajte starcov, zhromaždite deti i tie, čo sajú prsia; ženích nech vyjde zo svojej izby a nevesta zo svojej komôrky.<br>" +
+                            "Kňazi, Pánovi služobníci, nech plačú medzi predsieňou a oltárom a nech hovoria: „Zľutuj sa, Pane, nad svojím ľudom a nevystavuj potupe svoje dedičstvo; nech nepanujú nad ním národy.“ Prečo by sa malo vravieť medzi národmi: „Kdeže je ich boh?“ A Pán sa rozhorlil za svoju krajinu a zľutoval sa nad svojím ľudom.<br>" +
+                            "Počuli sme Božie slovo."},
+            {"71", "2", "Za odpustenie hriechov 2.", "Iz 55, 6-9",
+                    "Nech sa vráti k Pánovi, pretože on veľkodušne odpúšťa",
+                    "Čítanie z Knihy proroka Izaiáša.<br>" +
+                            "Hľadajte Pána, kým ho možno nájsť, volajte ho, kým je nablízku. Nech zanechá bezbožný svoju cestu a zločinec svoje zámery, nech sa vráti k Pánovi a on sa nad ním zmiluje, k nášmu Bohu, lebo on veľkodušne odpúšťa.<br>" +
+                            "Lebo moje myšlienky nie sú vaše myšlienky a vaše cesty nie sú mojimi cestami, hovorí Pán. Lebo ako vysoko je nebo nad zemou, tak vysoko sú moje cesty nad vašimi cestami a moje myšlienky nad vašimi myšlienkami.<br>" +
+                            "Počuli sme Božie slovo.",
+                    "Alebo:", "Joel 2, 12-18",
+                    "Srdcia si roztrhnite, nie šaty",
+                    "Čítanie z Knihy proroka Joela<br>"+
+                            "Pán hovorí: „Obráťte sa ku mne celým svojím srdcom, pôstom, plačom a nárekom; srdcia si roztrhnite, nie šaty, a obráťte sa k Pánovi, svojmu Bohu. <br>" +
+                            "Veď on je dobrotivý a milosrdný, zhovievavý a veľmi milostivý a zľutúva sa v nešťastí.“<br>" +
+                            "Kto vie? Možno zmení svoje rozhodnutie a odpustí nám a zanechá po sebe požehnanie na obetu a nápoj Pánovi, vášmu Bohu.<br>" +
+                            "Trúbte na Sione, vyhláste pôst, zvolajte pospolitosť! Zhromaždite ľud, posväťte zástup, zvolajte starcov, zhromaždite deti i tie, čo sajú prsia; ženích nech vyjde zo svojej izby a nevesta zo svojej komôrky.<br>" +
+                            "Kňazi, Pánovi služobníci, nech plačú medzi predsieňou a oltárom a nech hovoria: „Zľutuj sa, Pane, nad svojím ľudom a nevystavuj potupe svoje dedičstvo; nech nepanujú nad ním národy.“ Prečo by sa malo vravieť medzi národmi: „Kdeže je ich boh?“ A Pán sa rozhorlil za svoju krajinu a zľutoval sa nad svojím ľudom.<br>" +
+                            "Počuli sme Božie slovo."},
+            {"71", "3", "Za dar lásky", "Rim 12, 3-13",
+                    "Máme rozličné dary podľa milosti",
+                    "Čítanie z Listu svätého apoštola Pavla Rimanom<br>" +
+                            "Bratia, mocou milosti, ktorú som dostal, hovorím každému z vás, aby si nik nemyslel o sebe viac, ako myslieť treba, ale zmýšľajte triezvo, každý podľa stupňa viery, aký mu udelil Boh. <br>" +
+                            "Lebo ako máme v jednom tele mnoho údov, ale všetky údy nekonajú tú istú činnosť, tak aj my mnohí sme jedno telo v Kristovi a jednotlivo sme si navzájom údmi. <br>" +
+                            "Máme rozličné dary podľa milosti, ktorú sme dostali: či už dar prorokovať v súlade s vierou, alebo dar slúžiť v službe, alebo učiť pri vyučovaní, či povzbudzovať pri povzbudzovaní. Kto teda dáva, nech dáva nezištne, kto je predstavený, nech je starostlivý, kto preukazuje milosrdenstvo, nech to robí radostne.<br>" +
+                            "Láska nech je bez pretvárky. Nenáviďte zlo, lipnite k dobru. Milujte sa navzájom bratskou láskou, predbiehajte sa vzájomne v úctivosti, v horlivosti neochabujte, buďte vrúcneho ducha, slúžte Pánovi. V nádeji sa radujte, v súžení buďte trpezliví, v modlitbe vytrvalí. Majte účasť na potrebách svätých, buďte pohostinní.<br>" +
+                            "Počuli sme Božie slovo.",
+                    "Alebo:",
+                    "1 Kor 12, 31 – 13, 13",
+                    "Láska nikdy nezanikne",
+                    "Čítanie z Prvého listu svätého apoštola Pavla Korinťanom<br>" +
+                            "Bratia, usilujte sa o vyššie dary milosti. A ešte vznešenejšiu cestu vám ukážem. Keby som hovoril ľudskými jazykmi aj anjelskými, a lásky by som nemal, bol by som ako cvendžiaci kov a zuniaci cimbal.<br>" +
+                            "A keby som mal dar proroctva a poznal všetky tajomstvá a všetku vedu a keby som mal takú silnú vieru, že by som vrchy prenášal, a lásky by som nemal, ničím by som nebol.<br>" +
+                            "A keby som rozdal celý svoj majetok ako almužnu a keby som obetoval svoje telo, aby som bol slávny, a lásky by som nemal, nič by mi to neosožilo.<br>" +
+                            "Láska je trpezlivá, láska je dobrotivá; nezávidí, nevypína sa, nevystatuje sa, nie je nehanebná, nie je sebecká, nerozčuľuje sa, nemyslí na zlé, neteší sa z neprávosti, ale raduje sa z pravdy. Všetko znáša, všetko verí, všetko dúfa, všetko vydrží.<br>" +
+                            "Láska nikdy nezanikne. Proroctvá prestanú, jazyky zamĺknu a poznanie pominie. Lebo poznávame len sčasti a len sčasti prorokujeme. Ale keď príde to, čo je dokonalé, prestane, čo je len čiastočné.<br>" +
+                            "Keď som bol dieťa, hovoril som ako dieťa, poznával som ako dieťa, rozmýšľal som ako dieťa. Keď som sa stal mužom, zanechal som detské spôsoby. Teraz vidíme len nejasne, akoby v zrkadle, no potom z tváre do tváre. Teraz poznávam iba čiastočne, ale potom budem poznať tak, ako som aj ja poznaný.<br>" +
+                            "A tak teraz ostáva viera, nádej, láska, tieto tri; no najväčšia z nich je láska.<br>" +
+                            "Počuli sme Božie slovo."},
+            {"75", "1", "V čase sejby 1.", "Gn 1, 11-12",
+                    "Zem vyhnala zelené rastliny, rastliny prinášajúce semeno podľa svojho druhu",
+                    "Čítanie z Prvej knihy Mojžišovej<br>" +
+                            "Boh povedal:<br>" +
+                            "„Zem nech vyženie zelené rastliny: rastliny prinášajúce semeno a ovocné stromy prinášajúce plody podlá svojho druhu a v nich nech je semeno na zemi.“ A tak sa stalo.<br>" +
+                            "Zem vyhnala zelené rastliny, rastliny prinášajúce semeno podľa svojho druhu i stromy prinášajúce plody a v nich semená podľa svojho druhu. A Boh videl, že je to dobré.<br>" +
+                            "Počuli sme Božie slovo.",
+                    "Alebo:",
+                    "Iz 55,6-13",
+                    "Aby obdarovala rozsievača semenom a dala chlieb hladnému",
+                    "Čítanie z Knihy proroka Izaiáša<br>" +
+                            "Hľadajte Pána, kým ho možno nájsť,<br>" +
+                            "volajte ho, kým je nablízku.<br>" +
+                            "Nech opustí bezbožný svoju cestu<br>" +
+                            "a zločinec nech zmení svoje zmýšľanie,<br>" +
+                            "nech sa vráti k Pánovi a on sa nad ním zmiluje,<br>" +
+                            "k nášmu Bohu, pretože on veľkodušne odpúšťa.<br>" +
+                            "Lebo moje myšlienky nie sú vaše myšlienky<br>" +
+                            "a vaše cesty nie sú mojimi cestami, hovorí Pán.<br>" +
+                            "Lebo ako vysoko je nebo nad zemou,<br>" +
+                            "tak vysoko sú moje cesty nad vašimi cestami<br>" +
+                            "a moje myšlienky nad vašimi myšlienkami.<br>" +
+                            "Ako z neba padá dážď a sneh<br>" +
+                            "a nevracia sa späť, lež napojí zem a zúrodní ju,<br>" +
+                            "aby z nej klíčilo, <br>" +
+                            "aby obdarovala rozsievača semenom<br>" +
+                            "a dala chlieb hladnému,<br>" +
+                            "tak bude so slovom, ktoré vychádza z mojich úst:<br>" +
+                            "nevráti sa ku mne naprázdno, <br>" +
+                            "ale vykoná všetko, čo chcem, <br>" +
+                            "a vydarí sa jeho poslanie.<br>" +
+                            "Preto s radosťou vyjdete<br>" +
+                            "a v pokoji vás povedú.<br>" +
+                            "Vrchy a kopce budú jasať pred vami,<br>" +
+                            "a všetky stromy kraja tlieskať rukami.<br>" +
+                            "Miesto tŕnia vyrastie cyprus,<br>" +
+                            "a miesto žihľavy narastie myrta. <br>" +
+                            "A bude to Pánovi na slávu, <br>" +
+                            "na veľké znamenia, ktoré nezanikne.<br>" +
+                            "Počuli sme Božie slovo."},
+            {"75", "2", "V čase sejby 2.", "Gn 1, 11-12",
+                    "Zem vyhnala zelené rastliny, rastliny prinášajúce semeno podľa svojho druhu",
+                    "Čítanie z Prvej knihy Mojžišovej<br>" +
+                            "Boh povedal:<br>" +
+                            "„Zem nech vyženie zelené rastliny: rastliny prinášajúce semeno a ovocné stromy prinášajúce plody podlá svojho druhu a v nich nech je semeno na zemi.“ A tak sa stalo.<br>" +
+                            "Zem vyhnala zelené rastliny, rastliny prinášajúce semeno podľa svojho druhu i stromy prinášajúce plody a v nich semená podľa svojho druhu. A Boh videl, že je to dobré.<br>" +
+                            "Počuli sme Božie slovo.",
+                    "Alebo:",
+                    "Iz 55,6-13",
+                    "Aby obdarovala rozsievača semenom a dala chlieb hladnému",
+                    "Čítanie z Knihy proroka Izaiáša<br>" +
+                            "Hľadajte Pána, kým ho možno nájsť,<br>" +
+                            "volajte ho, kým je nablízku.<br>" +
+                            "Nech opustí bezbožný svoju cestu<br>" +
+                            "a zločinec nech zmení svoje zmýšľanie,<br>" +
+                            "nech sa vráti k Pánovi a on sa nad ním zmiluje,<br>" +
+                            "k nášmu Bohu, pretože on veľkodušne odpúšťa.<br>" +
+                            "Lebo moje myšlienky nie sú vaše myšlienky<br>" +
+                            "a vaše cesty nie sú mojimi cestami, hovorí Pán.<br>" +
+                            "Lebo ako vysoko je nebo nad zemou,<br>" +
+                            "tak vysoko sú moje cesty nad vašimi cestami<br>" +
+                            "a moje myšlienky nad vašimi myšlienkami.<br>" +
+                            "Ako z neba padá dážď a sneh<br>" +
+                            "a nevracia sa späť, lež napojí zem a zúrodní ju,<br>" +
+                            "aby z nej klíčilo, <br>" +
+                            "aby obdarovala rozsievača semenom<br>" +
+                            "a dala chlieb hladnému,<br>" +
+                            "tak bude so slovom, ktoré vychádza z mojich úst:<br>" +
+                            "nevráti sa ku mne naprázdno, <br>" +
+                            "ale vykoná všetko, čo chcem, <br>" +
+                            "a vydarí sa jeho poslanie.<br>" +
+                            "Preto s radosťou vyjdete<br>" +
+                            "a v pokoji vás povedú.<br>" +
+                            "Vrchy a kopce budú jasať pred vami,<br>" +
+                            "a všetky stromy kraja tlieskať rukami.<br>" +
+                            "Miesto tŕnia vyrastie cyprus,<br>" +
+                            "a miesto žihľavy narastie myrta. <br>" +
+                            "A bude to Pánovi na slávu, <br>" +
+                            "na veľké znamenia, ktoré nezanikne.<br>" +
+                            "Počuli sme Božie slovo."},
+            {"72a", "1", "Za jednotu kresťanov 1.", "Dt 30, 1-4",
+                    "Znova ťa zhromaždí spomedzi všetkých národov, medzi ktoré ťa predtým rozptýlil",
+                            "Čítanie z Knihy Deuteronómium<br>" +
+                            "Mojžiš povedal ľudu: <br>" +
+                            "\"Keď sa na tebe vyplnia všetky tieto slová, požehnanie i kliatba, ktoré som ti predložil, a pripustíš si ich k srdcu uprostred všetkých národov, medzi ktoré by ťa Pán, tvoj Boh, rozptýlil, a keď sa vrátiš k nemu a budeš i so svojimi deťmi celým svojím srdcom a celou svojou dušou poslúchať jeho nariadenia, ako ti to dnes prikazujem, Pán, tvoj Boh, zmení tvoj údel, zmiluje sa nad tebou a znova ťa zhromaždi spomedzi všetkých národov, medzi ktoré ťa predtým rozptýlil. A keby si bol rozptýlený až po okraj nebies, aj odtiaľ ťa privedie späť Pán, tvoj Boh, a vezme si ťa.\"<br>" +
+                            "Počuli sme Božie slovo.",
+                    "Alebo:",
+                    "Ez 36, 24-28",
+                    "Zhromaždím vás zo všetkých krajín. A dám vám nové srdce",
+                            "Čítanie z Knihy proroka Ezechiela<br>" +
+                            "Toto hovorí Pán Boh:<br>" +
+                            "\"Vezmem vás spomedzi národov, zhromaždím vás zo všetkých krajín a zavediem vás do vlastnej krajiny. Potom na vás vylejem čistú vodu a budete očistení od všetkej špiny. Od všetkých vašich modiel vás očistím.<br>" +
+                            "Dám vám nové srdce a vložím do vás nového ducha. Odstránim z vášho tela srdce kamenné a dám vám srdce z mäsa. Vložím do vás svojho ducha a spôsobím, že budete kráčať podľa mojich príkazov, že budete zachovávať a plniť moje výroky.<br>" +
+                            "Budete bývať v krajine, ktorú som dal vašim otcom, budete mojím ľudom a ja budem vaším Bohom.\"<br>" +
+                            "Počuli sme Božie slovo."},
+            {"72a", "2", "Za jednotu kresťanov 2.", "Dt 30, 1-4",
+                    "Znova ťa zhromaždí spomedzi všetkých národov, medzi ktoré ťa predtým rozptýlil",
+                            "Čítanie z Knihy Deuteronómium<br>" +
+                            "Mojžiš povedal ľudu: <br>" +
+                            "\"Keď sa na tebe vyplnia všetky tieto slová, požehnanie i kliatba, ktoré som ti predložil, a pripustíš si ich k srdcu uprostred všetkých národov, medzi ktoré by ťa Pán, tvoj Boh, rozptýlil, a keď sa vrátiš k nemu a budeš i so svojimi deťmi celým svojím srdcom a celou svojou dušou poslúchať jeho nariadenia, ako ti to dnes prikazujem, Pán, tvoj Boh, zmení tvoj údel, zmiluje sa nad tebou a znova ťa zhromaždi spomedzi všetkých národov, medzi ktoré ťa predtým rozptýlil. A keby si bol rozptýlený až po okraj nebies, aj odtiaľ ťa privedie späť Pán, tvoj Boh, a vezme si ťa.\"<br>" +
+                            "Počuli sme Božie slovo.",
+                    "Alebo:",
+                    "Ez 36, 24-28",
+                    "Zhromaždím vás zo všetkých krajín. A dám vám nové srdce",
+                            "Čítanie z Knihy proroka Ezechiela<br>" +
+                            "Toto hovorí Pán Boh:<br>" +
+                            "\"Vezmem vás spomedzi národov, zhromaždím vás zo všetkých krajín a zavediem vás do vlastnej krajiny. Potom na vás vylejem čistú vodu a budete očistení od všetkej špiny. Od všetkých vašich modiel vás očistím.<br>" +
+                            "Dám vám nové srdce a vložím do vás nového ducha. Odstránim z vášho tela srdce kamenné a dám vám srdce z mäsa. Vložím do vás svojho ducha a spôsobím, že budete kráčať podľa mojich príkazov, že budete zachovávať a plniť moje výroky.<br>" +
+                            "Budete bývať v krajine, ktorú som dal vašim otcom, budete mojím ľudom a ja budem vaším Bohom.\"<br>" +
+                            "Počuli sme Božie slovo."},
+            {"72a", "3", "Za jednotu kresťanov 3.", "Dt 30, 1-4",
+                    "Znova ťa zhromaždí spomedzi všetkých národov, medzi ktoré ťa predtým rozptýlil",
+                            "Čítanie z Knihy Deuteronómium<br>" +
+                            "Mojžiš povedal ľudu: <br>" +
+                            "\"Keď sa na tebe vyplnia všetky tieto slová, požehnanie i kliatba, ktoré som ti predložil, a pripustíš si ich k srdcu uprostred všetkých národov, medzi ktoré by ťa Pán, tvoj Boh, rozptýlil, a keď sa vrátiš k nemu a budeš i so svojimi deťmi celým svojím srdcom a celou svojou dušou poslúchať jeho nariadenia, ako ti to dnes prikazujem, Pán, tvoj Boh, zmení tvoj údel, zmiluje sa nad tebou a znova ťa zhromaždi spomedzi všetkých národov, medzi ktoré ťa predtým rozptýlil. A keby si bol rozptýlený až po okraj nebies, aj odtiaľ ťa privedie späť Pán, tvoj Boh, a vezme si ťa.\"<br>" +
+                            "Počuli sme Božie slovo.",
+                    "Alebo:",
+                    "Ez 36, 24-28",
+                    "Zhromaždím vás zo všetkých krajín. A dám vám nové srdce",
+                            "Čítanie z Knihy proroka Ezechiela<br>" +
+                            "Toto hovorí Pán Boh:<br>" +
+                            "\"Vezmem vás spomedzi národov, zhromaždím vás zo všetkých krajín a zavediem vás do vlastnej krajiny. Potom na vás vylejem čistú vodu a budete očistení od všetkej špiny. Od všetkých vašich modiel vás očistím.<br>" +
+                            "Dám vám nové srdce a vložím do vás nového ducha. Odstránim z vášho tela srdce kamenné a dám vám srdce z mäsa. Vložím do vás svojho ducha a spôsobím, že budete kráčať podľa mojich príkazov, že budete zachovávať a plniť moje výroky.<br>" +
+                            "Budete bývať v krajine, ktorú som dal vašim otcom, budete mojím ľudom a ja budem vaším Bohom.\"<br>" +
+                            "Počuli sme Božie slovo."},
+            {"72b", "4", "Za povolanie na kňazský stav", "Gn 12, 1-4a",
+                    "Odíď zo svojej krajiny a od svojich príbuzných",
+                            "Čítanie z Knihy Genezis<br>" +
+                            "Pán povedal Abramovi: \"Odíď zo svojej krajiny, od svojich príbuzných a z domu svojho otca do krajiny, ktorú ti ukážem.<br>" +
+                            "Urobím z teba veľký národ a požehnám ťa, oslávim tvoje meno a budeš požehnaním. Požehnám tých, čo ťa budú žehnať, a prekľajem tých, čo ťa budú preklínať. V tebe budú požehnané všetky pokolenia zeme.\"<br>" +
+                            "A Abram odišiel, ako mu rozkázal Pán.<br>" +
+                            "Počuli sme Božie slovo.",
+                    "Alebo:",
+                    "Ex 3, 1-6. 9-12",
+                    "Ja budem s tebou",
+                            "Čítanie z Knihy Exodus<br>" +
+                            "Mojžiš pásol ovce svojho tesťa, madiánskeho kňaza Jetra. Keď raz hnal stádo za púšť, došiel k Božiemu vrchu Horeb. Tam sa mu zjavil anjel Pána v plameni ohňa, čo šľahal z tŕňového kra. Videl, že ker horí plameňom, a nezhára.<br>" +
+                            "Mojžiš si povedal: \"Pôjdem sa pozrieť na tento zvláštny jav, prečo ker nezhára.\" Keď Pán videl, že sa prichádza pozrieť, Boh ho z tŕňového kra oslovil: \"Mojžiš, Mojžiš!\" On odpovedal: \"Tu som.\" Pán povedal: \"Nepribližuj sa sem! Zobuj si z nôh sandále, lebo miesto, na ktorom stojíš, je zem svätá.\" A pokračoval: \"Ja som Boh tvojho otca, Boh Abraháma, Boh Izáka a Boh Jakuba.\" Mojžiš si zakryl tvár, lebo sa neodvážil hľadieť na Boha.<br>" +
+                            "Pán mu povedal: \"Krik Izraelových synov prišiel ku mne a videl som ich útrapy, ako ich Egypťania sužujú. Poď, pošlem ťa k faraónovi a vyvedieš môj ľud, synov Izraela, z Egypta.\" Mojžiš povedal Bohu: \"Kto som ja, aby som šiel k faraónovi a vyviedol synov Izraela z Egypta?\" Ale on mu povedal: \"Ja budem s tebou; a toto ti bude znamením, že som ťa ja poslal: Keď vyvedieš ľud z Egypta, na tomto vrchu budete slúžiť Bohu.\"<br>" +
+                            "Počuli sme Božie slovo."},
+            {"72b", "5", "Za rehoľné povolania", "Gn 12, 1-4a",
+                    "Odíď zo svojej krajiny a od svojich príbuzných",
+                            "Čítanie z Knihy Genezis<br>" +
+                            "Pán povedal Abramovi: \"Odíď zo svojej krajiny, od svojich príbuzných a z domu svojho otca do krajiny, ktorú ti ukážem.<br>" +
+                            "Urobím z teba veľký národ a požehnám ťa, oslávim tvoje meno a budeš požehnaním. Požehnám tých, čo ťa budú žehnať, a prekľajem tých, čo ťa budú preklínať. V tebe budú požehnané všetky pokolenia zeme.\"<br>" +
+                            "A Abram odišiel, ako mu rozkázal Pán.<br>" +
+                            "Počuli sme Božie slovo.",
+                    "Alebo:",
+                    "Ex 3, 1-6. 9-12",
+                    "Ja budem s tebou",
+                            "Čítanie z Knihy Exodus<br>" +
+                            "Mojžiš pásol ovce svojho tesťa, madiánskeho kňaza Jetra. Keď raz hnal stádo za púšť, došiel k Božiemu vrchu Horeb. Tam sa mu zjavil anjel Pána v plameni ohňa, čo šľahal z tŕňového kra. Videl, že ker horí plameňom, a nezhára.<br>" +
+                            "Mojžiš si povedal: \"Pôjdem sa pozrieť na tento zvláštny jav, prečo ker nezhára.\" Keď Pán videl, že sa prichádza pozrieť, Boh ho z tŕňového kra oslovil: \"Mojžiš, Mojžiš!\" On odpovedal: \"Tu som.\" Pán povedal: \"Nepribližuj sa sem! Zobuj si z nôh sandále, lebo miesto, na ktorom stojíš, je zem svätá.\" A pokračoval: \"Ja som Boh tvojho otca, Boh Abraháma, Boh Izáka a Boh Jakuba.\" Mojžiš si zakryl tvár, lebo sa neodvážil hľadieť na Boha.<br>" +
+                            "Pán mu povedal: \"Krik Izraelových synov prišiel ku mne a videl som ich útrapy, ako ich Egypťania sužujú. Poď, pošlem ťa k faraónovi a vyvedieš môj ľud, synov Izraela, z Egypta.\" Mojžiš povedal Bohu: \"Kto som ja, aby som šiel k faraónovi a vyviedol synov Izraela z Egypta?\" Ale on mu povedal: \"Ja budem s tebou; a toto ti bude znamením, že som ťa ja poslal: Keď vyvedieš ľud z Egypta, na tomto vrchu budete slúžiť Bohu.\"<br>" +
+                            "Počuli sme Božie slovo."},
+    };
+
+    String[][] zalmKantroveDni = {
+            {"71", "1", "Za odpustenie hriechov 1.", "Ž 103, 1-2. 3-4. 8-9. 11-12",
+                    "<font color='#B71C1C'>R.:</font> Nezaobchodí s nami Pán podľa našich hriechov.<br>" +
+                            "<font color='#B71C1C'>Alebo:</font> Milostivý a milosrdný je Pán.<br><br>" +
+                            "Dobroreč, duša moja, Pánovi <font color='#B71C1C'>*</font><br>" +
+                            "a celé moje vnútro jeho menu svätému. <br>" +
+                            "Dobroreč, duša moja, Pánovi <font color='#B71C1C'>*</font><br>" +
+                            "a nezabúdaj na jeho dobrodenia. <font color='#B71C1C'>– R.</font><br>" +
+                            "Veď on ti odpúšťa všetky neprávosti, <font color='#B71C1C'>*</font><br>" +
+                            "on lieči všetky tvoje neduhy; <br>" +
+                            "on vykupuje tvoj život zo záhuby, <font color='#B71C1C'>*</font><br>" +
+                            "on ťa venčí milosrdenstvom a milosťou. <font color='#B71C1C'>– R.</font><br>" +
+                            "Milostivý a milosrdný je Pán, <font color='#B71C1C'>*</font><br>" +
+                            "zhovievavý a dobrotivý nesmierne. <br>" +
+                            "Nevyčíta nám ustavične naše chyby, <font color='#B71C1C'>*</font><br>" +
+                            "ani sa nehnevá naveky. <font color='#B71C1C'>– R.</font><br>" +
+                            "Nevyčíta nám ustavične naše chyby, <font color='#B71C1C'>*</font><br>" +
+                            "ani sa nehnevá naveky. <br>" +
+                            "Nezaobchodí s nami podľa našich hriechov, <font color='#B71C1C'>*</font><br>" +
+                            "ani nám neodpláca podľa našich neprávostí. <font color='#B71C1C'>– R.</font><br>" +
+                            "Lebo ako vysoko je nebo od zeme, <font color='#B71C1C'>*</font><br>" +
+                            "také veľké je jeho zľutovanie voči tým, čo sa ho boja. <br>" +
+                            "Ako je vzdialený východ od západu, <font color='#B71C1C'>*</font><br>" +
+                            "tak vzďaľuje od nás našu neprávosť. <font color='#B71C1C'>– R.</font>"},
+            {"71", "2", "Za odpustenie hriechov 2.", "Ž 103, 1-2. 3-4. 8-9. 11-12",
+                    "<font color='#B71C1C'>R.:</font> Nezaobchodí s nami Pán podľa našich hriechov.<br>" +
+                            "<font color='#B71C1C'>Alebo:</font> Milostivý a milosrdný je Pán.<br><br>" +
+                            "Dobroreč, duša moja, Pánovi <font color='#B71C1C'>*</font><br>" +
+                            "a celé moje vnútro jeho menu svätému. <br>" +
+                            "Dobroreč, duša moja, Pánovi <font color='#B71C1C'>*</font><br>" +
+                            "a nezabúdaj na jeho dobrodenia. <font color='#B71C1C'>– R.</font><br>" +
+                            "Veď on ti odpúšťa všetky neprávosti, <font color='#B71C1C'>*</font><br>" +
+                            "on lieči všetky tvoje neduhy; <br>" +
+                            "on vykupuje tvoj život zo záhuby, <font color='#B71C1C'>*</font><br>" +
+                            "on ťa venčí milosrdenstvom a milosťou. <font color='#B71C1C'>– R.</font><br>" +
+                            "Milostivý a milosrdný je Pán, <font color='#B71C1C'>*</font><br>" +
+                            "zhovievavý a dobrotivý nesmierne. <br>" +
+                            "Nevyčíta nám ustavične naše chyby, <font color='#B71C1C'>*</font><br>" +
+                            "ani sa nehnevá naveky. <font color='#B71C1C'>– R.</font><br>" +
+                            "Nevyčíta nám ustavične naše chyby, <font color='#B71C1C'>*</font><br>" +
+                            "ani sa nehnevá naveky. <br>" +
+                            "Nezaobchodí s nami podľa našich hriechov, <font color='#B71C1C'>*</font><br>" +
+                            "ani nám neodpláca podľa našich neprávostí. <font color='#B71C1C'>– R.</font><br>" +
+                            "Lebo ako vysoko je nebo od zeme, <font color='#B71C1C'>*</font><br>" +
+                            "také veľké je jeho zľutovanie voči tým, čo sa ho boja. <br>" +
+                            "Ako je vzdialený východ od západu, <font color='#B71C1C'>*</font><br>" +
+                            "tak vzďaľuje od nás našu neprávosť. <font color='#B71C1C'>– R.</font>"},
+            {"71", "3", "Za dar lásky", "Ž 85, 7-8. 9. 11-12",
+                    "<font color='#B71C1C'>R.:</font> Pán, Boh, ohlási pokoj svojmu ľudu a svojmu ľudu.<br><br>" +
+                            "Či sa k nám nevrátiš a neoživíš nás, <font color='#B71C1C'>*</font><br>" +
+                            "aby sa tvoj ľud mohol v tebe radovať?<br>" +
+                            "Ukáž nám, Pane, svoje milosrdenstvo <font color='#B71C1C'>*</font><br>" +
+                            "a daj nám svoju spásu. <font color='#B71C1C'>– R.</font><br>" +
+                            "Budem počúvať, čo povie Pán, Boh; <font color='#B71C1C'>†</font><br>" +
+                            "on ohlási pokoj svojmu ľudu a svojim svätým <font color='#B71C1C'>*</font><br>" +
+                            "a tým, čo sa k nemu obracajú úprimne. <font color='#B71C1C'>– R.</font><br>" +
+                            "Milosrdenstvo a vernosť sa stretnú navzájom, <font color='#B71C1C'>*</font><br>" +
+                            "spravodlivosť a pokoj sa pobozkajú.<br>" +
+                            "Vernosť vyrastie zo zeme, <font color='#B71C1C'>*</font><br>" +
+                            "spravodlivosť zhliadne z neba. <font color='#B71C1C'>– R.</font>"},
+            {"75", "1", "V čase sejby 1.", "Ž 104, 1-2a. 14-15. 24. 27-28",
+                    "<font color='#B71C1C'>R.:</font> Zem je plná tvojho stvorenstva.<br><br>" +
+                            "Dobroreč, duša moja, Pánovi; <font color='#B71C1C'>*</font><br>" +
+                            "Pane Bože môj, ty si nesmieme veľký.<br>" +
+                            "Odel si sa do slávy a veleby, <font color='#B71C1C'>*</font><br>" +
+                            "do svetla si sa zahalil ako do rúcha. <font color='#B71C1C'>– R.</font><br>" +
+                            "Tráve dávaš rásť pre ťažný dobytok <font color='#B71C1C'>*</font><br>" +
+                            "a byli, aby slúžila človeku.<br>" +
+                            "Zo zeme vyvádzaš chlieb <font color='#B71C1C'>*</font><br>" +
+                            "i víno, čo obveseľuje srdce človeka;<br>" +
+                            "olejom rozjasňuješ jeho tvár, <font color='#B71C1C'>*</font><br>" +
+                            "a chlieb dáva silu srdcu človeka. <font color='#B71C1C'>– R.</font><br>" +
+                            "Aké mnohoraké sú tvoje diela, Pane! <font color='#B71C1C'>†</font><br>" +
+                            "Všetko si múdro urobil. <font color='#B71C1C'>*</font><br>" +
+                            "Zem je plná tvojho stvorenstva. <font color='#B71C1C'>– R.</font><br>" +
+                            "Všetko to čaká na teba, <font color='#B71C1C'>*</font><br>" +
+                            "že im dáš pokrm v pravý čas.<br>" +
+                            "Ty im ho dávaš a ony ho zbierajú; <font color='#B71C1C'>*</font><br>" +
+                            "otváraš svoju ruku, sýtia sa dobrotami. <font color='#B71C1C'>– R.</font>",
+                    "Alebo:",
+                    "Ž 65, 10. 11-12. 13-14",
+                    "<font color='#B71C1C'>R.:</font> Vyslyšíš nás, Bože, naša spása.<br><br>" +
+                            "Navštevuješ zem a dávaš jej vlahu, <font color='#B71C1C'>*</font><br>" +
+                            "zveľaďuješ jej bohatstvo.<br>" +
+                            "Božia rieka je plná vody; <font color='#B71C1C'>†</font><br>" +
+                            "ľuďom pripravuješ zrno. <font color='#B71C1C'>*</font><br>" +
+                            "Takto sa staráš o zem. <font color='#B71C1C'>– R.</font><br>" +
+                            "Zvlažuješ jej brázdy a vyrovnávaš hrudy, <font color='#B71C1C'>*</font><br>" +
+                            "s kyprú ješ ju dažďami a požehnávaš jej rastliny.<br>" +
+                            "Rok korunuješ svojou dobrotou, <font color='#B71C1C'>*</font><br>" +
+                            "kade prejdeš, všade je hojnosť. <font color='#B71C1C'>– R.</font><br>" +
+                            "Pasienky púšte vlaha zarosí <font color='#B71C1C'>*</font><br>" +
+                            "a pahorky sa opášu plesaním.<br>" +
+                            "čriedami oviec sa lúky pokryjú <font color='#B71C1C'>†</font><br>" +
+                            "a zrnom budú oplývať doliny; <font color='#B71C1C'>*</font><br>" +
+                            "ozývať sa budú jasotom a spevom. <font color='#B71C1C'>– R.</font>"},
+            {"75", "2", "V čase sejby 2.", "Ž 104, 1-2a. 14-15. 24. 27-28",
+                    "<font color='#B71C1C'>R.:</font> Zem je plná tvojho stvorenstva.<br><br>" +
+                            "Dobroreč, duša moja, Pánovi; <font color='#B71C1C'>*</font><br>" +
+                            "Pane Bože môj, ty si nesmieme veľký.<br>" +
+                            "Odel si sa do slávy a veleby, <font color='#B71C1C'>*</font><br>" +
+                            "do svetla si sa zahalil ako do rúcha. <font color='#B71C1C'>– R.</font><br>" +
+                            "Tráve dávaš rásť pre ťažný dobytok <font color='#B71C1C'>*</font><br>" +
+                            "a byli, aby slúžila človeku.<br>" +
+                            "Zo zeme vyvádzaš chlieb <font color='#B71C1C'>*</font><br>" +
+                            "i víno, čo obveseľuje srdce človeka;<br>" +
+                            "olejom rozjasňuješ jeho tvár, <font color='#B71C1C'>*</font><br>" +
+                            "a chlieb dáva silu srdcu človeka. <font color='#B71C1C'>– R.</font><br>" +
+                            "Aké mnohoraké sú tvoje diela, Pane! <font color='#B71C1C'>†</font><br>" +
+                            "Všetko si múdro urobil. <font color='#B71C1C'>*</font><br>" +
+                            "Zem je plná tvojho stvorenstva. <font color='#B71C1C'>– R.</font><br>" +
+                            "Všetko to čaká na teba, <font color='#B71C1C'>*</font><br>" +
+                            "že im dáš pokrm v pravý čas.<br>" +
+                            "Ty im ho dávaš a ony ho zbierajú; <font color='#B71C1C'>*</font><br>" +
+                            "otváraš svoju ruku, sýtia sa dobrotami. <font color='#B71C1C'>– R.</font>",
+                    "Alebo:",
+                    "Ž 65, 10. 11-12. 13-14",
+                    "<font color='#B71C1C'>R.:</font> Vyslyšíš nás, Bože, naša spása.<br><br>" +
+                            "Navštevuješ zem a dávaš jej vlahu, <font color='#B71C1C'>*</font><br>" +
+                            "zveľaďuješ jej bohatstvo.<br>" +
+                            "Božia rieka je plná vody; <font color='#B71C1C'>†</font><br>" +
+                            "ľuďom pripravuješ zrno. <font color='#B71C1C'>*</font><br>" +
+                            "Takto sa staráš o zem. <font color='#B71C1C'>– R.</font><br>" +
+                            "Zvlažuješ jej brázdy a vyrovnávaš hrudy, <font color='#B71C1C'>*</font><br>" +
+                            "s kyprú ješ ju dažďami a požehnávaš jej rastliny.<br>" +
+                            "Rok korunuješ svojou dobrotou, <font color='#B71C1C'>*</font><br>" +
+                            "kade prejdeš, všade je hojnosť. <font color='#B71C1C'>– R.</font><br>" +
+                            "Pasienky púšte vlaha zarosí <font color='#B71C1C'>*</font><br>" +
+                            "a pahorky sa opášu plesaním.<br>" +
+                            "čriedami oviec sa lúky pokryjú <font color='#B71C1C'>†</font><br>" +
+                            "a zrnom budú oplývať doliny; <font color='#B71C1C'>*</font><br>" +
+                            "ozývať sa budú jasotom a spevom. <font color='#B71C1C'>– R.</font>"},
+            {"72a", "1", "Za jednotu kresťanov 1.", "Jer 31, 10. 11-12ab. 13-14",
+                    "<font color='#B71C1C'>R.:</font> Zhromaždi, Pane, svoj rozptýlený ľud.<br><br>" +
+                            "Čujte, národy, slovo Pánovo, <font color='#B71C1C'>*</font><br>" +
+                            "ohlasujte ho na ostrovoch v diaľavách a hovorte:<br>" +
+                            "\"Zhromaždí Izraela ten, čo ho rozptýlil, <font color='#B71C1C'>*</font><br>" +
+                            "bude ho strážiť ako pastier svoje stádo.\" <font color='#B71C1C'>– R.</font><br>" +
+                            "Lebo Pán vykúpil Jakuba <font color='#B71C1C'>*</font><br>" +
+                            "a vyslobodil ho z ruky mocnejšieho.<br>" +
+                            "Prídu a budú jasať na vrchu Sion, <font color='#B71C1C'>*</font><br>" +
+                            "budú sa hrnúť k darom Pánovým, <font color='#B71C1C'>– R.</font><br>" +
+                            "Vtedy sa panna radosťou roztančí, <font color='#B71C1C'>*</font><br>" +
+                            "mládenci i starci zároveň.<br>" +
+                            "\"Ich smútok zmením na radosť, <font color='#B71C1C'>*</font><br>" +
+                            "poteším ich a rozveselím po žiali.<br>" +
+                            "Kňazov opojím hojnosťou <font color='#B71C1C'>*</font><br>" +
+                            "a môj ľud sa nasýti mojimi darmi.\" <font color='#B71C1C'>– R.</font>",
+                    "Alebo:",
+                    "Ž 23,1-3. 4. 5.6",
+                    "<font color='#B71C1C'>R.:</font> Pán je môj pastier, nič mi nechýba.<br><br>" +
+                            "Pán je môj pastier, nič mi nechýba: <font color='#B71C1C'>*</font><br>" +
+                            "pasie ma na zelených pašienkach.<br>" +
+                            "Vodí ma k tichým vodám, <font color='#B71C1C'>*</font><br>" +
+                            "dušu mi osviežuje.<br>" +
+                            "Vodí ma po správnych chodníkoch, <font color='#B71C1C'>*</font><br>" +
+                            "verný svojmu menu. <font color='#B71C1C'>– R.</font><br>" +
+                            "I keby som mal ísť tmavou dolinou, <font color='#B71C1C'>†</font><br>" +
+                            "nebudem sa báť zlého, <font color='#B71C1C'>*</font><br>" +
+                            "lebo ty si so mnou.<br>" +
+                            "5Tvoj prút a tvoja palica, <font color='#B71C1C'>*</font><br>" +
+                            "tie sú mi útechou. <font color='#B71C1C'>– R.</font><br>" +
+                            "Prestieraš mi stôl <font color='#B71C1C'*</font><br>" +
+                            "pred očami mojich protivníkov.<br>" +
+                            "Leješ mi olej na hlavu <font color='#B71C1C'>*</font><br>" +
+                            "a kalich mi napínaš až po okraj. <font color='#B71C1C'>– R.</font><br>" +
+                            "Dobrota a milosť budú ma sprevádzať <font color='#B71C1C'>*</font><br>" +
+                            "po všetky dni môjho Života.<br>" +
+                            "A budem bývať v dome Pánovom <font color='#B71C1C'>*</font><br>" +
+                            "mnoho a mnoho dní. <font color='#B71C1C'>– R.</font>"},
+            {"72a", "2", "Za jednotu kresťanov 2.", "Jer 31, 10. 11-12ab. 13-14",
+                    "<font color='#B71C1C'>R.:</font> Zhromaždi, Pane, svoj rozptýlený ľud.<br><br>" +
+                            "Čujte, národy, slovo Pánovo, <font color='#B71C1C'>*</font><br>" +
+                            "ohlasujte ho na ostrovoch v diaľavách a hovorte:<br>" +
+                            "\"Zhromaždí Izraela ten, čo ho rozptýlil, <font color='#B71C1C'>*</font><br>" +
+                            "bude ho strážiť ako pastier svoje stádo.\" <font color='#B71C1C'>– R.</font><br>" +
+                            "Lebo Pán vykúpil Jakuba <font color='#B71C1C'>*</font><br>" +
+                            "a vyslobodil ho z ruky mocnejšieho.<br>" +
+                            "Prídu a budú jasať na vrchu Sion, <font color='#B71C1C'>*</font><br>" +
+                            "budú sa hrnúť k darom Pánovým, <font color='#B71C1C'>– R.</font><br>" +
+                            "Vtedy sa panna radosťou roztančí, <font color='#B71C1C'>*</font><br>" +
+                            "mládenci i starci zároveň.<br>" +
+                            "\"Ich smútok zmením na radosť, <font color='#B71C1C'>*</font><br>" +
+                            "poteším ich a rozveselím po žiali.<br>" +
+                            "Kňazov opojím hojnosťou <font color='#B71C1C'>*</font><br>" +
+                            "a môj ľud sa nasýti mojimi darmi.\" <font color='#B71C1C'>– R.</font>",
+                    "Alebo:",
+                    "Ž 23,1-3. 4. 5.6",
+                    "<font color='#B71C1C'>R.:</font> Pán je môj pastier, nič mi nechýba.<br><br>" +
+                            "Pán je môj pastier, nič mi nechýba: <font color='#B71C1C'>*</font><br>" +
+                            "pasie ma na zelených pašienkach.<br>" +
+                            "Vodí ma k tichým vodám, <font color='#B71C1C'>*</font><br>" +
+                            "dušu mi osviežuje.<br>" +
+                            "Vodí ma po správnych chodníkoch, <font color='#B71C1C'>*</font><br>" +
+                            "verný svojmu menu. <font color='#B71C1C'>– R.</font><br>" +
+                            "I keby som mal ísť tmavou dolinou, <font color='#B71C1C'>†</font><br>" +
+                            "nebudem sa báť zlého, <font color='#B71C1C'>*</font><br>" +
+                            "lebo ty si so mnou.<br>" +
+                            "5Tvoj prút a tvoja palica, <font color='#B71C1C'>*</font><br>" +
+                            "tie sú mi útechou. <font color='#B71C1C'>– R.</font><br>" +
+                            "Prestieraš mi stôl <font color='#B71C1C'*</font><br>" +
+                            "pred očami mojich protivníkov.<br>" +
+                            "Leješ mi olej na hlavu <font color='#B71C1C'>*</font><br>" +
+                            "a kalich mi napínaš až po okraj. <font color='#B71C1C'>– R.</font><br>" +
+                            "Dobrota a milosť budú ma sprevádzať <font color='#B71C1C'>*</font><br>" +
+                            "po všetky dni môjho Života.<br>" +
+                            "A budem bývať v dome Pánovom <font color='#B71C1C'>*</font><br>" +
+                            "mnoho a mnoho dní. <font color='#B71C1C'>– R.</font>"},
+            {"72a", "3", "Za jednotu kresťanov 3.", "Jer 31, 10. 11-12ab. 13-14",
+                    "<font color='#B71C1C'>R.:</font> Zhromaždi, Pane, svoj rozptýlený ľud.<br><br>" +
+                            "Čujte, národy, slovo Pánovo, <font color='#B71C1C'>*</font><br>" +
+                            "ohlasujte ho na ostrovoch v diaľavách a hovorte:<br>" +
+                            "\"Zhromaždí Izraela ten, čo ho rozptýlil, <font color='#B71C1C'>*</font><br>" +
+                            "bude ho strážiť ako pastier svoje stádo.\" <font color='#B71C1C'>– R.</font><br>" +
+                            "Lebo Pán vykúpil Jakuba <font color='#B71C1C'>*</font><br>" +
+                            "a vyslobodil ho z ruky mocnejšieho.<br>" +
+                            "Prídu a budú jasať na vrchu Sion, <font color='#B71C1C'>*</font><br>" +
+                            "budú sa hrnúť k darom Pánovým, <font color='#B71C1C'>– R.</font><br>" +
+                            "Vtedy sa panna radosťou roztančí, <font color='#B71C1C'>*</font><br>" +
+                            "mládenci i starci zároveň.<br>" +
+                            "\"Ich smútok zmením na radosť, <font color='#B71C1C'>*</font><br>" +
+                            "poteším ich a rozveselím po žiali.<br>" +
+                            "Kňazov opojím hojnosťou <font color='#B71C1C'>*</font><br>" +
+                            "a môj ľud sa nasýti mojimi darmi.\" <font color='#B71C1C'>– R.</font>",
+                    "Alebo:",
+                    "Ž 23,1-3. 4. 5.6",
+                    "<font color='#B71C1C'>R.:</font> Pán je môj pastier, nič mi nechýba.<br><br>" +
+                            "Pán je môj pastier, nič mi nechýba: <font color='#B71C1C'>*</font><br>" +
+                            "pasie ma na zelených pašienkach.<br>" +
+                            "Vodí ma k tichým vodám, <font color='#B71C1C'>*</font><br>" +
+                            "dušu mi osviežuje.<br>" +
+                            "Vodí ma po správnych chodníkoch, <font color='#B71C1C'>*</font><br>" +
+                            "verný svojmu menu. <font color='#B71C1C'>– R.</font><br>" +
+                            "I keby som mal ísť tmavou dolinou, <font color='#B71C1C'>†</font><br>" +
+                            "nebudem sa báť zlého, <font color='#B71C1C'>*</font><br>" +
+                            "lebo ty si so mnou.<br>" +
+                            "5Tvoj prút a tvoja palica, <font color='#B71C1C'>*</font><br>" +
+                            "tie sú mi útechou. <font color='#B71C1C'>– R.</font><br>" +
+                            "Prestieraš mi stôl <font color='#B71C1C'*</font><br>" +
+                            "pred očami mojich protivníkov.<br>" +
+                            "Leješ mi olej na hlavu <font color='#B71C1C'>*</font><br>" +
+                            "a kalich mi napínaš až po okraj. <font color='#B71C1C'>– R.</font><br>" +
+                            "Dobrota a milosť budú ma sprevádzať <font color='#B71C1C'>*</font><br>" +
+                            "po všetky dni môjho Života.<br>" +
+                            "A budem bývať v dome Pánovom <font color='#B71C1C'>*</font><br>" +
+                            "mnoho a mnoho dní. <font color='#B71C1C'>– R.</font>"},
+            {"72b", "4", "Za povolanie na kňazský stav", "Ž 40, 2+4ab. 7-8a. 8b-9. 10. 12",
+                    "<font color='#B71C1C'>R.:</font> Hľa, prichádzam, Pane, chcem plniť tvoju vôľu.<br><br>" +
+                            "Čakal som, čakal na Pána <font color='#B71C1C'>*</font><br>" +
+                            "a on sa ku mne sklonil.<br>" +
+                            "Do úst mi vložil pieseň novú, <font color='#B71C1C'>*</font><br>" +
+                            "chválospev nášmu Bohu. <font color='#B71C1C'>– R.</font><br>" +
+                            "Obety a dary si nepraješ, <font color='#B71C1C'>*</font><br>" +
+                            "lež uši si mi otvoril.<br>" +
+                            "Nežiadaš žertvu ani obetu zmierenia, <font color='#B71C1C'>*</font><br>" +
+                            "preto som povedal: \"Hľa prichádzam. <font color='#B71C1C'>– R.</font><br>" +
+                            "Vo zvitku knihy je napísané o mne, <font color='#B71C1C'>*</font><br>" +
+                            "že mám plniť tvoju vôľu.<br>" +
+                            "A to chcem, Bože môj, <font color='#B71C1C'>*</font><br>" +
+                            "hlboko v srdci mám tvoj zákon.\" <font color='#B71C1C'>– R.</font><br>" +
+                            "Ohlasujem tvoju spravodlivosť <font color='#B71C1C'>*</font><br>" +
+                            "vo veľkom zhromaždení;<br>" +
+                            "svojim perám hovoriť nebránim, <font color='#B71C1C'>*</font><br>" +
+                            "Pane, ty to vieš. <font color='#B71C1C'>– R.</font><br>" +
+                            "Ale ty, Pane, neodnímaj mi svoje milosrdenstvo, <font color='#B71C1C'>*</font><br>" +
+                            "tvoja milosť a tvoja pravda nech mi vždy pomáhajú. <font color='#B71C1C'>– R.</font>",
+                    "Alebo:",
+                    "Ž 27, 1. 4. 5. 8b-9ab. 9cd+11",
+                    "<font color='#B71C1C'>R.:</font> Pane, ja hľadám tvoju tvár.<br><br>" +
+                            "Pán je moje svetlo a moja spása, <font color='#B71C1C'>*</font><br>" +
+                            "koho sa mám báť?<br>" +
+                            "Pán je ochranca môjho života, <font color='#B71C1C'>*</font><br>" +
+                            "pred kým sa mám strachovať? <font color='#B71C1C'>– R.</font><br>" +
+                            "O jedno prosím Pána a za tým túžim, <font color='#B71C1C'>*</font><br>" +
+                            "aby som mohol bývať v dome Pánovom<br>" +
+                            "po všetky dni svojho života,<br>" +
+                            "aby som pociťoval nehu Pánovu <font color='#B71C1C'>*</font><br>" +
+                            "a obdivoval jeho chrám. <font color='#B71C1C'>– R.</font><br>" +
+                            "A on ma vo svojom stane schová v deň nešťastia, <font color='#B71C1C'>†</font><br>" +
+                            "ukryje ma v skrýši svojho príbytku<br>" +
+                            "a postaví ma vysoko na skalu. <font color='#B71C1C'>– R.</font><br>" +
+                            "Pane, ja hľadám tvoju tvár. <font color='#B71C1C'>†</font><br>" +
+                            "Neodvracaj svoju tvár odo mňa, <font color='#B71C1C'>*</font><br>" +
+                            "neodkláňaj sa v hneve od svojho služobníka. <font color='#B71C1C'>– R.</font><br>" +
+                            "Ty si moja pomoc, neodvrhuj ma, <font color='#B71C1C'>*</font><br>" +
+                            "ani ma neopúšťaj, Bože, moja spása.<br>" +
+                            "Ukáž mi, Pane, svoju cestu <font color='#B71C1C'>*</font><br>" +
+                            "a priveď ma na správny chodník,<br>" +
+                            "lebo mám mnoho nepriateľov. <font color='#B71C1C'>– R.</font>"},
+            {"72b", "5", "Za rehoľné povolania", "Ž 40, 2+4ab. 7-8a. 8b-9. 10. 12",
+                    "<font color='#B71C1C'>R.:</font> Hľa, prichádzam, Pane, chcem plniť tvoju vôľu.<br><br>" +
+                            "Čakal som, čakal na Pána <font color='#B71C1C'>*</font><br>" +
+                            "a on sa ku mne sklonil.<br>" +
+                            "Do úst mi vložil pieseň novú, <font color='#B71C1C'>*</font><br>" +
+                            "chválospev nášmu Bohu. <font color='#B71C1C'>– R.</font><br>" +
+                            "Obety a dary si nepraješ, <font color='#B71C1C'>*</font><br>" +
+                            "lež uši si mi otvoril.<br>" +
+                            "Nežiadaš žertvu ani obetu zmierenia, <font color='#B71C1C'>*</font><br>" +
+                            "preto som povedal: \"Hľa prichádzam. <font color='#B71C1C'>– R.</font><br>" +
+                            "Vo zvitku knihy je napísané o mne, <font color='#B71C1C'>*</font><br>" +
+                            "že mám plniť tvoju vôľu.<br>" +
+                            "A to chcem, Bože môj, <font color='#B71C1C'>*</font><br>" +
+                            "hlboko v srdci mám tvoj zákon.\" <font color='#B71C1C'>– R.</font><br>" +
+                            "Ohlasujem tvoju spravodlivosť <font color='#B71C1C'>*</font><br>" +
+                            "vo veľkom zhromaždení;<br>" +
+                            "svojim perám hovoriť nebránim, <font color='#B71C1C'>*</font><br>" +
+                            "Pane, ty to vieš. <font color='#B71C1C'>– R.</font><br>" +
+                            "Ale ty, Pane, neodnímaj mi svoje milosrdenstvo, <font color='#B71C1C'>*</font><br>" +
+                            "tvoja milosť a tvoja pravda nech mi vždy pomáhajú. <font color='#B71C1C'>– R.</font>",
+                    "Alebo:",
+                    "Ž 27, 1. 4. 5. 8b-9ab. 9cd+11",
+                    "<font color='#B71C1C'>R.:</font> Pane, ja hľadám tvoju tvár.<br><br>" +
+                            "Pán je moje svetlo a moja spása, <font color='#B71C1C'>*</font><br>" +
+                            "koho sa mám báť?<br>" +
+                            "Pán je ochranca môjho života, <font color='#B71C1C'>*</font><br>" +
+                            "pred kým sa mám strachovať? <font color='#B71C1C'>– R.</font><br>" +
+                            "O jedno prosím Pána a za tým túžim, <font color='#B71C1C'>*</font><br>" +
+                            "aby som mohol bývať v dome Pánovom<br>" +
+                            "po všetky dni svojho života,<br>" +
+                            "aby som pociťoval nehu Pánovu <font color='#B71C1C'>*</font><br>" +
+                            "a obdivoval jeho chrám. <font color='#B71C1C'>– R.</font><br>" +
+                            "A on ma vo svojom stane schová v deň nešťastia, <font color='#B71C1C'>†</font><br>" +
+                            "ukryje ma v skrýši svojho príbytku<br>" +
+                            "a postaví ma vysoko na skalu. <font color='#B71C1C'>– R.</font><br>" +
+                            "Pane, ja hľadám tvoju tvár. <font color='#B71C1C'>†</font><br>" +
+                            "Neodvracaj svoju tvár odo mňa, <font color='#B71C1C'>*</font><br>" +
+                            "neodkláňaj sa v hneve od svojho služobníka. <font color='#B71C1C'>– R.</font><br>" +
+                            "Ty si moja pomoc, neodvrhuj ma, <font color='#B71C1C'>*</font><br>" +
+                            "ani ma neopúšťaj, Bože, moja spása.<br>" +
+                            "Ukáž mi, Pane, svoju cestu <font color='#B71C1C'>*</font><br>" +
+                            "a priveď ma na správny chodník,<br>" +
+                            "lebo mám mnoho nepriateľov. <font color='#B71C1C'>– R.</font>"},
+    };
+
+    String[][] alelujaKantroveDni = {
+            {"71", "1", "Za odpustenie hriechov 1.", "Zjv 1, 5ab ", "<font color='#B71C1C'>R.</font> Chvála ti, Kriste, Kráľ večnej slávy.<br>" +
+                    " Ježiš Kristus ti si verný svedok, prvorodený z mŕtvych; miloval si nás a svojou krvou si nás oslobodil.<br>" +
+                    "<font color='#B71C1C'>R.</font> Chvála ti, Kriste, Kráľ večnej slávy."},
+            {"71", "2", "Za odpustenie hriechov 2.", "Zjv 1, 5ab ", "<font color='#B71C1C'>R.</font> Chvála ti, Kriste, Kráľ večnej slávy.<br>" +
+                    " Ježiš Kristus ti si verný svedok, prvorodený z mŕtvych; miloval si nás a svojou krvou si nás oslobodil.<br>" +
+                    "<font color='#B71C1C'>R.</font> Chvála ti, Kriste, Kráľ večnej slávy."},
+            {"71", "3", "Za dar lásky", "Ž 133, 1", "<font color='#B71C1C'>R.</font> Chvála ti, Kriste, Kráľ večnej slávy.<br>" +
+                    "Aké je dobré a milé, keď bratia žijú pospolu.<br>" +
+                    "<font color='#B71C1C'>R.</font> Chvála ti, Kriste, Kráľ večnej slávy."},
+            {"75", "1", "V čase sejby 1.", "Ž 126, 5", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Tí, čo sejú v slzách, s jasotom budú žať. <font color='#B71C1C'>– R.</font> Aleluja.",
+                    "Alebo:",
+                    "Ž 85, 13", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Veď Pán dá požehnanie a svoje plody vydá naša zem. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"75", "2", "V čase sejby 2.", "Ž 126, 5", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Tí, čo sejú v slzách, s jasotom budú žať. <font color='#B71C1C'>– R.</font> Aleluja.",
+                    "Alebo:",
+                    "Ž 85, 13", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Veď Pán dá požehnanie a svoje plody vydá naša zem. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"72a", "1", "Za jednotu kresťanov 1.", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Pánova Cirkev je jedno svetlo, ktoré sa všade rozlieva a pritom sa netriešti jednota tela. <font color='#B71C1C'>– R.</font> Aleluja.",
+                    "Alebo:",
+                    "Kol 3, 15", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Vo vašich srdciach nech kraľuje pokoj Kristov. V tom ste povolaní byť jedným telom. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"72a", "2", "Za jednotu kresťanov 2.", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Pánova Cirkev je jedno svetlo, ktoré sa všade rozlieva a pritom sa netriešti jednota tela. <font color='#B71C1C'>– R.</font> Aleluja.",
+                    "Alebo:",
+                    "Kol 3, 15", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Vo vašich srdciach nech kraľuje pokoj Kristov. V tom ste povolaní byť jedným telom. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"72a", "3", "Za jednotu kresťanov 3.", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Pánova Cirkev je jedno svetlo, ktoré sa všade rozlieva a pritom sa netriešti jednota tela. <font color='#B71C1C'>– R.</font> Aleluja.",
+                    "Alebo:",
+                    "Kol 3, 15", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Vo vašich srdciach nech kraľuje pokoj Kristov. V tom ste povolaní byť jedným telom. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"72b", "4", "Za povolanie na kňazský stav", "Jn 15,16", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Ja som si vás vyvolil, aby ste šli a prinášali ovocie a aby vaše ovocie zostalo, hovorí Pán. <font color='#B71C1C'>– R.</font> Aleluja.",
+                    "Alebo:",
+                    "Flp 3, 8-9", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Všetko pokladám za stratu a za odpadky, aby som získal Krista a žil v ňom. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"72b", "5", "Za rehoľné povolania", "Jn 15,16", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Ja som si vás vyvolil, aby ste šli a prinášali ovocie a aby vaše ovocie zostalo, hovorí Pán. <font color='#B71C1C'>– R.</font> Aleluja.",
+                    "Alebo:",
+                    "Flp 3, 8-9", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Všetko pokladám za stratu a za odpadky, aby som získal Krista a žil v ňom. <font color='#B71C1C'>– R.</font> Aleluja."},
+    };
+
+    String[][] evanjeliumKantroveDni = {
+            {"71", "1", "Za odpustenie hriechov 1.", "Mt 9, 1-8",
+                    "Oslavovali Boha, ktorý dal takú moc ľuďom",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Matúša<br>" +
+                            "Ježiš nastúpil na loďku, preplavil sa na druhý breh a prišiel do svojho mesta. Tu mu priniesli ochrnutého človeka, ktorý ležal na lôžku. Keď Ježiš videl ich vieru, povedal ochrnutému: \"Dúfaj, synu, odpúšťajú sa ti hriechy.\"<br>" +
+                            "Vtedy si niektorí zákonníci povedali: \"Tento sa rúha.\"<br>" +
+                            "Keďže Ježiš poznal ich myšlienky, povedal: \"Prečo myslíte zlé vo svojich srdciach? Čo je ľahšie – povedať: ‚Odpúšťajú sa ti hriechy,‘ alebo povedať: ‚Vstaň a choď‘?<br>" +
+                            "Ale aby ste vedeli, že syn človeka má na zemi moc odpúšťať hriechy\" – povedal ochrnutému: \"Vstaň, vezmi si lôžko a choď domov!\"<br>" +
+                            "A on vstal a odišiel domov.<br>" +
+                            "Keď to zástupy videli, s bázňou oslavovali Boha, ktorý dal takú moc ľuďom.<br>" +
+                            "Počuli sme slovo Pánovo.",
+                    "Alebo:",
+                    "Lk 7, 36-50",
+                    "Odpúšťajú sa jej mnohé hriechy, lebo veľmi miluje",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Lukáša<br>" +
+                            "Ktorýsi farizej pozval Ježiša, aby s ním jedol. On vošiel do farizejovho domu a sadol si k stolu.<br>" +
+                            "V meste bola istá žena, hriešnica. Keď sa dozvedela, že je hosťom vo farizejovom dome, priniesla alabastrovú nádobu s voňavým olejom, s plačom pristúpila zozadu k jeho nohám, začala mu slzami máčať nohy a utierala mu ich svojimi vlasmi, bozkávala mu ich a natierala voňavým olejom.<br>" +
+                            "Keď to videl farizej, ktorý ho pozval, povedal si v duchu: \"Keby tento bol prorokom, vedel by, kto a aká je to žena, čo sa ho dotýka, že je to hriešnica.\"<br>" +
+                            "Ježiš mu vravel: \"Šimon, mám ti niečo povedať.\"<br>" +
+                            "On odvetil: \"Povedz, Učiteľ!\"<br>" +
+                            "\"Istý veriteľ mal dvoch dlžníkov. Jeden dlhoval päťsto denárov, druhý päťdesiat. Keďže nemali skadiaľ dlžobu splatiť, odpustil ju obidvom. Ktorý z nich ho bude mať radšej?\" br>" +
+                            "Šimon odpovedal: \"Myslím, že ten, ktorému viac odpustil.\"<br>" +
+                            "On mu povedal: \"Správne usudzuješ.\"<br>" +
+                            "Potom sa obrátil k žene a Šimonovi povedal: \"Vidíš túto ženu?<br>" +
+                            "Vošiel som do tvojho domu, a nedal si mi vodu na nohy. Ale ona slzami zmáčala moje nohy a svojimi vlasmi ich poutierala.<br>" +
+                            "Nepobozkal si ma. Ale ona odvtedy, ako som vošiel, neprestala mi nohy bozkávať.<br>" +
+                            "Hlavu si mi olejom nepomazal. Ona mi voňavým olejom nohy natrela.<br>" +
+                            "Preto ti hovorím: Odpúšťajú sa jej mnohé hriechy, lebo veľmi miluje. Komu sa menej odpúšťa, menej miluje.\"<br>" +
+                            "A jej povedal: \"Tvoje hriechy sú odpustené.\"<br>" +
+                            "Vtedy tí, čo s ním stolovali, začali si hovoriť: \"Ktože je to, že aj hriechy odpúšťa?\"<br>" +
+                            "On však povedal žene: \"Tvoja viera ťa zachránila. Choď v pokoji!\"<br>" +
+                            "Počuli sme slovo Pánovo."},
+            {"71", "2", "Za odpustenie hriechov 2.", "Mt 9, 1-8",
+                    "Oslavovali Boha, ktorý dal takú moc ľuďom",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Matúša<br>" +
+                            "Ježiš nastúpil na loďku, preplavil sa na druhý breh a prišiel do svojho mesta. Tu mu priniesli ochrnutého človeka, ktorý ležal na lôžku. Keď Ježiš videl ich vieru, povedal ochrnutému: \"Dúfaj, synu, odpúšťajú sa ti hriechy.\"<br>" +
+                            "Vtedy si niektorí zákonníci povedali: \"Tento sa rúha.\"<br>" +
+                            "Keďže Ježiš poznal ich myšlienky, povedal: \"Prečo myslíte zlé vo svojich srdciach? Čo je ľahšie – povedať: ‚Odpúšťajú sa ti hriechy,‘ alebo povedať: ‚Vstaň a choď‘?<br>" +
+                            "Ale aby ste vedeli, že syn človeka má na zemi moc odpúšťať hriechy\" – povedal ochrnutému: \"Vstaň, vezmi si lôžko a choď domov!\"<br>" +
+                            "A on vstal a odišiel domov.<br>" +
+                            "Keď to zástupy videli, s bázňou oslavovali Boha, ktorý dal takú moc ľuďom.<br>" +
+                            "Počuli sme slovo Pánovo.",
+                    "Alebo:",
+                    "Lk 7, 36-50",
+                    "Odpúšťajú sa jej mnohé hriechy, lebo veľmi miluje",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Lukáša<br>" +
+                            "Ktorýsi farizej pozval Ježiša, aby s ním jedol. On vošiel do farizejovho domu a sadol si k stolu.<br>" +
+                            "V meste bola istá žena, hriešnica. Keď sa dozvedela, že je hosťom vo farizejovom dome, priniesla alabastrovú nádobu s voňavým olejom, s plačom pristúpila zozadu k jeho nohám, začala mu slzami máčať nohy a utierala mu ich svojimi vlasmi, bozkávala mu ich a natierala voňavým olejom.<br>" +
+                            "Keď to videl farizej, ktorý ho pozval, povedal si v duchu: \"Keby tento bol prorokom, vedel by, kto a aká je to žena, čo sa ho dotýka, že je to hriešnica.\"<br>" +
+                            "Ježiš mu vravel: \"Šimon, mám ti niečo povedať.\"<br>" +
+                            "On odvetil: \"Povedz, Učiteľ!\"<br>" +
+                            "\"Istý veriteľ mal dvoch dlžníkov. Jeden dlhoval päťsto denárov, druhý päťdesiat. Keďže nemali skadiaľ dlžobu splatiť, odpustil ju obidvom. Ktorý z nich ho bude mať radšej?\" br>" +
+                            "Šimon odpovedal: \"Myslím, že ten, ktorému viac odpustil.\"<br>" +
+                            "On mu povedal: \"Správne usudzuješ.\"<br>" +
+                            "Potom sa obrátil k žene a Šimonovi povedal: \"Vidíš túto ženu?<br>" +
+                            "Vošiel som do tvojho domu, a nedal si mi vodu na nohy. Ale ona slzami zmáčala moje nohy a svojimi vlasmi ich poutierala.<br>" +
+                            "Nepobozkal si ma. Ale ona odvtedy, ako som vošiel, neprestala mi nohy bozkávať.<br>" +
+                            "Hlavu si mi olejom nepomazal. Ona mi voňavým olejom nohy natrela.<br>" +
+                            "Preto ti hovorím: Odpúšťajú sa jej mnohé hriechy, lebo veľmi miluje. Komu sa menej odpúšťa, menej miluje.\"<br>" +
+                            "A jej povedal: \"Tvoje hriechy sú odpustené.\"<br>" +
+                            "Vtedy tí, čo s ním stolovali, začali si hovoriť: \"Ktože je to, že aj hriechy odpúšťa?\"<br>" +
+                            "On však povedal žene: \"Tvoja viera ťa zachránila. Choď v pokoji!\"<br>" +
+                            "Počuli sme slovo Pánovo."},
+            {"71", "3", "Za dar lásky", "Mt 18, 15-20",
+                    "Kde sú dvaja alebo traja zhromaždení v mojom mene, tam som ja medzi nimi",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Matúša<br>" +
+                            "Ježiš povedal svojim učeníkom: \"Keď sa tvoj brat prehreší proti tebe, choď a napomeň ho medzi štyrmi očami. Ak ťa počúvne, získal si svojho brata. Ak ťa nepočúvne, priber si ešte jedného alebo dvoch, aby bola každá výpoveď potvrdená ústami dvoch alebo troch svedkov. Keby ani ich nepočúvol, povedz to cirkvi. A keby ani cirkev nechcel poslúchnuť, nech ti je ako pohan a mýtnik.<br>" +
+                            "Veru, hovorím vám: Čo zviažete na zemi, bude zviazané v nebi, a čo rozviažete na zemi, bude rozviazané v nebi. A zasa vám hovorím: Ak budú dvaja z vás na zemi jednomyseľne prosiť o čokoľvek, dostanú to od môjho Otca, ktorý je na nebesiach. Lebo kde sú dvaja alebo traja zhromaždení v mojom mene, tam som ja medzi nimi.\"<br>" +
+                            "Počuli sme slovo Pánovo.",
+                    "Alebo:",
+                    "Jn 15, 12-17",
+                    "Toto vám prikazujem: milujte sa navzájom",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Jána<br>" +
+                            "Ježiš povedal svojim učeníkom: \"Ako mňa miluje Otec, tak ja milujem vás. Ostaňte v mojej láske!<br>" +
+                            "Ak budete zachovávať moje prikázania, ostanete v mojej láske, ako ja zachovávam prikázania svojho Otca a ostávam v jeho láske. Toto som vám povedal, aby vo vás bola moja radosť a aby vaša radosť bola úplná.<br>" +
+                            "Toto je moje prikázanie: Aby ste sa milovali navzájom, ako som ja miloval vás. Nik nemá väčšiu lásku ako ten, kto položí svoj život za svojich priateľov.<br>" +
+                            "Vy ste moji priatelia, ak robíte, čo vám prikazujem. Už vás nenazývam sluhami, lebo sluha nevie, čo robí jeho Pán. Nazval som vás priateľmi, pretože som vám oznámil všetko, čo som počul od svojho Otca.<br>" +
+                            "Nie vy ste si vyvolili mňa, ale ja som si vyvolil vás a ustanovil som vás, aby ste išli a prinášali ovocie a aby vaše ovocie zostalo; aby vám Otec dal všetko, o čo ho budete prosiť v mojom mene.<br>" +
+                            "Toto vám prikazujem: Aby ste sa milovali navzájom.\"<br>" +
+                            "Počuli sme slovo Pánovo."},
+            {"75", "1", "V čase sejby 1.", "Mt 13, 1-9",
+                    "Rozsievač vyšiel rozsievať",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Matúša<br>" +
+                            "Jedného dňa vyšiel Ježiš z domu a sedel pri mori. Okolo neho sa zhromaždili veľké zástupy. Preto vystúpil na loďku a sadol si; všetok zástup stál na brehu. I hovoril im mnoho v podobenstvách; povedal:<br>" +
+                            "\"Rozsievač vyšiel rozsievať. Ako rozsieval, niektoré zrná padli na kraj cesty; prileteli vtáci a pozobali ich.<br>" +
+                            "Iné padli na skalnatú pôdu, kde nebolo veľa zeme; a hneď vzišli, lebo neboli hlboko v zemi, ale keď vyšlo slnko, zahoreli, a pretože nemali koreňa, uschli.<br>" +
+                            "Zasa iné padli do tŕnia; ale tŕnie vzrástlo a udusilo ich.<br>" +
+                            "Iné zrná padli do dobrej zeme a priniesli úrodu: jedno stonásobnú, iné šesťdesiatnásobnú a iné tridsaťnásobnú.<br>" +
+                            "Kto má uši, nech počuje.\"<br>" +
+                            "Počuli sme slovo Pánovo.",
+                    "Alebo:",
+                    "Mk 4, 26-29",
+                    "Človek hodí semeno do zeme a spí; a ono rastie a on ani nevie, ako",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Marka<br>" +
+                            "Ježiš povedal zástupom:<br>" +
+                            "\"S Božím kráľovstvom je to tak, ako keď človek hodí semeno do zeme; či spí alebo bdie, v noci i vo dne semeno klíči a rastie a on ani nevie, ako. Zem sama vydáva úrodu: najprv steblo, potom klas a napokon zrelé zrno v klase.<br>" +
+                            "A keď úroda dozreje, ruka sa hneď chytí kosáka, lebo nastala žatva.\"<br>" +
+                            "Počuli sme slovo Pánovo."},
+            {"75", "2", "V čase sejby 2.", "Mt 13, 1-9",
+                    "Rozsievač vyšiel rozsievať",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Matúša<br>" +
+                            "Jedného dňa vyšiel Ježiš z domu a sedel pri mori. Okolo neho sa zhromaždili veľké zástupy. Preto vystúpil na loďku a sadol si; všetok zástup stál na brehu. I hovoril im mnoho v podobenstvách; povedal:<br>" +
+                            "\"Rozsievač vyšiel rozsievať. Ako rozsieval, niektoré zrná padli na kraj cesty; prileteli vtáci a pozobali ich.<br>" +
+                            "Iné padli na skalnatú pôdu, kde nebolo veľa zeme; a hneď vzišli, lebo neboli hlboko v zemi, ale keď vyšlo slnko, zahoreli, a pretože nemali koreňa, uschli.<br>" +
+                            "Zasa iné padli do tŕnia; ale tŕnie vzrástlo a udusilo ich.<br>" +
+                            "Iné zrná padli do dobrej zeme a priniesli úrodu: jedno stonásobnú, iné šesťdesiatnásobnú a iné tridsaťnásobnú.<br>" +
+                            "Kto má uši, nech počuje.\"<br>" +
+                            "Počuli sme slovo Pánovo.",
+                    "Alebo:",
+                    "Mk 4, 26-29",
+                    "Človek hodí semeno do zeme a spí; a ono rastie a on ani nevie, ako",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Marka<br>" +
+                            "Ježiš povedal zástupom:<br>" +
+                            "\"S Božím kráľovstvom je to tak, ako keď človek hodí semeno do zeme; či spí alebo bdie, v noci i vo dne semeno klíči a rastie a on ani nevie, ako. Zem sama vydáva úrodu: najprv steblo, potom klas a napokon zrelé zrno v klase.<br>" +
+                            "A keď úroda dozreje, ruka sa hneď chytí kosáka, lebo nastala žatva.\"<br>" +
+                            "Počuli sme slovo Pánovo."},
+            {"72a", "1", "Za jednotu kresťanov 1.", "Mt 18, 19-22",
+                    "Kde sú dvaja alebo traja zhromaždení v mojom mene tam som ja medzi nimi",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Matúša<br>" +
+                            "Ježiš povedal svojim učeníkom:<br>" +
+                            "\"Ak dvaja z vás na zemi budú jednomyseľne prosiť o čokoľvek, dostanú to od môjho Otca, ktorý je na nebesiach. Lebo kde sú dvaja alebo traja zhromaždení v mojom mene, tam som ja medzi nimi.\" <br>" +
+                            "Peter pristúpil k Ježišovi a povedal mu: „Pane, koľko ráz mám odpustiť svojmu bratovi, keď sa prehreší proti mne? Azda sedem ráz?\" <br>" +
+                            "Ježiš mu odpovedal: \"Hovorím ti, nie sedem ráz, ale sedemdesiatsedem ráz.\"<br>" +
+                            "Počuli sme slovo Pánovo.",
+                    "Alebo:",
+                    "Lk 9, 49-56",
+                    "Kto nie je proti vám, je za vás",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Lukáša<br>" +
+                            "Ján povedal Ježišovi: \"Učiteľ, videli sme kohosi vyháňať diablov v tvojom mene a bránili sme mu to, veď nechodí s nami.\"<br>" +
+                            "Ježiš mu odpovedal: \"Nebráňte mu, lebo kto nie je proti vám, je za vás.\"<br>" +
+                            "Keď sa blížili dni, v ktorých mal byť Ježiš vzatý zo sveta, rozhodol sa ísť do Jeruzalema a poslal pred sebou poslov. Oni cestou vošli do istej samaritánskej dediny, aby mu pripravili miesto. Ale ho neprijali, lebo mal namierené do Jeruzalema.<br>" +
+                            "Keď to učeníci Jakub a Ján videli, povedali: \"Pane, chceš, aby sme povedali: Nech zostúpi oheň z neba a zničí ich?\"<br>" +
+                            "On sa obrátil a pokarhal ich.<br>" +
+                            "A odišli do inej dediny.<br>" +
+                            "Počuli sme slovo Pánovo."},
+            {"72a", "2", "Za jednotu kresťanov 2.", "Mt 18, 19-22",
+                    "Kde sú dvaja alebo traja zhromaždení v mojom mene tam som ja medzi nimi",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Matúša<br>" +
+                            "Ježiš povedal svojim učeníkom:<br>" +
+                            "\"Ak dvaja z vás na zemi budú jednomyseľne prosiť o čokoľvek, dostanú to od môjho Otca, ktorý je na nebesiach. Lebo kde sú dvaja alebo traja zhromaždení v mojom mene, tam som ja medzi nimi.\" <br>" +
+                            "Peter pristúpil k Ježišovi a povedal mu: „Pane, koľko ráz mám odpustiť svojmu bratovi, keď sa prehreší proti mne? Azda sedem ráz?\" <br>" +
+                            "Ježiš mu odpovedal: \"Hovorím ti, nie sedem ráz, ale sedemdesiatsedem ráz.\"<br>" +
+                            "Počuli sme slovo Pánovo.",
+                    "Alebo:",
+                    "Lk 9, 49-56",
+                    "Kto nie je proti vám, je za vás",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Lukáša<br>" +
+                            "Ján povedal Ježišovi: \"Učiteľ, videli sme kohosi vyháňať diablov v tvojom mene a bránili sme mu to, veď nechodí s nami.\"<br>" +
+                            "Ježiš mu odpovedal: \"Nebráňte mu, lebo kto nie je proti vám, je za vás.\"<br>" +
+                            "Keď sa blížili dni, v ktorých mal byť Ježiš vzatý zo sveta, rozhodol sa ísť do Jeruzalema a poslal pred sebou poslov. Oni cestou vošli do istej samaritánskej dediny, aby mu pripravili miesto. Ale ho neprijali, lebo mal namierené do Jeruzalema.<br>" +
+                            "Keď to učeníci Jakub a Ján videli, povedali: \"Pane, chceš, aby sme povedali: Nech zostúpi oheň z neba a zničí ich?\"<br>" +
+                            "On sa obrátil a pokarhal ich.<br>" +
+                            "A odišli do inej dediny.<br>" +
+                            "Počuli sme slovo Pánovo."},
+            {"72a", "3", "Za jednotu kresťanov 3.", "Mt 18, 19-22",
+                    "Kde sú dvaja alebo traja zhromaždení v mojom mene tam som ja medzi nimi",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Matúša<br>" +
+                            "Ježiš povedal svojim učeníkom:<br>" +
+                            "\"Ak dvaja z vás na zemi budú jednomyseľne prosiť o čokoľvek, dostanú to od môjho Otca, ktorý je na nebesiach. Lebo kde sú dvaja alebo traja zhromaždení v mojom mene, tam som ja medzi nimi.\" <br>" +
+                            "Peter pristúpil k Ježišovi a povedal mu: „Pane, koľko ráz mám odpustiť svojmu bratovi, keď sa prehreší proti mne? Azda sedem ráz?\" <br>" +
+                            "Ježiš mu odpovedal: \"Hovorím ti, nie sedem ráz, ale sedemdesiatsedem ráz.\"<br>" +
+                            "Počuli sme slovo Pánovo.",
+                    "Alebo:",
+                    "Lk 9, 49-56",
+                    "Kto nie je proti vám, je za vás",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Lukáša<br>" +
+                            "Ján povedal Ježišovi: \"Učiteľ, videli sme kohosi vyháňať diablov v tvojom mene a bránili sme mu to, veď nechodí s nami.\"<br>" +
+                            "Ježiš mu odpovedal: \"Nebráňte mu, lebo kto nie je proti vám, je za vás.\"<br>" +
+                            "Keď sa blížili dni, v ktorých mal byť Ježiš vzatý zo sveta, rozhodol sa ísť do Jeruzalema a poslal pred sebou poslov. Oni cestou vošli do istej samaritánskej dediny, aby mu pripravili miesto. Ale ho neprijali, lebo mal namierené do Jeruzalema.<br>" +
+                            "Keď to učeníci Jakub a Ján videli, povedali: \"Pane, chceš, aby sme povedali: Nech zostúpi oheň z neba a zničí ich?\"<br>" +
+                            "On sa obrátil a pokarhal ich.<br>" +
+                            "A odišli do inej dediny.<br>" +
+                            "Počuli sme slovo Pánovo."},
+            {"72b", "4", "Za povolanie na kňazský stav", "Mt 9, 35-38",
+                    "Žatva je veľká, a robotníkov malo",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Matúša<br>" +
+                            "Ježiš chodil po všetkých mestách a dedinkách, učil v ich synagógach, hlásal evanjelium o kráľovstve a uzdravoval všetky choroby a neduhy. Keď videl zástupy, bolo mu ich Túto, lebo boli zmorené a skleslé ako ovce bez pastiera.<br>" +
+                            "Vtedy povedal svojim učeníkom: \"Žatva je veľká, a robotníkov málo. Preto proste Pána žatvy, aby poslal robotníkov na svoju žatvu!\"<br>" +
+                            "Počuli sme slovo Pánovo.",
+                    "Alebo:",
+                    "Mk 10, 17-27",
+                    "Predaj všetko, čo más, a nasleduj ma",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Marka<br>" +
+                            "Keď sa Ježiš vydal na cestu, pribehol k nemu ktosi, kľakol si pred ním a pýtal sa ho: \"Učiteľ dobrý, čo mám robiť, aby som obsiahol večný život?\"<br>" +
+                            "Ježiš mu povedal: \"Prečo ma voláš dobrým? Nik nie je dobrý, iba jediný, Boh. Poznáš prikázania: Nezabiješ! Nescudzoložíš! Nepokradneš! Nepreriekneš krivé svedectvo! Nebudeš podvádzať! Cti svojho otca a svoju matku!\"<br>" +
+                            "A on mu odpovedal: \"Učiteľ, toto všetko som zachovával od svojej mladosti.\"<br>" +
+                            "Ježiš naňho pozrel s láskou a povedal mu: \"Jedno ti ešte chýba: choď, predaj všetko, čo máš, a rozdaj chudobným; a budeš mať poklad v nebi. Potom príď a nasleduj ma!\" Táto reč ho zarmútila a odišiel rozžialený. Mal totiž mnoho majetku.<br>" +
+                            "Ježiš sa rozhliadol a svojim učeníkom povedal: \"Ako ťažko vojdú do Božieho kráľovstva tí, čo majú majetok.\" Učeníci pri týchto slovách stŕpli.<br>" +
+                            "Ale Ježiš im ešte raz povedal: \"Deti, ako ťažko je vojsť do Božieho kráľovstva. Ľahšie prejde ťava uchom ihly, ako boháč vojde do Božieho kráľovstva.\"<br>" +
+                            "Ešte viac sa zhrozili a hovorili si: \"Kto potom môže byť spasený?\"<br>" +
+                            "Ježiš sa na nich zahľadel a povedal: \"Ľuďom je to nemožné, ale nie Bohu. Lebo Bohu je všetko možné.\"<br>" +
+                            "Počuli sme slovo Pánovo."},
+            {"72b", "5", "Za rehoľné povolania", "Mt 9, 35-38",
+                    "Žatva je veľká, a robotníkov malo",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Matúša<br>" +
+                            "Ježiš chodil po všetkých mestách a dedinkách, učil v ich synagógach, hlásal evanjelium o kráľovstve a uzdravoval všetky choroby a neduhy. Keď videl zástupy, bolo mu ich Túto, lebo boli zmorené a skleslé ako ovce bez pastiera.<br>" +
+                            "Vtedy povedal svojim učeníkom: \"Žatva je veľká, a robotníkov málo. Preto proste Pána žatvy, aby poslal robotníkov na svoju žatvu!\"<br>" +
+                            "Počuli sme slovo Pánovo.",
+                    "Alebo:",
+                    "Mk 10, 17-27",
+                    "Predaj všetko, čo más, a nasleduj ma",
+                    "<font color='#B71C1C'>✠</font> Čítanie za svätého evanjelia podľa Marka<br>" +
+                            "Keď sa Ježiš vydal na cestu, pribehol k nemu ktosi, kľakol si pred ním a pýtal sa ho: \"Učiteľ dobrý, čo mám robiť, aby som obsiahol večný život?\"<br>" +
+                            "Ježiš mu povedal: \"Prečo ma voláš dobrým? Nik nie je dobrý, iba jediný, Boh. Poznáš prikázania: Nezabiješ! Nescudzoložíš! Nepokradneš! Nepreriekneš krivé svedectvo! Nebudeš podvádzať! Cti svojho otca a svoju matku!\"<br>" +
+                            "A on mu odpovedal: \"Učiteľ, toto všetko som zachovával od svojej mladosti.\"<br>" +
+                            "Ježiš naňho pozrel s láskou a povedal mu: \"Jedno ti ešte chýba: choď, predaj všetko, čo máš, a rozdaj chudobným; a budeš mať poklad v nebi. Potom príď a nasleduj ma!\" Táto reč ho zarmútila a odišiel rozžialený. Mal totiž mnoho majetku.<br>" +
+                            "Ježiš sa rozhliadol a svojim učeníkom povedal: \"Ako ťažko vojdú do Božieho kráľovstva tí, čo majú majetok.\" Učeníci pri týchto slovách stŕpli.<br>" +
+                            "Ale Ježiš im ešte raz povedal: \"Deti, ako ťažko je vojsť do Božieho kráľovstva. Ľahšie prejde ťava uchom ihly, ako boháč vojde do Božieho kráľovstva.\"<br>" +
+                            "Ešte viac sa zhrozili a hovorili si: \"Kto potom môže byť spasený?\"<br>" +
+                            "Ježiš sa na nich zahľadel a povedal: \"Ľuďom je to nemožné, ale nie Bohu. Lebo Bohu je všetko možné.\"<br>" +
+                            "Počuli sme slovo Pánovo."},
+    };
+
     String[][] spevFormularZmierenie = {
             {"Za zachovanie pokoja a spravodlivosti 1.", "Daruj, Pane, pokoj tým, čo sa spoliehajú na teba, vypočuj prosby svojich služobníkov a veď nás na cestu spravodlivosti.", "(Porov. Sir 36, 18 – 19)",
-            "Blahoslavení tí, čo šíria pokoj, lebo ich budú volať Božími synmi.<br>" +
-            "<font color='#B71C1C'>Alebo: (Jn 14, 27)</font><br>" +
-            "Pokoj vám zanechávam, svoj pokoj vám dávam, hovorí Pán.", "(Mt 5, 9)"},
-        {"Za zachovanie pokoja a spravodlivosti 2.", "Daruj, Pane, pokoj tým, čo sa spoliehajú na teba, vypočuj prosby svojich služobníkov a veď nás na cestu spravodlivosti.", "(Porov. Sir 36, 18 – 19)",
-                "Blahoslavení tí, čo šíria pokoj, lebo ich budú volať Božími synmi.<br>" +
-                        "<font color='#B71C1C'>Alebo: (Jn 14, 27)</font><br>" +
-                        "Pokoj vám zanechávam, svoj pokoj vám dávam, hovorí Pán.", "(Mt 5, 9)"},
+                    "Blahoslavení tí, čo šíria pokoj, lebo ich budú volať Božími synmi.<br>" +
+                            "<font color='#B71C1C'>Alebo: (Jn 14, 27)</font><br>" +
+                            "Pokoj vám zanechávam, svoj pokoj vám dávam, hovorí Pán.", "(Mt 5, 9)"},
+            {"Za zachovanie pokoja a spravodlivosti 2.", "Daruj, Pane, pokoj tým, čo sa spoliehajú na teba, vypočuj prosby svojich služobníkov a veď nás na cestu spravodlivosti.", "(Porov. Sir 36, 18 – 19)",
+                    "Blahoslavení tí, čo šíria pokoj, lebo ich budú volať Božími synmi.<br>" +
+                            "<font color='#B71C1C'>Alebo: (Jn 14, 27)</font><br>" +
+                            "Pokoj vám zanechávam, svoj pokoj vám dávam, hovorí Pán.", "(Mt 5, 9)"},
             {"Za zmierenie", "Ja som spása ľudu, hovorí Pán. V akejkoľvek ťažkosti bude ku mne volať, vypočujem ho a budem jeho Pánom naveky.", "",
                     "Poďte ku mne všetci, ktorí sa namáhate a ste preťažení, a ja vás posilním, hovorí Pán.<br>" +
                             "<font color='#B71C1C'>Alebo: (Jn 16, 24)</font><br>" +
@@ -4149,11 +4937,11 @@ public interface Formular {
                     "Teraz ostáva viera, nádej, láska, tieto tri, no najväčšia z nich je láska.", "(1 Kor 13, 13)"},
             {"Za svornosť", "Množstvo veriacich malo jedno srdce a jednu dušu. Apoštoli s veľkou silou vydávali svedectvo o zmŕtvychvstaní Pána Ježiša a všetci sa tešili veľkej obľube, aleluja.", "(Sk 4, 32 – 33)",
                     "Otče, prosím ťa aj za tých, čo uveria vo mňa, aby aj oni boli v nás jedno, aby svet uveril, že si ma ty poslal, hovorí Pán.", "(Jn 17, 20 – 21)"},
-                       {"O tajomstve svätého kríža", "My sa máme chváliť krížom nášho Pána Ježiša Krista, v ktorom je spása, život a naše vzkriesenie; on nás oslobodil a spasil.", "(Porov. Gal 6, 14)",
+            {"O tajomstve svätého kríža", "My sa máme chváliť krížom nášho Pána Ježiša Krista, v ktorom je spása, život a naše vzkriesenie; on nás oslobodil a spasil.", "(Porov. Gal 6, 14)",
                     "Ja, až budem vyzdvihnutý od zeme, všetkých pritiahnem k sebe, hovorí Pán.", "(Jn 12, 32)"},
             {"O najsvätejšej eucharistii", "Pán otvoril brány nebies; a pršala im manna za pokrm a dal im chlieb z neba. Človek jedol chlieb anjelský.", "(Ž 78, 23 – 25)",
                     "Ja som živý chlieb, ktorý zostúpil z neba, hovorí Pán. Kto bude jesť z tohto chleba, bude žiť naveky. A chlieb, ktorý ja dám, je moje telo za život sveta.", "(Jn 6, 51 – 52)"},
-           {"O predrahej krvi nášho Pána Ježiša Krista", "Vykúpil si nás, Pane, svojou krvou z každého kmeňa, jazyka, ľudu a národa a urobil si nás kráľovstvom nášmu Bohu.", "(Porov. Zjv 5, 9 – 10)",
+            {"O predrahej krvi nášho Pána Ježiša Krista", "Vykúpil si nás, Pane, svojou krvou z každého kmeňa, jazyka, ľudu a národa a urobil si nás kráľovstvom nášmu Bohu.", "(Porov. Zjv 5, 9 – 10)",
                     "Kalich dobrorečenia, ktorému dobrorečíme, je účasťou na Kristovej Krvi; a chlieb, ktorý lámeme, je účasťou na Kristovom Tele.", "(Porov. 1 Kor 10, 16)"},
     };
 
@@ -4210,13 +4998,13 @@ public interface Formular {
                     "ktorý je Boh a s tebou žije a kraľuje<br>" +
                     "v jednote Ducha Svätého po všetky veky vekov.",
                     "Pane, pod sviatostnými znakmi chleba a vína,<br>" +
-                    "ktoré naznačujú pokoj a jednotu,<br>" +
-                    "slávime spasiteľnú obetu<br>" +
-                    "tvojho Syna, Kráľa pokoja; <font color='#B71C1C'>*</font><br>" +
-                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-                    "nech táto obeta upevňuje<br>" +
-                    "svornosť medzi všetkými tvojimi deťmi.<br>" +
-                    "Skrze Krista, nášho Pána.",
+                            "ktoré naznačujú pokoj a jednotu,<br>" +
+                            "slávime spasiteľnú obetu<br>" +
+                            "tvojho Syna, Kráľa pokoja; <font color='#B71C1C'>*</font><br>" +
+                            "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
+                            "nech táto obeta upevňuje<br>" +
+                            "svornosť medzi všetkými tvojimi deťmi.<br>" +
+                            "Skrze Krista, nášho Pána.",
                     "Prosíme ťa, Pane,<br>" +
                             "naplň nás duchom svojej lásky, <font color='#B71C1C'>*</font><br>" +
                             "a keďže sme prijali Telo a Krv<br>" +
@@ -4228,24 +5016,24 @@ public interface Formular {
                     "ty poskytuješ ľuďom mimoriadne dni spásy,<br>" +
                     "aby ťa uznali za Stvoriteľa a Otca všetkých; <font color='#B71C1C'>*</font><br>" +
                     "dobrotivo nám pomáhaj,<br>" +
-                            "aby sme <font color='#B71C1C'>(</font>v týchto mimoriadnych dňoch kajúcnosti<font color='#B71C1C'>)</font><br>" +
-                            "ochotne prijímali tvoje slovo pokoja <font color='#B71C1C'>—</font><br>" +
-                            "a zapojili sa do tvojho plánu<br>" +
-                            "obnoviť všetko v Kristovi.<br>" +
-                            "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-                            "v jednote Ducha Svätého po všetky veky vekov.<br>" +
-                            "<font color='#B71C1C'>Alebo (najmä vo Veľkonočnom období):</font><br>" +
-                            "Bože, pôvodca pravej slobody,<br>" +
-                            "ty vyslobodzuješ ľudí z otroctva hriechu<br>" +
-                            "a chceš z nich utvoriť jednu rodinu; <font color='#B71C1C'>*</font><br>" +
-                            "prosíme ťa, <font color='#B71C1C'>(</font>v tomto čase milosti a požehnania<font color='#B71C1C'>)</font><br>" +
-                            "dopraj svojej Cirkvi, aby v plnej slobode<br>" +
-                            "žiarila pred svetom ako znamenie spásy <font color='#B71C1C'>—</font><br>" +
-                            "a medzi ľuďmi ohlasovala<br>" +
-                            "a uskutočňovala tajomstvo tvojej lásky.<br>" +
-                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
-                            "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
-                            "po všetky veky vekov.",
+                    "aby sme <font color='#B71C1C'>(</font>v týchto mimoriadnych dňoch kajúcnosti<font color='#B71C1C'>)</font><br>" +
+                    "ochotne prijímali tvoje slovo pokoja <font color='#B71C1C'>—</font><br>" +
+                    "a zapojili sa do tvojho plánu<br>" +
+                    "obnoviť všetko v Kristovi.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.<br>" +
+                    "<font color='#B71C1C'>Alebo (najmä vo Veľkonočnom období):</font><br>" +
+                    "Bože, pôvodca pravej slobody,<br>" +
+                    "ty vyslobodzuješ ľudí z otroctva hriechu<br>" +
+                    "a chceš z nich utvoriť jednu rodinu; <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa, <font color='#B71C1C'>(</font>v tomto čase milosti a požehnania<font color='#B71C1C'>)</font><br>" +
+                    "dopraj svojej Cirkvi, aby v plnej slobode<br>" +
+                    "žiarila pred svetom ako znamenie spásy <font color='#B71C1C'>—</font><br>" +
+                    "a medzi ľuďmi ohlasovala<br>" +
+                    "a uskutočňovala tajomstvo tvojej lásky.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "po všetky veky vekov.",
                     "Pamätaj, Pane, že tvoj Syn,<br>" +
                             "ktorý je náš pokoj a naše zmierenie,<br>" +
                             "svojou krvou zmyl hriechy sveta; <font color='#B71C1C'>*</font><br>" +
@@ -4500,9 +5288,9 @@ public interface Formular {
             {"6", "5", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 5.", "Nech sa radujú srdcia tých, čo hľadajú Pána; hľadajte Pána a jeho moc, hľadajte vždy jeho tvár.", "(Porov. Ž 105, 3 – 4)",
                     "Rozjasni svoju tvár nad svojím sluhom a zachráň ma vo svojom milosrdenstve. Pane, nech nie som zahanbený, veď vzývam teba.", "(Porov. Ž 31, 17 – 18)"},
             {"6", "6", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 6.", "Bože, náš ochranca, pohliadni a pozri na tvár svojho Pomazaného; jeden deň v tvojich nádvoriach je lepší než iných tisíce.", "(Ž 84, 10 – 11)",
-            "Ako jeleň dychtí za vodou z prameňa, tak moja duša, Bože, túži za tebou, po Bohu žízni moja duša, po Bohu živom.", "(Porov. Ž 42, 2 – 3)"},
-        {"6", "7", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 7.", "Odpočinutie večné daj im, Pane, a ožiar ich duše svojím svetlom.", "",
-                "Boh poslal svojho jednorodeného Syna na svet, aby sme skrze neho mali život.", "(1 Jn 4, 9)"},
+                    "Ako jeleň dychtí za vodou z prameňa, tak moja duša, Bože, túži za tebou, po Bohu žízni moja duša, po Bohu živom.", "(Porov. Ž 42, 2 – 3)"},
+            {"6", "7", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 7.", "Odpočinutie večné daj im, Pane, a ožiar ich duše svojím svetlom.", "",
+                    "Boh poslal svojho jednorodeného Syna na svet, aby sme skrze neho mali život.", "(1 Jn 4, 9)"},
             {"6", "8", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 8.", "Odpočinutie večné daj im, Pane, a ožiar ich duše svojím svetlom.", "",
                     "Boh poslal svojho jednorodeného Syna na svet, aby sme skrze neho mali život.", "(1 Jn 4, 9)"},
             {"6", "9", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 9.", "Odpočinutie večné daj im, Pane, a ožiar ich duše svojím svetlom.", "",
@@ -4612,7 +5400,7 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             //iné
             {"3", "1", "Iné modlitby na výročie smrti alebo pohrebu", "Prosíme ťa, Pane,<br>" +
-            "pre spásonosné utrpenie tvojho Syna<br>" +
+                    "pre spásonosné utrpenie tvojho Syna<br>" +
                     "udeľ svojmu služobníkovi <font color='#B71C1C'>(</font>svojej služobnici<font color='#B71C1C'>) M.</font><br>" +
                     "odpustenie hriechov, po ktorom vždy túžil<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font>, <font color='#B71C1C'>*</font><br>" +
                     "aby ťa spoznal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> v pravde <font color='#B71C1C'>—</font><br>" +
@@ -4620,39 +5408,39 @@ public interface Formular {
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
                     "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
                     "po všetky veky vekov.",
-            "Pane, pokorne ti prinášame túto obetu<br>" +
-                    "za tvojho služobníka <font color='#B71C1C'>M. (</font>tvoju služobnicu <font color='#B71C1C'>M.)</font>, <font color='#B71C1C'>*</font><br>" +
-                    "ktorému <font color='#B71C1C'>(</font>ktorej<font color='#B71C1C'>)</font> si doprial,<br>" +
-                    "aby ťa poznal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> svetlom viery, <font color='#B71C1C'>—</font><br>" +
-                    "a prosíme ťa, priveď ho <font color='#B71C1C'>(</font>ju<font color='#B71C1C'>)</font> do večnej slávy.<br>" +
-                    "Skrze Krista, nášho Pána.",
-            "Pane, prijali sme pokrm,<br>" +
-                    "ktorý nás obnovuje a dáva nám život; <font color='#B71C1C'>*</font><br>" +
-                    "pôsobením tejto sviatosti<br>" +
-                    "očisti nášho brata <font color='#B71C1C'>M. (</font>našu sestru <font color='#B71C1C'>M.)</font><br>" +
-                    "od všetkých hriechov, <font color='#B71C1C'>—</font><br>" +
-                    "aby mohol <font color='#B71C1C'>(</font>mohla<font color='#B71C1C'>)</font> prejsť do nebeského spoločenstva.<br>" +
-                    "Skrze Krista, nášho Pána."},
-    {"4", "1", "Iné modlitby na výročie smrti alebo pohrebu", "Nekonečne milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
-            "vo výročný deň smrti <font color='#B71C1C'>(</font>pohrebu<font color='#B71C1C'>)</font><br>" +
-            "tvojho služobníka <font color='#B71C1C'>M. (</font>tvojej služobnice <font color='#B71C1C'>M.)</font><br>" +
-            "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
-            "daj jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> duši večné odpočinutie,<br>" +
-            "blažený pokoj a svetlo tvojej slávy.<br>" +
-            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
-            "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
-            "po všetky veky vekov.",
-            "Pane, prijmi naše prosby a obetné dary, <font color='#B71C1C'>*</font><br>" +
-                    "aby tvoj služobník <font color='#B71C1C'>M. (</font>tvoja služobnica <font color='#B71C1C'>M.) —</font><br>" +
-                    "pre zásluhy tejto obety získal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> plnosť vykúpenia.<br>" +
-                    "Skrze Krista, nášho Pána.",
-            "Všemohúci Bože, priniesli sme ti obetu<br>" +
-                    "za dušu tvojho služobníka <font color='#B71C1C'>M. (</font>tvojej služobnice <font color='#B71C1C'>M.)</font>; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, očisti ho <font color='#B71C1C'>(</font>ju<font color='#B71C1C'>)</font> touto sviatosťou<br>" +
-                    "od všetkých hriechov <font color='#B71C1C'>—</font><br>" +
-                    "a milosrdne ho <font color='#B71C1C'>(</font>ju<font color='#B71C1C'>)</font><br>" +
-                    "prijmi do svetla večnej blaženosti.<br>" +
-                    "Skrze Krista, nášho Pána."},
+                    "Pane, pokorne ti prinášame túto obetu<br>" +
+                            "za tvojho služobníka <font color='#B71C1C'>M. (</font>tvoju služobnicu <font color='#B71C1C'>M.)</font>, <font color='#B71C1C'>*</font><br>" +
+                            "ktorému <font color='#B71C1C'>(</font>ktorej<font color='#B71C1C'>)</font> si doprial,<br>" +
+                            "aby ťa poznal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> svetlom viery, <font color='#B71C1C'>—</font><br>" +
+                            "a prosíme ťa, priveď ho <font color='#B71C1C'>(</font>ju<font color='#B71C1C'>)</font> do večnej slávy.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, prijali sme pokrm,<br>" +
+                            "ktorý nás obnovuje a dáva nám život; <font color='#B71C1C'>*</font><br>" +
+                            "pôsobením tejto sviatosti<br>" +
+                            "očisti nášho brata <font color='#B71C1C'>M. (</font>našu sestru <font color='#B71C1C'>M.)</font><br>" +
+                            "od všetkých hriechov, <font color='#B71C1C'>—</font><br>" +
+                            "aby mohol <font color='#B71C1C'>(</font>mohla<font color='#B71C1C'>)</font> prejsť do nebeského spoločenstva.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"4", "1", "Iné modlitby na výročie smrti alebo pohrebu", "Nekonečne milosrdný Bože, <font color='#B71C1C'>*</font><br>" +
+                    "vo výročný deň smrti <font color='#B71C1C'>(</font>pohrebu<font color='#B71C1C'>)</font><br>" +
+                    "tvojho služobníka <font color='#B71C1C'>M. (</font>tvojej služobnice <font color='#B71C1C'>M.)</font><br>" +
+                    "vrúcne ťa prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "daj jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> duši večné odpočinutie,<br>" +
+                    "blažený pokoj a svetlo tvojej slávy.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "po všetky veky vekov.",
+                    "Pane, prijmi naše prosby a obetné dary, <font color='#B71C1C'>*</font><br>" +
+                            "aby tvoj služobník <font color='#B71C1C'>M. (</font>tvoja služobnica <font color='#B71C1C'>M.) —</font><br>" +
+                            "pre zásluhy tejto obety získal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> plnosť vykúpenia.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Všemohúci Bože, priniesli sme ti obetu<br>" +
+                            "za dušu tvojho služobníka <font color='#B71C1C'>M. (</font>tvojej služobnice <font color='#B71C1C'>M.)</font>; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, očisti ho <font color='#B71C1C'>(</font>ju<font color='#B71C1C'>)</font> touto sviatosťou<br>" +
+                            "od všetkých hriechov <font color='#B71C1C'>—</font><br>" +
+                            "a milosrdne ho <font color='#B71C1C'>(</font>ju<font color='#B71C1C'>)</font><br>" +
+                            "prijmi do svetla večnej blaženosti.<br>" +
+                            "Skrze Krista, nášho Pána."},
             {"5", "1", "Pri rozličných spomienkach za jedného zosnulého 1.", "Bože, všemohúci Otče,<br>" +
                     "tajomstvom kríža si nás posilnil<br>" +
                     "a prisľúbil si nám účasť<br>" +
@@ -4775,68 +5563,68 @@ public interface Formular {
                             "a pripojil k zástupu vykúpených.<br>" +
                             "Skrze Krista, nášho Pána."},
             {"6", "1", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 1.", "Bože, ty si povýšil do nebeskej slávy<br>" +
-            "svojho jednorodeného Syna, víťaza nad smrťou; <font color='#B71C1C'>*</font><br>" +
-            "daj svojim služobníkom <font color='#B71C1C'>(M.</font> a <font color='#B71C1C'>M.)</font><br>" +
-            "účasť na Kristovom víťazstve nad smrťou, <font color='#B71C1C'>—</font><br>" +
-            "aby mohli večne hľadieť na teba,<br>" +
-            "svojho Stvoriteľa a Vykupiteľa.<br>" +
-            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
-            "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
-            "po všetky veky vekov.",
-            "Prosíme ťa, Pane, láskavo zhliadni<br>" +
-            "na obetné dary, ktoré ti prinášame na obetu<br>" +
-            "za duše tvojich služobníkov, <font color='#B71C1C'>*</font><br>" +
-            "a keďže si im dal milosť kresťanskej viery, <font color='#B71C1C'>—</font><br>" +
-            "udeľ im aj odmenu za to, že podľa nej žili.<br>" +
-            "Skrze Krista, nášho Pána.",
-            "Pane, zmiluj sa nad svojimi zosnulými služobníkmi,<br>" +
-            "za ktorých sme slávili túto obetu, <font color='#B71C1C'>*</font><br>" +
-            "a pretože si im udelil milosť krstu, <font color='#B71C1C'>—</font><br>" +
-            "daj im plnosť večnej radosti.<br>" +
-            "Skrze Krista, nášho Pána."},
-        {"6", "2", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 2.", "Všemohúci a večný Bože,<br>" +
-            "ty si život smrteľných ľudí a radosť svätých; <font color='#B71C1C'>*</font><br>" +
+                    "svojho jednorodeného Syna, víťaza nad smrťou; <font color='#B71C1C'>*</font><br>" +
+                    "daj svojim služobníkom <font color='#B71C1C'>(M.</font> a <font color='#B71C1C'>M.)</font><br>" +
+                    "účasť na Kristovom víťazstve nad smrťou, <font color='#B71C1C'>—</font><br>" +
+                    "aby mohli večne hľadieť na teba,<br>" +
+                    "svojho Stvoriteľa a Vykupiteľa.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "po všetky veky vekov.",
+                    "Prosíme ťa, Pane, láskavo zhliadni<br>" +
+                            "na obetné dary, ktoré ti prinášame na obetu<br>" +
+                            "za duše tvojich služobníkov, <font color='#B71C1C'>*</font><br>" +
+                            "a keďže si im dal milosť kresťanskej viery, <font color='#B71C1C'>—</font><br>" +
+                            "udeľ im aj odmenu za to, že podľa nej žili.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, zmiluj sa nad svojimi zosnulými služobníkmi,<br>" +
+                            "za ktorých sme slávili túto obetu, <font color='#B71C1C'>*</font><br>" +
+                            "a pretože si im udelil milosť krstu, <font color='#B71C1C'>—</font><br>" +
+                            "daj im plnosť večnej radosti.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"6", "2", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 2.", "Všemohúci a večný Bože,<br>" +
+                    "ty si život smrteľných ľudí a radosť svätých; <font color='#B71C1C'>*</font><br>" +
                     "pokorne ťa prosíme za tvojich služobníkov <font color='#B71C1C'>(M.</font> a <font color='#B71C1C'>M.)</font>: <font color='#B71C1C'>—</font><br>" +
                     "zbav ich pút smrti a voveď do slávy<br>" +
                     "svojho večného kráľovstva.<br>" +
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
                     "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
                     "po všetky veky vekov.",
-            "Pane, prijmi obetné dary<br>" +
-                    "za tvojich služobníkov <font color='#B71C1C'>(M.</font> a <font color='#B71C1C'>M.)</font> i za všetkých,<br>" +
-                    "čo zomreli v spojení s Kristom, <font color='#B71C1C'>*</font><br>" +
-                    "a pre túto vznešenú obetu<br>" +
-                    "vysloboď ich z moci smrti <font color='#B71C1C'>—</font><br>" +
-                    "a voveď do večného života.<br>" +
-                    "Skrze Krista, nášho Pána.",
-            "Prosíme ťa, všemohúci Bože,<br>" +
-                    "nech božské tajomstvá, ktoré sme slávili,<br>" +
-                    "slúžia nám na spásu <font color='#B71C1C'>*</font><br>" +
-                    "a dušiam tvojich služobníkov,<br>" +
-                    "pre ktorých prosíme tvoje milosrdenstvo, <font color='#B71C1C'>—</font><br>" +
-                    "nech prinesú odpustenie.<br>" +
-                    "Skrze Krista, nášho Pána."},
-    {"6", "3", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 3.", "Bože, v tvojom milosrdenstve<br>" +
-            "nachádzajú duše veriacich odpočinutie, <font color='#B71C1C'>*</font><br>" +
-            "prosíme ťa za tvojich služobníkov <font color='#B71C1C'>(M.</font> a <font color='#B71C1C'>M.)</font><br>" +
-            "a za všetkých, čo odpočívajú v Kristovi: <font color='#B71C1C'>—</font><br>" +
-            "odpusť im hriechy a očisti ich od každej poškvrny,<br>" +
-            "aby mohli mať účasť<br>" +
-            "na zmŕtvychvstaní tvojho Syna Ježiša Krista.<br>" +
-            "Lebo on je Boh a s tebou žije a kraľuje<br>" +
-            "v jednote Ducha Svätého po všetky veky vekov.",
-            "Prosíme ťa, Pane,<br>" +
-                    "láskavo zhliadni na obetné dary,<br>" +
-                    "ktoré ti prinášame za pokoj<br>" +
-                    "pre duše tvojich služobníkov, <font color='#B71C1C'>*</font><br>" +
-                    "a pre zásluhy tejto spásonosnej obety <font color='#B71C1C'>—</font><br>" +
-                    "pridruž ich k zástupu svojich vykúpených.<br>" +
-                    "Skrze Krista, nášho Pána.",
-            "Pane, prijali sme sviatosť nášho vykúpenia; <font color='#B71C1C'>*</font><br>" +
-                    "prosíme ťa, dopraj,<br>" +
-                    "aby nám živým priniesla ochranu <font color='#B71C1C'>—</font><br>" +
-                    "a našim zosnulým večné vykúpenie.<br>" +
-                    "Skrze Krista, nášho Pána."},
+                    "Pane, prijmi obetné dary<br>" +
+                            "za tvojich služobníkov <font color='#B71C1C'>(M.</font> a <font color='#B71C1C'>M.)</font> i za všetkých,<br>" +
+                            "čo zomreli v spojení s Kristom, <font color='#B71C1C'>*</font><br>" +
+                            "a pre túto vznešenú obetu<br>" +
+                            "vysloboď ich z moci smrti <font color='#B71C1C'>—</font><br>" +
+                            "a voveď do večného života.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Prosíme ťa, všemohúci Bože,<br>" +
+                            "nech božské tajomstvá, ktoré sme slávili,<br>" +
+                            "slúžia nám na spásu <font color='#B71C1C'>*</font><br>" +
+                            "a dušiam tvojich služobníkov,<br>" +
+                            "pre ktorých prosíme tvoje milosrdenstvo, <font color='#B71C1C'>—</font><br>" +
+                            "nech prinesú odpustenie.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"6", "3", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 3.", "Bože, v tvojom milosrdenstve<br>" +
+                    "nachádzajú duše veriacich odpočinutie, <font color='#B71C1C'>*</font><br>" +
+                    "prosíme ťa za tvojich služobníkov <font color='#B71C1C'>(M.</font> a <font color='#B71C1C'>M.)</font><br>" +
+                    "a za všetkých, čo odpočívajú v Kristovi: <font color='#B71C1C'>—</font><br>" +
+                    "odpusť im hriechy a očisti ich od každej poškvrny,<br>" +
+                    "aby mohli mať účasť<br>" +
+                    "na zmŕtvychvstaní tvojho Syna Ježiša Krista.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Prosíme ťa, Pane,<br>" +
+                            "láskavo zhliadni na obetné dary,<br>" +
+                            "ktoré ti prinášame za pokoj<br>" +
+                            "pre duše tvojich služobníkov, <font color='#B71C1C'>*</font><br>" +
+                            "a pre zásluhy tejto spásonosnej obety <font color='#B71C1C'>—</font><br>" +
+                            "pridruž ich k zástupu svojich vykúpených.<br>" +
+                            "Skrze Krista, nášho Pána.",
+                    "Pane, prijali sme sviatosť nášho vykúpenia; <font color='#B71C1C'>*</font><br>" +
+                            "prosíme ťa, dopraj,<br>" +
+                            "aby nám živým priniesla ochranu <font color='#B71C1C'>—</font><br>" +
+                            "a našim zosnulým večné vykúpenie.<br>" +
+                            "Skrze Krista, nášho Pána."},
             {"6", "4", "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 4.", "Bože, Stvoriteľ a Vykupiteľ všetkých veriacich,<br>" +
                     "vypočuj naše zbožné prosby <font color='#B71C1C'>*</font><br>" +
                     "a udeľ svojim služobníkom<br>" +
@@ -4853,7 +5641,7 @@ public interface Formular {
                             "a keďže v tomto živote vytrvali v katolíckej viere, <font color='#B71C1C'>—</font><br>" +
                             "nech získajú odmenu v budúcom živote.<br>" +
                             "Skrze Krista, nášho Pána.<br>",
-                            "Prosíme ťa, Pane,<br>" +
+                    "Prosíme ťa, Pane,<br>" +
                             "vypočuj naše prosby<br>" +
                             "za duše tvojich služobníkov <font color='#B71C1C'>(</font>služobníc<font color='#B71C1C'>)</font>, <font color='#B71C1C'>*</font><br>" +
                             "aby ich táto obeta zbavila všetkých hriechov <font color='#B71C1C'>—</font><br>" +
@@ -5340,7 +6128,7 @@ public interface Formular {
                             "a daj našim zosnulým radostný večný život.<br>" +
                             "Skrze Krista, nášho Pána.",
                     "Alebo:",
-            "Na výročie smrti II.", "Bratia a sestry, Boh tak miloval svet, že dal svojho jednorodeného Syna, aby nezahynul nik, kto v neho verí, ale aby mal večný život. Preto s dôverou prosme nášho Spasiteľa, ktorý za nás zomrel a vstal z mŕtvych.",
+                    "Na výročie smrti II.", "Bratia a sestry, Boh tak miloval svet, že dal svojho jednorodeného Syna, aby nezahynul nik, kto v neho verí, ale aby mal večný život. Preto s dôverou prosme nášho Spasiteľa, ktorý za nás zomrel a vstal z mŕtvych.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Pane Ježišu, odporúčame ti nášho zosnulého brata <font color='#B71C1C'>M. (</font>našu zosnulú sestru <font color='#B71C1C'>M.)</font>; priveď ho <font color='#B71C1C'>(</font>ju<font color='#B71C1C'>)</font> do radosti svojho kráľovstva.<br>" +
                             "<font color='#B71C1C'>2.</font> Pane Ježišu, daj, nech biskupi a kňazi Cirkvi ochotne vysluhujú sviatosti chorých a veriaci nech s radosťou prijímajú pokrm na cestu do večnosti.<br>" +
@@ -5354,16 +6142,16 @@ public interface Formular {
                             "aby sme sa všetci stretli u teba v priateľskej láske.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov.",
                     "Alebo:",
-            "Za zosnulého kňaza", "Bratia a sestry, s vierou prosme Boha za zomrelého kňaza <font color='#B71C1C'>M.</font>, aby mu blaženosť večného života bola odmenou za jeho kňazskú službu.",
+                    "Za zosnulého kňaza", "Bratia a sestry, s vierou prosme Boha za zomrelého kňaza <font color='#B71C1C'>M.</font>, aby mu blaženosť večného života bola odmenou za jeho kňazskú službu.",
                     "<font color='#B71C1C'>(</font>Volajme: Milosrdný Bože, vypočuj naše prosby.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font> Pane, udeľ večnú spásu zomrelému kňazovi <font color='#B71C1C'>M.</font><br>" +
-                    "<font color='#B71C1C'>2.</font> Daruj Cirkvi svätých kňazov, ktorí žijú pre službu tebe a blížnym.<br>" +
-                    "<font color='#B71C1C'>3.</font> Priveď svet k uznaniu duchovného prínosu služby kňazov.<br>" +
-                    "<font color='#B71C1C'>4.</font> Veď rodičov k tomu, aby prebúdzali v deťoch zmysel pre obetu.<br>" +
-                    "<font color='#B71C1C'>5.</font> Posilňuj chorých kňazov, obzvlášť tých, ktorí sú vyčerpaní službou Božiemu ľudu.<br>" +
-                    "<font color='#B71C1C'>6.</font> Pre Ježišovo víťazstvo nad smrťou uveď svojho zosnulého služobníka kňaza <font color='#B71C1C'>M.</font> do večnej slávy.<br>" +
-                    "<font color='#B71C1C'>7.</font> Nahraď miesta zomrelých kňazov novými kňazskými povolaniami.<br>" +
-                    "<font color='#B71C1C'>8.</font> Pripoj k spoločenstvu svätých v nebi všetkých, ktorých si na tomto svete obdaroval milosťou svätého kňazstva.",
+                            "<font color='#B71C1C'>2.</font> Daruj Cirkvi svätých kňazov, ktorí žijú pre službu tebe a blížnym.<br>" +
+                            "<font color='#B71C1C'>3.</font> Priveď svet k uznaniu duchovného prínosu služby kňazov.<br>" +
+                            "<font color='#B71C1C'>4.</font> Veď rodičov k tomu, aby prebúdzali v deťoch zmysel pre obetu.<br>" +
+                            "<font color='#B71C1C'>5.</font> Posilňuj chorých kňazov, obzvlášť tých, ktorí sú vyčerpaní službou Božiemu ľudu.<br>" +
+                            "<font color='#B71C1C'>6.</font> Pre Ježišovo víťazstvo nad smrťou uveď svojho zosnulého služobníka kňaza <font color='#B71C1C'>M.</font> do večnej slávy.<br>" +
+                            "<font color='#B71C1C'>7.</font> Nahraď miesta zomrelých kňazov novými kňazskými povolaniami.<br>" +
+                            "<font color='#B71C1C'>8.</font> Pripoj k spoločenstvu svätých v nebi všetkých, ktorých si na tomto svete obdaroval milosťou svätého kňazstva.",
                     "Všemohúci Bože, ty si Pánom a darcom života;<br>" +
                             "daruj večný život vo svojom kráľovstve<br>" +
                             "zosnulému kňazovi <font color='#B71C1C'>M.</font>,<br>" +
@@ -5375,23 +6163,23 @@ public interface Formular {
     String[][] prosbyPrvyPiatok = {
             //NA PRVÝ PIATOK MESIACA I.
             {"", "", "Na prvý piatok mesiaca I.", "Bratia a sestry, Pán Ježiš nás vyzýva: Učte sa odo mňa, lebo som tichý a pokorný srdcom. Prosme ho o silu nasledovať čnosti jeho Najsvätejšieho Srdca:",
-                                        "<font color='#B71C1C'>(</font>Volajme: Srdce Ježišovo, zmiluj sa nad nami.<font color='#B71C1C'>)</font>",
-                                        "<font color='#B71C1C'>1.</font> Pane Ježišu, pomáhaj Cirkvi žiť z tvojej svätosti, múdrosti a lásky.<br>" +
-                                                "<font color='#B71C1C'>2.</font> Pane Ježišu, nauč ľudí chápať, že veľké veci môžu poznávať len pokorným srdcom.<br>" +
-                                                "<font color='#B71C1C'>3.</font> Pane Ježišu, posilňuj kresťanov, aby premieňali dary tvojej milosti na obetavú a milosrdnú lásku k svojim blížnym.<br>" +
-                                                "<font color='#B71C1C'>4.</font> Pane Ježišu, uč nás svojím slovom a obetou stále viac ťa milovať a horlivejšie nasledovať.<br>" +
-                                                "<font color='#B71C1C'>5.</font> Pane Ježišu, dopraj milosť ľútosti v poslednej chvíli tým umierajúcim, ktorí nie sú pripravení na stretnutie s tebou.",
-                                        "Ježišu, tichý a pokorný srdcom,<br>" +
-                                                "ty nepohŕdaš nikým a neopustíš žiadneho človeka;<br>" +
-                                                "vypočuj naše prosby<br>" +
-                                                "a daj, nech vždy čerpáme z veľkosti tvojej lásky<br>" +
-                                                "a vydávame o nej svedectvo vo svete.<br>" +
-                                                "Lebo ty žiješ a kraľuješ na veky vekov.",
-                                //NA PRVÝ PIATOK MESIACA II.
-                            "Alebo:",
+                    "<font color='#B71C1C'>(</font>Volajme: Srdce Ježišovo, zmiluj sa nad nami.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Pane Ježišu, pomáhaj Cirkvi žiť z tvojej svätosti, múdrosti a lásky.<br>" +
+                            "<font color='#B71C1C'>2.</font> Pane Ježišu, nauč ľudí chápať, že veľké veci môžu poznávať len pokorným srdcom.<br>" +
+                            "<font color='#B71C1C'>3.</font> Pane Ježišu, posilňuj kresťanov, aby premieňali dary tvojej milosti na obetavú a milosrdnú lásku k svojim blížnym.<br>" +
+                            "<font color='#B71C1C'>4.</font> Pane Ježišu, uč nás svojím slovom a obetou stále viac ťa milovať a horlivejšie nasledovať.<br>" +
+                            "<font color='#B71C1C'>5.</font> Pane Ježišu, dopraj milosť ľútosti v poslednej chvíli tým umierajúcim, ktorí nie sú pripravení na stretnutie s tebou.",
+                    "Ježišu, tichý a pokorný srdcom,<br>" +
+                            "ty nepohŕdaš nikým a neopustíš žiadneho človeka;<br>" +
+                            "vypočuj naše prosby<br>" +
+                            "a daj, nech vždy čerpáme z veľkosti tvojej lásky<br>" +
+                            "a vydávame o nej svedectvo vo svete.<br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov.",
+                    //NA PRVÝ PIATOK MESIACA II.
+                    "Alebo:",
                     "Na prvý piatok mesiaca II.", "Bratia a sestry, Boh nám zjavuje lásku vo svojom Synovi Ježišovi Kristovi. Jeho srdce je zdrojom bohatstva a nesmiernej veľkosti tejto lásky. Prosme s dôverou, nech máme čo najväčší podiel na jeho svätosti a pokore.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                            "<font color='#B71C1C'>1.</font> Bože, urob biskupov a kňazov spoľahlivými nástrojmi tvojich zámerov.<br>" +
+                    "<font color='#B71C1C'>1.</font> Bože, urob biskupov a kňazov spoľahlivými nástrojmi tvojich zámerov.<br>" +
                             "<font color='#B71C1C'>2.</font> Bože, vychovávaj svoj ľud, aby žil životom zasväteným tebe a usiloval sa o jednotu vo viere a láske.<br>" +
                             "<font color='#B71C1C'>3.</font> Bože, daj svetu poznať tajomstvo svojej lásky, ktorá zachraňuje ľudstvo pred hriechom a skazou.<br>" +
                             "<font color='#B71C1C'>4.</font> Bože, upevni v ľuďoch túžbu žiť hlbokým duchovným životom.<br>" +
@@ -5422,23 +6210,23 @@ public interface Formular {
                     "ducha múdrosti verejným predstaviteľom<br>" +
                     "a odvahu pristupovať ku všetkým s láskou, <font color='#B71C1C'>–</font><br>" +
                     "aby sme mohli spoločne oslavovať tvoje sväté meno.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje v jednote<br>" +
-                    "s Duchom Svätým po všetky veky vekov.", "Pane, prijmi dary, ktoré ti predkladáme<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "po všetky veky vekov.", "Pane, prijmi dary, ktoré ti predkladáme<br>" +
                     "v tomto čase ohrozenia, <font color='#B71C1C'>*</font><br>" +
                     "a dopraj, prosíme, <font color='#B71C1C'>–</font><br>" +
                     "aby sa z tvojej moci stali pre nás<br>" +
                     "prameňom uzdravenia a pokoja.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje v jednote<br>" +
-                    "s Duchom Svätým po všetky veky vekov.", "Bože, z tvojich rúk sme prijali<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "po všetky veky vekov.", "Bože, z tvojich rúk sme prijali<br>" +
                     "liek večného života; <font color='#B71C1C'>*</font><br>" +
                     "dopraj, prosíme, <font color='#B71C1C'>–</font><br>" +
                     "aby sme skrze túto sviatosť<br>" +
                     "dosiahli plnosť nebeských milostí.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                    "ktorý je Boh a s tebou žije a kraľuje v jednote<br>" +
-                    "s Duchom Svätým po všetky veky vekov."},
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "po všetky veky vekov."},
             //prosby (za chorých II.)
             {"Bratia a sestry, pamätajme vo svojich modlitbách na tých, ktorí pre chorobu trpia na tele alebo na duši. Modlime sa za nich i za seba a volajme:",
                     "<font color='#B71C1C'>(</font>Ježišu, uzdrav naše duše.<font color='#B71C1C'>)</font>",
@@ -5535,29 +6323,29 @@ public interface Formular {
                             "<font color='#B71C1C'>K.:</font> Vzdávajme vďaky Pánovi, Bohu nášmu.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Je to dôstojné a správne.<br>" +
                             "<br>" +
-                    "Je naozaj dôstojné a správne,<br>" +
-                    "dobré a spásonosné<br>" +
-                    "vzdávať vďaky vždy a všade tebe,<br>" +
-                    "milosrdný Otče a verný Bože.<br>" +
-                    "Lebo ty si nám daroval Ježiša Krista,<br>" +
-                    "svojho Syna, za Pána a Vykupiteľa.<br>" +
-                    "On sa vždy prejavoval ako milosrdný<br>" +
-                    "voči malým a chudobným, <br>" +
-                    "slabým a hriešnym,<br>" +
-                    "stal sa blížny utláčaným a zarmúteným.<br>" +
-                    "Slovom a príkladom zvestoval svetu,<br>" +
-                    "že si Otec<br>" +
-                    "a staráš sa o všetky svoje deti.<br>" +
-                    "A preto ťa s anjelmi a so všetkými svätými<br>" +
-                    "oslavujeme a chválime,<br>" +
-                    "spievame pieseň na tvoju slávu<br>" +
-                    "a bez prestania voláme:<br>" +
+                            "Je naozaj dôstojné a správne,<br>" +
+                            "dobré a spásonosné<br>" +
+                            "vzdávať vďaky vždy a všade tebe,<br>" +
+                            "milosrdný Otče a verný Bože.<br>" +
+                            "Lebo ty si nám daroval Ježiša Krista,<br>" +
+                            "svojho Syna, za Pána a Vykupiteľa.<br>" +
+                            "On sa vždy prejavoval ako milosrdný<br>" +
+                            "voči malým a chudobným, <br>" +
+                            "slabým a hriešnym,<br>" +
+                            "stal sa blížny utláčaným a zarmúteným.<br>" +
+                            "Slovom a príkladom zvestoval svetu,<br>" +
+                            "že si Otec<br>" +
+                            "a staráš sa o všetky svoje deti.<br>" +
+                            "A preto ťa s anjelmi a so všetkými svätými<br>" +
+                            "oslavujeme a chválime,<br>" +
+                            "spievame pieseň na tvoju slávu<br>" +
+                            "a bez prestania voláme:<br>" +
                             "<br>" +
-                    "Svätý, svätý, svätý Pán Boh všetkých svetov.<br>" +
-                    "Plné sú nebesia i zem tvojej slávy.<br>" +
-                    "Hosanna na výsostiach!<br>" +
-                    "Požehnaný, ktorý prichádza v mene Pánovom.<br>" +
-                    "Hosanna na výsostiach!"},
+                            "Svätý, svätý, svätý Pán Boh všetkých svetov.<br>" +
+                            "Plné sú nebesia i zem tvojej slávy.<br>" +
+                            "Hosanna na výsostiach!<br>" +
+                            "Požehnaný, ktorý prichádza v mene Pánovom.<br>" +
+                            "Hosanna na výsostiach!"},
             //EM
             {"", "<font color='#B71C1C'>HI</font> Naozaj si svätý a hoden chvály,<br>" +
                     "Bože, ty miluješ všetkých ľudí<br>" +
@@ -5569,118 +6357,118 @@ public interface Formular {
                     "otvára nám Písma a láme chlieb.",
                     "Zopne ruky, vystrie ich nad obetné dary a hovorí:",
                     "<font color='#B71C1C'>Vš</font> Prosíme ťa teda, najláskavejší Otče,<br>" +
-                    "zošli svojho Svätého Ducha,<br>" +
-                    "nech posvätí tieto dary chleba a vína,",
+                            "zošli svojho Svätého Ducha,<br>" +
+                            "nech posvätí tieto dary chleba a vína,",
                     "Zopne ruky, urobí znak kríža nad chlebom a kalichom a hovorí:",
                     "aby sa nám stali telom a <font color='#B71C1C'>+</font> krvou<br>" +
-                    "nášho Pána, Ježiša Krista.",
+                            "nášho Pána, Ježiša Krista.",
                     "Zopne ruky.<br>" +
-                    "V nasledujúcich formulách treba predniesť Pánove slová jasne a zrozumiteľne, ako to ich povaha vyžaduje.",
+                            "V nasledujúcich formulách treba predniesť Pánove slová jasne a zrozumiteľne, ako to ich povaha vyžaduje.",
                     "On pred svojím umučením <br>" +
-                    "pri Poslednej večeri",
+                            "pri Poslednej večeri",
                     "vezme chlieb<br>" +
-                    "drží ho trochu pozdvihnutý nad oltárom a pokračuje:",
+                            "drží ho trochu pozdvihnutý nad oltárom a pokračuje:",
                     "vzal chlieb, dobrorečil, lámal ho<br>" +
-                    "a dával svojim učeníkom, hovoriac:",
+                            "a dával svojim učeníkom, hovoriac:",
                     "trocha sa skloní",
                     "VEZMITE\n" +
-                    "A JEDZTE Z NEHO VŠETCI:\n" +
-                    "TOTO JE MOJE TELO,\n" +
-                    "KTORÉ SA OBETUJE ZA VÁS.",
+                            "A JEDZTE Z NEHO VŠETCI:\n" +
+                            "TOTO JE MOJE TELO,\n" +
+                            "KTORÉ SA OBETUJE ZA VÁS.",
                     "Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.",
                     "Podobne po večeri",
                     "vezme kalich<br>" +
-                    "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
+                            "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
                     "vzal kalich,<br>" +
-                    "vzdával ti vďaky<br>" +
-                    "a dal ho svojim učeníkom, hovoriac:",
+                            "vzdával ti vďaky<br>" +
+                            "a dal ho svojim učeníkom, hovoriac:",
                     "trocha sa skloní",
                     "VEZMITE\n" +
-                    "A PITE Z NEHO VŠETCI:\n" +
-                    "TOTO JE KALICH MOJEJ KRVI,\n" +
-                    "KTORÁ SA VYLIEVA ZA VÁS\n" +
-                    "I ZA VŠETKÝCH\n" +
-                    "NA ODPUSTENIE HRIECHOV.\n" +
-                    "JE TO KRV\n" +
-                    "NOVEJ A VEČNEJ ZMLUVY.\n" +
-                    "TOTO ROBTE NA MOJU PAMIATKU.",
+                            "A PITE Z NEHO VŠETCI:\n" +
+                            "TOTO JE KALICH MOJEJ KRVI,\n" +
+                            "KTORÁ SA VYLIEVA ZA VÁS\n" +
+                            "I ZA VŠETKÝCH\n" +
+                            "NA ODPUSTENIE HRIECHOV.\n" +
+                            "JE TO KRV\n" +
+                            "NOVEJ A VEČNEJ ZMLUVY.\n" +
+                            "TOTO ROBTE NA MOJU PAMIATKU.",
                     "Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>" +
-                    "Potom povie:",
+                            "Potom povie:",
                     "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.",
                     "Ľud odpovie zvolaním:",
                     "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve.",
                     "BAR", "",
                     "Druhá formula:",
                     "<font color='#B71C1C'>HI</font> Vyznajme tajomstvo viery.<br>" +
-                    "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve.",
+                            "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve.",
                     "Tretia formula:",
                     "<font color='#B71C1C'>HI</font> Veľké je tajomstvo viery.<br>" +
-                    "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.",
+                            "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.",
                     "BAR", "",
                     "Potom kňaz s rozopätými rukami hovorí:",
                     "<font color='#B71C1C'>Vš</font> Preto aj my, svätý Otče,<br>" +
-                    "slávime pamiatku Krista,<br>" +
-                    "tvojho Syna, nášho Spasiteľa,<br>" +
-                    "ktorého si skrze umučenie a smrť na kríži<br>" +
-                    "priviedol k sláve vzkriesenia<br>" +
-                    "a posadil si ho po svojej pravici.<br>" +
-                    "Ohlasujeme dielo tvojej lásky,<br>" +
-                    "kým sám nepríde,<br>" +
-                    "a obetujeme ti chlieb života<br>" +
-                    "a kalich dobrorečenia.<br>" +
-                    "<br>" +
-                    "Láskavo zhliadni na dar svojej Cirkvi;<br>" +
-                    "v ňom prinášame<br>" +
-                    "veľkonočnú Kristovu obetu,<br>" +
-                    "ktorú nám on odovzdal,<br>" +
-                    "a udeľ, aby sme mocou Ducha tvojej lásky<br>" +
-                    "boli pripočítaní teraz i v deň večnosti<br>" +
-                    "k údom tvojho Syna,<br>" +
-                    "ktorého telo a krv prijímame.<br>" +
-                    "<br>" +
-                    "<font color='#B71C1C'>1.k</font> Pane, milostivo zdokonaľuj svoju Cirkev<br>" +
-                    "vo viere a láske<br>" +
-                    "v jednote s naším pápežom <font color='#B71C1C'>M.</font>,<br>" +
-                    "s naším biskupom <font color='#B71C1C'>M.</font>,<br>" +
-                    "so všetkými biskupmi,<br>" +
-                    "presbytermi a diakonmi<br>" +
-                    "a so všetkým tvojím získaným ľudom.<br>" +
-                    "Otvor naše oči,<br>" +
-                    "aby sme poznali potreby bratov a sestier,<br>" +
-                    "vnukni nám slová a skutky,<br>" +
-                    "aby sme posilnili tých,<br>" +
-                    "ktorí sa namáhajú a sú preťažení,<br>" +
-                    "a daj, aby sme im nezištne slúžili<br>" +
-                    "podľa Kristovho príkladu a jeho príkazu.<br>" +
-                    "Nech je tvoja Cirkev živým svedectvom<br>" +
-                    "pravdy a slobody,<br>" +
-                    "pokoja a spravodlivosti,<br>" +
-                    "aby všetci ľudia povstali k novej nádeji.<br>" +
-                    "<br>" +
-                    "<font color='#B71C1C'>2.k</font> Pamätaj na našich bratov a sestry <font color='#B71C1C'>(M.</font> a <font color='#B71C1C'>M.)</font>,<br>" +
-                    "ktorí odpočívajú v Kristovom pokoji,<br>" +
-                    "a na všetkých zosnulých,<br>" +
-                    "ktorých vieru iba ty si poznal:<br>" +
-                    "dovoľ im tešiť sa zo svetla tvojej tváre<br>" +
-                    "a daruj im vo vzkriesení plnosť života.<br>" +
-                    "Aj nám dožič,<br>" +
-                    "aby sme po skončení pozemského putovania<br>" +
-                    "prišli do večného príbytku,<br>" +
-                    "kde budeme navždy žiť s tebou<br>" +
-                    "a v spoločenstve s preblahoslavenou Pannou,<br>" +
-                    "Bohorodičkou Máriou,<br>" +
-                    "s apoštolmi a mučeníkmi<br>" +
-                    "<font color='#B71C1C'>(</font>so svätým <font color='#B71C1C'>M., svätcom dňa alebo patrónom)</font><br>" +
-                    "a so všetkými svätými ťa budeme<br>" +
-                    "chváliť a oslavovať",
+                            "slávime pamiatku Krista,<br>" +
+                            "tvojho Syna, nášho Spasiteľa,<br>" +
+                            "ktorého si skrze umučenie a smrť na kríži<br>" +
+                            "priviedol k sláve vzkriesenia<br>" +
+                            "a posadil si ho po svojej pravici.<br>" +
+                            "Ohlasujeme dielo tvojej lásky,<br>" +
+                            "kým sám nepríde,<br>" +
+                            "a obetujeme ti chlieb života<br>" +
+                            "a kalich dobrorečenia.<br>" +
+                            "<br>" +
+                            "Láskavo zhliadni na dar svojej Cirkvi;<br>" +
+                            "v ňom prinášame<br>" +
+                            "veľkonočnú Kristovu obetu,<br>" +
+                            "ktorú nám on odovzdal,<br>" +
+                            "a udeľ, aby sme mocou Ducha tvojej lásky<br>" +
+                            "boli pripočítaní teraz i v deň večnosti<br>" +
+                            "k údom tvojho Syna,<br>" +
+                            "ktorého telo a krv prijímame.<br>" +
+                            "<br>" +
+                            "<font color='#B71C1C'>1.k</font> Pane, milostivo zdokonaľuj svoju Cirkev<br>" +
+                            "vo viere a láske<br>" +
+                            "v jednote s naším pápežom <font color='#B71C1C'>M.</font>,<br>" +
+                            "s naším biskupom <font color='#B71C1C'>M.</font>,<br>" +
+                            "so všetkými biskupmi,<br>" +
+                            "presbytermi a diakonmi<br>" +
+                            "a so všetkým tvojím získaným ľudom.<br>" +
+                            "Otvor naše oči,<br>" +
+                            "aby sme poznali potreby bratov a sestier,<br>" +
+                            "vnukni nám slová a skutky,<br>" +
+                            "aby sme posilnili tých,<br>" +
+                            "ktorí sa namáhajú a sú preťažení,<br>" +
+                            "a daj, aby sme im nezištne slúžili<br>" +
+                            "podľa Kristovho príkladu a jeho príkazu.<br>" +
+                            "Nech je tvoja Cirkev živým svedectvom<br>" +
+                            "pravdy a slobody,<br>" +
+                            "pokoja a spravodlivosti,<br>" +
+                            "aby všetci ľudia povstali k novej nádeji.<br>" +
+                            "<br>" +
+                            "<font color='#B71C1C'>2.k</font> Pamätaj na našich bratov a sestry <font color='#B71C1C'>(M.</font> a <font color='#B71C1C'>M.)</font>,<br>" +
+                            "ktorí odpočívajú v Kristovom pokoji,<br>" +
+                            "a na všetkých zosnulých,<br>" +
+                            "ktorých vieru iba ty si poznal:<br>" +
+                            "dovoľ im tešiť sa zo svetla tvojej tváre<br>" +
+                            "a daruj im vo vzkriesení plnosť života.<br>" +
+                            "Aj nám dožič,<br>" +
+                            "aby sme po skončení pozemského putovania<br>" +
+                            "prišli do večného príbytku,<br>" +
+                            "kde budeme navždy žiť s tebou<br>" +
+                            "a v spoločenstve s preblahoslavenou Pannou,<br>" +
+                            "Bohorodičkou Máriou,<br>" +
+                            "s apoštolmi a mučeníkmi<br>" +
+                            "<font color='#B71C1C'>(</font>so svätým <font color='#B71C1C'>M., svätcom dňa alebo patrónom)</font><br>" +
+                            "a so všetkými svätými ťa budeme<br>" +
+                            "chváliť a oslavovať",
                     "Zopne ruky:",
                     "skrze Ježiša Krista, tvojho Syna.",
                     "Vezme paténu s hostiou a kalich, pozdvihne ich a hovorí:",
                     "<font color='#B71C1C'>Vš</font> Skrze Krista, s Kristom a v Kristovi<br>" +
-                    "máš ty, Bože Otče všemohúci,<br>" +
-                    "v jednote s Duchom Svätým<br>" +
-                    "všetku úctu a slávu<br>" +
-                    "po všetky veky vekov.",
+                            "máš ty, Bože Otče všemohúci,<br>" +
+                            "v jednote s Duchom Svätým<br>" +
+                            "všetku úctu a slávu<br>" +
+                            "po všetky veky vekov.",
                     "Ľud zvolá:",
                     "Amen.",},
             //modlitby nad ľudom
@@ -5693,12 +6481,10 @@ public interface Formular {
                     "Ľud odpovie: ",
                     "<m>Amen.\n", "",
                     "<br>Bože, ochranca všetkých, čo v teba dúfajú,<br>" +
-                    "požehnaj, spas a ochraňuj svoj ľud,<br>" +
-                    "aby oslobodený od hriechov a chránený pred nepriateľom spásy<br>" +
-                    "neprestajne kráčal v tvojej láske.<br>" +
-                    "Skrze Krista, nášho Pána."},
+                            "požehnaj, spas a ochraňuj svoj ľud,<br>" +
+                            "aby oslobodený od hriechov a chránený pred nepriateľom spásy<br>" +
+                            "neprestajne kráčal v tvojej láske.<br>" +
+                            "Skrze Krista, nášho Pána."},
 
     };
 }
-
-
