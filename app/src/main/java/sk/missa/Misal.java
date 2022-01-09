@@ -5,6 +5,8 @@ import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.SpannableString;
@@ -12,7 +14,6 @@ import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -20,6 +21,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import sk.missa.interfaces.Citania_advent;
@@ -52,8 +54,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         Citania_cezrok, Citania_advent, Citania_post, Citania_velkanoc, Citania_svatci,
         Zalmy_cezrok, Zalmy_advent, Zalmy_post, Zalmy_velkanoc, Zalmy_svatci {
     public static int indexSpev, indexModlitba, indexProsba, indexCS, indexCM, indexPS, indexPM, indexVNS, indexVNM,
-            indexAS, indexAM, indexVS, indexVM, cirkevRok, actualCirkevRok;
-    public static boolean feria, nedela, pohyb;
+            indexAS, indexAM, indexVS, indexVM, cirkevRok, actualCirkevRok, indexCitanie1, indexZalm, indexEvanjelium, indexAleluja;
+    public static boolean feria, nedela, pohyb, kantry;
     public static boolean nast_farbu, spevO, modlitbaO, prosbyO, citanie1O, zalmO, alelujaO, evanjeliumO;
     List<String[]> formArray = new ArrayList<>();
     List<String> eucharistiaArray = new ArrayList<>();
@@ -64,7 +66,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     boolean vlastnaPrefacia = false;
     int double_click;
 
-    static String nadpis, uvodny_spev, uvodny_vypis, uvodny_suradnice, pozdrav, kajucnost, modlitba_dna, modlitba_dna_vypis,
+    static String nadpis, uvodny_spev, uvodny_spev_vypis, uvodny_suradnice, pozdrav, kajucnost, modlitba_dna, modlitba_dna_vypis,
             gloria, liturgia_slova, prve_citanie, prve_citanie_citat, prve_citanie_vypis, prve_citanie_suradnice,
             zalm, zalm_vypis, zalm_suradnice, druhe_citanie, druhe_citanie_citat, druhe_citanie_vypis, druhe_citanie_suradnice,
             sekvencia, aleluja, aleluja_vypis, aleluja_suradnice, evanjelium, evanjelium_citat, evanjelium_vypis,
@@ -72,12 +74,25 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             modlitba_dary, modlitba_dary_vypis, prefacia, prefacia_nadpis, prefacia_vypis,
             prijimanie_spev, prijimanie_vypis, prijimanie_suradnice, modlitba_prijimanie, modlitba_prijimanie_vypis;
     static int slav_pozehnanie, pozicia_listview;
-    ListView listView;
+    RecyclerView recyclerView;
     String[][] aleboCitanie1;
     String[][] aleboCitanie2;
     String[][] aleboEvanjelium;
     String[][] aleboZalm;
+    String[][] aleboAleluja;
     String[][] aleboProsby;
+
+    public static int getFirstVisiblePosition(RecyclerView rv) {
+        if (rv != null) {
+            final RecyclerView.LayoutManager layoutManager = rv
+                    .getLayoutManager();
+            if (layoutManager instanceof LinearLayoutManager) {
+                return ((LinearLayoutManager) layoutManager)
+                        .findFirstVisibleItemPosition();
+            }
+        }
+        return 0;
+    }
 
     //získa obdobie v roku, slávenie (nedeľa, féria), cirkevný rok, či je sviatok pohyblivý alebo či obsahuje sekvenciu
     public void ziskajObdobie() {
@@ -100,24 +115,17 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             default:
                 break;
         }
-        nedela = slavenie.equals("");
-        if (dvt == 0 && ID.equals("009"))
-            nedela = true;
-        feria = slavenie.equals("Féria");
+        nedela = slavenie.equals("") || (dvt == 0 && ID.equals("009"));
+        feria = slavenie.equals("Féria") || ((VN || V) && slavenie.equals("Oktáva"));
         //kántrové dni, prosebné dni, týždeň modlitieb za jednotu kresťanov
-        /*if(slavenie.equals(" ") && !ID.equals("003m")) {
-            kantry = true;
-        }*/
-        if (!feria && (VN || V) && slavenie.equals("Oktáva"))
-            feria = true;
+        kantry = slavenie.equals(" ") && !ID.equals("003m");
         pohyb = ID.contains("p");
         if (A || (V && den > 23))
             cirkevRok = actualCirkevRok = (rok + 1) % 3;
         else
             cirkevRok = actualCirkevRok = rok % 3;
-        if (menoSvatca.equals("Sedembolestnej Panny Márie, patrónky Slovenska") || (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) ||
-                ID.equals("2gkp") || ID.equals("3gkp") || ID.equals("4gkp"))
-            sequence = true;
+        sequence = menoSvatca.equals("Sedembolestnej Panny Márie, patrónky Slovenska") || (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) ||
+                ID.equals("2gkp") || ID.equals("3gkp") || ID.equals("4gkp");
     }
 
     public void ziskajIndex() {
@@ -156,6 +164,12 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             indexSpev = indexFormular(spevFormular, formArray.get(pozicia_formular));
             indexModlitba = indexFormular(modlitbaFormular, formArray.get(pozicia_formular));
             indexProsba = indexFormular(prosbyFormular, formArray.get(pozicia_formular));
+            if (kantry) {
+                indexCitanie1 = indexFormular(citanie1KantroveDni, formArray.get(pozicia_formular));
+                indexZalm = indexFormular(zalmKantroveDni, formArray.get(pozicia_formular));
+                indexEvanjelium = indexFormular(evanjeliumKantroveDni, formArray.get(pozicia_formular));
+                indexAleluja = indexFormular(alelujaKantroveDni, formArray.get(pozicia_formular));
+            }
         }
     }
 
@@ -173,31 +187,31 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         prijimanie_spev = "Spev na prijímanie";
         if (C && (feria || nedela || spevO) && !ID.equals("009")) {
             //cezrok
-            uvodny_vypis = cezrokSpev[indexCS][1];
+            uvodny_spev_vypis = cezrokSpev[indexCS][1];
             uvodny_suradnice = cezrokSpev[indexCS][2];
             prijimanie_vypis = cezrokSpev[indexCS][3];
             prijimanie_suradnice = cezrokSpev[indexCS][4];
         } else if (P && !(slavenie.equals("Sviatok") || slavenie.equals("Slávnosť") || slavenie.equals("Vigília"))) {
             //post
-            uvodny_vypis = postSpev[indexPS][1];
+            uvodny_spev_vypis = postSpev[indexPS][1];
             uvodny_suradnice = postSpev[indexPS][2];
             prijimanie_vypis = postSpev[indexPS][3];
             prijimanie_suradnice = postSpev[indexPS][4];
         } else if (VN && (feria || nedela || spevO)) {
             //velka noc
-            uvodny_vypis = velkanocSpev[indexVNS][1];
+            uvodny_spev_vypis = velkanocSpev[indexVNS][1];
             uvodny_suradnice = velkanocSpev[indexVNS][2];
             prijimanie_vypis = velkanocSpev[indexVNS][3];
             prijimanie_suradnice = velkanocSpev[indexVNS][4];
         } else if (A && (feria || nedela || spevO)) {
             //advent
             if (den >= 17 && !nedela && m != 10) {
-                uvodny_vypis = spev12[indexAS][1];
+                uvodny_spev_vypis = spev12[indexAS][1];
                 uvodny_suradnice = spev12[indexAS][2];
                 prijimanie_vypis = spev12[indexAS][3];
                 prijimanie_suradnice = spev12[indexAS][4];
             } else {
-                uvodny_vypis = adventSpev[indexAS][1];
+                uvodny_spev_vypis = adventSpev[indexAS][1];
                 uvodny_suradnice = adventSpev[indexAS][2];
                 prijimanie_vypis = adventSpev[indexAS][3];
                 prijimanie_suradnice = adventSpev[indexAS][4];
@@ -205,12 +219,12 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         } else if (V && (feria || nedela || spevO)) {
             //vianoce
             if (den > 13) {
-                uvodny_vypis = spev12[indexVS][1];
+                uvodny_spev_vypis = spev12[indexVS][1];
                 uvodny_suradnice = spev12[indexVS][2];
                 prijimanie_vypis = spev12[indexVS][3];
                 prijimanie_suradnice = spev12[indexVS][4];
             } else {
-                uvodny_vypis = vianoceSpev[indexVS][1];
+                uvodny_spev_vypis = vianoceSpev[indexVS][1];
                 uvodny_suradnice = vianoceSpev[indexVS][2];
                 prijimanie_vypis = vianoceSpev[indexVS][3];
                 prijimanie_suradnice = vianoceSpev[indexVS][4];
@@ -226,7 +240,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     index = index + 2;
                 }
             }
-            uvodny_vypis = spevPohyb[index][2];
+            uvodny_spev_vypis = spevPohyb[index][2];
             uvodny_suradnice = spevPohyb[index][3];
             prijimanie_vypis = spevPohyb[index][4];
             prijimanie_suradnice = spevPohyb[index][5];
@@ -314,7 +328,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     private void spevPrint(int i, String vypis, String suradnice) {
         switch (i) {
             case 1:
-                uvodny_vypis = vypis;
+                uvodny_spev_vypis = vypis;
                 uvodny_suradnice = suradnice;
                 break;
             case 3:
@@ -325,14 +339,14 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     }
 
     public void pozdrav() {
-        pozdrav = "<font color='#B71C1C'>Formuly úvodného pozdravu celebranta (otvoriť)</font>";
+        pozdrav = "Formuly úvodného pozdravu celebranta (otvoriť)";
     }
 
     public void kajucnost() {
         if (menoSvatca.equals("POPOLCOVÁ STREDA"))
-            kajucnost = "<font color='#B71C1C'>Úkon kajúcnosti sa vynecháva. Nahrádza ho značenie popolom.</font>";
+            kajucnost = "Úkon kajúcnosti sa vynecháva. Nahrádza ho značenie popolom.";
         else
-            kajucnost = "<font color='#B71C1C'>Úkon kajúcnosti (otvoriť)</font>";
+            kajucnost = "Úkon kajúcnosti (otvoriť)";
     }
 
 
@@ -501,9 +515,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
 
     public void gloria() {
         if ((P && nedela && !slavenie.equals("Slávnosť")) || (A && nedela))
-            gloria = "<font color='#B71C1C'>Oslavná pieseň sa vynechá.</font>";
+            gloria = "Oslavná pieseň sa vynechá.";
         else if (ID.contains("g") || slavenie.equals("Oktáva") || nedela || (V && den > 24))
-            gloria = "<font color='#B71C1C'>Glória (otvoriť)</font>";
+            gloria = "Glória (otvoriť)";
         else gloria = null;
     }
 
@@ -529,7 +543,14 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             else
                 index = indexCislo(citanie1_1, den);
         }
-        if (pohyb) { //pohyblive sviatky
+        if (kantry && indexCitanie1 != -1) {
+            prve_citanie_suradnice = citanie1KantroveDni[indexCitanie1][3];
+            prve_citanie_citat = citanie1KantroveDni[indexCitanie1][4];
+            prve_citanie_vypis = citanie1KantroveDni[indexCitanie1][5];
+            if (citanie1KantroveDni[indexCitanie1].length > 6) {
+                aleboCitanie(citanie1KantroveDni, indexCitanie1, 1);
+            }
+        } else if (pohyb) { //pohyblive sviatky
             index = indexID(citanie1Pohyb);
             if (citanie1Pohyb[index][1].equals("A")) {
                 if (cirkevRok == 2) {
@@ -739,7 +760,12 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             else
                 index = indexCislo(zalm1, den);
         }
-        if (pohyb) {
+        if (kantry && indexZalm != -1) {
+            zalm_suradnice = zalmKantroveDni[indexZalm][3];
+            zalm_vypis = zalmKantroveDni[indexZalm][4];
+            if (zalmKantroveDni[indexZalm].length > 5)
+                aleboCitanie(zalmKantroveDni, indexZalm, 4);
+        } else if (pohyb) {
             index = indexID(zalmPohyb);
             if (zalmPohyb[index][1].equals("A")) {//pohyblive sviatky
                 if (cirkevRok == 2) {
@@ -1018,7 +1044,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void sekvencia() {
         sekvencia = null;
         if (sequence) {
-            sekvencia = "<font color='#B71C1C'>Sekvencia (otvoriť)</font>";
+            sekvencia = "font color='#B71C1C'>Sekvencia (otvoriť)";
         }
     }
 
@@ -1045,7 +1071,12 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             else
                 index = indexCislo(aleluja1, den);
         }
-        if (pohyb) {
+        if (kantry && indexAleluja != -1) {
+            aleluja_suradnice = alelujaKantroveDni[indexAleluja][3];
+            aleluja_vypis = alelujaKantroveDni[indexAleluja][4];
+            if (alelujaKantroveDni[indexAleluja].length > 5)
+                aleboCitanie(alelujaKantroveDni, indexAleluja, 5);
+        } else if (pohyb) {
             index = indexID(alelujaPohyb);
             if (alelujaPohyb[index][1].equals("A")) {//pohyblive sviatky
                 if (cirkevRok == 2) {
@@ -1194,7 +1225,14 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             else
                 index = indexCislo(evanjelium1, den);
         }
-        if (pohyb) {//pohyblive sviatky
+        if (kantry && indexEvanjelium != -1) {
+            evanjelium_suradnice = evanjeliumKantroveDni[indexEvanjelium][3];
+            evanjelium_citat = evanjeliumKantroveDni[indexEvanjelium][4];
+            evanjelium_vypis = evanjeliumKantroveDni[indexEvanjelium][5];
+            if (evanjeliumKantroveDni[indexEvanjelium].length > 6) {
+                aleboCitanie(evanjeliumKantroveDni, indexEvanjelium, 3);
+            }
+        } else if (pohyb) {//pohyblive sviatky
             index = indexID(evanjeliumPohyb);
             if (evanjeliumPohyb[index][1].equals("A")) {
                 if (cirkevRok == 2) {
@@ -1405,15 +1443,15 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void kredo() {
         kredo = null;
         if (ID.equals("26g") && m == 11) //Sv. Štefana
-            kredo = "<font color='#B71C1C'>Pri slávnostných omšiach môže byť aj Krédo (otvoriť)</font>";
+            kredo = "Pri slávnostných omšiach môže byť aj Krédo (otvoriť)";
             //else if (ID.equals("10gkp") && dvt != 0)
         else if (menoSvatca.equals("POPOLCOVÁ STREDA"))
-            kredo = "<font color='#B71C1C'>Požehnanie popola a značenie popolom</font>";
+            kredo = "Požehnanie popola a značenie popolom (otvoriť)";
         else if (ID.contains("k") || nedela
                 || (VN && ID.equals("11")) //Veľkonočný pondelok
                 || (ID.equals("02g") && m == 1 && dvt == 0)) //Obetovanie Pána v nedeľu
         {
-            kredo = "<font color='#B71C1C'>Krédo (otvoriť)</font>";
+            kredo = "Krédo (otvoriť)";
         }
     }
 
@@ -1601,7 +1639,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             prosby_zvolanie = prosbyPrvyPiatok[0][4];
             prosby_vypis = prosbyPrvyPiatok[0][5];
             prosby_zaver = prosbyPrvyPiatok[0][6];
-            aleboCitanie(prosbyPrvyPiatok, 0, 5);
+            aleboCitanie(prosbyPrvyPiatok, 0, 6);
         } else if (index != -1) {//svatci
             if (menoSvatca.equals("Zjavenie Pána")) {
                 if (cirkevRok == 2) {
@@ -1626,7 +1664,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             prosby_vypis = prosbyFormular[indexProsba][5];
             prosby_zaver = prosbyFormular[indexProsba][6];
             if (prosbyFormular[indexProsba].length > 7)
-                aleboCitanie(prosbyFormular, indexProsba, 5);
+                aleboCitanie(prosbyFormular, indexProsba, 6);
         } else {
             prosbyO = true;
             prosby();
@@ -1647,7 +1685,15 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         }
     }
 
-    public void modlitbaEucharistia(ArrayList<Missa> missas) {
+    public void prefaciaOut(ArrayList<MassText> missas) {
+        String[] separateBySpace = prefacia_vypis.split("<br><br>");
+        for (String textPart : separateBySpace) {
+            missas.add(new MassText(textPart, "html|smallPadding"));
+        }
+    }
+
+
+    public void modlitbaEucharistia(ArrayList<MassText> missas) {
         switch (eucharistiaArray.get(pozicia_eucharistia)) {
             case "1. eucharistická modlitba":
                 modlitbaEucharistiaVypis(eucharistia1, missas);
@@ -1671,97 +1717,104 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     }
 
     //vypis eucharistickej modlitby
-    public void modlitbaEucharistiaVypis(String[] eucharistia, ArrayList<Missa> missas) {
-        missas.add(new Missa("Eucharistická modlitba".toUpperCase(), null, null, false));
-        for (int j = 0; j < eucharistia.length; j = j + 2) {
-            if (eucharistia[j + 1].contains("VSUVKA1")) {//vsuvky v EM na výnimočné sviatky
-                if (V && den >= 24) {
-                    //Na Narodenie Pána a cez oktávu
-                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[0][1]+eucharistia[j+3], true));
-                    //Na Zjavenie Pána
-                } else if (V && ID.equals("06gk")) {
-                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[1][1]+eucharistia[j+3], true));
-                } else if (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) {
-                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[2][1]+eucharistia[j+3], true));
-                } else if (ID.equals("6gkp")) {
-                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[3][1]+eucharistia[j+3], true));
-                } else if (ID.equals("2gkp") || ID.equals("3gkp")) {
-                    missas.add(new Missa(null, eucharistia[j], vsuvkaEM[4][1]+eucharistia[j+3], true));
-                } else {
-                    missas.add(new Missa(null, eucharistia[j], eucharistia[j + 1].replace("VSUVKA1", "")+eucharistia[j+3], true));
-                }
-                j+=2;
-            } else if (eucharistia[j + 1].contains("VEZMITE")) {
-                missas.add(new Missa(eucharistia[j], null, true));
-                missas.add(new Missa(null, eucharistia[j + 1], null, false));
-                missas.add(new Missa(true));
-            } else if (eucharistia[j + 1].contains("VSUVKA2")) {//vsuvky na výnimočné sviatky
-                if (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) {
-                    missas.add(new Missa(eucharistia[j], vsuvkaEM[2][2], true));
-                } else {
-                    missas.add(new Missa(eucharistia[j], eucharistia[j + 1].replace("VSUVKA2", ""), true));
-                }
-            } else if (eucharistia[j].contains("Spomienka")) {
-                missas.add(new Missa(null, eucharistia[j], eucharistia[j + 1], true));
-            } else if (eucharistia[j].equals("BAR")) {
-                missas.add(new Missa(5));
+    public void modlitbaEucharistiaVypis(String[] eucharistia, ArrayList<MassText> missas) {
+        missas.add(new MassText("Eucharistická modlitba".toUpperCase(), "red|bold|bigPadding"));
+        for (int j = 0; j < eucharistia.length; j++) {
+            if (j % 2 == 0) {
+                if (eucharistia[j].contains("Spomienka")) {
+                    missas.add(new MassText(eucharistia[j], "red|center"));
+                } else if (eucharistia[j].equals("BAR")) {
+                    missas.add(new MassText("divider"));
+                } else if (eucharistia[j].equals("SPACE")) {
+                    missas.add(new MassText("space"));
+                } else
+                    missas.add(new MassText(eucharistia[j], "html|red|small"));
             } else {
-                missas.add(new Missa(eucharistia[j], eucharistia[j + 1], true));
+                if (eucharistia[j].contains("VSUVKA1")) {//vsuvky v EM na výnimočné sviatky
+                    if (V && den >= 24) {
+                        //Na Narodenie Pána a cez oktávu
+                        missas.add(new MassText(vsuvkaEM[0][1] + eucharistia[j + 2], "html"));
+                        //Na Zjavenie Pána
+                    } else if (V && ID.equals("06gk")) {
+                        missas.add(new MassText(vsuvkaEM[1][1] + eucharistia[j + 2], "html"));
+                    } else if (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) {
+                        missas.add(new MassText(vsuvkaEM[2][1] + eucharistia[j + 2], "html"));
+                    } else if (ID.equals("6gkp")) {
+                        missas.add(new MassText(vsuvkaEM[3][1] + eucharistia[j + 2], "html"));
+                    } else if (ID.equals("2gkp") || ID.equals("3gkp")) {
+                        missas.add(new MassText(vsuvkaEM[4][1] + eucharistia[j + 2], "html"));
+                    } else {
+                        missas.add(new MassText(eucharistia[j].replace("VSUVKA1", "") + eucharistia[j + 2], "html"));
+                    }
+                    j += 2;
+                } else if (eucharistia[j].contains("VEZMITE")) {
+                    missas.add(new MassText(eucharistia[j], "center"));
+                    missas.add(new MassText("bell"));
+                } else if (eucharistia[j].contains("VSUVKA2")) {//vsuvky na výnimočné sviatky
+                    if (VN && (slavenie.equals("Oktáva") || ID.equals("10") || ID.equals("20"))) {
+                        missas.add(new MassText(vsuvkaEM[2][2], "html"));
+                    } else {
+                        missas.add(new MassText(eucharistia[j].replace("VSUVKA2", ""), "html"));
+                    }
+                } else
+                    missas.add(new MassText(eucharistia[j], "html"));
             }
         }
     }
 
     //vypis obradu prijimania
-    public void obradPrijimania(ArrayList<Missa> missas) {
-        missas.add(new Missa("Obrad prijímania".toUpperCase(), modlitba_pana_text[0], "", false));
-        obradPrijimaniaVypis(modlitba_pana_text, missas, true);
-        missas.add(new Missa(null, "\n" + obrad_pokoja_text[0], "", false));
-        obradPrijimaniaVypis(obrad_pokoja_text, missas, false);
-        missas.add(new Missa(null, "\n" + lamanie_chleba_text[0], "", false));
-        obradPrijimaniaVypis(lamanie_chleba_text, missas, false);
+    public void obradPrijimania(ArrayList<MassText> missas) {
+        missas.add(new MassText("Obrad prijímania".toUpperCase(), "red|bold|bigPadding"));
+        obradPrijimaniaVypis(obrad_prijimania, missas);
     }
 
-    public void obradPrijimaniaVypis(String[] obrad, ArrayList<Missa> missas, boolean nahrad) {
-        for (int i = 1; i < obrad.length; i = i + 2) {
-            if (i == 5 && nahrad) {
-                String s = null;
-                //výzvy na modlitbu "Otče náš" podľa obdobia
-                if (A) {
-                    s = "Boh nás tak miloval, že nám poslal svojho jednorodeného Syna za Spasiteľa; preto sa osmeľujeme povedať:";
-                    i = i + 2;
-                } else if (V) {
-                    s = "Boh sa stal človekom, aby sme sa my mohli stať Božími deťmi; preto sa s vďačným srdcom modlime:";
-                    i = i + 2;
-                } else if (P) {
-                    s = "Ak chceme volať Boha naším Otcom, musíme si navzájom odpustiť; buďme ako jedna rodina a spoločne sa modlime:";
-                    i = i + 2;
-                } else if (VN) {
-                    s = "Voláme sa Božími deťmi a nimi aj sme; preto sa modlime s veľkou dôverou:";
-                    i = i + 2;
-                } else
-                    s = obrad[6];
-                missas.add(new Missa(obrad[5], s, false));
-            } else if (obrad[i].equals("BAR")) {
-                missas.add(new Missa(5));
+    public void obradPrijimaniaVypis(String[] obrad, ArrayList<MassText> missas) {
+        for (int i = 0; i < obrad.length; i++) {
+            if (i % 2 == 0) {
+                if (obrad[i].equals("BAR"))
+                    missas.add(new MassText("divider"));
+                else
+                    missas.add(new MassText(obrad[i], "red|small"));
             } else {
-                missas.add(new Missa(obrad[i], obrad[i + 1], false));
+                if (i == 5) {
+                    String s = null;
+                    //výzvy na modlitbu "Otče náš" podľa obdobia
+                    if (A) {
+                        s = "Boh nás tak miloval, že nám poslal svojho jednorodeného Syna za Spasiteľa; preto sa osmeľujeme povedať:";
+                        i = i + 2;
+                    } else if (V) {
+                        s = "Boh sa stal človekom, aby sme sa my mohli stať Božími deťmi; preto sa s vďačným srdcom modlime:";
+                        i = i + 2;
+                    } else if (P) {
+                        s = "Ak chceme volať Boha naším Otcom, musíme si navzájom odpustiť; buďme ako jedna rodina a spoločne sa modlime:";
+                        i = i + 2;
+                    } else if (VN) {
+                        s = "Voláme sa Božími deťmi a nimi aj sme; preto sa modlime s veľkou dôverou:";
+                        i = i + 2;
+                    } else
+                        s = obrad[i];
+                    missas.add(new MassText(s, ""));
+                } else {
+                    missas.add(new MassText(obrad[i], ""));
+                }
             }
         }
     }
 
-    public void pozehnanie(ArrayList<Missa> missas) {
+    public void pozehnanie(ArrayList<MassText> missas) {
         if (m == 1 && den == 3) {
-            missas.add(new Missa("POŽEHNANIE HRDLA", null, null, false));
+            missas.add(new MassText("POŽEHNANIE HRDLA", "red"));
             for (int i = 0; i < pozehnanie_Blazej.length; i = i + 2) {
-                missas.add(new Missa(pozehnanie_Blazej[i], pozehnanie_Blazej[i + 1], true));
+                missas.add(new MassText(pozehnanie_Blazej[i], "html|red|small"));
+                missas.add(new MassText(pozehnanie_Blazej[i + 1], "html"));
             }
         } else if (ID.equals("4gkp")) {
-            missas.add(new Missa("<font color='#B71C1C'>Eucharistická procesia (otvoriť)</font>", true, 6));
+            missas.add(new MassText("<font color='#B71C1C'>Eucharistická procesia (otvoriť)</font>", "html", 6));
         } else {
             if (P)
-                missas.add(new Missa("<font color='#B71C1C'>Modlitba nad ľudom (otvoriť)</font>", true, 7));
+                missas.add(new MassText("<font color='#B71C1C'>Modlitba nad ľudom (otvoriť)</font>", "html", 7));
             else
-                missas.add(new Missa("<font color='#B71C1C'>Modlitby nad ľudom (otvoriť)</font>", true, 7));
+                missas.add(new MassText("<font color='#B71C1C'>Modlitby nad ľudom (otvoriť)</font>", "html", 7));
         }
     }
 
@@ -1799,6 +1852,13 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 }
                 break;
             case 5:
+                aleboAleluja = new String[(citanie[index].length - 2) / 3][2];
+                aleboAleluja[0] = new String[]{aleluja_suradnice, aleluja_vypis};
+                for (; i < citanie[index].length; i = i + 3, a++) {
+                    aleboAleluja[a] = new String[]{citanie[index][i], citanie[index][i + 1]};
+                }
+                break;
+            case 6:
                 aleboProsby = new String[(citanie[index].length) / 6][5];
                 aleboProsby[0] = new String[]{citanie[index][2], prosby_uvod, prosby_zvolanie, prosby_vypis, prosby_zaver};
                 for (; i < citanie[index].length - 1; i = i + 6, a++) {
@@ -1901,7 +1961,13 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     spev();
                     modlitba();
                     prosby();
-                    pozicia_listview = listView.getFirstVisiblePosition();
+                    if(kantry){
+                        prveCitanie();
+                        zalm();
+                        aleluja();
+                        evanjelium();
+                    }
+                    pozicia_listview = getFirstVisiblePosition(recyclerView);
                     vypis();
                 }
             }
@@ -1935,7 +2001,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     ziskajEucharistiu();
                     ziskajPrefaciu();
                     prefacia();
-                    pozicia_listview = listView.getFirstVisiblePosition();
+                    pozicia_listview = getFirstVisiblePosition(recyclerView);
                     vypis();
                 }
             }
@@ -1967,7 +2033,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     prefText = lw.getAdapter().getItem(lw.getCheckedItemPosition()).toString();
                     preface = true;
                     prefacia();
-                    pozicia_listview = listView.getFirstVisiblePosition();
+                    pozicia_listview = getFirstVisiblePosition(recyclerView);
                     vypis();
                 }
             }
@@ -2288,7 +2354,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     break;
             }
         }
-        if (euchText.equals("2. eucharistická modlitba") && !vlastnaPrefacia)
+        if ((euchText.equals("2. eucharistická modlitba") || euchText.equals("")) && !vlastnaPrefacia)
             prefaciaArray.add("Vlastná prefácia - 2. eucharistická modlitba");
     }
 
@@ -2442,9 +2508,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         ListView dialogListview = dialog.findViewById(R.id.vypis_misal);
         TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
         Button dialogButton = dialog.findViewById(R.id.dialog_button);
-        final ArrayList<Missa> dg = new ArrayList<>();
+        final ArrayList<MassText> dg = new ArrayList<>();
 
-        if (rezim) {
+        if (nightMode) {
             dialog.getWindow().setBackgroundDrawableResource(R.color.black);
             dialogTextView.setTextColor(getResources().getColor(R.color.background));
             dialogButton.setTextColor(getResources().getColor(R.color.background));
@@ -2463,32 +2529,77 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             }
         });
 
-        dialogTextView.setText(kvetna_nedela[0]);
-        dg.add(new Missa(null, kvetna_nedela[1], kvetna_nedela[2], null, kvetna_nedela[3], false, 0));
-        dg.add(new Missa(kvetna_nedela[4], kvetna_nedela[5], false));
-        dg.add(new Missa(kvetna_nedela[6], kvetna_nedela[7], true));
-        dg.add(new Missa(kvetna_nedela[8], null, false));
-        dg.add(new Missa(2));
+        /*dialogTextView.setText(kvetna_nedela[0]);
+        dg.add(new MassText(null, kvetna_nedela[1], kvetna_nedela[2], null, kvetna_nedela[3], false, 0));
+        dg.add(new MassText(kvetna_nedela[4], kvetna_nedela[5], false));
+        dg.add(new MassText(kvetna_nedela[6], kvetna_nedela[7], true));
+        dg.add(new MassText(kvetna_nedela[8], null, false));
+        dg.add(new MassText(2));
         if (cirkevRok == 2) { //B
-            dg.add(new Missa(null, "ČÍTANIE", kvetna_nedela[11], null, kvetna_nedela[12], true, 0));
-            dg.add(new Missa(null, kvetna_nedela[13], kvetna_nedela[14], null, kvetna_nedela[15], true, 0));
+            dg.add(new MassText(null, "ČÍTANIE", kvetna_nedela[11], null, kvetna_nedela[12], true, 0));
+            dg.add(new MassText(null, kvetna_nedela[13], kvetna_nedela[14], null, kvetna_nedela[15], true, 0));
         } else if (cirkevRok == 0) { //C
-            dg.add(new Missa(null, "ČÍTANIE", kvetna_nedela[16], null, kvetna_nedela[17], true, 0));
+            dg.add(new MassText(null, "ČÍTANIE", kvetna_nedela[16], null, kvetna_nedela[17], true, 0));
         } else { //A
-            dg.add(new Missa(null, "ČÍTANIE", kvetna_nedela[9], null, kvetna_nedela[10], true, 0));
+            dg.add(new MassText(null, "ČÍTANIE", kvetna_nedela[9], null, kvetna_nedela[10], true, 0));
         }
-        dg.add(new Missa(2));
-        dg.add(new Missa(kvetna_nedela[18], kvetna_nedela[19], false));
-        dg.add(new Missa(kvetna_nedela[20], kvetna_nedela[21], true));
-        dg.add(new Missa(kvetna_nedela[22], kvetna_nedela[23], true));
-        dg.add(new Missa(kvetna_nedela[24], kvetna_nedela[25], false));
-        dg.add(new Missa(kvetna_nedela[26], kvetna_nedela[27], true));
-        dg.add(new Missa(kvetna_nedela[28], kvetna_nedela[29], true));
-        dg.add(new Missa(kvetna_nedela[30], kvetna_nedela[31], true));
-        dg.add(new Missa(2));
+        dg.add(new MassText(2));
+        dg.add(new MassText(kvetna_nedela[18], kvetna_nedela[19], false));
+        dg.add(new MassText(kvetna_nedela[20], kvetna_nedela[21], true));
+        dg.add(new MassText(kvetna_nedela[22], kvetna_nedela[23], true));
+        dg.add(new MassText(kvetna_nedela[24], kvetna_nedela[25], false));
+        dg.add(new MassText(kvetna_nedela[26], kvetna_nedela[27], true));
+        dg.add(new MassText(kvetna_nedela[28], kvetna_nedela[29], true));
+        dg.add(new MassText(kvetna_nedela[30], kvetna_nedela[31], true));
+        dg.add(new MassText(2));
 
-        MissaAdapter ada = new MissaAdapter(this, dg);
-        dialogListview.setAdapter(ada);
+        MassTextAdapter ada = new MassTextAdapter(this, dg);
+        dialogListview.setAdapter(ada);*/
+        dialog.show();
+    }
+
+    private void pozehnanieSviecDialog() {
+        final Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.custom_dialog);
+        RecyclerView dialogRecyclerView = dialog.findViewById(R.id.vypis_misal);
+        TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
+        Button dialogButton = dialog.findViewById(R.id.dialog_button);
+        final ArrayList<MassText> dg = new ArrayList<>();
+
+        if (nightMode) {
+            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
+            dialogTextView.setTextColor(getResources().getColor(R.color.background));
+            dialogButton.setTextColor(getResources().getColor(R.color.background));
+            dialogButton.setBackgroundColor(Color.BLACK);
+        } else {
+            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
+            dialogTextView.setTextColor(getResources().getColor(R.color.primary));
+            dialogButton.setTextColor(getResources().getColor(R.color.primary));
+            dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
+        }
+
+        dialogButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
+
+        dialogTextView.setText("Požehnanie sviec a procesia");
+        for(String[] section : pozehnanie_sviec_procesia){
+            for(int i = 0; i < section.length; i++){
+                if(i == 0)
+                    dg.add(new MassText(section[i], "html|center|bold"));
+                else if (i%2 == 0)
+                    dg.add(new MassText(section[i], "html"));
+                else
+                    dg.add(new MassText(section[i], "html|small"));
+            }
+        }
+
+        MassTextAdapter ada = new MassTextAdapter(dg);
+        dialogRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        dialogRecyclerView.setAdapter(ada);
         dialog.show();
     }
 
@@ -2497,12 +2608,12 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     private void prosbyRozlicnePotreby() {
         final Dialog dialog = new Dialog(this);
         dialog.setContentView(R.layout.custom_dialog);
-        ListView dialogListview = dialog.findViewById(R.id.vypis_misal);
+        RecyclerView dialogListview = dialog.findViewById(R.id.vypis_misal);
         TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
         Button dialogButton = dialog.findViewById(R.id.dialog_button);
-        final ArrayList<Missa> dg = new ArrayList<>();
+        final ArrayList<MassText> dg = new ArrayList<>();
 
-        if (rezim) {
+        if (nightMode) {
             dialog.getWindow().setBackgroundDrawableResource(R.color.black);
             dialogTextView.setTextColor(getResources().getColor(R.color.background));
             dialogButton.setTextColor(getResources().getColor(R.color.background));
@@ -2522,19 +2633,22 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         });
 
         dialogTextView.setText("Prosby za zosnulých a rozličné potreby");
-        dg.add(new Missa("<font color='#B71C1C'>"+prosby_rozlicne[0][0]+"</font>", true, 1));
-        dg.add(new Missa("<font color='#B71C1C'>"+prosby_rozlicne[1][0]+"</font>", true, 2));
-        dg.add(new Missa("<font color='#B71C1C'>"+prosby_rozlicne[2][0]+"</font>", true, 3));
-        dg.add(new Missa("<font color='#B71C1C'>"+prosby_rozlicne[3][0]+"</font>", true, 4));
-        dg.add(new Missa("<font color='#B71C1C'>"+prosby_rozlicne[4][0]+"</font>", true, 5));
+        dg.add(new MassText(prosby_rozlicne[0][0], "red", 1));
+        dg.add(new MassText(prosby_rozlicne[1][0], "red", 2));
+        dg.add(new MassText(prosby_rozlicne[2][0], "red", 3));
+        dg.add(new MassText(prosby_rozlicne[3][0], "red", 4));
+        dg.add(new MassText(prosby_rozlicne[4][0], "red", 5));
 
-        MissaAdapter ada = new MissaAdapter(this, dg);
+        MassTextAdapter ada = new MassTextAdapter(dg);
+        dialogListview.setLayoutManager(new LinearLayoutManager(this));
         dialogListview.setAdapter(ada);
-        dialogListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        ada.setOnItemClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                Missa missa = dg.get(position);
-                switch (missa.getOtvor()) {
+            public void onClick(View view) {
+                RecyclerView.ViewHolder viewHolder = (RecyclerView.ViewHolder) view.getTag();
+                int position = viewHolder.getAdapterPosition();
+                MassText mText = dg.get(position);
+                switch (mText.getOnClickOpen()) {
                     case 1:
                         otvorenie(12);
                         break;
@@ -2562,12 +2676,12 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     private void prosbyTriOblasti() {
         final Dialog dialog = new Dialog(this);
         dialog.setContentView(R.layout.custom_dialog);
-        ListView dialogListview = dialog.findViewById(R.id.vypis_misal);
+        RecyclerView dialogListview = dialog.findViewById(R.id.vypis_misal);
         TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
         Button dialogButton = dialog.findViewById(R.id.dialog_button);
-        final ArrayList<Missa> dg = new ArrayList<>();
+        final ArrayList<MassText> dg = new ArrayList<>();
 
-        if (rezim) {
+        if (nightMode) {
             dialog.getWindow().setBackgroundDrawableResource(R.color.black);
             dialogTextView.setTextColor(getResources().getColor(R.color.background));
             dialogButton.setTextColor(getResources().getColor(R.color.background));
@@ -2587,17 +2701,20 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         });
 
         dialogTextView.setText("Prosby pred návštevou pápeža");
-        dg.add(new Missa("<font color='#B71C1C'>"+tri_oblasti_modlitby_a_pripravy[0][0]+"</font>", true, 1));
-        dg.add(new Missa("<font color='#B71C1C'>"+tri_oblasti_modlitby_a_pripravy[1][0]+"</font>", true, 2));
-        dg.add(new Missa("<font color='#B71C1C'>"+tri_oblasti_modlitby_a_pripravy[2][0]+"</font>", true, 3));
+        dg.add(new MassText(tri_oblasti_modlitby_a_pripravy[0][0], "red", 1));
+        dg.add(new MassText(tri_oblasti_modlitby_a_pripravy[1][0], "red", 2));
+        dg.add(new MassText(tri_oblasti_modlitby_a_pripravy[2][0], "red", 3));
 
-        MissaAdapter ada = new MissaAdapter(this, dg);
+        MassTextAdapter ada = new MassTextAdapter(dg);
+        dialogListview.setLayoutManager(new LinearLayoutManager(this));
         dialogListview.setAdapter(ada);
-        dialogListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        ada.setOnItemClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                Missa missa = dg.get(position);
-                switch (missa.getOtvor()) {
+            public void onClick(View view) {
+                RecyclerView.ViewHolder viewHolder = (RecyclerView.ViewHolder) view.getTag();
+                int position = viewHolder.getAdapterPosition();
+                MassText mText = dg.get(position);
+                switch (mText.getOnClickOpen()) {
                     case 1:
                         otvorenie(17);
                         break;
@@ -2663,10 +2780,10 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Sekvencia</b></font>")));
         } else if (dialog == 4) {//kredo
             if (menoSvatca.equals("POPOLCOVÁ STREDA")) {
-                builder.setMessage(Html.fromHtml(nahrad(popol)));
+                builder.setMessage("");
                 builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Požehnanie popola a značenie popolom</b></font>")));
             } else {
-                builder.setMessage(kredo_vypis);
+                builder.setMessage("");
                 builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Krédo</b></font>")));
             }
         } else if (dialog == 5) {//eucharistická procesia
@@ -2728,7 +2845,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         alert.show();
         TextView text = alert.findViewById(android.R.id.message);
         text.setTextSize(sizeO);
-        if (rezim) {
+        if (nightMode) {
             alert.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(getResources().getColor(R.color.background));
             alert.getWindow().setBackgroundDrawableResource(R.color.black);
             text.setTextColor(getResources().getColor(R.color.background));
@@ -2739,7 +2856,12 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         }
         if (pismo)
             text.setTypeface(typeBold);
-        if (dialog == 5)
+        if (dialog == 4)
+            if (menoSvatca.equals("POPOLCOVÁ STREDA"))
+                otvorExtra(text, popol);
+            else
+                otvorExtra(text, kredo_vypis);
+        else if (dialog == 5)
             otvorExtra(text, procesia);
         else if (dialog == 6)
             if (P) {
@@ -2829,142 +2951,156 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
 
     //výpis celej omše
     public void vypis() {
-        if (rezim)
+        if (nightMode)
             drawer.setBackgroundColor(Color.BLACK);
         else
             drawer.setBackgroundColor(getResources().getColor(R.color.background));
-        final ArrayList<Missa> missas = new ArrayList<>();
-        missas.add(new Missa(true));
+        final ArrayList<MassText> missas = new ArrayList<>();
+        if(m == 1 && ID.equals("02g"))
+            missas.add(new MassText("Požehnanie sviec a procesia (otvoriť)", "red|bigPadding", 24));
+        missas.add(new MassText("bell"));
         if (ID.equals("60") && P) {
-            missas.add(new Missa("<font color='#B71C1C'>" + kvetna_nedela[0] + " (otvoriť)</font>", true, 17));
-            missas.add(new Missa(1));
+            missas.add(new MassText(kvetna_nedela[0] + " (otvoriť)", "red", 17));
         }
-        missas.add(new Missa(null, uvodny_spev.toUpperCase(), uvodny_suradnice, null, uvodny_vypis, true, 0));
-        missas.add(new Missa(1)); //medzera mala
-        missas.add(new Missa(pozdrav, true, 1));
-        missas.add(new Missa(1)); //medzera mala
-        missas.add(new Missa(kajucnost, true, 2));
+        missas.add(new MassText(Arrays.asList(uvodny_spev.toUpperCase(), uvodny_suradnice), "red|smallPadding"));
+        missas.add(new MassText(uvodny_spev_vypis, "html|justify"));
+        missas.add(new MassText(pozdrav, "red|smallPadding", 1));
+        missas.add(new MassText(kajucnost, "red|smallPadding", 2));
         if (ticheModlitby) {
-            missas.add(new Missa(1)); //medzera mala
-            missas.add(new Missa(tiche_modlitby[0][0], tiche_modlitby[0][1], tiche_modlitby[0][2]));
-            missas.add(new Missa(null, tiche_modlitby[0][3], tiche_modlitby[0][4]));
+            missas.add(new MassText(tiche_modlitby[0][0], "red|italic"));
+            missas.add(new MassText(tiche_modlitby[0][1], "red|small|italic"));
+            missas.add(new MassText(tiche_modlitby[0][2], "italic"));
+            missas.add(new MassText(tiche_modlitby[0][3], "red|small|italic"));
+            missas.add(new MassText(tiche_modlitby[0][4], "italic"));
         }
         if (gloria != null) {
-            missas.add(new Missa(1)); //medzera mala
-            missas.add(new Missa(gloria, true, 3));//vynimka v poste
+            missas.add(new MassText(gloria, "red|smallPadding", 3));//vynimka v poste
         }
-        missas.add(new Missa(2)); //medzera velka
-        missas.add(new Missa(modlitba_dna.toUpperCase(), null, null, null, modlitba_dna_vypis, true, 0));
-        missas.add(new Missa(2)); //medzera velka
-        missas.add(new Missa(liturgia_slova.toUpperCase(), null, null, null, null, true, 0));
+        missas.add(new MassText(modlitba_dna.toUpperCase(), "red|bold|bigPadding"));
+        missas.add(new MassText(modlitba_dna_vypis, "html"));
+        missas.add(new MassText(liturgia_slova.toUpperCase(), "red|bold|bigPadding"));
         if (P && (ID.equals("30") || ID.equals("40") || ID.equals("50")) && (actualCirkevRok == 2 || actualCirkevRok == 0)) { //3., 4., 5. pôstna nedeľa môžu mať cítania z roku B
             if (cirkevRok == 2 || cirkevRok == 0)
-                missas.add(new Missa("<font color='#B71C1C'>Čítania z roku A</font>", true, 20));
+                missas.add(new MassText("Čítania z roku A", "red", 20));
             else
-                missas.add(new Missa("<font color='#B71C1C'>Čítania z akuálneho roku</font>", true, 20));
+                missas.add(new MassText("Čítania z akuálneho roku", "red", 20));
         }
+        missas.add(new MassText(Arrays.asList(prve_citanie.toUpperCase(), prve_citanie_suradnice), "red|smallPadding"));
         if (aleboCitanie1 != null)
             vypisAlebo(missas, aleboCitanie1, 11);
-        missas.add(new Missa(null, prve_citanie.toUpperCase(), prve_citanie_suradnice, prve_citanie_citat, prve_citanie_vypis, true, -2));
-        missas.add(new Missa(1)); //medzera mala
+        missas.add(new MassText(prve_citanie_citat, "center|italic"));
+        missas.add(new MassText(prve_citanie_vypis, "html|justify"));
+        missas.add(new MassText(Arrays.asList(zalm.toUpperCase(), zalm_suradnice), "red|smallPadding"));
         if (aleboZalm != null && !ID.equals("10gkp") && !ID.equals("11gkp") && !nadpis.equals("Omša v čase pandémie") && !(P && ID.equals("30")))
             vypisAlebo(missas, aleboZalm, 14);
-        missas.add(new Missa(null, zalm.toUpperCase(), zalm_suradnice, null, zalm_vypis, true, 0));
-        missas.add(new Missa(1)); //medzera mala
+        missas.add(new MassText(zalm_vypis, "html"));
         if (druhe_citanie != null) {
+            missas.add(new MassText(Arrays.asList(druhe_citanie.toUpperCase(), druhe_citanie_suradnice), "red|smallPadding"));
             if (aleboCitanie2 != null && !(P && ID.equals("30")))
                 vypisAlebo(missas, aleboCitanie2, 12);
-            missas.add(new Missa(null, druhe_citanie.toUpperCase(), druhe_citanie_suradnice, druhe_citanie_citat, druhe_citanie_vypis, true, -2));
-            missas.add(new Missa(1)); ////medzera mala
+            missas.add(new MassText(druhe_citanie_citat, "italic|center"));
+            missas.add(new MassText(druhe_citanie_vypis, "html|justify"));
         }
         if (sekvencia != null) {
-            missas.add(new Missa(sekvencia, true, 4));//vynimka
-            missas.add(new Missa(1)); //medzera mala
+            missas.add(new MassText(sekvencia, "red|smallPadding", 4));//vynimka
         }
-        missas.add(new Missa(null, aleluja.toUpperCase(), aleluja_suradnice, null, aleluja_vypis, true, 0));
-        missas.add(new Missa(1)); //medzera mala
-        if (aleboEvanjelium != null)
-            vypisAlebo(missas, aleboEvanjelium, 13);
+        missas.add(new MassText(Arrays.asList(aleluja.toUpperCase(), aleluja_suradnice), "red|smallPadding"));
+        if (aleboAleluja != null)
+            vypisAlebo(missas, aleboAleluja, 23);
+        missas.add(new MassText(aleluja_vypis, "html"));
         if (evanjelium_vypis.equals("pasie")) {
             vypisAleboPasie(missas);
         } else if (ticheModlitby) {
-            missas.add(new Missa(tiche_modlitby[1][0], null, tiche_modlitby[1][1]));
-            missas.add(new Missa(1)); //medzera mala
-            missas.add(new Missa(null, evanjelium.toUpperCase(), evanjelium_suradnice, evanjelium_citat, evanjelium_vypis, true, -2));
-            missas.add(new Missa(1)); //medzera mala
-            missas.add(new Missa(tiche_modlitby[2][0], null, tiche_modlitby[2][1]));
-        } else
-            missas.add(new Missa(null, evanjelium.toUpperCase(), evanjelium_suradnice, evanjelium_citat, evanjelium_vypis, true, -2));
+            missas.add(new MassText(tiche_modlitby[1][0], "red|italic"));
+            missas.add(new MassText(tiche_modlitby[1][1], "italic"));
+            missas.add(new MassText(Arrays.asList(evanjelium.toUpperCase(), evanjelium_suradnice), "red|smallPadding"));
+            if (aleboEvanjelium != null)
+                vypisAlebo(missas, aleboEvanjelium, 13);
+            missas.add(new MassText(evanjelium_citat, "italic|center"));
+            missas.add(new MassText(evanjelium_vypis, "html|justify"));
+            missas.add(new MassText(tiche_modlitby[2][0], "red|italic"));
+            missas.add(new MassText(tiche_modlitby[2][1], "italic"));
+        } else {
+            missas.add(new MassText(Arrays.asList(evanjelium.toUpperCase(), evanjelium_suradnice), "red|smallPadding"));
+            missas.add(new MassText(evanjelium_citat, "italic"));
+            missas.add(new MassText(evanjelium_vypis, "html"));
+        }
         if ((ID.equals("06gk") || ID.equals("05gk")) && m == 0) { //zjavenie Pana
-            missas.add(new Missa(1)); //medzera mala
-            missas.add(new Missa("<font color='#B71C1C'>Oznámenie dňa Veľkej noci (otvoriť)</font>", true, 19));
+            missas.add(new MassText("Oznámenie dňa Veľkej noci (otvoriť)", "red|smallPadding", 19));
         }
         if (kredo != null) {
-            missas.add(new Missa(1)); //medzera mala
-            missas.add(new Missa(kredo, true, 5));//vynimka
-
+            if ((m == 11 && menoSvatca.contains("Narodenie Pána")) || ID.equals("1gkp"))
+                missas.add(new MassText("<font color='#B71C1C'>V</font> Kréde <font color='#B71C1C'>sa pri slovách</font> „a mocou Ducha Svätého... a stal sa človekom“ <font color='#B71C1C'>(alebo:</font> „ktorý sa počal... a narodil sa z Márie Panny“ <font color='#B71C1C'>) pokľakne na jedno koleno, keď sa Vyznanie viery recituje; na dve kolená, keď sa spieva.</font>",
+                        "html|small"));
+            missas.add(new MassText(kredo, "red|smallPadding", 5));//vynimka
         }
-        missas.add(new Missa(2)); //medzera velka
+        missas.add(new MassText(prosby.toUpperCase(), "red|bold|bigPadding"));
         if (aleboProsby != null)
             vypisAlebo(missas, aleboProsby, 15);
-        missas.add(new Missa(prosby.toUpperCase(), prosby_uvod, prosby_zvolanie, "<br>" + prosby_vypis, true));
+        missas.add(new MassText(prosby_uvod, "html"));
+        missas.add(new MassText(prosby_zvolanie, "html|italic"));
+        missas.add(new MassText(prosby_vypis, "html|smallPadding"));
         //missas.add(new Missa("<font color='#B71C1C'>Prosby pred návštevou pápeža (otvoriť)</font>", true,  22));
-        missas.add(new Missa("<font color='#B71C1C'>Prosby za zosnulých a rozličné potreby (otvoriť)</font>", true, 21));
-        missas.add(new Missa(null, null, null, prosby_zaver, true));
+        missas.add(new MassText("Prosby za zosnulých a rozličné potreby (otvoriť)", "red|smallPadding", 21));
+        missas.add(new MassText(prosby_zaver, "html"));
         if (ticheModlitby) {
-            missas.add(new Missa(1)); //medzera mala
-            missas.add(new Missa(tiche_modlitby[3][0], tiche_modlitby[3][1], tiche_modlitby[3][2]));
+            missas.add(new MassText(tiche_modlitby[3][0], "red|italic"));
+            missas.add(new MassText(tiche_modlitby[3][1], "red|small|italic"));
+            missas.add(new MassText(tiche_modlitby[3][2], "italic"));
             for (int i = 3; i < tiche_modlitby[3].length; i = i + 2) {
-                missas.add(new Missa(null, tiche_modlitby[3][i], tiche_modlitby[3][i + 1]));
+                missas.add(new MassText(tiche_modlitby[3][i], "red|small|italic"));
+                missas.add(new MassText(tiche_modlitby[3][i + 1], "italic"));
             }
         }
-        missas.add(new Missa(1)); //medzera mala
-        missas.add(new Missa(modlitba_dary.toUpperCase(), null, null, null, modlitba_dary_vypis, true, 0));
-        missas.add(new Missa(2)); //medzera velka
-        missas.add(new Missa(prefacia.toUpperCase(), prefacia_nadpis, prefacia_vypis, true));
-        missas.add(new Missa(2)); //medzera velka
+        missas.add(new MassText(modlitba_dary.toUpperCase(), "red|bold|bigPadding"));
+        missas.add(new MassText(modlitba_dary_vypis, "html"));
+        missas.add(new MassText(prefacia.toUpperCase(), "red|bold|bigPadding"));
+        missas.add(new MassText(prefacia_nadpis, "red|center"));
+        prefaciaOut(missas);
         modlitbaEucharistia(missas);
-        missas.add(new Missa(2)); //medzera velka
         obradPrijimania(missas);
-        missas.add(new Missa(1)); //medzera mala
-        missas.add(new Missa(null, prijimanie_spev.toUpperCase(), prijimanie_suradnice, null, prijimanie_vypis, true, 0));
         if (ticheModlitby) {
-            missas.add(new Missa(1)); //medzera mala
-            missas.add(new Missa(null, tiche_modlitby[4][1], tiche_modlitby[4][2]));
+            missas.add(new MassText(tiche_modlitby[4][1], "red|small|italic"));
+            missas.add(new MassText(tiche_modlitby[4][2], "italic"));
+            missas.add(new MassText(tiche_modlitby[4][3], "red|small|italic"));
+            missas.add(new MassText(tiche_modlitby[4][4], "italic"));
+            missas.add(new MassText(tiche_modlitby[4][5], "red|small|italic"));
+        }
+        missas.add(new MassText(Arrays.asList(prijimanie_spev.toUpperCase(), prijimanie_suradnice), "red|smallPadding"));
+        missas.add(new MassText(prijimanie_vypis, "html"));
+        if (ticheModlitby) {
+            missas.add(new MassText(tiche_modlitby[5][1], "red|small|italic"));
+            missas.add(new MassText(tiche_modlitby[5][2], "italic"));
         }
         if (menoSvatca.equals("Slávnosť Panny Márie Bohorodičky")) {//vyskakovacie po prijímaní (31.12.,1.1.)
             if (ID.equals("31gk")) {
-                missas.add(new Missa(1)); //medzera mala
-                missas.add(new Missa("<font color='#B71C1C'>Teba, Bože, chválime (otvoriť)</font>", true, 9));
+                missas.add(new MassText("Teba, Bože, chválime (otvoriť)", "red|smallPadding", 9));
             } else if (ID.equals("01gk")) {
-                missas.add(new Missa(1)); //medzera mala
-                missas.add(new Missa("<font color='#B71C1C'>Príď, Duchu Svätý, tvorivý (otvoriť)</font>", true, 10));
+                missas.add(new MassText("Príď, Duchu Svätý, tvorivý (otvoriť)", "red|smallPadding", 10));
             }
         }
-        missas.add(new Missa(1)); //medzera mala
-        missas.add(new Missa(modlitba_prijimanie.toUpperCase(), null, null, null, modlitba_prijimanie_vypis, true, 0));
+        missas.add(new MassText(modlitba_prijimanie.toUpperCase(), "red|bold|bigPadding"));
+        missas.add(new MassText(modlitba_prijimanie_vypis, "html"));
         if (ID.equals("8gkp")) { //nedela Krista Krala - modlitba zasvatenia
-            missas.add(new Missa(1)); //medzera mala
-            missas.add(new Missa("<font color='#B71C1C'>Zasvätenie ľudského pokolenia Božskému Srdcu (otvoriť)</font>", true, 18));
+            missas.add(new MassText("Zasvätenie ľudského pokolenia Božskému Srdcu (otvoriť)", "red|smallPadding", 18));
         }
-        if(!P || !slavenie.equals("Slávnosť")) {
-            missas.add(new Missa(1)); //medzera mala
+        if (!P || !slavenie.equals("Slávnosť")) {
             pozehnanie(missas); //otvor = 6, 7
         }
         if (slav_pozehnanie != -1) {
-            missas.add(new Missa(1)); //medzera mala
-            missas.add(new Missa("<font color='#B71C1C'>Slávnostné požehnanie (otvoriť)</font>", true, 8));
+            missas.add(new MassText("Slávnostné požehnanie (otvoriť)", "red|smallPadding", 8));
         }
         rozpustenieLudu(missas);
-        MissaAdapter adapter = new MissaAdapter(this, missas);
-        listView = findViewById(R.id.vypis_misal);
-        listView.setAdapter(adapter);
-        listView.setSelection(pozicia_listview);
+        MassTextAdapter adapter = new MassTextAdapter(missas);
+        recyclerView = findViewById(R.id.vypis_misal);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setAdapter(adapter);
+        recyclerView.getLayoutManager().scrollToPosition(pozicia_listview);
         final long[] firstClick = new long[1];
         final long[] secondClick = new long[1];
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        adapter.setOnItemClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+            public void onClick(View view) {
                 double_click++;
                 if (double_click == 2) {
                     secondClick[0] = System.currentTimeMillis();
@@ -2982,8 +3118,11 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 } else {
                     firstClick[0] = System.currentTimeMillis();
                 }
-                Missa missa = missas.get(position);
-                switch (missa.getOtvor()) {
+
+                RecyclerView.ViewHolder viewHolder = (RecyclerView.ViewHolder) view.getTag();
+                int position = viewHolder.getAdapterPosition();
+                MassText mText = missas.get(position);
+                switch (mText.getOnClickOpen()) {
                     //-2 sa pouziva na zarovnanie do bloku
                     //-1 sa pouziva na vypisanie nadpisu v MissaAdapter
                     case 1:
@@ -3029,49 +3168,37 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     //aleboCitania
                     //prve citanie
                     case 11:
-                        changeAleboCitanie(aleboCitanie1, missa.getIndexAlebo());
+                        changeAleboCitanie(aleboCitanie1, mText.getOptionalTextIndex());
                         prve_citanie_suradnice = aleboCitanie1[0][0];
                         prve_citanie_citat = aleboCitanie1[0][1];
                         prve_citanie_vypis = aleboCitanie1[0][2];
-                        if (nadpis.equals("Omša v čase pandémie") || ID.equals("11gkp")) {
-                            changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
+                        if (nadpis.equals("Omša v čase pandémie") || ID.equals("11gkp") || ID.equals("008") || ID.equals("005")) {
+                            changeAleboCitanie(aleboZalm, mText.getOptionalTextIndex());
                             zalm_suradnice = aleboZalm[0][0];
                             zalm_vypis = aleboZalm[0][1];
                         } else if (ID.equals("10gkp")) {
-                            changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
+                            changeAleboCitanie(aleboZalm, mText.getOptionalTextIndex());
                             zalm_suradnice = aleboZalm[0][0];
                             zalm_vypis = aleboZalm[0][1];
-                            changeAleboCitanie(aleboCitanie2, missa.getIndexAlebo());
+                            changeAleboCitanie(aleboCitanie2, mText.getOptionalTextIndex());
                             druhe_citanie_suradnice = aleboCitanie2[0][0];
                             druhe_citanie_citat = aleboCitanie2[0][1];
                             druhe_citanie_vypis = aleboCitanie2[0][2];
-                        } /*else if (P && ID.equals("30")) {
-                            changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
-                            zalm_suradnice = aleboZalm[0][0];
-                            zalm_vypis = aleboZalm[0][1];
-                            changeAleboCitanie(aleboCitanie2, missa.getIndexAlebo());
-                            druhe_citanie_suradnice = aleboCitanie2[0][0];
-                            druhe_citanie_citat = aleboCitanie2[0][1];
-                            druhe_citanie_vypis = aleboCitanie2[0][2];
-                            changeAleboCitanie(aleboEvanjelium, missa.getIndexAlebo());
-                            evanjelium_suradnice = aleboEvanjelium[0][0];
-                            evanjelium_citat = aleboEvanjelium[0][1];
-                            evanjelium_vypis = aleboEvanjelium[0][2];
-                        }*/
+                        }
                         pozicia_listview = position;
                         vypis();
                         break;
                     //druhe citanie
                     case 12:
-                        changeAleboCitanie(aleboCitanie2, missa.getIndexAlebo());
+                        changeAleboCitanie(aleboCitanie2, mText.getOptionalTextIndex());
                         druhe_citanie_suradnice = aleboCitanie2[0][0];
                         druhe_citanie_citat = aleboCitanie2[0][1];
                         druhe_citanie_vypis = aleboCitanie2[0][2];
                         if (ID.equals("10gkp")) {
-                            changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
+                            changeAleboCitanie(aleboZalm, mText.getOptionalTextIndex());
                             zalm_suradnice = aleboZalm[0][0];
                             zalm_vypis = aleboZalm[0][1];
-                            changeAleboCitanie(aleboCitanie1, missa.getIndexAlebo());
+                            changeAleboCitanie(aleboCitanie1, mText.getOptionalTextIndex());
                             prve_citanie_suradnice = aleboCitanie1[0][0];
                             prve_citanie_citat = aleboCitanie1[0][1];
                             prve_citanie_vypis = aleboCitanie1[0][2];
@@ -3081,16 +3208,21 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         break;
                     //evanjelium
                     case 13:
-                        changeAleboCitanie(aleboEvanjelium, missa.getIndexAlebo());
+                        changeAleboCitanie(aleboEvanjelium, mText.getOptionalTextIndex());
                         evanjelium_suradnice = aleboEvanjelium[0][0];
                         evanjelium_citat = aleboEvanjelium[0][1];
                         evanjelium_vypis = aleboEvanjelium[0][2];
+                        if (ID.equals("008")) {
+                            changeAleboCitanie(aleboAleluja, mText.getOptionalTextIndex());
+                            aleluja_suradnice = aleboAleluja[0][0];
+                            aleluja_vypis = aleboAleluja[0][1];
+                        }
                         pozicia_listview = position;
                         vypis();
                         break;
                     //zalm
                     case 14:
-                        changeAleboCitanie(aleboZalm, missa.getIndexAlebo());
+                        changeAleboCitanie(aleboZalm, mText.getOptionalTextIndex());
                         zalm_suradnice = aleboZalm[0][0];
                         zalm_vypis = aleboZalm[0][1];
                         /*if (ID.equals("10gkp") || ID.equals("11gkp")) {
@@ -3104,7 +3236,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         break;
                     //prosby
                     case 15:
-                        changeAleboCitanie(aleboProsby, missa.getIndexAlebo());
+                        changeAleboCitanie(aleboProsby, mText.getOptionalTextIndex());
                         prosby_nadpis = aleboProsby[0][0];
                         prosby_uvod = aleboProsby[0][1];
                         prosby_zvolanie = aleboProsby[0][2];
@@ -3150,6 +3282,22 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     case 22:
                         prosbyTriOblasti();
                         break;
+                    case 23:
+                        changeAleboCitanie(aleboAleluja, mText.getOptionalTextIndex());
+                        aleluja_suradnice = aleboAleluja[0][0];
+                        aleluja_vypis = aleboAleluja[0][1];
+                        if (ID.equals("008") || ID.equals("005")) {
+                            changeAleboCitanie(aleboEvanjelium, mText.getOptionalTextIndex());
+                            evanjelium_suradnice = aleboEvanjelium[0][0];
+                            evanjelium_citat = aleboEvanjelium[0][1];
+                            evanjelium_vypis = aleboEvanjelium[0][2];
+                        }
+                        pozicia_listview = position;
+                        vypis();
+                        break;
+                    case 24:
+                        pozehnanieSviecDialog();
+                        break;
                     default:
                         break;
                 }
@@ -3157,9 +3305,10 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         });
     }
 
-    private void rozpustenieLudu(ArrayList<Missa> missas) {
+    private void rozpustenieLudu(ArrayList<MassText> missas) {
         for (int i = 0; i < rozpustenie_ludu.length; i = i + 2) {
-            missas.add(new Missa(rozpustenie_ludu[i], rozpustenie_ludu[i + 1], false));
+            missas.add(new MassText(rozpustenie_ludu[i], "red|small"));
+            missas.add(new MassText(rozpustenie_ludu[i + 1], ""));
         }
     }
 
@@ -3169,22 +3318,25 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         pasie2_suradnice = a;
     }
 
-    public void vypisAleboPasie(ArrayList<Missa> missas) {
-        missas.add(new Missa("<font color='#B71C1C'>Alebo: " + postEvanjelium[pasie][pasie2_suradnice] + "</font>", true, 16, 0));
-        missas.add(new Missa(null, evanjelium.toUpperCase(), postEvanjelium[pasie][pasie1_suradnice], null, postEvanjelium[pasie][3], true, -2));
+    public void vypisAleboPasie(ArrayList<MassText> missas) {
+        missas.add(new MassText("Alebo: " + postEvanjelium[pasie][pasie2_suradnice], "red|smallPadding", 16, 0));
+        missas.add(new MassText(Arrays.asList(evanjelium.toUpperCase(), postEvanjelium[pasie][pasie1_suradnice]), "red|smallPadding"));
+        missas.add(new MassText(postEvanjelium[pasie][3], "html|justify"));
         if (pasie1_suradnice < pasie2_suradnice)
             for (int i = 4; i < pasie2_suradnice - 1; i = i + 2) {
-                missas.add(new Missa(null, null, null, postEvanjelium[pasie][i], postEvanjelium[pasie][i + 1], true, -2));
+                missas.add(new MassText(postEvanjelium[pasie][i], "italic"));
+                missas.add(new MassText(postEvanjelium[pasie][i + 1], "html|justify"));
             }
         else
             for (int i = pasie1_suradnice + 1; i < postEvanjelium[pasie].length; i = i + 2) {
-                missas.add(new Missa(null, null, null, postEvanjelium[pasie][i], postEvanjelium[pasie][i + 1], true, -2));
+                missas.add(new MassText(postEvanjelium[pasie][i], "italic"));
+                missas.add(new MassText(postEvanjelium[pasie][i + 1], "html|justify"));
             }
     }
 
-    public void vypisAlebo(ArrayList<Missa> missas, String[][] citanie, int otvor) {
+    public void vypisAlebo(ArrayList<MassText> missas, String[][] citanie, int otvor) {
         for (int i = 1; i < citanie.length; i++) {
-            missas.add(new Missa("<font color='#B71C1C'>Zobraziť: " + citanie[i][0] + "</font>", true, otvor, i));
+            missas.add(new MassText("Zobraziť: " + citanie[i][0] + "", "red|smallPadding", otvor, i));
         }
     }
 
