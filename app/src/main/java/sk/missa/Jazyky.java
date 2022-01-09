@@ -92,6 +92,11 @@ public class Jazyky extends Main implements Language {
                 drawer.closeDrawer(GravityCompat.START);
                 vyber();
                 return true;
+            case R.id.menu_pozehnania:
+                drawer = findViewById(R.id.drawer_layout);
+                drawer.closeDrawer(GravityCompat.START);
+                vyberPozehnania();
+                return true;
             case R.id.menu_font:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
@@ -105,7 +110,7 @@ public class Jazyky extends Main implements Language {
                 return true;
             case R.id.menu_rezim:
                 switch_rezim.setChecked(!switch_rezim.isChecked());
-                rezim = switch_rezim.isChecked();
+                nightMode = switch_rezim.isChecked();
                 menuRezim();
                 putRezim();
                 nastavFarbu();
@@ -170,7 +175,7 @@ public class Jazyky extends Main implements Language {
         switch_rezim.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                rezim = isChecked;
+                nightMode = isChecked;
                 menuRezim();
                 putRezim();
                 nastavFarbu();
@@ -255,7 +260,7 @@ public class Jazyky extends Main implements Language {
         m = settings.getInt("m", 0);
         rok = settings.getInt("rok", 0);
         jazyk = settings.getInt("jazyk", 0);
-        rezim = settings.getBoolean("rezim", false);
+        nightMode = settings.getBoolean("rezim", false);
         pismo = settings.getBoolean("pismo", false);
         sizeO = settings.getInt("sizeO", 16);
         sizeN = settings.getInt("sizeN", 24);
@@ -384,7 +389,7 @@ public class Jazyky extends Main implements Language {
 
     //nastaví farbu views v závislosti od režimu
     private void nastavFarbu() {
-        if (rezim) {
+        if (nightMode) {
             drawer.setBackgroundColor(Color.BLACK);
             farba_b = getResources().getColor(R.color.background);
             farba_r = getResources().getColor(R.color.primary_light);

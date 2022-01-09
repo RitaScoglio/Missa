@@ -1,29 +1,24 @@
 package sk.missa;
 
-import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.AlertDialog;
-import android.os.Bundle;
 import android.text.Html;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import sk.missa.interfaces.Eucharistia;
 import sk.missa.interfaces.Texty;
 import sk.missa.interfaces.Trojdnie_text;
-import sk.missa.interfaces.Eucharistia;
 
 public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty {
 
@@ -97,6 +92,11 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 drawer.closeDrawer(GravityCompat.START);
                 vyberJazyk(Trojdnie.this);
                 return true;
+            case R.id.menu_pozehnania:
+                drawer = findViewById(R.id.drawer_layout);
+                drawer.closeDrawer(GravityCompat.START);
+                vyberPozehnania();
+                return true;
             case R.id.menu_font:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
@@ -110,32 +110,32 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 return true;
             case R.id.menu_rezim:
                 switch_rezim.setChecked(!switch_rezim.isChecked());
-                rezim = switch_rezim.isChecked();
+                nightMode = switch_rezim.isChecked();
                 nast_farbu = true;
                 menuRezim();
                 putRezim();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
                 return true;
             case R.id.menu_pismo:
                 switch_pismo.setChecked(!switch_pismo.isChecked());
                 pismo = switch_pismo.isChecked();
                 putPismo();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
                 return true;
             case R.id.menu_zvoncek:
                 switch_zvoncek.setChecked(!switch_zvoncek.isChecked());
                 zvoncek = switch_zvoncek.isChecked();
                 putZvoncek();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
                 return true;
             case R.id.menu_tiche_modlitby:
                 switch_ticheModlitby.setChecked(!switch_ticheModlitby.isChecked());
                 ticheModlitby = switch_ticheModlitby.isChecked();
                 putTicheModlitby();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
                 return true;
             case R.id.menu_info:
@@ -174,18 +174,18 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 pismo = isChecked;
                 putPismo();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
         switch_rezim.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                rezim = isChecked;
+                nightMode = isChecked;
                 menuRezim();
                 putRezim();
                 nast_farbu = true;
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -194,7 +194,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 zvoncek = isChecked;
                 putZvoncek();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -203,7 +203,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 ticheModlitby = isChecked;
                 putTicheModlitby();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -212,7 +212,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
             public void onClick(View v) {
                 zoomIn();
                 putVelkost();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -221,7 +221,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
             public void onClick(View v) {
                 zoomOut();
                 putVelkost();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -252,7 +252,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
         ID = settings.getString("ID", "");
         tyzden = settings.getInt("tyzden", 0);
         pozicia_eucharistia = settings.getInt("poz_euch", 1);
-        rezim = settings.getBoolean("rezim", false);
+        nightMode = settings.getBoolean("rezim", false);
         pismo = settings.getBoolean("pismo", false);
         zvoncek = settings.getBoolean("zvoncek", false);
         sizeO = settings.getInt("sizeO", 16);
@@ -275,11 +275,11 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
 
     @Override
     public void vypis() {
-        if (rezim)
+       /* if (rezim)
             drawer.setBackgroundColor(Color.BLACK);
         else
             drawer.setBackgroundColor(getResources().getColor(R.color.background));
-        final ArrayList<Missa> missas = new ArrayList<>();
+        final ArrayList<MassText> missas = new ArrayList<>();
 
         String[][] obrad = {};
         switch (ID) {
@@ -298,37 +298,37 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
         for (int i = 0; i < obrad.length; i++) {
             switch (obrad[i][0]) {
                 case "S": //nadpis
-                    missas.add(new Missa(obrad[i][1], null, null, null, null, false, -1));
+                    missas.add(new MassText(obrad[i][1], null, null, null, null, false, -1));
                     break;
                 case "N": //podnadpisy
-                    missas.add(new Missa(1)); //medzera mala
-                    missas.add(new Missa(obrad[i][1], null, null, null, null, false, -2));
-                    missas.add(new Missa(1)); //medzera mala
+                    missas.add(new MassText(1)); //medzera mala
+                    missas.add(new MassText(obrad[i][1], null, null, null, null, false, -2));
+                    missas.add(new MassText(1)); //medzera mala
                     break;
                 case "C": //podnadpisy - bez bold
-                    missas.add(new Missa(1)); //medzera mala
-                    missas.add(new Missa(null, obrad[i][1], null,false));
-                    missas.add(new Missa(1)); //medzera mala
+                    missas.add(new MassText(1)); //medzera mala
+                    missas.add(new MassText(null, obrad[i][1], null,false));
+                    missas.add(new MassText(1)); //medzera mala
                     break;
                 case "K": //komentare
                     if (obrad[i].length > 2)
                         for (int j = 1; j < obrad[i].length; j += 2) {
-                            missas.add(new Missa(obrad[i][j], obrad[i][j + 1], true));
+                            missas.add(new MassText(obrad[i][j], obrad[i][j + 1], true));
                         }
                     else
-                        missas.add(new Missa(obrad[i][1], null, true));
+                        missas.add(new MassText(obrad[i][1], null, true));
                     break;
                 case "V": //vyskakovacie okna
                     if(obrad[i][2] == null)
-                        missas.add(new Missa("<font color='#B71C1C'><b>" + obrad[i][1] + " (otvoriť)</b></font>", null, null, true, i, 1));
+                        missas.add(new MassText("<font color='#B71C1C'><b>" + obrad[i][1] + " (otvoriť)</b></font>", null, null, true, i, 1));
                     else
-                        missas.add(new Missa(null, obrad[i][1], obrad[i][2], false, i, 1));
+                        missas.add(new MassText(null, obrad[i][1], obrad[i][2], false, i, 1));
                     break;
                 case "E": //citania, evanjelia - -2, zalmy, spevy - 0 (otvor)
-                    missas.add(new Missa(null, obrad[i][1], obrad[i][2], obrad[i][3], obrad[i][4], true, 0));
+                    missas.add(new MassText(null, obrad[i][1], obrad[i][2], obrad[i][3], obrad[i][4], true, 0));
                     if (obrad[i].length > 5) { //pasie
                         for (int j = 5; j < obrad[i].length; j += 2) {
-                            missas.add(new Missa(null, null, null, obrad[i][j], obrad[i][j + 1], true, -2));
+                            missas.add(new MassText(null, null, null, obrad[i][j], obrad[i][j + 1], true, -2));
                         }
                     }
                     break;
@@ -340,31 +340,31 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                     if (cirkevRok == 0) {
                         j += 2;
                     }
-                    missas.add(new Missa(null, "EVANJELIUM", evanjeliumSobota[j][0], null, null, false, 0));
-                    missas.add(new Missa(obrad[i][1], null, true));
-                    missas.add(new Missa(null, null, null, evanjeliumSobota[j][1], evanjeliumSobota[j][2], true, 0));
-                    missas.add(new Missa(obrad[i][2], null, true));
+                    missas.add(new MassText(null, "EVANJELIUM", evanjeliumSobota[j][0], null, null, false, 0));
+                    missas.add(new MassText(obrad[i][1], null, true));
+                    missas.add(new MassText(null, null, null, evanjeliumSobota[j][1], evanjeliumSobota[j][2], true, 0));
+                    missas.add(new MassText(obrad[i][2], null, true));
                     break;
                 case "P": //prefacia
-                    missas.add(new Missa("PREFÁCIA", obrad[i][1], obrad[i][2], true));
-                    missas.add(new Missa(2)); //medzera velka
+                    missas.add(new MassText("PREFÁCIA", obrad[i][1], obrad[i][2], true));
+                    missas.add(new MassText(2)); //medzera velka
                     modlitbaEucharistia(missas);
                     break;
                 case "O": //obrad prijimanie
                     obradPrijimania(missas);
                     break;
                 case "":
-                    missas.add(new Missa(2)); //medzera velka
+                    missas.add(new MassText(2)); //medzera velka
                     break;
                 default:
                     break;
             }
         }
 
-        MissaAdapter adapter = new MissaAdapter(this, missas);
+        MassTextAdapter adapter = new MassTextAdapter(missas);
         listView = findViewById(R.id.vypis_misal);
         listView.setAdapter(adapter);
-        listView.setSelection(pozicia_listview);
+        //listView.setSelection(pozicia_listview);
         final long[] firstClick = new long[1];
         final long[] secondClick = new long[1];
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -387,7 +387,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 } else {
                     firstClick[0] = System.currentTimeMillis();
                 }
-                Missa missa = missas.get(position);
+                MassText missa = missas.get(position);
                 if (missa.getOtvor() == 1) {
                     String[][] obrad = {};
                     switch (ID) {
@@ -408,7 +408,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                     ListView dialogListview = dialog.findViewById(R.id.vypis_misal);
                     TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
                     Button dialogButton = dialog.findViewById(R.id.dialog_button);
-                    final ArrayList<Missa> dg = new ArrayList<>();
+                    final ArrayList<MassText> dg = new ArrayList<>();
 
                     if (rezim) {
                         dialog.getWindow().setBackgroundDrawableResource(R.color.black);
@@ -435,32 +435,32 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                         dialogTextView.setText(obrad[index][1]);
                     if (obrad[index][1].startsWith("Procesia")){
                         for (int j = 3; j < obrad[index].length; j += 2) {
-                            dg.add(new Missa(obrad[index][j], obrad[index][j + 1], true));
+                            dg.add(new MassText(obrad[index][j], obrad[index][j + 1], true));
                         }
                     } else if (obrad[index][1].startsWith("Spevy")){
-                        dg.add(new Missa(null, obrad[index][3], true)); //text
-                        dg.add(new Missa(null, obrad[index][4], obrad[index][5], obrad[index][6], obrad[index][7], true, 0));
-                        dg.add(new Missa(null, obrad[index][8], true)); //text
-                        dg.add(new Missa(null, obrad[index][9], obrad[index][10],true)); //zalospev
-                        dg.add(new Missa(null, obrad[index][11], obrad[index][12],true)); //zalospev
-                        dg.add(new Missa(null, obrad[index][13], obrad[index][14],true)); //hymnus
+                        dg.add(new MassText(null, obrad[index][3], true)); //text
+                        dg.add(new MassText(null, obrad[index][4], obrad[index][5], obrad[index][6], obrad[index][7], true, 0));
+                        dg.add(new MassText(null, obrad[index][8], true)); //text
+                        dg.add(new MassText(null, obrad[index][9], obrad[index][10],true)); //zalospev
+                        dg.add(new MassText(null, obrad[index][11], obrad[index][12],true)); //zalospev
+                        dg.add(new MassText(null, obrad[index][13], obrad[index][14],true)); //hymnus
                     } else {
                         for (int i = 3; i < obrad[index].length; i += 4) {
-                            dg.add(new Missa(null, obrad[index][i], obrad[index][i + 1], obrad[index][i + 2], obrad[index][i + 3], true, 0));
+                            dg.add(new MassText(null, obrad[index][i], obrad[index][i + 1], obrad[index][i + 2], obrad[index][i + 3], true, 0));
                         }
                     }
-                    dg.add(new Missa(2));
-                    dg.add(new Missa(2));
-                    MissaAdapter ada = new MissaAdapter(Trojdnie.this, dg);
+                    dg.add(new MassText(2));
+                    dg.add(new MassText(2));
+                    MassTextAdapter ada = new MassTextAdapter(Trojdnie.this, dg);
                     dialogListview.setAdapter(ada);
                     dialog.show();
                 }
             }
-        });
+        });*/
     }
 
     @Override
-    public void modlitbaEucharistia(ArrayList<Missa> missas) {
+    public void modlitbaEucharistia(ArrayList<MassText> missas) {
         switch (eucharistiaArray.get(pozicia_eucharistia)) {
             case "1. eucharistická modlitba":
                 modlitbaEucharistiaVypis(eucharistia1, missas);
@@ -476,8 +476,8 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
 
     //vypis eucharistickej modlitby
     @Override
-    public void modlitbaEucharistiaVypis(String[] eucharistia, ArrayList<Missa> missas) {
-        missas.add(new Missa("Eucharistická modlitba".toUpperCase(), null, null, false));
+    public void modlitbaEucharistiaVypis(String[] eucharistia, ArrayList<MassText> missas) {
+       /* missas.add(new MassText("Eucharistická modlitba".toUpperCase(), null, null, false));
             for (int j = 0; j < eucharistia.length; j = j + 2) {
 
                 if (j == 0 && eucharistia[j] != null) {
@@ -485,38 +485,38 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                         if (eucharistia[j + 1].length() > 6) {
                             if (eucharistia[j + 1].substring(0, 6).equals("VSUVKA")) {
                                 if (ID.equals("3dni4"))
-                                    missas.add(new Missa(null, eucharistia[j], vsuvkyTrojdnieEM[0][1], true));
+                                    missas.add(new MassText(null, eucharistia[j], vsuvkyTrojdnieEM[0][1], true));
 
                                 else
-                                    missas.add(new Missa(null, eucharistia[j], vsuvkyTrojdnieEM[1][1], true));
+                                    missas.add(new MassText(null, eucharistia[j], vsuvkyTrojdnieEM[1][1], true));
                             } else
-                                missas.add(new Missa(null, eucharistia[j], eucharistia[j + 1], true));
+                                missas.add(new MassText(null, eucharistia[j], eucharistia[j + 1], true));
                         } else
-                            missas.add(new Missa(null, eucharistia[j], eucharistia[j + 1], true));
+                            missas.add(new MassText(null, eucharistia[j], eucharistia[j + 1], true));
                     } else if (eucharistia[j].contains("VEZMITE")) {
-                        missas.add(new Missa(null, eucharistia[j], null, false));
-                        missas.add(new Missa(true));
+                        missas.add(new MassText(null, eucharistia[j], null, false));
+                        missas.add(new MassText(true));
                     } else
-                        missas.add(new Missa(eucharistia[j], eucharistia[j + 1], true));
+                        missas.add(new MassText(eucharistia[j], eucharistia[j + 1], true));
                 } else if (eucharistia[j + 1].length() > 6) {
                     if (eucharistia[j + 1].substring(0, 7).equals("VSUVKA2")) {
                         if (ID.equals("3dni4")) {
-                            missas.add(new Missa(eucharistia[j], vsuvkyTrojdnieEM[0][2], true));
+                            missas.add(new MassText(eucharistia[j], vsuvkyTrojdnieEM[0][2], true));
                         } else {
-                            missas.add(new Missa(eucharistia[j], vsuvkyTrojdnieEM[1][2], true));
+                            missas.add(new MassText(eucharistia[j], vsuvkyTrojdnieEM[1][2], true));
                         }
                     } else if (eucharistia[j+1].substring(0, 8).equals("On večer")){
                         if (ID.equals("3dni4")) {
-                            missas.add(new Missa(eucharistia[j], vsuvkyTrojdnieEM[0][3], true));
+                            missas.add(new MassText(eucharistia[j], vsuvkyTrojdnieEM[0][3], true));
                         } else {
-                            missas.add(new Missa(eucharistia[j], eucharistia[j + 1], true));
+                            missas.add(new MassText(eucharistia[j], eucharistia[j + 1], true));
                         }
                     } else {
-                        missas.add(new Missa(eucharistia[j], eucharistia[j + 1], true));
+                        missas.add(new MassText(eucharistia[j], eucharistia[j + 1], true));
                     }
                 } else
-                    missas.add(new Missa(eucharistia[j], eucharistia[j + 1], true));
-            }
+                    missas.add(new MassText(eucharistia[j], eucharistia[j + 1], true));
+            }*/
         }
 
     @Override
@@ -558,7 +558,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 ListView lw = ((AlertDialog) dialogInterface).getListView();
                 pozicia_eucharistia = lw.getCheckedItemPosition();
                 if (predtym != pozicia_eucharistia) {
-                    pozicia_listview = listView.getFirstVisiblePosition();
+                    pozicia_listview = getFirstVisiblePosition(recyclerView);
                     vypis();
                 }
             }

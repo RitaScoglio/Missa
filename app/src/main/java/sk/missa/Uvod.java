@@ -10,16 +10,12 @@ import android.support.annotation.NonNull;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.CompoundButton;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.gson.Gson;
 
@@ -86,6 +82,11 @@ public class Uvod extends Main {
                 drawer.closeDrawer(GravityCompat.START);
                 vyberJazyk(Uvod.this);
                 return true;
+            case R.id.menu_pozehnania:
+                drawer = findViewById(R.id.drawer_layout);
+                drawer.closeDrawer(GravityCompat.START);
+                vyberPozehnania();
+                return true;
             case R.id.menu_font:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
@@ -99,7 +100,7 @@ public class Uvod extends Main {
                 return true;
             case R.id.menu_rezim:
                 switch_rezim.setChecked(!switch_rezim.isChecked());
-                rezim = switch_rezim.isChecked();
+                nightMode = switch_rezim.isChecked();
                 menuRezim();
                 putRezim();
                 sviatokDen();
@@ -161,7 +162,7 @@ public class Uvod extends Main {
         switch_rezim.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                rezim = isChecked;
+                nightMode = isChecked;
                 menuRezim();
                 putRezim();
                 sviatokDen();
@@ -236,7 +237,7 @@ public class Uvod extends Main {
     }
 
     private void sviatokDen() {
-        if (rezim) {
+        if (nightMode) {
             drawer.setBackgroundColor(Color.BLACK);
             dtm.setTextColor(getResources().getColor(R.color.background));
         } else {

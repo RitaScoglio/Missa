@@ -9,11 +9,9 @@ import android.support.annotation.NonNull;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.AlertDialog;
 import android.text.Html;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.CompoundButton;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
@@ -89,6 +87,11 @@ public class MisalPandemia extends Misal{
                 drawer.closeDrawer(GravityCompat.START);
                 vyberJazyk(MisalPandemia.this);
                 return true;
+            case R.id.menu_pozehnania:
+                drawer = findViewById(R.id.drawer_layout);
+                drawer.closeDrawer(GravityCompat.START);
+                vyberPozehnania();
+                return true;
             case R.id.menu_font:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
@@ -102,32 +105,32 @@ public class MisalPandemia extends Misal{
                 return true;
             case R.id.menu_rezim:
                 switch_rezim.setChecked(!switch_rezim.isChecked());
-                rezim = switch_rezim.isChecked();
+                nightMode = switch_rezim.isChecked();
                 nast_farbu = true;
                 menuRezim();
                 putRezim();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
                 return true;
             case R.id.menu_pismo:
                 switch_pismo.setChecked(!switch_pismo.isChecked());
                 pismo = switch_pismo.isChecked();
                 putPismo();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
                 return true;
             case R.id.menu_zvoncek:
                 switch_zvoncek.setChecked(!switch_zvoncek.isChecked());
                 zvoncek = switch_zvoncek.isChecked();
                 putZvoncek();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
                 return true;
             case R.id.menu_tiche_modlitby:
                 switch_ticheModlitby.setChecked(!switch_ticheModlitby.isChecked());
                 ticheModlitby = switch_ticheModlitby.isChecked();
                 putTicheModlitby();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
                 return true;
             case R.id.menu_info:
@@ -172,18 +175,18 @@ public class MisalPandemia extends Misal{
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 pismo = isChecked;
                 putPismo();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
         switch_rezim.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                rezim = isChecked;
+                nightMode = isChecked;
                 menuRezim();
                 putRezim();
                 nast_farbu = true;
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -192,7 +195,7 @@ public class MisalPandemia extends Misal{
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 zvoncek = isChecked;
                 putZvoncek();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -201,7 +204,7 @@ public class MisalPandemia extends Misal{
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 ticheModlitby = isChecked;
                 putTicheModlitby();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -210,7 +213,7 @@ public class MisalPandemia extends Misal{
             public void onClick(View v) {
                 zoomIn();
                 putVelkost();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -219,7 +222,7 @@ public class MisalPandemia extends Misal{
             public void onClick(View v) {
                 zoomOut();
                 putVelkost();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -262,7 +265,7 @@ public class MisalPandemia extends Misal{
         pozicia_eucharistia = settings.getInt("poz_euch", 1);
         pozicia_formular = settings.getInt("poz_form", 0);
         pozicia_prefacia = settings.getInt("poz_pref", 0);
-        rezim = settings.getBoolean("rezim", false);
+        nightMode = settings.getBoolean("rezim", false);
         pismo = settings.getBoolean("pismo", false);
         zvoncek = settings.getBoolean("zvoncek", false);
         sizeO = settings.getInt("sizeO", 16);
@@ -295,7 +298,7 @@ public class MisalPandemia extends Misal{
     public void spev() {
         uvodny_spev = "Úvodný spev";
         prijimanie_spev = "Spev na prijímanie";
-        uvodny_vypis = pandemiaFormular[0][0];
+        uvodny_spev_vypis = pandemiaFormular[0][0];
         uvodny_suradnice = pandemiaFormular[0][1];
         prijimanie_vypis = pandemiaFormular[0][2];
         prijimanie_suradnice = pandemiaFormular[0][3];
@@ -370,17 +373,18 @@ public class MisalPandemia extends Misal{
     }
 
     @Override
-    public void modlitbaEucharistia(ArrayList<Missa> missas) {
-        missas.add(new Missa("Eucharistická modlitba".toUpperCase(), null, null, false));
+    public void modlitbaEucharistia(ArrayList<MassText> missas) {
+        missas.add(new MassText("Eucharistická modlitba".toUpperCase(), "red|bold"));
         for (int j = 0; j < pandemiaFormular[8].length; j = j + 2) {
             if (pandemiaFormular[8][j+1].contains("VEZMITE")) {
-                missas.add(new Missa(pandemiaFormular[8][j], null, true));
-                missas.add(new Missa(null, pandemiaFormular[8][j+1], null, false));
-                missas.add(new Missa(true));
+                missas.add(new MassText(pandemiaFormular[8][j], "red|small"));
+                missas.add(new MassText(pandemiaFormular[8][j+1], "center"));
+                missas.add(new MassText("bell"));
             } else if (pandemiaFormular[8][j].equals("BAR")) {
-                missas.add(new Missa(5));
+                missas.add(new MassText("divider"));
             } else {
-                missas.add(new Missa(pandemiaFormular[8][j], pandemiaFormular[8][j + 1], true));
+                missas.add(new MassText(pandemiaFormular[8][j],"red|small"));
+                missas.add(new MassText(pandemiaFormular[8][j + 1], "html"));
             }
         }
     }
@@ -398,7 +402,7 @@ public class MisalPandemia extends Misal{
         alert.show();
         TextView text = alert.findViewById(android.R.id.message);
         text.setTextSize(sizeO);
-        if (rezim) {
+        if (nightMode) {
             alert.getWindow().setBackgroundDrawableResource(R.color.black);
             text.setTextColor(getResources().getColor(R.color.background));
         } else {

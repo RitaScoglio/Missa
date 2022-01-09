@@ -94,6 +94,11 @@ public class Kalendar extends Main {
                 drawer.closeDrawer(GravityCompat.START);
                 vyberJazyk(Kalendar.this);
                 return true;
+            case R.id.menu_pozehnania:
+                drawer = findViewById(R.id.drawer_layout);
+                drawer.closeDrawer(GravityCompat.START);
+                vyberPozehnania();
+                return true;
             case R.id.menu_font:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
@@ -107,7 +112,7 @@ public class Kalendar extends Main {
                 return true;
             case R.id.menu_rezim:
                 switch_rezim.setChecked(!switch_rezim.isChecked());
-                rezim = switch_rezim.isChecked();
+                nightMode = switch_rezim.isChecked();
                 menuRezim();
                 putRezim();
                 sviatokMesiac();
@@ -195,7 +200,7 @@ public class Kalendar extends Main {
         switch_rezim.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                rezim = isChecked;
+                nightMode = isChecked;
                 menuRezim();
                 putRezim();
                 sviatokMesiac();
@@ -262,7 +267,7 @@ public class Kalendar extends Main {
         rok = settings.getInt("rok", 0);
         sizeO = settings.getInt("sizeO", 16);
         sizeN = settings.getInt("sizeN", 24);
-        rezim = settings.getBoolean("rezim", false);
+        nightMode = settings.getBoolean("rezim", false);
     }
 
     //uloží premenne pri onPause
@@ -318,7 +323,7 @@ public class Kalendar extends Main {
     }
 
     public void sviatokMesiac() {
-        if (rezim) {
+        if (nightMode) {
             drawer.setBackgroundColor(Color.BLACK);
             dateView.setTextColor(getResources().getColor(R.color.background));
         } else {

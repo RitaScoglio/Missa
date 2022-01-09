@@ -86,6 +86,11 @@ public class MisalPM extends Misal {
                 drawer.closeDrawer(GravityCompat.START);
                 vyberJazyk(MisalPM.this);
                 return true;
+            case R.id.menu_pozehnania:
+                drawer = findViewById(R.id.drawer_layout);
+                drawer.closeDrawer(GravityCompat.START);
+                vyberPozehnania();
+                return true;
             case R.id.menu_font:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
@@ -99,32 +104,32 @@ public class MisalPM extends Misal {
                 return true;
             case R.id.menu_rezim:
                 switch_rezim.setChecked(!switch_rezim.isChecked());
-                rezim = switch_rezim.isChecked();
+                nightMode = switch_rezim.isChecked();
                 nast_farbu = true;
                 menuRezim();
                 putRezim();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
                 return true;
             case R.id.menu_pismo:
                 switch_pismo.setChecked(!switch_pismo.isChecked());
                 pismo = switch_pismo.isChecked();
                 putPismo();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
                 return true;
             case R.id.menu_zvoncek:
                 switch_zvoncek.setChecked(!switch_zvoncek.isChecked());
                 zvoncek = switch_zvoncek.isChecked();
                 putZvoncek();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
                 return true;
             case R.id.menu_tiche_modlitby:
                 switch_ticheModlitby.setChecked(!switch_ticheModlitby.isChecked());
                 ticheModlitby = switch_ticheModlitby.isChecked();
                 putTicheModlitby();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
                 return true;
             case R.id.menu_info:
@@ -168,18 +173,18 @@ public class MisalPM extends Misal {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 pismo = isChecked;
                 putPismo();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
         switch_rezim.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                rezim = isChecked;
+                nightMode = isChecked;
                 menuRezim();
                 putRezim();
                 nast_farbu = true;
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -188,7 +193,7 @@ public class MisalPM extends Misal {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 zvoncek = isChecked;
                 putZvoncek();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -197,7 +202,7 @@ public class MisalPM extends Misal {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 ticheModlitby = isChecked;
                 putTicheModlitby();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -206,7 +211,7 @@ public class MisalPM extends Misal {
             public void onClick(View v) {
                 zoomIn();
                 putVelkost();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -215,7 +220,7 @@ public class MisalPM extends Misal {
             public void onClick(View v) {
                 zoomOut();
                 putVelkost();
-                pozicia_listview = listView.getFirstVisiblePosition();
+                pozicia_listview = getFirstVisiblePosition(recyclerView);
                 vypis();
             }
         });
@@ -256,7 +261,7 @@ public class MisalPM extends Misal {
         pozicia_formular = settings.getInt("poz_form", 0);
         pozicia_prefacia = settings.getInt("poz_pref", 0);
         pozicia_prosby = settings.getInt("poz_prosby", 0);
-        rezim = settings.getBoolean("rezim", false);
+        nightMode = settings.getBoolean("rezim", false);
         pismo = settings.getBoolean("pismo", false);
         zvoncek = settings.getBoolean("zvoncek", false);
         sizeO = settings.getInt("sizeO", 16);
@@ -291,7 +296,7 @@ public class MisalPM extends Misal {
         uvodny_spev = "Úvodný spev";
         prijimanie_spev = "Spev na prijímanie";
         index = indexFormular(spevFormular, formArray.get(pozicia_formular));
-        uvodny_vypis = spevFormular[index][3];
+        uvodny_spev_vypis = spevFormular[index][3];
         uvodny_suradnice = spevFormular[index][4];
         prijimanie_vypis = spevFormular[index][5];
         prijimanie_suradnice = spevFormular[index][6];
@@ -344,7 +349,7 @@ public class MisalPM extends Misal {
                 if (predtym != pozicia_formular) {
                     spev();
                     modlitba();
-                    pozicia_listview = listView.getFirstVisiblePosition();
+                    pozicia_listview = getFirstVisiblePosition(recyclerView);
                     vypis();
                 }
             }
@@ -399,7 +404,7 @@ public class MisalPM extends Misal {
                 pozicia_prefacia = lw.getCheckedItemPosition();
                 if (predtym != pozicia_prefacia) {
                     prefacia();
-                    pozicia_listview = listView.getFirstVisiblePosition();
+                    pozicia_listview = getFirstVisiblePosition(recyclerView);
                     vypis();
                 }
             }
