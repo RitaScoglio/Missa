@@ -1263,7 +1263,7 @@ public interface Texty {
                     "Amen."},
             {"Pred evanjeliom", "Všemohúci Bože, očisť mi srdce i pery, aby som mohol dôstojne hlásať tvoje sväté evanjelium."},
             {"Po evanjeliu", "Slová evanjelia nech zmyjú naše previnenia."},
-            {"Príprava obetných darov", "ňaz stojí pri oltári, vezme paténu s chlebom, oboma rukami ju drží trocha pozdvihnutú nad oltárom a potichu hovorí:",
+            {"Príprava obetných darov", "Kňaz stojí pri oltári, vezme paténu s chlebom, oboma rukami ju drží trocha pozdvihnutú nad oltárom a potichu hovorí:",
                     "Požehnaný si, Pane, Bože všetkého stvorenia,\n" +
                             "pretože sme z tvojej štedrosti prijali tento chlieb.\n" +
                             "Obetujeme ti ho ako plod zeme a práce ľudských rúk,\n" +
@@ -1438,7 +1438,7 @@ public interface Texty {
             "Potom sa číta stať o Pánovom vstupe do Jeruzalema z jedného zo štyroch Evanjelií. Číta ju diakon, alebo (ak nieto diakona) sám kňaz zvyčajným spôsobom.",
             //V ROKU A - 9, 10
             "Mt 21, 1-11", "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Matúša<br>"+
-            "Keď sa priblížili k Jeruzalemu a došli do Betfage pri Olivovej hore, Ježiš poslal dvoch učeníkov a povedal im: „Choďte do dedinky oproti vám a hneď nájdete priviazanú oslicu a pri nej osliatko. Odviažte ich a priveďte mi ich. A keby vám niekto niečo vravel, povedzte: ‚Pán ich potrebuje.‘ A hneď ich prepustí.“<br>"+
+            "Keď sa priblížili k Jeruzalemu a došli do Betfage pri Olivovej hore, Ježiš poslal dvoch učeníkov a povedal im: „Choďte do dedinky oproti vám a hneď nájdete priviazanú oslicu a pri nej osliatko. Odviažte ich a priveďte mi ich. A keby vám niekto niečo vravel, povedzte: ‚Pán ich potrebuje.' A hneď ich prepustí.“<br>"+
             "Toto sa stalo, aby sa splnilo slovo proroka: „Povedzte dcére sionskej: Hľa, tvoj Kráľ prichádza k tebe, ponížený, sediaci na oslici a na osliatku, mláďati ťažného zvieraťa.“<br>"+
             "Učeníci šli a urobili, ako im Ježiš rozkázal. Priviedli oslicu a osliatko, pokládli na ne svoje plášte a on si na ne sadol. Mnohí zo zástupu prestierali na cestu svoje plášte, iní stínali ratolesti zo stromov a stlali ich po ceste. A zástupy, čo šli pred ním, i tie, čo šli za ním, vyvolávali:<br>"+
             "„Hosanna Synovi Dávidovmu! Požehnaný, ktorý prichádza v mene Pánovom. Hosanna na výsostiach!“<br>"+
@@ -1446,7 +1446,7 @@ public interface Texty {
             "Počuli sme slovo Pánovo.",
             //V ROKU B - 11, 12, 13, 14, 15
             "Mk 11, 1-10", "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Marka<br>"+
-            "Keď sa blížili k Jeruzalemu, Betfage a Betánii pri Olivovej hore, poslal Ježiš dvoch svojich učeníkov a povedal im: „Choďte do dedinky oproti vám a len čo do nej vojdete, nájdete priviazané osliatko, na ktorom doteraz človek nesedel. Odviažte ho a priveďte. A keby vám niekto vravel: ‚Čo to robíte?‘, povedzte: ‚Pán ho potrebuje a hneď ho zasa vráti.‘“<br>"+
+            "Keď sa blížili k Jeruzalemu, Betfage a Betánii pri Olivovej hore, poslal Ježiš dvoch svojich učeníkov a povedal im: „Choďte do dedinky oproti vám a len čo do nej vojdete, nájdete priviazané osliatko, na ktorom doteraz človek nesedel. Odviažte ho a priveďte. A keby vám niekto vravel: ‚Čo to robíte?', povedzte: ‚Pán ho potrebuje a hneď ho zasa vráti.'“<br>"+
             "I odišli a vonku na rázcestí našli osliatko, priviazané o dvere, a odviazali ho. Niektorí z tých, čo tam stáli, im vraveli: „Čo robíte, prečo odväzujete osliatko?“ Oni im povedali, ako im kázal Ježiš, a povolili im to.<br>"+
             "Osliatko priviedli k Ježišovi, položili naň svoje plášte a on naň vysadol. Mnohí prestierali na cestu svoje plášte, iní zasa zelené ratolesti, narezané na poliach. A tí, čo išli pred ním, i tí, čo išli za ním, volali:<br>"+
             "„Hosanna! Požehnaný, ktorý prichádza v mene Pánovom. Požehnané kráľovstvo nášho otca Dávida, ktoré sa približuje. Hosanna na výsostiach!“ <br>"+
@@ -1459,7 +1459,7 @@ public interface Texty {
                     "Počuli sme slovo Pánovo.",
             //V ROKU C - 16, 17
             "Lk 19, 28-40", "<font color='#B71C1C'>†</font> Čítanie zo svätého evanjelia podľa Lukáša<br>"+
-            "Ježiš pokračoval v ceste do Jeruzalema. Keď sa priblížil k Betfage a Betánii, pri hore, ktorá sa volá Olivová, poslal dvoch učeníkov so slovami: „Choďte do dedinky naproti a len čo do nej vojdete, nájdete priviazané osliatko, na ktorom človek ešte nesedel. Odviažte ho a priveďte! A keby sa vás niekto opýtal: ‚Prečo ho odväzujete?‘, povedzte mu: ‚Pán ho potrebuje.‘“<br>"+
+            "Ježiš pokračoval v ceste do Jeruzalema. Keď sa priblížil k Betfage a Betánii, pri hore, ktorá sa volá Olivová, poslal dvoch učeníkov so slovami: „Choďte do dedinky naproti a len čo do nej vojdete, nájdete priviazané osliatko, na ktorom človek ešte nesedel. Odviažte ho a priveďte! A keby sa vás niekto opýtal: ‚Prečo ho odväzujete?', povedzte mu: ‚Pán ho potrebuje.'“<br>"+
             "Poslovia odišli a našli, ako im povedal. Keď odväzovali osliatko, povedali im jeho majitelia: „Prečo odväzujete osliatko?“ Oni povedali: „Pán ho potrebuje.“ Potom osliatko priviedli k Ježišovi, hodili naň svoje plášte a posadili naň Ježiša. A ako išiel, na cestu mu prestierali svoje plášte. Keď sa už blížil k úbočiu Olivovej hory, začal sa celý zástup učeníkov radovať a mocným hlasom chváliť Boha za všetky divy, ktoré videl, a volal:<br>"+
             "„Požehnaný kráľ, ktorý prichádza v mene Pánovom. Pokoj na nebi a sláva na výsostiach!“<br>"+
             "Tu mu zo zástupu povedali niektorí farizeji: „Učiteľ, napomeň svojich učeníkov!“ On im odvetil: „Hovorím vám, ak budú títo mlčať, kamene budú kričať.“<br>"+
@@ -3203,7 +3203,20 @@ public interface Texty {
             "<font color='#B71C1C'>K.:</font> Choďte v mene Božom.<br>" +
             "<font color='#B71C1C'>Ľ.:</font> Bohu vďaka.<br><br>" +
             "<font color='#B71C1C'>Na konci obradu sa môže spievať vhodná pieseň.</font>"},
-
 };
+
+    String pokoj_mier_Ukrajina = "<font color='#B71C1C'>1.</font> Za pokoj na Ukrajine a Rusku: aby štátnici na oboch stranách hľadali také riešenia, ktoré všetkým prinesú trvalý mier.<br>" +
+            "<br>" +
+            "<font color='#B71C1C'>2.</font> Prosme za všetkých, ktorí trpia následkami vojny na Ukrajine, aby sa mohli sa vrátiť k pokojnému životu v mieri.<br>" +
+            "<br>" +
+            "<font color='#B71C1C'>3.</font> Ježišu, ty si život a odpustenie; daj nech všetci pochopia, že iba mier a pokojné spolunažívanie sú cestou k opravdivému rozvoju ľudskej spoločnosti.<br>" +
+            "<br>" +
+            "<font color='#B71C1C'>4.</font> Modlime sa za kresťanov zasiahnutých vojnou, aby v tomto neľahkom boji o pokoj, ba aj o sám život, svedčili o láske, ku ktorej ich Kristus povolal.<br>" +
+            "<br>" +
+            "<font color='#B71C1C'>5.</font> Aby politici brali vážne svoju zodpovednosť za mier vo svete a usilovne hľadali spôsoby ako uskutočňovať spoločné dobro pre všetkých ľudí.<br>" +
+            "<br>" +
+            "<font color='#B71C1C'>6.</font> Nebeský Otče, posilňuj predstaviteľov národov, aby vládli rozumne a s rozvahou, a tak budovali vzájomné a ohľaduplné občianske spolužitie.<br>" +
+            "<br>" +
+            "<font color='#B71C1C'>7.</font> Pane Ježišu, prosíme ťa za pokoj vo všetkých krajinách, kde zúri vojna a prenasledovanie pre vieru, farbu pleti, či iný názor, aby utíchli zbrane a nastúpil vzájomný dialóg a porozumenie.";
 }
 
