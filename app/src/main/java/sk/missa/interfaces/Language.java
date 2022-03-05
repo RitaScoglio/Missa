@@ -229,8 +229,201 @@ public interface Language {
             {"Deo gratias.", "Bohu vďaka."}
     };
 
+    String[] Italy_nadpis = {
+            "<b>RITI DI INTRODUZIONE – ÚVODNÉ OBRADY</b><br><br>CANTO D´INIGRESSO – ÚVODNÝ SPEV",
+            "GLORIA – GLÓRIA",
+            "ORAZIONE COLLETTA – MODLIDBA DŇA<br><br><b>LITURGIA DELLA PAROLA – LITURGIA SLOVA</b><br><br>LETTURA – ČÍTANIE<br>Po prečítaní čítania:",
+            "VANGELO - EVANJELIUM",
+            "Po prečítaní evanjelia:",
+            "CREDO – VYZNANIE VIERY",
+            "PREGHIERA DEI FEDELI – SPOLOČNÉ MODLITBY VERIACICH<br><br><b>LITURGIA EUCARISTICA – LITURGIA EUCHARISTIE</b><br>",
+            "ORAZIONE SULLE OFFERTE – MODLITBA NAD OBETNÝMI DARMI.<br><br>PREFAZIO – PREFÁCIA",
+            "PREGHIERA EUCARISTICA – EUCHARISTICKÁ MODLITBA<br>Po premenení:",
+            "RITI DI COMUNIONE – OBRAD PRIJÍMANIA",
+            "AGNELLO DI DIO – BARÁNOK BOŽÍ",
+            "ORAZIONE DOPO LA COMUNIONE – MODLITBA PO PRIJÍMANÍ<br><br><b>RITI DI CONCLUSIONE - ZÁVEREČNÉ OBRADY</b><br>"
+    };
 
-    String[] Croatia_nadpis = {
+    String[][] Italy_vypis = {
+            {"Nel nome del Padre del Figlio e dello Spirito Santo.", "V mene Otca i Syna i Ducha Svätého"},
+            {"Amen."},
+            {"Il Signore sia con voi.", "Pán s vami."},
+            {"E con il tuo spirito.", "I s duchom Tvojím.\n"},
+            {" Fratelli e sorelle, per celebrare degnamente i santi misteri, riconosciamo i nostri peccati.",
+                    "Bratia a sestry, uznajme svoje hriechy, aby sme mohli s čistým srdcom sláviť sväté tajomstvá."},
+            {"Confesso a Dio onnipotente\n" +
+                    "e a voi, fratelli e sorelle, \n" +
+                    "che ho molto peccato\n" +
+                    "in pensieri, parole, \n" +
+                    "opere e omissioni, \n" +
+                    "per mia colpa, mia colpa, \n" +
+                    "mia grandissima colpa. \n" +
+                    "E supplico\n" +
+                    "la beata sempre vergine Maria, \n" +
+                    "gli angeli, i santi\n" +
+                    "e voi, fratelli e sorelle, \n" +
+                    "di pregare per me\n" +
+                    "il Signore Dio nostro.",
+                    "Vyznávam všemohúcemu Bohu i vám, bratia a sestry, že som veľa zhrešil myšlienkami, slovami, skutkami a zanedbávaním dobrého. Moja vina, moja vina, moja preveľká vina. Preto prosím blahoslavenú Máriu, vždy Pannu, všetkých anjelov a svätých, i vás, bratia a sestry, modlite sa za mňa k Pánu Bohu nášmu."},
+            {"Dio onnipotente abbia misericordia di noi, perdoni i nostri peccati e ci conduca alla vita eterna.",
+                    "Nech sa zmiluje nad nami všemohúci Boh, nech nám hriechy odpustí a privedie nás do života večného."},
+            {"Amen.\n"},
+            {"Signore, pietà.", "Pane, zmiluj sa."},
+            {"Signore, pietà.", "Pane, zmiluj sa."},
+            {"Cristo, pietà.", "Kriste, zmiluj sa."},
+            {"Cristo, pietà.", "Kriste, zmiluj sa."},
+            {"Signore, pietà.", "Pane, zmiluj sa."},
+            {"Signore, pietà.", "Pane, zmiluj sa.\n"},
+            {"Gloria a Dio nell'alto dei cieli\n" +
+                    " e pace in terra agli uomini, amati dal Signore.\n" +
+                    " amati dal Signore.\n" +
+                    "Noi ti lodiamo, ti benediciamo,\n" +
+                    "ti adoriamo, ti glorifichiamo,\n" +
+                    "ti rendiamo grazie\n" +
+                    "per la tua gloria immensa,\n" +
+                    "Signore Dio, Re del cielo,\n" +
+                    "Dio Padre onnipotente.\n" +
+                    "Signore, Figlio unigenito,\n" +
+                    "Gesù Cristo,\n" +
+                    "Signore Dio, Agnello di Dio,\n" +
+                    "Figlio del Padre;\n" +
+                    "tu che togli i peccati del mondo,\n" +
+                    "abbi pietà di noi;\n" +
+                    "tu che togli i peccati del mondo,\n" +
+                    "accogli la nostra supplica;\n" +
+                    "tu che siedi alla destra del Padre,\n" +
+                    "abbi pietà di noi.\n" +
+                    "Perché tu solo il Santo,\n" +
+                    "tu solo il Signore,\n" +
+                    "tu solo l'Altissimo:\n" +
+                    "Gesù Cristo, con lo Spirito Santo\n" +
+                    "nella gloria di Dio Padre.\n" +
+                    "Amen.\n"},
+            {"Parola di Dio.", "Počuli sme Božie slovo."},
+            {"Rendiamo grazie a Dio.", "Bohu vďaka.\n"},
+            {"Il Signore sia con voi.", "Pán s vami."},
+            {"E con il tuo spirito.", "I s duchom tvojím."},
+            {"Dal Vangelo secondo...", "Čítanie zo svätého evanjelia podľa..."},
+            {"Gloria a te, o Signore.", "Sláva tebe, Pane.\n"},
+            {"Parola del Signore.", "Počuli sme slovo Pánovo."},
+            {"Lode a te, o Cristo.", "Chvála tebe, Kriste.\n"},
+            {"Credo in un solo Dio,\n" +
+                    "Padre onnipotente,\n" +
+                    "creatore del cielo e della terra,\n" +
+                    "di tutte le cose visibili e invisibili.\n" +
+                    "Credo in un solo Signore,\n" +
+                    "Gesù Cristo,\n" +
+                    "unigenito Figlio di Dio,\n" +
+                    "nato dal Padre prima di tutti i secoli.\n" +
+                    "Dio da Dio, Luce da Luce,\n" +
+                    "Dio vero da Dio vero;\n" +
+                    "generato, non creato;\n" +
+                    "della stessa sostanza del Padre;\n" +
+                    "per mezzo di lui\n" +
+                    "tutte le cose sono state create.\n" +
+                    "Per noi uomini e per la nostra\n" +
+                    "salvezza discese dal cielo;\n" +
+                    "e per opera dello Spirito Santo\n" +
+                    "si è incarnato nel seno\n" +
+                    "della Vergine Maria\n" +
+                    "e si è fatto uomo.\n" +
+                    "Fu crocifisso per noi\n" +
+                    "sotto Ponzio Pilato,\n" +
+                    "morì e fu sepolto.\n" +
+                    "Il terzo giorno è risuscitato,\n" +
+                    "secondo le Scritture;\n" +
+                    "è salito al cielo,\n" +
+                    "siede alla destra del Padre.\n" +
+                    "E di nuovo verrà, nella gloria,\n" +
+                    "per giudicare i vivi e i morti,\n" +
+                    "e il suo regno non avrà fine.\n" +
+                    "Credo nello Spirito Santo,\n" +
+                    "che è Signore e dà la vita,\n" +
+                    "e procede dal Padre e dal Figlio.\n" +
+                    "Con il Padre e il Figlio\n" +
+                    "è adorato e glorificato\n" +
+                    "e ha parlato per mezzo dei profeti.\n" +
+                    "Credo la Chiesa,\n" +
+                    "una, santa, cattolica e apostolica.\n" +
+                    "Professo un solo Battesimo\n" +
+                    "per il perdono dei peccati.\n" +
+                    "Aspetto la risurrezione dei morti\n" +
+                    "e la vita del mondo che verrà.\n" +
+                    "Amen.\n"},
+            {"Benedetto sei tu, Signore, Dio dell'universo: dalla tua bontà abbiamo ricevuto questo pane, frutto della terra e del lavoro dell'uomo; lo presentiamo a te, perché diventi per noi cibo di vita eterna.",
+                    "Dobrorečíme ti, Bože, Pane svetov, že sme z tvojej štedrosti prijali tento chlieb. Obetujeme ho tebe ako plod zeme a práce ľudských rúk, aby sa nám stal chlebom života."},
+            {"Benedetto nei secoli il Signore.", "Zvelebený Boh naveky!"},
+            {"Benedetto sei tu, Signore, Dio dell'universo: dalla tua bontà abbiamo ricevuto questo vino, frutto della terra, e del lavoro dell'uomo; lo presentiamo a te, perché diventi per noi bevanda di salvezza.",
+                    "Dobrorečíme ti, Bože, Pane svetov, že sme z tvojej štedrosti prijali toto víno. Obetujeme ho tebe ako plod viniča a práce ľudských rúk, aby sa nám stalo duchovným nápojom."},
+            {"Benedetto nei secoli il Signore.", "Zvelebený Boh naveky!\n"},
+            {"Pregate, fratelli e sorelle, perché il mio e vostro sacrificio sia gradito a Dio Padre onnipotente.",
+                    "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila Bohu Otcu všemohúcemu."},
+            {"Il Signore riceva dalle tue mani questo sacrificio a lode e gloria del suo nome, per il bene nostro e di tutta la sua santa Chiesa.",
+                    "Nech Pán prijeme obetu z tvojich rúk na chválu a slávu svojho mena, na úžitok nám i celej svätej Cirkvi.\n"},
+            {"Il Signore sia con voi.", "Pán s vami."},
+            {"E con il tuo spirito.", "I s duchom tvojím."},
+            {"In alto i nostri cuori.", "Hore srdcia"},
+            {"Sono rivolti al Signore.", "Máme ich u Pána."},
+            {"Rendiamo grazie al Signore, nostro Dio.", "Vzdávajme vďaky Pánovi, Bohu nášmu."},
+            {"È cosa buona e giusta.", "Je to dôstojné a správne.\n"},
+            {"Santo, Santo, Santo\n" +
+                    "il Signore Dio dell'universo.\n" +
+                    "I cieli e la terra\n" +
+                    "sono pieni della tua gloria.\n" +
+                    "Osanna nell'alto dei cieli.\n" +
+                    "Benedetto colui che viene\n" +
+                    "nel nome del Signore.\n" +
+                    "Osanna nell'alto dei cieli.\n"},
+            {"Mistero della fede.", "Hľa, tajomstvo viery."},
+            {"Annunciamo la tua morte, Signore, proclamiamo la tua risurrezione, nell'attesa della tua venuta.",
+                    "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve."},
+            {""},
+            {"Ogni volta che mangiamo di questo pane e beviamo a questo calice, annunciamo la tua morte, Signore, nell'attesa della tua venuta.",
+                    "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve."},
+            {""},
+            {"Tu ci hai redenti con la tua croce e la tua risurrezione: salvaci, o Salvatore del mondo.",
+                    "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.\n"},
+            {"Obbedienti alla parola del Salvatore e formati al suo divino insegnamento, osiamo dire:",
+                    "Na príkaz nášho spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:"},
+            {"Padre nostro, che sei nei cieli,\n" +
+                    "sia santificato il tuo nome,\n" +
+                    "venga il tuo regno,\n" +
+                    "sia fatta la tua volontà,\n" +
+                    "come in cielo così in terra.\n" +
+                    "Dacci oggi il nostro pane quotidiano,\n" +
+                    "e rimetti a noi i nostri debiti come noi\n" +
+                    "come anche noi li rimettiamo ai nostri debitori,\n" +
+                    "e non abbandonarci alla tentazione,\n" +
+                    "ma liberaci dal male.\n"},
+            {"Liberaci, o Signore, da tutti i mali, concedi la pace ai nostri giorni; e con l'aiuto della tua misericordia, vivremo sempre liberi dal peccato e sicuri da ogni turbamento, nell'attesa che si compia la beata speranza, e venga il nostro Salvatore Gesù Cristo."},
+            {"Tuo è il regno, tua la potenza e la gloria nei secoli.", "Lebo tvoje je kráľovstvo a moc i sláva naveky.\n"},
+            {"Signore Gesù Cristo, che hai detto ai tuoi apostoli: \"Vi lascio la pace, vi do la mia pace\", non guardare ai nostri peccati, ma alla fede della tua Chiesa, e donale unità e pace secondo la tua volontà. Tu che vivi e regni nei secoli dei secoli."},
+        {"Amen."},
+        {"La pace del Signore sia sempre con voi.", "Pokoj Pánov nech je vždy s vami."},
+        {"E con il tuo spirito.", "I s duchom tvojím."},
+        {"Scambiatevi il dono della pace.", "Dajte si znak pokoja.\n"},
+        {"Agnello di Dio, che togli i peccati del mondo, abbi pietà di noi.",
+        "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n",
+        "Agnello di Dio, che togli i peccati del mondo, abbi pietà di noi.",
+        "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n",
+        "Agnello di Dio, che togli i peccati del mondo, dona a noi la pace.",
+        "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj."},
+        {"Ecco l’Agnello di Dio, ecco colui che toglie i peccati del mondo. Beati gli invitati alla cena dell’Agnello.",
+        "Hľa, Baránok Boží, ktorý sníma hriechy sveta: daruj nám pokoj."},
+        {"O Signore, non sono degno di partecipare alla tua mensa: ma di' soltanto una parola e io sarò salvato.",
+        "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."},
+        {"Il Corpo di Cristo.", "Telo Kristovo."},
+        {"Amen.\n"},
+        {"Il Signore sia con voi.", "Pán s vami."},
+        {"E con il tuo spirito.", "I s duchom tvojím."},
+        {"Vi benedica Dio onnipotente, Padre e Figlio <font color='#B71C1C'>†</font> e Spirito Santo.",
+        "Nech vás žehná všemohúci Boh, Otec i Syn † i Duch Svätý."},
+        {"Amen."},
+        {"Andate in pace.", "Iďte v mene Božom."},
+        {"Rendiamo grazie a Dio.", "Bohu vďaka."}
+        };
+
+        String[] Croatia_nadpis = {
             "<b>UVODNI OBREDI – ÚVODNÉ OBRADY</b><br><br>ULAZNA PJESMA – ÚVODNÝ SPEV",
             "SLAVA BOGU – GLÓRIA",
             "ZBORNA MOLITVA – MODLIDBA DŇA<br><br><b>SLUŽBA RIJEČI – LITURGIA SLOVA</b><br><br>ČITANJE – ČÍTANIE<br>Po prečítaní čítania:",
@@ -584,200 +777,6 @@ public interface Language {
             {""},
             {"Tajemnica wiary."},
             {"Chrystus umarł, Chrystus zmartwychwstał, Chrystus powróci\n"}
-    };
-
-    String[] Italy_nadpis = {
-            "<b>RITI DI INTRODUZIONE – ÚVODNÉ OBRADY</b><br><br>CANTO D´INIGRESSO – ÚVODNÝ SPEV",
-            "GLORIA – GLÓRIA",
-            "ORAZIONE – MODLIDBA DŇA<br><br><b>LITURGIA DELLA PAROLA – LITURGIA SLOVA</b><br><br>LETTURA – ČÍTANIE<br>Po prečítaní čítania:",
-            "VANGELO - EVANJELIUM",
-            "Po prečítaní evanjelia:",
-            "CREDO – VYZNANIE VIERY",
-            "PREGHIERA DEI FEDELI – SPOLOČNÉ MODLITBY VERIACICH<br><br><b>LITURGIA EUCARISTICA – LITURGIA EUCHARISTIE</b><br>",
-            "ORAZIONE SULLE OFFERTE – MODLITBA NAD OBETNÝMI DARMI.<br><br>PREFAZIO – PREFÁCIA",
-            "PREGHIERA EUCARISTICA – EUCHARISTICKÁ MODLITBA<br>Po premenení:",
-            "RITI DI COMUNIONE – OBRAD PRIJÍMANIA",
-            "AGNELLO DI DIO – BARÁNOK BOŽÍ",
-            "ORAZIONE DOPO LA COMUNIONE – MODLITBA PO PRIJÍMANÍ<br><br><b>RITI DI CONCLUSIONE - ZÁVEREČNÉ OBRADY</b><br>"
-    };
-
-    String[][] Italy_vypis = {
-            {"Nel nome del Padre del Figlio e dello Spirito Santo.", "V mene Otca i Syna i Ducha Svätého."},
-            {"Amen."},
-            {"Il Signore sia con voi.", "Pán s vami."},
-            {"E con il tuo spirito.", "I s duchom Tvojím.\n"},
-            {"Fratelli, per celebrare degnamente i santi misteri, riconosciamo i nostri peccati.",
-                    "Bratia a sestry, uznajme svoje hriechy, aby sme mohli s čistým srdcom sláviť sväté tajomstvá."},
-            {"Confesso a Dio onnipotente\n" +
-                    "e a voi, fratelli, \n" +
-                    "che ho molto peccato\n" +
-                    "in pensieri, parole, \n" +
-                    "opere e omissioni, \n" +
-                    "per mia colpa, mia colpa, \n" +
-                    "mia grandissima colpa. \n" +
-                    "E supplico\n" +
-                    "la beata sempre vergine Maria, \n" +
-                    "gli angeli, i santi\n" +
-                    "e voi, fratelli, \n" +
-                    "di pregare per me\n" +
-                    "il Signore Dio nostro.",
-                    "Vyznávam všemohúcemu Bohu i vám, bratia a sestry, že som veľa zhrešil myšlienkami, slovami, skutkami a zanedbávaním dobrého. Moja vina, moja vina, moja preveľká vina. Preto prosím blahoslavenú Máriu, vždy Pannu, všetkých anjelov a svätých, i vás, bratia a sestry, modlite sa za mňa k Pánu Bohu nášmu."},
-            {"Dio onnipotente abbia misericordia di noi, perdoni i nostri peccati e ci conduca alla vita eterna.",
-                    "Nech sa zmiluje nad nami všemohúci Boh, nech nám hriechy odpustí a privedie nás do života večného."},
-            {"Amen.\n"},
-            {"Signore, pietà.", "Pane, zmiluj sa."},
-            {"Signore, pietà.", "Pane, zmiluj sa."},
-            {"Cristo, pietà.", "Kriste, zmiluj sa."},
-            {"Cristo, pietà.", "Kriste, zmiluj sa."},
-            {"Signore, pietà.", "Pane, zmiluj sa."},
-            {"Signore, pietà.", "Pane, zmiluj sa.\n"},
-            {"Gloria a Dio nell'alto dei cieli\n" +
-                    "e pace in terra agli uomini\n" +
-                    "di buona volontà.\n" +
-                    "Noi ti lodiamo, ti benediciamo,\n" +
-                    "ti adoriamo, ti glorifichiamo,\n" +
-                    "ti rendiamo grazie\n" +
-                    "per la tua gloria immensa,\n" +
-                    "Signore Dio, Re del cielo,\n" +
-                    "Dio Padre onnipotente.\n" +
-                    "Signore, Figlio unigenito,\n" +
-                    "Gesù Cristo,\n" +
-                    "Signore Dio, Agnello di Dio,\n" +
-                    "Figlio del Padre;\n" +
-                    "tu che togli i peccati del mondo,\n" +
-                    "abbi pietà di noi;\n" +
-                    "tu che togli i peccati del mondo,\n" +
-                    "accogli la nostra supplica;\n" +
-                    "tu che siedi alla destra del Padre,\n" +
-                    "abbi pietà di noi.\n" +
-                    "Perché tu solo il Santo,\n" +
-                    "tu solo il Signore,\n" +
-                    "tu solo l'Altissimo:\n" +
-                    "Gesù Cristo, con lo Spirito Santo\n" +
-                    "nella gloria di Dio Padre.\n" +
-                    "Amen.\n"},
-            {"Parola di Dio.", "Počuli sme Božie slovo."},
-            {"Rendiamo grazie a Dio.", "Bohu vďaka.\n"},
-            {"Il Signore sia con voi.", "Pán s vami."},
-            {"E con il tuo spirito.", "I s duchom tvojím."},
-            {"Dal Vangelo secondo...", "Čítanie zo svätého evanjelia podľa..."},
-            {"Gloria a te, o Signore.", "Sláva tebe, Pane.\n"},
-            {"Parola del Signore.", "Počuli sme slovo Pánovo."},
-            {"Lode a te, o Cristo.", "Chvála tebe, Kriste.\n"},
-            {"Credo in un solo Dio,\n" +
-                    "Padre onnipotente,\n" +
-                    "creatore del cielo e della terra,\n" +
-                    "di tutte le cose visibili e invisibili.\n" +
-                    "Credo in un solo Signore,\n" +
-                    "Gesù Cristo,\n" +
-                    "unigenito Figlio di Dio,\n" +
-                    "nato dal Padre prima di tutti i secoli.\n" +
-                    "Dio da Dio, Luce da Luce,\n" +
-                    "Dio vero da Dio vero;\n" +
-                    "generato, non creato;\n" +
-                    "della stessa sostanza del Padre;\n" +
-                    "per mezzo di lui\n" +
-                    "tutte le cose sono state create.\n" +
-                    "Per noi uomini e per la nostra\n" +
-                    "salvezza discese dal cielo;\n" +
-                    "e per opera dello Spirito Santo\n" +
-                    "si é incarnato nel seno\n" +
-                    "della Vergine Maria\n" +
-                    "e si é fatto uomo.\n" +
-                    "Fu crocifisso per noi\n" +
-                    "sotto Ponzio Pilato,\n" +
-                    "morì e fu sepolto.\n" +
-                    "Il terzo giorno é risuscitato,\n" +
-                    "secondo le Scritture;\n" +
-                    "é salito al cielo,\n" +
-                    "siede alla destra del Padre.\n" +
-                    "E di nuovo verrà, nella gloria,\n" +
-                    "per giudicare i vivi e i morti,\n" +
-                    "e il suo regno non avrà fine.\n" +
-                    "Credo nello Spirito Santo,\n" +
-                    "che é Signore e da la vita,\n" +
-                    "e procede dal Padre e dal Figlio\n" +
-                    "e con il Padre e il Figlio\n" +
-                    "é adorato e glorificato\n" +
-                    "e ha parlato per mezzo dei profeti.\n" +
-                    "Credo la Chiesa,\n" +
-                    "una, santa, cattolica e apostolica.\n" +
-                    "Professo un solo battesimo\n" +
-                    "per il perdono dei peccati.\n" +
-                    "Aspetto la risurrezione dei morti\n" +
-                    "e la vita del mondo che verrà.\n" +
-                    "Amen.\n"},
-            {"Benedetto sei tu, Signore, Dio dell'universo: dalla tua bontà abbiamo ricevuto questo pane, frutto della terra e del lavoro dell'uomo; lo presentiamo a te, perché diventi per noi cibo di vita eterna.",
-                    "Dobrorečíme ti, Bože, Pane svetov, že sme z tvojej štedrosti prijali tento chlieb. Obetujeme ho tebe ako plod zeme a práce ľudských rúk, aby sa nám stal chlebom života."},
-            {"Benedetto nei secoli il Signore.", "Zvelebený Boh naveky!"},
-            {"Benedetto sei tu, Signore, Dio dell'universo: dalla tua bontà abbiamo ricevuto questo vino, frutto della terra, e del lavoro dell'uomo; lo presentiamo a te, perché diventi per noi bevanda di salvezza.",
-                    "Dobrorečíme ti, Bože, Pane svetov, že sme z tvojej štedrosti prijali toto víno. Obetujeme ho tebe ako plod viniča a práce ľudských rúk, aby sa nám stalo duchovným nápojom."},
-            {"Benedetto nei secoli il Signore.", "Zvelebený Boh naveky!\n"},
-            {"Pregate, fratelli, perché il mio e vostro sacrificio sia gradito a Dio, Padre onnipotente.",
-                    "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila Bohu Otcu všemohúcemu."},
-            {"Il Signore riceva dalle tue mani questo sacrificio a lode e gloria del suo nome, per il bene nostro e di tutta la sua santa Chiesa.",
-                    "Nech Pán prijeme obetu z tvojich rúk na chválu a slávu svojho mena, na úžitok nám i celej svätej Cirkvi.\n"},
-            {"Il Signore sia con voi.", "Pán s vami."},
-            {"E con il tuo spirito.", "I s duchom tvojím."},
-            {"In alto i nostri cuori.", "Hore srdcia"},
-            {"Sono rivolti al Signore.", "Máme ich u Pána."},
-            {"Rendiamo grazie al Signore, nostro Dio.", "Vzdávajme vďaky Pánovi, Bohu nášmu."},
-            {"É cosa buona e giusta.", "Je to dôstojné a správne.\n"},
-            {"Santo, Santo, Santo\n" +
-                    "il Signore Dio dell'universo.\n" +
-                    "I cieli e la terra\n" +
-                    "sono pieni della tua gloria.\n" +
-                    "Osanna nell'alto dei cieli.\n" +
-                    "Benedetto colui che viene\n" +
-                    "nel nome del Signore.\n" +
-                    "Osanna nell'alto dei cieli.\n"},
-            {"Mistero della fede.", "Hľa, tajomstvo viery."},
-            {"Annunziamo la tua morte, Signore, proclamiamo la tua risurrezione, nell'attesa della tua venuta.",
-                    "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve."},
-            {""},
-            {"Ogni volta che mangiamo di questo pane e beviamo a questo calice annunziamo la tua morte, Signore, nell'attesa della tua venuta.",
-                    "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve."},
-            {""},
-            {"Tu ci hai redenti con la tua croce e la tua risurrezione: salvaci, o Salvatore del mondo.",
-                    "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.\n"},
-            {"Obbedienti alla parola del Salvatore e formati al suo divino insegnamento, osiamo dire:",
-                    "Na príkaz nášho spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:"},
-            {"Padre nostro, che sei nei cieli,\n" +
-                    "sia santificato il tuo nome,\n" +
-                    "venga il tuo regno,\n" +
-                    "sia fatta la tua volontà,\n" +
-                    "come in cielo così in terra.\n" +
-                    "Dacci oggi il nostro pane quotidiano,\n" +
-                    "e rimetti a noi i nostri debiti come noi\n" +
-                    "li rimettiamo ai nostri debitori,\n" +
-                    "e non ci indurre in tentazione,\n" +
-                    "ma liberaci dal male.\n"},
-            {"Liberaci, o Signore, da tutti i mali, concedi la pace ai nostri giorni; e con l'aiuto della tua misericordia, vivremo sempre liberi dal peccato e sicuri da ogni turbamento, nell'attesa che si compia la beata speranza, e venga il nostro Salvatore Gesù Cristo."},
-            {"Tuo é il regno, tua la potenza e la gloria nei secoli.", "Lebo tvoje je kráľovstvo a moc i sláva naveky.\n"},
-            {"Signore Gesù Cristo, che hai detto ai tuoi apostoli: \"Vi lascio la pace, vi do la mia pace\", non guardare ai nostri peccati, ma alla fede della tua Chiesa, e donale unita e pace secondo la tua volontà. Tu che vivi e regni nei secoli dei secoli."},
-            {"Amen."},
-            {"La pace del Signore sia sempre con voi.", "Pokoj Pánov nech je vždy s vami."},
-            {"E con il tuo spirito.", "I s duchom tvojím."},
-            {"Scambiatevi un segno di pace.", "Dajte si znak pokoja.\n"},
-            {"Agnello di Dio, che togli i peccati del mondo, abbi pietà di noi.",
-                    "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n",
-                    "Agnello di Dio, che togli i peccati del mondo, abbi pietà di noi.",
-                    "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n",
-                    "Agnello di Dio, che togli i peccati del mondo, dona a noi la pace.",
-                    "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj."},
-            {"Beati gli invitati alla Cena del Signore. Ecco l'Agnello di Dio, che toglie i peccati del mondo.",
-                    "Hľa, Baránok Boží, ktorý sníma hriechy sveta: daruj nám pokoj."},
-            {"O Signore, non sono degno di partecipare alla tua mensa: ma di' soltanto una parola e io sarò salvato.",
-                    "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."},
-            {"Il Corpo di Cristo.", "Telo Kristovo."},
-            {"Amen.\n"},
-            {"Il Signore sia con voi.", "Pán s vami."},
-            {"E con il tuo spirito.", "I s duchom tvojím."},
-            {"Vi benedica Dio onnipotente, Padre e Figlio <font color='#B71C1C'>†</font> e Spirito Santo.",
-                    "Nech vás žehná všemohúci Boh, Otec i Syn † i Duch Svätý."},
-            {"Amen."},
-            {"La Messa é finita: andate in pace.", "Iďte v mene Božom."},
-            {"Rendiamo grazie a Dio!", "Bohu vďaka."}
     };
 
     String[] Hungary_nadpis = {
@@ -1518,11 +1517,11 @@ public interface Language {
             "Po prečítaní evanjelia:",
             "THE CREED – VYZNANIE VIERY",
             "THE PRAYER OF THE FAITHFUL – SPOLOČNÉ MODLITBY VERIACICH<br><br><b>THE LITURGY OF THE EUCHARIST – LITURGIA EUCHARISTIE</b><br>",
-            "THE PLAYER OVER THE GIFTS – MODLITBA NAD OBETNÝMI DARMI.<br><br>PREFACE – PREFÁCIA",
-            "THE EUCHARISTIC PLAYER – EUCHARISTICKÁ MODLITBA<br>Po premenení:",
+            "THE PRAYER OVER THE GIFTS – MODLITBA NAD OBETNÝMI DARMI.<br><br>PREFACE – PREFÁCIA",
+            "THE EUCHARISTIC PRAYER – EUCHARISTICKÁ MODLITBA<br>Po premenení:",
             "THE COMMUNION RITE – OBRAD PRIJÍMANIA",
             "THE LAMB OF GOD – BARÁNOK BOŽÍ",
-            "THE PLAYER AFTER COMMUNION – MODLITBA PO PRIJÍMANÍ<br><br><b>THE CONCLUDING RITE - ZÁVEREČNÉ OBRADY</b><br>"
+            "THE PRAYER AFTER COMMUNION – MODLITBA PO PRIJÍMANÍ<br><br><b>THE CONCLUDING RITE - ZÁVEREČNÉ OBRADY</b><br>"
     };
 
     String[][] English_vypis = {
@@ -1669,7 +1668,7 @@ public interface Language {
                     "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.\n"},
             {"At the Saviour's command and formed by divine teaching, we dare to say:",
                     "Na príkaz nášho spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:"},
-            {"Our Father, who art in heaven,\n" +
+            {"Our Father, who are in heaven,\n" +
                     "hallowed be thy name;\n" +
                     "thy kingdom come;\n" +
                     "thy will be done\n" +
@@ -1694,7 +1693,7 @@ public interface Language {
                     "Lamb of God, you take away the sins of the world, grant us peace.",
                     "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj."},
             {"Behold the Lamb of God, behold him who takes away the sins of the world. Blessed are those called to the supper of the Lamb.",
-                    "Hľa, Baránok Boží, ktorý sníma hriechy sveta: daruj nám pokoj."},
+                    "Hľa Baranok Boží, ktorý sníma hriechy sveta. Blažení tí, čo sú pozvaní na hostinu Baránkovu."},
             {"Lord, I am not worthy you that you should enter under my roof, but only say the word and my soul shall be healed.",
                     "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."},
             {"The Body (Blood) of Christ.", "Telo Kristovo."},
