@@ -318,7 +318,7 @@ public class MisalZosnuly extends Misal {
         prosby_zvolanie = prosbyZosnuly[0][4];
         prosby_vypis = prosbyZosnuly[0][5];
         prosby_zaver = prosbyZosnuly[0][6];
-        aleboCitanie(prosbyZosnuly, 0, 5);
+        aleboCitanie(prosbyZosnuly, 0, 6);
     }
 
     @Override

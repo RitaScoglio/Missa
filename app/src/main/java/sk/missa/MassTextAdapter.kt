@@ -11,10 +11,7 @@ import android.text.Html
 import android.text.Layout.JUSTIFICATION_MODE_INTER_WORD
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
-import android.view.Gravity
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
