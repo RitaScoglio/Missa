@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     defaultConfig {
         applicationId "sk.missa"
         minSdkVersion 16
-        targetSdkVersion 30
-        versionCode 38
+        targetSdkVersion 31
+        versionCode 43
         versionName "1.9"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

@@ -6321,8 +6321,7 @@ public interface Formular {
                             "<font color='#B71C1C'>K.:</font> Hore srdcia.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Máme ich u Pána.<br>" +
                             "<font color='#B71C1C'>K.:</font> Vzdávajme vďaky Pánovi, Bohu nášmu.<br>" +
-                            "<font color='#B71C1C'>Ľ.:</font> Je to dôstojné a správne.<br>" +
-                            "<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Je to dôstojné a správne.<br><br>"+
                             "Je naozaj dôstojné a správne,<br>" +
                             "dobré a spásonosné<br>" +
                             "vzdávať vďaky vždy a všade tebe,<br>" +
@@ -6336,66 +6335,64 @@ public interface Formular {
                             "Slovom a príkladom zvestoval svetu,<br>" +
                             "že si Otec<br>" +
                             "a staráš sa o všetky svoje deti.<br>" +
-                            "A preto ťa s anjelmi a so všetkými svätými<br>" +
-                            "oslavujeme a chválime,<br>" +
+                            "A preto ťa so všetkými anjelmi a svätými<br>" +
+                            "chválime a zvelebujeme,<br>" +
                             "spievame pieseň na tvoju slávu<br>" +
-                            "a bez prestania voláme:<br>" +
-                            "<br>" +
+                            "a bez prestania voláme:<br><br>"+
                             "Svätý, svätý, svätý Pán Boh všetkých svetov.<br>" +
                             "Plné sú nebesia i zem tvojej slávy.<br>" +
                             "Hosanna na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom.<br>" +
                             "Hosanna na výsostiach!"},
             //EM
-            {"", "<font color='#B71C1C'>HI</font> Naozaj si svätý a hoden chvály,<br>" +
-                    "Bože, ty miluješ všetkých ľudí<br>" +
-                    "a vždy si s nimi na ceste života.<br>" +
-                    "Naozaj zvelebený je tvoj Syn<br>" +
+            {"", "<font color='#B71C1C'>HI</font> Naozaj si svätý a hoden chvály, Bože,<br>" +
+                    "lebo miluješ všetkých ľudí<br>" +
+                    "a vždy ich sprevádzaš na ceste života. <br>" +
+                    "Naozaj požehnaný je tvoj Syn <br>" +
                     "prítomný uprostred nás,<br>" +
-                    "keď nás jeho láska zhromažďuje,<br>" +
+                    "keď nás jeho láska zhromažďuje, <br>" +
                     "a ako kedysi učeníkom<br>" +
                     "otvára nám Písma a láme chlieb.",
-                    "Zopne ruky, vystrie ich nad obetné dary a hovorí:",
+                    "Zopne ruky,\n" +
+                            "vystrie ich nad obetné dary a hovorí:",
                     "<font color='#B71C1C'>Vš</font> Prosíme ťa teda, najláskavejší Otče,<br>" +
                             "zošli svojho Svätého Ducha,<br>" +
                             "nech posvätí tieto dary chleba a vína,",
                     "Zopne ruky, urobí znak kríža nad chlebom a kalichom a hovorí:",
-                    "aby sa nám stali telom a <font color='#B71C1C'>+</font> krvou<br>" +
-                            "nášho Pána, Ježiša Krista.",
-                    "Zopne ruky.<br>" +
-                            "V nasledujúcich formulách treba predniesť Pánove slová jasne a zrozumiteľne, ako to ich povaha vyžaduje.",
-                    "On pred svojím umučením <br>" +
+                    "aby sa nám stali Telom a <font color='#B71C1C'>✠</font> Krvou",
+                    "Zopne ruky.",
+                            "nášho Pána Ježiša Krista.",
+                            "V nasledujúcich formulách treba predniesť Pánove slová jasne a zrozumiteľne, ako si to vyžaduje ich povaha.",
+                    "On večer pred svojím umučením <br>" +
                             "pri Poslednej večeri",
-                    "vezme chlieb<br>" +
+                    "Vezme chlieb,\n" +
                             "drží ho trochu pozdvihnutý nad oltárom a pokračuje:",
-                    "vzal chlieb, dobrorečil, lámal ho<br>" +
+                    "vzal chlieb a dobrorečil, lámal ho<br>" +
                             "a dával svojim učeníkom, hovoriac:",
-                    "trocha sa skloní",
-                    "VEZMITE\n" +
-                            "A JEDZTE Z NEHO VŠETCI:\n" +
-                            "TOTO JE MOJE TELO,\n" +
+                    "Trocha sa skloní.",
+                    "VEZMITE A JEDZTE Z NEHO VŠETCI,\n" +
+                            "LEBO TOTO JE MOJE TELO,\n" +
                             "KTORÉ SA OBETUJE ZA VÁS.",
-                    "Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.",
+                    "Ukáže konsekrovanú hostiu ľudu,\n" +
+                            "znova ju položí na paténu a pokľaknutím adoruje.\n" +
+                            "Potom pokračuje:",
                     "Podobne po večeri",
-                    "vezme kalich<br>" +
+                    "Vezme kalich,\n" +
                             "drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
                     "vzal kalich,<br>" +
                             "vzdával ti vďaky<br>" +
                             "a dal ho svojim učeníkom, hovoriac:",
-                    "trocha sa skloní",
-                    "VEZMITE\n" +
-                            "A PITE Z NEHO VŠETCI:\n" +
-                            "TOTO JE KALICH MOJEJ KRVI,\n" +
-                            "KTORÁ SA VYLIEVA ZA VÁS\n" +
-                            "I ZA VŠETKÝCH\n" +
+                    "Trocha sa skloní.",
+                    "VEZMITE A PITE Z NEHO VŠETCI,\n" +
+                            "LEBO TOTO JE KALICH MOJEJ KRVI,\n" +
+                            "KTORÁ SA VYLIEVA ZA VÁS I ZA MNOHÝCH\n" +
                             "NA ODPUSTENIE HRIECHOV.\n" +
-                            "JE TO KRV\n" +
-                            "NOVEJ A VEČNEJ ZMLUVY.\n" +
+                            "JE TO KRV NOVEJ A VEČNEJ ZMLUVY.\n" +
                             "TOTO ROBTE NA MOJU PAMIATKU.",
-                    "Ukáže konsekrovanú hostiu ľudu, znova ju položí na paténu a pokľaknutím adoruje.<br>" +
+                    "Ukáže kalich ľudu, znova ho položí na korporál a pokľaknutím adoruje.\n" +
                             "Potom povie:",
                     "<font color='#B71C1C'>HI</font> Hľa, tajomstvo viery.",
-                    "Ľud odpovie zvolaním:",
+                    "Ľud pokračuje zvolaním:",
                     "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve.",
                     "BAR", "",
                     "Druhá formula:",
@@ -6412,63 +6409,58 @@ public interface Formular {
                             "ktorého si skrze umučenie a smrť na kríži<br>" +
                             "priviedol k sláve vzkriesenia<br>" +
                             "a posadil si ho po svojej pravici.<br>" +
-                            "Ohlasujeme dielo tvojej lásky,<br>" +
-                            "kým sám nepríde,<br>" +
+                            "Ohlasujeme dielo tvojej lásky, kým sám nepríde,<br>" +
                             "a obetujeme ti chlieb života<br>" +
                             "a kalich dobrorečenia.<br>" +
                             "<br>" +
                             "Láskavo zhliadni na dar svojej Cirkvi;<br>" +
-                            "v ňom prinášame<br>" +
-                            "veľkonočnú Kristovu obetu,<br>" +
+                            "v ňom prinášame veľkonočnú Kristovu obetu,<br>" +
                             "ktorú nám on odovzdal,<br>" +
-                            "a udeľ, aby sme mocou Ducha tvojej lásky<br>" +
-                            "boli pripočítaní teraz i v deň večnosti<br>" +
-                            "k údom tvojho Syna,<br>" +
-                            "ktorého telo a krv prijímame.<br>" +
-                            "<br>" +
+                            "a dopraj, aby sme<br>" +
+                            "mocou Ducha tvojej lásky<br>" +
+                            "patrili teraz i v deň večnosti<br>" +
+                            "do tajomného tela tvojho Syna,<br>" +
+                            "ktorého Telo a Krv prijímame.",
+                            "SPACE",
                             "<font color='#B71C1C'>1.k</font> Pane, milostivo zdokonaľuj svoju Cirkev<br>" +
                             "vo viere a láske<br>" +
-                            "v jednote s naším pápežom <font color='#B71C1C'>M.</font>,<br>" +
-                            "s naším biskupom <font color='#B71C1C'>M.</font>,<br>" +
-                            "so všetkými biskupmi,<br>" +
-                            "presbytermi a diakonmi<br>" +
-                            "a so všetkým tvojím získaným ľudom.<br>" +
+                            "v jednote s naším pápežom <font color='#B71C1C'>M.</font> a s naším biskupom <font color='#B71C1C'>M., *</font><br>" +
+                            "so všetkými biskupmi, kňazmi a diakonmi<br>" +
+                                    "a so všetkým tvojím získaným ľudom.",
+                    "SPACE",
                             "Otvor naše oči,<br>" +
-                            "aby sme poznali potreby bratov a sestier,<br>" +
-                            "vnukni nám slová a skutky,<br>" +
-                            "aby sme posilnili tých,<br>" +
-                            "ktorí sa namáhajú a sú preťažení,<br>" +
-                            "a daj, aby sme im nezištne slúžili<br>" +
-                            "podľa Kristovho príkladu a jeho príkazu.<br>" +
-                            "Nech je tvoja Cirkev živým svedectvom<br>" +
-                            "pravdy a slobody,<br>" +
-                            "pokoja a spravodlivosti,<br>" +
-                            "aby všetci ľudia povstali k novej nádeji.<br>" +
-                            "<br>" +
+                                    "aby sme poznali potreby bratov a sestier,<br>" +
+                                    "vnukni nám slová a skutky,<br>" +
+                                    "aby sme posilnili tých,<br>" +
+                                    "ktorí sa namáhajú a sú preťažení,<br>" +
+                                    "a daj, aby sme im nezištne slúžili<br>" +
+                                    "podľa Kristovho príkladu a jeho príkazu.<br>" +
+                                    "Nech je tvoja Cirkev živým svedectvom<br>" +
+                                    "pravdy a slobody,<br>" +
+                                    "pokoja a spravodlivosti,<br>" +
+                                    "aby všetci ľudia povstali k novej nádeji.<br>" +
                             "<font color='#B71C1C'>2.k</font> Pamätaj na našich bratov a sestry <font color='#B71C1C'>(M.</font> a <font color='#B71C1C'>M.)</font>,<br>" +
-                            "ktorí odpočívajú v Kristovom pokoji,<br>" +
-                            "a na všetkých zosnulých,<br>" +
-                            "ktorých vieru iba ty si poznal:<br>" +
-                            "dovoľ im tešiť sa zo svetla tvojej tváre<br>" +
-                            "a daruj im vo vzkriesení plnosť života.<br>" +
-                            "Aj nám dožič,<br>" +
-                            "aby sme po skončení pozemského putovania<br>" +
-                            "prišli do večného príbytku,<br>" +
-                            "kde budeme navždy žiť s tebou<br>" +
-                            "a v spoločenstve s preblahoslavenou Pannou,<br>" +
-                            "Bohorodičkou Máriou,<br>" +
-                            "s apoštolmi a mučeníkmi<br>" +
+                            "ktorí zosnuli v Kristovom pokoji,<br>" +
+                                    "a na všetkých zosnulých,<br>" +
+                                    "ktorých vieru iba ty si poznal:<br>" +
+                                    "dovoľ im tešiť sa zo svetla tvojej tváre<br>" +
+                                    "a daruj im vo vzkriesení plnosť života.<br>" +
+                                    "Aj nám dopraj,<br>" +
+                                    "aby sme po skončení pozemského putovania<br>" +
+                                    "prišli do večného príbytku,<br>" +
+                                    "kde budeme navždy žiť s tebou<br>" +
+                                    "a v spoločenstve s preblahoslavenou Pannou,<br>" +
+                                    "Bohorodičkou Máriou, s apoštolmi a mučeníkmi<br>" +
                             "<font color='#B71C1C'>(</font>so svätým <font color='#B71C1C'>M., svätcom dňa alebo patrónom)</font><br>" +
-                            "a so všetkými svätými ťa budeme<br>" +
-                            "chváliť a oslavovať",
-                    "Zopne ruky:",
+                            "a so všetkými svätými<br>" +
+                                    "ťa budeme chváliť a oslavovať",
+                    "Zopne ruky.",
                     "skrze Ježiša Krista, tvojho Syna.",
                     "Vezme paténu s hostiou a kalich, pozdvihne ich a hovorí:",
                     "<font color='#B71C1C'>Vš</font> Skrze Krista, s Kristom a v Kristovi<br>" +
                             "máš ty, Bože Otče všemohúci,<br>" +
-                            "v jednote s Duchom Svätým<br>" +
-                            "všetku úctu a slávu<br>" +
-                            "po všetky veky vekov.",
+                            "v jednote Ducha Svätého<br>" +
+                            "všetku úctu a slávu po všetky veky vekov.",
                     "Ľud zvolá:",
                     "Amen.",},
             //modlitby nad ľudom
@@ -6479,8 +6471,8 @@ public interface Formular {
                     "Po modlitbe kňaz vždy dodá: ",
                     "<m>Nech vás žehná všemohúci Boh, Otec i Syn ", "+ ", "<m>i Duch Svätý. ",
                     "Ľud odpovie: ",
-                    "<m>Amen.\n", "",
-                    "<br>Bože, ochranca všetkých, čo v teba dúfajú,<br>" +
+                    "<m>Amen.", "",
+                    "<br><br>Bože, ochranca všetkých, čo v teba dúfajú,<br>" +
                             "požehnaj, spas a ochraňuj svoj ľud,<br>" +
                             "aby oslobodený od hriechov a chránený pred nepriateľom spásy<br>" +
                             "neprestajne kráčal v tvojej láske.<br>" +

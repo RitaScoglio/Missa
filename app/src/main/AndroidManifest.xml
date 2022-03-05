@@ -37,7 +37,8 @@
             android:configChanges="orientation|screenSize" />
         <activity
             android:name=".Uvod"
-            android:configChanges="orientation|screenSize">
+            android:configChanges="orientation|screenSize"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

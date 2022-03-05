@@ -8,8 +8,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26615384615384613" />
         <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/layout/activity_jazyky.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/layout/activity_misal.xml" value="0.1" />
+        <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/layout/activity_uvod.xml" value="0.2318840579710145" />
         <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/layout/custom_dialog.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/layout/mass_text_recycleView.xml" value="0.24094202898550723" />
         <entry key="..\:/Users/Dominika/Apps/Missa/app/src/main/res/layout/mass_text_view.xml" value="0.25416666666666665" />
