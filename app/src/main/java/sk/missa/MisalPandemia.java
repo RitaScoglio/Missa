@@ -375,16 +375,22 @@ public class MisalPandemia extends Misal{
     @Override
     public void modlitbaEucharistia(ArrayList<MassText> missas) {
         missas.add(new MassText("Eucharistická modlitba".toUpperCase(), "red|bold"));
-        for (int j = 0; j < pandemiaFormular[8].length; j = j + 2) {
-            if (pandemiaFormular[8][j+1].contains("VEZMITE")) {
-                missas.add(new MassText(pandemiaFormular[8][j], "red|small"));
-                missas.add(new MassText(pandemiaFormular[8][j+1], "center"));
-                missas.add(new MassText("bell"));
-            } else if (pandemiaFormular[8][j].equals("BAR")) {
-                missas.add(new MassText("divider"));
+        for (int j = 0; j < pandemiaFormular[8].length; j++) {
+            if (j % 2 == 0) {
+                if (pandemiaFormular[8][j].equals("BAR")) {
+                    missas.add(new MassText("divider"));
+                } else if (pandemiaFormular[8][j].equals("SPACE")) {
+                    missas.add(new MassText("space"));
+                } else {
+                    missas.add(new MassText(pandemiaFormular[8][j], "red|small"));
+                }
             } else {
-                missas.add(new MassText(pandemiaFormular[8][j],"red|small"));
-                missas.add(new MassText(pandemiaFormular[8][j + 1], "html"));
+                if (pandemiaFormular[8][j].contains("VEZMITE")) {
+                    missas.add(new MassText(pandemiaFormular[8][j], "center"));
+                    missas.add(new MassText("bell"));
+                } else {
+                    missas.add(new MassText(pandemiaFormular[8][j], "html"));
+                }
             }
         }
     }
@@ -392,8 +398,35 @@ public class MisalPandemia extends Misal{
     @Override
     public void otvorenie(int dialog) {
         final AlertDialog.Builder builder = new AlertDialog.Builder(MisalPandemia.this);
-        builder.setMessage("");
-        builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Modlitby nad ľudom</b></font>")));
+        if(dialog == 1){
+            String ukon;
+            /* ukon = ukonKajucnosti[5][1]; - zjavenie Pána
+             *  ukon = ukonKajucnosti[6][1]; - nanebovstupenie Pana
+             *  ukon = ukonKajucnosti[7][1]; - turíce
+             *  ukon = ukonKajucnosti[8][1]; - marianske sviatky
+             *  ukon = ukonKajucnosti[9][1]; - za zosnulých*/
+            if (ID.equals("2gkp") || ID.equals("3gkp"))
+                ukon = ukonKajucnosti[7][1];
+            else if (ID.contains("m"))
+                ukon = ukonKajucnosti[8][1];
+            else if (ID.equals("6gkp"))
+                ukon = ukonKajucnosti[6][1];
+            else if (A)
+                ukon = ukonKajucnosti[1][1];
+            else if (V)
+                ukon = ukonKajucnosti[2][1];
+            else if (P)
+                ukon = ukonKajucnosti[3][1];
+            else if (VN)
+                ukon = ukonKajucnosti[4][1];
+            else //cezrok
+                ukon = ukonKajucnosti[0][1];
+            builder.setMessage(Html.fromHtml(nahrad(ukon)));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Úkon kajúcnosti</b></font>")));
+        } else if (dialog == 6) {
+            builder.setMessage("");
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Modlitby nad ľudom</b></font>")));
+        }
         builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
             }
@@ -411,7 +444,9 @@ public class MisalPandemia extends Misal{
         }
         if (pismo)
             text.setTypeface(typeBold);
-        otvorExtra(text, pandemiaFormular[9]);
+        if(dialog == 6) {
+            otvorExtra(text, pandemiaFormular[9]);
+        }
     }
 
     //výber, nastavenie a výpis spevov, modlitieb a prosieb podľa vybratého formulára
