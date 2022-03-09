@@ -3,10 +3,13 @@ package sk.missa;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.text.Html;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,6 +17,7 @@ import android.widget.CompoundButton;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import sk.missa.interfaces.Eucharistia;
@@ -21,9 +25,6 @@ import sk.missa.interfaces.Texty;
 import sk.missa.interfaces.Trojdnie_text;
 
 public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty {
-
-    List<String> eucharistiaArray = new ArrayList<>();
-    List<String> prefaciaArray = new ArrayList<>();
 
    /* @Override
     protected void onResume() {
@@ -230,10 +231,10 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
             getPremenne();
         switch (ID) {
             case "3dni4":
-                prefaciaArray.add("O Eucharistii I.");
+                prefaciaArray.add("O Eucharistii I");
                 break;
             case "3dni6":
-                prefaciaArray.add("Veľkonočná I.");
+                prefaciaArray.add("Veľkonočná I");
                 break;
             default:
                 prefaciaArray.add("Žiadna prefácia");
@@ -241,9 +242,8 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
         }
         if (!ID.equals("3dni5")) {
             eucharistiaArray.add("1. eucharistická modlitba");
-            eucharistiaArray.add("2. eucharistická modlitba");
-            eucharistiaArray.add("3. eucharistická modlitba");
         }
+        nadpis();
         vypis();
     }
 
@@ -275,7 +275,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
 
     @Override
     public void vypis() {
-       /* if (rezim)
+        if (nightMode)
             drawer.setBackgroundColor(Color.BLACK);
         else
             drawer.setBackgroundColor(getResources().getColor(R.color.background));
@@ -296,80 +296,33 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 break;
         }
         for (int i = 0; i < obrad.length; i++) {
-            switch (obrad[i][0]) {
-                case "S": //nadpis
-                    missas.add(new MassText(obrad[i][1], null, null, null, null, false, -1));
-                    break;
-                case "N": //podnadpisy
-                    missas.add(new MassText(1)); //medzera mala
-                    missas.add(new MassText(obrad[i][1], null, null, null, null, false, -2));
-                    missas.add(new MassText(1)); //medzera mala
-                    break;
-                case "C": //podnadpisy - bez bold
-                    missas.add(new MassText(1)); //medzera mala
-                    missas.add(new MassText(null, obrad[i][1], null,false));
-                    missas.add(new MassText(1)); //medzera mala
-                    break;
-                case "K": //komentare
-                    if (obrad[i].length > 2)
-                        for (int j = 1; j < obrad[i].length; j += 2) {
-                            missas.add(new MassText(obrad[i][j], obrad[i][j + 1], true));
-                        }
-                    else
-                        missas.add(new MassText(obrad[i][1], null, true));
-                    break;
-                case "V": //vyskakovacie okna
-                    if(obrad[i][2] == null)
-                        missas.add(new MassText("<font color='#B71C1C'><b>" + obrad[i][1] + " (otvoriť)</b></font>", null, null, true, i, 1));
-                    else
-                        missas.add(new MassText(null, obrad[i][1], obrad[i][2], false, i, 1));
-                    break;
-                case "E": //citania, evanjelia - -2, zalmy, spevy - 0 (otvor)
-                    missas.add(new MassText(null, obrad[i][1], obrad[i][2], obrad[i][3], obrad[i][4], true, 0));
-                    if (obrad[i].length > 5) { //pasie
-                        for (int j = 5; j < obrad[i].length; j += 2) {
-                            missas.add(new MassText(null, null, null, obrad[i][j], obrad[i][j + 1], true, -2));
-                        }
-                    }
-                    break;
-                case "A": //komentare a evajelium na bielu sobotu
-                    int j = 0;
-                    if (cirkevRok == 2) {
-                        j++;
-                    }
-                    if (cirkevRok == 0) {
-                        j += 2;
-                    }
-                    missas.add(new MassText(null, "EVANJELIUM", evanjeliumSobota[j][0], null, null, false, 0));
-                    missas.add(new MassText(obrad[i][1], null, true));
-                    missas.add(new MassText(null, null, null, evanjeliumSobota[j][1], evanjeliumSobota[j][2], true, 0));
-                    missas.add(new MassText(obrad[i][2], null, true));
-                    break;
-                case "P": //prefacia
-                    missas.add(new MassText("PREFÁCIA", obrad[i][1], obrad[i][2], true));
-                    missas.add(new MassText(2)); //medzera velka
-                    modlitbaEucharistia(missas);
-                    break;
-                case "O": //obrad prijimanie
-                    obradPrijimania(missas);
-                    break;
-                case "":
-                    missas.add(new MassText(2)); //medzera velka
-                    break;
-                default:
-                    break;
+            if(obrad[i][0].equals("insert")){
+                switch (obrad[i][1]){
+                    case "prefacia":
+                        prefacia();
+                        prefaciaOut(missas);
+                        break;
+                    case "obrad prijimania":
+                        obradPrijimania(missas);
+                        break;
+                }
+            } else if (obrad[i][0].equals("separated")){
+                missas.add(new MassText(Arrays.asList(obrad[i]).subList(2, obrad[i].length), obrad[i][1]));
+            } else {
+                missas.add(new MassText(obrad[i][1], obrad[i][0]));
             }
         }
 
         MassTextAdapter adapter = new MassTextAdapter(missas);
-        listView = findViewById(R.id.vypis_misal);
-        listView.setAdapter(adapter);
-        //listView.setSelection(pozicia_listview);
+        recyclerView = findViewById(R.id.vypis_misal);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setAdapter(adapter);
+        recyclerView.getLayoutManager().scrollToPosition(pozicia_listview);
         final long[] firstClick = new long[1];
         final long[] secondClick = new long[1];
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+         adapter.setOnItemClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+            public void onClick(View view) {
                 double_click++;
                 if (double_click == 2) {
                     secondClick[0] = System.currentTimeMillis();
@@ -387,76 +340,16 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 } else {
                     firstClick[0] = System.currentTimeMillis();
                 }
-                MassText missa = missas.get(position);
-                if (missa.getOtvor() == 1) {
-                    String[][] obrad = {};
-                    switch (ID) {
-                        case "3dni4":
-                            obrad = stvrtok;
-                            break;
-                        case "3dni5":
-                            obrad = piatok;
-                            break;
-                        case "3dni6":
-                            obrad = sobota;
-                            break;
-                        default:
-                            break;
-                    }
-                    final Dialog dialog = new Dialog(Trojdnie.this);
-                    dialog.setContentView(R.layout.custom_dialog);
-                    ListView dialogListview = dialog.findViewById(R.id.vypis_misal);
-                    TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
-                    Button dialogButton = dialog.findViewById(R.id.dialog_button);
-                    final ArrayList<MassText> dg = new ArrayList<>();
 
-                    if (rezim) {
-                        dialog.getWindow().setBackgroundDrawableResource(R.color.black);
-                        dialogTextView.setTextColor(getResources().getColor(R.color.background));
-                        dialogButton.setTextColor(getResources().getColor(R.color.background));
-                        dialogButton.setBackgroundColor(Color.BLACK);
-                    } else {
-                        dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-                        dialogTextView.setTextColor(getResources().getColor(R.color.primary));
-                        dialogButton.setTextColor(getResources().getColor(R.color.primary));
-                        dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
-                    }
-                    dialogButton.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            dialog.dismiss();
-                        }
-                    });
-
-                    int index = missa.getIndex();
-                    if (missa.getText() != null)
-                        dialogTextView.setText(obrad[index][1]);
-                    else
-                        dialogTextView.setText(obrad[index][1]);
-                    if (obrad[index][1].startsWith("Procesia")){
-                        for (int j = 3; j < obrad[index].length; j += 2) {
-                            dg.add(new MassText(obrad[index][j], obrad[index][j + 1], true));
-                        }
-                    } else if (obrad[index][1].startsWith("Spevy")){
-                        dg.add(new MassText(null, obrad[index][3], true)); //text
-                        dg.add(new MassText(null, obrad[index][4], obrad[index][5], obrad[index][6], obrad[index][7], true, 0));
-                        dg.add(new MassText(null, obrad[index][8], true)); //text
-                        dg.add(new MassText(null, obrad[index][9], obrad[index][10],true)); //zalospev
-                        dg.add(new MassText(null, obrad[index][11], obrad[index][12],true)); //zalospev
-                        dg.add(new MassText(null, obrad[index][13], obrad[index][14],true)); //hymnus
-                    } else {
-                        for (int i = 3; i < obrad[index].length; i += 4) {
-                            dg.add(new MassText(null, obrad[index][i], obrad[index][i + 1], obrad[index][i + 2], obrad[index][i + 3], true, 0));
-                        }
-                    }
-                    dg.add(new MassText(2));
-                    dg.add(new MassText(2));
-                    MassTextAdapter ada = new MassTextAdapter(Trojdnie.this, dg);
-                    dialogListview.setAdapter(ada);
-                    dialog.show();
+                RecyclerView.ViewHolder viewHolder = (RecyclerView.ViewHolder) view.getTag();
+                int position = viewHolder.getAdapterPosition();
+                MassText mText = missas.get(position);
+                switch (mText.getOnClickOpen()) {
+                    default:
+                        break;
                 }
             }
-        });*/
+         });
     }
 
     @Override
