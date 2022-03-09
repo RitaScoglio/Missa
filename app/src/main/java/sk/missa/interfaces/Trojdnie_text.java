@@ -50,7 +50,7 @@ public interface Trojdnie_text {
                     "Rodičku Ježiša Krista,<br>" +
                     "Boha a nášho Pána,",
                     "<font color='#B71C1C'>HI</font> Bože, milostivo prijmi túto obetu,<br>" +
-                            "ktorú ti predkladáme <br>" +
+                            "ktorú ti predkladáme<br>" +
                             "my, tvoji služobníci,<br>" +
                             "i celá tvoja rodina.<br>" +
                             "Prinášame ti ju za tých,<br>" +
@@ -616,7 +616,7 @@ public interface Trojdnie_text {
                             "daj, aby všetci ľudia<br>" +
                             "vierou nadobudli výsady vyvoleného ľudu<br>" +
                             "a krstom sa znovuzrodili z Ducha Svätého.<br>" +
-                            "Skrze Krista, nášho Pána. <br>" +
+                            "Skrze Krista, nášho Pána.<br>" +
                             "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
             {"V", "ŠTVRTÉ ČITANIE", "Iz 54, 5-14",
                     "ŠTVRTÉ ČITANIE", "Iz 54, 5-14",
@@ -723,7 +723,7 @@ public interface Trojdnie_text {
                     "a povolávaš do nej ľudí zo všetkých národov; <font color='#B71C1C'>—</font><br>" +
                     "prosíme ťa, ustavične ochraňuj všetkých,<br>" +
                     "ktorým krstnou vodou dávaš nový život.<br>" +
-                    "Skrze Krista, nášho Pána. <br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>Ľ.:</font> Amen.<br>"},
             {"V", "SIEDME ČÍTANIE", "Ez 36, 16-17a. 18-28",
                     "SIEDME ČÍTANIE", "Ez 36, 16-17a. 18-28",
@@ -1053,7 +1053,7 @@ public interface Trojdnie_text {
                     "<font color='#B71C1C'>2.</font> Pane Ježišu, Boží Baránok, pritiahni k sebe celé ľudstvo, za ktoré si sa obetoval na kríži, a daj mu účasť na svojom božskom živote.<br>" +
                     "<font color='#B71C1C'>3.</font> Pane Ježišu, svetlo sveta, osvieť svojím Duchom všetkých, ktorí ešte nepoznajú tvoje vzkriesenie.<br>" +
                     "<font color='#B71C1C'>4.</font> Pane Ježišu, naša cesta, pravda a život, zachovaj v krstnej milosti a vo svojej láske všetkých, ktorí boli pokrstení v tejto svätej noci.<br>" +
-                    "<font color='#B71C1C'>5.</font> Pane Ježišu, naša radosť, daj, aby sme s úprimným srdcom slávili v našich domoch a rodinách tvoje slávne zmŕtvychvstanie. <br>" +
+                    "<font color='#B71C1C'>5.</font> Pane Ježišu, naša radosť, daj, aby sme s úprimným srdcom slávili v našich domoch a rodinách tvoje slávne zmŕtvychvstanie.<br>" +
                     "<font color='#B71C1C'>6.</font> Pane Ježišu, naše vzkriesenie a život, daj, aby naši zosnulí <font color='#B71C1C'>(M.)</font> dosiahli účasť na večnom živote v nebi.<br>" +
                     "<br>" +
                     "Božský Vykupiteľ,<br>" +
@@ -1289,7 +1289,7 @@ public interface Trojdnie_text {
                             "<font color='#B71C1C'>E</font> Stáli tam sluhovia a strážnici, ktorí si rozložili oheň, lebo bolo chladno, a zohrievali sa. S nimi stál aj Peter a zohrieval sa.<br>" +
                             "<font color='#B71C1C'>E</font> Veľkňaz sa vypytoval Ježiša na jeho učeníkov a na jeho učenie. Ježiš mu odpovedal: <font color='#B71C1C'>+</font> „Ja som verejne hovoril svetu. Vždy som učil v synagóge a v chráme, kde sa schádzajú všetci Židia, a nič som nehovoril tajne. Prečo sa pýtaš mňa? Opýtaj sa tých, ktorí počuli, čo som im hovoril! Oni vedia, čo som hovoril.“<br>" +
                             "<font color='#B71C1C'>E</font> Ako to povedal, jeden zo sluhov, čo tam stál, udrel Ježiša po tvári a povedal: <font color='#B71C1C'>S</font> „Tak odpovedáš veľkňazovi?“<br>" +
-                            "Ježiš mu odvetil: <font color='#B71C1C'>+</font> „Ak som zle povedal, dokáž, čo bolo zlé, ale ak dobre, prečo ma biješ?!“ <br>" +
+                            "Ježiš mu odvetil: <font color='#B71C1C'>+</font> „Ak som zle povedal, dokáž, čo bolo zlé, ale ak dobre, prečo ma biješ?!“<br>" +
                             "<font color='#B71C1C'>E</font> A tak ho Annáš zviazaného poslal k veľkňazovi Kajfášovi.",
                     "Nie si aj ty z jeho učeníkov? Nie som",
                     "<font color='#B71C1C'>E</font> Šimon Peter tam stál a zohrieval sa. I pýtali sa ho: „Nie si aj ty z jeho učeníkov?“<br>" +
@@ -1635,7 +1635,7 @@ public interface Trojdnie_text {
                             "svietil som ti cestou v noci,<br>" +
                             "tys' mne handrou zastrel oči.<br>" +
                             "<br>" +
-                            "V púšti bez vlahy a chleba <br>" +
+                            "V púšti bez vlahy a chleba<br>" +
                             "kŕmil som ťa mannou z neba,<br>" +
                             "ako matka som ťa choval,<br>" +
                             "preto si ma zauškoval.<br>" +
@@ -1840,231 +1840,314 @@ public interface Trojdnie_text {
     };
 
     String[][] stvrtok = {
-            {"S", "VEČERNÁ OMŠA NA PAMIATKU PÁNOVEJ VEČERE"},
-            {"K", "Podľa pradávnej cirkevnej tradície nie je dovolené v tento deň sláviť svätú omšu bez účasti ľudu. Vo večerných hodinách, v čase, ktorý najlepšie vyhovuje veriacim, slávi sa svätá omša na pamiatku Poslednej večere za účasti celej farnosti. Všetci kňazi a prisluhujúci sa zúčastnia na slávení Eucharistie, každý podľa hodnosti v duchovnej službe.<br>" +
-                    "Kňazi, ktorí už slúžili svätú omšu pri svätení olejov alebo inú omšu pre veriacich, môžu koncelebrovať večernú omšu.<br>" +
-                    "Ak to vyžadujú pastoračné dôvody, miestny ordinár môže dovoliť aj inú večernú omšu, nielen vo farskom kostole, ale aj v iných kostoloch a verejných alebo poloverejných kaplnkách. Vo veľmi naliehavých prípadoch môže dovoliť svätú omšu aj v ranných hodinách pre veriacich, ktorí sa nemôžu zúčastniť na večernej omši. Treba dbať, aby táto omša nebola iba pre záujem jednotlivcov a na úkor hlavnej večernej omše.<br>" +
-                    "Sväté prijímanie možno podávať iba cez omšu, ale chorým ho možno zaniesť v ktorúkoľvek hodinu."},
-            {"N", "Úvodné obrady a Liturgia slova"},
-            {"K", "Svätostánok má byť prázdny. V tejto omši sa má konsekrovať dostatočné množstvo hostií na prijímanie kňazov, diakonov a veriacich aj na zajtrajší deň."},
-            {"E", "ÚVODNÝ SPEV", "Porov. Gal 6, 14", null,
-                    "Hľadajme slávu v kríži nášho Pána Ježiša Krista.<br>" +
-                            "On je naša spása, náš život, naše vzkriesenie;<br>" +
-                            "on nás oslobodil a spasil.<br>"},
-            {"V", "OSLAVNÁ PIESEŇ", null, null, null, null,
-                    "Sláva Bohu na výsostiach<br>" +
-                            "a na zemi pokoj ľuďom dobrej vôle.<br>" +
-                            "Chválime ťa, velebíme ťa,<br>" +
-                            "klaniame sa ti, oslavujeme ťa,<br>" +
-                            "vzdávame ti vďaky, lebo veľká je sláva tvoja.<br>" +
-                            "Pane Bože, Kráľ nebeský,<br>" +
-                            "Boh Otec všemohúci.<br>" +
-                            "Pane, Ježišu Kriste, ty jednorodený syn,<br>" +
-                            "Pán a Boh, Baránok Boží, Syn Otca.<br>" +
-                            "Ty snímaš hriechy sveta, zmiluj sa nad nami,<br>" +
-                            "ty snímaš hriechy sveta, prijmi našu úpenlivú prosbu.<br>" +
-                            "Ty sedíš po pravici Otca, zmiluj sa nad nami.<br>" +
-                            "Veď len ty si Svätý, len ty si Pán,<br>" +
-                            "len ty si Najvyšší, Ježišu Kriste,<br>" +
-                            "s Duchom Svätým v sláve Boha Otca.<br>" +
-                            "Amen."},
-            {"K", "Kým sa spieva oslavná pieseň, zvonia zvony. Potom sa odmlčia až do Veľkonočnej vigílie, ak biskupská konferencia alebo ordinár neuznali za vhodné ustanoviť ináč.",
-                    "<br>" +
-                            "<font color='#B71C1C'>MODLITBA DŇA</font><br>" +
-                            "Nebeský Otče,<br>" +
-                            "zišli sme sa osláviť pamiatku Poslednej večere, <font color='#B71C1C'>*</font><br>" +
-                            "pri ktorej tvoj milovaný Syn,<br>" +
-                            "prv než seba samého vydal na smrť,<br>" +
-                            "zveril svojej Cirkvi novú a večnú obetu<br>" +
-                            "ako hostinu svojej lásky;<br>" +
-                            "prosíme ťa, <font color='#B71C1C'>—</font><br>" +
-                            "daj, aby sme z tejto veľkej sviatosti<br>" +
-                            "čerpali dokonalú lásku a plnosť života.<br>" +
-                            "Skrze nášho Pána Ježiša Krista, tvojho Syna,<br>" +
-                            "ktorý je Boh a s tebou žije a kraľuje<br>" +
-                            "v jednote s Duchom Svätým po všetky veky vekov."},
-            {"N", "Bohoslužba liturgie"},
-            {"E", "PRVÉ ČÍTANIE", "Ex 12, 1-8. 11-14",
-                    "Predpisy o veľkonočnej večeri",
-                    "Čítanie z Kniha Exodus<br>" +
-                            "Pán povedal Mojžišovi a Áronovi v Egypte: „Tento mesiac bude pre vás začiatočným mesiacom, prvým mesiacom v roku.<br>" +
-                            "Celej izraelskej pospolitosti povedzte: V desiaty deň tohoto mesiaca nech si každý zaobstará baránka pre svoju rodinu, baránka pre každý dom. Ak je rodina menšia a nevládala by zjesť baránka, nech sa spojí so susedom, čo býva jeho domu najbližšie, podľa počtu osôb, koľko stačí na zjedenie baránka.<br>" +
-                            "Baránok musí byť bezchybný, jednoročný samček; môžete ho vybrať z oviec alebo kozliat. Budete ho opatrovať do štrnásteho dňa tohoto mesiaca; v predvečer ho celá izraelská pospolitosť obetuje.<br>" +
-                            "Vezmú z jeho krvi a namažú ňou oboje verají a vrchný prah dverí na domoch, v ktorých ho budú jesť. A v tú noc budú jesť mäso upečené na ohni a nekvasený chlieb s horkými zelinami.<br>" +
-                            "A budete ho jesť takto: Bedrá budete mať opásané, sandále na nohách a palicu v ruke. Budete jesť rýchlo, lebo je Pánova Pascha (čiže Pánov prechod).<br>" +
-                            "V tú noc prejdem egyptskou krajinou a usmrtím všetko prvorodené v Egypte; človekom počnúc až po dobytok. A nad všetkými bohmi Egypta vykonám súd. Ja som Pán. Krv na vašich domoch bude znamením, že v nich bývate. Uvidím krv a obídem vás; nezastihne vás nijaká pohroma, keď budem biť Egypt.<br>" +
-                            "Tento deň bude pre vás pamätný a budete ho sláviť ako sviatok Pána; z pokolenia na pokolenie ho budete sláviť po všetky veky.“<br>" +
-                            "Počuli sme Božie slovo.<br>"},
-            {"E", "RESPONZORIOVÝ ŽALM", "Ž 116, 12-13. 15+16bc. 17-18", null,
-                    "<font color='#B71C1C'>R.:</font> Tento kalich dobrorečenia je účasťou na Kristovej krvi.<br><br>" +
-                            "Čím sa odvďačím Pánovi <font color='#B71C1C'>*</font><br>" +
-                            "za všetko, čo mi dal?<br>" +
-                            "Vezmem kalich spásy <font color='#B71C1C'>*</font><br>" +
-                            "a budem vzývať meno Pánovo. <font color='#B71C1C'>R.</font><br>" +
-                            "V Pánových očiach má veľkú cenu <font color='#B71C1C'>*</font><br>" +
-                            "smrť jeho svätých.<br>" +
-                            "Pane, som tvoj sluha a syn tvojej služobnice. <font color='#B71C1C'>*</font><br>" +
-                            "Ty si mi putá rozviazal: <font color='#B71C1C'>R.</font><br>" +
-                            "obetu chvály ti prinesiem <font color='#B71C1C'>*</font><br>" +
-                            "a budem vzývať meno Pánovo.<br>" +
-                            "Splním svoje sľuby Pánovi <font color='#B71C1C'>*</font><br>" +
-                            "pred všetkým jeho ľudom. <font color='#B71C1C'>R.</font><br>"},
-            {"E", "DRUHÉ ČÍTANIE", "1 Kor 11, 23-26",
-                    "Vždy, keď budete jesť tento chlieb a piť tento kalich, zvestujete Pánovu smrť",
-                    "Čítanie z Prvého listu svätého apoštola Pavla Korinťanom<br>" +
-                            "Bratia, ja som od Pána prijal, čo som vám aj odovzdal, že Pán Ježiš v tú noc, keď bol zradený, vzal chlieb, vzdával vďaky, lámal ho a povedal: „Toto je moje telo, ktoré je pre vás; toto robte na moju pamiatku.“<br>" +
-                            "Podobne po večeri vzal kalich a hovoril: „Tento kalich je nová zmluva v mojej krvi. Toto robte, kedykoľvek ho budete piť, na moju pamiatku.“<br>" +
-                            "A tak vždy, keď budete jesť tento chlieb a piť tento kalich, zvestujete Pánovu smrť, kým nepríde.<br>" +
-                            "Počuli sme Božie slovo.<br>"},
-            {"E", "VERŠ PRED EVANJELIOM", "Jn 13, 34", null,
-                    "<font color='#B71C1C'>R.</font> Chvála ti a česť, Pane Ježišu.<br>" +
-                            "Nové prikázanie vám dávam, hovorí Pán; aby ste sa milovali navzájom, ako som ja miloval vás.<br>" +
-                            "<font color='#B71C1C'>R.</font> Chvála ti a česť, Pane Ježišu.<br>"},
-            {"E", "EVANJELIUM", "Jn 13, 1-15",
-                    "Miloval ich do krajnosti",
-                    "<font color='#B71C1C'>†</font> Čítanie zo svätého Evanjelia podľa Jána<br>" +
-                            "Bolo pred veľkonočnými sviatkami. Ježiš vedel, že nadišla jeho hodina odísť z tohoto sveta k Otcovi. A pretože miloval svojich, čo boli na svete, miloval ich do krajnosti.<br>" +
-                            "Pri večeri, keď už diabol vnukol Judášovi, synovi Šimona Iškariotského, aby ho zradil, Ježiš vo vedomí, že mu Otec dal do rúk všetko a že od Boha vyšiel a k Bohu odchádza, vstal od stola, zobliekol si odev, vzal plátennú zásteru a prepásal sa. Potom nalial vody do umývadla a začal umývať učeníkom nohy a utierať zásterou, ktorou bol prepásaný.<br>" +
-                            "Tak prišiel k Šimonovi Petrovi. On mu povedal: „Pane, ty mi chceš umývať nohy?“<br>" +
-                            "Ježiš mu odpovedal: „Teraz ešte nechápeš, čo robím, ale neskôr pochopíš.“<br>" +
-                            "Peter mu povedal: „Nikdy mi nebudeš umývať nohy!“<br>" +
-                            "Ježiš mu odpovedal: „Ak ťa neumyjem, nebudeš mať podiel so mnou.“ Šimon Peter mu vravel: „Pane, tak potom nielen nohy, ale aj ruky a hlavu!“<br>" +
-                            "Ježiš mu na to: „Kto sa okúpal, potrebuje si umyť už len nohy a je celý čistý. A vy ste čistí, ale nie všetci.“ Vedel totiž, kto ho zradí, – preto povedal: „Nie všetci ste čistí.“<br>" +
-                            "Keď im umyl nohy a obliekol si odev, znova si sadol k stolu a povedal im: „Chápete, čo som vám urobil? Vy ma oslovujete: ‚Učiteľ‘ a: ‚Pane‘ a dobre hovoríte, lebo to som.<br>" +
-                            "Keď som teda ja, Pán a Učiteľ, umyl nohy vám, aj vy si máte jeden druhému nohy umývať. Dal som vám príklad, aby ste aj vy robili, ako som ja urobil vám.<br>" +
-                            "Počuli sme slovo Pánovo."},
-            {"N", "Umývanie nôh"},
-            {"K", "V homílii treba vysvetliť hlavné tajomstvá, ktoré sa pripomínajú v tejto omši: ustanovenie Oltárnej sviatosti, ustanovenie kňazstva a Pánov príkaz lásky. Ak je to z pastoračných dôvodov vhodné, môže sa konať obrad umývania nôh.<br>" +
-                    "Prisluhujúci privedú vybraných mužov (alebo chlapcov) k sedadlám, pripraveným na vhodnom mieste. Kňaz (ak treba, odloží ornát) príde ku každému, naleje mu vody na nohy a utrie ich. Prisluhujúci mu pritom pomáhajú.<br>" +
-                    "Medzitým sa spievajú niektoré z uvedených antifón alebo iné vhodné piesne."},
-            {"V", "Antifóny", null,
-                    "PRVÁ ANTIFÓNA", "(Porov. Jn 13, 4.5.15)", null,
-                            "Pán Ježiš vstal od večere, nalial vody do umývadla<br>" +
-                            "a začal učeníkom umývať nohy, aby im dal príklad.<br>",
-                            "DRUHÁ ANTIFÓNA", "(Porov. Jn 13, 6.7.8)", null,
-                            "Pane, ty mi chceš umývať nohy?<br>" +
-                            "Ježiš mu odpovedal: Ak ti neumyjem nohy, nebudeš mať<br>" +
-                            "so mnou podiel.<br>" +
-                            "<font color='#B71C1C'>V.:</font> Pristúpil teda k Simonovi Petrovi a Peter mu povedal:<br>" +
-                            "- Pane, ty mi chceš umývať nohy?...<br>" +
-                            "<font color='#B71C1C'>V.:</font> Čo ja robím, to teraz nechápeš. Pochopíš to neskôr.<br>" +
-                            "- Pane, ty mi chceš umývať nohy?...<br>",
-                    "TRETIA ANTIFÓNA", "(Porov. Jn 13, 14)", null,
-                            "Keď som vám teda ja, Pán a Učiteľ, umyl nohy,<br>" +
-                            "o koľko skôr vy máte jeden druhému umývať nohy!<br>",
-                            "ŠTVRTÁ ANTIFÓNA", "(Jn 13, 35)", null,
-                            "Podľa toho poznajú všetci, že ste moji učeníci,<br>" +
-                            "ak sa budete navzájom milovať.<br>" +
-                            "<font color='#B71C1C'>V.:</font> Ježiš povedal svojim učeníkom:<br>" +
-                            "- Podľa toho poznajú všetci...<br>",
-                            "PIATA ANTIFÓNA", "(Jn 13, 34", null,
-                            "Pán Ježiš hovorí: Nové prikázanie vám dávam,<br>" +
-                            "aby ste sa navzájom milovali, ako som ja miloval vás.<br>",
-                            "ŠIESTA ANTIFÓNA", "(Porov. 1 Kor 13, 13)", null,
-                            "Nech zostanú vo vás tieto tri čnosti: viera, nádej a láska.<br>" +
-                            "Najväčšia z nich je láska.<br>" +
-                            "<font color='#B71C1C'>V.:</font> Teraz ešte ostávajú viera, nádej, láska, všetky tri, ale najväčšia z nich je láska.<br>" +
-                            "- Nech zostanú vo vás tieto tri čnosti ...<br>"},
-            {"K", "Hneď po umývaní nôh, alebo ak sa tento obrad nekoná, hneď po homílii nasleduje modlitba veriacich.<br>" +
-                    "<font color='#000000'><b>Vyznanie viery</b></font> sa v tejto omši vynechá."},
-            {"N", "Spoločná modlitba veriacich"},
-            {"K", null,
-                    "Bratia a sestry, náš Spasiteľ pri Poslednej večeri ustanovil eucharistickú obetu svojho tela a krvi, aby ňou až do konca sveta sprítomňoval obetu kríža. V duchu sa spojme so všetkými bratmi a sestrami po celom svete a nábožne sa modlime. <br>" +
-                    "<i><font color='#B71C1C'>(</font>Volajme: Obdaruj svoju Cirkev jednotou a pokojom.<font color='#B71C1C'>)</font></i><br>" +
-                    "<br>" +
-                    "<font color='#B71C1C'>1.</font> Ježišu, zachovaj Svätého Otca <font color='#B71C1C'>M.</font> v zdraví a sile ducha pre dobro Cirkvi.<br>" +
-                    "<font color='#B71C1C'>2.</font> Požehnaj nášho biskupa <font color='#B71C1C'>M.</font> a všetkých biskupov, aby jasne a zrozumiteľne ukazovali cestu k tebe.<br>" +
-                    "<font color='#B71C1C'>3.</font> Našim kňazom a predstaveným udeľ Ducha lásky a obety v službe zvereným bratom a sestrám.<br>" +
-                    "<font color='#B71C1C'>4.</font> Daj, aby všetci kresťania našli v Eucharistii puto jednoty a večnú spásu.<br>" +
-                    "<font color='#B71C1C'>5.</font> Daj, aby sme mali otvorené srdcia pre potreby biednych, chudobných, chorých a tých, ktorí sú bez domova.<br>" +
-                    "<font color='#B71C1C'>6.</font> Požehnaj všetkých, ktorým dnes ich zdravotný stav neumožnil zúčastniť sa na tejto bohoslužbe.<br>" +
-                    "<br>" +
-                    "Ježišu, veľkňaz novej a večnej zmluvy,<br>" +
-                    "ďakujeme ti, že môžeme mať účasť<br>" +
-                    "na eucharistickej obete;<br>" +
-                    "vyslyš naše prosby a pomáhaj nám<br>" +
-                    "uskutočňovať príkaz lásky,<br>" +
-                    "ktorý si nám zanechal.<br>" +
-                    "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"N", "Liturgia Eucharistie"},
-            {"K", "Liturgia Eucharistie sa môže začať obetnou procesiou, v ktorej veriaci prinesú kňazovi okrem obetných darov aj dary pre chudobných. Medzitým sa spieva uvedený spev alebo iná vhodná pieseň."},
-            {"V", "Antifóny", null, null, null, null,
-                    "<font color='#B71C1C'>ANTIFÓNA:</font> Kde je láska opravdivá, tam Boh prebýva.<br>" +
-                            "<font color='#B71C1C'>V.:</font> Láska Kristova nás zhromažďuje k stolu.<br>" +
-                            "V ňom sa všetci tešme, radujme sa spolu.<br>" +
-                            "Vrúcne ctime Boha, nech je puto tuhšie.<br>" +
-                            "Milujme sa bratsky z otvorenej duše.<br><br>" +
-                            "<font color='#B71C1C'>ANTIFÓNA:</font> Kde je láska opravdivá, tam Boh prebýva.<br>" +
-                            "<font color='#B71C1C'>V.:</font> Keď nás teda láska spája pri oltári,<br>" +
-                            "hľaďme, by nás nikdy nedelili sváry.<br>" +
-                            "Nech sa od nás vzdialia nezhody a spory,<br>" +
-                            "medzi nami Kristus večné bratstvo tvorí.<br><br>" +
-                            "<font color='#B71C1C'>ANTIFÓNA:</font> Kde je láska opravdivá, tam Boh prebýva.<br>" +
-                            "<font color='#B71C1C'>V.:</font> Kriste, Bože, daj nám s blaženými raja<br>" +
-                            "obdivovať krásu tvojho obličaja.<br>" +
-                            "Ty, náš nesmierny zdroj čistej blaženosti,<br>" +
-                            "ktorá klíči v čase, zreje vo večnosti. Amen.<br>"},
-            {"K", null, "<font color='#B71C1C'>NAD OBETNÝMI DARMI</font><br>" +
-                    "Prosíme ťa, láskavý Otče, <font color='#B71C1C'>*</font><br>" +
-                    "pomôž nám nábožne sláviť eucharistické tajomstvo, <font color='#B71C1C'>—</font><br>" +
-                    "lebo vždy, keď slávime<br>" +
-                    "pamiatku Kristovej obety,<br>" +
-                    "uskutočňuje sa v nás dielo vykúpenia.<br>" +
+            {"red|small", "1. Omša na pamiatku Pánovej večere sa slávi vo večerných hodinách v čase, ktorý najviac umožňuje plnú účasť celého miestneho spoločenstva. Všetci kňazi a posluhujúci pri nej vykonávajú svoju službu.\n" +
+                    "2. Koncelebrovať môžu všetci kňazi, hoci už koncelebrovali pri omši svätenia olejov alebo slúžili inú omšu pre dobro veriacich.\n" +
+                    "3. Ak si to vyžadujú pastoračné dôvody, miestny ordinár môže dovoliť aj inú večernú omšu v kostoloch a oratóriách. Vo veľmi naliehavých prípadoch môže dovoliť svätú omšu aj v ranných hodinách pre veriacich, ktorí sa nemôžu zúčastniť na večernej omši. Treba dbať, aby táto omša nebola iba pre záujem jednotlivcov či malej skupinky osôb, a na úkor hlavnej večernej omše.\n" +
+                    "4. Sväté prijímanie možno veriacim podávať iba cez omšu, ale chorým ho možno zaniesť v ktorúkoľvek hodinu dňa.\n" +
+                    "5. Oltár možno ozdobiť kvetmi s miernosťou, ktorá prináleží tomuto dňu. Bohostánok má byť úplne prázdny. V tejto omši je potrebné konsekrovať dostatočné množstvo hostií na prijímanie kňazov a ľudu v dnešný i zajtrajší deň."},
+            {"center", "Úvodné obrady a liturgia slova"},
+            {"separated", "red", "6. VSTUPNÝ SPEV", "(Porov. Gal 6, 14)"},
+            {"", "Máme sa chváliť krížom nášho Pána Ježiša Krista, \n" +
+                    "v ktorom je naša spása, náš život, naše vzkriesenie; \n" +
+                    "on nás oslobodil a spasil."},
+            {"html|small", "<font color='#B71C1C'>7. Hymnus </font>Sláva Bohu na výsostiach<font color='#B71C1C'>. Kým sa spieva hymnus, zvonia zvony. Potom sa odmlčia až do spevu tohto hymnu na Veľkonočnú vigíliu, ak diecézny biskup nestanovil niečo iné. Organ a iné hudobné nástroje možno v tomto čase používať len na podporu spevu.</font>"},
+            {"red", "8. KOLEKTA"},
+            {"html", "Bože, zišli sme sa osláviť<br>" +
+                    "pamiatku najsvätejšej večere,<br>" +
+                    "pri ktorej tvoj jednorodený Syn,<br>" +
+                    "prv než seba samého vydal na smrť,<br>" +
+                    "zveril svojej Cirkvi novú a večnú obetu<br>" +
+                    "ako hostinu svojej lásky; <font color='#B71C1C'>*</font><br>" +
+                    "daj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby sme z tejto veľkej sviatosti<br>" +
+                    "čerpali plnosť lásky a života.<br>" +
+                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
+                    "po všetky veky vekov."},
+            {"red|small", "9. Po prednesení evanjelia má kňaz homíliu, v ktorej objasní hlavné tajomstvá pripomínané v tejto omši, a to ustanovenie Eucharistie a sviatosti kňazstva, ako aj Pánov príkaz lásky."},
+            {"center", "Umývanie nôh"},
+            {"red|small", "10. Po homílii, ak je to z pastoračných dôvodov vhodné, môže sa konať obrad umývania nôh.\n" +
+                    "11. Posluhujúci privedú vybraných z Božieho ľudu k sedadlám pripraveným na vhodnom mieste. Kňaz (ak treba, odloží ornát) príde ku každému, naleje mu vody na nohy a utrie ich. Posluhujúci mu pri tom pomáhajú.\n" +
+                    "12. Medzitým sa spievajú niektoré z uvedených antifón alebo iné vhodné piesne."},
+            {"separated", "red", "ANTIFÓNA 1", "(Porov. Jn 13, 4. 5. 15)"},
+            {"", "Pán vstal od večere, nalial vody do umývadla\n" +
+                    "a začal učeníkom umývať nohy, aby im dal príklad."},
+            {"separated", "red", "ANTIFÓNA 2", "(Porov. Jn 13, 12. 13. 15)"},
+            {"", "Pán Ježiš po večeri umyl svojim učeníkom nohy a povedal im:\n" +
+                    "„Chápete, čo som vám urobil ja, Pán a Učiteľ?\n" +
+                    "Dal som vám príklad, aby ste aj vy robili, ako som ja urobil vám.“"},
+            {"separated", "red", "ANTIFÓNA 3", "(Porov. Jn 13, 6. 7. 8)"},
+            {"html", "Pane, ty mi chceš umývať nohy?<br>" +
+                    "Ježiš mu odpovedal: Ak ti neumyjem nohy,<br>" +
+                    "nebudeš mať podiel so mnou.<br>" +
+                    "<font color='#B71C1C'>℣.</font> Pristúpil teda k Šimonovi Petrovi a Peter mu povedal:<br>" +
+                    "<font color='#B71C1C'>—</font> Pane, ty mi chceš umývať nohy? Ježiš mu odpovedal:<br>" +
+                    "Ak ti neumyjem nohy, nebudeš mať podiel so mnou.<br>" +
+                    "<font color='#B71C1C'>℣.</font> Čo ja robím, to teraz nechápeš. Pochopíš to neskôr.<br>" +
+                    "<font color='#B71C1C'>—</font> Pane, ty mi chceš umývať nohy? Ježiš mu odpovedal:<br>" +
+                    "Ak ti neumyjem nohy, nebudeš mať podiel so mnou."},
+            {"separated", "red", "ANTIFÓNA 4", "(Porov. Jn 13, 14)"},
+            {"", "Keď som vám teda ja, Pán a Učiteľ, umyl nohy,\n" +
+                    "o koľko skôr máte vy umývať nohy jeden druhému!"},
+            {"separated", "red", "ANTIFÓNA 5", "(Jn 13, 35)"},
+            {"html", "Podľa toho spoznajú všetci, že ste moji učeníci,<br>" +
+                    "ak sa budete navzájom milovať.<br>" +
+                    "<font color='#B71C1C'>℣.</font> Ježiš povedal svojim učeníkom:<br>" +
+                    "<font color='#B71C1C'>—</font> Podľa toho spoznajú všetci, že ste moji učeníci,<br>" +
+                    "ak sa budete navzájom milovať."},
+            {"separated", "red", "ANTIFÓNA 6", "(Jn 13, 34)"},
+            {"", "Nové prikázanie vám dávam, \n" +
+                    "aby ste sa milovali navzájom,\n" +
+                    "ako som ja miloval vás, hovorí Pán."},
+            {"separated", "red", "ANTIFÓNA 7", "(1 Kor 13, 13)"},
+            {"html", "Nech zostane vo vás viera, nádej a láska, tieto tri;<br>" +
+                    "no najväčšia z nich je láska.<br>" +
+                    "<font color='#B71C1C'>℣.</font> A tak teraz ostáva viera, nádej, láska, tieto tri; no najväčšia z nich je láska.<br>" +
+                    "<font color='#B71C1C'>—</font> Nech zostane vo vás viera, nádej a láska, tieto tri;<br>" +
+                    "no najväčšia z nich je láska."},
+            {"red|small", "13. Po umývaní nôh si kňaz umyje ruky, znova si oblečie ornát a vráti sa k sedadlu, kde pokračuje modlitbou veriacich.\n" +
+                    "Vyznanie viery sa vynechá."},
+            {"center", "Liturgia Eucharistie"},
+            {"red|small", "14. Liturgia Eucharistie sa môže začať procesiou, v ktorej veriaci môžu priniesť okrem chleba a vína aj dary pre chudobných.\n" +
+                    "Medzitým sa spieva tento alebo iný vhodný spev."},
+            {"html", "<font color='#B71C1C'>ANTIFÓNA:</font> Kde je láska opravdivá, tam Boh prebýva.<br>" +
+                    "<font color='#B71C1C'>℣.</font> Láska Kristova nás zhromažďuje k stolu.<br>" +
+                    "V ňom sa všetci tešme, radujme sa spolu.<br>" +
+                    "Vrúcne ctime Boha, nech je puto tuhšie.<br>" +
+                    "Milujme sa bratsky z otvorenej duše."},
+            {"html", "<font color='#B71C1C'>ANTIFÓNA:</font> Kde je láska opravdivá, tam Boh prebýva.<br>" +
+                    "<font color='#B71C1C'>℣.</font> Keď nás teda láska spája pri oltári,<br>" +
+                    "hľaďme, by nás nikdy nedelili sváry.<br>" +
+                    "Nech sa od nás vzdialia nezhody a spory,<br>" +
+                    "medzi nami Kristus večné bratstvo tvorí."},
+            {"html", "<font color='#B71C1C'>ANTIFÓNA:</font> Kde je láska opravdivá, tam Boh prebýva.<br>" +
+                    "<font color='#B71C1C'>℣.</font> Kriste, Bože, daj nám s blaženými raja obdivovať krásu tvojho obličaja.<br>" +
+                    "Ty, náš nesmierny zdroj čistej blaženosti, ktorá klíči v čase, zreje vo večnosti. Amen."},
+            {"red", "15. NAD OBETNÝMI DARMI"},
+            {"html", "Prosíme ťa, Pane,<br>" +
+                    "pomôž nám nábožne sláviť tieto tajomstvá, <font color='#B71C1C'>*</font><br>" +
+                    "lebo vždy, keď slávime pamiatku Kristovej obety, <font color='#B71C1C'>—</font><br>" +
+                    "uskutočňuje sa dielo nášho vykúpenia.<br>" +
                     "Skrze Krista, nášho Pána."},
-            {""},
-            {"P", "O Kristovej obete a sviatosti",
-                    "<font color='#B71C1C'>K.:</font> Pán s vami.<br>" +
-                            "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br>" +
-                            "<font color='#B71C1C'>K.:</font> Hore srdcia.<br>" +
-                            "<font color='#B71C1C'>Ľ.:</font> Máme ich u Pána.<br>" +
-                            "<font color='#B71C1C'>K.:</font> Vzdávajme vďaky Pánovi, Bohu nášmu.<br>" +
-                            "<font color='#B71C1C'>Ľ.:</font> Je to dôstojné a správne.<br>" +
-                            "<br>" +
-                            "Je naozaj dôstojné a správne, dobré a spásonosné<br>" +
-                            "vzdávať vďaky vždy a všade<br>" +
-                            "tebe, Pane, svätý Otče, všemohúci a večný Bože,<br>" +
-                            "skrze nášho Pána Ježiša Krista.<br>" +
-                            "Lebo on, pravý a večný kňaz,<br>" +
-                            "ustanovil spôsob ustavičnej obety<br>" +
-                            "a prvý seba samého priniesol tebe za obetu spásy.<br>" +
-                            "Aj nám prikázal sláviť túto obetu<br>" +
-                            "na jeho pamiatku.<br>" +
-                            "Jeho telo, obetované za nás,<br>" +
-                            "je duchovný pokrm, ktorý nás posilňuje,<br>" +
-                            "a jeho krv, vyliata za nás,<br>" +
-                            "je duchovný nápoj, ktorý nás očisťuje.<br>" +
-                            "Preto s anjelmi, archanjelmi<br>" +
-                            "a so zástupmi všetkých svätých<br>" +
-                            "spievame chválospev na tvoju slávu<br>" +
-                            "a neprestajne voláme:<br>" +
-                            "<br>" +
-                            "Svätý, svätý, svätý, je Pán, Boh všetkých svetov<br>" +
-                            "Plné sú, nebesia i zem tvojej slávy.<br>" +
-                            "Hosana na výsostiach!<br>" +
-                            "Požehnaný, ktorý prichádza v mene Pánovom<br>" +
-                            "Hosana na výsostiach!"},
-            {""},
-            {"O"},
-            {""},
-            {"E", "SPEV NA PRIJÍMANIE", "(Porov. 1 Kor 11, 24.25)", null,
-                    "Pán Ježiš hovorí: Toto je moje telo, ktoré sa obetuje za vás;<br>" +
-                    "tento kalich je nová zmluva, uzavretá mojou krvou.<br>" +
-                    "Kedykoľvek budete prijímať, robte to na moju pamiatku."},
-            {"K", "Po skončení prijímania nádobka s hostiami na prijímanie v nasledujúci deň ostane na oltári do konca omše. Omša sa skončí modlitbou po prijímaní.",
-                    "<br><font color='#B71C1C'>PO PRIJÍMANÍ</font><br>" +
-                            "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
-                            "na pozemskej púti nás posilňuješ<br>" +
-                            "posvätnou večerou svojho Syna; <font color='#B71C1C'>—</font><br>" +
-                            "oblažuj nás aj vo večnosti<br>" +
-                            "na jeho nebeskej hostine.<br>" +
-                            "O to ťa prosíme skrze Krista, nášho Pána."},
-            {"N", "Prenesenie Najsvätejšej sviatosti"},
-            {"K", "Po tejto modlitbe kňaz, stojac pred oltárom, vloží do kadidelnice temian a kľačiačky trikrát okiadza Oltárnu sviatosť. Potom si vezme vélum, zoberie nádobku s hostiami a zakryje ju koncami véla.<br>" +
-                    "Nasleduje sprievod na čele s krížom. Kňaz nesie Oltárnu sviatosť, sprevádzajú ho prisluhujúci so sviecami a kadidlom. Najsvätejšiu sviatosť odnesie cez kostol do niektorej primerane ozdobenej kaplnky a tam ju uschová. Medzitým sa spieva hymnus <font color='#000000'><i>Sviatosť tela tajomného</i></font> (1. až 4. sloha) <font color='#000000'><i>– Pange Lingua</i></font> alebo iná eucharistická pieseň.<br>" +
-                    "Keď sa príde na miesto, kde má byť uschovaná Oltárna sviatosť, kňaz vloží nádobku s hostiami do ozdobenej schránky, nasype do kadidelnice temian a kľačiačky okiadza Oltárnu sviatosť. Pritom sa <font color='#000000'><i>spieva Tantum ergo - Ctíme túto sviatosť slávnu.</i></font> Potom kňaz zatvorí úschovnú schránku alebo svätostánok.<br>" +
-                    "Po krátkej tichej poklone kňaz a prisluhujúci vstanú, pokľaknú na jedno koleno a vrátia sa do sakristie.<br>" +
-                    "Nasleduje obnaženie oltárov. Ak je to možné, odnesú sa z kostola aj kríže. Tie, čo zostanú v kostole, by sa mali zahaliť.<br>" +
-                    "Tí, čo sa zúčastnili na večernej omši, nerecitujú vešpery.<br>" +
-                    "Veriacich treba upozorniť, aby v noci - podľa miestnych zvyklostí a možnosti - venovali nejaký čas poklone Oltárnej sviatosti. Poklona po polnoci však už nemá mať slávnostný ráz."},
+            {"red", "16. PREFÁCIA"},
+            {"insert", "prefacia"},
+            {"html|small", "<font color='#B71C1C'>17. Ak sa recituje Rímsky kánon, použije sa vlastné znenie</font> V spoločenstve, Pane, milostivo prijmi a On večer pred svojím umučením.<br>" +
+                    "<font color='#B71C1C'>18. Kňaz rozopne ruky a povie:</font>"},
+            {"html", "<font color='#B71C1C'>Hl</font>Teba teda, najláskavejší Otče,<br>" +
+                    "pokorne vzývame a prosíme skrze Ježiša Krista,<br>" +
+                    "tvojho Syna a nášho Pána:"},
+            {"small|red", "Zopne ruky a povie:"},
+            {"", "láskavo prijmi"},
+            {"small|red", "Urobí jeden znak kríža spolu nad chlebom a kalichom, hovoriac:"},
+            {"html", "a požehnaj <font color='#B71C1C'>✠</font> tieto dary, tieto žertvy,<br>" +
+                    "tieto sväté a nepoškvrnené obety."},
+            {"small|red", "Pokračuje s rozopätými rukami:"},
+            {"html", "Prinášame ti ich<br>" +
+                    "najmä za tvoju svätú katolícku Cirkev<br>" +
+                    "v jednote s tvojím služobníkom,<br>" +
+                    "naším pápežom <font color='#B71C1C'>M.</font>,<br>" +
+                    "s naším biskupom <font color='#B71C1C'>M.*</font><br>" +
+                    "a so všetkými, ktorí vyznávajú<br>" +
+                    "pravú, katolícku a apoštolskú vieru.<br>" +
+                    "Daruj svojej Cirkvi pokoj,<br>" +
+                    "chráň ju, zjednocuj<br>" +
+                    "a spravuj po celom svete."},
+            {"small|red", "* Tu možno spomenúť biskupa koadjútora alebo pomocných biskupov v zmysle Všeobecných smerníc Rímskeho misála, č. 149.\n" +
+                    "19. Spomienka na živých"},
+            {"html", "<font color='#B71C1C'>1k</font> Pamätaj, Pane,<br>" +
+                    "na svojich služobníkov a služobnice <font color='#B71C1C'>M.</font> a <font color='#B71C1C'>M.</font>"},
+            {"smal|red", "Zopne ruky a chvíľu sa modlí za tých, ktorých si chce osobitne pripomenúť.\n" +
+                    "Potom s rozopätými rukami pokračuje:"},
+            {"", "Pamätaj i na všetkých tu zhromaždených.\n" +
+                    "Ty poznáš ich vieru\n" +
+                    "a vieš, že sú ti oddaní.\n" +
+                    "Za nich ti prinášame túto obetu chvály.\n" +
+                    "Aj oni sami ti ju obetujú za seba \n" +
+                    "i za všetkých svojich drahých,\n" +
+                    "za svoje vykúpenie,\n" +
+                    "za nádej na večnú spásu i za časné blaho \n" +
+                    "a predkladajú svoje prosby tebe,\n" +
+                    "Bohu večnému, živému a pravému."},
+            {"small|red", "20. Spomienka na svätých"},
+            {"html", "<font color='#B71C1C'>2k</font> V spoločenstve s oslávenou Cirkvou<br>" +
+                    "slávime presvätý deň,<br>" +
+                    "keď sa náš Pán Ježiš Kristus vydal za nás na smrť<br>" +
+                    "a s úctou si spomíname<br>" +
+                    "najmä na preblahoslavenú Máriu, vždy Pannu,<br>" +
+                    "Rodičku Boha a nášho Pána Ježiša Krista,<br>" +
+                    "ale i na svätého Jozefa, jej ženícha,<br>" +
+                    "a na tvojich svätých apoštolov a mučeníkov<br>" +
+                    "Petra a Pavla, Ondreja,<br>" +
+                    "<font color='#B71C1C'>(</font>Jakuba, Jána, Tomáša, Jakuba,<br>" +
+                    "Filipa, Bartolomeja, Matúša,<br>" +
+                    "Šimona a Tadeáša, Lína, Kléta, Klimenta,<br>" +
+                    "Sixta, Kornela, Cypriána, Vavrinca, Chryzogóna,<br>" +
+                    "Jána a Pavla, Kozmu a Damiána<font color='#B71C1C'>)</font><br>" +
+                    "i na všetkých tvojich svätých.<br>" +
+                    "Pre ich zásluhy a na ich prosby<br>" +
+                    "poskytni nám vždy a všade<br>" +
+                    "svoju pomoc a ochranu.<br>" +
+                    "<font color='#B71C1C'>(</font>Skrze Krista, nášho Pána. Amen.<font color='#B71C1C'>)</font>"},
+            {"small|red", "21. Pokračuje s rozopätými rukami:"},
+            {"html", "<font color='#B71C1C'>Hl</font> Pane, milostivo prijmi túto obetu,<br>" +
+                    "ktorú ti predkladáme my, tvoji služobníci,<br>" +
+                    " i celá tvoja rodina na pamiatku dňa,<br>" +
+                    "keď náš Pán Ježiš Kristus<br>" +
+                    "svojich učeníkov poveril<br>" +
+                    "slávením sviatostných tajomstiev svojho Tela a Krvi.<br>" +
+                    "Spravuj naše dni vo svojom pokoji,<br>" +
+                    "zachráň nás od večného zatratenia<br>" +
+                    "a pripočítaj k zástupu svojich vyvolených."},
+            {"small|red", "Zopne ruky."},
+            {"html", "<font color='#B71C1C'>(</font>Skrze Krista, nášho Pána. Amen.<font color='#B71C1C'>)</font>"},
+            {"small|red", "22. Vystrie ruky nad obetné dary a hovorí:"},
+            {"html", "<font color='#B71C1C'>Vš</font> Prosíme ťa, Bože,<br>" +
+                    "láskavo urob túto obetu vo všetkom požehnanou,<br>" +
+                    "dokonalou, prijatou, duchovnou a ľúbeznou,<br>" +
+                    "aby sa nám stala Telom a Krvou<br>" +
+                    "tvojho milovaného Syna, nášho Pána Ježiša Krista."},
+            {"small|red", "Zopne ruky.\n" +
+                    "23. V nasledujúcich formulách treba predniesť Pánove slová jasne a zrozumiteľne, ako si to vyžaduje ich povaha."},
+            {"", "On večer pred svojím umučením \n" +
+                    "za spasenie nás i všetkých ľudí,\n" +
+                    "čiže dnes,"},
+            {"small|red", "Vezme chlieb, drží ho trocha zdvihnutý nad oltárom a pokračuje:"},
+            {"", "vzal chlieb do svojich svätých a ctihodných rúk,"},
+            {"small|red", "Pozdvihne oči."},
+            {"", "pozdvihol oči k nebu, \n" +
+                    "k tebe, Bohu,\n" +
+                    "svojmu všemohúcemu Otcovi, \n" +
+                    "vzdával ti vďaky a dobrorečil, \n" +
+                    "lámal chlieb\n" +
+                    "a dával svojim učeníkom, hovoriac:"},
+            {"small|red", "Trocha sa skloní."},
+            {"center", "VEZMITE A JEDZTE Z NEHO VŠETCI, \n" +
+                    "LEBO TOTO JE MOJE TELO,\n" +
+                    "KTORÉ SA OBETUJE ZA VÁS."},
+            {"small|red", "Ukáže konsekrovanú hostiu ľudu,\n" +
+                    "znova ju položí na paténu a pokľaknutím adoruje.\n" +
+                    "24. Potom pokračuje:"},
+            {"", "Podobne po večeri"},
+            {"small|red", "Vezme kalich, drží ho trocha zdvihnutý nad oltárom a pokračuje:"},
+            {"", "vzal do svojich svätých a ctihodných rúk \n" +
+                    "aj tento preslávny kalich,\n" +
+                    "znova ti vzdával vďaky, dobrorečil \n" +
+                    "a dal ho svojim učeníkom, hovoriac:"},
+            {"small|red", "Trocha sa skloní."},
+            {"center", "VEZMITE A PITE Z NEHO VŠETCI,\n" +
+                    "LEBO TOTO JE KALICH MOJEJ KRVI,\n" +
+                    "KTORÁ SA VYLIEVA ZA VÁS I ZA MNOHÝCH\n" +
+                    "NA ODPUSTENIE HRIECHOV.\n" +
+                    "JE TO KRV NOVEJ A VEČNEJ ZMLUVY.\n" +
+                    "TOTO ROBTE NA MOJU PAMIATKU."},
+            {"small|red", "Ukáže kalich ľudu, znova ho položí na korporál a pokľaknutím adoruje.\n" +
+                    "25. Potom povie:"},
+            {"html", "<font color='#B71C1C'>Hl</font> Hľa, tajomstvo viery."},
+            {"small|red", "Ľud pokračuje zvolaním:"},
+            {"", "Smrť tvoju, Pane, zvestujeme\n" +
+                    "a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve."},
+            {"small|red", "Alebo:"},
+            {"html", "<font color='#B71C1C'>Hl</font> Vyznajme tajomstvo viery.<br>" +
+                    "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve."},
+            {"small|red", "Alebo:"},
+            {"html", "<font color='#B71C1C'>Hl</font> Veľké je tajomstvo viery.<br>" +
+                    "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním."},
+            {"small|red", "26. Potom kňaz s rozopätými rukami povie:"},
+            {"html", "<font color='#B71C1C'>Vš</font> Preto, Pane, my, tvoji služobníci<br>" +
+                    "aj tvoj svätý ľud,<br>" +
+                    "slávime pamiatku požehnaného umučenia<br>" +
+                    "a zmŕtvychvstania<br>" +
+                    "i slávneho nanebovstúpenia Ježiša Krista,<br>" +
+                    "tvojho Syna a nášho Pána,<br>" +
+                    "a prinášame tebe, vznešenému Bohu,<br>" +
+                    "dary z tvojich darov,<br>" +
+                    "svätý chlieb večného života<br>" +
+                    "a kalich večnej spásy<br>" +
+                    "ako obetu čistú, obetu svätú,<br>" +
+                    "obetu nepoškvrnenú."},
+            {"small|red", "27."},
+            {"", "Zhliadni na ne vľúdnym a láskavým okom \n" +
+                    "a milostivo ich prijmi,\n" +
+                    "ako si milo prijal obetné dary\n" +
+                    "svojho spravodlivého služobníka Ábela, \n" +
+                    "žertvu nášho praotca Abraháma\n" +
+                    "i svätú a nepoškvrnenú obetu\n" +
+                    "tvojho veľkňaza Melchizedecha."},
+            {"small|red", "28. Sklonený so zopätými rukami pokračuje:"},
+            {"", "Pokorne ťa prosíme, všemohúci Bože, \n" +
+                    "prikáž svojmu svätému anjelovi \n" +
+                    "preniesť tieto dary na tvoj nebeský oltár, \n" +
+                    "pred tvár tvojej božskej velebnosti,\n" +
+                    "aby nás všetkých,\n" +
+                    "ktorí máme účasť na tejto oltárnej obete\n" +
+                    "a prijmeme presväté Telo a Krv tvojho Syna,"},
+            {"small|red", "Vzpriami sa a prežehná sa, pritom hovorí:"},
+            {"", "naplnilo hojné nebeské požehnanie a milosť."},
+            {"small|red", "Zopne ruky."},
+            {"html", "<font color='#B71C1C'>(</font>Skrze Krista, nášho Pána. Amen.<font color='#B71C1C'>)</font>"},
+            {"small|red", "29. Spomienka na zosnulých. S rozopätými rukami povie:"},
+            {"html", "<font color='#B71C1C'>1k</font> Pamätaj, Pane,<br>" +
+                    "i na svojich služobníkov<br>" +
+                    "a služobnice <font color='#B71C1C'>M.</font> a <font color='#B71C1C'>M.</font>,<br>n" +
+                    "ktorí nás predišli do večnosti<br>" +
+                    "so znakom viery a spia spánkom pokoja."},
+            {"small|red", "Zopne ruky a chvíľu sa modlí za zosnulých, ktorých si chce osobitne pripomenúť.\n" +
+                    "Potom s rozopätými rukami pokračuje:"},
+            {"", "Prosíme ťa, Pane, daj im a všetkým, \n" +
+                    "ktorí odpočívajú v Kristovi,\n" +
+                    "prebývať na mieste blaha, svetla a pokoja."},
+            {"small|red", "Zopne ruky."},
+            {"html", "<font color='#B71C1C'>(</font>Skrze Krista, nášho Pána. Amen.<font color='#B71C1C'>)</font>"},
+            {"small|red", "30. Pravou rukou sa bije v prsia a hovorí:"},
+            {"html", "<font color='#B71C1C'>2k</font> Aj nás, svojich hriešnych služobníkov,"},
+            {"small|red", "A s rozopätými rukami pokračuje:"},
+            {"html", "ktorí dúfame v tvoje prehojné milosrdenstvo,<br>" +
+                    "priveď do spoločenstva<br>" +
+                    "svojich svätých apoštolov a mučeníkov:<br>" +
+                    "Jána, Štefana, Mateja, Barnabáša,<br>" +
+                    "<font color='#B71C1C'>(</font>Ignáca, Alexandra, Marcelína, Petra,<br>" +
+                    "Felicity, Perpetuy, Agáty, Lucie,<br>" +
+                    "Agnesy, Cecílie, Anastázie<font color='#B71C1C'>)</font><br>" +
+                    "a všetkých tvojich svätých.<br>" +
+                    "Prosíme ťa, prijmi nás do ich spoločenstva<br>" +
+                    "nie pre naše zásluhy,<br>" +
+                    "ale pre tvoje veľké zľutovanie."},
+            {"small|red", "Zopne ruky."},
+            {"", "Skrze nášho Pána Ježiša Krista."},
+            {"small|red", "31. A pokračuje:"},
+            {"html", "<font color='#B71C1C'>Hl</font> Skrze neho ty, Pane,<br>" +
+                    "všetky tieto dary stále tvoríš,<br>" +
+                    "posväcuješ, oživuješ,<br>" +
+                    "požehnávaš a nám dávaš."},
+            {"small|red", "32. Vezme paténu s hostiou a kalich, pozdvihne ich a hovorí:"},
+            {"html", "<font color='#B71C1C'>Vš</font> Skrze Krista, s Kristom a v Kristovi<br>" +
+                    "máš ty, Bože Otče všemohúci,<br>" +
+                    "v jednote Ducha Svätého<br>" +
+                    "všetku úctu a slávu po všetky veky vekov."},
+            {"small|red", "Ľud zvolá:"},
+            {"", "Amen."},
+            {"insert", "obrad prijimania"},
+            {"small|red", "33. Vo vhodnom momente obradu prijímania kňaz odovzdá Eucharistiu z oltára diakonom alebo akolytom, alebo iným mimoriadnym vysluhovateľom, aby ju potom mohli zaniesť chorým, ktorí ju prijmú doma."},
+            {"separated", "red", "34. SPEV NA PRIJÍMANIE", "(1 Kor 11, 24 – 25)"},
+            {"", "Toto je moje Telo, ktoré sa obetuje za vás;\n" +
+                    "tento kalich je nová zmluva v mojej Krvi, hovorí Pán.\n" +
+                    "Toto robte, kedykoľvek ho budete piť, na moju pamiatku."},
+            {"small|red", "35. Po skončení prijímania nádobka s hostiami určenými na prijímanie v nasledujúci deň ostane na oltári. Kňaz stojí pri sedese a prednesie modlitbu po prijímaní."},
+            {"red", "36. PO PRIJÍMANÍ"},
+            {"html", "Všemohúci Bože, <font color='#B71C1C'>*</font><br>" +
+                    "na pozemskej púti nás posilňuješ<br>" +
+                    "posvätnou večerou svojho Syna; <font color='#B71C1C'>—</font><br>" +
+                    "dopraj, aby sme mali účasť<br>" +
+                    "aj na jeho večnej hostine.<br>" +
+                    "Skrze Krista, nášho Pána."},
+            {"center", "Prenesenie Najsvätejšej sviatosti"},
+            {"html|small", "<font color='#B71C1C'>37. Po tejto modlitbe kňaz, stojac pred oltárom, vloží do kadidelnice tymian, požehná ho a kľačiačky trikrát okiadza Najsvätejšiu sviatosť. Potom si vezme vélum bielej farby, zoberie nádobku s hostiami a zakryje ju koncami véla.<br>" +
+                    "38. Nasleduje sprievod, v ktorom sa prenesie Najsvätejšia sviatosť so sviecami a kadidlom cez kostol na miesto, kde bude uložená, čo môže byť v primerane ozdobenej časti kostola alebo kaplnke. Na čele ide posluhujúci s krížom medzi dvoma posluhujúcimi so zažatými sviecami, za nimi idú ďalší so zažatými sviecami. Pred kňazom nesúcim Najsvätejšiu sviatosť ide posluhujúci s dymiacou kadidelnicou. Medzitým sa spieva hymnus </font>Sviatosť tela tajomného<font color='#B71C1C'> (okrem posledných dvoch slôh) alebo iná eucharistická pieseň.<br>" +
+                    "39. Keď sa príde na miesto, kde má byť uschovaná Najsvätejšia sviatosť, kňaz vloží nádobku s hostiami do bohostánku, pričom mu môže pomáhať diakon. Dvierka bohostánku nechá otvorené. Nasype do kadidelnice tymian a kľačiačky okiadza Najsvätejšiu sviatosť. Pritom sa spieva </font>Ctime túto sviatosť slávnu<font color='#B71C1C'> alebo iná eucharistická pieseň. Potom diakon alebo sám kňaz zatvorí bohostánok.<br>" +
+                    "40. Po krátkej tichej poklone kňaz a posluhujúci pokľaknú a vrátia sa do sakristie.<br>" +
+                    "41. Vo vhodnom momente sa obnaží oltár a odnesú sa, ak je to možné, kríže z kostola. Tie, čo zostanú v kostole, by sa mali zahaliť.<br>" +
+                    "42. Tí, čo sa zúčastnili na omši na pamiatku Pánovej večere, neslávia vešpery.<br>" +
+                    "43. Veriacich treba pozvať k tomu, aby v noci – podľa miestnych zvyklostí a možností – venovali nejaký čas poklone Najsvätejšej sviatosti. Poklona po polnoci však už nemá mať slávnostný ráz.<br>" +
+                    "44. Ak sa v danom kostole v Piatok utrpenia Pána nebudú sláviť obrady utrpenia a smrti Pána, omša sa ukončí zvyčajným spôsobom a Najsvätejšia sviatosť sa odloží do bohostánku.</font>"},
     };
 }
