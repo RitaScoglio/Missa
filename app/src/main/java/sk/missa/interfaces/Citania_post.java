@@ -1488,7 +1488,7 @@ public interface Citania_post {
                     "Diakoni (nie však iní) pred\u00A0spievaním pašií prosia od\u00A0kňaza požehnanie, ako sa to robí vo\u00A0svätej omši pred\u00A0evanjeliom.<br>" +
                     "Po pašiách, ak je to vhodné, nech je krátka homília.<br>" +
                     "Značky pri\u00A0dialogickom čítaní: E - evanjelista, + - Kristove slová, S - slová ostatných osôb.</font>",
-
+                    "",
                     "Hľadali spôsob, ako podvodne chytiť Ježiša a zabiť",
                     "<font color='#B71C1C'>E</font> Bolo dva dni pred\u00A0Veľkou nocou a sviatkami Nekvasených chlebov. Veľkňazi a zákonníci hľadali spôsob, ako podvodne chytiť Ježiša a zabiť ho. Ale hovorili: <font color='#B71C1C'>S</font> \"Nie vo\u00A0sviatok, aby sa ľud nevzbúril.\"",
                     "Vopred pomazala moje telo na\u00A0pohreb",
@@ -1618,12 +1618,11 @@ public interface Citania_post {
                             "<font color='#B71C1C'>E</font> Chrámová opona sa roztrhla vo\u00A0dvoje odvrchu až dospodku.<br>" +
                             "<font color='#B71C1C'>E</font> Keď stotník, čo stál naproti nemu, videl, ako vykríkol a skonal, povedal: <font color='#B71C1C'>S</font> \"Tento človek bol naozaj Boží Syn.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            {"60", "C", "", "Lk 22, 14 – 23, 56", "Umučenie nášho Pána Ježiša Krista podľa Lukáša<br>"+
+            {"60", "C", "Lk 22, 14 – 23, 56", "Umučenie nášho Pána Ježiša Krista podľa Lukáša<br>"+
                     "<font color='#B71C1C'>Pašie sa čítajú bez\u00A0sviečok a bez\u00A0incenzácie, bez\u00A0pozdravu a bez\u00A0poznačenia knihy znakom kríža. Číta ich diakon; ak ho niet, kňaz. Čítať ich môžu aj lektori laici; v\u00A0tomto prípade, ak je možné, treba vyhradiť kňazovi časti, v\u00A0ktorých hovorí Kristus.<br>" +
                             "Diakoni (nie však iní) pred\u00A0spievaním pašií prosia od\u00A0kňaza požehnanie, ako sa to robí vo\u00A0svätej omši pred\u00A0evanjeliom.<br>" +
                             "Po pašiách, ak je to vhodné, nech je krátka homília.<br>" +
                             "Značky pri\u00A0dialogickom čítaní: E - evanjelista, + - Kristove slová, S - slová ostatných osôb.</font>",
-
                     "Veľmi som túžil jesť s\u00A0vami tohto veľkonočného baránka skôr, ako budem trpieť",
                     "<font color='#B71C1C'>E</font> Keď prišla hodina, Ježiš zasadol za\u00A0stôl a apoštoli s\u00A0ním. Tu im povedal: <font color='#B71C1C'>+</font> \"Veľmi som túžil jesť s\u00A0vami tohoto veľkonočného baránka skôr, ako budem trpieť. Lebo hovorím vám: Už ho nebudem jesť, kým sa nenaplní v\u00A0Božom kráľovstve.\"<br>" +
                             "<font color='#B71C1C'>E</font> Vzal kalich, vzdával vďaky a povedal: <font color='#B71C1C'>+</font> \"Vezmite ho a rozdeľte si ho medzi sebou. Lebo hovorím vám: Odteraz už nebudem piť z\u00A0plodu viniča, kým nepríde Božie kráľovstvo.\"",
