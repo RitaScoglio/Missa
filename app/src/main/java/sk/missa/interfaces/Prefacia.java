@@ -1322,8 +1322,7 @@ public interface Prefacia {
                             "Preto s anjelmi aj archanjelmi, s trónmi a panstvami<br>" +
                             "a so všetkými nebeskými zástupmi<br>" +
                             "spievame chválospev na tvoju slávu<br>" +
-                            "a neprestajne voláme:",
-                    "SPACE",
+                            "a neprestajne voláme:<br><br>" +
                             "Svätý, svätý, svätý Pán, Boh všetkých svetov.<br>" +
                             "Plné sú, nebesia i zem tvojej slávy.<br>" +
                             "Hosana na výsostiach!<br>" +
