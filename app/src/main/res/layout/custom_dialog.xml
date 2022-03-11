@@ -21,6 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/dialog_title"
+        android:layout_above="@+id/dialog_button"
         android:divider="@color/background"
         android:dividerHeight="0dp"
         android:listSelector="@android:color/transparent"
