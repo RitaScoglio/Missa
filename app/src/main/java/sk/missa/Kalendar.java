@@ -453,6 +453,14 @@ public class Kalendar extends Main {
                         toast.setDuration(Toast.LENGTH_LONG);
                         toast.setView(layout);
                         toast.show();*/
+                        menoSvatca = word.getMenoSvatca();
+                        slavenie = word.getSlavenie();
+                        obdobie = word.getObdobie();
+                        pozicia_formular = pozicia_prefacia = pozicia_eucharistia = 0;
+                        preface = false;
+                        euchText = "";
+                        C = A = V = P = VN = false;
+                        zIntent = true;
                         Intent misal = new Intent(Kalendar.this, Trojdnie.class);
                         startActivity(misal);
                     } else {

@@ -351,6 +351,14 @@ public class Uvod extends Main {
                         toast.setView(layout);
                         toast.show();*/
                         //zIntent = true;
+                        menoSvatca = word.getMenoSvatca();
+                        slavenie = word.getSlavenie();
+                        obdobie = word.getObdobie();
+                        pozicia_formular = pozicia_prefacia = pozicia_eucharistia = 0;
+                        preface = false;
+                        euchText = "";
+                        C = A = V = P = VN = false;
+                        zIntent = true;
                         Intent misal = new Intent(Uvod.this, Trojdnie.class);
                         startActivity(misal);
                     } else {
