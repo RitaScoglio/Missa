@@ -1568,23 +1568,6 @@ public interface Texty {
             {"red|small", "16. Vo všetkých ostatných omšiach tejto nedele, v ktorých sa nekoná slávnostný vstup, Pánov vstup do Jeruzalema sa pripomína jednoduchým vstupom.\n" +
                     "17. Keď kňaz ide k oltáru, spieva sa vstupný spev so žalmom (pozri č. 18) alebo iný spev s rovnakou myšlienkou. Keď kňaz príde k oltáru, uctí si ho a odíde k sedadlu. Po prežehnaní pozdraví ľud; omša potom pokračuje zvyčajným spôsobom.\n" +
                     "V omšiach, v ktorých vstupný spev nemožno spievať, kňaz, len čo príde k oltáru a uctí si ho, pozdraví ľud, prečíta vstupný spev a omša pokračuje zvyčajným spôsobom."},
-            {"separated", "red", "VSTUPNÝ SPEV", "(Porov. Jn 12, 1. 12 – 13; Ž 24, 9 – 10)"},
-            {"html", "Šesť dní pred Veľkou nocou,<br>" +
-                    "keď Ježiš prichádzal do Jeruzalema,<br>" +
-                    "išli mu v ústrety deti s palmovými ratolesťami v rukách<br>" +
-                    "a nadšene volali:<br>" +
-                    "<br>" +
-                    "<font color='#B71C1C'>*</font> Hosanna na výsostiach!<br>" +
-                    "Požehnaný, ktorý prináša milosrdenstvo a spásu.<br>" +
-                    "<br>" +
-                    "Zdvihnite, brány, svoje hlavice a vyvýšte sa, brány prastaré,<br>" +
-                    "lebo má vstúpiť kráľ slávy. Kto je ten kráľ slávy?<br>" +
-                    "Pán zástupov, to je ten kráľ slávy.<br>" +
-                    "<br>" +
-                    "<font color='#B71C1C'>*</font> Hosanna na výsostiach!<br>" +
-                    "Požehnaný, ktorý prináša milosrdenstvo a spásu."},
-            {"center|bold", "Svätá omša"},
-            {"red|small", "19. Po procesii alebo po slávnostnom vstupe kňaz začne svätú omšu kolektou."}
     };
 
     String modlitba_zasvatenia = "<font color='#B71C1C'>Po svätom prijímaní kňaz nechá na oltári cibórium alebo vloží Hostiu do monštrancie a prikryje ju priesvitným závojom. Po modlitbe po prijímaní odhalí monštranciu a zíde ku kľačadlu. Vezme kadidelnicu a incenzuje Sviatosť. Ak je na oltári iba cibórium, incenzácia Sviatosti môže byť, ale nemusí. Medzitým sa spieva:</font><br>" +

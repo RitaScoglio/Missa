@@ -260,14 +260,14 @@ public interface Spevy_obdobia {
                     "keď Ježiš prichádzal do Jeruzalema,<br>" +
                     "išli mu v ústrety deti s palmovými ratolesťami v rukách<br>" +
                     "a nadšene volali: <br>" +
-                    "* Hosanna na výsostiach!<br>" +
+                    "<font color='#B71C1C'>*</font> Hosanna na výsostiach!<br>" +
                     "Požehnaný, ktorý prináša milosrdenstvo a spásu.<br>" +
                     "Zdvihnite, brány, svoje hlavice<br>" +
                     "a vyvýšte sa, brány prastaré,<br>" +
                     "lebo má vstúpiť kráľ slávy.<br>" +
                     "Kto je ten kráľ slávy?<br>" +
                     "Pán zástupov, to je ten kráľ slávy.<br>" +
-                    "* Hosanna na výsostiach!<br>" +
+                    "<font color='#B71C1C'>*</font> Hosanna na výsostiach!<br>" +
                     "Požehnaný, ktorý prináša milosrdenstvo a spásu.", "(Porov. Jn 12, 1. 12 – 13; Ž 24, 9 – 10)",
                     "Otče môj, ak ma tento kalich nemôže minúť <br>" +
                             "a musím ho piť, nech sa stane tvoja vôľa.", "(Mt 26, 42)"},
