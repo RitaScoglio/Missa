@@ -308,6 +308,8 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 }
             } else if (obrad[i][0].equals("separated")){
                 missas.add(new MassText(Arrays.asList(obrad[i]).subList(2, obrad[i].length), obrad[i][1]));
+            } else if (obrad[i].length == 1){
+                missas.add(new MassText(obrad[i][0]));
             } else {
                 missas.add(new MassText(obrad[i][1], obrad[i][0]));
             }
