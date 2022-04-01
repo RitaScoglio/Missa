@@ -1748,7 +1748,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     } else if (ID.equals("2gkp") || ID.equals("3gkp")) {
                         missas.add(new MassText(vsuvkaEM[4][1] + eucharistia[j + 2], "html"));
                     } else if (ID.equals("3dni4")) {
-                        missas.add(new MassText(vsuvkaEM[5][1], "html"));
+                        missas.add(new MassText(vsuvkaEM[5][1] + eucharistia[j + 2], "html"));
+                    } else if (ID.equals("3dni6")) {
+                        missas.add(new MassText(vsuvkaEM[6][1] + eucharistia[j + 2], "html"));
                     } else {
                         missas.add(new MassText(eucharistia[j].replace("VSUVKA1", "") + eucharistia[j + 2], "html"));
                     }
@@ -1761,6 +1763,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         missas.add(new MassText(vsuvkaEM[2][2], "html"));
                     } else if (ID.equals("3dni4")) {
                         missas.add(new MassText(vsuvkaEM[5][2], "html"));
+                    } else if (ID.equals("3dni6")) {
+                        missas.add(new MassText(vsuvkaEM[6][2], "html"));
                     } else {
                         missas.add(new MassText(eucharistia[j].replace("VSUVKA2", ""), "html"));
                     }
