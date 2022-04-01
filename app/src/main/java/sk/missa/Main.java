@@ -765,10 +765,14 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         else if (days > 39) //velky tyzday
             if (dvt == 4)
                 words.add(new Calendar("Štvrtok Pánovej večere", "", "(biela)", day, post, "3dni4", "p"));
-            else if (dvt == 5)
+            else if (dvt == 5) {
                 words.add(new Calendar("Piatok utrpenia Pána", "", "(červená)", day, post, "3dni5", "p"));
-            else if (dvt == 6)
+                words.add(new Calendar("Uloženie Oltárnej sviatosti", "", "(červená)", day, post, "3dni5p", "p"));
+            } else if (dvt == 6) {
+                words.add(new Calendar("Vyloženie Oltárnej sviatosti na Bielu sobotu ráno", "", "(biela)", day, post, "3dni6p1", "n"));
+                words.add(new Calendar("Ukončenie poklony v Božom hrobe", "", "(biela)", day, post, "3dni6p2", "n"));
                 words.add(new Calendar("Veľkonočná nedeľa Pánovho zmŕtvychvstania", "", "(biela)", day, post, "3dni6", "n"));
+            }
             else
                 words.add(new Calendar((dni[dvt] + " Veľkého týždňa"), "Féria", "(fialová)", day, post, Integer.toString(post) + dvt, "p"));
         else if (dvt == 0) {//postne nedele
