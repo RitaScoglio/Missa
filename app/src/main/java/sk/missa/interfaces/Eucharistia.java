@@ -10,7 +10,7 @@ package sk.missa.interfaces;
 public interface Eucharistia {
     String[][] vsuvkaEM = {
             {"Na Narodenie Pána a cez oktávu",
-                    "<font color='#B71C1C'>2.k</font> V spoločenstve s oslávenou Cirkvou<br>" +
+                    "<br><font color='#B71C1C'>2.k</font> V spoločenstve s oslávenou Cirkvou<br>" +
                             "slávime <font color='#B71C1C'>(</font>presvätú noc<font color='#B71C1C'>)</font> presvätý deň,<br>" +
                             "keď preblahoslavená Mária<br>" +
                             "v neporušenom panenstve porodila svetu Spasiteľa,<br>" +
@@ -18,7 +18,7 @@ public interface Eucharistia {
                             "najmä na túto preblahoslavenú Máriu, vždy Pannu,<br>" +
                             "Rodičku Boha a nášho Pána Ježiša Krista,"},
             {"Na Zjavenie Pána",
-                    "<font color='#B71C1C'>2.k</font> V spoločenstve s oslávenou Cirkvou<br>" +
+                    "<br><font color='#B71C1C'>2.k</font> V spoločenstve s oslávenou Cirkvou<br>" +
                     "slávime presvätý deň,<br>" +
                     "keď tvoj jednorodený Syn,<br>" +
                     "rovnako večný s tebou v tvojej sláve,<br>" +
@@ -27,7 +27,7 @@ public interface Eucharistia {
                     "najmä na preblahoslavenú Máriu, vždy Pannu,<br>" +
                     "Rodičku Boha a nášho Pána Ježiša Krista,"},
             {"Od omše Veľkonočnej vigílie až po Druhú veľkonočnú nedeľu",
-                    "<font color='#B71C1C'>2.k</font> V spoločenstve s oslávenou Cirkvou<br>" +
+                    "<br><font color='#B71C1C'>2.k</font> V spoločenstve s oslávenou Cirkvou<br>" +
                     "slávime <font color='#B71C1C'>(</font>presvätú noc<font color='#B71C1C'>)</font> presvätý deň,<br>" +
                     "keď náš Pán Ježiš Kristus vstal z mŕtvych,<br>" +
                     "a s úctou si spomíname<br>" +
@@ -35,7 +35,7 @@ public interface Eucharistia {
                     "Rodičku Boha a nášho Pána Ježiša Krista,",
                     "<font color='#B71C1C'>Hl</font> Pane, milostivo prijmi túto obetu, ktorú ti predkladáme my, tvoji služobníci, i celá tvoja rodina. Prinášame ti ju aj za tých, ktorých si znovuzrodil z vody a z Ducha Svätého a udelil si im odpustenie všetkých hriechov. Spravuj naše dni vo svojom pokoji, zachráň nás od večného zatratenia a pripočítaj k zástupu svojich vyvolených."},
             {"Na Nanebovstúpenie Pána",
-                    "<font color='#B71C1C'>2.k</font> V spoločenstve s oslávenou Cirkvou<br>" +
+                    "<br><font color='#B71C1C'>2.k</font> V spoločenstve s oslávenou Cirkvou<br>" +
                             "slávime presvätý deň,<br>" +
                             "keď náš Pán, tvoj jednorodený Syn,<br>" +
                             "našu krehkú prirodzenosť, spojenú so svojím božstvom,<br>" +
@@ -44,7 +44,7 @@ public interface Eucharistia {
                             "najmä na preblahoslavenú Máriu, vždy Pannu,<br>" +
                             "Rodičku Boha a nášho Pána Ježiša Krista,"},
             {"Na Turíce",
-                    "<font color='#B71C1C'>2.k</font> V spoločenstve s oslávenou Cirkvou<br>" +
+                    "<br><font color='#B71C1C'>2.k</font> V spoločenstve s oslávenou Cirkvou<br>" +
                     "slávime presvätý deň Turíc,<br>" +
                     "keď sa Duch Svätý v ohnivých jazykoch zjavil apoštolom,<br>" +
                     "a s úctou si spomíname<br>" +
@@ -202,7 +202,7 @@ public interface Eucharistia {
             "naplnilo hojné nebeské požehnanie a milosť.",
             "Zopne ruky.",
             "<font color='#B71C1C'>(</font>Skrze nášho Pána Ježiša Krista. Amen.<font color='#B71C1C'>)</font><br>",
-            "Spomienka na zosnulých", "",
+            "Spomienka na zosnulých", "<br>",
             "S rozopätými rukami povie:",
             "<font color='#B71C1C'>1.k</font> Pamätaj, Pane,<br>" +
                     "i na svojich služobníkov<br>" +
