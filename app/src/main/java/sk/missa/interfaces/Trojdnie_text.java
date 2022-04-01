@@ -1774,4 +1774,62 @@ public interface Trojdnie_text {
                     "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>℟.</font> Amen."}
     };
+
+    String[][] ulozenie_piatok = {
+            {"red|small|justify", "Adorácia v Božom hrobe trvá až do začiatku Veľkonočnej vigílie. Na noc sa však Najsvätejšia sviatosť uloží do svätostánku v kaplnke.\n" +
+        "Kňaz (diakon) si vezme na albu alebo superpelíciu červenú štólu, príde k Božiemu hrobu, chvíľu zotrvá v tichej modlitbe a potom sa s prítomnými modlí:"},
+            {"html", "<font color='#B71C1C'>℣.</font> Buď pozdravené, pravé Kristovo telo, obetované za nás na kríži.<br>" +
+        "<font color='#B71C1C'>℟.</font> Buď pozdravené, pravé Kristovo telo, obetované za nás na kríži.<br>" +
+        "<font color='#B71C1C'>℣.</font> Ježišu Kriste, Baránok bez poškvrny, ty si zomrel na kríži za naše hriechy. <br>" +
+        "<font color='#B71C1C'>℟.</font> Buď pozdravené, pravé Kristovo telo, obetované za nás na kríži.<br>" +
+        "<font color='#B71C1C'>℣.</font> Ježišu Kriste, tvoje telo, obetované za nás, je duchovný pokrm, ktorý nás posilňuje.<br>" +
+        "<font color='#B71C1C'>℟.</font> Buď pozdravené, pravé Kristovo telo, obetované za nás na kríži.<br>" +
+        "<font color='#B71C1C'>℣.</font> Ježišu Kriste, ty si nám v Oltárnej sviatosti zanechal pamiatku tvojej smrti a zmŕtvychvstania.<br>" +
+        "<font color='#B71C1C'>℟.</font> Buď pozdravené, pravé Kristovo telo, obetované za nás na kríži.<br>" +
+        "<font color='#B71C1C'>℣.</font> Baránok Boží, ty snímaš hriechy sveta.<br>" +
+        "<font color='#B71C1C'>℟.</font> Zmiluj sa nad nami.<br>" +
+        "<font color='#B71C1C'>℣.</font> Baránok Boží, ty snímaš hriechy sveta.<br>" +
+        "<font color='#B71C1C'>℟.</font> Zmiluj sa nad nami.<br>" +
+        "<font color='#B71C1C'>℣.</font> Baránok Boží, ty snímaš hriechy sveta.<br>" +
+        "<font color='#B71C1C'>℟.</font> Daruj nám pokoj."},
+            {"red|small|justify","Kňaz v tichosti uloží Najsvätejšia sviatosť do svätostánku v kaplnke."},
+    };
+
+    String[][] vylozenie_sobota = {
+            {"red|small|justify", "Po ranných chválach celebrant v albe alebo v superpelícii s fialovou štólou, prípadne aj vo fialovom pluviáli, ide s asistenciou k Božiemu hrobu, vyloží v monštrancii Najsvätejšiu sviatosť (monštrancia je zahalená bielym priesvitným závojom), kľakne si a chvíľu v tichosti adoruje.\n" +
+        "Potom sa z veriacimi modlí:"},
+            {"html", "<font color='#B71C1C'>℣.</font> Klaniame sa ti, Kriste, a dobrorečíme ti.<br>" +
+        "<font color='#B71C1C'>℟.</font> Lebo si svojím krížom vykúpil svet.<br>" +
+        "<font color='#B71C1C'>℣.</font> Pane, ja hľadám tvoju tvár.<br>" +
+        "<font color='#B71C1C'>℟.</font> Pane, ja hľadám tvoju tvár.<br>" +
+        "<font color='#B71C1C'>℣.</font> Čuj, Pane, hlas môjho volania, zľutuj sa nado mnou a vyslyš ma.<br>" +
+        "<font color='#B71C1C'>℟.</font> Pane, ja hľadám tvoju tvár.<br>" +
+        "<font color='#B71C1C'>℣.</font> V srdci mi znejú tvoje slová: Hľadajte jeho tvár!<br>" +
+        "<font color='#B71C1C'>℟.</font> Pane, ja hľadám tvoju tvár.<br>" +
+        "<font color='#B71C1C'>℣.</font> Ty si moja pomoc, neodvrhuj ma, ani ma neopúšťaj. Bože, moja spása.<br>" +
+        "<font color='#B71C1C'>℟.</font> Pane, ja hľadám tvoju tvár.<br>" +
+        "<font color='#B71C1C'>℣.</font> Verím, že uvidím dobrodenia Pánove v krajine žijúcich.<br>" +
+        "<font color='#B71C1C'>℟.</font> Pane, ja hľadám tvoju tvár."},
+    };
+
+    String[][] ukoncenie_sobota = {
+            {"red|small|justify", "Pred slávením Veľkonočnej vigílie sa ukončí poklona v Božom hrobe. \n" +
+                    "V stanovenú hodinu celebrant oblečený v albe alebo v superpelícii s fialovou štólou príde k Božiemu hrobu, kľakne si pred Oltárnou sviatosťou a chvíľu sa ticho modlí. Potom s prítomnými recituje vešpery Bielej soboty alebo aspoň prosby z nich."},
+            {"justify", "Úprimne sa klaňajme nášmu Vykupiteľovi, ktorý bol za nás umučený a pochovaný, aby vstal z mŕtvych, a pokorne ho vzývajme:"},
+            {"italic", "Pane, zmiluj sa nad nami."},
+            {"html", "Pane Ježišu, zo svojho boku, prebodnutého kopijou, si vylial krv a vodu, obdivuhodné tajomstvo celej Cirkvi;<br>" +
+                    "<font color='#B71C1C'>–</font> svojou smrťou, pochovaním a zmŕtvychvstaním oživuj túto svoju tajomnú Nevestu.<br>" +
+                    "Pane Ježišu, spomenul si si na tých, čo zabudli na tvoje prisľúbenia, že vstaneš z mŕtvych;<br>" +
+                    "<font color='#B71C1C'>–</font> nezabudni ani na tých, čo nevedia o tvojom zmŕtvychvstaní a žijú bez nádeje.<br>" +
+                    "Baránok Boží, ty si bol obetovaný za všetkých ako náš veľkonočný Baránok;<br>" +
+                    "<font color='#B71C1C'>–</font> pritiahni k sebe všetkých ľudí.<br>" +
+                    "Pane, v tvojej ruke je celý svet, a predsa si sa nechal zavrieť do hrobu;<br>" +
+                    "<font color='#B71C1C'>–</font> vysloboď ľudstvo z moci pekla a daruj mu slávu nesmrteľnosti.<br>" +
+                    "Kriste, Syn živého Boha, ty si z kríža zločincovi otvoril bránu raja;<br>" +
+                    "<font color='#B71C1C'>–</font> pridruž k sláve svojho zmŕtvychvstania zosnulých, čo sa ti stali podobnými v smrti a pochovaní."},
+            {"red|small|justify", "Namiesto Modlitby Pána a záverečnej modlitby kňaz povie:"},
+            {"html", "Tomu, čo sedí na tróne, a Baránkovi dobrorečenie a česť, sláva a moc na veky vekov.<br>" +
+                    "<font color='#B71C1C'>℟.</font>Amen."},
+            {"red|small|justify", "Potom celebrant vyberie hostiu z monštrancie a uloží ju do svätostánku. Socha Krista ležiaceho v hrobe sa prikryje bielou plachtou a zhasnú sa všetky svetlá okrem lampy pred svätostánkom."}
+    };
 }
