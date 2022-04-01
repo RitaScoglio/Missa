@@ -768,7 +768,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             else if (dvt == 5)
                 words.add(new Calendar("Piatok utrpenia Pána", "", "(červená)", day, post, "3dni5", "p"));
             else if (dvt == 6)
-                words.add(new Calendar("Veľkonočná vigília", "", "(biela)", day, post, "3dni6", "p"));
+                words.add(new Calendar("Veľkonočná nedeľa Pánovho zmŕtvychvstania", "", "(biela)", day, post, "3dni6", "n"));
             else
                 words.add(new Calendar((dni[dvt] + " Veľkého týždňa"), "Féria", "(fialová)", day, post, Integer.toString(post) + dvt, "p"));
         else if (dvt == 0) {//postne nedele
