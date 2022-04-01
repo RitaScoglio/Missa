@@ -243,7 +243,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 prefaciaArray.add("Žiadna prefácia");
                 break;
         }
-        if (!ID.equals("3dni5")) {
+        if (!ID.equals("3dni5") && !ID.contains("p")) {
             eucharistiaArray.add("1. eucharistická modlitba");
         }
         nadpis();
@@ -294,6 +294,15 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 break;
             case "3dni6":
                 obrad = sobota;
+                break;
+            case "3dni5p":
+                obrad = ulozenie_piatok;
+                break;
+            case "3dni6p1":
+                obrad = vylozenie_sobota;
+                break;
+            case "3dni6p2":
+                obrad = ukoncenie_sobota;
                 break;
             default:
                 break;
@@ -423,7 +432,7 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
     public void formular(View view) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(Html.fromHtml("<font color='#80242B'><b>Formulár</b></font>"));
-        final CharSequence[] form = formArray.toArray(new CharSequence[formArray.size()]);
+        final CharSequence[] form = formArraytoCharSequence();
         builder.setSingleChoiceItems(form, pozicia_formular, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int i) {
             }
