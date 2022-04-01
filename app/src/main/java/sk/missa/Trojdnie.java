@@ -1,5 +1,6 @@
 package sk.missa;
 
+import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -13,8 +14,10 @@ import android.support.v7.widget.RecyclerView;
 import android.text.Html;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -306,6 +309,8 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                         obradPrijimania(missas);
                         break;
                 }
+            } else if (obrad[i][0].equals("onClick")){
+                missas.add(new MassText(obrad[i][3], obrad[i][2], Integer.parseInt(obrad[i][1])));
             } else if (obrad[i][0].equals("separated")){
                 missas.add(new MassText(Arrays.asList(obrad[i]).subList(2, obrad[i].length), obrad[i][1]));
             } else if (obrad[i].length == 1){
