@@ -1048,7 +1048,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void sekvencia() {
         sekvencia = null;
         if (sequence) {
-            sekvencia = "font color='#B71C1C'>Sekvencia (otvoriť)";
+            sekvencia = "Sekvencia (otvoriť)";
         }
     }
 
@@ -2885,6 +2885,50 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         }
     }
 
+    public void openDialog(String title, String[][] text) {
+        final Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.custom_dialog);
+        RecyclerView dialogRecyclerView = dialog.findViewById(R.id.vypis_misal);
+        TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
+        Button dialogButton = dialog.findViewById(R.id.dialog_button);
+        final ArrayList<MassText> dg = new ArrayList<>();
+
+        if (nightMode) {
+            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
+            dialogTextView.setTextColor(getResources().getColor(R.color.background));
+            dialogButton.setTextColor(getResources().getColor(R.color.background));
+            dialogButton.setBackgroundColor(Color.BLACK);
+        } else {
+            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
+            dialogTextView.setTextColor(getResources().getColor(R.color.primary));
+            dialogButton.setTextColor(getResources().getColor(R.color.primary));
+            dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
+        }
+
+        dialogButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
+
+        dialogTextView.setText(title);
+        for (String[] strings : text) {
+            if (strings[0].equals("separated")) {
+                dg.add(new MassText(Arrays.asList(strings).subList(2, strings.length), strings[1]));
+            } else if (strings[0].equals("BAR")) {
+                dg.add(new MassText("divider"));
+            } else {
+                dg.add(new MassText(strings[1], strings[0]));
+            }
+        }
+
+        MassTextAdapter ada = new MassTextAdapter(dg);
+        dialogRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        dialogRecyclerView.setAdapter(ada);
+        dialog.show();
+    }
+
     //nastavenie režimu, písma, komentárov pri otvorení dialógového okna
     public void otvorExtra(TextView text, String[] vypis) {
         for (int i = 0; i < vypis.length; i++) {
@@ -3188,6 +3232,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         }
                         pozicia_listview = position;
                         vypis();
+                        double_click = 0;
                         break;
                     //druhe citanie
                     case 12:
@@ -3206,6 +3251,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         }
                         pozicia_listview = position;
                         vypis();
+                        double_click = 0;
                         break;
                     //evanjelium
                     case 13:
@@ -3220,6 +3266,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         }
                         pozicia_listview = position;
                         vypis();
+                        double_click = 0;
                         break;
                     //zalm
                     case 14:
@@ -3234,6 +3281,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         }*/
                         pozicia_listview = position;
                         vypis();
+                        double_click = 0;
                         break;
                     //prosby
                     case 15:
@@ -3245,14 +3293,17 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         prosby_zaver = aleboProsby[0][4];
                         pozicia_listview = position;
                         vypis();
+                        double_click = 0;
                         break;
                     case 16:
                         changeAleboPasie();
                         pozicia_listview = position;
                         vypis();
+                        double_click = 0;
                         break;
                     case 17:
                         kvetnaNedelaDialog();
+                        double_click = 0;
                         break;
                     case 18:
                         otvorenie(10);
@@ -3276,12 +3327,15 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         prefacia();
                         pozicia_listview = position;
                         vypis();
+                        double_click = 0;
                         break;
                     case 21:
                         prosbyRozlicnePotreby();
+                        double_click = 0;
                         break;
                     case 22:
                         otvorenie(17);
+                        double_click = 0;
                         break;
                     case 23:
                         changeAleboCitanie(aleboAleluja, mText.getOptionalTextIndex());
@@ -3295,9 +3349,11 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         }
                         pozicia_listview = position;
                         vypis();
+                        double_click = 0;
                         break;
                     case 24:
                         pozehnanieSviecDialog();
+                        double_click = 0;
                         break;
                     default:
                         break;
@@ -3307,9 +3363,15 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     }
 
     private void rozpustenieLudu(ArrayList<MassText> missas) {
-        for (int i = 0; i < rozpustenie_ludu.length; i = i + 2) {
-            missas.add(new MassText(rozpustenie_ludu[i], "red|small"));
-            missas.add(new MassText(rozpustenie_ludu[i + 1], ""));
+        String[] vypis;
+        if(VN && (slavenie.equals("Oktáva") || ID.equals("20") || ID.equals("10"))){
+            vypis = rozpustenie_ludu_oktava;
+        } else {
+            vypis = rozpustenie_ludu;
+        }
+        for (int i = 0; i < vypis.length; i = i + 2) {
+            missas.add(new MassText(vypis[i], "red|small"));
+            missas.add(new MassText(vypis[i + 1], ""));
         }
     }
 
@@ -3322,14 +3384,15 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void vypisAleboPasie(ArrayList<MassText> missas) {
         missas.add(new MassText("Alebo: " + postEvanjelium[pasie][pasie2_suradnice], "red|smallPadding", 16, 0));
         missas.add(new MassText(Arrays.asList(evanjelium.toUpperCase(), postEvanjelium[pasie][pasie1_suradnice]), "red|smallPadding"));
-        missas.add(new MassText(postEvanjelium[pasie][3], "html|justify"));
+        missas.add(new MassText(postEvanjelium[pasie][3], "justify"));
+        missas.add(new MassText(postEvanjelium[pasie][4], "red|small|justify"));
         if (pasie1_suradnice < pasie2_suradnice)
-            for (int i = 4; i < pasie2_suradnice - 1; i = i + 2) {
+            for (int i = 5; i < pasie2_suradnice - 1; i = i + 2) {
                 missas.add(new MassText(postEvanjelium[pasie][i], "italic|center"));
                 missas.add(new MassText(postEvanjelium[pasie][i + 1], "html|justify"));
             }
         else
-            for (int i = pasie1_suradnice + 1; i < postEvanjelium[pasie].length; i = i + 2) {
+            for (int i = pasie1_suradnice + 2; i < postEvanjelium[pasie].length; i = i + 2) {
                 missas.add(new MassText(postEvanjelium[pasie][i], "italic|center"));
                 missas.add(new MassText(postEvanjelium[pasie][i + 1], "html|justify"));
             }
