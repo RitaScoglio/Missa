@@ -823,9 +823,10 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         velkanoc = (days / 7) + 1; //vypocet tyzdna vo velkonocnom obdobi
         prvyPiatok = prvyStvrtok = false;
 
-        if (mD.isEqual(mVN))
+        if (mD.isEqual(mVN)) {
             words.add(new Calendar("Veľkonočná nedeľa".toUpperCase(), "", "(biela)", day, velkanoc, Integer.toString(velkanoc) + dvt, "n"));
-        else if (mD.isEqual(mZP))
+            words.add(new Calendar("Eucharistická procesia na oslavu vzkrieseného Pána", "", "(biela)", day, velkanoc, "3dni0p", "n"));
+        } else if (mD.isEqual(mZP))
             words.add(new Calendar("Zvestovanie Pána", "Slávnosť", "(biela)", day, velkanoc, "1gkp", "n"));
         else if (mD.isEqual(mDS))
             words.add(new Calendar("Zoslanie Ducha Svätého".toUpperCase(), "Slávnosť", "(červená)", day, velkanoc, "3gkp", "n"));
