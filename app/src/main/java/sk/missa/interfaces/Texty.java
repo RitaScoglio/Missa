@@ -1751,6 +1751,15 @@ public interface Texty {
                     "Bohu vďaka."
     };
 
+    String[] rozpustenie_ludu_oktava = {
+            "Potom diakon alebo sám kňaz, obrátený k ľudu, so zopätými rukami povie:",
+            "Choďte v mene Božom, aleluja, aleluja.",
+            "Alebo:",
+            "Choďte v pokoji, aleluja, aleluja.",
+            "Ľud odpovie:",
+            "Bohu vďaka, aleluja, aleluja"
+    };
+
     String[][] pozehnanie_sviec_procesia = {
             {"Prvý spôsob: Procesia<br>",
                     "<font color='#B71C1C'>1. V určenom čase sa veriaci zídu v menšom kostole alebo na inom vhodnom mieste mimo kostola, ku ktorému sa má procesia uberať. V rukách majú nezažaté sviece.<br>" +
