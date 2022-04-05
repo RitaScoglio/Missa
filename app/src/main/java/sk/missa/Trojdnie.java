@@ -325,6 +325,9 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
             case "3dni6p2":
                 obrad = ukoncenie_sobota;
                 break;
+            case "3dni0p":
+                obrad = eucharisticka_procesia_vn_nedela;
+                break;
             default:
                 break;
         }
@@ -417,7 +420,43 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                         double_click = 0;
                         break;
                     case 8:
-                        openDialog(mText.getText().replace(" (otvoriť)", ""), eucharisticka_procesia_vn);
+                        openDialog(mText.getText().replace(" (otvoriť)", ""), eucharisticka_procesia_vn_sobota);
+                        double_click = 0;
+                        break;
+                    /*case 9:
+                        openDialog(mText.getText().replace(" (otvoriť)", ""), eucharisticka_procesia_vn_nedela);
+                        double_click = 0;
+                        break;*/
+                    case 10:
+                        openDialog(mText.getText().replace(" (otvoriť)", ""), new String[][]{{"", gloria_vypis}});
+                        double_click = 0;
+                        break;
+                    case 11:
+                        openDialog(mText.getText().replace(" (otvoriť)", ""), citanie1_sobota);
+                        double_click = 0;
+                        break;
+                    case 12:
+                        openDialog(mText.getText().replace(" (otvoriť)", ""), citanie2_sobota);
+                        double_click = 0;
+                        break;
+                    case 13:
+                        openDialog(mText.getText().replace(" (otvoriť)", ""), citanie3_sobota);
+                        double_click = 0;
+                        break;
+                    case 14:
+                        openDialog(mText.getText().replace(" (otvoriť)", ""), citanie4_sobota);
+                        double_click = 0;
+                        break;
+                    case 15:
+                        openDialog(mText.getText().replace(" (otvoriť)", ""), citanie5_sobota);
+                        double_click = 0;
+                        break;
+                    case 16:
+                        openDialog(mText.getText().replace(" (otvoriť)", ""), citanie6_sobota);
+                        double_click = 0;
+                        break;
+                    case 17:
+                        openDialog(mText.getText().replace(" (otvoriť)", ""), ccitanie7_sobota);
                         double_click = 0;
                         break;
                     default:
@@ -425,44 +464,6 @@ public class Trojdnie extends Misal implements Trojdnie_text, Eucharistia, Texty
                 }
             }
          });
-    }
-
-    private void openDialog(String title, String[][] text) {
-        final Dialog dialog = new Dialog(this);
-        dialog.setContentView(R.layout.custom_dialog);
-        RecyclerView dialogRecyclerView = dialog.findViewById(R.id.vypis_misal);
-        TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
-        Button dialogButton = dialog.findViewById(R.id.dialog_button);
-        final ArrayList<MassText> dg = new ArrayList<>();
-
-        if (nightMode) {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
-            dialogTextView.setTextColor(getResources().getColor(R.color.background));
-            dialogButton.setTextColor(getResources().getColor(R.color.background));
-            dialogButton.setBackgroundColor(Color.BLACK);
-        } else {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-            dialogTextView.setTextColor(getResources().getColor(R.color.primary));
-            dialogButton.setTextColor(getResources().getColor(R.color.primary));
-            dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
-        }
-
-        dialogButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                dialog.dismiss();
-            }
-        });
-
-        dialogTextView.setText(title);
-        for (String[] strings : text) {
-            dg.add(new MassText(strings[1], strings[0]));
-        }
-
-        MassTextAdapter ada = new MassTextAdapter(dg);
-        dialogRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        dialogRecyclerView.setAdapter(ada);
-        dialog.show();
     }
 
     @Override
