@@ -1827,12 +1827,9 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 missas.add(new MassText(pozehnanie_Blazej[i + 1], "html"));
             }
         } else if (ID.equals("4gkp")) {
-            missas.add(new MassText("<font color='#B71C1C'>Eucharistická procesia (otvoriť)</font>", "html", 6));
+            missas.add(new MassText("Eucharistická procesia (otvoriť)", "red|bigPadding", 6));
         } else {
-            if (P)
-                missas.add(new MassText("<font color='#B71C1C'>Modlitba nad ľudom (otvoriť)</font>", "html", 7));
-            else
-                missas.add(new MassText("<font color='#B71C1C'>Modlitby nad ľudom (otvoriť)</font>", "html", 7));
+                missas.add(new MassText("Modlitba nad ľudom (otvoriť)", "red|bigPadding", 7));
         }
     }
 
@@ -2981,8 +2978,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             slav_pozehnanie = 13;
         else if(P && slavenie.equals("Slávnosť"))
             slav_pozehnanie = 2;
-        else if (nedela || slavenie.equals("Slávnosť") || slavenie.equals("Sviatok")
-                || slavenie.equals("Oktáva") || slavenie.equals("Vigília")) {
+        else if ((nedela || slavenie.equals("Slávnosť") || slavenie.equals("Sviatok")
+                || slavenie.equals("Oktáva") || slavenie.equals("Vigília")) && !P) {
             if (A)
                 slav_pozehnanie = 0;
             else if (V)
@@ -3005,7 +3002,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             missas.add(new MassText("Požehnanie sviec a procesia (otvoriť)", "red|bigPadding", 24));
         missas.add(new MassText("bell"));
         if (ID.equals("60") && P) {
-            missas.add(new MassText("Spomienka na Pánov vstup do Jeruzalema (otvoriť)", "red", 17));
+            missas.add(new MassText("Spomienka na Pánov vstup do Jeruzalema (otvoriť)", "red|smallPadding", 17));
         }
         missas.add(new MassText(Arrays.asList(uvodny_spev.toUpperCase(), uvodny_suradnice), "red|smallPadding"));
         missas.add(new MassText(uvodny_spev_vypis, "html|justify"));
@@ -3392,7 +3389,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                 missas.add(new MassText(postEvanjelium[pasie][i + 1], "html|justify"));
             }
         else
-            for (int i = pasie1_suradnice + 2; i < postEvanjelium[pasie].length; i = i + 2) {
+            for (int i = pasie1_suradnice + 1; i < postEvanjelium[pasie].length; i = i + 2) {
                 missas.add(new MassText(postEvanjelium[pasie][i], "italic|center"));
                 missas.add(new MassText(postEvanjelium[pasie][i + 1], "html|justify"));
             }
