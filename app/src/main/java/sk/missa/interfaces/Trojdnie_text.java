@@ -837,8 +837,21 @@ public interface Trojdnie_text {
             {"html", "Všemohúci a večný Bože,<br>" +
                     "útecha zarmútených a posila trpiacich, <font color='#B71C1C'>*</font><br>" +
                     "vypočuj prosby tých, čo ťa vzývajú<br>" +
-                    " vo svojich súženiach, <font color='#B71C1C'>—</font><br>" +
+                    "vo svojich súženiach, <font color='#B71C1C'>—</font><br>" +
                     "a poteš ich v každej núdzi svojou láskavou pomocou.<br>" +
+                    "Skrze Krista, nášho Pána.<br>" +
+                    "<font color='#B71C1C'>℟.</font> Amen."},
+            //extra pre rok 2022
+            {"red|bold|smallPadding", "XI. ZA MIER NA UKRAJINE A NA CELOM SVETE"},
+            {"justify", "Modlime sa za ľudí na Ukrajine a vo všetkých vojnových oblastiach sveta; nech náš Boh a Pán obráti zatvrdilé srdcia a zmiluje sa nad trpiacimi a nech dá svoj pokoj všetkým národom."},
+            {"small|red", "Modlitba v tichosti. Potom kňaz pokračuje:"},
+            {"html", "Všemohúci a večný Bože,<br>" +
+                    "ty maríš plány násilníkov<br>" +
+                    "a pokoruješ zlobu mocných. <font color='#B71C1C'>*</font><br>" +
+                    "Zmiluj sa nad obeťami vojen, ujmi sa utečencov<br>" +
+                    "a zhliadni na tých, ktorí sú držaní v zajatí; <font color='#B71C1C'>―</font><br>" +
+                    "vysloboď celý svet z rozbrojov a zmätku,<br>" +
+                    "aby ti mohol v mieri slobodne slúžiť.<br>" +
                     "Skrze Krista, nášho Pána.<br>" +
                     "<font color='#B71C1C'>℟.</font> Amen."},
             {"center|bold|bigPadding", "II. ČASŤ\n" +
