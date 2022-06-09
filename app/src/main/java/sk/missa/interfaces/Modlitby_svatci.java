@@ -1227,27 +1227,6 @@ public interface Modlitby_svatci {
                                     "a na príhovor svätého Mateja nás prijmi <br>" +
                                     "do blaženého spoločenstva svojich svätých.<br>" +
                                     "Skrze Krista, nášho Pána."},
-                    {"16", "Milosrdný Bože, <br>" +
-                            "ty si vyvolil kňaza a mučeníka Jána <br>" +
-                            "za obrancu práv Cirkvi <br>" +
-                            "a za strážcu spovedného tajomstva; <font color='#B71C1C'>*</font><br>" +
-                            "prosíme ťa, pomáhaj nám, <br>" +
-                            "aby sme si vzali príklad z jeho statočnosti <font color='#B71C1C'>—</font><br>" +
-                            "a verne konali službu, do ktorej si nás povolal. <br>" +
-                            "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
-                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
-                            "po všetky veky vekov.",
-                            "Bože, prijmi obetu zmierenia a chvály, <br>" +
-                                    "ktorú slávime na sviatok svätého Jána Nepomuckého; <font color='#B71C1C'>*</font><br>" +
-                                    "pre jej zásluhy odpusť nám hriechy <font color='#B71C1C'>—</font><br>" +
-                                    "a naplň nás ustavičnou vďačnosťou. <br>" +
-                                    "Skrze Krista, nášho Pána.",
-                            "Milosrdný Bože, nech nás posilňuje <br>" +
-                                    "nebeský chlieb, ktorý sme prijali, <font color='#B71C1C'>*</font><br>" +
-                                    "ako posilňoval tvojho kňaza a mučeníka Jána, <font color='#B71C1C'>—</font><br>" +
-                                    "aby sme ti vždy a vo všetkých <br>" +
-                                    "okolnostiach zostali verní. <br>" +
-                                    "Skrze Krista, nášho Pána."},
                     {"16g", "Milosrdný Bože, <br>" +
                             "ty si vyvolil kňaza a mučeníka Jána <br>" +
                             "za obrancu práv Cirkvi <br>" +
