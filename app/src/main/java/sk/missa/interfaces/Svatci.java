@@ -324,7 +324,7 @@ public interface Svatci {
             {"17", "Sv. Alžbety Uhorskej, rehoľníčky", "Spomienka", "(biela)"},
             {"17gk", "KATEDRÁLA SV. ALŽBETY V KOŠICIACH: Sv. Alžbety Uhorskej, rehoľníčky (Titul katedrály)", "Slávnosť", "(biela)"},
             {"18", "Výročie posviacky bazilík sv. Petra a sv. Pavla, apoštolov", "Ľubovoľná spomienka", "(biela)"},
-            {"20gv", "NITRIANSKA DIECÉZA: Výročie posviacky katedrálneho chrámu svätého Emeráma", "Sviatok", "(biela)"},
+            //{"20gv", "NITRIANSKA DIECÉZA: Výročie posviacky katedrálneho chrámu svätého Emeráma", "Sviatok", "(biela)"},
             {"20", "KOŠICKÁ ARCIDIECÉZA: Bl. Anny Kolesárovej, panny a mučenice", "Ľubovoľná spomienka", "(červená)"},
             {"21m", "Obetovanie Preblahoslavenej Panny Márie", "Spomienka", "(biela)"},
             {"22", "Sv. Cecílie, panny a mučenice", "Spomienka", "(červená)"},
