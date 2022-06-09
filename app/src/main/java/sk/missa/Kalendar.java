@@ -382,6 +382,7 @@ public class Kalendar extends Main {
                 break;
             case 10:
                 ziskajAaV(rr, rr+1);
+                pohybliveSviatky(rr);
                 slavenieMesiac(31, month11);
                 break;
             case 11:
