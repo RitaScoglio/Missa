@@ -29,32 +29,9 @@ public interface Texty {
             "<font color='#B71C1C'>Ľud:</font> I s duchom tvojim.<br>" +
             "<br>" +
             "<font color='#B71C1C'>Kňaz:</font> Milosť vám a pokoj od Boha, nášho Otca, i od Pána Ježiša Krista.<br>" +
-            "<font color='#B71C1C'>Ľud:</font> Nech je požehnaný Boh a Otec nášho Pána Ježiša Krista.<br>" +
-            "<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> Milosť a pokoj nech sú s vami všetkými vo svätej Božej Cirkvi.<br>" +
             "<font color='#B71C1C'>Ľud:</font> I s duchom tvojim.<br>" +
             "<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> Milosť, milosrdenstvo a pokoj nášho Boha Otca i Ježiša Krista, nášho Spasiteľa, nech je s vami všetkými.<br>" +
-            "<font color='#B71C1C'>Ľud:</font> I s duchom tvojim.<br>" +
-            "<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> Milosť vám a pokoj od Boha Otca a od Ježiša Krista, ktorý si vás zamiloval, a svojou krvou obmyl vás od hriechov.<br>" +
-            "<font color='#B71C1C'>Ľud:</font> Jemu sláva na veky vekov. Amen.<br>" +
-            "<i>(alebo)</i><br>" +
-            "<font color='#B71C1C'>Ľud:</font> Nech je požehnaný Boh a Otec nášho Pána Ježiša Krista.<br>" +
-            "<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> Milosť, milosrdenstvo a pokoj vám od Boha a od Ježiša Krista, jeho Syna a nášho Pána, v pravde a láske.<br>" +
-            "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<i>(alebo)</i><br>" +
-            "<font color='#B71C1C'>Ľud:</font> I s duchom tvojim.<br>" +
-            "<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> Nech vám Pán otvorí srdcia, aby ste poznali jeho zákon, nech vyslyší vaše prosby a nech vás zmieri so sebou a udelí vám svoj pokoj.<br>" +
-            "<font color='#B71C1C'>Ľud:</font> Amen.<br>" +
-            "<i>(alebo)</i><br>" +
-            "<font color='#B71C1C'>Ľud:</font> I s duchom tvojim.<br>" +
-            "<br>" +
-            "<font color='#B71C1C'>Kňaz:</font> Milosť vám a pokoj od Boha, nášho Otca, i od Ježiša Krista, ktorý dal svoj život za naše hriechy.<br>" +
-            "<font color='#B71C1C'>Ľud:</font> Jemu sláva na veky vekov. Amen.<br>" +
-            "<i>(alebo)</i><br>" +
+            "<font color='#B71C1C'>Kňaz:</font> Pán s vami.<br>" +
             "<font color='#B71C1C'>Ľud:</font> I s duchom tvojim.";
 
     String[][] ukonKajucnosti = {
@@ -183,7 +160,7 @@ public interface Texty {
             "On pre nás ľudí a pre našu spásu<br>" +
             "zostúpil z nebies.<br>",
             "Pri slovách","<m> A mocou Ducha Svätého… a stal sa človekom ","sa všetci uklonia.",
-            "<br>A mocou Ducha Svätého" +
+            "<br>A mocou Ducha Svätého<br>" +
                     "vzal si telo z Márie Panny<br>" +
                     "a stal sa človekom.<br>" +
                     "Za nás bol aj ukrižovaný za vlády Poncia Piláta,<br>" +
