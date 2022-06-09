@@ -34,6 +34,10 @@ public class Calendar {
         return this.menoSvatca;
     }
 
+    public void setMenoSvatca(String menoSvatca) {
+        this.menoSvatca = menoSvatca;
+    }
+
     public String getSlavenie() {
         return this.slavenie;
     }
