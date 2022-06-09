@@ -986,21 +986,6 @@ public interface Zalmy_svatci {
                             "a zo smetiska povyšuje bedára<br>" +
                             "a dáva mu sedieť vedľa kniežat, <font color='#B71C1C'>*</font><br>" +
                             "vedľa kniežat svojho ľudu. <font color='#B71C1C'>– R.</font>"},
-            {"16", "", "", "Ž 69, 5a-c. 8+10. 14ab+15bc",
-                    "<font color='#B71C1C'>R.:</font> Vo svojej veľkej láske vyslyš ma, Pane.<br><br>" +
-                            "<font color='#B71C1C'>Alebo:</font> Aleluja.<br><br>" +
-                            "Viac než mám vlasov na hlave, <font color='#B71C1C'>*</font><br>" +
-                            "je tých, čo ma bez príčiny nenávidia.<br>" +
-                            "Mocnejší sú tí, <font color='#B71C1C'>*</font><br>" +
-                            "čo ma prenasledujú. – R<br>" +
-                            "Pre teba znášam potupu <font color='#B71C1C'>*</font><br>" +
-                            "a hanba mi pokrýva tvá<font color='#B71C1C'>– R.</font><br>" +
-                            "Stravuje ma horlivosť za tvoj dom, <font color='#B71C1C'>*</font><br>" +
-                            "padajú na mňa urážky tých, čo ťa urážajú. – R<br>" +
-                            "Ale ja, Pane, obraciam sa modlitbou k tebe <font color='#B71C1C'>*</font><br>" +
-                            "v tomto čase milosti.<br>" +
-                            "A budem vytrhnutý z moci svojich nenávistníkov <font color='#B71C1C'>*</font><br>" +
-                            "i z hlbokých vôd. <font color='#B71C1C'>– R.</font>"},
             {"16g", "", "", "Ž 69, 5a-c. 8+10. 14ab+15bc",
                     "<font color='#B71C1C'>R.:</font> Vo svojej veľkej láske vyslyš ma, Pane.<br><br>" +
                             "<font color='#B71C1C'>Alebo:</font> Aleluja.<br><br>" +
@@ -2125,7 +2110,6 @@ public interface Zalmy_svatci {
             {"01", "", "", "Ž 68, 20", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Nech je velebený Pán deň čo deň; nesie nás Boh, naša spása. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"03g", "", "", "Jn 14, 6b. 9c", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Ja som cesta, pravda a život, hovorí Pán; Filip, kto vidí mňa, vidí Otca. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"14g", "", "", "Porov. Jn 15, 16", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Ja som si vás vyvolil zo sveta, aby ste išli a prinášali ovocie a aby vaše ovocie zostalo, hovorí Pán. <font color='#B71C1C'>– R.</font> Aleluja."},
-            {"16", "", "", "Mt 5, 10", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavení prenasledovaní pre spravodlivosť, lebo ich je nebeské kráľovstvo. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"16g", "", "", "Mt 5, 10", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavení prenasledovaní pre spravodlivosť, lebo ich je nebeské kráľovstvo. <font color='#B71C1C'>– R.</font> Aleluja."},
             /*{"29", "", "", " Mk 1,17", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Poďte za mnou, hovorí Pán, a urobím z vás rybárov ľudí. <font color='#B71C1C'>– R.</font> Aleluja."},
     */};
