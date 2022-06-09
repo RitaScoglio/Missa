@@ -648,19 +648,6 @@ public interface Citania_svatci {
                             "A tak postavili dvoch: Jozefa, ktorý sa volal Barsabáš, s\u00A0prímením Justus, a Mateja. A modlili sa: \"Pane, ty poznáš srdcia všetkých ľudí; ukáž, ktorého z\u00A0týchto dvoch si si vyvolil, aby zaujal miesto v\u00A0tejto službe a apoštoláte, ktorým sa Judáš spreneveril, aby odišiel na\u00A0svoje miesto.\"<br>" +
                             "Potom im dali lósy a lós padol na\u00A0Mateja. I pripočítali ho k\u00A0jedenástim apoštolom.<br>" +
                             "Počuli sme Božie slovo."},
-            {"16", "", "", "Rim 8, 31b-39",
-                    "Ani smrť, ani život nás nebude môcť odlúčiť od\u00A0Božej lásky",
-                    "Čítanie z Listu svätého apoštola Pavla Rimanom<br>" +
-                            "Bratia, ak je Boh za\u00A0nás, kto je proti nám? Keď on vlastného Syna neušetril, ale vydal ho za\u00A0nás všetkých, akože by nám s\u00A0ním nedaroval všetko!?<br>" +
-                            "Kto obžaluje Božích vyvolencov? Boh, ktorý ospravedlňuje?<br>" +
-                            "A kto ich odsúdi? Kristus Ježiš, ktorý zomrel, ba viac — ktorý bol vzkriesený, je po\u00A0pravici Boha a prihovára sa za\u00A0nás?<br>" +
-                            "Kto nás odlúči od\u00A0Kristovej lásky? Azda súženie, úzkosť alebo prenasledovanie, hlad alebo nahota, nebezpečenstvo alebo meč?<br>" +
-                            "Ako je napísané:<br>" +
-                            "\"Pre teba nás usmrcujú deň čo deň,<br>" +
-                            "pokladajú nás za\u00A0ovce na\u00A0zabitie.\"<br>" +
-                            "Ale v\u00A0tomto všetkom slávne víťazíme skrze toho, ktorý nás miluje.<br>" +
-                            "A som si istý, že ani smrť, ani život, ani anjeli, ani kniežatstvá, ani prítomnosť, ani budúcnosť, ani mocnosti, ani výška, ani hĺbka, ani nijaké iné stvorenie nás nebude môcť odlúčiť od\u00A0Božej lásky, ktorá je v\u00A0Kristovi Ježišovi, našom Pánovi.<br>" +
-                            "Počuli sme Božie slovo."},
             {"16g", "", "", "Rim 8, 31b-39",
                     "Ani smrť, ani život nás nebude môcť odlúčiť od\u00A0Božej lásky",
                     "Čítanie z Listu svätého apoštola Pavla Rimanom<br>" +
@@ -2481,14 +2468,6 @@ public interface Citania_svatci {
                             "Vy ste moji priatelia, ak robíte, čo vám prikazujem. Už vás nenazývam sluhami, lebo sluha nevie čo robí jeho Pán. Nazval som vás priateľmi, pretože som vám oznámil všetko, čo som počul od\u00A0svojho Otca.<br>" +
                             "Nie vy ste si vyvolili mňa, ale ja som si vyvolil vás a ustanovil som vás, aby ste išli a prinášali ovocie a aby vaše ovocie zostalo; aby vám Otec dal všetko, o\u00A0čo ho budete prosiť v\u00A0mojom mene.<br>" +
                             "Toto vám prikazujem: Aby ste sa milovali navzájom.\"<br>" +
-                            "Počuli sme slovo Pánovo."},
-            {"16", "", "", "Mt 10, 17-22",
-                    "Pre mňa vás budú vláčiť pred\u00A0vladárov a kráľov, aby ste vydali svedectvo",
-                    "<font color='#B71C1C'>✠</font> Čítanie zo svätého Evanjelia podľa Matúša<br>" +
-                            "Ježiš povedal svojim učeníkom: \"Chráňte sa ľudí, lebo vás vydajú súdom, budú vás bičovať vo\u00A0svojich synagógach a pre\u00A0mňa vás budú vláčiť pred\u00A0vladárov a kráľov, aby ste vydali svedectvo im aj pohanom.<br>" +
-                            "Ale keď vás vydajú, nestarajte sa, ako a čo budete hovoriť, lebo v\u00A0tú hodinu vám bude dané, čo máte povedať. Veď to už nie vy budete hovoriť, ale Duch vášho Otca bude hovoriť vo\u00A0vás.<br>" +
-                            "Brat vydá na\u00A0smrť brata a otec dieťa. Deti povstanú proti rodičom a pripravia ich o\u00A0život.<br>" +
-                            "Všetci vás budú nenávidieť pre\u00A0moje meno. Ale kto vytrvá do\u00A0konca, bude spasený.\"<br>" +
                             "Počuli sme slovo Pánovo."},
             {"16g", "", "", "Mt 10, 17-22",
                     "Pre mňa vás budú vláčiť pred\u00A0vladárov a kráľov, aby ste vydali svedectvo",
