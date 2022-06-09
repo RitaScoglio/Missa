@@ -54,7 +54,9 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     public static boolean preface;
     public static String euchText, prefText;
     public static int sizeN, sizeO, sizeZ;
-    public static DateTime mP, mVN, mDS, mD, mSP, mNT, mTK, mNSJ, mSPM, msvJ, mZP, mJK, mvDS, mPM, mNP, mSR, mNNP, mZJ, mKKP, mZacA, mZJactual, mKKPactual, mNPactual, mZacAactual, mVNactual;
+    public static DateTime mP, mVN, mDS, mD, mSP, mNT, mTK, mNSJ, mSPM, msvJ, mZP, mJK, mvDS, mPM, mNP,
+            mSR, mNNP, mZJ, mKKP, mZacA, mZJactual, mKKPactual, mNPactual, mZacAactual, mVNactual,
+            mJanKrstitel, mJanKrstitelVigilia, mVyrocieNitra;
     public static boolean C, A, V, P, VN;
     public static boolean pismo, nightMode, zvoncek, fullscreen, ticheModlitby;
     public static int farba_b, farba_r;
@@ -140,11 +142,11 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 } else if (omsa == 2) {
                     //Omša v čase pandémie
                     if (zmierenie) {
-                    getSpecial();
-                    zIntent = true;
-                    Intent intent = new Intent(context, MisalPandemia.class);
-                    startActivity(intent);
-                    finish();
+                        getSpecial();
+                        zIntent = true;
+                        Intent intent = new Intent(context, MisalPandemia.class);
+                        startActivity(intent);
+                        finish();
                     } else {
                         LayoutInflater inflater = getLayoutInflater();
                         View layout = inflater.inflate(R.layout.toast_layout,
@@ -155,7 +157,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                         toast.setView(layout);
                         toast.show();
                     }
-                } else if (omsa == 3){
+                } else if (omsa == 3) {
                     //Omša o najsätejšom Srdci Ježišovom
                     getSpecial();
                     zIntent = true;
@@ -243,7 +245,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 if (pozehnania_menu[position].length != 1) {
                     final AlertDialog.Builder builder = new AlertDialog.Builder(context);
                     builder.setMessage(Html.fromHtml(nahrad(pozehnania_menu[position][1])));
-                    builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+pozehnania_menu[position][0]+"</b></font>")));
+                    builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>" + pozehnania_menu[position][0] + "</b></font>")));
                     builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
                         }
@@ -345,13 +347,13 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     public void otvorDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage(Html.fromHtml("Aplikácia nenahrádza platne vydané a schválené liturgické texty.<br>" +
-                "Je určená iba pre prípravu, nie je určená na slávenie svätej omše.<br><br>" +
-                "Texty sú prevzaté z Rímskeho misála, Výňatku z Rímskeho misála, Lekcionárov a Spoločných modlitieb veriacich.<br>" +
-                "Text © Konferencia biskupov slovenska (KBS).<br>" +
-                "Texty sú publikované s vedomím KBS ako pracovná verzia.<br><br>" +
-                "Prosím, podeľte sa s nami o svoje skúsenosti a postrehy na adrese:<br>" +
-                "<a href=\"mailto:missa.svk@gmail.com\">missa.svk@gmail.com</a>.<br><br>" +
-                "© 2013-" + rok + " Rita & Ing. Páter"))
+                        "Je určená iba pre prípravu, nie je určená na slávenie svätej omše.<br><br>" +
+                        "Texty sú prevzaté z Rímskeho misála, Výňatku z Rímskeho misála, Lekcionárov a Spoločných modlitieb veriacich.<br>" +
+                        "Text © Konferencia biskupov slovenska (KBS).<br>" +
+                        "Texty sú publikované s vedomím KBS ako pracovná verzia.<br><br>" +
+                        "Prosím, podeľte sa s nami o svoje skúsenosti a postrehy na adrese:<br>" +
+                        "<a href=\"mailto:missa.svk@gmail.com\">missa.svk@gmail.com</a>.<br><br>" +
+                        "© 2013-" + rok + " Rita & Ing. Páter"))
                 .setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>O aplikácii</b></font>")))
                 .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
@@ -500,7 +502,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     public boolean showActualisationDialog() {
         settings = getApplicationContext().getSharedPreferences("MySviatok", 0);
         boolean firstOpenNewMisal = settings.getBoolean("firstOpenNewMisal", true);
-        if(firstOpenNewMisal){
+        if (firstOpenNewMisal) {
             SharedPreferences.Editor editor = settings.edit();
             editor.putBoolean("firstOpenNewMisal", false).apply();
         }
@@ -656,9 +658,22 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             //najsvatejsieho kristovho tela a krvi
         else if (mD.isEqual(mTK))
             words.add(new Calendar("Najsvätejšieho Kristovho Tela a Krvi", "Slávnosť", "(biela)", day, cezrok, "4gkp", "c"));
-            //nejsvatejsie srdca jezisovho
-        else if (mD.isEqual(mNSJ))
-            words.add(new Calendar("Najsvätejšieho Srdca Ježišovho", "Slávnosť", "(biela)", day, cezrok, "5gkp", "c"));
+            //Jan Krstitel
+        else if (mD.isEqual(mJanKrstitel)) {
+            if (mJanKrstitel.getDayOfMonth() == 23) {
+                words.add(new Calendar("Narodenie sv. Jána Krstiteľa", "Slávnosť", "(biela)", day, cezrok, "24gk", "c"));
+                feria.setMenoSvatca("Trnavská arcidiecéza: ".toUpperCase() + feria.getMenoSvatca());
+                words.add(feria);
+                vigilia = new Calendar("Trnavská arcidiecéza: ".toUpperCase() + "Narodenie sv. Jána Krstiteľa", "Vigília", "(biela)", day, cezrok, "23gk", "c");
+            } else
+                words.add(new Calendar("Narodenie sv. Jána Krstiteľa \n(TRNAVA: Hlavný patrón arcidiecézy a titul katedrály)", "Slávnosť", "(biela)", day, cezrok, "24gk", "c"));
+            //najsvatejsie srdca jezisovho
+        } else if (mD.isEqual(mNSJ))
+            if (mJanKrstitel.getDayOfMonth() == 23) {
+                words.add(new Calendar("Najsvätejšieho Srdca Ježišovho", "Slávnosť", "(biela)", day, cezrok, "5gkp", "c"));
+                words.add(new Calendar("Trnavská arcidiecéza: ".toUpperCase() + "Narodenie sv. Jána Krstiteľa", "Slávnosť", "(biela)", day, cezrok, "24gk", "c"));
+            } else
+                words.add(new Calendar("Najsvätejšieho Srdca Ježišovho", "Slávnosť", "(biela)", day, cezrok, "5gkp", "c"));
             //obetovanie Pána
         else if (day == 2 && mes == 1)
             words.add(new Calendar("Obetovanie Pána", "Sviatok", "(biela)", day, cezrok, "02g", "c"));
@@ -681,7 +696,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                                 vigilia = new Calendar(month[index][1], month[index][2], month[index][3], day, cezrok, month[index + 1][0], "c");
                             else
                                 vigilia = new Calendar(month[index][1], month[index][2], month[index][3], day, cezrok, month[index][0], "c");
-                        } else if (month[index][0].contains("n")){
+                        } else if (month[index][0].contains("n")) {
                             words.add(new Calendar(month[index][1], month[index][2], month[index][3], day, cezrok, month[index][0], "c"));
                         }
                         index++;
@@ -699,6 +714,10 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 pm = true;
                 words.add(feria);
             }
+            //obcas pohyblive ak je nedela v ozajstny den slavenia
+            if (mD.equals(mVyrocieNitra))
+                words.add(new Calendar("NITRIANSKA DIECÉZA: Výročie posviacky katedrálneho chrámu svätého Emeráma", "Sviatok", "(biela)", day, cezrok, "20gv", "c"));
+
             if (!month[index][2].equals("Sviatok") && !month[index][2].equals("Slávnosť"))
                 prvyPiatok = prvyStvrtok = true;
             if (month[index][2].equals("Spomienka") || month[index][1].equals("Najsvätejšieho mena Panny Márie"))
@@ -727,7 +746,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         }
         //vypisovanie Panny Márie v sobotu
         if (dvt == 6 && pm) {
-            if(day < 8)
+            if (day < 8)
                 words.add(new Calendar("O Nepoškvrnenom Srdci Panny Márie", maria[2], maria[3], day, cezrok, "003m", "c"));
             else
                 words.add(new Calendar(maria[1], maria[2], maria[3], day, cezrok, "003m", "c"));
@@ -736,6 +755,8 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             words.add(new Calendar("O Najsvätejšom Srdci Ježišovom", "Votívna omša", "(biela)", day, cezrok, "001", "c"));
         if (dvt == 4 && prvyStvrtok && day < 8)
             words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, cezrok, "002", "c"));
+        if (mD.isEqual(mJanKrstitelVigilia))
+            vigilia = new Calendar("Narodenie sv. Jána Krstiteľa", "Vigília", "(biela)", day, cezrok, "23gk", "c");
         if (vigilia != null)
             words.add(vigilia);
 
@@ -745,7 +766,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 (17 < day && day < 25 && dvt == 6)))
             words.add(new Calendar("Jesenné kántrové dni", " ", "(zelená)", day, cezrok, "006", "c"));
         //tyzden modlitieb za jednotu krestanov
-        if(mes == 0 && 17 < day && day < 25)
+        if (mes == 0 && 17 < day && day < 25)
             words.add(new Calendar("Za jednotu kresťanov", " ", "(zelená)", day, cezrok, "009", "c"));
     }
 
@@ -772,8 +793,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 words.add(new Calendar("Vyloženie Oltárnej sviatosti na Bielu sobotu ráno", "", "(biela)", day, post, "3dni6p1", "n"));
                 words.add(new Calendar("Ukončenie poklony v Božom hrobe", "", "(biela)", day, post, "3dni6p2", "n"));
                 words.add(new Calendar("Veľkonočná nedeľa Pánovho zmŕtvychvstania", "", "(biela)", day, post, "3dni6", "n"));
-            }
-            else
+            } else
                 words.add(new Calendar((dni[dvt] + " Veľkého týždňa"), "Féria", "(fialová)", day, post, Integer.toString(post) + dvt, "p"));
         else if (dvt == 0) {//postne nedele
             if (post == 6)
@@ -838,8 +858,6 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 words.add(new Calendar((cisla_z[velkanoc - 1] + " Veľkonočná nedeľa (Nedeľa Božieho Milosrdenstva)").toUpperCase(), "", "(biela)", day, 2, "20", "n"));
             else
                 words.add(new Calendar((cisla_z[velkanoc - 1] + " Veľkonočná nedeľa").toUpperCase(), "", "(biela)", day, velkanoc, velkanoc + "0", "n"));
-        } else if (dvt == 3 && velkanoc == 6) {
-            words.add(new Calendar("Nanebovstúpenie Pána", "Vigília", "(biela)", day, velkanoc, "60gkp", "n"));
         } else if (dvt == 4 && velkanoc == 6) {
             words.add(new Calendar("Nanebovstúpenie Pána", "Slávnosť", "(biela)", day, velkanoc, "6gkp", "n"));
         } else { //bežné dni a sviatky
@@ -872,6 +890,9 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             if (dvt == 4 && prvyStvrtok && day < 8)
                 words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, velkanoc, "002", "n"));
         }
+        if (dvt == 3 && velkanoc == 6)
+            words.add(new Calendar("Nanebovstúpenie Pána", "Vigília", "(biela)", day, velkanoc, "60gkp", "n"));
+
         //za duchovne povolania v 3.tyzdni (pondelok - sobota), mimo prveho stvrtka
         if (velkanoc == 3 && dvt > 0 && !(dvt == 4 && prvyStvrtok && day < 8))
             words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, velkanoc, "002", "n"));
@@ -908,6 +929,9 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 d = Integer.toString(day);
             index = najdiIndex(month, d);
 
+            if (mD.equals(mVyrocieNitra))
+                words.add(new Calendar("NITRIANSKA DIECÉZA: Výročie posviacky katedrálneho chrámu svätého Emeráma", "Sviatok", "(biela)", day, advent, "20gv", "a"));
+
             if (index != -1) {
                 if (month[index][2].equals("Ľubovoľná spomienka") || month[index][2].equals("Vigília") || month[index][0].contains("v") || month[index][0].contains("+")) {
                     words.add(new Calendar((dni[dvt] + " " + advent + ". týždňa v adventnom období"), "Féria", "(fialová)", day, advent, Integer.toString(advent) + dvt, "a"));
@@ -937,7 +961,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, advent, "002", "a"));
         }
 
-        if (pm){
+        if (pm) {
             if (dvt == 6 && day < 8)
                 words.add(new Calendar("O Nepoškvrnenom Srdci Panny Márie", maria[2], maria[3], day, advent, "003m", "a"));
             else
@@ -1005,8 +1029,8 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         }
     }
 
-    public void vypocetPreOhlasenieVN(){
-        vypocetVN();
+    public void vypocetPreOhlasenieVN() {
+        vypocetVN(rok);
         //nanebovstupenie Pana
         mVNactual = new DateTime(rok, vnm + 1, vnd, 12, 0, 0);
         DateTime mNVP = mVNactual.plusDays(39);
@@ -1020,7 +1044,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         zacAd = mZacAactual.getDayOfMonth();
     }
 
-    public void vypocetVN(){
+    public void vypocetVN(int rok) {
         int a, b, c, d, e;
         a = rok % 19;
         b = rok % 4;
@@ -1058,7 +1082,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
 
     //vypočíta dátum Popolcovej stredy, Veľkej noci a pohyblivých sviatkov
     public void ziskajPaVN(int rok) {
-        vypocetVN();
+        vypocetVN(rok);
         int dayJ, dayZP;
         mP = new DateTime(rok, psm + 1, psd, 12, 0, 0);
         mVN = new DateTime(rok, vnm + 1, vnd, 12, 0, 0);
@@ -1088,8 +1112,23 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         mTK = mDS.plusDays(11);
         //najsvatejsieho srdca jezisovho
         mNSJ = mDS.plusDays(19);
+        //Jan Krstitel - 24. 6. alebo 23.6, ked sa prelina s mNSJ
+        if (mNSJ.getDayOfMonth() == 24 && mNSJ.getMonthOfYear() == 6) {
+            mJanKrstitel = new DateTime(rok, 6, 23, 12, 0, 0);
+            mJanKrstitelVigilia = new DateTime(rok, 6, 22, 12, 0, 0);
+        } else {
+            mJanKrstitel = new DateTime(rok, 6, 24, 12, 0, 0);
+            mJanKrstitelVigilia = new DateTime(rok, 6, 23, 12, 0, 0);
+        }
         //neposkvrneneho srdca panny marie
         mSPM = mDS.plusDays(20);
+    }
+
+    public void pohybliveSviatky(int rok) {
+        //20.11.
+        mVyrocieNitra = new DateTime(rok, 11, 20, 12, 0, 0);
+        if (mVyrocieNitra.getDayOfWeek() == 7)
+            mVyrocieNitra = mVyrocieNitra.plusDays(1);
     }
 
     /**
