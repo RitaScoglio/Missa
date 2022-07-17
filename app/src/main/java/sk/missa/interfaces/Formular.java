@@ -2969,13 +2969,13 @@ public interface Formular {
     String[][] prosbyFormular = {
             {"01a", "1", "Votívna omša 1.", "Bratia a sestry, ovocie Ducha Svätého je láska, radosť a pokoj. Prosme Pána Ježiša, aby nás naplnil týmito darmi.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, daj, nech sa tvoja Cirkev v Duchu Svätom stále obnovuje a omladzuje.<br>" +
-                            "<font color='#B71C1C'>2.</font> Daj, nech národy oslavujú teba, svojho Kráľa, a nech hovoria rečou lásky a sily tvojho Ducha.<br>" +
-                            "<font color='#B71C1C'>3.</font> Odstráň z našej krajiny pohoršenia a všetko, čo škodí ľudu na tele i na duši.<br>" +
-                            "<font color='#B71C1C'>4.</font> Ochraňuj všetky nenarodené deti, aby raz mohli uzrieť svetlo tohto sveta a prijať ťa za svojho Vykupiteľa a Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Zjednocuj rozpadávajúce sa rodiny a manželstvá, aby podľa príkladu jednoty Najsvätejšej Trojice túžili po spoločenstve lásky a pokoja.<br>" +
-                            "<font color='#B71C1C'>6.</font> Daj, nech v nás prebýva Duch Svätý, aby nás neprestajne posväcoval a naše smrteľné telá pripravil na slávne vzkriesenie.<br>" +
-                            "<font color='#B71C1C'>7.</font> Priveď našich zosnulých <font color='#B71C1C'>(M.)</font> do svojho nebeského kráľovstva.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, daj, nech sa tvoja Cirkev v Duchu Svätom stále obnovuje a omladzuje.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Daj, nech národy oslavujú teba, svojho Kráľa, a nech hovoria rečou lásky a sily tvojho Ducha.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Odstráň z našej krajiny pohoršenia a všetko, čo škodí ľudu na tele i na duši.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Ochraňuj všetky nenarodené deti, aby raz mohli uzrieť svetlo tohto sveta a prijať ťa za svojho Vykupiteľa a Pána.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Zjednocuj rozpadávajúce sa rodiny a manželstvá, aby podľa príkladu jednoty Najsvätejšej Trojice túžili po spoločenstve lásky a pokoja.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Daj, nech v nás prebýva Duch Svätý, aby nás neprestajne posväcoval a naše smrteľné telá pripravil na slávne vzkriesenie.<br>" +
+                            "<font color='#B71C1C'>7.</font>&nbsp;Priveď našich zosnulých <font color='#B71C1C'>(M.)</font> do svojho nebeského kráľovstva.",
                     "Pane Ježišu, daj, nech nás vedie Boží Duch,<br>" +
                             "aby sme žili ako Boží synovia a dcéry<br>" +
                             "a skrze tvojho Ducha<br>" +
@@ -2983,13 +2983,13 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"01a", "2", "Votívna omša 2.", "Bratia a sestry, ovocie Ducha Svätého je láska, radosť a pokoj. Prosme Pána Ježiša, aby nás naplnil týmito darmi.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, daj, nech sa tvoja Cirkev v Duchu Svätom stále obnovuje a omladzuje.<br>" +
-                            "<font color='#B71C1C'>2.</font> Daj, nech národy oslavujú teba, svojho Kráľa, a nech hovoria rečou lásky a sily tvojho Ducha.<br>" +
-                            "<font color='#B71C1C'>3.</font> Odstráň z našej krajiny pohoršenia a všetko, čo škodí ľudu na tele i na duši.<br>" +
-                            "<font color='#B71C1C'>4.</font> Ochraňuj všetky nenarodené deti, aby raz mohli uzrieť svetlo tohto sveta a prijať ťa za svojho Vykupiteľa a Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Zjednocuj rozpadávajúce sa rodiny a manželstvá, aby podľa príkladu jednoty Najsvätejšej Trojice túžili po spoločenstve lásky a pokoja.<br>" +
-                            "<font color='#B71C1C'>6.</font> Daj, nech v nás prebýva Duch Svätý, aby nás neprestajne posväcoval a naše smrteľné telá pripravil na slávne vzkriesenie.<br>" +
-                            "<font color='#B71C1C'>7.</font> Priveď našich zosnulých <font color='#B71C1C'>(M.)</font> do svojho nebeského kráľovstva.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, daj, nech sa tvoja Cirkev v Duchu Svätom stále obnovuje a omladzuje.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Daj, nech národy oslavujú teba, svojho Kráľa, a nech hovoria rečou lásky a sily tvojho Ducha.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Odstráň z našej krajiny pohoršenia a všetko, čo škodí ľudu na tele i na duši.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Ochraňuj všetky nenarodené deti, aby raz mohli uzrieť svetlo tohto sveta a prijať ťa za svojho Vykupiteľa a Pána.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Zjednocuj rozpadávajúce sa rodiny a manželstvá, aby podľa príkladu jednoty Najsvätejšej Trojice túžili po spoločenstve lásky a pokoja.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Daj, nech v nás prebýva Duch Svätý, aby nás neprestajne posväcoval a naše smrteľné telá pripravil na slávne vzkriesenie.<br>" +
+                            "<font color='#B71C1C'>7.</font>&nbsp;Priveď našich zosnulých <font color='#B71C1C'>(M.)</font> do svojho nebeského kráľovstva.",
                     "Pane Ježišu, daj, nech nás vedie Boží Duch,<br>" +
                             "aby sme žili ako Boží synovia a dcéry<br>" +
                             "a skrze tvojho Ducha<br>" +
@@ -2997,13 +2997,13 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"01a", "3", "Votívna omša 3.", "Bratia a sestry, ovocie Ducha Svätého je láska, radosť a pokoj. Prosme Pána Ježiša, aby nás naplnil týmito darmi.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, daj, nech sa tvoja Cirkev v Duchu Svätom stále obnovuje a omladzuje.<br>" +
-                            "<font color='#B71C1C'>2.</font> Daj, nech národy oslavujú teba, svojho Kráľa, a nech hovoria rečou lásky a sily tvojho Ducha.<br>" +
-                            "<font color='#B71C1C'>3.</font> Odstráň z našej krajiny pohoršenia a všetko, čo škodí ľudu na tele i na duši.<br>" +
-                            "<font color='#B71C1C'>4.</font> Ochraňuj všetky nenarodené deti, aby raz mohli uzrieť svetlo tohto sveta a prijať ťa za svojho Vykupiteľa a Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Zjednocuj rozpadávajúce sa rodiny a manželstvá, aby podľa príkladu jednoty Najsvätejšej Trojice túžili po spoločenstve lásky a pokoja.<br>" +
-                            "<font color='#B71C1C'>6.</font> Daj, nech v nás prebýva Duch Svätý, aby nás neprestajne posväcoval a naše smrteľné telá pripravil na slávne vzkriesenie.<br>" +
-                            "<font color='#B71C1C'>7.</font> Priveď našich zosnulých <font color='#B71C1C'>(M.)</font> do svojho nebeského kráľovstva.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, daj, nech sa tvoja Cirkev v Duchu Svätom stále obnovuje a omladzuje.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Daj, nech národy oslavujú teba, svojho Kráľa, a nech hovoria rečou lásky a sily tvojho Ducha.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Odstráň z našej krajiny pohoršenia a všetko, čo škodí ľudu na tele i na duši.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Ochraňuj všetky nenarodené deti, aby raz mohli uzrieť svetlo tohto sveta a prijať ťa za svojho Vykupiteľa a Pána.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Zjednocuj rozpadávajúce sa rodiny a manželstvá, aby podľa príkladu jednoty Najsvätejšej Trojice túžili po spoločenstve lásky a pokoja.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Daj, nech v nás prebýva Duch Svätý, aby nás neprestajne posväcoval a naše smrteľné telá pripravil na slávne vzkriesenie.<br>" +
+                            "<font color='#B71C1C'>7.</font>&nbsp;Priveď našich zosnulých <font color='#B71C1C'>(M.)</font> do svojho nebeského kráľovstva.",
                     "Pane Ježišu, daj, nech nás vedie Boží Duch,<br>" +
                             "aby sme žili ako Boží synovia a dcéry<br>" +
                             "a skrze tvojho Ducha<br>" +
@@ -3011,11 +3011,11 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"01", "1", "Zoslanie Ducha Svätého", "Bratia a sestry, Pánov Duch, ktorého sme očakávali a vzývali, zostupuje dnes na Cirkev, aby aj v našich časoch urobil veľké divy Turíc. Prosme Pána, aby uštedril Cirkvi i celému svetu dary svojho Ducha.",
                     "<font color='#B71C1C'>(</font>Volajme: Obnov nás, Pane, a vyslyš naše prosby.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, daruj Cirkvi misionárskeho ducha, ktorý posilňoval prvých kresťanov niesť evanjelium až do končín zeme.<br>" +
-                            "<font color='#B71C1C'>2.</font> Bože, zjednoť svojím Duchom všetkých pokrstených a daj, aby všetci veriaci boli jedno srdce a jedna duša.<br>" +
-                            "<font color='#B71C1C'>3.</font> Svetlom svojho Ducha osvieť všetkých ľudí, aby sa nenávisť zmenila na lásku, bolesť na radosť a vojny na vytúžený mier.<br>" +
-                            "<font color='#B71C1C'>4.</font> Svojím Duchom posilňuj všetkých, ktorí milujú pravdu, trpia pre spravodlivosť a bojujú za slobodu a pokoj.<br>" +
-                            "<font color='#B71C1C'>5.</font> Zošli na nás svojho Ducha, aby sme svojím kresťanským životom všade vydávali svedectvo o Kristovi.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, daruj Cirkvi misionárskeho ducha, ktorý posilňoval prvých kresťanov niesť evanjelium až do končín zeme.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Bože, zjednoť svojím Duchom všetkých pokrstených a daj, aby všetci veriaci boli jedno srdce a jedna duša.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Svetlom svojho Ducha osvieť všetkých ľudí, aby sa nenávisť zmenila na lásku, bolesť na radosť a vojny na vytúžený mier.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Svojím Duchom posilňuj všetkých, ktorí milujú pravdu, trpia pre spravodlivosť a bojujú za slobodu a pokoj.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Zošli na nás svojho Ducha, aby sme svojím kresťanským životom všade vydávali svedectvo o Kristovi.",
                     "Bože, ty si zoslal Ducha Svätého na odpustenie hriechov<br>" +
                             "a na udržanie a vzrast tvojho života v nás;<br>" +
                             "naplň naše srdcia darmi svojho Ducha<br>" +
@@ -3025,11 +3025,11 @@ public interface Formular {
             {"03", "1", "Votívna omša o Najsvätejšom Srdci Ježišovom", ""},
             {"04", "1", "Výročie posviacky chrámu (slávenie mimo chrámu)", "Bratia a sestry, sme živými kameňmi chrámu, ktorým je Cirkev. V jednote a nádeji sa spoločne modlime. ",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Modlime sa za Cirkev, postavenú zo živých kameňov, aby sa zveľaďovala vo viere a v láske.<br>" +
-                            "<font color='#B71C1C'>2.</font> Modlime sa za kresťanov, aby nezabúdali, že plná účasť na omši sa dosahuje v obetnej hostine.<br>" +
-                            "<font color='#B71C1C'>3.</font> Modlime sa za všetkých ľudí, aby počuli hlas, ktorý ich volá do Pánovho domu, a vážili si duchovné hodnoty.<br>" +
-                            "<font color='#B71C1C'>4.</font> Modlime sa, aby všetci spoznali, že chrám je domom modlitby.<br>" +
-                            "<font color='#B71C1C'>5.</font> Modlime sa aj za seba, aby sme sa tešili, že chrám je domom Božím a bránou do neba.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Modlime sa za Cirkev, postavenú zo živých kameňov, aby sa zveľaďovala vo viere a v láske.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Modlime sa za kresťanov, aby nezabúdali, že plná účasť na omši sa dosahuje v obetnej hostine.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Modlime sa za všetkých ľudí, aby počuli hlas, ktorý ich volá do Pánovho domu, a vážili si duchovné hodnoty.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Modlime sa, aby všetci spoznali, že chrám je domom modlitby.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Modlime sa aj za seba, aby sme sa tešili, že chrám je domom Božím a bránou do neba.",
                     "Pane a Bože náš,<br>" +
                             "vypočuj naše prosby<br>" +
                             "a pomáhaj nám budovať duchovný chrám,<br>" +
@@ -3038,12 +3038,12 @@ public interface Formular {
             // SPOLOCNE OMSE PREBLAHOSLAVENEJ PANNY MÁRIE
             {"11", "1", "Omša k preblahoslavenej Panne Marií 1.", "Bratia a sestry, Panna Mária je veľkým vzorom nášho života v pokore, modlitbe a plnení Božej vôle. V tejto spoločnej modlitbe na jej orodovanie prosme nášho najmilostivejšieho Pána.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, požehnávaj Svätého Otca <font color='#B71C1C'>M.</font> a našich biskupov, kňazov a diakonov, aby tak ako Panna Mária vždy ochotne plnili tvoju vôľu.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane, ochraňuj všetky národy a ich predstavených, aby tak ako Panna Mária vždy zotrvávali v tvojej prítomnosti a žili podľa tvojich príkazov.<br>" +
-                            "<font color='#B71C1C'>3.</font> Otče, posilňuj všetkých trpiacich a núdznych, aby tak ako Panna Mária vedeli s pokorou znášať svoju bolesť a oddane ti slúžiť.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, veď všetkých kresťanov, aby tak ako Panna Mária ochotne počúvali Pánove slová a uchovávali ich vo svojich srdciach.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, zachovaj náš národ v jednote a svornosti, aby tak ako Panna Mária, naša patrónka, svorne kráčal v ústrety večnému nebeskému kráľovstvu.<br>" +
-                            "<font color='#B71C1C'>6.</font> Otče, stoj pri všetkých umierajúcich, aby tak ako Panna Mária s čistou dušou raz predstúpili pred tvoju tvár.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, požehnávaj Svätého Otca <font color='#B71C1C'>M.</font> a našich biskupov, kňazov a diakonov, aby tak ako Panna Mária vždy ochotne plnili tvoju vôľu.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane, ochraňuj všetky národy a ich predstavených, aby tak ako Panna Mária vždy zotrvávali v tvojej prítomnosti a žili podľa tvojich príkazov.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Otče, posilňuj všetkých trpiacich a núdznych, aby tak ako Panna Mária vedeli s pokorou znášať svoju bolesť a oddane ti slúžiť.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože, veď všetkých kresťanov, aby tak ako Panna Mária ochotne počúvali Pánove slová a uchovávali ich vo svojich srdciach.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, zachovaj náš národ v jednote a svornosti, aby tak ako Panna Mária, naša patrónka, svorne kráčal v ústrety večnému nebeskému kráľovstvu.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Otče, stoj pri všetkých umierajúcich, aby tak ako Panna Mária s čistou dušou raz predstúpili pred tvoju tvár.",
                     "Dobrotivý Otče, vypočuj naše prosby,<br>" +
                             "ktorými voláme k tebe<br>" +
                             "a utiekame sa pod ochranu Panny Márie,<br>" +
@@ -3052,11 +3052,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"11", "2", "Omša k preblahoslavenej Panne Marií 2.", "Bratia a sestry, sme zhromaždení na slávení Eucharistie, kde je prítomný živý Kristus, ktorý nás miluje spolu so svojou Matkou. Ona nám ho pomáha bližšie spoznať ako Božieho Syna a nášho Pána. S radosťou sa modlime.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, svoju matku si nekonečne miloval; daj, aby cirkevní predstavení celým srdcom milovali svojich veriacich a viedli ich k poznaniu pravej lásky.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, svoju matku si synovsky poslúchal; daj, aby zákonodarcovia tvorili zákony a nariadenia, ktoré budú slúžiť pre dobro a blaho všetkých.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, svoju matku si s úctou obdivoval; daj, aby deti prijímali svojich rodičov s rešpektom a vážili si ich rodičovskú obetavosť a výchovné rady.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, svoju matku si nikdy neopustil; daj, aby sme vždy pamätali na tvoje vykupiteľské dielo, ktoré si podstúpil pre našu spásu.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, svoju matku si vzal k sebe do neba; daj, aby sme sa raz stali hodni prežívať s tebou večnú blaženosť.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, svoju matku si nekonečne miloval; daj, aby cirkevní predstavení celým srdcom milovali svojich veriacich a viedli ich k poznaniu pravej lásky.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, svoju matku si synovsky poslúchal; daj, aby zákonodarcovia tvorili zákony a nariadenia, ktoré budú slúžiť pre dobro a blaho všetkých.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, svoju matku si s úctou obdivoval; daj, aby deti prijímali svojich rodičov s rešpektom a vážili si ich rodičovskú obetavosť a výchovné rady.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, svoju matku si nikdy neopustil; daj, aby sme vždy pamätali na tvoje vykupiteľské dielo, ktoré si podstúpil pre našu spásu.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, svoju matku si vzal k sebe do neba; daj, aby sme sa raz stali hodni prežívať s tebou večnú blaženosť.",
                     "Prosíme ťa, Pane Ježišu,<br>" +
                             "nech naše modlitby plné vrúcnosti preniknú k tebe;<br>" +
                             "posilni nás vo vytrvalosti stále sa modliť,<br>" +
@@ -3064,12 +3064,12 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"11", "3", "Omša k preblahoslavenej Panne Marií 3.", "Bratia a sestry, Panna Mária je veľkým vzorom nášho života v pokore, modlitbe a plnení Božej vôle. V tejto spoločnej modlitbe na jej orodovanie prosme nášho najmilostivejšieho Pána.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, požehnávaj Svätého Otca <font color='#B71C1C'>M.</font> a našich biskupov, kňazov a diakonov, aby tak ako Panna Mária vždy ochotne plnili tvoju vôľu.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane, ochraňuj všetky národy a ich predstavených, aby tak ako Panna Mária vždy zotrvávali v tvojej prítomnosti a žili podľa tvojich príkazov.<br>" +
-                            "<font color='#B71C1C'>3.</font> Otče, posilňuj všetkých trpiacich a núdznych, aby tak ako Panna Mária vedeli s pokorou znášať svoju bolesť a oddane ti slúžiť.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, veď všetkých kresťanov, aby tak ako Panna Mária ochotne počúvali Pánove slová a uchovávali ich vo svojich srdciach.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, zachovaj náš národ v jednote a svornosti, aby tak ako Panna Mária, naša patrónka, svorne kráčal v ústrety večnému nebeskému kráľovstvu.<br>" +
-                            "<font color='#B71C1C'>6.</font> Otče, stoj pri všetkých umierajúcich, aby tak ako Panna Mária s čistou dušou raz predstúpili pred tvoju tvár.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, požehnávaj Svätého Otca <font color='#B71C1C'>M.</font> a našich biskupov, kňazov a diakonov, aby tak ako Panna Mária vždy ochotne plnili tvoju vôľu.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane, ochraňuj všetky národy a ich predstavených, aby tak ako Panna Mária vždy zotrvávali v tvojej prítomnosti a žili podľa tvojich príkazov.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Otče, posilňuj všetkých trpiacich a núdznych, aby tak ako Panna Mária vedeli s pokorou znášať svoju bolesť a oddane ti slúžiť.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože, veď všetkých kresťanov, aby tak ako Panna Mária ochotne počúvali Pánove slová a uchovávali ich vo svojich srdciach.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, zachovaj náš národ v jednote a svornosti, aby tak ako Panna Mária, naša patrónka, svorne kráčal v ústrety večnému nebeskému kráľovstvu.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Otče, stoj pri všetkých umierajúcich, aby tak ako Panna Mária s čistou dušou raz predstúpili pred tvoju tvár.",
                     "Dobrotivý Otče, vypočuj naše prosby,<br>" +
                             "ktorými voláme k tebe<br>" +
                             "a utiekame sa pod ochranu Panny Márie,<br>" +
@@ -3078,11 +3078,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"11", "4", "Omša k preblahoslavenej Panne Marií 4.", "Bratia a sestry, sme zhromaždení na slávení Eucharistie, kde je prítomný živý Kristus, ktorý nás miluje spolu so svojou Matkou. Ona nám ho pomáha bližšie spoznať ako Božieho Syna a nášho Pána. S radosťou sa modlime.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, svoju matku si nekonečne miloval; daj, aby cirkevní predstavení celým srdcom milovali svojich veriacich a viedli ich k poznaniu pravej lásky.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, svoju matku si synovsky poslúchal; daj, aby zákonodarcovia tvorili zákony a nariadenia, ktoré budú slúžiť pre dobro a blaho všetkých.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, svoju matku si s úctou obdivoval; daj, aby deti prijímali svojich rodičov s rešpektom a vážili si ich rodičovskú obetavosť a výchovné rady.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, svoju matku si nikdy neopustil; daj, aby sme vždy pamätali na tvoje vykupiteľské dielo, ktoré si podstúpil pre našu spásu.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, svoju matku si vzal k sebe do neba; daj, aby sme sa raz stali hodni prežívať s tebou večnú blaženosť.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, svoju matku si nekonečne miloval; daj, aby cirkevní predstavení celým srdcom milovali svojich veriacich a viedli ich k poznaniu pravej lásky.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, svoju matku si synovsky poslúchal; daj, aby zákonodarcovia tvorili zákony a nariadenia, ktoré budú slúžiť pre dobro a blaho všetkých.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, svoju matku si s úctou obdivoval; daj, aby deti prijímali svojich rodičov s rešpektom a vážili si ich rodičovskú obetavosť a výchovné rady.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, svoju matku si nikdy neopustil; daj, aby sme vždy pamätali na tvoje vykupiteľské dielo, ktoré si podstúpil pre našu spásu.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, svoju matku si vzal k sebe do neba; daj, aby sme sa raz stali hodni prežívať s tebou večnú blaženosť.",
                     "Prosíme ťa, Pane Ježišu,<br>" +
                             "nech naše modlitby plné vrúcnosti preniknú k tebe;<br>" +
                             "posilni nás vo vytrvalosti stále sa modliť,<br>" +
@@ -3090,12 +3090,12 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"11", "5", "Omša k preblahoslavenej Panne Marií 5.", "Bratia a sestry, Panna Mária je veľkým vzorom nášho života v pokore, modlitbe a plnení Božej vôle. V tejto spoločnej modlitbe na jej orodovanie prosme nášho najmilostivejšieho Pána.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, požehnávaj Svätého Otca <font color='#B71C1C'>M.</font> a našich biskupov, kňazov a diakonov, aby tak ako Panna Mária vždy ochotne plnili tvoju vôľu.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane, ochraňuj všetky národy a ich predstavených, aby tak ako Panna Mária vždy zotrvávali v tvojej prítomnosti a žili podľa tvojich príkazov.<br>" +
-                            "<font color='#B71C1C'>3.</font> Otče, posilňuj všetkých trpiacich a núdznych, aby tak ako Panna Mária vedeli s pokorou znášať svoju bolesť a oddane ti slúžiť.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, veď všetkých kresťanov, aby tak ako Panna Mária ochotne počúvali Pánove slová a uchovávali ich vo svojich srdciach.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, zachovaj náš národ v jednote a svornosti, aby tak ako Panna Mária, naša patrónka, svorne kráčal v ústrety večnému nebeskému kráľovstvu.<br>" +
-                            "<font color='#B71C1C'>6.</font> Otče, stoj pri všetkých umierajúcich, aby tak ako Panna Mária s čistou dušou raz predstúpili pred tvoju tvár.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, požehnávaj Svätého Otca <font color='#B71C1C'>M.</font> a našich biskupov, kňazov a diakonov, aby tak ako Panna Mária vždy ochotne plnili tvoju vôľu.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane, ochraňuj všetky národy a ich predstavených, aby tak ako Panna Mária vždy zotrvávali v tvojej prítomnosti a žili podľa tvojich príkazov.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Otče, posilňuj všetkých trpiacich a núdznych, aby tak ako Panna Mária vedeli s pokorou znášať svoju bolesť a oddane ti slúžiť.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože, veď všetkých kresťanov, aby tak ako Panna Mária ochotne počúvali Pánove slová a uchovávali ich vo svojich srdciach.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, zachovaj náš národ v jednote a svornosti, aby tak ako Panna Mária, naša patrónka, svorne kráčal v ústrety večnému nebeskému kráľovstvu.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Otče, stoj pri všetkých umierajúcich, aby tak ako Panna Mária s čistou dušou raz predstúpili pred tvoju tvár.",
                     "Dobrotivý Otče, vypočuj naše prosby,<br>" +
                             "ktorými voláme k tebe<br>" +
                             "a utiekame sa pod ochranu Panny Márie,<br>" +
@@ -3104,11 +3104,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"11", "6", "Omša k preblahoslavenej Panne Marií 6.", "Bratia a sestry, sme zhromaždení na slávení Eucharistie, kde je prítomný živý Kristus, ktorý nás miluje spolu so svojou Matkou. Ona nám ho pomáha bližšie spoznať ako Božieho Syna a nášho Pána. S radosťou sa modlime.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, svoju matku si nekonečne miloval; daj, aby cirkevní predstavení celým srdcom milovali svojich veriacich a viedli ich k poznaniu pravej lásky.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, svoju matku si synovsky poslúchal; daj, aby zákonodarcovia tvorili zákony a nariadenia, ktoré budú slúžiť pre dobro a blaho všetkých.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, svoju matku si s úctou obdivoval; daj, aby deti prijímali svojich rodičov s rešpektom a vážili si ich rodičovskú obetavosť a výchovné rady.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, svoju matku si nikdy neopustil; daj, aby sme vždy pamätali na tvoje vykupiteľské dielo, ktoré si podstúpil pre našu spásu.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, svoju matku si vzal k sebe do neba; daj, aby sme sa raz stali hodni prežívať s tebou večnú blaženosť.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, svoju matku si nekonečne miloval; daj, aby cirkevní predstavení celým srdcom milovali svojich veriacich a viedli ich k poznaniu pravej lásky.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, svoju matku si synovsky poslúchal; daj, aby zákonodarcovia tvorili zákony a nariadenia, ktoré budú slúžiť pre dobro a blaho všetkých.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, svoju matku si s úctou obdivoval; daj, aby deti prijímali svojich rodičov s rešpektom a vážili si ich rodičovskú obetavosť a výchovné rady.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, svoju matku si nikdy neopustil; daj, aby sme vždy pamätali na tvoje vykupiteľské dielo, ktoré si podstúpil pre našu spásu.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, svoju matku si vzal k sebe do neba; daj, aby sme sa raz stali hodni prežívať s tebou večnú blaženosť.",
                     "Prosíme ťa, Pane Ježišu,<br>" +
                             "nech naše modlitby plné vrúcnosti preniknú k tebe;<br>" +
                             "posilni nás vo vytrvalosti stále sa modliť,<br>" +
@@ -3116,12 +3116,12 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"11", "7", "Omša k preblahoslavenej Panne Marií 7.", "Bratia a sestry, Panna Mária je veľkým vzorom nášho života v pokore, modlitbe a plnení Božej vôle. V tejto spoločnej modlitbe na jej orodovanie prosme nášho najmilostivejšieho Pána.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, požehnávaj Svätého Otca <font color='#B71C1C'>M.</font> a našich biskupov, kňazov a diakonov, aby tak ako Panna Mária vždy ochotne plnili tvoju vôľu.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane, ochraňuj všetky národy a ich predstavených, aby tak ako Panna Mária vždy zotrvávali v tvojej prítomnosti a žili podľa tvojich príkazov.<br>" +
-                            "<font color='#B71C1C'>3.</font> Otče, posilňuj všetkých trpiacich a núdznych, aby tak ako Panna Mária vedeli s pokorou znášať svoju bolesť a oddane ti slúžiť.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, veď všetkých kresťanov, aby tak ako Panna Mária ochotne počúvali Pánove slová a uchovávali ich vo svojich srdciach.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, zachovaj náš národ v jednote a svornosti, aby tak ako Panna Mária, naša patrónka, svorne kráčal v ústrety večnému nebeskému kráľovstvu.<br>" +
-                            "<font color='#B71C1C'>6.</font> Otče, stoj pri všetkých umierajúcich, aby tak ako Panna Mária s čistou dušou raz predstúpili pred tvoju tvár.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, požehnávaj Svätého Otca <font color='#B71C1C'>M.</font> a našich biskupov, kňazov a diakonov, aby tak ako Panna Mária vždy ochotne plnili tvoju vôľu.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane, ochraňuj všetky národy a ich predstavených, aby tak ako Panna Mária vždy zotrvávali v tvojej prítomnosti a žili podľa tvojich príkazov.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Otče, posilňuj všetkých trpiacich a núdznych, aby tak ako Panna Mária vedeli s pokorou znášať svoju bolesť a oddane ti slúžiť.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože, veď všetkých kresťanov, aby tak ako Panna Mária ochotne počúvali Pánove slová a uchovávali ich vo svojich srdciach.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, zachovaj náš národ v jednote a svornosti, aby tak ako Panna Mária, naša patrónka, svorne kráčal v ústrety večnému nebeskému kráľovstvu.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Otče, stoj pri všetkých umierajúcich, aby tak ako Panna Mária s čistou dušou raz predstúpili pred tvoju tvár.",
                     "Dobrotivý Otče, vypočuj naše prosby,<br>" +
                             "ktorými voláme k tebe<br>" +
                             "a utiekame sa pod ochranu Panny Márie,<br>" +
@@ -3130,11 +3130,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"11", "8", "Omša k preblahoslavenej Panne Marií 8.", "Bratia a sestry, sme zhromaždení na slávení Eucharistie, kde je prítomný živý Kristus, ktorý nás miluje spolu so svojou Matkou. Ona nám ho pomáha bližšie spoznať ako Božieho Syna a nášho Pána. S radosťou sa modlime.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, svoju matku si nekonečne miloval; daj, aby cirkevní predstavení celým srdcom milovali svojich veriacich a viedli ich k poznaniu pravej lásky.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, svoju matku si synovsky poslúchal; daj, aby zákonodarcovia tvorili zákony a nariadenia, ktoré budú slúžiť pre dobro a blaho všetkých.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, svoju matku si s úctou obdivoval; daj, aby deti prijímali svojich rodičov s rešpektom a vážili si ich rodičovskú obetavosť a výchovné rady.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, svoju matku si nikdy neopustil; daj, aby sme vždy pamätali na tvoje vykupiteľské dielo, ktoré si podstúpil pre našu spásu.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, svoju matku si vzal k sebe do neba; daj, aby sme sa raz stali hodni prežívať s tebou večnú blaženosť.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, svoju matku si nekonečne miloval; daj, aby cirkevní predstavení celým srdcom milovali svojich veriacich a viedli ich k poznaniu pravej lásky.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, svoju matku si synovsky poslúchal; daj, aby zákonodarcovia tvorili zákony a nariadenia, ktoré budú slúžiť pre dobro a blaho všetkých.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, svoju matku si s úctou obdivoval; daj, aby deti prijímali svojich rodičov s rešpektom a vážili si ich rodičovskú obetavosť a výchovné rady.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, svoju matku si nikdy neopustil; daj, aby sme vždy pamätali na tvoje vykupiteľské dielo, ktoré si podstúpil pre našu spásu.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, svoju matku si vzal k sebe do neba; daj, aby sme sa raz stali hodni prežívať s tebou večnú blaženosť.",
                     "Prosíme ťa, Pane Ježišu,<br>" +
                             "nech naše modlitby plné vrúcnosti preniknú k tebe;<br>" +
                             "posilni nás vo vytrvalosti stále sa modliť,<br>" +
@@ -3147,11 +3147,11 @@ public interface Formular {
             // 6 – iba v velkonocnom obdobi
             {"14", "1", "Omša k preblahoslavenej Panne Marií", "Bratia a sestry, v nebi máme svoju Matku, ktorú vzývame ako kráľovnú a našu orodovníčku. S dôverou v jej príhovor sa pri spoločnej modlitbe obráťme na nebeského Otca. ",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Prosme za Cirkev: aby prijala fatimskú výzvu na pokánie a odpovedala na ňu konkrétnymi skutkami.<br>" +
-                            "<font color='#B71C1C'>2.</font> Prosme za politikov na celom svete: aby pochopili, že pravý rozvoj krajín a národov je možný iba v mieri a úcte ku každému človeku.<br>" +
-                            "<font color='#B71C1C'>3.</font> Prosme za tvorcov zákonov v európskych krajinách: aby prijali skutočnosť, že Boh nás stvoril ako mužov a ženy, a aby podporovali rodiny posvätené sviatosťou manželstva.<br>" +
-                            "<font color='#B71C1C'>4.</font> Prosme za pútnikov, ktorí putujú do mariánskych svätýň, aby pocítili ochranu Panny Márie a túžili tak ako ona v pokore plniť Pánovu vôľu.<br>" +
-                            "<font color='#B71C1C'>5.</font> Prosme za seba samých, aby sme si každý deň našli primeraný čas na modlitbu, ktorou sa zverujeme Bohu a odovzdávame mu celý svoj život.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Prosme za Cirkev: aby prijala fatimskú výzvu na pokánie a odpovedala na ňu konkrétnymi skutkami.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Prosme za politikov na celom svete: aby pochopili, že pravý rozvoj krajín a národov je možný iba v mieri a úcte ku každému človeku.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Prosme za tvorcov zákonov v európskych krajinách: aby prijali skutočnosť, že Boh nás stvoril ako mužov a ženy, a aby podporovali rodiny posvätené sviatosťou manželstva.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Prosme za pútnikov, ktorí putujú do mariánskych svätýň, aby pocítili ochranu Panny Márie a túžili tak ako ona v pokore plniť Pánovu vôľu.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Prosme za seba samých, aby sme si každý deň našli primeraný čas na modlitbu, ktorou sa zverujeme Bohu a odovzdávame mu celý svoj život.",
                     "Všemohúci Bože, <br>" +
                             "tvoje Slovo naplnilo Máriino srdce<br>" +
                             "a bolo posilou jej svätého života;<br>" +
@@ -3166,11 +3166,11 @@ public interface Formular {
             {"15", "3", "Navštívenie Preblahoslavenej Panny Márie", ""},
             {"16", "1", "Nepoškvrneného Srdca Panny Márie", "Bratia a sestry, v nebi máme svoju Matku, ktorú vzývame ako kráľovnú a našu orodovníčku. S dôverou v jej príhovor sa pri spoločnej modlitbe obráťme na nebeského Otca. ",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Prosme za Cirkev: aby prijala fatimskú výzvu na pokánie a odpovedala na ňu konkrétnymi skutkami.<br>" +
-                            "<font color='#B71C1C'>2.</font> Prosme za politikov na celom svete: aby pochopili, že pravý rozvoj krajín a národov je možný iba v mieri a úcte ku každému človeku.<br>" +
-                            "<font color='#B71C1C'>3.</font> Prosme za tvorcov zákonov v európskych krajinách: aby prijali skutočnosť, že Boh nás stvoril ako mužov a ženy, a aby podporovali rodiny posvätené sviatosťou manželstva.<br>" +
-                            "<font color='#B71C1C'>4.</font> Prosme za pútnikov, ktorí putujú do mariánskych svätýň, aby pocítili ochranu Panny Márie a túžili tak ako ona v pokore plniť Pánovu vôľu.<br>" +
-                            "<font color='#B71C1C'>5.</font> Prosme za seba samých, aby sme si každý deň našli primeraný čas na modlitbu, ktorou sa zverujeme Bohu a odovzdávame mu celý svoj život.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Prosme za Cirkev: aby prijala fatimskú výzvu na pokánie a odpovedala na ňu konkrétnymi skutkami.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Prosme za politikov na celom svete: aby pochopili, že pravý rozvoj krajín a národov je možný iba v mieri a úcte ku každému človeku.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Prosme za tvorcov zákonov v európskych krajinách: aby prijali skutočnosť, že Boh nás stvoril ako mužov a ženy, a aby podporovali rodiny posvätené sviatosťou manželstva.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Prosme za pútnikov, ktorí putujú do mariánskych svätýň, aby pocítili ochranu Panny Márie a túžili tak ako ona v pokore plniť Pánovu vôľu.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Prosme za seba samých, aby sme si každý deň našli primeraný čas na modlitbu, ktorou sa zverujeme Bohu a odovzdávame mu celý svoj život.",
                     "Všemohúci Bože, <br>" +
                             "tvoje Slovo naplnilo Máriino srdce<br>" +
                             "a bolo posilou jej svätého života;<br>" +
@@ -3183,11 +3183,11 @@ public interface Formular {
             // omsa viacerých muceníkov mimo velkonocneho obdobia
             {"21", "1", "Omša za viacerých mučeníkov 1.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
                             "<font color='#B71C1C'>4. Na sviatky panny mučenice:</font> Za všetky dievčatá a panny: aby na príhovor svätej mučenice <font color='#B71C1C'>M.</font> chránili svoje panenstvo a odolávali pokušeniam klamlivých a konzumných trendov dnešnej doby, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3196,11 +3196,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"21", "2", "Omša za viacerých mučeníkov 2.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
                             "<font color='#B71C1C'>4. Na sviatky panny mučenice:</font> Za všetky dievčatá a panny: aby na príhovor svätej mučenice <font color='#B71C1C'>M.</font> chránili svoje panenstvo a odolávali pokušeniam klamlivých a konzumných trendov dnešnej doby, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3209,11 +3209,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"21", "3", "Omša za viacerých mučeníkov 3.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
                             "<font color='#B71C1C'>4. Na sviatky panny mučenice:</font> Za všetky dievčatá a panny: aby na príhovor svätej mučenice <font color='#B71C1C'>M.</font> chránili svoje panenstvo a odolávali pokušeniam klamlivých a konzumných trendov dnešnej doby, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3222,11 +3222,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"21", "4", "Omša za viacerých mučeníkov 4.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
                             "<font color='#B71C1C'>4. Na sviatky panny mučenice:</font> Za všetky dievčatá a panny: aby na príhovor svätej mučenice <font color='#B71C1C'>M.</font> chránili svoje panenstvo a odolávali pokušeniam klamlivých a konzumných trendov dnešnej doby, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3235,11 +3235,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"21", "5", "Omša za viacerých mučeníkov 5.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
                             "<font color='#B71C1C'>4. Na sviatky panny mučenice:</font> Za všetky dievčatá a panny: aby na príhovor svätej mučenice <font color='#B71C1C'>M.</font> chránili svoje panenstvo a odolávali pokušeniam klamlivých a konzumných trendov dnešnej doby, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3249,10 +3249,10 @@ public interface Formular {
             // omsa jedneho muceníka mimo velkonocneho obdobia
             {"22", "1", "Omša za jedného mučeníka 1.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>4.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3261,10 +3261,10 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"22", "2", "Omša za jedného mučeníka 2.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>4.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3274,11 +3274,11 @@ public interface Formular {
             // omsa viacerých muceníkov vo velkonocnom obdobi
             {"23", "1", "Omša za viacerých mučeníkov 1.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
                             "<font color='#B71C1C'>4. Na sviatky panny mučenice:</font> Za všetky dievčatá a panny: aby na príhovor svätej mučenice <font color='#B71C1C'>M.</font> chránili svoje panenstvo a odolávali pokušeniam klamlivých a konzumných trendov dnešnej doby, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3287,11 +3287,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"23", "2", "Omša za viacerých mučeníkov 2.", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
                             "<font color='#B71C1C'>4. Na sviatky panny mučenice:</font> Za všetky dievčatá a panny: aby na príhovor svätej mučenice <font color='#B71C1C'>M.</font> chránili svoje panenstvo a odolávali pokušeniam klamlivých a konzumných trendov dnešnej doby, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3301,10 +3301,10 @@ public interface Formular {
 // omsa jedného muceníka vo velkonocnom obdobi
             {"24", "1", "Omša za jedného mučeníka", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>4.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3314,10 +3314,10 @@ public interface Formular {
             // omsa o mucenikoch misionaroch
             {"25", "1", "Omša za viacerých mučeníkov misionárov", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>4.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3326,10 +3326,10 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"28", "1", "Omša za jedného mučeníka misionára", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>4.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3339,11 +3339,11 @@ public interface Formular {
             // omsa o panne mucenici
             {"26", "1", "Omša o panne mučenici", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
                             "<font color='#B71C1C'>4. Na sviatok - panny mučenice:</font> Za všetky dievčatá a panny: aby na príhovor svätej mučenice <font color='#B71C1C'>M.</font> chránili svoje panenstvo a odolávali pokušeniam klamlivých a konzumných trendov dnešnej doby, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3353,11 +3353,11 @@ public interface Formular {
             // omsa o svatej zene mucenici
             {"27", "1", "Omša o svätej žene mučenici", "Bratia a sestry, mučeníci vydali obdivuhodné svedectvo života viery. S vďačnosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za všetkých biskupov a kňazov: aby neváhali celý svoj život obetovať ohlasovaniu evanjelia a sláveniu svätých tajomstiev, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za všetkých predstaviteľov štátov: aby mali odvahu bojovať za dobro, spravodlivosť a pokoj medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za všetkých prenasledovaných: aby našli útechu v Božom slove, ktoré zjavuje život podľa Kristovho učenia, prosme Pána.<br>" +
                             "<font color='#B71C1C'>4. Na sviatok - panny mučenice:</font> Za všetky dievčatá a panny: aby na príhovor svätej mučenice <font color='#B71C1C'>M.</font> chránili svoje panenstvo a odolávali pokušeniam klamlivých a konzumných trendov dnešnej doby, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za našich zosnulých <font color='#B71C1C'>(M.)</font>: aby boli pripočítaní k zástupom svätých mučeníkov v nebeskom kráľovstve, prosme Pána.",
                     "Všemohúci Bože,<br>" +
                             "prijmi naše prosby,<br>" +
                             "ktorými voláme k tebe,<br>" +
@@ -3368,11 +3368,11 @@ public interface Formular {
             // omsa o papezoch alebo biskupov
             {"31", "1", "Omša o pápežoch alebo biskupoch 1.", "Bratia a sestry, spolu s celou Cirkvou prednesme svoje prosby všemohúcemu Bohu, Pánovi neba i zeme.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Prosme za Svätého Otca <font color='#B71C1C'>M.</font>, aby s pomocou a vnuknutím Ducha Svätého viedol Cirkev horlivo a múdro.<br>" +
-                            "<font color='#B71C1C'>2.</font> Prosme za vedúcich predstaviteľov štátov, aby pri vykonávaní svojho úradu mali na zreteli, že ich úlohou je slúžiť ľuďom a viesť ich s rozvahou a svedomito.<br>" +
-                            "<font color='#B71C1C'>3.</font> Prosme za nadriadených v zamestnaní, aby s úctou pristupovali k svojim zamestnancom a boli im príkladom v plnení povinností.<br>" +
-                            "<font color='#B71C1C'>4.</font> Prosme za všetok kresťanský ľud, aby verne a s dôverou počúval radostnú zvesť evanjelia a modlitbami sa zapájal do života putujúcej Cirkvi.<br>" +
-                            "<font color='#B71C1C'>5.</font> Prosme za zosnulých <font color='#B71C1C'>(M.)</font>, aby mali účasť na večnom živote a na radosti v oslávenej Cirkvi.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Prosme za Svätého Otca <font color='#B71C1C'>M.</font>, aby s pomocou a vnuknutím Ducha Svätého viedol Cirkev horlivo a múdro.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Prosme za vedúcich predstaviteľov štátov, aby pri vykonávaní svojho úradu mali na zreteli, že ich úlohou je slúžiť ľuďom a viesť ich s rozvahou a svedomito.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Prosme za nadriadených v zamestnaní, aby s úctou pristupovali k svojim zamestnancom a boli im príkladom v plnení povinností.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Prosme za všetok kresťanský ľud, aby verne a s dôverou počúval radostnú zvesť evanjelia a modlitbami sa zapájal do života putujúcej Cirkvi.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Prosme za zosnulých <font color='#B71C1C'>(M.)</font>, aby mali účasť na večnom živote a na radosti v oslávenej Cirkvi.",
                     "Bože, na príhovor Petrovho nástupcu,<br>" +
                             "svätého pápeža <font color='#B71C1C'>M.</font>,<br>" +
                             "prijmi naše modlitby,<br>" +
@@ -3381,11 +3381,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"31", "2", "Omša o pápežoch alebo biskupoch 2.", "Bratia a sestry, spolu s celou Cirkvou prednesme svoje prosby všemohúcemu Bohu, Pánovi neba i zeme.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Prosme za Svätého Otca <font color='#B71C1C'>M.</font>, aby s pomocou a vnuknutím Ducha Svätého viedol Cirkev horlivo a múdro.<br>" +
-                            "<font color='#B71C1C'>2.</font> Prosme za vedúcich predstaviteľov štátov, aby pri vykonávaní svojho úradu mali na zreteli, že ich úlohou je slúžiť ľuďom a viesť ich s rozvahou a svedomito.<br>" +
-                            "<font color='#B71C1C'>3.</font> Prosme za nadriadených v zamestnaní, aby s úctou pristupovali k svojim zamestnancom a boli im príkladom v plnení povinností.<br>" +
-                            "<font color='#B71C1C'>4.</font> Prosme za všetok kresťanský ľud, aby verne a s dôverou počúval radostnú zvesť evanjelia a modlitbami sa zapájal do života putujúcej Cirkvi.<br>" +
-                            "<font color='#B71C1C'>5.</font> Prosme za zosnulých <font color='#B71C1C'>(M.)</font>, aby mali účasť na večnom živote a na radosti v oslávenej Cirkvi.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Prosme za Svätého Otca <font color='#B71C1C'>M.</font>, aby s pomocou a vnuknutím Ducha Svätého viedol Cirkev horlivo a múdro.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Prosme za vedúcich predstaviteľov štátov, aby pri vykonávaní svojho úradu mali na zreteli, že ich úlohou je slúžiť ľuďom a viesť ich s rozvahou a svedomito.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Prosme za nadriadených v zamestnaní, aby s úctou pristupovali k svojim zamestnancom a boli im príkladom v plnení povinností.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Prosme za všetok kresťanský ľud, aby verne a s dôverou počúval radostnú zvesť evanjelia a modlitbami sa zapájal do života putujúcej Cirkvi.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Prosme za zosnulých <font color='#B71C1C'>(M.)</font>, aby mali účasť na večnom živote a na radosti v oslávenej Cirkvi.",
                     "Bože, na príhovor Petrovho nástupcu,<br>" +
                             "svätého pápeža <font color='#B71C1C'>M.</font>,<br>" +
                             "prijmi naše modlitby,<br>" +
@@ -3394,11 +3394,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"36", "1", "Omša o pápežoch alebo biskupoch 1.", "Bratia a sestry, obráťme sa s prosbami na nášho nebeského Otca, ktorý nás nekonečne miluje.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Stvoriteľ sveta, zachovaj vo svojej milosti rímskeho biskupa, pápeža <font color='#B71C1C'>M.</font>, a všetkých biskupov, aby boli príkladom v nábožnosti a v konaní dobrých skutkov.<br>" +
-                            "<font color='#B71C1C'>2.</font> Najmocnejší vládca, osvecuj mysle i srdcia všetkých, ktorí spravujú národy, aby boli svedomití vo vykonávaní povinností a vytrvalí v úsilí o dôstojnosť života.<br>" +
-                            "<font color='#B71C1C'>3.</font> Tešiteľ núdznych, na príhovor svätého biskupa <font color='#B71C1C'>M.</font> ochraňuj všetkých, ktorí trpia na tele alebo na duši, aby vo svojich bratoch a sestrách našli hmotnú pomoc a duchovné zázemie.<br>" +
-                            "<font color='#B71C1C'>4.</font> Nekonečná dobrota, zhromažďuj nás ako jednu rodinu v spoločenstve miestnej cirkvi, aby sa nik z nás necítil osamelý a opustený.<br>" +
-                            "<font color='#B71C1C'>5.</font> Spravodlivý sudca, vezmi do svojej otcovskej náruče všetkých, ktorí už opustili tento svet, odpusť im viny a daruj im večnú radosť.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Stvoriteľ sveta, zachovaj vo svojej milosti rímskeho biskupa, pápeža <font color='#B71C1C'>M.</font>, a všetkých biskupov, aby boli príkladom v nábožnosti a v konaní dobrých skutkov.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Najmocnejší vládca, osvecuj mysle i srdcia všetkých, ktorí spravujú národy, aby boli svedomití vo vykonávaní povinností a vytrvalí v úsilí o dôstojnosť života.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Tešiteľ núdznych, na príhovor svätého biskupa <font color='#B71C1C'>M.</font> ochraňuj všetkých, ktorí trpia na tele alebo na duši, aby vo svojich bratoch a sestrách našli hmotnú pomoc a duchovné zázemie.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Nekonečná dobrota, zhromažďuj nás ako jednu rodinu v spoločenstve miestnej cirkvi, aby sa nik z nás necítil osamelý a opustený.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Spravodlivý sudca, vezmi do svojej otcovskej náruče všetkých, ktorí už opustili tento svet, odpusť im viny a daruj im večnú radosť.",
                     "Bože, ty posielaš biskupov<br>" +
                             "ako pastierov svojho ľudu;<br>" +
                             "vypočuj naše modlitby<br>" +
@@ -3407,11 +3407,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"36", "2", "Omša o pápežoch alebo biskupoch 2.", "Bratia a sestry, obráťme sa s prosbami na nášho nebeského Otca, ktorý nás nekonečne miluje.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Stvoriteľ sveta, zachovaj vo svojej milosti rímskeho biskupa, pápeža <font color='#B71C1C'>M.</font>, a všetkých biskupov, aby boli príkladom v nábožnosti a v konaní dobrých skutkov.<br>" +
-                            "<font color='#B71C1C'>2.</font> Najmocnejší vládca, osvecuj mysle i srdcia všetkých, ktorí spravujú národy, aby boli svedomití vo vykonávaní povinností a vytrvalí v úsilí o dôstojnosť života.<br>" +
-                            "<font color='#B71C1C'>3.</font> Tešiteľ núdznych, na príhovor svätého biskupa <font color='#B71C1C'>M.</font> ochraňuj všetkých, ktorí trpia na tele alebo na duši, aby vo svojich bratoch a sestrách našli hmotnú pomoc a duchovné zázemie.<br>" +
-                            "<font color='#B71C1C'>4.</font> Nekonečná dobrota, zhromažďuj nás ako jednu rodinu v spoločenstve miestnej cirkvi, aby sa nik z nás necítil osamelý a opustený.<br>" +
-                            "<font color='#B71C1C'>5.</font> Spravodlivý sudca, vezmi do svojej otcovskej náruče všetkých, ktorí už opustili tento svet, odpusť im viny a daruj im večnú radosť.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Stvoriteľ sveta, zachovaj vo svojej milosti rímskeho biskupa, pápeža <font color='#B71C1C'>M.</font>, a všetkých biskupov, aby boli príkladom v nábožnosti a v konaní dobrých skutkov.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Najmocnejší vládca, osvecuj mysle i srdcia všetkých, ktorí spravujú národy, aby boli svedomití vo vykonávaní povinností a vytrvalí v úsilí o dôstojnosť života.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Tešiteľ núdznych, na príhovor svätého biskupa <font color='#B71C1C'>M.</font> ochraňuj všetkých, ktorí trpia na tele alebo na duši, aby vo svojich bratoch a sestrách našli hmotnú pomoc a duchovné zázemie.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Nekonečná dobrota, zhromažďuj nás ako jednu rodinu v spoločenstve miestnej cirkvi, aby sa nik z nás necítil osamelý a opustený.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Spravodlivý sudca, vezmi do svojej otcovskej náruče všetkých, ktorí už opustili tento svet, odpusť im viny a daruj im večnú radosť.",
                     "Bože, ty posielaš biskupov<br>" +
                             "ako pastierov svojho ľudu;<br>" +
                             "vypočuj naše modlitby<br>" +
@@ -3421,11 +3421,11 @@ public interface Formular {
             // omsa o biskupoch
             {"32", "1", "Omša o biskupoch 1.", "Bratia a sestry, obráťme sa s prosbami na nášho nebeského Otca, ktorý nás nekonečne miluje.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Stvoriteľ sveta, zachovaj vo svojej milosti rímskeho biskupa, pápeža <font color='#B71C1C'>M.</font>, a všetkých biskupov, aby boli príkladom v nábožnosti a v konaní dobrých skutkov.<br>" +
-                            "<font color='#B71C1C'>2.</font> Najmocnejší vládca, osvecuj mysle i srdcia všetkých, ktorí spravujú národy, aby boli svedomití vo vykonávaní povinností a vytrvalí v úsilí o dôstojnosť života.<br>" +
-                            "<font color='#B71C1C'>3.</font> Tešiteľ núdznych, na príhovor svätého biskupa <font color='#B71C1C'>M.</font> ochraňuj všetkých, ktorí trpia na tele alebo na duši, aby vo svojich bratoch a sestrách našli hmotnú pomoc a duchovné zázemie.<br>" +
-                            "<font color='#B71C1C'>4.</font> Nekonečná dobrota, zhromažďuj nás ako jednu rodinu v spoločenstve miestnej cirkvi, aby sa nik z nás necítil osamelý a opustený.<br>" +
-                            "<font color='#B71C1C'>5.</font> Spravodlivý sudca, vezmi do svojej otcovskej náruče všetkých, ktorí už opustili tento svet, odpusť im viny a daruj im večnú radosť.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Stvoriteľ sveta, zachovaj vo svojej milosti rímskeho biskupa, pápeža <font color='#B71C1C'>M.</font>, a všetkých biskupov, aby boli príkladom v nábožnosti a v konaní dobrých skutkov.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Najmocnejší vládca, osvecuj mysle i srdcia všetkých, ktorí spravujú národy, aby boli svedomití vo vykonávaní povinností a vytrvalí v úsilí o dôstojnosť života.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Tešiteľ núdznych, na príhovor svätého biskupa <font color='#B71C1C'>M.</font> ochraňuj všetkých, ktorí trpia na tele alebo na duši, aby vo svojich bratoch a sestrách našli hmotnú pomoc a duchovné zázemie.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Nekonečná dobrota, zhromažďuj nás ako jednu rodinu v spoločenstve miestnej cirkvi, aby sa nik z nás necítil osamelý a opustený.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Spravodlivý sudca, vezmi do svojej otcovskej náruče všetkých, ktorí už opustili tento svet, odpusť im viny a daruj im večnú radosť.",
                     "Bože, ty posielaš biskupov<br>" +
                             "ako pastierov svojho ľudu;<br>" +
                             "vypočuj naše modlitby<br>" +
@@ -3434,11 +3434,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"32", "2", "Omša o biskupoch 2.", "Bratia a sestry, obráťme sa s prosbami na nášho nebeského Otca, ktorý nás nekonečne miluje.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Stvoriteľ sveta, zachovaj vo svojej milosti rímskeho biskupa, pápeža <font color='#B71C1C'>M.</font>, a všetkých biskupov, aby boli príkladom v nábožnosti a v konaní dobrých skutkov.<br>" +
-                            "<font color='#B71C1C'>2.</font> Najmocnejší vládca, osvecuj mysle i srdcia všetkých, ktorí spravujú národy, aby boli svedomití vo vykonávaní povinností a vytrvalí v úsilí o dôstojnosť života.<br>" +
-                            "<font color='#B71C1C'>3.</font> Tešiteľ núdznych, na príhovor svätého biskupa <font color='#B71C1C'>M.</font> ochraňuj všetkých, ktorí trpia na tele alebo na duši, aby vo svojich bratoch a sestrách našli hmotnú pomoc a duchovné zázemie.<br>" +
-                            "<font color='#B71C1C'>4.</font> Nekonečná dobrota, zhromažďuj nás ako jednu rodinu v spoločenstve miestnej cirkvi, aby sa nik z nás necítil osamelý a opustený.<br>" +
-                            "<font color='#B71C1C'>5.</font> Spravodlivý sudca, vezmi do svojej otcovskej náruče všetkých, ktorí už opustili tento svet, odpusť im viny a daruj im večnú radosť.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Stvoriteľ sveta, zachovaj vo svojej milosti rímskeho biskupa, pápeža <font color='#B71C1C'>M.</font>, a všetkých biskupov, aby boli príkladom v nábožnosti a v konaní dobrých skutkov.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Najmocnejší vládca, osvecuj mysle i srdcia všetkých, ktorí spravujú národy, aby boli svedomití vo vykonávaní povinností a vytrvalí v úsilí o dôstojnosť života.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Tešiteľ núdznych, na príhovor svätého biskupa <font color='#B71C1C'>M.</font> ochraňuj všetkých, ktorí trpia na tele alebo na duši, aby vo svojich bratoch a sestrách našli hmotnú pomoc a duchovné zázemie.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Nekonečná dobrota, zhromažďuj nás ako jednu rodinu v spoločenstve miestnej cirkvi, aby sa nik z nás necítil osamelý a opustený.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Spravodlivý sudca, vezmi do svojej otcovskej náruče všetkých, ktorí už opustili tento svet, odpusť im viny a daruj im večnú radosť.",
                     "Bože, ty posielaš biskupov<br>" +
                             "ako pastierov svojho ľudu;<br>" +
                             "vypočuj naše modlitby<br>" +
@@ -3448,11 +3448,11 @@ public interface Formular {
             // omsa o duchovnych pastieroch
             {"33", "1", "Omša o duchovných pastieroch", "Bratia a sestry, ďakujme Bohu, že posiela svojmu ľudu kňazov, služobníkov oltára, medzi ktorých patril aj svätý kňaz <font color='#B71C1C'>M.</font>, a s oddanosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane, prosíme ťa za kňazov, aby prostredníctvom nich veriaci vzrastali vo viere, nábožnosti a v hlbokom prežívaní tajomstva Eucharistie.<br>" +
-                            "<font color='#B71C1C'>2.</font> Bože, prosíme ťa za svetských predstaviteľov, aby pamätali na spoločné dobro občanov a mali úprimný záujem o riešenie konfliktov a sporov.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane, prosíme ťa za nedbalých a povrchných kresťanov, aby našli cestu k sviatosti zmierenia, ktorú vysluhujú kňazi vo farnostiach.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, prosíme ťa za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo, aby sme mali vytrvalosť modliť sa za nášho duchovného otca a vyprosovali mu milosť a požehnanie pri plnení jeho povinností.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, prosíme ťa za duše v očistci, zotri ich previnenia, ktorými ťa zarmucovali, odpusť im hriechy a obdaruj ich svojím otcovským prijatím.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane, prosíme ťa za kňazov, aby prostredníctvom nich veriaci vzrastali vo viere, nábožnosti a v hlbokom prežívaní tajomstva Eucharistie.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Bože, prosíme ťa za svetských predstaviteľov, aby pamätali na spoločné dobro občanov a mali úprimný záujem o riešenie konfliktov a sporov.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane, prosíme ťa za nedbalých a povrchných kresťanov, aby našli cestu k sviatosti zmierenia, ktorú vysluhujú kňazi vo farnostiach.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože, prosíme ťa za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo, aby sme mali vytrvalosť modliť sa za nášho duchovného otca a vyprosovali mu milosť a požehnanie pri plnení jeho povinností.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, prosíme ťa za duše v očistci, zotri ich previnenia, ktorými ťa zarmucovali, odpusť im hriechy a obdaruj ich svojím otcovským prijatím.",
                     "Otče, na príhovor svätého kňaza <font color='#B71C1C'>M.</font><br>" +
                             "prijmi naše prosby a daj,<br>" +
                             "aby sme raz so srdcom naplneným láskou<br>" +
@@ -3460,11 +3460,11 @@ public interface Formular {
                             "ktorý žije a kraľuje na veky vekov."},
             {"37", "1", "Omša o duchovnom pastierovi 1.", "Bratia a sestry, ďakujme Bohu, že posiela svojmu ľudu kňazov, služobníkov oltára, medzi ktorých patril aj svätý kňaz <font color='#B71C1C'>M.</font>, a s oddanosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane, prosíme ťa za kňazov, aby prostredníctvom nich veriaci vzrastali vo viere, nábožnosti a v hlbokom prežívaní tajomstva Eucharistie.<br>" +
-                            "<font color='#B71C1C'>2.</font> Bože, prosíme ťa za svetských predstaviteľov, aby pamätali na spoločné dobro občanov a mali úprimný záujem o riešenie konfliktov a sporov.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane, prosíme ťa za nedbalých a povrchných kresťanov, aby našli cestu k sviatosti zmierenia, ktorú vysluhujú kňazi vo farnostiach.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, prosíme ťa za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo, aby sme mali vytrvalosť modliť sa za nášho duchovného otca a vyprosovali mu milosť a požehnanie pri plnení jeho povinností.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, prosíme ťa za duše v očistci, zotri ich previnenia, ktorými ťa zarmucovali, odpusť im hriechy a obdaruj ich svojím otcovským prijatím.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane, prosíme ťa za kňazov, aby prostredníctvom nich veriaci vzrastali vo viere, nábožnosti a v hlbokom prežívaní tajomstva Eucharistie.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Bože, prosíme ťa za svetských predstaviteľov, aby pamätali na spoločné dobro občanov a mali úprimný záujem o riešenie konfliktov a sporov.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane, prosíme ťa za nedbalých a povrchných kresťanov, aby našli cestu k sviatosti zmierenia, ktorú vysluhujú kňazi vo farnostiach.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože, prosíme ťa za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo, aby sme mali vytrvalosť modliť sa za nášho duchovného otca a vyprosovali mu milosť a požehnanie pri plnení jeho povinností.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, prosíme ťa za duše v očistci, zotri ich previnenia, ktorými ťa zarmucovali, odpusť im hriechy a obdaruj ich svojím otcovským prijatím.",
                     "Otče, na príhovor svätého kňaza <font color='#B71C1C'>M.</font><br>" +
                             "prijmi naše prosby a daj,<br>" +
                             "aby sme raz so srdcom naplneným láskou<br>" +
@@ -3472,11 +3472,11 @@ public interface Formular {
                             "ktorý žije a kraľuje na veky vekov."},
             {"37", "2", "Omša o duchovnom pastierovi 2.", "Bratia a sestry, ďakujme Bohu, že posiela svojmu ľudu kňazov, služobníkov oltára, medzi ktorých patril aj svätý kňaz <font color='#B71C1C'>M.</font>, a s oddanosťou prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane, prosíme ťa za kňazov, aby prostredníctvom nich veriaci vzrastali vo viere, nábožnosti a v hlbokom prežívaní tajomstva Eucharistie.<br>" +
-                            "<font color='#B71C1C'>2.</font> Bože, prosíme ťa za svetských predstaviteľov, aby pamätali na spoločné dobro občanov a mali úprimný záujem o riešenie konfliktov a sporov.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane, prosíme ťa za nedbalých a povrchných kresťanov, aby našli cestu k sviatosti zmierenia, ktorú vysluhujú kňazi vo farnostiach.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, prosíme ťa za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo, aby sme mali vytrvalosť modliť sa za nášho duchovného otca a vyprosovali mu milosť a požehnanie pri plnení jeho povinností.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, prosíme ťa za duše v očistci, zotri ich previnenia, ktorými ťa zarmucovali, odpusť im hriechy a obdaruj ich svojím otcovským prijatím.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane, prosíme ťa za kňazov, aby prostredníctvom nich veriaci vzrastali vo viere, nábožnosti a v hlbokom prežívaní tajomstva Eucharistie.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Bože, prosíme ťa za svetských predstaviteľov, aby pamätali na spoločné dobro občanov a mali úprimný záujem o riešenie konfliktov a sporov.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane, prosíme ťa za nedbalých a povrchných kresťanov, aby našli cestu k sviatosti zmierenia, ktorú vysluhujú kňazi vo farnostiach.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože, prosíme ťa za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo, aby sme mali vytrvalosť modliť sa za nášho duchovného otca a vyprosovali mu milosť a požehnanie pri plnení jeho povinností.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, prosíme ťa za duše v očistci, zotri ich previnenia, ktorými ťa zarmucovali, odpusť im hriechy a obdaruj ich svojím otcovským prijatím.",
                     "Otče, na príhovor svätého kňaza <font color='#B71C1C'>M.</font><br>" +
                             "prijmi naše prosby a daj,<br>" +
                             "aby sme raz so srdcom naplneným láskou<br>" +
@@ -3485,11 +3485,11 @@ public interface Formular {
             // omsa o zakladateloch miestych cirkvi
             {"34", "1", "Omša o zakladateľovi miestnej cirkvi", "Bratia a sestry, svätý <font color='#B71C1C'>(</font>svätá<font color='#B71C1C'>)</font> M.</font> nám svojím životom ukázal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font>, ako priniesť svedectvo o zmŕtvychvstalom Kristovi. Nasledujme ho <font color='#B71C1C'>(</font>ju<font color='#B71C1C'>)</font> a obráťme sa s modlitbami k Bohu.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Prosme za tých, ktorí spravujú Cirkev a rehoľné komunity, aby vzbudzovali v srdciach mladých ľudí túžbu po duchovnom povolaní.<br>" +
-                            "<font color='#B71C1C'>2.</font> Prosme za predstaviteľov štátnej moci, aby sa, posilnení duchom múdrosti, usilovali o zachovávanie mieru a dodržiavanie spravodlivosti.<br>" +
-                            "<font color='#B71C1C'>3.</font> Prosme za nezamestnaných, aby mali príležitosť nájsť si nové zamestnanie a s dôverou v Božiu pomoc hľadali možnosti svojho osobného a pracovného naplnenia.<br>" +
-                            "<font color='#B71C1C'>4.</font> <font color='#B71C1C'>za rehole:</font> Prosme za rehoľu <font color='#B71C1C'>M.</font>, aby mala obetavých predstavených <font color='#B71C1C'>(</font>obetavé predstavené<font color='#B71C1C'>)</font>, ktorí <font color='#B71C1C'>(</font>ktoré<font color='#B71C1C'>)</font> počúvaním Božieho slova a konaním skutkov lásky privedú svojich spolubratov <font color='#B71C1C'>(</font>svoje spolusestry<font color='#B71C1C'>)</font> k hlbokej a úprimnej nábožnosti.<br>" +
-                            "<font color='#B71C1C'>5.</font> Prosme za zosnulých <font color='#B71C1C'>(M.)</font>, aby sa nové nebo a nová zem nebeského kráľovstva stali ich večným domovom.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Prosme za tých, ktorí spravujú Cirkev a rehoľné komunity, aby vzbudzovali v srdciach mladých ľudí túžbu po duchovnom povolaní.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Prosme za predstaviteľov štátnej moci, aby sa, posilnení duchom múdrosti, usilovali o zachovávanie mieru a dodržiavanie spravodlivosti.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Prosme za nezamestnaných, aby mali príležitosť nájsť si nové zamestnanie a s dôverou v Božiu pomoc hľadali možnosti svojho osobného a pracovného naplnenia.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;<font color='#B71C1C'>za rehole:</font> Prosme za rehoľu <font color='#B71C1C'>M.</font>, aby mala obetavých predstavených <font color='#B71C1C'>(</font>obetavé predstavené<font color='#B71C1C'>)</font>, ktorí <font color='#B71C1C'>(</font>ktoré<font color='#B71C1C'>)</font> počúvaním Božieho slova a konaním skutkov lásky privedú svojich spolubratov <font color='#B71C1C'>(</font>svoje spolusestry<font color='#B71C1C'>)</font> k hlbokej a úprimnej nábožnosti.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Prosme za zosnulých <font color='#B71C1C'>(M.)</font>, aby sa nové nebo a nová zem nebeského kráľovstva stali ich večným domovom.",
                     "Bože, ďakujeme za dielo, ktoré vykonal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> svätý<font color='#B71C1C'>(</font>á<font color='#B71C1C'>)</font> M.</font>,<br>" +
                             "a prosíme ťa: vypočuj naše prosby,<br>" +
                             "povzbudzuj nás podľa jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> príkladu<br>" +
@@ -3498,11 +3498,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"38", "1", "Omša o zakladateľoch miestnych cirkví", "Bratia a sestry, svätý <font color='#B71C1C'>(</font>svätá<font color='#B71C1C'>)</font> M.</font> nám svojím životom ukázal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font>, ako priniesť svedectvo o zmŕtvychvstalom Kristovi. Nasledujme ho <font color='#B71C1C'>(</font>ju<font color='#B71C1C'>)</font> a obráťme sa s modlitbami k Bohu.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Prosme za tých, ktorí spravujú Cirkev a rehoľné komunity, aby vzbudzovali v srdciach mladých ľudí túžbu po duchovnom povolaní.<br>" +
-                            "<font color='#B71C1C'>2.</font> Prosme za predstaviteľov štátnej moci, aby sa, posilnení duchom múdrosti, usilovali o zachovávanie mieru a dodržiavanie spravodlivosti.<br>" +
-                            "<font color='#B71C1C'>3.</font> Prosme za nezamestnaných, aby mali príležitosť nájsť si nové zamestnanie a s dôverou v Božiu pomoc hľadali možnosti svojho osobného a pracovného naplnenia.<br>" +
-                            "<font color='#B71C1C'>4.</font> <font color='#B71C1C'>za rehole:</font> Prosme za rehoľu <font color='#B71C1C'>M.</font>, aby mala obetavých predstavených <font color='#B71C1C'>(</font>obetavé predstavené<font color='#B71C1C'>)</font>, ktorí <font color='#B71C1C'>(</font>ktoré<font color='#B71C1C'>)</font> počúvaním Božieho slova a konaním skutkov lásky privedú svojich spolubratov <font color='#B71C1C'>(</font>svoje spolusestry<font color='#B71C1C'>)</font> k hlbokej a úprimnej nábožnosti.<br>" +
-                            "<font color='#B71C1C'>5.</font> Prosme za zosnulých <font color='#B71C1C'>(M.)</font>, aby sa nové nebo a nová zem nebeského kráľovstva stali ich večným domovom.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Prosme za tých, ktorí spravujú Cirkev a rehoľné komunity, aby vzbudzovali v srdciach mladých ľudí túžbu po duchovnom povolaní.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Prosme za predstaviteľov štátnej moci, aby sa, posilnení duchom múdrosti, usilovali o zachovávanie mieru a dodržiavanie spravodlivosti.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Prosme za nezamestnaných, aby mali príležitosť nájsť si nové zamestnanie a s dôverou v Božiu pomoc hľadali možnosti svojho osobného a pracovného naplnenia.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;<font color='#B71C1C'>za rehole:</font> Prosme za rehoľu <font color='#B71C1C'>M.</font>, aby mala obetavých predstavených <font color='#B71C1C'>(</font>obetavé predstavené<font color='#B71C1C'>)</font>, ktorí <font color='#B71C1C'>(</font>ktoré<font color='#B71C1C'>)</font> počúvaním Božieho slova a konaním skutkov lásky privedú svojich spolubratov <font color='#B71C1C'>(</font>svoje spolusestry<font color='#B71C1C'>)</font> k hlbokej a úprimnej nábožnosti.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Prosme za zosnulých <font color='#B71C1C'>(M.)</font>, aby sa nové nebo a nová zem nebeského kráľovstva stali ich večným domovom.",
                     "Bože, ďakujeme za dielo, ktoré vykonal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> svätý<font color='#B71C1C'>(</font>á<font color='#B71C1C'>)</font> M.</font>,<br>" +
                             "a prosíme ťa: vypočuj naše prosby,<br>" +
                             "povzbudzuj nás podľa jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> príkladu<br>" +
@@ -3512,36 +3512,36 @@ public interface Formular {
             // omsa o misionaroch
             {"35", "1", "Omša o misionároch 1.", "Bratia a sestry, Kristovo učenie sa hlása po celom svete. Prednesme mu svoje prosby ako prejav prijatia jeho náuky a túžby po Božom kráľovstve.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Ježišu, ty si s láskou viedol zástupy; pomáhaj biskupom a kňazom odvážne roznecovať vo veriacich túžbu po poznávaní tajomstiev viery.<br>" +
-                            "<font color='#B71C1C'>2.</font> Ježišu, ty si dal apoštolom kľúče od nebeského kráľovstva; upevňuj predstaviteľov vládnej moci v ochote viesť národy k vzájomnému porozumeniu.<br>" +
-                            "<font color='#B71C1C'>3.</font> Ježišu, ty si obdivuhodne a víťazne znášal utrpenie; povzbudzuj chorých a trpiacich sužovaných bolesťou, aby mali novú nádej a prísľub večnosti, kde niet trápenia ani zármutku.<br>" +
+                    "<font color='#B71C1C'>1.</font>&nbsp;Ježišu, ty si s láskou viedol zástupy; pomáhaj biskupom a kňazom odvážne roznecovať vo veriacich túžbu po poznávaní tajomstiev viery.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Ježišu, ty si dal apoštolom kľúče od nebeského kráľovstva; upevňuj predstaviteľov vládnej moci v ochote viesť národy k vzájomnému porozumeniu.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Ježišu, ty si obdivuhodne a víťazne znášal utrpenie; povzbudzuj chorých a trpiacich sužovaných bolesťou, aby mali novú nádej a prísľub večnosti, kde niet trápenia ani zármutku.<br>" +
                             "<font color='#B71C1C'>4a.</font> Ježišu, ty si vzorom odvahy a obety; podľa príkladu svätého misionára <font color='#B71C1C'>M.</font> nám dodávaj silu šíriť tvoje evanjelium v našich rodinách a domovoch.<br>" +
                             "<font color='#B71C1C'>4b. mučeník misionár:</font> Ježišu, ty si svojou obetou na kríži ukázal svetu najväčší skutok lásky; na príhovor svätého misionára a mučeníka <font color='#B71C1C'>M.</font> dodávaj silu a odvahu všetkým trpiacim pre vieru.<br>" +
-                            "<font color='#B71C1C'>5.</font> Ježišu, ty si zvíťazil nad smrťou; prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí úprimne velebili tvoje meno.",
+                            "<font color='#B71C1C'>5.</font>&nbsp;Ježišu, ty si zvíťazil nad smrťou; prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí úprimne velebili tvoje meno.",
                     "Pane Ježišu, láskavo vypočuj naše prosby<br>" +
                             "a posilňuj nás v ohlasovaní radostnej zvesti<br>" +
                             "v srdciach svojich blížnych.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"35", "2", "Omša o misionároch 2.", "Bratia a sestry, Kristovo učenie sa hlása po celom svete. Prednesme mu svoje prosby ako prejav prijatia jeho náuky a túžby po Božom kráľovstve.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Ježišu, ty si s láskou viedol zástupy; pomáhaj biskupom a kňazom odvážne roznecovať vo veriacich túžbu po poznávaní tajomstiev viery.<br>" +
-                            "<font color='#B71C1C'>2.</font> Ježišu, ty si dal apoštolom kľúče od nebeského kráľovstva; upevňuj predstaviteľov vládnej moci v ochote viesť národy k vzájomnému porozumeniu.<br>" +
-                            "<font color='#B71C1C'>3.</font> Ježišu, ty si obdivuhodne a víťazne znášal utrpenie; povzbudzuj chorých a trpiacich sužovaných bolesťou, aby mali novú nádej a prísľub večnosti, kde niet trápenia ani zármutku.<br>" +
+                    "<font color='#B71C1C'>1.</font>&nbsp;Ježišu, ty si s láskou viedol zástupy; pomáhaj biskupom a kňazom odvážne roznecovať vo veriacich túžbu po poznávaní tajomstiev viery.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Ježišu, ty si dal apoštolom kľúče od nebeského kráľovstva; upevňuj predstaviteľov vládnej moci v ochote viesť národy k vzájomnému porozumeniu.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Ježišu, ty si obdivuhodne a víťazne znášal utrpenie; povzbudzuj chorých a trpiacich sužovaných bolesťou, aby mali novú nádej a prísľub večnosti, kde niet trápenia ani zármutku.<br>" +
                             "4a. Ježišu, ty si vzorom odvahy a obety; podľa príkladu svätého misionára <font color='#B71C1C'>M.</font> nám dodávaj silu šíriť tvoje evanjelium v našich rodinách a domovoch.<br>" +
                             "4b. <font color='#B71C1C'>mučeník misionár:</font> Ježišu, ty si svojou obetou na kríži ukázal svetu najväčší skutok lásky; na príhovor svätého misionára a mučeníka <font color='#B71C1C'>M.</font> dodávaj silu a odvahu všetkým trpiacim pre vieru.<br>" +
-                            "<font color='#B71C1C'>5.</font> Ježišu, ty si zvíťazil nad smrťou; prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí úprimne velebili tvoje meno.",
+                            "<font color='#B71C1C'>5.</font>&nbsp;Ježišu, ty si zvíťazil nad smrťou; prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí úprimne velebili tvoje meno.",
                     "Pane Ježišu, láskavo vypočuj naše prosby<br>" +
                             "a posilňuj nás v ohlasovaní radostnej zvesti<br>" +
                             "v srdciach svojich blížnych.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"35", "3", "Omša o misionároch 3.", "Bratia a sestry, Kristovo učenie sa hlása po celom svete. Prednesme mu svoje prosby ako prejav prijatia jeho náuky a túžby po Božom kráľovstve.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Ježišu, ty si s láskou viedol zástupy; pomáhaj biskupom a kňazom odvážne roznecovať vo veriacich túžbu po poznávaní tajomstiev viery.<br>" +
-                            "<font color='#B71C1C'>2.</font> Ježišu, ty si dal apoštolom kľúče od nebeského kráľovstva; upevňuj predstaviteľov vládnej moci v ochote viesť národy k vzájomnému porozumeniu.<br>" +
-                            "<font color='#B71C1C'>3.</font> Ježišu, ty si obdivuhodne a víťazne znášal utrpenie; povzbudzuj chorých a trpiacich sužovaných bolesťou, aby mali novú nádej a prísľub večnosti, kde niet trápenia ani zármutku.<br>" +
+                    "<font color='#B71C1C'>1.</font>&nbsp;Ježišu, ty si s láskou viedol zástupy; pomáhaj biskupom a kňazom odvážne roznecovať vo veriacich túžbu po poznávaní tajomstiev viery.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Ježišu, ty si dal apoštolom kľúče od nebeského kráľovstva; upevňuj predstaviteľov vládnej moci v ochote viesť národy k vzájomnému porozumeniu.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Ježišu, ty si obdivuhodne a víťazne znášal utrpenie; povzbudzuj chorých a trpiacich sužovaných bolesťou, aby mali novú nádej a prísľub večnosti, kde niet trápenia ani zármutku.<br>" +
                             "4a. Ježišu, ty si vzorom odvahy a obety; podľa príkladu svätého misionára <font color='#B71C1C'>M.</font> nám dodávaj silu šíriť tvoje evanjelium v našich rodinách a domovoch.<br>" +
                             "4b. <font color='#B71C1C'>mučeník misionár:</font> Ježišu, ty si svojou obetou na kríži ukázal svetu najväčší skutok lásky; na príhovor svätého misionára a mučeníka <font color='#B71C1C'>M.</font> dodávaj silu a odvahu všetkým trpiacim pre vieru.<br>" +
-                            "<font color='#B71C1C'>5.</font> Ježišu, ty si zvíťazil nad smrťou; prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí úprimne velebili tvoje meno.",
+                            "<font color='#B71C1C'>5.</font>&nbsp;Ježišu, ty si zvíťazil nad smrťou; prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí úprimne velebili tvoje meno.",
                     "Pane Ježišu, láskavo vypočuj naše prosby<br>" +
                             "a posilňuj nás v ohlasovaní radostnej zvesti<br>" +
                             "v srdciach svojich blížnych.<br>" +
@@ -3549,11 +3549,11 @@ public interface Formular {
             // SPOLOCNE OMSE UCITELOV CIRKVI
             {"4", "1", "Omša o učiteľoch Cirkvi 1.", "Bratia a sestry, s úctou prijímame učenie Cirkvi a čerpáme múdrosť z náuky významných svätcov, akým bol<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> aj svätý<font color='#B71C1C'>(</font>á<font color='#B71C1C'>) M.</font> Prosme nebeského Otca, aby duch poznania stále viac prenikal do našich sŕdc.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane, prosíme ťa za celú Cirkev: aby prostredníctvom svojich oddaných služobníkov rástla na ceste poznania a hlbšie prenikala do tajomstiev viery.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane, prosíme ťa za tých, ktorí tvoria svetské zákony: aby mali dostatočné vedomosti a životné skúsenosti a aj sami žili podľa zákonov, ktoré vytvárajú.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane, prosíme ťa za učiteľov teológie: aby vzbudzovali vo svojich študentoch túžbu po hlbšom a osobnom poznaní teba.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane, prosíme ťa za seba samých: aby sme sa stávali stále lepšími učeníkmi tvojho Syna, nášho najväčšieho učiteľa, a riadili sa jeho prikázaniami.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, prosíme ťa za tých, ktorí už prekročili prah pozemského života: zjav sa im v plnosti svojej nádhery a obdaruj ich prežívaním večnej blaženosti.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane, prosíme ťa za celú Cirkev: aby prostredníctvom svojich oddaných služobníkov rástla na ceste poznania a hlbšie prenikala do tajomstiev viery.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane, prosíme ťa za tých, ktorí tvoria svetské zákony: aby mali dostatočné vedomosti a životné skúsenosti a aj sami žili podľa zákonov, ktoré vytvárajú.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane, prosíme ťa za učiteľov teológie: aby vzbudzovali vo svojich študentoch túžbu po hlbšom a osobnom poznaní teba.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane, prosíme ťa za seba samých: aby sme sa stávali stále lepšími učeníkmi tvojho Syna, nášho najväčšieho učiteľa, a riadili sa jeho prikázaniami.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, prosíme ťa za tých, ktorí už prekročili prah pozemského života: zjav sa im v plnosti svojej nádhery a obdaruj ich prežívaním večnej blaženosti.",
                     "Bože, tvoja všemohúcnosť preniká do hĺbky našich duší;<br>" +
                             "prosíme ťa, prijmi a vypočuj naše modlitby,<br>" +
                             "aby sme smerovali k naplneniu nášho života<br>" +
@@ -3561,11 +3561,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"4", "2", "Omša o učiteľoch Cirkvi 2.", "Bratia a sestry, s úctou prijímame učenie Cirkvi a čerpáme múdrosť z náuky významných svätcov, akým bol<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> aj svätý<font color='#B71C1C'>(</font>á<font color='#B71C1C'>) M.</font> Prosme nebeského Otca, aby duch poznania stále viac prenikal do našich sŕdc.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane, prosíme ťa za celú Cirkev: aby prostredníctvom svojich oddaných služobníkov rástla na ceste poznania a hlbšie prenikala do tajomstiev viery.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane, prosíme ťa za tých, ktorí tvoria svetské zákony: aby mali dostatočné vedomosti a životné skúsenosti a aj sami žili podľa zákonov, ktoré vytvárajú.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane, prosíme ťa za učiteľov teológie: aby vzbudzovali vo svojich študentoch túžbu po hlbšom a osobnom poznaní teba.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane, prosíme ťa za seba samých: aby sme sa stávali stále lepšími učeníkmi tvojho Syna, nášho najväčšieho učiteľa, a riadili sa jeho prikázaniami.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, prosíme ťa za tých, ktorí už prekročili prah pozemského života: zjav sa im v plnosti svojej nádhery a obdaruj ich prežívaním večnej blaženosti.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane, prosíme ťa za celú Cirkev: aby prostredníctvom svojich oddaných služobníkov rástla na ceste poznania a hlbšie prenikala do tajomstiev viery.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane, prosíme ťa za tých, ktorí tvoria svetské zákony: aby mali dostatočné vedomosti a životné skúsenosti a aj sami žili podľa zákonov, ktoré vytvárajú.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane, prosíme ťa za učiteľov teológie: aby vzbudzovali vo svojich študentoch túžbu po hlbšom a osobnom poznaní teba.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane, prosíme ťa za seba samých: aby sme sa stávali stále lepšími učeníkmi tvojho Syna, nášho najväčšieho učiteľa, a riadili sa jeho prikázaniami.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, prosíme ťa za tých, ktorí už prekročili prah pozemského života: zjav sa im v plnosti svojej nádhery a obdaruj ich prežívaním večnej blaženosti.",
                     "Bože, tvoja všemohúcnosť preniká do hĺbky našich duší;<br>" +
                             "prosíme ťa, prijmi a vypočuj naše modlitby,<br>" +
                             "aby sme smerovali k naplneniu nášho života<br>" +
@@ -3574,11 +3574,11 @@ public interface Formular {
             // SPOLOCNE OMSE PANNIEN
             {"51", "1", "Omša o pannách 1.", "Bratia a sestry, svätá <font color='#B71C1C'>M.</font> svojím panenstvom ukázala svetu príklad života v čistote duše i tela. S pokorou pozdvihnime k Bohu svoje prosby",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za spovedníkov: aby pri vysluhovaní sviatosti zmierenia povzbudzovali veriacich k premene života a k ochotnému nasledovaniu Kristovho príkladu lásky, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za predstaviteľov štátov: aby ich srdcia neboli zasiahnuté zlobou tohto sveta, ale aby z nich vyžaroval vnútorný pokoj a morálna istota, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za týrané ženy: aby sa nedali zlomiť násilím a ponižovaním a aby sa v srdciach tých, ktorí im ubližujú, rozhorel oheň túžby po náprave spáchaných krívd a po očistení svojho vnútra, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>4.</font> Za mladých: aby si chránili svoju čistotu a panenstvo ako vzácnu perlu, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za zosnulých <font color='#B71C1C'>(M.)</font>: aby v nebi uvideli najčistejšieho Božieho Baránka, prosme Pána.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za spovedníkov: aby pri vysluhovaní sviatosti zmierenia povzbudzovali veriacich k premene života a k ochotnému nasledovaniu Kristovho príkladu lásky, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za predstaviteľov štátov: aby ich srdcia neboli zasiahnuté zlobou tohto sveta, ale aby z nich vyžaroval vnútorný pokoj a morálna istota, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za týrané ženy: aby sa nedali zlomiť násilím a ponižovaním a aby sa v srdciach tých, ktorí im ubližujú, rozhorel oheň túžby po náprave spáchaných krívd a po očistení svojho vnútra, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Za mladých: aby si chránili svoju čistotu a panenstvo ako vzácnu perlu, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za zosnulých <font color='#B71C1C'>(M.)</font>: aby v nebi uvideli najčistejšieho Božieho Baránka, prosme Pána.",
                     "Bože, na príklade života svätých panien nás učíš,<br>" +
                             "ako kráčať na ceste k večnosti;<br>" +
                             "vypočuj naše modlitby a daruj nám čisté srdcia,<br>" +
@@ -3586,11 +3586,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"51", "2", "Omša o pannách 2.", "Bratia a sestry, svätá <font color='#B71C1C'>M.</font> svojím panenstvom ukázala svetu príklad života v čistote duše i tela. S pokorou pozdvihnime k Bohu svoje prosby",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za spovedníkov: aby pri vysluhovaní sviatosti zmierenia povzbudzovali veriacich k premene života a k ochotnému nasledovaniu Kristovho príkladu lásky, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za predstaviteľov štátov: aby ich srdcia neboli zasiahnuté zlobou tohto sveta, ale aby z nich vyžaroval vnútorný pokoj a morálna istota, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za týrané ženy: aby sa nedali zlomiť násilím a ponižovaním a aby sa v srdciach tých, ktorí im ubližujú, rozhorel oheň túžby po náprave spáchaných krívd a po očistení svojho vnútra, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>4.</font> Za mladých: aby si chránili svoju čistotu a panenstvo ako vzácnu perlu, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za zosnulých <font color='#B71C1C'>(M.)</font>: aby v nebi uvideli najčistejšieho Božieho Baránka, prosme Pána.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za spovedníkov: aby pri vysluhovaní sviatosti zmierenia povzbudzovali veriacich k premene života a k ochotnému nasledovaniu Kristovho príkladu lásky, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za predstaviteľov štátov: aby ich srdcia neboli zasiahnuté zlobou tohto sveta, ale aby z nich vyžaroval vnútorný pokoj a morálna istota, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za týrané ženy: aby sa nedali zlomiť násilím a ponižovaním a aby sa v srdciach tých, ktorí im ubližujú, rozhorel oheň túžby po náprave spáchaných krívd a po očistení svojho vnútra, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Za mladých: aby si chránili svoju čistotu a panenstvo ako vzácnu perlu, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za zosnulých <font color='#B71C1C'>(M.)</font>: aby v nebi uvideli najčistejšieho Božieho Baránka, prosme Pána.",
                     "Bože, na príklade života svätých panien nás učíš,<br>" +
                             "ako kráčať na ceste k večnosti;<br>" +
                             "vypočuj naše modlitby a daruj nám čisté srdcia,<br>" +
@@ -3598,11 +3598,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"51", "3", "Omša o pannách 3.", "Bratia a sestry, svätá <font color='#B71C1C'>M.</font> svojím panenstvom ukázala svetu príklad života v čistote duše i tela. S pokorou pozdvihnime k Bohu svoje prosby",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za spovedníkov: aby pri vysluhovaní sviatosti zmierenia povzbudzovali veriacich k premene života a k ochotnému nasledovaniu Kristovho príkladu lásky, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za predstaviteľov štátov: aby ich srdcia neboli zasiahnuté zlobou tohto sveta, ale aby z nich vyžaroval vnútorný pokoj a morálna istota, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za týrané ženy: aby sa nedali zlomiť násilím a ponižovaním a aby sa v srdciach tých, ktorí im ubližujú, rozhorel oheň túžby po náprave spáchaných krívd a po očistení svojho vnútra, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>4.</font> Za mladých: aby si chránili svoju čistotu a panenstvo ako vzácnu perlu, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za zosnulých <font color='#B71C1C'>(M.)</font>: aby v nebi uvideli najčistejšieho Božieho Baránka, prosme Pána.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za spovedníkov: aby pri vysluhovaní sviatosti zmierenia povzbudzovali veriacich k premene života a k ochotnému nasledovaniu Kristovho príkladu lásky, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za predstaviteľov štátov: aby ich srdcia neboli zasiahnuté zlobou tohto sveta, ale aby z nich vyžaroval vnútorný pokoj a morálna istota, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za týrané ženy: aby sa nedali zlomiť násilím a ponižovaním a aby sa v srdciach tých, ktorí im ubližujú, rozhorel oheň túžby po náprave spáchaných krívd a po očistení svojho vnútra, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Za mladých: aby si chránili svoju čistotu a panenstvo ako vzácnu perlu, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za zosnulých <font color='#B71C1C'>(M.)</font>: aby v nebi uvideli najčistejšieho Božieho Baránka, prosme Pána.",
                     "Bože, na príklade života svätých panien nás učíš,<br>" +
                             "ako kráčať na ceste k večnosti;<br>" +
                             "vypočuj naše modlitby a daruj nám čisté srdcia,<br>" +
@@ -3611,11 +3611,11 @@ public interface Formular {
             // omsa o viacerych pannach
             {"52", "1", "Omša o viacerých pannách", "Bratia a sestry, svätá <font color='#B71C1C'>M.</font> svojím panenstvom ukázala svetu príklad života v čistote duše i tela. S pokorou pozdvihnime k Bohu svoje prosby",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za spovedníkov: aby pri vysluhovaní sviatosti zmierenia povzbudzovali veriacich k premene života a k ochotnému nasledovaniu Kristovho príkladu lásky, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za predstaviteľov štátov: aby ich srdcia neboli zasiahnuté zlobou tohto sveta, ale aby z nich vyžaroval vnútorný pokoj a morálna istota, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za týrané ženy: aby sa nedali zlomiť násilím a ponižovaním a aby sa v srdciach tých, ktorí im ubližujú, rozhorel oheň túžby po náprave spáchaných krívd a po očistení svojho vnútra, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>4.</font> Za mladých: aby si chránili svoju čistotu a panenstvo ako vzácnu perlu, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za zosnulých <font color='#B71C1C'>(M.)</font>: aby v nebi uvideli najčistejšieho Božieho Baránka, prosme Pána.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za spovedníkov: aby pri vysluhovaní sviatosti zmierenia povzbudzovali veriacich k premene života a k ochotnému nasledovaniu Kristovho príkladu lásky, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za predstaviteľov štátov: aby ich srdcia neboli zasiahnuté zlobou tohto sveta, ale aby z nich vyžaroval vnútorný pokoj a morálna istota, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za týrané ženy: aby sa nedali zlomiť násilím a ponižovaním a aby sa v srdciach tých, ktorí im ubližujú, rozhorel oheň túžby po náprave spáchaných krívd a po očistení svojho vnútra, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Za mladých: aby si chránili svoju čistotu a panenstvo ako vzácnu perlu, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za zosnulých <font color='#B71C1C'>(M.)</font>: aby v nebi uvideli najčistejšieho Božieho Baránka, prosme Pána.",
                     "Bože, na príklade života svätých panien nás učíš,<br>" +
                             "ako kráčať na ceste k večnosti;<br>" +
                             "vypočuj naše modlitby a daruj nám čisté srdcia,<br>" +
@@ -3624,11 +3624,11 @@ public interface Formular {
             // SPOLOCNE OMSE SVATYCH MUZOV a SVATYCH ZIEN
             {"61", "1", "Omša o svätých mužoch a svätých ženách 1.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
                     "Kriste, náš Pán a kráľ,<br>" +
                             "prijmi a vypočuj naše modlitby,<br>" +
                             "ktoré ti s pokorou predkladáme,<br>" +
@@ -3637,11 +3637,11 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"61", "2", "Omša o svätých mužoch a svätých ženách 2.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
                     "Kriste, náš Pán a kráľ,<br>" +
                             "prijmi a vypočuj naše modlitby,<br>" +
                             "ktoré ti s pokorou predkladáme,<br>" +
@@ -3650,11 +3650,11 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"61", "3", "Omša o svätých mužoch a svätých ženách 3.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
                     "Kriste, náš Pán a kráľ,<br>" +
                             "prijmi a vypočuj naše modlitby,<br>" +
                             "ktoré ti s pokorou predkladáme,<br>" +
@@ -3663,11 +3663,11 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"61", "4", "Omša o svätých mužoch a svätých ženách 4.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
                     "Kriste, náš Pán a kráľ,<br>" +
                             "prijmi a vypočuj naše modlitby,<br>" +
                             "ktoré ti s pokorou predkladáme,<br>" +
@@ -3676,11 +3676,11 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"60", "1", "Omša o svätých mužoch a svätých ženách 5.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
                     "Kriste, náš Pán a kráľ,<br>" +
                             "prijmi a vypočuj naše modlitby,<br>" +
                             "ktoré ti s pokorou predkladáme,<br>" +
@@ -3689,11 +3689,11 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"60", "2", "Omša o svätých mužoch a svätých ženách 6.", "Bratia a sestry, Pán Ježiš je vzorom svätosti a mnohí ho s vierou nasledovali. Prosme ho, aby na príhovor svätého <font color='#B71C1C'>M.</font> vyslyšal naše prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, zachovaj cirkevných predstavených vo svojej milosti, aby boli neustále naplnení tvojím Svätým Duchom.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, zjav tým, ktorí spravujú štáty, že aj v takejto náročnej službe je možné kráčať cestou svätosti.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, pomáhaj všetkým otcom vytrvalo a ochotne plniť svoje otcovské povinnosti a s obetavou láskou sa starať o svoju rodinu.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, ochraňuj nás od nástrah zlého ducha a od svetských pokušení a pretváraj nás na obraz oddaných Božích detí.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, udeľ našim zosnulým <font color='#B71C1C'>(M.)</font> večné odpočinutie so všetkými svätými v tvojej nebeskej sláve.",
                     "Kriste, náš Pán a kráľ,<br>" +
                             "prijmi a vypočuj naše modlitby,<br>" +
                             "ktoré ti s pokorou predkladáme,<br>" +
@@ -3703,11 +3703,11 @@ public interface Formular {
             // omsa o reholnikoch
             {"62", "1", "Omša o rehoľníkoch 1.", "Bratia a sestry, svätý<font color='#B71C1C'>(</font>á<font color='#B71C1C'>) M.</font> získal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> korunu víťazstva za svoj príkladný život v rehoľnom spoločenstve. Na jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> príhovor prosme nášho dobrotivého Boha Otca.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože Otče, milostivo sprevádzaj predstavených rehoľných spoločenstiev a všetkých biskupov, kňazov a diakonov, aby v sile Ducha Svätého prinášali svojim blížnym svetlo viery a nádej.<br>" +
-                            "<font color='#B71C1C'>2.</font> Bože Otče, starostlivo ochraňuj vedúcich predstaviteľov štátov, aby boli príkladom v zachovávaní zákonov a vážili si morálne hodnoty.<br>" +
-                            "<font color='#B71C1C'>3.</font> Bože Otče, láskavo obdaruj všetkých členov reholí svojou pomocou a milosťou, aby zvládli náročné životné poslanie v každodennom živote v rehoľnom spoločenstve.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože Otče, bedlivo stoj pri nás a posilňuj naše srdcia v modlitbách za rehoľníkov a rehoľníčky, aby sme sa inšpirovali svedectvom ich zasväteného života.<br>" +
-                            "<font color='#B71C1C'>5.</font> Bože Otče, prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí nás predišli do večnosti, a daruj im radosť a plnosť nebeského života.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože Otče, milostivo sprevádzaj predstavených rehoľných spoločenstiev a všetkých biskupov, kňazov a diakonov, aby v sile Ducha Svätého prinášali svojim blížnym svetlo viery a nádej.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Bože Otče, starostlivo ochraňuj vedúcich predstaviteľov štátov, aby boli príkladom v zachovávaní zákonov a vážili si morálne hodnoty.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Bože Otče, láskavo obdaruj všetkých členov reholí svojou pomocou a milosťou, aby zvládli náročné životné poslanie v každodennom živote v rehoľnom spoločenstve.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože Otče, bedlivo stoj pri nás a posilňuj naše srdcia v modlitbách za rehoľníkov a rehoľníčky, aby sme sa inšpirovali svedectvom ich zasväteného života.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Bože Otče, prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí nás predišli do večnosti, a daruj im radosť a plnosť nebeského života.",
                     "Bože, prosíme ťa,<br>" +
                             "vypočuj naše modlitby<br>" +
                             "a urob nás súcimi kráčať po ceste svätosti<br>" +
@@ -3715,11 +3715,11 @@ public interface Formular {
                             "ktorý žije a kraľuje na veky vekov."},
             {"66", "1", "Omša o rehoľníkoch 2.", "Bratia a sestry, svätý<font color='#B71C1C'>(</font>á<font color='#B71C1C'>) M.</font> získal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> korunu víťazstva za svoj príkladný život v rehoľnom spoločenstve. Na jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> príhovor prosme nášho dobrotivého Boha Otca.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože Otče, milostivo sprevádzaj predstavených rehoľných spoločenstiev a všetkých biskupov, kňazov a diakonov, aby v sile Ducha Svätého prinášali svojim blížnym svetlo viery a nádej.<br>" +
-                            "<font color='#B71C1C'>2.</font> Bože Otče, starostlivo ochraňuj vedúcich predstaviteľov štátov, aby boli príkladom v zachovávaní zákonov a vážili si morálne hodnoty.<br>" +
-                            "<font color='#B71C1C'>3.</font> Bože Otče, láskavo obdaruj všetkých členov reholí svojou pomocou a milosťou, aby zvládli náročné životné poslanie v každodennom živote v rehoľnom spoločenstve.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože Otče, bedlivo stoj pri nás a posilňuj naše srdcia v modlitbách za rehoľníkov a rehoľníčky, aby sme sa inšpirovali svedectvom ich zasväteného života.<br>" +
-                            "<font color='#B71C1C'>5.</font> Bože Otče, prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí nás predišli do večnosti, a daruj im radosť a plnosť nebeského života.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože Otče, milostivo sprevádzaj predstavených rehoľných spoločenstiev a všetkých biskupov, kňazov a diakonov, aby v sile Ducha Svätého prinášali svojim blížnym svetlo viery a nádej.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Bože Otče, starostlivo ochraňuj vedúcich predstaviteľov štátov, aby boli príkladom v zachovávaní zákonov a vážili si morálne hodnoty.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Bože Otče, láskavo obdaruj všetkých členov reholí svojou pomocou a milosťou, aby zvládli náročné životné poslanie v každodennom živote v rehoľnom spoločenstve.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože Otče, bedlivo stoj pri nás a posilňuj naše srdcia v modlitbách za rehoľníkov a rehoľníčky, aby sme sa inšpirovali svedectvom ich zasväteného života.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Bože Otče, prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí nás predišli do večnosti, a daruj im radosť a plnosť nebeského života.",
                     "Bože, prosíme ťa,<br>" +
                             "vypočuj naše modlitby<br>" +
                             "a urob nás súcimi kráčať po ceste svätosti<br>" +
@@ -3727,11 +3727,11 @@ public interface Formular {
                             "ktorý žije a kraľuje na veky vekov."},
             {"67", "1", "Omša o rehoľníkoch 3.", "Bratia a sestry, svätý<font color='#B71C1C'>(</font>á<font color='#B71C1C'>) M.</font> získal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> korunu víťazstva za svoj príkladný život v rehoľnom spoločenstve. Na jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> príhovor prosme nášho dobrotivého Boha Otca.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože Otče, milostivo sprevádzaj predstavených rehoľných spoločenstiev a všetkých biskupov, kňazov a diakonov, aby v sile Ducha Svätého prinášali svojim blížnym svetlo viery a nádej.<br>" +
-                            "<font color='#B71C1C'>2.</font> Bože Otče, starostlivo ochraňuj vedúcich predstaviteľov štátov, aby boli príkladom v zachovávaní zákonov a vážili si morálne hodnoty.<br>" +
-                            "<font color='#B71C1C'>3.</font> Bože Otče, láskavo obdaruj všetkých členov reholí svojou pomocou a milosťou, aby zvládli náročné životné poslanie v každodennom živote v rehoľnom spoločenstve.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože Otče, bedlivo stoj pri nás a posilňuj naše srdcia v modlitbách za rehoľníkov a rehoľníčky, aby sme sa inšpirovali svedectvom ich zasväteného života.<br>" +
-                            "<font color='#B71C1C'>5.</font> Bože Otče, prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí nás predišli do večnosti, a daruj im radosť a plnosť nebeského života.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože Otče, milostivo sprevádzaj predstavených rehoľných spoločenstiev a všetkých biskupov, kňazov a diakonov, aby v sile Ducha Svätého prinášali svojim blížnym svetlo viery a nádej.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Bože Otče, starostlivo ochraňuj vedúcich predstaviteľov štátov, aby boli príkladom v zachovávaní zákonov a vážili si morálne hodnoty.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Bože Otče, láskavo obdaruj všetkých členov reholí svojou pomocou a milosťou, aby zvládli náročné životné poslanie v každodennom živote v rehoľnom spoločenstve.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože Otče, bedlivo stoj pri nás a posilňuj naše srdcia v modlitbách za rehoľníkov a rehoľníčky, aby sme sa inšpirovali svedectvom ich zasväteného života.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Bože Otče, prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí nás predišli do večnosti, a daruj im radosť a plnosť nebeského života.",
                     "Bože, prosíme ťa,<br>" +
                             "vypočuj naše modlitby<br>" +
                             "a urob nás súcimi kráčať po ceste svätosti<br>" +
@@ -3739,11 +3739,11 @@ public interface Formular {
                             "ktorý žije a kraľuje na veky vekov."},
             {"68", "1", "Omša o rehoľníkoch 4.", "Bratia a sestry, svätý<font color='#B71C1C'>(</font>á<font color='#B71C1C'>) M.</font> získal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> korunu víťazstva za svoj príkladný život v rehoľnom spoločenstve. Na jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> príhovor prosme nášho dobrotivého Boha Otca.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože Otče, milostivo sprevádzaj predstavených rehoľných spoločenstiev a všetkých biskupov, kňazov a diakonov, aby v sile Ducha Svätého prinášali svojim blížnym svetlo viery a nádej.<br>" +
-                            "<font color='#B71C1C'>2.</font> Bože Otče, starostlivo ochraňuj vedúcich predstaviteľov štátov, aby boli príkladom v zachovávaní zákonov a vážili si morálne hodnoty.<br>" +
-                            "<font color='#B71C1C'>3.</font> Bože Otče, láskavo obdaruj všetkých členov reholí svojou pomocou a milosťou, aby zvládli náročné životné poslanie v každodennom živote v rehoľnom spoločenstve.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože Otče, bedlivo stoj pri nás a posilňuj naše srdcia v modlitbách za rehoľníkov a rehoľníčky, aby sme sa inšpirovali svedectvom ich zasväteného života.<br>" +
-                            "<font color='#B71C1C'>5.</font> Bože Otče, prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí nás predišli do večnosti, a daruj im radosť a plnosť nebeského života.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože Otče, milostivo sprevádzaj predstavených rehoľných spoločenstiev a všetkých biskupov, kňazov a diakonov, aby v sile Ducha Svätého prinášali svojim blížnym svetlo viery a nádej.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Bože Otče, starostlivo ochraňuj vedúcich predstaviteľov štátov, aby boli príkladom v zachovávaní zákonov a vážili si morálne hodnoty.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Bože Otče, láskavo obdaruj všetkých členov reholí svojou pomocou a milosťou, aby zvládli náročné životné poslanie v každodennom živote v rehoľnom spoločenstve.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože Otče, bedlivo stoj pri nás a posilňuj naše srdcia v modlitbách za rehoľníkov a rehoľníčky, aby sme sa inšpirovali svedectvom ich zasväteného života.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Bože Otče, prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí nás predišli do večnosti, a daruj im radosť a plnosť nebeského života.",
                     "Bože, prosíme ťa,<br>" +
                             "vypočuj naše modlitby<br>" +
                             "a urob nás súcimi kráčať po ceste svätosti<br>" +
@@ -3751,11 +3751,11 @@ public interface Formular {
                             "ktorý žije a kraľuje na veky vekov."},
             {"68", "2", "Omša o rehoľníkoch 5.", "Bratia a sestry, svätý<font color='#B71C1C'>(</font>á<font color='#B71C1C'>) M.</font> získal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> korunu víťazstva za svoj príkladný život v rehoľnom spoločenstve. Na jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> príhovor prosme nášho dobrotivého Boha Otca.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože Otče, milostivo sprevádzaj predstavených rehoľných spoločenstiev a všetkých biskupov, kňazov a diakonov, aby v sile Ducha Svätého prinášali svojim blížnym svetlo viery a nádej.<br>" +
-                            "<font color='#B71C1C'>2.</font> Bože Otče, starostlivo ochraňuj vedúcich predstaviteľov štátov, aby boli príkladom v zachovávaní zákonov a vážili si morálne hodnoty.<br>" +
-                            "<font color='#B71C1C'>3.</font> Bože Otče, láskavo obdaruj všetkých členov reholí svojou pomocou a milosťou, aby zvládli náročné životné poslanie v každodennom živote v rehoľnom spoločenstve.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože Otče, bedlivo stoj pri nás a posilňuj naše srdcia v modlitbách za rehoľníkov a rehoľníčky, aby sme sa inšpirovali svedectvom ich zasväteného života.<br>" +
-                            "<font color='#B71C1C'>5.</font> Bože Otče, prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí nás predišli do večnosti, a daruj im radosť a plnosť nebeského života.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože Otče, milostivo sprevádzaj predstavených rehoľných spoločenstiev a všetkých biskupov, kňazov a diakonov, aby v sile Ducha Svätého prinášali svojim blížnym svetlo viery a nádej.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Bože Otče, starostlivo ochraňuj vedúcich predstaviteľov štátov, aby boli príkladom v zachovávaní zákonov a vážili si morálne hodnoty.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Bože Otče, láskavo obdaruj všetkých členov reholí svojou pomocou a milosťou, aby zvládli náročné životné poslanie v každodennom živote v rehoľnom spoločenstve.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože Otče, bedlivo stoj pri nás a posilňuj naše srdcia v modlitbách za rehoľníkov a rehoľníčky, aby sme sa inšpirovali svedectvom ich zasväteného života.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Bože Otče, prijmi k sebe zosnulých <font color='#B71C1C'>(M.)</font>, ktorí nás predišli do večnosti, a daruj im radosť a plnosť nebeského života.",
                     "Bože, prosíme ťa,<br>" +
                             "vypočuj naše modlitby<br>" +
                             "a urob nás súcimi kráčať po ceste svätosti<br>" +
@@ -3764,11 +3764,11 @@ public interface Formular {
             // omsa o tych, co konali skutky milosrdensta
             {"63", "1", "Omša o tých, čo konali skutky milosrdenstva", "Bratia a sestry, náš Boh osobitne miluje tých, ktorí konajú skutky milosrdenstva. Povzbudení príkladom svätého <font color='#B71C1C'>(</font>svätej<font color='#B71C1C'>) M.</font> prednesme svoje prosby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane, prosíme ťa za nášho biskupa <font color='#B71C1C'>M.</font>, aby bol svojim veriacim vzorom starostlivosti o tých, ktorí najviac potrebujú pomoc blížnych.<br>" +
-                            "<font color='#B71C1C'>2.</font> Bože, prosíme ťa za tých, ktorí spravujú štáty, aby pamätali na zodpovedné plnenie svojich úloh a zvláštnu pozornosť venovali chudobným, slabým a trpiacim.<br>" +
-                            "<font color='#B71C1C'>3.</font> Otče, prosíme ťa za opatrovateľov a ošetrovateľov starých, nevládnych a chorých ľudí, aby im uľahčovali niesť bremeno utrpenia vo svetle Kristovho kríža.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane, prosíme ťa za seba samých, aby sme sa ochotne vedeli zriekať hmotného bohatstva v prospech chudobných a núdznych.<br>" +
-                            "<font color='#B71C1C'>5.</font> Bože, prosíme ťa za duše v očistci, aby dosiahli plnosť tvojho milosrdenstva a radosť nebeského príbytku.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane, prosíme ťa za nášho biskupa <font color='#B71C1C'>M.</font>, aby bol svojim veriacim vzorom starostlivosti o tých, ktorí najviac potrebujú pomoc blížnych.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Bože, prosíme ťa za tých, ktorí spravujú štáty, aby pamätali na zodpovedné plnenie svojich úloh a zvláštnu pozornosť venovali chudobným, slabým a trpiacim.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Otče, prosíme ťa za opatrovateľov a ošetrovateľov starých, nevládnych a chorých ľudí, aby im uľahčovali niesť bremeno utrpenia vo svetle Kristovho kríža.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane, prosíme ťa za seba samých, aby sme sa ochotne vedeli zriekať hmotného bohatstva v prospech chudobných a núdznych.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Bože, prosíme ťa za duše v očistci, aby dosiahli plnosť tvojho milosrdenstva a radosť nebeského príbytku.",
                     "Otče, náš láskavý stvoriteľ,<br>" +
                             "dovoľ nám čerpať z tvojej nekonečnej milosti;<br>" +
                             "vypočuj naše prosby<br>" +
@@ -3778,11 +3778,11 @@ public interface Formular {
             // omsa o vychovavateloch
             {"64", "1", "Omša o vychovávateľoch", "Bratia a sestry, vo svätom <font color='#B71C1C'>(</font>svätej<font color='#B71C1C'>) M.</font> vidíme nádherný príklad starostlivosti o výchovu detí <font color='#B71C1C'>(</font>a mládeže<font color='#B71C1C'>)</font>. Povzbudení jeho <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> skutkami obráťme sa s prosbami k Božiemu Synovi.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Ježišu, ty si dokonale naplnil Otcovu vôľu vykúpiť svet; stoj pri všetkých služobníkoch Cirkvi, aby viedli svojich veriacich k dobrote a poslušnosti príkazu lásky.<br>" +
-                            "<font color='#B71C1C'>2.</font> Ježišu, ty si múdro a starostlivo učil zástupy; daj, aby tí, ktorí nás spravujú, mali na zreteli dobro celej spoločnosti a pamätali aj na ďalšie generácie.<br>" +
-                            "<font color='#B71C1C'>3.</font> Ježišu, ty si osobitne miloval deti; roznecuj v pedagógoch a vychovávateľoch úsilie privádzať deti a mládež k poznaniu pravých hodnôt a k vzájomnej úcte.<br>" +
-                            "<font color='#B71C1C'>4.</font> Ježišu, ty si nám zjavil mnohé pravdy v podobenstvách; daj, aby sme svojím životom vydávali svedectvo o tebe všetkým, ktorí sú nám zverení.<br>" +
-                            "<font color='#B71C1C'>5.</font> Ježišu, ty si slávne vstal z mŕtvych; vysloboď našich zosnulých <font color='#B71C1C'>(M.)</font> z pút smrti, odpusť im viny a voveď ich do večného života.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Ježišu, ty si dokonale naplnil Otcovu vôľu vykúpiť svet; stoj pri všetkých služobníkoch Cirkvi, aby viedli svojich veriacich k dobrote a poslušnosti príkazu lásky.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Ježišu, ty si múdro a starostlivo učil zástupy; daj, aby tí, ktorí nás spravujú, mali na zreteli dobro celej spoločnosti a pamätali aj na ďalšie generácie.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Ježišu, ty si osobitne miloval deti; roznecuj v pedagógoch a vychovávateľoch úsilie privádzať deti a mládež k poznaniu pravých hodnôt a k vzájomnej úcte.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Ježišu, ty si nám zjavil mnohé pravdy v podobenstvách; daj, aby sme svojím životom vydávali svedectvo o tebe všetkým, ktorí sú nám zverení.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Ježišu, ty si slávne vstal z mŕtvych; vysloboď našich zosnulých <font color='#B71C1C'>(M.)</font> z pút smrti, odpusť im viny a voveď ich do večného života.",
                     "Pane Ježišu, prijmi naše modlitby,<br>" +
                             "vychovávaj nás svojím slovom na ceste života,<br>" +
                             "aby sme raz ako Božie deti<br>" +
@@ -3791,11 +3791,11 @@ public interface Formular {
             // omsa o svatych zenach
             {"65", "1", "Omša o svätých ženách 1.", "Bratia a sestry, Božia láska a vznešenosť sa prejavujú v mnohých skutkoch svätých žien, medzi ktorými si spomíname aj na svätú <font color='#B71C1C'>M.</font> Prosme Pána, aby vo svojej dobrote zhliadol na naše modlitby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, ty sa staráš o všetkých ľudí; ochraňuj Svätého Otca <font color='#B71C1C'>M.</font>, aby svojím životom a náukou viedol tvoj ľud k tebe.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane, ty si určil ženám poslanie napĺňať svet nežnou a materinskou láskou; daj, aby ženy, ktoré stoja na čele štátov, pamätali na túto obdivuhodnú úlohu.<br>" +
-                            "<font color='#B71C1C'>3.</font> Otče, ty si najdokonalejšie zjavil podstatu materstva v Panne Márii; pomáhaj všetkým budúcim matkám priviesť na svet zdravé deti.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, ty riadiš všetko a starostlivo nás chrániš; vzbudzuj v nás úctu ku všetkým matkám, aby sme si uvedomili veľkú hodnotu života.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, ty si poslal svojho Syna, aby zvíťazil nad smrťou; uveď našich zosnulých <font color='#B71C1C'>(M.)</font> do večného a víťazného prebývania s tebou v nebi.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, ty sa staráš o všetkých ľudí; ochraňuj Svätého Otca <font color='#B71C1C'>M.</font>, aby svojím životom a náukou viedol tvoj ľud k tebe.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane, ty si určil ženám poslanie napĺňať svet nežnou a materinskou láskou; daj, aby ženy, ktoré stoja na čele štátov, pamätali na túto obdivuhodnú úlohu.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Otče, ty si najdokonalejšie zjavil podstatu materstva v Panne Márii; pomáhaj všetkým budúcim matkám priviesť na svet zdravé deti.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože, ty riadiš všetko a starostlivo nás chrániš; vzbudzuj v nás úctu ku všetkým matkám, aby sme si uvedomili veľkú hodnotu života.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, ty si poslal svojho Syna, aby zvíťazil nad smrťou; uveď našich zosnulých <font color='#B71C1C'>(M.)</font> do večného a víťazného prebývania s tebou v nebi.",
                     "Láskavý Otče,<br>" +
                             "prosíme ťa, vypočuj naše prosby,<br>" +
                             "privádzaj nás na cestu lásky a obety,<br>" +
@@ -3804,11 +3804,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"65", "2", "Omša o svätých ženách 2.", "Bratia a sestry, Božia láska a vznešenosť sa prejavujú v mnohých skutkoch svätých žien, medzi ktorými si spomíname aj na svätú <font color='#B71C1C'>M.</font> Prosme Pána, aby vo svojej dobrote zhliadol na naše modlitby.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, ty sa staráš o všetkých ľudí; ochraňuj Svätého Otca <font color='#B71C1C'>M.</font>, aby svojím životom a náukou viedol tvoj ľud k tebe.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane, ty si určil ženám poslanie napĺňať svet nežnou a materinskou láskou; daj, aby ženy, ktoré stoja na čele štátov, pamätali na túto obdivuhodnú úlohu.<br>" +
-                            "<font color='#B71C1C'>3.</font> Otče, ty si najdokonalejšie zjavil podstatu materstva v Panne Márii; pomáhaj všetkým budúcim matkám priviesť na svet zdravé deti.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, ty riadiš všetko a starostlivo nás chrániš; vzbudzuj v nás úctu ku všetkým matkám, aby sme si uvedomili veľkú hodnotu života.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, ty si poslal svojho Syna, aby zvíťazil nad smrťou; uveď našich zosnulých <font color='#B71C1C'>(M.)</font> do večného a víťazného prebývania s tebou v nebi.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, ty sa staráš o všetkých ľudí; ochraňuj Svätého Otca <font color='#B71C1C'>M.</font>, aby svojím životom a náukou viedol tvoj ľud k tebe.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane, ty si určil ženám poslanie napĺňať svet nežnou a materinskou láskou; daj, aby ženy, ktoré stoja na čele štátov, pamätali na túto obdivuhodnú úlohu.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Otče, ty si najdokonalejšie zjavil podstatu materstva v Panne Márii; pomáhaj všetkým budúcim matkám priviesť na svet zdravé deti.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože, ty riadiš všetko a starostlivo nás chrániš; vzbudzuj v nás úctu ku všetkým matkám, aby sme si uvedomili veľkú hodnotu života.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, ty si poslal svojho Syna, aby zvíťazil nad smrťou; uveď našich zosnulých <font color='#B71C1C'>(M.)</font> do večného a víťazného prebývania s tebou v nebi.",
                     "Láskavý Otče,<br>" +
                             "prosíme ťa, vypočuj naše prosby,<br>" +
                             "privádzaj nás na cestu lásky a obety,<br>" +
@@ -3817,11 +3817,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"71", "1", "Za odpustenie hriechov 1.", "Bratia a sestry, Pán je milostivý a milosrdný, zhovievavý a veľmi láskavý. Pokorne ho prosme o dar pokánia pre seba i pre všetkých hriešnikov.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Prosíme ťa, Pane, za svätú Cirkev: veď Kristus, tvoj Syn, vydal za ňu seba samého, aby ju posvätil a očistil.<br>" +
-                            "<font color='#B71C1C'>2.</font> Prosíme ťa, Bože, za všetkých zákonodarcov: daj, aby zákonmi upevňovali mravnosť vo svete a chránili dôstojnosť človeka, stvoreného na tvoj obraz.<br>" +
-                            "<font color='#B71C1C'>3.</font> Prosíme ťa, nebeský Otče, za márnotratných synov a dcéry, ktorí sú pre svoje hriechy ďaleko od teba: daj, aby povstali z hriechov a vrátili sa k tebe, svojmu Otcovi.<br>" +
-                            "<font color='#B71C1C'>4.</font> Prosíme ťa, Pane, aj za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo: daj, aby modlitbou a pokáním prispela k svätosti celej Cirkvi.<br>" +
-                            "<font color='#B71C1C'>5.</font> Prosím ťa, Bože, za všetkých zosnulých, ktorí pre svoje hriechy nevidia tvoju tvár: vo svojej nekonečnej láske im odpusť a priveď ich k sebe.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Prosíme ťa, Pane, za svätú Cirkev: veď Kristus, tvoj Syn, vydal za ňu seba samého, aby ju posvätil a očistil.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Prosíme ťa, Bože, za všetkých zákonodarcov: daj, aby zákonmi upevňovali mravnosť vo svete a chránili dôstojnosť človeka, stvoreného na tvoj obraz.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Prosíme ťa, nebeský Otče, za márnotratných synov a dcéry, ktorí sú pre svoje hriechy ďaleko od teba: daj, aby povstali z hriechov a vrátili sa k tebe, svojmu Otcovi.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Prosíme ťa, Pane, aj za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo: daj, aby modlitbou a pokáním prispela k svätosti celej Cirkvi.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Prosím ťa, Bože, za všetkých zosnulých, ktorí pre svoje hriechy nevidia tvoju tvár: vo svojej nekonečnej láske im odpusť a priveď ich k sebe.",
                     "Dobrotivý Bože,<br>" +
                             "daj, aby sme lepšie chápali,<br>" +
                             "že sviatosť zmierenia je prameňom milosrdenstva<br>" +
@@ -3830,11 +3830,11 @@ public interface Formular {
                             "On žije a kraľuje na veky vekov."},
             {"71", "2", "Za odpustenie hriechov 2.", "Bratia a sestry, Pán je milostivý a milosrdný, zhovievavý a veľmi láskavý. Pokorne ho prosme o dar pokánia pre seba i pre všetkých hriešnikov.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Prosíme ťa, Pane, za svätú Cirkev: veď Kristus, tvoj Syn, vydal za ňu seba samého, aby ju posvätil a očistil.<br>" +
-                            "<font color='#B71C1C'>2.</font> Prosíme ťa, Bože, za všetkých zákonodarcov: daj, aby zákonmi upevňovali mravnosť vo svete a chránili dôstojnosť človeka, stvoreného na tvoj obraz.<br>" +
-                            "<font color='#B71C1C'>3.</font> Prosíme ťa, nebeský Otče, za márnotratných synov a dcéry, ktorí sú pre svoje hriechy ďaleko od teba: daj, aby povstali z hriechov a vrátili sa k tebe, svojmu Otcovi.<br>" +
-                            "<font color='#B71C1C'>4.</font> Prosíme ťa, Pane, aj za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo: daj, aby modlitbou a pokáním prispela k svätosti celej Cirkvi.<br>" +
-                            "<font color='#B71C1C'>5.</font> Prosím ťa, Bože, za všetkých zosnulých, ktorí pre svoje hriechy nevidia tvoju tvár: vo svojej nekonečnej láske im odpusť a priveď ich k sebe.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Prosíme ťa, Pane, za svätú Cirkev: veď Kristus, tvoj Syn, vydal za ňu seba samého, aby ju posvätil a očistil.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Prosíme ťa, Bože, za všetkých zákonodarcov: daj, aby zákonmi upevňovali mravnosť vo svete a chránili dôstojnosť človeka, stvoreného na tvoj obraz.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Prosíme ťa, nebeský Otče, za márnotratných synov a dcéry, ktorí sú pre svoje hriechy ďaleko od teba: daj, aby povstali z hriechov a vrátili sa k tebe, svojmu Otcovi.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Prosíme ťa, Pane, aj za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo: daj, aby modlitbou a pokáním prispela k svätosti celej Cirkvi.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Prosím ťa, Bože, za všetkých zosnulých, ktorí pre svoje hriechy nevidia tvoju tvár: vo svojej nekonečnej láske im odpusť a priveď ich k sebe.",
                     "Dobrotivý Bože,<br>" +
                             "daj, aby sme lepšie chápali,<br>" +
                             "že sviatosť zmierenia je prameňom milosrdenstva<br>" +
@@ -3844,12 +3844,12 @@ public interface Formular {
 
             {"71", "3", "Za dar lásky", "Bratia a sestry, zhromaždení v mene Ježiša Krista prosme nebeského Otca, aby bolo na svete vždy viac dobročinnej lásky.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Nebeský Otče, v Kristovom tajomnom tele – Cirkvi sme všetci navzájom bratmi a sestrami; daj, aby sme si navzájom preukazovali bratskú lásku podľa rozličných darov, ktoré sme dostali.<br>" +
-                            "<font color='#B71C1C'>2.</font> Nebeský Otče, daj, aby sa ľudské pokolenie stalo Božou rodinou, kde vládne láska.<br>" +
-                            "<font color='#B71C1C'>3.</font> Nebeský Otče, daj, aby si národy sveta odpúšťali a žili v mieri a pokoji.<br>" +
-                            "<font color='#B71C1C'>4.</font> Nebeský Otče, daj, aby sa všetci hriešnici zmierili s tebou aj s tvojou Cirkvou, ktorej ublížili svojimi hriechmi.<br>" +
-                            "<font color='#B71C1C'>5.</font> Nebeský Otče, daj, aby sa rozhnevané rodiny zmierili a žili v kresťanskej láske.<br>" +
-                            "<font color='#B71C1C'>6.</font> Nebeský Otče, daj, aby sme vo svojich blížnych vždy videli Ježiša Krista, tvojho Syna, a s radosťou im slúžili.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Nebeský Otče, v Kristovom tajomnom tele – Cirkvi sme všetci navzájom bratmi a sestrami; daj, aby sme si navzájom preukazovali bratskú lásku podľa rozličných darov, ktoré sme dostali.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Nebeský Otče, daj, aby sa ľudské pokolenie stalo Božou rodinou, kde vládne láska.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Nebeský Otče, daj, aby si národy sveta odpúšťali a žili v mieri a pokoji.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Nebeský Otče, daj, aby sa všetci hriešnici zmierili s tebou aj s tvojou Cirkvou, ktorej ublížili svojimi hriechmi.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Nebeský Otče, daj, aby sa rozhnevané rodiny zmierili a žili v kresťanskej láske.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Nebeský Otče, daj, aby sme vo svojich blížnych vždy videli Ježiša Krista, tvojho Syna, a s radosťou im slúžili.",
                     "Nebeský Otče, pomáhaj nám<br>" +
                             "a naplň naše srdcia úprimnou láskou,<br>" +
                             "aby sme teba milovali nadovšetko<br>" +
@@ -3859,12 +3859,12 @@ public interface Formular {
                             "On žije a kraľuje na veky vekov."},
             {"72a", "1", "Za jednotu kresťanov 1.", "Bratia a sestry, Kristus chce všetkých ľudí priviesť k spáse. Preto ho úprimne prosme.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane, zdokonaľuj vo svojej láske všetkých biskupov a kňazov a svojim veriacim pomáhaj zachovať jednotu ducha vo zväzku pokoja.<br>" +
-                            "<font color='#B71C1C'>2.</font> Zjednoť všetkých kresťanov, aby svet uveril, že ty si Kristus, Boží Syn.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pošli robotníkov na svoju žatvu, aby tvoje meno oslavovali všetky národy.<br>" +
-                            "<font color='#B71C1C'>4.</font> Posilňuj všetkých trpiacich, aby svoje utrpenie obetovali za jednotu Cirkvi.<br>" +
-                            "<font color='#B71C1C'>5.</font> Nauč nás odpúšťať tým, ktorí nám ubližujú, a modliť sa za nich.<br>" +
-                            "<font color='#B71C1C'>6.</font> Milostivo stoj pri nás v hodine našej smrti, aby sme ti zostali verní a odišli z tohto sveta v tvojom pokoji.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane, zdokonaľuj vo svojej láske všetkých biskupov a kňazov a svojim veriacim pomáhaj zachovať jednotu ducha vo zväzku pokoja.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Zjednoť všetkých kresťanov, aby svet uveril, že ty si Kristus, Boží Syn.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pošli robotníkov na svoju žatvu, aby tvoje meno oslavovali všetky národy.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Posilňuj všetkých trpiacich, aby svoje utrpenie obetovali za jednotu Cirkvi.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Nauč nás odpúšťať tým, ktorí nám ubližujú, a modliť sa za nich.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Milostivo stoj pri nás v hodine našej smrti, aby sme ti zostali verní a odišli z tohto sveta v tvojom pokoji.",
                     "Pane Ježišu,<br>" +
                             "ty si pre spásu ľudí rozpäl ruky na kríži;<br>" +
                             "daj, aby sa ti naše skutky páčili<br>" +
@@ -3872,12 +3872,12 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"72a", "2", "Za jednotu kresťanov 2.", "Bratia a sestry, Kristus chce všetkých ľudí priviesť k spáse. Preto ho úprimne prosme.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane, zdokonaľuj vo svojej láske všetkých biskupov a kňazov a svojim veriacim pomáhaj zachovať jednotu ducha vo zväzku pokoja.<br>" +
-                            "<font color='#B71C1C'>2.</font> Zjednoť všetkých kresťanov, aby svet uveril, že ty si Kristus, Boží Syn.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pošli robotníkov na svoju žatvu, aby tvoje meno oslavovali všetky národy.<br>" +
-                            "<font color='#B71C1C'>4.</font> Posilňuj všetkých trpiacich, aby svoje utrpenie obetovali za jednotu Cirkvi.<br>" +
-                            "<font color='#B71C1C'>5.</font> Nauč nás odpúšťať tým, ktorí nám ubližujú, a modliť sa za nich.<br>" +
-                            "<font color='#B71C1C'>6.</font> Milostivo stoj pri nás v hodine našej smrti, aby sme ti zostali verní a odišli z tohto sveta v tvojom pokoji.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane, zdokonaľuj vo svojej láske všetkých biskupov a kňazov a svojim veriacim pomáhaj zachovať jednotu ducha vo zväzku pokoja.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Zjednoť všetkých kresťanov, aby svet uveril, že ty si Kristus, Boží Syn.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pošli robotníkov na svoju žatvu, aby tvoje meno oslavovali všetky národy.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Posilňuj všetkých trpiacich, aby svoje utrpenie obetovali za jednotu Cirkvi.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Nauč nás odpúšťať tým, ktorí nám ubližujú, a modliť sa za nich.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Milostivo stoj pri nás v hodine našej smrti, aby sme ti zostali verní a odišli z tohto sveta v tvojom pokoji.",
                     "Pane Ježišu,<br>" +
                             "ty si pre spásu ľudí rozpäl ruky na kríži;<br>" +
                             "daj, aby sa ti naše skutky páčili<br>" +
@@ -3885,12 +3885,12 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"72a", "3", "Za jednotu kresťanov 3.", "Bratia a sestry, Kristus chce všetkých ľudí priviesť k spáse. Preto ho úprimne prosme.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane, zdokonaľuj vo svojej láske všetkých biskupov a kňazov a svojim veriacim pomáhaj zachovať jednotu ducha vo zväzku pokoja.<br>" +
-                            "<font color='#B71C1C'>2.</font> Zjednoť všetkých kresťanov, aby svet uveril, že ty si Kristus, Boží Syn.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pošli robotníkov na svoju žatvu, aby tvoje meno oslavovali všetky národy.<br>" +
-                            "<font color='#B71C1C'>4.</font> Posilňuj všetkých trpiacich, aby svoje utrpenie obetovali za jednotu Cirkvi.<br>" +
-                            "<font color='#B71C1C'>5.</font> Nauč nás odpúšťať tým, ktorí nám ubližujú, a modliť sa za nich.<br>" +
-                            "<font color='#B71C1C'>6.</font> Milostivo stoj pri nás v hodine našej smrti, aby sme ti zostali verní a odišli z tohto sveta v tvojom pokoji.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane, zdokonaľuj vo svojej láske všetkých biskupov a kňazov a svojim veriacim pomáhaj zachovať jednotu ducha vo zväzku pokoja.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Zjednoť všetkých kresťanov, aby svet uveril, že ty si Kristus, Boží Syn.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pošli robotníkov na svoju žatvu, aby tvoje meno oslavovali všetky národy.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Posilňuj všetkých trpiacich, aby svoje utrpenie obetovali za jednotu Cirkvi.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Nauč nás odpúšťať tým, ktorí nám ubližujú, a modliť sa za nich.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Milostivo stoj pri nás v hodine našej smrti, aby sme ti zostali verní a odišli z tohto sveta v tvojom pokoji.",
                     "Pane Ježišu,<br>" +
                             "ty si pre spásu ľudí rozpäl ruky na kríži;<br>" +
                             "daj, aby sa ti naše skutky páčili<br>" +
@@ -3898,12 +3898,12 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"72b", "4", "Za povolanie na kňazský stav", "Bratia a sestry, Pán Ježiš je stále prítomný vo svojej Cirkvi a svoje kňazstvo uskutočňuje prostredníctvom tých, ktorým dal sviatostnú účasť na svojom kňazstve. Prosme ho za kňazské povolania.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, pošli svojej Cirkvi statočných služobníkov oltára a verných hlásateľov tvojho slova.<br>" +
-                            "<font color='#B71C1C'>2.</font> Rozšír evanjelium lásky a pokoja po celej zemi.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pomocou svojich kňazov zachráň hriešnikov pred večným trestom.<br>" +
-                            "<font color='#B71C1C'>4.</font> Vlož do sŕdc kresťanských matiek a otcov túžbu vychovať kňaza pre tvoju Cirkev.<br>" +
-                            "<font color='#B71C1C'>5.</font> Vštep do sŕdc mladých mužov veľkú túžbu stať sa tvojím kňazom.<br>" +
-                            "<font color='#B71C1C'>6.</font> Žehnaj rodiny, otcov i matky, ktorí vychovali kňaza pre Katolícku cirkev.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, pošli svojej Cirkvi statočných služobníkov oltára a verných hlásateľov tvojho slova.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Rozšír evanjelium lásky a pokoja po celej zemi.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pomocou svojich kňazov zachráň hriešnikov pred večným trestom.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Vlož do sŕdc kresťanských matiek a otcov túžbu vychovať kňaza pre tvoju Cirkev.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Vštep do sŕdc mladých mužov veľkú túžbu stať sa tvojím kňazom.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Žehnaj rodiny, otcov i matky, ktorí vychovali kňaza pre Katolícku cirkev.",
                     "Pane Ježišu,<br>" +
                             "ty si ustanovil katolícke kňazstvo,<br>" +
                             "aby si nám dokázal svoju nekonečnú lásku<br>" +
@@ -3914,11 +3914,11 @@ public interface Formular {
                     "Alebo:",
                     "Za nové kňazské povolania", "Bratia a sestry, kňazi nám prinášajú na oltár živého Krista, preto vďaka nim môžeme mať účasť na stretnutí s naším Pánom. Modlime sa za nové povolania na kňazstvo a za celú Cirkev.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, stoj pri všetkých kňazoch svojej Cirkvi, aby prostredníctvom živého spojenia s Kristom boli príkladom pre nové kňazské povolania.<br>" +
-                            "<font color='#B71C1C'>2.</font> Otče, posilňuj všetkých kňazov, ktorí sú svetskými zákonmi prenasledovaní alebo utláčaní, aby mali dostatok odvahy vydávať svedectvo o tvojej nekonečnej láske a odpustení.<br>" +
-                            "<font color='#B71C1C'>3.</font> Bože, zjavuj svoju dobrotu v srdciach mladých mužov, aby sa medzi nimi našli takí, ktorí ti zasvätia celý svoj život.<br>" +
-                            "<font color='#B71C1C'>4.</font> Otče, nauč nás ochotne prijímať dar povolania ku kňazstvu u svojich bratov a nerobiť im prekážky na ceste nasledovania Krista.<br>" +
-                            "<font color='#B71C1C'>5.</font> Bože, poteš večnou radosťou našich zosnulých kňazov, ktorí opustili tento svet, a priveď ich do večnej blaženosti.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, stoj pri všetkých kňazoch svojej Cirkvi, aby prostredníctvom živého spojenia s Kristom boli príkladom pre nové kňazské povolania.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Otče, posilňuj všetkých kňazov, ktorí sú svetskými zákonmi prenasledovaní alebo utláčaní, aby mali dostatok odvahy vydávať svedectvo o tvojej nekonečnej láske a odpustení.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Bože, zjavuj svoju dobrotu v srdciach mladých mužov, aby sa medzi nimi našli takí, ktorí ti zasvätia celý svoj život.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Otče, nauč nás ochotne prijímať dar povolania ku kňazstvu u svojich bratov a nerobiť im prekážky na ceste nasledovania Krista.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Bože, poteš večnou radosťou našich zosnulých kňazov, ktorí opustili tento svet, a priveď ich do večnej blaženosti.",
                     "Pane a Bože náš,<br>" +
                             "ty odmeňuješ osobitnou milosťou všetkých,<br>" +
                             "ktorí sa ti zasvätili celým srdcom;<br>" +
@@ -3929,11 +3929,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"72b", "5", "Za rehoľné povolania", "Bratia a sestry, pokorne prosme nášho veľkňaza Ježiša Krista, aby poslal horlivých robotníkov na svoju žatvu.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, Syn živého Boha, prosíme ťa za nášho pápeža <font color='#B71C1C'>M.</font> a za nášho biskupa <font color='#B71C1C'>M.</font>: ochraňuj ich, posilňuj a posväcuj.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, svetlo národov, prosíme ťa za predstaviteľov národov: obdaruj ich duchom spravodlivosti a pokoja.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, Dobrý pastier, prosíme ťa za nášho duchovného otca a za všetkých kňazov: eucharistickou obetou ich zjednocuj so sebou a navzájom.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, pravda a život, prosíme ťa za tých, ktorí počuli tvoj hlas a nasledujú ťa: pomáhaj im, aby sa vedomosťami a čnostným životom dobre pripravili na zasvätený život.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, pravé svetlo, prosíme ťa za mladých ľudí: vlož im do sŕdc oheň Ducha Svätého, ktorý si zoslal z neba, a obdaruj mnohých duchovným povolaním.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, Syn živého Boha, prosíme ťa za nášho pápeža <font color='#B71C1C'>M.</font> a za nášho biskupa <font color='#B71C1C'>M.</font>: ochraňuj ich, posilňuj a posväcuj.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, svetlo národov, prosíme ťa za predstaviteľov národov: obdaruj ich duchom spravodlivosti a pokoja.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, Dobrý pastier, prosíme ťa za nášho duchovného otca a za všetkých kňazov: eucharistickou obetou ich zjednocuj so sebou a navzájom.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, pravda a život, prosíme ťa za tých, ktorí počuli tvoj hlas a nasledujú ťa: pomáhaj im, aby sa vedomosťami a čnostným životom dobre pripravili na zasvätený život.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, pravé svetlo, prosíme ťa za mladých ľudí: vlož im do sŕdc oheň Ducha Svätého, ktorý si zoslal z neba, a obdaruj mnohých duchovným povolaním.",
                     "Ježišu Kriste, najvyšší a večný kňaz,<br>" +
                             "daj, nech tvár tvojej Cirkvi<br>" +
                             "zažiari svätosťou kňazov a biskupov<br>" +
@@ -3945,11 +3945,11 @@ public interface Formular {
                     "Za nové duchovné povolania 1.",
                     "Bratia a sestry, každý z nás plní v živote určité poslanie. Modlime sa, aby Boh daroval svojim vyvoleným milosť Ducha Svätého, v ktorej môžu spoznať povolanie na duchovný život.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, povolaj tých, v ktorých máš zaľúbenie.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, veď všetkých služobníkov Cirkvi i členov reholí, aby svojím životom boli príkladom pre tých, ktorí chcú nasledovať Krista.<br>" +
-                            "<font color='#B71C1C'>2.</font> Daj, aby na celom svete kandidáti na duchovnú službu dostali dobré teologické vzdelanie a duchovnú formáciu.<br>" +
-                            "<font color='#B71C1C'>3.</font> Povzbudzuj všetkých kresťanov, aby mali v úcte svojich duchovných pastierov, modlili sa za nich a ochotne im pomáhali v pastoračnej službe.<br>" +
-                            "<font color='#B71C1C'>4.</font> Stoj pri všetkých, ktorých si obdaroval duchovným povolaním, aby s tvojou pomocou prekonávali všetky prekážky na ceste zasvätenia.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pomáhaj nám prijať a rešpektovať rozhodnutie našich bratov a sestier, ktorí sa ti chcú zasvätiť v duchovnom povolaní.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, veď všetkých služobníkov Cirkvi i členov reholí, aby svojím životom boli príkladom pre tých, ktorí chcú nasledovať Krista.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Daj, aby na celom svete kandidáti na duchovnú službu dostali dobré teologické vzdelanie a duchovnú formáciu.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Povzbudzuj všetkých kresťanov, aby mali v úcte svojich duchovných pastierov, modlili sa za nich a ochotne im pomáhali v pastoračnej službe.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Stoj pri všetkých, ktorých si obdaroval duchovným povolaním, aby s tvojou pomocou prekonávali všetky prekážky na ceste zasvätenia.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pomáhaj nám prijať a rešpektovať rozhodnutie našich bratov a sestier, ktorí sa ti chcú zasvätiť v duchovnom povolaní.",
                     "Pane a Bože náš,<br>" +
                             "všetci sme tvoje deti,<br>" +
                             "ale niektorých si zvlášť vyvolil na duchovné povolanie;<br>" +
@@ -3961,11 +3961,11 @@ public interface Formular {
                     "Za nové duchovné povolania 2.",
                     "Bratia a sestry, Pán Ježiš si povoláva tých, ktorých sám chce. Prosme, aby čím viacerí odpovedali na jeho pozvanie: Poď a nasleduj ma. Spoločne sa modlime.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, daruj všetkým biskupom, kňazom a diakonom odvahu vydávať svedectvo o tebe a byť príkladom pre tých, ktorých voláš do svojej služby.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, osvecuj predstaviteľov štátov a zákonodarcov, aby vytvárali vhodné spoločenské podmienky pre tých, ktorí v sebe počujú hlas tvojho volania.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, stoj pri všetkých, ktorí sa rozhodli nasledovať ťa s nerozdeleným srdcom, a pomáhaj im nadšene pracovať na diele spásy.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, sprevádzaj naše kroky, aby sme sa vrúcne modlili za tvojich vyvolených služobníkov.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, prijmi zosnulých biskupov, kňazov a diakonov do spoločenstva svätých, aby dosiahli večnú radosť vo svetle tvojej lásky.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, daruj všetkým biskupom, kňazom a diakonom odvahu vydávať svedectvo o tebe a byť príkladom pre tých, ktorých voláš do svojej služby.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, osvecuj predstaviteľov štátov a zákonodarcov, aby vytvárali vhodné spoločenské podmienky pre tých, ktorí v sebe počujú hlas tvojho volania.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, stoj pri všetkých, ktorí sa rozhodli nasledovať ťa s nerozdeleným srdcom, a pomáhaj im nadšene pracovať na diele spásy.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, sprevádzaj naše kroky, aby sme sa vrúcne modlili za tvojich vyvolených služobníkov.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, prijmi zosnulých biskupov, kňazov a diakonov do spoločenstva svätých, aby dosiahli večnú radosť vo svetle tvojej lásky.",
                     "Ježišu Kriste, náš Spasiteľ a Vykupiteľ,<br>" +
                             "vrúcne ťa prosíme,<br>" +
                             "vypočuj naše prosby<br>" +
@@ -3975,11 +3975,11 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"73", "1", "Na poďakovanie Pánu Bohu 1.", "Bratia a sestry, tešíme sa a ďakujeme nášmu nebeskému Otcovi, že zem vydala svoje plody na našu obživu. Zároveň ho prosme, aby sme oplývali dobrými skutkami a boli štedrí voči všetkým.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, ty si Cirkev zasadil ako šľachetnú vinicu; daj, aby sme vždy zostávali v Kristovi, pravom viniči, ktorý dáva život a plodnosť ratolestiam. <br>" +
-                            "<font color='#B71C1C'>2.</font> Ty si dal zem do užívania všetkým ľuďom; daj, nech majú všetci radostnú účasť na stvorených dobrách.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane, ty svojou dobrotou napĺňaš celý rok; nech rozmanitosť plodov a krása tvojich diel privedú k tebe tých, čo ťa hľadajú.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, ty si stvoril svet a my sa oň máme starať; požehnávaj ľudí pracujúcich na poliach a v záhradách, aby odmenou ich práce bola bohatá úroda.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, teba uráža nevďak a ľahostajnosť voči tvojim dobrodeniam; naplň naše srdcia vďačnosťou za všetky tvoje dary.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, ty si Cirkev zasadil ako šľachetnú vinicu; daj, aby sme vždy zostávali v Kristovi, pravom viniči, ktorý dáva život a plodnosť ratolestiam. <br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Ty si dal zem do užívania všetkým ľuďom; daj, nech majú všetci radostnú účasť na stvorených dobrách.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane, ty svojou dobrotou napĺňaš celý rok; nech rozmanitosť plodov a krása tvojich diel privedú k tebe tých, čo ťa hľadajú.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože, ty si stvoril svet a my sa oň máme starať; požehnávaj ľudí pracujúcich na poliach a v záhradách, aby odmenou ich práce bola bohatá úroda.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, teba uráža nevďak a ľahostajnosť voči tvojim dobrodeniam; naplň naše srdcia vďačnosťou za všetky tvoje dary.",
                     "Nebeský Otče, s radosťou ti ďakujeme <br>" +
                             "za všetky tvoje dobrodenia, <br>" +
                             "za chlieb, za úrodu viníc a stromov <br>" +
@@ -3990,11 +3990,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"73", "2", "Na poďakovanie Pánu Bohu 2.", "Bratia a sestry, tešíme sa a ďakujeme nášmu nebeskému Otcovi, že zem vydala svoje plody na našu obživu. Zároveň ho prosme, aby sme oplývali dobrými skutkami a boli štedrí voči všetkým.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, ty si Cirkev zasadil ako šľachetnú vinicu; daj, aby sme vždy zostávali v Kristovi, pravom viniči, ktorý dáva život a plodnosť ratolestiam. <br>" +
-                            "<font color='#B71C1C'>2.</font> Ty si dal zem do užívania všetkým ľuďom; daj, nech majú všetci radostnú účasť na stvorených dobrách.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane, ty svojou dobrotou napĺňaš celý rok; nech rozmanitosť plodov a krása tvojich diel privedú k tebe tých, čo ťa hľadajú.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, ty si stvoril svet a my sa oň máme starať; požehnávaj ľudí pracujúcich na poliach a v záhradách, aby odmenou ich práce bola bohatá úroda.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, teba uráža nevďak a ľahostajnosť voči tvojim dobrodeniam; naplň naše srdcia vďačnosťou za všetky tvoje dary.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, ty si Cirkev zasadil ako šľachetnú vinicu; daj, aby sme vždy zostávali v Kristovi, pravom viniči, ktorý dáva život a plodnosť ratolestiam. <br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Ty si dal zem do užívania všetkým ľuďom; daj, nech majú všetci radostnú účasť na stvorených dobrách.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane, ty svojou dobrotou napĺňaš celý rok; nech rozmanitosť plodov a krása tvojich diel privedú k tebe tých, čo ťa hľadajú.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože, ty si stvoril svet a my sa oň máme starať; požehnávaj ľudí pracujúcich na poliach a v záhradách, aby odmenou ich práce bola bohatá úroda.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, teba uráža nevďak a ľahostajnosť voči tvojim dobrodeniam; naplň naše srdcia vďačnosťou za všetky tvoje dary.",
                     "Nebeský Otče, s radosťou ti ďakujeme <br>" +
                             "za všetky tvoje dobrodenia, <br>" +
                             "za chlieb, za úrodu viníc a stromov <br>" +
@@ -4005,11 +4005,11 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"73", "3", "Na poďakovanie za úrodu", "Bratia a sestry, tešíme sa a ďakujeme nášmu nebeskému Otcovi, že zem vydala svoje plody na našu obživu. Zároveň ho prosme, aby sme oplývali dobrými skutkami a boli štedrí voči všetkým.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, ty si Cirkev zasadil ako šľachetnú vinicu; daj, aby sme vždy zostávali v Kristovi, pravom viniči, ktorý dáva život a plodnosť ratolestiam. <br>" +
-                            "<font color='#B71C1C'>2.</font> Ty si dal zem do užívania všetkým ľuďom; daj, nech majú všetci radostnú účasť na stvorených dobrách.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane, ty svojou dobrotou napĺňaš celý rok; nech rozmanitosť plodov a krása tvojich diel privedú k tebe tých, čo ťa hľadajú.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, ty si stvoril svet a my sa oň máme starať; požehnávaj ľudí pracujúcich na poliach a v záhradách, aby odmenou ich práce bola bohatá úroda.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, teba uráža nevďak a ľahostajnosť voči tvojim dobrodeniam; naplň naše srdcia vďačnosťou za všetky tvoje dary.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, ty si Cirkev zasadil ako šľachetnú vinicu; daj, aby sme vždy zostávali v Kristovi, pravom viniči, ktorý dáva život a plodnosť ratolestiam. <br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Ty si dal zem do užívania všetkým ľuďom; daj, nech majú všetci radostnú účasť na stvorených dobrách.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane, ty svojou dobrotou napĺňaš celý rok; nech rozmanitosť plodov a krása tvojich diel privedú k tebe tých, čo ťa hľadajú.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože, ty si stvoril svet a my sa oň máme starať; požehnávaj ľudí pracujúcich na poliach a v záhradách, aby odmenou ich práce bola bohatá úroda.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, teba uráža nevďak a ľahostajnosť voči tvojim dobrodeniam; naplň naše srdcia vďačnosťou za všetky tvoje dary.",
                     "Nebeský Otče, s radosťou ti ďakujeme <br>" +
                             "za všetky tvoje dobrodenia, <br>" +
                             "za chlieb, za úrodu viníc a stromov <br>" +
@@ -4020,10 +4020,10 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"74", "1", "Za zachovanie pokoja a spravodlivosti 1.", "Bratia a sestry, spoločnou modlitbou sa obráťme k Bohu Otcovi, aby celá rodina národov žila v pravej bratskej láske.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Modlime sa za Cirkev, rozšírenú po celom svete, nech ju prenikne Kristovo slovo a príklad, aby bola znakom jednoty a pokoja medzi národmi.<br>" +
-                            "<font color='#B71C1C'>2.</font> Modlime sa za predstaviteľov všetkých národov, aby obhajovali ľudské práva a všetkými silami a prostriedkami prispievali k jednote ľudskej rodiny.<br>" +
-                            "<font color='#B71C1C'>3.</font> Modlime sa za tých, ktorí sú nespravodlivo utláčaní, aby sa všetkým ľuďom na svete priznali rovnaké práva a povinnosti.<br>" +
-                            "<font color='#B71C1C'>4.</font> Modlime sa aj za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo zjednotené spoločnou vierou a modlitbou: aby sme zotrvali v Kristovej láske a pokoji.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Modlime sa za Cirkev, rozšírenú po celom svete, nech ju prenikne Kristovo slovo a príklad, aby bola znakom jednoty a pokoja medzi národmi.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Modlime sa za predstaviteľov všetkých národov, aby obhajovali ľudské práva a všetkými silami a prostriedkami prispievali k jednote ľudskej rodiny.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Modlime sa za tých, ktorí sú nespravodlivo utláčaní, aby sa všetkým ľuďom na svete priznali rovnaké práva a povinnosti.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Modlime sa aj za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo zjednotené spoločnou vierou a modlitbou: aby sme zotrvali v Kristovej láske a pokoji.",
                     "Bože, vypočuj naše prosby a daj,<br>" +
                             "nech všetci ľudia žijú v pokoji,<br>" +
                             "ktorý je ovocím spravodlivosti a lásky<br>" +
@@ -4031,10 +4031,10 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"74", "2", "Za zachovanie pokoja a spravodlivosti 2.", "Bratia a sestry, spoločnou modlitbou sa obráťme k Bohu Otcovi, aby celá rodina národov žila v pravej bratskej láske.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Modlime sa za Cirkev, rozšírenú po celom svete, nech ju prenikne Kristovo slovo a príklad, aby bola znakom jednoty a pokoja medzi národmi.<br>" +
-                            "<font color='#B71C1C'>2.</font> Modlime sa za predstaviteľov všetkých národov, aby obhajovali ľudské práva a všetkými silami a prostriedkami prispievali k jednote ľudskej rodiny.<br>" +
-                            "<font color='#B71C1C'>3.</font> Modlime sa za tých, ktorí sú nespravodlivo utláčaní, aby sa všetkým ľuďom na svete priznali rovnaké práva a povinnosti.<br>" +
-                            "<font color='#B71C1C'>4.</font> Modlime sa aj za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo zjednotené spoločnou vierou a modlitbou: aby sme zotrvali v Kristovej láske a pokoji.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Modlime sa za Cirkev, rozšírenú po celom svete, nech ju prenikne Kristovo slovo a príklad, aby bola znakom jednoty a pokoja medzi národmi.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Modlime sa za predstaviteľov všetkých národov, aby obhajovali ľudské práva a všetkými silami a prostriedkami prispievali k jednote ľudskej rodiny.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Modlime sa za tých, ktorí sú nespravodlivo utláčaní, aby sa všetkým ľuďom na svete priznali rovnaké práva a povinnosti.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Modlime sa aj za naše <font color='#B71C1C'>(</font>farské<font color='#B71C1C'>)</font> spoločenstvo zjednotené spoločnou vierou a modlitbou: aby sme zotrvali v Kristovej láske a pokoji.",
                     "Bože, vypočuj naše prosby a daj,<br>" +
                             "nech všetci ľudia žijú v pokoji,<br>" +
                             "ktorý je ovocím spravodlivosti a lásky<br>" +
@@ -4042,12 +4042,12 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"74", "3", "Za rodinu", "Bratia a sestry, pokorne prosme Pána za obnovu našich rodín, aby sa život viery zveľaďoval a upevňoval v našich rodinných spoločenstvách.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, prameň lásky a pokoja, obnov vieru kresťanov vo vtelenie tvojho Syna, ktorý sa stal členom ľudskej rodiny.<br>" +
-                            "<font color='#B71C1C'>2.</font> Daj, nech všetky národy spoznajú teba, jediného pravého Boha, i tvojho Syna Ježiša Krista, ktorého si poslal spasiť všetkých ľudí.<br>" +
-                            "<font color='#B71C1C'>3.</font> Preukáž svoju otcovskú dobrotu našim príbuzným a dobrodincom, žehnaj ich už tu na zemi a daj im večný život.<br>" +
-                            "<font color='#B71C1C'>4.</font> Zhliadni vo svojej dobrote na ľudí bez prístrešia, aby našli miesto dôstojného bývania.<br>" +
-                            "<font color='#B71C1C'>5.</font> Naplň nás duchom svornosti, aby v našich rodinách vládol pokoj a bratská láska.<br>" +
-                            "<font color='#B71C1C'>6.</font> Udeľ hriešnikom milosť obrátiť sa a tým, ktorí odpadli od viery, silu vrátiť sa do tvojho domu.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, prameň lásky a pokoja, obnov vieru kresťanov vo vtelenie tvojho Syna, ktorý sa stal členom ľudskej rodiny.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Daj, nech všetky národy spoznajú teba, jediného pravého Boha, i tvojho Syna Ježiša Krista, ktorého si poslal spasiť všetkých ľudí.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Preukáž svoju otcovskú dobrotu našim príbuzným a dobrodincom, žehnaj ich už tu na zemi a daj im večný život.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Zhliadni vo svojej dobrote na ľudí bez prístrešia, aby našli miesto dôstojného bývania.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Naplň nás duchom svornosti, aby v našich rodinách vládol pokoj a bratská láska.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Udeľ hriešnikom milosť obrátiť sa a tým, ktorí odpadli od viery, silu vrátiť sa do tvojho domu.",
                     "Nebeský Otče,<br>" +
                             "žehnaj naše rodiny;<br>" +
                             "daj, aby rodičia boli prvými svedkami viery svojim deťom<br>" +
@@ -4055,12 +4055,12 @@ public interface Formular {
                             "O to ťa prosíme skrze Krista, nášho Pána."},
             {"75", "1", "V čase sejby 1.", "Bratia a sestry, s veľkou dôverou vzývajme nášho nebeského Otca a prosme ho:",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, posilňuj vo svojich veriacich vedomie, že nás miluješ a že sa nielen voláme tvojimi deťmi, ale nimi aj sme.<br>" +
-                            "<font color='#B71C1C'>2.</font> Daj, aby bohatšie národy podporovali rozvojové krajiny a aby každý videl v druhom človeku svojho brata a blížneho.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pomáhaj chorým, núdznym a trpiacim, upevni ich v dôvere v teba a nám daj otvorené srdce pre ich hmotné i duchovné potreby.<br>" +
-                            "<font color='#B71C1C'>4.</font> Požehnaj našich roľníkov a robotníkov, ktorí nám svojou prácou dorábajú chlieb, a upevňuj ich vo vedomí, že sú spolupracovníkmi Boha, ktorý dáva vzrast a úrodu.<br>" +
-                            "<font color='#B71C1C'>5.</font> Požehnaj naše polia, vinice a záhrady a daj nám dobrú úrodu.<br>" +
-                            "<font color='#B71C1C'>6.</font> Obdaruj nás priaznivým počasím, aby nám zem priniesla hojnú úrodu.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, posilňuj vo svojich veriacich vedomie, že nás miluješ a že sa nielen voláme tvojimi deťmi, ale nimi aj sme.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Daj, aby bohatšie národy podporovali rozvojové krajiny a aby každý videl v druhom človeku svojho brata a blížneho.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pomáhaj chorým, núdznym a trpiacim, upevni ich v dôvere v teba a nám daj otvorené srdce pre ich hmotné i duchovné potreby.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Požehnaj našich roľníkov a robotníkov, ktorí nám svojou prácou dorábajú chlieb, a upevňuj ich vo vedomí, že sú spolupracovníkmi Boha, ktorý dáva vzrast a úrodu.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Požehnaj naše polia, vinice a záhrady a daj nám dobrú úrodu.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Obdaruj nás priaznivým počasím, aby nám zem priniesla hojnú úrodu.",
                     "Dobrotivý Bože,<br>" +
                             "v Duchu Svätom ťa nazývame Otcom;<br>" +
                             "pre obetu svojho Syna vyslyš naše prosby,<br>" +
@@ -4068,12 +4068,12 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"75", "2", "V čase sejby 2.", "Bratia a sestry, s veľkou dôverou vzývajme nášho nebeského Otca a prosme ho:",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, posilňuj vo svojich veriacich vedomie, že nás miluješ a že sa nielen voláme tvojimi deťmi, ale nimi aj sme.<br>" +
-                            "<font color='#B71C1C'>2.</font> Daj, aby bohatšie národy podporovali rozvojové krajiny a aby každý videl v druhom človeku svojho brata a blížneho.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pomáhaj chorým, núdznym a trpiacim, upevni ich v dôvere v teba a nám daj otvorené srdce pre ich hmotné i duchovné potreby.<br>" +
-                            "<font color='#B71C1C'>4.</font> Požehnaj našich roľníkov a robotníkov, ktorí nám svojou prácou dorábajú chlieb, a upevňuj ich vo vedomí, že sú spolupracovníkmi Boha, ktorý dáva vzrast a úrodu.<br>" +
-                            "<font color='#B71C1C'>5.</font> Požehnaj naše polia, vinice a záhrady a daj nám dobrú úrodu.<br>" +
-                            "<font color='#B71C1C'>6.</font> Obdaruj nás priaznivým počasím, aby nám zem priniesla hojnú úrodu.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, posilňuj vo svojich veriacich vedomie, že nás miluješ a že sa nielen voláme tvojimi deťmi, ale nimi aj sme.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Daj, aby bohatšie národy podporovali rozvojové krajiny a aby každý videl v druhom človeku svojho brata a blížneho.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pomáhaj chorým, núdznym a trpiacim, upevni ich v dôvere v teba a nám daj otvorené srdce pre ich hmotné i duchovné potreby.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Požehnaj našich roľníkov a robotníkov, ktorí nám svojou prácou dorábajú chlieb, a upevňuj ich vo vedomí, že sú spolupracovníkmi Boha, ktorý dáva vzrast a úrodu.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Požehnaj naše polia, vinice a záhrady a daj nám dobrú úrodu.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Obdaruj nás priaznivým počasím, aby nám zem priniesla hojnú úrodu.",
                     "Dobrotivý Bože,<br>" +
                             "v Duchu Svätom ťa nazývame Otcom;<br>" +
                             "pre obetu svojho Syna vyslyš naše prosby,<br>" +
@@ -4081,12 +4081,12 @@ public interface Formular {
                             "Skrze Krista, nášho Pána."},
             {"76", "1", "Za jednotu kresťanov 1.", "Bratia a sestry, spoločne prosme o jednotu Cirkvi, za ktorú sa sám Spasiteľ v predvečer svojej smrti modlil a prosil Otca, aby všetci boli jedno.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, daj, aby sme boli jedno srdce a jedna duša.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, daj, aby sa všetci pokrstení raz zjednotili v jednej, svätej, katolíckej a apoštolskej Cirkvi.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane, pomáhaj všetkým, ktorí spravujú národy, aby podľa tvojej vôle svorne uskutočňovali všeobecné dobro.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane, zjednocuj všetkých kresťanov vo vyznávaní jednej viery a daj, aby pred svetom jednotne svedčili o láske, ktorú si nám predstavil ako najväčšiu životnú hodnotu.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane, daj, aby sme poznali pravé kresťanské hodnoty prameniace zo spoločného dedičstva, ktoré sa nachádza v rôznych kresťanských spoločenstvách.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane, požehnaj všetkých, ktorí sa usilujú prekonať každú nelásku i rozdelenie a obetujú sa za jednotu kresťanov po celom svete.<br>" +
-                            "<font color='#B71C1C'>6.</font> Pane, daj, aby sme pamätali na to, že jednotu kresťanov napomôžeme najlepšie tým, že budeme bezúhonne žiť podľa evanjelia.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, daj, aby sa všetci pokrstení raz zjednotili v jednej, svätej, katolíckej a apoštolskej Cirkvi.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane, pomáhaj všetkým, ktorí spravujú národy, aby podľa tvojej vôle svorne uskutočňovali všeobecné dobro.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane, zjednocuj všetkých kresťanov vo vyznávaní jednej viery a daj, aby pred svetom jednotne svedčili o láske, ktorú si nám predstavil ako najväčšiu životnú hodnotu.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane, daj, aby sme poznali pravé kresťanské hodnoty prameniace zo spoločného dedičstva, ktoré sa nachádza v rôznych kresťanských spoločenstvách.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane, požehnaj všetkých, ktorí sa usilujú prekonať každú nelásku i rozdelenie a obetujú sa za jednotu kresťanov po celom svete.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Pane, daj, aby sme pamätali na to, že jednotu kresťanov napomôžeme najlepšie tým, že budeme bezúhonne žiť podľa evanjelia.",
                     "Pane Ježišu,<br>" +
                             "prosíme ťa, daj,<br>" +
                             "nech je tvoja Cirkev jasným dôkazom,<br>" +
@@ -4096,11 +4096,11 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"76", "2", "Za jednotu kresťanov 2.", "Bratia a sestry, krstom sme sa znovuzrodili pre nový život, stali sme sa členmi Kristovej Cirkvi a navzájom bratmi i sestrami. Vrúcne sa modlime za jednotu všetkých kresťanov.",
                     "<font color='#B71C1C'>(</font>Volajme: Nech sme jedno srdce na tvoju slávu, Pane.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Ježišu, prosíme ťa za biskupov, kňazov a diakonov, aby v tvojej láske s radosťou prednášali modlitby za jednotu všetkých kresťanov.<br>" +
-                            "<font color='#B71C1C'>2.</font> Prosíme ťa za predstavených všetkých cirkví, aby s múdrosťou viedli svojich veriacich k pravému spoločenstvu medzi sebou.<br>" +
-                            "<font color='#B71C1C'>3.</font> Prosíme ťa za všetkých pokrstených, aby sa dokázali vzájomne obohatiť svojimi rozličnými tradíciami.<br>" +
-                            "<font color='#B71C1C'>4.</font> Prosíme ťa za všetkých kresťanov prenasledovaných pre vieru, aby v trpezlivosti niesli svoj kríž a obetovali ho za zjednotenie putujúcej Cirkvi.<br>" +
-                            "<font color='#B71C1C'>5.</font> Prosíme ťa za nás samých, aby sme v odvahe a pokore vedeli prekonať všetko, čo nás rozdeľuje, a aby sme kráčali po ceste k jednote.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Ježišu, prosíme ťa za biskupov, kňazov a diakonov, aby v tvojej láske s radosťou prednášali modlitby za jednotu všetkých kresťanov.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Prosíme ťa za predstavených všetkých cirkví, aby s múdrosťou viedli svojich veriacich k pravému spoločenstvu medzi sebou.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Prosíme ťa za všetkých pokrstených, aby sa dokázali vzájomne obohatiť svojimi rozličnými tradíciami.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Prosíme ťa za všetkých kresťanov prenasledovaných pre vieru, aby v trpezlivosti niesli svoj kríž a obetovali ho za zjednotenie putujúcej Cirkvi.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Prosíme ťa za nás samých, aby sme v odvahe a pokore vedeli prekonať všetko, čo nás rozdeľuje, a aby sme kráčali po ceste k jednote.",
                     "Pane Ježišu,<br>" +
                             "vypočuj naše prosby<br>" +
                             "a urob nás pozornými na tvoju pravdu,<br>" +
@@ -4112,11 +4112,11 @@ public interface Formular {
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"76", "3", "Za jednotu kresťanov 3.", "Bratia a sestry, vrúcne prosme nebeského Otca, aby zjednotil všetky svoje deti zranené nejednotou, uzdravil všetky ich rany a daroval im pokoj na celom svete.",
                     "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Za Cirkev na celom svete: aby ako milujúca matka vrúcne objímala všetkých, ktorí vyznávajú vieru v božstvo Ježiša Krista, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>2.</font> Za kresťanov rozličných vyznaní: aby uprostred všetkých trápení tohto sveta mali svoj zrak upretý na Boha, ktorý je posilou v ťažkostiach, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>3.</font> Za predstaviteľov štátov, ktorí veria v Krista: aby aj napriek rozdielnym tradíciám a bohatstvu svojich krajín napomáhali jednotu a svornosť medzi národmi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>4.</font> Za chorých a trpiacich: aby svojimi obetami a modlitbami zmierňovali bolesti a utrpenie Cirkvi, prosme Pána.<br>" +
-                            "<font color='#B71C1C'>5.</font> Za nás tu prítomných: aby sme nepohŕdali kresťanmi iných vyznaní, ale vydávali pred svetom svedectvo o jednote viery, prosme Pána.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Za Cirkev na celom svete: aby ako milujúca matka vrúcne objímala všetkých, ktorí vyznávajú vieru v božstvo Ježiša Krista, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Za kresťanov rozličných vyznaní: aby uprostred všetkých trápení tohto sveta mali svoj zrak upretý na Boha, ktorý je posilou v ťažkostiach, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Za predstaviteľov štátov, ktorí veria v Krista: aby aj napriek rozdielnym tradíciám a bohatstvu svojich krajín napomáhali jednotu a svornosť medzi národmi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Za chorých a trpiacich: aby svojimi obetami a modlitbami zmierňovali bolesti a utrpenie Cirkvi, prosme Pána.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Za nás tu prítomných: aby sme nepohŕdali kresťanmi iných vyznaní, ale vydávali pred svetom svedectvo o jednote viery, prosme Pána.",
                     "Bože Otče,<br>" +
                             "milostivo vypočuj prosby tejto svojej rodiny,<br>" +
                             "ktorú si zhromaždil okolo seba,<br>" +
@@ -6118,11 +6118,11 @@ public interface Formular {
     String[][] prosbyZosnuly = {
             {"", "", "Na výročie smrti I.", "Bratia a sestry, pri výročnej spomienke na nášho zosnulého brata <font color='#B71C1C'>M. (</font>našu zosnulú sestru <font color='#B71C1C'>M.)</font> obráťme sa na nebeského Otca, ktorý dáva nový život bez konca.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Otče, vo svojom milosrdenstve uveď nášho zosnulého brata <font color='#B71C1C'>M. (</font>našu zosnulú sestru <font color='#B71C1C'>M.)</font> do plnosti večného života, po ktorom túžil<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> počas svojej pozemskej púte.<br>" +
-                            "<font color='#B71C1C'>2.</font> Otče, zhliadni na svojho služobníka <font color='#B71C1C'>M. (</font>na svoju služobnicu <font color='#B71C1C'>M.)</font>, ktorý<font color='#B71C1C'>(</font>á<font color='#B71C1C'>)</font> prijímal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> telo tvojho Syna ako pokrm večného života, a daj mu <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> účasť na večnej Baránkovej hostine.<br>" +
-                            "<font color='#B71C1C'>3.</font> Otče, pamätaj na tých, ktorí zomreli ako obete násilia a vojny, a uveď ich do večného pokoja.<br>" +
-                            "<font color='#B71C1C'>4.</font> Otče, daj, nech biskupi a kňazi presvedčivo ohlasujú, že Pán príde súdiť živých i mŕtvych.<br>" +
-                            "<font color='#B71C1C'>5.</font> Otče, daj, nech nám eucharistický pokrm, ktorý prijmeme v tejto svätej omši, slúži na spásu tela a duše.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Otče, vo svojom milosrdenstve uveď nášho zosnulého brata <font color='#B71C1C'>M. (</font>našu zosnulú sestru <font color='#B71C1C'>M.)</font> do plnosti večného života, po ktorom túžil<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> počas svojej pozemskej púte.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Otče, zhliadni na svojho služobníka <font color='#B71C1C'>M. (</font>na svoju služobnicu <font color='#B71C1C'>M.)</font>, ktorý<font color='#B71C1C'>(</font>á<font color='#B71C1C'>)</font> prijímal<font color='#B71C1C'>(</font>a<font color='#B71C1C'>)</font> telo tvojho Syna ako pokrm večného života, a daj mu <font color='#B71C1C'>(</font>jej<font color='#B71C1C'>)</font> účasť na večnej Baránkovej hostine.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Otče, pamätaj na tých, ktorí zomreli ako obete násilia a vojny, a uveď ich do večného pokoja.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Otče, daj, nech biskupi a kňazi presvedčivo ohlasujú, že Pán príde súdiť živých i mŕtvych.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Otče, daj, nech nám eucharistický pokrm, ktorý prijmeme v tejto svätej omši, slúži na spásu tela a duše.",
                     "Vypočuj, Otče, naše prosby<br>" +
                             "ako hlas silnej nádeje<br>" +
                             "a daj našim zosnulým radostný večný život.<br>" +
@@ -6130,12 +6130,12 @@ public interface Formular {
                     "Alebo:",
                     "Na výročie smrti II.", "Bratia a sestry, Boh tak miloval svet, že dal svojho jednorodeného Syna, aby nezahynul nik, kto v neho verí, ale aby mal večný život. Preto s dôverou prosme nášho Spasiteľa, ktorý za nás zomrel a vstal z mŕtvych.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, odporúčame ti nášho zosnulého brata <font color='#B71C1C'>M. (</font>našu zosnulú sestru <font color='#B71C1C'>M.)</font>; priveď ho <font color='#B71C1C'>(</font>ju<font color='#B71C1C'>)</font> do radosti svojho kráľovstva.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, daj, nech biskupi a kňazi Cirkvi ochotne vysluhujú sviatosti chorých a veriaci nech s radosťou prijímajú pokrm na cestu do večnosti.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, osvieť všetkých ľudí svojím Duchom, aby sa pod zorným uhlom večnosti usilovali chrániť život a dbali na dôstojnosť ľudskej osoby.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, prosíme ťa za tých, ktorí zomreli pri živelných pohromách, buď im milosrdný a prijmi ich do svojho kráľovstva.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, náš život a naše vzkriesenie, chráň nás od náhlej smrti a daj, aby sme boli vždy pripravení predstúpiť pred teba.<br>" +
-                            "<font color='#B71C1C'>6.</font> Pane Ježišu, daj, aby sme s veľkou úctou a láskou prijímali chlieb života, ktorý je zárukou, že budeme žiť naveky.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, odporúčame ti nášho zosnulého brata <font color='#B71C1C'>M. (</font>našu zosnulú sestru <font color='#B71C1C'>M.)</font>; priveď ho <font color='#B71C1C'>(</font>ju<font color='#B71C1C'>)</font> do radosti svojho kráľovstva.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, daj, nech biskupi a kňazi Cirkvi ochotne vysluhujú sviatosti chorých a veriaci nech s radosťou prijímajú pokrm na cestu do večnosti.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, osvieť všetkých ľudí svojím Duchom, aby sa pod zorným uhlom večnosti usilovali chrániť život a dbali na dôstojnosť ľudskej osoby.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, prosíme ťa za tých, ktorí zomreli pri živelných pohromách, buď im milosrdný a prijmi ich do svojho kráľovstva.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, náš život a naše vzkriesenie, chráň nás od náhlej smrti a daj, aby sme boli vždy pripravení predstúpiť pred teba.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Pane Ježišu, daj, aby sme s veľkou úctou a láskou prijímali chlieb života, ktorý je zárukou, že budeme žiť naveky.",
                     "Pane Ježišu, prijmi naše prosby<br>" +
                             "a pre svoju smrť na kríži buď milosrdný<br>" +
                             "našim zosnulým bratom a sestrám a daj,<br>" +
@@ -6144,14 +6144,14 @@ public interface Formular {
                     "Alebo:",
                     "Za zosnulého kňaza", "Bratia a sestry, s vierou prosme Boha za zomrelého kňaza <font color='#B71C1C'>M.</font>, aby mu blaženosť večného života bola odmenou za jeho kňazskú službu.",
                     "<font color='#B71C1C'>(</font>Volajme: Milosrdný Bože, vypočuj naše prosby.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane, udeľ večnú spásu zomrelému kňazovi <font color='#B71C1C'>M.</font><br>" +
-                            "<font color='#B71C1C'>2.</font> Daruj Cirkvi svätých kňazov, ktorí žijú pre službu tebe a blížnym.<br>" +
-                            "<font color='#B71C1C'>3.</font> Priveď svet k uznaniu duchovného prínosu služby kňazov.<br>" +
-                            "<font color='#B71C1C'>4.</font> Veď rodičov k tomu, aby prebúdzali v deťoch zmysel pre obetu.<br>" +
-                            "<font color='#B71C1C'>5.</font> Posilňuj chorých kňazov, obzvlášť tých, ktorí sú vyčerpaní službou Božiemu ľudu.<br>" +
-                            "<font color='#B71C1C'>6.</font> Pre Ježišovo víťazstvo nad smrťou uveď svojho zosnulého služobníka kňaza <font color='#B71C1C'>M.</font> do večnej slávy.<br>" +
-                            "<font color='#B71C1C'>7.</font> Nahraď miesta zomrelých kňazov novými kňazskými povolaniami.<br>" +
-                            "<font color='#B71C1C'>8.</font> Pripoj k spoločenstvu svätých v nebi všetkých, ktorých si na tomto svete obdaroval milosťou svätého kňazstva.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane, udeľ večnú spásu zomrelému kňazovi <font color='#B71C1C'>M.</font><br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Daruj Cirkvi svätých kňazov, ktorí žijú pre službu tebe a blížnym.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Priveď svet k uznaniu duchovného prínosu služby kňazov.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Veď rodičov k tomu, aby prebúdzali v deťoch zmysel pre obetu.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Posilňuj chorých kňazov, obzvlášť tých, ktorí sú vyčerpaní službou Božiemu ľudu.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Pre Ježišovo víťazstvo nad smrťou uveď svojho zosnulého služobníka kňaza <font color='#B71C1C'>M.</font> do večnej slávy.<br>" +
+                            "<font color='#B71C1C'>7.</font>&nbsp;Nahraď miesta zomrelých kňazov novými kňazskými povolaniami.<br>" +
+                            "<font color='#B71C1C'>8.</font>&nbsp;Pripoj k spoločenstvu svätých v nebi všetkých, ktorých si na tomto svete obdaroval milosťou svätého kňazstva.",
                     "Všemohúci Bože, ty si Pánom a darcom života;<br>" +
                             "daruj večný život vo svojom kráľovstve<br>" +
                             "zosnulému kňazovi <font color='#B71C1C'>M.</font>,<br>" +
@@ -6164,11 +6164,11 @@ public interface Formular {
             //NA PRVÝ PIATOK MESIACA I.
             {"", "", "Na prvý piatok mesiaca I.", "Bratia a sestry, Pán Ježiš nás vyzýva: Učte sa odo mňa, lebo som tichý a pokorný srdcom. Prosme ho o silu nasledovať čnosti jeho Najsvätejšieho Srdca:",
                     "<font color='#B71C1C'>(</font>Volajme: Srdce Ježišovo, zmiluj sa nad nami.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane Ježišu, pomáhaj Cirkvi žiť z tvojej svätosti, múdrosti a lásky.<br>" +
-                            "<font color='#B71C1C'>2.</font> Pane Ježišu, nauč ľudí chápať, že veľké veci môžu poznávať len pokorným srdcom.<br>" +
-                            "<font color='#B71C1C'>3.</font> Pane Ježišu, posilňuj kresťanov, aby premieňali dary tvojej milosti na obetavú a milosrdnú lásku k svojim blížnym.<br>" +
-                            "<font color='#B71C1C'>4.</font> Pane Ježišu, uč nás svojím slovom a obetou stále viac ťa milovať a horlivejšie nasledovať.<br>" +
-                            "<font color='#B71C1C'>5.</font> Pane Ježišu, dopraj milosť ľútosti v poslednej chvíli tým umierajúcim, ktorí nie sú pripravení na stretnutie s tebou.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane Ježišu, pomáhaj Cirkvi žiť z tvojej svätosti, múdrosti a lásky.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pane Ježišu, nauč ľudí chápať, že veľké veci môžu poznávať len pokorným srdcom.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Pane Ježišu, posilňuj kresťanov, aby premieňali dary tvojej milosti na obetavú a milosrdnú lásku k svojim blížnym.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Pane Ježišu, uč nás svojím slovom a obetou stále viac ťa milovať a horlivejšie nasledovať.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Pane Ježišu, dopraj milosť ľútosti v poslednej chvíli tým umierajúcim, ktorí nie sú pripravení na stretnutie s tebou.",
                     "Ježišu, tichý a pokorný srdcom,<br>" +
                             "ty nepohŕdaš nikým a neopustíš žiadneho človeka;<br>" +
                             "vypočuj naše prosby<br>" +
@@ -6179,12 +6179,12 @@ public interface Formular {
                     "Alebo:",
                     "Na prvý piatok mesiaca II.", "Bratia a sestry, Boh nám zjavuje lásku vo svojom Synovi Ježišovi Kristovi. Jeho srdce je zdrojom bohatstva a nesmiernej veľkosti tejto lásky. Prosme s dôverou, nech máme čo najväčší podiel na jeho svätosti a pokore.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Bože, urob biskupov a kňazov spoľahlivými nástrojmi tvojich zámerov.<br>" +
-                            "<font color='#B71C1C'>2.</font> Bože, vychovávaj svoj ľud, aby žil životom zasväteným tebe a usiloval sa o jednotu vo viere a láske.<br>" +
-                            "<font color='#B71C1C'>3.</font> Bože, daj svetu poznať tajomstvo svojej lásky, ktorá zachraňuje ľudstvo pred hriechom a skazou.<br>" +
-                            "<font color='#B71C1C'>4.</font> Bože, upevni v ľuďoch túžbu žiť hlbokým duchovným životom.<br>" +
-                            "<font color='#B71C1C'>5.</font> Bože, uč nás poznávať cenu tichosti a pokory v osobnom i spoločenskom živote.<br>" +
-                            "<font color='#B71C1C'>6.</font> Bože, buď nádejou všetkých, ktorí v tebe zomierajú.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Bože, urob biskupov a kňazov spoľahlivými nástrojmi tvojich zámerov.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Bože, vychovávaj svoj ľud, aby žil životom zasväteným tebe a usiloval sa o jednotu vo viere a láske.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Bože, daj svetu poznať tajomstvo svojej lásky, ktorá zachraňuje ľudstvo pred hriechom a skazou.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Bože, upevni v ľuďoch túžbu žiť hlbokým duchovným životom.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Bože, uč nás poznávať cenu tichosti a pokory v osobnom i spoločenskom živote.<br>" +
+                            "<font color='#B71C1C'>6.</font>&nbsp;Bože, buď nádejou všetkých, ktorí v tebe zomierajú.",
                     "Bože Otče, v srdci tvojho milovaného Syna<br>" +
                             "nachádzame všetko,<br>" +
                             "čo potrebujeme na jeho nasledovanie;<br>" +
@@ -6230,11 +6230,11 @@ public interface Formular {
             //prosby (za chorých II.)
             {"Bratia a sestry, pamätajme vo svojich modlitbách na tých, ktorí pre chorobu trpia na tele alebo na duši. Modlime sa za nich i za seba a volajme:",
                     "<font color='#B71C1C'>(</font>Ježišu, uzdrav naše duše.<font color='#B71C1C'>)</font>",
-                    "<font color='#B71C1C'>1.</font> Pane, daj, aby Cirkev vedená Duchom Svätým vždy kráčala po ceste pravdy a pevne sa pridŕžala zásad evanjelia. <br>" +
-                            "<font color='#B71C1C'>2.</font> Pomôž lekárom vo svete účinne a nezištne hľadať lieky proti chorobám dnešnej civilizácie. <br>" +
-                            "<font color='#B71C1C'>3.</font> Vzbudzuj v chorých a trpiacich odhodlanie obetovať svoju chorobu tebe a modlitbou čeliť bolesti a súženiu. <br>" +
-                            "<font color='#B71C1C'>4.</font> Ochraňuj nás od chorôb ducha, aby sme si zachovali čistú myseľ a nedali sa manipulovať zlým duchom. <br>" +
-                            "<font color='#B71C1C'>5.</font> Vylieč duše našich zosnulých zo všetkých previnení a dovoľ im prebývať v tvojej blaženosti.",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Pane, daj, aby Cirkev vedená Duchom Svätým vždy kráčala po ceste pravdy a pevne sa pridŕžala zásad evanjelia. <br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Pomôž lekárom vo svete účinne a nezištne hľadať lieky proti chorobám dnešnej civilizácie. <br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Vzbudzuj v chorých a trpiacich odhodlanie obetovať svoju chorobu tebe a modlitbou čeliť bolesti a súženiu. <br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Ochraňuj nás od chorôb ducha, aby sme si zachovali čistú myseľ a nedali sa manipulovať zlým duchom. <br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Vylieč duše našich zosnulých zo všetkých previnení a dovoľ im prebývať v tvojej blaženosti.",
                     "Pane Ježišu, <br>" +
                             "ty si najlepším lekárom; <br>" +
                             "vyslyš naše prosby a posilni tých, <br>" +
