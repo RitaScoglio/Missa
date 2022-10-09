@@ -6,9 +6,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v4.view.GravityCompat;
-import android.support.v7.app.AlertDialog;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.core.view.GravityCompat;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
@@ -17,6 +18,7 @@ import android.widget.CompoundButton;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.gson.Gson;
 
 import org.joda.time.DateTime;
@@ -130,6 +132,7 @@ public class Uvod extends Main {
 
         return true;
     }
+
 
     private void setAll() {
 
@@ -406,5 +409,39 @@ public class Uvod extends Main {
        private void resizeZvoncek() {
         int s = (sizeO - 16) / 2 * 5;
         sizeZ = 35 + s;
+    }
+
+    public void openToday(View view) {
+        drawer = findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        zIntent = true;
+        Intent uvod = new Intent(getApplicationContext(), Uvod.class);
+        startActivity(uvod);
+    }
+
+    public void openCalendar(View view) {
+        drawer = findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        zIntent = true;
+        Intent kalendar = new Intent(getApplicationContext(), Kalendar.class);
+        startActivity(kalendar);
+    }
+
+    public void openSpecialMass(View view) {
+        drawer = findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        vyberOmsu(getApplicationContext());
+    }
+
+    public void openBlessing(View view) {
+        drawer = findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        vyberPozehnania();
+    }
+
+    public void openLanguages(View view) {
+        drawer = findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        vyberJazyk(Uvod.this);
     }
 }
