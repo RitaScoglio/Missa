@@ -3,8 +3,9 @@ package sk.missa;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v4.view.GravityCompat;
+
+import androidx.annotation.NonNull;
+import androidx.core.view.GravityCompat;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.CompoundButton;

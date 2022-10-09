@@ -5,8 +5,7 @@ import android.content.Context
 import android.graphics.Color
 import android.media.MediaPlayer
 import android.os.Build
-import android.support.v4.content.ContextCompat
-import android.support.v7.widget.RecyclerView
+import androidx.core.content.ContextCompat
 import android.text.Html
 import android.text.Layout.JUSTIFICATION_MODE_INTER_WORD
 import android.text.SpannableString
@@ -15,6 +14,7 @@ import android.view.*
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
 import sk.missa.Main.*
 import java.util.*
 
