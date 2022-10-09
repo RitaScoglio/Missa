@@ -2264,6 +2264,122 @@ public interface Texty {
                     "<font color='#B71C1C'>K.:</font> Choďte v mene Božom.<br>" +
                     "<font color='#B71C1C'>Ľ.:</font> Bohu vďaka.<br><br>" +
                     "<font color='#B71C1C'>Na záver sa môže spievať vhodná pieseň.</font>"},
+            {"Požehnanie jubilujúcich manželov",
+                    "<font color='#B71C1C'>PRIVÍTANIE<br>" +
+                            "Kňaz po uctení oltára, po prežehnaní a pozdrave privíta jubilujúcich manželov (oni, obkolesení svojimi deťmi a ostatnou rodinou, majú miesto pred oltárom, kde sú pre nich pripravené stoličky a kľačadlo). Môže to povedať takto alebo podobne:</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Milí jubilujúci manželia, pred dvadsiatimi piatimi <font color='#B71C1C'>(</font>pred päťdesiatimi<font color='#B71C1C'>)</font> rokmi ste prijali sviatosť manželstva. Dnešná slávnosť je poďakovaním za všetky dobrodenia a milosti, ktoré vám Pán preukázal. Stojíte tu v kruhu svojich detí <font color='#B71C1C'>(</font>vnukov, pravnukov<font color='#B71C1C'>)</font> a priateľov. Vaše srdcia sú plné dojatia a vďačnosti. Prejavom vašej vďačnosti voči Bohu bude aj osobitná omša na poďakovanie, na ktorej sa spolu s vami chcú všetci prítomní nábožne zúčastniť a s vami sa v Kristovej láske zjednotiť. Zároveň dostanete aj osobitné požehnanie ako záloh ďalších milostí od nášho Pána. Všetkých vás s radosťou vítam.<br>" +
+                            "<font color='#B71C1C'>104. Nasleduje úkon kajúcnosti.<br>" +
+                            "OBNOVENIE MANŽELSKÉHO SÚHLASU</font><br>" +
+                            "<font color='#B71C1C'>A</font><br>" +
+                            "Kňaz pristúpi k jubilujúcim manželom a osloví ich takto alebo podobne:</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Milí jubilujúci manželia, pred 25 <font color='#B71C1C'>(</font>50<font color='#B71C1C'>)</font> rokmi ste prijali sviatosť manželstva. Pred oltárom nášho Pána Ježiša Krista ste si sľúbili i prisahali vernosť a lásku až do smrti. Dnes, keď vám dobrotivý Pán Boh doprial dožiť sa tohto <font color='#B71C1C'>(</font>vzácneho<font color='#B71C1C'>)</font> manželského jubilea, obnovte svoj manželský súhlas.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Podajte si ruky a hovorte <font color='#B71C1C'>(</font>za mnou<font color='#B71C1C'>)</font>:<br>" +
+                            "<font color='#B71C1C'>Kňaz položí štólu na spojené ruky jubilujúcich manželov.</font><br>" +
+                            "Pred oltárom nášho Pána Ježiša Krista obnovujeme svoj manželský súhlas a prosíme Pána, aby sme žili stále v jeho milosti a láske. Tak nám Pán Boh pomáhaj.<br>" +
+                            "<font color='#B71C1C'>Kňaz dodá:</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Všemohúci Boh, od ktorého pochádza všetko dobré, nech posilní vašu vôľu a prehĺbi vašu lásku, aby ste verne spĺňali svoje poslanie, a tak si zaslúžili život večný.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>Kňaz vezme štólu z rúk manželov.<br>" +
+                            "<font color='#B71C1C'>B</font><br>" +
+                            "Po homílii kňaz vyzve manželov, aby sa v tichosti modlili a aby si pred Bohom obnovili predsavzatie sväto žiť v manželstve, týmito alebo podobnými slovami:</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Na výročie slávnosti, v ktorej ste svoje životy spojili nerozlučným putom sviatosti manželstva, prišli ste teraz do Pánovho domu obnoviť vzájomné sľuby, ktoré ste si pred 25 <font color='#B71C1C'>(</font>50<font color='#B71C1C'>)</font> rokmi dali pred Božím oltárom. Obráťte sa modlitbami k Pánovi, aby Božia milosť upevnila vaše sľuby.<br>" +
+                            "<font color='#B71C1C'>Teraz si manželia potichu obnovia svoje sľuby.<br>" +
+                            "Ak si však - podľa vhodnosti - manželia chcú nahlas obnoviť predsavzatie, použije sa tento spôsob:<br>" +
+                            "Manžel:</font><br>" +
+                            "Velebím ťa, Pane, že som z tvojej štedrosti prijal <font color='#B71C1C'>M.</font> za svoju manželku.<br>" +
+                            "<font color='#B71C1C'>Manželka:</font><br>" +
+                            "Velebím ťa, Pane, že som z tvojej štedrosti prijala <font color='#B71C1C'>M.</font> za svojho manžela.<br>" +
+                            "<font color='#B71C1C'>Obaja:</font><br>" +
+                            "Velebíme ťa, Otče, že si dobrotivo stál pri nás v šťastí i v nešťastí. Prosíme ťa, pomáhaj nám verne zachovávať vzájomnú lásku, aby sme boli dobrými svedkami zmluvy, ktorú si uzavrel s ľuďmi.<br>" +
+                            "<font color='#B71C1C'>Kňaz dodá:</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Nech vás Pán chráni po všetky dni vášho života. Nech je vašou útechou v protivenstvách a pomocou v dobrom i zlom. Nech váš dom zahrnie svojím požehnaním.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>POŽEHNANIE PRSTEŇOV<br>" +
+                            "114. Ak je to vhodné, kňaz prednesie túto modlitbu:</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Bože, zveľaďuj <font color='#B71C1C'>✠</font> a posväcuj lásku svojich služobníkov; daj, aby sa tí, čo si vzájomne odovzdali tieto prstene na znak vernosti, stále vzmáhali v milosti sviatostného manželstva. Skrze Krista, nášho Pána.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>Ak sú prstene nové, kňaz prednesie jednu z týchto modlitieb:<br>" +
+                            "<font color='#B71C1C'>A</font></font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Bože, žehnaj ✠ a posväcuj život týchto svojich služobníkov; tieto prstene nech sú im znakom vernej lásky a nech im pripomínajú svätosť manželského zväzku, ktorý je obrazom vzťahu Krista k jeho neveste Cirkvi. Lebo on žije a kraľuje na veky vekov.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>B</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Požehnaj, <font color='#B71C1C'>✠</font> Bože, tieto prstene, žehnáme ich v tvojom mene, aby tí, čo ich budú nosiť, vzájomne zachovávali neporušenú vernosť, plnili tvoju vôľu, zotrvávali v tvojom pokoji a žili vždy vo vzájomnej láske. Skrze Krista, nášho Pána.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>C</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Bože, žehnaj <font color='#B71C1C'>✠</font> a posväcuj lásku týchto služobníkov; tieto prstene nech sú im znakom vernosti a nech im pripomínajú vzájomnú a úprimnú lásku. Skrze Krista, nášho Pána.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>Prstene potom kňaz pokropí požehnanou vodou. Na znak úcty ich možno incenzovať.<br>" +
+                            "Potom nasleduje spoločná modlitba veriacich.<br>" +
+                            "SPOLOČNÁ MODLITBA VERIACICH<br>" +
+                            "<font color='#B71C1C'>A</font></font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Vzývajme milosrdenstvo Boha, Otca všemohúceho, ktorý vo svojom prozreteľnostnom úmysle chcel naznačiť dejiny spásy v láske a vernosti <font color='#B71C1C'>(</font>i v plodnosti<font color='#B71C1C'>)</font> manželov. Volajme:<br>" +
+                            "<i><font color='#B71C1C'>(</font>Obnov, Pane, vernosť svojich služobníkov.<font color='#B71C1C'>)</font></i><br>" +
+                            "<font color='#B71C1C'>1.</font> Svätý Otče, ty sa nazývaš verným a žiadaš i odmieňaš zachovávanie tvojej zmluvy; milostivo naplň svojím požehnaním týchto svojich služobníkov, ktorí si pripomínajú (dvadsiate piate, päťdesiate, šesťdesiate) výročie svojho manželstva.<br>" +
+                            "<font color='#B71C1C'>2.</font> Ty žiješ od večnosti spolu so Synom a Duchom Svätým v dokonalej jednote a v spoločenstve lásky; daj, aby títo tvoji služobníci zmluvu lásky, ktorú uzavreli vo sviatosti, mali stále na pamäti a verne ju zachovávali.<br>" +
+                            "<font color='#B71C1C'>3.</font> Ty vo svojej prozreteľnosti všetky udalosti ľudského života usporadúvaš tak, že privádzaš veriacich k účasti na tajomstve Krista; daj, aby títo tvoji služobníci vyrovnane prijímali radosti i strasti života a aby sa usilovali primknúť ku Kristovi a žiť iba pre neho.<br>" +
+                            "<font color='#B71C1C'>4.</font> Ty chceš, aby manželské spoločenstvo bolo svedectvom kresťanského života; daj, aby sa všetci manželia stali vo svete svedkami tajomstva lásky tvojho Syna.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Bože, v tvojom poriadku<br>" +
+                            "má rodinné spoločenstvo svoj pevný základ;<br>" +
+                            "milostivo vypočuj prosby svojich služobníkov<br>" +
+                            "a daj, aby nasledovali príklad Svätej rodiny<br>" +
+                            "a tak ťa bez prestania mohli chváliť<br>" +
+                            "v radosti tvojho domu.<br>" +
+                            "Skrze Krista, nášho Pána.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>B</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Bratia a sestry, s radosťou ďakujeme Bohu za milosti, ktoré preukazuje svojim veriacim. Prosme ho s dôverou za týchto jubilujúcich manželov i za všetky manželstvá a rodiny a volajme:<br>" +
+                            "<i><font color='#B71C1C'>(</font>Pane, vyslyš nás.<font color='#B71C1C'>)</font></i><br>" +
+                            "<font color='#B71C1C'>1.</font> Prosme za jubilujúcich manželov, aby ich Kristus Pán obdaril milosťou, zdravím a svätou radosťou.<br>" +
+                            "<font color='#B71C1C'>2.</font> Prosme za deti týchto rodičov, aby boli vďačné svojim rodičom a ochotné vždy im pomáhať.<br>" +
+                            "<font color='#B71C1C'>3.</font> Prosme za všetkých manželov našej farnosti, aby čoraz vernejšie zachovávali svoje manželské sľuby.<br>" +
+                            "<font color='#B71C1C'>4.</font> Prosme aj za rozbité manželstvá, aby sa neverní manželia spamätali a aby obnovili svoj manželský život.<br>" +
+                            "<font color='#B71C1C'>5.</font> Prosme za svätú Cirkev, nepoškvrnenú Kristovu nevestu, aby všetci jej členovia boli verní a oddaní Kristovi.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Všemohúci večný Bože,<br>" +
+                            "bez teba nič nie je ani mocné ani trvalé;<br>" +
+                            "vzdávame ti vďaky za to,<br>" +
+                            "že si zachoval tento manželský zväzok,<br>" +
+                            "a pokorne ťa prosíme:<br>" +
+                            "požehnaj <font color='#B71C1C'>✠</font> týchto jubilujúcich manželov,<br>" +
+                            "urob šťastnými ich ďalšie dni a roky<br>" +
+                            "a pomáhaj im, aby ti verne slúžili<br>" +
+                            "v radostiach i strastiach života.<br>" +
+                            "Nech sa ich vzájomná láska<br>" +
+                            "stáva čoraz dokonalejším obrazom<br>" +
+                            "zväzku Cirkvi s Kristom, tvojím Synom,<br>" +
+                            "ktorý žije a kraľuje na veky vekov.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>MODLITBA POŽEHNANIA<br>" +
+                            "Kňaz obrátený k manželom s rozopnutými rukami hovorí:</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Teba, Bože, tvorcu všetkého, chválime a velebíme,<br>" +
+                            "že si na počiatku stvoril muža a ženu,<br>" +
+                            "aby utvorili spoločenstvo života a lásky.<br>" +
+                            "A vzdávame ti vďaky, že si rodinné spoločenstvo<br>" +
+                            "svojich služobníkov <font color='#B71C1C'>M.</font> a <font color='#B71C1C'>M.</font><br>" +
+                            "milostivo požehnal,<br>" +
+                            "aby bolo obrazom spojenia Krista s Cirkvou;<br>" +
+                            "dobrotivo dnes na nich zhliadni<br>" +
+                            "a ako si ich spoločenstvo zachovával<br>" +
+                            "uprostred radostí a námah,<br>" +
+                            "neprestajne v nich obnovuj manželskú zmluvu,<br>" +
+                            "zveľaďuj ich lásku, upevňuj puto pokoja,<br>" +
+                            "aby sa <font color='#B71C1C'>(</font>obklopení svojimi deťmi<font color='#B71C1C'>)</font><br>" +
+                            "mohli vždy tešiť z tvojho požehnania.<br>" +
+                            "Skrze Krista, nášho Pána.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>Po modlitbe kňaz uzavrie slávenie záverečným požehnaním:<br>" +
+                            "ZÁVEREČNÉ POŽEHNANIE</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Pán s vami.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Nech vám udelí svoju radosť všemohúci Boh Otec.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Nech milostivo stojí pri vás v šťastí i v nešťastí jednorodený Syn Boží.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Nech do vašich sŕdc ustavične vlieva lásku Duch Svätý.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Aj vás všetkých tu prítomných nech žehná ✠ všemohúci Boh, Otec i Syn i Duch Svätý.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Choďte v mene Božom.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Bohu vďaka."},
             {"Požehnanie vecí určených na liturgiu a ľudovú nábožnosť"},
             {"Požehnania adventného venca", "<font color='#B71C1C'>Požehnanie adventného venca je znamením nádeje a oslavy toho, ktorý prichádza, ako to ukazujú ozdoby na venci. Štyri adventné sviece označujú počet adventných nedelí, pričom pribúdanie svetla znázorňuje blížiaci sa príchod Krista, ktorý je svetlom tohto sveta.<br>" +
                     "Ak sa tento obrad koná v omši v sobotu večer alebo v nedeľu ráno, koná sa v úvode svätej omše a vyberie sa z neho len úvod a modlitby požehnania.<br>" +
@@ -3155,6 +3271,87 @@ public interface Texty {
             "<font color='#B71C1C'>K.:</font> Choďte v mene Božom.<br>" +
             "<font color='#B71C1C'>Ľ.:</font> Bohu vďaka.<br><br>" +
             "<font color='#B71C1C'>Na konci obradu sa môže spievať vhodná pieseň.</font>"},
+            {"Požehnanie hasičskej zbrojnice (auta) a sochy sv. Floriána",
+                    "<font color='#B71C1C'>Pri tomto požehnaní sa používa biela liturgická farba. Tomuto obradu môže predsedať kňaz alebo diakon.<br>" +
+                            "ÚVODNÉ OBRADY<br>" +
+                            "Na úvod sa môže spievať vhodná pieseň. Potom kňaz povie:</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> V mene Otca i Syna i Ducha Svätého.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Pán s vami.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br>" +
+                            "<font color='#B71C1C'>Kňaz sa prihovorí takto alebo podobne:</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Bratia a sestry, spoločne prosme Pána, ktorý poslal na zem svojho Syna a ktorý teraz posiela svojho služobníka do priestorov novej (obnovenej) hasičskej zbrojnice, aby nám priniesol svoje požehnanie. Budeme prosiť o zoslanie Pánovej milosti na miesto, aby tu bol vždy dostatok ochotných ľudí, ktorí budú pomáhať druhým v núdzi.<br>" +
+                            "<font color='#B71C1C'>Nasleduje čítanie Božieho slova. Kňaz prečíta buď nasledovný text, alebo vyberie iný vhodný.<br>" +
+                            "ČÍTANIE BOŽIEHO SLOVA</font><br>" +
+                            "<i>Dom postavený na skale</i><br>" +
+                            "<font color='#B71C1C'>✠</font> Čítanie zo svätého Evanjelia podľa Matúša\t<font color='#B71C1C'>7, 24 - 28</font><br>" +
+                            "Ježiš povedal: „Každý, kto počúva tieto moje slová a uskutočňuje ich, podobá sa múdremu mužovi, ktorý si postavil dom na skale. Spustil sa dážď, privalili sa vody, strhla sa víchrica a oborili sa na ten dom, ale dom sa nezrútil, lebo mal základy na skale. A každý, kto tieto moje slová počúva, ale ich neuskutočňuje, podobá sa hlúpemu mužovi, ktorý si postavil dom na piesku. Spustil sa dážď, privalili sa vody, strhla sa víchrica, oborili sa na ten dom a dom sa zrútil; zostalo z neho veľké rumovisko.“ <br>" +
+                            "Keď Ježiš skončil tieto reči, zástupy žasli nad jeho učením.<br>" +
+                            "Počuli sme slovo Pánovo.<br>" +
+                            "<font color='#B71C1C'>Kňaz sa môže krátko prihovoriť. Potom nasleduje spoločná modlitba.<br>" +
+                            "SPOLOČNÁ MODLITBA VERIACICH</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Milovaní bratia a sestry, keď na túto hasičskú zbrojnicu zvolávame Pánovo požehnanie, majme pred očami, že konaním dobra pre blíž¬neho, oslavujeme samého Stvoriteľa. Vzývajme ho teda a volajme:<br>" +
+                            "<font color='#B71C1C'>(</font>Posväť nás, Pane.<font color='#B71C1C'>)</font><br>" +
+                            "<font color='#B71C1C'>1.</font> Pane Ježišu, ty si domáci život posvätil spolu s Máriou a Jozefom; nauč všetkých, ktorý sa budú nachádzať v týchto priestoroch, byť jeden druhému darom a bratom, aby sa ich vzájomné vzťahy správne rozvíjali.<br>" +
+                            "<font color='#B71C1C'>2.</font> Pane, daruj naším záchranárom silu a odvahu, v potrebnom čase byť pripravenými ísť pomáhať ľuďom v núdzi.<br>" +
+                            "<font color='#B71C1C'>3.</font> Pane prosíme ťa za záchranárov. Chráň ich pred poškodením a zranením. Dajte im svoju múdrosť a silu, keď stoja pred zásadnými rozhodnutiami. Posilni ich mentálne i fyzicky, emocionálne i duchovne. Pomôž im prekonať stres a ťažkosti, ktoré sprevádzajú ich povolanie.<br>" +
+                            "<font color='#B71C1C'>4.</font> Pane prosíme ťa, aby tvoje požehnanie spočinulo na domovoch a rodinách záchranárov. Daruj ich rodinám pokoj, pohodlie, odvahu a silu a dopraj, aby ich rodinný príslušníci podporovali v konaní dobra.<br>" +
+                            "<font color='#B71C1C'>5.</font> Milosrdný Bože, na príhovor nebeského ochrancu hasičov svätého Floriána, zmiluj sa nad dušami našich spolupracovníkov, ktorí pri výkone svojich povinností priniesli najvyššiu obetu.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Všemohúci a milosrdný Bože, <br>" +
+                            "Ty si dal svätému Floriánovi <br>" +
+                            "silu vydržať všetky útrapy mučenia. <br>" +
+                            "Pomáhaj aj nám, <br>" +
+                            "ktorí dnes oslavujeme jeho víťazstvo, <br>" +
+                            "aby sme s Tvojou pomocou <br>" +
+                            "dosiahli víťazstvo nad zlobou a nenávisťou <br>" +
+                            "a obstáli v každom nebezpečenstve. <br>" +
+                            "Skrze Krista nášho Pána.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>Po prosbách, ak je to vhodné, kňaz týmito alebo podobnými slovami vyzve všetkých prítomných spievať alebo recitovať Modlitbu Pána:</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Na príkaz nášho Spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Otče náš... <br>" +
+                            "<font color='#B71C1C'>MODLITBA POŽEHNANIA<br>" +
+                            "sochy svätého Floriána (alebo hasičského auta)</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Všemohúci Bože, <br>" +
+                            "ty si stvoril svet a všetko si v ňom zázračne usporiadal. <br>" +
+                            "Oheň nám dáva teplo a svetlo, <br>" +
+                            "taví kov a čistí zlato, <br>" +
+                            "ale môže sa stať pre človeka a zviera <br>" +
+                            "a pre všetko čo má a vlastní, aj nebezpečným. <br>" +
+                            "Požehnaj ✠ a posväť túto sochu <font color='#B71C1C'>(</font>toto záchranné vozidlo<font color='#B71C1C'></font>)<br>" +
+                            "a na príhovor svätého Floriána ochraňuj ľudí, <br>" +
+                            "ktorých si ustanovil za hasičov do služby k dobru spoločenstva. <br>" +
+                            "Nás všetkých ochraňuj pred škodou, <br>" +
+                            "urob nás schopnými úprimnej spolupráce, <br>" +
+                            "bratskej pomoci a služby blížnemu. <br>" +
+                            "O to ťa prosíme skrze Krista nášho Pána. <br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "Kňaz pokropí sochu <font color='#B71C1C'>(</font>auto<font color='#B71C1C'>)</font> svätenou vodou.<br>" +
+                            "<font color='#B71C1C'>hasičskej zbrojnice</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Večný Bože, <br>" +
+                            "buď na pomoci svojim služobníkom, <br>" +
+                            "ktorí dnes začínajú pracovať <br>" +
+                            "v tejto novej <font color='#B71C1C'>(</font>opravenej<font color='#B71C1C'>)</font> hasičskej zbrojnici <br>" +
+                            "a ktorí ťa pokorne prosia o Tvoju pomoc a ochranu. <br>" +
+                            "Na príhovor svätého Floriána, <br>" +
+                            "požehnaj a posväť <font color='#B71C1C'>✠</font> túto budovu <br>" +
+                            "i všetkých ktorí sa tu budú zdržiavať, <br>" +
+                            "aby vytrvalo zachovávali tvoje prikázania, <br>" +
+                            "správne využívali prítomný čas, <br>" +
+                            "a boli ochotní pomáhať ľuďom v núdzi. <br>" +
+                            "Aby tak raz mohli vojsť aj do príbytku <br>" +
+                            "pripraveného pre nich v nebi. <br>" +
+                            "Skrze Krista, nášho Pána. <br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>Po modlitbe požehnania kňaz pokropí požehnanou vodou budovu.<br>" +
+                            "Obrad sa uzavrie záverečným požehnaním.<br>" +
+                            "ZÁVEREČNÉ POŽEHNANIE</font><br>" +
+                            "<font color='#B71C1C'>K.:</font> Pán s vami.<br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Nech vás žehná všemohúci Boh, Otec i Syn <font color='#B71C1C'>✠</font> i Duch Svätý. <br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+                            "<font color='#B71C1C'>K.:</font> Ostávajte v pokoji. <br>" +
+                            "<font color='#B71C1C'>Ľ.:</font> Bohu vďaka.<br>"}
 };
 
     String pokoj_mier_Ukrajina = "<font color='#B71C1C'>1.</font> Za pokoj na Ukrajine a Rusku: aby štátnici na oboch stranách hľadali také riešenia, ktoré všetkým prinesú trvalý mier.<br>" +
