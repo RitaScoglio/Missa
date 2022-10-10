@@ -3194,7 +3194,7 @@ public interface Texty {
             "Týmto obradom sa nechce nič rušiť zo zásad požehnania. Nepatrí sa z akýchkoľvek vecí robiť príležitosť na slávenie nejakého požehnania (napríklad postavenie nejakého pomníka, vyrobenie nových vojenských zbraní alebo okolností každého druhu). Každé slávenie sa musí vždy podrobiť správnemu pastoračnému úsudku, najmä ak sa dá predvídať nebezpečenstvo, že sa veriaci alebo ostatní ľudia tomu budú diviť.<br>" +
             "Tento obrad môže vykonať kňaz alebo diakon.</font><br><br>" +
             "<font color='#B71C1C'>ÚVODNÉ OBRADY</font><br>" +
-            "<font color='#B71C1C'>Obrad sa začne vhodnou piesňou. Potom kňaz povie:<br>" +
+            "<font color='#B71C1C'>Obrad sa začne vhodnou piesňou. Potom kňaz povie:</font><br>" +
             "<font color='#B71C1C'>K.:</font> V mene Otca i Syna i Ducha Svätého.<br>" +
             "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
             "<font color='#B71C1C'>K.:</font> Boh, prameň každého dobra, nech je s vami všetkými.<br>" +
