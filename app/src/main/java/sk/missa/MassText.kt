@@ -4,7 +4,9 @@ class MassText {
     var text: String? = null
     var separateText: List<String> = listOf()
     var appearance: List<String> = listOf()
+    var nextLevelText: List<String> = listOf()
     var onClickOpen = 0
+    var onClickOpenDialog = ""
     var optionalTextIndex = 0
     var isBell = false
     var isDivider = false
@@ -28,6 +30,21 @@ class MassText {
         this.appearance = splitAndHTML(appearance)
         this.onClickOpen = onClickOpen
     }
+
+//dialog
+    internal constructor(text: String, appearance: String, nextLevelText: List<String>, onClickOpenDialog: String) {
+        this.text = checkText(text)
+        this.appearance = splitAndHTML(appearance)
+        this.nextLevelText = nextLevelText
+        this.onClickOpenDialog = onClickOpenDialog
+    }
+
+    internal constructor(text: String, appearance: String, onClickOpenDialog: String) {
+        this.text = checkText(text)
+        this.appearance = splitAndHTML(appearance)
+        this.onClickOpenDialog = onClickOpenDialog
+    }
+
 
     internal constructor(
         text: String,

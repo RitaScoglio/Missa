@@ -11,14 +11,15 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.view.GravityCompat;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.CompoundButton;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.gson.Gson;
 
 import org.joda.time.DateTime;
@@ -218,6 +219,15 @@ public class Uvod extends Main {
         }
     }
 
+    private void setBottomMenu(int orientation) {
+       LinearLayout linear = (LinearLayout)findViewById(R.id.bottom_menu_layout);
+            linear.removeAllViews();
+            LayoutInflater inflater = LayoutInflater.from(Uvod.this);
+            LinearLayout layout = (LinearLayout) inflater.inflate(R.layout.bottom_menu, null, false);
+            linear.addView(layout);
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -228,8 +238,12 @@ public class Uvod extends Main {
         //nastaví layout
         setContentView(R.layout.activity_uvod);
 
+        //nastavenie menu
+        setBottomMenu(this.getResources().getConfiguration().orientation);
+
         setAll();
     }
+
 
     @SuppressLint("SetTextI18n")
     public void nastavDatum() {
@@ -411,37 +425,20 @@ public class Uvod extends Main {
         sizeZ = 35 + s;
     }
 
-    public void openToday(View view) {
-        drawer = findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        zIntent = true;
-        Intent uvod = new Intent(getApplicationContext(), Uvod.class);
-        startActivity(uvod);
-    }
-
     public void openCalendar(View view) {
-        drawer = findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        zIntent = true;
         Intent kalendar = new Intent(getApplicationContext(), Kalendar.class);
         startActivity(kalendar);
     }
 
     public void openSpecialMass(View view) {
-        drawer = findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        vyberOmsu(getApplicationContext());
+        vyberOmsu(Uvod.this);
     }
 
     public void openBlessing(View view) {
-        drawer = findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
         vyberPozehnania();
     }
 
     public void openLanguages(View view) {
-        drawer = findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
         vyberJazyk(Uvod.this);
     }
 }

@@ -15,11 +15,16 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView.Adapter
 import sk.missa.Main.*
+import sk.missa.MassTextAdapter.ViewHolder
 import java.util.*
 
 class MassTextAdapter(private val textList: ArrayList<MassText>) :
     RecyclerView.Adapter<MassTextAdapter.ViewHolder>() {
+
+    constructor(list: List<MassText>) : this(textList = list as ArrayList<MassText>)
+
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         var parent: LinearLayout
 

@@ -2521,29 +2521,15 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     private void kvetnaNedelaDialog() {
         final Dialog dialog = new Dialog(this);
         dialog.setContentView(R.layout.custom_dialog);
-        RecyclerView dialogListview = dialog.findViewById(R.id.vypis_misal);
+        RecyclerView dialogListview = dialog.findViewById(R.id.dialog_text);
         TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
-        Button dialogButton = dialog.findViewById(R.id.dialog_button);
         final ArrayList<MassText> dg = new ArrayList<>();
 
         if (nightMode) {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
-            dialogTextView.setTextColor(getResources().getColor(R.color.background));
-            dialogButton.setTextColor(getResources().getColor(R.color.background));
-            dialogButton.setBackgroundColor(Color.BLACK);
+            dialog.findViewById(R.id.dialog_layout).setBackgroundResource(R.drawable.dialog_background_night);
         } else {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-            dialogTextView.setTextColor(getResources().getColor(R.color.primary));
-            dialogButton.setTextColor(getResources().getColor(R.color.primary));
-            dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
+            dialog.findViewById(R.id.dialog_layout).setBackgroundResource(R.drawable.dialog_background_day);
         }
-
-        dialogButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                dialog.dismiss();
-            }
-        });
 
         for (String[] strings : kvetna_nedela) {
             if (strings[0].equals("separated")) {
@@ -2562,29 +2548,15 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     private void pozehnanieSviecDialog() {
         final Dialog dialog = new Dialog(this);
         dialog.setContentView(R.layout.custom_dialog);
-        RecyclerView dialogRecyclerView = dialog.findViewById(R.id.vypis_misal);
+        RecyclerView dialogRecyclerView = dialog.findViewById(R.id.dialog_text);
         TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
-        Button dialogButton = dialog.findViewById(R.id.dialog_button);
         final ArrayList<MassText> dg = new ArrayList<>();
 
         if (nightMode) {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
-            dialogTextView.setTextColor(getResources().getColor(R.color.background));
-            dialogButton.setTextColor(getResources().getColor(R.color.background));
-            dialogButton.setBackgroundColor(Color.BLACK);
+            dialog.findViewById(R.id.dialog_layout).setBackgroundResource(R.drawable.dialog_background_night);
         } else {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-            dialogTextView.setTextColor(getResources().getColor(R.color.primary));
-            dialogButton.setTextColor(getResources().getColor(R.color.primary));
-            dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
+            dialog.findViewById(R.id.dialog_layout).setBackgroundResource(R.drawable.dialog_background_day);
         }
-
-        dialogButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                dialog.dismiss();
-            }
-        });
 
         dialogTextView.setText("Požehnanie sviec a procesia");
         for(String[] section : pozehnanie_sviec_procesia){
@@ -2609,29 +2581,15 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     private void prosbyRozlicnePotreby() {
         final Dialog dialog = new Dialog(this);
         dialog.setContentView(R.layout.custom_dialog);
-        RecyclerView dialogListview = dialog.findViewById(R.id.vypis_misal);
+        RecyclerView dialogListview = dialog.findViewById(R.id.dialog_text);
         TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
-        Button dialogButton = dialog.findViewById(R.id.dialog_button);
         final ArrayList<MassText> dg = new ArrayList<>();
 
         if (nightMode) {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
-            dialogTextView.setTextColor(getResources().getColor(R.color.background));
-            dialogButton.setTextColor(getResources().getColor(R.color.background));
-            dialogButton.setBackgroundColor(Color.BLACK);
+            dialog.findViewById(R.id.dialog_layout).setBackgroundResource(R.drawable.dialog_background_night);
         } else {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-            dialogTextView.setTextColor(getResources().getColor(R.color.primary));
-            dialogButton.setTextColor(getResources().getColor(R.color.primary));
-            dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
+            dialog.findViewById(R.id.dialog_layout).setBackgroundResource(R.drawable.dialog_background_day);
         }
-
-        dialogButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                dialog.dismiss();
-            }
-        });
 
         dialogTextView.setText("Prosby za zosnulých a rozličné potreby");
         dg.add(new MassText(prosby_rozlicne[0][0], "red", 1));
@@ -2886,29 +2844,15 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void openDialog(String title, String[][] text) {
         final Dialog dialog = new Dialog(this);
         dialog.setContentView(R.layout.custom_dialog);
-        RecyclerView dialogRecyclerView = dialog.findViewById(R.id.vypis_misal);
+        RecyclerView dialogRecyclerView = dialog.findViewById(R.id.dialog_text);
         TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
-        Button dialogButton = dialog.findViewById(R.id.dialog_button);
         final ArrayList<MassText> dg = new ArrayList<>();
 
         if (nightMode) {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
-            dialogTextView.setTextColor(getResources().getColor(R.color.background));
-            dialogButton.setTextColor(getResources().getColor(R.color.background));
-            dialogButton.setBackgroundColor(Color.BLACK);
+            dialog.findViewById(R.id.dialog_layout).setBackgroundResource(R.drawable.dialog_background_night);
         } else {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-            dialogTextView.setTextColor(getResources().getColor(R.color.primary));
-            dialogButton.setTextColor(getResources().getColor(R.color.primary));
-            dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
+            dialog.findViewById(R.id.dialog_layout).setBackgroundResource(R.drawable.dialog_background_day);
         }
-
-        dialogButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                dialog.dismiss();
-            }
-        });
 
         dialogTextView.setText(title);
         for (String[] strings : text) {

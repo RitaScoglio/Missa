@@ -12,7 +12,6 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.appcompat.widget.Toolbar;
@@ -39,11 +38,14 @@ import com.google.android.material.internal.NavigationMenuView;
 import com.google.android.material.navigation.NavigationView;
 import com.google.gson.Gson;
 
+import org.jetbrains.annotations.NotNull;
 import org.joda.time.DateTime;
 import org.joda.time.Days;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 
 import sk.missa.interfaces.Svatci;
 
@@ -68,7 +70,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     public String[] jazyky = {"Anglicky", "Francúzsky", "Chorvatsky", "Latinsky", "Maďarsky", "Nemecky", "Poľsky", "Španielsky", "Taliansky"};
     public String[] omse = {"Omša za zmierenie", "Omša za zosnulých", "Omša v čase pandémie", "Omša o Najsvätejšom Srdci Ježišovom", "Spoločné omše preblahoslavenej Panny Márie"};
     public String[] upravy = {"Úpravy v omšovom poriadku", "Prvá eucharistická modlitba", "Druhá eucharistická modlitba", "Tretia eucharistická modlitba", "Štvrtá eucharistická modlitba"};
-    public CharSequence[] fonty = {"bezpätkové", "pätkové"};
+    public String[] fonty = {"bezpätkové", "pätkové"};
     public NavigationView navigationView;
     public SwitchCompat switch_pismo, switch_rezim, switch_zvoncek, switch_fullscreen, switch_ticheModlitby;
     public ImageButton image_zoomIn, image_zoomOut;
@@ -106,217 +108,27 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         amanager.setRingerMode(zvuk);
     }*/
 
-
     //vyber specialnej omse v menu
     public void vyberOmsu(final Context context) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle(Html.fromHtml("<font color='#80242B'><b>Špeciálne omše</b></font>"));
-        builder.setItems(omse, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int which) {
-                omsa = which;
-                settings = getApplicationContext().getSharedPreferences("MySviatok", 0);
-                boolean zmierenie = settings.getBoolean("zmierenie", false);
-                if (omsa == 0) {
-                    //Omša za zmierenie
-                    if (zmierenie) {
-                        getSpecial();
-                        zIntent = true;
-                        Intent misal = new Intent(context, MisalZmierenie.class);
-                        startActivity(misal);
-                        finish();
-                    } else {
-                        LayoutInflater inflater = getLayoutInflater();
-                        View layout = inflater.inflate(R.layout.toast_layout,
-                                (ViewGroup) findViewById(R.id.toast));
-                        Toast toast = new Toast(getApplicationContext());
-                        toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
-                        toast.setDuration(Toast.LENGTH_LONG);
-                        toast.setView(layout);
-                        toast.show();
-                    }
-                } else if (omsa == 1) {
-                    //Omša za zosnulých
-                    getSpecial();
-                    zIntent = true;
-                    Intent intent = new Intent(context, MisalZosnuly.class);
-                    startActivity(intent);
-                    finish();
-                } else if (omsa == 2) {
-                    //Omša v čase pandémie
-                    if (zmierenie) {
-                        getSpecial();
-                        zIntent = true;
-                        Intent intent = new Intent(context, MisalPandemia.class);
-                        startActivity(intent);
-                        finish();
-                    } else {
-                        LayoutInflater inflater = getLayoutInflater();
-                        View layout = inflater.inflate(R.layout.toast_layout,
-                                (ViewGroup) findViewById(R.id.toast));
-                        Toast toast = new Toast(getApplicationContext());
-                        toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
-                        toast.setDuration(Toast.LENGTH_LONG);
-                        toast.setView(layout);
-                        toast.show();
-                    }
-                } else if (omsa == 3) {
-                    //Omša o najsätejšom Srdci Ježišovom
-                    getSpecial();
-                    zIntent = true;
-                    Intent intent = new Intent(context, MisalSrdceJC.class);
-                    startActivity(intent);
-                    finish();
-                } else {
-                    //Spoločné omše preblahoslavenej Panny Márie
-                    getSpecial();
-                    zIntent = true;
-                    Intent intent = new Intent(context, MisalPM.class);
-                    startActivity(intent);
-                    finish();
-                }
-            }
-        });
-        AlertDialog dialog = builder.create();
-        dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-        dialog.show();
+        new MissaDialog(this, "Špeciálne omše", Arrays.asList(omse), "menu_special_mass");
     }
 
     //Odpovede v cudzích jazykov - menu
     public void vyberJazyk(final Context context) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle(Html.fromHtml("<font color='#80242B'><b>Odpovede v cudzích jazykoch</b></font>"))
-                .setItems(jazyky, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        //uloží poradové číslo a podľa toho priradí vybratý jazyk v Jazyky.java
-                        jazyk = which;
-                        zIntent = true;
-                        Intent jazyky = new Intent(context, Jazyky.class);
-                        startActivity(jazyky);
-                        finish();
-                    }
-                });
-        AlertDialog dialog = builder.create();
-        dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-        dialog.show();
+        new MissaDialog(this, "Odpovede v cudzích jazykoch", Arrays.asList(jazyky), "menu_language");
     }
 
     //Požehnania - menu
     public void vyberPozehnania() {
-        Context context = this;
-        final Dialog dialog = new Dialog(context);
-        dialog.setContentView(R.layout.custom_dialog);
-        RecyclerView dialogListview = dialog.findViewById(R.id.vypis_misal);
-        TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
-        Button dialogButton = dialog.findViewById(R.id.dialog_button);
-        final ArrayList<MassText> dg = new ArrayList<>();
-
-        if (nightMode) {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
-            dialogTextView.setTextColor(getResources().getColor(R.color.background));
-            dialogButton.setTextColor(getResources().getColor(R.color.background));
-            dialogButton.setBackgroundColor(Color.BLACK);
-        } else {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-            dialogTextView.setTextColor(getResources().getColor(R.color.primary));
-            dialogButton.setTextColor(getResources().getColor(R.color.primary));
-            dialogButton.setBackgroundColor(getResources().getColor(R.color.background));
-        }
-
-        dialogButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                dialog.dismiss();
-            }
-        });
-
-        dialogTextView.setText("Požehnania");
-        for (String[] pozehnanie : pozehnania_menu) {
-            if (pozehnanie.length == 1)
-                dg.add(new MassText(pozehnanie[0], "center|red|bigPadding"));
-            else
-                dg.add(new MassText(pozehnanie[0], "smallPadding"));
-        }
-        MassTextAdapter ada = new MassTextAdapter(dg);
-        dialogListview.setLayoutManager(new LinearLayoutManager(this));
-        dialogListview.setAdapter(ada);
-        ada.setOnItemClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                RecyclerView.ViewHolder viewHolder = (RecyclerView.ViewHolder) view.getTag();
-                int position = viewHolder.getAdapterPosition();
-                if (pozehnania_menu[position].length != 1) {
-                    final AlertDialog.Builder builder = new AlertDialog.Builder(context);
-                    builder.setMessage(Html.fromHtml(nahrad(pozehnania_menu[position][1])));
-                    builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>" + pozehnania_menu[position][0] + "</b></font>")));
-                    builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                        }
-                    });
-                    AlertDialog alert = builder.create();
-                    alert.show();
-                    TextView text = alert.findViewById(android.R.id.message);
-                    text.setTextSize(sizeO);
-                    if (nightMode) {
-                        alert.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(getResources().getColor(R.color.background));
-                        alert.getWindow().setBackgroundDrawableResource(R.color.black);
-                        text.setTextColor(getResources().getColor(R.color.background));
-                    } else {
-                        alert.getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(getResources().getColor(R.color.primary));
-                        alert.getWindow().setBackgroundDrawableResource(R.color.background);
-                        text.setTextColor(Color.BLACK);
-                    }
-                    if (pismo)
-                        text.setTypeface(typeBold);
-                }
-            }
-        });
-        dialog.show();
+        new MissaDialog(this, "Požehnania", new ArrayList<>(), "menu_blessTypes");
     }
 
     //Výber fontu pre aplikáciu - menu
     public void vyberFont(final Context context) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setTitle(Html.fromHtml("<font color='#80242B'><b>Typ písma</b></font>"));
-        builder.setSingleChoiceItems(fonty, pozicia_font, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int i) {
-            }
-        });
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialogInterface, int i) {
-                int predtym = pozicia_font;
-                ListView lw = ((AlertDialog) dialogInterface).getListView();
-                pozicia_font = lw.getCheckedItemPosition();
-                if (predtym != pozicia_font) {
-                    String typeface;
-                    switch (pozicia_font) {
-                        //uloží vybratý font, ktorý sa v každej aktivite nastaví ako setTheme()
-                        default:
-                        case 0:
-                            themeStyle = R.style.SansSerifTheme;
-                            typeface = "sans-serif";
-                            break;
-                        case 1:
-                            themeStyle = R.style.SerifTheme;
-                            typeface = "serif";
-                            break;
-                    }
-                    putFont();
-                    zIntent = true;
-                    setTypefaces(typeface);
-                    recreate();
-                }
-            }
-        });
-        builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
-            }
-        });
-        AlertDialog dialog = builder.create();
-        dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-        dialog.show();
+        new MissaDialog(this, "Typ písma", Arrays.asList(fonty), "menu_font");
     }
 
-    public void setTypefaces(String typeface) {
+    public static void setTypefaces(String typeface) {
         typeNormal = Typeface.create(typeface, Typeface.NORMAL);
         typeBold = Typeface.create(typeface, Typeface.BOLD);
         typeItalic = Typeface.create(typeface, Typeface.ITALIC);
@@ -347,37 +159,14 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
 
     //Otvorí dialógové okno s informáciami o aplikácii - menu
     public void otvorDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage(Html.fromHtml("Aplikácia nenahrádza platne vydané a schválené liturgické texty.<br>" +
-                        "Je určená iba pre prípravu, nie je určená na slávenie svätej omše.<br><br>" +
-                        "Texty sú prevzaté z Rímskeho misála, Výňatku z Rímskeho misála, Lekcionárov a Spoločných modlitieb veriacich.<br>" +
+        new MissaDialog(this, "O aplikácii", Arrays.asList("Aplikácia nenahrádza platne vydané a schválené liturgické texty.<br>" +
+                "Je určená iba pre prípravu, nie je určená na slávenie svätej omše.",
+                "Texty sú prevzaté z Rímskeho misála, Výňatku z Rímskeho misála, Lekcionárov a Spoločných modlitieb veriacich.<br>" +
                         "Text © Konferencia biskupov slovenska (KBS).<br>" +
-                        "Texty sú publikované s vedomím KBS ako pracovná verzia.<br><br>" +
-                        "Prosím, podeľte sa s nami o svoje skúsenosti a postrehy na adrese:<br>" +
-                        "<a href=\"mailto:missa.svk@gmail.com\">missa.svk@gmail.com</a>.<br><br>" +
-                        "© 2013-" + rok + " Rita & Ing. Páter"))
-                .setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>O aplikácii</b></font>")))
-                .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                    }
-                });
-        AlertDialog dialog = builder.create();
-        dialog.show();
-        TextView text = dialog.findViewById(android.R.id.message);
-        text.setMovementMethod(LinkMovementMethod.getInstance());
-        //nastaví veľkosť písma, farbu a pozadie podľa nastavení v menu
-        text.setTextSize(sizeO);
-        if (nightMode) {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.black);
-            text.setTextColor(getResources().getColor(R.color.background));
-        } else {
-            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-            text.setTextColor(Color.BLACK);
-        }
-        if (pismo)
-            text.setTypeface(typeBold);
-        else
-            text.setTypeface(typeNormal);
+                        "Texty sú publikované s vedomím KBS ako pracovná verzia.",
+                "Prosím, podeľte sa s nami o svoje skúsenosti a postrehy na adrese:<br>" +
+                        "<a href=\"mailto:missa.svk@gmail.com\">missa.svk@gmail.com</a>.",
+                "© 2013-" + rok + " Rita & Ing. Páter"), "about");
     }
 
     //zväčší písmo
@@ -446,13 +235,6 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         }
         int s = (sizeO - 16) / 2 * 5;
         sizeZ = 35 + s;
-    }
-
-    //uloží font
-    public void putFont() {
-        settings = getApplicationContext().getSharedPreferences("MySviatok", 0);
-        SharedPreferences.Editor editor = settings.edit();
-        editor.putInt("pozicia_font", pozicia_font).apply();
     }
 
     //uloží fullscreen

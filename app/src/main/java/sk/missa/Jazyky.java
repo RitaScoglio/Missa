@@ -19,6 +19,8 @@ import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 
+import java.util.Arrays;
+
 import sk.missa.interfaces.Language;
 
 public class Jazyky extends Main implements Language {
@@ -240,18 +242,7 @@ public class Jazyky extends Main implements Language {
 
     //pri výbere jazyka v menu reštartuje aktivitu
     public void vyber() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle(Html.fromHtml("<font color='#9C0E0F'><b>Odpovede v cudzích jazykoch</b></font>"))
-                .setItems(jazyky, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        jazyk = which;
-                        finish();
-                        startActivity(getIntent());
-                    }
-                });
-        AlertDialog dialog = builder.create();
-        dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-        dialog.show();
+        new MissaDialog(this, "Odpovede v cudzích jazykoch", Arrays.asList(jazyky), "menu_language");
     }
 
     //nastaví uložené premenné
