@@ -4,24 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:id="@+id/panel1">
-        <item
-            android:id="@+id/menu_uvod"
-            android:title="@string/today" />
-        <item
-            android:id="@+id/menu_omse"
-            android:title="@string/special_mass" />
-        <item
-            android:id="@+id/menu_kalendar"
-            android:title="@string/calendar" />
-        <item
-            android:id="@+id/menu_pozehnania"
-            android:title="@string/blessing" />
-        <item
-            android:id="@+id/menu_odpovede"
-            android:title="@string/languages" />
-    </group>
-
     <group android:id="@+id/panel2">
         <item
             android:id="@+id/menu_font"

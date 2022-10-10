@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/primary"
+            android:onClick="openCalendar"
+            android:text="@string/calendar"
+            android:textColor="@color/background"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/primary"
+            android:onClick="openSpecialMass"
+            android:text="@string/special_mass"
+            android:textColor="@color/background"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/primary"
+            android:onClick="openBlessing"
+            android:text="@string/blessing"
+            android:textColor="@color/background"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/primary"
+            android:onClick="openLanguages"
+            android:text="@string/languages"
+            android:textColor="@color/background"
+            style="?android:attr/buttonBarButtonStyle" />
+
+</LinearLayout>

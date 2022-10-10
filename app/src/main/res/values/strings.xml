@@ -11,4 +11,9 @@
     <string name="vsetci">Všetci:</string>
     <string name="alebo">Alebo:</string>
     <string name="show_buttons">Show buttons</string>
+    <string name="today">Dnešný deň</string>
+    <string name="special_mass">Špeciálne omše</string>
+    <string name="calendar">Kalendár</string>
+    <string name="blessing">Požehnania</string>
+    <string name="languages">Odpovede v cudzích jazykoch</string>
 </resources>
