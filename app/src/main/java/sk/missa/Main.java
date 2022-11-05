@@ -538,7 +538,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         if (dvt == 5 && prvyPiatok && day < 8)
             words.add(new Calendar("O Najsvätejšom Srdci Ježišovom", "Votívna omša", "(biela)", day, cezrok, "001", "c"));
         if (dvt == 4 && prvyStvrtok && day < 8)
-            words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, cezrok, "002", "c"));
+            words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(farba dňa)", day, cezrok, "002", "c"));
         if (mD.isEqual(mJanKrstitelVigilia))
             vigilia = new Calendar("Narodenie sv. Jána Krstiteľa", "Vigília", "(biela)", day, cezrok, "23gk", "c");
         if (vigilia != null)
@@ -672,14 +672,14 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             if (dvt == 5 && prvyPiatok && day < 8)
                 words.add(new Calendar("O Najsvätejšom Srdci Ježišovom", "Votívna omša", "(biela)", day, velkanoc, "001", "n"));
             if (dvt == 4 && prvyStvrtok && day < 8)
-                words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, velkanoc, "002", "n"));
+                words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(farba dňa)", day, velkanoc, "002", "n"));
         }
         if (dvt == 3 && velkanoc == 6)
             words.add(new Calendar("Nanebovstúpenie Pána", "Vigília", "(biela)", day, velkanoc, "60gkp", "n"));
 
         //za duchovne povolania v 3.tyzdni (pondelok - sobota), mimo prveho stvrtka
         if (velkanoc == 3 && dvt > 0 && !(dvt == 4 && prvyStvrtok && day < 8))
-            words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, velkanoc, "002", "n"));
+            words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(farba dňa)", day, velkanoc, "002", "n"));
         //prosebne dni
         if (velkanoc == 6 && (dvt == 1 || dvt == 2 || dvt == 3))
             words.add(new Calendar("Prosebné dni", " ", "(biela)", day, velkanoc, "008", "n"));
@@ -742,7 +742,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             if (dvt == 5 && prvyPiatok && day < 8)
                 words.add(new Calendar("O Najsvätejšom Srdci Ježišovom", "Votívna omša", "(biela)", day, advent, "001", "a"));
             if (dvt == 4 && prvyStvrtok && day < 8)
-                words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, advent, "002", "a"));
+                words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(farba dňa)", day, advent, "002", "a"));
         }
 
         if (pm) {
@@ -767,12 +767,13 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         else if (mD.isEqual(mZJ)) {
             vypocetPreOhlasenieVN();
             words.add(new Calendar("Zjavenie Pána", "Slávnosť", "(biela)", day, vianoce, "06gk", "v"));
-        } else if (mD.isEqual(mNNP))
-            words.add(new Calendar(("Druhá nedeľa po Narodení Pána").toUpperCase(), "", "(biela)", day, vianoce, vianoce + "0", "v"));
+        }
+        //} else if (mD.isEqual(mNNP))
+        //    words.add(new Calendar(("Druhá nedeľa po Narodení Pána").toUpperCase(), "", "(biela)", day, vianoce, vianoce + "0", "v"));
         else if (mD.isEqual(mKKP))
             words.add(new Calendar("Krst Pána".toUpperCase(), "Slávnosť", "(biela)", day, vianoce, "11gkp", "v"));
 
-        else if (dvt == 0) { //nedele
+        else if (dvt == 0 && day != 1 && day != 25) { //nedele okrem 1.1. a 25.12.
             words.add(new Calendar((vianoce + ". nedeľa po Narodení Pána").toUpperCase(), "", "(biela)", day, vianoce, vianoce + "0", "v"));
         } else {
             if (day < 10)
@@ -809,7 +810,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             if (dvt == 5 && prvyPiatok && day < 8)
                 words.add(new Calendar("O Najsvätejšom Srdci Ježišovom", "Votívna omša", "(biela)", day, vianoce, "001", "v"));
             if (dvt == 4 && prvyStvrtok && day < 8)
-                words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(biela)", day, vianoce, "002", "v"));
+                words.add(new Calendar("Za duchovné povolania", "Votívna omša", "(farba dňa)", day, vianoce, "002", "v"));
         }
     }
 
