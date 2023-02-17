@@ -284,7 +284,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
 
     //zisti, ci bola po aktualizacii prvykrat otvorena app
     //ak je aplikácia otvorena prvykrat po aktualizacii - po zavolani funkcie v uvode nasladne ukaze dialogove okno s informaciou, ze aplikacia obsahuje novy misal
-    public boolean showActualisationDialog() {
+   /* public boolean showActualisationDialog() {
         settings = getApplicationContext().getSharedPreferences("MySviatok", 0);
         boolean firstOpenNewMisal = settings.getBoolean("firstOpenNewMisal", true);
         if (firstOpenNewMisal) {
@@ -292,7 +292,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
             editor.putBoolean("firstOpenNewMisal", false).apply();
         }
         return firstOpenNewMisal;
-    }
+    }*/
 
     //získa premenné z uloženej omše v prípade výberu špecialnej omše v menu
     public void getSpecial() {

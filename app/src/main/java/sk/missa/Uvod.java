@@ -206,17 +206,6 @@ public class Uvod extends Main {
         dtm = findViewById(R.id.datum);
         nastavDatum();
         sviatokDen();
-        if(showActualisationDialog()){
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setMessage("Aplikácia obsahuje texty z vydania Rímskeho misála (2022).")
-                    .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                        }
-                    });
-            AlertDialog dialog = builder.create();
-            dialog.getWindow().setBackgroundDrawableResource(R.color.background);
-            dialog.show();
-        }
     }
 
     private void setBottomMenu(int orientation) {
