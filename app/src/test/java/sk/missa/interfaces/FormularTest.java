@@ -117,6 +117,50 @@ public class FormularTest extends TestCase {
         }
     }
 
+    public void testFormularCitanieKantrove() {
+        for (String[] strings : citanie1KantroveDni) {
+            try {
+                assertEquals(0, (strings.length-2)%4);
+            } catch (AssertionError e) {
+                System.out.println(strings[0] + " " + strings[1]);
+                throw e;
+            }
+        }
+    }
+
+    public void testFormularZalmKantrove() {
+        for (String[] strings : zalmKantroveDni) {
+            try {
+                assertEquals(0, (strings.length-2)%3);
+            } catch (AssertionError e) {
+                System.out.println(strings[0] + " " + strings[1]);
+                throw e;
+            }
+        }
+    }
+
+    public void testFormularAlelujaKantrove() {
+        for (String[] strings : alelujaKantroveDni) {
+            try {
+                assertEquals(0, (strings.length-2)%3);
+            } catch (AssertionError e) {
+                System.out.println(strings[0] + " " + strings[1]);
+                throw e;
+            }
+        }
+    }
+
+    public void testFormularEvanjeliumKantrove() {
+        for (String[] strings : evanjeliumKantroveDni) {
+            try {
+                assertEquals(0, (strings.length-2)%4);
+            } catch (AssertionError e) {
+                System.out.println(strings[0] + " " + strings[1]);
+                throw e;
+            }
+        }
+    }
+
     public void testFormularZmierenieNames(){
         List<String> spevFormularZmierenieNames = new ArrayList<>();
         List<String> modlitbaFormularZmierenieNames = new ArrayList<>();
