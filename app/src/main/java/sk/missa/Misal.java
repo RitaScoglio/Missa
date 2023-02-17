@@ -1726,9 +1726,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         missas.add(new MassText("Eucharistická modlitba".toUpperCase(), "red|bold|bigPadding"));
         for (int j = 0; j < eucharistia.length; j++) {
             if (j % 2 == 0) {
-                if (eucharistia[j].contains("Spomienka")) {
-                    missas.add(new MassText(eucharistia[j], "red|center"));
-                } else if (eucharistia[j].equals("BAR")) {
+                if (eucharistia[j].equals("BAR")) {
                     missas.add(new MassText("divider"));
                 } else if (eucharistia[j].equals("SPACE")) {
                     missas.add(new MassText("space"));
@@ -1830,7 +1828,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         } else if (ID.equals("4gkp")) {
             missas.add(new MassText("Eucharistická procesia (otvoriť)", "red|bigPadding", 6));
         } else {
-                missas.add(new MassText("Modlitba nad ľudom (otvoriť)", "red|bigPadding", 7));
+            missas.add(new MassText("Modlitba nad ľudom (otvoriť)", "red|bigPadding", 7));
         }
     }
 
@@ -1977,7 +1975,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                     spev();
                     modlitba();
                     prosby();
-                    if(kantry){
+                    if (kantry) {
                         prveCitanie();
                         zalm();
                         aleluja();
@@ -2153,7 +2151,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                             omsa = "23";
                             break;
                     }
-                } for (int b = 0; b < spevFormular.length; b++) {
+                }
+                for (int b = 0; b < spevFormular.length; b++) {
                     if (spevFormular[b][0].equals(omsa)) {
                         formArray.add(new String[]{spevFormular[b][0], spevFormular[b][1], spevFormular[b][2]});
                     }
@@ -2166,7 +2165,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void ziskajPrefaciu() {
         prefaciaArray.clear();
         if (euchText.equals("4. eucharistická modlitba")) {
-                prefaciaArray.add("Vlastná prefácia - 4. eucharistická modlitba");
+            prefaciaArray.add("Vlastná prefácia - 4. eucharistická modlitba");
         } else if (ID.equals("001")) {
             prefaciaArray.add("Vlastná prefácia - Najsvätejšieho Srdca Ježišovho");
         } else if (ID.equals("004") && formArray.get(pozicia_formular)[1].equals("1")) { //Jarné kántrové dni
@@ -2559,11 +2558,11 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         }
 
         dialogTextView.setText("Požehnanie sviec a procesia");
-        for(String[] section : pozehnanie_sviec_procesia){
-            for(int i = 0; i < section.length; i++){
-                if(i == 0)
+        for (String[] section : pozehnanie_sviec_procesia) {
+            for (int i = 0; i < section.length; i++) {
+                if (i == 0)
                     dg.add(new MassText(section[i], "html|center|bold"));
-                else if (i%2 == 0)
+                else if (i % 2 == 0)
                     dg.add(new MassText(section[i], "html"));
                 else
                     dg.add(new MassText(section[i], "html|small"));
@@ -2772,23 +2771,26 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             builder.setMessage("");
             builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Oznámenie dňa Veľkej noci</b></font>")));
         } else if (dialog == 12) { //rozličné prosby - prosby za zosnulých
-        builder.setMessage(Html.fromHtml(nahrad(prosby_rozlicne[0][1])));
-        builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+prosby_rozlicne[0][0]+"</b></font>")));
+            builder.setMessage(Html.fromHtml(nahrad(prosby_rozlicne[0][1])));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>" + prosby_rozlicne[0][0] + "</b></font>")));
         } else if (dialog == 13) { //rozličné prosby - Prosby za zdravie a Božiu pomoc
             builder.setMessage(Html.fromHtml(nahrad(prosby_rozlicne[1][1])));
-            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+prosby_rozlicne[1][0]+"</b></font>")));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>" + prosby_rozlicne[1][0] + "</b></font>")));
         } else if (dialog == 14) { //rozličné prosby - Prosby za poďakovanie
             builder.setMessage(Html.fromHtml(nahrad(prosby_rozlicne[2][1])));
-            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+prosby_rozlicne[2][0]+"</b></font>")));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>" + prosby_rozlicne[2][0] + "</b></font>")));
         } else if (dialog == 15) { //rozličné prosby - Prosby za farnosť
             builder.setMessage(Html.fromHtml(nahrad(prosby_rozlicne[3][1])));
-            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+prosby_rozlicne[3][0]+"</b></font>")));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>" + prosby_rozlicne[3][0] + "</b></font>")));
         } else if (dialog == 16) { //rozličné prosby - Prosby za duchovné povolania
             builder.setMessage(Html.fromHtml(nahrad(prosby_rozlicne[4][1])));
-            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>"+prosby_rozlicne[4][0]+"</b></font>")));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>" + prosby_rozlicne[4][0] + "</b></font>")));
         } else if (dialog == 17) {
             builder.setMessage(Html.fromHtml(nahrad(pokoj_mier_Ukrajina)));
             builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Prosby za pokoj a mier na Ukrajine</b></font>")));
+        } else if (dialog == 18) {
+            builder.setMessage(Html.fromHtml(nahrad(pozehnania_menu[8][1])));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Požehnania adventného venca</b></font>")));
         }
 
         builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
@@ -2921,7 +2923,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             slav_pozehnanie = 12;
         else if ((ID.equals("02an") || ID.equals("02bn") || ID.equals("02cn")) && m == 10) //Spomienka na všetkých verných zosnulých
             slav_pozehnanie = 13;
-        else if(P && slavenie.equals("Slávnosť"))
+        else if (P && slavenie.equals("Slávnosť"))
             slav_pozehnanie = 2;
         else if ((nedela || slavenie.equals("Slávnosť") || slavenie.equals("Sviatok")
                 || slavenie.equals("Oktáva") || slavenie.equals("Vigília")) && !P) {
@@ -2930,7 +2932,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             else if (V)
                 slav_pozehnanie = 1;
             else if (VN) {
-                    slav_pozehnanie = 3;
+                slav_pozehnanie = 3;
             } else //cezrok
                 slav_pozehnanie = 4;
         } else slav_pozehnanie = -1;
@@ -2943,7 +2945,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         else
             drawer.setBackgroundColor(getResources().getColor(R.color.background));
         final ArrayList<MassText> missas = new ArrayList<>();
-        if(m == 1 && ID.equals("02g"))
+        if (m == 1 && ID.equals("02g"))
             missas.add(new MassText("Požehnanie sviec a procesia (otvoriť)", "red|bigPadding", 24));
         missas.add(new MassText("bell"));
         if (ID.equals("60") && P) {
@@ -2951,6 +2953,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         }
         missas.add(new MassText(Arrays.asList(uvodny_spev.toUpperCase(), uvodny_suradnice), "red|smallPadding"));
         missas.add(new MassText(uvodny_spev_vypis, "html|justify"));
+        if (ID.equals("10") && A)
+            missas.add(new MassText("Požehnania adventného venca (otvoriť)", "red|smallPadidng", 25));
         missas.add(new MassText(pozdrav, "red|smallPadding", 1));
         missas.add(new MassText(kajucnost, "red|smallPadding", 2));
         if (ticheModlitby) {
@@ -3027,7 +3031,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         missas.add(new MassText(prosby_uvod, "html|justify"));
         missas.add(new MassText(prosby_zvolanie, "html|italic"));
         missas.add(new MassText(prosby_vypis, "html|smallPadding|justify"));
-        missas.add(new MassText("Prosby za pokoj a mier na Ukrajine (otvoriť)", "red|smallPadding",  22));
+        missas.add(new MassText("Prosby za pokoj a mier na Ukrajine (otvoriť)", "red|smallPadding", 22));
         missas.add(new MassText("Prosby za zosnulých a rozličné potreby (otvoriť)", "red|smallPadding", 21));
         missas.add(new MassText(prosby_zaver, "html"));
         if (ticheModlitby) {
@@ -3297,6 +3301,10 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         pozehnanieSviecDialog();
                         double_click = 0;
                         break;
+                    case 25:
+                        otvorenie(18);
+                        double_click = 0;
+                        break;
                     default:
                         break;
                 }
@@ -3306,7 +3314,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
 
     private void rozpustenieLudu(ArrayList<MassText> missas) {
         String[] vypis;
-        if(VN && (slavenie.equals("Oktáva") || ID.equals("20") || ID.equals("10"))){
+        if (VN && (slavenie.equals("Oktáva") || ID.equals("20") || ID.equals("10"))) {
             vypis = rozpustenie_ludu_oktava;
         } else {
             vypis = rozpustenie_ludu;

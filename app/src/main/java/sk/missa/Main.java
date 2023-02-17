@@ -22,6 +22,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -722,7 +723,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                 }
                 if (!month[index][2].equals("Sviatok") || !month[index][2].equals("Slávnosť"))
                     prvyPiatok = prvyStvrtok = true;
-                if (!month[index][2].equals("Slávnosť"))
+                if (month[index][2].equals("Slávnosť"))
                     slavnost = true;
                 do {
                     if (day < 17 || m == 10)
@@ -731,7 +732,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
                         words.add(new Calendar(month[index][1], month[index][2], "(fialová)", day, advent, month[index][0], "a"));
                     index++;
                 } while (index < month.length && month[index][0].contains(d));
-                if (!month[index - 1][2].equals("Sviatok") && !month[index - 1][2].equals("Slávnosť") && !month[index - 1][2].equals("Spomienka") && day < 17)
+                if (!(month[index - 1][2].equals("Sviatok") && !month[index - 1][1].contains("DIECÉZA")) && !month[index - 1][2].equals("Slávnosť") && !month[index - 1][2].equals("Spomienka") && day < 17)
                     pm = true;
             } else {
                 prvyPiatok = prvyStvrtok = true;
