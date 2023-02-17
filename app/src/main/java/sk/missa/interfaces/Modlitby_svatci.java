@@ -274,7 +274,7 @@ public interface Modlitby_svatci {
                             "prehlbuje úctu k tvojmu Synovi, <font color='#B71C1C'>*</font><br>" +
                             "aby sme ho vytrvalo nasledovali <font color='#B71C1C'>—</font><br>" +
                             "a vedeli ho spoznať aj v našich bratoch.<br>" +
-                            "Lebo on žije a kreľuje na veky vekov."},
+                            "Lebo on žije a kraľuje na veky vekov."},
             {"4mp", "", "Bože, ty si pripravil v srdci <br>" +
                     "preblahoslavenej Panny Márie <br>" +
                     "dôstojný príbytok Duchu Svätému; <font color='#B71C1C'>*</font><br>" +
@@ -1986,7 +1986,7 @@ public interface Modlitby_svatci {
                     "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
                     "po všetky veky vekov.",
                     "Večný Bože, prijmi obetné dary, <br>" +
-                            "ktoré ti prinášanie v deň spomienky <br>" +
+                            "ktoré ti prinášame v deň spomienky <br>" +
                             "na svätého Gorazda a jeho spoločníkov, <font color='#B71C1C'>*</font><br>" +
                             "a pomôž nám podľa ich príkladu <br>" +
                             "vyznávať neporušenú vieru <font color='#B71C1C'>—</font><br>" +
@@ -1998,25 +1998,26 @@ public interface Modlitby_svatci {
                             "a aby sme ako svätý Gorazd a jeho spoločníci <br>" +
                             "trpezlivo prekonávali všetky protivenstvá.<br>" +
                             "Skrze Krista, nášho Pána."},
-            {"29", "Všemohúci a večný Bože, <br>" +
-                    "tvoj Syn láskavo prijal pohostinstvo <br>" +
-                    "v dome svätej Marty; <font color='#B71C1C'>*</font><br>" +
-                    "dopraj, prosíme, nech na jej príhovor <br>" +
-                    "verne slúžime Kristovi v našich blížnych, <font color='#B71C1C'>—</font><br>" +
-                    "aby si nás raz mohol prijať do svojho nebeského príbytku.<br>" +
-                    "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh <br>" +
-                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
-                    "po všetky veky vekov.",
-                    "Pane, velebíme ťa pre milosť, <br>" +
-                            "ktorou si obdaril svätú Martu, <font color='#B71C1C'>*</font><br>" +
-                            "a pokorne ťa prosíme, <br>" +
+            {"29", "Bože, tvoj Syn<br>" +
+                    "povolal Lazára z hrobu späť do života<br>" +
+                    "a prijal pohostinstvo v dome svätej Marty; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj, prosíme,<br>" +
+                    "aby sme mu verne slúžili v našich blížnych <font color='#B71C1C'>—</font><br>" +
+                    "a spolu s Máriou sa mohli živiť<br>" +
+                    "počúvaním jeho slov.<br>" +
+                    "Lebo on je Boh a s tebou žije a kraľuje<br>" +
+                    "v jednote Ducha Svätého po všetky veky vekov.",
+                    "Pane, velebíme ťa pre milosť,<br>" +
+                            "ktorou si obdaril svojich svätých, <font color='#B71C1C'>*</font><br>" +
+                            "a pokorne ťa prosíme,<br>" +
                             "aby ti aj naša posvätná služba bola príjemná, <font color='#B71C1C'>—</font><br>" +
-                            "ako ti bol milý prejav jej pohostinnej lásky.<br>" +
+                            "ako ti bol milý prejav ich pohostinnej lásky.<br>" +
                             "Skrze Krista, nášho Pána.",
-                    "Pane, nech nás prijatie Tela a Krvi <br>" +
-                            "tvojho jednorodeného Syna vedie <br>" +
+                    "Pane, nech nás prijatie Tela a Krvi<br>" +
+                            "tvojho jednorodeného Syna vedie<br>" +
                             "k správnemu používaniu pominuteľných vecí, <font color='#B71C1C'>*</font><br>" +
-                            "aby sme ti podľa príkladu svätej Marty <br>" +
+                            "aby sme ti podľa príkladu<br>" +
+                            "svätých Marty, Márie a Lazára<br>" +
                             "slúžili s oddanou láskou <font color='#B71C1C'>—</font><br>" +
                             "a v nebi sa tešili z večného pohľadu na teba.<br>" +
                             "Skrze Krista, nášho Pána."},

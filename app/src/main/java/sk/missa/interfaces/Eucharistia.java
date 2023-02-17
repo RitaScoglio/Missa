@@ -102,9 +102,9 @@ public interface Eucharistia {
                     "a so všetkými, ktorí vyznávajú pravú,<br>" +
                     "katolícku a apoštolskú vieru.<br>" +
                     "Daruj svojej Cirkvi pokoj,<br>" +
-                    "chráň ju, zjednocuj a spravuj po celom svete.<br>",
+                    "chráň ju, zjednocuj a spravuj po celom svete.",
             "Spomienka na živých",
-            "<br><font color='#B71C1C'>1.k</font> Pamätaj, Pane,<br>" +
+            "<font color='#B71C1C'>1.k</font> Pamätaj, Pane,<br>" +
                     "na svojich služobníkov a služobnice <font color='#B71C1C'>M.</font> a <font color='#B71C1C'>M.</font>",
             "Zopne ruky a chvíľu sa modlí za tých, ktorých si chce osobitne pripomenúť. Potom s rozopätými rukami pokračuje:",
             "Pamätaj i na všetkých tu zhromaždených.<br>" +
@@ -116,9 +116,9 @@ public interface Eucharistia {
                     "za svoje vykúpenie,<br>" +
                     "za nádej na večnú spásu i za časné blaho<br>" +
                     "a predkladajú svoje prosby tebe,<br>" +
-                    "Bohu večnému, živému a pravému.<br>",
+                    "Bohu večnému, živému a pravému.",
             "Spomienka na svätých",
-            "VSUVKA1<br><font color='#B71C1C'>2.k</font> V spoločenstve s oslávenou Cirkvou<br>" +
+            "VSUVKA1<font color='#B71C1C'>2.k</font> V spoločenstve s oslávenou Cirkvou<br>" +
                     "s úctou si spomíname<br>" +
                     "najmä na preblahoslavenú Máriu, vždy Pannu<br>" +
                     "Rodičku Boha a nášho Pána Ježiša Krista,",
@@ -233,8 +233,8 @@ public interface Eucharistia {
             "Vzpriami sa a prežehná sa, pritom hovorí:",
             "naplnilo hojné nebeské požehnanie a milosť.",
             "Zopne ruky.",
-            "<font color='#B71C1C'>(</font>Skrze nášho Pána Ježiša Krista. Amen.<font color='#B71C1C'>)</font><br>",
-            "Spomienka na zosnulých", "<br>",
+            "<font color='#B71C1C'>(</font>Skrze nášho Pána Ježiša Krista. Amen.<font color='#B71C1C'>)</font>",
+            "Spomienka na zosnulých\n"+
             "S rozopätými rukami povie:",
             "<font color='#B71C1C'>1.k</font> Pamätaj, Pane,<br>" +
                     "i na svojich služobníkov<br>" +

@@ -2097,7 +2097,7 @@ public interface Citania_cezrok {
                             "Vrch Sinaj bol celý zahalený v\u00A0dyme, lebo Pán zostúpil naň v\u00A0ohni. Vystupoval z\u00A0neho dym ako z\u00A0pece a celý vrch sa silno otriasal. Zvuk poľnice bol čoraz silnejší. Mojžiš hovoril a Boh mu odpovedal v\u00A0hrmení.<br>" +
                             "Pán zostúpil na\u00A0vrch Sinaj, na\u00A0končiar vrchu, a Mojžiša povolal na\u00A0končiar.<br>" +
                             "Počuli sme Božie slovo."},
-            {"16", "4", "2", "Jeremiáša Jer 2, 1-3. 7-8. 12-13",
+            {"16", "4", "2", "Jer 2, 1-3. 7-8. 12-13",
                     "Opustili mňa, prameň živej vody, a vykopali si rozpraskané cisterny",
                     "Čítanie z Knihy proroka<br>" +
                             "Pán prehovoril ku\u00A0mne takto: \"Choď a krič do\u00A0uší Jeruzalema: Toto hovorí Pán: Rozpomínam sa na\u00A0teba, na\u00A0lásku tvojej mladosti, na\u00A0tvoju ľúbosť, keď si bola mojou snúbenicou, keď si ma nasledovala na\u00A0púšti, v\u00A0krajine, ktorú neosievajú. Izrael bol Pánovým svätým majetkom, prvotinou jeho úrody; previnili sa všetci, čo z\u00A0nej jedli, prišla na\u00A0nich pohroma, hovorí Pán.<br>" +
