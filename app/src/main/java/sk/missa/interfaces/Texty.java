@@ -22,6 +22,7 @@ package sk.missa.interfaces;
  * tri_oblasti_modlitby_a_pripravy - Prosby pred návštevou pápeža
  * rozpustenie_ludu
  * pozehnanie_sviec_procesia - na Obetovanie Pána (2.2.)
+ * pozehnanie_vodi_soli_Zjavenie_Pana
  */
 
 public interface Texty {
@@ -2991,6 +2992,133 @@ public interface Texty {
             "<font color='#B71C1C'>K.:</font> Ostávajte v pokoji.<br>" +
             "<font color='#B71C1C'>Ľ.:</font> Bohu vďaka.<br><br>" +
             "<font color='#B71C1C'>Na záver sa môže spievať vhodná pieseň. </font>"},
+            {"Požehnanie vody, soli, kriedy a tymianu na Zjavenie Pána", "<font color='#B71C1C'>Tento obrad sa koná v omši na slávnosť Zjavenia Pána, v deň slávnosti alebo na vigíliu. Kňaz požehná vodu (prípadne aj soľ), kriedu a tymian (ak ich používa pri požehnávaní domov v tomto období) v úvode omše, potom pokropí ľud.<br>" +
+                    "Ak sa toto požehnanie z pastoračných dôvodov koná mimo eucharistického slávenia, číta sa aj evanjelium a prosby, na záver sa udelí požehnanie. Použije sa liturgické rúcho bielej farby, kňaz môže použiť aj pluviál.<br><br>" +
+                    "ÚVOD<br>" +
+                    "Obrad sa začne vhodnou piesňou, po ktorej kňaz povie:</font><br>" +
+            "<font color='#B71C1C'>K.:</font> V mene Otca i Syna i Ducha Svätého.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font>  Amen.<br>" +
+            "<font color='#B71C1C'>K.:</font> Milosť a pokoj od Boha, nášho Otca,<br>" +
+            "i od Pána Ježiša Krista,<br>" +
+            "ktorý dnes zjavil svoju slávu,<br>" +
+            "nech je s vami všetkými.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br><br>" +
+            "<font color='#B71C1C'>Kňaz sa prihovorí takto alebo podobne:</font><br>" +
+            "Bratia a sestry, prežívame Vianočné obdobie, počas ktorého si pripomíname narodenie nášho Pána Ježiša Krista. Dnes oslavujeme zjavenie jeho božstva, pripomíname si príchod mudrcov z východu, Ježišov krst a pamiatku svadby v Káne Galilejskej, kde Ježiš urobil svoj prvý zázrak.<br>" +
+            "Dnes sa Cirkev zasnúbila s nebeským ženíchom, lebo Kristus, ktorý bol pokrstený, očistil vody Jordána.<br>" +
+            "Dnes sa mudrci ponáhľajú pokloniť sa Kráľovi a odovzdať mu svoje dary a hostia majú radosť z vody premenenej na víno. Aj my sme sa zišli, aby sme sa poklonili novonarodenému Kráľovi, a preto, podľa zvyku v našich krajoch, dnes požehnáme vodu, soľ, kriedu a tymian, ktoré použijeme pri požehnaní našich príbytkov.<br><br>" +
+            "<font color='#B71C1C'>Ak sa obrad požehnania koná mimo eucharistického slávenia, číta sa aj nasledujúce evanjelium:</font><br><br>" +
+            "<font color='#B71C1C'>ČÍTANIE EVANJELIA</font><br>" +
+            "<i>Otvorili svoje pokladnice a dali mu dary:<br>" +
+    "zlato, kadidlo a myrhu</i><br>" +
+"<font color='#B71C1C'>✠</font> Čítanie zo svätého Evanjelia podľa Matúša <font color='#B71C1C'>2, 1-2. 9b-11</font><br>" +
+            "Keď sa za čias kráľa Herodesa v judejskom Betleheme narodil Ježiš, prišli do Jeruzalema mudrci od východu a pýtali sa: \"Kde je ten novonarodený židovský kráľ? Videli sme jeho hviezdu na východe a prišli sme sa mu pokloniť.\"<br>" +
+            "A hľa, hviezda, ktorú videli na východe, išla pred nimi, až sa zastavila nad miestom, kde bolo dieťa. Ako zbadali hviezdu, nesmierne sa zaradovali. Vošli do domu a uvideli dieťa s Máriou, jeho matkou, padli na zem a klaňali sa mu. Potom otvorili svoje pokladnice a dali mu dary: zlato, kadidlo a myrhu.<br>" +
+            "Počuli sme slovo Pánovo.<br><br>" +
+            "<font color='#B71C1C'>Po úvode, prípadne v obrade mimo omše po evanjeliu, nasleduje modlitba požehnania. Tá sa začne úvodnými zvolaniami a pokračuje samotnými modlitbami, ktoré kňaz prednesie s rozopnutými rukami.</font><br><br>" +
+            "<font color='#B71C1C'>MODLITBA POŽEHNANIA</font><br>" +
+            "<font color='#B71C1C'>K.:</font> Velebíme ťa, Bože, všemohúci Otec, <br>" +
+            "že si dnešného dňa svetlom hviezdy<br>" +
+            "zjavil svojho Syna<br>" +
+            "všetkým národom.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Velebíme ťa, Bože.<br>" +
+            "<font color='#B71C1C'>K.:</font> Velebíme ťa, Bože,<br>" +
+            "že si nám Ježiša pri jeho krste v Jordáne<br>" +
+            "zjavil ako svojho milovaného Syna.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Velebíme ťa, Bože.<br>" +
+            "<font color='#B71C1C'>K.:</font> Velebíme ťa, Bože,<br>" +
+            "že tvoj Syn na svadbe v Káne<br>" +
+            "premenil vodu na víno,<br>" +
+            "a tak zjavil svoju moc.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Velebíme ťa, Bože.<br>" +
+            "Požehnanie vody<br>" +
+            "<font color='#B71C1C'>K.:</font> Modlime sa.<br>" +
+            "Všemohúci Bože,<br>" +
+            "ty si stvoril vodu ako prvok života.<br>" +
+            "Tvoj Syn sa pre naše hriechy<br>" +
+            "dal pokrstiť vo vlnách Jordána,<br>" +
+            "a tak posvätil vodu.<br>" +
+            "Aj nás si urobil svojimi deťmi vo vode krstu.<br>" +
+            "Požehnaj <font color='#B71C1C'>✠</font> túto vodu silou Ducha Svätého,<br>" +
+            "aby nás posilnila,<br>" +
+            "obnovila v nás milosť svätého krstu<br>" +
+            "a chránila nás pred každým zlom tela i duše.<br>" +
+            "Daj, nech sa stane všetkým,<br>" +
+            "ktorí si ňou kropia príbytok,<br>" +
+            "znakom tvojej moci a blízkosti.<br>" +
+            "Skrze Krista nášho Pána.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Amen.<br><br>" +
+            "<font color='#B71C1C'>Požehnanie soli</font><br>" +
+            "<font color='#B71C1C'>K.:</font> Všemohúci Bože, prosíme ťa:<br>" +
+            "požehnaj <font color='#B71C1C'>✠</font> túto soľ.<br>" +
+            "Svojmu prorokovi Elizejovi<br>" +
+            "si ju kázal nasypať do prameňa,<br>" +
+            "aby vode vrátila blahodarnú silu.<br>" +
+            "Aj my sypeme soľ do vody<br>" +
+            "a prosíme ťa,<br>" +
+            "aby nás pokropenie touto vodou<br>" +
+            "oslobodilo od nepriateľských útokov<br>" +
+            "a pomohlo nám žiť<br>" +
+            "pod stálou ochranou Ducha Svätého.<br>" +
+            "Skrze Krista, nášho Pána.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Amen.<br><br>" +
+            "Kňaz mlčky sype soľ do vody.<br><br>" +
+            "<font color='#B71C1C'>Požehnanie kriedy</font><br>" +
+            "<font color='#B71C1C'>K.:</font> Dobrotivý Bože,<br>" +
+            "požehnaj <font color='#B71C1C'>✠</font> túto kriedu,<br>" +
+            "ktorou urobíme znak kríža<br>" +
+            "nad vchodom do našich domov <font color='#B71C1C'>(</font>príbytkov<font color='#B71C1C'>)</font>;<br>" +
+            "daj, nech nezabudneme,<br>" +
+            "že celý náš život patrí tomu,<br>" +
+            "ktorý nás na tomto znaku vykúpil.<br>" +
+            "O to ťa prosíme skrze Krista nášho Pána.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Amen.<br><br>" +
+            "<font color='#B71C1C'>Požehnanie tymianu</font><br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Pane, náš Bože,<br>" +
+            "požehnaj <font color='#B71C1C'>✠</font> toto kadidlo, <br>" +
+            "ktoré zapaľujeme<br>" +
+            "pri spomienke na dary mudrcov od východu;<br>" +
+            "urob ho znakom svojho požehnania,<br>" +
+            "ktoré preniká naše príbytky,<br>" +
+            "a z našich domovov utvor miesta<br>" +
+            "bratskej lásky a pokoja.<br>" +
+            "Skrze Krista nášho Pána.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Amen.<br><br>" +
+            "<font color='#B71C1C'>Kňaz pokropí kriedu a tymian požehnanou vodou.</font><br><br>" +
+            "<font color='#B71C1C'>POKROPENIE ĽUDU</font><br><br>" +
+            "<font color='#B71C1C'>Potom vezme kropáč, pokropí seba, posluhujúcich a ľud, pričom môže prejsť kostolom. Zatiaľ sa môže spievať </font>Yzopom ma pokrop, Pane <font color='#B71C1C'>(</font>JKS: 484a<font color='#B71C1C'>). Pokropenie ľudu sa nekoná, ak je obrad mimo omše.<br>" +
+    "Kňaz sa vráti k sedadlu, a keď sa spev skončí, obrátený k ľudu hovorí so zopätými rukami:</font><br><br>" +
+            "<font color='#B71C1C'>K.:</font> Nech nás všemohúci Boh očistí od hriechov<br>" +
+    "a nech nás touto eucharistickou obetou posvätí,<br>" +
+    "aby sme sa mohli s ním zúčastniť<br>" +
+    "na nebeskej hostine v jeho kráľovstve.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Amen.<br><br>" +
+            "<font color='#B71C1C'>Hneď nasleduje oslavná pieseň </font>Sláva Bohu na výsostiach.<br><br>" +
+            "<font color='#B71C1C'>SPOLOČNÁ MODLITBA VERIACICH</font><br>" +
+            "<font color='#B71C1C'>Táto spoločná modlitba veriacich sa použije, ak je obrad mimo omše. Inak v omši spoločná modlitba veriacich zo slávnosti Zjavenia Pána. </font><br><br>" +
+            "Milovaní bratia a sestry, poprosme Božieho Syna, ktorému sa prišli pokloniť anjeli, pastieri i mudrci z východu, aby on, ako večný Kráľ a Pán vládol nad celým naším životom, a volajme:<br>" +
+            "<font color='#B71C1C'><i>(</font>Volajme: Pane, vyslyš nás.<font color='#B71C1C'>)</i></font><br>" +
+            "<font color='#B71C1C'>1.</font> Pane Ježišu, cez teba prúdi prameň živej vody; pomáhaj nám vrúcne ďakovať za dar života a prosiť za silu pri zdolávaní všetkých prekážok.<br>" +
+            "<font color='#B71C1C'>2.</font> Pane Ježišu, ty každého z nás poznáš a miluješ; príď do sŕdc rodín, ktorých domy budú označené kriedou na pamiatku sviatku tvojho zjavenia, a zostávaj s nami ako verný priateľ.<br>" +
+            "<font color='#B71C1C'>3.:</font> Pane Ježišu, ty s otvorenou náručou prijímaš naše modlitby, ktoré stúpajú k tebe ako dym kadidla; prijmi k sebe všetkých, čo prosia o tvoje zmilovanie.<br>" +
+            "<font color='#B71C1C'>4.</font> Pane Ježišu, ty si nám priniesol naplnenie zákona; stoj pri nás v úsilí stať sa soľou zeme a svetlom sveta.<br><br>" +
+            "Božský Spasiteľ,<br>" +
+    "k tebe voláme a úprimne ťa prosíme:<br>" +
+    "prijmi naše prosby a prebývaj v nás,<br>" +
+    "aby sme sa ti každým dňom mohli klaňať<br>" +
+    "a tešiť sa na večné stretnutie s tebou.<br>" +
+    "Lebo ty žiješ a kraľuješ na veky vekov.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Amen.<br><br>" +
+            "<font color='#B71C1C'>Obrad sa uzavrie záverečným požehnaním.</font><br><br>" +
+            "<font color='#B71C1C'>ZÁVEREČNÉ POŽEHNANIE</font><br>" +
+            "<font color='#B71C1C'>K.:</font> Pán s vami.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br>" +
+            "<font color='#B71C1C'>K.:</font> Nech vás žehná všemohúci Boh,<br>" +
+            "Otec i Syn <font color='#B71C1C'>✠</font> i Duch Svätý.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Amen.<br>" +
+            "<font color='#B71C1C'>K.:</font> Choďte v mene Božom.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Bohu vďaka.<br><br>" +
+            "<font color='#B71C1C'>Na záver sa môže spievať vhodná pieseň.</font>"},
     {"Požehnanie domu počas roka", "<font color='#B71C1C'>Pretože sa tento obrad okrem domu priamo týka aj rodiny, vyžaduje sa prítomnosť jej členov.<br>" +
             "Požehnanie domov sa má konať v prítomnosti tých, čo v nich bývajú.<br>" +
             "Zvyčajne sa toto požehnanie slávi v jednotlivých domoch, ale z pastoračných dôvodov a na posilnenie jednoty rodín, ktoré bývajú v tej istej budove alebo na tom istom mieste, sa môže sláviť pre viacero rodín zhromaždených na primeranom mieste. V tomto prípade sa modlitba prednesie v množnom čísle.<br>" +
@@ -3367,5 +3495,126 @@ public interface Texty {
             "<font color='#B71C1C'>6.</font> Nebeský Otče, posilňuj predstaviteľov národov, aby vládli rozumne a s rozvahou, a tak budovali vzájomné a ohľaduplné občianske spolužitie.<br>" +
             "<br>" +
             "<font color='#B71C1C'>7.</font> Pane Ježišu, prosíme ťa za pokoj vo všetkých krajinách, kde zúri vojna a prenasledovanie pre vieru, farbu pleti, či iný názor, aby utíchli zbrane a nastúpil vzájomný dialóg a porozumenie.";
+
+    String koleda_narodenie_pana = "Dvadsiateho piateho decembra, \n" +
+            "po uplynutí nespočetných vekov od stvorenia sveta, \n" +
+            "keď na počiatku stvoril Boh nebo i zem \n" +
+            "a človeka utvoril na svoj obraz; \n" +
+            "po premnohých stáročiach, \n" +
+            "keď po potope sveta Najvyšší položil oblúk v oblakoch, \n" +
+            "ako znamenie zmluvy pokoja; \n" +
+            "dvadsaťjeden storočí po tom, \n" +
+            "ako Abrahám, náš otec vo viere, \n" +
+            "odišiel z chaldejského Uru po uplynutí trinástich storočí, \n" +
+            "ako Izrael pod vedením Mojžiša vyšiel z Egypta; \n" +
+            "po asi tritisíc rokoch od pomazania Dávida za kráľa; \n" +
+            "v šesťdesiatom piatom týždni podľa proroctva Daniela; \n" +
+            "v sto deväťdesiatom štvrtom roku olympijských hier, \n" +
+            "v sedemsto päťdesiatom druhom roku od založenia mesta Ríma; \n" +
+            "v štyridsiatom druhom roku vlády cisára Oktaviána Augusta;\n" +
+            "keď bol pokoj po celom zemskom okruhu, \n" +
+            "Ježiš Kristus, večný Boh a Syn večného Otca, \n" +
+            "chcel svojim láskyplným príchodom posvätiť svet, \n" +
+            "počatý z Ducha Svätého, \n" +
+            "po deviatich mesiacoch od počatia: \n" +
+            "narodil sa z Márie Panny v judejskom Betleheme \n" +
+            "a stal sa človekom. \n" +
+            "Dnes je Narodenie nášho Pána Ježiša Krista podľa tela.";
+
+    String pozehnanie_vody_soli_Zjavenie_Pana =
+            "<font color='#B71C1C'>Tento obrad sa koná v omši na slávnosť Zjavenia Pána, v deň slávnosti alebo na vigíliu. Kňaz požehná vodu (prípadne aj soľ), kriedu a tymian (ak ich používa pri požehnávaní domov v tomto období) v úvode omše, potom pokropí ľud.<br><br>" +
+                    "ÚVOD<br>" +
+                    "Obrad sa začne vhodnou piesňou, po ktorej kňaz povie:</font><br>" +
+            "<font color='#B71C1C'>K.:</font> V mene Otca i Syna i Ducha Svätého.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font>  Amen.<br>" +
+            "<font color='#B71C1C'>K.:</font> Milosť a pokoj od Boha, nášho Otca,<br>" +
+            "i od Pána Ježiša Krista,<br>" +
+            "ktorý dnes zjavil svoju slávu,<br>" +
+            "nech je s vami všetkými.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> I s duchom tvojím.<br><br>" +
+            "<font color='#B71C1C'>Kňaz sa prihovorí takto alebo podobne:</font><br>" +
+            "Bratia a sestry, prežívame Vianočné obdobie, počas ktorého si pripomíname narodenie nášho Pána Ježiša Krista. Dnes oslavujeme zjavenie jeho božstva, pripomíname si príchod mudrcov z východu, Ježišov krst a pamiatku svadby v Káne Galilejskej, kde Ježiš urobil svoj prvý zázrak.<br>" +
+            "Dnes sa Cirkev zasnúbila s nebeským ženíchom, lebo Kristus, ktorý bol pokrstený, očistil vody Jordána.<br>" +
+            "Dnes sa mudrci ponáhľajú pokloniť sa Kráľovi a odovzdať mu svoje dary a hostia majú radosť z vody premenenej na víno. Aj my sme sa zišli, aby sme sa poklonili novonarodenému Kráľovi, a preto, podľa zvyku v našich krajoch, dnes požehnáme vodu, soľ, kriedu a tymian, ktoré použijeme pri požehnaní našich príbytkov.<br><br>" +
+            "<font color='#B71C1C'>Po úvode, nasleduje modlitba požehnania. Tá sa začne úvodnými zvolaniami a pokračuje samotnými modlitbami, ktoré kňaz prednesie s rozopnutými rukami.</font><br><br>" +
+            "<font color='#B71C1C'>MODLITBA POŽEHNANIA</font><br>" +
+            "<font color='#B71C1C'>K.:</font> Velebíme ťa, Bože, všemohúci Otec, <br>" +
+            "že si dnešného dňa svetlom hviezdy<br>" +
+            "zjavil svojho Syna<br>" +
+            "všetkým národom.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Velebíme ťa, Bože.<br>" +
+            "<font color='#B71C1C'>K.:</font> Velebíme ťa, Bože,<br>" +
+            "že si nám Ježiša pri jeho krste v Jordáne<br>" +
+            "zjavil ako svojho milovaného Syna.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Velebíme ťa, Bože.<br>" +
+            "<font color='#B71C1C'>K.:</font> Velebíme ťa, Bože,<br>" +
+            "že tvoj Syn na svadbe v Káne<br>" +
+            "premenil vodu na víno,<br>" +
+            "a tak zjavil svoju moc.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Velebíme ťa, Bože.<br>" +
+            "Požehnanie vody<br>" +
+            "<font color='#B71C1C'>K.:</font> Modlime sa.<br>" +
+            "Všemohúci Bože,<br>" +
+            "ty si stvoril vodu ako prvok života.<br>" +
+            "Tvoj Syn sa pre naše hriechy<br>" +
+            "dal pokrstiť vo vlnách Jordána,<br>" +
+            "a tak posvätil vodu.<br>" +
+            "Aj nás si urobil svojimi deťmi vo vode krstu.<br>" +
+            "Požehnaj <font color='#B71C1C'>✠</font> túto vodu silou Ducha Svätého,<br>" +
+            "aby nás posilnila,<br>" +
+            "obnovila v nás milosť svätého krstu<br>" +
+            "a chránila nás pred každým zlom tela i duše.<br>" +
+            "Daj, nech sa stane všetkým,<br>" +
+            "ktorí si ňou kropia príbytok,<br>" +
+            "znakom tvojej moci a blízkosti.<br>" +
+            "Skrze Krista nášho Pána.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Amen.<br><br>" +
+            "<font color='#B71C1C'>Požehnanie soli</font><br>" +
+            "<font color='#B71C1C'>K.:</font> Všemohúci Bože, prosíme ťa:<br>" +
+            "požehnaj <font color='#B71C1C'>✠</font> túto soľ.<br>" +
+            "Svojmu prorokovi Elizejovi<br>" +
+            "si ju kázal nasypať do prameňa,<br>" +
+            "aby vode vrátila blahodarnú silu.<br>" +
+            "Aj my sypeme soľ do vody<br>" +
+            "a prosíme ťa,<br>" +
+            "aby nás pokropenie touto vodou<br>" +
+            "oslobodilo od nepriateľských útokov<br>" +
+            "a pomohlo nám žiť<br>" +
+            "pod stálou ochranou Ducha Svätého.<br>" +
+            "Skrze Krista, nášho Pána.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Amen.<br><br>" +
+            "Kňaz mlčky sype soľ do vody.<br><br>" +
+            "<font color='#B71C1C'>Požehnanie kriedy</font><br>" +
+            "<font color='#B71C1C'>K.:</font> Dobrotivý Bože,<br>" +
+            "požehnaj <font color='#B71C1C'>✠</font> túto kriedu,<br>" +
+            "ktorou urobíme znak kríža<br>" +
+            "nad vchodom do našich domov <font color='#B71C1C'>(</font>príbytkov<font color='#B71C1C'>)</font>;<br>" +
+            "daj, nech nezabudneme,<br>" +
+            "že celý náš život patrí tomu,<br>" +
+            "ktorý nás na tomto znaku vykúpil.<br>" +
+            "O to ťa prosíme skrze Krista nášho Pána.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Amen.<br><br>" +
+            "<font color='#B71C1C'>Požehnanie tymianu</font><br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Pane, náš Bože,<br>" +
+            "požehnaj <font color='#B71C1C'>✠</font> toto kadidlo, <br>" +
+            "ktoré zapaľujeme<br>" +
+            "pri spomienke na dary mudrcov od východu;<br>" +
+            "urob ho znakom svojho požehnania,<br>" +
+            "ktoré preniká naše príbytky,<br>" +
+            "a z našich domovov utvor miesta<br>" +
+            "bratskej lásky a pokoja.<br>" +
+            "Skrze Krista nášho Pána.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Amen.<br><br>" +
+            "<font color='#B71C1C'>Kňaz pokropí kriedu a tymian požehnanou vodou.</font><br><br>" +
+            "<font color='#B71C1C'>POKROPENIE ĽUDU</font><br><br>" +
+            "<font color='#B71C1C'>Potom vezme kropáč, pokropí seba, posluhujúcich a ľud, pričom môže prejsť kostolom. Zatiaľ sa môže spievať </font>Yzopom ma pokrop, Pane <font color='#B71C1C'>(</font>JKS: 484a<font color='#B71C1C'>). Pokropenie ľudu sa nekoná, ak je obrad mimo omše.<br>" +
+    "Kňaz sa vráti k sedadlu, a keď sa spev skončí, obrátený k ľudu hovorí so zopätými rukami:</font><br><br>" +
+            "<font color='#B71C1C'>K.:</font> Nech nás všemohúci Boh očistí od hriechov<br>" +
+    "a nech nás touto eucharistickou obetou posvätí,<br>" +
+    "aby sme sa mohli s ním zúčastniť<br>" +
+    "na nebeskej hostine v jeho kráľovstve.<br>" +
+            "<font color='#B71C1C'>Ľ.:</font> Amen.<br><br>" +
+            "<font color='#B71C1C'>Hneď nasleduje oslavná pieseň </font>Sláva Bohu na výsostiach.";
+
 }
 

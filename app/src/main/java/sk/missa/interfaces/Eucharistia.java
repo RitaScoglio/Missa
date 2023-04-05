@@ -796,6 +796,7 @@ public interface Eucharistia {
                     "aby nás vyslobodil,<br>" +
                     "pri večeri",
             "Vezme chlieb, drží ho trocha pozdvihnutý nad oltárom a pokračuje:",
+            "vzal do rúk chlieb,<br>"+
             "vzdával ti vďaky a dobrorečil,<br>" +
                     "lámal ho a dával svojim učeníkom, hovoriac:",
             "Trocha sa skloní.",

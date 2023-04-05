@@ -33,7 +33,7 @@ public interface Citania_cezrok {
                     "Čítanie z Listu Hebrejom<br>" +
                             "Boh nie anjelom podriadil budúci svet, o\u00A0ktorom hovoríme. Tak svedčí ktosi na\u00A0ktoromsi mieste: \"Čože je človek, že naň pamätáš, a syn človeka, že sa ho ujímaš? Urobil si ho len o\u00A0niečo menšieho od\u00A0anjelov, slávou a cťou si ho ovenčil a všetko si mu položil pod\u00A0nohy.\"<br>" +
                             "Keď mu teda všetko podriadil, nenechal nič, čo by mu nebolo podriadené. Teraz ešte nevidíme, že mu je všetko podrobené, ale vidíme, že ten, ktorý bol stvorený len o\u00A0niečo menší od\u00A0anjelov, Ježiš, bol ovenčený slávou a cťou, lebo pretrpel smrť, aby z\u00A0Božej milosti okúsil smrť za\u00A0všetkých.<br>" +
-                            "Veď sa patrilo, aby ten, pre\u00A0ktorého je všetko a skrze ktorého je všetko, ktorý priviedol mnoho synov do\u00A0slávy, zdokonalil pôvodcu ich spásy utrpením. lebo aj ten, čo posväcuje, aj tí, čo sú posväcovaní, všetci pochádzajú z\u00A0jedného. Preto sa nehanbí volať ich bratmi, keď hovorí: \"Tvoje meno zvestujem svojim bratom a uprostred zhromaždenia budem ťa velebiť.\"<br>" +
+                            "Veď sa patrilo, aby ten, pre\u00A0ktorého je všetko a skrze ktorého je všetko, ktorý priviedol mnoho synov do\u00A0slávy, zdokonalil pôvodcu ich spásy utrpením. Lebo aj ten, čo posväcuje, aj tí, čo sú posväcovaní, všetci pochádzajú z\u00A0jedného. Preto sa nehanbí volať ich bratmi, keď hovorí: \"Tvoje meno zvestujem svojim bratom a uprostred zhromaždenia budem ťa velebiť.\"<br>" +
                             "Počuli sme Božie slovo."},
             {"1", "2", "2", "1 Sam 1, 9-20",
                     "Pán si na\u00A0Annu spomenul a porodila Samuela",

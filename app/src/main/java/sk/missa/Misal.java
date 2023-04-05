@@ -14,7 +14,6 @@ import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -940,11 +939,16 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         index = index + 2;
                     }
                 }
-                druhe_citanie_suradnice = citanie2Pohyb[index][3];
-                druhe_citanie_citat = citanie2Pohyb[index][4];
-                druhe_citanie_vypis = citanie2Pohyb[index][5];
-                if (citanie2Pohyb[index].length > 6) {
-                    aleboCitanie(citanie2Pohyb, index, 2);
+                if(ID.equals("10gkp") && !nedela) { //svatej rodiny
+                    pridajDoAleboCitanie(citanie2Pohyb, index, 1);
+                    druhe_citanie = null;
+                } else {
+                    druhe_citanie_suradnice = citanie2Pohyb[index][3];
+                    druhe_citanie_citat = citanie2Pohyb[index][4];
+                    druhe_citanie_vypis = citanie2Pohyb[index][5];
+                    if (citanie2Pohyb[index].length > 6) {
+                        aleboCitanie(citanie2Pohyb, index, 2);
+                    }
                 }
             } else if (nedela) { //nedela
                 if (cirkevRok == 2) {
@@ -1203,6 +1207,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         } else if (index != -1) { //svatci
             aleluja_suradnice = aleluja[index][3];
             aleluja_vypis = aleluja[index][4];
+            if(P)
+                aleluja_vypis.replace("Aleluja.", "Chvála ti, Kriste, Kráľ večnej slávy.");
         } else {
             alelujaO = true;
             aleluja();
@@ -1882,6 +1888,84 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         }
     }
 
+    private void pridajDoAleboCitanie(String[][] citanie, int index, int pom) {
+        int a = 1;
+        switch (pom) {
+            case 1:
+                if(aleboCitanie1 == null) {
+                    aleboCitanie1 = new String[(citanie[index].length / 4)+1][3];
+                    aleboCitanie1[0] = new String[]{prve_citanie_suradnice, prve_citanie_citat, prve_citanie_vypis};
+                } else {
+                    a = aleboCitanie1.length;
+                    aleboCitanie1 = Arrays.copyOf(aleboCitanie1, aleboCitanie1.length+(citanie[index].length / 4));
+                }
+                for (int i = 2; i < citanie[index].length; i = i + 4, a++) {
+                    aleboCitanie1[a] = new String[]{citanie[index][i + 1], citanie[index][i + 2], citanie[index][i + 3]};
+                }
+                break;
+            case 2:
+                if(aleboCitanie2 == null) {
+                    aleboCitanie2 = new String[(citanie[index].length / 4)+1][3];
+                    aleboCitanie2[0] = new String[]{druhe_citanie_suradnice, druhe_citanie_citat, druhe_citanie_vypis};
+                } else {
+                    a = aleboCitanie2.length;
+                    aleboCitanie2 = Arrays.copyOf(aleboCitanie2, aleboCitanie2.length+(citanie[index].length / 4));
+                }
+                for (int i = 2; i < citanie[index].length; i = i + 4, a++) {
+                    aleboCitanie2[a] = new String[]{citanie[index][i + 1], citanie[index][i + 2], citanie[index][i + 3]};
+                }
+                break;
+            case 3:
+                if(aleboEvanjelium == null) {
+                    aleboEvanjelium = new String[(citanie[index].length / 4)+1][3];
+                    aleboEvanjelium[0] = new String[]{evanjelium_suradnice, evanjelium_citat, evanjelium_vypis};
+                } else {
+                    a = aleboEvanjelium.length;
+                    aleboEvanjelium = Arrays.copyOf(aleboEvanjelium, aleboEvanjelium.length+(citanie[index].length / 4));
+                }
+                for (int i = 2; i < citanie[index].length; i = i + 4, a++) {
+                    aleboEvanjelium[a] = new String[]{citanie[index][i + 1], citanie[index][i + 2], citanie[index][i + 3]};
+                }
+                break;
+            case 4:
+                if(aleboZalm == null) {
+                    aleboZalm = new String[((citanie[index].length - 2) / 3)+1][2];
+                    aleboZalm[0] = new String[]{zalm_suradnice, zalm_vypis};
+                } else {
+                    a = aleboZalm.length;
+                    aleboZalm = Arrays.copyOf(aleboZalm, aleboZalm.length+((citanie[index].length - 2) / 3));
+                }
+                for (int i = 3; i < citanie[index].length; i = i + 3, a++) {
+                    aleboZalm[a] = new String[]{citanie[index][i], citanie[index][i + 1]};
+                }
+                break;
+            case 5:
+                if(aleboAleluja == null) {
+                    aleboAleluja = new String[((citanie[index].length - 2) / 3)+1][2];
+                    aleboAleluja[0] = new String[]{aleluja_suradnice, aleluja_vypis};
+                } else {
+                    a = aleboAleluja.length;
+                    aleboAleluja = Arrays.copyOf(aleboAleluja, aleboAleluja.length+((citanie[index].length - 2) / 3));
+                }
+                for (int i = 3; i < citanie[index].length; i = i + 3, a++) {
+                    aleboAleluja[a] = new String[]{citanie[index][i], citanie[index][i + 1]};
+                }
+                break;
+            case 6:
+                if(aleboProsby == null) {
+                    aleboProsby = new String[(citanie[index].length / 6)+1][5];
+                    aleboProsby[0] = new String[]{citanie[index][2], prosby_uvod, prosby_zvolanie, prosby_vypis, prosby_zaver};
+                } else {
+                    a = aleboProsby.length;
+                    aleboProsby = Arrays.copyOf(aleboProsby, aleboProsby.length+(citanie[index].length / 6));
+                }
+                for (int i = 0; i < citanie[index].length - 1; i = i + 6, a++) {
+                    aleboProsby[a] = new String[]{citanie[index][i + 2], citanie[index][i + 3], citanie[index][i + 4], citanie[index][i + 5], citanie[index][i + 6]};
+                }
+                break;
+        }
+    }
+
     //používa sa iba pri hľadaní prefácie podľa jej názvu
     public int indexOmsa(String[][] omse, String txt) {
         for (int a = 0; a < omse.length; a++) {
@@ -2523,6 +2607,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         RecyclerView dialogListview = dialog.findViewById(R.id.dialog_text);
         TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
         final ArrayList<MassText> dg = new ArrayList<>();
+        dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
 
         if (nightMode) {
             dialog.findViewById(R.id.dialog_layout).setBackgroundResource(R.drawable.dialog_background_night);
@@ -2530,6 +2615,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             dialog.findViewById(R.id.dialog_layout).setBackgroundResource(R.drawable.dialog_background_day);
         }
 
+        dialogTextView.setText("Spomienka na Pánov vstup do Jeruzalema");
         for (String[] strings : kvetna_nedela) {
             if (strings[0].equals("separated")) {
                 dg.add(new MassText(Arrays.asList(strings).subList(2, strings.length), strings[1]));
@@ -2550,6 +2636,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         RecyclerView dialogRecyclerView = dialog.findViewById(R.id.dialog_text);
         TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
         final ArrayList<MassText> dg = new ArrayList<>();
+        dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
 
         if (nightMode) {
             dialog.findViewById(R.id.dialog_layout).setBackgroundResource(R.drawable.dialog_background_night);
@@ -2583,6 +2670,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         RecyclerView dialogListview = dialog.findViewById(R.id.dialog_text);
         TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
         final ArrayList<MassText> dg = new ArrayList<>();
+        dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
 
         if (nightMode) {
             dialog.findViewById(R.id.dialog_layout).setBackgroundResource(R.drawable.dialog_background_night);
@@ -2791,6 +2879,12 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         } else if (dialog == 18) {
             builder.setMessage(Html.fromHtml(nahrad(pozehnania_menu[8][1])));
             builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Požehnania adventného venca</b></font>")));
+        } else if (dialog == 19){
+            builder.setMessage(koleda_narodenie_pana);
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Oznámenie slávnosti Narodenia Pána</b></font>")));
+        } else if (dialog == 20){
+            builder.setMessage(Html.fromHtml(nahrad(pozehnanie_vody_soli_Zjavenie_Pana)));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Požehnanie vody, soli, kriedy a tymianu na Zjavenie Pána</b></font>")));
         }
 
         builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
@@ -2849,6 +2943,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         RecyclerView dialogRecyclerView = dialog.findViewById(R.id.dialog_text);
         TextView dialogTextView = dialog.findViewById(R.id.dialog_title);
         final ArrayList<MassText> dg = new ArrayList<>();
+        dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
 
         if (nightMode) {
             dialog.findViewById(R.id.dialog_layout).setBackgroundResource(R.drawable.dialog_background_night);
@@ -2951,10 +3046,15 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         if (ID.equals("60") && P) {
             missas.add(new MassText("Spomienka na Pánov vstup do Jeruzalema (otvoriť)", "red|smallPadding", 17));
         }
+        if (ID.equals("25agkn") && V){
+            missas.add(new MassText("Oznámenie slávnosti Narodenia Pána", "red|smallPadding", 26));
+        }
         missas.add(new MassText(Arrays.asList(uvodny_spev.toUpperCase(), uvodny_suradnice), "red|smallPadding"));
         missas.add(new MassText(uvodny_spev_vypis, "html|justify"));
         if (ID.equals("10") && A)
             missas.add(new MassText("Požehnania adventného venca (otvoriť)", "red|smallPadidng", 25));
+        if (ID.equals("05gk") || ID.equals("06gk") && m == 0)
+            missas.add(new MassText("Požehnanie vody, soli, kriedy a tymianu na Zjavenie Pána (otvoriť)", "red|smallPadidng", 27));
         missas.add(new MassText(pozdrav, "red|smallPadding", 1));
         missas.add(new MassText(kajucnost, "red|smallPadding", 2));
         if (ticheModlitby) {
@@ -3167,7 +3267,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                             changeAleboCitanie(aleboZalm, mText.getOptionalTextIndex());
                             zalm_suradnice = aleboZalm[0][0];
                             zalm_vypis = aleboZalm[0][1];
-                        } else if (ID.equals("10gkp")) {
+                        } else if (ID.equals("10gkp") && nedela) {
                             changeAleboCitanie(aleboZalm, mText.getOptionalTextIndex());
                             zalm_suradnice = aleboZalm[0][0];
                             zalm_vypis = aleboZalm[0][1];
@@ -3186,7 +3286,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         druhe_citanie_suradnice = aleboCitanie2[0][0];
                         druhe_citanie_citat = aleboCitanie2[0][1];
                         druhe_citanie_vypis = aleboCitanie2[0][2];
-                        if (ID.equals("10gkp")) {
+                        if (ID.equals("10gkp") && nedela) {
                             changeAleboCitanie(aleboZalm, mText.getOptionalTextIndex());
                             zalm_suradnice = aleboZalm[0][0];
                             zalm_vypis = aleboZalm[0][1];
@@ -3303,6 +3403,14 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         break;
                     case 25:
                         otvorenie(18);
+                        double_click = 0;
+                        break;
+                    case 26:
+                        otvorenie(19);
+                        double_click = 0;
+                        break;
+                    case 27:
+                        otvorenie(20);
                         double_click = 0;
                         break;
                     default:

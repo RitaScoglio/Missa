@@ -617,84 +617,96 @@ public interface Trojdnie_text {
             {"red|small", "Značky pri dialogickom čítaní: E - evanjelista, + - Kristove slová, S - slová ostatných osôb."},
             {"", "Umučenie nášho Pána Ježiša Krista podľa Jána"},
             {"italic|center", "Ježiša chytili a zviazali"},
-            {"html|justify", "<font color='#B71C1C'>E</font> Ježiš vyšiel so svojimi učeníkmi za potok Cedron. Tam bola záhrada. Vošiel do nej on i jeho učeníci. O tom mieste však vedel aj jeho zradca Judáš, lebo Ježiš sa tam často schádzal so svojimi učeníkmi.<br>" +
-                    "<font color='#B71C1C'>E</font> Judáš vzal kohortu a sluhov od veľkňazov a farizejov a prišiel ta s lampášmi, fakľami a zbraňami. Ale Ježiš, keďže vedel všetko, čo malo naňho prísť, popodišiel a opýtal sa ich: <font color='#B71C1C'>✠</font> „Koho hľadáte?“<br>" +
-                    "<font color='#B71C1C'>E</font> Odpovedali mu: <font color='#B71C1C'>S</font> „Ježiša Nazaretského.“<br>" +
-                    "<font color='#B71C1C'>E</font> Povedal im: <font color='#B71C1C'>✠</font> „Ja som.“<br>" +
-                    "<font color='#B71C1C'>E</font> Bol s nimi aj zradca Judáš.<br>" +
-                    "<font color='#B71C1C'>E</font> Ako im povedal: „Ja som,“ cúvli a popadali na zem. Znova sa ich teda opýtal: + „Koho hľadáte?“<br>" +
-                    "<font color='#B71C1C'>E</font> Oni povedali: <font color='#B71C1C'>S</font> „Ježiša Nazaretského.“<br>" +
-                    "<font color='#B71C1C'>E</font> Ježiš odvetil: <font color='#B71C1C'>✠</font> „Povedal som vám: Ja som. Keď teda mňa hľadáte, týchto nechajte odísť!“<br>" +
-                    "<font color='#B71C1C'>E</font> Tak sa malo splniť slovo, ktoré povedal: „Z tých, ktorých si mi dal, nestratil som ani jedného.“<br>" +
-                    "<font color='#B71C1C'>E</font> Šimon Peter mal meč. Vytasil ho, zasiahol ním veľkňazovho sluhu a odťal mu pravé ucho. Sluha sa volal Malchus. Ale Ježiš Petrovi povedal: <font color='#B71C1C'>✠</font> „Schovaj meč do pošvy! Azda nemám piť kalich, ktorý mi dal Otec?!“"},
+            {"html|justify",
+                    "<font color='#B71C1C'>E</font> Ježiš vyšiel so svojimi učeníkmi za potok Cedron. Tam bola záhrada. Vošiel do nej on i jeho učeníci. O tom mieste však vedel aj jeho zradca Judáš, lebo Ježiš sa tam často schádzal so svojimi učeníkmi. <br>" +
+                            "<font color='#B71C1C'>E</font> Judáš vzal kohortu a sluhov od veľkňazov a farizejov a prišiel ta s lampášmi, fakľami a zbraňami. Ale Ježiš, keďže vedel všetko, čo malo naňho prísť, popodišiel a opýtal sa ich: <font color='#B71C1C'>✠</font> \"Koho hľadáte?\"<br>" +
+                            "<font color='#B71C1C'>E</font> Odpovedali mu: <font color='#B71C1C'>S</font> \"Ježiša Nazaretského.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Povedal im: <font color='#B71C1C'>✠</font> \"Ja som.\" <br>" +
+                            "<font color='#B71C1C'>E</font> Bol s nimi aj zradca Judáš.<br>" +
+                            "<font color='#B71C1C'>E</font> Ako im povedal: \"Ja som,\" cúvli a popadali na zem. Znova sa ich teda opýtal: <font color='#B71C1C'>✠</font> \"Koho hľadáte?\"<br>" +
+                            "<font color='#B71C1C'>E</font> Oni povedali: <font color='#B71C1C'>S</font> \"Ježiša Nazaretského.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Ježiš odvetil: <font color='#B71C1C'>✠</font> \"Povedal som vám: Ja som. Keď teda mňa hľadáte, týchto nechajte odísť!\" <br>" +
+                            "<font color='#B71C1C'>E</font> Tak sa malo splniť slovo, ktoré povedal: \"Z tých, ktorých si mi dal, nestratil som ani jedného.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Šimon Peter mal meč. Vytasil ho, zasiahol ním veľkňazovho sluhu a odťal mu pravé ucho. Sluha sa volal Malchus. Ale Ježiš Petrovi povedal: <font color='#B71C1C'>✠</font> \"Schovaj meč do pošvy! Azda nemám piť kalich, ktorý mi dal Otec?!\""},
             {"italic|center", "Ježiša priviedli najprv k Annášovi"},
-            {"html|justify", "<font color='#B71C1C'>E</font> Kohorta, veliteľ a židovskí sluhovia Ježiša chytili, zviazali ho a priviedli najprv k Annášovi; bol totiž tesťom Kajfáša, ktorý bol veľkňazom toho roka. A bol to Kajfáš, čo poradil Židom: „Je lepšie, ak zomrie jeden človek za ľud.“<br>" +
-                    "<font color='#B71C1C'>E</font> Za Ježišom šiel Šimon Peter a iný učeník. Ten učeník sa poznal s veľkňazom a vošiel s Ježišom do veľkňazovho dvora, Peter však ostal vonku pri dverách. Potom ten druhý učeník, čo sa poznal s veľkňazom, vyšiel, prehovoril s vrátničkou a voviedol ta Petra. Tu vrátnička povedala Petrovi: <font color='#B71C1C'>S</font> „Nie si aj ty z učeníkov toho človeka?“<br>" +
-                    "<font color='#B71C1C'>E</font> On vravel: <font color='#B71C1C'>S</font> „Nie som.“<br>" +
-                    "<font color='#B71C1C'>E</font> Stáli tam sluhovia a strážnici, ktorí si rozložili oheň, lebo bolo chladno, a zohrievali sa. S nimi stál aj Peter a zohrieval sa.<br>" +
-                    "<font color='#B71C1C'>E</font> Veľkňaz sa vypytoval Ježiša na jeho učeníkov a na jeho učenie. Ježiš mu odpovedal: <font color='#B71C1C'>✠</font> „Ja som verejne hovoril svetu. Vždy som učil v synagóge a v chráme, kde sa schádzajú všetci Židia, a nič som nehovoril tajne. Prečo sa pýtaš mňa? Opýtaj sa tých, ktorí počuli, čo som im hovoril! Oni vedia, čo som hovoril.“<br>" +
-                    "<font color='#B71C1C'>E</font> Ako to povedal, jeden zo sluhov, čo tam stál, udrel Ježiša po tvári a povedal: <font color='#B71C1C'>S</font> „Tak odpovedáš veľkňazovi?“<br>" +
-                    "Ježiš mu odvetil: <font color='#B71C1C'>✠</font> „Ak som zle povedal, dokáž, čo bolo zlé, ale ak dobre, prečo ma biješ?!“<br>" +
-                    "<font color='#B71C1C'>E</font> A tak ho Annáš zviazaného poslal k veľkňazovi Kajfášovi."},
-            {"italic|center", "Nie si aj ty z jeho učeníkov? Nie som"},
-            {"html|justify", "<font color='#B71C1C'>E</font> Šimon Peter tam stál a zohrieval sa. I pýtali sa ho: „Nie si aj ty z jeho učeníkov?“<br>" +
-                    "<font color='#B71C1C'>E</font> On zaprel: <font color='#B71C1C'>S</font> „Nie som.“<br>" +
-                    "<font color='#B71C1C'>E</font> Jeden z veľkňazových sluhov, príbuzný toho, ktorému Peter odťal ucho, vravel: <font color='#B71C1C'>S</font> „A nevidel som ťa s ním v záhrade?!“<br>" +
-                    "<font color='#B71C1C'>E</font> Peter znova zaprel – a vtom zaspieval kohút."},
+            {"html|justify",
+                    "<font color='#B71C1C'>E</font> Kohorta, veliteľ a židovskí sluhovia Ježiša chytili, zviazali ho a priviedli najprv k Annášovi; bol totiž tesťom Kajfáša, ktorý bol veľkňazom toho roka. A bol to Kajfáš, čo poradil Židom: \"Je lepšie, ak zomrie jeden človek za ľud.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Za Ježišom šiel Šimon Peter a iný učeník. Ten učeník sa poznal s veľkňazom a vošiel s Ježišom do veľkňazovho dvora, Peter však ostal vonku pri dverách. Potom ten druhý učeník, čo sa poznal s veľkňazom, vyšiel, prehovoril s vrátničkou a voviedol ta Petra. Tu vrátnička povedala Petrovi: <font color='#B71C1C'>S</font> \"Nie si aj ty z učeníkov toho človeka?\"<br>" +
+                            "<font color='#B71C1C'>E</font> On vravel: <font color='#B71C1C'>S</font> \"Nie som.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Stáli tam sluhovia a strážnici, ktorí si rozložili oheň, lebo bolo chladno, a zohrievali sa. <font color='#B71C1C'>S</font> nimi stál aj Peter a zohrieval sa.<br>" +
+                            "<font color='#B71C1C'>E</font> Veľkňaz sa vypytoval Ježiša na jeho učeníkov a na jeho učenie. Ježiš mu odpovedal: <font color='#B71C1C'>✠</font> \"Ja som verejne hovoril svetu. Vždy som učil v synagóge a v chráme, kde sa schádzajú všetci Židia, a nič som nehovoril tajne. Prečo sa pýtaš mňa? Opýtaj sa tých, ktorí počuli, čo som im hovoril! Oni vedia, čo som hovoril.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Ako to povedal, jeden zo sluhov, čo tam stál, udrel Ježiša po tvári a povedal: <font color='#B71C1C'>S</font> \"Tak odpovedáš veľkňazovi?\"<br>" +
+                            "<font color='#B71C1C'>E</font> Ježiš mu odvetil: <font color='#B71C1C'>✠</font> \"Ak som zle povedal, dokáž, čo bolo zlé, ale ak dobre, prečo ma biješ?!\" <br>" +
+                            "<font color='#B71C1C'>E</font> A tak ho Annáš zviazaného poslal k veľkňazovi Kajfášovi."},
+                    {"italic|center", "Nie si aj ty z jeho učeníkov? Nie som"},
+            {"html|justify",
+                    "<font color='#B71C1C'>E</font> Šimon Peter tam stál a zohrieval sa. I pýtali sa ho: <font color='#B71C1C'>S</font> \"Nie si aj ty z jeho učeníkov?\"<br>" +
+                            "<font color='#B71C1C'>E</font> On zaprel: <font color='#B71C1C'>S</font> \"Nie som.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Jeden z veľkňazových sluhov, príbuzný toho, ktorému Peter odťal ucho, vravel: <font color='#B71C1C'>S</font> \"A nevidel som ťa s ním v záhrade?!\"<br>" +
+                            "<font color='#B71C1C'>E</font> Peter znova zaprel a vtom zaspieval kohút."},
             {"italic|center", "Moje kráľovstvo nie je z tohto sveta"},
-            {"html|justify", "<font color='#B71C1C'>E</font> Od Kajfáša viedli Ježiša do vládnej budovy. Bolo už ráno. Ale oni do vládnej budovy nevošli, aby sa nepoškvrnili a mohli jesť veľkonočného baránka. Preto vyšiel von za nimi Pilát a opýtal sa: <font color='#B71C1C'>S</font> „Akú žalobu podávate proti tomuto človeku?“<br>" +
-                    "<font color='#B71C1C'>E</font> Odpovedali mu: <font color='#B71C1C'>S</font> „Keby tento nebol zločinec, neboli by sme ti ho vydali.“<br>" +
-                    "<font color='#B71C1C'>E</font> Pilát im povedal: <font color='#B71C1C'>S</font> „Vezmite si ho vy a súďte podľa svojho zákona!“<br>" +
-                    "<font color='#B71C1C'>E</font> Židia mu odpovedali: <font color='#B71C1C'>S</font> „My nesmieme nikoho usmrtiť.“ Tak sa malo splniť Ježišovo slovo, ktorým naznačil, akou smrťou zomrie.<br>" +
-                    "<font color='#B71C1C'>E</font> Pilát opäť vošiel do vládnej budovy. Predvolal si Ježiša a spýtal sa ho: <font color='#B71C1C'>S</font> „Si židovský kráľ?“<br>" +
-                    "<font color='#B71C1C'>E</font> Ježiš odpovedal: <font color='#B71C1C'>✠</font> „Hovoríš to sám od seba, alebo ti to iní povedali o mne?“<br>" +
-                    "<font color='#B71C1C'>E</font> Pilát odvetil: <font color='#B71C1C'>S</font> „Vari som ja Žid? Tvoj národ a veľkňazi mi ťa vydali. Čo si vykonal?“<br>" +
-                    "<font color='#B71C1C'>E</font> Ježiš povedal: <font color='#B71C1C'>✠</font> „Moje kráľovstvo nie je z tohto sveta. Keby moje kráľovstvo bolo z tohto sveta, moji služobníci by sa bili, aby som nebol vydaný Židom. Lenže moje kráľovstvo nie je stadiaľto.“<br>" +
-                    "<font color='#B71C1C'>E</font> Pilát mu povedal: <font color='#B71C1C'>S</font> „Tak predsa si kráľ?“<br>" +
-                    "<font color='#B71C1C'>E</font> Ježiš odpovedal: <font color='#B71C1C'>✠</font> „Sám hovoríš, že som kráľ. Ja som sa na to narodil a na to som prišiel na svet, aby som vydal svedectvo pravde. Každý, kto je z pravdy, počúva môj hlas.“<br>" +
-                    "<font color='#B71C1C'>E</font> Pilát mu povedal: <font color='#B71C1C'>S</font> „Čo je pravda?“<br>" +
-                    "<font color='#B71C1C'>E</font> Ako to povedal, znova vyšiel k Židom a vravel im: <font color='#B71C1C'>S</font> „Ja na ňom nenachádzam nijakú vinu. Je však u vás zvykom, že vám na Veľkú noc prepúšťam jedného väzňa. Chcete teda, aby som vám prepustil židovského kráľa?“<br>" +
-                    "<font color='#B71C1C'>E</font> Oni znova kričali: <font color='#B71C1C'>S</font> „Toho nie, ale Barabáša!“ <font color='#B71C1C'>E</font> A Barabáš bol zbojník."},
-            {"italic|center", "Buď pozdravený, židovský kráľ!"},
-            {"html|justify", "<font color='#B71C1C'>E</font> Vtedy Pilát Ježiša vzal a dal ho zbičovať. Vojaci uplietli z tŕnia korunu, položili mu ju na hlavu a odeli ho do purpurového plášťa. Prichádzali k nemu a hovorili: <font color='#B71C1C'>S</font> „Buď pozdravený, židovský kráľ!“ <font color='#B71C1C'>E</font> A bili ho po tvári.<br>" +
-                    "<font color='#B71C1C'>E</font> Pilát znova vyšiel a povedal im: <font color='#B71C1C'>S</font> „Pozrite, privádzam vám ho von, aby ste vedeli, že na ňom nijakú vinu nenachádzam.“<br>" +
-                    "<font color='#B71C1C'>E</font> Ježiš vyšiel von s tŕňovou korunou a v purpurovom plášti. Pilát im povedal: <font color='#B71C1C'>S</font> „Hľa, človek!“<br>" +
-                    "<font color='#B71C1C'>E</font> Len čo ho zazreli veľkňazi a ich sluhovia, kričali: <font color='#B71C1C'>S</font> „Ukrižuj! Ukrižuj ho!“<br>" +
-                    "<font color='#B71C1C'>E</font> Pilát im povedal: <font color='#B71C1C'>S</font> „Vezmite si ho a ukrižujte. Ja na ňom nenachádzam vinu.“<br>" +
-                    "<font color='#B71C1C'>E</font> Židia mu odpovedali: <font color='#B71C1C'>S</font> „My máme zákon a podľa zákona musí umrieť, lebo sa vydával za Božieho Syna.“<br>" +
-                    "<font color='#B71C1C'>E</font> Keď to Pilát počul, ešte väčšmi sa naľakal. Znova vošiel do vládnej budovy a spýtal sa Ježiša: <font color='#B71C1C'>S</font> „Odkiaľ si?“ <br>" +
-                    "<font color='#B71C1C'>E</font> Ale Ježiš mu neodpovedal. Pilát sa ho spýtal: <font color='#B71C1C'>S</font> „So mnou sa nechceš rozprávať?! Nevieš, že mám moc prepustiť ťa a moc ukrižovať ťa?“<br>" +
-                    "<font color='#B71C1C'>E</font> Ježiš odpovedal: <font color='#B71C1C'>✠</font> „Nemal by si nado mnou nijakú moc, keby ti to nebolo dané zhora. Preto má väčší hriech ten, čo ma vydal tebe.“"},
+            {"html|justify",
+                    "<font color='#B71C1C'>E</font> Od Kajfáša viedli Ježiša do vládnej budovy. Bolo už ráno. Ale oni do vládnej budovy nevošli, aby sa nepoškvrnili a mohli jesť veľkonočného baránka. Preto vyšiel von za nimi Pilát a opýtal sa: <font color='#B71C1C'>S</font> \"Akú žalobu podávate proti tomuto človeku?\"<br>" +
+                            "<font color='#B71C1C'>E</font> Odpovedali mu: <font color='#B71C1C'>S</font> \"Keby tento nebol zločinec, neboli by sme ti ho vydali.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Pilát im povedal: <font color='#B71C1C'>S</font> \"Vezmite si ho vy a súďte podľa svojho zákona!\"<br>" +
+                            "<font color='#B71C1C'>E</font> Židia mu odpovedali: <font color='#B71C1C'>S</font> \"My nesmieme nikoho usmrtiť.\" <font color='#B71C1C'>E</font> Tak sa malo splniť Ježišovo slovo, ktorým naznačil, akou smrťou zomrie.<br>" +
+                            "<font color='#B71C1C'>E</font> Pilát opäť vošiel do vládnej budovy. Predvolal si Ježiša a spýtal sa ho: <font color='#B71C1C'>S</font> \"Si židovský kráľ?\"<br>" +
+                            "<font color='#B71C1C'>E</font> Ježiš odpovedal: <font color='#B71C1C'>✠</font> \"Hovoríš to sám od seba, alebo ti to iní povedali o mne?\"<br>" +
+                            "<font color='#B71C1C'>E</font> Pilát odvetil: <font color='#B71C1C'>S</font> \"Vari som ja Žid? Tvoj národ a veľkňazi mi ťa vydali. Čo si vykonal?\"<br>" +
+                            "<font color='#B71C1C'>E</font> Ježiš povedal: <font color='#B71C1C'>✠</font> \"Moje kráľovstvo nie je z tohto sveta. Keby moje kráľovstvo bolo z tohto sveta, moji služobníci by sa bili, aby som nebol vydaný Židom. Lenže moje kráľovstvo nie je stadiaľto.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Pilát mu povedal: <font color='#B71C1C'>S</font> \"Tak predsa si kráľ?\"<br>" +
+                            "<font color='#B71C1C'>E</font> Ježiš odpovedal: <font color='#B71C1C'>✠</font> \"Sám hovoríš, že som kráľ. Ja som sa na to narodil a na to som prišiel na svet, aby som vydal svedectvo pravde. Každý, kto je z pravdy, počúva môj hlas.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Pilát mu povedal: <font color='#B71C1C'>S</font> \"Čo je pravda?\"<br>" +
+                            "<font color='#B71C1C'>E</font> Ako to povedal, znova vyšiel k Židom a vravel im: <font color='#B71C1C'>S</font> \"Ja na ňom nenachádzam nijakú vinu. Je však u vás zvykom, že vám na Veľkú noc prepúšťam jedného väzňa. Chcete teda, aby som vám prepustil židovského kráľa?\"<br>" +
+                            "<font color='#B71C1C'>E</font> Oni znova kričali: <font color='#B71C1C'>S</font> \"Toho nie, ale Barabáša!\" <font color='#B71C1C'>E</font> A Barabáš bol zbojník."},
+                    {"italic|center", "Buď pozdravený, židovský kráľ!"},
+            {"html|justify",
+                    "<font color='#B71C1C'>E</font> Vtedy Pilát Ježiša vzal a dal ho zbičovať. Vojaci uplietli z tŕnia korunu, položili mu ju na hlavu a odeli ho do purpurového plášťa. Prichádzali k nemu a hovorili: <font color='#B71C1C'>S</font> \"Buď pozdravený, židovský kráľ!\" <font color='#B71C1C'>E</font> A bili ho po tvári.<br>" +
+                            "<font color='#B71C1C'>E</font> Pilát znova vyšiel a povedal im: <font color='#B71C1C'>S</font> \"Pozrite, privádzam vám ho von, aby ste vedeli, že na ňom nijakú vinu nenachádzam.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Ježiš vyšiel von s tŕňovou korunou a v purpurovom plášti. Pilát im povedal: <font color='#B71C1C'>S</font> \"Hľa, človek!\"<br>" +
+                            "<font color='#B71C1C'>E</font> Len čo ho zazreli veľkňazi a ich sluhovia, kričali: <font color='#B71C1C'>S</font> \"Ukrižuj! Ukrižuj ho!\"<br>" +
+                            "<font color='#B71C1C'>E</font> Pilát im povedal: <font color='#B71C1C'>S</font> \"Vezmite si ho a ukrižujte. Ja na ňom nenachádzam vinu.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Židia mu odpovedali: <font color='#B71C1C'>S</font> \"My máme zákon a podľa zákona musí umrieť, lebo sa vydával za Božieho Syna.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Keď to Pilát počul, ešte väčšmi sa naľakal. Znova vošiel do vládnej budovy a spýtal sa Ježiša: <font color='#B71C1C'>S</font> \"Odkiaľ si?\" <br>" +
+                            "<font color='#B71C1C'>E</font> Ale Ježiš mu neodpovedal. Pilát sa ho spýtal: <font color='#B71C1C'>S</font> \"So mnou sa nechceš rozprávať?! Nevieš, že mám moc prepustiť ťa a moc ukrižovať ťa?\"<br>" +
+                            "<font color='#B71C1C'>E</font> Ježiš odpovedal: <font color='#B71C1C'>✠</font> \"Nemal by si nado mnou nijakú moc, keby ti to nebolo dané zhora. Preto má väčší hriech ten, čo ma vydal tebe.\""},
             {"italic|center", "Preč s ním! Preč s ním! Ukrižuj ho!"},
-            {"html|justify", "<font color='#B71C1C'>E</font> Od tej chvíle sa Pilát usiloval prepustiť ho. Ale Židia kričali: <font color='#B71C1C'>S</font> „Ak ho prepustíš, nie si priateľom cisára. Každý, kto sa vydáva za kráľa, stavia sa proti cisárovi.“<br>" +
-                    "<font color='#B71C1C'>E</font> Keď Pilát počul tieto slová, vyviedol Ježiša von a sadol si na súdnu stolicu na mieste zvanom Lithostrotus, po hebrejsky Gabbatha. Bol Prípravný deň pred Veľkou nocou, okolo poludnia.<br>" +
-                    "<font color='#B71C1C'>E</font> Tu povedal Židom: <font color='#B71C1C'>S</font> „Hľa, váš kráľ!“<br>" +
-                    "<font color='#B71C1C'>E</font> Ale oni kričali: <font color='#B71C1C'>S</font> „Preč s ním! Preč s ním! Ukrižuj ho!“<br>" +
-                    "<font color='#B71C1C'>E</font> Pilát im povedal: <font color='#B71C1C'>S</font> „Vášho kráľa mám ukrižovať?!“<br>" +
-                    "<font color='#B71C1C'>E</font> Veľkňazi odpovedali: <font color='#B71C1C'>S</font> „Nemáme kráľa, iba cisára!“ Tak im ho teda vydal, aby ho ukrižovali. A oni prevzali Ježiša."},
-            {"italic|center", "Ukrižovali ho a s ním iných dvoch"},
-            {"html|justify", "<font color='#B71C1C'>E</font> Sám si niesol kríž a vyšiel na miesto, ktoré sa volá Lebka, po hebrejsky Golgota. Tam ho ukrižovali a s ním iných dvoch, z jednej i druhej strany, Ježiša v prostriedku. Pilát vyhotovil aj nápis a pripevnil ho na kríž. Bolo tam napísané: „Ježiš Nazaretský, židovský kráľ.“ Tento nápis čítalo mnoho Židov, lebo miesto, kde Ježiša ukrižovali, bolo blízko mesta; a bol napísaný po hebrejsky, latinsky a grécky.<br>" +
-                    "<font color='#B71C1C'>E</font> Židovskí veľkňazi povedali Pilátovi: <font color='#B71C1C'>S</font> „Nepíš: Židovský kráľ, ale: On povedal: ‚Som židovský kráľ.‘“<br>" +
-                    "<font color='#B71C1C'>E</font> Pilát odpovedal: <font color='#B71C1C'>S</font> „Čo som napísal, to som napísal.“"},
+            {"html|justify",
+                    "<font color='#B71C1C'>E</font> Od tej chvíle sa Pilát usiloval prepustiť ho. Ale Židia kričali: <font color='#B71C1C'>S</font> \"Ak ho prepustíš, nie si priateľom cisára. Každý, kto sa vydáva za kráľa, stavia sa proti cisárovi.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Keď Pilát počul tieto slová, vyviedol Ježiša von a sadol si na súdnu stolicu na mieste zvanom Lithostrotus, po hebrejsky Gabbatha. Bol Prípravný deň pred Veľkou nocou, okolo poludnia. <br>" +
+                            "<font color='#B71C1C'>E</font> Tu povedal Židom: <font color='#B71C1C'>S</font> \"Hľa, váš kráľ!\"<br>" +
+                            "<font color='#B71C1C'>E</font> Ale oni kričali: <font color='#B71C1C'>S</font> \"Preč s ním! Preč s ním! Ukrižuj ho!\"<br>" +
+                            "<font color='#B71C1C'>E</font> Pilát im povedal: <font color='#B71C1C'>S</font> \"Vášho kráľa mám ukrižovať?!\"<br>" +
+                            "<font color='#B71C1C'>E</font> Veľkňazi odpovedali: <font color='#B71C1C'>S</font> \"Nemáme kráľa, iba cisára!\" <font color='#B71C1C'>E</font> Tak im ho teda vydal, aby ho ukrižovali. A oni prevzali Ježiša."},
+                    {"italic|center", "Ukrižovali ho a s ním iných dvoch"},
+            {"html|justify",
+                    "<font color='#B71C1C'>E</font> Sám si niesol kríž a vyšiel na miesto, ktoré sa volá Lebka, po hebrejsky Golgota. Tam ho ukrižovali a s ním iných dvoch, z jednej i druhej strany, Ježiša v prostriedku. Pilát vyhotovil aj nápis a pripevnil ho na kríž. Bolo tam napísané: \"Ježiš Nazaretský, židovský kráľ.\" Tento nápis čítalo mnoho Židov, lebo miesto, kde Ježiša ukrižovali, bolo blízko mesta; a bol napísaný po hebrejsky, latinsky a grécky.<br>" +
+                            "<font color='#B71C1C'>E</font> Židovskí veľkňazi povedali Pilátovi: <font color='#B71C1C'>S</font> \"Nepíš: Židovský kráľ, ale: On povedal: ‚Som židovský kráľ.'\"<br>" +
+                            "<font color='#B71C1C'>E</font> Pilát odpovedal: <font color='#B71C1C'>S</font> \"Čo som napísal, to som napísal.\""},
             {"italic|center", "Rozdelili si moje šaty"},
-            {"html|justify", "<font color='#B71C1C'>E</font> Keď vojaci Ježiša ukrižovali, vzali jeho šaty a rozdelili ich na štyri časti, pre každého vojaka jednu. Vzali aj spodný odev. Ale tento odev bol nezošívaný, odhora v celku utkaný. Preto si medzi sebou povedali: <font color='#B71C1C'>S</font> „Netrhajme ho, ale losujme oň, čí bude!“ <font color='#B71C1C'>E</font> Aby sa splnilo Písmo:<br>" +
-                    "„Rozdelili si moje šaty<br>" +
-                    "a o môj odev hodili lós.“<br>" +
-                    "<font color='#B71C1C'>E</font> A vojaci to tak urobili."},
-            {"italic|center", "Hľa, tvoj syn! Hľa, tvoja matka!"},
-                    {"html|justify", "<font color='#B71C1C'>E</font> Pri Ježišovom kríži stála jeho matka, sestra jeho matky, Mária Kleopasova, a Mária Magdaléna. Keď Ježiš uzrel matku a pri nej učeníka, ktorého miloval, povedal matke: <font color='#B71C1C'>✠</font> „Žena, hľa, tvoj syn!“<br>" +
-                    "<font color='#B71C1C'>E</font> Potom povedal učeníkovi: <font color='#B71C1C'>✠</font> „Hľa, tvoja matka!“ A od tej hodiny si ju učeník vzal k sebe."},
-            {"italic|center", "Je dokonané"},
-            {"html|justify", "<font color='#B71C1C'>E</font> Potom Ježiš vo vedomí, že je už všetko dokonané, povedal, aby sa splnilo Písmo: <font color='#B71C1C'>✠</font> „Žíznim.“<br>" +
-                    "<font color='#B71C1C'>E</font> Bola tam nádoba plná octu. Nastokli teda na yzop špongiu naplnenú octom a podali mu ju k ústam. Keď Ježiš okúsil ocot, povedal: <font color='#B71C1C'>✠</font> „Je dokonané.“ <font color='#B71C1C'>E</font> Naklonil hlavu a odovzdal ducha."},
-            {"red", "Pokľakne sa a chvíľku je ticho."},
+            {"html|justify",
+                    "<font color='#B71C1C'>E</font> Keď vojaci Ježiša ukrižovali, vzali jeho šaty a rozdelili ich na štyri časti, pre každého vojaka jednu. Vzali aj spodný odev. Ale tento odev bol nezošívaný, odhora v celku utkaný. Preto si medzi sebou povedali: <font color='#B71C1C'>S</font> \"Netrhajme ho, ale losujme oň, čí bude!\" <font color='#B71C1C'>E</font> Aby sa splnilo Písmo: <br>" +
+                            "\"Rozdelili si moje šaty <br>" +
+                            "a o môj odev hodili lós.\" <br>" +
+                            "<font color='#B71C1C'>E</font> A vojaci to tak urobili."},
+                    {"italic|center", "Hľa, tvoj syn! Hľa, tvoja matka!"},
+                    {"html|justify",
+                            "<font color='#B71C1C'>E</font> Pri Ježišovom kríži stála jeho matka, sestra jeho matky, Mária Kleopasova, a Mária Magdaléna. Keď Ježiš uzrel matku a pri nej učeníka, ktorého miloval, povedal matke: <font color='#B71C1C'>✠</font> \"Žena, hľa, tvoj syn!\"<br>" +
+                                    "<font color='#B71C1C'>E</font> Potom povedal učeníkovi: <font color='#B71C1C'>✠</font> \"Hľa, tvoja matka!\" <font color='#B71C1C'>E</font> A od tej hodiny si ju učeník vzal k sebe."},
+                            {"italic|center", "Je dokonané"},
+            {"html|justify",
+                    "<font color='#B71C1C'>E</font> Potom Ježiš vo vedomí, že je už všetko dokonané, povedal, aby sa splnilo Písmo: <font color='#B71C1C'>✠</font> \"Žíznim.\"<br>" +
+                            "<font color='#B71C1C'>E</font> Bola tam nádoba plná octu. Nastokli teda na yzop špongiu naplnenú octom a podali mu ju k ústam. Keď Ježiš okúsil ocot, povedal: <font color='#B71C1C'>✠</font> \"Je dokonané.\" <font color='#B71C1C'>E</font> Naklonil hlavu a odovzdal ducha."},
+                    {"red", "Pokľakne sa a chvíľku je ticho."},
             {"italic|center", "Hneď vyšla krv a voda"},
-            {"html|justify", "<font color='#B71C1C'>E</font> Keďže bol Prípravný deň, Židia požiadali Piláta, aby ukrižovaným polámali nohy a sňali ich, aby nezostali telá na kríži cez sobotu, lebo v tú sobotu bol veľký sviatok. Prišli teda vojaci a polámali kosti prvému aj druhému, čo boli s ním ukrižovaní. No keď prišli k Ježišovi a videli, že je už mŕtvy, kosti mu nepolámali, ale jeden z vojakov mu kopijou prebodol bok a hneď vyšla krv a voda.<br>" +
-                    "<font color='#B71C1C'>E</font> A ten, ktorý to videl, vydal o tom svedectvo a jeho svedectvo je pravdivé. On vie, že hovorí pravdu, aby ste aj vy uverili. Toto sa stalo, aby sa splnilo Písmo: „Kosť mu nebude zlomená.“ A na inom mieste Písmo hovorí: „Uvidia, koho prebodli.“"},
-            {"italic|center", "Ježišovo telo zavinuli do plátna s voňavými olejmi"},
-                    {"html|justify","<font color='#B71C1C'>E</font> Potom Jozef z Arimatey, ktorý bol Ježišovým učeníkom, ale tajným, lebo sa bál Židov, poprosil Piláta, aby mu dovolil sňať Ježišovo telo. A Pilát dovolil. Išiel teda a sňal jeho telo.<br>" +
-                    "<font color='#B71C1C'>E</font> Prišiel aj Nikodém, ten, čo bol kedysi u neho v noci. Priniesol asi sto libier zmesi myrhy s aloou. Vzali Ježišovo telo a zavinuli ho do plátna s voňavými olejmi, ako je u Židov zvykom pochovávať. V tých miestach, kde bol ukrižovaný, bola záhrada a v záhrade nový hrob, v ktorom ešte nik neležal. Tam teda uložili Ježiša, lebo bol židovský Prípravný deň a hrob bol blízko.<br>" +
-                    "Počuli sme slovo Pánovo."},
+            {"html|justify",
+                    "<font color='#B71C1C'>E</font> Keďže bol Prípravný deň, Židia požiadali Piláta, aby ukrižovaným polámali nohy a sňali ich, aby nezostali telá na kríži cez sobotu, lebo v tú sobotu bol veľký sviatok. Prišli teda vojaci a polámali kosti prvému aj druhému, čo boli s ním ukrižovaní. No keď prišli k Ježišovi a videli, že je už mŕtvy, kosti mu nepolámali, ale jeden z vojakov mu kopijou prebodol bok a hneď vyšla krv a voda.<br>" +
+                            "<font color='#B71C1C'>E</font> A ten, ktorý to videl, vydal o tom svedectvo a jeho svedectvo je pravdivé. On vie, že hovorí pravdu, aby ste aj vy uverili. Toto sa stalo, aby sa splnilo Písmo: \"Kosť mu nebude zlomená.\" A na inom mieste Písmo hovorí: \"Uvidia, koho prebodli.\""},
+                    {"italic|center", "Ježišovo telo zavinuli do plátna s voňavými olejmi"},
+                    {"html|justify",
+                            "<font color='#B71C1C'>E</font> Potom Jozef z Arimatey, ktorý bol Ježišovým učeníkom, ale tajným, lebo sa bál Židov, poprosil Piláta, aby mu dovolil sňať Ježišovo telo. A Pilát dovolil. Išiel teda a sňal jeho telo.<br>" +
+                                    "<font color='#B71C1C'>E</font> Prišiel aj Nikodém, ten, čo bol kedysi u neho v noci. Priniesol asi sto libier zmesi myrhy s aloou. Vzali Ježišovo telo a zavinuli ho do plátna s voňavými olejmi, ako je u Židov zvykom pochovávať. V tých miestach, kde bol ukrižovaný, bola záhrada a v záhrade nový hrob, v ktorom ešte nik neležal. Tam teda uložili Ježiša, lebo bol židovský Prípravný deň a hrob bol blízko.<br>" +
+                                    "Počuli sme slovo Pánovo."},
             {"center", "Modlitba veriacich"},
             {"html|small|justify", "<font color='#B71C1C'>11. Poslednou časťou liturgie slova je modlitba veriacich. Diakon, alebo ak ho niet, posluhujúci laik, stojí pri ambóne a prednáša výzvu, ktorou oznámi úmysel. Potom všetci zotrvajú chvíľu v tichej modlitbe. Nato kňaz, stojaci pri sedadle alebo podľa okolností pri oltári, prednáša s rozopätými rukami modlitbu.<br>" +
                     "Veriaci počas modlitby stoja alebo kľačia.<br>" +

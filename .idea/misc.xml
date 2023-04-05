@@ -30,6 +30,29 @@
         <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/missa_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dominika/StudioProjects/Missa/app/src/main/res/layout/zoom.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dominika_Mihalova/StudioProjects/Missa/app/src/main/res/layout/activity_uvod.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/dialog_background.xml" value="0.2275" />
+        <entry key="app/src/main/res/drawable/dialog_background_night.xml" value="0.2275" />
+        <entry key="app/src/main/res/drawable/dialog_title_background.xml" value="0.2275" />
+        <entry key="app/src/main/res/drawable/dialog_title_background_night.xml" value="0.2275" />
+        <entry key="app/src/main/res/drawable/menu_background.xml" value="0.2275" />
+        <entry key="app/src/main/res/drawable/rounded_corners.xml" value="0.2275" />
+        <entry key="app/src/main/res/layout/activity_jazyky.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/activity_kalendar.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/activity_misal.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/activity_uvod.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/bottom_menu.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/bottom_menu_landscape.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/custom_dialog.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/mass_text_view.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/menu_header.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/switch_item.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/toast_layout.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/word_list.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/layout/zoom.xml" value="0.23007246376811594" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/menu/bottom_portrait.xml" value="0.23697916666666666" />
+        <entry key="app/src/main/res/menu/misal_menu.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/menu/missa_menu.xml" value="0.23802083333333332" />
       </map>
     </option>
   </component>

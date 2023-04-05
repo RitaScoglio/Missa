@@ -505,8 +505,8 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
 
             if (!month[index][2].equals("Sviatok") && !month[index][2].equals("Slávnosť"))
                 prvyPiatok = prvyStvrtok = true;
-            if (month[index][2].equals("Spomienka") || month[index][1].equals("Najsvätejšieho mena Panny Márie"))
-                pm = true;
+            if (month[index][0].contains("m"))
+                pm = false;
             if (!month[index][2].equals("Slávnosť") && mD.isEqual(mSPM)) //neposkvrneneho srdca panny marie
                 words.add(new Calendar("Nepoškvrnené Srdce preblahoslavenej Panny Márie", "Spomienka", "(biela)", day, cezrok, "4mp", "c"));
             do {
