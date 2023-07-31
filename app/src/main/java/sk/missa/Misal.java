@@ -739,11 +739,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         }
         //ak je na výber viac čítaní
         //Premenenie Pana - ak nie je v nedelu, druhe citanie je ako alternativa k prvemu
-        if (ID.equals("06gn") && m == 7 && dvt == 0){
-            druhe_citanie_suradnice = citanie[index][7];
-            druhe_citanie_citat = citanie[index][8];
-            druhe_citanie_vypis = citanie[index][9];
-        } else if ((index != -1 && citanie[index].length > 6 && !(ID.equals("02g") && m == 1 && dvt == 0))) {
+        if ((index != -1 && citanie[index].length > 6 && !(ID.equals("02g") && m == 1 && dvt == 0)) && !(ID.equals("06gn") && m == 7 && dvt == 0))  {
             aleboCitanie(citanie, index, 1);
         }
     }
@@ -914,7 +910,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
     public void druheCitanie() {
         druhe_citanie = null;
         //vynimka z "n" pre Premenenie Pána a Povýšenie sv. Kríža (v nedelu su dve citania v tyzdni sa druhe citanie dava ako alebo moznost k prvemu)
-        boolean vynimka_n = (m == 7 && ID.equals("06gn")) || (m == 8 && ID.equals("14gn"));
+        boolean vynimka_n = ((m == 7 && ID.equals("06gn")) || (m == 8 && ID.equals("14gn"))) & dvt == 0;
         //zisti ci je druhe citanie v dany den
         if ((ID.contains("k") || (ID.contains("n") && (nedela || vynimka_n)) || menoSvatca.equals("POPOLCOVÁ STREDA") ||
                 nedela || (ID.equals("02g") && m == 1 && dvt == 0)) && !slavenie.equals("Oktáva")) {
