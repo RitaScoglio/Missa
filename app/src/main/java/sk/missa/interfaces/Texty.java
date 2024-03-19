@@ -3418,7 +3418,7 @@ public interface Texty {
                             "Počuli sme slovo Pánovo.<br>" +
                             "<font color='#B71C1C'>Kňaz sa môže krátko prihovoriť. Potom nasleduje spoločná modlitba.<br>" +
                             "SPOLOČNÁ MODLITBA VERIACICH</font><br>" +
-                            "<font color='#B71C1C'>K.:</font> Milovaní bratia a sestry, keď na túto hasičskú zbrojnicu zvolávame Pánovo požehnanie, majme pred očami, že konaním dobra pre blíž¬neho, oslavujeme samého Stvoriteľa. Vzývajme ho teda a volajme:<br>" +
+                            "<font color='#B71C1C'>K.:</font> Milovaní bratia a sestry, keď na túto hasičskú zbrojnicu zvolávame Pánovo požehnanie, majme pred očami, že konaním dobra pre blížneho, oslavujeme samého Stvoriteľa. Vzývajme ho teda a volajme:<br>" +
                             "<font color='#B71C1C'>(</font>Posväť nás, Pane.<font color='#B71C1C'>)</font><br>" +
                             "<font color='#B71C1C'>1.</font> Pane Ježišu, ty si domáci život posvätil spolu s Máriou a Jozefom; nauč všetkých, ktorý sa budú nachádzať v týchto priestoroch, byť jeden druhému darom a bratom, aby sa ich vzájomné vzťahy správne rozvíjali.<br>" +
                             "<font color='#B71C1C'>2.</font> Pane, daruj naším záchranárom silu a odvahu, v potrebnom čase byť pripravenými ísť pomáhať ľuďom v núdzi.<br>" +
@@ -3446,7 +3446,7 @@ public interface Texty {
                             "taví kov a čistí zlato, <br>" +
                             "ale môže sa stať pre človeka a zviera <br>" +
                             "a pre všetko čo má a vlastní, aj nebezpečným. <br>" +
-                            "Požehnaj ✠ a posväť túto sochu <font color='#B71C1C'>(</font>toto záchranné vozidlo<font color='#B71C1C'></font>)<br>" +
+                            "Požehnaj <font color='#B71C1C'>✠</font> a posväť túto sochu <font color='#B71C1C'>(</font>toto záchranné vozidlo<font color='#B71C1C'>)</font><br>" +
                             "a na príhovor svätého Floriána ochraňuj ľudí, <br>" +
                             "ktorých si ustanovil za hasičov do služby k dobru spoločenstva. <br>" +
                             "Nás všetkých ochraňuj pred škodou, <br>" +

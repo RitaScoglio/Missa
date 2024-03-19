@@ -2135,7 +2135,7 @@ public interface Zalmy_svatci {
             {"29", "", "", "Jn 8, 12", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Ja som svetlo sveta, hovorí Pán; kto mňa nasleduje, bude mať svetlo života. <font color='#B71C1C'>– R.</font> Aleluja."},
     };
     String[][] aleluja8 = {
-            {"06gn", "", "", "Mt 17, 5c", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Toto je môj milovaný Syn, v ktorom mám zaľúbenie; počúvajte ho. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"06gn", "", "", "Mt 17, 5c", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Pánovu slávu uvidia všetky národy. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"09g", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Toto je múdra panna, lebo ju Pán našiel bedliť; keď prišiel ženích, vošla s ním na svadobnú hostinu. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"10g", "", "", "Jn 8, 12bc", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Kto mňa nasleduje, nebude chodiť v tmách, ale bude mať svetlo života, hovorí Pán. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"14gkm", "", "", "Lk 11, 28", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Blahoslavení sú tí, čo počúvajú Božie slovo a zachovávajú ho. <font color='#B71C1C'>– R.</font> Aleluja."},

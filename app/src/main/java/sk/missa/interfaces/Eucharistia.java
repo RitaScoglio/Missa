@@ -525,7 +525,7 @@ public interface Eucharistia {
                     "a slúžil iba tebe, svojmu Stvoriteľovi.<br>" +
                     "A keď pre svoju neposlušnosť<br>" +
                     "stratil tvoje priateľstvo,<br>" +
-                    "neponechal si ho v moci smrti, br>" +
+                    "neponechal si ho v moci smrti, <br>" +
                     "ale milosrdne si pomáhal všetkým,<br>" +
                     "aby ťa hľadali a našli.<br>" +
                     "Viac ráz si ľuďom ponúkol zmluvu<br>" +

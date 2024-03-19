@@ -2845,7 +2845,7 @@ public interface Citania_cezrok {
                             "Počuli sme Božie slovo."},
             {"22", "3", "1", "Kol 1, 1-8",
                     "Prišlo k\u00A0vám pravdivé slovo evanjelia; prináša ovocie na\u00A0celom svete",
-                    "Začiatok Listu svätého apoštola Pavla Solúnčanom List Kolosanom<br>" +
+                    "Začiatok Listu svätého apoštola Pavla Kolosanom<br>" +
                             "Pavol, z\u00A0Božej vôle apoštol Krista Ježiša, a brat Timotej tým svätým a veriacim bratom v\u00A0Kristovi, čo sú v\u00A0Kolosách: Milosť vám a pokoj od\u00A0Boha, nášho Otca.<br>" +
                             "Vzdávame vďaky Bohu, Otcovi nášho Pána Ježiša Krista, vždy, keď sa za\u00A0vás modlíme, lebo sme počuli o\u00A0vašej viere v\u00A0Krista Ježiša a o\u00A0láske, akú máte k\u00A0všetkým svätým, pre\u00A0nádej, ktorú máte uloženú v\u00A0nebi. Už ste o\u00A0nej počuli v\u00A0pravdivom slove evanjelia. Ono k\u00A0vám prišlo a ako na\u00A0celom svete prináša ovocie a rastie, tak aj u\u00A0vás od\u00A0toho dňa, keď ste počuli a spoznali Božiu milosť v\u00A0pravde. Tak ste sa to naučili od\u00A0nášho milovaného spolupracovníka Epafrasa. On namiesto nás verne slúži Kristovi; on nám rozprával aj o\u00A0vašej láske v\u00A0Duchu.<br>" +
                             "Počuli sme Božie slovo."},

@@ -1330,22 +1330,22 @@ public interface Language {
             {"Amen."},
             {"Le Seigneur soit avec vous.", "Pán s vami"},
             {"Et avec votre esprit.", "I s duchom Tvojím.\n"},
-            {"Préparons-nous à la célébration de l'Eucharistie en reconnaissant que nous sommes pécheurs.",
+            {"Frères et sœurs, préparons-nous à célébrer le mystère de l'Eucharistie, en reconnaissant que nous avons péché.",
                     "Bratia a sestry, uznajme svoje hriechy, aby sme mohli s čistým srdcom sláviť sväté tajomstvá."},
             {"Je confesse à Dieu tout-puissant,\n" +
-                    "je reconnais devant mes frères,\n" +
+                    "je reconnais devant vous, frères et sœurs,   \n" +
                     "que j'ai péché\n" +
                     "en pensée, en parole,\n" +
                     "par action et par omission,\n" +
                     "oui, j'ai vraiment péché.\n" +
                     "C'est pourquoi je supplie\n" +
-                    "la Vierge Marie,\n" +
+                    "la bienheureuse Vierge Marie,\n" +
                     "les anges et tous les saints,\n" +
-                    "et vous aussi, mes frères,\n" +
+                    "et vous aussi, frères et sœurs,\n" +
                     "de prier pour moi\n" +
                     "le Seigneur notre Dieu.",
                     "Vyznávam všemohúcemu Bohu i vám, bratia a sestry, že som veľa zhrešil myšlienkami, slovami, skutkami a zanedbávaním dobrého. Moja vina, moja vina, moja preveľká vina. Preto prosím blahoslavenú Máriu, vždy Pannu, všetkých anjelov a svätých, i vás, bratia a sestry, modlite sa za mňa k Pánu Bohu nášmu."},
-            {"Que Dieu tout-puissant nous fasse miséricorde; qu'il nous pardonne nos péchés et nous conduise à la vie éternelle.",
+            {"Que Dieu tout-puissant nous fasse miséricorde ; qu'il nous pardonne nos péchés et nous conduise à la vie éternelle.",
                     "Nech sa nad nami zmiluje všemohúci Boh, nech nám hriechy odpustí a privedie nás do večného života."},
             {"Amen.\n"},
             {"Seigneur, prends pitié.", "Pane, zmiluj sa."},
@@ -1357,7 +1357,7 @@ public interface Language {
             {"Gloire à Dieu,\n" +
                     "au plus haut des cieux,\n" +
                     "et paix sur la terre\n" +
-                    "aux hommes qu'il aime.\n" +
+                    "aux hommes qu'Il aime.\n" +
                     "Nous te louons, nous te bénissons,\n" +
                     "nous t'adorons, nous te glorifions,\n" +
                     "nous te rendons grâce,\n" +
@@ -1367,13 +1367,13 @@ public interface Language {
                     "Seigneur, Fils unique, Jésus Christ,\n" +
                     "Seigneur Dieu, Agneau de Dieu,\n" +
                     "le Fils du Père;\n" +
-                    "toi qui enlèves le péché du monde,\n" +
+                    "toi qui enlèves les péchés du monde,\n" +
                     "prends pitié de nous;\n" +
-                    "toi qui enlèves le péché du monde,\n" +
+                    "toi qui enlèves les péchés du monde,\n" +
                     "reçois notre prière;\n" +
                     "toi qui es assis à la droite du Père,\n" +
                     "prends pitié de nous.\n" +
-                    "Car toi seul es saint,\n" +
+                    "Car toi seul es Saint,\n" +
                     "toi seul es Seigneur,\n" +
                     "toi seul es le Très-Haut:\n" +
                     "Jésus Christ, avec le Saint-Esprit\n" +
@@ -1383,12 +1383,12 @@ public interface Language {
             {"Nous rendons grâce à Dieu.", "Bohu vďaka.\n"},
             {"Le Seigneur soit avec vous.", "Pán s vami."},
             {"Et avec votre esprit.", "I s duchom tvojím."},
-            {"Evangile de Jésus-Christ selon saint...", "Čítanie zo svätého evanjelia podľa..."},
+            {"Évangile de Jésus-Christ selon saint...", "Čítanie zo svätého evanjelia podľa..."},
             {"Gloire à toi, Seigneur.", "Sláva tebe, Pane.\n"},
             {"Acclamons la Parole de Dieu.", "Počuli sme slovo Pánovo."},
             {"Louange à toi, Seigneur Jésus.", "Chvála tebe, Kriste.\n"},
             {"Je crois en un seul Dieu,\n" +
-                    "Le Père tout-puissant,\n" +
+                    "le Père tout-puissant,\n" +
                     "créateur du ciel et de la terre,\n" +
                     "de l'univers visible et invisible.\n" +
                     "Je crois en un seul Seigneur,\n" +
@@ -1398,7 +1398,7 @@ public interface Language {
                     "lumière, née de la lumière,\n" +
                     "vrai Dieu, né du vrai Dieu.\n" +
                     "Engendré, non pas créé,\n" +
-                    "de même nature que le Père;\n" +
+                    "consubstantiel au Père ;\n" +
                     "et par lui tout a été fait.\n" +
                     "Pour nous les hommes, et pour\n" +
                     "notre salut, il descendit du ciel.\n" +
@@ -1419,26 +1419,26 @@ public interface Language {
                     "Je crois en l'Esprit Saint,\n" +
                     "qui est Seigneur et qui donne la vie;\n" +
                     "il procède du Père et du Fils;\n" +
-                    "avec le Père et le Fils\n" +
+                    "Avec le Père et le Fils\n" +
                     "il reçoit même adoration\n" +
                     "et même gloire;\n" +
                     "il a parlé par les prophètes.\n" +
-                    "Je crois en l'Eglise, une, sainte,\n" +
+                    "Je crois en l'Église, une, sainte,\n" +
                     "catholique et apostolique.\n" +
                     "Je reconnais un seul baptême\n" +
                     "pour le pardon des péchés.\n" +
                     "J'attends la résurrection des morts,\n" +
                     "et la vie du monde à venir.\n" +
                     "Amen.\n"},
-            {"Tu es béni, Dieu de l'univers, toi qui nous donnes ce pain, fruit de la terre et du travail des hommes; nous te le présentons: il deviendra le pain de la vie.",
+            {"Tu es béni, Seigneur, Dieu de l'univers : nous avons reçu de ta bonté le pain que nous te présentons, fruit de la terre et du travail des hommes ; il deviendra pour nous le pain de la vie.",
                     "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali tento chlieb. Obetujeme ti ho ako plod zeme a práce ľudských rúk, aby sa nám stal chlebom života."},
             {"Béni soit Dieu, maintenant et toujours.", "Požehnaný Boh naveky!"},
-            {"Tu es béni, Dieu de l’univers, toi qui nous donnes ce vin, fruit de la vigne et du travail des hommes; nous te le présentons: il deviendra le vin du Royaume éternel.",
+            {"Tu es béni, Seigneur, Dieu de l’univers : nous avons reçu de ta bonté le vin que nous te présentons, fruit de la vigne et du travail des hommes ; il deviendra pour nous le vin du Royaume éternel.",
                     "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali toto víno. Obetujeme ti ho ako plod viniča a práce ľudských rúk, aby sa nám stalo duchovným nápojom."},
             {"Béni soit Dieu, maintenant et toujours.", "Požehnaný Boh naveky!\n"},
-            {"Prions ensemble, au moment d'offrir le sacrifice de toute l'Église.",
+            {"Priez, frères et sœurs : que mon sacrifice, qui est aussi le vôtre, soit agréable à Dieu le Père tout-puissant.",
                     "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila všemohúcemu Bohu Otcovi."},
-            {"Pour la gloire de Dieu et le salut du monde.",
+            {"Que le Seigneur reçoive de vos mains ce sacrifice à la louange de son nom, pour notre bien et celui de toute l’Église.",
                     "Nech Pán prijeme obetu z tvojich rúk na chválu a slávu svojho mena, na úžitok nám i celej svätej Cirkvi.\n"},
             {"Le Seigneur soit avec vous.", "Pán s vami."},
             {"Et avec votre esprit.", "I s duchom tvojím."},
@@ -1455,57 +1455,56 @@ public interface Language {
                     "au nom du Seigneur.\n" +
                     "Hosanna au plus haut des cieux.\n"},
             {"Il est grand le mystère de la foi.", "Hľa, tajomstvo viery."},
-            {"Nous proclamons ta mort, Seigneur Jésus, nous célébrons ta résurrection, nous attendons ta venue dans la gloire.",
+            {"Nous annonçons ta mort, Seigneur Jésus, nous proclamons ta résurrection, nous attendons ta venue dans la gloire.",
                     "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve."},
             {""},
-            {"Nous rappelons ta mort, Seigneur ressuscité, et nous attendons que tu viennes.",
+            {"Quand nous mangeons ce Pain et buvons à cette Coupe, nous annonçons ta mort, Seigneur ressuscité, et nous attendons que tu viennes.",
                     "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve."},
             {""},
             {"Gloire à toi qui étais mort, gloire à toi qui es vivant, notre Sauveur et notre Dieu: Viens, Seigneur Jésus!",
                     "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.\n"},
-            {"Comme nous l'avons appris du Sauveur et selon son commandement, nous osons dire:",
+            {"Comme nous l'avons appris du Sauveur, et selon son commandement, nous osons dire::",
                     "Na príkaz nášho spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:"},
-            {"Notre Père, qui es aux cieux, \n" +
-                    "que ton nom soit sanctifié; \n" +
-                    "que ton règne vienne, \n" +
+            {"Notre Père, qui es aux cieux,\n" +
+                    "que ton nom soit sanctifié;\n" +
+                    "que ton règne vienne,\n" +
                     "que ta volonté soit faite\n" +
-                    "sur la terre comme au ciel. \n" +
+                    "sur la terre comme au ciel.\n" +
                     "Donne-nous aujourd'hui\n" +
-                    "notre pain de ce jour. \n" +
-                    "Pardonne-nous nos offenses, \n" +
+                    "notre pain de ce jour.\n" +
+                    "Pardonne-nous nos offenses,\n" +
                     "comme nous pardonnons aussi\n" +
-                    "à ceux qui nous ont offensés. \n" +
-                    "Et ne nous soumets pas\n" +
-                    "à la tentation, \n" +
+                    "à ceux qui nous ont offensés.\n" +
+                    "Et ne laisse pas entrer en tentation,\n" +
                     "mais délivre-nous du Mal."},
-            {"Délivre-nous de tout mal, Seigneur, et donne la paix à notre temps; par ta miséricorde, libère-nous du péché, rassure-nous devant les épreuves en cette vie où nous espérons le bonheur que tu promets et l'avènement de Jésus Christ, notre Sauveur."},
+            {"Délivre-nous de tout mal, Seigneur, et donne la paix à notre temps : soutenus par ta miséricorde, nous serons libérés de tout péché, à l’abri de toute épreuve, nous qui attendons que se réalise cette bienheureuse espérance : l'avènement de Jésus Christ, notre Sauveur."},
             {"Car c'est à toi qu'appartiennent le règne, la puissance et la gloire, pour les siècles des siècles.", "Lebo tvoje je kráľovstvo a moc i sláva naveky.\n"},
-            {"Seigneur Jésus Christ, tu as dit à tes Apôtres: \"Je vous laisse la paix, je vous donne ma paix\"; ne regarde pas nos péchés mais la foi de ton Église; pour que ta volonté s’accomplisse, donne-lui toujours cette paix, et conduis-la vers l'unité parfaite, toi qui règnes pour les siècles des siècles."},
+            {"Seigneur Jésus Christ, tu as dit à tes Apôtres : \"Je vous laisse la paix, je vous donne ma paix\"; ne regarde pas nos péchés mais la foi de ton Église ; pour que ta volonté s’accomplisse, donne-lui toujours cette paix, et conduis-la vers l'unité parfaite, toi qui vis et règnes pour les siècles des siècles."},
             {"Amen."},
             {"Que la paix du Seigneur soit toujours avec vous.", "Pokoj Pánov nech je vždy s vami."},
             {"Et avec votre esprit.", "I s duchom tvojím."},
-            {"Frères et sœurs, dans la charité du Christ, donnez-vous la paix.", "Dajte si znak pokoja.\n"},
-            {"Agneau de Dieu, qui enlèves le péché du monde, prends pitié de nous.",
+            {"Dans la charité du Christ, donnez-vous la paix.", "Dajte si znak pokoja.\n"},
+            {"Agneau de Dieu, qui enlèves les péchés du monde, prends pitié de nous.",
                     "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n",
-                    "Agneau de Dieu, qui enlèves le péché du monde, prends pitié de nous.",
+                    "Agneau de Dieu, qui enlèves les péchés du monde, prends pitié de nous.",
                     "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n",
-                    "Agneau de Dieu, qui enlèves le péché du monde, donne-nous la paix.",
+                    "Agneau de Dieu, qui enlèves les péchés du monde, donne-nous la paix.",
                     "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj."},
-            {"Heureux les invités au repas du Seigneur! Voici l'Agneau de Dieu qui enlève le péché du monde.",
+            {"Voici l'Agneau de Dieu, voici celui qui enlève les péchés du monde. Heureux les invités au repas des noces de l’Agneau!",
                     "Hľa, Baránok Boží, ktorý sníma hriechy sveta: daruj nám pokoj."},
-            {"Seigneur, je ne suis pas digne de te recevoir; mais dis seulement une parole et je serai guéri.",
+            {"Seigneur, je ne suis pas digne de te recevoir; mais dis seulement une parole, et je serai guéri.",
                     "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."},
             {"Le corps du Christ.", "Telo Kristovo."},
             {"Amen.\n"},
             {"Le Seigneur soit avec vous.", "Pán s vami."},
             {"Et avec votre esprit.", "I s duchom tvojím."},
-            {"Que Dieu tout-puissant vous bénisse, le Père, le Fils <font color='#B71C1C'>†</font> et le Saint-Esprit.",
+            {"Que Dieu tout-puissant vous bénisse, le Père, et le Fils <font color='#B71C1C'>†</font> et le Saint-Esprit.",
                     "Nech vás žehná všemohúci Boh, Otec i Syn † i Duch Svätý."},
             {"Amen."},
             {"Allez, dans la paix du Christ.", "Choďte v mene Božom."},
             {"Nous rendons grâce à Dieu.", "Bohu vďaka."},
             //Bonusove časti
-            {"Quand nous mangeons ce pain et buvons à cette coupe, nous célébrons le mystère de la foi.", "Vyznajme Tajomstvo viery"},
+            {"Acclamons le mystère de la foi.", "Vyznajme Tajomstvo viery"},
             {"Proclamons le mystère de la foi.", "Veľké je tajomstvo viery."},
     };
 

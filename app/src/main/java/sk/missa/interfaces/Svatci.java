@@ -249,7 +249,7 @@ public interface Svatci {
             {"30gv", "TRNAVSKÁ ARCIDIECÉZA: Výročie posviacky katedrálneho chrámu svätého Jána Krstiteľa v Trnave", "Sviatok", "(biela)"},
     };
     String[][] month9 = {
-            {"01", "O Duchu Svätom (na začiatku školského roka)", "Votívna omša", "(biela)"},
+            {"01o", "O Duchu Svätom (na začiatku školského roka)", "Votívna omša", "(biela)"},
             {"03", "Sv. Gregora Veľkého, pápeža a učiteľa Cirkvi", "Spomienka", "(biela)"},
             {"06gv", "KOŠICKÁ ARCIDIECÉZA: Výročie posviacky katedrálného chrámu svätej Alžbety", "Sviatok", "(biela)"},
             {"07", "Sv. Marka Križina, Melichara Grodzieckého a Štefana Pongrácza, kňazov a mučeníkov", "Spomienka", "(červená)"},
