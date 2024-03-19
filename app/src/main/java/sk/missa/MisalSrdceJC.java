@@ -152,7 +152,7 @@ public class MisalSrdceJC extends Misal {
         nast_farbu = spevO = modlitbaO = prosbyO = citanie1O = zalmO = alelujaO = evanjeliumO = false;
 
         //nastaví toolbar, fullscreen a režim v menu
-        setToolbar();
+        setToolbar("Omša o Najsvätejšom Srdci Ježišovom");
         setFullscreen();
         menuRezim();
 

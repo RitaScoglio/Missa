@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.view.GravityCompat;
 import android.util.Log;
+import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -208,15 +209,6 @@ public class Uvod extends Main {
         sviatokDen();
     }
 
-    private void setBottomMenu(int orientation) {
-       LinearLayout linear = (LinearLayout)findViewById(R.id.bottom_menu_layout);
-            linear.removeAllViews();
-            LayoutInflater inflater = LayoutInflater.from(Uvod.this);
-            LinearLayout layout = (LinearLayout) inflater.inflate(R.layout.bottom_menu, null, false);
-            linear.addView(layout);
-
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -228,7 +220,7 @@ public class Uvod extends Main {
         setContentView(R.layout.activity_uvod);
 
         //nastavenie menu
-        setBottomMenu(this.getResources().getConfiguration().orientation);
+        setBottomMenu(this);
 
         setAll();
     }
@@ -346,40 +338,18 @@ public class Uvod extends Main {
                     tyzden = word.getTyzden();
                     pozicia_eucharistia = 1;
                     if (ID.contains("3dni")) {
-                       /* LayoutInflater inflater = getLayoutInflater();
-                        View layout = inflater.inflate(R.layout.toast_layout,
-                                (ViewGroup) findViewById(R.id.toast));
-                        TextView txt = layout.findViewById(R.id.text);
-                        txt.setText("Pripravuje sa.");
-                        Toast toast = new Toast(getApplicationContext());
-                        toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
-                        toast.setDuration(Toast.LENGTH_LONG);
-                        toast.setView(layout);
-                        toast.show();*/
-                        //zIntent = true;
-                        menoSvatca = word.getMenoSvatca();
-                        slavenie = word.getSlavenie();
-                        obdobie = word.getObdobie();
-                        pozicia_formular = pozicia_prefacia = pozicia_eucharistia = 0;
-                        preface = false;
-                        euchText = "";
-                        C = A = V = P = VN = false;
-                        zIntent = true;
-                        Intent misal = new Intent(Uvod.this, Trojdnie.class);
-                        startActivity(misal);
-                    } else {
-                        menoSvatca = word.getMenoSvatca();
-                        slavenie = word.getSlavenie();
-                        obdobie = word.getObdobie();
-                        pozicia_formular = pozicia_prefacia = 0;
-                        preface = false;
-                        euchText = "";
-                        C = A = V = P = VN = false;
-                        zIntent = true;
-                        Log.d("datum", String.valueOf(zIntent));
-                        Intent misal = new Intent(Uvod.this, MisalNormal.class);
-                        startActivity(misal);
+                        pozicia_eucharistia = 0;
                     }
+                    menoSvatca = word.getMenoSvatca();
+                    slavenie = word.getSlavenie();
+                    obdobie = word.getObdobie();
+                    pozicia_formular = pozicia_prefacia = 0;
+                    preface = false;
+                    euchText = "";
+                    C = A = V = P = VN = false;
+                    zIntent = true;
+                    Intent misal = new Intent(Uvod.this, MisalNormal.class);
+                    startActivity(misal);
                 }
             }
         });
@@ -414,20 +384,32 @@ public class Uvod extends Main {
         sizeZ = 35 + s;
     }
 
+    public void openToday(View view) {
+        zIntent = true;
+        Intent misal = new Intent(getApplicationContext(), Uvod.class);
+        startActivity(misal);
+    }
+
     public void openCalendar(View view) {
         Intent kalendar = new Intent(getApplicationContext(), Kalendar.class);
         startActivity(kalendar);
     }
 
     public void openSpecialMass(View view) {
-        vyberOmsu(Uvod.this);
+        optionIntent = new Pair<>("specialMass", "");
+        Intent options = new Intent(getApplicationContext(), Options.class);
+        startActivity(options);
     }
 
     public void openBlessing(View view) {
-        vyberPozehnania();
+        optionIntent = new Pair<>("bless", "");
+        Intent options = new Intent(getApplicationContext(), Options.class);
+        startActivity(options);
     }
 
     public void openLanguages(View view) {
-        vyberJazyk(Uvod.this);
+        optionIntent = new Pair<>("language", "");
+        Intent options = new Intent(getApplicationContext(), Options.class);
+        startActivity(options);
     }
 }

@@ -156,7 +156,7 @@ public class MisalPM extends Misal {
         nast_farbu = spevO = modlitbaO = prosbyO = citanie1O = zalmO = alelujaO = evanjeliumO = false;
 
         //nastaví toolbar, fullscreen a režim v menu
-        setToolbar();
+        setToolbar("Spoločné omše preblahoslavenej Panny Márie");
         setFullscreen();
         menuRezim();
 

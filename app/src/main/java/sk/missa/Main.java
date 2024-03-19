@@ -23,6 +23,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.util.Log;
+import android.util.Pair;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -31,6 +32,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -67,6 +69,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     public static int farba_b, farba_r;
     public static boolean uvodLayout;
     public static Integer jazyk, omsa, themeStyle;
+    public static Pair<String, String> optionIntent;
     static Typeface typeNormal, typeBold, typeItalic, typeBoldItalic;
     public String[] jazyky = {"Anglicky", "Francúzsky", "Chorvatsky", "Latinsky", "Maďarsky", "Nemecky", "Poľsky", "Španielsky", "Taliansky"};
     public String[] omse = {"Omša za zmierenie", "Omša za zosnulých", "Omša v čase pandémie", "Omša o Najsvätejšom Srdci Ježišovom", "Spoločné omše preblahoslavenej Panny Márie"};
@@ -103,6 +106,7 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         zvuk = amanager.getRingerMode();
         amanager.setRingerMode(AudioManager.RINGER_MODE_SILENT);
     }
+    }
 
     public void unsetZvuk() {
         amanager = (AudioManager) getSystemService(AUDIO_SERVICE);
@@ -127,6 +131,15 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     //Výber fontu pre aplikáciu - menu
     public void vyberFont(final Context context) {
         new MissaDialog(this, "Typ písma", Arrays.asList(fonty), "menu_font");
+    }
+
+    public void setBottomMenu(Context context) {
+        LinearLayout linear = (LinearLayout)findViewById(R.id.bottom_menu_layout);
+        linear.removeAllViews();
+        LayoutInflater inflater = LayoutInflater.from(context);
+        LinearLayout layout = (LinearLayout) inflater.inflate(R.layout.bottom_menu, null, false);
+        linear.addView(layout);
+
     }
 
     public static void setTypefaces(String typeface) {
@@ -349,9 +362,10 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     }
 
     //nastaví jednotlivé položky v menu
-    public void setToolbar() {
+    public void setToolbar(String... titleText) {
         Toolbar toolbar = findViewById(R.id.toolbar);
         TextView title = toolbar.findViewById(R.id.toolbar_title);
+        title.setText(titleText.length == 0 ? "Missa" : titleText[0]);
         title.setTypeface(typeBold);
         setSupportActionBar(toolbar);
 

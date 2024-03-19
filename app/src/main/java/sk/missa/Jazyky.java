@@ -14,6 +14,7 @@ import android.text.Html;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
+import android.util.Pair;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.CompoundButton;
@@ -154,9 +155,12 @@ public class Jazyky extends Main implements Language {
         setContentView(R.layout.activity_jazyky);
 
         //nastaví toolbar, fullscreen a režim v menu
-        setToolbar();
+        setToolbar("Odpovede v cudzích jazykoch");
         setFullscreen();
         menuRezim();
+
+        //nastavenie menu
+        setBottomMenu(this);
 
         //nastavenia v menu po stlačení switch tlačidla alebo obrazku pre priblíženie/oddialenie
         switch_fullscreen.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -404,5 +408,34 @@ public class Jazyky extends Main implements Language {
         }
         if (bonus != null)
             bonus.setTextColor(farba_b);
+    }
+
+    public void openToday(View view) {
+        zIntent = true;
+        Intent misal = new Intent(getApplicationContext(), Uvod.class);
+        startActivity(misal);
+    }
+
+    public void openCalendar(View view) {
+        Intent kalendar = new Intent(getApplicationContext(), Kalendar.class);
+        startActivity(kalendar);
+    }
+
+    public void openSpecialMass(View view) {
+        optionIntent = new Pair<>("specialMass", "");
+        Intent options = new Intent(getApplicationContext(), Options.class);
+        startActivity(options);
+    }
+
+    public void openBlessing(View view) {
+        optionIntent = new Pair<>("bless", "");
+        Intent options = new Intent(getApplicationContext(), Options.class);
+        startActivity(options);
+    }
+
+    public void openLanguages(View view) {
+        optionIntent = new Pair<>("language", "");
+        Intent options = new Intent(getApplicationContext(), Options.class);
+        startActivity(options);
     }
 }

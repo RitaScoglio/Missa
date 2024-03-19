@@ -159,7 +159,7 @@ public class MisalZmierenie extends Misal {
         pozicia_eucharistia = 0;
         nast_farbu = spevO = modlitbaO = prosbyO = citanie1O = zalmO = alelujaO = evanjeliumO = false;
         //nastaví toolbar, fullscreen a režim v menu
-        setToolbar();
+        setToolbar("Omša za zmierenie");
         setFullscreen();
         menuRezim();
 

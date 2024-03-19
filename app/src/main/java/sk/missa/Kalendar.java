@@ -9,6 +9,8 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.core.view.GravityCompat;
 
+import android.util.Pair;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
@@ -251,6 +253,7 @@ public class Kalendar extends Main {
         sviatokMesiac();
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -259,6 +262,8 @@ public class Kalendar extends Main {
         setTheme(themeStyle);
         //nastaví layout
         setContentView(R.layout.activity_kalendar);
+        //nastavenie menu
+        setBottomMenu(this);
         setAll();
     }
 
@@ -477,5 +482,35 @@ public class Kalendar extends Main {
                 }
             }
         });
+    }
+
+
+    public void openToday(View view) {
+        zIntent = true;
+        Intent misal = new Intent(getApplicationContext(), Uvod.class);
+        startActivity(misal);
+    }
+
+    public void openCalendar(View view) {
+        Intent kalendar = new Intent(getApplicationContext(), Kalendar.class);
+        startActivity(kalendar);
+    }
+
+    public void openSpecialMass(View view) {
+        optionIntent = new Pair<>("specialMass", "");
+        Intent options = new Intent(getApplicationContext(), Options.class);
+        startActivity(options);
+    }
+
+    public void openBlessing(View view) {
+        optionIntent = new Pair<>("bless", "");
+        Intent options = new Intent(getApplicationContext(), Options.class);
+        startActivity(options);
+    }
+
+    public void openLanguages(View view) {
+        optionIntent = new Pair<>("language", "");
+        Intent options = new Intent(getApplicationContext(), Options.class);
+        startActivity(options);
     }
 }
