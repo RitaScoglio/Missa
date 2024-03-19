@@ -1,47 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-        <Button
+        <ImageButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/primary"
-            android:onClick="openCalendar"
-            android:text="@string/calendar"
-            android:textColor="@color/background"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:src="@drawable/ic_today"
+            android:onClick="openToday"
+            style="?android:attr/buttonBarButtonStyle"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="today" />
 
-        <Button
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/primary"
+            android:src="@drawable/ic_calendar"
+            android:onClick="openCalendar"
+            style="?android:attr/buttonBarButtonStyle"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="calendar" />
+
+        <ImageButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/primary"
             android:onClick="openSpecialMass"
-            android:text="@string/special_mass"
-            android:textColor="@color/background"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:src="@drawable/ic_special_mass"
+            style="?android:attr/buttonBarButtonStyle"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="special mass" />
 
-        <Button
+        <ImageButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/primary"
             android:onClick="openBlessing"
-            android:text="@string/blessing"
-            android:textColor="@color/background"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:src="@drawable/ic_blessing"
+            style="?android:attr/buttonBarButtonStyle"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="blessings" />
 
-        <Button
+        <ImageButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/primary"
             android:onClick="openLanguages"
-            android:text="@string/languages"
-            android:textColor="@color/background"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:src="@drawable/ic_language"
+            style="?android:attr/buttonBarButtonStyle"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="languages" />
 
 </LinearLayout>

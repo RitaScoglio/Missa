@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
         <activity
+            android:name=".Options"
+            android:configChanges="orientation|screenSize" />
+        <activity
             android:name=".Jazyky"
             android:configChanges="orientation|screenSize" />
         <activity

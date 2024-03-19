@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/today"
+        android:enabled="true"
+        android:icon="@drawable/ic_today"
+        android:title="" />
+    <item
+        android:id="@+id/calendar"
+        android:enabled="true"
+        android:icon="@drawable/ic_calendar"
+        android:title="" />
+    <item
+        android:id="@+id/special_mass"
+        android:enabled="true"
+        android:icon="@drawable/ic_special_mass"
+        android:title="" />
+    <item
+        android:id="@+id/blessing"
+        android:enabled="true"
+        android:icon="@drawable/ic_blessing"
+        android:title="" />
+    <item
+        android:id="@+id/language"
+        android:enabled="true"
+        android:icon="@drawable/ic_language"
+        android:title="" />
+</menu>
