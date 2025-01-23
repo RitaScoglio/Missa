@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="sk.missa">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -34,6 +33,9 @@
             android:configChanges="orientation|screenSize" />
         <activity
             android:name=".MisalSrdceJC"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".MisalSvatyRok"
             android:configChanges="orientation|screenSize" />
         <activity
             android:name=".MisalPandemia"

@@ -69,10 +69,9 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
     public static int farba_b, farba_r;
     public static boolean uvodLayout;
     public static Integer jazyk, omsa, themeStyle;
-    public static Pair<String, String> optionIntent;
     static Typeface typeNormal, typeBold, typeItalic, typeBoldItalic;
     public String[] jazyky = {"Anglicky", "Francúzsky", "Chorvatsky", "Latinsky", "Maďarsky", "Nemecky", "Poľsky", "Španielsky", "Taliansky"};
-    public String[] omse = {"Omša za zmierenie", "Omša za zosnulých", "Omša v čase pandémie", "Omša o Najsvätejšom Srdci Ježišovom", "Spoločné omše preblahoslavenej Panny Márie"};
+    public String[] omse = {"Omša za zmierenie", "Omša za zosnulých", "Omša v čase pandémie", "Omša o Najsvätejšom Srdci Ježišovom", "Spoločné omše preblahoslavenej Panny Márie", "Omše na Svätý rok 2025"};
     public String[] upravy = {"Úpravy v omšovom poriadku", "Prvá eucharistická modlitba", "Druhá eucharistická modlitba", "Tretia eucharistická modlitba", "Štvrtá eucharistická modlitba"};
     public String[] fonty = {"bezpätkové", "pätkové"};
     public NavigationView navigationView;

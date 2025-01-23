@@ -23,6 +23,7 @@ package sk.missa.interfaces;
  * rozpustenie_ludu
  * pozehnanie_sviec_procesia - na Obetovanie Pána (2.2.)
  * pozehnanie_vodi_soli_Zjavenie_Pana
+ * svaty_rok_pozehnanie
  */
 
 public interface Texty {
@@ -3615,6 +3616,34 @@ public interface Texty {
     "na nebeskej hostine v jeho kráľovstve.<br>" +
             "<font color='#B71C1C'>Ľ.:</font> Amen.<br><br>" +
             "<font color='#B71C1C'>Hneď nasleduje oslavná pieseň </font>Sláva Bohu na výsostiach.";
+
+    String [] svaty_rok_pozehnanie = {"Nech vás žehná Pán a nech vás ochraňuje. <br>" +
+            "<font color='#9C0E0F'>Ľ:</font> Amen.<br><br>" +
+                    "Nech nad vami rozžiari svoju tvár a nech vám je milostivý. <br>" +
+                    "<font color='#9C0E0F'>Ľ:</font> Amen.<br><br>" +
+                    "Nech k vám obráti svoju tvár a nech vám daruje pokoj. <br>" +
+                    "<font color='#9C0E0F'>Ľ:</font> Amen.<br><br>" +
+                    "A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami. <br>" +
+                    "<font color='#9C0E0F'>Ľ:</font> Amen. ",
+            "Pane, stoj pri tých, čo ťa prosia, <br>" +
+                    "a ochraňuj tých, <br>" +
+                    "čo svoju nádej vkladajú do tvojho milosrdenstva, <br>" +
+                    "aby ti zostali verní vo svätosti života, <br>" +
+                    "nadobudli všetky potrebné pozemské dobrá <br>" +
+                    "a boli dedičmi tvojich prísľubov vo večnosti. <br>" +
+                    "Skrze Krista, nášho Pána. <br>" +
+                    "<font color='#9C0E0F'>Ľ:</font> Amen.<br><br>" +
+                    "A požehnanie všemohúceho Boha, Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#9C0E0F'>Ľ:</font> Amen.",
+            "Boží pokoj, ktorý prevyšuje každú chápavosť, <br>" +
+                    "nech zachová vaše srdcia a vaše mysle<br>" +
+                    "v múdrosti a láske Boha<br>" +
+                    "i jeho Syna, nášho Pána Ježiša Krista. <br>" +
+                    "<font color='#9C0E0F'>Ľ:</font> Amen.<br><br>" +
+                    "A požehnanie všemohúceho Boha,Otca i Syna <font color='#9C0E0F'>✠</font> i Ducha Svätého, nech zostúpi na vás a zostane vždy s vami.<br>" +
+            "<font color='#9C0E0F'>Ľ:</font> Amen."
+};
+
 
 }
 

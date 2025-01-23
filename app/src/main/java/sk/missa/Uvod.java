@@ -65,9 +65,6 @@ public class Uvod extends Main {
             case R.id.menu_uvod:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
-                zIntent = true;
-                Intent uvod = new Intent(this, Uvod.class);
-                startActivity(uvod);
                 return true;
             case R.id.menu_omse:
                 drawer = findViewById(R.id.drawer_layout);
@@ -332,24 +329,44 @@ public class Uvod extends Main {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 Calendar word = words.get(position);
-                if (word.getMenoSvatca() != null){
+                if (word.getMenoSvatca() != null) {
                     ID = word.getID();
                     den = word.getDay();
                     tyzden = word.getTyzden();
                     pozicia_eucharistia = 1;
                     if (ID.contains("3dni")) {
-                        pozicia_eucharistia = 0;
+                        /*LayoutInflater inflater = getLayoutInflater();
+                        View layout = inflater.inflate(R.layout.toast_layout,
+                                (ViewGroup) findViewById(R.id.toast));
+                        TextView txt = layout.findViewById(R.id.text);
+                        txt.setText("Pripravuje sa.");
+                        Toast toast = new Toast(getApplicationContext());
+                        toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
+                        toast.setDuration(Toast.LENGTH_LONG);
+                        toast.setView(layout);
+                        toast.show();*/
+                        menoSvatca = word.getMenoSvatca();
+                        slavenie = word.getSlavenie();
+                        obdobie = word.getObdobie();
+                        pozicia_formular = pozicia_prefacia = pozicia_eucharistia = 0;
+                        preface = false;
+                        euchText = "";
+                        C = A = V = P = VN = false;
+                        zIntent = true;
+                        Intent misal = new Intent(Uvod.this, Trojdnie.class);
+                        startActivity(misal);
+                    } else {
+                        menoSvatca = word.getMenoSvatca();
+                        slavenie = word.getSlavenie();
+                        obdobie = word.getObdobie();
+                        pozicia_formular = pozicia_prefacia = 0;
+                        preface = false;
+                        euchText = "";
+                        C = A = V = P = VN = false;
+                        zIntent = true;
+                        Intent misal = new Intent(Uvod.this, MisalNormal.class);
+                        startActivity(misal);
                     }
-                    menoSvatca = word.getMenoSvatca();
-                    slavenie = word.getSlavenie();
-                    obdobie = word.getObdobie();
-                    pozicia_formular = pozicia_prefacia = 0;
-                    preface = false;
-                    euchText = "";
-                    C = A = V = P = VN = false;
-                    zIntent = true;
-                    Intent misal = new Intent(Uvod.this, MisalNormal.class);
-                    startActivity(misal);
                 }
             }
         });
@@ -385,9 +402,6 @@ public class Uvod extends Main {
     }
 
     public void openToday(View view) {
-        zIntent = true;
-        Intent misal = new Intent(getApplicationContext(), Uvod.class);
-        startActivity(misal);
     }
 
     public void openCalendar(View view) {
@@ -396,19 +410,28 @@ public class Uvod extends Main {
     }
 
     public void openSpecialMass(View view) {
-        optionIntent = new Pair<>("specialMass", "");
+        settings = getApplicationContext().getSharedPreferences("OptionsData", 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putString("type", "specialMass").apply();
+        editor.putString("text", "").apply();
         Intent options = new Intent(getApplicationContext(), Options.class);
         startActivity(options);
     }
 
     public void openBlessing(View view) {
-        optionIntent = new Pair<>("bless", "");
+        settings = getApplicationContext().getSharedPreferences("OptionsData", 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putString("type", "bless").apply();
+        editor.putString("text", "").apply();
         Intent options = new Intent(getApplicationContext(), Options.class);
         startActivity(options);
     }
 
     public void openLanguages(View view) {
-        optionIntent = new Pair<>("language", "");
+        settings = getApplicationContext().getSharedPreferences("OptionsData", 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putString("type", "language").apply();
+        editor.putString("text", "").apply();
         Intent options = new Intent(getApplicationContext(), Options.class);
         startActivity(options);
     }

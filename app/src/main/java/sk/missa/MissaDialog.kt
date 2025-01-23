@@ -109,8 +109,10 @@ class MissaDialog internal constructor(var context: Context, var title: String, 
                 }
             3 -> //Omša o najsätejšom Srdci Ježišovom
                 newActivity(Intent(context, MisalSrdceJC::class.java))
-            else -> //Spoločné omše preblahoslavenej Panny Márie
+            4 -> //Spoločné omše preblahoslavenej Panny Márie
                 newActivity(Intent(context, MisalPM::class.java))
+            else -> //Spoločné omše preblahoslavenej Panny Márie
+                newActivity(Intent(context, MisalSvatyRok::class.java))
         }
     }
 

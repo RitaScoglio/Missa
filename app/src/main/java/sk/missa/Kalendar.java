@@ -89,9 +89,6 @@ public class Kalendar extends Main {
             case R.id.menu_kalendar:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
-                zIntent = true;
-                Intent kalendar = new Intent(this, Kalendar.class);
-                startActivity(kalendar);
                 return true;
             case R.id.menu_odpovede:
                 drawer = findViewById(R.id.drawer_layout);
@@ -492,24 +489,31 @@ public class Kalendar extends Main {
     }
 
     public void openCalendar(View view) {
-        Intent kalendar = new Intent(getApplicationContext(), Kalendar.class);
-        startActivity(kalendar);
     }
 
     public void openSpecialMass(View view) {
-        optionIntent = new Pair<>("specialMass", "");
+        settings = getApplicationContext().getSharedPreferences("OptionsData", 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putString("type", "specialMass").apply();
+        editor.putString("text", "").apply();
         Intent options = new Intent(getApplicationContext(), Options.class);
         startActivity(options);
     }
 
     public void openBlessing(View view) {
-        optionIntent = new Pair<>("bless", "");
+        settings = getApplicationContext().getSharedPreferences("OptionsData", 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putString("type", "bless").apply();
+        editor.putString("text", "").apply();
         Intent options = new Intent(getApplicationContext(), Options.class);
         startActivity(options);
     }
 
     public void openLanguages(View view) {
-        optionIntent = new Pair<>("language", "");
+        settings = getApplicationContext().getSharedPreferences("OptionsData", 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putString("type", "language").apply();
+        editor.putString("text", "").apply();
         Intent options = new Intent(getApplicationContext(), Options.class);
         startActivity(options);
     }

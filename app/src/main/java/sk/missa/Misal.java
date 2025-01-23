@@ -912,7 +912,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         //vynimka z "n" pre Premenenie Pána a Povýšenie sv. Kríža (v nedelu su dve citania v tyzdni sa druhe citanie dava ako alebo moznost k prvemu)
         boolean vynimka_n = ((m == 7 && ID.equals("06gn")) || (m == 8 && ID.equals("14gn"))) & dvt == 0;
         //zisti ci je druhe citanie v dany den
-        if ((ID.contains("k") || (ID.contains("n") && (nedela || vynimka_n)) || menoSvatca.equals("POPOLCOVÁ STREDA") ||
+        if ((ID.contains("k") || (ID.contains("n") && (nedela || vynimka_n || (m==10 && ID.contains("02")))) || menoSvatca.equals("POPOLCOVÁ STREDA") ||
                 nedela || (ID.equals("02g") && m == 1 && dvt == 0)) && !slavenie.equals("Oktáva")) {
             druhe_citanie = "Druhé čítanie";
             int index = 0;
@@ -939,7 +939,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
                         index = index + 2;
                     }
                 }
-                if(ID.equals("10gkp") && !nedela) { //svatej rodiny
+                if(ID.equals("10gkp") && dvt != 0) { //svatej rodiny
                     pridajDoAleboCitanie(citanie2Pohyb, index, 1);
                     druhe_citanie = null;
                 } else {
@@ -3420,7 +3420,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
         });
     }
 
-    private void rozpustenieLudu(ArrayList<MassText> missas) {
+    public void rozpustenieLudu(ArrayList<MassText> missas) {
         String[] vypis;
         if (VN && (slavenie.equals("Oktáva") || ID.equals("20") || ID.equals("10"))) {
             vypis = rozpustenie_ludu_oktava;

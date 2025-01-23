@@ -2642,6 +2642,95 @@ public interface Prefacia {
                             "Hosana na výsostiach!<br>" +
                             "Požehnaný, ktorý prichádza v mene Pánovom!<br>" +
                             "Hosana na výsostiach!"},
+            {"50", "Vlastná prefácia - Svätý rok 2025 I", "",
+                    "<font color='#B71C1C'>V.:</font> Pán s vami.<br>" +
+                            "<font color='#B71C1C'>R.:</font> I s duchom tvojím.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Hore srdcia.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Máme ich u Pána.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Vzdávajme vďaky Pánovi, nášmu Bohu.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Je to dôstojné a správne.<br><br>" +
+                            "Je naozaj dôstojné a správne, dobré a spásonosné <br>" +
+                            "vzdávať vďaky vždy a všade tebe, Pane, <br>" +
+                            "svätý Otče, všemohúci a večný Bože. <br>" +
+                            "V tomto milostivom čase zhromažďuješ <br>" +
+                            "svoje deti do jednej rodiny, <br>" +
+                            "aby osvietení Slovom života <br>" +
+                            "mohli radostne sláviť tajomstvo <br>" +
+                            "ukrižovania a vzkriesenia tvojho Syna. <br>" +
+                            "On je spása, ktorú vždy vzývame a vždy očakávame, <br>" +
+                            "on všetkých pozýva k svojmu stolu, <br>" +
+                            "uzdravuje rany tela i ducha <br>" +
+                            "a dáva radosť zarmúteným. <br>" +
+                            "Pre všetky tieto znamenia tvojej dobrotivosti <br>" +
+                            "v živej viere znovu nachádzame istejšiu nádej, <br>" +
+                            "milujeme bratov a sestry činorodou láskou <br>" +
+                            "a očakávame príchod nášho Pána. <br>" +
+                            "Skrze neho ti spolu s anjelmi a so všetkými svätými <br>" +
+                            "spievame pieseň chvály <br>" +
+                            "a bez prestania voláme:<br><br>" +
+                            "Svätý, svätý, svätý Pán, Boh všetkých svetov.<br>" +
+                            "Plné sú, nebesia i zem tvojej slávy.<br>" +
+                            "Hosana na výsostiach!<br>" +
+                            "Požehnaný, ktorý prichádza v mene Pánovom!<br>" +
+                            "Hosana na výsostiach!"},
+            {"51", "Vlastná prefácia - Svätý rok 2025 II", "",
+                    "<font color='#B71C1C'>V.:</font> Pán s vami.<br>" +
+                            "<font color='#B71C1C'>R.:</font> I s duchom tvojím.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Hore srdcia.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Máme ich u Pána.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Vzdávajme vďaky Pánovi, nášmu Bohu.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Je to dôstojné a správne.<br><br>" +
+                            "Je naozaj dôstojné a správne, dobré a spásonosné <br>" +
+                            "vzdávať vďaky vždy a všade tebe, Pane, <br>" +
+                            "svätý Otče, všemohúci a večný Bože, <br>" +
+                            "skrze nášho Pána Ježiša Krista. <br>" +
+                            "Lebo tvoj Syn, zrodený pred všetkými vekmi, <br>" +
+                            "narodil sa v čase z Márie Panny, <br>" +
+                            "bol pomazaný Duchom Svätým <br>" +
+                            "a v tvojom mene ohlásil milostivý rok: <br>" +
+                            "zarmúteným zvestoval potešenie, <br>" +
+                            "zajatým vykúpenie<br>" +
+                            "a celému ľudskému pokoleniu pokoj a spásu. <br>" +
+                            "On je totiž jedinou pravou nádejou, <br>" +
+                            "ktorá prevyšuje každú ľudskú túžbu <br>" +
+                            "a žiari po všetky veky. <br>" +
+                            "Preto ťa s anjelmi a so všetkými svätými chválime <br>" +
+                            "a bez prestania voláme:<br><br>" +
+                            "Svätý, svätý, svätý Pán, Boh všetkých svetov.<br>" +
+                            "Plné sú, nebesia i zem tvojej slávy.<br>" +
+                            "Hosana na výsostiach!<br>" +
+                            "Požehnaný, ktorý prichádza v mene Pánovom!<br>" +
+                            "Hosana na výsostiach!"},
+            {"52", "Vlastná prefácia - Svätý rok 2025 III", "",
+                    "<font color='#B71C1C'>V.:</font> Pán s vami.<br>" +
+                            "<font color='#B71C1C'>R.:</font> I s duchom tvojím.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Hore srdcia.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Máme ich u Pána.<br>" +
+                            "<font color='#B71C1C'>V.:</font> Vzdávajme vďaky Pánovi, nášmu Bohu.<br>" +
+                            "<font color='#B71C1C'>R.:</font> Je to dôstojné a správne.<br><br>" +
+                            "Je naozaj dôstojné a správne, dobré a spásonosné <br>" +
+                            "vzdávať vďaky vždy a všade tebe, Pane, <br>" +
+                            "svätý Otče, všemohúci a večný Bože, <br>" +
+                            "skrze nášho Pána Ježiša Krista. <br>" +
+                            "Lebo v ňom sa napĺňajú <br>" +
+                            "tvoje dávne prisľúbenia, <br>" +
+                            "tieň ustupuje svetlu, <br>" +
+                            "svet sa obnovuje <br>" +
+                            "a človek sa stáva novým stvorením. <br>" +
+                            "Prostredníctvom svojej jedinej obety na kríži <br>" +
+                            "chcel zhromaždiť v jedno tvoje rozptýlené deti. <br>" +
+                            "Vyzdvihnutý v sláve <br>" +
+                            "a prvorodený medzi mnohými bratmi <br>" +
+                            "odkrýva nám nádej na večnú radosť. <br>" +
+                            "Preto ťa aj my, Pane, <br>" +
+                            "spolu so všetkými anjelmi a svätými oslavujeme <br>" +
+                            "a radostne voláme:<br><br>" +
+                            "Svätý, svätý, svätý Pán, Boh všetkých svetov.<br>" +
+                            "Plné sú, nebesia i zem tvojej slávy.<br>" +
+                            "Hosana na výsostiach!<br>" +
+                            "Požehnaný, ktorý prichádza v mene Pánovom!<br>" +
+                            "Hosana na výsostiach!"},
+
 
             //omse za zmierenie
             {"1z", "Za jednotu kresťanov", "O jednote Kristovho tela, ktorým je Cirkev",

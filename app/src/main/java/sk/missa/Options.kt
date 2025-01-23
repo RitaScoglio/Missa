@@ -2,6 +2,7 @@ package sk.missa
 
 import android.content.Intent
 import android.content.SharedPreferences
+import android.graphics.Color
 import android.os.Bundle
 import android.util.Pair
 import android.view.Gravity
@@ -16,6 +17,17 @@ import com.google.gson.Gson
 import sk.missa.interfaces.Texty
 
 class Options : Main() {
+
+    private lateinit var optionIntent: Pair<String, String>
+
+    override fun onResume() {
+        if(optionIntent.first == null) {
+            settings = applicationContext.getSharedPreferences("OptionsData", 0)
+            optionIntent = Pair(settings.getString("type", ""), settings.getString("text", ""))
+        }
+        setAll()
+        super.onResume()
+    }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
@@ -84,7 +96,7 @@ class Options : Main() {
                 nightMode = switch_rezim.isChecked
                 menuRezim()
                 putRezim()
-                //
+                vypis()
                 return true
             }
 
@@ -92,7 +104,7 @@ class Options : Main() {
                 switch_pismo.isChecked = !switch_pismo.isChecked
                 pismo = switch_pismo.isChecked
                 putPismo()
-                //
+                vypis()
                 return true
             }
 
@@ -128,6 +140,19 @@ class Options : Main() {
         setTheme(themeStyle)
         setContentView(R.layout.activity_options)
 
+        settings = applicationContext.getSharedPreferences("OptionsData", 0)
+        optionIntent = Pair(settings.getString("type", ""), settings.getString("text", ""))
+
+        //nastavenie menu
+        setBottomMenu(this)
+
+        setAll()
+
+        vypis()
+
+    }
+
+    private fun setAll(){
         //nastaví toolbar, fullscreen a režim v menu
         val toolbarTitle = when(optionIntent.first){
             "bless" -> "Požehnania"
@@ -138,9 +163,6 @@ class Options : Main() {
         setToolbar(toolbarTitle)
         setFullscreen()
         menuRezim()
-
-        //nastavenie menu
-        setBottomMenu(this)
 
         //nastavenia v menu po stlačení switch tlačidla alebo obrazku pre priblíženie/oddialenie
         switch_fullscreen.setOnCheckedChangeListener { buttonView, isChecked ->
@@ -179,12 +201,13 @@ class Options : Main() {
             putVelkost()
             vypis()
         }
-
-        vypis()
-
     }
 
     private fun vypis() {
+        if (nightMode)
+            drawer.setBackgroundColor(Color.BLACK)
+        else
+            drawer.setBackgroundColor(resources.getColor(R.color.background))
         val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
         val message = parseMessage()
 
@@ -215,7 +238,10 @@ class Options : Main() {
     }
 
     private fun blessAction(title: String, text: String) {
-        optionIntent = Pair(title, text)
+        settings = applicationContext.getSharedPreferences("OptionsData", 0)
+        val editor = settings.edit()
+        editor.putString("type", title).apply()
+        editor.putString("text", text).apply()
         newActivity(Intent(this, Options::class.java))
     }
     private fun specialMassAction(position: Int) {
@@ -239,8 +265,10 @@ class Options : Main() {
                 }
             3 -> //Omša o najsätejšom Srdci Ježišovom
                 newActivity(Intent(this, MisalSrdceJC::class.java))
-            else -> //Spoločné omše preblahoslavenej Panny Márie
+            4 -> //Spoločné omše preblahoslavenej Panny Márie
                 newActivity(Intent(this, MisalPM::class.java))
+            else -> //Spoločné omše preblahoslavenej Panny Márie
+                newActivity(Intent(this, MisalSvatyRok::class.java))
         }
     }
 
@@ -312,20 +340,35 @@ class Options : Main() {
     }
 
     fun openSpecialMass(view: View?) {
-        optionIntent = Pair("specialMass", "")
-        val options = Intent(applicationContext, Options::class.java)
-        startActivity(options)
+        if(optionIntent.first != "specialMass") {
+            settings = applicationContext.getSharedPreferences("OptionsData", 0)
+            val editor = settings.edit()
+            editor.putString("type", "specialMass").apply()
+            editor.putString("text", "").apply()
+            val options = Intent(applicationContext, Options::class.java)
+            startActivity(options)
+        }
     }
 
     fun openBlessing(view: View?) {
-        optionIntent = Pair("bless", "")
-        val options = Intent(applicationContext, Options::class.java)
-        startActivity(options)
+        if(optionIntent.first != "bless") {
+            settings = applicationContext.getSharedPreferences("OptionsData", 0)
+            val editor = settings.edit()
+            editor.putString("type", "bless").apply()
+            editor.putString("text", "").apply()
+            val options = Intent(applicationContext, Options::class.java)
+            startActivity(options)
+        }
     }
 
     fun openLanguages(view: View?) {
-        optionIntent = Pair("language", "")
-        val options = Intent(applicationContext, Options::class.java)
-        startActivity(options)
+        if(optionIntent.first != "language") {
+            settings = applicationContext.getSharedPreferences("OptionsData", 0)
+            val editor = settings.edit()
+            editor.putString("type", "language").apply()
+            editor.putString("text", "").apply()
+            val options = Intent(applicationContext, Options::class.java)
+            startActivity(options)
+        }
     }
 }

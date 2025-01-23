@@ -59,6 +59,8 @@ public class MisalZmierenie extends Misal {
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        settings = getApplicationContext().getSharedPreferences("OptionsData", 0);
+        SharedPreferences.Editor editor = settings.edit();
         switch (item.getItemId()) {
             //akcie po výbere položky z menu
             case android.R.id.home:
@@ -69,32 +71,34 @@ public class MisalZmierenie extends Misal {
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
                 zIntent = true;
-                Intent uvod = new Intent(this, Uvod.class);
-                startActivity(uvod);
-                finish();
+                openNewActivity(new Intent(this, Uvod.class));
                 return true;
             case R.id.menu_omse:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
-                vyberOmsu(this);
+                editor.putString("type", "specialMass").apply();
+                editor.putString("text", "").apply();
+                openNewActivity(new Intent(getApplicationContext(), Options.class));
                 return true;
             case R.id.menu_kalendar:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
                 zIntent = true;
-                Intent kalendar = new Intent(this, Kalendar.class);
-                startActivity(kalendar);
-                finish();
+                openNewActivity(new Intent(this, Kalendar.class));
                 return true;
             case R.id.menu_odpovede:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
-                vyberJazyk(MisalZmierenie.this);
+                editor.putString("type", "language").apply();
+                editor.putString("text", "").apply();
+                openNewActivity(new Intent(getApplicationContext(), Options.class));
                 return true;
             case R.id.menu_pozehnania:
                 drawer = findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
-                vyberPozehnania();
+                editor.putString("type", "bless").apply();
+                editor.putString("text", "").apply();
+                openNewActivity(new Intent(getApplicationContext(), Options.class));
                 return true;
             case R.id.menu_font:
                 drawer = findViewById(R.id.drawer_layout);
@@ -145,6 +149,12 @@ public class MisalZmierenie extends Misal {
         }
         return true;
     }
+
+    private void openNewActivity(Intent intent) {
+        startActivity(intent);
+        finish();
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

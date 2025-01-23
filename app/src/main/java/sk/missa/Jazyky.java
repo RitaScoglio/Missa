@@ -155,7 +155,7 @@ public class Jazyky extends Main implements Language {
         setContentView(R.layout.activity_jazyky);
 
         //nastaví toolbar, fullscreen a režim v menu
-        setToolbar("Odpovede v cudzích jazykoch");
+        setToolbar(jazyky[jazyk]);
         setFullscreen();
         menuRezim();
 
@@ -422,19 +422,28 @@ public class Jazyky extends Main implements Language {
     }
 
     public void openSpecialMass(View view) {
-        optionIntent = new Pair<>("specialMass", "");
+        settings = getApplicationContext().getSharedPreferences("OptionsData", 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putString("type", "specialMass").apply();
+        editor.putString("text", "").apply();
         Intent options = new Intent(getApplicationContext(), Options.class);
         startActivity(options);
     }
 
     public void openBlessing(View view) {
-        optionIntent = new Pair<>("bless", "");
+        settings = getApplicationContext().getSharedPreferences("OptionsData", 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putString("type", "bless").apply();
+        editor.putString("text", "").apply();
         Intent options = new Intent(getApplicationContext(), Options.class);
         startActivity(options);
     }
 
     public void openLanguages(View view) {
-        optionIntent = new Pair<>("language", "");
+        settings = getApplicationContext().getSharedPreferences("OptionsData", 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putString("type", "language").apply();
+        editor.putString("text", "").apply();
         Intent options = new Intent(getApplicationContext(), Options.class);
         startActivity(options);
     }

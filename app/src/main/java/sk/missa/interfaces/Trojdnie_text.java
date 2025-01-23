@@ -274,6 +274,14 @@ public interface Trojdnie_text {
                                     "vec v našich očiach obdivuhodná. <font color='#B71C1C'>R.</font>"},
             {"red|small|justify", "36. Kňaz zvyčajným spôsobom vloží do kadidelnice tymian a požehná diakona. Na evanjelium sa neprinášajú sviece, ale iba kadidlo.\n" +
                     "Po evanjeliu nech sa nevynechá homília, hoci aj krátka."},
+            {"separated", "red", "EVANJELIUM", "Mk 16, 1-8"},
+            {"italic|center", "Ukrižovaný Ježiš Nazaretský vstal z mŕtvych"},
+            {"", "Keď sa pominula sobota, Mária Magdaléna a Mária Jakubova i Salome nakúpili voňavé oleje a išli ho pomazať. V prvý deň týždňa, skoro ráno, po východe slnka, prišli k hrobu a hovorili si: „Kto nám odvalí kameň od vchodu do hrobu?“\n" +
+                    "Ale keď sa pozreli, videli, že kameň je odvalený; bol totiž veľmi veľký.\n" +
+                    "Keď vošli do hrobu, na pravej strane videli sedieť mladíka oblečeného do bieleho rúcha a stŕpli.\n" +
+                    "On sa im prihovoril: „Neľakajte sa! Hľadáte Ježiša Nazaretského, ktorý bol ukrižovaný. Vstal z mŕtvych. Niet ho tu. Hľa, miesto, kde ho uložili. Ale choďte a povedzte jeho učeníkom a Petrovi: ‚Ide pred vami do Galiley. Tam ho uvidíte, ako vám povedal.‘“\n" +
+                    "Vyšli a utekali od hrobu, lebo sa ich zmocnila hrôza a strach. A nepovedali nikomu nič, lebo sa báli.\n" +
+                    "Počuli sme slovo Pánovo."},
             {"center|bold|bigPadding", "III. časť\n" +
                     "Liturgia krstu"},
             {"red|small|justify", "37. Po homílii nasleduje liturgia krstu. Kňaz s posluhujúcimi ide ku krstiteľnici, ak je veriacim na dohľad. Ak nie, nádobu s vodou treba umiestniť v presbytériu.\n" +

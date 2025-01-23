@@ -66,6 +66,7 @@ VLASTNE FORMULARE
 04 - Výročie posviacky chrámu (slávenie mimo chrámu)
 05 - V čase pandémie (+ za chorých II.)
 06 - O Duchu Svätom 2.
+07 - Svaty rok 2025
    */
 
 public interface Formular {
@@ -310,6 +311,12 @@ public interface Formular {
                             "Môj dom sa bude volať domom modlitby, hovorí Pán. V ňom každý, kto prosí, dostane, a kto hľadá, nájde, a kto klope, tomu otvoria <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>.", "(Porov. 1 Pt 2, 5)"},
             {"06", "1", "O Duchu Svätom 2.", "Keď príde Duch pravdy, naučí vás celú pravdu, hovorí Pán.", "(Porov. Jn 14, 26; 15, 26)",
                     "Duch, ktorý vychádza od Otca, on ma oslávi, hovorí Pán.", "(Jn 15, 26; 16, 14)"},
+            {"07a", "1", "Svätý rok 2025 1.", "Očakávaj Pána a buď statočný; srdce maj silné a drž sa Pána. <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>", "(Ž 27, 14) )",
+                    "Duch Pána je nado mnou; poslal ma hlásať evanjelium chudobným a ohlásiť Pánov milostivý rok. <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>", "(Porov. Lk 4, 18. 19)"},
+            {"07b", "1", "Svätý rok 2025 2.", "Pane, stal si sa nám útočišťom z pokolenia na pokolenie; ty si od vekov až na veky. <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>", "(Ž 90, 1-2)",
+                    "Žime na tomto svete spravodlivo a nábožne a očakávajme blahoslavenú nádej a príchod slávy veľkého Boha. <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>", "(Tít 2, 12-13)"},
+            {"07c", "1", "Svätý rok 2025 3.", "Boh nás spasil kúpeľom znovuzrodenia a obnovy v Duchu Svätom, aby sme, ospravedlnení jeho milosťou,  boli podľa nádeje dedičmi večného života. <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>", "(Tit 3, 5. 7)",
+                    "Ja som s vami po všetky dni až do skončenia sveta, hovorí Pán. <font color='#B71C1C'>(V.O.</font> aleluja<font color='#B71C1C'>)</font>", "(Mt 28, 20)"},
             // SPOLOCNE OMSE PREBLAHOSLAVENEJ PANNY MÁRIE
             {"11", "1", "Omša k preblahoslavenej Panne Marií 1.", "Zdravas', svätá Matka. Ty si porodila Kráľa, ktorý večne vládne nad nebom i zemou.", "(Sedulius)",
                     "Blahoslavená si, Panna Mária, lebo si nosila Syna večného Otca.", "(Porov. Lk 11, 27)"},
@@ -876,6 +883,79 @@ public interface Formular {
                             "aby sa nám sviatosť,<br>" +
                             "ktorú sme prijali v časnom živote,<br>" +
                             "stala zárukou večnosti.<br>" +
+                            "Skrze Krista, nášho Pána."},
+            {"07a", "1", "Svätý rok 2025 1.",
+                    "Všemohúci a večný Bože, <br>" +
+                            "ty vrúcna túžba ľudského srdca, <font color='#B71C1C'>*</font><br>" +
+                            "v tomto milostivom čase zhliadni dobrotivo <br>" +
+                            "na svoj putujúci ľud, <font color='#B71C1C'>—</font><br>" +
+                            "aby v spojení s Kristom, útočiskom spásy, <br>" +
+                            "šťastne dosiahol cieľ blaženej nádeje. <br>" +
+                            "Skrze nášho Pána Ježiša Krista, <br>" +
+                            "tvojho Syna, ktorý je Boh <br>" +
+                            "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                            "po všetky veky vekov. ",
+                    "Prosíme ťa, Pane, <br>" +
+                            "milostivo prijmi dary svojej rodiny, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme pod tvojou ochranou <br>" +
+                            "nikdy nestratili to, čo sme prijali, <font color='#B71C1C'>—</font><br>" +
+                            "a aby sme dosiahli večné dary. <br>" +
+                            "Skrze Krista, nášho Pána. ",
+                    "Bože, ty nás živíš jedným chlebom <br>" +
+                            "a povzbudzuješ jedinou nádejou; <font color='#B71C1C'>*</font><br>" +
+                            "posilňuj nás aj svojou milosťou, <font color='#B71C1C'>—</font><br>" +
+                            "aby sme sa v Kristovi <br>" +
+                            "stali jedným telom a jedným duchom <br>" +
+                            "a spolu s ním boli vzkriesení k sláve. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"07b", "1", "Svätý rok 2025 2.", "Bože, ty si v plnosti času poslal na svet <br>" +
+                    "svojho Syna ako Spasiteľa; <font color='#B71C1C'>*</font><br>" +
+                    "dopraj, prosíme, <font color='#B71C1C'>—</font><br>" +
+                    "aby nás na našej pozemskej púti <br>" +
+                    "viedlo svetlo jeho veľkonočného tajomstva k tebe, <br>" +
+                    "našej jedinej nádeji. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, <br>" +
+                    "tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov. ",
+                    "Pane, nech sú ti milé dary, <br>" +
+                            "ktoré pri radostnom slávení tohto svätého roka <br>" +
+                            "prinášame na tvoj oltár, <font color='#B71C1C'>*</font><br>" +
+                            "aby sme mohli mať účasť na večnom živote<br>" +
+                            "Ježiša Krista, nášho Pána, <font color='#B71C1C'>—</font><br>" +
+                            "ktorý nám svojou smrťou daroval nesmrteľnosť. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov. ",
+                    "Prosíme ťa, Pane, aby nás posvätila <br>" +
+                            "účasť na hostine pri tvojom stole <font color='#B71C1C'>*</font><br>" +
+                            "a aby prostredníctvom sviatosti tvojej Cirkvi <br>" +
+                            "všetky národy s radosťou prijali spásu, <font color='#B71C1C'>—</font><br>" +
+                            "ktorú nám na kríži získal tvoj jednorodený Syn. <br>" +
+                            "Lebo on žije a kraľuje na veky vekov."},
+            {"07c", "1", "Svätý rok 2025 3.", "Bože, ty si skrze svojho jednorodeného Syna <br>" +
+                    "priniesol ľudskému pokoleniu spásu <br>" +
+                    "a dar večného života; <font color='#B71C1C'>*</font><br>" +
+                    "udeľ všetkým, ktorí sa znovuzrodili v Kristovi, <br>" +
+                    "túžbu a silu robiť to, čo prikazuješ, <font color='#B71C1C'>—</font><br>" +
+                    "aby ľud povolaný do tvojho kráľovstva <br>" +
+                    "bol pevný vo viere, radostný v nádeji <br>" +
+                    "a činorodý v láske. <br>" +
+                    "Skrze nášho Pána Ježiša Krista, <br>" +
+                    "tvojho Syna, ktorý je Boh <br>" +
+                    "a s tebou žije a kraľuje v jednote Ducha Svätého <br>" +
+                    "po všetky veky vekov. ",
+                    "Pane, zhliadni na tvár Krista, <br>" +
+                            "našej jedinej nádeje, <br>" +
+                            "ktorý sám seba vydal ako výkupné za všetkých, <font color='#B71C1C'>*</font><br>" +
+                            "aby skrze neho všetky národy <br>" +
+                            "od východu slnka až po jeho západ <br>" +
+                            "oslavovali tvoje meno <font color='#B71C1C'>—</font><br>" +
+                            "a všade ti prinášali jedinú obetu. <br>" +
+                            "Skrze Krista, nášho Pána. ",
+                    "Pane, posilnil si nás nebeským chlebom; <font color='#B71C1C'>*</font><br>" +
+                            "daj, prosíme, <br>" +
+                            "aby sme sa neustále pridŕžali evanjelia života <font color='#B71C1C'>—</font><br>" +
+                            "a stali sa životodarným kvasom a nástrojom spásy <br>" +
+                            "pre celú ľudskú rodinu. <br>" +
                             "Skrze Krista, nášho Pána."},
             // SPOLOCNE OMSE PREBLAHOSLAVENEJ PANNY MÁRIE
             {"11", "1", "Omša k preblahoslavenej Panne Marií 1.", "Pane a Bože náš, <br>" +
@@ -3083,7 +3163,54 @@ public interface Formular {
                             "a skrze tvojho Ducha<br>" +
                             "čoraz lepšie poznali teba i Otca.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
-            // SPOLOCNE OMSE PREBLAHOSLAVENEJ PANNY MÁRIE
+            {"07", "1", "Svätý rok 2025 1.","Bratia a sestry, prežívame jubilejný rok, pri ktorom si intenzívne pripomíname, že Ježiš Kristus je jediná nádej nášho života. Prednesme mu svoje prosby a vrúcne sa modlime.",
+                    "<font color='#B71C1C'>(</font>Volajme: Pane, vyslyš nás. <font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Aby Cirkev na celom svete prinášala všetkým ľuďompravdivé a jasné posolstvo nádeje, prosme Pána. <br>" +
+                            "<font color='#B71C1C'>2.</font> Aby krajiny, ktoré sa dnes odvracajú od kresťanských koreňov, pochopili, že len v Kristovi je nádej ľudstva, prosme Pána. <br>" +
+                            "<font color='#B71C1C'>3.</font> Aby na celom svete zavládol pokoj a mier, aby si všetci predstavitelia národov podali ruky a našli cestu zmierenia, prosme Pána. <br>" +
+                            "<font color='#B71C1C'>4.</font> Aby sa v tomto svätom roku urovnali všetky spory, rozbroje a rozdelenia a ľudia žili v porozumení, prosme Pána. <br>" +
+                            "<font color='#B71C1C'>5.</font> Aby si pútnici, ktorí prichádzajú do Večného mesta, upevnili vieru, posilnili nádej a rástli v láske, prosme Pána. ",
+                    "Pane Ježišu, <br>" +
+                            "jediná nádej, ktorú Otec daroval svetu, <br>" +
+                            "prijmi naše prosby, <br>" +
+                            "obnov Cirkev, ktorá slávi jubilejný svätý rok, <br>" +
+                            "a všetkých, ktorí vzývajú tvoje meno, <br>" +
+                            "priveď k večnej spáse. <br>" +
+                            "Lebo ty žiješ a kraľuješ na veky vekov. ",
+                    "Alebo:",
+                    "Svätý rok 2025 2.", "Bratia a sestry, dobrotivý Boh nám doprial milostivý čas jubilejného roka, aby sme sa posilnili vo viere, utvrdili v láske a oslobodili od všetkého, čo zaťažuje naše vzájomné vzťahy. Preto ho spoločne prosme. ",
+                    "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás. <font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font> Nebeský Otče, požehnávaj svoju Cirkev, ktorá prežíva tento svätý čas, aby bola pre všetkých ľudí na zemi svetlom v každej kríze, nádejou v každom zúfalstve a istotou vo všetkých pochybnostiach. <br>" +
+                            "<font color='#B71C1C'>2.</font> Láskavý Bože, veď štátnikov stojacich v čele bojujúcich národov, aby neúnavne hľadali cesty zmierenia, riešenia konfliktov a rozhodnutia vedúce k pokoju. <br>" +
+                            "<font color='#B71C1C'>3.</font> Milosrdný Otče, obráť srdcia ľudí, aby tento svätý rok sa stal pre všetkých príležitosťou zmieriť sa s tebou, odpustiť hnevníkom a milovať aj svojich nepriateľov. <br>" +
+                            "<font color='#B71C1C'>4.</font> Láskavý Bože, pomáhaj nám rásť vo viere, nádeji a láske, aby sme ako putujúca Cirkev mali spoluúčasť na radosti a nádeji, smútku a úzkosti, ktorými ľudstvo žije. ",
+                    "Dobrotivý Otče, .<br>" +
+                            "ty nám neustále zjavuješ, ako nás nesmierne miluješ; .<br>" +
+                            "vypočuj naše prosby, .<br>" +
+                            "vstúp do našich dní, posilni nás v nádeji.<br>" +
+                            "a vo svojom milosrdenstve uzdrav naše vzájomné vzťahy, .<br>" +
+                            "aby sme ťa všetci mohli ustavične chváliť a oslavovať. .<br>" +
+                            "Skrze Krista, nášho Pána. ",
+                    "Alebo:",
+                    "Svätý rok 2025 3.", "Bratia a sestry, tento jubilejný rok je príležitosťou na obnovenie nášho vzťahu s Bohom, s ľuďmi a so stvorením. Pozdvihnime svoje srdcia k spoločnej modlitbe a volajme: Bože, naša nádej, vyslyš nás.","",
+                    "<font color='#B71C1C'>1.</font> Modlime sa za Cirkev. <font color='#B71C1C'>(chvíľa ticha)</font><br>" +
+    "Nech ako verná strážkyňa plánu spásy ohlasuje všetkým ľudom slovami a skutkami vieru vo vzkrieseného Pána. <br>" +
+            "<font color='#B71C1C'>2.</font> Modlime sa za celý svet. <font color='#B71C1C'>(chvíľa ticha)</font><br>" +
+    "Nech preniknutý láskou vteleného Slova odolá stretu zbraní a namiesto toho hľadá porozumenie, harmóniu a pokoj. <br>" +
+            "<font color='#B71C1C'>3.</font> Modlime sa za trpiacich. <font color='#B71C1C'>(chvíľa ticha)</font><br>" +
+    "Nech neupadnú do skľúčenosti, ale nech vo svojom srdci, i vďaka podpore okolia, zakúsia dar kresťanskej nádeje. <br>" +
+            "<font color='#B71C1C'>4.</font> Modlime sa za rodiny. <font color='#B71C1C'>(chvíľa ticha)</font><br>" +
+    "Nech podľa príkladu Svätej rodiny z Nazareta odpovedajú na Boží plán, ktorý ich každý deň volá žiť v novosti lásky. <br>" +
+            "<font color='#B71C1C'>5.</font> Modlime sa za naše diecézne spoločenstvo. <font color='#B71C1C'>(chvíľa ticha)</font><br>" +
+    "Nech posilnené silou odpustenia a obnovené milosťou jubilejného roka, naďalej verne kráča vo svetle evanjelia. ",
+            "Bože, náš Otče, <br>" +
+            "v tomto jubilejnom roku si chceme obnoviť odvahu a silu <br>" +
+            "pozerať sa do budúcnosti s dôverujúcim srdcom; <br>" +
+            "prijmi naše modlitby<br>" +
+            "a posilni našu túžbu obrátiť svoj život k tebe, <br>" +
+            "aby sme sa stali skutočnými svedkami evanjelia. <br>" +
+            "Skrze Krista, nášho Pána."},
+        // SPOLOCNE OMSE PREBLAHOSLAVENEJ PANNY MÁRIE
             {"11", "1", "Omša k preblahoslavenej Panne Marií 1.", "Bratia a sestry, Panna Mária je veľkým vzorom nášho života v pokore, modlitbe a plnení Božej vôle. V tejto spoločnej modlitbe na jej orodovanie prosme nášho najmilostivejšieho Pána.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font>&nbsp;Bože, požehnávaj Svätého Otca <font color='#B71C1C'>M.</font> a našich biskupov, kňazov a diakonov, aby tak ako Panna Mária vždy ochotne plnili tvoju vôľu.<br>" +
