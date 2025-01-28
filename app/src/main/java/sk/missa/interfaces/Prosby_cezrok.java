@@ -201,36 +201,36 @@ public interface Prosby_cezrok {
                             "a udeľ nám milosť trvalej vernosti tebe.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"3", "A", "Bratia a sestry, Pán Ježiš aj nám, rovnako ako apoštolom, otvára myseľ, aby sme porozumeli Písmu, a povzbudzuje nás, aby sme mu, zhromaždení v jeho mene, predniesli svoje prosby.",
-                    "<font color=‘#B71C1C’>(</font> Volajme: Prosíme ťa, vyslyš nás.<font color=‘#B71C1C’>)</font>",
-                    "<font color=‘#B71C1C’>1.</font>&nbsp;Ježišu, Božie Slovo, pomáhaj svojej Cirkvi, aby aj v dnešných časoch ohlasovala evanjelium s odvahou a horlivosťou apoštolov.<br>" +
-                            "<font color=‘#B71C1C’>2.</font>&nbsp;Ježišu, obraz Otca, veď svojím Duchom kresťanských politikov, aby hodnoty Svätého písma vnášali do života celej spoločnosti.<br>" +
-                            "<font color=‘#B71C1C’>3.</font>&nbsp;Ježišu, nebeský Učiteľ, posilňuj kresťanských teológov, aby svoje štúdium a náuku stavali vždy na múdrosti Svätého písma.<br>" +
-                            "<font color=‘#B71C1C’>4.</font>&nbsp;Ježišu, zasľúbený Mesiáš, zapáľ srdcia kresťanov všetkých vyznaní, aby v jednote viery prameniacej z Božieho slova vyznávali, že si Boží Syn.<br>" +
-                            "<font color=‘#B71C1C’>5.</font>&nbsp;Ježišu, náš Boh a Pán, privádzaj naše spoločenstvo k túžbe denne sa živiť múdrosťou biblickej náuky, aby sme správne verili a podľa viery aj žili.",
+                    "<font color='#B71C1C'>(</font> Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Ježišu, Božie Slovo, pomáhaj svojej Cirkvi, aby aj v dnešných časoch ohlasovala evanjelium s odvahou a horlivosťou apoštolov.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Ježišu, obraz Otca, veď svojím Duchom kresťanských politikov, aby hodnoty Svätého písma vnášali do života celej spoločnosti.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Ježišu, nebeský Učiteľ, posilňuj kresťanských teológov, aby svoje štúdium a náuku stavali vždy na múdrosti Svätého písma.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Ježišu, zasľúbený Mesiáš, zapáľ srdcia kresťanov všetkých vyznaní, aby v jednote viery prameniacej z Božieho slova vyznávali, že si Boží Syn.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Ježišu, náš Boh a Pán, privádzaj naše spoločenstvo k túžbe denne sa živiť múdrosťou biblickej náuky, aby sme správne verili a podľa viery aj žili.",
                     "Pane Ježišu Kriste,<br>" +
                             "skrze teba Otcovým slovom povstal celý svet;<br>" +
                             "prijmi naše dnešné prosby<br>" +
                             "a láskavo ich vyslyš. <br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"3", "B", "Bratia a sestry, Pán Ježiš aj nám, rovnako ako apoštolom, otvára myseľ, aby sme porozumeli Písmu, a povzbudzuje nás, aby sme mu, zhromaždení v jeho mene, predniesli svoje prosby.",
-                    "<font color=‘#B71C1C’>(</font> Volajme: Prosíme ťa, vyslyš nás.<font color=‘#B71C1C’>)</font>",
-                    "<font color=‘#B71C1C’>1.</font>&nbsp;Ježišu, Božie Slovo, pomáhaj svojej Cirkvi, aby aj v dnešných časoch ohlasovala evanjelium s odvahou a horlivosťou apoštolov.<br>" +
-                            "<font color=‘#B71C1C’>2.</font>&nbsp;Ježišu, obraz Otca, veď svojím Duchom kresťanských politikov, aby hodnoty Svätého písma vnášali do života celej spoločnosti.<br>" +
-                            "<font color=‘#B71C1C’>3.</font>&nbsp;Ježišu, nebeský Učiteľ, posilňuj kresťanských teológov, aby svoje štúdium a náuku stavali vždy na múdrosti Svätého písma.<br>" +
-                            "<font color=‘#B71C1C’>4.</font>&nbsp;Ježišu, zasľúbený Mesiáš, zapáľ srdcia kresťanov všetkých vyznaní, aby v jednote viery prameniacej z Božieho slova vyznávali, že si Boží Syn.<br>" +
-                            "<font color=‘#B71C1C’>5.</font>&nbsp;Ježišu, náš Boh a Pán, privádzaj naše spoločenstvo k túžbe denne sa živiť múdrosťou biblickej náuky, aby sme správne verili a podľa viery aj žili.",
+                    "<font color='#B71C1C'>(</font> Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Ježišu, Božie Slovo, pomáhaj svojej Cirkvi, aby aj v dnešných časoch ohlasovala evanjelium s odvahou a horlivosťou apoštolov.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Ježišu, obraz Otca, veď svojím Duchom kresťanských politikov, aby hodnoty Svätého písma vnášali do života celej spoločnosti.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Ježišu, nebeský Učiteľ, posilňuj kresťanských teológov, aby svoje štúdium a náuku stavali vždy na múdrosti Svätého písma.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Ježišu, zasľúbený Mesiáš, zapáľ srdcia kresťanov všetkých vyznaní, aby v jednote viery prameniacej z Božieho slova vyznávali, že si Boží Syn.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Ježišu, náš Boh a Pán, privádzaj naše spoločenstvo k túžbe denne sa živiť múdrosťou biblickej náuky, aby sme správne verili a podľa viery aj žili.",
                     "Pane Ježišu Kriste,<br>" +
                             "skrze teba Otcovým slovom povstal celý svet;<br>" +
                             "prijmi naše dnešné prosby<br>" +
                             "a láskavo ich vyslyš. <br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
             {"3", "C", "Bratia a sestry, Pán Ježiš aj nám, rovnako ako apoštolom, otvára myseľ, aby sme porozumeli Písmu, a povzbudzuje nás, aby sme mu, zhromaždení v jeho mene, predniesli svoje prosby.",
-                    "<font color=‘#B71C1C’>(</font> Volajme: Prosíme ťa, vyslyš nás.<font color=‘#B71C1C’>)</font>",
-                    "<font color=‘#B71C1C’>1.</font>&nbsp;Ježišu, Božie Slovo, pomáhaj svojej Cirkvi, aby aj v dnešných časoch ohlasovala evanjelium s odvahou a horlivosťou apoštolov.<br>" +
-                            "<font color=‘#B71C1C’>2.</font>&nbsp;Ježišu, obraz Otca, veď svojím Duchom kresťanských politikov, aby hodnoty Svätého písma vnášali do života celej spoločnosti.<br>" +
-                            "<font color=‘#B71C1C’>3.</font>&nbsp;Ježišu, nebeský Učiteľ, posilňuj kresťanských teológov, aby svoje štúdium a náuku stavali vždy na múdrosti Svätého písma.<br>" +
-                            "<font color=‘#B71C1C’>4.</font>&nbsp;Ježišu, zasľúbený Mesiáš, zapáľ srdcia kresťanov všetkých vyznaní, aby v jednote viery prameniacej z Božieho slova vyznávali, že si Boží Syn.<br>" +
-                            "<font color=‘#B71C1C’>5.</font>&nbsp;Ježišu, náš Boh a Pán, privádzaj naše spoločenstvo k túžbe denne sa živiť múdrosťou biblickej náuky, aby sme správne verili a podľa viery aj žili.",
+                    "<font color='#B71C1C'>(</font> Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
+                    "<font color='#B71C1C'>1.</font>&nbsp;Ježišu, Božie Slovo, pomáhaj svojej Cirkvi, aby aj v dnešných časoch ohlasovala evanjelium s odvahou a horlivosťou apoštolov.<br>" +
+                            "<font color='#B71C1C'>2.</font>&nbsp;Ježišu, obraz Otca, veď svojím Duchom kresťanských politikov, aby hodnoty Svätého písma vnášali do života celej spoločnosti.<br>" +
+                            "<font color='#B71C1C'>3.</font>&nbsp;Ježišu, nebeský Učiteľ, posilňuj kresťanských teológov, aby svoje štúdium a náuku stavali vždy na múdrosti Svätého písma.<br>" +
+                            "<font color='#B71C1C'>4.</font>&nbsp;Ježišu, zasľúbený Mesiáš, zapáľ srdcia kresťanov všetkých vyznaní, aby v jednote viery prameniacej z Božieho slova vyznávali, že si Boží Syn.<br>" +
+                            "<font color='#B71C1C'>5.</font>&nbsp;Ježišu, náš Boh a Pán, privádzaj naše spoločenstvo k túžbe denne sa živiť múdrosťou biblickej náuky, aby sme správne verili a podľa viery aj žili.",
                     "Pane Ježišu Kriste,<br>" +
                             "skrze teba Otcovým slovom povstal celý svet;<br>" +
                             "prijmi naše dnešné prosby<br>" +

@@ -168,7 +168,7 @@ public class MisalSvatyRok extends Misal {
         nast_farbu = spevO = modlitbaO = prosbyO = citanie1O = zalmO = alelujaO = evanjeliumO = false;
 
         //nastaví toolbar, fullscreen a režim v menu
-        setToolbar("Omše na Svätý rok na 2025");
+        setToolbar("Omše na Svätý rok 2025");
         setFullscreen();
         menuRezim();
 
@@ -263,6 +263,7 @@ public class MisalSvatyRok extends Misal {
         kredo();
         prosby();
         prefacia();
+        slavnostnePozehnanie();
         vypis();
     }
 
@@ -429,9 +430,25 @@ public class MisalSvatyRok extends Misal {
     }
 
     @Override
+    public void pozehnanie(ArrayList<MassText> missas) {
+        if(pozicia_formular == 0)
+            missas.add(new MassText("Slávnostné požehnanie (otvoriť)", "red|bigPadding", 7));
+        else
+            missas.add(new MassText("Modlitba nad ľudom (otvoriť)", "red|bigPadding", 7));
+    }
+
+    @Override
+    public void slavnostnePozehnanie() {
+        slav_pozehnanie = -1;
+    }
+
+    @Override
     public void otvorenie(int dialog) {
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Slávnostné požehnanie</b></font>")));
+        if(pozicia_formular == 0)
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Slávnostné požehnanie</b></font>")));
+        else
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Modlitba nad ľudom</b></font>")));
         builder.setMessage("");
 
         builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
