@@ -3497,6 +3497,24 @@ public interface Texty {
             "<br>" +
             "<font color='#B71C1C'>7.</font> Pane Ježišu, prosíme ťa za pokoj vo všetkých krajinách, kde zúri vojna a prenasledovanie pre vieru, farbu pleti, či iný názor, aby utíchli zbrane a nastúpil vzájomný dialóg a porozumenie.";
 
+    String prosby_papez = "<font color='#B71C1C'>1.</font> Pane <font color='#B71C1C'>(</font>Ježišu<font color='#B71C1C'>)</font>, sprevádzaj nášho pápeža Františka v jeho službe pre tvoju Cirkev; požehnaj ho, obdaruj zdravím a chráň ho od každého zla. <br>" +
+            "<br>" +
+            "<font color='#B71C1C'>2.</font> Bože Otče, zahrň nášho pápeža Františka zdravím a svojím požehnaním, aby aj naďalej posilňoval Cirkev v dnešnej náročnej dobe. <br>" +
+            "<br>" +
+            "<font color='#B71C1C'>3.</font> <font color='#B71C1C'>(</font>Láskavý<font color='#B71C1C'>)</font> Bože, milostivo zhliadni na nášho pápeža Františka a posilňuj ho svojou milosrdnou láskou, aby bol aj v chorobe svedkom tvojej starostlivosti o Cirkev. <br>" +
+            "<br>" +
+            "<font color='#B71C1C'>4.</font> <font color='#B71C1C'>(</font>Dobrotivý<font color='#B71C1C'>)</font> Ježišu, uzdrav z choroby nášho pápeža Františka a daj, aby sa tešil z dobrého zdravia tela i duše. <br>" +
+            "<br>" +
+            "<font color='#B71C1C'>5.</font> Modlime sa za nášho pápeža Františka, aby pocítil Božiu blízkosť a aby ho ustavične posilňovala viera, nádej a láska. <br>" +
+            "<br>" +
+            "<font color='#B71C1C'>6.</font> Prosme za nášho pápeža Františka, aby jeho pozemskú cestu napĺňal Boží pokoj v spoločenstve veriacich celej Cirkvi. <br>" +
+            "<br>" +
+            "<font color='#B71C1C'>7.</font> Za nášho pápeža Františka, aby ho Pán chránil a daroval mu zdravie a svoje požehnanie, prosme Pána. <br>" +
+            "<br>" +
+            "<font color='#B71C1C'>8.</font> Za nášho pápeža Františka, aby ho Pán potešoval svojou prítomnosťou a dal mu silu s láskou znášať kríž choroby, prosme Pána. <br>" +
+            "<br>" +
+            "<font color='#B71C1C'>9.</font> Aby náš pápež František pocítil láskavý a uzdravujúci dotyk Stvoriteľa a svoje srdce upriamil na prísľub večného života, prosme Pána.";
+
     String koleda_narodenie_pana = "Dvadsiateho piateho decembra, \n" +
             "po uplynutí nespočetných vekov od stvorenia sveta, \n" +
             "keď na počiatku stvoril Boh nebo i zem \n" +
