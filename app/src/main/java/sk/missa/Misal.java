@@ -2887,7 +2887,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Požehnanie vody, soli, kriedy a tymianu na Zjavenie Pána</b></font>")));
         } else if (dialog == 21) {
             builder.setMessage(Html.fromHtml(nahrad(prosby_papez)));
-            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Prosby za zdravie pápeža Františka</b></font>")));
+            builder.setTitle(Html.fromHtml(nahrad("<font color='#B71C1C'><b>Prosby za vyvolenie nového pápeža</b></font>")));
         }
 
         builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
@@ -3133,8 +3133,8 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             vypisAlebo(missas, aleboProsby, 15);
         missas.add(new MassText(prosby_uvod, "html|justify"));
         missas.add(new MassText(prosby_zvolanie, "html|italic"));
+        missas.add(new MassText("Prosby za vyvolenie nového pápeža (otvoriť)", "red|smallPadding", 28));
         missas.add(new MassText(prosby_vypis, "html|smallPadding|justify"));
-        missas.add(new MassText("Prosby za zdravie pápeža Františka (otvoriť)", "red|smallPadding", 28));
         missas.add(new MassText("Prosby za pokoj a mier na Ukrajine (otvoriť)", "red|smallPadding", 22));
         missas.add(new MassText("Prosby za zosnulých a rozličné potreby (otvoriť)", "red|smallPadding", 21));
         missas.add(new MassText(prosby_zaver, "html"));
