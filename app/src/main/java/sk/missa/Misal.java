@@ -3133,7 +3133,7 @@ abstract public class Misal extends Main implements Texty, Formular, Eucharistia
             vypisAlebo(missas, aleboProsby, 15);
         missas.add(new MassText(prosby_uvod, "html|justify"));
         missas.add(new MassText(prosby_zvolanie, "html|italic"));
-        missas.add(new MassText("Prosby za vyvolenie nového pápeža (otvoriť)", "red|smallPadding", 28));
+        //missas.add(new MassText("Prosby za vyvolenie nového pápeža (otvoriť)", "red|smallPadding", 28));
         missas.add(new MassText(prosby_vypis, "html|smallPadding|justify"));
         missas.add(new MassText("Prosby za pokoj a mier na Ukrajine (otvoriť)", "red|smallPadding", 22));
         missas.add(new MassText("Prosby za zosnulých a rozličné potreby (otvoriť)", "red|smallPadding", 21));
