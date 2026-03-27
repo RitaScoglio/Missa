@@ -7,8 +7,8 @@ android {
         applicationId "sk.missa"
         minSdk 21
         targetSdk 35
-        versionCode 64
-        versionName "1.9.1"
+        versionCode 66
+        versionName "1.9.2"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
     kotlinOptions {

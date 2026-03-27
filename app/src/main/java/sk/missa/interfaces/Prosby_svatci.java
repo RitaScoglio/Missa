@@ -2764,7 +2764,7 @@ public interface Prosby_svatci {
                             "vo svätom Karolovi Boromejskom<br>" +
                             "a raz si zaslúžili večnú odmenu v spoločenstve tvojich svätých.<br>" +
                             "Lebo ty žiješ a kraľuješ na veky vekov."},
-            {"09g", "Bratia a sestry, Lateránska bazilika v Ríme je matkou a hlavou kresťanských chrámov celého sveta. Zjednoťme sa v modlitbe a prosme o budovanie duchovného chrámu vo svojom srdci.",
+            {"09gn", "Bratia a sestry, Lateránska bazilika v Ríme je matkou a hlavou kresťanských chrámov celého sveta. Zjednoťme sa v modlitbe a prosme o budovanie duchovného chrámu vo svojom srdci.",
                     "<font color='#B71C1C'>(</font>Volajme: Prosíme ťa, vyslyš nás.<font color='#B71C1C'>)</font>",
                     "<font color='#B71C1C'>1.</font>&nbsp;Bože Otče, buduj svoju Cirkev ako chrám postavený na základoch evanjelia, aby ho nepremohli pekelné mocnosti.<br>" +
                             "<font color='#B71C1C'>2.</font>&nbsp;Bože, daj, aby pápež <font color='#B71C1C'>M.</font> bol svojou službou mocnou oporou viery pre všetkých.<br>" +

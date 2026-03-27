@@ -1031,7 +1031,7 @@ public interface Citania_svatci {
                             "A mnohí z\u00A0tých, čo spia v\u00A0prachu zeme, sa zobudia; jedni na\u00A0večný život, druhí na\u00A0večnú potupu.<br>" +
                             "Múdri sa budú skvieť ako jas oblohy a tí, čo mnohých priviedli k\u00A0spravodlivosti, ako hviezdy na\u00A0večné veky.\"<br>" +
                             "Počuli sme Božie slovo."},
-            {"09g", "", "", "Ez 47, 1-2. 8-9. 12",
+            {"09gn", "", "", "Ez 47, 1-2. 8-9. 12",
                     "Videl som vodu vytekať z\u00A0chrámu; a všetko, k\u00A0čomu sa táto voda dostala, ozdravelo",
                     "Čítanie z Knihy proroka Ezechiela<br>" +
                             "Anjel ma obrátil k\u00A0bráne Pánovho chrámu a hľa, spod prahu chrámu vyvierala voda smerom na\u00A0východ – na\u00A0východ bolo totiž obrátené chrámové priečelie – a tiekla z\u00A0pravej strany chrámu, južne od\u00A0oltára.<br>" +
@@ -2921,7 +2921,7 @@ public interface Citania_svatci {
                             "Ale on im povedal: ‚Veru, hovorím vám: Nepoznám vás.'<br>" +
                             "Preto bdejte, lebo neviete ani dňa ani hodiny.\"<br>" +
                             "Počuli sme slovo Pánovo."},
-            {"09g", "", "", "Jn 2, 13-22",
+            {"09gn", "", "", "Jn 2, 13-22",
                     "Hovoril o\u00A0chráme svojho tela",
                     "<font color='#B71C1C'>✠</font> Čítanie zo svätého evanjelia podľa Jána<br>" +
                             "Blízko bola židovská Veľká noc a Ježiš vystúpil do\u00A0Jeruzalema.<br>" +

@@ -1631,7 +1631,7 @@ public interface Zalmy_svatci {
                             "A prečo sa chveješ? <font color='#B71C1C'>*</font><br>" +
                             "Dúfaj v Pána, lebo ho ešte budem velebiť,<br>" +
                             "spásu mojej tváre a môjho Boha. <font color='#B71C1C'>– R.</font>"},
-            {"09g", "", "", "Ž 46, 2-3. 5-6. 8-9b",
+            {"09gn", "", "", "Ž 46, 2-3. 5-6. 8-9b",
                     "<font color='#B71C1C'>R.:</font> Riečne ramená obveseľujú Božie mesto, posvätný stánok Najvyššieho.<br><br>" +
                             "Boh je naše útočište a sila <font color='#B71C1C'>*</font><br>" +
                             "aj najistejšia pomoc v súžení.<br>" +
@@ -2165,7 +2165,8 @@ public interface Zalmy_svatci {
             {"01gk", "", "", "Mt 11, 28", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Poďte ku mne všetci, ktorí sa namáhate a ste preťažení, a ja vás posilním. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"02an", "", "", "Jn 6, 40", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Vôľa môjho Otca je, aby každý, kto verí v Syna, mal večný život; a ja ho vzkriesim v posledný deň, hovorí Pán. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"02bn", "", "", "Jn 6, 51", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Ja som živý chlieb, ktorý zostúpil z neba, hovorí Pán; kto bude jesť z tohoto chleba, bude žiť naveky. <font color='#B71C1C'>– R.</font> Aleluja."},
-            {"09g", "", "", "2 Krn 7, 16", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Vyvolil som si toto miesto a posvätil som ho, hovorí Pán; aby tam bolo moje meno naveky. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"02cn", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Naša vlasť je v nebi. Odtiaľ očakávame aj Spasiteľa Pána Ježiša Krista. <font color='#B71C1C'>– R.</font> Aleluja."},
+            {"09gn", "", "", "2 Krn 7, 16", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Vyvolil som si toto miesto a posvätil som ho, hovorí Pán; aby tam bolo moje meno naveky. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"11g", "", "", "Jn 13, 34", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Nové prikázanie vám dávam, hovorí Pán; aby ste sa milovali navzájom, ako som ja miloval vás. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"17gk", "", "", "Jn 3, 14-18", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Nové prikázanie vám dávam, hovorí Pán; aby ste sa milovali navzájom, ako som ja miloval vás. <font color='#B71C1C'>– R.</font> Aleluja."},
             {"18", "", "", "", "<font color='#B71C1C'>R.</font> Aleluja. <font color='#B71C1C'>–</font> Teba, Bože, chválime, teba, Pane, velebíme. Teba, Pane, oslavuje slávny zbor apoštolov. <font color='#B71C1C'>– R.</font> Aleluja."},

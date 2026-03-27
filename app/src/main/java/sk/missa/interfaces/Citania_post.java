@@ -1335,6 +1335,7 @@ public interface Citania_post {
                     "Diakoni (nie však iní) pred\u00A0spievaním pašií prosia od\u00A0kňaza požehnanie, ako sa to robí vo\u00A0svätej omši pred\u00A0evanjeliom.\n" +
                     "Po pašiách, ak je to vhodné, nech je krátka homília.\n" +
                     "Značky pri\u00A0dialogickom čítaní: E - evanjelista, + - Kristove slová, S - slová ostatných osôb.",
+                    "",
                     "<font color='#B71C1C'>E</font> Jeden z\u00A0Dvanástich volal sa Judáš Iškariotský odišiel k\u00A0veľkňazom a vyzvedal sa: <font color='#B71C1C'>S</font> \"Čo mi dáte a ja vám ho vydám?\" <br>" +
                     "<font color='#B71C1C'>E</font> Oni mu určili tridsať strieborných. A od\u00A0tej chvíle hľadal príležitosť vydať ho.",
                     "Kde ti máme pripraviť veľkonočnú večeru?",

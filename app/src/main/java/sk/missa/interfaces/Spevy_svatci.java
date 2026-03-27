@@ -276,7 +276,7 @@ public interface Spevy_svatci {
                     "Svetlo večné nech im svieti, Pane, v spoločenstve tvojich svätých, veď si dobrotivý.", "(Porov. 4 Ezd 2, 35. 34)"},
             {"02cn", "Boh, ktorý vzkriesil Ježiša z mŕtvych, oživí aj naše smrteľné telá skrze svojho Ducha, ktorý prebýva v nás.", "(Porov. Rim 8, 11)",
                     "Očakávame Spasiteľa, nášho Pána Ježiša Krista; on pretvorí naše úbohé telo, aby sa stalo podobným jeho oslávenému telu.", "(Porov. Flp 3, 20 – 21)"},
-            {"09g", "Videl som, ako z neba od Boha zostupuje sväté mesto, nový Jeruzalem, vystrojené ako nevesta, ozdobená pre svojho ženícha.<br>" +
+            {"09gn", "Videl som, ako z neba od Boha zostupuje sväté mesto, nový Jeruzalem, vystrojené ako nevesta, ozdobená pre svojho ženícha.<br>" +
                     "<font color='#B71C1C'>Alebo: (Porov. Zjv 21, 3)</font><br>" +
                     "Hľa, Boží stánok je medzi ľuďmi! A bude medzi nimi prebývať; oni budú jeho ľudom a sám Boh – ich Boh – bude s nimi.", "(Porov. Zjv 21, 2)",
                     "Dajte sa vbudovať aj vy ako živé kamene do duchovného domu, do svätého kňazstva.", "(Porov. 1 Pt 2, 5)"},

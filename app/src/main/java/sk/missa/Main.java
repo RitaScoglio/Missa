@@ -480,6 +480,10 @@ abstract public class Main extends AppCompatActivity implements NavigationView.O
         else if (dvt == 0) {
             if (index != -1) {
                 if (month[index][2].equals("Slávnosť") || month[index][0].contains("n")) {
+                    //Výročie posviacky chrámov, ktorých deň posviacky nie je známy
+                    if(month[index][0].equals("26gk+") && mes == 9){
+                        words.add(nedela);
+                    }
                     while (month[index][0].contains(d)) {
                         words.add(new Calendar(month[index][1], month[index][2], month[index][3], day, cezrok, month[index][0], "c"));
                         index++;

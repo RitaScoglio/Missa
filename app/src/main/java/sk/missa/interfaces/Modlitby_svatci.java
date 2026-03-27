@@ -3353,7 +3353,7 @@ public interface Modlitby_svatci {
                     "Skrze nášho Pána Ježiša Krista, tvojho Syna, ktorý je Boh<br>" +
                     "a s tebou žije a kraľuje v jednote Ducha Svätého<br>" +
                     "po všetky veky vekov. ","",""},
-            {"09g", "Bože, zo živých a vybraných kameňov <br>" +
+            {"09gn", "Bože, zo živých a vybraných kameňov <br>" +
                     "si pripravuješ svoj večný príbytok; <font color='#B71C1C'>*</font><br>" +
                     "rozmnož vo svojej Cirkvi <br>" +
                     "ducha milosti, ktorého si jej poslal, <font color='#B71C1C'>—</font><br>" +
