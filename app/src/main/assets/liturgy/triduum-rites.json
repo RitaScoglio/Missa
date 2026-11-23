@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "items": {
+    "tr001": {
+      "rite": "EASTER_VIGIL",
+      "sections": [
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od213"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od218"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od216"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od215"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od210"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od214"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od211"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od219"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od212"
+            }
+          ]
+        }
+      ]
+    },
+    "tr002": {
+      "rite": "GOOD_FRIDAY",
+      "sections": [
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od187"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od190"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od188"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od186"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od189"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od185"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od184"
+            }
+          ]
+        }
+      ]
+    },
+    "tr003": {
+      "rite": "HOLY_THURSDAY",
+      "sections": [
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od209"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od208"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od206"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "REFERENCE",
+              "contentId": "od207"
+            }
+          ]
+        }
+      ]
+    },
+    "tr004": {
+      "rite": "EASTER_SUNDAY_PROCESSION",
+      "sections": [
+        {
+          "blocks": [
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "alignment": "JUSTIFY",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Slávnosť sa koná v čase vešpier.\nAk by sa namiesto vešpier konala bohoslužba slova, treba vziať prvé čítanie 1 Pt 1, 17-21 a evanjelium Lk 24, 12-25 s responzóriovým žalmom 15.\nKňaz vystaví na oltár Najsvätejšiu sviatosť v monštrancii. Kľakne si a počas eucharistickej piesne incenzuje Sviatosť.\nPotom sa konajú slávnostné vešpery (prípadne bohoslužba slova). Po záverečnej modlitbe sa kňaz obráti k ľudu a povie:"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "alignment": "JUSTIFY",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Drahí bratia a sestry, toto je deň, ktorý učinil Pán: plesajme a radujme sa z neho. Aleluja. Deň vzkriesenia Ježiša Krista je najslávnejším dňom a veľkonočná radosť je najväčšou radosťou.\nOhlasujme radostnú zvesť o vykúpení, ďakujme zmŕtvychvstalému Kristovi, ktorý je medzi nami, za tento deň a oslavujme ho."
+              }
+            },
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "alignment": "JUSTIFY",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Kňaz incenzuje Sviatosť, obráti sa k ľudu a zaintonuje:"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Ja som s vami."
+              }
+            },
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Intonovať môže aj spevák.\nZbor alebo aj veriaci pokračujú:"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Po všetky dni až do skončenia sveta. Aleluja.\nJa som Prvý a Posledný a Živý. Aleluja.\nBol som mŕtvy a hľa, žijem na veky vekov.\nAleluja, aleluja, aleluja."
+              }
+            },
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "alignment": "JUSTIFY",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Celebrant prijme náplecné vélum, vezme do rúk monštranciu, obráti sa k ľudu a intonuje:"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Pokoj vám, ja som to. Aleluja."
+              }
+            },
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Zbor alebo aj veriaci odpovedajú:"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Nebojte sa. Aleluja."
+              }
+            },
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "alignment": "JUSTIFY",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Tieto slová celebrant i zbor opakujú ešte dvakrát, a to vždy vyšším hlasom. Namiesto kňaza môže intonovať spevák.\nPotom kňaz alebo aj spevák zaspieva:"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "HTML"
+              },
+              "content": {
+                "html": "Pán Ježiš Kristus vstal z mŕtvych. <font color='#A32626'>(JKS 192)</font>"
+              }
+            },
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Alebo:"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "HTML"
+              },
+              "content": {
+                "html": "Raduj sa, Cirkev Kristova. <font color='#A32626'>(JKS 201)</font>"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "size": "SMALL",
+                "alignment": "JUSTIFY",
+                "format": "HTML"
+              },
+              "content": {
+                "html": "<font color='#A32626'>Všetci v piesni pokračujú.<br>Sprievod koná podľa miestnych okolností. Na čele procesie sa nesie kríž a socha Zmŕtvychvstalého. Pred Sviatosťou idú turiferi, ktorí striedavo incenzujú Sviatosť. Ostatní veriaci sa usporiadajú podľa miestnych zvyklostí. Zvonia zvony.<br>Po návrate speváci intonujú chválospev </font>Teba, Bože, chválime<font color='#A32626'>. Ľud pokračuje. Keď celebrant príde k oltáru, položí monštranciu na oltár. Po skončení chválospevu celebrant alebo spevák intonuje </font>Tantum ergo – Ctime túto sviatosť slávnu<font color='#A32626'>.<br>Ak sa nemôže konať procesia, kňaz po intonácii </font>Pán Ježiš Kristus vstal z mŕtvych<font color='#A32626'> alebo </font>Raduj sa, Cirkev Kristova<font color='#A32626'> položí Sviatosť na oltár, stane si pred oltár (chrbtom k ľudu) a pripojí sa k spevu. Potom je hymnus </font>Teba, Bože, chválime<font color='#A32626'>. Po ňom eucharistická pieseň </font>Tantum ergo – Ctime túto sviatosť slávnu<font color='#A32626'>.<br>Pri druhej strofe eucharistického hymnu, kňaz incenzuje Sviatosť a po skončení hymnu povie\n</font>"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "HTML"
+              },
+              "content": {
+                "html": "<font color='#A32626'>Kňaz:</font> Pane, zostaň s nami, lebo sa zvečerieva. Aleluja.<br><font color='#A32626'>Ľud:</font> A deň sa už schýlil. Aleluja.<br>Modlime sa."
+              }
+            },
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Chvíľa ticha."
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "HTML"
+              },
+              "content": {
+                "html": "Pane Ježišu, vo vznešenej Oltárnej sviatosti<br>zanechal si nám pamiatku<br>svojho umučenia a zmŕtvychvstania; <font color='#A32626'>*</font><br>prosíme ťa, pomáhaj nám uctievať<br>tajomstvo tvojho Tela a Krvi s takou vierou a láskou, <font color='#A32626'>–</font><br>aby sme vždy pociťovali<br>účinky tvojho vykupiteľského diela.<br>Lebo ty žiješ a kraľuješ na veky vekov.<br><font color='#A32626'>Všetci:</font> Amen."
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "size": "SMALL",
+                "alignment": "JUSTIFY",
+                "format": "HTML"
+              },
+              "content": {
+                "html": "<font color='#A32626'>Kňaz prijme náplecné vélum, zoberie do rúk monštranciu a požehná ľud, pričom nič nehovorí.<br>Potom uloží Najsvätejšiu sviatosť do svätostánku, pokľakne a svätostánok uzavrie. Ľud môže zatiaľ predniesť vhodnú aklamáciu, napr. </font>Christus vincit – Kristus víťaz<font color='#A32626'>.<br>Na zakončenie sa zaspieva veľkonočná mariánska antifóna.</font>"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Raduj sa, nebies Kráľovná, aleluja, aleluja.\nLebo koho si nosila, aleluja, aleluja.\nZ mŕtvych vstal, jak predpovedal, aleluja, aleluja.\nPros, aby nás k sebe prijal, aleluja, aleluja."
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "HTML"
+              },
+              "content": {
+                "html": "<font color='#A32626'>Kňaz:</font>Raduj sa a veseľ sa, Panna Mária, aleluja.<br><font color='#A32626'>Ľud:</font> Lebo Pán naozaj vstal z mŕtvych, aleluja.<br>Modlime sa.<br>Bože, ty si zmŕtvychvstaním tvojho Syna,<br>nášho Pána Ježiša Krista, potešil celý svet; <font color='#A32626'>*</font><br>prosíme ťa, <font color='#A32626'>—</font><br>daj, aby sme na príhovor jeho Rodičky Panny Márie<br>dosiahli radosti večného života.<br>Skrze Krista, nášho Pána.<br><font color='#A32626'>Všetci:</font> Amen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "tr005": {
+      "rite": "GOOD_FRIDAY_REPOSITION",
+      "sections": [
+        {
+          "blocks": [
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "alignment": "JUSTIFY",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Adorácia v Božom hrobe trvá až do začiatku Veľkonočnej vigílie. Na noc sa však Najsvätejšia sviatosť uloží do svätostánku v kaplnke.\nKňaz (diakon) si vezme na albu alebo superpelíciu červenú štólu, príde k Božiemu hrobu, chvíľu zotrvá v tichej modlitbe a potom sa s prítomnými modlí:"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "HTML"
+              },
+              "content": {
+                "html": "<font color='#A32626'>℣.</font> Buď pozdravené, pravé Kristovo telo, obetované za nás na kríži.<br><font color='#A32626'>℟.</font> Buď pozdravené, pravé Kristovo telo, obetované za nás na kríži.<br><font color='#A32626'>℣.</font> Ježišu Kriste, Baránok bez poškvrny, ty si zomrel na kríži za naše hriechy. <br><font color='#A32626'>℟.</font> Buď pozdravené, pravé Kristovo telo, obetované za nás na kríži.<br><font color='#A32626'>℣.</font> Ježišu Kriste, tvoje telo, obetované za nás, je duchovný pokrm, ktorý nás posilňuje.<br><font color='#A32626'>℟.</font> Buď pozdravené, pravé Kristovo telo, obetované za nás na kríži.<br><font color='#A32626'>℣.</font> Ježišu Kriste, ty si nám v Oltárnej sviatosti zanechal pamiatku tvojej smrti a zmŕtvychvstania.<br><font color='#A32626'>℟.</font> Buď pozdravené, pravé Kristovo telo, obetované za nás na kríži.<br><font color='#A32626'>℣.</font> Baránok Boží, ty snímaš hriechy sveta.<br><font color='#A32626'>℟.</font> Zmiluj sa nad nami.<br><font color='#A32626'>℣.</font> Baránok Boží, ty snímaš hriechy sveta.<br><font color='#A32626'>℟.</font> Zmiluj sa nad nami.<br><font color='#A32626'>℣.</font> Baránok Boží, ty snímaš hriechy sveta.<br><font color='#A32626'>℟.</font> Daruj nám pokoj."
+              }
+            },
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "alignment": "JUSTIFY",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Kňaz v tichosti uloží Najsvätejšia sviatosť do svätostánku v kaplnke."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "tr006": {
+      "rite": "HOLY_SATURDAY_EXPOSITION",
+      "sections": [
+        {
+          "blocks": [
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "alignment": "JUSTIFY",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Po ranných chválach celebrant v albe alebo v superpelícii s fialovou štólou, prípadne aj vo fialovom pluviáli, ide s asistenciou k Božiemu hrobu, vyloží v monštrancii Najsvätejšiu sviatosť (monštrancia je zahalená bielym priesvitným závojom), kľakne si a chvíľu v tichosti adoruje.\nPotom sa z veriacimi modlí:"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "HTML"
+              },
+              "content": {
+                "html": "<font color='#A32626'>℣.</font> Klaniame sa ti, Kriste, a dobrorečíme ti.<br><font color='#A32626'>℟.</font> Lebo si svojím krížom vykúpil svet.<br><font color='#A32626'>℣.</font> Pane, ja hľadám tvoju tvár.<br><font color='#A32626'>℟.</font> Pane, ja hľadám tvoju tvár.<br><font color='#A32626'>℣.</font> Čuj, Pane, hlas môjho volania, zľutuj sa nado mnou a vyslyš ma.<br><font color='#A32626'>℟.</font> Pane, ja hľadám tvoju tvár.<br><font color='#A32626'>℣.</font> V srdci mi znejú tvoje slová: Hľadajte jeho tvár!<br><font color='#A32626'>℟.</font> Pane, ja hľadám tvoju tvár.<br><font color='#A32626'>℣.</font> Ty si moja pomoc, neodvrhuj ma, ani ma neopúšťaj. Bože, moja spása.<br><font color='#A32626'>℟.</font> Pane, ja hľadám tvoju tvár.<br><font color='#A32626'>℣.</font> Verím, že uvidím dobrodenia Pánove v krajine žijúcich.<br><font color='#A32626'>℟.</font> Pane, ja hľadám tvoju tvár."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "tr007": {
+      "rite": "HOLY_SATURDAY_CONCLUSION",
+      "sections": [
+        {
+          "blocks": [
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "alignment": "JUSTIFY",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Pred slávením Veľkonočnej vigílie sa ukončí poklona v Božom hrobe. \nV stanovenú hodinu celebrant oblečený v albe alebo v superpelícii s fialovou štólou príde k Božiemu hrobu, kľakne si pred Oltárnou sviatosťou a chvíľu sa ticho modlí. Potom s prítomnými recituje vešpery Bielej soboty alebo aspoň prosby z nich."
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "alignment": "JUSTIFY",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Úprimne sa klaňajme nášmu Vykupiteľovi, ktorý bol za nás umučený a pochovaný, aby vstal z mŕtvych, a pokorne ho vzývajme:"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "italic": true,
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Pane, zmiluj sa nad nami."
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "HTML"
+              },
+              "content": {
+                "html": "Pane Ježišu, zo svojho boku, prebodnutého kopijou, si vylial krv a vodu, obdivuhodné tajomstvo celej Cirkvi;<br><font color='#A32626'>–</font> svojou smrťou, pochovaním a zmŕtvychvstaním oživuj túto svoju tajomnú Nevestu.<br>Pane Ježišu, spomenul si si na tých, čo zabudli na tvoje prisľúbenia, že vstaneš z mŕtvych;<br><font color='#A32626'>–</font> nezabudni ani na tých, čo nevedia o tvojom zmŕtvychvstaní a žijú bez nádeje.<br>Baránok Boží, ty si bol obetovaný za všetkých ako náš veľkonočný Baránok;<br><font color='#A32626'>–</font> pritiahni k sebe všetkých ľudí.<br>Pane, v tvojej ruke je celý svet, a predsa si sa nechal zavrieť do hrobu;<br><font color='#A32626'>–</font> vysloboď ľudstvo z moci pekla a daruj mu slávu nesmrteľnosti.<br>Kriste, Syn živého Boha, ty si z kríža zločincovi otvoril bránu raja;<br><font color='#A32626'>–</font> pridruž k sláve svojho zmŕtvychvstania zosnulých, čo sa ti stali podobnými v smrti a pochovaní."
+              }
+            },
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "alignment": "JUSTIFY",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Namiesto Modlitby Pána a záverečnej modlitby kňaz povie:"
+              }
+            },
+            {
+              "type": "TEXT",
+              "style": {
+                "format": "HTML"
+              },
+              "content": {
+                "html": "Tomu, čo sedí na tróne, a Baránkovi dobrorečenie a česť, sláva a moc na veky vekov.<br><font color='#A32626'>℟.</font>Amen."
+              }
+            },
+            {
+              "type": "RUBRIC",
+              "style": {
+                "color": "RED",
+                "size": "SMALL",
+                "alignment": "JUSTIFY",
+                "format": "PLAIN_TEXT"
+              },
+              "content": {
+                "html": "Potom celebrant vyberie hostiu z monštrancie a uloží ju do svätostánku. Socha Krista ležiaceho v hrobe sa prikryje bielou plachtou a zhasnú sa všetky svetlá okrem lampy pred svätostánkom."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2338 @@
+{
+  "schemaVersion": 1,
+  "items": {
+    "f001": {
+      "name": "Sv. Cyrila a Metoda, slovanských vierozvestov",
+      "mass": {
+        "chantSetId": "hp051",
+        "entranceChantIds": [
+          "ct004",
+          "ct005"
+        ],
+        "orationSetId": "op001",
+        "intercessionsId": "ip001",
+        "lectionary": {
+          "firstReadingId": "fr137",
+          "psalmId": "ps111",
+          "secondReadingId": "sr055",
+          "acclamationId": "ac091",
+          "gospelId": "g113"
+        }
+      }
+    },
+    "f002": {
+      "name": "O Duchu Svätom 1.",
+      "mass": {
+        "chantSetId": "hc001",
+        "orationSetId": "oc001",
+        "intercessionsId": "ic001"
+      }
+    },
+    "f003": {
+      "name": "O Duchu Svätom 2.",
+      "mass": {
+        "chantSetId": "hc002",
+        "orationSetId": "oc002",
+        "collectPrayerIds": [
+          "pt013",
+          "pt014"
+        ],
+        "intercessionsId": "ic001"
+      }
+    },
+    "f004": {
+      "name": "O Duchu Svätom 3.",
+      "mass": {
+        "chantSetId": "hc003",
+        "orationSetId": "oc003",
+        "collectPrayerIds": [
+          "pt015",
+          "pt016"
+        ],
+        "intercessionsId": "ic001"
+      }
+    },
+    "f005": {
+      "name": "Zoslanie Ducha Svätého",
+      "mass": {
+        "chantSetId": "hc004",
+        "entranceChantIds": [
+          "ct020",
+          "ct021"
+        ],
+        "orationSetId": "oc004",
+        "intercessionsId": "ic002"
+      }
+    },
+    "f006": {
+      "name": "Najsvätejšieho Srdca Ježišovho",
+      "mass": {
+        "chantSetId": "hc005",
+        "communionChantIds": [
+          "ct022",
+          "ct023"
+        ],
+        "orationSetId": "oc005",
+        "collectPrayerIds": [
+          "pt019",
+          "pt020"
+        ]
+      }
+    },
+    "f007": {
+      "name": "Votívna omša o Najsvätejšom Srdci Ježišovom",
+      "mass": {
+        "chantSetId": "hc006",
+        "communionChantIds": [
+          "ct162",
+          "ct023"
+        ],
+        "orationSetId": "oc006"
+      }
+    },
+    "f008": {
+      "name": "Výročie posviacky chrámu (slávenie mimo chrámu)",
+      "mass": {
+        "chantSetId": "hc007",
+        "entranceChantIds": [
+          "ct036",
+          "ct037"
+        ],
+        "communionChantIds": [
+          "ct038",
+          "ct039"
+        ],
+        "orationSetId": "oc007",
+        "collectPrayerIds": [
+          "pt017",
+          "pt018"
+        ],
+        "intercessionsId": "ic003"
+      }
+    },
+    "f009": {
+      "name": "Svätý rok 2025 1.",
+      "mass": {
+        "chantSetId": "hc008",
+        "orationSetId": "oc008",
+        "intercessionsId": "ic004",
+        "intercessionChoices": [
+          {
+            "label": "Svätý rok 2025 1.",
+            "intercessionsId": "ic004"
+          },
+          {
+            "label": "Svätý rok 2025 2.",
+            "intercessionsId": "ic005"
+          },
+          {
+            "label": "Svätý rok 2025 3.",
+            "intercessionsId": "ic006"
+          }
+        ]
+      }
+    },
+    "f010": {
+      "name": "Svätý rok 2025 2.",
+      "mass": {
+        "chantSetId": "hc009",
+        "orationSetId": "oc009",
+        "intercessionsId": "ic004",
+        "intercessionChoices": [
+          {
+            "label": "Svätý rok 2025 1.",
+            "intercessionsId": "ic004"
+          },
+          {
+            "label": "Svätý rok 2025 2.",
+            "intercessionsId": "ic005"
+          },
+          {
+            "label": "Svätý rok 2025 3.",
+            "intercessionsId": "ic006"
+          }
+        ]
+      }
+    },
+    "f011": {
+      "name": "Svätý rok 2025 3.",
+      "mass": {
+        "chantSetId": "hc010",
+        "orationSetId": "oc010",
+        "intercessionsId": "ic004",
+        "intercessionChoices": [
+          {
+            "label": "Svätý rok 2025 1.",
+            "intercessionsId": "ic004"
+          },
+          {
+            "label": "Svätý rok 2025 2.",
+            "intercessionsId": "ic005"
+          },
+          {
+            "label": "Svätý rok 2025 3.",
+            "intercessionsId": "ic006"
+          }
+        ]
+      }
+    },
+    "f012": {
+      "name": "Omša k preblahoslavenej Panne Marií 1.",
+      "mass": {
+        "chantSetId": "hc011",
+        "orationSetId": "oc011",
+        "offeringPrayerIds": [
+          "pt035",
+          "pt036"
+        ],
+        "intercessionsId": "ic007"
+      }
+    },
+    "f013": {
+      "name": "Omša k preblahoslavenej Panne Marií 2.",
+      "mass": {
+        "chantSetId": "hc012",
+        "orationSetId": "oc012",
+        "intercessionsId": "ic008"
+      }
+    },
+    "f014": {
+      "name": "Omša k preblahoslavenej Panne Marií 3.",
+      "mass": {
+        "chantSetId": "hc013",
+        "orationSetId": "oc013",
+        "intercessionsId": "ic007"
+      }
+    },
+    "f015": {
+      "name": "Omša k preblahoslavenej Panne Marií 4.",
+      "mass": {
+        "chantSetId": "hc014",
+        "orationSetId": "oc014",
+        "intercessionsId": "ic008"
+      }
+    },
+    "f016": {
+      "name": "Omša k preblahoslavenej Panne Marií 5.",
+      "mass": {
+        "chantSetId": "hc015",
+        "orationSetId": "oc015",
+        "intercessionsId": "ic007"
+      }
+    },
+    "f017": {
+      "name": "Omša k preblahoslavenej Panne Marií 6.",
+      "mass": {
+        "chantSetId": "hc016",
+        "orationSetId": "oc016",
+        "intercessionsId": "ic008"
+      }
+    },
+    "f018": {
+      "name": "Omša k preblahoslavenej Panne Marií 7.",
+      "mass": {
+        "chantSetId": "hc017",
+        "orationSetId": "oc017",
+        "intercessionsId": "ic007"
+      }
+    },
+    "f019": {
+      "name": "Omša k preblahoslavenej Panne Marií 8.",
+      "mass": {
+        "chantSetId": "hc018",
+        "orationSetId": "oc018",
+        "intercessionsId": "ic008"
+      }
+    },
+    "f020": {
+      "name": "Omša k preblahoslavenej Panne Marií",
+      "mass": {
+        "chantSetId": "hc019",
+        "entranceChantIds": [
+          "ct030",
+          "ct031"
+        ],
+        "orationSetId": "oc019",
+        "collectPrayerIds": [
+          "pt053",
+          "pt054"
+        ]
+      }
+    },
+    "f021": {
+      "name": "Omša k preblahoslavenej Panne Marií",
+      "mass": {
+        "chantSetId": "hc020",
+        "entranceChantIds": [
+          "ct032",
+          "ct033"
+        ],
+        "orationSetId": "oc020",
+        "collectPrayerIds": [
+          "pt012",
+          "pt092"
+        ]
+      }
+    },
+    "f022": {
+      "name": "Omša k preblahoslavenej Panne Marií",
+      "mass": {
+        "chantSetId": "hc021",
+        "orationSetId": "oc021",
+        "intercessionsId": "ic009"
+      }
+    },
+    "f023": {
+      "name": "Preblahoslavená Panna Mária vyvolený potomok Izraela",
+      "mass": {
+        "chantSetId": "hc022",
+        "orationSetId": "oc022",
+        "collectPrayerIds": [
+          "pt055",
+          "pt056"
+        ]
+      }
+    },
+    "f024": {
+      "name": "Preblahoslavená Panna Mária pri Zvestovaní Pána",
+      "mass": {
+        "chantSetId": "hc023",
+        "orationSetId": "oc023"
+      }
+    },
+    "f025": {
+      "name": "Navštívenie Preblahoslavenej Panny Márie",
+      "mass": {
+        "chantSetId": "hc024",
+        "orationSetId": "oc024"
+      }
+    },
+    "f026": {
+      "name": "Nepoškvrneného Srdca Panny Márie",
+      "mass": {
+        "chantSetId": "hc025",
+        "orationSetId": "oc025",
+        "intercessionsId": "ic010"
+      }
+    },
+    "f027": {
+      "name": "Omša za viacerých mučeníkov 1.",
+      "mass": {
+        "chantSetId": "hc026",
+        "entranceChantIds": [
+          "ct024",
+          "ct025"
+        ],
+        "communionChantIds": [
+          "ct026",
+          "ct027"
+        ],
+        "orationSetId": "oc026",
+        "intercessionsId": "ic011"
+      }
+    },
+    "f028": {
+      "name": "Omša za viacerých mučeníkov 2.",
+      "mass": {
+        "chantSetId": "hc027",
+        "entranceChantIds": [
+          "ct044",
+          "ct045"
+        ],
+        "communionChantIds": [
+          "ct046",
+          "ct047"
+        ],
+        "orationSetId": "oc027",
+        "intercessionsId": "ic011"
+      }
+    },
+    "f029": {
+      "name": "Omša za viacerých mučeníkov 3.",
+      "mass": {
+        "chantSetId": "hc028",
+        "entranceChantIds": [
+          "ct048",
+          "ct049"
+        ],
+        "communionChantIds": [
+          "ct050",
+          "ct051"
+        ],
+        "orationSetId": "oc028",
+        "collectPrayerIds": [
+          "pt021",
+          "pt022"
+        ],
+        "intercessionsId": "ic011"
+      }
+    },
+    "f030": {
+      "name": "Omša za viacerých mučeníkov 4.",
+      "mass": {
+        "chantSetId": "hc029",
+        "entranceChantIds": [
+          "ct052",
+          "ct053"
+        ],
+        "communionChantIds": [
+          "ct054",
+          "ct055"
+        ],
+        "orationSetId": "oc029",
+        "collectPrayerIds": [
+          "pt023",
+          "pt024"
+        ],
+        "intercessionsId": "ic011"
+      }
+    },
+    "f031": {
+      "name": "Omša za viacerých mučeníkov 5.",
+      "mass": {
+        "chantSetId": "hc030",
+        "entranceChantIds": [
+          "ct056",
+          "ct057"
+        ],
+        "communionChantIds": [
+          "ct058",
+          "ct059"
+        ],
+        "orationSetId": "oc030",
+        "offeringPrayerIds": [
+          "pt025",
+          "pt026"
+        ],
+        "intercessionsId": "ic011"
+      }
+    },
+    "f032": {
+      "name": "Omša za jedného mučeníka 1.",
+      "mass": {
+        "chantSetId": "hc031",
+        "entranceChantIds": [
+          "ct060",
+          "ct061"
+        ],
+        "communionChantIds": [
+          "ct062",
+          "ct063"
+        ],
+        "orationSetId": "oc031",
+        "offeringPrayerIds": [
+          "pt027",
+          "pt028"
+        ],
+        "intercessionsId": "ic012"
+      }
+    },
+    "f033": {
+      "name": "Omša za jedného mučeníka 2.",
+      "mass": {
+        "chantSetId": "hc032",
+        "entranceChantIds": [
+          "ct064",
+          "ct065"
+        ],
+        "communionChantIds": [
+          "ct066",
+          "ct067"
+        ],
+        "orationSetId": "oc032",
+        "offeringPrayerIds": [
+          "pt029",
+          "pt030"
+        ],
+        "intercessionsId": "ic012"
+      }
+    },
+    "f034": {
+      "name": "Omša za viacerých mučeníkov 1.",
+      "mass": {
+        "chantSetId": "hc033",
+        "entranceChantIds": [
+          "ct068",
+          "ct069"
+        ],
+        "communionChantIds": [
+          "ct070",
+          "ct071"
+        ],
+        "orationSetId": "oc033",
+        "collectPrayerIds": [
+          "pt031",
+          "pt032"
+        ],
+        "intercessionsId": "ic011"
+      }
+    },
+    "f035": {
+      "name": "Omša za viacerých mučeníkov 2.",
+      "mass": {
+        "chantSetId": "hc034",
+        "entranceChantIds": [
+          "ct072",
+          "ct073"
+        ],
+        "communionChantIds": [
+          "ct074",
+          "ct075"
+        ],
+        "orationSetId": "oc034",
+        "intercessionsId": "ic011"
+      }
+    },
+    "f036": {
+      "name": "Omša za jedného mučeníka",
+      "mass": {
+        "chantSetId": "hc035",
+        "entranceChantIds": [
+          "ct080",
+          "ct081"
+        ],
+        "communionChantIds": [
+          "ct082",
+          "ct083"
+        ],
+        "orationSetId": "oc035",
+        "intercessionsId": "ic012"
+      }
+    },
+    "f037": {
+      "name": "Omša za viacerých mučeníkov misionárov",
+      "mass": {
+        "chantSetId": "hc036",
+        "communionChantIds": [
+          "ct076",
+          "ct077"
+        ],
+        "orationSetId": "oc036",
+        "intercessionsId": "ic012"
+      }
+    },
+    "f038": {
+      "name": "Omša za jedného mučeníka misionára",
+      "mass": {
+        "chantSetId": "hc037",
+        "orationSetId": "oc037",
+        "intercessionsId": "ic012"
+      }
+    },
+    "f039": {
+      "name": "Omša o panne mučenici",
+      "mass": {
+        "chantSetId": "hc038",
+        "entranceChantIds": [
+          "ct078",
+          "ct079"
+        ],
+        "orationSetId": "oc038",
+        "intercessionsId": "ic013"
+      }
+    },
+    "f040": {
+      "name": "Omša o svätej žene mučenici",
+      "mass": {
+        "chantSetId": "hc039",
+        "orationSetId": "oc039",
+        "intercessionsId": "ic013"
+      }
+    },
+    "f041": {
+      "name": "Omša o pápežoch alebo biskupoch 1.",
+      "mass": {
+        "chantSetId": "hc040",
+        "entranceChantIds": [
+          "ct084",
+          "ct085"
+        ],
+        "orationSetId": "oc040",
+        "intercessionsId": "ic014"
+      }
+    },
+    "f042": {
+      "name": "Omša o pápežoch alebo biskupoch 2.",
+      "mass": {
+        "chantSetId": "hc041",
+        "orationSetId": "oc041",
+        "collectPrayerIds": [
+          "pt033",
+          "pt034"
+        ],
+        "intercessionsId": "ic014"
+      }
+    },
+    "f043": {
+      "name": "Omša o pápežoch alebo biskupoch 1.",
+      "mass": {
+        "chantSetId": "hc040",
+        "entranceChantIds": [
+          "ct084",
+          "ct085"
+        ],
+        "orationSetId": "oc042",
+        "intercessionsId": "ic015"
+      }
+    },
+    "f044": {
+      "name": "Omša o pápežoch alebo biskupoch 2.",
+      "mass": {
+        "chantSetId": "hc041",
+        "orationSetId": "oc043",
+        "intercessionsId": "ic015"
+      }
+    },
+    "f045": {
+      "name": "Omša o biskupoch 1.",
+      "mass": {
+        "chantSetId": "hc042",
+        "entranceChantIds": [
+          "ct133",
+          "ct134"
+        ],
+        "communionChantIds": [
+          "ct135",
+          "ct136"
+        ],
+        "orationSetId": "oc044",
+        "intercessionsId": "ic015"
+      }
+    },
+    "f046": {
+      "name": "Omša o biskupoch 2.",
+      "mass": {
+        "chantSetId": "hc043",
+        "entranceChantIds": [
+          "ct137",
+          "ct089"
+        ],
+        "communionChantIds": [
+          "ct138",
+          "ct139"
+        ],
+        "orationSetId": "oc045",
+        "collectPrayerIds": [
+          "pt037",
+          "pt038"
+        ],
+        "intercessionsId": "ic015"
+      }
+    },
+    "f047": {
+      "name": "Omša o duchovných pastieroch",
+      "mass": {
+        "chantSetId": "hc044",
+        "entranceChantIds": [
+          "ct086",
+          "ct087"
+        ],
+        "orationSetId": "oc046",
+        "intercessionsId": "ic016"
+      }
+    },
+    "f048": {
+      "name": "Omša o duchovnom pastierovi 1.",
+      "mass": {
+        "chantSetId": "hc045",
+        "communionChantIds": [
+          "ct088",
+          "ct089"
+        ],
+        "orationSetId": "oc047",
+        "intercessionsId": "ic016"
+      }
+    },
+    "f049": {
+      "name": "Omša o duchovnom pastierovi 2.",
+      "mass": {
+        "chantSetId": "hc046",
+        "entranceChantIds": [
+          "ct090",
+          "ct091"
+        ],
+        "orationSetId": "oc048",
+        "afterCommunionPrayerIds": [
+          "pt039",
+          "pt040"
+        ],
+        "intercessionsId": "ic016"
+      }
+    },
+    "f050": {
+      "name": "Omša o zakladateľovi miestnej cirkvi",
+      "mass": {
+        "chantSetId": "hc047",
+        "communionChantIds": [
+          "ct092",
+          "ct093"
+        ],
+        "orationSetId": "oc049",
+        "collectPrayerIds": [
+          "pt041",
+          "pt042"
+        ],
+        "intercessionsId": "ic017"
+      }
+    },
+    "f051": {
+      "name": "Omša o zakladateľoch miestnych cirkví",
+      "mass": {
+        "chantSetId": "hc048",
+        "communionChantIds": [
+          "ct118",
+          "ct119"
+        ],
+        "orationSetId": "oc050",
+        "collectPrayerIds": [
+          "pt043",
+          "pt044"
+        ],
+        "intercessionsId": "ic017"
+      }
+    },
+    "f052": {
+      "name": "Omša o misionároch 1.",
+      "mass": {
+        "chantSetId": "hc049",
+        "entranceChantIds": [
+          "ct126",
+          "ct127"
+        ],
+        "communionChantIds": [
+          "ct128",
+          "ct129"
+        ],
+        "orationSetId": "oc051",
+        "collectPrayerIds": [
+          "pt045",
+          "pt046"
+        ],
+        "intercessionsId": "ic018"
+      }
+    },
+    "f053": {
+      "name": "Omša o misionároch 2.",
+      "mass": {
+        "chantSetId": "hc050",
+        "communionChantIds": [
+          "ct114",
+          "ct115"
+        ],
+        "orationSetId": "oc052",
+        "intercessionsId": "ic019"
+      }
+    },
+    "f054": {
+      "name": "Omša o misionároch 3.",
+      "mass": {
+        "chantSetId": "hc051",
+        "communionChantIds": [
+          "ct116",
+          "ct117"
+        ],
+        "orationSetId": "oc053",
+        "intercessionsId": "ic019"
+      }
+    },
+    "f055": {
+      "name": "Omša o učiteľoch Cirkvi 1.",
+      "mass": {
+        "chantSetId": "hc052",
+        "entranceChantIds": [
+          "ct130",
+          "ct131"
+        ],
+        "communionChantIds": [
+          "ct089",
+          "ct132"
+        ],
+        "orationSetId": "oc054",
+        "intercessionsId": "ic020"
+      }
+    },
+    "f056": {
+      "name": "Omša o učiteľoch Cirkvi 2.",
+      "mass": {
+        "chantSetId": "hc053",
+        "entranceChantIds": [
+          "ct124",
+          "ct125"
+        ],
+        "orationSetId": "oc055",
+        "collectPrayerIds": [
+          "pt038"
+        ],
+        "intercessionsId": "ic020"
+      }
+    },
+    "f057": {
+      "name": "Omša o pannách 1.",
+      "mass": {
+        "chantSetId": "hc054",
+        "entranceChantIds": [
+          "ct140",
+          "ct141"
+        ],
+        "communionChantIds": [
+          "ct142",
+          "ct143"
+        ],
+        "orationSetId": "oc056",
+        "intercessionsId": "ic021"
+      }
+    },
+    "f058": {
+      "name": "Omša o pannách 2.",
+      "mass": {
+        "chantSetId": "hc055",
+        "entranceChantIds": [
+          "ct122",
+          "ct123"
+        ],
+        "orationSetId": "oc057",
+        "collectPrayerIds": [
+          "pt079",
+          "pt080"
+        ],
+        "intercessionsId": "ic021"
+      }
+    },
+    "f059": {
+      "name": "Omša o pannách 3.",
+      "mass": {
+        "chantSetId": "hc056",
+        "entranceChantIds": [
+          "ct144",
+          "ct145"
+        ],
+        "communionChantIds": [
+          "ct146",
+          "ct147"
+        ],
+        "orationSetId": "oc058",
+        "collectPrayerIds": [
+          "pt047",
+          "pt048"
+        ],
+        "intercessionsId": "ic021"
+      }
+    },
+    "f060": {
+      "name": "Omša o viacerých pannách",
+      "mass": {
+        "chantSetId": "hc057",
+        "entranceChantIds": [
+          "ct148",
+          "ct149"
+        ],
+        "communionChantIds": [
+          "ct150",
+          "ct151"
+        ],
+        "orationSetId": "oc059",
+        "intercessionsId": "ic021"
+      }
+    },
+    "f061": {
+      "name": "Omša o svätých mužoch a svätých ženách 1.",
+      "mass": {
+        "chantSetId": "hc058",
+        "communionChantIds": [
+          "ct120",
+          "ct121"
+        ],
+        "orationSetId": "oc060",
+        "intercessionsId": "ic022"
+      }
+    },
+    "f062": {
+      "name": "Omša o svätých mužoch a svätých ženách 2.",
+      "mass": {
+        "chantSetId": "hc059",
+        "orationSetId": "oc061",
+        "intercessionsId": "ic022"
+      }
+    },
+    "f063": {
+      "name": "Omša o svätých mužoch a svätých ženách 3.",
+      "mass": {
+        "chantSetId": "hc060",
+        "entranceChantIds": [
+          "ct152"
+        ],
+        "orationSetId": "oc062",
+        "intercessionsId": "ic022"
+      }
+    },
+    "f064": {
+      "name": "Omša o svätých mužoch a svätých ženách 4.",
+      "mass": {
+        "chantSetId": "hc061",
+        "orationSetId": "oc063",
+        "intercessionsId": "ic022"
+      }
+    },
+    "f065": {
+      "name": "Omša o svätých mužoch a svätých ženách 5.",
+      "mass": {
+        "chantSetId": "hc062",
+        "communionChantIds": [
+          "ct108",
+          "ct109"
+        ],
+        "orationSetId": "oc064",
+        "intercessionsId": "ic022"
+      }
+    },
+    "f066": {
+      "name": "Omša o svätých mužoch a svätých ženách 6.",
+      "mass": {
+        "chantSetId": "hc063",
+        "orationSetId": "oc065",
+        "intercessionsId": "ic022"
+      }
+    },
+    "f067": {
+      "name": "Omša o rehoľníkoch 1.",
+      "mass": {
+        "chantSetId": "hc064",
+        "entranceChantIds": [
+          "ct152",
+          "ct131"
+        ],
+        "communionChantIds": [
+          "ct089",
+          "ct153"
+        ],
+        "orationSetId": "oc066",
+        "intercessionsId": "ic023"
+      }
+    },
+    "f068": {
+      "name": "Omša o rehoľníkoch 2.",
+      "mass": {
+        "chantSetId": "hc065",
+        "entranceChantIds": [
+          "ct154",
+          "ct155"
+        ],
+        "communionChantIds": [
+          "ct156",
+          "ct157"
+        ],
+        "orationSetId": "oc067",
+        "intercessionsId": "ic023"
+      }
+    },
+    "f069": {
+      "name": "Omša o rehoľníkoch 3.",
+      "mass": {
+        "chantSetId": "hc066",
+        "entranceChantIds": [
+          "ct158",
+          "ct159"
+        ],
+        "communionChantIds": [
+          "ct160",
+          "ct161"
+        ],
+        "orationSetId": "oc068",
+        "intercessionsId": "ic023"
+      }
+    },
+    "f070": {
+      "name": "Omša o rehoľníkoch 4.",
+      "mass": {
+        "chantSetId": "hc067",
+        "entranceChantIds": [
+          "ct110",
+          "ct111"
+        ],
+        "communionChantIds": [
+          "ct112",
+          "ct113"
+        ],
+        "orationSetId": "oc069",
+        "intercessionsId": "ic023"
+      }
+    },
+    "f071": {
+      "name": "Omša o rehoľníkoch 5.",
+      "mass": {
+        "chantSetId": "hc068",
+        "entranceChantIds": [
+          "ct096",
+          "ct097"
+        ],
+        "communionChantIds": [
+          "ct098",
+          "ct099"
+        ],
+        "orationSetId": "oc070",
+        "intercessionsId": "ic023"
+      }
+    },
+    "f072": {
+      "name": "Omša o tých, čo konali skutky milosrdenstva",
+      "mass": {
+        "chantSetId": "hc069",
+        "entranceChantIds": [
+          "ct100",
+          "ct101"
+        ],
+        "communionChantIds": [
+          "ct102",
+          "ct103"
+        ],
+        "orationSetId": "oc071",
+        "afterCommunionPrayerIds": [
+          "pt051",
+          "pt052"
+        ],
+        "intercessionsId": "ic024"
+      }
+    },
+    "f073": {
+      "name": "Omša o vychovávateľoch",
+      "mass": {
+        "chantSetId": "hc070",
+        "entranceChantIds": [
+          "ct104",
+          "ct105"
+        ],
+        "communionChantIds": [
+          "ct106",
+          "ct107"
+        ],
+        "orationSetId": "oc072",
+        "intercessionsId": "ic025"
+      }
+    },
+    "f074": {
+      "name": "Omša o svätých ženách 1.",
+      "mass": {
+        "chantSetId": "hc071",
+        "entranceChantIds": [
+          "ct094",
+          "ct095"
+        ],
+        "orationSetId": "oc073",
+        "collectPrayerIds": [
+          "pt081",
+          "pt082"
+        ],
+        "intercessionsId": "ic026"
+      }
+    },
+    "f075": {
+      "name": "Omša o svätých ženách 2.",
+      "mass": {
+        "chantSetId": "hc072",
+        "orationSetId": "oc074",
+        "collectPrayerIds": [
+          "pt049",
+          "pt050"
+        ],
+        "intercessionsId": "ic026"
+      }
+    },
+    "f076": {
+      "name": "Za odpustenie hriechov 1.",
+      "mass": {
+        "chantSetId": "hc073",
+        "orationSetId": "oc075",
+        "collectPrayerIds": [
+          "pt057",
+          "pt058"
+        ],
+        "intercessionsId": "ic027",
+        "lectionary": {
+          "firstReadingId": "fr142",
+          "psalmId": "ps115",
+          "secondReadingId": null,
+          "acclamationId": "ac094",
+          "gospelId": "g116",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr142"
+              },
+              {
+                "firstReadingId": "fr143"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g116"
+              },
+              {
+                "gospelId": "g117"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f077": {
+      "name": "Za odpustenie hriechov 2.",
+      "mass": {
+        "chantSetId": "hc074",
+        "orationSetId": "oc076",
+        "intercessionsId": "ic027",
+        "lectionary": {
+          "firstReadingId": "fr142",
+          "psalmId": "ps115",
+          "secondReadingId": null,
+          "acclamationId": "ac094",
+          "gospelId": "g116",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr142"
+              },
+              {
+                "firstReadingId": "fr143"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g116"
+              },
+              {
+                "gospelId": "g117"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f078": {
+      "name": "Za dar lásky",
+      "mass": {
+        "chantSetId": "hc075",
+        "orationSetId": "oc077",
+        "intercessionsId": "ic028",
+        "lectionary": {
+          "firstReadingId": "fr144",
+          "psalmId": "ps116",
+          "secondReadingId": null,
+          "acclamationId": "ac095",
+          "gospelId": "g118",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr144"
+              },
+              {
+                "firstReadingId": "fr145"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g118"
+              },
+              {
+                "gospelId": "g119"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f079": {
+      "name": "Za jednotu kresťanov 1.",
+      "mass": {
+        "chantSetId": "hc076",
+        "orationSetId": "oc078",
+        "collectPrayerIds": [
+          "pt059",
+          "pt060"
+        ],
+        "intercessionsId": "ic029",
+        "lectionary": {
+          "firstReadingId": "fr148",
+          "psalmId": "ps119",
+          "secondReadingId": null,
+          "acclamationId": "ac098",
+          "gospelId": "g122",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr148"
+              },
+              {
+                "firstReadingId": "fr149"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps119"
+              },
+              {
+                "psalmId": "ps120"
+              }
+            ],
+            "acclamation": [
+              {
+                "acclamationId": "ac098"
+              },
+              {
+                "acclamationId": "ac099"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g122"
+              },
+              {
+                "gospelId": "g123"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f080": {
+      "name": "Za jednotu kresťanov 2.",
+      "mass": {
+        "chantSetId": "hc077",
+        "orationSetId": "oc079",
+        "collectPrayerIds": [
+          "pt061",
+          "pt062"
+        ],
+        "intercessionsId": "ic029",
+        "lectionary": {
+          "firstReadingId": "fr148",
+          "psalmId": "ps119",
+          "secondReadingId": null,
+          "acclamationId": "ac098",
+          "gospelId": "g122",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr148"
+              },
+              {
+                "firstReadingId": "fr149"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps119"
+              },
+              {
+                "psalmId": "ps120"
+              }
+            ],
+            "acclamation": [
+              {
+                "acclamationId": "ac098"
+              },
+              {
+                "acclamationId": "ac099"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g122"
+              },
+              {
+                "gospelId": "g123"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f081": {
+      "name": "Za jednotu kresťanov 3.",
+      "mass": {
+        "chantSetId": "hc078",
+        "orationSetId": "oc080",
+        "collectPrayerIds": [
+          "pt063",
+          "pt064"
+        ],
+        "intercessionsId": "ic029",
+        "lectionary": {
+          "firstReadingId": "fr148",
+          "psalmId": "ps119",
+          "secondReadingId": null,
+          "acclamationId": "ac098",
+          "gospelId": "g122",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr148"
+              },
+              {
+                "firstReadingId": "fr149"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps119"
+              },
+              {
+                "psalmId": "ps120"
+              }
+            ],
+            "acclamation": [
+              {
+                "acclamationId": "ac098"
+              },
+              {
+                "acclamationId": "ac099"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g122"
+              },
+              {
+                "gospelId": "g123"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f082": {
+      "name": "Za povolanie na kňazský stav",
+      "mass": {
+        "lectionary": {
+          "firstReadingId": "fr150",
+          "psalmId": "ps121",
+          "secondReadingId": null,
+          "acclamationId": "ac100",
+          "gospelId": "g124",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr150"
+              },
+              {
+                "firstReadingId": "fr151"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps121"
+              },
+              {
+                "psalmId": "ps122"
+              }
+            ],
+            "acclamation": [
+              {
+                "acclamationId": "ac100"
+              },
+              {
+                "acclamationId": "ac101"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g124"
+              },
+              {
+                "gospelId": "g125"
+              }
+            ]
+          }
+        },
+        "chantSetId": "hc079",
+        "orationSetId": "oc081",
+        "intercessionsId": "ic030",
+        "intercessionChoices": [
+          {
+            "label": "Za povolanie na kňazský stav",
+            "intercessionsId": "ic030"
+          },
+          {
+            "label": "Za nové kňazské povolania",
+            "intercessionsId": "ic031"
+          }
+        ]
+      }
+    },
+    "f083": {
+      "name": "Za rehoľné povolania",
+      "mass": {
+        "lectionary": {
+          "firstReadingId": "fr150",
+          "psalmId": "ps121",
+          "secondReadingId": null,
+          "acclamationId": "ac100",
+          "gospelId": "g124",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr150"
+              },
+              {
+                "firstReadingId": "fr151"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps121"
+              },
+              {
+                "psalmId": "ps122"
+              }
+            ],
+            "acclamation": [
+              {
+                "acclamationId": "ac100"
+              },
+              {
+                "acclamationId": "ac101"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g124"
+              },
+              {
+                "gospelId": "g125"
+              }
+            ]
+          }
+        },
+        "chantSetId": "hc080",
+        "orationSetId": "oc082",
+        "collectPrayerIds": [
+          "pt083",
+          "pt084"
+        ],
+        "afterCommunionPrayerIds": [
+          "pt085",
+          "pt086"
+        ],
+        "intercessionsId": "ic032",
+        "intercessionChoices": [
+          {
+            "label": "Za rehoľné povolania",
+            "intercessionsId": "ic032"
+          },
+          {
+            "label": "Za nové duchovné povolania 1.",
+            "intercessionsId": "ic033"
+          },
+          {
+            "label": "Za nové duchovné povolania 2.",
+            "intercessionsId": "ic034"
+          }
+        ]
+      }
+    },
+    "f084": {
+      "name": "Na poďakovanie Pánu Bohu 1.",
+      "mass": {
+        "chantSetId": "hc081",
+        "communionChantIds": [
+          "ct028",
+          "ct029"
+        ],
+        "orationSetId": "oc083",
+        "intercessionsId": "ic035",
+        "lectionary": {
+          "firstReadingId": "fr152",
+          "psalmId": "ps123",
+          "secondReadingId": null,
+          "acclamationId": "ac102",
+          "gospelId": "g126",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr152"
+              },
+              {
+                "firstReadingId": "fr153"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps123"
+              },
+              {
+                "psalmId": "ps124"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g126"
+              },
+              {
+                "gospelId": "g127"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f085": {
+      "name": "Na poďakovanie Pánu Bohu 2.",
+      "mass": {
+        "chantSetId": "hc082",
+        "communionChantIds": [
+          "ct028",
+          "ct029"
+        ],
+        "orationSetId": "oc084",
+        "intercessionsId": "ic035",
+        "lectionary": {
+          "firstReadingId": "fr152",
+          "psalmId": "ps123",
+          "secondReadingId": null,
+          "acclamationId": "ac102",
+          "gospelId": "g126",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr152"
+              },
+              {
+                "firstReadingId": "fr153"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps123"
+              },
+              {
+                "psalmId": "ps124"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g126"
+              },
+              {
+                "gospelId": "g127"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f086": {
+      "name": "Na poďakovanie za úrodu",
+      "mass": {
+        "chantSetId": "hc083",
+        "orationSetId": "oc085",
+        "collectPrayerIds": [
+          "pt069",
+          "pt070"
+        ],
+        "intercessionsId": "ic035",
+        "lectionary": {
+          "firstReadingId": "fr152",
+          "psalmId": "ps123",
+          "secondReadingId": null,
+          "acclamationId": "ac103",
+          "gospelId": "g126",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr152"
+              },
+              {
+                "firstReadingId": "fr153"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps123"
+              },
+              {
+                "psalmId": "ps124"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g126"
+              },
+              {
+                "gospelId": "g127"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f087": {
+      "name": "Za zachovanie pokoja a spravodlivosti 1.",
+      "mass": {
+        "chantSetId": "hc084",
+        "communionChantIds": [
+          "ct034",
+          "ct035"
+        ],
+        "orationSetId": "oc086",
+        "collectPrayerIds": [
+          "pt067",
+          "pt068"
+        ],
+        "intercessionsId": "ic036",
+        "lectionary": {
+          "firstReadingId": "fr154",
+          "psalmId": "ps125",
+          "secondReadingId": null,
+          "acclamationId": "ac104",
+          "gospelId": "g128",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr154"
+              },
+              {
+                "firstReadingId": "fr155"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps125"
+              },
+              {
+                "psalmId": "ps126"
+              }
+            ],
+            "acclamation": [
+              {
+                "acclamationId": "ac104"
+              },
+              {
+                "acclamationId": "ac105"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g128"
+              },
+              {
+                "gospelId": "g129"
+              },
+              {
+                "gospelId": "g130"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f088": {
+      "name": "Za zachovanie pokoja a spravodlivosti 2.",
+      "mass": {
+        "chantSetId": "hc085",
+        "communionChantIds": [
+          "ct034",
+          "ct035"
+        ],
+        "orationSetId": "oc087",
+        "collectPrayerIds": [
+          "pt065",
+          "pt066"
+        ],
+        "intercessionsId": "ic036",
+        "lectionary": {
+          "firstReadingId": "fr154",
+          "psalmId": "ps125",
+          "secondReadingId": null,
+          "acclamationId": "ac104",
+          "gospelId": "g128",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr154"
+              },
+              {
+                "firstReadingId": "fr155"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps125"
+              },
+              {
+                "psalmId": "ps126"
+              }
+            ],
+            "acclamation": [
+              {
+                "acclamationId": "ac104"
+              },
+              {
+                "acclamationId": "ac105"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g128"
+              },
+              {
+                "gospelId": "g129"
+              },
+              {
+                "gospelId": "g130"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f089": {
+      "name": "Za upevnenie rodín",
+      "mass": {
+        "chantSetId": "hc086",
+        "orationSetId": "oc088",
+        "intercessionsId": "ic037",
+        "lectionary": {
+          "firstReadingId": "fr156",
+          "psalmId": "ps116",
+          "secondReadingId": null,
+          "acclamationId": "ac106",
+          "gospelId": "g118",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr156"
+              },
+              {
+                "firstReadingId": "fr157"
+              },
+              {
+                "firstReadingId": "fr158"
+              },
+              {
+                "firstReadingId": "fr159"
+              },
+              {
+                "firstReadingId": "fr160"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps116"
+              },
+              {
+                "psalmId": "ps127"
+              },
+              {
+                "psalmId": "ps128"
+              },
+              {
+                "psalmId": "ps129"
+              },
+              {
+                "psalmId": "ps130"
+              }
+            ],
+            "acclamation": [
+              {
+                "acclamationId": "ac106"
+              },
+              {
+                "acclamationId": "ac107"
+              },
+              {
+                "acclamationId": "ac108"
+              },
+              {
+                "acclamationId": "ac109"
+              },
+              {
+                "acclamationId": "ac110"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g118"
+              },
+              {
+                "gospelId": "g131"
+              }
+            ]
+          }
+        }
+      },
+      "contentVariants": [
+        {
+          "key": "WITH_SECOND_READING",
+          "mass": {
+            "lectionary": {
+              "secondReadingId": "sr056",
+              "choices": {
+                "secondReading": [
+                  {
+                    "secondReadingId": "sr056"
+                  },
+                  {
+                    "secondReadingId": "sr057"
+                  },
+                  {
+                    "secondReadingId": "sr058"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "f090": {
+      "name": "V čase sejby 1.",
+      "mass": {
+        "chantSetId": "hc087",
+        "orationSetId": "oc089",
+        "intercessionsId": "ic038",
+        "lectionary": {
+          "firstReadingId": "fr146",
+          "psalmId": "ps117",
+          "secondReadingId": null,
+          "acclamationId": "ac096",
+          "gospelId": "g120",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr146"
+              },
+              {
+                "firstReadingId": "fr147"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps117"
+              },
+              {
+                "psalmId": "ps118"
+              }
+            ],
+            "acclamation": [
+              {
+                "acclamationId": "ac096"
+              },
+              {
+                "acclamationId": "ac097"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g120"
+              },
+              {
+                "gospelId": "g121"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f091": {
+      "name": "V čase sejby 2.",
+      "mass": {
+        "chantSetId": "hc088",
+        "orationSetId": "oc090",
+        "intercessionsId": "ic038",
+        "lectionary": {
+          "firstReadingId": "fr146",
+          "psalmId": "ps117",
+          "secondReadingId": null,
+          "acclamationId": "ac096",
+          "gospelId": "g120",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr146"
+              },
+              {
+                "firstReadingId": "fr147"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps117"
+              },
+              {
+                "psalmId": "ps118"
+              }
+            ],
+            "acclamation": [
+              {
+                "acclamationId": "ac096"
+              },
+              {
+                "acclamationId": "ac097"
+              }
+            ],
+            "gospel": [
+              {
+                "gospelId": "g120"
+              },
+              {
+                "gospelId": "g121"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f092": {
+      "name": "Za jednotu kresťanov 1.",
+      "mass": {
+        "chantSetId": "hc076",
+        "orationSetId": "oc078",
+        "collectPrayerIds": [
+          "pt059",
+          "pt060"
+        ],
+        "intercessionsId": "ic039"
+      }
+    },
+    "f093": {
+      "name": "Za jednotu kresťanov 2.",
+      "mass": {
+        "chantSetId": "hc077",
+        "orationSetId": "oc079",
+        "collectPrayerIds": [
+          "pt061",
+          "pt062"
+        ],
+        "intercessionsId": "ic040"
+      }
+    },
+    "f094": {
+      "name": "Za jednotu kresťanov 3.",
+      "mass": {
+        "chantSetId": "hc078",
+        "orationSetId": "oc080",
+        "collectPrayerIds": [
+          "pt063",
+          "pt064"
+        ],
+        "intercessionsId": "ic041"
+      }
+    },
+    "f095": {
+      "name": "Za zachovanie pokoja a spravodlivosti 1.",
+      "mass": {
+        "chantSetId": "hc084",
+        "communionChantIds": [
+          "ct034",
+          "ct035"
+        ],
+        "orationSetId": "oc086",
+        "collectPrayerIds": [
+          "pt067",
+          "pt068"
+        ]
+      }
+    },
+    "f096": {
+      "name": "Za zachovanie pokoja a spravodlivosti 2.",
+      "mass": {
+        "chantSetId": "hc085",
+        "communionChantIds": [
+          "ct034",
+          "ct035"
+        ],
+        "orationSetId": "oc091",
+        "collectPrayerIds": [
+          "pt065",
+          "pt066"
+        ]
+      }
+    },
+    "f097": {
+      "name": "Za zmierenie",
+      "mass": {
+        "chantSetId": "hc089",
+        "communionChantIds": [
+          "ct040",
+          "ct041"
+        ],
+        "orationSetId": "oc092",
+        "collectPrayerIds": [
+          "pt087",
+          "pt088"
+        ]
+      }
+    },
+    "f098": {
+      "name": "V čase vojny a občianskych nepokojov",
+      "mass": {
+        "chantSetId": "hc090",
+        "entranceChantIds": [
+          "ct042",
+          "ct043"
+        ],
+        "orationSetId": "oc093",
+        "collectPrayerIds": [
+          "pt073",
+          "pt074"
+        ]
+      }
+    },
+    "f099": {
+      "name": "Za odpustenie hriechov 1.",
+      "mass": {
+        "chantSetId": "hc073",
+        "orationSetId": "oc075",
+        "collectPrayerIds": [
+          "pt057",
+          "pt058"
+        ]
+      }
+    },
+    "f100": {
+      "name": "Za odpustenie hriechov 2.",
+      "mass": {
+        "chantSetId": "hc074",
+        "orationSetId": "oc076"
+      }
+    },
+    "f101": {
+      "name": "Za dar lásky",
+      "mass": {
+        "chantSetId": "hc075",
+        "orationSetId": "oc077"
+      }
+    },
+    "f102": {
+      "name": "Za svornosť",
+      "mass": {
+        "chantSetId": "hc091",
+        "orationSetId": "oc094",
+        "collectPrayerIds": [
+          "pt075",
+          "pt076"
+        ]
+      }
+    },
+    "f103": {
+      "name": "O tajomstve svätého kríža",
+      "mass": {
+        "chantSetId": "hc092",
+        "orationSetId": "oc095"
+      }
+    },
+    "f104": {
+      "name": "O najsvätejšej eucharistii",
+      "mass": {
+        "chantSetId": "hc093",
+        "orationSetId": "oc096"
+      }
+    },
+    "f105": {
+      "name": "O predrahej krvi nášho Pána Ježiša Krista",
+      "mass": {
+        "chantSetId": "hc094",
+        "orationSetId": "oc097",
+        "afterCommunionPrayerIds": [
+          "pt071",
+          "pt072"
+        ]
+      }
+    },
+    "f106": {
+      "name": "Vo výročný deň smrti alebo pohrebu 1. (mimo veľkonočného obdobia)",
+      "mass": {
+        "chantSetId": "hc095",
+        "orationSetId": "oc098"
+      }
+    },
+    "f107": {
+      "name": "Vo výročný deň smrti alebo pohrebu 2. (mimo veľkonočného obdobia)",
+      "mass": {
+        "chantSetId": "hc096",
+        "orationSetId": "oc099"
+      }
+    },
+    "f108": {
+      "name": "Vo výročný deň smrti alebo pohrebu (vo veľkonočnom období)",
+      "mass": {
+        "chantSetId": "hc097",
+        "orationSetId": "oc100"
+      }
+    },
+    "f109": {
+      "name": "Iné modlitby na výročie smrti alebo pohrebu",
+      "mass": {
+        "chantSetId": "hc098",
+        "orationSetId": "oc101"
+      }
+    },
+    "f110": {
+      "name": "Iné modlitby na výročie smrti alebo pohrebu",
+      "mass": {
+        "chantSetId": "hc099",
+        "orationSetId": "oc102"
+      }
+    },
+    "f111": {
+      "name": "Pri rozličných spomienkach za jedného zosnulého 1.",
+      "mass": {
+        "chantSetId": "hc100",
+        "orationSetId": "oc103",
+        "collectPrayerIds": [
+          "pt077",
+          "pt078"
+        ]
+      }
+    },
+    "f112": {
+      "name": "Pri rozličných spomienkach za jedného zosnulého 2.",
+      "mass": {
+        "chantSetId": "hc101",
+        "orationSetId": "oc104"
+      }
+    },
+    "f113": {
+      "name": "Pri rozličných spomienkach za jedného zosnulého 3.",
+      "mass": {
+        "chantSetId": "hc102",
+        "orationSetId": "oc105"
+      }
+    },
+    "f114": {
+      "name": "Pri rozličných spomienkach za jedného zosnulého 4.",
+      "mass": {
+        "chantSetId": "hc103",
+        "orationSetId": "oc106"
+      }
+    },
+    "f115": {
+      "name": "Pri rozličných spomienkach za jedného zosnulého 5.",
+      "mass": {
+        "chantSetId": "hc104",
+        "orationSetId": "oc107"
+      }
+    },
+    "f116": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 1.",
+      "mass": {
+        "chantSetId": "hc105",
+        "orationSetId": "oc108"
+      }
+    },
+    "f117": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 2.",
+      "mass": {
+        "chantSetId": "hc106",
+        "entranceChantIds": [
+          "ct193"
+        ],
+        "orationSetId": "oc109"
+      }
+    },
+    "f118": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 3.",
+      "mass": {
+        "chantSetId": "hc107",
+        "orationSetId": "oc110"
+      }
+    },
+    "f119": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 4.",
+      "mass": {
+        "chantSetId": "hc108",
+        "orationSetId": "oc111"
+      }
+    },
+    "f120": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 5.",
+      "mass": {
+        "chantSetId": "hc109",
+        "communionChantIds": [
+          "ct188"
+        ],
+        "orationSetId": "oc112"
+      }
+    },
+    "f121": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 6.",
+      "mass": {
+        "chantSetId": "hc110",
+        "orationSetId": "oc113"
+      }
+    },
+    "f122": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 7.",
+      "mass": {
+        "chantSetId": "hc111",
+        "orationSetId": "oc114"
+      }
+    },
+    "f123": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 8.",
+      "mass": {
+        "chantSetId": "hc112",
+        "orationSetId": "oc115"
+      }
+    },
+    "f124": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 9.",
+      "mass": {
+        "chantSetId": "hc113",
+        "orationSetId": "oc116"
+      }
+    },
+    "f125": {
+      "name": "Za zosnulého pápeža 1.",
+      "mass": {
+        "chantSetId": "hc114",
+        "orationSetId": "oc117"
+      }
+    },
+    "f126": {
+      "name": "Za zosnulého pápeža 2.",
+      "mass": {
+        "chantSetId": "hc114",
+        "orationSetId": "oc118"
+      }
+    },
+    "f127": {
+      "name": "Za zosnulého pápeža 3.",
+      "mass": {
+        "chantSetId": "hc114",
+        "orationSetId": "oc119"
+      }
+    },
+    "f128": {
+      "name": "Za zosnulého diecézneho biskupa",
+      "mass": {
+        "chantSetId": "hc114",
+        "orationSetId": "oc120"
+      }
+    },
+    "f129": {
+      "name": "Za iného biskupa",
+      "mass": {
+        "chantSetId": "hc114",
+        "orationSetId": "oc121"
+      }
+    },
+    "f130": {
+      "name": "Za kňaza 1.",
+      "mass": {
+        "chantSetId": "hc114",
+        "orationSetId": "oc122"
+      }
+    },
+    "f131": {
+      "name": "Za kňaza 2.",
+      "mass": {
+        "chantSetId": "hc114",
+        "orationSetId": "oc123"
+      }
+    },
+    "f132": {
+      "name": "Za diakona",
+      "mass": {
+        "chantSetId": "hc114",
+        "orationSetId": "oc124"
+      }
+    },
+    "f133": {
+      "name": "Za rehoľníka alebo rehoľníčku",
+      "mass": {
+        "chantSetId": "hc114",
+        "orationSetId": "oc125"
+      }
+    },
+    "f134": {
+      "name": "Za zosnulého, ktorý sa zaslúžil o šírenie evanjelia",
+      "mass": {
+        "chantSetId": "hc114",
+        "orationSetId": "oc126"
+      }
+    },
+    "f135": {
+      "name": "Za zosnulého mladého človeka",
+      "mass": {
+        "chantSetId": "hc114",
+        "orationSetId": "oc127"
+      }
+    },
+    "f136": {
+      "name": "Za človeka zosnulého po dlhšej chorobe",
+      "mass": {
+        "chantSetId": "hc114",
+        "orationSetId": "oc128"
+      }
+    },
+    "f137": {
+      "name": "Za človeka zosnulého náhlou smrťou",
+      "mass": {
+        "chantSetId": "hc114",
+        "orationSetId": "oc129"
+      }
+    },
+    "f138": {
+      "name": "Za zosnulých manželov",
+      "mass": {
+        "chantSetId": "hc115",
+        "orationSetId": "oc130",
+        "collectPrayerIds": [
+          "pt089",
+          "pt090",
+          "pt091"
+        ]
+      }
+    },
+    "f139": {
+      "name": "Za zosnulých rodičov",
+      "mass": {
+        "chantSetId": "hc115",
+        "orationSetId": "oc131"
+      }
+    },
+    "f140": {
+      "name": "Za zosnulých príbuzných, priateľov a dobrodincov",
+      "mass": {
+        "chantSetId": "hc115",
+        "orationSetId": "oc132"
+      }
+    },
+    "f141": {
+      "name": "V čase pandémie",
+      "mass": {
+        "chantSetId": "hc116",
+        "orationSetId": "oc133",
+        "intercessionsId": "ic047",
+        "prefaceIds": [
+          "pf001"
+        ],
+        "lectionary": {
+          "firstReadingId": "fr140",
+          "psalmId": "ps113",
+          "secondReadingId": null,
+          "acclamationId": "ac092",
+          "gospelId": "g115",
+          "choices": {
+            "firstReading": [
+              {
+                "firstReadingId": "fr140"
+              },
+              {
+                "firstReadingId": "fr141"
+              }
+            ],
+            "psalm": [
+              {
+                "psalmId": "ps113"
+              },
+              {
+                "psalmId": "ps114"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

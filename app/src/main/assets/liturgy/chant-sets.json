@@ -1,0 +1,5089 @@
+{
+  "schemaVersion": 1,
+  "items": {
+    "hp001": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Ž 68, 33. 35)",
+        "text": {
+          "html": "Spievajte Bohu, zemské kráľovstvá, hrajte Pánovi, čo sa nesie na nebesiach;<br>jeho veleba a jeho moc až nad oblaky, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Hebr 10, 12)",
+        "text": {
+          "html": "Kristus priniesol jedinú obetu za hriechy a navždy zasadol po pravici Boha, aleluja."
+        }
+      }
+    },
+    "hp002": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Sk 1, 11)",
+        "text": {
+          "html": "Mužovia galilejskí, čo stojíte a udivene hľadíte do neba? On príde tak, ako ste ho videli odchádzať, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 28, 20)",
+        "text": {
+          "html": "Hľa, ja som s vami po všetky dni až do skončenia sveta, aleluja."
+        }
+      }
+    },
+    "hp003": {
+      "scope": "CELEBRATION_PROPER",
+      "communion": {
+        "citation": "(Jn 7, 37)",
+        "text": {
+          "html": "V posledný, veľký deň sviatkov Ježiš vstal a zvolal: Ak je niekto smädný, nech príde ku mne a nech pije, aleluja."
+        }
+      }
+    },
+    "hp004": {
+      "scope": "CELEBRATION_PROPER",
+      "communion": {
+        "citation": "(Sk 2, 4. 11)",
+        "text": {
+          "html": "Všetkých naplnil Duch Svätý a začali hovoriť o veľkých Božích skutkoch, aleluja."
+        }
+      }
+    },
+    "hp005": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Lk 12, 42)",
+        "text": {
+          "html": "Hľa, verný a múdry služobník, ktorého Pán ustanovil nad svojou rodinou."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 25, 21)",
+        "text": {
+          "html": "Správne, dobrý a verný sluha, vojdi do radosti svojho Pána."
+        }
+      }
+    },
+    "hp006": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Hebr 10, 5. 7)",
+        "text": {
+          "html": "Keď Pán prichádzal na svet, povedal: Hľa prichádzam, aby som plnil tvoju vôľu, Bože."
+        }
+      },
+      "communion": {
+        "citation": "(Iz 7, 14)",
+        "text": {
+          "html": "Hľa, Panna počne a porodí Syna, a dá mu meno Emanuel."
+        }
+      }
+    },
+    "hp007": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Sk 1, 14)",
+        "text": {
+          "html": "Učeníci jednomyseľne zotrvávali na modlitbách s Máriou, Ježišovou matkou. "
+        }
+      }
+    },
+    "hp008": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Hebr 7, 24; 9, 15)",
+        "text": {
+          "html": "Kristus, prostredník novej zmluvy, ktorý zostáva naveky, má večné kňazstvo."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 28, 20b)",
+        "text": {
+          "html": "Hľa, ja som s vami po všetky dni až do skončenia sveta."
+        }
+      }
+    },
+    "hp009": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Nech je zvelebený Boh Otec, jednorodený Boží Syn i Duch Svätý, lebo nám preukázal svoje milosrdenstvo."
+        }
+      },
+      "communion": {
+        "citation": "(Gal 4, 6)",
+        "text": {
+          "html": "Pretože ste synmi, poslal Boh do našich sŕdc Ducha svojho Syna, a on volá: Abba, Otče!"
+        }
+      }
+    },
+    "hp010": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ž 81, 17)",
+        "text": {
+          "html": "Kŕmil ich jadrom pšeničným a sýtil medom zo skaly."
+        }
+      }
+    },
+    "hp011": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Ž 33, 11. 19)",
+        "text": {
+          "html": "Myšlienky jeho Srdca z pokolenia na pokolenie, aby ich zachránil pred smrťou a v čase hladu nakŕmil."
+        }
+      }
+    },
+    "hp012": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Ž 13, 6)",
+        "text": {
+          "html": "Moje srdce sa teší z tvojej pomoci. Spievať budem Pánovi, že ma zahŕňa dobrodeniami."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 2, 19)",
+        "text": {
+          "html": "Mária zachovávala všetky tieto slová vo svojom srdci a premýšľala o nich."
+        }
+      }
+    },
+    "hp013": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Zjv 5, 12; 1, 6)",
+        "text": {
+          "html": "Hoden je Baránok, ktorý bol zabitý, prijať moc, bohatstvo a múdrosť, silu a česť. Jemu sláva a vláda na veky vekov."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 29, 10 – 11)",
+        "text": {
+          "html": "Pán bude tróniť ako večný Kráľ, Pán požehná svoj ľud pokojom."
+        }
+      }
+    },
+    "hp014": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Iz 61, 10)",
+        "text": {
+          "html": "Radosťou jasám v Pánovi, duša mi plesá v mojom Bohu, pretože ma zaodial rúchom spásy, zahalil ma plášťom spravodlivosti ako nevestu okrášlenú šperkami."
+        }
+      },
+      "communion": {
+        "citation": "",
+        "text": {
+          "html": "Slávne veci sa hovoria o tebe, Mária, lebo z teba vyšlo slnko spravodlivosti, Kristus, náš Boh."
+        }
+      }
+    },
+    "hp015": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Lk 2, 16)",
+        "text": {
+          "html": "Pastieri sa poponáhľali a našli Máriu a Jozefa i Dieťa uložené v jasliach."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Bar 3, 38) ",
+        "text": {
+          "html": "Náš Boh sa zjavil na zemi a prebýval medzi ľuďmi."
+        }
+      }
+    },
+    "hp016": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Mt 3, 16 – 17)",
+        "text": {
+          "html": "Keď bol Pán pokrstený, otvorilo sa nebo, spočinul na ňom Duch Svätý ako holubica a zaznel Otcov hlas: Toto je môj milovaný Syn, v ktorom mám zaľúbenie."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 1, 32. 34)",
+        "text": {
+          "html": "Hľa, ten, o ktorom Ján povedal: Ja som to videl a vydávam svedectvo, že toto je Boží Syn."
+        }
+      }
+    },
+    "hp017": {
+      "scope": "CELEBRATION_PROPER",
+      "communion": {
+        "citation": "(Hebr 13, 8)",
+        "text": {
+          "html": "Ježiš Kristus je ten istý včera i dnes a naveky."
+        }
+      }
+    },
+    "hp018": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Sir 44, 15. 14)",
+        "text": {
+          "html": "O múdrosti svätých nech rozprávajú národy a ich chválu nech ohlasuje Cirkev; ich mená nech žijú naveky."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. 1 Kor 1, 23 – 24)",
+        "text": {
+          "html": "My však ohlasujeme ukrižovaného Krista, Krista – Božiu moc a Božiu múdrosť."
+        }
+      }
+    },
+    "hp019": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Flp 2, 10 – 11)",
+        "text": {
+          "html": "Na meno Ježiš nech sa zohne každé koleno v nebi, na zemi i v podsvetía každý jazyk nech vyznáva: Ježiš Kristus je Pán na slávu Boha Otca."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 8, 2)",
+        "text": {
+          "html": "Pane, náš Vládca, aké vznešené je tvoje meno na celej zemi!"
+        }
+      }
+    },
+    "hp020": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Bar 5, 5)",
+        "text": {
+          "html": "Povstaň, Jeruzalem, hľaď na východ a podívaj sa na svojich synov zhromaždených od východu slnka až po západ."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Zjv 21, 23)",
+        "text": {
+          "html": "Božia sláva ožiarila sväté mesto Jeruzalem a v jeho svetle kráčali národy."
+        }
+      }
+    },
+    "hp021": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Mal 3, 1; 1 Krn 29, 12)",
+        "text": {
+          "html": "Hľa, prichádza Vládca, Pán, a v jeho ruke je kráľovstvo, moc a vláda."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Mt 2, 2)",
+        "text": {
+          "html": "Videli sme jeho hviezdu na východe a prišli sme sa s darmi pokloniť Pánovi."
+        }
+      }
+    },
+    "hp022": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ž 92, 13 – 14)",
+        "text": {
+          "html": "Spravodlivý sťa palma zakvitne a vyrastie sťa céder z Libanonu zasadený v dome Pánovom, v nádvoriach domu nášho Boha."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Mt 19, 21)",
+        "text": {
+          "html": "Ak chceš byť dokonalý, choď, predaj, čo máš, rozdaj chudobným, a nasleduj ma, hovorí Pán."
+        }
+      }
+    },
+    "hp023": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. 2 Tim 1, 12; 4, 8)",
+        "text": {
+          "html": "Viem, komu som uveril, a som presvedčený, že spravodlivý Sudca má moc zachovať až do onoho dňa to, čo mi bolo zverené."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Gal 2, 20)",
+        "text": {
+          "html": "Žijem vo viere v Božieho Syna, ktorý si ma zamiloval a vydal seba samého za mňa."
+        }
+      }
+    },
+    "hp024": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Ž 96, 3 – 4)",
+        "text": {
+          "html": "Zvestujte jeho slávu pohanom a jeho zázraky všetkým národom. Lebo veľký je Pán a hoden veľkej chvály."
+        }
+      },
+      "communion": {
+        "citation": "(Mk 16, 15; Mt 28, 20)",
+        "text": {
+          "html": "Choďte do celého sveta a hlásajte evanjelium: ja som s vami po všetky dni, hovorí Pán."
+        }
+      }
+    },
+    "hp025": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ž 48, 10 – 11)",
+        "text": {
+          "html": "Spomíname, Bože, na tvoje milosrdenstvo uprostred tvojho chrámu. Ako tvoje meno, Bože,tak aj tvoja sláva šíri sa až do končín zeme; tvoja pravica je plná spravodlivosti."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 2, 30 – 31)",
+        "text": {
+          "html": "Moje oči uvideli tvoju spásu, ktorú si pripravil pred tvárou všetkých národov."
+        }
+      }
+    },
+    "hp026": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Toto sú svätí, Boží priatelia, slávni hlásatelia Božej pravdy."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Mk 16, 20)",
+        "text": {
+          "html": "Učeníci sa rozišli a hlásali evanjelium. Pán im pomáhal a ich slová potvrdzoval znameniami, ktoré ich sprevádzali."
+        }
+      }
+    },
+    "hp027": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Toto sú svätí, Boží priatelia, slávni hlásatelia Božej pravdy."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Mk 16, 20)",
+        "text": {
+          "html": "Učeníci sa rozišli a hlásali evanjelium. Pán im pomáhal a ich slová potvrdzoval znameniami, ktoré ich sprevádzali."
+        }
+      }
+    },
+    "hp028": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Lk 22, 32)",
+        "text": {
+          "html": "Pán hovorí Šimonovi Petrovi: ja som prosil za teba, aby neochabla tvoja viera; a ty, až sa raz obrátiš, posilňuj svojich bratov."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Mt 16, 16. 18)",
+        "text": {
+          "html": "Peter povedal Ježišovi: Ty si Mesiáš, Syn živého Boha. Ježiš mu odpovedal: Ty si Peter, a na tejto skale postavím svoju Cirkev."
+        }
+      }
+    },
+    "hp029": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Tešia sa v nebi duše svätých, ktorí kráčali v Kristových šľapajach, a pretože svoju krv preliali z lásky k nemu, teraz sa s ním bez prestania radujú."
+        }
+      },
+      "communion": {
+        "citation": "(2 Kor 4, 11)",
+        "text": {
+          "html": "Vydávame sa na smrť pre Ježiša, aby sa aj Ježišov život zjavil na našom smrteľnom tele."
+        }
+      }
+    },
+    "hp030": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(1 Sam 2, 35)",
+        "text": {
+          "html": "Povolám si verného kňaza, ktorý bude konať podľa môjho srdca a podľa môjho zmýšľania, hovorí Pán, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Sk 1, 8)",
+        "text": {
+          "html": "Dostanete silu a budete mi svedkami vo svojej vlasti aj na celom svete. Aleluja."
+        }
+      }
+    },
+    "hp031": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Mk 16, 15)",
+        "text": {
+          "html": "Choďte do celého sveta a hlásajte evanjelium všetkému stvoreniu, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 28, 20)",
+        "text": {
+          "html": "Hľa, ja som s vami po všetky dni až do skončenia sveta, hovorí Pán, aleluja."
+        }
+      }
+    },
+    "hp032": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Toto je múdra panna, jedna z tých rozumných, ktorá vyšla s horiacou lampou v ústrety Kristovi, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. 1 Jn 1, 7)",
+        "text": {
+          "html": "Ak chodíme vo svetle, tak ako je Boh vo svetle, máme spoločenstvo medzi sebou a krv Ježiša Krista, jeho Syna, nás očisťuje od každého hriechu, aleluja."
+        }
+      }
+    },
+    "hp033": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Ž 128, 1 – 2)",
+        "text": {
+          "html": "Blažený každý, čo sa bojí Pána a kráča po jeho cestách. Budeš jesť z práce svojich rúk; budeš šťastný a budeš sa mať dobre, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Kol 3, 17)",
+        "text": {
+          "html": "Všetko, čokoľvek hovoríte alebo konáte, všetko robte v mene Pána Ježiša a vzdávajte vďaky Bohu, aleluja."
+        }
+      }
+    },
+    "hp034": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Sir 15, 5)",
+        "text": {
+          "html": "Uprostred Cirkvi otvoril si mu ústa a Pán ho naplnil duchom múdrosti a rozumnosti a zaodial ho do rúcha slávy, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(1 Kor 3, 11)",
+        "text": {
+          "html": "Lebo nik nemôže položiť iný základ okrem toho, čo je už položený, a je ním Ježiš Kristus, aleluja."
+        }
+      }
+    },
+    "hp035": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Toto sú svätí muži, ktorých si Pán vyvolil vo svojej opravdivej láske a dal im večnú slávu, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 14, 8 – 9)",
+        "text": {
+          "html": "Pane, ukáž nám Otca a to nám postačí. Filip, kto vidí mňa, vidí aj môjho Otca, aleluja."
+        }
+      }
+    },
+    "hp036": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Jn 15, 16)",
+        "text": {
+          "html": "Nie vy ste si vyvolili mňa, ale ja som si vyvolil vás, aby ste išli a prinášali ovocie a aby vaše ovocie zostalo (V.O. aleluja.)"
+        }
+      },
+      "communion": {
+        "citation": "(Jn 15, 12)",
+        "text": {
+          "html": "Toto je moje prikázanie: Aby ste sa milovali navzájom, ako som ja miloval vás, hovorí Pán <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hp037": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Oslavujme svätca, ktorý položil svoj život za Boží zákon a nebál sa hrozieb bezbožných ľudí; mal totiž základy na pevnej skale <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Rim 8, 38 – 39)",
+        "text": {
+          "html": "Ani smrť, ani život, ani nijaké stvorenie nás nemôže odlúčiť od Kristovej lásky <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hp038": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Oslavujme svätca, ktorý položil svoj život za Boží zákon a nebál sa hrozieb bezbožných ľudí; mal totiž základy na pevnej skale <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Rim 8, 38 – 39)",
+        "text": {
+          "html": "Ani smrť, ani život, ani nijaké stvorenie nás nemôže odlúčiť od Kristovej lásky <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hp039": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Rim 5, 5; porov. 8, 11)",
+        "text": {
+          "html": "Božia láska je rozliata v našich srdciach skrze Ducha Svätého, ktorého sme dostali <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 15, 9)",
+        "text": {
+          "html": "Ako mňa miluje Otec, tak ja milujem vás, hovorí Pán; ostaňte v mojej láske <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hp040": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ž 119 85. 46)",
+        "text": {
+          "html": "Pyšní mi rozprávali výmysly, lebo nepoznajú tvoj zákon; ja však budem svedčiť o tvojej náuke pred kráľmi a nebudem sa hanbiť <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. 1 Kor 2, 2)",
+        "text": {
+          "html": "Rozhodol som sa, že nechcem medzi vami vedieť nič iné iba Ježiša Krista, a to ukrižovaného <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hp041": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Múd 3, 6 – 7. 9)",
+        "text": {
+          "html": "Pán vyskúšal vyvolených ako zlato v peci a prijal ich ako celopalnú žertvu; v deň ich súdu zažiaria, pretože Božím vyvoleným sa dostane milosti a pokoja <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 116, 15)",
+        "text": {
+          "html": "V Pánových očiach má veľkú cenu smrť jeho svätých <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hp042": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Sk 11, 24)",
+        "text": {
+          "html": "Blažený je tento svätý muž, lebo si zaslúžil byť pripočítaný medzi apoštolov; veď on bol muž dobrý, plný Ducha Svätého a viery <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 15, 15)",
+        "text": {
+          "html": "Už vás nenazývam sluhami, lebo sluha nevie, čo robí jeho pán. Nazval som vás priateľmi, pretože som vám oznámil všetko, čo som počul od svojho Otca <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hp043": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ž 24, 4. 3)",
+        "text": {
+          "html": "Ten, čo má ruky nevinné a srdce čisté, vystúpi na vrch Pánov a bude stáť na jeho mieste posvätnom."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 78, 24 – 25)",
+        "text": {
+          "html": "Dal im chlieb z neba. Človek jedol chlieb anjelský."
+        }
+      }
+    },
+    "hp044": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Lk 1, 15. 14)",
+        "text": {
+          "html": "On bude veľký pred Pánom a už v matkinom lone ho naplní Duch Svätý; jeho narodenie poteší mnohých."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 1, 68)",
+        "text": {
+          "html": "Zvelebený Pán, Boh Izraela, lebo navštívil a vykúpil svoj ľud."
+        }
+      }
+    },
+    "hp045": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Jn 1, 6 – 7; Lk 1, 17)",
+        "text": {
+          "html": "Bol človek, ktorého poslal Boh, volal sa Ján. Prišiel ako svedok vydať svedectvo o svetle a pripraviť Pánovi dokonalý ľud."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Lk 1, 78)",
+        "text": {
+          "html": "Z hĺbky milosrdenstva nášho Boha navštívil nás Vychádzajúci z výsosti."
+        }
+      }
+    },
+    "hp046": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Mal 2, 6)",
+        "text": {
+          "html": "Zákon pravdy bol v jeho ústach a na jeho perách sa nenašla neprávosť; v pokoji a úprimnosti chodil so mnou a mnohých odvrátil od hriechu."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 15, 4 – 5)",
+        "text": {
+          "html": "Ostaňte vo mne a ja vo vás, hovorí Pán. Kto ostáva vo mne a ja v ňom, prináša veľa ovocia."
+        }
+      }
+    },
+    "hp047": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Apoštol Peter a učiteľ národov Pavol naučili nás tvoj zákon, Pane."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 21, 15. 17)",
+        "text": {
+          "html": "Šimon, syn Jánov, miluješ ma väčšmi ako títo? Pane, ty vieš všetko, ty dobre vieš, že ťa mám rád."
+        }
+      }
+    },
+    "hp048": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Toto sú tí, ktorí počas svojho života zasadili Cirkev a zvlažili ju vlastnou krvou; pili z Pánovho kalicha a stali sa Božími priateľmi."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Mt 16, 16. 18)",
+        "text": {
+          "html": "Peter povedal Ježišovi: Ty si Mesiáš, Syn živého Boha. Ježiš mu povedal: Ty si Peter, a na tejto skale postavím svoju Cirkev."
+        }
+      }
+    },
+    "hp049": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ž 66, 16)",
+        "text": {
+          "html": "Poďte sem a počúvajte, všetci ctitelia Boží, vyrozprávam vám, aké veľké veci mi urobil Pán."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 1, 48 – 49)",
+        "text": {
+          "html": "Blahoslaviť ma budú všetky pokolenia, lebo veľké veci mi urobil ten, ktorý je mocný, a sväté je jeho meno."
+        }
+      }
+    },
+    "hp050": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ž 118, 28. 21)",
+        "text": {
+          "html": "Ty si môj Boh, a ja ťa vyznávam; ty si môj Boh, a ja ťa velebím; ďakujem ti, že si ma zachránil."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 20, 27)",
+        "text": {
+          "html": "Vystri ruku a dotkni sa rán po klincoch a nebuď neveriaci, ale veriaci."
+        }
+      }
+    },
+    "hp051": {
+      "scope": "CELEBRATION_PROPER",
+      "communion": {
+        "citation": "(Sk 13, 49)",
+        "text": {
+          "html": "Pánovo slovo sa šírilo po celom kraji."
+        }
+      }
+    },
+    "hp052": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Benedikt, milosťou ale i menom požehnaný, bol muž obdivuhodného života, ktorý zanechal dom a majetok, chcel sa páčiť iba Bohu a hľadal spôsob svätého života."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 12, 42)",
+        "text": {
+          "html": "Verný a múdry správca, ktorého pán ustanoví nad svojou čeľaďou, aby jej načas dával určený pokrm."
+        }
+      }
+    },
+    "hp053": {
+      "scope": "CELEBRATION_PROPER",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hp054": {
+      "scope": "CELEBRATION_PROPER",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hp055": {
+      "scope": "CELEBRATION_PROPER",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hp056": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Jn 20, 17)",
+        "text": {
+          "html": "Pán povedal Márii Magdaléne: Choď k mojim bratom a povedz im: Vystupujem k môjmu Otcovi a vášmu Otcovi, k môjmu Bohu a vášmu Bohu."
+        }
+      },
+      "communion": {
+        "citation": "(2 Kor 5, 14. 15)",
+        "text": {
+          "html": "Ženie nás Kristova láska, aby aj tí, čo žijú, už nežili pre seba, ale pre toho, ktorý za nich zomrel a vstal z mŕtvych."
+        }
+      }
+    },
+    "hp057": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Radujme sa všetci v Pánovi a slávme sviatok na počesť svätej Brigity; z jej oslávenia sa radujú anjeli a spolu s ňou velebia Božieho Syna."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 45, 8)",
+        "text": {
+          "html": "Miluješ spravodlivosť a nenávidíš neprávosť, preto ťa Boh, tvoj Boh, pomazal olejom radosti viac ako tvojich druhov."
+        }
+      }
+    },
+    "hp058": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Mt 4, 18. 21)",
+        "text": {
+          "html": "Keď Ježiš kráčal popri Galilejskom mori, videl Jakuba Zebedejovho, a jeho brata Jána, ako opravujú siete, a povolal ich."
+        }
+      },
+      "communion": {
+        "citation": "",
+        "text": {
+          "html": "Pili Pánov kalich a stali sa Božími priateľmi."
+        }
+      }
+    },
+    "hp059": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Sir 44, 1. 25)",
+        "text": {
+          "html": "Oslavujme Joachima a Annu v ich pokolení, lebo im Pán daroval požehnanie všetkých národov."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 24, 5)",
+        "text": {
+          "html": "Dostali požehnanie od Pána a milosrdenstvo od Boha, svojho Spasiteľa."
+        }
+      }
+    },
+    "hp060": {
+      "scope": "CELEBRATION_PROPER",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hp061": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Lk 10, 38)",
+        "text": {
+          "html": "Ježiš vošiel do ktorejsi dediny, kde ho prijala do domu istá žena menom Marta."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 11, 27)",
+        "text": {
+          "html": "Marta povedala Ježišovi: Ty si Mesiáš, Boží Syn, ktorý mal prísť na svet."
+        }
+      }
+    },
+    "hp062": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Flp 2, 10 – 11)",
+        "text": {
+          "html": "Nech sa na meno Ježiš zohne každé koleno v nebi, na zemi i v podsvetí a každý jazyk nech vyznáva, že Ježiš Kristus je Pán na slávu Boha Otca."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Lk 12, 49)",
+        "text": {
+          "html": "Pán hovorí: Oheň som prišiel vrhnúť na zem; a čo chcem? Len aby už vzplanul."
+        }
+      }
+    },
+    "hp063": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Mt 17, 5)",
+        "text": {
+          "html": "V žiarivom oblaku sa zjavil Duch Svätý a bolo počuť Otcov hlas: Toto je môj milovaný Syn, v ktorom mám zaľúbenie: počúvajte ho!"
+        }
+      },
+      "communion": {
+        "citation": "(Porov. 1 Jn 3, 2)",
+        "text": {
+          "html": "Keď sa zjaví Kristus, budeme mu podobní, lebo ho budeme vidieť takého, aký je."
+        }
+      }
+    },
+    "hp064": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Sir 15, 5)",
+        "text": {
+          "html": "Uprostred Božieho ľudu otvoril Pán jeho ústa a naplnil ho duchom múdrosti a rozumu, zaodel ho rúchom slávy."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 12, 42)",
+        "text": {
+          "html": "Verný a múdry správca, ktorého pán ustanoví nad svojou čeľaďou, aby jej načas dával určený pokrm."
+        }
+      }
+    },
+    "hp065": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Gal 6, 14)",
+        "text": {
+          "html": "Ja sa nechcem chváliť ničím iným, iba krížom nášho Pána Ježiša Krista, cez ktorý je svet ukrižovaný pre mňa a ja pre svet."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 23, 4 – 5)",
+        "text": {
+          "html": "Keby som mal ísť uprostred tône smrti, nebudem sa báť zlého, lebo ty si so mnou."
+        }
+      }
+    },
+    "hp066": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Toto je svätý Vavrinec, ktorý pre obohatenie Cirkvi obetoval seba samého; preto si zaslúžil korunu mučeníctva, aby s radosťou vystúpil k Ježišovi Kristovi, nášmu Pánovi."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 12, 26)",
+        "text": {
+          "html": "Ak mi niekto slúži, nech ma nasleduje; a kde som ja, tam bude aj môj služobník, hovorí Pán."
+        }
+      }
+    },
+    "hp067": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Mt 25, 34. 40)",
+        "text": {
+          "html": "Poďte, požehnaní môjho Otca, hovorí Pán. Veru, hovorím vám: Čokoľvek ste urobili jednému z týchto mojich najmenších bratov, mne ste urobili."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 15, 13)",
+        "text": {
+          "html": "Nik nemá väčšiu lásku ako ten, kto položí svoj život za svojich priateľov, hovorí Pán."
+        }
+      }
+    },
+    "hp068": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Cirkev ťa chváli a velebí, Mária, veď dnes si bola vyvýšená nad chóry anjelov a s Kristom vládneš naveky."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Lk 11, 27)",
+        "text": {
+          "html": "Blahoslavená si, Panna Mária, lebo si nosila pod srdcom Syna večného Otca."
+        }
+      }
+    },
+    "hp069": {
+      "scope": "CELEBRATION_PROPER",
+      "communion": {
+        "citation": "(Lk 1, 48 – 49)",
+        "text": {
+          "html": "Blahoslaviť ma budú všetky pokolenia, lebo veľké veci mi urobil ten, ktorý je mocný."
+        }
+      }
+    },
+    "hp070": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Pán naplnil svätého Bernarda duchom múdrosti a on odovzdával pravé učenie Božiemu ľudu."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 15, 9)",
+        "text": {
+          "html": "Ako mňa miluje Otec, tak ja milujem vás, hovorí Pán. Ostaňte v mojej láske."
+        }
+      }
+    },
+    "hp071": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ž 45, 10)",
+        "text": {
+          "html": "Po tvojej pravici stojí kráľovná, ozdobená zlatom z Ofíru."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Lk 1, 54)",
+        "text": {
+          "html": "Blahoslavená si, lebo si uverila, že sa splní, čo ti povedal Pán."
+        }
+      }
+    },
+    "hp072": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ž 96, 2 – 3)",
+        "text": {
+          "html": "Zvestujte Božiu spásu deň čo deň; zvestujte jeho slávu pohanom."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 22, 29 – 30)",
+        "text": {
+          "html": "Ja vám dám kráľovstvo, ako ho môj Otec dal mne, aby ste jedli a pili pri mojom stole v mojom kráľovstve, hovorí Pán."
+        }
+      }
+    },
+    "hp073": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Sir 15, 5)",
+        "text": {
+          "html": "Uprostred Božieho ľudu otvoril Pán jeho ústa a naplnil ho duchom múdrosti a rozumu; zaodel ho rúchom slávy."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 23, 10. 8)",
+        "text": {
+          "html": "Pán hovorí: Len jediný je váš učiteľ, Kristus; vy všetci ste bratia."
+        }
+      }
+    },
+    "hp074": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ž 119, 46 – 47)",
+        "text": {
+          "html": "O tvojej náuke, Pane, som svedčil pred kráľmi a nehanbil som sa. Tešil som sa z tvojich predpisov, lebo som si ich obľúbil."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 3, 27. 30)",
+        "text": {
+          "html": "Ján povedal: On musí rásť a mňa musí ubúdať."
+        }
+      }
+    },
+    "hp075": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Svätý Gregor, povýšený na Petrovu katedru, vždy hľadal Pánovu tvár a žil v sláve jeho lásky."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 12, 42)",
+        "text": {
+          "html": "Verný a múdry správca, ktorého pán ustanoví nad svojou čeľaďou, aby jej načas dával určený pokrm."
+        }
+      }
+    },
+    "hp076": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Dan 3, 84. 87)",
+        "text": {
+          "html": "Velebte Pána, vy, jeho kňazi, velebte Pána, svätí a pokorní srdcom."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 10, 32)",
+        "text": {
+          "html": "Každého, kto mňa vyzná pred ľuďmi, aj ja vyznám pred svojím Otcom, ktorý je na nebesiach, hovorí Pán."
+        }
+      }
+    },
+    "hp077": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "S radosťou slávime narodenie preblahoslavenej Panny Márie, lebo z nej vzišlo slnko spravodlivosti, Kristus, náš Boh."
+        }
+      },
+      "communion": {
+        "citation": "(Iz 7, 14; Mt 1, 21)",
+        "text": {
+          "html": "Hľa, panna porodí Syna; on vyslobodí svoj ľud z hriechov."
+        }
+      }
+    },
+    "hp078": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Jdt 13, 18 – 20)",
+        "text": {
+          "html": "Požehnaná si, Panna Mária, od Pána, Boha najvyššieho, nad všetky ženy na svete; lebo tvoje meno tak zvelebil, že tvoja chvála nevymizne z úst ľudí."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Lk 1, 48)",
+        "text": {
+          "html": "Blahoslaviť ma budú všetky pokolenia, pretože Boh zhliadol na poníženosť svojej služobnice."
+        }
+      }
+    },
+    "hp079": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Dan 12, 3)",
+        "text": {
+          "html": "Múdri sa budú skvieť ako jas oblohy a tí, čo mnohých priviedli k spravodlivosti, ako hviezdy na večné veky."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. 1 Kor 1, 23 – 24)",
+        "text": {
+          "html": "My ohlasujeme ukrižovaného Krista, Krista – Božiu moc a Božiu múdrosť."
+        }
+      }
+    },
+    "hp080": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Gal 6, 14)",
+        "text": {
+          "html": "My sa máme chváliť krížom nášho Pána Ježiša Krista, v ktorom je spása, život a naše vzkriesenie; on nás oslobodil a spasil."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 12, 32)",
+        "text": {
+          "html": "Ja, až budem vyzdvihnutý od zeme, všetkých pritiahnem k sebe, hovorí Pán."
+        }
+      }
+    },
+    "hp081": {
+      "scope": "CELEBRATION_PROPER",
+      "communion": {
+        "citation": "(Porov. 1 Pt 4, 13)",
+        "text": {
+          "html": "Radujte sa, keď máte účasť na Kristových utrpeniach, aby ste sa radovali a plesali aj vtedy, keď sa zjaví jeho sláva."
+        }
+      }
+    },
+    "hp082": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Svätí mučeníci vyliali krv pre Krista na tejto zemi, preto dosiahli odmenu vo večnosti."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 10, 32)",
+        "text": {
+          "html": "Každého, kto mňa vyzná pred ľuďmi, aj ja vyznám pred svojím Otcom, ktorý je na nebesiach."
+        }
+      }
+    },
+    "hp083": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Mt 28, 19 – 20)",
+        "text": {
+          "html": "Choďte, učte všetky národy, krstite ich a naučte ich zachovávať všetko, čo som vám prikázal, hovorí Pán."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 9, 13) ",
+        "text": {
+          "html": "Neprišiel som volať spravodlivých, ale hriešnikov, hovorí Pán."
+        }
+      }
+    },
+    "hp084": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Lk 4, 18)",
+        "text": {
+          "html": "Duch Pána je nado mnou, lebo ma pomazal, aby som hlásal evanjelium chudobným a uzdravoval skrúšených srdcom."
+        }
+      }
+    },
+    "hp085": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ž 103, 20)",
+        "text": {
+          "html": "Dobrorečte Pánovi, všetci jeho anjeli, udatní hrdinovia, čo počúvate na jeho slová a plníte jeho príkazy."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 138, 1)",
+        "text": {
+          "html": "Chcem ťa, Pane, oslavovať celým srdcom, budem ti hrať pred tvárou anjelov."
+        }
+      }
+    },
+    "hp086": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ž 1, 2 – 3)",
+        "text": {
+          "html": "Blažený muž, čo o zákone Pánovom rozjíma dňom i nocou; prináša ovocie v pravý čas."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jer 15, 16)",
+        "text": {
+          "html": "Našli sa tvoje reči a ja som ich zjedol. Tvoje slovo sa stalo radosťou a potešením môjho srdca, lebo nosím tvoje meno, Pane Bože."
+        }
+      }
+    },
+    "hp087": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Dt 32, 10 – 12)",
+        "text": {
+          "html": "Pán sa jej ujal a dával na ňu pozor; strážil ju ako zrenicu svojho oka. Ako keď orol durí k letu svoje mláďatá a krúži nad nimi, tak rozprestiera svoje krídla a zachytáva ju a nesie ju na svojich perutiach. Pán sám bol jej vodcom."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 18, 3)",
+        "text": {
+          "html": "Pán hovorí: Ak sa neobrátite a nebudete ako deti, nevojdete do nebeského kráľovstva."
+        }
+      }
+    },
+    "hp088": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Dan 3, 58)",
+        "text": {
+          "html": "Velebte Pána, všetci Pánovi anjeli, chváľte a vyvyšujte ho naveky."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 138, 1)",
+        "text": {
+          "html": "Budem ti hrať pred tvárou anjelov, môj Bože."
+        }
+      }
+    },
+    "hp089": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Boží muž František opustil rodičovský dom, zriekol sa svojho dedičstva a stal sa biednym a chudobným; ale Pán ho prijal k sebe."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 5, 3)",
+        "text": {
+          "html": "Blahoslavení chudobní v duchu, lebo ich je nebeské kráľovstvo."
+        }
+      }
+    },
+    "hp090": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Lk 1, 28. 42)",
+        "text": {
+          "html": "Zdravas', Mária, milosti plná, Pán s tebou: požehnaná si medzi ženami a požehnaný je plod tvojho života."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 1, 31)",
+        "text": {
+          "html": "Počneš a porodíš Syna a dáš mu meno Ježiš."
+        }
+      }
+    },
+    "hp091": {
+      "scope": "CELEBRATION_PROPER",
+      "communion": {
+        "citation": "(Ž 89, 2)",
+        "text": {
+          "html": "Pánovo milosrdenstvo chcem ospevovať naveky; po všetky pokolenia hlásať svojimi ústami tvoju vernosť."
+        }
+      }
+    },
+    "hp092": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Gal 2, 19 – 20)",
+        "text": {
+          "html": "S Kristom som pribitý na kríž; už nežijem ja, ale vo mne žije Kristus; žijem vo viere v Božieho Syna, ktorý ma miluje a vydal seba samého za mňa."
+        }
+      },
+      "communion": {
+        "citation": "",
+        "text": {
+          "html": "Som Kristovým pšeničným zrnom, nech ma rozomelú zuby šeliem, aby som sa stal čistým chlebom."
+        }
+      }
+    },
+    "hp093": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Iz 52, 7)",
+        "text": {
+          "html": "Aké krásne sú na horách nohy posla, ktorý hlása pokoj, posla dobrej zvesti, ktorý ohlasuje spásu."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Lk 10, 1. 9)",
+        "text": {
+          "html": "Pán poslal učeníkov, aby ohlasovali mestám: Priblížilo sa k vám Božie kráľovstvo."
+        }
+      }
+    },
+    "hp094": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. 1 Kor 2, 2)",
+        "text": {
+          "html": "Rozhodol som sa, že nechcem medzi vami vedieť nič iné, iba Ježiša Krista, a to ukrižovaného."
+        }
+      },
+      "communion": {
+        "citation": "(1 Kor 1, 23. 24)",
+        "text": {
+          "html": "My ohlasujeme ukrižovaného Krista, Krista – Božiu moc a Božiu múdrosť."
+        }
+      }
+    },
+    "hp095": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Ž 67, 36)",
+        "text": {
+          "html": "Vznešený je Boh vo svojej svätyni, Boh Izraela,<br>on sám dáva silu i statočnosť svojmu ľudu.<br>Nech je zvelebený Boh."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. 1 Kor 3, 16-17)",
+        "text": {
+          "html": "Vy ste chrámom Božím<br>a Duch Svätý prebýva vo vás.<br>Boží chrám je svätý,<br>a tým chrámom ste vy."
+        }
+      }
+    },
+    "hp096": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Toto sú svätí muži, ktorých si Pán vyvolil v úprimnej láske a dal im večnú slávu."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 14, 23)",
+        "text": {
+          "html": "Kto ma miluje, bude zachovávať moje slovo, hovorí Pán; a môj Otec ho bude milovať, prídeme k nemu a urobíme si uňho príbytok."
+        }
+      }
+    },
+    "hp097": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Radujme sa všetci v Pánovi, lebo dnes slávime sviatok na počesť všetkých svätých. Z ich oslávenia sa radujú anjeli a spolu s nimi velebia Syna Božieho."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 5, 8 – 10)",
+        "text": {
+          "html": "Blahoslavení čistého srdca, lebo oni uvidia Boha. Blahoslavení tí, čo šíria pokoj, lebo ich budú volať Božími synmi. Blahoslavení prenasledovaní pre spravodlivosť, lebo ich je nebeské kráľovstvo."
+        }
+      }
+    },
+    "hp098": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Radujme sa všetci v Pánovi, lebo dnes slávime sviatok na počesť všetkých svätých. Z ich oslávenia sa radujú anjeli a spolu s nimi velebia Syna Božieho."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 5, 8 – 10)",
+        "text": {
+          "html": "Blahoslavení čistého srdca, lebo oni uvidia Boha. Blahoslavení tí, čo šíria pokoj, lebo ich budú volať Božími synmi. Blahoslavení prenasledovaní pre spravodlivosť, lebo ich je nebeské kráľovstvo."
+        }
+      }
+    },
+    "hp099": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. 1 Sol 4, 14; 1 Kor 15, 22)",
+        "text": {
+          "html": "Ako Ježiš zomrel a vstal z mŕtvych, tak Boh tých, čo zosnuli, skrze Ježiša privedie s ním. Lebo ako všetci umierajú v Adamovi, tak zasa všetci ožijú v Kristovi."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 11, 25 – 26)",
+        "text": {
+          "html": "Ja som vzkriesenie a život, hovorí Pán. Kto verí vo mňa, bude žiť, aj keď umrie. A nik, kto žije a verí vo mňa, neumrie naveky."
+        }
+      }
+    },
+    "hp100": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. 4 Ezd 2, 34 – 35)",
+        "text": {
+          "html": "Odpočinutie večné daj im, Pane, a svetlo večné nech im svieti."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. 4 Ezd 2, 35. 34)",
+        "text": {
+          "html": "Svetlo večné nech im svieti, Pane, v spoločenstve tvojich svätých, veď si dobrotivý."
+        }
+      }
+    },
+    "hp101": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Rim 8, 11)",
+        "text": {
+          "html": "Boh, ktorý vzkriesil Ježiša z mŕtvych, oživí aj naše smrteľné telá skrze svojho Ducha, ktorý prebýva v nás."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Flp 3, 20 – 21)",
+        "text": {
+          "html": "Očakávame Spasiteľa, nášho Pána Ježiša Krista; on pretvorí naše úbohé telo, aby sa stalo podobným jeho oslávenému telu."
+        }
+      }
+    },
+    "hp102": {
+      "scope": "CELEBRATION_PROPER",
+      "communion": {
+        "citation": "(Porov. 1 Pt 2, 5)",
+        "text": {
+          "html": "Dajte sa vbudovať aj vy ako živé kamene do duchovného domu, do svätého kňazstva."
+        }
+      }
+    },
+    "hp103": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Sir 45, 30)",
+        "text": {
+          "html": "Pán uzavrel s ním zmluvu pokoja, postavil ho na čelo svojho ľudu a dal mu kňazskú hodnosť naveky."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 16, 16. 18)",
+        "text": {
+          "html": "Peter povedal Ježišovi: Ty si Mesiáš, Syn živého Boha. Ježiš mu odpovedal: Ty si Peter a na tejto skale postavím svoju Cirkev."
+        }
+      }
+    },
+    "hp104": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. 1 Sam 2, 35)",
+        "text": {
+          "html": "Povolám si verného kňaza, ktorý bude konať podľa môjho srdca a podľa môjho zmýšľania, hovorí Pán."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Mt 25, 40)",
+        "text": {
+          "html": "Veru, hovorím vám: Čokoľvek ste urobili jednému z týchto mojich najmenších bratov, mne ste urobili, hovorí Pán."
+        }
+      }
+    },
+    "hp105": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. 1 Sam 2, 35)",
+        "text": {
+          "html": "Povolám si verného kňaza, ktorý bude konať podľa môjho srdca a podľa môjho zmýšľania, hovorí Pán."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Mt 25, 40)",
+        "text": {
+          "html": "Veru, hovorím vám: Čokoľvek ste urobili jednému z týchto mojich najmenších bratov, mne ste urobili, hovorí Pán."
+        }
+      }
+    },
+    "hp106": {
+      "scope": "CELEBRATION_PROPER",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hp107": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ž 45, 17 – 18)",
+        "text": {
+          "html": "Urobíš ich kniežatami nad celou zemou. Na tvoje meno budú pamätať vo všetkých pokoleniach. Preto ťa národy budú velebiť navždy a na veky vekov."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 6, 69. 70) ",
+        "text": {
+          "html": "Pane, ty máš slová večného života; a my sme uverili a spoznali, že ty si Mesiáš, Boží Syn."
+        }
+      }
+    },
+    "hp108": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Gal 6, 14; porov. 1 Kor 1, 18)",
+        "text": {
+          "html": "Nechceme sa chváliť ničím iným, iba krížom nášho Pána Ježiša Krista. Lebo slovo kríža je pre nás, čo sme na ceste spásy, Božou mocou."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 5, 10)",
+        "text": {
+          "html": "Blahoslavení prenasledovaní pre spravodlivosť, lebo ich je nebeské kráľovstvo."
+        }
+      }
+    },
+    "hp109": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Mt 4, 18 – 19)",
+        "text": {
+          "html": "Pán videl pri Galilejskom mori dvoch bratov, Petra a Ondreja, a povolal ich: Poďte za mnou a urobím z vás rybárov ľudí."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 1, 41 – 42)",
+        "text": {
+          "html": "Ondrej povedal svojmu bratovi Šimonovi: Našli sme Mesiáša, čo v preklade znamená Kristus. A priviedol ho k Ježišovi."
+        }
+      }
+    },
+    "hp110": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Ž 18, 50; 22, 23)",
+        "text": {
+          "html": "Budem ťa, Pane, chváliť medzi národmi a hlásať tvoje meno svojim bratom."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 10, 27)",
+        "text": {
+          "html": "Čo vám hovorím vo tme, hovorte na svetle, hovorí Pán, a čo počujete do ucha, rozhlasujte zo striech."
+        }
+      }
+    },
+    "hp111": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Sir 15, 5)",
+        "text": {
+          "html": "Uprostred Božieho ľudu otvoril Pán jeho ústa a naplnil ho duchom múdrosti a rozumu,zaodel ho rúchom slávy."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 1, 2. 3)",
+        "text": {
+          "html": "Ten, čo o zákone Pánovom rozjíma dňom i nocou, prináša ovocie v pravý čas."
+        }
+      }
+    },
+    "hp112": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Gal 6, 14)",
+        "text": {
+          "html": "Ja sa nechcem chváliť ničím iným, iba krížom nášho Pána Ježiša Krista, cez ktorý je svet ukrižovaný pre mňa a ja pre svet."
+        }
+      }
+    },
+    "hp113": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Iz 49, 13)",
+        "text": {
+          "html": "Radujte sa, nebesia, a plesaj zem, lebo náš Pán príde a zľutuje sa nad svojimi biednymi."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ag 2, 7)",
+        "text": {
+          "html": "Hľa, príde ten, po ktorom túžia všetky národy, a Pánov dom sa naplní slávou."
+        }
+      }
+    },
+    "hp114": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Príde Kristus, náš Kráľ; Ján o ňom povedal, že príde ako Baránok."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 1, 23)",
+        "text": {
+          "html": "Dajú mu meno Emanuel, čo v preklade znamená: Boh s nami."
+        }
+      }
+    },
+    "hp115": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Hebr 10, 37)",
+        "text": {
+          "html": "Ten, ktorý má prísť, príde, nebude meškať a na našej zemi už nebude úzkosť, lebo on je náš Spasiteľ."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 1, 78 – 79)",
+        "text": {
+          "html": "Navštívi nás Vychádzajúci z výsosti a naše kroky upriami na cestu pokoja."
+        }
+      }
+    },
+    "hp116": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Iz 11, 1; 40, 5; Lk 3, 6)",
+        "text": {
+          "html": "Z kmeňa Jesseho vzíde ratolesť. Celá zem sa naplní Pánovou slávou a každé telo uvidí Božiu spásu."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 1, 31)",
+        "text": {
+          "html": "Anjel povedal Márii: Počneš a porodíš syna a dáš mu meno Ježiš."
+        }
+      }
+    },
+    "hp117": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Iz 7, 14; 8, 10)",
+        "text": {
+          "html": "Čoskoro príde Vládca, Pán; bude sa volať Emanuel, lebo s nami je Boh."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 1, 45)",
+        "text": {
+          "html": "Blahoslavená je tá, ktorá uverila, že sa splní, čo jej povedal Pán."
+        }
+      }
+    },
+    "hp118": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Ž 24, 7)",
+        "text": {
+          "html": "Zdvihnite, brány, svoje hlavice a vyvýšte sa, brány prastaré, lebo má vstúpiť kráľ slávy."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 1, 46. 49)",
+        "text": {
+          "html": "Velebí moja duša Pána, lebo veľké veci mi urobil ten, ktorý je mocný."
+        }
+      }
+    },
+    "hp119": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Iz 9, 6; Ž 71, 17)",
+        "text": {
+          "html": "Chlapček sa nám narodí a bude sa volať Mocný Boh. V ňom budú požehnané všetky kmene zeme."
+        }
+      },
+      "communion": {
+        "citation": "(Zjv 3, 20)",
+        "text": {
+          "html": "Hľa, stojím pri dverách a klopem. Kto počúvne môj hlas a otvorí dvere, k tomu vojdem a budem s ním večerať a on so mnou."
+        }
+      }
+    },
+    "hp120": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Gal 4, 4)",
+        "text": {
+          "html": "Hľa, už prišla plnosť času, v ktorom Boh poslal na zem svojho Syna."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 1, 68)",
+        "text": {
+          "html": "Nech je zvelebený Pán, Boh Izraela, lebo navštívil a vykúpil svoj ľud."
+        }
+      }
+    },
+    "hp121": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Porov. Ex 16, 6 – 7)",
+        "text": {
+          "html": "Dnes sa dozviete, že príde Pán a spasí nás, a ráno uvidíte jeho slávu."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Iz 40, 5)",
+        "text": {
+          "html": "Zjaví sa Pánova sláva a každé stvorenie uvidí Božiu spásu."
+        }
+      }
+    },
+    "hp122": {
+      "scope": "CELEBRATION_PROPER",
+      "communion": {
+        "citation": "(Jn 1, 14)",
+        "text": {
+          "html": "Slovo sa telom stalo a my sme uvideli jeho slávu."
+        }
+      }
+    },
+    "hp123": {
+      "scope": "CELEBRATION_PROPER",
+      "communion": {
+        "citation": "(Porov. Zach 9, 9)",
+        "text": {
+          "html": "Plesaj, dcéra sionská, jasaj, dcéra jeruzalemská! Hľa, tvoj Kráľ prichádza, Svätý, Spasiteľ sveta."
+        }
+      }
+    },
+    "hp124": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Iz 9, 5)",
+        "text": {
+          "html": "Chlapček sa nám narodil, daný nám je Syn. Na jeho pleciach spočíva vláda a volajú ho obdivuhodný Radca."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 98, 3)",
+        "text": {
+          "html": "Uzreli všetky končiny zeme spásu nášho Boha."
+        }
+      }
+    },
+    "hp125": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Svätému Štefanovi sa otvorili brány neba a ako prvý z veľkého počtu mučeníkov dosiahol veniec slávy."
+        }
+      },
+      "communion": {
+        "citation": "(Sk 7, 58)",
+        "text": {
+          "html": "Keď kameňovali Štefana, on sa modlil a volal: Pane Ježišu, prijmi môjho ducha!"
+        }
+      }
+    },
+    "hp126": {
+      "scope": "CELEBRATION_PROPER",
+      "communion": {
+        "citation": "(Jn 1, 14. 16)",
+        "text": {
+          "html": "Slovo sa telom stalo a prebývalo medzi nami. A z jeho plnosti sme prijali všetci."
+        }
+      }
+    },
+    "hp127": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Nevinné deti, zabité pre Krista, nasledujú nepoškvrneného Baránka a ustavične volajú: Sláva tebe, Pane."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Zjv 14, 4)",
+        "text": {
+          "html": "Oni sú vykúpení z ľudí ako prvotiny Bohu a Baránkovi; preto nasledujú Baránka, kamkoľvek ide."
+        }
+      }
+    },
+    "hp128": {
+      "scope": "CELEBRATION_PROPER",
+      "communion": {
+        "citation": "(Lk 1, 78)",
+        "text": {
+          "html": "Z hĺbky milosrdenstva nášho Boha navštívil nás Vychádzajúci z výsosti."
+        }
+      }
+    },
+    "hp129": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Múd 18, 14 – 15)",
+        "text": {
+          "html": "Keď všade vládlo hlboké ticho a noc vo svojom behu prešla polovicu cesty, tvoje všemohúce slovo, Pane, zostúpilo z neba, z kráľovského trónu."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 1, 16)",
+        "text": {
+          "html": "Z jeho plnosti sme my všetci dostali milosť za milosťou."
+        }
+      }
+    },
+    "hp130": {
+      "scope": "CELEBRATION_PROPER",
+      "entrance": {
+        "citation": "(Iz 9, 6)",
+        "text": {
+          "html": "Chlapček sa nám narodil, daný nám je Syn. Na jeho pleciach spočíva vláda a volajú ho obdivuhodný Radca."
+        }
+      },
+      "communion": {
+        "citation": "(1 Jn 4, 9)",
+        "text": {
+          "html": "Boh poslal svojho jednorodeného Syna na svet, aby sme skrze neho mali život."
+        }
+      }
+    },
+    "hp131": {
+      "scope": "CELEBRATION_PROPER",
+      "communion": {
+        "citation": "(Hebr 13, 8)",
+        "text": {
+          "html": "Ježiš Kristus je ten istý včera i dnes a naveky."
+        }
+      }
+    },
+    "hc001": {
+      "name": "O Duchu Svätom 1.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Rim 5, 5; porov. 8, 11)",
+        "text": {
+          "html": "Božia láska je rozliata v našich srdciach skrze Ducha Svätého, ktorý v nás prebýva."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 68, 29 – 30)",
+        "text": {
+          "html": " Upevni, Bože, čo si v nás vykonal, zo svojho svätého chrámu v Jeruzaleme."
+        }
+      }
+    },
+    "hc002": {
+      "name": "O Duchu Svätom 2.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Jn 14, 26; 15, 26)",
+        "text": {
+          "html": "Keď príde Duch pravdy, naučí vás celú pravdu, hovorí Pán."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 15, 26; 16, 14)",
+        "text": {
+          "html": "Duch, ktorý vychádza od Otca, on ma oslávi, hovorí Pán."
+        }
+      }
+    },
+    "hc003": {
+      "name": "O Duchu Svätom 3.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Lk 4, 18)",
+        "text": {
+          "html": "Duch Pána je nado mnou, poslal ma hlásať evanjelium chudobným, hovorí Pán."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 104, 30)",
+        "text": {
+          "html": "Keď zošleš svojho Ducha, sú stvorené, a obnovuješ tvárnosť zeme."
+        }
+      }
+    },
+    "hc004": {
+      "name": "Zoslanie Ducha Svätého",
+      "scope": "COMMON_FORMULARY",
+      "communion": {
+        "citation": "(Sk 2, 4. 11)",
+        "text": {
+          "html": "Všetkých naplnil Duch Svätý a začali hovoriť o veľkých Božích skutkoch, aleluja."
+        }
+      }
+    },
+    "hc005": {
+      "name": "Najsvätejšieho Srdca Ježišovho",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Ž 33, 11. 19)",
+        "text": {
+          "html": "Myšlienky jeho Srdca z pokolenia na pokolenie, aby ich zachránil pred smrťou a v čase hladu nakŕmil."
+        }
+      }
+    },
+    "hc006": {
+      "name": "Votívna omša o Najsvätejšom Srdci Ježišovom",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Ž 33, 11. 19)",
+        "text": {
+          "html": "Myšlienky jeho srdca trvajú z pokolenia na pokolenie: aby ich zachránil pred smrťou a v čase hladu nakŕmil."
+        }
+      }
+    },
+    "hc007": {
+      "name": "Výročie posviacky chrámu (slávenie mimo chrámu)",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc008": {
+      "name": "Svätý rok 2025 1.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Ž 27, 14) )",
+        "text": {
+          "html": "Očakávaj Pána a buď statočný; srdce maj silné a drž sa Pána. <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>"
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Lk 4, 18. 19)",
+        "text": {
+          "html": "Duch Pána je nado mnou; poslal ma hlásať evanjelium chudobným a ohlásiť Pánov milostivý rok. <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>"
+        }
+      }
+    },
+    "hc009": {
+      "name": "Svätý rok 2025 2.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Ž 90, 1-2)",
+        "text": {
+          "html": "Pane, stal si sa nám útočišťom z pokolenia na pokolenie; ty si od vekov až na veky. <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>"
+        }
+      },
+      "communion": {
+        "citation": "(Tít 2, 12-13)",
+        "text": {
+          "html": "Žime na tomto svete spravodlivo a nábožne a očakávajme blahoslavenú nádej a príchod slávy veľkého Boha. <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>"
+        }
+      }
+    },
+    "hc010": {
+      "name": "Svätý rok 2025 3.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Tit 3, 5. 7)",
+        "text": {
+          "html": "Boh nás spasil kúpeľom znovuzrodenia a obnovy v Duchu Svätom, aby sme, ospravedlnení jeho milosťou,  boli podľa nádeje dedičmi večného života. <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>"
+        }
+      },
+      "communion": {
+        "citation": "(Mt 28, 20)",
+        "text": {
+          "html": "Ja som s vami po všetky dni až do skončenia sveta, hovorí Pán. <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>"
+        }
+      }
+    },
+    "hc011": {
+      "name": "Omša k preblahoslavenej Panne Marií 1.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Sedulius)",
+        "text": {
+          "html": "Zdravas', svätá Matka. Ty si porodila Kráľa, ktorý večne vládne nad nebom i zemou."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Lk 11, 27)",
+        "text": {
+          "html": "Blahoslavená si, Panna Mária, lebo si nosila Syna večného Otca."
+        }
+      }
+    },
+    "hc012": {
+      "name": "Omša k preblahoslavenej Panne Marií 2.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Blahoslavená si, Panna Mária, lebo si nosila Stvoriteľa sveta; porodila si toho, ktorý ťa stvoril, a naveky ostávaš pannou."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 1, 49)",
+        "text": {
+          "html": "Veľké veci mi urobil ten, ktorý je mocný, a sväté je jeho meno."
+        }
+      }
+    },
+    "hc013": {
+      "name": "Omša k preblahoslavenej Panne Marií 3.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Jdt 13, 18 – 19)",
+        "text": {
+          "html": "Požehnaná si, Panna Mária, od Pána, Boha najvyššieho, viac než všetky ženy na zemi, lebo tak preslávil tvoje meno, že ťa ľudia nikdy neprestanú chváliť."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Lk 1, 48)",
+        "text": {
+          "html": "Blahoslaviť ma budú všetky pokolenia, lebo Boh zhliadol na poníženú služobnicu."
+        }
+      }
+    },
+    "hc014": {
+      "name": "Omša k preblahoslavenej Panne Marií 4.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Ž 45, 13. 15. 16)",
+        "text": {
+          "html": "O tvoju priazeň sa budú uchádzať veľmoži národa. V pestrom rúchu ju vedú ku kráľovi. Sprevádza ich jasot radostný, tak vstupujú do kráľovského paláca."
+        }
+      },
+      "communion": {
+        "citation": "",
+        "text": {
+          "html": "Chváľte Pána, nášho Boha, ktorý v Márii, svojej služobnici, splnil svoje milosrdenstvo, ktoré sľúbil Izraelovmu domu."
+        }
+      }
+    },
+    "hc015": {
+      "name": "Omša k preblahoslavenej Panne Marií 5.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Lk 1, 28. 42)",
+        "text": {
+          "html": "Zdravas', Mária, milosti plná, Pán s tebou; požehnaná si medzi ženami a požehnaný je plod tvojho života."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 87, 3; Lk 1, 49)",
+        "text": {
+          "html": "Slávne veci sa hovoria o tebe, Panna Mária, lebo veľké veci ti urobil ten, ktorý je mocný."
+        }
+      }
+    },
+    "hc016": {
+      "name": "Omša k preblahoslavenej Panne Marií 6.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Jesseho ratolesť rozkvitla; Panna zrodila Boha a človeka. Boh obnovil pokoj, všetko zmieril so sebou."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 45, 3)",
+        "text": {
+          "html": "Z tvojich perí plynie milota: preto ťa Boh požehnal naveky."
+        }
+      }
+    },
+    "hc017": {
+      "name": "Omša k preblahoslavenej Panne Marií 7.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Lk 1, 47 – 48)",
+        "text": {
+          "html": "Mária povedala: Môj duch jasá v Bohu, mojom Spasiteľovi, lebo zhliadol na poníženosť svojej služobnice."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 2, 19)",
+        "text": {
+          "html": "Mária zachovávala všetky tieto slová vo svojom srdci."
+        }
+      }
+    },
+    "hc018": {
+      "name": "Omša k preblahoslavenej Panne Marií 8.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Blahoslavená si, svätá Panna Mária, a všetkej chvály najhodnejšia: lebo z teba vzišlo slnko spravodlivosti, Kristus, náš Boh, skrze ktorého sme spasení a vykúpení."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Lk 1, 48)",
+        "text": {
+          "html": "Pán zhliadol na poníženosť svojej služobnice, hľa, od tejto chvíle blahoslaviť ma budú všetky pokolenia."
+        }
+      }
+    },
+    "hc019": {
+      "name": "Omša k preblahoslavenej Panne Marií",
+      "scope": "COMMON_FORMULARY",
+      "communion": {
+        "citation": "(Porov. Iz 7, 14)",
+        "text": {
+          "html": "Hľa, panna počne a porodí syna a dá mu meno Emanuel."
+        }
+      }
+    },
+    "hc020": {
+      "name": "Omša k preblahoslavenej Panne Marií",
+      "scope": "COMMON_FORMULARY",
+      "communion": {
+        "citation": "(Porov. Lk 11, 27)",
+        "text": {
+          "html": "Blahoslavená si Panna Mária, lebo si nosila Syna večného Otca."
+        }
+      }
+    },
+    "hc021": {
+      "name": "Omša k preblahoslavenej Panne Marií",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Ž 30, 12)",
+        "text": {
+          "html": "Pane, môj nárek si obrátil na tanec a radosťou si ma opásal, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "",
+        "text": {
+          "html": "Raduj sa, panenská Matka, lebo Kristus vstal z hrobu, aleluja."
+        }
+      }
+    },
+    "hc022": {
+      "name": "Preblahoslavená Panna Mária vyvolený potomok Izraela",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "Porov. Sof. 3, 14; Ag 2, 8",
+        "text": {
+          "html": "Raduj sa a veseľ z plného srdca,<br>dcéra jeruzalemská!<br>Hľa, prichádza ten, po ktorom túžia všetky národy,<br>a Pánov dom sa naplní slávou."
+        }
+      },
+      "communion": {
+        "citation": "",
+        "text": {
+          "html": "Raduj sa a veseľ, šťastie patriarchov.<br>Raduj sa ty, čo si od anjela prijala radosť sveta.<br>Raduj sa ty, čo si nám priniesla chlieb života."
+        }
+      }
+    },
+    "hc023": {
+      "name": "Preblahoslavená Panna Mária pri Zvestovaní Pána",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "Porov. Iz 45, 8",
+        "text": {
+          "html": "Nebesia, roste z výsosti<br>a z oblakov nech k nám zostúpi Spravodlivý!<br>Otvor sa, zem, a zroď Spasiteľa!"
+        }
+      },
+      "communion": {
+        "citation": "Iz 7, 14",
+        "text": {
+          "html": "Hľa, panna počne a porodí syna<br>a dá mu meno Emanuel."
+        }
+      }
+    },
+    "hc024": {
+      "name": "Navštívenie Preblahoslavenej Panny Márie",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "Lk 1, 68",
+        "text": {
+          "html": "Nech je zvelebený Pán, Boh Izraela,<br>lebo navštívil a vykúpil svoj ľud<br>a vzbudil nám mocného Spasiteľa,<br>ako odpradávna hovoril<br>ústami svojich svätých prorokov."
+        }
+      },
+      "communion": {
+        "citation": "Lk 1, 48",
+        "text": {
+          "html": "Zhliadol na poníženosť svojej služobnice.<br>Hľa, od tejto chvíle blahoslaviť ma budú všetky pokolenia."
+        }
+      }
+    },
+    "hc025": {
+      "name": "Nepoškvrneného Srdca Panny Márie",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Ž 13, 6)",
+        "text": {
+          "html": "Moje srdce sa teší z tvojej pomoci. Spievať budem Pánovi, že ma zahŕňa dobrodeniami."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 2, 19)",
+        "text": {
+          "html": "Mária zachovávala všetky tieto slová vo svojom srdci a premýšľala o nich."
+        }
+      }
+    },
+    "hc026": {
+      "name": "Omša za viacerých mučeníkov 1.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc027": {
+      "name": "Omša za viacerých mučeníkov 2.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc028": {
+      "name": "Omša za viacerých mučeníkov 3.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc029": {
+      "name": "Omša za viacerých mučeníkov 4.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc030": {
+      "name": "Omša za viacerých mučeníkov 5.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc031": {
+      "name": "Omša za jedného mučeníka 1.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc032": {
+      "name": "Omša za jedného mučeníka 2.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc033": {
+      "name": "Omša za viacerých mučeníkov 1.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc034": {
+      "name": "Omša za viacerých mučeníkov 2.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc035": {
+      "name": "Omša za jedného mučeníka",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc036": {
+      "name": "Omša za viacerých mučeníkov misionárov",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Gal 6, 14; 1 Kor 1, 18)",
+        "text": {
+          "html": "Nechceme sa chváliť ničím iným, iba krížom nášho Pána Ježiša Krista. Slovo kríža je Božou mocou pre tých, čo sú na ceste spásy <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc037": {
+      "name": "Omša za jedného mučeníka misionára",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Fil 2, 30)",
+        "text": {
+          "html": "Tento svätý sa pre Kristovo dielo priblížil až k smrti a svoj život vystavil nebezpečenstvu <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      },
+      "communion": {
+        "citation": "(Mk 8, 35)",
+        "text": {
+          "html": "Kto stratí svoj život pre mňa a pre evanjelium, zachráni si ho, hovorí Pán <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc038": {
+      "name": "Omša o panne mučenici",
+      "scope": "COMMON_FORMULARY",
+      "communion": {
+        "citation": "(Zjv 7, 17)",
+        "text": {
+          "html": "Baránok, čo je v strede pred trónom, privedie ich k prameňom vôd života <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc039": {
+      "name": "Omša o svätej žene mučenici",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Nebeské kráľovstvo patrí tým, ktorí pohrdli životom sveta, dosiahli kráľovskú odmenu a oprali si svoje rúcha v Baránkovej krvi <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      },
+      "communion": {
+        "citation": "(Zjv 12, 11 – 12)",
+        "text": {
+          "html": "Nemilovali svoj život až na smrť. Preto radujte sa, nebesia, aj vy, čo v nich bývate <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc040": {
+      "name": "Omša o pápežoch alebo biskupoch 1.",
+      "scope": "COMMON_FORMULARY",
+      "communion": {
+        "citation": "(Porov. Jn 10, 11)",
+        "text": {
+          "html": "Dobrý pastier položil svoj život za svoje ovce <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc041": {
+      "name": "Omša o pápežoch alebo biskupoch 2.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Sir 45, 30)",
+        "text": {
+          "html": "Pán uzavrel s ním zmluvu pokoja, postavil ho na čelo svojho ľudu a dal mu kňazskú hodnosť naveky <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 21, 17)",
+        "text": {
+          "html": "Pane, ty vieš všetko, ty dobre vieš, že ťa mám rád <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc042": {
+      "name": "Omša o biskupoch 1.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc043": {
+      "name": "Omša o biskupoch 2.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc044": {
+      "name": "Omša o duchovných pastieroch",
+      "scope": "COMMON_FORMULARY",
+      "communion": {
+        "citation": "(Mt 20, 28)",
+        "text": {
+          "html": "Syn človeka neprišiel dať sa obsluhovať, ale slúžiť a položiť svoj život ako výkupné za mnohých <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc045": {
+      "name": "Omša o duchovnom pastierovi 1.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Ž 132, 9)",
+        "text": {
+          "html": "Tvoji kňazi, Pane, nech sa odejú do spravodlivosti a tvoji svätí nech plesajú <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc046": {
+      "name": "Omša o duchovnom pastierovi 2.",
+      "scope": "COMMON_FORMULARY",
+      "communion": {
+        "citation": "(Mt 28, 20)",
+        "text": {
+          "html": "Hľa, ja som s vami po všetky dni až do skončenia sveta, hovorí Pán <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc047": {
+      "name": "Omša o zakladateľovi miestnej cirkvi",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Iz 59, 21; 56, 7)",
+        "text": {
+          "html": "Pán hovorí: Moje slová, ktoré som ti dal do úst, nezmiznú z tvojich úst a tvoje dary mi budú potešením na mojom oltári <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc048": {
+      "name": "Omša o zakladateľoch miestnych cirkví",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Toto sú svätí muži, ktorých si Pán vyvolil v úprimnej láske a dal im večnú slávu; ich náuka neprestajne žiari v Cirkvi <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc049": {
+      "name": "Omša o misionároch 1.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc050": {
+      "name": "Omša o misionároch 2.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Iz 52, 7)",
+        "text": {
+          "html": "Aké krásne sú na horách nohy posla, ktorý hlása pokoj, posla dobrej zvesti, ktorý ohlasuje spásu <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc051": {
+      "name": "Omša o misionároch 3.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Ž 96, 3 – 4)",
+        "text": {
+          "html": "Zvestujte jeho slávu pohanom a jeho zázraky všetkým národom, lebo veľký je Pán a veľkej chvály hoden <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc052": {
+      "name": "Omša o učiteľoch Cirkvi 1.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc053": {
+      "name": "Omša o učiteľoch Cirkvi 2.",
+      "scope": "COMMON_FORMULARY",
+      "communion": {
+        "citation": "(Porov. 1 Kor 1, 23 – 24)",
+        "text": {
+          "html": "My ohlasujeme ukrižovaného Krista; Krista, Božiu moc a Božiu múdrosť <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc054": {
+      "name": "Omša o pannách 1.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc055": {
+      "name": "Omša o pannách 2.",
+      "scope": "COMMON_FORMULARY",
+      "communion": {
+        "citation": "(Porov. Mt 25, 4. 6)",
+        "text": {
+          "html": "Päť múdrych panien si vzalo s lampami olej do svojich nádob. O polnoci sa strhol krik: Ženích prichádza, vyjdite v ústrety Kristu Pánovi <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc056": {
+      "name": "Omša o pannách 3.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc057": {
+      "name": "Omša o viacerých pannách",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc058": {
+      "name": "Omša o svätých mužoch a svätých ženách 1.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Ž 145, 10 – 11)",
+        "text": {
+          "html": "Nech ťa oslavujú, Pane, všetky tvoje diela a tvoji svätí nech ťa velebia. Nech rozprávajú o sláve tvojho kráľovstva a o tvojej moci nech hovoria <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc059": {
+      "name": "Omša o svätých mužoch a svätých ženách 2.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Ž 64, 11)",
+        "text": {
+          "html": "Spravodlivý sa teší v Pánovi a spolieha sa na neho, a jasajú všetci, čo majú srdce úprimné <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 12, 26)",
+        "text": {
+          "html": "Ak mi niekto slúži, nech ma nasleduje, hovorí Pán; a kde som ja, tam bude aj môj služobník <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc060": {
+      "name": "Omša o svätých mužoch a svätých ženách 3.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance"
+      ],
+      "communion": {
+        "citation": "(Mt 11, 28)",
+        "text": {
+          "html": "Poďte ku mne všetci, ktorí sa namáhate a ste preťažení, a ja vás posilním, hovorí Pán <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc061": {
+      "name": "Omša o svätých mužoch a svätých ženách 4.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Jer 17, 7 – 8)",
+        "text": {
+          "html": "Požehnaný človek, čo dúfa v Pána, Pán bude jeho oporou. Bude ako strom zasadený pri vode,<br>ktorý k potoku vystiera korene; nebude sa báť, keď príde horúčosť <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 15, 9)",
+        "text": {
+          "html": "Ako mňa miluje Otec, tak ja milujem vás, hovorí Pán. Ostaňte v mojej láske <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc062": {
+      "name": "Omša o svätých mužoch a svätých ženách 5.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Ž 21, 2 – 3)",
+        "text": {
+          "html": "Pane, z tvojej sily sa spravodlivý raduje a veľmi sa teší z tvojej spásy; vyplnil si túžbu jeho srdca <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc063": {
+      "name": "Omša o svätých mužoch a svätých ženách 6.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Mal 2, 6)",
+        "text": {
+          "html": "Zákon pravdy bol v jeho ústach a na jeho perách sa nenašla neprávosť; pokojne a spravodlivo kráčal s Bohom a mnohých odvrátil od hriechu <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 5, 8 – 9)",
+        "text": {
+          "html": "Blahoslavení čistého srdca, lebo oni uvidia Boha; blahoslavení tí, čo šíria pokoj, lebo ich budú volať Božími synmi <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc064": {
+      "name": "Omša o rehoľníkoch 1.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc065": {
+      "name": "Omša o rehoľníkoch 2.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc066": {
+      "name": "Omša o rehoľníkoch 3.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc067": {
+      "name": "Omša o rehoľníkoch 4.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc068": {
+      "name": "Omša o rehoľníkoch 5.",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc069": {
+      "name": "Omša o tých, čo konali skutky milosrdenstva",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc070": {
+      "name": "Omša o vychovávateľoch",
+      "scope": "COMMON_FORMULARY",
+      "requiredOwnerFields": [
+        "entrance",
+        "communion"
+      ]
+    },
+    "hc071": {
+      "name": "Omša o svätých ženách 1.",
+      "scope": "COMMON_FORMULARY",
+      "communion": {
+        "citation": "(Porov. Mt 13, 45 – 46)",
+        "text": {
+          "html": "Nebeské kráľovstvo sa podobá kupcovi, ktorý hľadá vzácne perly. Keď nájde veľmi cennú perlu, ide, predá všetko, čo má, a kúpi ju <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc072": {
+      "name": "Omša o svätých ženách 2.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Prís 14, 1 – 2)",
+        "text": {
+          "html": "Hľa, múdra žena, ktorá si usporiadala dom; bála sa Pána a kráčala správnou cestou <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 12, 50)",
+        "text": {
+          "html": "Každý, kto plní vôľu môjho Otca, ktorý je na nebesiach, je môj brat i sestra, i matka, hovorí Pán <font color='#A32626'>(V.O.</font> aleluja<font color='#A32626'>)</font>."
+        }
+      }
+    },
+    "hc073": {
+      "name": "Za odpustenie hriechov 1.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Mud 11, 23. 24. 26)",
+        "text": {
+          "html": "Pane, zmilúvaš sa nad všetkými a nepohŕdaš ničím, čo si vytvoril. Prehliadaš hriechy ľudí, aby sa kajali, a šetríš ich, lebo ty si Pán, náš Boh."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 15, 10)",
+        "text": {
+          "html": "Boží anjeli majú radosť z jedného hriešnika, ktorý robí pokánie."
+        }
+      }
+    },
+    "hc074": {
+      "name": "Za odpustenie hriechov 2.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Mud 11, 23. 24. 26)",
+        "text": {
+          "html": "Pane, zmilúvaš sa nad všetkými a nepohŕdaš ničím, čo si vytvoril. Prehliadaš hriechy ľudí, aby sa kajali, a šetríš ich, lebo ty si Pán, náš Boh."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 15, 10)",
+        "text": {
+          "html": "Boží anjeli majú radosť z jedného hriešnika, ktorý robí pokánie."
+        }
+      }
+    },
+    "hc075": {
+      "name": "Za dar lásky",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Ez 36, 26 – 28)",
+        "text": {
+          "html": "Pán hovorí: Odstránim z vášho tela srdce kamenné a dám vám srdce z mäsa. Vložím do vás svojho ducha a budete mojím ľudom a ja budem vaším Bohom."
+        }
+      },
+      "communion": {
+        "citation": "(1 Kor 13, 13)",
+        "text": {
+          "html": "Teraz ostáva viera, nádej, láska, tieto tri, no najväčšia z nich je láska."
+        }
+      }
+    },
+    "hc076": {
+      "name": "Za jednotu kresťanov 1.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Jn 10, 14 – 15)",
+        "text": {
+          "html": "Ja som dobrý pastier, poznám svoje ovce a moje poznajú mňa, hovorí Pán. Ako mňa pozná Otec a ja poznám Otca; aj svoj život položím za ovce."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. 1 Kor 10, 17)",
+        "text": {
+          "html": "Jeden je chlieb a my mnohí sme jedno telo, všetci, čo máme podiel na jednom chlebe a na jednom kalichu."
+        }
+      }
+    },
+    "hc077": {
+      "name": "Za jednotu kresťanov 2.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Ž 106, 47)",
+        "text": {
+          "html": "Zachráň nás, Pane, Bože náš, a zhromaždi nás z krajín pohanských, aby sme mohli tvoje sväté meno velebiť a tvojou slávou sa honosiť."
+        }
+      },
+      "communion": {
+        "citation": "(Kol 3, 14 – 15)",
+        "text": {
+          "html": "Nadovšetko majte lásku, ktorá je zväzkom dokonalosti. A vo vašich srdciach nech vládne Kristov pokoj. Preň ste aj povolaní v jednom tele."
+        }
+      }
+    },
+    "hc078": {
+      "name": "Za jednotu kresťanov 3.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Ef 4, 4 – 6)",
+        "text": {
+          "html": "Jedno je telo a jeden Duch, ako ste aj povolaní v jednej nádeji svojho povolania. Jeden je Pán, jedna viera, jeden krst. Jeden je Boh a Otec všetkých, ktorý je nad všetkými, preniká všetkých a je vo všetkých."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 17, 21. 23)",
+        "text": {
+          "html": "Aby všetci boli jedno, ako ty, Otče, vo mne a ja v tebe, aby aj oni boli v nás jedno. Ja v nich a ty vo mne, nech sú tak dokonale jedno."
+        }
+      }
+    },
+    "hc079": {
+      "name": "Za povolanie na kňazský stav",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Mt 9, 38)",
+        "text": {
+          "html": "Proste Pána žatvy, aby poslal robotníkov na svoju žatvu, hovorí Ježiš svojim učeníkom."
+        }
+      },
+      "communion": {
+        "citation": "(1 Jn 3, 16)",
+        "text": {
+          "html": "Čo je láska, poznali sme z toho, že on položil za nás svoj život. Aj my sme povinní dávať život za bratov."
+        }
+      }
+    },
+    "hc080": {
+      "name": "Za rehoľné povolania",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Mt 19, 21)",
+        "text": {
+          "html": "Ak chceš byť dokonalý, choď, predaj čo máš, a rozdaj chudobným; potom príď a nasleduj ma, hovorí Pán."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Mt 19, 27 – 29)",
+        "text": {
+          "html": "Veru, hovorím vám, že vy, čo ste opustili všetko a nasledovali ste ma, stonásobne viac dostanete a dosiahnete večný život, hovorí Pán."
+        }
+      }
+    },
+    "hc081": {
+      "name": "Na poďakovanie Pánu Bohu 1.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Ef 5, 19 – 20)",
+        "text": {
+          "html": "Vo svojich srdciach spievajte Pánovi a oslavujte ho. Ustavične vzdávajte vďaky za všetko Bohu a Otcovi v mene nášho Pána Ježiša Krista."
+        }
+      }
+    },
+    "hc082": {
+      "name": "Na poďakovanie Pánu Bohu 2.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Ef 5, 19 – 20)",
+        "text": {
+          "html": "Vo svojich srdciach spievajte Pánovi a oslavujte ho. Ustavične vzdávajte vďaky za všetko Bohu a Otcovi v mene nášho Pána Ježiša Krista."
+        }
+      }
+    },
+    "hc083": {
+      "name": "Na poďakovanie za úrodu",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Ž 67, 7)",
+        "text": {
+          "html": "Zem vydala svoj plod; nech nás požehná Boh, náš Boh."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 104, 13 – 15)",
+        "text": {
+          "html": "Pane, plodmi svojich diel sýtiš zem. Zo zeme vyvádzaš chlieb i víno, čo obveseľuje srdce človeka."
+        }
+      }
+    },
+    "hc084": {
+      "name": "Za zachovanie pokoja a spravodlivosti 1.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Sir 36, 18 – 19)",
+        "text": {
+          "html": "Daruj, Pane, pokoj tým, čo sa spoliehajú na teba, vypočuj prosby svojich služobníkov a veď nás na cestu spravodlivosti."
+        }
+      }
+    },
+    "hc085": {
+      "name": "Za zachovanie pokoja a spravodlivosti 2.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Sir 36, 18 – 19)",
+        "text": {
+          "html": "Daruj, Pane, pokoj tým, čo sa spoliehajú na teba, vypočuj prosby svojich služobníkov a veď nás na cestu spravodlivosti."
+        }
+      }
+    },
+    "hc086": {
+      "name": "Za upevnenie rodín",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Ef 6, 2 – 3)",
+        "text": {
+          "html": "Cti svojho otca i matku, to je prvé prikázanie s prisľúbením: Aby ti dobre bolo a aby si dlho žil na zemi."
+        }
+      },
+      "communion": {
+        "citation": "(Iz 49, 15)",
+        "text": {
+          "html": "Môže matka zabudnúť na svoje nemluvňa? A keby aj ona zabudla, ja na teba nezabudnem, hovorí Pán."
+        }
+      }
+    },
+    "hc087": {
+      "name": "V čase sejby 1.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Ž 90, 17)",
+        "text": {
+          "html": "Nech je nad nami tvoja dobrotivosť, Pane, a upevňuj dielo našich rúk."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 85, 13)",
+        "text": {
+          "html": "Veď Pán dá požehnanie a svoje plody vydá naša zem."
+        }
+      }
+    },
+    "hc088": {
+      "name": "V čase sejby 2.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Ž 90, 17)",
+        "text": {
+          "html": "Nech je nad nami tvoja dobrotivosť, Pane, a upevňuj dielo našich rúk."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 85, 13)",
+        "text": {
+          "html": "Veď Pán dá požehnanie a svoje plody vydá naša zem."
+        }
+      }
+    },
+    "hc089": {
+      "name": "Za zmierenie",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Ja som spása ľudu, hovorí Pán. V akejkoľvek ťažkosti bude ku mne volať, vypočujem ho a budem jeho Pánom naveky."
+        }
+      }
+    },
+    "hc090": {
+      "name": "V čase vojny a občianskych nepokojov",
+      "scope": "COMMON_FORMULARY",
+      "communion": {
+        "citation": "(Jn 14, 27)",
+        "text": {
+          "html": "Pokoj vám zanechávam, svoj pokoj vám dávam, hovorí Pán. Ale ja vám nedávam, ako svet dáva. Nech sa vám srdce nevzrušuje a nestrachuje."
+        }
+      }
+    },
+    "hc091": {
+      "name": "Za svornosť",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Sk 4, 32 – 33)",
+        "text": {
+          "html": "Množstvo veriacich malo jedno srdce a jednu dušu. Apoštoli s veľkou silou vydávali svedectvo o zmŕtvychvstaní Pána Ježiša a všetci sa tešili veľkej obľube, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 17, 20 – 21)",
+        "text": {
+          "html": "Otče, prosím ťa aj za tých, čo uveria vo mňa, aby aj oni boli v nás jedno, aby svet uveril, že si ma ty poslal, hovorí Pán."
+        }
+      }
+    },
+    "hc092": {
+      "name": "O tajomstve svätého kríža",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Gal 6, 14)",
+        "text": {
+          "html": "My sa máme chváliť krížom nášho Pána Ježiša Krista, v ktorom je spása, život a naše vzkriesenie; on nás oslobodil a spasil."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 12, 32)",
+        "text": {
+          "html": "Ja, až budem vyzdvihnutý od zeme, všetkých pritiahnem k sebe, hovorí Pán."
+        }
+      }
+    },
+    "hc093": {
+      "name": "O najsvätejšej eucharistii",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Ž 78, 23 – 25)",
+        "text": {
+          "html": "Pán otvoril brány nebies; a pršala im manna za pokrm a dal im chlieb z neba. Človek jedol chlieb anjelský."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 6, 51 – 52)",
+        "text": {
+          "html": "Ja som živý chlieb, ktorý zostúpil z neba, hovorí Pán. Kto bude jesť z tohto chleba, bude žiť naveky. A chlieb, ktorý ja dám, je moje telo za život sveta."
+        }
+      }
+    },
+    "hc094": {
+      "name": "O predrahej krvi nášho Pána Ježiša Krista",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Zjv 5, 9 – 10)",
+        "text": {
+          "html": "Vykúpil si nás, Pane, svojou krvou z každého kmeňa, jazyka, ľudu a národa a urobil si nás kráľovstvom nášmu Bohu."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. 1 Kor 10, 16)",
+        "text": {
+          "html": "Kalich dobrorečenia, ktorému dobrorečíme, je účasťou na Kristovej Krvi; a chlieb, ktorý lámeme, je účasťou na Kristovom Tele."
+        }
+      }
+    },
+    "hc095": {
+      "name": "Vo výročný deň smrti alebo pohrebu 1. (mimo veľkonočného obdobia)",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Zjv 21, 4)",
+        "text": {
+          "html": "Boh im zotrie z očí každú slzu a už nebude smrti ani žiaľu; ani náreku, ani bolesti viac nebude, lebo prvé sa pominulo."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 11, 25; 3, 36; 5, 24)",
+        "text": {
+          "html": "Ja som vzkriesenie a život, hovorí Pán. Kto verí vo mňa, má večný život a nepôjde na súd, ale prešiel zo smrti do života."
+        }
+      }
+    },
+    "hc096": {
+      "name": "Vo výročný deň smrti alebo pohrebu 2. (mimo veľkonočného obdobia)",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Pane Ježišu, daj večné odpočinutie tým, za ktorých si vylial svoju drahocennú krv."
+        }
+      },
+      "communion": {
+        "citation": "",
+        "text": {
+          "html": "Pane, ty si odpočinkom po práci a životom aj po smrti: daj našim zosnulým večné odpočinutie."
+        }
+      }
+    },
+    "hc097": {
+      "name": "Vo výročný deň smrti alebo pohrebu (vo veľkonočnom období)",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Rim 8, 11)",
+        "text": {
+          "html": "Boh, ktorý vzkriesil Ježiša z mŕtvych, oživí aj naše smrteľné telá skrze svojho Ducha, ktorý v nás prebýva, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 6, 51 – 52)",
+        "text": {
+          "html": "Ja som živý chlieb, ktorý zostúpil z neba, hovorí Pán. Kto bude jesť z tohto chleba, bude žiť naveky. A chlieb, ktorý ja dám, je moje telo za život sveta, aleluja."
+        }
+      }
+    },
+    "hc098": {
+      "name": "Iné modlitby na výročie smrti alebo pohrebu",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Zjv 21, 4)",
+        "text": {
+          "html": "Boh im zotrie z očí každú slzu a už nebude smrti ani žiaľu; ani náreku, ani bolesti viac nebude, lebo prvé sa pominulo."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 11, 25; 3, 36; 5, 24)",
+        "text": {
+          "html": "Ja som vzkriesenie a život, hovorí Pán. Kto verí vo mňa, má večný život a nepôjde na súd, ale prešiel zo smrti do života."
+        }
+      }
+    },
+    "hc099": {
+      "name": "Iné modlitby na výročie smrti alebo pohrebu",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Zjv 21, 4)",
+        "text": {
+          "html": "Boh im zotrie z očí každú slzu a už nebude smrti ani žiaľu; ani náreku, ani bolesti viac nebude, lebo prvé sa pominulo."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 11, 25; 3, 36; 5, 24)",
+        "text": {
+          "html": "Ja som vzkriesenie a život, hovorí Pán. Kto verí vo mňa, má večný život a nepôjde na súd, ale prešiel zo smrti do života."
+        }
+      }
+    },
+    "hc100": {
+      "name": "Pri rozličných spomienkach za jedného zosnulého 1.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Kiež mu <font color='#A32626'>(</font>jej<font color='#A32626'>)</font> Pán otvorí bránu raja, aby sa vrátil<font color='#A32626'>(</font>a<font color='#A32626'>)</font> do vlasti, kde už niet smrti, ale len večná radosť."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 6, 37)",
+        "text": {
+          "html": "Všetko, čo mi dáva Otec, príde ku mne, hovorí Pán. A toho, kto prichádza ku mne, neodoženiem."
+        }
+      }
+    },
+    "hc101": {
+      "name": "Pri rozličných spomienkach za jedného zosnulého 2.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Jób 19, 25. 26)",
+        "text": {
+          "html": "Viem, že môj Vykupiteľ žije a v posledný deň vstanem z prachu zeme, a zo svojho tela budem vidieť Boha."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 6, 50)",
+        "text": {
+          "html": "Toto je chlieb, ktorý zostupuje z neba, hovorí Pán; kto bude z neho jesť, neumrie naveky."
+        }
+      }
+    },
+    "hc102": {
+      "name": "Pri rozličných spomienkach za jedného zosnulého 3.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Kiež mu <font color='#A32626'>(</font>jej<font color='#A32626'>)</font> Pán otvorí bránu raja, aby sa vrátil<font color='#A32626'>(</font>a<font color='#A32626'>)</font> do vlasti, kde už niet smrti, ale len večná radosť."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 6, 37)",
+        "text": {
+          "html": "Všetko, čo mi dáva Otec, príde ku mne, hovorí Pán. A toho, kto prichádza ku mne, neodoženiem."
+        }
+      }
+    },
+    "hc103": {
+      "name": "Pri rozličných spomienkach za jedného zosnulého 4.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Kiež mu <font color='#A32626'>(</font>jej<font color='#A32626'>)</font> Pán otvorí bránu raja, aby sa vrátil<font color='#A32626'>(</font>a<font color='#A32626'>)</font> do vlasti, kde už niet smrti, ale len večná radosť."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 6, 37)",
+        "text": {
+          "html": "Všetko, čo mi dáva Otec, príde ku mne, hovorí Pán. A toho, kto prichádza ku mne, neodoženiem."
+        }
+      }
+    },
+    "hc104": {
+      "name": "Pri rozličných spomienkach za jedného zosnulého 5.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Kiež mu <font color='#A32626'>(</font>jej<font color='#A32626'>)</font> Pán otvorí bránu raja, aby sa vrátil<font color='#A32626'>(</font>a<font color='#A32626'>)</font> do vlasti, kde už niet smrti, ale len večná radosť."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 6, 37)",
+        "text": {
+          "html": "Všetko, čo mi dáva Otec, príde ku mne, hovorí Pán. A toho, kto prichádza ku mne, neodoženiem."
+        }
+      }
+    },
+    "hc105": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 1.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Odpočinutie večné daj im, Pane, a ožiar ich duše svojím svetlom."
+        }
+      },
+      "communion": {
+        "citation": "(1 Jn 4, 9)",
+        "text": {
+          "html": "Boh poslal svojho jednorodeného Syna na svet, aby sme skrze neho mali život."
+        }
+      }
+    },
+    "hc106": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 2.",
+      "scope": "COMMON_FORMULARY",
+      "communion": {
+        "citation": "(Flp 3, 20 – 21)",
+        "text": {
+          "html": "Očakávame nášho Spasiteľa, Pána Ježiša Krista; on pretvorí naše úbohé telo, aby sa stalo podobným jeho oslávenému telu."
+        }
+      }
+    },
+    "hc107": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 3.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Zjv 14, 13)",
+        "text": {
+          "html": "Blahoslavení sú mŕtvi, ktorí umierajú v Pánovi; nech si odpočinú od svojich námah; veď ich skutky idú s nimi."
+        }
+      },
+      "communion": {
+        "citation": "",
+        "text": {
+          "html": "Pane, daj večné odpočinutie tým, na ktorých si spomíname, keď prijímame Kristovo Telo a Krv."
+        }
+      }
+    },
+    "hc108": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 4.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Ž 31, 2)",
+        "text": {
+          "html": "V teba, Pane, som dúfal, nebudem zahanbený naveky; vo svojej spravodlivosti ma vysloboď."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 8, 12)",
+        "text": {
+          "html": "Ja som svetlo sveta, hovorí Pán; kto ma nasleduje nebude kráčať vo tme, ale bude mať svetlo života."
+        }
+      }
+    },
+    "hc109": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 5.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Porov. Ž 105, 3 – 4)",
+        "text": {
+          "html": "Nech sa radujú srdcia tých, čo hľadajú Pána; hľadajte Pána a jeho moc, hľadajte vždy jeho tvár."
+        }
+      }
+    },
+    "hc110": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 6.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "(Ž 84, 10 – 11)",
+        "text": {
+          "html": "Bože, náš ochranca, pohliadni a pozri na tvár svojho Pomazaného; jeden deň v tvojich nádvoriach je lepší než iných tisíce."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 42, 2 – 3)",
+        "text": {
+          "html": "Ako jeleň dychtí za vodou z prameňa, tak moja duša, Bože, túži za tebou, po Bohu žízni moja duša, po Bohu živom."
+        }
+      }
+    },
+    "hc111": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 7.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Odpočinutie večné daj im, Pane, a ožiar ich duše svojím svetlom."
+        }
+      },
+      "communion": {
+        "citation": "(1 Jn 4, 9)",
+        "text": {
+          "html": "Boh poslal svojho jednorodeného Syna na svet, aby sme skrze neho mali život."
+        }
+      }
+    },
+    "hc112": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 8.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Odpočinutie večné daj im, Pane, a ožiar ich duše svojím svetlom."
+        }
+      },
+      "communion": {
+        "citation": "(1 Jn 4, 9)",
+        "text": {
+          "html": "Boh poslal svojho jednorodeného Syna na svet, aby sme skrze neho mali život."
+        }
+      }
+    },
+    "hc113": {
+      "name": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 9.",
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Odpočinutie večné daj im, Pane, a ožiar ich duše svojím svetlom."
+        }
+      },
+      "communion": {
+        "citation": "(1 Jn 4, 9)",
+        "text": {
+          "html": "Boh poslal svojho jednorodeného Syna na svet, aby sme skrze neho mali život."
+        }
+      }
+    },
+    "hc114": {
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Kiež mu <font color='#A32626'>(</font>jej<font color='#A32626'>)</font> Pán otvorí bránu raja, aby sa vrátil<font color='#A32626'>(</font>a<font color='#A32626'>)</font> do vlasti, kde už niet smrti, ale len večná radosť."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 6, 37)",
+        "text": {
+          "html": "Všetko, čo mi dáva Otec, príde ku mne, hovorí Pán. A toho, kto prichádza ku mne, neodoženiem."
+        }
+      }
+    },
+    "hc115": {
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Odpočinutie večné daj im, Pane, a ožiar ich duše svojím svetlom."
+        }
+      },
+      "communion": {
+        "citation": "(1 Jn 4, 9)",
+        "text": {
+          "html": "Boh poslal svojho jednorodeného Syna na svet, aby sme skrze neho mali život."
+        }
+      }
+    },
+    "hc116": {
+      "scope": "COMMON_FORMULARY",
+      "entrance": {
+        "citation": "Iz 53, 4",
+        "text": {
+          "html": "On niesol naše neduhy,<br>vzal na seba naše bolesti."
+        }
+      },
+      "communion": {
+        "citation": "Mt 11, 28",
+        "text": {
+          "html": "Poďte ku mne všetci, ktorí sa namáhate<br>a ste preťažení, a ja vás posilním."
+        }
+      }
+    },
+    "hs001": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Na vznešenom tróne videl som sedieť muža, ktorému sa klaňajú zástupy anjelov a spoločne mu spievajú: Hľa, to je ten, ktorého kráľovstvo je večné."
+        }
+      }
+    },
+    "hs002": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 66, 4)",
+        "text": {
+          "html": "Nech sa ti, Bože, klania celá zem a nech ti spieva; nech ospevuje tvoje meno, Najvyšší."
+        }
+      }
+    },
+    "hs003": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 96, 1. 6)",
+        "text": {
+          "html": "Spievajte Pánovi pieseň novú, spievaj Pánovi, celá zem! Vznešenosť a krása pred jeho tvárou, moc a veleba v jeho svätyni."
+        }
+      }
+    },
+    "hs004": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 106, 47)",
+        "text": {
+          "html": "Zachráň nás, Pane, Bože náš, a zhromaždi nás z krajín pohanských, aby sme mohli tvoje sväté meno velebiť a tvojou slávou sa honosiť."
+        }
+      }
+    },
+    "hs005": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 95, 6 – 7)",
+        "text": {
+          "html": "Poďte, klaňajme sa Bohu, kľaknime na kolená pred Pánom, ktorý nás stvoril, lebo on je náš Pán a Boh."
+        }
+      }
+    },
+    "hs006": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 31, 3 – 4)",
+        "text": {
+          "html": "Bože, buď mi skalou útočišťa, opevneným hradom mojej spásy. Veď ty si moja sila a moje útočište, pre svoje meno budeš ma viesť a opatrovať."
+        }
+      }
+    },
+    "hs007": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 13, 6)",
+        "text": {
+          "html": "Pane, ja dúfam v tvoje milosrdenstvo, moje srdce sa teší z tvojej pomoci. Budem spievať Pánovi, že ma zahŕňa dobrodeniami."
+        }
+      }
+    },
+    "hs008": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 18, 19 – 20)",
+        "text": {
+          "html": "Pán mi bol podperou, vyviedol ma na miesto priestranné, zachránil ma, lebo si ma obľúbil."
+        }
+      }
+    },
+    "hs009": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 25, 16. 18)",
+        "text": {
+          "html": "Pozriže na mňa a zmiluj sa nado mnou, Pane, lebo som sám a úbohý. Pozri na moju biedu a na moje trápenie a odpusť mi všetky priestupky."
+        }
+      }
+    },
+    "hs010": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 27, 1 – 2)",
+        "text": {
+          "html": "Pán je moje svetlo a moja spása, koho sa mám báť? Pán je ochranca môjho života, pred kým sa mám strachovať? Moji utláčatelia a nepriatelia strácajú silu a padajú."
+        }
+      }
+    },
+    "hs011": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 27, 7. 9)",
+        "text": {
+          "html": "Čuj, Pane, hlas môjho volania. Ty si moja pomoc, neodvrhuj ma, ani ma neopúšťaj, Bože, moja spása."
+        }
+      },
+      "requiredOwnerFields": [
+        "communion"
+      ]
+    },
+    "hs012": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 28, 8 – 9)",
+        "text": {
+          "html": "Pán je sila svojho ľudu a útočište spásy pre svojho Pomazaného. Spas svoj ľud a požehnaj svojich dedičov a spravuj ich a dvíhaj ich až naveky."
+        }
+      },
+      "requiredOwnerFields": [
+        "communion"
+      ]
+    },
+    "hs013": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 47, 2)",
+        "text": {
+          "html": "Tlieskajte rukami, všetky národy, jasajte Bohu hlasom radostným."
+        }
+      },
+      "requiredOwnerFields": [
+        "communion"
+      ]
+    },
+    "hs014": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 48, 10 – 11)",
+        "text": {
+          "html": "Spomíname, Bože, na tvoje milosrdenstvo uprostred tvojho chrámu. Ako tvoje meno, Bože, tak aj tvoja sláva šíri sa až do končín zeme; tvoja pravica je plná spravodlivosti."
+        }
+      },
+      "requiredOwnerFields": [
+        "communion"
+      ]
+    },
+    "hs015": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 17, 15)",
+        "text": {
+          "html": "Ja však v spravodlivosti uzriem tvoju tvár a až raz vstanem zo sna, nasýtim sa pohľadom na teba."
+        }
+      }
+    },
+    "hs016": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 54, 6. 8)",
+        "text": {
+          "html": "Mne Boh pomáha a môj život udržiava Pán. S radosťou ti prinesiem obetu; meno tvoje, Pane, budem velebiť, lebo si dobrý."
+        }
+      }
+    },
+    "hs017": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 68, 6 – 7. 36)",
+        "text": {
+          "html": "Boh prebýva vo svojom svätom príbytku; Boh, čo opusteným dáva prebývať v domoch, on sám dáva silu i statočnosť svojmu ľudu."
+        }
+      }
+    },
+    "hs018": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 70, 2. 6)",
+        "text": {
+          "html": "Bože, príď mi na pomoc, Pane, ponáhľaj sa mi pomáhať. Ty si moja pomoc a môj osloboditeľ, Pane, nemeškaj."
+        }
+      }
+    },
+    "hs019": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 74, 20. 19. 22. 23)",
+        "text": {
+          "html": "Zhliadni, Pane, na svoju zmluvu a nezabúdaj nikdy na svojich úbožiakov. Vstaň, Bože, a ujmi sa svojej veci, nezabúdaj na volanie tých, čo ťa hľadajú."
+        }
+      }
+    },
+    "hs020": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 84, 10 – 11)",
+        "text": {
+          "html": "Bože, náš ochranca, pohliadni a pozri na tvár svojho Pomazaného. Jeden deň v tvojich nádvoriach je lepší než iných tisíce."
+        }
+      }
+    },
+    "hs021": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 86, 1 – 3)",
+        "text": {
+          "html": "Nakloň, Pane, svoj sluch a vyslyš ma; zachráň, Bože, svojho sluhu, ktorý dúfa v teba. Zmiluj sa, Pane, nado mnou, veď k tebe volám deň čo deň."
+        }
+      }
+    },
+    "hs022": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 86, 3. 5)",
+        "text": {
+          "html": "Zmiluj sa Pane, nado mnou, veď k tebe volám deň čo deň; lebo ty, Pane, si dobrý a láskavý a veľmi milostivý voči všetkým, čo ťa vzývajú."
+        }
+      }
+    },
+    "hs023": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 119, 137. 124)",
+        "text": {
+          "html": "Pane, ty si spravodlivý a správne sú tvoje rozsudky; nalož so svojím služobníkom podľa svojho milosrdenstva."
+        }
+      }
+    },
+    "hs024": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Sir 36, 18)",
+        "text": {
+          "html": "Daruj, Pane, pokoj tým, čo sa spoliehajú na teba, aby sa ukázalo, že tvoji proroci sú hodnoverní; vypočuj prosby svojho služobníka a svojho ľudu, Izraela."
+        }
+      }
+    },
+    "hs025": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Ja som spása ľudu, hovorí Pán. V akomkoľvek súžení ma budú vzývať, vyslyším ich a budem ich Pánom naveky."
+        }
+      }
+    },
+    "hs026": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Dan 3, 31. 29. 30. 43. 42)",
+        "text": {
+          "html": "Všetko, čo si nám urobil, Pane, spravodlivo si urobil, lebo sme zhrešili proti tebe a nezachovávali sme tvoje prikázania. Ale osláv svoje meno a zaobchádzaj s nami podľa svojho nesmierneho milosrdenstva."
+        }
+      }
+    },
+    "hs027": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Est 4, 17)",
+        "text": {
+          "html": "Pane, všetko je v tvojej moci a nik nemôže odporovať tvojej vôli. Veď ty si stvoril všetko, nebo i zem, aj všetko, čo je pod nebom; ty si Pán všetkého."
+        }
+      }
+    },
+    "hs028": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 130, 3 – 4)",
+        "text": {
+          "html": "Ak si budeš, Pane, v pamäti uchovávať neprávosť, Pane, kto obstojí? Ale ty si milostivý, Bože Izraela."
+        }
+      }
+    },
+    "hs029": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 17, 6. 8)",
+        "text": {
+          "html": "K tebe, Bože, volám, lebo ty ma vyslyšíš. Nakloň ku mne sluch a vypočuj moje slová. Chráň ma, Pane, ako zrenicu oka, skry ma v tôni svojich perutí."
+        }
+      }
+    },
+    "hs030": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 105, 3 – 4)",
+        "text": {
+          "html": "Nech sa radujú srdcia tých, čo hľadajú Pána. Hľadajte Pána a jeho moc, hľadajte vždy jeho tvár."
+        }
+      }
+    },
+    "hs031": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 38, 22 – 23)",
+        "text": {
+          "html": "Neopúšťaj ma, Pane, Bože môj, a nevzďaľuj sa odo mňa. Ponáhľaj sa mi na pomoc, Pane, moja spása."
+        }
+      }
+    },
+    "hs032": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 88, 3)",
+        "text": {
+          "html": "Kiež prenikne k tebe moja modlitba, nakloň svoj sluch k mojej prosbe, Pane."
+        }
+      }
+    },
+    "hs033": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Jer 29, 11. 12. 14)",
+        "text": {
+          "html": "Pán hovorí: Môj zámer s vami sú myšlienky pokoja a nie súženia; budete ma vzývať a ja vás vyslyším a privediem vás naspäť zo všetkých miest vášho zajatia."
+        }
+      }
+    },
+    "hs034": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 85, 9)",
+        "text": {
+          "html": "Pán ohlási pokoj svojmu ľudu a svojim svätým i tým, čo sa k nemu obracajú úprimne."
+        }
+      }
+    },
+    "hs035": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Múd 11, 24. 25. 27)",
+        "text": {
+          "html": "Pane, zmilúvaš sa nad všetkými a nepohŕdaš ničím, čo si stvoril; zatváraš oči nad hriechmi ľudí, aby sa kajali, a si k nim láskavý, lebo si Boh a náš Pán."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 1, 2 – 3)",
+        "text": {
+          "html": "Kto o zákone Pánovom rozjíma dňom i nocou, prináša ovocie v pravý čas."
+        }
+      }
+    },
+    "hs036": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 55, 17 – 20. 23)",
+        "text": {
+          "html": "Volal som k Pánovi, a vypočul môj hlas. Vyslobodil ma z moci tých, čo na mňa útočia. Zlož svoju starosť na Pána a on ťa zachová."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 51, 12)",
+        "text": {
+          "html": "Bože, stvor vo mne srdce čisté a v mojom vnútri obnov ducha pevného."
+        }
+      }
+    },
+    "hs037": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 30, 11)",
+        "text": {
+          "html": "Čuj, Pane, a zmiluj sa nado mnou; Pane, buď mi na pomoci."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 25, 4)",
+        "text": {
+          "html": "Ukáž nám, Pane, svoje cesty a pouč nás o svojich chodníkoch."
+        }
+      }
+    },
+    "hs038": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 69, 17)",
+        "text": {
+          "html": "Vyslyš nás, Pane, veď si dobrotivý a láskavý; pre svoje veľké milosrdenstvo pohliadni na nás."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 9, 13)",
+        "text": {
+          "html": "Milosrdenstvo chcem, a nie obetu, hovorí Pán. Neprišiel som volať spravodlivých, ale hriešnikov."
+        }
+      }
+    },
+    "hs039": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 91, 15 – 16)",
+        "text": {
+          "html": "Keď ku mne zavolá, ja ho vyslyším, zachránim ho i oslávim. Obdarím ho dlhým životom."
+        }
+      },
+      "requiredOwnerFields": [
+        "communion"
+      ]
+    },
+    "hs040": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 123, 2 – 3)",
+        "text": {
+          "html": "Ako oči sluhov hľadia na ruky svojich pánov, tak hľadia naše oči na Pána, nášho Boha, kým sa nezmiluje nad nami. Zmiluj sa, Pane, nad nami, zmiluj sa nad nami."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 25, 40. 34)",
+        "text": {
+          "html": "Veru, hovorím vám, čokoľvek ste urobili jednému z mojich najmenších, mne ste urobili, hovorí Pán. Poďte, požehnaní môjho Otca, zaujmite kráľovstvo, ktoré je pre vás pripravené od stvorenia sveta."
+        }
+      }
+    },
+    "hs041": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 90, 1 – 2)",
+        "text": {
+          "html": "Pane, stal si sa nám útočišťom z pokolenia na pokolenie; ty si od vekov až na veky."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 4, 2)",
+        "text": {
+          "html": "Bože, spravodlivosť moja, ty si ma vyslyšal, keď som volal o pomoc; v súžení si mi uľavil. Zmiluj sa nado mnou, Pane, a vyslyš moju modlitbu."
+        }
+      }
+    },
+    "hs042": {
+      "scope": "SEASONAL",
+      "communion": {
+        "citation": "(Porov. Ž 5, 12)",
+        "text": {
+          "html": "Nech sa tešia všetci, čo majú dôveru v teba, Pane, a naveky nech jasajú, lebo si s nimi."
+        }
+      }
+    },
+    "hs043": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 5, 2 – 3)",
+        "text": {
+          "html": "Pane, počuj moje slová, všimni si moje vzdychanie. Pozoruj moju hlasitú prosbu, môj Kráľ a môj Boh."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 7, 8)",
+        "text": {
+          "html": "Každý, kto prosí, dostane, a kto hľadá, nájde, a kto klope, tomu otvoria."
+        }
+      }
+    },
+    "hs044": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 25, 17 – 18)",
+        "text": {
+          "html": "Vytrhni ma, Pane, z mojich tiesní. Pozri na moju pokoru a na moje trápenie a odpusť mi všetky priestupky."
+        }
+      },
+      "communion": {
+        "citation": "(Ez 33, 11)",
+        "text": {
+          "html": "Ako žijem, hovorí Pán, nechcem smrť hriešnika, ale aby sa obrátil a žil."
+        }
+      }
+    },
+    "hs045": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 19, 8)",
+        "text": {
+          "html": "Zákon Pánov je dokonalý, osviežuje dušu; svedectvo Pánovo je hodnoverné, dáva múdrosť maličkým."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 5, 48)",
+        "text": {
+          "html": "Buďte dokonalí, ako je dokonalý váš nebeský Otec, hovorí Pán."
+        }
+      }
+    },
+    "hs046": {
+      "scope": "SEASONAL",
+      "communion": {
+        "citation": "(Mt 17, 5) ",
+        "text": {
+          "html": "Toto je môj milovaný Syn, v ktorom mám zaľúbenie, počúvajte ho."
+        }
+      }
+    },
+    "hs047": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 26, 11 – 12)",
+        "text": {
+          "html": "Vykúp ma, Pane, a buď mi milostivý. Moja noha stojí na rovnej ceste; v zhromaždeniach chcem velebiť Pána."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 6, 36)",
+        "text": {
+          "html": "Buďte milosrdní, ako je milosrdný váš Otec, hovorí Pán."
+        }
+      }
+    },
+    "hs048": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 13, 4 – 5)",
+        "text": {
+          "html": "Daj svetlo mojim očiam, aby som v smrti nezaspal, aby nemohol povedať môj nepriateľ: Premohol som ho."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 9, 2 – 3)",
+        "text": {
+          "html": "Vyrozprávam všetky tvoje diela zázračné, v tebe sa budem tešiť a radovať, ospevovať budem tvoje meno, Najvyšší."
+        }
+      }
+    },
+    "hs049": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 38, 22 – 23)",
+        "text": {
+          "html": "Neopúšťaj ma, Pane, Bože môj, a nevzďaľuj sa odo mňa. Ponáhľaj sa mi na pomoc, Pane, moja spása."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 20, 28)",
+        "text": {
+          "html": "Syn človeka neprišiel dať sa obsluhovať, ale slúžiť a položiť svoj život ako výkupné za mnohých."
+        }
+      }
+    },
+    "hs050": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 139, 23 – 24)",
+        "text": {
+          "html": "Skúmaj ma, Bože, a všímaj si moje cesty; pozri, či nejdem bludnou cestou, a veď ma po ceste k večnosti."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 119, 1)",
+        "text": {
+          "html": "Blažení tí, čo idú cestou života bez poškvrny, čo kráčajú podľa zákona Pánovho."
+        }
+      }
+    },
+    "hs051": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 31, 2. 5)",
+        "text": {
+          "html": "Pane, v teba dúfam, nech nie som zahanbený naveky, vyvedieš ma z osídla, čo mi nastrojili, lebo ty si moja sila."
+        }
+      },
+      "communion": {
+        "citation": "(1 Jn 4, 10)",
+        "text": {
+          "html": "Boh nás miloval a poslal svojho Syna ako zmiernu obetu za naše hriechy."
+        }
+      }
+    },
+    "hs052": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 145, 8 – 9)",
+        "text": {
+          "html": "Milostivý a milosrdný je Pán, zhovievavý a veľmi láskavý. Dobrý je Pán ku každému a milostivý k všetkým svojim stvoreniam."
+        }
+      }
+    },
+    "hs053": {
+      "scope": "SEASONAL",
+      "communion": {
+        "gospelChoices": [
+          {
+            "whenGospel": "SAMARITAN_WOMAN",
+            "label": "Ak sa číta evanjelium o Samaritánke:<br>",
+            "chantId": "ct163"
+          },
+          {
+            "whenGospel": "OTHER",
+            "label": "Ak sa číta iné evanjelium:<br>(Porov. Ž 84, 4 – 5)<br>",
+            "chantId": "ct164"
+          }
+        ]
+      }
+    },
+    "hs054": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 84, 3)",
+        "text": {
+          "html": "Túži a zmiera moja duša po nádvoriach Pánových. Moje srdce i moje telo vznášajú sa k Bohu živému."
+        }
+      }
+    },
+    "hs055": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 17, 6. 8)",
+        "text": {
+          "html": "K tebe, Bože, volám, lebo ty ma vyslyšíš; nakloň ku mne sluch a vypočuj moje slová. Chráň ma, Pane, ako zrenicu oka, skry ma v tôni svojich perutí."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 15, 1 – 2)",
+        "text": {
+          "html": "Pane, kto smie bývať v tvojom stánku? Kto môže nájsť odpočinok na tvojom svätom vrchu? Ten, čo kráča bez poškvrny a koná spravodlivo."
+        }
+      }
+    },
+    "hs056": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 119, 133)",
+        "text": {
+          "html": "Riaď moje kroky podľa svojho výroku, nech ma neovláda nijaká neprávosť."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 16, 11)",
+        "text": {
+          "html": "Ukážeš mi, Pane, cestu života; u teba je plnosť radosti."
+        }
+      }
+    },
+    "hs057": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Ja som spása ľudu, hovorí Pán. V akomkoľvek súžení ma budú vzývať, vyslyším ich a budem ich Pánom naveky."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 119, 4 – 5)",
+        "text": {
+          "html": "Ty si dal príkazy, aby sa verne plnili; kiež by ma moje cesty viedli tak, žeby som zachovával tvoje ustanovenia."
+        }
+      }
+    },
+    "hs058": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 86, 8. 10)",
+        "text": {
+          "html": "Niet podobného tebe medzi bohmi, Pane, lebo si veľký a robíš zázraky; iba ty si Boh."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Mk 12, 33)",
+        "text": {
+          "html": "Milovať Boha z celého srdca a blížneho ako seba samého je viac ako všetky obety."
+        }
+      }
+    },
+    "hs059": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 103, 2 – 3)",
+        "text": {
+          "html": "Dobroreč, duša moja, Pánovi a nezabúdaj na jeho dobrodenia; veď on ti odpúšťa všetky neprávosti."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 18, 13)",
+        "text": {
+          "html": "Mýtnik stál celkom vzadu, bil sa do pŕs a hovoril: Bože, buď milostivý mne hriešnemu."
+        }
+      }
+    },
+    "hs060": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Iz 66, 10 – 11)",
+        "text": {
+          "html": "Raduj sa, Jeruzalem, zhromaždite sa všetci, čo ho milujete; radujte sa a jasajte, čo ste trúchlili, plesajte a čerpajte z bohatých zdrojov útechy."
+        }
+      },
+      "communion": {
+        "gospelChoices": [
+          {
+            "whenGospel": "BLIND_MAN",
+            "label": "Ak sa číta evanjelium o slepom od narodenia:<br>",
+            "chantId": "ct165"
+          },
+          {
+            "whenGospel": "PRODIGAL_SON",
+            "label": "Ak sa číta evanjelium o márnotratnom synovi: (Lk 15, 32)<br>",
+            "chantId": "ct166",
+            "suffix": "<br>"
+          },
+          {
+            "whenGospel": "OTHER",
+            "label": "Ak sa číta iné evanjelium: (Porov. Ž 122, 3 – 4)<br>",
+            "chantId": "ct167"
+          }
+        ]
+      }
+    },
+    "hs061": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 31, 7 – 8)",
+        "text": {
+          "html": "Ja dúfam v Pána; plesám a teším sa, že si milosrdný, lebo si zhliadol na moju poníženosť."
+        }
+      },
+      "communion": {
+        "citation": "(Ez 36, 27)",
+        "text": {
+          "html": "Vložím do vás svojho ducha a spôsobím, že budete kráčať podľa mojich príkazov, že budete zachovávať a plniť moje výroky, hovorí Pán."
+        }
+      }
+    },
+    "hs062": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Iz 55, 1)",
+        "text": {
+          "html": "Poďte k vodám všetci, čo ste smädní, hovorí Pán; nech príde aj ten, čo nemá peniaze. Poďte a pite s radosťou."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 23, 1 – 2)",
+        "text": {
+          "html": "Pán je môj pastier, nič mi nechýba: pasie ma na zelených pašienkach. Vodí ma k tichým vodám, dušu mi osviežuje."
+        }
+      }
+    },
+    "hs063": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 69, 14)",
+        "text": {
+          "html": "Ale ja, Pane, obraciam sa modlitbou k tebe v tomto čase milosti. Vypočuj ma, Bože, pre svoju veľkú dobrotu, pre svoju vernosť mi pomôž."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 3, 17)",
+        "text": {
+          "html": "Boh neposlal Syna na svet, aby svet odsúdil, ale aby sa skrze neho svet spasil."
+        }
+      }
+    },
+    "hs064": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 105, 3 – 4)",
+        "text": {
+          "html": "Nech sa radujú srdcia tých, čo hľadajú Pána. Hľadajte Pána a jeho moc, hľadajte vždy jeho tvár."
+        }
+      },
+      "communion": {
+        "citation": "(Jer 31, 33)",
+        "text": {
+          "html": "Svoj zákon vložím do ich vnútra a vpíšem ho do ich srdca; ja budem ich Bohom a oni budú mojím ľudom, hovorí Pán."
+        }
+      }
+    },
+    "hs065": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 54, 3 – 4)",
+        "text": {
+          "html": "Pane, zachráň ma pre svoje meno a svojou mocou obráň moje právo. Bože, vyslyš moju modlitbu a vypočuj slová mojich úst."
+        }
+      },
+      "communion": {
+        "citation": "(Ef 1, 7)",
+        "text": {
+          "html": "V Kristovi máme vykúpenie, skrze jeho krv, odpustenie hriechov, podľa bohatstva jeho milosti."
+        }
+      }
+    },
+    "hs066": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 18, 5 – 7)",
+        "text": {
+          "html": "Obkľúčilo ma smrtiace vlnobitie, ovinuli ma povrazy záhrobia. V úzkosti som vzýval Pána, zo svojho chrámu počul môj hlas."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. 1 Pt 1, 18 – 19)",
+        "text": {
+          "html": "Vykúpení sme drahou krvou Krista, bezúhonného a nepoškvrneného Baránka."
+        }
+      }
+    },
+    "hs067": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 43, 1 – 2)",
+        "text": {
+          "html": "Súď ma, Bože, a rozhodni môj spor s neverným ľudom; zachráň ma pred zločincom a úskočným človekom. Veď ty, Bože, si moje útočisko."
+        }
+      },
+      "communion": {
+        "gospelChoices": [
+          {
+            "whenGospel": "LAZARUS",
+            "label": "Ak sa číta evanjelium o Lazárovi: <br>",
+            "chantId": "ct168"
+          },
+          {
+            "whenGospel": "ADULTEROUS_WOMAN",
+            "label": "Ak sa číta evanjelium o cudzoložnej žene: <br>(Jn 8, 10 – 11)<br>",
+            "chantId": "ct169",
+            "suffix": " <br>"
+          },
+          {
+            "whenGospel": "OTHER",
+            "label": "Ak sa číta iné evanjelium: <br>(Jn 12, 24 – 25)<br>",
+            "chantId": "ct170"
+          }
+        ]
+      }
+    },
+    "hs068": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 56, 2)",
+        "text": {
+          "html": "Zmiluj sa nado mnou, Pane, lebo ma prenasleduje človek, každodenne ma napáda a utláča."
+        }
+      },
+      "communion": {
+        "gospelChoices": [
+          {
+            "whenGospel": "ADULTEROUS_WOMAN",
+            "label": "Ak sa číta evanjelium o cudzoložnej žene: <br>",
+            "chantId": "ct169",
+            "suffix": "<br>"
+          },
+          {
+            "whenGospel": "OTHER",
+            "label": "Ak sa číta iné evanjelium: <br>(Jn 8, 12)<br>",
+            "chantId": "ct171"
+          }
+        ]
+      }
+    },
+    "hs069": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 27, 14)",
+        "text": {
+          "html": "Očakávaj Pána a buď statočný; srdce maj silné a drž sa Pána."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 12, 32)",
+        "text": {
+          "html": "Až budem vyzdvihnutý od zeme, všetkých pritiahnem k sebe, hovorí Pán."
+        }
+      }
+    },
+    "hs070": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 18, 48 – 49)",
+        "text": {
+          "html": "Pane, ty si ma oslobodil od zlostných nepriateľov. Povýšil si ma nad mojich odporcov a vytrhol si ma z rúk násilníka."
+        }
+      },
+      "communion": {
+        "citation": "(Kol 1, 13 – 14)",
+        "text": {
+          "html": "Boh nás preniesol do kráľovstva svojho milovaného Syna, v ktorom máme vykúpenie, odpustenie hriechov."
+        }
+      }
+    },
+    "hs071": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Hebr 9, 15)",
+        "text": {
+          "html": "Kristus je prostredníkom novej zmluvy, aby skrze smrť dostali všetci povolaní prisľúbenie večného dedičstva."
+        }
+      },
+      "communion": {
+        "citation": "(Rim 8, 32)",
+        "text": {
+          "html": "Boh vlastného Syna neušetril, ale vydal ho za nás všetkých; a s ním nám daroval aj všetko ostatné."
+        }
+      }
+    },
+    "hs072": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 31, 10. 16. 18)",
+        "text": {
+          "html": "Zmiluj sa, Bože, nado mnou, lebo som v súžení, vytrhni ma z rúk mojich nepriateľov a prenasledovateľov. Pane, nech nie som zahanbený, veď teba vzývam."
+        }
+      },
+      "communion": {
+        "citation": "(1 Pt 2, 24)",
+        "text": {
+          "html": "Ježiš vyniesol naše hriechy na svojom tele na drevo, aby sme zomreli hriechu a žili pre spravodlivosť; jeho rany nás uzdravili."
+        }
+      }
+    },
+    "hs073": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 22, 20. 7)",
+        "text": {
+          "html": "Pane, nevzďaľuj sa odo mňa; ty, moja sila, ponáhľaj sa mi na pomoc. Veď ja som červ, a nie človek, ľuďom som na posmech a davu na opovrhnutie."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 11, 52)",
+        "text": {
+          "html": "Kristus bol vydaný, aby zhromaždil vedno rozptýlené Božie deti."
+        }
+      }
+    },
+    "hs074": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Jn 12, 1. 12 – 13; Ž 24, 9 – 10)",
+        "text": {
+          "html": "Šesť dní pred Veľkou nocou,<br>keď Ježiš prichádzal do Jeruzalema,<br>išli mu v ústrety deti s palmovými ratolesťami v rukách<br>a nadšene volali: <br><font color='#A32626'>*</font> Hosanna na výsostiach!<br>Požehnaný, ktorý prináša milosrdenstvo a spásu.<br>Zdvihnite, brány, svoje hlavice<br>a vyvýšte sa, brány prastaré,<br>lebo má vstúpiť kráľ slávy.<br>Kto je ten kráľ slávy?<br>Pán zástupov, to je ten kráľ slávy.<br><font color='#A32626'>*</font> Hosanna na výsostiach!<br>Požehnaný, ktorý prináša milosrdenstvo a spásu."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 26, 42)",
+        "text": {
+          "html": "Otče môj, ak ma tento kalich nemôže minúť <br>a musím ho piť, nech sa stane tvoja vôľa."
+        }
+      }
+    },
+    "hs075": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 35, 1 – 2; Ž 140, 8)",
+        "text": {
+          "html": "Pane, odsúď tých, čo mňa odsudzujú, napadni tých, čo mňa napádajú. Vezmi zbroj a štít a vstaň mi na pomoc, Pane, moja sila a záštita."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 102, 3)",
+        "text": {
+          "html": "Neskrývaj svoju tvár predo mnou; v deň môjho súženia nakloň ku mne svoj sluch; kedykoľvek ťa budem vzývať, čím skôr ma vypočuj."
+        }
+      }
+    },
+    "hs076": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 27, 12)",
+        "text": {
+          "html": "Pane, nevydávaj ma zvoli utláčateľov, veď povstali proti mne kriví svedkovia, dychtiví po násilí."
+        }
+      },
+      "communion": {
+        "citation": "(Rim 8, 32)",
+        "text": {
+          "html": "Boh vlastného Syna neušetril, ale vydal ho za nás všetkých."
+        }
+      }
+    },
+    "hs077": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Flp 2, 10. 8. 11)",
+        "text": {
+          "html": "Nech sa na meno Ježiš zohne každé koleno v nebi, na zemi i v podsvetí, lebo Pán sa stal poslušným až na smrť, až na smrť na kríži. Preto je Pán Ježiš Kristus v sláve Boha Otca."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 20, 28)",
+        "text": {
+          "html": "Syn človeka neprišiel dať sa obsluhovať, ale slúžiť a položiť svoj život ako výkupné za mnohých."
+        }
+      }
+    },
+    "hs078": {
+      "scope": "SEASONAL",
+      "communion": {
+        "citation": "(1 Kor 5, 7 – 8)",
+        "text": {
+          "html": "Bol obetovaný náš veľkonočný Baránok, Kristus;<br>preto slávme sviatky s nekvaseným chlebom čistoty a pravdy, aleluja."
+        }
+      }
+    },
+    "hs079": {
+      "scope": "SEASONAL",
+      "communion": {
+        "citation": "(Rim 6, 9)",
+        "text": {
+          "html": "Kristus vzkriesený z mŕtvych už neumiera, smrť nad ním už nepanuje, aleluja."
+        }
+      }
+    },
+    "hs080": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Sir 15, 3 – 4)",
+        "text": {
+          "html": "Vodou múdrosti ich napojil; spevnie v ňom, takže sa nezohne, a povýši ich naveky, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Kol 3, 1 – 2)",
+        "text": {
+          "html": "Ak ste s Kristom vstali z mŕtvych, hľadajte, čo je hore, kde Kristus sedí po pravici Boha; myslite na to, čo je hore, aleluja."
+        }
+      }
+    },
+    "hs081": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Mt 25, 34)",
+        "text": {
+          "html": "Poďte, požehnaní môjho Otca, zaujmite kráľovstvo, ktoré je pre vás pripravené od stvorenia sveta, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Lk 24, 35)",
+        "text": {
+          "html": "Učeníci spoznali Pána Ježiša pri lámaní chleba, aleluja."
+        }
+      }
+    },
+    "hs082": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Múd 10, 20 – 21)",
+        "text": {
+          "html": "Svorne velebili tvoju víťaznú ruku, Pane, lebo múdrosť otvorila ústa nemým a rozviazala jazyk maličkým, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. 1 Pt 2, 9)",
+        "text": {
+          "html": "Ľud určený na vlastníctvo, zvestuj slávne skutky toho, ktorý vás z tmy povolal do svojho obdivuhodného svetla, aleluja."
+        }
+      }
+    },
+    "hs083": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 78, 53)",
+        "text": {
+          "html": "Pán viedol svoj ľud bezpečne, ich nepriateľov však more pokrylo, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 21, 12 – 13)",
+        "text": {
+          "html": "Ježiš povedal svojim učeníkom: Poďte jesť! Vzal chlieb a dával im, aleluja."
+        }
+      }
+    },
+    "hs084": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 105, 43)",
+        "text": {
+          "html": "Pán viedol svoj ľud v radosti vyvolených svojich s plesaním, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Gal 3, 27)",
+        "text": {
+          "html": "Všetci, čo ste pokrstení v Kristovi, Krista ste si obliekli, aleluja."
+        }
+      }
+    },
+    "hs085": {
+      "scope": "SEASONAL",
+      "communion": {
+        "citation": "(Porov. Jn 20, 27)",
+        "text": {
+          "html": "Vystri ruku a dotkni sa rán po klincoch a nebuď neveriaci, ale veriaci, aleluja."
+        }
+      }
+    },
+    "hs086": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Rim 6, 9)",
+        "text": {
+          "html": "Kristus vzkriesený z mŕtvych už neumiera, smrť nad ním už nepanuje, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 20, 19)",
+        "text": {
+          "html": "Ježiš si stal doprostred svojich učeníkov a povedal im: Pokoj vám, aleluja."
+        }
+      }
+    },
+    "hs087": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Zjv 19, 7. 6)",
+        "text": {
+          "html": "Radujme sa a plesajme, vzdávajme Bohu slávu, lebo začal kraľovať Pán, náš všemohúci Boh, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Lk 24, 46. 26)",
+        "text": {
+          "html": "Mesiáš musel trpieť a vstať z mŕtvych, a tak vojsť do svojej slávy, aleluja."
+        }
+      }
+    },
+    "hs088": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 18, 50; 22, 23)",
+        "text": {
+          "html": "Budem ťa, Pane, velebiť medzi národmi; tvoje meno chcem zvestovať svojim bratom, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 15, 16. 19)",
+        "text": {
+          "html": "Pán hovorí: Ja som si vás vyvolil zo sveta a ustanovil som vás, aby ste išli a prinášali ovocie a aby vaše ovocie zostalo, aleluja."
+        }
+      }
+    },
+    "hs089": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 68, 8 – 9. 20)",
+        "text": {
+          "html": "Bože, keď si kráčal na čele svojho ľudu, kliesnil si mu cestu a býval si s ním; zem sa zatriasla a rozpršala sa obloha, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 28, 20)",
+        "text": {
+          "html": "Hľa, ja som s vami po všetky dni až do skončenia sveta, aleluja."
+        }
+      }
+    },
+    "hs090": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Zjv 5, 9 – 10)",
+        "text": {
+          "html": "Vykúpil si nás svojou krvou, Pane, ľudí z každého kmeňa, jazyka, ľudu a národa a urobil si nás kráľovstvom a kňazmi nášmu Bohu, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Rim 4, 25)",
+        "text": {
+          "html": "Kristus, náš Pán, bol vydaný za naše hriechy a vzkriesený pre naše ospravedlnenie, aleluja."
+        }
+      }
+    },
+    "hs091": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. 1 Pt 2, 9)",
+        "text": {
+          "html": "Ľud určený na vlastníctvo, zvestuj slávne skutky toho, ktorý ťa z tmy povolal do svojho obdivuhodného svetla, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 17, 24)",
+        "text": {
+          "html": "Otče, chcem, aby aj tí, ktorých si mi dal, boli so mnou tam, kde som ja, aby videli moju slávu, ktorú si mi dal, aleluja."
+        }
+      }
+    },
+    "hs092": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 66, 1 – 2)",
+        "text": {
+          "html": "Jasaj Bohu, celá zem, hrajte a spievajte na slávu jeho mena, vzdávajte mu chválu, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Lk 24, 35) ",
+        "text": {
+          "html": "Rok A<br>Učeníci spoznali Pána Ježiša pri lámaní chleba, aleluja.<br>Rok B<br>(Lk 24, 46 – 47)<br>Mesiáš musel trpieť a tretieho dňa vstať z mŕtvych;<br>v jeho mene sa bude všetkým národom<br>hlásať pokánie na odpustenie hriechov, aleluja.<br>Rok C<br>(Porov. Jn 21, 12 – 13)<br>Ježiš povedal svojim učeníkom: Poďte jesť. Potom vzal chlieb a dával im, aleluja."
+        }
+      }
+    },
+    "hs093": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Vstal z mŕtvych Dobrý pastier, ktorý dal svoj život za svoje ovce a ochotne umrel za svoje stádo, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 14, 27)",
+        "text": {
+          "html": "Pokoj vám zanechávam, svoj pokoj vám dávam; ale ja vám nedávam, ako svet dáva, hovorí Pán, aleluja."
+        }
+      }
+    },
+    "hs094": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Zjv 19, 5; 12, 10)",
+        "text": {
+          "html": "Chváľte nášho Boha všetci, čo sa ho bojíte, malí i veľkí, lebo nastala spása, moc a vláda jeho Pomazaného, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Rim 6, 8)",
+        "text": {
+          "html": "Ak sme zomreli s Kristom, veríme, že s ním budeme aj žiť, aleluja."
+        }
+      }
+    },
+    "hs095": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 71, 8. 23)",
+        "text": {
+          "html": "Nech sa mi ústa naplnia tvojou oslavou a nech ťa velebím deň čo deň; jasať budú moje pery, keď ti zaspievam, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "",
+        "text": {
+          "html": "Pán vstal z mŕtvych a zažiaril nám, vykúpil nás svojou krvou, aleluja."
+        }
+      }
+    },
+    "hs096": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ex 15, 1 – 2)",
+        "text": {
+          "html": "Spievajme Pánovi, lebo sa preslávil. Pán je moja sila a moja udatnosť, on ma zachránil, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(2 Kor 5, 15)",
+        "text": {
+          "html": "Kristus zomrel za všetkých, aby aj tí, čo žijú, už nežili pre seba, ale pre toho, ktorý za nich zomrel a vstal z mŕtvych, aleluja."
+        }
+      }
+    },
+    "hs097": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Zjv 5, 12)",
+        "text": {
+          "html": "Hoden je Baránok, ktorý bol zabitý, prijať moc, bohatstvo a múdrosť, silu a česť, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "",
+        "text": {
+          "html": "Ukrižovaný vstal z mŕtvych a vykúpil nás, aleluja."
+        }
+      }
+    },
+    "hs098": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Kol 2, 12)",
+        "text": {
+          "html": "S Kristom ste boli pochovaní v krste a v ňom ste boli s ním aj vzkriesení vierou v moc Boha, ktorý ho vzkriesil z mŕtvych, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 17, 20 – 21)",
+        "text": {
+          "html": "Otče, prosím za nich, aby aj oni boli v nás jedno, aby svet uveril, že si ma ty poslal, hovorí Pán, aleluja."
+        }
+      }
+    },
+    "hs099": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 33, 5. 6)",
+        "text": {
+          "html": "Milosti Pánovej plná je zem; Pánovým slovom povstali nebesia, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "",
+        "text": {
+          "html": "Dobrý pastier, ktorý dal život za svoje ovečky a neváhal za ne podstúpiť smrť na kríži,<br>vstal z mŕtvych, aleluja."
+        }
+      }
+    },
+    "hs100": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 68, 8 – 9. 20)",
+        "text": {
+          "html": "Bože, keď si kráčal na čele svojho ľudu, kliesnil si mu cestu a býval si s ním; zem sa zatriasla a rozpršala sa obloha, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 28, 30)",
+        "text": {
+          "html": "Hľa, ja som s vami po všetky dni až do skončenia sveta, aleluja."
+        }
+      }
+    },
+    "hs101": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. 1 Pt 2, 9)",
+        "text": {
+          "html": "Ľud určený na vlastníctvo, zvestujte slávne skutky toho, ktorý vás z tmy povolal do svojho obdivuhodného svetla, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 17, 24)",
+        "text": {
+          "html": "Otče, chcem, aby aj tí, ktorých si mi dal, boli so mnou tam, kde som ja, aby videli moju slávu, ktorú si mi dal, aleluja."
+        }
+      }
+    },
+    "hs102": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 98, 1 – 2)",
+        "text": {
+          "html": "Spievajte Pánovi pieseň novú, lebo vykonal veci zázračné; pred očami pohanov vyjavil svoju spravodlivosť, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 15, 1. 5)",
+        "text": {
+          "html": "Ja som pravý vinič, vy ste ratolesti, hovorí Pán; kto ostáva vo mne a ja v ňom, prináša veľa ovocia, aleluja."
+        }
+      }
+    },
+    "hs103": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Vstal z mŕtvych Dobrý pastier, ktorý dal život za svoje ovce, a ochotne umrel za svoje stádo, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 14, 27)",
+        "text": {
+          "html": "Pokoj vám zanechávam, svoj pokoj vám dávam; ale ja vám nedávam, ako svet dáva, hovorí Pán, aleluja."
+        }
+      }
+    },
+    "hs104": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Iz 48, 20)",
+        "text": {
+          "html": "Nadšene ohlasujte, aby to bolo počuť, zvestujte to až po kraj zeme; Pán vyslobodil svoj ľud, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 14, 15 – 16)",
+        "text": {
+          "html": "Ak ma milujete, budete zachovávať moje prikázania, hovorí Pán. A ja poprosím Otca a on vám dá iného Tešiteľa, aby zostal s vami naveky, aleluja."
+        }
+      }
+    },
+    "hs105": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 68, 8 – 9. 20)",
+        "text": {
+          "html": "Bože, keď si kráčal na čele svojho ľudu, kliesnil si im cestu a býval si s nimi; zem sa zatriasla a rozpršala sa aj obloha, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Mt 28, 20)",
+        "text": {
+          "html": "Hľa, ja som s vami po všetky dni až do skončenia sveta, aleluja."
+        }
+      }
+    },
+    "hs106": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 27, 7 – 9)",
+        "text": {
+          "html": "Čuj, Pane, hlas môjho volania. V srdci mi znejú tvoje slová: Hľadajte moju tvár. Pane, ja hľadám tvoju tvár; neodvracaj svoju tvár odo mňa, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 17, 22)",
+        "text": {
+          "html": "Otče, prosím ťa, aby boli jedno, ako sme my jedno, aleluja."
+        }
+      }
+    },
+    "hs107": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Sk 1, 8)",
+        "text": {
+          "html": "Dostanete silu Ducha Svätého, ktorý na vás zostúpi; a budete mi svedkami až po samý kraj zeme, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 14, 18; 16, 22)",
+        "text": {
+          "html": "Nenechám vás ako siroty, hovorí Pán: zasa k vám prídem, a vaše srdce sa bude radovať, aleluja."
+        }
+      }
+    },
+    "hs108": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Zjv 1, 17 – 18)",
+        "text": {
+          "html": "Ja som Prvý a Posledný a Živý. Bol som mŕtvy, a hľa, žijem na veky vekov, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 14, 26)",
+        "text": {
+          "html": "Duch Svätý, ktorého pošle Otec v mojom mene, naučí vás všetko a pripomenie vám všetko, čo som vám povedal, hovorí Pán, aleluja."
+        }
+      }
+    },
+    "hs109": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 47, 2)",
+        "text": {
+          "html": "Tlieskajte rukami, všetky národy, jasajte Bohu hlasom radostným, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 15, 26 – 27)",
+        "text": {
+          "html": "Keď príde Tešiteľ, ktorého vám ja pošlem, Duch pravdy, ktorý vychádza od Otca, on o mne vydá svedectvo. Aj vy vydávate svedectvo, hovorí Pán, aleluja."
+        }
+      }
+    },
+    "hs110": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Hebr 4, 16)",
+        "text": {
+          "html": "Pristupujme s dôverou k trónu milosti, aby sme dosiahli milosrdenstvo a našli milosť  a pomoc v pravom čase, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 16, 7)",
+        "text": {
+          "html": "Hovorím vám pravdu: Je pre vás osožnejšie, aby som odišiel; lebo ak neodídem, Tešiteľ k vám nepríde, hovorí Pán, aleluja."
+        }
+      }
+    },
+    "hs111": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Zjv 1, 5 – 6)",
+        "text": {
+          "html": "Kristus nás miluje a svojou krvou nás oslobodil od hriechov a urobil nás kráľovstvom, kňazmi Bohu a svojmu Otcovi, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 16, 13)",
+        "text": {
+          "html": "Keď príde Duch pravdy, uvedie vás do plnej pravdy, hovorí Pán, aleluja."
+        }
+      }
+    },
+    "hs112": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Sk 1, 14)",
+        "text": {
+          "html": "Učeníci jednomyseľne zotrvávali na modlitbách spolu so ženami, s Ježišovou matkou Máriou a jeho bratmi, aleluja."
+        }
+      },
+      "communion": {
+        "citation": "(Jn l6, 14)",
+        "text": {
+          "html": "Duch Svätý ma oslávi, lebo z môjho vezme a zvestuje vám, hovorí Pán, aleluja."
+        }
+      }
+    },
+    "hs113": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 25, 1 – 3)",
+        "text": {
+          "html": "K tebe, Pane, dvíham svoju dušu, tebe dôverujem, Bože môj. Nech nie som zahanbený a nech moji nepriatelia nejasajú nado mnou. Veď nik, čo dúfa v teba, nebude zahanbený."
+        }
+      },
+      "communion": {
+        "citation": "(Ž 85, 13)",
+        "text": {
+          "html": "Pán dá požehnanie a svoje plody vydá naša zem."
+        }
+      }
+    },
+    "hs114": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Jer 31, 10; Iz 35, 4)",
+        "text": {
+          "html": "Čujte, národy, slovo Pánovo a ohlasujte ho až do končín zeme: náš Spasiteľ príde, nebojte sa!"
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 106, 4 – 5; Iz 38, 3)",
+        "text": {
+          "html": "Príď, Pane, a navštív nás svojím pokojom, aby sme sa radovali pred tebou celým srdcom."
+        }
+      }
+    },
+    "hs115": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Zach 14, 5. 7)",
+        "text": {
+          "html": "Hľa, Pán príde a s ním všetci jeho svätí; a v ten deň zažiari veľké svetlo."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. 2 Tim 4, 8)",
+        "text": {
+          "html": "Spravodlivý sudca dá veniec spravodlivosti tým, čo milujú jeho príchod."
+        }
+      }
+    },
+    "hs116": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Hab 2, 3; 1 Kor 4, 5)",
+        "text": {
+          "html": "Pán príde, nebude meškať; osvetlí, čo je skryté v tme, a dá sa poznať všetkým národom."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Iz 40, 10; 35, 5)",
+        "text": {
+          "html": "Hľa, náš Pán prichádza so všetkou mocou a otvorí oči svojich služobníkov."
+        }
+      }
+    },
+    "hs117": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 119, 151 – 152)",
+        "text": {
+          "html": "Blízko si, Pane, a všetky tvoje predpisy sú pravdivé. Odprvoti viem z tvojich prikázaní, že si večný."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Tít 2, 12 – 13)",
+        "text": {
+          "html": "Žime na tomto svete spravodlivo a nábožne a očakávajme blahoslavenú nádej a príchod slávy veľkého Boha."
+        }
+      }
+    },
+    "hs118": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Hľa, Pán príde v jase, navštívi svoj ľud v pokoji a dá mu večný život."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Flp 3, 20 – 21)",
+        "text": {
+          "html": "Očakávame Spasiteľa, Pána Ježiša Krista; on pretvorí naše úbohé telo, aby sa stalo podobným jeho oslávenému telu."
+        }
+      }
+    },
+    "hs119": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 80, 4. 2)",
+        "text": {
+          "html": "Príď, Pane, čo tróniš nad cherubmi, rozjasni svoju tvár a budeme spasení."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Zjv 22, 12)",
+        "text": {
+          "html": "Hľa, prídem čoskoro, hovorí Pán, a moja odplata so mnou; odmením každého podľa jeho skutkov."
+        }
+      }
+    },
+    "hs120": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Iz 30, 19. 30)",
+        "text": {
+          "html": "Ľud Siona, hľa, Pán príde spasiť národy, ozve sa svojím velebným hlasom a vaše srdcia sa zaradujú."
+        }
+      },
+      "communion": {
+        "citation": "(Bar 5, 5; 4, 36)",
+        "text": {
+          "html": "Povstaň, Jeruzalem, a postav sa na výšinu; a hľaď, aká radosť ti prichádza od tvojho Boha."
+        }
+      }
+    },
+    "hs121": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Jer 31, 10; Iz 35, 4)",
+        "text": {
+          "html": "Čujte, národy, slovo Pánovo a ohlasujte ho až do končín zeme: náš Spasiteľ príde, nebojte sa."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 106, 4 – 5; Iz 38, 3)",
+        "text": {
+          "html": "Príď, Pane, a navštív nás svojím pokojom, aby sme sa radovali pred tebou celým srdcom."
+        }
+      }
+    },
+    "hs122": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Zach 14, 5. 7 )",
+        "text": {
+          "html": "Hľa, Pán príde a s ním všetci jeho svätí; a v ten deň zažiari veľké svetlo."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. 2 Tim 4, 8)",
+        "text": {
+          "html": "Spravodlivý sudca dá veniec spravodlivosti tým, čo milujú jeho príchod."
+        }
+      }
+    },
+    "hs123": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Ž 80, 4. 2)",
+        "text": {
+          "html": "Príď, Pane, čo tróniš nad cherubmi, rozjasni svoju tvár, a budeme spasení."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Zjv 22, 12)",
+        "text": {
+          "html": "Hľa, prídem čoskoro, hovorí Pán, a moja odplata so mnou, odmením každého podľa jeho skutkov."
+        }
+      }
+    },
+    "hs124": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Flp 4, 4 – 5)",
+        "text": {
+          "html": "Ustavične sa radujte v Pánovi! Opakujem: Radujte sa! Pán je blízko."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Iz 35, 4)",
+        "text": {
+          "html": "Povedzte: Malomyseľní, vzchopte sa, nebojte sa! Hľa, náš Boh príde a spasí nás."
+        }
+      }
+    },
+    "hs125": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Jer 31, 10; Iz 35, 4)",
+        "text": {
+          "html": "Čujte, národy, slovo Pánovo a ohlasujte ho až do končín zeme: náš Spasiteľ príde, nebojte sa."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ž 106, 4 – 5; Iz 38, 3)",
+        "text": {
+          "html": "Príď, Pane, a navštív nás svojím pokojom; aby sme sa radovali pred tebou celým srdcom."
+        }
+      }
+    },
+    "hs126": {
+      "scope": "SEASONAL",
+      "communion": {
+        "citation": "(Iz 7, 14)",
+        "text": {
+          "html": "Hľa, Panna počne a porodí syna a dá mu meno Emanuel."
+        }
+      }
+    },
+    "hs127": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Múd 18, 14 – 15)",
+        "text": {
+          "html": "Keď všade vládlo hlboké ticho a noc v svojom behu prešla polovicu cesty, tvoje všemohúce slovo, Pane, zostúpilo z neba, z kráľovského trónu."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Jn 1, 12)",
+        "text": {
+          "html": "Tým, ktorí ho prijali, dal moc stať sa Božími deťmi."
+        }
+      }
+    },
+    "hs128": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "",
+        "text": {
+          "html": "Posvätný deň nám zažiaril; poďte, národy, a klaňajte sa Pánovi, lebo na zem zostúpilo veľké svetlo."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 1, 14)",
+        "text": {
+          "html": "Uvideli sme jeho slávu, slávu, akú má od Otca jednorodený Syn, plný milosti a pravdy."
+        }
+      }
+    },
+    "hs129": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 118, 26 – 27)",
+        "text": {
+          "html": "Požehnaný, ktorý prichádza v mene Pánovom. Boh, Pán, je naším svetlom."
+        }
+      },
+      "communion": {
+        "citation": "(Porov. Ef 2, 4; Rim 8, 3)",
+        "text": {
+          "html": "Boh pre svoju nesmiernu lásku, ktorou nás miluje, poslal svojho Syna v tele podobnom hriešnemu."
+        }
+      }
+    },
+    "hs130": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Iz 9, 1)",
+        "text": {
+          "html": "Ľud, čo kráčal v tmách, uzrel veľké svetlo; nad tými, čo bývajú v krajine temnôt, zažiarilo svetlo."
+        }
+      },
+      "communion": {
+        "citation": "(1 Jn 1, 2)",
+        "text": {
+          "html": "Život, ktorý bol u Otca, zjavil sa nám."
+        }
+      }
+    },
+    "hs131": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Porov. Jn 1, 1)",
+        "text": {
+          "html": "Na počiatku a pred vekmi bol Boh Slovom a láskavo sa narodil ako Spasiteľ sveta."
+        }
+      }
+    },
+    "hs132": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Ž 112, 4)",
+        "text": {
+          "html": "Spravodlivým žiari svetlo v temnotách: Milosrdný, milostivý a spravodlivý Pán."
+        }
+      },
+      "communion": {
+        "citation": "(1 Jn 4, 9)",
+        "text": {
+          "html": "Božia láska k nám sa prejavila v tom, že Boh poslal svojho jednorodeného Syna na svet, aby sme skrze neho mali život."
+        }
+      }
+    },
+    "hs133": {
+      "scope": "SEASONAL",
+      "entrance": {
+        "citation": "(Gal 4, 4 – 5)",
+        "text": {
+          "html": "Boh poslal svojho Syna, narodeného zo ženy, aby sme dostali adoptívne synovstvo."
+        }
+      },
+      "communion": {
+        "citation": "(Jn 1, 16)",
+        "text": {
+          "html": "Z jeho plnosti sme my všetci dostali milosť za milosťou."
+        }
+      }
+    }
+  }
+}

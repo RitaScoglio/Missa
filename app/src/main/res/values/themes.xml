@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Missa" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorAccent">@color/missa_primary</item>
+        <item name="android:statusBarColor">@color/missa_chrome</item>
+        <item name="android:navigationBarColor">@color/missa_chrome</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowBackground">@color/missa_background</item>
+    </style>
+    <style name="Theme.Missa.Popup" parent="android:Theme.Material.Light.Dialog.NoActionBar">
+        <item name="android:windowMinWidthMajor">0dp</item>
+        <item name="android:windowMinWidthMinor">0dp</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorAccent">@color/missa_primary</item>
+    </style>
+</resources>

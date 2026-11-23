@@ -1,0 +1,1326 @@
+{
+  "schemaVersion": 1,
+  "items": {
+    "om001": {
+      "name": "Na konci starého roka",
+      "mass": {
+        "intercessionsId": "ip227"
+      },
+      "availability": {
+        "kind": "USER_SELECTABLE"
+      }
+    },
+    "om002": {
+      "name": "Omša o Najsvätejšom Srdci Ježišovom",
+      "availability": {
+        "kind": "USER_SELECTABLE"
+      },
+      "mass": {
+        "formularyId": "f006",
+        "intercessionsId": "ip024",
+        "prefaceIds": [
+          "pf051"
+        ],
+        "allowEucharisticPrayerTwoPreface": false
+      },
+      "formularyChoices": [
+        {
+          "label": "Najsvätejšieho Srdca Ježišovho",
+          "formularyId": "f006"
+        },
+        {
+          "label": "Votívna omša o Najsvätejšom Srdci Ježišovom",
+          "formularyId": "f007"
+        }
+      ],
+      "contentVariants": [
+        {
+          "key": "CYCLE_B",
+          "mass": {
+            "intercessionsId": "ip025"
+          }
+        },
+        {
+          "key": "CYCLE_C",
+          "mass": {
+            "intercessionsId": "ip026"
+          }
+        }
+      ]
+    },
+    "om003": {
+      "name": "Spoločné omše preblahoslavenej Panny Márie",
+      "availability": {
+        "kind": "USER_SELECTABLE"
+      },
+      "mass": {
+        "formularyId": "f012",
+        "prefaceIds": [
+          "pf053",
+          "pf054"
+        ],
+        "allowEucharisticPrayerTwoPreface": false
+      },
+      "formularyChoices": [
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 1.",
+          "formularyId": "f012"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 2.",
+          "formularyId": "f013"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 3.",
+          "formularyId": "f014"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 4.",
+          "formularyId": "f015"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 5.",
+          "formularyId": "f016"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 6.",
+          "formularyId": "f017"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 7.",
+          "formularyId": "f018"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 8.",
+          "formularyId": "f019"
+        }
+      ],
+      "contentVariants": [
+        {
+          "key": "ADVENT",
+          "mass": {
+            "formularyId": "f020"
+          },
+          "formularyChoices": [
+            {
+              "label": "Omša k preblahoslavenej Panne Marií",
+              "formularyId": "f020"
+            }
+          ]
+        },
+        {
+          "key": "CHRISTMAS",
+          "mass": {
+            "formularyId": "f021"
+          },
+          "formularyChoices": [
+            {
+              "label": "Omša k preblahoslavenej Panne Marií",
+              "formularyId": "f021"
+            }
+          ]
+        },
+        {
+          "key": "EASTER",
+          "mass": {
+            "formularyId": "f022"
+          },
+          "formularyChoices": [
+            {
+              "label": "Omša k preblahoslavenej Panne Marií",
+              "formularyId": "f022"
+            }
+          ]
+        }
+      ]
+    },
+    "om004": {
+      "name": "Omša za zmierenie",
+      "availability": {
+        "kind": "USER_SELECTABLE"
+      },
+      "mass": {
+        "formularyId": "f095",
+        "prefaceIds": [],
+        "allowEucharisticPrayerTwoPreface": false
+      },
+      "contentVariants": [
+        {
+          "key": "FORGIVENESS",
+          "mass": {
+            "prefaceIds": [
+              "pf064"
+            ]
+          }
+        },
+        {
+          "key": "CONCORD",
+          "mass": {
+            "prefaceIds": [
+              "pf082"
+            ]
+          }
+        },
+        {
+          "key": "CROSS",
+          "mass": {
+            "prefaceIds": [
+              "pf083",
+              "pf059"
+            ]
+          }
+        },
+        {
+          "key": "EUCHARIST",
+          "mass": {
+            "prefaceIds": [
+              "pf029",
+              "pf030"
+            ]
+          }
+        },
+        {
+          "key": "PRECIOUS_BLOOD",
+          "mass": {
+            "prefaceIds": [
+              "pf059"
+            ]
+          }
+        },
+        {
+          "key": "LENT",
+          "mass": {
+            "prefaceIds": [
+              "pf039",
+              "pf040",
+              "pf041",
+              "pf042"
+            ]
+          }
+        },
+        {
+          "key": "LENT_WEEK_5",
+          "mass": {
+            "prefaceIds": [
+              "pf059"
+            ]
+          }
+        },
+        {
+          "key": "LENT_WEEK_6",
+          "mass": {
+            "prefaceIds": [
+              "pf060"
+            ]
+          }
+        },
+        {
+          "key": "LENT_FORGIVENESS",
+          "mass": {
+            "prefaceIds": [
+              "pf064",
+              "pf039",
+              "pf040",
+              "pf041",
+              "pf042"
+            ]
+          }
+        },
+        {
+          "key": "LENT_WEEK_5_FORGIVENESS",
+          "mass": {
+            "prefaceIds": [
+              "pf064",
+              "pf059"
+            ]
+          }
+        },
+        {
+          "key": "LENT_WEEK_6_FORGIVENESS",
+          "mass": {
+            "prefaceIds": [
+              "pf064",
+              "pf060"
+            ]
+          }
+        },
+        {
+          "key": "LENT_CONCORD",
+          "mass": {
+            "prefaceIds": [
+              "pf082",
+              "pf039",
+              "pf040",
+              "pf041",
+              "pf042"
+            ]
+          }
+        },
+        {
+          "key": "LENT_WEEK_5_CONCORD",
+          "mass": {
+            "prefaceIds": [
+              "pf082",
+              "pf059"
+            ]
+          }
+        },
+        {
+          "key": "LENT_WEEK_6_CONCORD",
+          "mass": {
+            "prefaceIds": [
+              "pf082",
+              "pf060"
+            ]
+          }
+        },
+        {
+          "key": "LENT_CROSS",
+          "mass": {
+            "prefaceIds": [
+              "pf083",
+              "pf059",
+              "pf039",
+              "pf040",
+              "pf041",
+              "pf042"
+            ]
+          }
+        },
+        {
+          "key": "LENT_WEEK_6_CROSS",
+          "mass": {
+            "prefaceIds": [
+              "pf083",
+              "pf059",
+              "pf060"
+            ]
+          }
+        },
+        {
+          "key": "LENT_EUCHARIST",
+          "mass": {
+            "prefaceIds": [
+              "pf029",
+              "pf030",
+              "pf039",
+              "pf040",
+              "pf041",
+              "pf042"
+            ]
+          }
+        },
+        {
+          "key": "LENT_WEEK_5_EUCHARIST",
+          "mass": {
+            "prefaceIds": [
+              "pf029",
+              "pf030",
+              "pf059"
+            ]
+          }
+        },
+        {
+          "key": "LENT_WEEK_6_EUCHARIST",
+          "mass": {
+            "prefaceIds": [
+              "pf029",
+              "pf030",
+              "pf060"
+            ]
+          }
+        },
+        {
+          "key": "LENT_PRECIOUS_BLOOD",
+          "mass": {
+            "prefaceIds": [
+              "pf059",
+              "pf039",
+              "pf040",
+              "pf041",
+              "pf042"
+            ]
+          }
+        },
+        {
+          "key": "LENT_WEEK_6_PRECIOUS_BLOOD",
+          "mass": {
+            "prefaceIds": [
+              "pf059",
+              "pf060"
+            ]
+          }
+        }
+      ],
+      "formularyChoices": [
+        {
+          "label": "Za zachovanie pokoja a spravodlivosti 1.",
+          "formularyId": "f095"
+        },
+        {
+          "label": "Za zachovanie pokoja a spravodlivosti 2.",
+          "formularyId": "f096"
+        },
+        {
+          "label": "Za zmierenie",
+          "formularyId": "f097"
+        },
+        {
+          "label": "V čase vojny a občianskych nepokojov",
+          "formularyId": "f098"
+        },
+        {
+          "label": "Za odpustenie hriechov 1.",
+          "formularyId": "f099"
+        },
+        {
+          "label": "Za odpustenie hriechov 2.",
+          "formularyId": "f100"
+        },
+        {
+          "label": "Za dar lásky",
+          "formularyId": "f101"
+        },
+        {
+          "label": "Za svornosť",
+          "formularyId": "f102"
+        },
+        {
+          "label": "O tajomstve svätého kríža",
+          "formularyId": "f103"
+        },
+        {
+          "label": "O najsvätejšej eucharistii",
+          "formularyId": "f104"
+        },
+        {
+          "label": "O predrahej krvi nášho Pána Ježiša Krista",
+          "formularyId": "f105"
+        }
+      ]
+    },
+    "om005": {
+      "name": "O Najsvätejšom Srdci Ježišovom",
+      "availability": {
+        "kind": "GENERATED_OBSERVANCE",
+        "generatedObservanceKey": "first-friday"
+      },
+      "mass": {
+        "formularyId": "f006",
+        "prefaceIds": [
+          "pf051"
+        ],
+        "allowEucharisticPrayerTwoPreface": true,
+        "intercessionsId": "ic045",
+        "intercessionChoices": [
+          {
+            "label": "Na prvý piatok mesiaca I.",
+            "intercessionsId": "ic045"
+          },
+          {
+            "label": "Na prvý piatok mesiaca II.",
+            "intercessionsId": "ic046"
+          }
+        ]
+      },
+      "formularyChoices": [
+        {
+          "label": "Najsvätejšieho Srdca Ježišovho",
+          "formularyId": "f006"
+        },
+        {
+          "label": "Votívna omša o Najsvätejšom Srdci Ježišovom",
+          "formularyId": "f007"
+        }
+      ]
+    },
+    "om006": {
+      "name": "Omša za zosnulých",
+      "availability": {
+        "kind": "USER_SELECTABLE"
+      },
+      "formularyChoices": [
+        {
+          "label": "Vo výročný deň smrti alebo pohrebu 1. (mimo veľkonočného obdobia)",
+          "formularyId": "f106"
+        },
+        {
+          "label": "Vo výročný deň smrti alebo pohrebu 2. (mimo veľkonočného obdobia)",
+          "formularyId": "f107"
+        },
+        {
+          "label": "Vo výročný deň smrti alebo pohrebu (vo veľkonočnom období)",
+          "formularyId": "f108"
+        },
+        {
+          "label": "Iné modlitby na výročie smrti alebo pohrebu",
+          "formularyId": "f109"
+        },
+        {
+          "label": "Iné modlitby na výročie smrti alebo pohrebu",
+          "formularyId": "f110"
+        },
+        {
+          "label": "Pri rozličných spomienkach za jedného zosnulého 1.",
+          "formularyId": "f111"
+        },
+        {
+          "label": "Pri rozličných spomienkach za jedného zosnulého 2.",
+          "formularyId": "f112"
+        },
+        {
+          "label": "Pri rozličných spomienkach za jedného zosnulého 3.",
+          "formularyId": "f113"
+        },
+        {
+          "label": "Pri rozličných spomienkach za jedného zosnulého 4.",
+          "formularyId": "f114"
+        },
+        {
+          "label": "Pri rozličných spomienkach za jedného zosnulého 5.",
+          "formularyId": "f115"
+        },
+        {
+          "label": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 1.",
+          "formularyId": "f116"
+        },
+        {
+          "label": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 2.",
+          "formularyId": "f117"
+        },
+        {
+          "label": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 3.",
+          "formularyId": "f118"
+        },
+        {
+          "label": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 4.",
+          "formularyId": "f119"
+        },
+        {
+          "label": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 5.",
+          "formularyId": "f120"
+        },
+        {
+          "label": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 6.",
+          "formularyId": "f121"
+        },
+        {
+          "label": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 7.",
+          "formularyId": "f122"
+        },
+        {
+          "label": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 8.",
+          "formularyId": "f123"
+        },
+        {
+          "label": "Pri rozličných spomienkach za viacerých zosnulých alebo za všetkých zosnulých 9.",
+          "formularyId": "f124"
+        },
+        {
+          "label": "Za zosnulého pápeža 1.",
+          "formularyId": "f125"
+        },
+        {
+          "label": "Za zosnulého pápeža 2.",
+          "formularyId": "f126"
+        },
+        {
+          "label": "Za zosnulého pápeža 3.",
+          "formularyId": "f127"
+        },
+        {
+          "label": "Za zosnulého diecézneho biskupa",
+          "formularyId": "f128"
+        },
+        {
+          "label": "Za iného biskupa",
+          "formularyId": "f129"
+        },
+        {
+          "label": "Za kňaza 1.",
+          "formularyId": "f130"
+        },
+        {
+          "label": "Za kňaza 2.",
+          "formularyId": "f131"
+        },
+        {
+          "label": "Za diakona",
+          "formularyId": "f132"
+        },
+        {
+          "label": "Za rehoľníka alebo rehoľníčku",
+          "formularyId": "f133"
+        },
+        {
+          "label": "Za zosnulého, ktorý sa zaslúžil o šírenie evanjelia",
+          "formularyId": "f134"
+        },
+        {
+          "label": "Za zosnulého mladého človeka",
+          "formularyId": "f135"
+        },
+        {
+          "label": "Za človeka zosnulého po dlhšej chorobe",
+          "formularyId": "f136"
+        },
+        {
+          "label": "Za človeka zosnulého náhlou smrťou",
+          "formularyId": "f137"
+        },
+        {
+          "label": "Za zosnulých manželov",
+          "formularyId": "f138"
+        },
+        {
+          "label": "Za zosnulých rodičov",
+          "formularyId": "f139"
+        },
+        {
+          "label": "Za zosnulých príbuzných, priateľov a dobrodincov",
+          "formularyId": "f140"
+        }
+      ],
+      "mass": {
+        "formularyId": "f106",
+        "prefaceIds": [
+          "pf017",
+          "pf018",
+          "pf019",
+          "pf020",
+          "pf021"
+        ],
+        "allowEucharisticPrayerTwoPreface": false,
+        "intercessionsId": "ic042",
+        "intercessionChoices": [
+          {
+            "label": "Na výročie smrti I.",
+            "intercessionsId": "ic042"
+          },
+          {
+            "label": "Na výročie smrti II.",
+            "intercessionsId": "ic043"
+          },
+          {
+            "label": "Za zosnulého kňaza",
+            "intercessionsId": "ic044"
+          }
+        ]
+      }
+    },
+    "om007": {
+      "name": "Omša v čase pandémie",
+      "availability": {
+        "kind": "USER_SELECTABLE"
+      },
+      "mass": {
+        "formularyId": "f141",
+        "prefaceIds": [
+          "pf001"
+        ],
+        "allowEucharisticPrayerTwoPreface": false
+      },
+      "formularyChoices": [
+        {
+          "label": "V čase pandémie",
+          "formularyId": "f141"
+        }
+      ],
+      "contentVariants": [
+        {
+          "key": "LENT",
+          "mass": {
+            "lectionary": {
+              "acclamationId": "ac093"
+            }
+          }
+        }
+      ]
+    },
+    "om008": {
+      "name": "O Nepoškvrnenom Srdci Panny Márie",
+      "availability": {
+        "kind": "GENERATED_OBSERVANCE",
+        "generatedObservanceKey": "marian-saturday"
+      },
+      "mass": {
+        "formularyId": "f012",
+        "prefaceIds": [
+          "pf053",
+          "pf054"
+        ],
+        "allowEucharisticPrayerTwoPreface": true,
+        "intercessionsId": "ic007"
+      },
+      "contentVariants": [
+        {
+          "key": "ADVENT",
+          "mass": {
+            "prefaceIds": [
+              "pf053",
+              "pf054",
+              "pf002"
+            ]
+          }
+        },
+        {
+          "key": "CHRISTMAS_AFTER_EPIPHANY",
+          "mass": {
+            "prefaceIds": [
+              "pf027",
+              "pf053",
+              "pf054"
+            ]
+          }
+        }
+      ],
+      "formularyChoices": [
+        {
+          "label": "Nepoškvrneného Srdca Panny Márie",
+          "formularyId": "f012"
+        }
+      ]
+    },
+    "om009": {
+      "name": "Za duchovné povolania",
+      "availability": {
+        "kind": "GENERATED_OBSERVANCE",
+        "generatedObservanceKey": "first-thursday"
+      },
+      "mass": {
+        "formularyId": "f082",
+        "prefaceIds": [
+          "pf011",
+          "pf012",
+          "pf013",
+          "pf014",
+          "pf015",
+          "pf016"
+        ],
+        "allowEucharisticPrayerTwoPreface": true
+      },
+      "contentVariants": [
+        {
+          "key": "ADVENT",
+          "mass": {
+            "prefaceIds": [
+              "pf002"
+            ]
+          }
+        },
+        {
+          "key": "CHRISTMAS_AFTER_EPIPHANY",
+          "mass": {
+            "prefaceIds": [
+              "pf027",
+              "pf011",
+              "pf012",
+              "pf013",
+              "pf014",
+              "pf015",
+              "pf016"
+            ]
+          }
+        },
+        {
+          "key": "EASTER",
+          "mass": {
+            "prefaceIds": [
+              "pf022",
+              "pf023",
+              "pf024",
+              "pf025",
+              "pf026"
+            ]
+          }
+        },
+        {
+          "key": "EASTER_POST_ASCENSION",
+          "mass": {
+            "prefaceIds": [
+              "pf022",
+              "pf023",
+              "pf024",
+              "pf025",
+              "pf026",
+              "pf008",
+              "pf009"
+            ]
+          }
+        }
+      ],
+      "formularyChoices": [
+        {
+          "label": "Za povolanie na kňazský stav",
+          "formularyId": "f082"
+        },
+        {
+          "label": "Za rehoľné povolania",
+          "formularyId": "f083"
+        }
+      ]
+    },
+    "om010": {
+      "name": "Za duchovné povolania",
+      "availability": {
+        "kind": "GENERATED_OBSERVANCE",
+        "generatedObservanceKey": "easter-vocations"
+      },
+      "mass": {
+        "formularyId": "f082",
+        "prefaceIds": [
+          "pf022",
+          "pf023",
+          "pf024",
+          "pf025",
+          "pf026"
+        ],
+        "allowEucharisticPrayerTwoPreface": true
+      },
+      "formularyChoices": [
+        {
+          "label": "Za povolanie na kňazský stav",
+          "formularyId": "f082"
+        },
+        {
+          "label": "Za rehoľné povolania",
+          "formularyId": "f083"
+        }
+      ]
+    },
+    "om011": {
+      "name": "Omša o Panne Márii v adventnom období",
+      "availability": {
+        "kind": "GENERATED_OBSERVANCE",
+        "generatedObservanceKey": "advent-marian"
+      },
+      "mass": {
+        "formularyId": "f020",
+        "prefaceIds": [
+          "pf053",
+          "pf054",
+          "pf002"
+        ],
+        "allowEucharisticPrayerTwoPreface": true
+      },
+      "contentVariants": [
+        {
+          "key": "FORMULARY_F022",
+          "mass": {
+            "prefaceIds": [
+              "pf055"
+            ]
+          }
+        },
+        {
+          "key": "FORMULARY_F023",
+          "mass": {
+            "prefaceIds": [
+              "pf056"
+            ]
+          }
+        },
+        {
+          "key": "FORMULARY_F024",
+          "mass": {
+            "prefaceIds": [
+              "pf057"
+            ]
+          }
+        },
+        {
+          "key": "FROM_DECEMBER_17",
+          "mass": {
+            "prefaceIds": [
+              "pf003"
+            ]
+          }
+        }
+      ],
+      "formularyChoices": [
+        {
+          "label": "Omša k preblahoslavenej Panne Marií",
+          "formularyId": "f020"
+        },
+        {
+          "label": "Preblahoslavená Panna Mária vyvolený potomok Izraela",
+          "formularyId": "f023"
+        },
+        {
+          "label": "Preblahoslavená Panna Mária pri Zvestovaní Pána",
+          "formularyId": "f024"
+        },
+        {
+          "label": "Navštívenie Preblahoslavenej Panny Márie",
+          "formularyId": "f025"
+        }
+      ]
+    },
+    "om012": {
+      "name": "Prosebné dni",
+      "availability": {
+        "kind": "GENERATED_OBSERVANCE",
+        "generatedObservanceKey": "rogation-days"
+      },
+      "mass": {
+        "formularyId": "f090",
+        "prefaceIds": [
+          "pf065"
+        ],
+        "allowEucharisticPrayerTwoPreface": true
+      },
+      "formularyChoices": [
+        {
+          "label": "V čase sejby 1.",
+          "formularyId": "f090"
+        },
+        {
+          "label": "V čase sejby 2.",
+          "formularyId": "f091"
+        }
+      ]
+    },
+    "om013": {
+      "name": "Kántrové dni",
+      "availability": {
+        "kind": "GENERATED_OBSERVANCE",
+        "generatedObservanceKey": "ember-days"
+      },
+      "mass": {
+        "allowEucharisticPrayerTwoPreface": true
+      },
+      "contentVariants": [
+        {
+          "key": "SPRING",
+          "mass": {
+            "formularyId": "f076",
+            "prefaceIds": [
+              "pf065"
+            ]
+          },
+          "formularyChoices": [
+            {
+              "label": "Za odpustenie hriechov 1.",
+              "formularyId": "f076"
+            },
+            {
+              "label": "Za odpustenie hriechov 2.",
+              "formularyId": "f077"
+            },
+            {
+              "label": "Za dar lásky",
+              "formularyId": "f078"
+            }
+          ]
+        },
+        {
+          "key": "SUMMER",
+          "mass": {
+            "formularyId": "f079",
+            "prefaceIds": [
+              "pf095"
+            ]
+          },
+          "formularyChoices": [
+            {
+              "label": "Za jednotu kresťanov 1.",
+              "formularyId": "f079"
+            },
+            {
+              "label": "Za jednotu kresťanov 2.",
+              "formularyId": "f080"
+            },
+            {
+              "label": "Za jednotu kresťanov 3.",
+              "formularyId": "f081"
+            },
+            {
+              "label": "Za povolanie na kňazský stav",
+              "formularyId": "f082"
+            },
+            {
+              "label": "Za rehoľné povolania",
+              "formularyId": "f083"
+            }
+          ]
+        },
+        {
+          "key": "AUTUMN",
+          "mass": {
+            "formularyId": "f084",
+            "prefaceIds": [
+              "pf014"
+            ]
+          },
+          "formularyChoices": [
+            {
+              "label": "Na poďakovanie Pánu Bohu 1.",
+              "formularyId": "f084"
+            },
+            {
+              "label": "Na poďakovanie Pánu Bohu 2.",
+              "formularyId": "f085"
+            },
+            {
+              "label": "Na poďakovanie za úrodu",
+              "formularyId": "f086"
+            }
+          ]
+        },
+        {
+          "key": "WINTER",
+          "mass": {
+            "formularyId": "f087",
+            "prefaceIds": [
+              "pf002"
+            ]
+          },
+          "formularyChoices": [
+            {
+              "label": "Za zachovanie pokoja a spravodlivosti 1.",
+              "formularyId": "f087"
+            },
+            {
+              "label": "Za zachovanie pokoja a spravodlivosti 2.",
+              "formularyId": "f088"
+            },
+            {
+              "label": "Za upevnenie rodín",
+              "formularyId": "f089"
+            }
+          ]
+        },
+        {
+          "key": "SPRING_OTHER_FORMULARY",
+          "mass": {
+            "formularyId": "f077",
+            "prefaceIds": [
+              "pf039",
+              "pf040",
+              "pf041",
+              "pf042"
+            ]
+          },
+          "formularyChoices": [
+            {
+              "label": "Za odpustenie hriechov 1.",
+              "formularyId": "f076"
+            },
+            {
+              "label": "Za odpustenie hriechov 2.",
+              "formularyId": "f077"
+            },
+            {
+              "label": "Za dar lásky",
+              "formularyId": "f078"
+            }
+          ]
+        },
+        {
+          "key": "SUMMER_VOCATIONS",
+          "mass": {
+            "formularyId": "f082",
+            "prefaceIds": [
+              "pf022",
+              "pf023",
+              "pf024",
+              "pf025",
+              "pf026",
+              "pf008",
+              "pf009"
+            ]
+          },
+          "formularyChoices": [
+            {
+              "label": "Za jednotu kresťanov 1.",
+              "formularyId": "f079"
+            },
+            {
+              "label": "Za jednotu kresťanov 2.",
+              "formularyId": "f080"
+            },
+            {
+              "label": "Za jednotu kresťanov 3.",
+              "formularyId": "f081"
+            },
+            {
+              "label": "Za povolanie na kňazský stav",
+              "formularyId": "f082"
+            },
+            {
+              "label": "Za rehoľné povolania",
+              "formularyId": "f083"
+            }
+          ]
+        },
+        {
+          "key": "AUTUMN_HARVEST",
+          "mass": {
+            "formularyId": "f086",
+            "prefaceIds": [
+              "pf065"
+            ]
+          },
+          "formularyChoices": [
+            {
+              "label": "Na poďakovanie Pánu Bohu 1.",
+              "formularyId": "f084"
+            },
+            {
+              "label": "Na poďakovanie Pánu Bohu 2.",
+              "formularyId": "f085"
+            },
+            {
+              "label": "Na poďakovanie za úrodu",
+              "formularyId": "f086"
+            }
+          ]
+        }
+      ]
+    },
+    "om014": {
+      "name": "Za jednotu kresťanov",
+      "availability": {
+        "kind": "GENERATED_OBSERVANCE",
+        "generatedObservanceKey": "christian-unity"
+      },
+      "mass": {
+        "formularyId": "f092",
+        "prefaceIds": [
+          "pf095"
+        ],
+        "allowEucharisticPrayerTwoPreface": true
+      },
+      "formularyChoices": [
+        {
+          "label": "Za jednotu kresťanov 1.",
+          "formularyId": "f092"
+        },
+        {
+          "label": "Za jednotu kresťanov 2.",
+          "formularyId": "f093"
+        },
+        {
+          "label": "Za jednotu kresťanov 3.",
+          "formularyId": "f094"
+        }
+      ]
+    },
+    "om015": {
+      "name": "Svätý rok 2025",
+      "availability": {
+        "kind": "USER_SELECTABLE"
+      },
+      "mass": {
+        "formularyId": "f009",
+        "allowEucharisticPrayerTwoPreface": false
+      },
+      "formularyChoices": [
+        {
+          "label": "Svätý rok 2025 1.",
+          "formularyId": "f009",
+          "prefaceIds": [
+            "pf036"
+          ],
+          "blessingDocumentId": "od055",
+          "blessingLabel": "Slávnostné požehnanie",
+          "blessingOrderDocumentId": "od165",
+          "blessingOrderVariant": "JUBILEE_FIRST"
+        },
+        {
+          "label": "Svätý rok 2025 2.",
+          "formularyId": "f010",
+          "prefaceIds": [
+            "pf037"
+          ],
+          "blessingDocumentId": "od056",
+          "blessingLabel": "Modlitba nad ľudom",
+          "blessingOrderDocumentId": "od165",
+          "blessingOrderVariant": "JUBILEE_SECOND"
+        },
+        {
+          "label": "Svätý rok 2025 3.",
+          "formularyId": "f011",
+          "prefaceIds": [
+            "pf038"
+          ],
+          "blessingDocumentId": "od057",
+          "blessingLabel": "Modlitba nad ľudom",
+          "blessingOrderDocumentId": "od165",
+          "blessingOrderVariant": "JUBILEE_THIRD"
+        }
+      ]
+    },
+    "om016": {
+      "name": "Pôstny",
+      "availability": {
+        "kind": "USER_SELECTABLE"
+      },
+      "mass": {
+        "prefaceIds": [
+          "pf039",
+          "pf040",
+          "pf041",
+          "pf042"
+        ],
+        "allowEucharisticPrayerTwoPreface": false
+      },
+      "contentVariants": [
+        {
+          "key": "LENT_WEEK_5",
+          "mass": {
+            "prefaceIds": [
+              "pf059"
+            ]
+          }
+        },
+        {
+          "key": "LENT_WEEK_6",
+          "mass": {
+            "prefaceIds": [
+              "pf060"
+            ]
+          }
+        },
+        {
+          "key": "SUNDAY_1",
+          "mass": {
+            "prefaceIds": [
+              "pf043"
+            ]
+          }
+        },
+        {
+          "key": "SUNDAY_2",
+          "mass": {
+            "prefaceIds": [
+              "pf044"
+            ]
+          }
+        },
+        {
+          "key": "SUNDAY_3",
+          "mass": {
+            "prefaceIds": [
+              "pf045",
+              "pf039",
+              "pf040",
+              "pf041",
+              "pf042"
+            ]
+          }
+        },
+        {
+          "key": "SUNDAY_4",
+          "mass": {
+            "prefaceIds": [
+              "pf046",
+              "pf039",
+              "pf040",
+              "pf041",
+              "pf042"
+            ]
+          }
+        },
+        {
+          "key": "SUNDAY_5",
+          "mass": {
+            "prefaceIds": [
+              "pf047",
+              "pf039",
+              "pf040",
+              "pf041",
+              "pf042"
+            ]
+          }
+        },
+        {
+          "key": "SUNDAY_6",
+          "mass": {
+            "prefaceIds": [
+              "pf048"
+            ]
+          }
+        }
+      ]
+    },
+    "om017": {
+      "name": "Panna Mária v sobotu",
+      "availability": {
+        "kind": "USER_SELECTABLE"
+      },
+      "mass": {
+        "formularyId": "f012",
+        "prefaceIds": [
+          "pf053",
+          "pf054"
+        ],
+        "allowEucharisticPrayerTwoPreface": true
+      },
+      "contentVariants": [
+        {
+          "key": "ADVENT",
+          "mass": {
+            "prefaceIds": [
+              "pf053",
+              "pf054",
+              "pf002"
+            ]
+          }
+        },
+        {
+          "key": "FROM_DECEMBER_17",
+          "mass": {
+            "prefaceIds": [
+              "pf003"
+            ]
+          }
+        },
+        {
+          "key": "CHRISTMAS_AFTER_EPIPHANY",
+          "mass": {
+            "prefaceIds": [
+              "pf027",
+              "pf053",
+              "pf054"
+            ]
+          }
+        }
+      ],
+      "formularyChoices": [
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 1.",
+          "formularyId": "f012"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 2.",
+          "formularyId": "f013"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 3.",
+          "formularyId": "f014"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 4.",
+          "formularyId": "f015"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 5.",
+          "formularyId": "f016"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 6.",
+          "formularyId": "f017"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 7.",
+          "formularyId": "f018"
+        },
+        {
+          "label": "Omša k preblahoslavenej Panne Marií 8.",
+          "formularyId": "f019"
+        }
+      ]
+    }
+  }
+}

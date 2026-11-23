@@ -1,0 +1,2900 @@
+{
+  "schemaVersion": 1,
+  "items": {
+    "lp001": {
+      "locale": "hr",
+      "name": "Chorvátčina",
+      "sections": {
+        "introduction": {
+          "title": "<b>UVODNI OBREDI – ÚVODNÉ OBRADY</b><br><br>ULAZNA PJESMA – ÚVODNÝ SPEV",
+          "lines": [
+            {
+              "primary": "U ime Oca i Sina i Duha Svetoga.",
+              "translation": "V mene Otca i Syna i Ducha Svätého."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Mir vama.",
+              "translation": "Pán s vami"
+            },
+            {
+              "primary": "I s duhom tvojim.",
+              "translation": "I s duchom Tvojím.\n"
+            },
+            {
+              "primary": "Braćo i sestre, priznajmo svoje grijehe da mognemo proslaviti sveta otajstva.",
+              "translation": "Bratia a sestry, uznajme svoje hriechy, aby sme mohli s čistým srdcom sláviť sväté tajomstvá."
+            },
+            {
+              "primary": "I spovijedam se Bogu svemogućemu\ni vama, braćo, da sagriješih vrlo mnogo\nmišlju, riječju,\ndjelom i propustom:\nmoj grijeh, moj grijeh,\nmoj preveliki grijeh.\nzato molim blaženu Mariju vazda Djevicu,\nsve anđele i svete,\ni vas braćo, da se molite za me\nGospodinu, Bogu našemu.",
+              "translation": "Vyznávam všemohúcemu Bohu i vám, bratia a sestry, že som veľa zhrešil myšlienkami, slovami, skutkami a zanedbávaním dobrého. Moja vina, moja vina, moja preveľká vina. Preto prosím blahoslavenú Máriu, vždy Pannu, všetkých anjelov a svätých, i vás, bratia a sestry, modlite sa za mňa k Pánu Bohu nášmu."
+            },
+            {
+              "primary": "Smilovao nam se svemogući Bog, otpustio nam grijehe naše i priveo nas u život vječni.",
+              "translation": "Nech sa nad nami zmiluje všemohúci Boh, nech nám hriechy odpustí a privedie nás do večného života."
+            },
+            {
+              "primary": "Amen.\n"
+            },
+            {
+              "primary": "Gospodine, smiluj se.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Gospodine, smiluj se.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Kriste, smiluj se.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Kriste, smiluj se.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Gospodine, smiluj se.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Gospodine, smiluj se.",
+              "translation": "Pane, zmiluj sa.\n"
+            }
+          ]
+        },
+        "gloria": {
+          "title": "SLAVA BOGU – GLÓRIA",
+          "lines": [
+            {
+              "primary": "Slava Bogu na visini.\nI na zemlji mir ljudima dobre volje.\nHvalimo te. Blagoslivljamo te.\nKlanjamo ti se. Slavimo te.\nZahvaljujemo ti radi velike slave tvoje.\nGospodine Bože, Kralju nebeski,\nBože Oče svemogući.\nGospodine Sine jedinorođeni, Isuse Kriste.\nGospodine Bože, Jaganjče Božji, Sine Očev.\nKoji oduzimaš grijehe svijeta, smiluj nam se.\nKoji oduzimaš grijehe svijeta, primi našu molitvu.\nKoji sjediš s desne Ocu, smiluj nam se.\nJer ti si jedini svet.\nTi si jedini Gospodin.\nTi si jedini Svevišnji, Isuse Kriste.\nSa Svetim Duhom, u slavi Boga Oca.\nAmen.\n"
+            }
+          ]
+        },
+        "reading": {
+          "title": "ZBORNA MOLITVA – MODLITBA DŇA<br><br><b>SLUŽBA RIJEČI – LITURGIA SLOVA</b><br><br>ČITANJE – ČÍTANIE<br>Po prečítaní čítania:",
+          "lines": [
+            {
+              "primary": "Riječ Gospodnja.",
+              "translation": "Počuli sme Božie slovo."
+            },
+            {
+              "primary": "Bogu hvala.",
+              "translation": "Bohu vďaka.\n"
+            }
+          ]
+        },
+        "gospelOpening": {
+          "title": "EVANVANĐELJA - EVANJELIUM",
+          "lines": [
+            {
+              "primary": "Gospodin s vama.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "I s duhom tvojim.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Čitanje svetog evanđelja po...",
+              "translation": "Čítanie zo svätého evanjelia podľa..."
+            },
+            {
+              "primary": "Slava tebi, Gospodine.",
+              "translation": "Sláva tebe, Pane.\n"
+            }
+          ]
+        },
+        "gospelConclusion": {
+          "title": "Po prečítaní evanjelia:",
+          "lines": [
+            {
+              "primary": "Riječ Gospodnja.",
+              "translation": "Počuli sme slovo Pánovo."
+            },
+            {
+              "primary": "Slava tebi, Kriste.",
+              "translation": "Chvála tebe, Kriste.\n"
+            }
+          ]
+        },
+        "creed": {
+          "title": "NICEJSKO-CARIGRADSKO VJEROVANJE – VYZNANIE VIERY",
+          "lines": [
+            {
+              "primary": "Veujem u jednoga Boga.\nOca svemogućega, stvoritelja neba i zemlje,\nsvega vidljivoga i nevidljivoga.\nI u jednoga Gospodina Isusa Krista,\njedinorođenoga Sina Božjega.\nRođenog od Oca prije svih vjekova.\nBoga od Boga, svjetlo od svjetla,\npravoga Boga od pravoga Boga.\nRođena , ne stvorena, istobitna s Ocem,\npo kome je sve stvoreno.\nKoji je radi nas ljudi i radi našega spasenja\nsišao s nebesa.\nI utjelovio se po Duhu Svetomu od Marije Djevice:\ni postao čovjekom.\nRaspet također za nas:\nPod Poncijem Pilatom mučen i pokopan.\nI uskrsnuo treći dan po Svetom Pismu.\nI uzašao na nebo: sjedi s desna Ocu.\nI opet će doći u slavi suditi žive i mrtve,\ni njegovu kraljevstvu neće biti kraja.\nI u Duha Svetoga, Gospodina i životvorca;\nkoji izlazi od Oca i Sina.\nKoji se s Ocem i Sinom skupa časti i zajedno slavi;\nkoji je govorio po prorocima.\nI u jednu svetu katoličku i apostolsku Crkvu.\nIspovijedam jedno krštenje za oproštenje grijeha.\nI isčekujem uskrsnuće mrtvih.\nI život budućega vijeka.\nAmen.\n"
+            }
+          ]
+        },
+        "preparationOfGifts": {
+          "title": "VJERNIČKA MOLITVA – SPOLOČNÉ MODLITBY VERIACICH<br><br><b>EUHARISTIJSKA SLUŽBA – LITURGIA EUCHARISTIE</b><br>",
+          "lines": [
+            {
+              "primary": "Blagoslovljen si, Gospodine, Bože svega svijeta: od tvoje darežljivosti primismo kruh što ti ga prinosimo; ovaj plod zemlje i rada ruku čovječjih postat će nam kruhom života.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali tento chlieb. Obetujeme ti ho ako plod zeme a práce ľudských rúk, aby sa nám stal chlebom života."
+            },
+            {
+              "primary": "Blagoslovljen Bog u vijeke!",
+              "translation": "Požehnaný Boh naveky!"
+            },
+            {
+              "primary": "Blagoslovljen si, Gospodine, Bože svega svijeta: od tvoje darežljivosti primismo vino što ti ga prinosimo; ovaj plod trsa i rada ruku čovječjih postat će nam piće duhovno.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali toto víno. Obetujeme ti ho ako plod viniča a práce ľudských rúk, aby sa nám stalo duchovným nápojom."
+            },
+            {
+              "primary": "Blagoslovljen Bog u vijeke!",
+              "translation": "Požehnaný Boh naveky!\n"
+            },
+            {
+              "primary": "Molite, braćo i sestre, da moja i vaša žrtva bude ugodna Bogu Ocu svemogućemu.",
+              "translation": "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila všemohúcemu Bohu Otcovi."
+            },
+            {
+              "primary": "Primio Gospodin žrtvu iz tvojih ruku na hvalu i slavu svojega imena, i na korist nama i čitavoj svojoj svetoj Crkvi.",
+              "translation": "Nech Pán prijeme obetu z tvojich rúk na chválu a slávu svojho mena, na úžitok nám i celej svätej Cirkvi.\n"
+            }
+          ]
+        },
+        "preface": {
+          "title": "DAROVNA MOLITVA – MODLITBA NAD OBETNÝMI DARMI.<br><br>PREFÁCIA",
+          "lines": [
+            {
+              "primary": "Gospodin s vama.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "I s duhom tvojim.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Gore srca.",
+              "translation": "Hore srdcia"
+            },
+            {
+              "primary": "Imamo kod Gospodina.",
+              "translation": "Máme ich u Pána."
+            },
+            {
+              "primary": "Hvalu dajmo Gospodinu Bogu našemu.",
+              "translation": "Vzdávajme vďaky Pánovi, nášmu Bohu."
+            },
+            {
+              "primary": "Dostojno je i pravedno.",
+              "translation": "Je to dôstojné a správne.\n"
+            },
+            {
+              "primary": "Svet, svet, svet\nGospodin Bog Sabaot.\nPuna su nebesa i zemlja tvoje slave.\nHosana u visini.\nBlagoslovljen koji dolazi u ime Gospodnje.\nHosana u visini.\n"
+            }
+          ]
+        },
+        "eucharisticAcclamations": {
+          "title": "EUHARISTIJSKA MOLITVA– EUCHARISTICKÁ MODLITBA<br>Po premenení:",
+          "lines": [
+            {
+              "primary": "Tajna vjere:",
+              "translation": "Hľa, tajomstvo viery."
+            },
+            {
+              "primary": "Tvoju smrt, Gospodine, naviještamo, tvoje uskrsnuće slavimo, tvoj slavni dolazak iščekujemo.",
+              "translation": "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Kad god blagujemo ovaj kruh i pijemo kalež tvoju smrt, Gospodine, naviještamo, tvoj slavni dolazak iščekujemo. ",
+              "translation": "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Spasi nas. Spasitelju svijeta, koji si nas svojim križem i uskrsnućem oslobodio.",
+              "translation": "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.\n"
+            }
+          ]
+        },
+        "communion": {
+          "title": "OBRED PRIČESTI – OBRAD PRIJÍMANIA",
+          "lines": [
+            {
+              "primary": "Spasonosnim zapovijedima potaknuti i božanskim naukom poučeni usuđujemo se govoriti:",
+              "translation": "Na príkaz nášho spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:"
+            },
+            {
+              "primary": "Oče naš, koji jesi na nebesima,\nsveti se ime tvoje,\ndođi kraljevstvo tvoje,\nbudi volja tvoja, kako na nebu tako i na zemlji.\nKruh naš svagdanji daj nam danas.\nI otpusti nam duge naše\nkako i mi otpuštamo dužnicima našim.\nI ne uvedi nas u napast,\nnego izbavi nas od zla.\n"
+            },
+            {
+              "primary": "I zbavi nas, molimo, Gospodine, od svih zala, daj milostivo mir u naše dane, da s pomoću tvoga milosrđa budemo svagda i slobodni od grijeha i sigurni od sviju nereda: čekajući blaženu nadu: dolazak Spasitelja našega Isusa Krista."
+            },
+            {
+              "primary": "Jer tvoje je kraljevstvo i slava i moć  u vjekove.",
+              "translation": "Lebo tvoje je kráľovstvo a moc i sláva naveky.\n"
+            },
+            {
+              "primary": "ospodine Isuse Kriste, ti si rekao svojim apostolima: mir vam ostavljam, mir vam svoj dajem; molimo, ne gledaj naše grijehe, nego vjeru svoje Crkve; daruj joj mir i jedinstvo kako je volja tvoja. Koji živiš i kraljuješ u vijeke vjekova."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Mir Gospodnji bio vazda s vama.",
+              "translation": "Pokoj Pánov nech je vždy s vami."
+            },
+            {
+              "primary": "I s duhom tvojim.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Pružite mir jedni drugima.",
+              "translation": "Dajte si znak pokoja.\n"
+            }
+          ]
+        },
+        "communionReception": {
+          "title": "JAGABJČE BOŽJI – BARÁNOK BOŽÍ",
+          "lines": [
+            {
+              "primary": "Jaganjče Božji, koji oduzimaš grijehe svijeta, smiluj nam se.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Jaganjče Božji, koji oduzimaš grijehe svijeta, smiluj nam se.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Jaganjče Božji, koji oduzimaš grijehe svijeta, daruj nam mir.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj."
+            },
+            {
+              "primary": "Evo Jaganjca Božjeg, evo onoga koji oduzima grijehe svijeta. Blago onima koji su pozvani na gozbu Jaganjčevu.",
+              "translation": "Hľa, Baránok Boží, ktorý sníma hriechy sveta. Blahoslavení tí, čo sú pozvaní na hostinu Baránkovu."
+            },
+            {
+              "primary": "Gospodine, nisam dostojan da uniđeš pod krov moj, nego samo reci riječ   i ozdravit će duša moja.",
+              "translation": "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."
+            },
+            {
+              "primary": "Tijelo Kristovo.",
+              "translation": "Telo Kristovo."
+            },
+            {
+              "primary": "Amen.\n"
+            }
+          ]
+        },
+        "conclusion": {
+          "title": "Popričesna molitva– MODLITBA PO PRIJÍMANÍ<br><br><b>ZAVRŠNI OBRED - ZÁVEREČNÉ OBRADY</b><br>",
+          "lines": [
+            {
+              "primary": "Gospodin s vama.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "I s duhom tvojim.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primaryFormat": "HTML",
+              "primary": "Blagoslovio vas Svemogući Bog, Otac i Sin i <font color='#A32626'>†</font> Duh Sveti.",
+              "translation": "Nech vás žehná všemohúci Boh, Otec i Syn † i Duch Svätý."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Idite u miru.",
+              "translation": "Choďte v mene Božom."
+            },
+            {
+              "primary": "Bogu hvala.",
+              "translation": "Bohu vďaka."
+            }
+          ]
+        }
+      }
+    },
+    "lp002": {
+      "locale": "en",
+      "name": "Angličtina",
+      "sections": {
+        "introduction": {
+          "title": "<b>THE INTRODUCTORY RITES – ÚVODNÉ OBRADY</b><br><br>THE ENTRANCE SONG – ÚVODNÝ SPEV",
+          "lines": [
+            {
+              "primary": "In the name of the Father, and of the Son, and of the Holy Spirit.",
+              "translation": "V mene Otca i Syna i Ducha Svätého."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "The Lord be with you.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "And with your spirit.",
+              "translation": "I s duchom Tvojím.\n"
+            },
+            {
+              "primary": "My brothers and sisters, to prepare ourselves to celebrate the sacred mysteries, let us call to mind our sins.",
+              "translation": "Bratia a sestry, uznajme svoje hriechy, aby sme mohli s čistým srdcom sláviť sväté tajomstvá."
+            },
+            {
+              "primary": "I confess to almighty God,\nand to you, my brothers and sisters,\nthat I have greatly sinned,\nin my thoughts and in my words,\nin what I have done and in what I have failed to do,\nthrough my fault, through my fault,\nthrough my most grievous fault;\ntherefore I ask blessed Mary ever-Virgin,\nall the Angels and Saints,\nand you, my brothers and sisters,\nto pray for me to the Lord our God.",
+              "translation": "Vyznávam všemohúcemu Bohu i vám, bratia a sestry, že som veľa zhrešil myšlienkami, slovami, skutkami a zanedbávaním dobrého. Moja vina, moja vina, moja preveľká vina. Preto prosím blahoslavenú Máriu, vždy Pannu, všetkých anjelov a svätých, i vás, bratia a sestry, modlite sa za mňa k Pánu Bohu nášmu."
+            },
+            {
+              "primary": "May almighty God have mercy on us, forgive us our sins, and bring us to everlasting life.",
+              "translation": "Nech sa nad nami zmiluje všemohúci Boh, nech nám hriechy odpustí a privedie nás do večného života."
+            },
+            {
+              "primary": "Amen.\n"
+            },
+            {
+              "primary": "Lord, have mercy.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Lord, have mercy.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Christ, have mercy.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Christ, have mercy.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Lord, have mercy.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Lord, have mercy.",
+              "translation": "Pane, zmiluj sa.\n"
+            }
+          ]
+        },
+        "gloria": {
+          "title": "THE GLORIA – GLÓRIA",
+          "lines": [
+            {
+              "primary": "Glory to God in the highest,\nand on earth peace to people\nof good will.\nWe praise you,\nwe bless you,\nwe adore you,\nwe glorify you,\nwe give you thanks for your great glory,\nLord God, heavenly King,\nO God, almighty Father.\nLord Jesus Christ, Only Begotten Son,\nLord God, Lamb of God,\nSon of the Father,\nyou take away the sins of the world,\nhave mercy on us;\nyou take away the sins of the world,\nreceive our prayer;\nyou are seated at the right hand \nof the Father,\nhave mercy on us.\nFor you alone are the Holy One,\nyou alone are the Lord,\nyou alone are the Most High,\nJesus Christ, with the Holy Spirit,\nin the glory of God the Father.\nAmen.\n"
+            }
+          ]
+        },
+        "reading": {
+          "title": "THE COLLECT – MODLITBA DŇA<br><br><b>THE LITURGY OF THE WORD – LITURGIA SLOVA</b><br><br>READING – ČÍTANIE<br>Po prečítaní čítania:",
+          "lines": [
+            {
+              "primary": "The Word of the Lord.",
+              "translation": "Počuli sme Božie slovo."
+            },
+            {
+              "primary": "Thanks be to God.",
+              "translation": "Bohu vďaka.\n"
+            }
+          ]
+        },
+        "gospelOpening": {
+          "title": "GOSPEL - EVANJELIUM",
+          "lines": [
+            {
+              "primary": "The Lord be with you.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "And with your spirit.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "A reading from the holy Gospel according to...",
+              "translation": "Čítanie zo svätého evanjelia podľa..."
+            },
+            {
+              "primary": "Glory to you, O Lord.",
+              "translation": "Sláva tebe, Pane.\n"
+            }
+          ]
+        },
+        "gospelConclusion": {
+          "title": "Po prečítaní evanjelia:",
+          "lines": [
+            {
+              "primary": "The Gospel of the Lord.",
+              "translation": "Počuli sme slovo Pánovo."
+            },
+            {
+              "primary": "Praise to you, Lord Jesus Christ.",
+              "translation": "Chvála tebe, Kriste.\n"
+            }
+          ]
+        },
+        "creed": {
+          "title": "THE CREED – VYZNANIE VIERY",
+          "lines": [
+            {
+              "primary": "I believe in one God,\nthe Father almighty,\nmaker of heaven and earth,\nof all things visible and invisible.\nI believe in one Lord Jesus Christ,\nthe Only Begotten Son of God,\nborn before of the Father before all ages.\nGod from God, Light from Light,\ntrue God from true God,\nbegotten, not made,\nconsubstantial with the Father;\nthrough him all things were made.\nFor us men and for our salvation\nhe came down from heaven,\nand by the Holy Spirit was incarnate\nof the Virgin Mary,\nand became man.\nFor our sake he was crucified\nunder Pontius Pilate,\nhe suffered death and was buried,\nand rose again on the third day\nin accordance with the Scriptures.\nHe ascended into heaven\nand is seated at the right hand\nof the Father.\nHe will come again in glory\nto judge the living and the dead\nand his kingdom will have no end.\nI believe in the Holy Spirit,\nthe Lord, the giver of life,\nwho proceeds from the Father\nand the Son,\nwho with the Father and the Son\nis adored and glorified,\nwho has spoken through the prophets.\nI believe in one, holy, catholic\nand apostolic Church.\nI confess one Baptism\nfor the forgiveness of sins\nand I look forward to the resurrection\nof the dead and the life of the world to come.\nAmen.\n"
+            }
+          ]
+        },
+        "preparationOfGifts": {
+          "title": "THE PRAYER OF THE FAITHFUL – SPOLOČNÉ MODLITBY VERIACICH<br><br><b>THE LITURGY OF THE EUCHARIST – LITURGIA EUCHARISTIE</b><br>",
+          "lines": [
+            {
+              "primary": "Blessed are you, Lord God of all creation,\nfor through your goodness we have received\nthe bread we offer you:\nfruit of the earth and work of human hands,\nit will become for us the bread of life.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali tento chlieb. Obetujeme ti ho ako plod zeme a práce ľudských rúk, aby sa nám stal chlebom života."
+            },
+            {
+              "primary": "Blessed be God for ever.",
+              "translation": "Požehnaný Boh naveky!"
+            },
+            {
+              "primary": "Blessed are you, Lord God of all creation,\nfor through your goodness we have received\nthe wine we offer you:\nfruit of the vine and work of human hands\nit will become our spiritual drink.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali toto víno. Obetujeme ti ho ako plod viniča a práce ľudských rúk, aby sa nám stalo duchovným nápojom."
+            },
+            {
+              "primary": "Blessed be God for ever.",
+              "translation": "Požehnaný Boh naveky!\n"
+            },
+            {
+              "primary": "Pray, brethren (brothers and sisters), that my sacrifice may be acceptable to God, the almighty Father.",
+              "translation": "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila všemohúcemu Bohu Otcovi."
+            },
+            {
+              "primary": "May the Lord accept the sacrifice at your hands for the praise and glory of his name, for our good and the good of all his holy Church.",
+              "translation": "Nech Pán prijeme obetu z tvojich rúk na chválu a slávu svojho mena, na úžitok nám i celej svätej Cirkvi.\n"
+            }
+          ]
+        },
+        "preface": {
+          "title": "THE PRAYER OVER THE GIFTS – MODLITBA NAD OBETNÝMI DARMI.<br><br>PREFACE – PREFÁCIA",
+          "lines": [
+            {
+              "primary": "The Lord be with you.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "And with your spirit.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Lift up your hearts.",
+              "translation": "Hore srdcia"
+            },
+            {
+              "primary": "We lift them up to the Lord.",
+              "translation": "Máme ich u Pána."
+            },
+            {
+              "primary": "Let us give thanks to the Lord our God.",
+              "translation": "Vzdávajme vďaky Pánovi, nášmu Bohu."
+            },
+            {
+              "primary": "It is right and just.",
+              "translation": "Je to dôstojné a správne.\n"
+            },
+            {
+              "primary": "Holy, Holy, Holy Lord God of hosts.\nHeaven and earth are full of your glory.\nHosanna in the highest.\nBlessed is he who comes\nin the name of the Lord.\nHosanna in the highest.\n"
+            }
+          ]
+        },
+        "eucharisticAcclamations": {
+          "title": "THE EUCHARISTIC PRAYER – EUCHARISTICKÁ MODLITBA<br>Po premenení:",
+          "lines": [
+            {
+              "primary": "The mystery of faith.",
+              "translation": "Hľa, tajomstvo viery."
+            },
+            {
+              "primary": "We proclaim your Death, O Lord, and profess your Resurrection until you come again."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "The mystery of faith.",
+              "translation": "Hľa tajomstvo viery."
+            },
+            {
+              "primary": "When we eat this Bread and drink this Cup, we proclaim your Death, O Lord, until you come again.",
+              "translation": "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "The mystery of faith.",
+              "translation": "Hľa tajomstvo viery."
+            },
+            {
+              "primary": "Save us, Saviour of the world, for by your Cross and Resurrection you have set us free.",
+              "translation": "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.\n"
+            }
+          ]
+        },
+        "communion": {
+          "title": "THE COMMUNION RITE – OBRAD PRIJÍMANIA",
+          "lines": [
+            {
+              "primary": "At the Saviour's command and formed by divine teaching, we dare to say:",
+              "translation": "Na príkaz nášho spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:"
+            },
+            {
+              "primary": "Our Father, who are in heaven,\nhallowed be thy name;\nthy kingdom come;\nthy will be done\non earth as it is in heaven.\nGive us this day our daily bread,\nand forgive us our trespasses,\nas we forgive those who trespass\nagainst us;\nand lead us not into temptation,\nbut deliver us from evil.\n"
+            },
+            {
+              "primary": "Deliver us, Lord, we pray, from every evil, graciously grant peace in our days, that, by the help of your mercy, we may be always free from sin and safe from all distress, as we await the blessed hope and the coming of our Saviour, Jesus Christ."
+            },
+            {
+              "primary": "For the kingdom, the power and the glory are yours now and for ever.",
+              "translation": "Lebo tvoje je kráľovstvo a moc i sláva naveky.\n"
+            },
+            {
+              "primary": "Lord Jesus Christ, who said to your Apostles, Peace I leave you, my peace I give you, Look not on our sins, but on the faith of your Church, and graciously grant her peace and unity in accordance with your will. Who live and reign forever and ever."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "The Peace of the Lord be with you always.",
+              "translation": "Pokoj Pánov nech je vždy s vami."
+            },
+            {
+              "primary": "And with your spirit.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Let us offer each other the sign of peace.",
+              "translation": "Dajte si znak pokoja.\n"
+            }
+          ]
+        },
+        "communionReception": {
+          "title": "THE LAMB OF GOD – BARÁNOK BOŽÍ",
+          "lines": [
+            {
+              "primary": "Lamb of God, you take away the sins of the world, have mercy on us.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Lamb of God, you take away the sins of the world, have mercy on us.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Lamb of God, you take away the sins of the world, grant us peace.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj."
+            },
+            {
+              "primary": "Behold the Lamb of God, behold him who takes away the sins of the world. Blessed are those called to the supper of the Lamb.",
+              "translation": "Hľa Baranok Boží, ktorý sníma hriechy sveta. Blažení tí, čo sú pozvaní na hostinu Baránkovu."
+            },
+            {
+              "primary": "Lord, I am not worthy you that you should enter under my roof, but only say the word and my soul shall be healed.",
+              "translation": "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."
+            },
+            {
+              "primary": "The Body (Blood) of Christ.",
+              "translation": "Telo Kristovo."
+            },
+            {
+              "primary": "Amen.\n"
+            }
+          ]
+        },
+        "conclusion": {
+          "title": "THE PRAYER AFTER COMMUNION – MODLITBA PO PRIJÍMANÍ<br><br><b>THE CONCLUDING RITE - ZÁVEREČNÉ OBRADY</b><br>",
+          "lines": [
+            {
+              "primary": "The Lord be with you.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "And with your spirit.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primaryFormat": "HTML",
+              "primary": "May almighty God bless you, the Father, and the Son, <font color='#A32626'>†</font> and the Holy Spirit.",
+              "translation": "Nech vás žehná všemohúci Boh, Otec i Syn † i Duch Svätý."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Go forth, the Mass is ended. Go and announce the Gospel of the Lord. Go in peace, glorifying the Lord by your life. Go in peace.",
+              "translation": "Choďte v mene Božom."
+            },
+            {
+              "primary": "Thanks be to God.",
+              "translation": "Bohu vďaka."
+            }
+          ]
+        }
+      }
+    },
+    "lp003": {
+      "locale": "fr",
+      "name": "Francúzština",
+      "sections": {
+        "introduction": {
+          "title": "<b>OUVERTURE DE LA CÉLÉBRATION – ÚVODNÉ OBRADY</b><br><br>CHANT D´ENTRÈE – ÚVODNÝ SPEV",
+          "lines": [
+            {
+              "primary": "Au nom du Père, et du Fils, et du Saint-Esprit.",
+              "translation": "V mene Otca i Syna i Ducha Svätého."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Le Seigneur soit avec vous.",
+              "translation": "Pán s vami"
+            },
+            {
+              "primary": "Et avec votre esprit.",
+              "translation": "I s duchom Tvojím.\n"
+            },
+            {
+              "primary": "Frères et sœurs, préparons-nous à célébrer le mystère de l'Eucharistie, en reconnaissant que nous avons péché.",
+              "translation": "Bratia a sestry, uznajme svoje hriechy, aby sme mohli s čistým srdcom sláviť sväté tajomstvá."
+            },
+            {
+              "primary": "Je confesse à Dieu tout-puissant,\nje reconnais devant vous, frères et sœurs,   \nque j'ai péché\nen pensée, en parole,\npar action et par omission,\noui, j'ai vraiment péché.\nC'est pourquoi je supplie\nla bienheureuse Vierge Marie,\nles anges et tous les saints,\net vous aussi, frères et sœurs,\nde prier pour moi\nle Seigneur notre Dieu.",
+              "translation": "Vyznávam všemohúcemu Bohu i vám, bratia a sestry, že som veľa zhrešil myšlienkami, slovami, skutkami a zanedbávaním dobrého. Moja vina, moja vina, moja preveľká vina. Preto prosím blahoslavenú Máriu, vždy Pannu, všetkých anjelov a svätých, i vás, bratia a sestry, modlite sa za mňa k Pánu Bohu nášmu."
+            },
+            {
+              "primary": "Que Dieu tout-puissant nous fasse miséricorde ; qu'il nous pardonne nos péchés et nous conduise à la vie éternelle.",
+              "translation": "Nech sa nad nami zmiluje všemohúci Boh, nech nám hriechy odpustí a privedie nás do večného života."
+            },
+            {
+              "primary": "Amen.\n"
+            },
+            {
+              "primary": "Seigneur, prends pitié.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Seigneur, prends pitié.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Ô Christ, prends pitié.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Ô Christ, prends pitié.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Seigneur, prends pitié.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Seigneur, prends pitié.",
+              "translation": "Pane, zmiluj sa.\n"
+            }
+          ]
+        },
+        "gloria": {
+          "title": "GLOIRE – GLÓRIA",
+          "lines": [
+            {
+              "primary": "Gloire à Dieu,\nau plus haut des cieux,\net paix sur la terre\naux hommes qu'Il aime.\nNous te louons, nous te bénissons,\nnous t'adorons, nous te glorifions,\nnous te rendons grâce,\npour ton immense gloire,\nSeigneur Dieu, Roi du ciel,\nDieu le Père tout-puissant.\nSeigneur, Fils unique, Jésus Christ,\nSeigneur Dieu, Agneau de Dieu,\nle Fils du Père;\ntoi qui enlèves les péchés du monde,\nprends pitié de nous;\ntoi qui enlèves les péchés du monde,\nreçois notre prière;\ntoi qui es assis à la droite du Père,\nprends pitié de nous.\nCar toi seul es Saint,\ntoi seul es Seigneur,\ntoi seul es le Très-Haut:\nJésus Christ, avec le Saint-Esprit\ndans la gloire de Dieu le Père.\nAmen.\n"
+            }
+          ]
+        },
+        "reading": {
+          "title": "PIERÈRE D´OUVERTURE – MODLITBA DŇA<br><br><b>LITURGIE DE LA PAROLE – LITURGIA SLOVA</b><br><br>LECTURE – ČÍTANIE<br>Po prečítaní čítania:",
+          "lines": [
+            {
+              "primary": "Parole du Seigneur.",
+              "translation": "Počuli sme Božie slovo."
+            },
+            {
+              "primary": "Nous rendons grâce à Dieu.",
+              "translation": "Bohu vďaka.\n"
+            }
+          ]
+        },
+        "gospelOpening": {
+          "title": "ÉVANGILE - EVANJELIUM",
+          "lines": [
+            {
+              "primary": "Le Seigneur soit avec vous.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Et avec votre esprit.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Évangile de Jésus-Christ selon saint...",
+              "translation": "Čítanie zo svätého evanjelia podľa..."
+            },
+            {
+              "primary": "Gloire à toi, Seigneur.",
+              "translation": "Sláva tebe, Pane.\n"
+            }
+          ]
+        },
+        "gospelConclusion": {
+          "title": "Po prečítaní evanjelia:",
+          "lines": [
+            {
+              "primary": "Acclamons la Parole de Dieu.",
+              "translation": "Počuli sme slovo Pánovo."
+            },
+            {
+              "primary": "Louange à toi, Seigneur Jésus.",
+              "translation": "Chvála tebe, Kriste.\n"
+            }
+          ]
+        },
+        "creed": {
+          "title": "CREDO – VYZNANIE VIERY",
+          "lines": [
+            {
+              "primary": "Je crois en un seul Dieu,\nle Père tout-puissant,\ncréateur du ciel et de la terre,\nde l'univers visible et invisible.\nJe crois en un seul Seigneur,\nJésus Christ, le Fils unique de Dieu,\nné du Père avant tous les siècles:\nIl est Dieu, né de Dieu,\nlumière, née de la lumière,\nvrai Dieu, né du vrai Dieu.\nEngendré, non pas créé,\nconsubstantiel au Père ;\net par lui tout a été fait.\nPour nous les hommes, et pour\nnotre salut, il descendit du ciel.\nPar l'Esprit Saint,\nil a pris chair de la Vierge Marie,\net s'est fait homme.\nCrucifié pour nous\nsous Ponce Pilate,\nil souffrit sa Passion\net fut mis au tombeau.\nIl ressuscita le troisième jour,\nconformément aux Écritures,\net il monta au ciel;\nil est assis à la droite du Père.\nIl reviendra dans la gloire,\npour juger les vivants et les morts;\net son règne n'aura pas de fin.\nJe crois en l'Esprit Saint,\nqui est Seigneur et qui donne la vie;\nil procède du Père et du Fils;\nAvec le Père et le Fils\nil reçoit même adoration\net même gloire;\nil a parlé par les prophètes.\nJe crois en l'Église, une, sainte,\ncatholique et apostolique.\nJe reconnais un seul baptême\npour le pardon des péchés.\nJ'attends la résurrection des morts,\net la vie du monde à venir.\nAmen.\n"
+            }
+          ]
+        },
+        "preparationOfGifts": {
+          "title": "PIÈRE UNIVERSELLE – SPOLOČNÉ MODLITBY VERIACICH<br><br><b>LITURGIE EUCHARISTIQE – LITURGIA EUCHARISTIE</b><br>",
+          "lines": [
+            {
+              "primary": "Tu es béni, Seigneur, Dieu de l'univers : nous avons reçu de ta bonté le pain que nous te présentons, fruit de la terre et du travail des hommes ; il deviendra pour nous le pain de la vie.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali tento chlieb. Obetujeme ti ho ako plod zeme a práce ľudských rúk, aby sa nám stal chlebom života."
+            },
+            {
+              "primary": "Béni soit Dieu, maintenant et toujours.",
+              "translation": "Požehnaný Boh naveky!"
+            },
+            {
+              "primary": "Tu es béni, Seigneur, Dieu de l’univers : nous avons reçu de ta bonté le vin que nous te présentons, fruit de la vigne et du travail des hommes ; il deviendra pour nous le vin du Royaume éternel.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali toto víno. Obetujeme ti ho ako plod viniča a práce ľudských rúk, aby sa nám stalo duchovným nápojom."
+            },
+            {
+              "primary": "Béni soit Dieu, maintenant et toujours.",
+              "translation": "Požehnaný Boh naveky!\n"
+            },
+            {
+              "primary": "Priez, frères et sœurs : que mon sacrifice, qui est aussi le vôtre, soit agréable à Dieu le Père tout-puissant.",
+              "translation": "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila všemohúcemu Bohu Otcovi."
+            },
+            {
+              "primary": "Que le Seigneur reçoive de vos mains ce sacrifice à la louange de son nom, pour notre bien et celui de toute l’Église.",
+              "translation": "Nech Pán prijeme obetu z tvojich rúk na chválu a slávu svojho mena, na úžitok nám i celej svätej Cirkvi.\n"
+            }
+          ]
+        },
+        "preface": {
+          "title": "PIÈRE SUR LES OFFRANDES – MODLITBA NAD OBETNÝMI DARMI.<br><br>PREÉFACE – PREFÁCIA",
+          "lines": [
+            {
+              "primary": "Le Seigneur soit avec vous.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Et avec votre esprit.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Elevons notre coeur.",
+              "translation": "Hore srdcia"
+            },
+            {
+              "primary": "Nous le tournons vers le Seigneur.",
+              "translation": "Máme ich u Pána."
+            },
+            {
+              "primary": "Rendons grâce au Seigneur notre Dieu.",
+              "translation": "Vzdávajme vďaky Pánovi, nášmu Bohu."
+            },
+            {
+              "primary": "Cela est juste et bon.",
+              "translation": "Je to dôstojné a správne.\n"
+            },
+            {
+              "primary": "Saint, Saint, Saint\nle Seigneur, Dieu de l'univers.\nLe ciel et la terre sont remplis\nde ta gloire.\nHosanna au plus haut des cieux.\nBéni soit celui qui vient\nau nom du Seigneur.\nHosanna au plus haut des cieux.\n"
+            }
+          ]
+        },
+        "eucharisticAcclamations": {
+          "title": "PEIÈRE EUCHARISTIQUE – EUCHARISTICKÁ MODLITBA<br>Po premenení:",
+          "lines": [
+            {
+              "primary": "Il est grand le mystère de la foi.",
+              "translation": "Hľa, tajomstvo viery."
+            },
+            {
+              "primary": "Nous annonçons ta mort, Seigneur Jésus, nous proclamons ta résurrection, nous attendons ta venue dans la gloire.",
+              "translation": "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Acclamons le mystère de la foi.",
+              "translation": "Vyznajme Tajomstvo viery"
+            },
+            {
+              "primary": "Quand nous mangeons ce Pain et buvons à cette Coupe, nous annonçons ta mort, Seigneur ressuscité, et nous attendons que tu viennes.",
+              "translation": "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Proclamons le mystère de la foi.",
+              "translation": "Veľké je tajomstvo viery."
+            },
+            {
+              "primary": "Gloire à toi qui étais mort, gloire à toi qui es vivant, notre Sauveur et notre Dieu: Viens, Seigneur Jésus!",
+              "translation": "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.\n"
+            }
+          ]
+        },
+        "communion": {
+          "title": "COMMUNION – OBRAD PRIJÍMANIA",
+          "lines": [
+            {
+              "primary": "Comme nous l'avons appris du Sauveur, et selon son commandement, nous osons dire::",
+              "translation": "Na príkaz nášho spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:"
+            },
+            {
+              "primary": "Notre Père, qui es aux cieux,\nque ton nom soit sanctifié;\nque ton règne vienne,\nque ta volonté soit faite\nsur la terre comme au ciel.\nDonne-nous aujourd'hui\nnotre pain de ce jour.\nPardonne-nous nos offenses,\ncomme nous pardonnons aussi\nà ceux qui nous ont offensés.\nEt ne laisse pas entrer en tentation,\nmais délivre-nous du Mal."
+            },
+            {
+              "primary": "Délivre-nous de tout mal, Seigneur, et donne la paix à notre temps : soutenus par ta miséricorde, nous serons libérés de tout péché, à l’abri de toute épreuve, nous qui attendons que se réalise cette bienheureuse espérance : l'avènement de Jésus Christ, notre Sauveur."
+            },
+            {
+              "primary": "Car c'est à toi qu'appartiennent le règne, la puissance et la gloire, pour les siècles des siècles.",
+              "translation": "Lebo tvoje je kráľovstvo a moc i sláva naveky.\n"
+            },
+            {
+              "primary": "Seigneur Jésus Christ, tu as dit à tes Apôtres : \"Je vous laisse la paix, je vous donne ma paix\"; ne regarde pas nos péchés mais la foi de ton Église ; pour que ta volonté s’accomplisse, donne-lui toujours cette paix, et conduis-la vers l'unité parfaite, toi qui vis et règnes pour les siècles des siècles."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Que la paix du Seigneur soit toujours avec vous.",
+              "translation": "Pokoj Pánov nech je vždy s vami."
+            },
+            {
+              "primary": "Et avec votre esprit.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Dans la charité du Christ, donnez-vous la paix.",
+              "translation": "Dajte si znak pokoja.\n"
+            }
+          ]
+        },
+        "communionReception": {
+          "title": "AGNEAU DE DIEU – BARÁNOK BOŽÍ",
+          "lines": [
+            {
+              "primary": "Agneau de Dieu, qui enlèves les péchés du monde, prends pitié de nous.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Agneau de Dieu, qui enlèves les péchés du monde, prends pitié de nous.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Agneau de Dieu, qui enlèves les péchés du monde, donne-nous la paix.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj."
+            },
+            {
+              "primary": "Voici l'Agneau de Dieu, voici celui qui enlève les péchés du monde. Heureux les invités au repas des noces de l’Agneau!",
+              "translation": "Hľa, Baránok Boží, ktorý sníma hriechy sveta. Blahoslavení tí, čo sú pozvaní na hostinu Baránkovu."
+            },
+            {
+              "primary": "Seigneur, je ne suis pas digne de te recevoir; mais dis seulement une parole, et je serai guéri.",
+              "translation": "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."
+            },
+            {
+              "primary": "Le corps du Christ.",
+              "translation": "Telo Kristovo."
+            },
+            {
+              "primary": "Amen.\n"
+            }
+          ]
+        },
+        "conclusion": {
+          "title": "PRIÈRE APRÈS LA COMMUNION – MODLITBA PO PRIJÍMANÍ<br><br><b>CONCLUSION ET ENVOI - ZÁVEREČNÉ OBRADY</b><br>",
+          "lines": [
+            {
+              "primary": "Le Seigneur soit avec vous.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Et avec votre esprit.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Que Dieu tout-puissant vous bénisse, le Père, et le Fils <font color='#A32626'>†</font> et le Saint-Esprit.",
+              "primaryFormat": "HTML",
+              "translation": "Nech vás žehná všemohúci Boh, Otec i Syn † i Duch Svätý."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Allez, dans la paix du Christ.",
+              "translation": "Choďte v mene Božom."
+            },
+            {
+              "primary": "Nous rendons grâce à Dieu.",
+              "translation": "Bohu vďaka."
+            }
+          ]
+        }
+      }
+    },
+    "lp004": {
+      "locale": "de",
+      "name": "Nemčina",
+      "sections": {
+        "introduction": {
+          "title": "<b>ERÖLFNÜNG – ÚVODNÉ OBRADY</b><br><br>GESANG ZUR ERÖFFNUNG – ÚVODNÝ SPEV",
+          "lines": [
+            {
+              "primary": "Im Namen des Vaters und des Sohnes und des Heiligen Geistes.",
+              "translation": "V mene Otca i Syna i Ducha Svätého."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Der Herr sei mit Euch.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Und mit Deinem Geiste.",
+              "translation": "I s duchom Tvojím.\n"
+            },
+            {
+              "primary": "Brüder und Schwestern, damit wir die heiligen Geheimnisse in rechter Weise feiern können, wollen wir bekennen daß wir gesündigt haben.",
+              "translation": "Bratia a sestry, uznajme svoje hriechy, aby sme mohli s čistým srdcom sláviť sväté tajomstvá."
+            },
+            {
+              "primary": "Ich bekenne Gott, dem Allmächtigen,\nund allen Brüdern und Schwestern,\ndas ich Gutes unterlassen und Böses getan habe\nich habe gesündigt in Gedanken,\nWorten und Werken,\ndurch meine Schuld,\ndurch meine Schuld,\ndurch meine grosse Schuld.\nDarum bitte ich die selige Jungfrau Maria,\nalle Engel und Heiligen und euch,\nBrüder und Schwestern,\nfür mich zu beten bei Gott, unserem Herrn.",
+              "translation": "Vyznávam všemohúcemu Bohu i vám, bratia a sestry, že som veľa zhrešil myšlienkami, slovami, skutkami a zanedbávaním dobrého. Moja vina, moja vina, moja preveľká vina. Preto prosím blahoslavenú Máriu, vždy Pannu, všetkých anjelov a svätých, i vás, bratia a sestry, modlite sa za mňa k Pánu Bohu nášmu."
+            },
+            {
+              "primary": "Der allmächtige Gott erbarme sich unser. Er lasse uns die Sünden nach und führe uns zum ewigen Leben.",
+              "translation": "Nech sa nad nami zmiluje všemohúci Boh, nech nám hriechy odpustí a privedie nás do večného života."
+            },
+            {
+              "primary": "Amen.\n"
+            },
+            {
+              "primary": "Herr, erbarme dich.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Herr, erbarme dich.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Christe, erbarme dich.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Christe, erbarme dich.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Herr, erbarme dich.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Herr, erbarme dich.",
+              "translation": "Pane, zmiluj sa.\n"
+            }
+          ]
+        },
+        "gloria": {
+          "title": "GLORIA – GLÓRIA",
+          "lines": [
+            {
+              "primary": "Ehre sei Gott in der Höhe\nund Friede auf Erden\nden Menschen seiner Gnade.\nWir loben dich, wir preisen dich,\nwir beten dich an,\nwir rühmen dich und danken dir,\ndenn groß ist deine Herrlichkeit:\nHerr und Gott, König des Himmels,\nGott und Vater,\nHerrscher über das All,\nHerr, eingeborener Sohn, Jesus Christus.\nHerr und Gott, Lamm Gottes, Sohn des Vaters,\ndu nimmst hinweg die Sünde der Welt:\nerbarme dich unser;\ndu nimmst hinweg die Sünde der Welt\nnimm an unser Gebet;\ndu sitzest zur Rechten des Vaters:\nerbarme dich unser.\nDenn du allein bist der Heilige,\ndu allein der Herr,\ndu allein der Höchste,\nJesus Christus,\nmit dem Heiligen Geist,\nzur Ehre Gottes des Vaters.\nAmen.\n"
+            }
+          ]
+        },
+        "reading": {
+          "title": "TAGESGEBET – MODLITBA DŇA<br><br><b>WORTGOTTESDIENST – LITURGIA SLOVA</b><br><br>LESUNG – ČÍTANIE<br>Po prečítaní čítania:",
+          "lines": [
+            {
+              "primary": "Wort des lebendigen Gottes.",
+              "translation": "Počuli sme Božie slovo."
+            },
+            {
+              "primary": "Dank sei Gott.",
+              "translation": "Bohu vďaka.\n"
+            }
+          ]
+        },
+        "gospelOpening": {
+          "title": "EVANGELIUM - EVANJELIUM",
+          "lines": [
+            {
+              "primary": "Der Herr sei mit euch.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Und mit deinem Geiste.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Aus dem heiligen Evangelium nach...",
+              "translation": "Čítanie zo svätého evanjelia podľa..."
+            },
+            {
+              "primary": "Ehre sei dir, o Herr.",
+              "translation": "Sláva tebe, Pane.\n"
+            }
+          ]
+        },
+        "gospelConclusion": {
+          "title": "Po prečítaní evanjelia:",
+          "lines": [
+            {
+              "primary": "Evangelium unseres Herrn Jesus Christus.",
+              "translation": "Počuli sme slovo Pánovo."
+            },
+            {
+              "primary": "Lob sei dir, Christus.",
+              "translation": "Chvála tebe, Kriste.\n"
+            }
+          ]
+        },
+        "creed": {
+          "title": "GLAUBENSBEKENNTNIS – VYZNANIE VIERY",
+          "lines": [
+            {
+              "primary": "Wir glauben an den einen Gott,\nden Vater, den Allmächtigen,\nder alles geschaffen hat,\nHimmel und Erde, die sichtbare\nund die unsichtbare Welt.\nUnd an den einen Herrn Jesus Christus,\nGottes eingeborenen Sohn,\naus dem Vater geboren vor aller Zeit:\nGott von Gott, Licht vom Licht,\nwahrer Gott vom wahren Gott,\ngezeugt, nicht geschaffen,\neines Wesens mit dem Vater;\ndurch ihn ist alles geschaffen.\nFür uns Menschen und zu unserem Heil,\nist er vom Himmel gekommen,\nhat Fleisch angenommen\ndurch den Heiligen Geist\nvon der Jungfrau Maria\nund ist Mensch geworden.\nEr wurde für uns gekreuzigt\nunter Pontius Pilatus,\nhat gelitten und ist begraben worden,\nist am dritten Tage auferstanden\nnach der Schrift\nund aufgefahren in den Himmel.\nEr sitzt zur Rechten des Vaters\nund wird wiederkommen in Herrlichkeit,\nzu richten die Lebenden und die Toten;\nseiner Herrschaft wird kein Ende sein.\nWir glauben an den Heiligen Geist,\nder Herr ist und lebendig macht,\nder aus dem Vater und dem Sohn hervorgeht,\nder mit dem Vater und dem Sohn angebetet\nund verherrlicht wird,\nder gesprochen hat durch die Propheten;\nund die eine, heilige, katholische\nund apostolische Kirche.\nWir bekennen die eine Taufe\nzur Vergebung der Sünden.\nWir erwarten die Auferstehung der Toten,\nund das Leben der kommenden Welt.\nAmen.\n"
+            }
+          ]
+        },
+        "preparationOfGifts": {
+          "title": "ALLGEMEINES GEBET – SPOLOČNÉ MODLITBY VERIACICH<br><br><b>EUCHARISTIEFEIER – LITURGIA EUCHARISTIE</b><br>",
+          "lines": [
+            {
+              "primary": "Gepriesen bist du, Herr, unser Gott, Schöpfer der Welt. Du schenkst uns das Brot, die Frucht der Erde und der menschlichen Arbeit. Wir bringen dieses Brot vor dein Angesicht, damit es uns das Brot des Lebens werde.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali tento chlieb. Obetujeme ti ho ako plod zeme a práce ľudských rúk, aby sa nám stal chlebom života."
+            },
+            {
+              "primary": "Gepriesen bist du in Ewigkeit, Herr, unser Gott.",
+              "translation": "Požehnaný Boh naveky!"
+            },
+            {
+              "primary": "Gepriesen bist du, Herr, unser Gott, Schöpfer der Welt. Du schenkst uns den Wein, die Frucht der Weinstocks und der menschlichen Arbeit. Wir bringen dieses Kelch vor dein Angesicht, damit es uns der Kelch des Heiles werde.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali toto víno. Obetujeme ti ho ako plod viniča a práce ľudských rúk, aby sa nám stalo duchovným nápojom."
+            },
+            {
+              "primary": "Gepriesen bist du in Ewigkeit, Herr, unser Gott.",
+              "translation": "Požehnaný Boh naveky!\n"
+            },
+            {
+              "primary": "Betet, Brüder und Schwestern, dass mein und euer Opfer Gott, dem allmächtigen Vater, gefalle.",
+              "translation": "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila všemohúcemu Bohu Otcovi."
+            },
+            {
+              "primary": "Der Herr nehme das Opfer an aus deinen Händen zum Lob und Ruhm seines Namens, zum Segen für uns und seine ganze heilige Kirche.",
+              "translation": "Nech Pán prijeme obetu z tvojich rúk na chválu a slávu svojho mena, na úžitok nám i celej svätej Cirkvi.\n"
+            }
+          ]
+        },
+        "preface": {
+          "title": "GEBENGEBET – MODLITBA NAD OBETNÝMI DARMI.<br><br>PRÄFATION – PREFÁCIA",
+          "lines": [
+            {
+              "primary": "Der Herr sei mit euch.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Und mit deinem Geiste.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Erhebet die Herzen.",
+              "translation": "Hore srdcia"
+            },
+            {
+              "primary": "Wir haben sie beim Herrn.",
+              "translation": "Máme ich u Pána."
+            },
+            {
+              "primary": "Lasset uns danken dem Herrn, unserm Gott.",
+              "translation": "Vzdávajme vďaky Pánovi, nášmu Bohu."
+            },
+            {
+              "primary": "Das ist würdig und recht.",
+              "translation": "Je to dôstojné a správne.\n"
+            },
+            {
+              "primary": "Heilig, heilig, heilig Gott,\nHerr aller Mächte und Gewalten.\nErfüllt sind Himmel und Erde\nvon deiner Herrlichkeit.\nHosanna in der Höhe.\nHochgelobt sei,\nder da kommt im Namen des Herrn.\nHosanna in der Höhe.\n"
+            }
+          ]
+        },
+        "eucharisticAcclamations": {
+          "title": "EUCHARISTISCHES HOCHGEBET – EUCHARISTICKÁ MODLITBA<br>Po premenení:",
+          "lines": [
+            {
+              "primary": "Geheimnis des Glaubens.",
+              "translation": "Hľa, tajomstvo viery."
+            },
+            {
+              "primary": "Deinen Tod, o Herr, verkünden wir, und deine Auferstehung preisen wir, bis du kommst in Herrlichkeit.",
+              "translation": "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Quotiescumque manducamus panem hunc et calicem bibimus, mortem tuam annuntiamus, Domine, donec venias.",
+              "translation": "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Salvator mundi, salva nos, qui per crucem et resurrectionem tuam liberasti nos.",
+              "translation": "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.\n"
+            }
+          ]
+        },
+        "communion": {
+          "title": "KOMMUNION – OBRAD PRIJÍMANIA",
+          "lines": [
+            {
+              "primary": "Dem Wort unseres Herrn uns Erlösers gehorsam und getreu seiner Auftrag, wagen wir zu sprechen:",
+              "translation": "Na príkaz nášho spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:"
+            },
+            {
+              "primary": "Vater unser im Himmel,\nGeheiligt werde dein Name.\nDein Reich komme.\nDein Wille geschehe, wie im Himmel so auf Erden.\nUnser tägliches Brot gib uns heute.\nUnd vergib uns unsere Schuld,\nwie auch wir vergeben unsern Schuldigern.\nUnd führe uns nicht in Versuchung,\nsondern erlöse uns von dem Bösen.\n"
+            },
+            {
+              "primary": "Erlöse uns, Herr, allmächtiger Vater, von allem Bösen und gib Frieden in unseren Tagen. Komm uns zu Hilfe mit deinem Erbarmen und bewahre uns vor Verwirrung und Sünde, damit wir voll Zuversicht das Kommen unseres Erlösers Jesus Christus erwarten."
+            },
+            {
+              "primary": "Denn dein ist das Reich und die Kraft und die Herrlichkeit in Ewigkeit. Amen.",
+              "translation": "Lebo tvoje je kráľovstvo a moc i sláva naveky.\n"
+            },
+            {
+              "primary": "Der Herr hat zu seinen Aposteln gesagt: \"Frieden hinterlasse ich euch, meinen Frieden gebe ich euch\". Deshalb bitten wir: Herr Jesus Christus, schau nicht auf unsere Sünden, sondern auf den Glauben deiner Kirche und schenke ihr nach deinem Willen Einheit und Frieden."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Der Friede des Herrn sei allezeit mit euch.",
+              "translation": "Pokoj Pánov nech je vždy s vami."
+            },
+            {
+              "primary": "Und mit deinem Geiste.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Gebt einander ein Zeichen des Friedens und der Versöhnung.",
+              "translation": "Dajte si znak pokoja.\n"
+            }
+          ]
+        },
+        "communionReception": {
+          "title": "LAMM GOTTES – BARÁNOK BOŽÍ",
+          "lines": [
+            {
+              "primary": "Lamm Gottes, du nimmst hinweg die Sünde der Welt, erbarme dich unser.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Lamm Gottes, du nimmst hinweg die Sünde der Welt, erbarme dich unser.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Lamm Gottes, du nimmst hinweg die Sünde der Welt, gib uns deinen Frieden.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj."
+            },
+            {
+              "primary": "Seht das Lamm Gottes, das hinwegnimmt die Sünde der Welt.",
+              "translation": "Hľa, Baránok Boží, ktorý sníma hriechy sveta. Blahoslavení tí, čo sú pozvaní na hostinu Baránkovu."
+            },
+            {
+              "primary": "Herr, ich bin nicht würdig, dass Du eingehst unter mein Dach, aber sprich nur ein Wort, so wird meine Seele gesund.",
+              "translation": "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."
+            },
+            {
+              "primary": "Der Leib Christi.",
+              "translation": "Telo Kristovo."
+            },
+            {
+              "primary": "Amen.\n"
+            }
+          ]
+        },
+        "conclusion": {
+          "title": "SCHLUSSGEBET – MODLITBA PO PRIJÍMANÍ<br><br><b>ENTLASSUNG - ZÁVEREČNÉ OBRADY</b><br>",
+          "lines": [
+            {
+              "primary": "Der Herr sei mit Euch.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Und mit Deinem Geiste.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primaryFormat": "HTML",
+              "primary": "Es segne Euch der allmächtige Gott, der Vater, der Sohn <font color='#A32626'>†</font> und der Heilige Geist.",
+              "translation": "Nech vás žehná všemohúci Boh, Otec i Syn † i Duch Svätý."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Gehet hin in Frieden.",
+              "translation": "Choďte v mene Božom."
+            },
+            {
+              "primary": "Dank sei Gott dem Herrn.",
+              "translation": "Bohu vďaka."
+            }
+          ]
+        }
+      }
+    },
+    "lp005": {
+      "locale": "hu",
+      "name": "Maďarčina",
+      "sections": {
+        "introduction": {
+          "title": "<b>BEVEZETŐ SZERTARTÁS – ÚVODNÉ OBRADY</b><br><br> KEZDŐÉNEK – ÚVODNÝ SPEV",
+          "lines": [
+            {
+              "primary": "Az Atya, a Fiú és a Szentlélek nevében.",
+              "translation": "V mene Otca i Syna i Ducha Svätého."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Az Úr legyen veletek.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "És a te lelkeddel.",
+              "translation": "I s duchom Tvojím.\n"
+            },
+            {
+              "primary": "Testvéreim! Vizsgáljuk meg lelkiismeretünket, és bánjuk meg bűneinket, hogy méltóképpen ünnepelhessük az Úr szent titkait!",
+              "translation": "Bratia a sestry, uznajme svoje hriechy, aby sme mohli s čistým srdcom sláviť sväté tajomstvá."
+            },
+            {
+              "primary": "Gyónom a mindenható Istennek\nés nektek, testvéreim,\nhogy sokszor és sokat vétkeztem\ngondolattal, szóval,\ncselekedettel és mulasztással:\nén vétkem, én vétkem,\nén igen nagy vétkem.\nKérem ezért a Boldogságos,\nmindenkor Szeplőtelen Szűz Máriát,\naz összes angyalokat és szenteket,\nés titeket, testvéreim,\nhogy imádkozzatok érettem\nUrunkhoz, Istenünkhöz.",
+              "translation": "Vyznávam všemohúcemu Bohu i vám, bratia a sestry, že som veľa zhrešil myšlienkami, slovami, skutkami a zanedbávaním dobrého. Moja vina, moja vina, moja preveľká vina. Preto prosím blahoslavenú Máriu, vždy Pannu, všetkých anjelov a svätých, i vás, bratia a sestry, modlite sa za mňa k Pánu Bohu nášmu."
+            },
+            {
+              "primary": "Irgalmazzon nekünk a mindenható Isten, bocsássa meg bűneinket, és vezessen el az örök életre.",
+              "translation": "Nech sa nad nami zmiluje všemohúci Boh, nech nám hriechy odpustí a privedie nás do večného života."
+            },
+            {
+              "primary": "Amen.\n"
+            },
+            {
+              "primary": "Uram, irgalmazz!",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Uram, irgalmazz!",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Krisztus kegyelmezz!",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Krisztus kegyelmezz!",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Uram, irgalmazz!",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Uram, irgalmazz!",
+              "translation": "Pane, zmiluj sa.\n"
+            }
+          ]
+        },
+        "gloria": {
+          "title": "DICSŐSÉG – GLÓRIA",
+          "lines": [
+            {
+              "primary": "Dicsőség a magasságban Istennek,\nés a földön békesség\na jóakaratú embereknek.\nDicsőítünk téged, áldunk téged,\nimádunk téged, magasztalunk téged,\nhálát adunk neked nagy dicsőségedért,\nUrunk és Istenünk, mennyei Király,\nmindenható Atyaisten.\nUrunk, Jézus Krisztus, egyszülött Fiú,\nUrunk és Istenünk,\nIsten Báránya, az Atyának Fia,\nte elveszed a világ bűneit,\nirgalmazz nekünk;\nte elveszed a világ bűneit,\nhallgasd meg könyörgésünket.\nTe az Atya jobbján ülsz,\nirgalmazz nekünk.\nMert egyedül te vagy a Szent,\nte vagy az Úr,\nte vagy az egyetlen Fölséd,\nJézus Krisztus,\na Szentlélekkel együtt,\naz Atyaisten dicsőségében.\nAmen.\n"
+            }
+          ]
+        },
+        "reading": {
+          "title": "KŐNYŐRGÉS – MODLITBA DŇA<br><br><b>AZ LGE LITURGIÁJA – LITURGIA SLOVA</b><br><br>OLVASMÁNY – ČÍTANIE<br>Po prečítaní čítania:",
+          "lines": [
+            {
+              "primary": "Ez az Isten igéje!",
+              "translation": "Počuli sme Božie slovo."
+            },
+            {
+              "primary": "Istennek legyen hála!",
+              "translation": "Bohu vďaka.\n"
+            }
+          ]
+        },
+        "gospelOpening": {
+          "title": "EVANGÉLIUM - EVANJELIUM",
+          "lines": [
+            {
+              "primary": "Az Úr legyen veletek.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "És a te lelkeddel.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Evangélium Szent ... könyvéből.",
+              "translation": "Čítanie zo svätého evanjelia podľa..."
+            },
+            {
+              "primary": "Dicsőség neked, Istenünk.",
+              "translation": "Sláva tebe, Pane.\n"
+            }
+          ]
+        },
+        "gospelConclusion": {
+          "title": "Po prečítaní evanjelia:",
+          "lines": [
+            {
+              "primary": "Ezek az evangélium igéi.",
+              "translation": "Počuli sme slovo Pánovo."
+            },
+            {
+              "primary": "Áldunk téged, Krisztus.",
+              "translation": "Chvála tebe, Kriste.\n"
+            }
+          ]
+        },
+        "creed": {
+          "title": "HISZEKEGY – VYZNANIE VIERY",
+          "lines": [
+            {
+              "primary": "Hiszek az egy Istenben,\nmindenható Atyában,\nmennynek és földnek,\nminden láthatónak\nés láthatatlannak Teremtőjében.\nHiszek az egy Úrban, Jézus Krisztusban,\n Isten egyszülött Fiában,\naki az Atyától született az idő kezdete előtt.\nIsten az Istentől,\nVilágosság a Világosságtól,\nvalóságos Isten a valóságos Istentől,\nszületett, de nem teremtmény,\naz Atyával egylényegű;\nés minden általa lett.\nÉrtünk, emberekért,\na mi üdvösségünkért\nleszállott a mennyből.\nMegtestesült a Szentlélek erejéből,\nSzűz Máriától,\nés emberré lett.\nPoncius Pilátus alatt\nértünk keresztre feszítették,\nkínhalált szenvedett és eltemették.\nHarmadnapra feltámadott\naz írások szerint,\nfölment a mennybe,\nott ül az Atyának jobbján,\nde újra eljön dicsőségben,\nítélni élőket és holtakat,\nés országának nem lesz vége.\nHiszek a Szentlélekben,\nUrunkban és éltetőnkben,\naki az Atyától és a Fiútól származik;\nakit éppúgy imádunk és dicsőítünk,\nmint az Atyát és a Fiút.\nŐ szólt a próféták szavával.\nHiszek az egy, szent, katolikus\nés apostoli Anyaszentegyházban,\nvallom az egy keresztséget\na bűnök bocsánatára,\nvárom a holtak feltámadását\nés az eljövendő örök életet.\nAmen.\n"
+            }
+          ]
+        },
+        "preparationOfGifts": {
+          "title": "EGYETEMES KŐNYŐRGÉSEK – SPOLOČNÉ MODLITBY VERIACICH<br><br><b>AZ EUKARISZTIA LITURGIÁJA – LITURGIA EUCHARISTIE</b><br>",
+          "lines": [
+            {
+              "primary": "Áldott vagy, Urunk, mindenség Istene, mert a te bőkezűségedből kaptuk a kenyeret. Felajánljuk neked, mint a föld termését és az emberi munka gyümölcsét. Ebből lesz számunkra az élet kenyere.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali tento chlieb. Obetujeme ti ho ako plod zeme a práce ľudských rúk, aby sa nám stal chlebom života."
+            },
+            {
+              "primary": "Áldott legyen az Isten mindörökké.",
+              "translation": "Požehnaný Boh naveky!"
+            },
+            {
+              "primary": "Áldott vagy, Urunk, mindenség Istene, mert a te bőkezűségedből kaptuk a bort. Felajánljuk neked, mint a szőlőtő termését és az emberi munka gyümölcsét. Ebből lesz számunkra a lélek itala.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali toto víno. Obetujeme ti ho ako plod viniča a práce ľudských rúk, aby sa nám stalo duchovným nápojom."
+            },
+            {
+              "primary": "Áldott legyen az Isten mindörökké.",
+              "translation": "Požehnaný Boh naveky!\n"
+            },
+            {
+              "primary": "Imádkozzatok, testvéreim, hogy áldozatunk  kedves legyen  a mindenható Atyaisten előtt.",
+              "translation": "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila všemohúcemu Bohu Otcovi."
+            },
+            {
+              "primary": "Fogadja el az Úr  kezedből az áldozatot nevének dicséretére és dicsőségére, mindannyiunk  és az egész Anyaszentegyház javára.",
+              "translation": "Nech Pán prijeme obetu z tvojich rúk na chválu a slávu svojho mena, na úžitok nám i celej svätej Cirkvi.\n"
+            }
+          ]
+        },
+        "preface": {
+          "title": "FELAJÁNIÓ KŐNYŐRGÉS – MODLITBA NAD OBETNÝMI DARMI.<br><br>PREFÁCIÓ – PREFÁCIA",
+          "lines": [
+            {
+              "primary": "Az Úr legyen veletek.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "És a te lelkeddel.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Emeljük föl szívünket.",
+              "translation": "Hore srdcia"
+            },
+            {
+              "primary": "Fölemeltük az Úrhoz.",
+              "translation": "Máme ich u Pána."
+            },
+            {
+              "primary": "Adjunk hálát Urunknak, Istenünknek.",
+              "translation": "Vzdávajme vďaky Pánovi, nášmu Bohu."
+            },
+            {
+              "primary": "Méltó és igazságos.",
+              "translation": "Je to dôstojné a správne.\n"
+            },
+            {
+              "primary": "Szent vagy, szent vagy, szent vagy\nmindenség Ura, Istene!\nDicsőséged betölti\na mennyet és a földet.\nHozsanna a magasságban!\nÁldott, aki jön\naz Úr nevében.\nHozsanna a magasságban!\n"
+            }
+          ]
+        },
+        "eucharisticAcclamations": {
+          "title": "EUCHARISZTIKUS IMA – EUCHARISTICKÁ MODLITBA<br>Po premenení:",
+          "lines": [
+            {
+              "primary": "Íme, hitünk szent titka:",
+              "translation": "Hľa, tajomstvo viery."
+            },
+            {
+              "primary": "Halálodat hirdetjük, Urunk, és hittel valljuk feltámadásodat, amíg el nem jössz.",
+              "translation": "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Íme, megváltásunk szent titka:"
+            },
+            {
+              "primary": "Valahányszor esszük ezt a kenyeret, és iszunk ebből a kehelyből, halálodat hirdetjük, Urunk, amíg el nem jössz.",
+              "translation": "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Íme, üdvösségünk szent titka:"
+            },
+            {
+              "primary": "Üdvözíts bennünket, világ Megváltója, ki kereszted és feltámadásod által megmentettél minket.",
+              "translation": "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.\n"
+            }
+          ]
+        },
+        "communion": {
+          "title": "AZ ÁLDOZÁS SZERTARTÁSA – OBRAD PRIJÍMANIA",
+          "lines": [
+            {
+              "primary": "Üdvözítőnk parancsára és isteni tanítása szerint így imádkozunk:",
+              "translation": "Na príkaz nášho spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:"
+            },
+            {
+              "primary": "Mi Atyánk, aki a mennyekben vagy,\nszenteltessék meg a te neved;\njöjjön el a te országod;\nlegyen meg a te akaratod,\namint a mennyben, úgy a földön is.\nMindennapi kenyerünket\nadd meg nekünk ma;\nés bocsásd meg vétkeinket,\nmiképpen mi is megbocsátunk\naz ellenünk vétkezőknek;\nés ne vígy minket kísértésbe;\nde szabadíts meg a gonosztól.\n"
+            },
+            {
+              "primary": "Szabadíts meg, kérünk, Urunk, minden gonosztól; Adj kegyesen békét napjainkban, hogy irgalmadból mindenkor bűn és baj nélkül éljünk, míg reménykedve várjuk az örök boldogságot és üdvözítőnknek, Jézus Krisztusnak dicsőséges eljöttét."
+            },
+            {
+              "primary": "Mert tied az ország,  a hatalom és a dicsőség mindörökké. Ámen.",
+              "translation": "Lebo tvoje je kráľovstvo a moc i sláva naveky.\n"
+            },
+            {
+              "primary": "Urunk, Jézus Krisztus, te azt mondottad apostolaidnak: Békességet hagyok rátok, az én békémet adom nektek. Ne vétkeinket nézzed, hanem Egyházad hitét, őrizd meg szándékod szerint  békében, és add meg teljes egységét. Aki élsz és uralkodol  mindörökkön-örökké."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Az Úr békéje legyen veletek mindenkor.",
+              "translation": "Pokoj Pánov nech je vždy s vami."
+            },
+            {
+              "primary": "És a te lelkeddel.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Köszöntsétek egymást a béke jelével.",
+              "translation": "Dajte si znak pokoja.\n"
+            },
+            {
+              "primary": "Legyen békesség köztünk mindenkor!",
+              "translationPrefix": "",
+              "translation": "\nPokoj a bratská láska nech je medzi nami."
+            }
+          ]
+        },
+        "communionReception": {
+          "title": "ISTEN BÁRÁNYA – BARÁNOK BOŽÍ",
+          "lines": [
+            {
+              "primary": "Isten Báránya,  te elveszed a világ bűneit:  irgalmazz nekünk.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Isten Báránya,  te elveszed a világ bűneit:  irgalmazz nekünk.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Isten Báránya,  te elveszed a világ bűneit:  adj nekünk békét.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj."
+            },
+            {
+              "primary": "Íme, az Isten Báránya,  íme, aki elveszi a világ bűneit. Boldogok, akiket meghív asztalához  Jézus, az Isten Báránya.",
+              "translation": "Hľa, Baránok Boží, ktorý sníma hriechy sveta. Blahoslavení tí, čo sú pozvaní na hostinu Baránkovu."
+            },
+            {
+              "primary": "Uram, nem vagyok méltó,  hogy hajlékomba jöjj, hanem csak egy szóval mondd,  és meggyógyul az én lelkem.",
+              "translation": "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."
+            },
+            {
+              "primary": "Krisztus Teste!",
+              "translation": "Telo Kristovo."
+            },
+            {
+              "primary": "Amen.\n"
+            }
+          ]
+        },
+        "conclusion": {
+          "title": "ÁLDOZÁS UTÁNI KŐNYŐRGÉS – MODLITBA PO PRIJÍMANÍ<br><br><b> BEFEJZŐ RÉSZ - ZÁVEREČNÉ OBRADY</b><br>",
+          "lines": [
+            {
+              "primary": "Az Úr legyen veletek.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "És a te lelkeddel.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Áldjon meg benneteket a mindenható Isten: az Atya, a Fiú <font color='#A32626'>†</font> és a zentlélek.",
+              "primaryFormat": "HTML",
+              "translation": "Nech vás žehná všemohúci Boh, Otec i Syn † i Duch Svätý."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "A szentmise véget ért, menjetek békével!",
+              "translation": "Choďte v mene Božom."
+            },
+            {
+              "primary": "Istennek legyen hála.",
+              "translation": "Bohu vďaka."
+            }
+          ]
+        }
+      }
+    },
+    "lp006": {
+      "locale": "it",
+      "name": "Taliančina",
+      "sections": {
+        "introduction": {
+          "title": "<b>RITI DI INTRODUZIONE – ÚVODNÉ OBRADY</b><br><br>CANTO D´INIGRESSO – ÚVODNÝ SPEV",
+          "lines": [
+            {
+              "primary": "Nel nome del Padre del Figlio e dello Spirito Santo.",
+              "translation": "V mene Otca i Syna i Ducha Svätého"
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Il Signore sia con voi.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "E con il tuo spirito.",
+              "translation": "I s duchom Tvojím.\n"
+            },
+            {
+              "primary": " Fratelli e sorelle, per celebrare degnamente i santi misteri, riconosciamo i nostri peccati.",
+              "translation": "Bratia a sestry, uznajme svoje hriechy, aby sme mohli s čistým srdcom sláviť sväté tajomstvá."
+            },
+            {
+              "primary": "Confesso a Dio onnipotente\ne a voi, fratelli e sorelle, \nche ho molto peccato\nin pensieri, parole, \nopere e omissioni, \nper mia colpa, mia colpa, \nmia grandissima colpa. \nE supplico\nla beata sempre vergine Maria, \ngli angeli, i santi\ne voi, fratelli e sorelle, \ndi pregare per me\nil Signore Dio nostro.",
+              "translation": "Vyznávam všemohúcemu Bohu i vám, bratia a sestry, že som veľa zhrešil myšlienkami, slovami, skutkami a zanedbávaním dobrého. Moja vina, moja vina, moja preveľká vina. Preto prosím blahoslavenú Máriu, vždy Pannu, všetkých anjelov a svätých, i vás, bratia a sestry, modlite sa za mňa k Pánu Bohu nášmu."
+            },
+            {
+              "primary": "Dio onnipotente abbia misericordia di noi, perdoni i nostri peccati e ci conduca alla vita eterna.",
+              "translation": "Nech sa nad nami zmiluje všemohúci Boh, nech nám hriechy odpustí a privedie nás do večného života."
+            },
+            {
+              "primary": "Amen.\n"
+            },
+            {
+              "primary": "Signore, pietà.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Signore, pietà.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Cristo, pietà.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Cristo, pietà.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Signore, pietà.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Signore, pietà.",
+              "translation": "Pane, zmiluj sa.\n"
+            }
+          ]
+        },
+        "gloria": {
+          "title": "GLORIA – GLÓRIA",
+          "lines": [
+            {
+              "primary": "Gloria a Dio nell'alto dei cieli\n e pace in terra agli uomini, amati dal Signore.\n amati dal Signore.\nNoi ti lodiamo, ti benediciamo,\nti adoriamo, ti glorifichiamo,\nti rendiamo grazie\nper la tua gloria immensa,\nSignore Dio, Re del cielo,\nDio Padre onnipotente.\nSignore, Figlio unigenito,\nGesù Cristo,\nSignore Dio, Agnello di Dio,\nFiglio del Padre;\ntu che togli i peccati del mondo,\nabbi pietà di noi;\ntu che togli i peccati del mondo,\naccogli la nostra supplica;\ntu che siedi alla destra del Padre,\nabbi pietà di noi.\nPerché tu solo il Santo,\ntu solo il Signore,\ntu solo l'Altissimo:\nGesù Cristo, con lo Spirito Santo\nnella gloria di Dio Padre.\nAmen.\n"
+            }
+          ]
+        },
+        "reading": {
+          "title": "ORAZIONE COLLETTA – MODLITBA DŇA<br><br><b>LITURGIA DELLA PAROLA – LITURGIA SLOVA</b><br><br>LETTURA – ČÍTANIE<br>Po prečítaní čítania:",
+          "lines": [
+            {
+              "primary": "Parola di Dio.",
+              "translation": "Počuli sme Božie slovo."
+            },
+            {
+              "primary": "Rendiamo grazie a Dio.",
+              "translation": "Bohu vďaka.\n"
+            }
+          ]
+        },
+        "gospelOpening": {
+          "title": "VANGELO - EVANJELIUM",
+          "lines": [
+            {
+              "primary": "Il Signore sia con voi.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "E con il tuo spirito.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Dal Vangelo secondo...",
+              "translation": "Čítanie zo svätého evanjelia podľa..."
+            },
+            {
+              "primary": "Gloria a te, o Signore.",
+              "translation": "Sláva tebe, Pane.\n"
+            }
+          ]
+        },
+        "gospelConclusion": {
+          "title": "Po prečítaní evanjelia:",
+          "lines": [
+            {
+              "primary": "Parola del Signore.",
+              "translation": "Počuli sme slovo Pánovo."
+            },
+            {
+              "primary": "Lode a te, o Cristo.",
+              "translation": "Chvála tebe, Kriste.\n"
+            }
+          ]
+        },
+        "creed": {
+          "title": "CREDO – VYZNANIE VIERY",
+          "lines": [
+            {
+              "primary": "Credo in un solo Dio,\nPadre onnipotente,\ncreatore del cielo e della terra,\ndi tutte le cose visibili e invisibili.\nCredo in un solo Signore,\nGesù Cristo,\nunigenito Figlio di Dio,\nnato dal Padre prima di tutti i secoli.\nDio da Dio, Luce da Luce,\nDio vero da Dio vero;\ngenerato, non creato;\ndella stessa sostanza del Padre;\nper mezzo di lui\ntutte le cose sono state create.\nPer noi uomini e per la nostra\nsalvezza discese dal cielo;\ne per opera dello Spirito Santo\nsi è incarnato nel seno\ndella Vergine Maria\ne si è fatto uomo.\nFu crocifisso per noi\nsotto Ponzio Pilato,\nmorì e fu sepolto.\nIl terzo giorno è risuscitato,\nsecondo le Scritture;\nè salito al cielo,\nsiede alla destra del Padre.\nE di nuovo verrà, nella gloria,\nper giudicare i vivi e i morti,\ne il suo regno non avrà fine.\nCredo nello Spirito Santo,\nche è Signore e dà la vita,\ne procede dal Padre e dal Figlio.\nCon il Padre e il Figlio\nè adorato e glorificato\ne ha parlato per mezzo dei profeti.\nCredo la Chiesa,\nuna, santa, cattolica e apostolica.\nProfesso un solo Battesimo\nper il perdono dei peccati.\nAspetto la risurrezione dei morti\ne la vita del mondo che verrà.\nAmen.\n"
+            }
+          ]
+        },
+        "preparationOfGifts": {
+          "title": "PREGHIERA DEI FEDELI – SPOLOČNÉ MODLITBY VERIACICH<br><br><b>LITURGIA EUCARISTICA – LITURGIA EUCHARISTIE</b><br>",
+          "lines": [
+            {
+              "primary": "Benedetto sei tu, Signore, Dio dell'universo: dalla tua bontà abbiamo ricevuto questo pane, frutto della terra e del lavoro dell'uomo; lo presentiamo a te, perché diventi per noi cibo di vita eterna.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali tento chlieb. Obetujeme ti ho ako plod zeme a práce ľudských rúk, aby sa nám stal chlebom života."
+            },
+            {
+              "primary": "Benedetto nei secoli il Signore.",
+              "translation": "Požehnaný Boh naveky!"
+            },
+            {
+              "primary": "Benedetto sei tu, Signore, Dio dell'universo: dalla tua bontà abbiamo ricevuto questo vino, frutto della vite e del lavoro dell'uomo; lo presentiamo a te, perché diventi per noi bevanda di salvezza.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali toto víno. Obetujeme ti ho ako plod viniča a práce ľudských rúk, aby sa nám stalo duchovným nápojom."
+            },
+            {
+              "primary": "Benedetto nei secoli il Signore.",
+              "translation": "Požehnaný Boh naveky!\n"
+            },
+            {
+              "primary": "Pregate, fratelli e sorelle, perché il mio e vostro sacrificio sia gradito a Dio Padre onnipotente.",
+              "translation": "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila všemohúcemu Bohu Otcovi."
+            },
+            {
+              "primary": "Il Signore riceva dalle tue mani questo sacrificio a lode e gloria del suo nome, per il bene nostro e di tutta la sua santa Chiesa.",
+              "translation": "Nech Pán prijeme obetu z tvojich rúk na chválu a slávu svojho mena, na úžitok nám i celej svätej Cirkvi.\n"
+            }
+          ]
+        },
+        "preface": {
+          "title": "ORAZIONE SULLE OFFERTE – MODLITBA NAD OBETNÝMI DARMI.<br><br>PREFAZIO – PREFÁCIA",
+          "lines": [
+            {
+              "primary": "Il Signore sia con voi.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "E con il tuo spirito.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "In alto i nostri cuori.",
+              "translation": "Hore srdcia"
+            },
+            {
+              "primary": "Sono rivolti al Signore.",
+              "translation": "Máme ich u Pána."
+            },
+            {
+              "primary": "Rendiamo grazie al Signore, nostro Dio.",
+              "translation": "Vzdávajme vďaky Pánovi, nášmu Bohu."
+            },
+            {
+              "primary": "È cosa buona e giusta.",
+              "translation": "Je to dôstojné a správne.\n"
+            },
+            {
+              "primary": "Santo, Santo, Santo\nil Signore Dio dell'universo.\nI cieli e la terra\nsono pieni della tua gloria.\nOsanna nell'alto dei cieli.\nBenedetto colui che viene\nnel nome del Signore.\nOsanna nell'alto dei cieli.\n"
+            }
+          ]
+        },
+        "eucharisticAcclamations": {
+          "title": "PREGHIERA EUCARISTICA – EUCHARISTICKÁ MODLITBA<br>Po premenení:",
+          "lines": [
+            {
+              "primary": "Mistero della fede.",
+              "translation": "Hľa, tajomstvo viery."
+            },
+            {
+              "primary": "Annunciamo la tua morte, Signore, proclamiamo la tua risurrezione, nell'attesa della tua venuta.",
+              "translation": "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Ogni volta che mangiamo di questo pane e beviamo a questo calice, annunciamo la tua morte, Signore, nell'attesa della tua venuta.",
+              "translation": "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Tu ci hai redenti con la tua croce e la tua risurrezione: salvaci, o Salvatore del mondo.",
+              "translation": "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.\n"
+            }
+          ]
+        },
+        "communion": {
+          "title": "RITI DI COMUNIONE – OBRAD PRIJÍMANIA",
+          "lines": [
+            {
+              "primary": "Obbedienti alla parola del Salvatore e formati al suo divino insegnamento, osiamo dire:",
+              "translation": "Na príkaz nášho spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:"
+            },
+            {
+              "primary": "Padre nostro, che sei nei cieli,\nsia santificato il tuo nome,\nvenga il tuo regno,\nsia fatta la tua volontà,\ncome in cielo così in terra.\nDacci oggi il nostro pane quotidiano,\ne rimetti a noi i nostri debiti come noi\ncome anche noi li rimettiamo ai nostri debitori,\ne non abbandonarci alla tentazione,\nma liberaci dal male.\n"
+            },
+            {
+              "primary": "Liberaci, o Signore, da tutti i mali, concedi la pace ai nostri giorni; e con l'aiuto della tua misericordia, vivremo sempre liberi dal peccato e sicuri da ogni turbamento, nell'attesa che si compia la beata speranza, e venga il nostro Salvatore Gesù Cristo."
+            },
+            {
+              "primary": "Tuo è il regno, tua la potenza e la gloria nei secoli.",
+              "translation": "Lebo tvoje je kráľovstvo a moc i sláva naveky.\n"
+            },
+            {
+              "primary": "Signore Gesù Cristo, che hai detto ai tuoi apostoli: \"Vi lascio la pace, vi do la mia pace\", non guardare ai nostri peccati, ma alla fede della tua Chiesa, e donale unità e pace secondo la tua volontà. Tu che vivi e regni nei secoli dei secoli."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "La pace del Signore sia sempre con voi.",
+              "translation": "Pokoj Pánov nech je vždy s vami."
+            },
+            {
+              "primary": "E con il tuo spirito.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Scambiatevi il dono della pace.",
+              "translation": "Dajte si znak pokoja.\n"
+            }
+          ]
+        },
+        "communionReception": {
+          "title": "AGNELLO DI DIO – BARÁNOK BOŽÍ",
+          "lines": [
+            {
+              "primary": "Agnello di Dio, che togli i peccati del mondo, abbi pietà di noi.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Agnello di Dio, che togli i peccati del mondo, abbi pietà di noi.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Agnello di Dio, che togli i peccati del mondo, dona a noi la pace.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj."
+            },
+            {
+              "primary": "Ecco l’Agnello di Dio, ecco colui che toglie i peccati del mondo. Beati gli invitati alla cena dell’Agnello.",
+              "translation": "Hľa, Baránok Boží, ktorý sníma hriechy sveta. Blahoslavení tí, čo sú pozvaní na hostinu Baránkovu."
+            },
+            {
+              "primary": "O Signore, non sono degno di partecipare alla tua mensa: ma di' soltanto una parola e io sarò salvato.",
+              "translation": "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."
+            },
+            {
+              "primary": "Il Corpo di Cristo.",
+              "translation": "Telo Kristovo."
+            },
+            {
+              "primary": "Amen.\n"
+            }
+          ]
+        },
+        "conclusion": {
+          "title": "ORAZIONE DOPO LA COMUNIONE – MODLITBA PO PRIJÍMANÍ<br><br><b>RITI DI CONCLUSIONE - ZÁVEREČNÉ OBRADY</b><br>",
+          "lines": [
+            {
+              "primary": "Il Signore sia con voi.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "E con il tuo spirito.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primaryFormat": "HTML",
+              "primary": "Vi benedica Dio onnipotente, Padre e Figlio <font color='#A32626'>†</font> e Spirito Santo.",
+              "translation": "Nech vás žehná všemohúci Boh, Otec i Syn † i Duch Svätý."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Andate in pace.",
+              "translation": "Choďte v mene Božom."
+            },
+            {
+              "primary": "Rendiamo grazie a Dio.",
+              "translation": "Bohu vďaka."
+            }
+          ]
+        }
+      }
+    },
+    "lp007": {
+      "locale": "la",
+      "name": "Latinčina",
+      "sections": {
+        "introduction": {
+          "title": "<b>RITUS INITIALES – ÚVODNÉ OBRADY</b><br><br>INTROITUS – ÚVODNÝ SPEV",
+          "lines": [
+            {
+              "primary": "In nomine Patris et Filii et Spiritus Sancti.",
+              "translation": "V mene Otca i Syna i Ducha Svätého."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Dominus vobiscum.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Et cum spiritu tuo.",
+              "translation": "I s duchom Tvojím.\n"
+            },
+            {
+              "primary": "Fratres, agnoscamus peccata nostra, ut apti simus ad sacra mysteria celebranda.",
+              "translation": "Bratia a sestry, uznajme svoje hriechy, aby sme mohli s čistým srdcom sláviť sväté tajomstvá."
+            },
+            {
+              "primary": "Confiteor Deo omnipotenti\net vobis, fratres, quia peccavi nimis\ncogitatione, verbo,\nopere et omissione:\nmea culpa, mea culpa,\nmea maxima culpa.\nIdeo precor beatam Mariam semper Virginem,\nomnes Angelos et Sanctos,\net vos fratres, orare pro me\nad Dominum Deum nostrum.",
+              "translation": "Vyznávam všemohúcemu Bohu i vám, bratia a sestry, že som veľa zhrešil myšlienkami, slovami, skutkami a zanedbávaním dobrého. Moja vina, moja vina, moja preveľká vina. Preto prosím blahoslavenú Máriu, vždy Pannu, všetkých anjelov a svätých, i vás, bratia a sestry, modlite sa za mňa k Pánu Bohu nášmu."
+            },
+            {
+              "primary": "Misereatur nostri omnipotens Deus et, dimissis peccatis nostris, perducat nos ad vitam aeternam.",
+              "translation": "Nech sa nad nami zmiluje všemohúci Boh, nech nám hriechy odpustí a privedie nás do večného života."
+            },
+            {
+              "primary": "Amen.\n"
+            },
+            {
+              "primary": "Kyrie, eleison.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Kyrie, eleison.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Christe, eleison.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Christe, eleison.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Kyrie, eleison.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Kyrie, eleison.",
+              "translation": "Pane, zmiluj sa.\n"
+            }
+          ]
+        },
+        "gloria": {
+          "title": "GLORIA – GLÓRIA",
+          "lines": [
+            {
+              "primary": "Gloria in excelsis Deo et in terra\npax hominibus bonae voluntatis.\nLaudamus te, benedicimus te,\nadoramus te, glorificamus te,\ngratias agimus tibi\npropter magnam gloriam tuam,\nDomine Deus, Rex caelestis\nDeus Pater omnipotens,\nDomine Fili unigenite, Iesu Christe,\nDomine Deus, Agnus Dei,\nFilius Patris,\nqui tollis peccata mundi,\nmiserere nobis;\nqui tollis peccata mundi,\nsuscipe deprecationem nostram.\nQui sedes ad dexteram Patris,\nmiserere nobis.\nQuoniam tu solus Sanctus,\ntu solus Dominus,\ntu solus Altissimus, Iesu Christe,\ncum Sancto Spiritu: in gloria Dei Patris.\nAmen.\n"
+            }
+          ]
+        },
+        "reading": {
+          "title": "COLLECTA – MODLITBA DŇA<br><br><b>LITURGIAS VERBI – LITURGIA SLOVA</b><br><br>LECTIO – ČÍTANIE<br>Po prečítaní čítania:",
+          "lines": [
+            {
+              "primary": "Verbum Domini.",
+              "translation": "Počuli sme Božie slovo."
+            },
+            {
+              "primary": "Deo gratias.",
+              "translation": "Bohu vďaka.\n"
+            }
+          ]
+        },
+        "gospelOpening": {
+          "title": "EVANGELIUM - EVANJELIUM",
+          "lines": [
+            {
+              "primary": "Dóminus vobiscum.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Et cum spiritu tuo.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Lectio sancti Evangelii secundum...",
+              "translation": "Čítanie zo svätého evanjelia podľa..."
+            },
+            {
+              "primary": "Gloria tibi, Domine.",
+              "translation": "Sláva tebe, Pane.\n"
+            }
+          ]
+        },
+        "gospelConclusion": {
+          "title": "Po prečítaní evanjelia:",
+          "lines": [
+            {
+              "primary": "Verbum Domini.",
+              "translation": "Počuli sme slovo Pánovo."
+            },
+            {
+              "primary": "Laus tibi, Christe.",
+              "translation": "Chvála tebe, Kriste.\n"
+            }
+          ]
+        },
+        "creed": {
+          "title": "CREDO – VYZNANIE VIERY",
+          "lines": [
+            {
+              "primary": "Credo in unum Deum,\nPatrem omnipotentem,\nfactorem caeli et terrae,\nvisibilium omnium et invisibilium.\nEt in unum Dominum Iesum\nChristum, Filium Dei unigenitum,\net ex Patre natum ante omnia saecula.\nDeum de Deo, lumen de lumine,\nDeum verum de Deo vero,\ngenitum, non factum,\nconsubstantialem Patri:\nper quem omnia facta sunt.\nQui propter nos homines et propter\nnostram salutem descendit de caelis.\nEt incarnatus est de Spiritu Sancto\nex Maria Virgine,\net homo factus est.\nCrucifixus etiam pro nobis\nsub Pontio Pilato;\npassus et sepultus est,\net resurrexit tertia die,\nsecundum Scripturas,\net ascendit in caelum,\nsedet ad dexteram Patris.\nEt iterum venturus est cum gloria,\niudicare vivos et mortuos,\ncuius regni non erit finis.\nEt in Spiritum Sanctum,\nDominum et vivificantem:\nqui ex Patre Filioque procedit.\nQui cum Patre et Filio\nsimul adoratur et conglorificatur:\nqui locutus est per prophetas.\nEt unam, sanctam, catholicam\net apostolicam Ecclesiam.\nConfiteor unum baptisma\nin remissionem peccatorum.\nEt expecto\nresurrectionem mortuorum\net vitam venturi saeculi.\nAmen.\n"
+            }
+          ]
+        },
+        "preparationOfGifts": {
+          "title": "ORATIO UNIVERSALIS SEU ORATIO FIDELIUM – SPOLOČNÉ MODLITBY VERIACICH<br><br><b>LITURGIA EUCHARISTICA – LITURGIA EUCHARISTIE</b><br>",
+          "lines": [
+            {
+              "primary": "Benedictus es, Domine, Deus universi, quia de tua largitate accepimus panem, quem tibi offerimus, fructum terrae et operis manuum hominum, ex quo nobis fiet panis vitae.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali tento chlieb. Obetujeme ti ho ako plod zeme a práce ľudských rúk, aby sa nám stal chlebom života."
+            },
+            {
+              "primary": "Benedictus Deus in saecula.",
+              "translation": "Požehnaný Boh naveky!"
+            },
+            {
+              "primary": "Benedictus es, Domine, Deus universi, quia de tua largitate accepimus vinum, quod tibi offerimus, fructum vitis et operis manuum hominum, ex quo nobis fiet potus spiritalis.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali toto víno. Obetujeme ti ho ako plod viniča a práce ľudských rúk, aby sa nám stalo duchovným nápojom."
+            },
+            {
+              "primary": "Benedictus Deus in saecula.",
+              "translation": "Požehnaný Boh naveky!\n"
+            },
+            {
+              "primary": "Orate, fratres, ut meum ac vestrum sacrificium acceptabile fiat apud Deum Patrem omnipotentem!",
+              "translation": "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila všemohúcemu Bohu Otcovi."
+            },
+            {
+              "primary": "Suscipiat Dominus sacrificium de manibus tuis ad laudem et gloriam nominis sui, ad utilitatem quoque nostram totiusque Ecclesiae suae sanctae.",
+              "translation": "Nech Pán prijeme obetu z tvojich rúk na chválu a slávu svojho mena, na úžitok nám i celej svätej Cirkvi.\n"
+            }
+          ]
+        },
+        "preface": {
+          "title": "ORATIO SUPER OBLATA – MODLITBA NAD OBETNÝMI DARMI.<br><br>PREFATIO – PREFÁCIA",
+          "lines": [
+            {
+              "primary": "Dóminus vobiscum.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Et cum spíritu tuo.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Sursun corda.",
+              "translation": "Hore srdcia"
+            },
+            {
+              "primary": "Habémus ad Dóminum.",
+              "translation": "Máme ich u Pána."
+            },
+            {
+              "primary": "Grátias agámus Dómino Deo nostro.",
+              "translation": "Vzdávajme vďaky Pánovi, nášmu Bohu."
+            },
+            {
+              "primary": "Dignum et iustum est.",
+              "translation": "Je to dôstojné a správne.\n"
+            },
+            {
+              "primary": "Sanctus, Sanctus, Sanctus\nDominus Deus Sabaoth.\nPleni sunt cæli et terra gloria tua.\nHosanna in excelsis.\nBenedictus qui venit in nomine Domini.\nHosanna in excelsis.\n"
+            }
+          ]
+        },
+        "eucharisticAcclamations": {
+          "title": "PREX EUCHARISTICA – EUCHARISTICKÁ MODLITBA<br>Po premenení:",
+          "lines": [
+            {
+              "primary": "Mysterium fidei.",
+              "translation": "Hľa, tajomstvo viery."
+            },
+            {
+              "primary": "Mortem tuam annuntiamus, Domine, et tuam resurrectionem confitemur, donec venias.",
+              "translation": "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Quotiescumque manducamus panem hunc et calicem bibimus, mortem tuam annuntiamus, Domine, donec venias.",
+              "translation": "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Salvator mundi, salva nos, qui per crucem et resurrectionem tuam liberasti nos.",
+              "translation": "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.\n"
+            }
+          ]
+        },
+        "communion": {
+          "title": "RITUS COMMUNIONIS – OBRAD PRIJÍMANIA",
+          "lines": [
+            {
+              "primary": "Praeceptis salutaribus moniti, et divina institutione formati, audemus dicere:",
+              "translation": "Na príkaz nášho spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:"
+            },
+            {
+              "primary": "Pater noster, qui es in caelis,\nsanctificetur nomen tuum,\nadveniat regnum tuum,\nfiat voluntas tua,\nsicut in caelo et in terra.\nPanem nostrum cotidianum\nda nobis hodie,\net dimitte nobis debita nostra,\nsicut et nos dimittimus\ndebitoribus nostris,\net ne nos inducas in tentationem,\nsed libera nos a malo.\n"
+            },
+            {
+              "primary": "Libera nos, quaesumus, Domine, ab omnibus malis, da propitius pacem in diebus nostris, ut, ope misericordiae tuae adiuti, et a peccato simus semper liberi et ab omni perturbatione securi: exspectantes beatam spem et adventum Salvatoris nostri Iesu Christi."
+            },
+            {
+              "primary": "Quia tuum est regnum et potestas et gloria in saecula.",
+              "translation": "Lebo tvoje je kráľovstvo a moc i sláva naveky.\n"
+            },
+            {
+              "primary": "Domine Iesu Christe, qui dixisti Apostolis tuis: Pacem relinquo vobis, pacem meam do vobis: ne respicias peccata nostra, sed fidem Ecclesiae tuae, eamque secundum voluntatem tuam pacificare et coadunare digneris. Qui vivis et regnas in saecula saeculorum."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Pax Domini sit semper vobiscum.",
+              "translation": "Pokoj Pánov nech je vždy s vami."
+            },
+            {
+              "primary": "Et cum spiritu tuo.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Offerte vobis pacem.",
+              "translation": "Dajte si znak pokoja.\n"
+            }
+          ]
+        },
+        "communionReception": {
+          "title": "AGNUS DEI – BARÁNOK BOŽÍ",
+          "lines": [
+            {
+              "primary": "Agnus Dei, qui tollis peccata mundi: miserere nobis.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Agnus Dei, qui tollis peccata mundi: miserere nobis.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Agnus Dei, qui tollis peccata mundi: dona nobis pacem.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj."
+            },
+            {
+              "primary": "Ecce Agnus Dei, ecce qui tollit peccata mundi. Beati qui ad cenam Agni vocati sunt.",
+              "translation": "Hľa, Baránok Boží, ktorý sníma hriechy sveta. Blahoslavení tí, čo sú pozvaní na hostinu Baránkovu."
+            },
+            {
+              "primary": "Domine, non sum dignus ut intres sub tectum meum, sed tantum dic verbo et sanabitur anima mea.",
+              "translation": "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."
+            },
+            {
+              "primary": "Corpus Christi.",
+              "translation": "Telo Kristovo."
+            },
+            {
+              "primary": "Amen.\n"
+            }
+          ]
+        },
+        "conclusion": {
+          "title": "POSTCOMMUNIO – MODLITBA PO PRIJÍMANÍ<br><br><b>RITUS CONCLUSIONIS - ZÁVEREČNÉ OBRADY</b><br>",
+          "lines": [
+            {
+              "primary": "Dominus vobiscum.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Et cum spiritu tuo.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primaryFormat": "HTML",
+              "primary": "Benedicat vos omnipotens Deus, Pater et Filius <font color='#A32626'>†</font> et Spiritus Sanctus.",
+              "translation": "Nech vás žehná všemohúci Boh, Otec i Syn † i Duch Svätý."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Ite, missa est.",
+              "translation": "Choďte v mene Božom."
+            },
+            {
+              "primary": "Deo gratias.",
+              "translation": "Bohu vďaka."
+            }
+          ]
+        }
+      }
+    },
+    "lp008": {
+      "locale": "pl",
+      "name": "Poľština",
+      "sections": {
+        "introduction": {
+          "title": "<b>OBRZĘDY WSTĘPNE– ÚVODNÉ OBRADY</b><br><br>OBRZĘDY WSTĘPNE – ÚVODNÝ SPEV",
+          "lines": [
+            {
+              "primary": "W imię Ojca i Syna, i Ducha Świętego.",
+              "translation": "V mene Otca i Syna i Ducha Svätého."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Pan z wami.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "I z duchem twoim.",
+              "translation": "I s duchom Tvojím.\n"
+            },
+            {
+              "primary": "Przeprośmy Boga za nasze grzechy, abyśmy mogli godnie przyjąć słowo Boże i złożyć Najświętszą Ofiarę.",
+              "translation": "Bratia a sestry, uznajme svoje hriechy, aby sme mohli s čistým srdcom sláviť sväté tajomstvá."
+            },
+            {
+              "primary": "Spowiadam się Bogu wszechmogącemu\ni wam bracia i siostry,\nże bardzo zgrzeszyłem\nmyślą, mową, uczynkiem i zaniedbaniem:\nmoja wina, moja wina,\nmoja bardzo wielka wina.\nPrzeto błagam Najświętszą Maryję,\nzawsze Dziewicę wszystkich\nAniołów i Świętych\ni was, bracia i siostry, o modlitwę za mnie\ndo Pana Boga naszego.",
+              "translation": "Vyznávam všemohúcemu Bohu i vám, bratia a sestry, že som veľa zhrešil myšlienkami, slovami, skutkami a zanedbávaním dobrého. Moja vina, moja vina, moja preveľká vina. Preto prosím blahoslavenú Máriu, vždy Pannu, všetkých anjelov a svätých, i vás, bratia a sestry, modlite sa za mňa k Pánu Bohu nášmu."
+            },
+            {
+              "primary": "Niech się zmiłuje nad nami Bóg wszechmogący i odpuściwszy nam grzechy doprowadzi nas do życia wiecznego.",
+              "translation": "Nech sa nad nami zmiluje všemohúci Boh, nech nám hriechy odpustí a privedie nás do večného života."
+            },
+            {
+              "primary": "Amen.\n"
+            },
+            {
+              "primary": "Panie zmiłuj się nad nami.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Panie zmiłuj się nad nami.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Chryste zmiłuj się nad nami. ",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Chryste zmiłuj się nad nami. ",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Panie zmiłuj się nad nami.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Panie zmiłuj się nad nami.",
+              "translation": "Pane, zmiluj sa.\n"
+            }
+          ]
+        },
+        "gloria": {
+          "title": "CHWAŁA– GLÓRIA",
+          "lines": [
+            {
+              "primary": "Chwała na wysokości Bogu\na na ziemi pokój ludziom dobrej woli.\nChwalimy Cię. Błogosławimy Cię,\nWielbimy Cię. Wysławiamy Cię.\nDzięki Ci składamy,\nbo wielka jest chwała Twoja.\nPanie Boże, Królu nieba,\nBoże Ojcze wszechmogący.\nPanie, Synu Jednorodzony, Jezu Chryste.\nPanie Boże, Baranku Boży, Synu Ojca.\nKtóry gładzisz grzechy świata,\nzmiłuj się nad nami.\nKtóry gładzisz grzechy świata,\nprzyjm błaganie nasze.\nKtóry siedzisz po prawicy Ojca,\nzmiłuj się nad nami.\nAlbowiem tylko Tyś jest święty.\nTylko Tyś jest Panem.\nTylko Tyś Najwyższy, Jezu Chryste.\nZ Duchem Świętym w chwale Boga Ojca.\nAmen.\n"
+            }
+          ]
+        },
+        "reading": {
+          "title": "MODLITWA DNIA – MODLITBA DŇA<br><br><b>LITURGIA SŁOWA – LITURGIA SLOVA</b><br><br>CZYTANIE – ČÍTANIE<br>Po prečítaní čítania:",
+          "lines": [
+            {
+              "primary": "Oto słowo Boże.",
+              "translation": "Počuli sme Božie slovo."
+            },
+            {
+              "primary": "Bogu niech będą dzięki.",
+              "translation": "Bohu vďaka.\n"
+            }
+          ]
+        },
+        "gospelOpening": {
+          "title": "EWANGELIĘ - EVANJELIUM",
+          "lines": [
+            {
+              "primary": "Pan z wami.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "I z duchem twoim.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Słowa Ewangelii według świętego...",
+              "translation": "Čítanie zo svätého evanjelia podľa..."
+            },
+            {
+              "primary": "Chwała Tobie, Panie.",
+              "translation": "Sláva tebe, Pane.\n"
+            }
+          ]
+        },
+        "gospelConclusion": {
+          "title": "Po prečítaní evanjelia:",
+          "lines": [
+            {
+              "primary": "Oto słowo Pańskie.",
+              "translation": "Počuli sme slovo Pánovo."
+            },
+            {
+              "primary": "Chwała Tobie, Chryste.",
+              "translation": "Chvála tebe, Kriste.\n"
+            }
+          ]
+        },
+        "creed": {
+          "title": "WYZNANIE WIARY– VYZNANIE VIERY",
+          "lines": [
+            {
+              "primary": "Wierzę w jednego Boga,\nOjca wszechmogącego,\nStworzyciela nieba i ziemi,\nwszystkich rzeczy widzialnych i niewidzialnych.\nI w jednego Pana Jezusa Chrystusa,\nSyna Bożego Jednorodzonego,\nktóry z Ojca jest zrodzony\nprzed wszystkimi wiekami.\nBóg z Boga, Światłość ze Światłości,\nBóg prawdziwy z Boga prawdziwego.\nZrodzony a nie stworzony,\nwspółistotny Ojcu,\na przez Niego wszystko się stało.\nOn to dla nas ludzi i dla naszego zbawienia\nzstąpił z nieba.\nI za sprawą Ducha Świętego\nprzyjął ciało z Maryi Dziewicy\ni stał się człowiekiem.\nUkrzyżowany również za nas,\npod Poncjuszem Piłatem\nzostał umęczony i pogrzebany.\ni zmartwychwstał trzeciego dnia,\njak oznajmia Pismo.\nI wstąpił do nieba; siedzi po prawicy Ojca.\nI powtórnie przyjdzie w chwale\nsądzić żywych i umarłych,\na Królestwu Jego nie będzie końca.\nWierzę w Ducha Świętego, Pana i Ożywiciela,\nktóry od Ojca i Syna pochodzi.\nKtóry z Ojcem i Synem wspólnie\nodbiera uwielbienie i chwalę;\nktóry mówił przez Proroków\nWierzę w jeden, święty,\npowszechny i apostolski Kościół.\nwyznaję jeden chrzest\nna odpuszczenie grzechów\nI oczekuję wskrzeszenia umarłych.\nI życia wiecznego w przyszłym świecie.\nAmen.\n"
+            }
+          ]
+        },
+        "preparationOfGifts": {
+          "title": "MODLITWA POWSZECHNA – SPOLOČNÉ MODLITBY VERIACICH<br><br><b>LITURGIA EUCHARYSTYCZNA – LITURGIA EUCHARISTIE</b><br>",
+          "lines": [
+            {
+              "primary": "Błogosławiony jesteś, Panie, Boże wszechświata, bo dzięki Twojej hojności otrzymaliśmy chleb, który jest owocem ziemi i pracy rąk ludzkich; Tobie go przynosimy, aby stał się dla nas chlebem życia.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali tento chlieb. Obetujeme ti ho ako plod zeme a práce ľudských rúk, aby sa nám stal chlebom života."
+            },
+            {
+              "primary": "Błogosławiony jesteś, Boże, teraz i na wieki.",
+              "translation": "Požehnaný Boh naveky!"
+            },
+            {
+              "primary": "Błogosławiony jesteś, Panie, Boże wszechświata, bo dzięki Twojej hojności otrzymaliśmy wino, które jest owocem winnego krzewu i pracy rąk ludzkich; Tobie je przynosimy, aby staro się dla nas napojem duchowym.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali toto víno. Obetujeme ti ho ako plod viniča a práce ľudských rúk, aby sa nám stalo duchovným nápojom."
+            },
+            {
+              "primary": "Błogosławiony jesteś, Boże, teraz i na wieki.",
+              "translation": "Požehnaný Boh naveky!\n"
+            },
+            {
+              "primary": "Módlcie się, aby moją i waszą Ofiarę przyjął Bóg, Ojciec wszechmogący.",
+              "translation": "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila všemohúcemu Bohu Otcovi."
+            },
+            {
+              "primary": "Niech Pan przyjmie Ofiarę z rąk twoich na cześć i chwałę swojego imienia, a także na pożytek nasz i całego Kościoła świętego.",
+              "translation": "Nech Pán prijeme obetu z tvojich rúk na chválu a slávu svojho mena, na úžitok nám i celej svätej Cirkvi.\n"
+            }
+          ]
+        },
+        "preface": {
+          "title": "MODLITWA NAD DARAMI – MODLITBA NAD OBETNÝMI DARMI.<br><br> PREFACJA – PREFÁCIA",
+          "lines": [
+            {
+              "primary": "Pan z wami.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "I z duchem twoim.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "W górę serca.",
+              "translation": "Hore srdcia"
+            },
+            {
+              "primary": "Wznosimy je do Pana.",
+              "translation": "Máme ich u Pána."
+            },
+            {
+              "primary": "Dzięki składajmy Panu Bogu naszemu.",
+              "translation": "Vzdávajme vďaky Pánovi, nášmu Bohu."
+            },
+            {
+              "primary": "Godne to i sprawiedliwe.",
+              "translation": "Je to dôstojné a správne.\n"
+            },
+            {
+              "primary": "Święty, Święty, Święty,\nPan Bóg zastępów\nPełne są niebiosa i ziemia chwały Twojej.\nHosanna na wysokości.\nBłogosławiony, który idzie w imię Pańskie.\nHosanna na wysokości.\n"
+            }
+          ]
+        },
+        "eucharisticAcclamations": {
+          "title": "MODLITWA EUCHARYSTYCZNA – EUCHARISTICKÁ MODLITBA<br>Po premenení:",
+          "lines": [
+            {
+              "primary": "Oto wielka tajemnica wiary.",
+              "translation": "Hľa, tajomstvo viery."
+            },
+            {
+              "primary": "Głosimy śmierć Twoją, Panie Jezu, wyznajemy Twoje zmartwychwstanie i oczekujemy Twego przyjścia w chwale.",
+              "translation": "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Wielka jest tajemnica naszej wiary",
+              "translation": "Vyznajme Tajomstvo viery"
+            },
+            {
+              "primary": "Ile razy ten chleb spożywamy i pijemy z tego kielicha, głosimy śmierć Twoją, Panie, oczekując Twojego przyjścia w chwale.",
+              "translation": "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Uwielbiajmy tajemnicę wiary.",
+              "translation": "Veľké je tajomstvo viery."
+            },
+            {
+              "primary": "Panie, Ty nas wybawiłeś przez krzyż i zmartwychwstanie swoje, Ty jesteś Zbawicielem świata.",
+              "translation": "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Tajemnica wiary."
+            },
+            {
+              "primary": "Chrystus umarł, Chrystus zmartwychwstał, Chrystus powróci\n"
+            }
+          ]
+        },
+        "communion": {
+          "title": "OBRZĘDY KOMUNII – OBRAD PRIJÍMANIA",
+          "lines": [
+            {
+              "primary": "Pouczeni przez Zbawiciela i posłuszni Jego słowom, ośmielamy się mówić:",
+              "translation": "Na príkaz nášho spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:"
+            },
+            {
+              "primary": "Ojcze nasz, któryś jest w niebie:\nświęć się imię Twoje,\nprzyjdź Królestwo Twoje,\nbądź wola Twoja\njako w niebie, tak i na ziemi.\nChleba naszego powszedniego\ndaj nam dzisiaj.\nI odpuść nam nasze winy,\njako i my odpuszczamy\nnaszym winowajcom.\nI nie wódź nas na pokuszenie,\nale nas zbaw ode złego.\n"
+            },
+            {
+              "primary": "Wybaw nas, Panie, od zła wszelkiego i obdarz nasze czasy pokojem. Wspomóż nas w swoim miłosierdziu, abyśmy zawsze wolni od grzechu i bezpieczni od wszelkiego zamętu, pełni nadziei oczekiwali przyjścia naszego Zbawiciela, Jezusa Chrystusa."
+            },
+            {
+              "primary": "Bo Twoje jest królestwo i potęga, i chwała na wieki.",
+              "translation": "Lebo tvoje je kráľovstvo a moc i sláva naveky.\n"
+            },
+            {
+              "primary": "Panie Jezu Chryste, Ty powiedziałeś swoim Apostołom: Pokój wam zostawiam, pokój mój wam daję. Prosimy Cię, nie zważaj na grzechy nasze, lecz na wiarę swojego Kościoła i zgodnie z Twoją wolą napełniaj go pokojem i doprowadź do pełnej jedności. Który żyjesz i królujesz na wieki wieków."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Pokój Pański niech zawsze będzie z wami.",
+              "translation": "Pokoj Pánov nech je vždy s vami."
+            },
+            {
+              "primary": "I z duchem twoim.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Przekażcie sobie znak pokoju.",
+              "translation": "Dajte si znak pokoja.\n"
+            }
+          ]
+        },
+        "communionReception": {
+          "title": "BARANKU BOŽY – BARÁNOK BOŽÍ",
+          "lines": [
+            {
+              "primary": "Baranku Boży, który gładzisz grzechy świata, zmiłuj się nad nami.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Baranku Boży, który gładzisz grzechy świata, zmiłuj się nad nami.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Baranku Boży, który gładzisz grzechy świata, obdarz nas pokojem.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj."
+            },
+            {
+              "primary": "Oto Baranek Boży, który gładzi grzechy świata. Błogosławieni, którzy zostali wezwani na Jego ucztę.",
+              "translation": "Hľa, Baránok Boží, ktorý sníma hriechy sveta. Blahoslavení tí, čo sú pozvaní na hostinu Baránkovu."
+            },
+            {
+              "primary": "Panie, nie jestem godzien, abyś przyszedł do mnie, ale powiedz tylko słowo, a będzie uzdrowiona dusza moja.",
+              "translation": "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."
+            },
+            {
+              "primary": "Ciało Chrystusa.",
+              "translation": "Telo Kristovo."
+            },
+            {
+              "primary": "Amen.\n"
+            }
+          ]
+        },
+        "conclusion": {
+          "title": "MODLITWA PO KOMUNII – MODLITBA PO PRIJÍMANÍ<br><br><b>OBRZĘDY ZAKOŃCZENIA - ZÁVEREČNÉ OBRADY</b><br>",
+          "lines": [
+            {
+              "primary": "Pan z wami.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "I z duchem twoim",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Niech was błogosławi Bóg wszechmogący, Ojciec i Syn, <font color='#A32626'>†</font> i Duch Święty.",
+              "primaryFormat": "HTML",
+              "translation": "Nech vás žehná všemohúci Boh, Otec i Syn † i Duch Svätý."
+            },
+            {
+              "primary": "Amen."
+            },
+            {
+              "primary": "Idźcie w pokoju Chrystusa.",
+              "translation": "Choďte v mene Božom."
+            },
+            {
+              "primary": "Bogu niech będą dzięki.",
+              "translation": "Bohu vďaka."
+            }
+          ]
+        }
+      }
+    },
+    "lp009": {
+      "locale": "es",
+      "name": "Španielčina",
+      "sections": {
+        "introduction": {
+          "title": "<b>RITOS INICIALES – ÚVODNÉ OBRADY</b><br><br>ANTÍFONA DE ENTRADA – ÚVODNÝ SPEV",
+          "lines": [
+            {
+              "primary": "En el nombre del Padre, y del Hijo, y del Espíritu Santo.",
+              "translation": "V mene Otca i Syna i Ducha Svätého."
+            },
+            {
+              "primary": "Amén."
+            },
+            {
+              "primary": "El Señor esté con vosotros.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Y con tu espíritu.",
+              "translation": "I s duchom Tvojím.\n"
+            },
+            {
+              "primary": "Hermanos: para celebrar dignamente estos sagrados misterios, reconozcamos nuestros pecados.",
+              "translation": "Bratia a sestry, uznajme svoje hriechy, aby sme mohli s čistým srdcom sláviť sväté tajomstvá."
+            },
+            {
+              "primary": "Yo confieso ante Dios todopoderoso\ny ante vosotros, hermanos,\nque he pecado mucho de pensamiento,\npalabra, obra y omisión.\nPor mi culpa, por mi culpa,\npor mi gran culpa.\nPor eso ruego a santa María,\nsiempre Virgen, a los ángeles,\na los santos y a vosotros, hermanos,\nque intercedáis por mí ante Dios,\nnuestro Señor.",
+              "translation": "Vyznávam všemohúcemu Bohu i vám, bratia a sestry, že som veľa zhrešil myšlienkami, slovami, skutkami a zanedbávaním dobrého. Moja vina, moja vina, moja preveľká vina. Preto prosím blahoslavenú Máriu, vždy Pannu, všetkých anjelov a svätých, i vás, bratia a sestry, modlite sa za mňa k Pánu Bohu nášmu."
+            },
+            {
+              "primary": "Dios todopoderoso tenga misericordia de nosotros, perdone nuestros pecados y nos lleve a la vida eterna.",
+              "translation": "Nech sa nad nami zmiluje všemohúci Boh, nech nám hriechy odpustí a privedie nás do večného života."
+            },
+            {
+              "primary": "Amén.\n"
+            },
+            {
+              "primary": "Señor, ten piedad.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Señor, ten piedad.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Cristo, ten piedad.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Cristo, ten piedad.",
+              "translation": "Kriste, zmiluj sa."
+            },
+            {
+              "primary": "Señor, ten piedad.",
+              "translation": "Pane, zmiluj sa."
+            },
+            {
+              "primary": "Señor, ten piedad.",
+              "translation": "Pane, zmiluj sa.\n"
+            }
+          ]
+        },
+        "gloria": {
+          "title": "GLORIA – GLÓRIA",
+          "lines": [
+            {
+              "primary": "Gloria a Dios en el cielo,\ny en la tierra paz a los hombres que ama el Señor.\nPor tu inmensa gloria te alabamos, te bendecimos, te adoramos, te glorificamos, te damos gracias, Señor Dios, Rey celestial, Dios Padre todopoderoso.\nSeñor, Hijo único, Jesucristo, Señor Dios, Cordero de Dios, Hijo del Padre; \ntú que quitas el pecado del mundo, ten piedad de nosotros;\ntú que quitas el pecado del mundo, atiende nuestra súplica;\ntú que estás sentado a la derecha del Padre, ten piedad de nosotros. \nPorque sólo tú eres Santo, sólo tú Señor, sólo tú Altísimo, Jesucristo, con el espíritu Santo en la gloria de Dios Padre.\nAmén.\n"
+            }
+          ]
+        },
+        "reading": {
+          "title": "ORACIÓN COLECTA – MODLITBA DŇA<br><br><b>LITURGIA DE LA PALABRA – LITURGIA SLOVA</b><br><br>LECTURA – ČÍTANIE<br>Po prečítaní čítania:",
+          "lines": [
+            {
+              "primary": "Palabra de Dios.",
+              "translation": "Počuli sme Božie slovo."
+            },
+            {
+              "primary": "Te alabamos, Señor.",
+              "translation": "Bohu vďaka.\n"
+            }
+          ]
+        },
+        "gospelOpening": {
+          "title": "EVANGELIO - EVANJELIUM",
+          "lines": [
+            {
+              "primary": "El Señor esté con vosotros.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Y con tu espíritu.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Lectura del santo Evangelio según san...",
+              "translation": "Čítanie zo svätého evanjelia podľa..."
+            },
+            {
+              "primary": "Gloria a ti, Señor.",
+              "translation": "Sláva tebe, Pane.\n"
+            }
+          ]
+        },
+        "gospelConclusion": {
+          "title": "Po prečítaní evanjelia:",
+          "lines": [
+            {
+              "primary": "Palabra del Señor.",
+              "translation": "Počuli sme slovo Pánovo."
+            },
+            {
+              "primary": "Gloria a Ti, Señor Jesús.",
+              "translation": "Chvála tebe, Kriste.\n"
+            }
+          ]
+        },
+        "creed": {
+          "title": "CREDO – VYZNANIE VIERY",
+          "lines": [
+            {
+              "primary": "Creo en un solo Dios, Padre todopoderoso, Creador del cielo y de la tierra, de todo lo visible y lo invisible.\nCreo en un solo Señor, Jesucristo, Hijo único de Dios, nacido del Padre antes de todos los siglos:\nDios de Dios, Luz de Luz, Dios verdadero de Dios verdadero, engendrado, no creado, de la misma naturaleza del Padre, por quien todo fue hecho;\nque por nosotros, los hombres, y por nuestra salvación bajó del cielo;\ny por obra del Espíritu Santo se encarnó de María, la Virgen, y se hizo hombre;\ny por nuestra causa fue crucificado en tiempos de Poncio Pilato;\npadeció y fue sepultado, y resucitó al tercer día, según las Escrituras, y subió al cielo, y está sentado a la derecha del Padre;\ny de nuevo vendrá con gloria para juzgar a vivos y muertos, y su reino no tendrá fin.\nCreo en el Espíritu Santo, Señor y dador de vida, que procede del Padre y del Hijo, que con el Padre y el Hijo recibe una misma adoración y gloria, y que habló por los profetas.\nCreo en la Iglesia, que es una, santa, católica y apostólica.\nConfieso que hay un solo bautismo para el perdón de los pecados.\nEspero la resurrección de los muertos y la vida del mundo futuro.\nAmén.\n"
+            }
+          ]
+        },
+        "preparationOfGifts": {
+          "title": "PROPUESTA PARA ORACIÓN DE LOS FIELES – SPOLOČNÉ MODLITBY VERIACICH<br><br><b>LITURGIA EUCARÍSTICA – LITURGIA EUCHARISTIE</b><br>",
+          "lines": [
+            {
+              "primary": "Bendito seas, Señor, Dios del universo, por este pan, fruto de la tierra y del trabajo del hombre, que recibimos de tu generosidad y ahora te presentamos; él será para nosotros pan de vida.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali tento chlieb. Obetujeme ti ho ako plod zeme a práce ľudských rúk, aby sa nám stal chlebom života."
+            },
+            {
+              "primary": "Bendito seas por siempre, Señor.",
+              "translation": "Požehnaný Boh naveky!"
+            },
+            {
+              "primary": "Bendito seas, Señor, Dios del universo, por este vino, fruto de la vid y del trabajo del hombre, que recibimos de tu generosidad y ahora te presentamos; él será para nosotros bebida de salvación.",
+              "translation": "Požehnaný si, Pane, Bože všetkého stvorenia, pretože sme z tvojej štedrosti prijali toto víno. Obetujeme ti ho ako plod viniča a práce ľudských rúk, aby sa nám stalo duchovným nápojom."
+            },
+            {
+              "primary": "Bendito seas por siempre, Señor.",
+              "translation": "Požehnaný Boh naveky!\n"
+            },
+            {
+              "primary": "Orad, hermanos, para que este sacrificio, mío y vuestro, sea agradable a Dios, Padre todopoderoso.",
+              "translation": "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila všemohúcemu Bohu Otcovi."
+            },
+            {
+              "primary": "El Señor reciba de tus manos este sacrificio, para alabanza y gloria de su nombre, para nuestro bien y el de toda su santa Iglesia.",
+              "translation": "Nech Pán prijeme obetu z tvojich rúk na chválu a slávu svojho mena, na úžitok nám i celej svätej Cirkvi.\n"
+            }
+          ]
+        },
+        "preface": {
+          "title": "ORACIÓN SOBRE LAS OFRENDAS – MODLITBA NAD OBETNÝMI DARMI.<br><br>PREFACIO – PREFÁCIA",
+          "lines": [
+            {
+              "primary": "El Señor esté con vosotros.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Y con tu espíritu.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Levantemos el corazón.",
+              "translation": "Hore srdcia"
+            },
+            {
+              "primary": "Lo tenemos levantado hacia el Señor.",
+              "translation": "Máme ich u Pána."
+            },
+            {
+              "primary": "Demos gracias al Señor, nuestro Dios.",
+              "translation": "Vzdávajme vďaky Pánovi, nášmu Bohu."
+            },
+            {
+              "primary": "Es justo y necesario.",
+              "translation": "Je to dôstojné a správne.\n"
+            },
+            {
+              "primary": "Santo, Santo, Santo es el Señor, Dios del Universo.\nLlenos están el cielo y la tierra de su gloria.\nHosanna en el cielo.\nBendito el que viene en nombre del Señor.\nHosanna en el cielo.\n"
+            }
+          ]
+        },
+        "eucharisticAcclamations": {
+          "title": "PLEGARIA EUCARÍSTICA – EUCHARISTICKÁ MODLITBA<br>Po premenení:",
+          "lines": [
+            {
+              "primary": "Éste es el Sacramento de nuestra fe.",
+              "translation": "Hľa, tajomstvo viery."
+            },
+            {
+              "primary": "Anunciamos tu muerte, proclamamos tu resurrección. ¡Ven, Señor Jesús!",
+              "translation": "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Aclamad el Misterio de la redención.",
+              "translation": "Vyznajme Tajomstvo viery"
+            },
+            {
+              "primary": "Cada vez que comemos de este pan y bebemos de este cáliz, anunciamos tu muerte, Señor, hasta que vuelvas.",
+              "translation": "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve."
+            },
+            {
+              "primary": ""
+            },
+            {
+              "primary": "Cristo se entregó por nosotros.",
+              "translation": "Veľké je tajomstvo viery."
+            },
+            {
+              "primary": "Por tu cruz y resurrección nos has salvado, Señor.",
+              "translation": "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.\n"
+            }
+          ]
+        },
+        "communion": {
+          "title": "RITO DE LA COMUNIÓN – OBRAD PRIJÍMANIA",
+          "lines": [
+            {
+              "primary": "Fieles a la recomendación del Salvador y siguiendo su divina enseñanza, nos atrevemos a decir:",
+              "translation": "Na príkaz nášho spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:"
+            },
+            {
+              "primary": "Padre nuestro, que estás en el cielo, santificado sea tu Nombre;\nvenga a nosotros tu reino;\nhágase tu voluntad en la tierra como en el cielo.\nDanos hoy nuestro pan de cada día;\nperdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden;\nno nos dejes caer en la tentación, y líbranos del mal.\n"
+            },
+            {
+              "primary": "Líbranos de todos los males, Señor, y concédenos la paz en nuestros días, para que, ayudados por tu misericordia, vivamos siempre libres de pecado y protegidos de toda perturbación, mientras esperamos la gloriosa venida de nuestro Salvador Jesucristo."
+            },
+            {
+              "primary": "Tuyo es el reino, tuyo el poder y la gloria, por siempre, Señor.",
+              "translation": "Lebo tvoje je kráľovstvo a moc i sláva naveky.\n"
+            },
+            {
+              "primary": "Señor Jesucristo, que dijiste a tus apóstoles: \"La paz os dejo, mi paz os doy\"; no tengas en cuenta nuestros pecados, sino la fe de tu Iglesia y, conforme a tu palabra, concédele la paz y la unidad. Tú que vives y reinas por los siglos de los siglos."
+            },
+            {
+              "primary": "Amén."
+            },
+            {
+              "primary": "La paz del Señor esté siempre con vosotros.",
+              "translation": "Pokoj Pánov nech je vždy s vami."
+            },
+            {
+              "primary": "Y con tu espíritu.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primary": "Daos fraternalmente la paz.",
+              "translation": "Dajte si znak pokoja.\n"
+            }
+          ]
+        },
+        "communionReception": {
+          "title": "CORDERO DE DIOS – BARÁNOK BOŽÍ",
+          "lines": [
+            {
+              "primary": "Cordero de Dios, que quitas el pecado del mundo, ten piedad de nosotros.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Cordero de Dios, que quitas el pecado del mundo, ten piedad de nosotros.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: zmiluj sa nad nami.\n"
+            },
+            {
+              "joinPrevious": true,
+              "primary": "Cordero de Dios, que quitas el pecado del mundo, danos la paz.",
+              "translation": "Baránok Boží, ty snímaš hriechy sveta: daruj nám pokoj."
+            },
+            {
+              "primary": "Éste es el Cordero de Dios, que quita el pecado del mundo. Dichosos los invitados a la cena del Señor.",
+              "translation": "Hľa, Baránok Boží, ktorý sníma hriechy sveta. Blahoslavení tí, čo sú pozvaní na hostinu Baránkovu."
+            },
+            {
+              "primary": "Señor, no soy digno de que entres en mi casa, pero una palabra tuya bastará para sanarme.",
+              "translation": "Pane, nie som hoden, aby si vošiel pod moju strechu, ale povedz iba slovo a duša mi ozdravie."
+            },
+            {
+              "primary": "El Cuerpo de Cristo.",
+              "translation": "Telo Kristovo."
+            },
+            {
+              "primary": "Amén.\n"
+            }
+          ]
+        },
+        "conclusion": {
+          "title": "ORACIÓN PARA DESPUÉS DE LA COMUNIÓN – MODLITBA PO PRIJÍMANÍ<br><br><b>RITO DE CONCLUSIÓN - ZÁVEREČNÉ OBRADY</b><br>",
+          "lines": [
+            {
+              "primary": "El Señor esté con vosotros.",
+              "translation": "Pán s vami."
+            },
+            {
+              "primary": "Y con tu espíritu.",
+              "translation": "I s duchom tvojím."
+            },
+            {
+              "primaryFormat": "HTML",
+              "primary": "La bendición de Dios todopoderoso, Padre, <font color='#A32626'>†</font> Hijo y Espíritu Santo, descienda sobre vosotros.",
+              "translation": "Nech vás žehná všemohúci Boh, Otec i Syn † i Duch Svätý."
+            },
+            {
+              "primary": "Amén."
+            },
+            {
+              "primary": "Podéis ir en paz.",
+              "translation": "Choďte v mene Božom."
+            },
+            {
+              "primary": "Demos gracias a Dios.",
+              "translation": "Bohu vďaka."
+            }
+          ]
+        }
+      }
+    }
+  }
+}
